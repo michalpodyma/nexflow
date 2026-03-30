@@ -1,0 +1,31 @@
+{
+  "intake": {
+    "title": "Anmeldeformular",
+    "subtitle": "Füllen Sie das Formular aus, um in unsere Kandidatendatenbank aufgenommen zu werden",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "nationality": "Staatsangehörigkeit (ISO-Code, z.B. PL)",
+    "availabilityFrom": "Verfügbar ab",
+    "preferredPosition": "Bevorzugte Stelle",
+    "locationPreference": "Bevorzugter Standort",
+    "languages": "Sprachen (kommagetrennt, z.B. pl,en)",
+    "gdprConsent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten durch Eurojob-West sp. z o.o. zum Zweck der Personalvermittlung gemäß DSGVO zu.",
+    "submit": "Bewerbung absenden",
+    "submitting": "Wird gesendet...",
+    "successTitle": "Bewerbung gesendet!",
+    "successMessage": "Vielen Dank. Wir werden uns in Kürze bei Ihnen melden.",
+    "positions": {
+      "warehouse_picker": "Lagerarbeiter",
+      "forklift_operator": "Gabelstaplerfahrer",
+      "logistics_driver": "Logistikfahrer",
+      "other": "Sonstiges"
+    },
+    "errors": {
+      "required": "Dieses Feld ist erforderlich",
+      "gdprRequired": "Die Einwilligung zur Datenverarbeitung ist erforderlich",
+      "submitFailed": "Senden fehlgeschlagen. Bitte versuchen Sie es erneut."
+    }
+  }
+}

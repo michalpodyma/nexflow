@@ -1,0 +1,31 @@
+{
+  "intake": {
+    "title": "Formularz Rejestracyjny",
+    "subtitle": "Wypełnij formularz, aby dołączyć do naszej bazy kandydatów",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "phone": "Telefon",
+    "email": "Email",
+    "nationality": "Obywatelstwo (kod ISO, np. PL)",
+    "availabilityFrom": "Dostępność od",
+    "preferredPosition": "Preferowane stanowisko",
+    "locationPreference": "Preferowana lokalizacja",
+    "languages": "Języki (oddzielone przecinkami, np. pl,en)",
+    "gdprConsent": "Wyrażam zgodę na przetwarzanie moich danych osobowych przez Eurojob-West sp. z o.o. w celu rekrutacji, zgodnie z RODO.",
+    "submit": "Wyślij zgłoszenie",
+    "submitting": "Wysyłanie...",
+    "successTitle": "Zgłoszenie wysłane!",
+    "successMessage": "Dziękujemy. Skontaktujemy się z Tobą wkrótce.",
+    "positions": {
+      "warehouse_picker": "Pracownik magazynowy",
+      "forklift_operator": "Operator wózka widłowego",
+      "logistics_driver": "Kierowca logistyczny",
+      "other": "Inne"
+    },
+    "errors": {
+      "required": "To pole jest wymagane",
+      "gdprRequired": "Zgoda na przetwarzanie danych jest wymagana",
+      "submitFailed": "Wysyłanie nie powiodło się. Spróbuj ponownie."
+    }
+  }
+}
