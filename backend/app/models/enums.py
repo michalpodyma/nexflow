@@ -88,3 +88,12 @@ class GdprSubjectType(str, enum.Enum):
     """Entity type that a GDPR consent record refers to."""
     worker = "worker"
     candidate = "candidate"
+
+
+class LanguageCode(str, enum.Enum):
+    """ISO 639-1 language codes supported by the candidate intake form."""
+    pl = "pl"
+    de = "de"
+    en = "en"
+    uk = "uk"
+    ru = "ru"

@@ -1,13 +1,16 @@
 from datetime import datetime, timezone
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, Query, Request
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
+from app.celery_client import celery_client
 from app.database import get_db
 from app.models.candidates import Candidate
+from app.models.enums import GdprSubjectType
+from app.models.gdpr import GdprConsent
 from app.schemas.candidates import CandidateCreate, CandidateRead, PaginatedCandidates
 
 router = APIRouter(prefix="/api/v1/candidates", tags=["candidates"])
@@ -40,6 +43,7 @@ async def list_candidates(
 
 @router.post("", response_model=CandidateRead, status_code=201)
 async def create_candidate(
+    request: Request,
     body: CandidateCreate,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> CandidateRead:
@@ -47,16 +51,36 @@ async def create_candidate(
         first_name=body.first_name,
         last_name=body.last_name,
         phone=body.phone,
-        email=body.email,
+        email=str(body.email) if body.email else None,
         nationality=body.nationality,
-        availability_from=body.availability_from,
+        availability_from=datetime.combine(body.availability_from, datetime.min.time()).replace(
+            tzinfo=timezone.utc
+        ),
         preferred_position=body.preferred_position,
-        languages=body.languages,
+        languages=[lang.value for lang in body.languages],
         location_preference=body.location_preference,
         gdpr_consent=body.gdpr_consent,
-        gdpr_consent_at=datetime.now(timezone.utc) if body.gdpr_consent else None,
+        gdpr_consent_at=body.gdpr_consent_at,
     )
     db.add(candidate)
+    await db.flush()  # obtain candidate.id before writing GDPR log
+
+    ip_address = request.client.host if request.client else None
+    gdpr_log = GdprConsent(
+        subject_type=GdprSubjectType.candidate,
+        subject_id=candidate.id,
+        consent_type="recruitment_processing",
+        granted=True,
+        ip_address=ip_address,
+    )
+    db.add(gdpr_log)
     await db.commit()
     await db.refresh(candidate)
+
+    # Phase 1 stub: queue SMS confirmation (task registered in workers container)
+    celery_client.send_task(
+        "workers.tasks.candidates.send_sms_confirmation",
+        args=[str(candidate.id), candidate.phone],
+    )
+
     return CandidateRead.model_validate(candidate)

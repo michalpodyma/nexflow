@@ -8,7 +8,7 @@ celery_app = Celery(
     "nexflow",
     broker=REDIS_URL,
     backend=REDIS_URL,
-    include=["workers.tasks.example"],
+    include=["workers.tasks.example", "workers.tasks.candidates"],
 )
 
 celery_app.conf.update(

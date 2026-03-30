@@ -1,3 +1,5 @@
+export type LanguageCode = "pl" | "de" | "en" | "uk" | "ru";
+
 export type ScreeningStatus =
   | "new"
   | "chatbot_in_progress"
@@ -39,14 +41,15 @@ export interface Candidate {
 export interface CandidateCreate {
   first_name: string;
   last_name: string;
-  phone?: string;
+  phone: string;  // E.164, PL (+48) or DE (+49)
   email?: string;
-  nationality?: string;
-  availability_from?: string;
-  preferred_position?: PreferredPosition;
-  languages?: string[];
+  nationality: string;  // ISO 3166-1 alpha-2
+  availability_from: string;  // ISO date "YYYY-MM-DD"
+  preferred_position: PreferredPosition;
+  languages: LanguageCode[];
   location_preference?: string;
   gdpr_consent: boolean;
+  gdpr_consent_at: string;  // ISO datetime, client-side timestamp
 }
 
 export interface Worker {
