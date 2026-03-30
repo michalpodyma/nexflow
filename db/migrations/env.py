@@ -1,5 +1,6 @@
 import asyncio
 import os
+import sys
 from logging.config import fileConfig
 
 from sqlalchemy.ext.asyncio import create_async_engine
@@ -12,7 +13,13 @@ config = context.config
 if config.config_file_name is not None:
     fileConfig(config.config_file_name)
 
-target_metadata = None
+# Make backend importable so Alembic autogenerate can reflect SQLAlchemy models.
+# Migrations are run from the db/ directory; backend/ sits one level up.
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "..", "backend"))
+
+from app.models import Base  # noqa: E402
+
+target_metadata = Base.metadata
 
 
 def get_url() -> str:
