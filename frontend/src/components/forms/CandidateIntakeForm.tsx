@@ -80,10 +80,10 @@ const messages: Record<Locale, Messages> = {
     locationPreference: "Preferowana lokalizacja (opcjonalnie)",
     locationPreferencePlaceholder: "np. Warszawa, Słubice",
     gdprConsent:
-      "Wyrażam zgodę na przetwarzanie moich danych osobowych przez Eurojob-West sp. z o.o. w celu rekrutacji, zgodnie z RODO.",
+      "Wyrażam zgodę na przetwarzanie moich danych osobowych przez Nexflow sp. z o.o. w celu rekrutacji, zgodnie z RODO.",
     privacyPolicyLabel: "Polityka prywatności",
     privacyPolicyText:
-      "Eurojob-West sp. z o.o. przetwarza Twoje dane osobowe w celu przeprowadzenia rekrutacji na podstawie art. 6 ust. 1 lit. b RODO. Dane będą przechowywane przez 12 miesięcy od momentu złożenia aplikacji, chyba że zostaniesz zatrudniony/a — wówczas dane są przechowywane przez czas trwania stosunku pracy. Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia oraz przenoszenia. Kontakt: kontakt@eurojob-west.pl",
+      "Nexflow sp. z o.o. przetwarza Twoje dane osobowe w celu przeprowadzenia rekrutacji na podstawie art. 6 ust. 1 lit. b RODO. Dane będą przechowywane przez 12 miesięcy od momentu złożenia aplikacji, chyba że zostaniesz zatrudniony/a — wówczas dane są przechowywane przez czas trwania stosunku pracy. Masz prawo dostępu do swoich danych, ich sprostowania, usunięcia oraz przenoszenia. Kontakt: kontakt@nexflow.eu",
     submit: "Wyślij zgłoszenie",
     submitting: "Wysyłanie...",
     retry: "Spróbuj ponownie",
@@ -139,10 +139,10 @@ const messages: Record<Locale, Messages> = {
     locationPreference: "Bevorzugter Standort (optional)",
     locationPreferencePlaceholder: "z.B. Frankfurt, Słubice",
     gdprConsent:
-      "Ich stimme der Verarbeitung meiner personenbezogenen Daten durch Eurojob-West sp. z o.o. zum Zweck der Personalvermittlung gemäß DSGVO zu.",
+      "Ich stimme der Verarbeitung meiner personenbezogenen Daten durch Nexflow sp. z o.o. zum Zweck der Personalvermittlung gemäß DSGVO zu.",
     privacyPolicyLabel: "Datenschutzhinweis",
     privacyPolicyText:
-      "Eurojob-West sp. z o.o. verarbeitet Ihre personenbezogenen Daten zum Zweck der Durchführung des Bewerbungsverfahrens gemäß Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden 12 Monate nach Einreichung der Bewerbung aufbewahrt, es sei denn, Sie werden eingestellt — in diesem Fall werden die Daten für die Dauer des Beschäftigungsverhältnisses aufbewahrt. Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Datenübertragbarkeit. Kontakt: kontakt@eurojob-west.pl",
+      "Nexflow sp. z o.o. verarbeitet Ihre personenbezogenen Daten zum Zweck der Durchführung des Bewerbungsverfahrens gemäß Art. 6 Abs. 1 lit. b DSGVO. Die Daten werden 12 Monate nach Einreichung der Bewerbung aufbewahrt, es sei denn, Sie werden eingestellt — in diesem Fall werden die Daten für die Dauer des Beschäftigungsverhältnisses aufbewahrt. Sie haben das Recht auf Auskunft, Berichtigung, Löschung und Datenübertragbarkeit. Kontakt: kontakt@nexflow.eu",
     submit: "Bewerbung absenden",
     submitting: "Wird gesendet...",
     retry: "Erneut versuchen",
@@ -381,7 +381,7 @@ export function CandidateIntakeForm() {
   // ---------------------------
   if (submitted) {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-cloud-white p-4">
         <div className="w-full max-w-md rounded-xl border bg-white p-8 text-center shadow-sm">
           <div className="mb-4 flex justify-center">
             <span className="flex h-16 w-16 items-center justify-center rounded-full bg-green-100 text-3xl text-green-600">
@@ -400,7 +400,7 @@ export function CandidateIntakeForm() {
   // ---------------------------
   if (submitError && !submitting) {
     return (
-      <div className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-4">
+      <div className="flex min-h-screen flex-col items-center justify-center bg-cloud-white p-4">
         <div className="w-full max-w-md rounded-xl border bg-white p-8 text-center shadow-sm">
           <div className="mb-4 flex justify-center">
             <span className="flex h-16 w-16 items-center justify-center rounded-full bg-red-100 text-3xl text-red-600">
@@ -424,7 +424,7 @@ export function CandidateIntakeForm() {
     "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring";
 
   return (
-    <div className="min-h-screen bg-gray-50 p-4 py-8">
+    <div className="min-h-screen bg-cloud-white p-4 py-8">
       <div className="mx-auto max-w-2xl">
         {/* Language toggle */}
         <div className="mb-6 flex items-center justify-end gap-1">
@@ -647,7 +647,7 @@ export function CandidateIntakeForm() {
                 {t.privacyPolicyLabel}
               </button>
               {policyExpanded && (
-                <p className="mb-3 rounded bg-gray-50 p-3 text-xs leading-relaxed text-gray-600">
+                <p className="mb-3 rounded bg-cloud-white p-3 text-xs leading-relaxed text-gray-600">
                   {t.privacyPolicyText}
                 </p>
               )}
