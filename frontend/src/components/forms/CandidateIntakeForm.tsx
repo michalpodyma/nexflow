@@ -11,7 +11,7 @@ import type { CandidateCreate, LanguageCode, PreferredPosition } from "@/types/a
 // Types & constants
 // ---------------------------------------------------------------------------
 
-type Locale = "pl" | "de";
+type Locale = "pl" | "de" | "en" | "uk" | "id";
 
 interface Messages {
   languageToggle: string;
@@ -101,14 +101,15 @@ const messages: Record<Locale, Messages> = {
       de: "Niemiecki",
       en: "Angielski",
       uk: "Ukraiński",
-      ru: "Rosyjski",
+      id: "Indonezyjski",
+      es: "Hiszpański",
     },
     errors: {
       firstNameRequired: "Imię jest wymagane",
       lastNameRequired: "Nazwisko jest wymagane",
       phoneRequired: "Numer telefonu jest wymagany",
       phoneInvalid:
-        "Podaj numer w formacie E.164 dla Polski (+48XXXXXXXXX) lub Niemiec (+49XXXXXXXXX)",
+        "Podaj numer w formacie E.164 (np. +380 12 345 6789)",
       nationalityRequired: "Obywatelstwo jest wymagane",
       availabilityRequired: "Data dostępności jest wymagana",
       positionRequired: "Preferowane stanowisko jest wymagane",
@@ -160,20 +161,198 @@ const messages: Record<Locale, Messages> = {
       de: "Deutsch",
       en: "Englisch",
       uk: "Ukrainisch",
-      ru: "Russisch",
+      id: "Indonesisch",
+      es: "Spanisch",
     },
     errors: {
       firstNameRequired: "Vorname ist erforderlich",
       lastNameRequired: "Nachname ist erforderlich",
       phoneRequired: "Telefonnummer ist erforderlich",
       phoneInvalid:
-        "Bitte geben Sie eine E.164-Nummer für Polen (+48XXXXXXXXX) oder Deutschland (+49XXXXXXXXX) ein",
+        "Bitte geben Sie eine internationale E.164-Nummer ein (z.B. +380 12 345 6789)",
       nationalityRequired: "Staatsangehörigkeit ist erforderlich",
       availabilityRequired: "Verfügbarkeitsdatum ist erforderlich",
       positionRequired: "Bevorzugte Stelle ist erforderlich",
       languagesRequired: "Wählen Sie mindestens eine Sprache aus",
       gdprRequired: "Die Einwilligung zur Datenverarbeitung ist erforderlich",
       submitFailed: "Senden fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    },
+  },
+  en: {
+    languageToggle: "Language",
+    title: "Registration Form",
+    subtitle: "Fill in the form to join our candidate database.",
+    firstName: "First Name",
+    firstNamePlaceholder: "John",
+    lastName: "Last Name",
+    lastNamePlaceholder: "Smith",
+    phone: "Phone",
+    phonePlaceholder: "+380 12 345 6789",
+    email: "Email (optional)",
+    emailPlaceholder: "john@example.com",
+    nationality: "Nationality",
+    nationalityPlaceholder: "Select country...",
+    availabilityFrom: "Available from",
+    preferredPosition: "Preferred position",
+    preferredPositionPlaceholder: "Select position...",
+    languages: "Language skills",
+    locationPreference: "Preferred location (optional)",
+    locationPreferencePlaceholder: "e.g. Warsaw, Słubice",
+    gdprConsent:
+      "I consent to the processing of my personal data by Nexflow sp. z o.o. for recruitment purposes, in accordance with GDPR.",
+    privacyPolicyLabel: "Privacy Policy",
+    privacyPolicyText:
+      "Nexflow sp. z o.o. processes your personal data for the purpose of conducting the recruitment process pursuant to Art. 6(1)(b) GDPR. Data will be stored for 12 months from application submission, unless you are hired — in which case data is retained for the duration of employment. You have the right to access, rectify, erase, and port your data. Contact: kontakt@nexflow.eu",
+    submit: "Submit application",
+    submitting: "Submitting...",
+    retry: "Try again",
+    successTitle: "Application submitted!",
+    successMessage: "Thank you. We will contact you shortly.",
+    errorTitle: "Submission error",
+    positions: {
+      warehouse_picker: "Warehouse worker",
+      forklift_operator: "Forklift operator",
+      logistics_driver: "Logistics driver",
+      other: "Other",
+    },
+    languageOptions: {
+      pl: "Polish",
+      de: "German",
+      en: "English",
+      uk: "Ukrainian",
+      id: "Indonesian",
+      es: "Spanish",
+    },
+    errors: {
+      firstNameRequired: "First name is required",
+      lastNameRequired: "Last name is required",
+      phoneRequired: "Phone number is required",
+      phoneInvalid:
+        "Enter a valid international phone number in E.164 format (e.g. +380 12 345 6789)",
+      nationalityRequired: "Nationality is required",
+      availabilityRequired: "Availability date is required",
+      positionRequired: "Preferred position is required",
+      languagesRequired: "Select at least one language",
+      gdprRequired: "Consent to data processing is required",
+      submitFailed: "Submission failed. Please try again.",
+    },
+  },
+  uk: {
+    languageToggle: "Мова",
+    title: "Реєстраційна форма",
+    subtitle: "Заповніть форму, щоб приєднатися до нашої бази кандидатів.",
+    firstName: "Ім'я",
+    firstNamePlaceholder: "Іван",
+    lastName: "Прізвище",
+    lastNamePlaceholder: "Коваленко",
+    phone: "Телефон",
+    phonePlaceholder: "+380 12 345 6789",
+    email: "Email (необов'язково)",
+    emailPlaceholder: "ivan@example.com",
+    nationality: "Громадянство",
+    nationalityPlaceholder: "Оберіть країну...",
+    availabilityFrom: "Доступний з",
+    preferredPosition: "Бажана посада",
+    preferredPositionPlaceholder: "Оберіть посаду...",
+    languages: "Знання мов",
+    locationPreference: "Бажане місце роботи (необов'язково)",
+    locationPreferencePlaceholder: "напр. Варшава, Слубіце",
+    gdprConsent:
+      "Я даю згоду на обробку моїх персональних даних компанією Nexflow sp. z o.o. з метою рекрутингу відповідно до GDPR.",
+    privacyPolicyLabel: "Політика конфіденційності",
+    privacyPolicyText:
+      "Nexflow sp. z o.o. обробляє ваші персональні дані з метою проведення процесу підбору персоналу на підставі ст. 6(1)(b) GDPR. Дані зберігатимуться протягом 12 місяців після подання заявки, якщо вас не буде прийнято на роботу — у такому випадку дані зберігаються протягом трудових відносин. Ви маєте право на доступ, виправлення, видалення та перенесення даних. Контакт: kontakt@nexflow.eu",
+    submit: "Надіслати заявку",
+    submitting: "Надсилання...",
+    retry: "Спробувати знову",
+    successTitle: "Заявку надіслано!",
+    successMessage: "Дякуємо. Ми зв'яжемося з вами незабаром.",
+    errorTitle: "Помилка надсилання",
+    positions: {
+      warehouse_picker: "Складський працівник",
+      forklift_operator: "Оператор навантажувача",
+      logistics_driver: "Водій логістики",
+      other: "Інше",
+    },
+    languageOptions: {
+      pl: "Польська",
+      de: "Німецька",
+      en: "Англійська",
+      uk: "Українська",
+      id: "Індонезійська",
+      es: "Іспанська",
+    },
+    errors: {
+      firstNameRequired: "Ім'я є обов'язковим",
+      lastNameRequired: "Прізвище є обов'язковим",
+      phoneRequired: "Номер телефону є обов'язковим",
+      phoneInvalid:
+        "Введіть дійсний міжнародний номер у форматі E.164 (напр. +380 12 345 6789)",
+      nationalityRequired: "Громадянство є обов'язковим",
+      availabilityRequired: "Дата доступності є обов'язковою",
+      positionRequired: "Бажана посада є обов'язковою",
+      languagesRequired: "Оберіть принаймні одну мову",
+      gdprRequired: "Згода на обробку даних є обов'язковою",
+      submitFailed: "Надсилання не вдалося. Спробуйте знову.",
+    },
+  },
+  id: {
+    languageToggle: "Bahasa",
+    title: "Formulir Pendaftaran",
+    subtitle: "Isi formulir untuk bergabung dengan database kandidat kami.",
+    firstName: "Nama Depan",
+    firstNamePlaceholder: "Budi",
+    lastName: "Nama Belakang",
+    lastNamePlaceholder: "Santoso",
+    phone: "Telepon",
+    phonePlaceholder: "+62 812 3456 789",
+    email: "Email (opsional)",
+    emailPlaceholder: "budi@example.com",
+    nationality: "Kewarganegaraan",
+    nationalityPlaceholder: "Pilih negara...",
+    availabilityFrom: "Tersedia mulai",
+    preferredPosition: "Posisi yang diinginkan",
+    preferredPositionPlaceholder: "Pilih posisi...",
+    languages: "Kemampuan bahasa",
+    locationPreference: "Preferensi lokasi (opsional)",
+    locationPreferencePlaceholder: "mis. Warsawa, Słubice",
+    gdprConsent:
+      "Saya menyetujui pemrosesan data pribadi saya oleh Nexflow sp. z o.o. untuk tujuan rekrutmen, sesuai dengan GDPR.",
+    privacyPolicyLabel: "Kebijakan Privasi",
+    privacyPolicyText:
+      "Nexflow sp. z o.o. memproses data pribadi Anda untuk keperluan rekrutmen berdasarkan Pasal 6(1)(b) GDPR. Data akan disimpan selama 12 bulan setelah pengajuan lamaran, kecuali Anda dipekerjakan — dalam hal ini data disimpan selama masa kerja. Anda berhak mengakses, memperbaiki, menghapus, dan memindahkan data Anda. Kontak: kontakt@nexflow.eu",
+    submit: "Kirim lamaran",
+    submitting: "Mengirim...",
+    retry: "Coba lagi",
+    successTitle: "Lamaran terkirim!",
+    successMessage: "Terima kasih. Kami akan menghubungi Anda segera.",
+    errorTitle: "Kesalahan pengiriman",
+    positions: {
+      warehouse_picker: "Pekerja gudang",
+      forklift_operator: "Operator forklift",
+      logistics_driver: "Pengemudi logistik",
+      other: "Lainnya",
+    },
+    languageOptions: {
+      pl: "Bahasa Polandia",
+      de: "Bahasa Jerman",
+      en: "Bahasa Inggris",
+      uk: "Bahasa Ukraina",
+      id: "Bahasa Indonesia",
+      es: "Bahasa Spanyol",
+    },
+    errors: {
+      firstNameRequired: "Nama depan wajib diisi",
+      lastNameRequired: "Nama belakang wajib diisi",
+      phoneRequired: "Nomor telepon wajib diisi",
+      phoneInvalid:
+        "Masukkan nomor telepon internasional yang valid dalam format E.164 (mis. +62 812 3456 789)",
+      nationalityRequired: "Kewarganegaraan wajib diisi",
+      availabilityRequired: "Tanggal ketersediaan wajib diisi",
+      positionRequired: "Posisi yang diinginkan wajib diisi",
+      languagesRequired: "Pilih setidaknya satu bahasa",
+      gdprRequired: "Persetujuan pemrosesan data wajib diberikan",
+      submitFailed: "Pengiriman gagal. Silakan coba lagi.",
     },
   },
 };
@@ -185,7 +364,7 @@ const POSITIONS: PreferredPosition[] = [
   "other",
 ];
 
-const LANGUAGE_CODES: LanguageCode[] = ["pl", "de", "en", "uk", "ru"];
+const LANGUAGE_CODES: LanguageCode[] = ["pl", "de", "en", "uk", "id", "es"];
 
 // Top nationality options shown first in the select, then a divider, then the rest
 const TOP_NATIONALITIES = ["PL", "UA", "DE", "BY", "MD", "RO"] as const;
@@ -219,10 +398,43 @@ const COUNTRY_NAMES: Record<Locale, Record<string, string>> = {
     RU: "Russland", SE: "Schweden", SI: "Slowenien", SK: "Slowakei", TR: "Türkei",
     UZ: "Usbekistan", VN: "Vietnam", XK: "Kosovo",
   },
+  en: {
+    PL: "Poland", UA: "Ukraine", DE: "Germany", BY: "Belarus", MD: "Moldova", RO: "Romania",
+    AL: "Albania", AM: "Armenia", AT: "Austria", AZ: "Azerbaijan", BA: "Bosnia and Herzegovina",
+    BE: "Belgium", BG: "Bulgaria", CZ: "Czech Republic", DK: "Denmark", EE: "Estonia",
+    ES: "Spain", FI: "Finland", FR: "France", GB: "United Kingdom", GE: "Georgia",
+    GR: "Greece", HR: "Croatia", HU: "Hungary", IN: "India", IT: "Italy",
+    KZ: "Kazakhstan", LT: "Lithuania", LU: "Luxembourg", LV: "Latvia", MK: "North Macedonia",
+    NL: "Netherlands", NO: "Norway", PK: "Pakistan", PT: "Portugal", RS: "Serbia",
+    RU: "Russia", SE: "Sweden", SI: "Slovenia", SK: "Slovakia", TR: "Turkey",
+    UZ: "Uzbekistan", VN: "Vietnam", XK: "Kosovo",
+  },
+  uk: {
+    PL: "Польща", UA: "Україна", DE: "Німеччина", BY: "Білорусь", MD: "Молдова", RO: "Румунія",
+    AL: "Албанія", AM: "Вірменія", AT: "Австрія", AZ: "Азербайджан", BA: "Боснія і Герцеговина",
+    BE: "Бельгія", BG: "Болгарія", CZ: "Чехія", DK: "Данія", EE: "Естонія",
+    ES: "Іспанія", FI: "Фінляндія", FR: "Франція", GB: "Велика Британія", GE: "Грузія",
+    GR: "Греція", HR: "Хорватія", HU: "Угорщина", IN: "Індія", IT: "Італія",
+    KZ: "Казахстан", LT: "Литва", LU: "Люксембург", LV: "Латвія", MK: "Північна Македонія",
+    NL: "Нідерланди", NO: "Норвегія", PK: "Пакистан", PT: "Португалія", RS: "Сербія",
+    RU: "Росія", SE: "Швеція", SI: "Словенія", SK: "Словаччина", TR: "Туреччина",
+    UZ: "Узбекистан", VN: "В'єтнам", XK: "Косово",
+  },
+  id: {
+    PL: "Polandia", UA: "Ukraina", DE: "Jerman", BY: "Belarus", MD: "Moldova", RO: "Rumania",
+    AL: "Albania", AM: "Armenia", AT: "Austria", AZ: "Azerbaijan", BA: "Bosnia dan Herzegovina",
+    BE: "Belgia", BG: "Bulgaria", CZ: "Republik Ceko", DK: "Denmark", EE: "Estonia",
+    ES: "Spanyol", FI: "Finlandia", FR: "Prancis", GB: "Inggris Raya", GE: "Georgia",
+    GR: "Yunani", HR: "Kroasia", HU: "Hungaria", IN: "India", IT: "Italia",
+    KZ: "Kazakhstan", LT: "Lituania", LU: "Luksemburg", LV: "Latvia", MK: "Makedonia Utara",
+    NL: "Belanda", NO: "Norwegia", PK: "Pakistan", PT: "Portugal", RS: "Serbia",
+    RU: "Rusia", SE: "Swedia", SI: "Slovenia", SK: "Slovakia", TR: "Turki",
+    UZ: "Uzbekistan", VN: "Vietnam", XK: "Kosovo",
+  },
 };
 
-// E.164: PL = +48 + 9 digits, DE = +49 + 9–12 digits
-const E164_PL_DE = /^\+(48\d{9}|49\d{9,12})$/;
+// E.164: international format — country code (1–3 digits) + subscriber number, 7–15 digits total
+const E164_INTL = /^\+[1-9]\d{6,14}$/;
 
 function todayISO(): string {
   return new Date().toISOString().split("T")[0]!;
@@ -264,7 +476,7 @@ function validateField(
     case "phone": {
       const v = typeof value === "string" ? value.trim() : "";
       if (!v) return t.phoneRequired;
-      return E164_PL_DE.test(v) ? "" : t.phoneInvalid;
+      return E164_INTL.test(v) ? "" : t.phoneInvalid;
     }
     case "nationality":
       return typeof value === "string" && value ? "" : t.nationalityRequired;
@@ -429,7 +641,7 @@ export function CandidateIntakeForm() {
         {/* Language toggle */}
         <div className="mb-6 flex items-center justify-end gap-1">
           <span className="mr-2 text-sm text-gray-500">{t.languageToggle}:</span>
-          {(["pl", "de"] as Locale[]).map((loc) => (
+          {(["pl", "de", "en", "uk", "id"] as Locale[]).map((loc) => (
             <button
               key={loc}
               type="button"

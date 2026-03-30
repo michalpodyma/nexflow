@@ -1,4 +1,4 @@
-export type LanguageCode = "pl" | "de" | "en" | "uk" | "ru";
+export type LanguageCode = "pl" | "de" | "en" | "uk" | "id" | "es";
 
 export type ScreeningStatus =
   | "new"
@@ -41,7 +41,7 @@ export interface Candidate {
 export interface CandidateCreate {
   first_name: string;
   last_name: string;
-  phone: string;  // E.164, PL (+48) or DE (+49)
+  phone: string;  // E.164 international format
   email?: string;
   nationality: string;  // ISO 3166-1 alpha-2
   availability_from: string;  // ISO date "YYYY-MM-DD"
