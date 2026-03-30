@@ -1,26 +1,21 @@
-import type { TokenResponse } from "@/types/api";
+// Access tokens are stored in sessionStorage (cleared on tab close, not persisted).
+// Refresh tokens are stored in an httpOnly cookie managed by the backend —
+// they are never accessible to JavaScript.
 
 const ACCESS_KEY = "nexflow_access_token";
-const REFRESH_KEY = "nexflow_refresh_token";
 
 export function getAccessToken(): string | null {
   if (typeof window === "undefined") return null;
-  return localStorage.getItem(ACCESS_KEY);
+  return sessionStorage.getItem(ACCESS_KEY);
 }
 
-export function getRefreshToken(): string | null {
-  if (typeof window === "undefined") return null;
-  return localStorage.getItem(REFRESH_KEY);
-}
-
-export function storeTokens(tokens: TokenResponse): void {
-  localStorage.setItem(ACCESS_KEY, tokens.access_token);
-  localStorage.setItem(REFRESH_KEY, tokens.refresh_token);
+export function storeAccessToken(accessToken: string): void {
+  sessionStorage.setItem(ACCESS_KEY, accessToken);
 }
 
 export function clearTokens(): void {
-  localStorage.removeItem(ACCESS_KEY);
-  localStorage.removeItem(REFRESH_KEY);
+  if (typeof window === "undefined") return;
+  sessionStorage.removeItem(ACCESS_KEY);
 }
 
 export function isAuthenticated(): boolean {

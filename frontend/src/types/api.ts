@@ -93,6 +93,6 @@ export interface Paginated<T> {
 
 export interface TokenResponse {
   access_token: string;
-  refresh_token: string;
   token_type: string;
+  // refresh_token is managed as an httpOnly cookie — not returned in the JSON body
 }

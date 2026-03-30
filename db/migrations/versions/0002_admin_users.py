@@ -51,8 +51,8 @@ def upgrade() -> None:
     op.execute(
         sa.text(
             "INSERT INTO admin_users (username, hashed_password) "
-            f"VALUES ('admin', '{_ADMIN_PASSWORD_HASH}')"
-        )
+            "VALUES (:username, :hashed_password)"
+        ).bindparams(username="admin", hashed_password=_ADMIN_PASSWORD_HASH)
     )
 
 

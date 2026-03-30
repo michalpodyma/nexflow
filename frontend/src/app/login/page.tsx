@@ -6,7 +6,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { login } from "@/lib/api";
-import { storeTokens } from "@/lib/auth";
+import { storeAccessToken } from "@/lib/auth";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -21,7 +21,7 @@ export default function LoginPage() {
     setLoading(true);
     try {
       const tokens = await login(username, password);
-      storeTokens(tokens);
+      storeAccessToken(tokens.access_token);
       router.push("/dashboard");
     } catch {
       setError("Invalid username or password.");

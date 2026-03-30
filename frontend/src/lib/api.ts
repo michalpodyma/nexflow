@@ -1,4 +1,4 @@
-import { clearTokens, getAccessToken, getRefreshToken, storeTokens } from "@/lib/auth";
+import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
 import type { Candidate, CandidateCreate, Client, Paginated, TokenResponse, Worker } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
@@ -14,13 +14,10 @@ class ApiError extends Error {
 }
 
 async function refreshAccessToken(): Promise<string | null> {
-  const refreshToken = getRefreshToken();
-  if (!refreshToken) return null;
-
+  // The httpOnly refresh cookie is sent automatically via credentials: "include"
   const res = await fetch(`${BASE_URL}/auth/refresh`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ refresh_token: refreshToken }),
+    credentials: "include",
   });
 
   if (!res.ok) {
@@ -29,7 +26,7 @@ async function refreshAccessToken(): Promise<string | null> {
   }
 
   const tokens: TokenResponse = await res.json();
-  storeTokens(tokens);
+  storeAccessToken(tokens.access_token);
   return tokens.access_token;
 }
 
@@ -41,7 +38,11 @@ async function request<T>(path: string, init: RequestInit = {}, retry = true): P
   };
   if (token) headers["Authorization"] = `Bearer ${token}`;
 
-  const res = await fetch(`${BASE_URL}${path}`, { ...init, headers });
+  const res = await fetch(`${BASE_URL}${path}`, {
+    ...init,
+    headers,
+    credentials: "include",
+  });
 
   if (res.status === 401 && retry) {
     const newToken = await refreshAccessToken();
@@ -55,7 +56,13 @@ async function request<T>(path: string, init: RequestInit = {}, retry = true): P
   }
 
   if (!res.ok) {
-    const detail = await res.text();
+    let detail = res.statusText;
+    try {
+      const body = await res.json();
+      detail = body.detail ?? detail;
+    } catch {
+      // non-JSON error body — use statusText
+    }
     throw new ApiError(res.status, detail);
   }
 
@@ -68,23 +75,25 @@ export async function login(username: string, password: string): Promise<TokenRe
   const res = await fetch(`${BASE_URL}/auth/login`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
+    credentials: "include",
     body: JSON.stringify({ username, password }),
   });
   if (!res.ok) throw new ApiError(res.status, "Invalid credentials");
   return res.json();
 }
 
-export async function logout(refreshToken: string): Promise<void> {
+export async function logout(): Promise<void> {
   await fetch(`${BASE_URL}/auth/logout`, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ refresh_token: refreshToken }),
+    credentials: "include",
   });
+  clearTokens();
 }
 
 // Candidates
 export function getCandidates(page = 1, pageSize = 20): Promise<Paginated<Candidate>> {
-  return request<Paginated<Candidate>>(`/api/v1/candidates?page=${page}&page_size=${pageSize}`);
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<Candidate>>(`/api/v1/candidates?${params}`);
 }
 
 export function createCandidate(data: CandidateCreate): Promise<Candidate> {
@@ -96,10 +105,12 @@ export function createCandidate(data: CandidateCreate): Promise<Candidate> {
 
 // Workers
 export function getWorkers(page = 1, pageSize = 20): Promise<Paginated<Worker>> {
-  return request<Paginated<Worker>>(`/api/v1/workers?page=${page}&page_size=${pageSize}`);
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<Worker>>(`/api/v1/workers?${params}`);
 }
 
 // Clients
 export function getClients(page = 1, pageSize = 20): Promise<Paginated<Client>> {
-  return request<Paginated<Client>>(`/api/v1/clients?page=${page}&page_size=${pageSize}`);
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<Client>>(`/api/v1/clients?${params}`);
 }

@@ -3,9 +3,10 @@ from datetime import datetime, timedelta, timezone
 from typing import Annotated
 
 import redis.asyncio as aioredis
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
 from jose import JWTError, jwt
 from passlib.context import CryptContext
+from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -16,6 +17,8 @@ from app.database import get_db
 router = APIRouter(prefix="/auth", tags=["auth"])
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
+
+_REFRESH_COOKIE = "nexflow_refresh"
 
 
 # ---------------------------------------------------------------------------
@@ -45,15 +48,25 @@ def _create_refresh_token(username: str, jti: str) -> str:
     return jwt.encode(payload, settings.jwt_secret_key, algorithm=settings.jwt_algorithm)
 
 
-def _get_redis() -> aioredis.Redis:  # type: ignore[type-arg]
-    return aioredis.from_url(settings.redis_url, decode_responses=True)
+def _set_refresh_cookie(response: Response, token: str) -> None:
+    response.set_cookie(
+        key=_REFRESH_COOKIE,
+        value=token,
+        httponly=True,
+        samesite="lax",
+        secure=settings.cookie_secure,
+        max_age=settings.refresh_token_expire_days * 86400,
+        path="/auth",
+    )
+
+
+def _clear_refresh_cookie(response: Response) -> None:
+    response.delete_cookie(key=_REFRESH_COOKIE, path="/auth")
 
 
 # ---------------------------------------------------------------------------
-# Schemas (inline — small enough not to warrant a separate file)
+# Schemas
 # ---------------------------------------------------------------------------
-
-from pydantic import BaseModel
 
 
 class LoginRequest(BaseModel):
@@ -63,12 +76,7 @@ class LoginRequest(BaseModel):
 
 class TokenResponse(BaseModel):
     access_token: str
-    refresh_token: str
     token_type: str = "bearer"
-
-
-class RefreshRequest(BaseModel):
-    refresh_token: str
 
 
 # ---------------------------------------------------------------------------
@@ -79,6 +87,7 @@ class RefreshRequest(BaseModel):
 @router.post("/login", response_model=TokenResponse)
 async def login(
     body: LoginRequest,
+    response: Response,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> TokenResponse:
     result = await db.execute(select(AdminUser).where(AdminUser.username == body.username))
@@ -94,19 +103,26 @@ async def login(
     access_token = _create_access_token(user.username)
     refresh_token = _create_refresh_token(user.username, jti)
 
-    redis = _get_redis()
-    ttl = settings.refresh_token_expire_days * 86400
-    await redis.setex(f"refresh:{jti}", ttl, user.username)
-    await redis.aclose()
+    redis = aioredis.from_url(settings.redis_url, decode_responses=True)
+    try:
+        ttl = settings.refresh_token_expire_days * 86400
+        await redis.setex(f"refresh:{jti}", ttl, user.username)
+    finally:
+        await redis.aclose()
 
-    return TokenResponse(access_token=access_token, refresh_token=refresh_token)
+    _set_refresh_cookie(response, refresh_token)
+    return TokenResponse(access_token=access_token)
 
 
 @router.post("/refresh", response_model=TokenResponse)
-async def refresh(body: RefreshRequest) -> TokenResponse:
+async def refresh(request: Request, response: Response) -> TokenResponse:
+    raw = request.cookies.get(_REFRESH_COOKIE)
+    if not raw:
+        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Missing refresh token")
+
     try:
         payload = jwt.decode(
-            body.refresh_token,
+            raw,
             settings.jwt_secret_key,
             algorithms=[settings.jwt_algorithm],
         )
@@ -118,38 +134,43 @@ async def refresh(body: RefreshRequest) -> TokenResponse:
     except JWTError:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Invalid token")
 
-    redis = _get_redis()
-    stored = await redis.get(f"refresh:{jti}")
-    await redis.aclose()
+    redis = aioredis.from_url(settings.redis_url, decode_responses=True)
+    try:
+        stored = await redis.get(f"refresh:{jti}")
+        if stored is None or stored != username:
+            raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token revoked")
 
-    if stored is None or stored != username:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED, detail="Token revoked")
+        new_jti = str(uuid.uuid4())
+        access_token = _create_access_token(username)
+        new_refresh_token = _create_refresh_token(username, new_jti)
 
-    new_jti = str(uuid.uuid4())
-    access_token = _create_access_token(username)
-    new_refresh_token = _create_refresh_token(username, new_jti)
+        ttl = settings.refresh_token_expire_days * 86400
+        await redis.delete(f"refresh:{jti}")
+        await redis.setex(f"refresh:{new_jti}", ttl, username)
+    finally:
+        await redis.aclose()
 
-    redis = _get_redis()
-    ttl = settings.refresh_token_expire_days * 86400
-    await redis.delete(f"refresh:{jti}")
-    await redis.setex(f"refresh:{new_jti}", ttl, username)
-    await redis.aclose()
-
-    return TokenResponse(access_token=access_token, refresh_token=new_refresh_token)
+    _set_refresh_cookie(response, new_refresh_token)
+    return TokenResponse(access_token=access_token)
 
 
 @router.post("/logout", status_code=status.HTTP_204_NO_CONTENT)
-async def logout(body: RefreshRequest) -> None:
-    try:
-        payload = jwt.decode(
-            body.refresh_token,
-            settings.jwt_secret_key,
-            algorithms=[settings.jwt_algorithm],
-        )
-        jti: str | None = payload.get("jti")
-        if jti:
-            redis = _get_redis()
-            await redis.delete(f"refresh:{jti}")
-            await redis.aclose()
-    except JWTError:
-        pass  # Expired/invalid tokens are silently ignored on logout
+async def logout(request: Request, response: Response) -> None:
+    raw = request.cookies.get(_REFRESH_COOKIE)
+    if raw:
+        try:
+            payload = jwt.decode(
+                raw,
+                settings.jwt_secret_key,
+                algorithms=[settings.jwt_algorithm],
+            )
+            jti: str | None = payload.get("jti")
+            if jti:
+                redis = aioredis.from_url(settings.redis_url, decode_responses=True)
+                try:
+                    await redis.delete(f"refresh:{jti}")
+                finally:
+                    await redis.aclose()
+        except JWTError:
+            pass  # Expired/invalid tokens are silently ignored on logout
+    _clear_refresh_cookie(response)
