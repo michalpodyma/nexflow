@@ -5,7 +5,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { submitCandidateIntake } from "@/lib/api";
-import type { CandidateCreate, LanguageCode, PreferredPosition } from "@/types/api";
+import type { CandidateCreate, DocumentType, LanguageCode, PreferredPosition } from "@/types/api";
 
 // ---------------------------------------------------------------------------
 // Types & constants
@@ -44,6 +44,11 @@ interface Messages {
   errorTitle: string;
   positions: Record<PreferredPosition, string>;
   languageOptions: Record<LanguageCode, string>;
+  documentType: string;
+  documentTypePlaceholder: string;
+  documentTypes: Record<DocumentType, string>;
+  cvUpload: string;
+  cvHint: string;
   errors: {
     firstNameRequired: string;
     lastNameRequired: string;
@@ -88,7 +93,7 @@ const messages: Record<Locale, Messages> = {
     submitting: "Wysyłanie...",
     retry: "Spróbuj ponownie",
     successTitle: "Zgłoszenie wysłane!",
-    successMessage: "Dziękujemy. Skontaktujemy się z Tobą wkrótce.",
+    successMessage: "Dziękujemy! Skontaktujemy się z Tobą w ciągu 24 godzin.",
     errorTitle: "Błąd wysyłania",
     positions: {
       warehouse_picker: "Pracownik magazynowy",
@@ -104,6 +109,16 @@ const messages: Record<Locale, Messages> = {
       id: "Indonezyjski",
       es: "Hiszpański",
     },
+    documentType: "Typ dokumentu (opcjonalnie)",
+    documentTypePlaceholder: "Wybierz typ dokumentu...",
+    documentTypes: {
+      ukrainian_passport: "Paszport ukraiński",
+      eu_id: "Dowód tożsamości UE",
+      work_permit: "Zezwolenie na pracę",
+      none: "Inny / Brak",
+    },
+    cvUpload: "CV (PDF, max 10 MB — opcjonalnie)",
+    cvHint: "Prześlij CV w formacie PDF",
     errors: {
       firstNameRequired: "Imię jest wymagane",
       lastNameRequired: "Nazwisko jest wymagane",
@@ -148,7 +163,7 @@ const messages: Record<Locale, Messages> = {
     submitting: "Wird gesendet...",
     retry: "Erneut versuchen",
     successTitle: "Bewerbung gesendet!",
-    successMessage: "Vielen Dank. Wir werden uns in Kürze bei Ihnen melden.",
+    successMessage: "Vielen Dank! Wir werden uns innerhalb von 24 Stunden bei Ihnen melden.",
     errorTitle: "Fehler beim Senden",
     positions: {
       warehouse_picker: "Lagerarbeiter",
@@ -164,6 +179,16 @@ const messages: Record<Locale, Messages> = {
       id: "Indonesisch",
       es: "Spanisch",
     },
+    documentType: "Dokumententyp (optional)",
+    documentTypePlaceholder: "Dokumententyp auswählen...",
+    documentTypes: {
+      ukrainian_passport: "Ukrainischer Reisepass",
+      eu_id: "EU-Personalausweis",
+      work_permit: "Arbeitserlaubnis",
+      none: "Sonstiges / Kein",
+    },
+    cvUpload: "Lebenslauf (PDF, max. 10 MB — optional)",
+    cvHint: "Lebenslauf im PDF-Format hochladen",
     errors: {
       firstNameRequired: "Vorname ist erforderlich",
       lastNameRequired: "Nachname ist erforderlich",
@@ -207,7 +232,7 @@ const messages: Record<Locale, Messages> = {
     submitting: "Submitting...",
     retry: "Try again",
     successTitle: "Application submitted!",
-    successMessage: "Thank you. We will contact you shortly.",
+    successMessage: "Thank you! We will contact you within 24 hours.",
     errorTitle: "Submission error",
     positions: {
       warehouse_picker: "Warehouse worker",
@@ -223,6 +248,16 @@ const messages: Record<Locale, Messages> = {
       id: "Indonesian",
       es: "Spanish",
     },
+    documentType: "Document type (optional)",
+    documentTypePlaceholder: "Select document type...",
+    documentTypes: {
+      ukrainian_passport: "Ukrainian passport",
+      eu_id: "EU ID card",
+      work_permit: "Work permit",
+      none: "Other / None",
+    },
+    cvUpload: "CV (PDF, max 10 MB — optional)",
+    cvHint: "Upload your CV in PDF format",
     errors: {
       firstNameRequired: "First name is required",
       lastNameRequired: "Last name is required",
@@ -266,7 +301,7 @@ const messages: Record<Locale, Messages> = {
     submitting: "Надсилання...",
     retry: "Спробувати знову",
     successTitle: "Заявку надіслано!",
-    successMessage: "Дякуємо. Ми зв'яжемося з вами незабаром.",
+    successMessage: "Дякуємо! Ми зв'яжемося з вами протягом 24 годин.",
     errorTitle: "Помилка надсилання",
     positions: {
       warehouse_picker: "Складський працівник",
@@ -282,6 +317,16 @@ const messages: Record<Locale, Messages> = {
       id: "Індонезійська",
       es: "Іспанська",
     },
+    documentType: "Тип документа (необов'язково)",
+    documentTypePlaceholder: "Оберіть тип документа...",
+    documentTypes: {
+      ukrainian_passport: "Паспорт України",
+      eu_id: "Посвідчення ЄС",
+      work_permit: "Дозвіл на роботу",
+      none: "Інший / Відсутній",
+    },
+    cvUpload: "CV (PDF, макс. 10 МБ — необов'язково)",
+    cvHint: "Завантажте CV у форматі PDF",
     errors: {
       firstNameRequired: "Ім'я є обов'язковим",
       lastNameRequired: "Прізвище є обов'язковим",
@@ -325,7 +370,7 @@ const messages: Record<Locale, Messages> = {
     submitting: "Mengirim...",
     retry: "Coba lagi",
     successTitle: "Lamaran terkirim!",
-    successMessage: "Terima kasih. Kami akan menghubungi Anda segera.",
+    successMessage: "Terima kasih! Kami akan menghubungi Anda dalam 24 jam.",
     errorTitle: "Kesalahan pengiriman",
     positions: {
       warehouse_picker: "Pekerja gudang",
@@ -341,6 +386,16 @@ const messages: Record<Locale, Messages> = {
       id: "Bahasa Indonesia",
       es: "Bahasa Spanyol",
     },
+    documentType: "Jenis dokumen (opsional)",
+    documentTypePlaceholder: "Pilih jenis dokumen...",
+    documentTypes: {
+      ukrainian_passport: "Paspor Ukraina",
+      eu_id: "KTP Uni Eropa",
+      work_permit: "Izin kerja",
+      none: "Lainnya / Tidak ada",
+    },
+    cvUpload: "CV (PDF, maks. 10 MB — opsional)",
+    cvHint: "Unggah CV dalam format PDF",
     errors: {
       firstNameRequired: "Nama depan wajib diisi",
       lastNameRequired: "Nama belakang wajib diisi",
@@ -365,6 +420,10 @@ const POSITIONS: PreferredPosition[] = [
 ];
 
 const LANGUAGE_CODES: LanguageCode[] = ["pl", "de", "en", "uk", "id", "es"];
+
+const DOCUMENT_TYPES: DocumentType[] = ["ukrainian_passport", "eu_id", "work_permit", "none"];
+
+const MAX_CV_SIZE = 10 * 1024 * 1024; // 10 MB
 
 // Top nationality options shown first in the select, then a divider, then the rest
 const TOP_NATIONALITIES = ["PL", "UA", "DE", "BY", "MD", "RO"] as const;
@@ -454,6 +513,7 @@ interface FormState {
   preferred_position: PreferredPosition | "";
   languages: Set<LanguageCode>;
   location_preference: string;
+  document_type: DocumentType | "";
   gdpr_consent: boolean;
 }
 
@@ -511,8 +571,12 @@ export function CandidateIntakeForm() {
     preferred_position: "",
     languages: new Set<LanguageCode>(),
     location_preference: "",
+    document_type: "",
     gdpr_consent: false,
   });
+
+  const [cvFile, setCvFile] = useState<File | null>(null);
+  const [cvError, setCvError] = useState("");
 
   const [errors, setErrors] = useState<ErrorMap>({});
   const [submitting, setSubmitting] = useState(false);
@@ -551,9 +615,28 @@ export function CandidateIntakeForm() {
     setErrors((prev) => ({ ...prev, languages: undefined }));
   }
 
+  function handleCvChange(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0] ?? null;
+    if (file) {
+      if (file.type !== "application/pdf") {
+        setCvError("Prześlij plik PDF / Nur PDF-Dateien");
+        setCvFile(null);
+        return;
+      }
+      if (file.size > MAX_CV_SIZE) {
+        setCvError("Plik jest za duży (max 10 MB) / Datei zu groß (max. 10 MB)");
+        setCvFile(null);
+        return;
+      }
+    }
+    setCvError("");
+    setCvFile(file);
+  }
+
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!validateAll()) return;
+    if (cvError) return;
 
     setSubmitting(true);
     setSubmitError("");
@@ -572,10 +655,11 @@ export function CandidateIntakeForm() {
       ...(form.location_preference.trim() && {
         location_preference: form.location_preference.trim(),
       }),
+      ...(form.document_type && { document_type: form.document_type as DocumentType }),
     };
 
     try {
-      await submitCandidateIntake(payload, locale);
+      await submitCandidateIntake(payload, locale, cvFile ?? undefined);
       setSubmitted(true);
     } catch {
       setSubmitError(t.errors.submitFailed);
@@ -845,6 +929,43 @@ export function CandidateIntakeForm() {
                   setForm((f) => ({ ...f, location_preference: e.target.value }))
                 }
               />
+            </div>
+
+            {/* Document type */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">{t.documentType}</label>
+              <select
+                value={form.document_type}
+                onChange={(e) =>
+                  setForm((f) => ({ ...f, document_type: e.target.value as DocumentType | "" }))
+                }
+                className={selectClass}
+              >
+                <option value="">{t.documentTypePlaceholder}</option>
+                {DOCUMENT_TYPES.map((dt) => (
+                  <option key={dt} value={dt}>
+                    {t.documentTypes[dt]}
+                  </option>
+                ))}
+              </select>
+            </div>
+
+            {/* CV upload */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">{t.cvUpload}</label>
+              <input
+                type="file"
+                accept="application/pdf"
+                onChange={handleCvChange}
+                className="block w-full text-sm text-gray-700 file:mr-3 file:rounded-md file:border file:border-gray-300 file:bg-white file:px-3 file:py-1.5 file:text-sm file:font-medium file:text-gray-700 hover:file:bg-gray-50"
+              />
+              <p className="mt-1 text-xs text-gray-400">{t.cvHint}</p>
+              {cvFile && (
+                <p className="mt-1 text-xs text-green-600">✓ {cvFile.name}</p>
+              )}
+              {cvError && (
+                <p className="mt-1 text-xs text-destructive">{cvError}</p>
+              )}
             </div>
 
             {/* GDPR consent */}

@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { put } from "@vercel/blob";
 import { Redis } from "@upstash/redis";
 import {
   type ScreeningState,
@@ -22,6 +23,8 @@ interface IntakePayload {
   preferred_position: string;
   languages: string[];
   location_preference?: string;
+  document_type?: string;
+  cv_url?: string;
   gdpr_consent: boolean;
   gdpr_consent_at: string;
   locale: string;
@@ -124,6 +127,8 @@ async function upsertContact(p: IntakePayload): Promise<string> {
     candidate_form_locale: p.locale,
     candidate_gdpr_consent: "true",
     candidate_gdpr_consent_at: p.gdpr_consent_at,
+    ...(p.document_type ? { candidate_document_type: p.document_type } : {}),
+    ...(p.cv_url ? { candidate_cv_url: p.cv_url } : {}),
   };
 
   if (contactId) {
@@ -330,8 +335,43 @@ async function sendConfirmationEmail(p: IntakePayload): Promise<void> {
 
 export async function POST(req: NextRequest) {
   let payload: IntakePayload;
+
+  // Parse multipart/form-data (sent by the intake form with optional CV file)
   try {
-    payload = await req.json() as IntakePayload;
+    const fd = await req.formData();
+    const str = (key: string) => (fd.get(key) as string | null) ?? undefined;
+    payload = {
+      first_name: str("first_name") ?? "",
+      last_name: str("last_name") ?? "",
+      phone: str("phone") ?? "",
+      email: str("email"),
+      nationality: str("nationality") ?? "",
+      availability_from: str("availability_from") ?? "",
+      preferred_position: str("preferred_position") ?? "",
+      languages: fd.getAll("languages").map(String),
+      location_preference: str("location_preference"),
+      document_type: str("document_type"),
+      gdpr_consent: str("gdpr_consent") === "true",
+      gdpr_consent_at: str("gdpr_consent_at") ?? new Date().toISOString(),
+      locale: str("locale") ?? "pl",
+    };
+
+    // Upload CV to Vercel Blob if provided
+    const cvFile = fd.get("cv_file");
+    if (cvFile && cvFile instanceof File && cvFile.size > 0) {
+      if (process.env.BLOB_READ_WRITE_TOKEN) {
+        try {
+          const safeName = `${payload.phone.replace(/\D/g, "")}-${Date.now()}.pdf`;
+          const blob = await put(`cvs/${safeName}`, cvFile, { access: "private" });
+          payload.cv_url = blob.url;
+        } catch (err) {
+          console.error("[intake] CV upload to Vercel Blob failed:", err);
+          // Non-blocking — proceed without CV URL
+        }
+      } else {
+        console.warn("[intake] BLOB_READ_WRITE_TOKEN not set — CV upload skipped");
+      }
+    }
   } catch {
     return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
   }

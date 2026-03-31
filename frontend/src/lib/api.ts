@@ -104,15 +104,32 @@ export function createCandidate(data: CandidateCreate): Promise<Candidate> {
 }
 
 // Intake form submission — calls the Next.js API route which orchestrates
-// backend persist + HubSpot sync + confirmation email.
+// backend persist + HubSpot sync + CV upload + confirmation email.
 export async function submitCandidateIntake(
   data: CandidateCreate,
   locale: string,
+  cvFile?: File,
 ): Promise<Candidate> {
+  const fd = new FormData();
+  fd.append("first_name", data.first_name);
+  fd.append("last_name", data.last_name);
+  fd.append("phone", data.phone);
+  if (data.email) fd.append("email", data.email);
+  fd.append("nationality", data.nationality);
+  fd.append("availability_from", data.availability_from);
+  fd.append("preferred_position", data.preferred_position);
+  data.languages.forEach((l) => fd.append("languages", l));
+  if (data.location_preference) fd.append("location_preference", data.location_preference);
+  if (data.document_type) fd.append("document_type", data.document_type);
+  fd.append("gdpr_consent", String(data.gdpr_consent));
+  fd.append("gdpr_consent_at", data.gdpr_consent_at);
+  fd.append("locale", locale);
+  if (cvFile) fd.append("cv_file", cvFile, cvFile.name);
+
   const res = await fetch("/api/candidate-intake", {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ ...data, locale }),
+    body: fd,
+    // No Content-Type header — browser sets multipart boundary automatically
   });
   if (!res.ok) {
     const body = await res.json().catch(() => ({})) as { error?: string };

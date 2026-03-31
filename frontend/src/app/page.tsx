@@ -16,11 +16,11 @@ export default function RootPage() {
           Znajdź pracę w magazynie<br />lub logistyce
         </h1>
         <p className="text-lg text-gray-500 mb-10 max-w-xl mx-auto">
-          Łączymy pracowników z najlepszymi pracodawcami w Polsce i Niemczech.
+          Łączymy pracowników z najlepszymi pracodawcami w Polsce, Niemczech, Holandii i Belgii.
           Szybka rekrutacja, legalne zatrudnienie, pełne wsparcie.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Link href="/intake" className="btn-primary text-base">
+          <Link href="/aplikuj" className="btn-primary text-base">
             Wyślij zgłoszenie
           </Link>
           <Link href="/oferty" className="btn-outline text-base">
@@ -35,7 +35,7 @@ export default function RootPage() {
           {[
             { icon: "⚡", title: "Szybka rekrutacja", desc: "Odpowiadamy w ciągu 48 godzin od przesłania zgłoszenia." },
             { icon: "📋", title: "Legalne zatrudnienie", desc: "Umowy, ubezpieczenie, pełna zgodność z polskim i niemieckim prawem pracy." },
-            { icon: "🌍", title: "Polska i Niemcy", desc: "Oferty w magazynach i firmach logistycznych po obu stronach granicy." },
+            { icon: "🌍", title: "Polska, Niemcy, Holandia, Belgia", desc: "Oferty w magazynach, zakładach produkcyjnych i szklarniach w całej Europie." },
           ].map((f) => (
             <div key={f.title}>
               <div className="text-3xl mb-3">{f.icon}</div>
@@ -50,7 +50,7 @@ export default function RootPage() {
       <section className="py-16 px-6 text-center">
         <h2 className="text-2xl font-bold mb-4 text-nexflow-navy">Gotowy do pracy?</h2>
         <p className="text-gray-500 mb-6">Wypełnij krótki formularz — nasz rekruter odezwie się do Ciebie.</p>
-        <Link href="/intake" className="btn-primary text-base">
+        <Link href="/aplikuj" className="btn-primary text-base">
           Aplikuj bezpłatnie →
         </Link>
       </section>

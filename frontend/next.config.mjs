@@ -13,6 +13,11 @@ const nextConfig = {
         destination: "/oferty",
         permanent: true,
       },
+      {
+        source: "/intake",
+        destination: "/aplikuj",
+        permanent: true,
+      },
     ];
   },
 };

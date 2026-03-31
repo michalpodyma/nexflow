@@ -17,6 +17,8 @@ export type PreferredPosition =
 
 export type WorkPermitType = "UE" | "non_UE_permit" | "none";
 
+export type DocumentType = "ukrainian_passport" | "eu_id" | "work_permit" | "none";
+
 export type Currency = "PLN" | "EUR";
 
 export interface Candidate {
@@ -48,6 +50,8 @@ export interface CandidateCreate {
   preferred_position: PreferredPosition;
   languages: LanguageCode[];
   location_preference?: string;
+  document_type?: DocumentType;
+  cv_url?: string;
   gdpr_consent: boolean;
   gdpr_consent_at: string;  // ISO datetime, client-side timestamp
 }

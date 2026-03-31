@@ -141,7 +141,7 @@ function JobCard({
 
         {/* CTA */}
         <div className="mt-auto pt-2">
-          <Link href="/intake" className="w-full">
+          <Link href="/aplikuj" className="w-full">
             <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold gap-2">
               {t.applyBtn}
               <ArrowRight className="w-4 h-4" />
@@ -204,7 +204,7 @@ export function JobsBoard({ jobs }: { jobs: JobListing[] }) {
         <div className="mt-12 rounded-2xl bg-primary text-primary-foreground p-8 text-center">
           <h3 className="text-xl sm:text-2xl font-bold mb-2">{t.ctaBanner}</h3>
           <p className="text-primary-foreground/75 mb-6 text-sm">{t.ctaBannerSub}</p>
-          <Link href="/intake">
+          <Link href="/aplikuj">
             <Button
               size="lg"
               className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8"
