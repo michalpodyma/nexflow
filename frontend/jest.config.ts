@@ -6,7 +6,7 @@ const createJestConfig = nextJest({ dir: "./" });
 const config: Config = {
   coverageProvider: "v8",
   testEnvironment: "jsdom",
-  setupFilesAfterFramework: ["<rootDir>/jest.setup.ts"] as string[],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"] as string[],
 };
 
 export default createJestConfig(config);
