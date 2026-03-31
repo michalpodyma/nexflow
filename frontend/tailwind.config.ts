@@ -40,6 +40,12 @@ const config: Config = {
           foreground: "hsl(var(--card-foreground))",
         },
         "cloud-white": "hsl(var(--cloud-white))",
+        // Nexflow brand tokens
+        "nexflow-navy": "#0F2040",
+        "nexflow-cyan": "#00C2D1",
+        graphite: "#1F2937",
+        slate: "#6B7280",
+        "meadow-green": "#10B981",
       },
       borderRadius: {
         lg: "var(--radius)",
