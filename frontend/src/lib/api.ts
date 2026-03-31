@@ -103,6 +103,24 @@ export function createCandidate(data: CandidateCreate): Promise<Candidate> {
   });
 }
 
+// Intake form submission — calls the Next.js API route which orchestrates
+// backend persist + HubSpot sync + confirmation email.
+export async function submitCandidateIntake(
+  data: CandidateCreate,
+  locale: string,
+): Promise<Candidate> {
+  const res = await fetch("/api/candidate-intake", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ ...data, locale }),
+  });
+  if (!res.ok) {
+    const body = await res.json().catch(() => ({})) as { error?: string };
+    throw new ApiError(res.status, body.error ?? "Submission failed");
+  }
+  return res.json() as Promise<Candidate>;
+}
+
 // Workers
 export function getWorkers(page = 1, pageSize = 20): Promise<Paginated<Worker>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });

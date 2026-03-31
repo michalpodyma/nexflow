@@ -4,7 +4,7 @@ import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { createCandidate } from "@/lib/api";
+import { submitCandidateIntake } from "@/lib/api";
 import type { CandidateCreate, LanguageCode, PreferredPosition } from "@/types/api";
 
 // ---------------------------------------------------------------------------
@@ -575,7 +575,7 @@ export function CandidateIntakeForm() {
     };
 
     try {
-      await createCandidate(payload);
+      await submitCandidateIntake(payload, locale);
       setSubmitted(true);
     } catch {
       setSubmitError(t.errors.submitFailed);
