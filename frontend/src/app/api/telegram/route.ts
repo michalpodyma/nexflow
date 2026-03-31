@@ -13,7 +13,6 @@
  *   - /briefing command → on-demand daily briefing
  */
 
-import { unstable_after as after } from "next/server";
 import { NextRequest, NextResponse } from "next/server";
 
 import {
@@ -44,9 +43,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
   }
 
   // 3. Respond 200 immediately — process async so Telegram doesn't time out
-  after(async () => {
-    await handleUpdate(update);
-  });
+  void handleUpdate(update);
 
   return NextResponse.json({ ok: true });
 }

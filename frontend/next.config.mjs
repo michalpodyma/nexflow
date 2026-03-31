@@ -1,10 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "standalone",
-  experimental: {
-    // Required for unstable_after() — run code after response is sent (Next.js 14.1+)
-    after: true,
-  },
   async redirects() {
     return [
       {
