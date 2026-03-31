@@ -6,6 +6,7 @@ from app.config import settings
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
 from app.routers.health import router as health_router
+from app.routers.job_postings import router as job_postings_router
 from app.routers.workers import router as workers_router
 
 app = FastAPI(title="Nexflow Platform API", version="0.1.0")
@@ -28,3 +29,4 @@ app.include_router(auth_router)
 app.include_router(candidates_router)
 app.include_router(workers_router)
 app.include_router(clients_router)
+app.include_router(job_postings_router)

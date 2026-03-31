@@ -1,6 +1,6 @@
 "use client";
 
-import { BarChart3, Building2, CalendarDays, GitBranch, Users, UserSquare2 } from "lucide-react";
+import { BarChart3, Briefcase, Building2, CalendarDays, GitBranch, Users, UserSquare2 } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -13,6 +13,7 @@ const navItems = [
   { href: "/dashboard/workers", label: "Workers", icon: Users },
   { href: "/dashboard/clients", label: "Clients", icon: Building2 },
   { href: "/dashboard/scheduling", label: "Scheduling", icon: CalendarDays },
+  { href: "/dashboard/job-postings", label: "Job Boards", icon: Briefcase },
 ];
 
 export function Sidebar() {

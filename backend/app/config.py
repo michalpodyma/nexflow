@@ -25,5 +25,12 @@ class Settings(BaseSettings):
     frontend_url: str = "http://localhost:3000"
     environment: str = "development"
 
+    # OLX Business API (OAuth 2.0 client_credentials)
+    olx_client_id: str = ""
+    olx_client_secret: str = ""
+
+    # Pracuj.pl XML feed
+    pracuj_xml_feed_url: str = ""
+
 
 settings = Settings()

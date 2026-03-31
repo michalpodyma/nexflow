@@ -97,3 +97,16 @@ class LanguageCode(str, enum.Enum):
     en = "en"
     uk = "uk"
     ru = "ru"
+
+
+class JobPostingPlatform(str, enum.Enum):
+    """External job board platform."""
+    olx = "olx"
+    pracuj = "pracuj"
+
+
+class JobPostingStatus(str, enum.Enum):
+    """Lifecycle status of a job posting on an external board."""
+    active = "active"
+    expired = "expired"
+    removed = "removed"
