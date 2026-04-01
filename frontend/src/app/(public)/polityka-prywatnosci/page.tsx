@@ -38,7 +38,7 @@ export default function PolitykaPrywatnosciPage() {
                 Administratorem Twoich danych osobowych jest{" "}
                 <strong>Nexflow Sp. z o.o.</strong> z siedzibą w Słubicach,
                 Polska (NIP: PL5981632310, KRS: 0000496516, REGON: 081188992),
-                dalej zwana „Nexflow" lub „Administratorem".
+                dalej zwana &bdquo;Nexflow&rdquo; lub &bdquo;Administratorem&rdquo;.
               </p>
               <p className="text-graphite text-sm leading-relaxed mt-3">
                 Kontakt w sprawach ochrony danych osobowych:{" "}
