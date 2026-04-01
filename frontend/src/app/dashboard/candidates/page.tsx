@@ -357,7 +357,7 @@ export default function CandidatesPage() {
     setBulkLoading(true);
     try {
       const updated = await bulkUpdateCandidates({
-        candidate_ids: [...selected],
+        candidate_ids: Array.from(selected),
         action: bulkAction,
         ...(bulkAction === "set_status" ? { status_value: bulkStatus } : {}),
       });
