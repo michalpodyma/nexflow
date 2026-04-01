@@ -6,7 +6,7 @@ from sqlalchemy.dialects.postgresql import UUID as PGUUID
 from sqlalchemy.orm import Mapped, mapped_column
 
 from .base import Base
-from .enums import WorkPermitType
+from .enums import AttendanceStatus, WorkPermitType
 
 
 class Worker(Base):
@@ -66,6 +66,13 @@ class Worker(Base):
     )
     # ZUS — Polish social insurance registration status
     zus_status: Mapped[str | None] = mapped_column(sa.String(50), nullable=True)
+
+    # Worker attendance/employment status for performance tracking
+    attendance_status: Mapped[AttendanceStatus] = mapped_column(
+        sa.Enum(AttendanceStatus, name="attendance_status_enum", create_type=False),
+        nullable=False,
+        server_default="active",
+    )
 
     # GDPR consent — must be captured before any data processing
     gdpr_consent: Mapped[bool] = mapped_column(

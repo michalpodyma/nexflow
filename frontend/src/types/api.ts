@@ -17,6 +17,8 @@ export type PreferredPosition =
 
 export type WorkPermitType = "UE" | "non_UE_permit" | "none";
 
+export type AttendanceStatus = "active" | "off" | "terminated";
+
 export type DocumentType = "ukrainian_passport" | "eu_id" | "work_permit" | "none";
 
 export type Currency = "PLN" | "EUR";
@@ -72,6 +74,17 @@ export interface CandidateCreate {
   gdpr_consent_at: string;  // ISO datetime, client-side timestamp
 }
 
+export interface WorkerAssignment {
+  id: string;
+  position: string;
+  client_id: string;
+  client_name: string;
+  employer_rate: number;
+  start_date: string;
+  end_date: string | null;
+  is_active: boolean;
+}
+
 export interface Worker {
   id: string;
   first_name: string;
@@ -83,9 +96,14 @@ export interface Worker {
   work_permit_expiry: string | null;
   health_cert_expiry: string | null;
   a1_cert_status: string | null;
+  attendance_status: AttendanceStatus;
   gdpr_consent: boolean;
   created_at: string;
   updated_at: string;
+}
+
+export interface WorkerDetail extends Worker {
+  assignments: WorkerAssignment[];
 }
 
 export interface Client {

@@ -110,3 +110,10 @@ class JobPostingStatus(str, enum.Enum):
     active = "active"
     expired = "expired"
     removed = "removed"
+
+
+class AttendanceStatus(str, enum.Enum):
+    """Worker presence/employment status for performance tracking."""
+    active = "active"
+    off = "off"
+    terminated = "terminated"

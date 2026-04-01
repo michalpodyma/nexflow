@@ -10,7 +10,8 @@ from app.auth.middleware import CurrentUser
 from app.database import get_db
 from app.models.assignments import Assignment
 from app.models.candidates import Candidate
-from app.models.enums import ScreeningStatus
+from app.models.enums import AttendanceStatus, ScreeningStatus
+from app.models.workers import Worker
 
 router = APIRouter(prefix="/api/v1/analytics", tags=["analytics"])
 
@@ -42,9 +43,11 @@ async def get_analytics_overview(
 ) -> AnalyticsOverview:
     now = datetime.now(timezone.utc)
 
-    # Active workers: assignments currently flagged is_active
+    # Active workers: workers with attendance_status = 'active'
     active_workers_result = await db.execute(
-        select(func.count()).select_from(Assignment).where(Assignment.is_active == True)  # noqa: E712
+        select(func.count())
+        .select_from(Worker)
+        .where(Worker.attendance_status == AttendanceStatus.active)
     )
     active_workers: int = active_workers_result.scalar_one()
 
@@ -69,9 +72,11 @@ async def get_analytics_overview(
     )
     pipeline_velocity: int = velocity_result.scalar_one()
 
-    # Revenue forecast: active workers × avg employer_rate × 22 working days/month
+    # Revenue forecast: active workers × avg employer_rate of active assignments × 22 days/month
     avg_rate_result = await db.execute(
-        select(func.avg(Assignment.employer_rate)).where(Assignment.is_active == True)  # noqa: E712
+        select(func.avg(Assignment.employer_rate))
+        .join(Worker, Assignment.worker_id == Worker.id)
+        .where(Worker.attendance_status == AttendanceStatus.active)
     )
     avg_rate = avg_rate_result.scalar_one() or 0.0
     revenue_forecast_monthly_pln = float(active_workers) * float(avg_rate) * 22.0
