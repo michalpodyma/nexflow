@@ -4,7 +4,7 @@
  * Internal assistant for Nexflow staff. Handles text + voice messages,
  * supports Paperclip task management, and daily briefings.
  *
- * LLM: Anthropic Claude (direct API)
+ * LLM: OpenAI GPT-4o (function calling)
  * Voice: OpenAI Whisper
  * State: Upstash Redis (conversation history, 24h TTL)
  */
@@ -23,7 +23,8 @@ const PAPERCLIP_COMPANY_ID = process.env.PAPERCLIP_COMPANY_ID ?? "";
 
 const CONV_TTL = 24 * 60 * 60; // 24h
 const MAX_HISTORY = 20; // keep last 20 turns
-const MODEL = "claude-opus-4-6";
+const AGENT_MODEL = "gpt-4o";
+const BRIEFING_MODEL = "gpt-4o";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -495,8 +496,8 @@ export async function runAgent(
   user: TelegramUser,
   userMessage: string,
 ): Promise<string> {
-  if (!ANTHROPIC_API_KEY) {
-    return "⚠️ Agent AI nie jest skonfigurowany. Skontaktuj się z administratorem (brak ANTHROPIC_API_KEY).";
+  if (!OPENAI_API_KEY) {
+    return "⚠️ Agent AI nie jest skonfigurowany. Skontaktuj się z administratorem (brak OPENAI_API_KEY).";
   }
 
   let history: ConvMessage[] = [];
@@ -505,87 +506,80 @@ export async function runAgent(
   } catch (redisErr) {
     console.error("[tg-agent] Redis loadHistory failed (falling back to empty):", redisErr);
   }
-  history.push({ role: "user", content: userMessage });
 
-  const messages = history.map((m) => ({
-    role: m.role,
-    content: m.content,
+  // Build OpenAI messages: system + history text turns + new user message
+  const messages: Record<string, unknown>[] = [
+    { role: "system", content: buildSystemPrompt(user) },
+    ...history
+      .filter((m) => typeof m.content === "string")
+      .map((m) => ({ role: m.role, content: m.content })),
+    { role: "user", content: userMessage },
+  ];
+
+  // Convert tool definitions to OpenAI function format
+  const tools = TOOLS.map((t) => ({
+    type: "function",
+    function: { name: t.name, description: t.description, parameters: t.input_schema },
   }));
 
   let finalText = "";
 
-  // Agentic loop — handle tool calls
+  // Agentic loop — handle function calls
   for (let iteration = 0; iteration < 5; iteration++) {
-    const body = {
-      model: MODEL,
-      max_tokens: 2048,
-      system: buildSystemPrompt(user),
-      tools: TOOLS,
-      messages,
-    };
-
-    const res = await fetch("https://api.anthropic.com/v1/messages", {
+    const res = await fetch("https://api.openai.com/v1/chat/completions", {
       method: "POST",
       headers: {
-        "x-api-key": ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
-        "content-type": "application/json",
+        Authorization: `Bearer ${OPENAI_API_KEY}`,
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify(body),
+      body: JSON.stringify({ model: AGENT_MODEL, max_tokens: 2048, messages, tools }),
     });
 
     if (!res.ok) {
       const errText = await res.text().catch(() => "");
-      console.error("[tg-agent] Anthropic API error", res.status, errText);
+      console.error("[tg-agent] OpenAI API error", res.status, errText);
       return "Przepraszam, wystąpił błąd podczas przetwarzania. Spróbuj ponownie.";
     }
 
     const response = (await res.json()) as {
-      stop_reason: string;
-      content: Array<
-        | { type: "text"; text: string }
-        | { type: "tool_use"; id: string; name: string; input: Record<string, unknown> }
-      >;
+      choices: [{
+        message: {
+          role: string;
+          content: string | null;
+          tool_calls?: [{ id: string; function: { name: string; arguments: string } }];
+        };
+        finish_reason: string;
+      }];
     };
 
-    // Add assistant turn to messages
-    messages.push({ role: "assistant", content: response.content });
+    const choice = response.choices[0];
+    messages.push(choice.message);
 
-    if (response.stop_reason === "end_turn") {
-      // Extract text from the response
-      const textBlocks = response.content.filter((b) => b.type === "text");
-      finalText = textBlocks.map((b) => (b as { type: "text"; text: string }).text).join("\n");
+    if (choice.finish_reason === "stop" || !choice.message.tool_calls?.length) {
+      finalText = choice.message.content ?? "";
       break;
     }
 
-    if (response.stop_reason === "tool_use") {
-      // Execute each tool and collect results
-      const toolResults: AnthropicContentBlock[] = [];
-
-      for (const block of response.content) {
-        if (block.type !== "tool_use") continue;
-        const result = await executeTool(block.name, block.input);
-        toolResults.push({
-          type: "tool_result",
-          tool_use_id: block.id,
-          content: result,
-        });
+    if (choice.finish_reason === "tool_calls") {
+      for (const call of choice.message.tool_calls ?? []) {
+        let input: Record<string, unknown> = {};
+        try { input = JSON.parse(call.function.arguments) as Record<string, unknown>; }
+        catch { /* use empty input */ }
+        const result = await executeTool(call.function.name, input);
+        messages.push({ role: "tool", tool_call_id: call.id, content: result });
       }
-
-      // Add tool results as user turn
-      messages.push({ role: "user", content: toolResults });
     } else {
-      // Unexpected stop reason
       break;
     }
   }
 
-  if (!finalText) {
-    finalText = "Przepraszam, nie udało się przetworzyć żądania.";
-  }
+  if (!finalText) finalText = "Przepraszam, nie udało się przetworzyć żądania.";
 
-  // Save updated history (only user/assistant text turns)
-  history.push({ role: "assistant", content: finalText });
+  // Save text-only history turns
+  history.push(
+    { role: "user", content: userMessage },
+    { role: "assistant", content: finalText },
+  );
   try {
     await saveHistory(chatId, history);
   } catch (redisErr) {
@@ -598,8 +592,8 @@ export async function runAgent(
 // ─── Daily briefing generator ─────────────────────────────────────────────────
 
 export async function generateBriefing(): Promise<string> {
-  if (!ANTHROPIC_API_KEY || !PAPERCLIP_BOT_API_KEY) {
-    return "Brak konfiguracji — ANTHROPIC_API_KEY lub PAPERCLIP_BOT_API_KEY nie ustawione.";
+  if (!OPENAI_API_KEY) {
+    return "Brak konfiguracji — OPENAI_API_KEY nie ustawiony.";
   }
 
   const now = new Date().toLocaleString("pl-PL", { timeZone: "Europe/Warsaw" });
@@ -640,16 +634,15 @@ export async function generateBriefing(): Promise<string> {
     console.error("[tg-agent] Briefing task fetch failed:", err);
   }
 
-  // Generate briefing with Claude
-  const res = await fetch("https://api.anthropic.com/v1/messages", {
+  // Generate briefing with GPT-4o
+  const res = await fetch("https://api.openai.com/v1/chat/completions", {
     method: "POST",
     headers: {
-      "x-api-key": ANTHROPIC_API_KEY,
-      "anthropic-version": "2023-06-01",
-      "content-type": "application/json",
+      Authorization: `Bearer ${OPENAI_API_KEY}`,
+      "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      model: MODEL,
+      model: BRIEFING_MODEL,
       max_tokens: 512,
       messages: [
         {
@@ -673,9 +666,9 @@ Briefing powinien być:
   if (!res.ok) return `📋 *Dzienny briefing — ${now}*\n\n${tasksText}`;
 
   const data = (await res.json()) as {
-    content: Array<{ type: string; text?: string }>;
+    choices: [{ message: { content: string } }];
   };
-  const text = data.content.find((b) => b.type === "text")?.text ?? "";
+  const text = data.choices[0]?.message?.content ?? "";
 
   return `📋 *Dzienny briefing*\n\n${text}`;
 }
