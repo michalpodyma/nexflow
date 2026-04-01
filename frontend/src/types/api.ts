@@ -1,4 +1,4 @@
-export type LanguageCode = "pl" | "de" | "en" | "uk" | "id" | "es";
+export type LanguageCode = "pl" | "de" | "en" | "uk" | "id" | "es" | "nl";
 
 export type ScreeningStatus =
   | "new"

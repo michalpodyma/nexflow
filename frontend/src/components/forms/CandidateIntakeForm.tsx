@@ -11,7 +11,7 @@ import type { CandidateCreate, DocumentType, LanguageCode, PreferredPosition } f
 // Types & constants
 // ---------------------------------------------------------------------------
 
-type Locale = "pl" | "de" | "en" | "uk" | "id";
+type Locale = "pl" | "de" | "en" | "uk" | "id" | "nl";
 
 interface Messages {
   languageToggle: string;
@@ -108,6 +108,7 @@ const messages: Record<Locale, Messages> = {
       uk: "Ukraiński",
       id: "Indonezyjski",
       es: "Hiszpański",
+      nl: "Niderlandzki",
     },
     documentType: "Typ dokumentu (opcjonalnie)",
     documentTypePlaceholder: "Wybierz typ dokumentu...",
@@ -178,6 +179,7 @@ const messages: Record<Locale, Messages> = {
       uk: "Ukrainisch",
       id: "Indonesisch",
       es: "Spanisch",
+      nl: "Niederländisch",
     },
     documentType: "Dokumententyp (optional)",
     documentTypePlaceholder: "Dokumententyp auswählen...",
@@ -247,6 +249,7 @@ const messages: Record<Locale, Messages> = {
       uk: "Ukrainian",
       id: "Indonesian",
       es: "Spanish",
+      nl: "Dutch",
     },
     documentType: "Document type (optional)",
     documentTypePlaceholder: "Select document type...",
@@ -316,6 +319,7 @@ const messages: Record<Locale, Messages> = {
       uk: "Українська",
       id: "Індонезійська",
       es: "Іспанська",
+      nl: "Нідерландська",
     },
     documentType: "Тип документа (необов'язково)",
     documentTypePlaceholder: "Оберіть тип документа...",
@@ -385,6 +389,7 @@ const messages: Record<Locale, Messages> = {
       uk: "Bahasa Ukraina",
       id: "Bahasa Indonesia",
       es: "Bahasa Spanyol",
+      nl: "Bahasa Belanda",
     },
     documentType: "Jenis dokumen (opsional)",
     documentTypePlaceholder: "Pilih jenis dokumen...",
@@ -410,6 +415,76 @@ const messages: Record<Locale, Messages> = {
       submitFailed: "Pengiriman gagal. Silakan coba lagi.",
     },
   },
+  nl: {
+    languageToggle: "Taal",
+    title: "Aanmeldformulier",
+    subtitle: "Vul het formulier in om deel te nemen aan ons kandidatenbestand.",
+    firstName: "Voornaam",
+    firstNamePlaceholder: "Jan",
+    lastName: "Achternaam",
+    lastNamePlaceholder: "de Vries",
+    phone: "Telefoon",
+    phonePlaceholder: "+31 6 12345678",
+    email: "E-mail (optioneel)",
+    emailPlaceholder: "jan@voorbeeld.nl",
+    nationality: "Nationaliteit",
+    nationalityPlaceholder: "Selecteer land...",
+    availabilityFrom: "Beschikbaar vanaf",
+    preferredPosition: "Gewenste functie",
+    preferredPositionPlaceholder: "Selecteer functie...",
+    languages: "Taalkennis",
+    locationPreference: "Voorkeurslocatie (optioneel)",
+    locationPreferencePlaceholder: "bijv. Amsterdam, Rotterdam",
+    gdprConsent:
+      "Ik ga akkoord met de verwerking van mijn persoonsgegevens door Nexflow sp. z o.o. voor wervingsdoeleinden, in overeenstemming met de AVG.",
+    privacyPolicyLabel: "Privacybeleid",
+    privacyPolicyText:
+      "Nexflow sp. z o.o. verwerkt uw persoonsgegevens voor de uitvoering van het wervingsproces op grond van art. 6(1)(b) AVG. Gegevens worden 12 maanden na indiening van de sollicitatie bewaard, tenzij u wordt aangenomen — in dat geval worden de gegevens bewaard voor de duur van het dienstverband. U heeft het recht op inzage, rectificatie, verwijdering en overdraagbaarheid van uw gegevens. Contact: kontakt@nexflow.eu",
+    submit: "Sollicitatie verzenden",
+    submitting: "Verzenden...",
+    retry: "Opnieuw proberen",
+    successTitle: "Sollicitatie verzonden!",
+    successMessage: "Bedankt! We nemen binnen 24 uur contact met u op.",
+    errorTitle: "Verzendfout",
+    positions: {
+      warehouse_picker: "Magazijnmedewerker",
+      forklift_operator: "Heftruckchauffeur",
+      logistics_driver: "Logistiek chauffeur",
+      other: "Anders",
+    },
+    languageOptions: {
+      pl: "Pools",
+      de: "Duits",
+      en: "Engels",
+      uk: "Oekraïens",
+      id: "Indonesisch",
+      es: "Spaans",
+      nl: "Nederlands",
+    },
+    documentType: "Documenttype (optioneel)",
+    documentTypePlaceholder: "Selecteer documenttype...",
+    documentTypes: {
+      ukrainian_passport: "Oekraïens paspoort",
+      eu_id: "EU-identiteitskaart",
+      work_permit: "Werkvergunning",
+      none: "Anders / Geen",
+    },
+    cvUpload: "CV (PDF, max. 10 MB — optioneel)",
+    cvHint: "Upload uw CV in PDF-formaat",
+    errors: {
+      firstNameRequired: "Voornaam is verplicht",
+      lastNameRequired: "Achternaam is verplicht",
+      phoneRequired: "Telefoonnummer is verplicht",
+      phoneInvalid:
+        "Voer een geldig internationaal telefoonnummer in E.164-formaat in (bijv. +31 6 12345678)",
+      nationalityRequired: "Nationaliteit is verplicht",
+      availabilityRequired: "Beschikbaarheidsdatum is verplicht",
+      positionRequired: "Gewenste functie is verplicht",
+      languagesRequired: "Selecteer minimaal één taal",
+      gdprRequired: "Toestemming voor gegevensverwerking is verplicht",
+      submitFailed: "Verzending mislukt. Probeer het opnieuw.",
+    },
+  },
 };
 
 const POSITIONS: PreferredPosition[] = [
@@ -419,7 +494,7 @@ const POSITIONS: PreferredPosition[] = [
   "other",
 ];
 
-const LANGUAGE_CODES: LanguageCode[] = ["pl", "de", "en", "uk", "id", "es"];
+const LANGUAGE_CODES: LanguageCode[] = ["pl", "de", "en", "uk", "id", "es", "nl"];
 
 const DOCUMENT_TYPES: DocumentType[] = ["ukrainian_passport", "eu_id", "work_permit", "none"];
 
@@ -435,6 +510,17 @@ const OTHER_NATIONALITIES = [
 ].sort();
 
 const COUNTRY_NAMES: Record<Locale, Record<string, string>> = {
+  nl: {
+    PL: "Polen", UA: "Oekraïne", DE: "Duitsland", BY: "Wit-Rusland", MD: "Moldavië", RO: "Roemenië",
+    AL: "Albanië", AM: "Armenië", AT: "Oostenrijk", AZ: "Azerbeidzjan", BA: "Bosnië en Herzegovina",
+    BE: "België", BG: "Bulgarije", CZ: "Tsjechië", DK: "Denemarken", EE: "Estland",
+    ES: "Spanje", FI: "Finland", FR: "Frankrijk", GB: "Verenigd Koninkrijk", GE: "Georgië",
+    GR: "Griekenland", HR: "Kroatië", HU: "Hongarije", IN: "India", IT: "Italië",
+    KZ: "Kazachstan", LT: "Litouwen", LU: "Luxemburg", LV: "Letland", MK: "Noord-Macedonië",
+    NL: "Nederland", NO: "Noorwegen", PK: "Pakistan", PT: "Portugal", RS: "Servië",
+    RU: "Rusland", SE: "Zweden", SI: "Slovenië", SK: "Slowakije", TR: "Turkije",
+    UZ: "Oezbekistan", VN: "Vietnam", XK: "Kosovo",
+  },
   pl: {
     PL: "Polska", UA: "Ukraina", DE: "Niemcy", BY: "Białoruś", MD: "Mołdawia", RO: "Rumunia",
     AL: "Albania", AM: "Armenia", AT: "Austria", AZ: "Azerbejdżan", BA: "Bośnia i Hercegowina",
@@ -725,7 +811,7 @@ export function CandidateIntakeForm() {
         {/* Language toggle */}
         <div className="mb-6 flex items-center justify-end gap-1">
           <span className="mr-2 text-sm text-gray-500">{t.languageToggle}:</span>
-          {(["pl", "de", "en", "uk", "id"] as Locale[]).map((loc) => (
+          {(["pl", "de", "en", "uk", "id", "nl"] as Locale[]).map((loc) => (
             <button
               key={loc}
               type="button"

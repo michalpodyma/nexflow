@@ -14,7 +14,8 @@ import {
 import type { JobListing } from "@/data/jobs";
 import { Button } from "@/components/ui/button";
 
-type Locale = "pl" | "de";
+type Locale = "pl" | "de" | "nl";
+type CountryFilter = "all" | "PL" | "NL" | "BE";
 
 const ui: Record<Locale, {
   langToggle: string;
@@ -27,12 +28,16 @@ const ui: Record<Locale, {
   ctaBanner: string;
   ctaBannerSub: string;
   ctaBtn: string;
+  filterAll: string;
+  filterPL: string;
+  filterNL: string;
+  filterBE: string;
 }> = {
   pl: {
     langToggle: "DE",
     heroTitle: "Oferty pracy",
     heroSubtitle:
-      "Aktualne miejsca pracy w magazynach i logistyce w regionie Słubice – Frankfurt (Oder). Praca tymczasowa i stała.",
+      "Aktualne miejsca pracy w magazynach i logistyce. Polska, Holandia, Belgia. Praca tymczasowa i stała.",
     openPositions: "Otwarte rekrutacje",
     applyBtn: "Aplikuj",
     requirements: "Wymagania",
@@ -41,12 +46,16 @@ const ui: Record<Locale, {
     ctaBannerSub:
       "Formularz zajmuje mniej niż 3 minuty. Skontaktujemy się w ciągu 24h.",
     ctaBtn: "Wypełnij formularz →",
+    filterAll: "Wszystkie",
+    filterPL: "Polska",
+    filterNL: "Holandia",
+    filterBE: "Belgia",
   },
   de: {
-    langToggle: "PL",
+    langToggle: "NL",
     heroTitle: "Stellenangebote",
     heroSubtitle:
-      "Aktuelle Jobs in Lagerhaltung und Logistik in der Region Słubice – Frankfurt (Oder). Zeitarbeit und Festanstellung.",
+      "Aktuelle Jobs in Lagerhaltung und Logistik. Polen, Niederlande, Belgien. Zeitarbeit und Festanstellung.",
     openPositions: "Offene Stellen",
     applyBtn: "Bewerben",
     requirements: "Anforderungen",
@@ -55,8 +64,32 @@ const ui: Record<Locale, {
     ctaBannerSub:
       "Das Formular dauert weniger als 3 Minuten. Wir melden uns innerhalb von 24 Stunden.",
     ctaBtn: "Zum Formular →",
+    filterAll: "Alle",
+    filterPL: "Polen",
+    filterNL: "Niederlande",
+    filterBE: "Belgien",
+  },
+  nl: {
+    langToggle: "PL",
+    heroTitle: "Vacatures",
+    heroSubtitle:
+      "Actuele banen in magazijn en logistiek. Polen, Nederland, België. Tijdelijk en vast werk.",
+    openPositions: "Openstaande vacatures",
+    applyBtn: "Solliciteer",
+    requirements: "Vereisten",
+    showLess: "Minder",
+    ctaBanner: "Klaar om te werken? Solliciteer nu.",
+    ctaBannerSub:
+      "Het formulier duurt minder dan 3 minuten. We nemen binnen 24 uur contact op.",
+    ctaBtn: "Naar het formulier →",
+    filterAll: "Alle",
+    filterPL: "Polen",
+    filterNL: "Nederland",
+    filterBE: "België",
   },
 };
+
+const LOCALE_CYCLE: Record<Locale, Locale> = { pl: "de", de: "nl", nl: "pl" };
 
 function JobCard({
   job,
@@ -155,7 +188,20 @@ function JobCard({
 
 export function JobsBoard({ jobs }: { jobs: JobListing[] }) {
   const [locale, setLocale] = useState<Locale>("pl");
+  const [countryFilter, setCountryFilter] = useState<CountryFilter>("all");
   const t = ui[locale];
+
+  const filteredJobs =
+    countryFilter === "all"
+      ? jobs
+      : jobs.filter((j) => j.countries.includes(countryFilter));
+
+  const filterOptions: { value: CountryFilter; label: string }[] = [
+    { value: "all", label: t.filterAll },
+    { value: "PL", label: t.filterPL },
+    { value: "NL", label: t.filterNL },
+    { value: "BE", label: t.filterBE },
+  ];
 
   return (
     <div className="min-h-screen bg-[hsl(var(--cloud-white))]">
@@ -169,7 +215,7 @@ export function JobsBoard({ jobs }: { jobs: JobListing[] }) {
             Nexflow
           </Link>
           <button
-            onClick={() => setLocale((l) => (l === "pl" ? "de" : "pl"))}
+            onClick={() => setLocale((l) => LOCALE_CYCLE[l])}
             className="text-sm font-semibold px-3 py-1 rounded border border-primary-foreground/30 hover:border-primary-foreground/70 transition-colors"
             aria-label={`Switch language to ${t.langToggle}`}
           >
@@ -190,12 +236,29 @@ export function JobsBoard({ jobs }: { jobs: JobListing[] }) {
 
       {/* Listings */}
       <main className="max-w-5xl mx-auto px-4 py-10">
+        {/* Country filter */}
+        <div className="flex flex-wrap gap-2 mb-6">
+          {filterOptions.map((opt) => (
+            <button
+              key={opt.value}
+              onClick={() => setCountryFilter(opt.value)}
+              className={`text-sm font-semibold px-4 py-1.5 rounded-full border transition-colors ${
+                countryFilter === opt.value
+                  ? "bg-primary text-primary-foreground border-primary"
+                  : "border-border text-muted-foreground hover:border-primary hover:text-primary"
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+
         <h2 className="text-sm font-semibold uppercase tracking-widest text-muted-foreground mb-6">
-          {t.openPositions} ({jobs.length})
+          {t.openPositions} ({filteredJobs.length})
         </h2>
 
         <div className="grid gap-5 sm:grid-cols-2">
-          {jobs.map((job) => (
+          {filteredJobs.map((job) => (
             <JobCard key={job.id} job={job} locale={locale} t={t} />
           ))}
         </div>
