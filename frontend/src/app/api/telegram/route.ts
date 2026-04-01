@@ -25,6 +25,9 @@ import {
   transcribeVoice,
 } from "@/lib/telegram-agent";
 
+// Allow up to 60 seconds — Anthropic API calls can be slow
+export const maxDuration = 60;
+
 // ─── Route handler ─────────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
@@ -42,8 +45,10 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "Bad request" }, { status: 400 });
   }
 
-  // 3. Respond 200 immediately — process async so Telegram doesn't time out
-  void handleUpdate(update);
+  // 3. Process synchronously — Telegram waits up to 1 minute for a response.
+  // Fire-and-forget (void) caused the Vercel function to terminate before
+  // the Anthropic API call completed, aborting the fetch and throwing an error.
+  await handleUpdate(update);
 
   return NextResponse.json({ ok: true });
 }
