@@ -32,7 +32,7 @@ export const jobs: JobListing[] = [
       title: "Pracownik magazynowy",
       location: "Słubice / Frankfurt (Oder)",
       shiftType: "Zmiana dzienna i nocna",
-      payRange: "22–26 PLN/h",
+      payRange: "32–38 PLN/h",
       summary:
         "Kompletowanie zamówień, obsługa skanerów, praca w nowoczesnym magazynie cross-border przy granicy polsko-niemieckiej.",
       requirements: [
@@ -47,7 +47,7 @@ export const jobs: JobListing[] = [
       title: "Lagermitarbeiter / Kommissionierer",
       location: "Słubice / Frankfurt (Oder)",
       shiftType: "Früh- und Spätschicht",
-      payRange: "22–26 PLN/Std.",
+      payRange: "32–38 PLN/Std.",
       summary:
         "Kommissionierung von Bestellungen, Scannerarbeit in einem modernen Cross-Border-Lager an der deutsch-polnischen Grenze.",
       requirements: [
@@ -69,7 +69,7 @@ export const jobs: JobListing[] = [
       title: "Operator wózka widłowego",
       location: "Słubice",
       shiftType: "Zmiana dzienna",
-      payRange: "26–32 PLN/h",
+      payRange: "35–42 PLN/h",
       summary:
         "Obsługa wózków widłowych czołowych i paletowych, załadunek i rozładunek towaru, praca w dynamicznym centrum logistycznym.",
       requirements: [
@@ -84,7 +84,7 @@ export const jobs: JobListing[] = [
       title: "Gabelstaplerfahrer",
       location: "Słubice",
       shiftType: "Frühschicht",
-      payRange: "26–32 PLN/Std.",
+      payRange: "35–42 PLN/Std.",
       summary:
         "Bedienung von Gabelstapler und Ameise, Be- und Entladung, Arbeit in einem dynamischen Logistikzentrum.",
       requirements: [
@@ -106,7 +106,7 @@ export const jobs: JobListing[] = [
       title: "Pracownik produkcji",
       location: "Słubice / okolice",
       shiftType: "Zmiana dzienna i nocna",
-      payRange: "21–25 PLN/h",
+      payRange: "31–37 PLN/h",
       summary:
         "Montaż podzespołów, kontrola jakości, obsługa linii produkcyjnej w zakładzie działającym na rynku europejskim.",
       requirements: [
@@ -121,7 +121,7 @@ export const jobs: JobListing[] = [
       title: "Produktionsmitarbeiter",
       location: "Słubice / Umgebung",
       shiftType: "Früh- und Nachtschicht",
-      payRange: "21–25 PLN/Std.",
+      payRange: "31–37 PLN/Std.",
       summary:
         "Montage von Bauteilen, Qualitätskontrolle und Arbeit an der Produktionslinie in einem europaweit tätigen Betrieb.",
       requirements: [
@@ -143,7 +143,7 @@ export const jobs: JobListing[] = [
       title: "Kierowca logistyczny (kat. B)",
       location: "Słubice / Frankfurt (Oder) / region",
       shiftType: "Zmiana dzienna",
-      payRange: "25–30 PLN/h",
+      payRange: "33–40 PLN/h",
       summary:
         "Dostawy lokalne i regionalne, obsługa klientów końcowych, praca z nowoczesną flotą pojazdów dostawczych do 3,5t.",
       requirements: [
@@ -158,7 +158,7 @@ export const jobs: JobListing[] = [
       title: "Fahrer Logistik (Führerschein Kl. B)",
       location: "Słubice / Frankfurt (Oder) / Region",
       shiftType: "Frühschicht",
-      payRange: "25–30 PLN/Std.",
+      payRange: "33–40 PLN/Std.",
       summary:
         "Lokale und regionale Lieferungen, Kundenbetreuung, Arbeit mit modernen Lieferfahrzeugen bis 3,5t.",
       requirements: [
@@ -171,6 +171,80 @@ export const jobs: JobListing[] = [
     },
     datePosted: "2026-03-20",
     validThrough: "2026-06-30",
+    employmentType: "TEMPORARY",
+  },
+  {
+    id: "greenhouse-worker-nl",
+    slug: "pracownik-szklarni-holandia",
+    pl: {
+      title: "Pracownik szklarni (kwiaty / warzywa)",
+      location: "Holandia (Westland / Aalsmeer / region)",
+      shiftType: "Zmiana dzienna",
+      payRange: "14–17 EUR/h",
+      summary:
+        "Praca w holenderskich szklarniach przy uprawie kwiatów ciętych i warzyw. Sadzenie, pielęgnacja, zbiory — praca sezonowa i stała. Zakwaterowanie w pobliżu miejsca pracy.",
+      requirements: [
+        "Brak wymaganego doświadczenia — wdrożenie na miejscu",
+        "Gotowość do pracy fizycznej w środowisku szklarniowym",
+        "Podstawowa znajomość języka polskiego lub angielskiego",
+        "Prawo jazdy kat. B mile widziane",
+      ],
+      tag: "Szklarnia",
+    },
+    de: {
+      title: "Gewächshausmitarbeiter (Blumen / Gemüse)",
+      location: "Niederlande (Westland / Aalsmeer / Region)",
+      shiftType: "Frühschicht",
+      payRange: "14–17 EUR/Std.",
+      summary:
+        "Arbeit in niederländischen Gewächshäusern mit Schnittblumen und Gemüse. Pflanzen, Pflege, Ernte — Saison- und Festarbeit. Unterkunft in der Nähe des Arbeitsplatzes.",
+      requirements: [
+        "Keine Erfahrung erforderlich — Einarbeitung vor Ort",
+        "Bereitschaft zur körperlichen Arbeit im Gewächshaus",
+        "Grundkenntnisse in Polnisch oder Englisch",
+        "Führerschein Klasse B von Vorteil",
+      ],
+      tag: "Gewächshaus",
+    },
+    datePosted: "2026-03-31",
+    validThrough: "2026-09-30",
+    employmentType: "TEMPORARY",
+  },
+  {
+    id: "warehouse-nl-be",
+    slug: "pracownik-magazynowy-holandia-belgia",
+    pl: {
+      title: "Pracownik magazynowy / produkcji",
+      location: "Holandia / Belgia",
+      shiftType: "Zmiana dzienna i nocna",
+      payRange: "14–16 EUR/h",
+      summary:
+        "Praca w centrach dystrybucyjnych i zakładach produkcyjnych w Holandii i Belgii. Kompletacja zamówień, obsługa linii, praca z nowoczesnym sprzętem. Zakwaterowanie i transport zapewniony.",
+      requirements: [
+        "Gotowość do pracy zmianowej",
+        "Sprawność fizyczna",
+        "Podstawowa znajomość języka polskiego lub angielskiego",
+        "Gotowość do wyjazdu (praca za granicą)",
+      ],
+      tag: "Magazyn / Produkcja",
+    },
+    de: {
+      title: "Lager- / Produktionsmitarbeiter",
+      location: "Niederlande / Belgien",
+      shiftType: "Früh- und Nachtschicht",
+      payRange: "14–16 EUR/Std.",
+      summary:
+        "Arbeit in Verteilzentren und Produktionsbetrieben in den Niederlanden und Belgien. Kommissionierung, Linienarbeit, modernes Equipment. Unterkunft und Transport inklusive.",
+      requirements: [
+        "Bereitschaft zur Schichtarbeit",
+        "Körperliche Belastbarkeit",
+        "Grundkenntnisse in Polnisch oder Englisch",
+        "Bereitschaft zur Arbeit im Ausland",
+      ],
+      tag: "Lager / Produktion",
+    },
+    datePosted: "2026-03-31",
+    validThrough: "2026-09-30",
     employmentType: "TEMPORARY",
   },
 ];

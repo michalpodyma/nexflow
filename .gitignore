@@ -27,3 +27,4 @@ scripts/krs_leads_import.csv
 # OS
 .DS_Store
 Thumbs.db
+.vercel
