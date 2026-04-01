@@ -4,8 +4,8 @@
  * Internal assistant for Nexflow staff. Handles text + voice messages,
  * supports Paperclip task management, and daily briefings.
  *
- * LLM: OpenAI GPT-4o (function calling)
- * Voice: OpenAI Whisper
+ * LLM: OpenRouter (configurable via OPENROUTER_MODEL, default: free Llama 3.3 70B)
+ * Voice: OpenAI Whisper (optional — requires OPENAI_API_KEY)
  * State: Upstash Redis (conversation history, 24h TTL)
  */
 
@@ -15,16 +15,18 @@ import { Redis } from "@upstash/redis";
 
 export const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN ?? "";
 export const TELEGRAM_WEBHOOK_SECRET = process.env.TELEGRAM_WEBHOOK_SECRET ?? "";
-const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY ?? "";
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY ?? "";
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? ""; // used only for Whisper voice transcription
 const PAPERCLIP_API_URL = process.env.PAPERCLIP_API_URL ?? "https://app.paperclip.ing";
 const PAPERCLIP_BOT_API_KEY = process.env.PAPERCLIP_BOT_API_KEY ?? "";
 const PAPERCLIP_COMPANY_ID = process.env.PAPERCLIP_COMPANY_ID ?? "";
 
 const CONV_TTL = 24 * 60 * 60; // 24h
 const MAX_HISTORY = 20; // keep last 20 turns
-const AGENT_MODEL = "gpt-4o";
-const BRIEFING_MODEL = "gpt-4o";
+const OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
+// Override via OPENROUTER_MODEL env var; default to a free model
+const AGENT_MODEL = process.env.OPENROUTER_MODEL ?? "meta-llama/llama-3.3-70b-instruct:free";
+const BRIEFING_MODEL = process.env.OPENROUTER_MODEL ?? "meta-llama/llama-3.3-70b-instruct:free";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -496,8 +498,8 @@ export async function runAgent(
   user: TelegramUser,
   userMessage: string,
 ): Promise<string> {
-  if (!OPENAI_API_KEY) {
-    return "⚠️ Agent AI nie jest skonfigurowany. Skontaktuj się z administratorem (brak OPENAI_API_KEY).";
+  if (!OPENROUTER_API_KEY) {
+    return "⚠️ Agent AI nie jest skonfigurowany. Skontaktuj się z administratorem (brak OPENROUTER_API_KEY).";
   }
 
   let history: ConvMessage[] = [];
@@ -507,7 +509,7 @@ export async function runAgent(
     console.error("[tg-agent] Redis loadHistory failed (falling back to empty):", redisErr);
   }
 
-  // Build OpenAI messages: system + history text turns + new user message
+  // Build messages: system + history text turns + new user message
   const messages: Record<string, unknown>[] = [
     { role: "system", content: buildSystemPrompt(user) },
     ...history
@@ -516,7 +518,7 @@ export async function runAgent(
     { role: "user", content: userMessage },
   ];
 
-  // Convert tool definitions to OpenAI function format
+  // Convert tool definitions to OpenAI-compatible function format (OpenRouter supports this)
   const tools = TOOLS.map((t) => ({
     type: "function",
     function: { name: t.name, description: t.description, parameters: t.input_schema },
@@ -526,18 +528,20 @@ export async function runAgent(
 
   // Agentic loop — handle function calls
   for (let iteration = 0; iteration < 5; iteration++) {
-    const res = await fetch("https://api.openai.com/v1/chat/completions", {
+    const res = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${OPENAI_API_KEY}`,
+        Authorization: `Bearer ${OPENROUTER_API_KEY}`,
         "Content-Type": "application/json",
+        "HTTP-Referer": "https://nexflow.work",
+        "X-Title": "Nexflow Bot",
       },
       body: JSON.stringify({ model: AGENT_MODEL, max_tokens: 2048, messages, tools }),
     });
 
     if (!res.ok) {
       const errText = await res.text().catch(() => "");
-      console.error("[tg-agent] OpenAI API error", res.status, errText);
+      console.error("[tg-agent] OpenRouter API error", res.status, errText);
       return "Przepraszam, wystąpił błąd podczas przetwarzania. Spróbuj ponownie.";
     }
 
@@ -592,8 +596,8 @@ export async function runAgent(
 // ─── Daily briefing generator ─────────────────────────────────────────────────
 
 export async function generateBriefing(): Promise<string> {
-  if (!OPENAI_API_KEY) {
-    return "Brak konfiguracji — OPENAI_API_KEY nie ustawiony.";
+  if (!OPENROUTER_API_KEY) {
+    return "Brak konfiguracji — OPENROUTER_API_KEY nie ustawiony.";
   }
 
   const now = new Date().toLocaleString("pl-PL", { timeZone: "Europe/Warsaw" });
@@ -634,12 +638,14 @@ export async function generateBriefing(): Promise<string> {
     console.error("[tg-agent] Briefing task fetch failed:", err);
   }
 
-  // Generate briefing with GPT-4o
-  const res = await fetch("https://api.openai.com/v1/chat/completions", {
+  // Generate briefing via OpenRouter
+  const res = await fetch(`${OPENROUTER_BASE_URL}/chat/completions`, {
     method: "POST",
     headers: {
-      Authorization: `Bearer ${OPENAI_API_KEY}`,
+      Authorization: `Bearer ${OPENROUTER_API_KEY}`,
       "Content-Type": "application/json",
+      "HTTP-Referer": "https://nexflow.work",
+      "X-Title": "Nexflow Bot",
     },
     body: JSON.stringify({
       model: BRIEFING_MODEL,
