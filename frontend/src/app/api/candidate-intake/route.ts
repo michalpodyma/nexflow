@@ -245,10 +245,10 @@ const EMAIL_TEMPLATES: Record<
 
 async function twilioSend(to: string, body: string): Promise<void> {
   const credentials = Buffer.from(`${TWILIO_ACCOUNT_SID}:${TWILIO_AUTH_TOKEN}`).toString("base64");
-  const from = TWILIO_WHATSAPP_FROM.startsWith("whatsapp:")
-    ? TWILIO_WHATSAPP_FROM
-    : `whatsapp:${TWILIO_WHATSAPP_FROM}`;
-  const toFormatted = to.startsWith("whatsapp:") ? to : `whatsapp:${to}`;
+  const from = TWILIO_WHATSAPP_FROM;
+  const toFormatted = TWILIO_WHATSAPP_FROM.startsWith("whatsapp:")
+    ? (to.startsWith("whatsapp:") ? to : `whatsapp:${to}`)
+    : to.replace(/^whatsapp:/, "");
   const res = await fetch(
     `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`,
     {

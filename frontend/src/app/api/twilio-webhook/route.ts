@@ -110,10 +110,12 @@ async function twilioSend(to: string, body: string): Promise<void> {
         "Content-Type": "application/x-www-form-urlencoded",
       },
       body: new URLSearchParams({
-        From: TWILIO_WHATSAPP_FROM.startsWith("whatsapp:")
-          ? TWILIO_WHATSAPP_FROM
-          : `whatsapp:${TWILIO_WHATSAPP_FROM}`,
-        To:   to.startsWith("whatsapp:") ? to : `whatsapp:${to}`,
+        // Use whatsapp: channel only when the configured sender number has that prefix.
+        // A plain E.164 number (e.g. +48…) means SMS mode.
+        From: TWILIO_WHATSAPP_FROM,
+        To: TWILIO_WHATSAPP_FROM.startsWith("whatsapp:")
+          ? (to.startsWith("whatsapp:") ? to : `whatsapp:${to}`)
+          : to.replace(/^whatsapp:/, ""),
         Body: body,
       }),
     },
