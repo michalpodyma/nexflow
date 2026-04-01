@@ -57,6 +57,7 @@ async function handleUpdate(update: TelegramUpdate): Promise<void> {
   const chatId = msg.chat.id;
   const user = msg.from;
   const text = (msg.text ?? "").trim();
+  console.log(`[tg-webhook] chat_id=${chatId} type=${msg.chat.type} title=${msg.chat.title ?? msg.chat.first_name ?? ""}`);
 
   try {
     // ── Commands ──────────────────────────────────────────────────────────────
