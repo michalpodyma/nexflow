@@ -227,7 +227,6 @@ const TOOLS: AnthropicTool[] = [
           description: "Optional keyword search to filter tasks by title or description.",
         },
       },
-      required: [],
     },
   },
   {
@@ -282,7 +281,6 @@ const TOOLS: AnthropicTool[] = [
     input_schema: {
       type: "object" as const,
       properties: {},
-      required: [],
     },
   },
   {
@@ -312,7 +310,7 @@ interface AnthropicTool {
   input_schema: {
     type: "object";
     properties: Record<string, unknown>;
-    required: string[];
+    required?: string[];
   };
 }
 
@@ -537,8 +535,8 @@ export async function runAgent(
     });
 
     if (!res.ok) {
-      const err = await res.text();
-      console.error(`[tg-agent] Anthropic API error ${res.status}:`, err);
+      const errText = await res.text().catch(() => "");
+      console.error("[tg-agent] Anthropic API error", res.status, errText);
       return "Przepraszam, wystąpił błąd podczas przetwarzania. Spróbuj ponownie.";
     }
 
