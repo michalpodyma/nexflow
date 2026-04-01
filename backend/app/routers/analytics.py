@@ -76,7 +76,10 @@ async def get_analytics_overview(
     avg_rate_result = await db.execute(
         select(func.avg(Assignment.employer_rate))
         .join(Worker, Assignment.worker_id == Worker.id)
-        .where(Worker.attendance_status == AttendanceStatus.active)
+        .where(
+            Worker.attendance_status == AttendanceStatus.active,
+            Assignment.is_active == True,
+        )
     )
     avg_rate = avg_rate_result.scalar_one() or 0.0
     revenue_forecast_monthly_pln = float(active_workers) * float(avg_rate) * 22.0
