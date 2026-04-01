@@ -1059,6 +1059,7 @@ export function CandidateIntakeForm() {
               {/* Expandable privacy policy */}
               <button
                 type="button"
+                aria-expanded={policyExpanded}
                 onClick={() => setPolicyExpanded((v) => !v)}
                 className="mb-3 flex items-center gap-1 text-xs font-medium text-primary underline-offset-2 hover:underline"
               >
