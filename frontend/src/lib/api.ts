@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { Candidate, CandidateCreate, Client, Paginated, TokenResponse, Worker } from "@/types/api";
+import type { AnalyticsOverview, Candidate, CandidateCreate, Client, Paginated, TokenResponse, Worker } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -148,4 +148,9 @@ export function getWorkers(page = 1, pageSize = 20): Promise<Paginated<Worker>> 
 export function getClients(page = 1, pageSize = 20): Promise<Paginated<Client>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
   return request<Paginated<Client>>(`/api/v1/clients?${params}`);
+}
+
+// Analytics
+export function getAnalyticsOverview(): Promise<AnalyticsOverview> {
+  return request<AnalyticsOverview>("/api/v1/analytics/overview");
 }

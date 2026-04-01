@@ -91,6 +91,26 @@ export interface Client {
   updated_at: string;
 }
 
+export interface PipelineStageCount {
+  status: string;
+  count: number;
+}
+
+export interface WeeklyTrend {
+  week_start: string; // YYYY-MM-DD
+  new_candidates: number;
+}
+
+export interface AnalyticsOverview {
+  active_workers: number;
+  placement_rate: number; // 0.0–1.0
+  pipeline_velocity: number; // new candidates in last 7 days
+  revenue_forecast_monthly_pln: number;
+  pipeline_by_stage: PipelineStageCount[];
+  weekly_trends: WeeklyTrend[];
+  computed_at: string;
+}
+
 export interface Paginated<T> {
   items: T[];
   total: number;

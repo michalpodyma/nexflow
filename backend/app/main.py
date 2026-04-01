@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from app.auth.router import router as auth_router
 from app.config import settings
+from app.routers.analytics import router as analytics_router
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
 from app.routers.health import router as health_router
@@ -30,3 +31,4 @@ app.include_router(candidates_router)
 app.include_router(workers_router)
 app.include_router(clients_router)
 app.include_router(job_postings_router)
+app.include_router(analytics_router)
