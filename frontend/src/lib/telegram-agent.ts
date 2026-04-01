@@ -501,7 +501,12 @@ export async function runAgent(
     return "⚠️ Agent AI nie jest skonfigurowany. Skontaktuj się z administratorem (brak ANTHROPIC_API_KEY).";
   }
 
-  const history = await loadHistory(chatId);
+  let history: ConvMessage[] = [];
+  try {
+    history = await loadHistory(chatId);
+  } catch (redisErr) {
+    console.error("[tg-agent] Redis loadHistory failed (falling back to empty):", redisErr);
+  }
   history.push({ role: "user", content: userMessage });
 
   const messages = history.map((m) => ({
@@ -533,7 +538,7 @@ export async function runAgent(
 
     if (!res.ok) {
       const err = await res.text();
-      console.error("[tg-agent] Anthropic API error:", err);
+      console.error(`[tg-agent] Anthropic API error ${res.status}:`, err);
       return "Przepraszam, wystąpił błąd podczas przetwarzania. Spróbuj ponownie.";
     }
 
@@ -583,7 +588,11 @@ export async function runAgent(
 
   // Save updated history (only user/assistant text turns)
   history.push({ role: "assistant", content: finalText });
-  await saveHistory(chatId, history);
+  try {
+    await saveHistory(chatId, history);
+  } catch (redisErr) {
+    console.error("[tg-agent] Redis saveHistory failed (non-fatal):", redisErr);
+  }
 
   return finalText;
 }
