@@ -1,12 +1,12 @@
 "use client";
 
-import { Bell, LogOut, X } from "lucide-react";
+import { Bell, Clock, LogOut, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { clearTokens } from "@/lib/auth";
-import { logout } from "@/lib/api";
+import { getDueRemindersCount, logout } from "@/lib/api";
 import type { ReplyNotification } from "@/app/api/webhooks/instantly/route";
 
 interface HeaderProps {
@@ -21,6 +21,8 @@ export function Header({ title }: HeaderProps) {
   const [notifications, setNotifications] = useState<ReplyNotification[]>([]);
   const [panelOpen, setPanelOpen] = useState(false);
   const panelRef = useRef<HTMLDivElement>(null);
+
+  const [dueReminders, setDueReminders] = useState(0);
 
   const fetchNotifications = useCallback(async () => {
     try {
@@ -42,6 +44,20 @@ export function Header({ title }: HeaderProps) {
     const id = setInterval(() => void fetchNotifications(), POLL_INTERVAL_MS);
     return () => clearInterval(id);
   }, [fetchNotifications]);
+
+  // Poll due reminders count
+  useEffect(() => {
+    function fetchDue() {
+      getDueRemindersCount()
+        .then((data) => setDueReminders(data.due_count))
+        .catch(() => {
+          // best-effort
+        });
+    }
+    fetchDue();
+    const id = setInterval(fetchDue, POLL_INTERVAL_MS);
+    return () => clearInterval(id);
+  }, []);
 
   // Close panel on outside click
   useEffect(() => {
@@ -82,6 +98,20 @@ export function Header({ title }: HeaderProps) {
       <h1 className="text-xl font-semibold">{title}</h1>
 
       <div className="flex items-center gap-2">
+        {/* Due reminders badge */}
+        {dueReminders > 0 && (
+          <a
+            href="/dashboard/candidates"
+            className="relative flex h-9 w-9 items-center justify-center rounded-md text-amber-600 transition-colors hover:bg-amber-50"
+            title={`${dueReminders} reminder${dueReminders !== 1 ? "s" : ""} due`}
+          >
+            <Clock className="h-4 w-4" />
+            <span className="absolute right-1 top-1 flex h-4 w-4 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-white">
+              {dueReminders > 9 ? "9+" : dueReminders}
+            </span>
+          </a>
+        )}
+
         {/* Notifications bell */}
         <div className="relative" ref={panelRef}>
           <button

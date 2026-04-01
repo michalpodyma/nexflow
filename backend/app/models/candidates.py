@@ -69,6 +69,17 @@ class Candidate(Base):
     id_doc_url: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
     health_cert_url: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
 
+    # Recruiter notes — freetext per candidate, persisted by dashboard
+    notes: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
+    # Set when a recruiter explicitly marks this candidate as "contacted"
+    contacted_at: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+    # Soft FK to job_postings.id — populated via bulk-assign action
+    job_posting_id: Mapped[UUID | None] = mapped_column(
+        PGUUID(as_uuid=True), nullable=True
+    )
+
     # GDPR consent — must be captured at intake
     gdpr_consent: Mapped[bool] = mapped_column(
         sa.Boolean, nullable=False, server_default=sa.false()

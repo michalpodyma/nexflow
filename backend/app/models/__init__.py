@@ -24,6 +24,7 @@ from .enums import (
 from .clients import Client
 from .workers import Worker
 from .candidates import Candidate
+from .candidate_reminders import CandidateReminder
 from .assignments import Assignment, AssignmentRate
 from .invoices import Invoice
 from .positions import Position
@@ -48,6 +49,7 @@ __all__ = [
     "Client",
     "Worker",
     "Candidate",
+    "CandidateReminder",
     "Assignment",
     "AssignmentRate",
     "Invoice",

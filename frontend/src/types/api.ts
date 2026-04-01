@@ -36,8 +36,24 @@ export interface Candidate {
   screening_score: number | null;
   gdpr_consent: boolean;
   gdpr_consent_at: string | null;
+  notes: string | null;
+  contacted_at: string | null;
+  job_posting_id: string | null;
   created_at: string;
   updated_at: string;
+}
+
+export interface CandidateReminder {
+  id: string;
+  candidate_id: string;
+  reminder_date: string;
+  reminder_text: string;
+  dismissed: boolean;
+  created_at: string;
+}
+
+export interface DueRemindersCount {
+  due_count: number;
 }
 
 export interface CandidateCreate {

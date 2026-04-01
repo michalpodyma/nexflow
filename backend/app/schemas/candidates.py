@@ -47,6 +47,29 @@ class CandidateCreate(BaseModel):
         return v
 
 
+class CandidateUpdate(BaseModel):
+    """PATCH body for a single candidate record — all fields optional."""
+    notes: str | None = None
+    screening_status: ScreeningStatus | None = None
+    job_posting_id: UUID | None = None
+    contacted_at: datetime | None = None
+
+
+class BulkUpdateRequest(BaseModel):
+    """
+    Apply an action to a batch of candidates.
+
+    Actions:
+        set_status      — sets screening_status to `status_value`
+        assign_posting  — sets job_posting_id to `job_posting_id`
+        mark_contacted  — sets contacted_at to now()
+    """
+    candidate_ids: list[UUID]
+    action: str  # "set_status" | "assign_posting" | "mark_contacted"
+    status_value: ScreeningStatus | None = None
+    job_posting_id: UUID | None = None
+
+
 class CandidateRead(BaseModel):
     id: UUID
     first_name: str
@@ -62,6 +85,9 @@ class CandidateRead(BaseModel):
     screening_score: int | None
     gdpr_consent: bool
     gdpr_consent_at: datetime | None
+    notes: str | None
+    contacted_at: datetime | None
+    job_posting_id: UUID | None
     created_at: datetime
     updated_at: datetime
 
@@ -73,3 +99,25 @@ class PaginatedCandidates(BaseModel):
     total: int
     page: int
     page_size: int
+
+
+# --- Reminder schemas ---
+
+class ReminderCreate(BaseModel):
+    reminder_date: datetime
+    reminder_text: str
+
+
+class ReminderRead(BaseModel):
+    id: UUID
+    candidate_id: UUID
+    reminder_date: datetime
+    reminder_text: str
+    dismissed: bool
+    created_at: datetime
+
+    model_config = {"from_attributes": True}
+
+
+class DueRemindersCount(BaseModel):
+    due_count: int

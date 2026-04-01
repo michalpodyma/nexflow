@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AnalyticsOverview, Candidate, CandidateCreate, Client, Paginated, TokenResponse, Worker } from "@/types/api";
+import type { AnalyticsOverview, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, Paginated, TokenResponse, Worker } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -101,6 +101,56 @@ export function createCandidate(data: CandidateCreate): Promise<Candidate> {
     method: "POST",
     body: JSON.stringify(data),
   });
+}
+
+export function updateCandidate(
+  id: string,
+  data: { notes?: string | null; screening_status?: string; job_posting_id?: string | null; contacted_at?: string | null },
+): Promise<Candidate> {
+  return request<Candidate>(`/api/v1/candidates/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function bulkUpdateCandidates(body: {
+  candidate_ids: string[];
+  action: "set_status" | "assign_posting" | "mark_contacted";
+  status_value?: string;
+  job_posting_id?: string;
+}): Promise<Candidate[]> {
+  return request<Candidate[]>("/api/v1/candidates/bulk-update", {
+    method: "POST",
+    body: JSON.stringify(body),
+  });
+}
+
+export function getDueRemindersCount(): Promise<DueRemindersCount> {
+  return request<DueRemindersCount>("/api/v1/candidates/reminders/due");
+}
+
+export function getCandidateReminders(candidateId: string): Promise<CandidateReminder[]> {
+  return request<CandidateReminder[]>(`/api/v1/candidates/${candidateId}/reminders`);
+}
+
+export function createCandidateReminder(
+  candidateId: string,
+  data: { reminder_date: string; reminder_text: string },
+): Promise<CandidateReminder> {
+  return request<CandidateReminder>(`/api/v1/candidates/${candidateId}/reminders`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function dismissCandidateReminder(
+  candidateId: string,
+  reminderId: string,
+): Promise<CandidateReminder> {
+  return request<CandidateReminder>(
+    `/api/v1/candidates/${candidateId}/reminders/${reminderId}`,
+    { method: "PATCH", body: JSON.stringify({ dismissed: true }) },
+  );
 }
 
 // Intake form submission — calls the Next.js API route which orchestrates
