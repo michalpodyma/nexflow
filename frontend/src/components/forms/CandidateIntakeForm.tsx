@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 import { Button } from "@/components/ui/button";
@@ -1067,9 +1068,15 @@ export function CandidateIntakeForm() {
                 {t.privacyPolicyLabel}
               </button>
               {policyExpanded && (
-                <p className="mb-3 rounded bg-cloud-white p-3 text-xs leading-relaxed text-gray-600">
-                  {t.privacyPolicyText}
-                </p>
+                <div className="mb-3 rounded bg-cloud-white p-3 text-xs leading-relaxed text-gray-600">
+                  <p>{t.privacyPolicyText}</p>
+                  <Link
+                    href="/polityka-prywatnosci"
+                    className="mt-2 inline-block text-primary underline underline-offset-2 hover:opacity-80 transition-opacity"
+                  >
+                    Pełna polityka prywatności →
+                  </Link>
+                </div>
               )}
 
               <label className="flex cursor-pointer items-start gap-3">

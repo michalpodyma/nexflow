@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 type FormState = {
@@ -231,7 +232,14 @@ export default function ContactForm() {
       {/* RODO note */}
       <p className="text-xs text-slate">
         Administratorem danych jest Nexflow Sp. z o.o. Dane przetwarzamy wyłącznie
-        w celu obsługi zapytania. Szczegóły w Polityce prywatności.
+        w celu obsługi zapytania. Szczegóły w{" "}
+        <Link
+          href="/polityka-prywatnosci"
+          className="underline hover:text-nexflow-navy transition-colors"
+        >
+          Polityce prywatności
+        </Link>
+        .
       </p>
 
       <button
