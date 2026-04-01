@@ -25,7 +25,10 @@ class CandidateReminder(Base):
         server_default=sa.text("uuid_generate_v4()"),
     )
     candidate_id: Mapped[UUID] = mapped_column(
-        PGUUID(as_uuid=True), nullable=False, index=True
+        PGUUID(as_uuid=True),
+        sa.ForeignKey("candidates.id", ondelete="CASCADE"),
+        nullable=False,
+        index=True,
     )
     reminder_date: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False

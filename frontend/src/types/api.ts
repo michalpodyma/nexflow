@@ -145,6 +145,12 @@ export interface AnalyticsOverview {
   computed_at: string;
 }
 
+export interface JobPosting {
+  id: string;
+  title: string;
+  status: string;
+}
+
 export interface Paginated<T> {
   items: T[];
   total: number;

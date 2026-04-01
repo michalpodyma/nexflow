@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, Paginated, TokenResponse, Worker, WorkerDetail } from "@/types/api";
+import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -186,6 +186,11 @@ export async function submitCandidateIntake(
     throw new ApiError(res.status, body.error ?? "Submission failed");
   }
   return res.json() as Promise<Candidate>;
+}
+
+// Job Postings
+export function getJobPostings(): Promise<Paginated<JobPosting>> {
+  return request<Paginated<JobPosting>>("/api/v1/job-postings");
 }
 
 // Workers

@@ -18,9 +18,10 @@ import {
   dismissCandidateReminder,
   getCandidateReminders,
   getCandidates,
+  getJobPostings,
   updateCandidate,
 } from "@/lib/api";
-import type { Candidate, CandidateReminder } from "@/types/api";
+import type { Candidate, CandidateReminder, JobPosting } from "@/types/api";
 
 // ---- Status colour map ----
 const STATUS_COLOURS: Record<string, string> = {
@@ -300,6 +301,11 @@ export default function CandidatesPage() {
   const [bulkStatus, setBulkStatus] = useState("");
   const [bulkLoading, setBulkLoading] = useState(false);
 
+  // Job postings for assign_posting action
+  const [jobPostings, setJobPostings] = useState<JobPosting[]>([]);
+  const [jobPostingsLoading, setJobPostingsLoading] = useState(false);
+  const [selectedJobPostingId, setSelectedJobPostingId] = useState("");
+
   // Detail modal
   const [detailCandidate, setDetailCandidate] = useState<Candidate | null>(null);
 
@@ -321,6 +327,15 @@ export default function CandidatesPage() {
       })
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    if (bulkAction !== "assign_posting") return;
+    if (jobPostings.length > 0) return;
+    setJobPostingsLoading(true);
+    getJobPostings()
+      .then((res) => setJobPostings(res.items))
+      .finally(() => setJobPostingsLoading(false));
+  }, [bulkAction]); // eslint-disable-line react-hooks/exhaustive-deps
 
   // ---- select helpers ----
   const allIds = candidates.map((c) => c.id);
@@ -354,12 +369,17 @@ export default function CandidatesPage() {
       showToast("Pick a status first.", "error");
       return;
     }
+    if (bulkAction === "assign_posting" && !selectedJobPostingId) {
+      showToast("Select a job posting first.", "error");
+      return;
+    }
     setBulkLoading(true);
     try {
       const updated = await bulkUpdateCandidates({
         candidate_ids: Array.from(selected),
         action: bulkAction,
         ...(bulkAction === "set_status" ? { status_value: bulkStatus } : {}),
+        ...(bulkAction === "assign_posting" ? { job_posting_id: selectedJobPostingId } : {}),
       });
       // merge updated candidates back into list
       const updatedMap = new Map(updated.map((c) => [c.id, c]));
@@ -367,6 +387,7 @@ export default function CandidatesPage() {
       setSelected(new Set());
       setBulkAction("");
       setBulkStatus("");
+      setSelectedJobPostingId("");
       showToast(`Updated ${updated.length} candidate(s).`, "success");
     } catch {
       showToast("Bulk action failed. Please try again.", "error");
@@ -424,14 +445,30 @@ export default function CandidatesPage() {
             )}
 
             {bulkAction === "assign_posting" && (
-              <span className="text-xs text-gray-500 italic">
-                (job posting ID required — paste in next sprint)
-              </span>
+              <select
+                value={selectedJobPostingId}
+                onChange={(e) => setSelectedJobPostingId(e.target.value)}
+                disabled={jobPostingsLoading}
+                className="rounded-md border px-2 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">
+                  {jobPostingsLoading ? "Loading…" : "Select posting…"}
+                </option>
+                {jobPostings.map((p) => (
+                  <option key={p.id} value={p.id}>
+                    {p.title}
+                  </option>
+                ))}
+              </select>
             )}
 
             <Button
               size="sm"
-              disabled={bulkLoading || !bulkAction}
+              disabled={
+                bulkLoading ||
+                !bulkAction ||
+                (bulkAction === "assign_posting" && !selectedJobPostingId)
+              }
               onClick={() => void handleBulkApply()}
             >
               {bulkLoading ? "Applying…" : "Apply"}
@@ -442,6 +479,7 @@ export default function CandidatesPage() {
                 setSelected(new Set());
                 setBulkAction("");
                 setBulkStatus("");
+                setSelectedJobPostingId("");
               }}
               className="ml-auto text-xs text-gray-500 hover:text-gray-700"
             >
