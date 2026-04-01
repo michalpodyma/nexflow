@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Usługi",
   description:
-    "Pracownicy tymczasowi, rekrutacja stała, headhunting i doradztwo HR dla firm logistycznych i magazynowych w Polsce i Niemczech.",
+    "Pracownicy tymczasowi, rekrutacja stała, headhunting i doradztwo HR dla firm logistycznych, magazynowych i szklarniowych w Polsce, Niemczech, Holandii i Belgii.",
 };
 
 const services = [
@@ -18,7 +18,7 @@ const services = [
     details: [
       "Magazynierzy, operatorzy wózków widłowych, pracownicy kompletacji",
       "Kierowcy kategorii C, C+E — transport krajowy i międzynarodowy",
-      "Pracownicy produkcji i montażu liniowego",
+      "Pracownicy produkcji, montażu liniowego i szklarni",
       "Brygadziści i koordynatorzy zmian",
     ],
     features: [
@@ -103,8 +103,8 @@ export default function ServicesPage() {
             Jeden partner. Cztery usługi. Każda skala.
           </h1>
           <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
-            Kompleksowa obsługa kadrowa dla firm logistycznych i magazynowych działających w Polsce
-            i Niemczech — od pracownika tymczasowego po dyrektora operacyjnego.
+            Kompleksowa obsługa kadrowa dla firm logistycznych, magazynowych i szklarniowych
+            działających w Polsce, Niemczech, Holandii i Belgii — od pracownika tymczasowego po dyrektora operacyjnego.
           </p>
         </div>
       </section>
@@ -185,7 +185,7 @@ export default function ServicesPage() {
               </h2>
               <p className="mt-4 text-white/70 leading-relaxed">
                 ZUS, A1, zezwolenia na pracę, RODO — wszystko pod kontrolą. Nexflow posiada
-                certyfikat KRAZ nr 10916 i jest zarejestrowany w Polsce i Niemczech.
+                certyfikat KRAZ nr 10916 i jest zarejestrowany w Polsce, Niemczech, Holandii i Belgii.
               </p>
             </div>
 
