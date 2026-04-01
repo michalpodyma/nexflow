@@ -32,26 +32,15 @@ export default function Footer() {
             </p>
             <div className="mt-6 space-y-1 text-sm text-white/70">
               <p>
-                <a href="mailto:mp@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
-                  mp@nexflow.work
-                </a>{" "}|{" "}
-                <a href="tel:+48882501520" className="hover:text-nexflow-cyan transition-colors">
-                  +48 882 501 520
-                </a>
-              </p>
-              <p>
-                <a href="mailto:so@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
-                  so@nexflow.work
-                </a>{" "}|{" "}
-                <a href="tel:+48788012955" className="hover:text-nexflow-cyan transition-colors">
-                  +48 788 012 955
-                </a>
-              </p>
-              <p className="mt-2">
                 <a href="tel:+48224878828" className="hover:text-nexflow-cyan transition-colors">
                   +48 224 878 828
                 </a>{" "}
                 (biuro)
+              </p>
+              <p>
+                <a href="mailto:info@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
+                  info@nexflow.work
+                </a>
               </p>
             </div>
           </div>
