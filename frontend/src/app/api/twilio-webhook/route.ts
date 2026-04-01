@@ -48,11 +48,10 @@ const redis: {
   set: (key: string, value: string, ttlSeconds: number) => Promise<void>;
   del: (key: string) => Promise<void>;
 } = (() => {
-  if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
-    const client = new Redis({
-      url: process.env.UPSTASH_REDIS_REST_URL,
-      token: process.env.UPSTASH_REDIS_REST_TOKEN,
-    });
+  const redisUrl = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+  const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+  if (redisUrl && redisToken) {
+    const client = new Redis({ url: redisUrl, token: redisToken });
     return {
       get: (k) => client.get<string>(k),
       set: (k, v, ttl) => client.set(k, v, { ex: ttl }).then(() => undefined),

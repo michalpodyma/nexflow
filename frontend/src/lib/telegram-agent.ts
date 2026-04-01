@@ -88,11 +88,10 @@ type AnthropicContentBlock =
 const memStore = new Map<string, { v: string; exp: number }>();
 
 const redis = (() => {
-  if (process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN) {
-    const client = new Redis({
-      url: process.env.UPSTASH_REDIS_REST_URL,
-      token: process.env.UPSTASH_REDIS_REST_TOKEN,
-    });
+  const redisUrl = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
+  const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
+  if (redisUrl && redisToken) {
+    const client = new Redis({ url: redisUrl, token: redisToken });
     return {
       get: (k: string) => client.get<string>(k),
       set: (k: string, v: string, ttl: number) =>
