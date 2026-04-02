@@ -329,13 +329,6 @@ export default function HomePage() {
               <p className="mt-6 text-sm text-slate">
                 Lub zadzwoń bezpośrednio:{" "}
                 <a
-                  href="tel:+48882501520"
-                  className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors"
-                >
-                  +48 882 501 520
-                </a>{" "}
-                |{" "}
-                <a
                   href="tel:+48224878828"
                   className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors"
                 >

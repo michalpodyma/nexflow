@@ -279,13 +279,13 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              { name: "Michał Podyma", role: "Prezes Zarządu", email: "mp@nexflow.work", phone: "+48 882 501 520" },
-              { name: "Anatolii Tychonenko", role: "Wiceprezes Zarządu", email: "at@nexflow.work", phone: "+48 534 219 398" },
-              { name: "Świetłana Owsiejczuk", role: "Manager", email: "so@nexflow.work", phone: "+48 788 012 955" },
-              { name: "Olha Yablonska", role: "Koordynator i Rekruter EN/UA", email: "oy@nexflow.work", phone: "+48 888 671 411" },
-              { name: "Hanna Serheeva", role: "Rekruter i Koordynator UA", email: "as@nexflow.work", phone: "+48 698 910 179" },
-              { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work", phone: "+48 532 352 861" },
-              { name: "Hanna Rybakova", role: "Rekruter i Koordynator UA", email: "ar@nexflow.work", phone: "+48 698 910 180" },
+              { name: "Michał Podyma", role: "Prezes Zarządu", email: "mp@nexflow.work" },
+              { name: "Anatolii Tychonenko", role: "Wiceprezes Zarządu", email: "at@nexflow.work" },
+              { name: "Świetłana Owsiejczuk", role: "Manager", email: "so@nexflow.work" },
+              { name: "Olha Yablonska", role: "Koordynator i Rekruter EN/UA", email: "oy@nexflow.work" },
+              { name: "Hanna Serheeva", role: "Rekruter i Koordynator UA", email: "as@nexflow.work" },
+              { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work" },
+              { name: "Hanna Rybakova", role: "Rekruter i Koordynator UA", email: "ar@nexflow.work" },
             ].map((person, i) => (
               <FadeIn key={person.name} delay={i * 60}>
                 <div className="bg-white/10 rounded-xl p-6 border border-white/10 text-center hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 h-full">
@@ -300,11 +300,6 @@ export default function AboutPage() {
                     <p>
                       <a href={`mailto:${person.email}`} className="hover:text-nexflow-cyan transition-colors">
                         {person.email}
-                      </a>
-                    </p>
-                    <p>
-                      <a href={`tel:${person.phone.replace(/\s/g, "")}`} className="hover:text-nexflow-cyan transition-colors">
-                        {person.phone}
                       </a>
                     </p>
                   </div>
