@@ -3,6 +3,14 @@ import Link from "next/link";
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
 
+function InitialsAvatar({ initials }: { initials: string }) {
+  return (
+    <div className="w-16 h-16 rounded-full bg-nexflow-navy border-4 border-nexflow-cyan flex items-center justify-center mx-auto mb-4">
+      <span className="text-nexflow-cyan font-bold text-xl tracking-wider">{initials}</span>
+    </div>
+  );
+}
+
 export const metadata: Metadata = {
   title: "O nas",
   description:
@@ -279,21 +287,17 @@ export default function AboutPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
-              { name: "Michał Podyma", role: "Prezes Zarządu", email: "mp@nexflow.work" },
-              { name: "Anatolii Tychonenko", role: "Wiceprezes Zarządu", email: "at@nexflow.work" },
-              { name: "Świetłana Owsiejczuk", role: "Manager", email: "so@nexflow.work" },
-              { name: "Olha Yablonska", role: "Koordynator i Rekruter EN/UA", email: "oy@nexflow.work" },
-              { name: "Hanna Serheeva", role: "Rekruter i Koordynator UA", email: "as@nexflow.work" },
-              { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work" },
-              { name: "Hanna Rybakova", role: "Rekruter i Koordynator UA", email: "ar@nexflow.work" },
+              { name: "Michał Podyma", role: "Prezes Zarządu", email: "mp@nexflow.work", initials: "MP" },
+              { name: "Anatolii Tychonenko", role: "Wiceprezes Zarządu", email: "at@nexflow.work", initials: "AT" },
+              { name: "Świetłana Owsiejczuk", role: "Manager", email: "so@nexflow.work", initials: "SO" },
+              { name: "Olha Yablonska", role: "Koordynator i Rekruter EN/UA", email: "oy@nexflow.work", initials: "OY" },
+              { name: "Hanna Serheeva", role: "Rekruter i Koordynator UA", email: "as@nexflow.work", initials: "HS" },
+              { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work", initials: "OO" },
+              { name: "Hanna Rybakova", role: "Rekruter i Koordynator UA", email: "ar@nexflow.work", initials: "HR" },
             ].map((person, i) => (
               <FadeIn key={person.name} delay={i * 60}>
                 <div className="bg-white/10 rounded-xl p-6 border border-white/10 text-center hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 h-full">
-                  <div className="w-16 h-16 rounded-full bg-nexflow-cyan/20 border-2 border-nexflow-cyan/30 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-8 h-8 text-nexflow-cyan/50" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z" />
-                    </svg>
-                  </div>
+                  <InitialsAvatar initials={person.initials} />
                   <h3 className="font-semibold text-white text-base">{person.name}</h3>
                   <p className="text-nexflow-cyan text-xs mt-1">{person.role}</p>
                   <div className="mt-4 space-y-1 text-xs text-white/60">

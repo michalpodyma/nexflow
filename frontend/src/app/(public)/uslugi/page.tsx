@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Users, UserCheck, Target, ClipboardList } from "lucide-react";
 import { FadeIn } from "@/components/FadeIn";
 
 export const metadata: Metadata = {
@@ -7,6 +8,8 @@ export const metadata: Metadata = {
   description:
     "Pracownicy tymczasowi, rekrutacja stała, headhunting i doradztwo HR dla firm logistycznych, magazynowych i szklarniowych w Polsce, Niemczech, Holandii i Belgii.",
 };
+
+const serviceIcons = [Users, UserCheck, Target, ClipboardList];
 
 const services = [
   {
@@ -113,7 +116,9 @@ export default function ServicesPage() {
       {/* Services detail */}
       <section className="py-8 bg-cloud-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {services.map((service, index) => (
+          {services.map((service, index) => {
+            const ServiceIcon = serviceIcons[index];
+            return (
             <div
               key={service.id}
               id={service.id}
@@ -123,6 +128,9 @@ export default function ServicesPage() {
                 {/* Content */}
                 <FadeIn direction={index % 2 === 0 ? "left" : "right"}>
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
+                  <div className="w-14 h-14 bg-nexflow-cyan/10 rounded-2xl flex items-center justify-center mb-4">
+                    <ServiceIcon className="w-7 h-7 text-nexflow-cyan" strokeWidth={1.5} />
+                  </div>
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-5xl font-bold text-nexflow-cyan/20 select-none leading-none">
                       {service.number}
@@ -173,7 +181,7 @@ export default function ServicesPage() {
                 </div>
               </div>
             </div>
-          ))}
+          )})}
         </div>
       </section>
 

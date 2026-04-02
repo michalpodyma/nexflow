@@ -115,7 +115,7 @@ export default function HomePage() {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="bg-nexflow-navy text-white min-h-[85vh] flex items-center relative overflow-hidden">
+        <section className="bg-gradient-to-br from-nexflow-navy via-[#0a2a5e] to-[#0F2040] text-white min-h-[85vh] flex items-center relative overflow-hidden">
           {/* Animated background blobs */}
           <div className="absolute inset-0 pointer-events-none">
             <div
