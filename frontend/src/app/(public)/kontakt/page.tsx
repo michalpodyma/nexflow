@@ -47,19 +47,16 @@ export default function ContactPage() {
                     name="Michał Podyma"
                     role="Prezes Zarządu"
                     email="mp@nexflow.work"
-                    phone="+48 882 501 520"
                   />
                   <ContactCard
                     name="Anatolii Tychonenko"
                     role="Wiceprezes Zarządu"
                     email="at@nexflow.work"
-                    phone="+48 534 219 398"
                   />
                   <ContactCard
                     name="Świetłana Owsiejczuk"
                     role="Manager"
                     email="so@nexflow.work"
-                    phone="+48 788 012 955"
                   />
                 </div>
 
@@ -148,12 +145,10 @@ function ContactCard({
   name,
   role,
   email,
-  phone,
 }: {
   name: string;
   role: string;
   email: string;
-  phone: string;
 }) {
   return (
     <div className="flex items-start gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
@@ -167,14 +162,6 @@ function ContactCard({
           <p>
             <a href={`mailto:${email}`} className="text-nexflow-navy hover:underline">
               {email}
-            </a>
-          </p>
-          <p>
-            <a
-              href={`tel:${phone.replace(/\s/g, "")}`}
-              className="text-graphite hover:text-nexflow-cyan transition-colors"
-            >
-              {phone}
             </a>
           </p>
         </div>
