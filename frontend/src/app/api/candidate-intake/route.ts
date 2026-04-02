@@ -361,7 +361,7 @@ export async function POST(req: NextRequest) {
       if (process.env.BLOB_READ_WRITE_TOKEN) {
         try {
           const safeName = `${payload.phone.replace(/\D/g, "")}-${Date.now()}.pdf`;
-          const blob = await put(`cvs/${safeName}`, cvFile, { access: "private" });
+          const blob = await put(`cvs/${safeName}`, cvFile, { access: "public" });
           payload.cv_url = blob.url;
         } catch (err) {
           console.error("[intake] CV upload to Vercel Blob failed:", err);
