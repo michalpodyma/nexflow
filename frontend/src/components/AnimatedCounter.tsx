@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 
 // Parses "240+" -> { num: 240, suffix: '+' }, "21+" -> { num: 21, suffix: '+' }
 // "5 dni" -> null (no counter animation, render as-is)
@@ -21,7 +21,7 @@ export function AnimatedCounter({
   const [displayed, setDisplayed] = useState<string>('0')
   const [started, setStarted] = useState(false)
 
-  const parsed = parseValue(value)
+  const parsed = useMemo(() => parseValue(value), [value])
 
   useEffect(() => {
     if (!parsed) {
