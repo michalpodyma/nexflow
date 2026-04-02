@@ -67,10 +67,17 @@ EXCEPTION WHEN duplicate_object THEN NULL; END $$;
 
 @asynccontextmanager
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
-    async with engine.begin() as conn:
-        await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
-        await conn.execute(text(_ENUM_DDL))
-        await conn.run_sync(Base.metadata.create_all)
+    import logging
+
+    try:
+        async with engine.begin() as conn:
+            await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
+            await conn.execute(text(_ENUM_DDL))
+            await conn.run_sync(Base.metadata.create_all)
+    except Exception as exc:
+        logging.getLogger(__name__).warning(
+            "DB init failed at startup (will retry on first request): %s", exc
+        )
     yield
 
 
