@@ -330,14 +330,14 @@ export default function HomePage() {
                 Lub zadzwoń bezpośrednio:{" "}
                 <a
                   href="tel:+48882501520"
-                  className="text-nexflow-navy font-semibold hover:text-nexflow-cyan transition-colors"
+                  className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors"
                 >
                   +48 882 501 520
                 </a>{" "}
                 |{" "}
                 <a
                   href="tel:+48224878828"
-                  className="text-nexflow-navy font-semibold hover:text-nexflow-cyan transition-colors"
+                  className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors"
                 >
                   +48 224 878 828
                 </a>

@@ -463,6 +463,7 @@ function JobsBoardContent({ jobs }: { jobs: JobListing[] }) {
                   <button
                     key={tab.value}
                     onClick={() => setParam("geo", tab.value)}
+                    aria-pressed={geo === tab.value}
                     className={`px-4 py-1.5 rounded-md text-sm font-medium transition-all duration-200 ${
                       geo === tab.value
                         ? "bg-white text-primary shadow-sm"

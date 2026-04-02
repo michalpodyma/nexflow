@@ -66,13 +66,13 @@ export default function ContactPage() {
                   </p>
                   <div className="text-sm text-graphite space-y-1">
                     <p>
-                      <a href="tel:+48224878828" className="hover:text-nexflow-cyan transition-colors font-medium">
+                      <a href="tel:+48224878828" className="hover:text-nexflow-cyan-dark transition-colors font-medium">
                         +48 224 878 828
                       </a>{" "}
                       <span className="text-slate">(PL/DE)</span>
                     </p>
                     <p className="text-slate mt-2">
-                      <a href="mailto:info@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
+                      <a href="mailto:info@nexflow.work" className="hover:text-nexflow-cyan-dark transition-colors">
                         info@nexflow.work
                       </a>
                     </p>
@@ -94,7 +94,7 @@ export default function ContactPage() {
                   </p>
                   <a
                     href="tel:+48224878828"
-                    className="text-nexflow-navy font-semibold hover:text-nexflow-cyan transition-colors text-sm"
+                    className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors text-sm"
                   >
                     +48 224 878 828
                   </a>

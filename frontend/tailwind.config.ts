@@ -43,6 +43,7 @@ const config: Config = {
         // Nexflow brand tokens
         "nexflow-navy": "#0F2040",
         "nexflow-cyan": "#00C2D1",
+        "nexflow-cyan-dark": "#007B86",
         graphite: "#1F2937",
         slate: "#6B7280",
         "meadow-green": "#10B981",
