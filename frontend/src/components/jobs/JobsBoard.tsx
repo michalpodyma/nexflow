@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { FadeIn } from "@/components/FadeIn";
 import {
   MapPin,
   Clock,
@@ -104,7 +105,7 @@ function JobCard({
   const data = job[locale];
 
   return (
-    <article className="bg-white rounded-xl border border-border shadow-sm overflow-hidden flex flex-col">
+    <article className="bg-white rounded-xl border border-border shadow-sm overflow-hidden flex flex-col hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
       {/* Top accent bar */}
       <div className="h-1 bg-accent" />
 
@@ -258,8 +259,10 @@ export function JobsBoard({ jobs }: { jobs: JobListing[] }) {
         </h2>
 
         <div className="grid gap-5 sm:grid-cols-2">
-          {filteredJobs.map((job) => (
-            <JobCard key={job.id} job={job} locale={locale} t={t} />
+          {filteredJobs.map((job, i) => (
+            <FadeIn key={job.id} delay={i * 60}>
+              <JobCard job={job} locale={locale} t={t} />
+            </FadeIn>
           ))}
         </div>
 

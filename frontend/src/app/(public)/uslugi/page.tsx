@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { FadeIn } from "@/components/FadeIn";
 
 export const metadata: Metadata = {
   title: "Usługi",
@@ -120,6 +121,7 @@ export default function ServicesPage() {
             >
               <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-start ${index % 2 === 1 ? "lg:flex-row-reverse" : ""}`}>
                 {/* Content */}
+                <FadeIn direction={index % 2 === 0 ? "left" : "right"}>
                 <div className={index % 2 === 1 ? "lg:order-2" : ""}>
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-5xl font-bold text-nexflow-cyan/20 select-none leading-none">
@@ -151,11 +153,13 @@ export default function ServicesPage() {
                     Zapytaj o tę usługę →
                   </Link>
                 </div>
+                </FadeIn>
 
                 {/* Features grid */}
                 <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 ${index % 2 === 1 ? "lg:order-1" : ""}`}>
-                  {service.features.map((feature) => (
-                    <div key={feature.title} className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm">
+                  {service.features.map((feature, fi) => (
+                    <FadeIn key={feature.title} direction={index % 2 === 0 ? "right" : "left"} delay={fi * 80}>
+                    <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full">
                       <div className="w-8 h-8 rounded-lg bg-nexflow-navy/10 flex items-center justify-center mb-3">
                         <svg className="w-4 h-4 text-nexflow-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -164,6 +168,7 @@ export default function ServicesPage() {
                       <h4 className="font-semibold text-nexflow-navy text-sm mb-1">{feature.title}</h4>
                       <p className="text-slate text-xs leading-relaxed">{feature.desc}</p>
                     </div>
+                    </FadeIn>
                   ))}
                 </div>
               </div>
@@ -176,6 +181,7 @@ export default function ServicesPage() {
       <section className="py-20 bg-nexflow-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <FadeIn direction="left">
             <div>
               <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
                 Compliance
@@ -188,10 +194,12 @@ export default function ServicesPage() {
                 certyfikat KRAZ nr 10916 i jest zarejestrowany w Polsce, Niemczech, Holandii i Belgii.
               </p>
             </div>
+            </FadeIn>
 
             <div className="grid grid-cols-2 gap-4">
-              {["Zezwolenia na pracę", "Certyfikaty A1", "Rejestracja ZUS / SV", "Zgodność z RODO"].map((item) => (
-                <div key={item} className="flex items-center gap-3 bg-white/10 rounded-xl p-4 border border-white/10">
+              {["Zezwolenia na pracę", "Certyfikaty A1", "Rejestracja ZUS / SV", "Zgodność z RODO"].map((item, i) => (
+                <FadeIn key={item} direction="right" delay={i * 80}>
+                <div className="flex items-center gap-3 bg-white/10 rounded-xl p-4 border border-white/10 hover:bg-white/15 transition-colors duration-300">
                   <div className="w-8 h-8 rounded-full bg-nexflow-cyan flex items-center justify-center shrink-0">
                     <svg className="w-4 h-4 text-nexflow-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
@@ -199,6 +207,7 @@ export default function ServicesPage() {
                   </div>
                   <span className="text-sm font-medium">{item}</span>
                 </div>
+                </FadeIn>
               ))}
             </div>
           </div>
@@ -207,6 +216,7 @@ export default function ServicesPage() {
 
       {/* CTA */}
       <section className="py-20 bg-cloud-white">
+        <FadeIn>
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="section-heading">Gotowy na pierwszych pracowników w 5 dni?</h2>
           <p className="section-subheading mx-auto">
@@ -218,6 +228,7 @@ export default function ServicesPage() {
             <a href="tel:+48882501520" className="btn-outline">Zadzwoń teraz</a>
           </div>
         </div>
+        </FadeIn>
       </section>
     </>
   );

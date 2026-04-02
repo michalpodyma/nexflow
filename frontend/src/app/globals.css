@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ── Hero background blob animations ── */
+@keyframes blobFloat {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%       { transform: translate(12px, -16px) scale(1.05); }
+  66%       { transform: translate(-8px, 10px) scale(0.97); }
+}
+
+@keyframes gradientPulse {
+  0%, 100% { opacity: 0.05; }
+  50%       { opacity: 0.09; }
+}
+
+/* ── Skeleton shimmer ── */
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    #e2e8f0 25%,
+    #f0f4f8 50%,
+    #e2e8f0 75%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.4s ease-in-out infinite;
+}
+
+/* ── Respect prefers-reduced-motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -30,6 +70,13 @@
   html {
     scroll-behavior: smooth;
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
   * {
     @apply border-border;
   }
