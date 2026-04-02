@@ -1,3 +1,4 @@
+import secrets
 import uuid
 from datetime import datetime, timedelta, timezone
 from typing import Annotated
@@ -13,6 +14,26 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.auth.models import AdminUser
 from app.config import settings
 from app.database import get_db
+
+
+def _parse_dashboard_users(raw: str) -> dict[str, str]:
+    """Parse DASHBOARD_USERS env var into {username: password} dict.
+
+    Format: "user1:pass1,user2:pass2" (comma-separated user:pass pairs).
+    Entries that don't contain ':' are silently skipped.
+    """
+    result: dict[str, str] = {}
+    for entry in raw.split(","):
+        entry = entry.strip()
+        if ":" not in entry:
+            continue
+        username, _, password = entry.partition(":")
+        if username:
+            result[username] = password
+    return result
+
+
+_ENV_USERS: dict[str, str] = _parse_dashboard_users(settings.dashboard_users)
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
@@ -93,20 +114,29 @@ async def login(
     result = await db.execute(select(AdminUser).where(AdminUser.username == body.username))
     user: AdminUser | None = result.scalar_one_or_none()
 
-    if user is None or not user.is_active or not _verify_password(body.password, user.hashed_password):
+    authenticated_username: str | None = None
+
+    if user is not None and user.is_active and _verify_password(body.password, user.hashed_password):
+        authenticated_username = user.username
+    elif body.username in _ENV_USERS and secrets.compare_digest(
+        body.password, _ENV_USERS[body.username]
+    ):
+        authenticated_username = body.username
+
+    if authenticated_username is None:
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
             detail="Invalid username or password",
         )
 
     jti = str(uuid.uuid4())
-    access_token = _create_access_token(user.username)
-    refresh_token = _create_refresh_token(user.username, jti)
+    access_token = _create_access_token(authenticated_username)
+    refresh_token = _create_refresh_token(authenticated_username, jti)
 
     redis = aioredis.from_url(settings.redis_url, decode_responses=True)
     try:
         ttl = settings.refresh_token_expire_days * 86400
-        await redis.setex(f"refresh:{jti}", ttl, user.username)
+        await redis.setex(f"refresh:{jti}", ttl, authenticated_username)
     finally:
         await redis.aclose()
 

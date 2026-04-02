@@ -32,5 +32,10 @@ class Settings(BaseSettings):
     # Pracuj.pl XML feed
     pracuj_xml_feed_url: str = ""
 
+    # Comma-separated "username:password" pairs for env-var-based dashboard access.
+    # Example: DASHBOARD_USERS="nexflow0:pass0,nexflow1:pass1"
+    # These are checked as a fallback when the user is not found in admin_users table.
+    dashboard_users: str = ""
+
 
 settings = Settings()
