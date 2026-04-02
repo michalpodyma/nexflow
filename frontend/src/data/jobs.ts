@@ -8,10 +8,17 @@ interface JobLocale {
   tag: string;
 }
 
+export type JobCategory = "forklift" | "picker" | "driver" | "manager" | "logistics" | "hr";
+export type ShiftKind = "day" | "night" | "rotating";
+export type SalaryTier = "entry" | "mid" | "high";
+
 export interface JobListing {
   id: string;
   slug: string;
   countries: string[];
+  category: JobCategory;
+  shiftKind: ShiftKind;
+  salaryTier: SalaryTier;
   pl: JobLocale;
   de: JobLocale;
   nl: JobLocale;
@@ -25,6 +32,9 @@ export const jobs: JobListing[] = [
     id: "wh-picker-slubice",
     slug: "pracownik-magazynowy-slubice",
     countries: ["PL"],
+    category: "picker",
+    shiftKind: "rotating",
+    salaryTier: "entry",
     pl: {
       title: "Pracownik magazynowy",
       location: "Słubice / Frankfurt (Oder)",
@@ -78,6 +88,9 @@ export const jobs: JobListing[] = [
     id: "forklift-op",
     slug: "operator-wozka-widlowego",
     countries: ["PL"],
+    category: "forklift",
+    shiftKind: "day",
+    salaryTier: "mid",
     pl: {
       title: "Operator wózka widłowego",
       location: "Słubice",
@@ -131,6 +144,9 @@ export const jobs: JobListing[] = [
     id: "production-worker",
     slug: "pracownik-produkcji",
     countries: ["PL"],
+    category: "picker",
+    shiftKind: "rotating",
+    salaryTier: "entry",
     pl: {
       title: "Pracownik produkcji",
       location: "Słubice / okolice",
@@ -184,6 +200,9 @@ export const jobs: JobListing[] = [
     id: "logistics-driver",
     slug: "kierowca-logistyczny",
     countries: ["PL"],
+    category: "driver",
+    shiftKind: "day",
+    salaryTier: "mid",
     pl: {
       title: "Kierowca logistyczny (kat. B)",
       location: "Słubice / Frankfurt (Oder) / region",
@@ -237,6 +256,9 @@ export const jobs: JobListing[] = [
     id: "greenhouse-worker-nl",
     slug: "pracownik-szklarni-holandia",
     countries: ["NL"],
+    category: "picker",
+    shiftKind: "day",
+    salaryTier: "mid",
     pl: {
       title: "Pracownik szklarni (kwiaty / warzywa)",
       location: "Holandia (Westland / Aalsmeer / region)",
@@ -290,6 +312,9 @@ export const jobs: JobListing[] = [
     id: "warehouse-nl-be",
     slug: "pracownik-magazynowy-holandia-belgia",
     countries: ["NL", "BE"],
+    category: "picker",
+    shiftKind: "rotating",
+    salaryTier: "entry",
     pl: {
       title: "Pracownik magazynowy / produkcji",
       location: "Holandia / Belgia",
@@ -343,6 +368,9 @@ export const jobs: JobListing[] = [
     id: "warehouse-picker-nl",
     slug: "magazijnmedewerker-nederland",
     countries: ["NL"],
+    category: "picker",
+    shiftKind: "rotating",
+    salaryTier: "entry",
     pl: {
       title: "Pracownik magazynowy (Holandia)",
       location: "Holandia (Rotterdam / Amsterdam / region)",
@@ -396,6 +424,9 @@ export const jobs: JobListing[] = [
     id: "forklift-op-nl",
     slug: "heftruckchauffeur-nederland",
     countries: ["NL"],
+    category: "forklift",
+    shiftKind: "day",
+    salaryTier: "high",
     pl: {
       title: "Operator wózka widłowego (Holandia)",
       location: "Holandia (Venlo / Eindhoven / region)",
