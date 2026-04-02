@@ -17,52 +17,30 @@ from app.routers.job_postings import router as job_postings_router
 from app.routers.workers import router as workers_router
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
-# Uses DO/EXCEPTION pattern so re-runs are idempotent.
-_ENUM_DDL = """
-DO $$ BEGIN
-    CREATE TYPE preferred_position AS ENUM (
+# Each statement is executed individually because asyncpg does not support
+# multiple commands in a single prepared statement.
+_ENUM_DDL_STATEMENTS = [
+    """DO $$ BEGIN CREATE TYPE preferred_position AS ENUM (
         'warehouse_picker','forklift_operator','logistics_driver','other'
-    );
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE screening_status AS ENUM (
+    ); EXCEPTION WHEN duplicate_object THEN NULL; END $$""",
+    """DO $$ BEGIN CREATE TYPE screening_status AS ENUM (
         'new','chatbot_in_progress','screened_pass','screened_fail',
         'offered','hired','rejected'
-    );
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE work_permit_type AS ENUM ('UE','non_UE_permit','none');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE payment_status AS ENUM ('pending','paid','overdue','cancelled');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE currency_enum AS ENUM ('PLN','EUR');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE chatbot_channel AS ENUM ('whatsapp','web');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE alert_type AS ENUM (
+    ); EXCEPTION WHEN duplicate_object THEN NULL; END $$""",
+    "DO $$ BEGIN CREATE TYPE work_permit_type AS ENUM ('UE','non_UE_permit','none'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE payment_status AS ENUM ('pending','paid','overdue','cancelled'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE currency_enum AS ENUM ('PLN','EUR'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE chatbot_channel AS ENUM ('whatsapp','web'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    """DO $$ BEGIN CREATE TYPE alert_type AS ENUM (
         'contract_expiry','health_cert_expiry','bhp_cert_expiry',
         'a1_cert_expiry','deployment_limit_warning'
-    );
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE audit_action AS ENUM ('insert','update','delete');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-
-DO $$ BEGIN
-    CREATE TYPE gdpr_subject_type AS ENUM ('worker','candidate');
-EXCEPTION WHEN duplicate_object THEN NULL; END $$;
-"""
+    ); EXCEPTION WHEN duplicate_object THEN NULL; END $$""",
+    "DO $$ BEGIN CREATE TYPE audit_action AS ENUM ('insert','update','delete'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE gdpr_subject_type AS ENUM ('worker','candidate'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE attendance_status_enum AS ENUM ('active','off','terminated'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE job_posting_platform AS ENUM ('olx','pracuj'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE job_posting_status AS ENUM ('active','expired','removed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+]
 
 
 @asynccontextmanager
@@ -72,7 +50,8 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     try:
         async with engine.begin() as conn:
             await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
-            await conn.execute(text(_ENUM_DDL))
+            for stmt in _ENUM_DDL_STATEMENTS:
+                await conn.execute(text(stmt))
             await conn.run_sync(Base.metadata.create_all)
     except Exception as exc:
         logging.getLogger(__name__).warning(
