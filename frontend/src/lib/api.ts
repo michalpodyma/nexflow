@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail } from "@/types/api";
+import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -194,8 +194,9 @@ export function getJobPostings(): Promise<Paginated<JobPosting>> {
 }
 
 // Workers
-export function getWorkers(page = 1, pageSize = 20): Promise<Paginated<Worker>> {
+export function getWorkers(page = 1, pageSize = 20, expiringDocs = false): Promise<Paginated<Worker>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  if (expiringDocs) params.set("expiring_docs", "true");
   return request<Paginated<Worker>>(`/api/v1/workers?${params}`);
 }
 
@@ -203,14 +204,18 @@ export function getWorker(workerId: string): Promise<WorkerDetail> {
   return request<WorkerDetail>(`/api/v1/workers/${workerId}`);
 }
 
+export function updateWorker(workerId: string, data: WorkerUpdate): Promise<Worker> {
+  return request<Worker>(`/api/v1/workers/${workerId}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
 export function updateWorkerAttendanceStatus(
   workerId: string,
   attendance_status: AttendanceStatus,
 ): Promise<Worker> {
-  return request<Worker>(`/api/v1/workers/${workerId}`, {
-    method: "PATCH",
-    body: JSON.stringify({ attendance_status }),
-  });
+  return updateWorker(workerId, { attendance_status });
 }
 
 // Clients

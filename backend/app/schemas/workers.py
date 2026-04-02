@@ -30,9 +30,15 @@ class WorkerRead(BaseModel):
     work_permit_type: WorkPermitType | None
     work_permit_expiry: datetime | None
     health_cert_expiry: datetime | None
+    safety_cert_expiry: datetime | None
     a1_cert_status: str | None
     attendance_status: AttendanceStatus
     gdpr_consent: bool
+    # Current assignment snapshot
+    current_client_id: UUID | None
+    current_client_name: str | None = None  # populated by router join, not ORM
+    assignment_start_date: datetime | None
+    assignment_end_date: datetime | None
     created_at: datetime
     updated_at: datetime
 
@@ -45,6 +51,17 @@ class WorkerDetail(WorkerRead):
 
 class WorkerUpdateStatus(BaseModel):
     attendance_status: AttendanceStatus
+
+
+class WorkerUpdate(BaseModel):
+    """Full editable fields for a worker record."""
+    attendance_status: AttendanceStatus | None = None
+    work_permit_expiry: datetime | None = None
+    health_cert_expiry: datetime | None = None
+    safety_cert_expiry: datetime | None = None
+    current_client_id: UUID | None = None
+    assignment_start_date: datetime | None = None
+    assignment_end_date: datetime | None = None
 
 
 class PaginatedWorkers(BaseModel):

@@ -8,6 +8,8 @@ from sqlalchemy.orm import Mapped, mapped_column
 from .base import Base
 from .enums import AttendanceStatus, WorkPermitType
 
+# Forward-ref note: current_client_id references clients.id — defined in clients.py
+
 
 class Worker(Base):
     """
@@ -66,6 +68,26 @@ class Worker(Base):
     )
     # ZUS — Polish social insurance registration status
     zus_status: Mapped[str | None] = mapped_column(sa.String(50), nullable=True)
+
+    # BHP (safety training) certificate expiry — Bezpieczeństwo i Higiena Pracy
+    safety_cert_expiry: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+
+    # Current placement — denormalised snapshot updated when assignment is created/ended.
+    # Source of truth remains the assignments table; this enables fast list-view queries.
+    current_client_id: Mapped[UUID | None] = mapped_column(
+        PGUUID(as_uuid=True),
+        sa.ForeignKey("clients.id", ondelete="SET NULL"),
+        nullable=True,
+        index=True,
+    )
+    assignment_start_date: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+    assignment_end_date: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
 
     # Worker attendance/employment status for performance tracking
     attendance_status: Mapped[AttendanceStatus] = mapped_column(

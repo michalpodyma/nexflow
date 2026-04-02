@@ -95,11 +95,26 @@ export interface Worker {
   work_permit_type: WorkPermitType | null;
   work_permit_expiry: string | null;
   health_cert_expiry: string | null;
+  safety_cert_expiry: string | null;
   a1_cert_status: string | null;
   attendance_status: AttendanceStatus;
   gdpr_consent: boolean;
+  current_client_id: string | null;
+  current_client_name: string | null;
+  assignment_start_date: string | null;
+  assignment_end_date: string | null;
   created_at: string;
   updated_at: string;
+}
+
+export interface WorkerUpdate {
+  attendance_status?: AttendanceStatus;
+  work_permit_expiry?: string | null;
+  health_cert_expiry?: string | null;
+  safety_cert_expiry?: string | null;
+  current_client_id?: string | null;
+  assignment_start_date?: string | null;
+  assignment_end_date?: string | null;
 }
 
 export interface WorkerDetail extends Worker {
