@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import FlowMark from "@/components/FlowMark";
 import { FadeIn } from "@/components/FadeIn";
 import { AnimatedCounter } from "@/components/AnimatedCounter";
+import { ShieldCheck, FileCheck, Building2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Nexflow — Workforce in motion.",
@@ -64,6 +65,33 @@ const stats = [
   { value: "21+", label: "narodowości" },
   { value: "5 dni", label: "czas rozmieszczenia" },
   { value: "10+", label: "lat doświadczenia" },
+];
+
+const testimonials = [
+  {
+    quote:
+      "Dostałem pracę w Słubicach w ciągu 3 dni od zgłoszenia. Wszystkie dokumenty były gotowe przed pierwszą zmianą — tego się nie spodziewałem po agencji.",
+    name: "Andrij K.",
+    role: "Pracownik magazynowy",
+    location: "Słubice, PL",
+    initials: "AK",
+  },
+  {
+    quote:
+      "Potrzebowaliśmy 40 pracowników na sezon w ciągu dwóch tygodni. Nexflow dostarczył 37 w pierwszym tygodniu — wszyscy z pełną dokumentacją. Nie pracujemy już z nikim innym.",
+    name: "Kierownik operacyjny",
+    role: "Firma logistyczna",
+    location: "Frankfurt (Oder), DE",
+    initials: "KO",
+  },
+  {
+    quote:
+      "Szklarnia w Holandii — dobra praca, legalna umowa, zakwaterowanie zorganizowane. Rekruter był dostępny na WhatsApp od pierwszego dnia.",
+    name: "Oksana V.",
+    role: "Pracownik szklarni",
+    location: "Westland, NL",
+    initials: "OV",
+  },
 ];
 
 const whyPoints = [
@@ -180,6 +208,24 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+
+        {/* Trust strip */}
+        <div className="bg-gray-50 border-y border-gray-200 py-4">
+          <div className="max-w-4xl mx-auto px-6 flex flex-wrap items-center justify-center gap-6 text-sm text-gray-600">
+            <div className="flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-nexflow-cyan flex-shrink-0" strokeWidth={1.5} />
+              <span>Certyfikat KRAZ nr 10916 — licencja agencji pracy</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <FileCheck className="w-5 h-5 text-nexflow-cyan flex-shrink-0" strokeWidth={1.5} />
+              <span>Pełna zgodność z polskim i niemieckim prawem pracy</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <Building2 className="w-5 h-5 text-nexflow-cyan flex-shrink-0" strokeWidth={1.5} />
+              <span>KRS 0000496516 — Nexflow Sp. z o.o.</span>
+            </div>
+          </div>
+        </div>
 
         {/* Services */}
         <section className="py-24 bg-cloud-white">
@@ -301,6 +347,50 @@ export default function HomePage() {
                     )}
                   </div>
                 </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials */}
+        <section className="py-16 px-6 bg-gray-50">
+          <div className="max-w-4xl mx-auto">
+            <FadeIn>
+              <h2 className="text-2xl font-bold text-nexflow-navy text-center mb-10">
+                Co mówią nasi pracownicy i klienci
+              </h2>
+            </FadeIn>
+            <div className="grid md:grid-cols-3 gap-6">
+              {testimonials.map(({ quote, name, role, location, initials }, i) => (
+                <FadeIn key={name} delay={i * 100}>
+                  <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 h-full flex flex-col">
+                    <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">&ldquo;{quote}&rdquo;</p>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 rounded-full bg-nexflow-navy flex items-center justify-center flex-shrink-0">
+                        <span className="text-nexflow-cyan text-xs font-bold">{initials}</span>
+                      </div>
+                      <div>
+                        <div className="font-semibold text-gray-900 text-sm">{name}</div>
+                        <div className="text-xs text-gray-400">{role} · {location}</div>
+                      </div>
+                    </div>
+                  </div>
+                </FadeIn>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* Client logo bar */}
+        <section className="py-10 px-6 border-t border-gray-100 bg-white">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-6">
+              Zaufali nam
+            </p>
+            {/* Placeholder — replace with real client logos when available */}
+            <div className="flex flex-wrap items-center justify-center gap-8 opacity-40">
+              {[1, 2, 3, 4, 5].map((i) => (
+                <div key={i} className="w-24 h-10 bg-gray-200 rounded" />
               ))}
             </div>
           </div>

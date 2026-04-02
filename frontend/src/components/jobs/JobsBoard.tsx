@@ -458,7 +458,7 @@ function JobsBoardContent({ jobs }: { jobs: JobListing[] }) {
           <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-4 mb-8 space-y-3">
             <div className="flex flex-wrap gap-3 items-center">
               {/* Geo tabs */}
-              <div className="flex gap-1 bg-gray-100 rounded-lg p-1">
+              <div className="flex gap-1 bg-gray-100 rounded-lg p-1 overflow-x-auto">
                 {geoTabs.map((tab) => (
                   <button
                     key={tab.value}
