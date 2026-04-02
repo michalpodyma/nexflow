@@ -151,6 +151,63 @@ export interface JobPosting {
   status: string;
 }
 
+export type JobOrderUrgency = "normal" | "urgent" | "critical";
+
+export type JobOrderStatus =
+  | "open"
+  | "sourcing"
+  | "submitted"
+  | "interview"
+  | "filled"
+  | "on_hold"
+  | "cancelled";
+
+export interface JobOrder {
+  id: string;
+  client_id: string;
+  title: string;
+  description: string | null;
+  location: string | null;
+  headcount_needed: number;
+  headcount_filled: number;
+  urgency: JobOrderUrgency;
+  status: JobOrderStatus;
+  deadline: string | null; // ISO date
+  salary_min: string | null;
+  salary_max: string | null;
+  currency: Currency;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface JobOrderCreate {
+  client_id: string;
+  title: string;
+  description?: string;
+  location?: string;
+  headcount_needed?: number;
+  urgency?: JobOrderUrgency;
+  status?: JobOrderStatus;
+  deadline?: string;
+  salary_min?: string;
+  salary_max?: string;
+  currency?: Currency;
+}
+
+export interface JobOrderUpdate {
+  title?: string;
+  description?: string;
+  location?: string;
+  headcount_needed?: number;
+  headcount_filled?: number;
+  urgency?: JobOrderUrgency;
+  status?: JobOrderStatus;
+  deadline?: string | null;
+  salary_min?: string | null;
+  salary_max?: string | null;
+  currency?: Currency;
+}
+
 export interface Paginated<T> {
   items: T[];
   total: number;

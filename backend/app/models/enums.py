@@ -117,3 +117,21 @@ class AttendanceStatus(str, enum.Enum):
     active = "active"
     off = "off"
     terminated = "terminated"
+
+
+class JobOrderUrgency(str, enum.Enum):
+    """Urgency level for a client job order."""
+    normal = "normal"
+    urgent = "urgent"
+    critical = "critical"
+
+
+class JobOrderStatus(str, enum.Enum):
+    """Lifecycle status of a client job order."""
+    open = "open"
+    sourcing = "sourcing"
+    submitted = "submitted"
+    interview = "interview"
+    filled = "filled"
+    on_hold = "on_hold"
+    cancelled = "cancelled"

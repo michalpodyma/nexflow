@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail } from "@/types/api";
+import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -222,4 +222,26 @@ export function getClients(page = 1, pageSize = 20): Promise<Paginated<Client>> 
 // Analytics
 export function getAnalyticsOverview(): Promise<AnalyticsOverview> {
   return request<AnalyticsOverview>("/api/v1/analytics/overview");
+}
+
+// Job Orders
+export function getJobOrders(filters?: { status?: JobOrderStatus; client_id?: string }): Promise<Paginated<JobOrder>> {
+  const params = new URLSearchParams({ page: "1", page_size: "200" });
+  if (filters?.status) params.set("status", filters.status);
+  if (filters?.client_id) params.set("client_id", filters.client_id);
+  return request<Paginated<JobOrder>>(`/api/v1/job-orders?${params}`);
+}
+
+export function createJobOrder(data: JobOrderCreate): Promise<JobOrder> {
+  return request<JobOrder>("/api/v1/job-orders", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateJobOrder(id: string, data: JobOrderUpdate): Promise<JobOrder> {
+  return request<JobOrder>(`/api/v1/job-orders/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
 }

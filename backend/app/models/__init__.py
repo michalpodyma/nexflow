@@ -16,6 +16,8 @@ from .enums import (
     ChatbotChannel,
     Currency,
     GdprSubjectType,
+    JobOrderStatus,
+    JobOrderUrgency,
     PaymentStatus,
     PreferredPosition,
     ScreeningStatus,
@@ -32,6 +34,7 @@ from .gdpr import GdprConsent
 from .chatbot import ChatbotSession
 from .compliance import ComplianceAlert
 from .audit import AuditLog
+from .job_orders import JobOrder
 
 __all__ = [
     "Base",
@@ -41,6 +44,8 @@ __all__ = [
     "ChatbotChannel",
     "Currency",
     "GdprSubjectType",
+    "JobOrderStatus",
+    "JobOrderUrgency",
     "PaymentStatus",
     "PreferredPosition",
     "ScreeningStatus",
@@ -58,4 +63,5 @@ __all__ = [
     "ChatbotSession",
     "ComplianceAlert",
     "AuditLog",
+    "JobOrder",
 ]
