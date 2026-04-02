@@ -3,10 +3,10 @@ import uuid
 from datetime import datetime, timedelta, timezone
 from typing import Annotated
 
+import bcrypt as _bcrypt
 import redis.asyncio as aioredis
 from fastapi import APIRouter, Depends, HTTPException, Request, Response, status
 from jose import JWTError, jwt
-from passlib.context import CryptContext
 from pydantic import BaseModel
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -37,8 +37,6 @@ _ENV_USERS: dict[str, str] = _parse_dashboard_users(settings.dashboard_users)
 
 router = APIRouter(prefix="/auth", tags=["auth"])
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
 _REFRESH_COOKIE = "nexflow_refresh"
 
 
@@ -48,11 +46,11 @@ _REFRESH_COOKIE = "nexflow_refresh"
 
 
 def _verify_password(plain: str, hashed: str) -> bool:
-    return bool(pwd_context.verify(plain, hashed))
+    return bool(_bcrypt.checkpw(plain.encode(), hashed.encode()))
 
 
 def _hash_password(plain: str) -> str:
-    return str(pwd_context.hash(plain))
+    return _bcrypt.hashpw(plain.encode(), _bcrypt.gensalt()).decode()
 
 
 def _create_access_token(username: str) -> str:
