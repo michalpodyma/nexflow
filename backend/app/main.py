@@ -1,8 +1,14 @@
+from contextlib import asynccontextmanager
+from typing import AsyncGenerator
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from sqlalchemy import text
 
 from app.auth.router import router as auth_router
 from app.config import settings
+from app.database import engine
+from app.models import Base
 from app.routers.analytics import router as analytics_router
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
@@ -10,7 +16,65 @@ from app.routers.health import router as health_router
 from app.routers.job_postings import router as job_postings_router
 from app.routers.workers import router as workers_router
 
-app = FastAPI(title="Nexflow Platform API", version="0.1.0")
+# DDL for PostgreSQL enum types — mirrors app/models/enums.py.
+# Uses DO/EXCEPTION pattern so re-runs are idempotent.
+_ENUM_DDL = """
+DO $$ BEGIN
+    CREATE TYPE preferred_position AS ENUM (
+        'warehouse_picker','forklift_operator','logistics_driver','other'
+    );
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE screening_status AS ENUM (
+        'new','chatbot_in_progress','screened_pass','screened_fail',
+        'offered','hired','rejected'
+    );
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE work_permit_type AS ENUM ('UE','non_UE_permit','none');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE payment_status AS ENUM ('pending','paid','overdue','cancelled');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE currency_enum AS ENUM ('PLN','EUR');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE chatbot_channel AS ENUM ('whatsapp','web');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE alert_type AS ENUM (
+        'contract_expiry','health_cert_expiry','bhp_cert_expiry',
+        'a1_cert_expiry','deployment_limit_warning'
+    );
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE audit_action AS ENUM ('insert','update','delete');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+
+DO $$ BEGIN
+    CREATE TYPE gdpr_subject_type AS ENUM ('worker','candidate');
+EXCEPTION WHEN duplicate_object THEN NULL; END $$;
+"""
+
+
+@asynccontextmanager
+async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
+    async with engine.begin() as conn:
+        await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
+        await conn.execute(text(_ENUM_DDL))
+        await conn.run_sync(Base.metadata.create_all)
+    yield
+
+
+app = FastAPI(title="Nexflow Platform API", version="0.1.0", lifespan=lifespan)
 
 # CORS — allow frontend in dev and configured production URL
 origins = ["http://localhost:3000"]
