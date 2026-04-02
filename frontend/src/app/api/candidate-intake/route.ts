@@ -375,34 +375,36 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Invalid request body" }, { status: 400 });
   }
 
-  // Step 1 — persist candidate to backend (required)
-  const backendRes = await fetch(`${BACKEND_URL}/api/v1/candidates`, {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      first_name: payload.first_name,
-      last_name: payload.last_name,
-      phone: payload.phone,
-      ...(payload.email ? { email: payload.email } : {}),
-      nationality: payload.nationality,
-      availability_from: payload.availability_from,
-      preferred_position: payload.preferred_position,
-      languages: payload.languages,
-      ...(payload.location_preference ? { location_preference: payload.location_preference } : {}),
-      gdpr_consent: payload.gdpr_consent,
-      gdpr_consent_at: payload.gdpr_consent_at,
-    }),
-  });
+  // Step 1 — persist candidate to backend (best-effort; HubSpot/email/chatbot still run if backend is down)
+  let candidate: Record<string, unknown> = { phone: payload.phone };
+  try {
+    const backendRes = await fetch(`${BACKEND_URL}/api/v1/candidates`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        first_name: payload.first_name,
+        last_name: payload.last_name,
+        phone: payload.phone,
+        ...(payload.email ? { email: payload.email } : {}),
+        nationality: payload.nationality,
+        availability_from: payload.availability_from,
+        preferred_position: payload.preferred_position,
+        languages: payload.languages,
+        ...(payload.location_preference ? { location_preference: payload.location_preference } : {}),
+        gdpr_consent: payload.gdpr_consent,
+        gdpr_consent_at: payload.gdpr_consent_at,
+      }),
+    });
 
-  if (!backendRes.ok) {
-    const body = await backendRes.json().catch(() => ({})) as Record<string, string>;
-    return NextResponse.json(
-      { error: body.detail ?? "Submission failed" },
-      { status: backendRes.status },
-    );
+    if (!backendRes.ok) {
+      const body = await backendRes.json().catch(() => ({})) as Record<string, string>;
+      console.error(`[intake] Backend returned ${backendRes.status}: ${body.detail ?? "unknown"}`);
+    } else {
+      candidate = await backendRes.json() as Record<string, unknown>;
+    }
+  } catch (err) {
+    console.error("[intake] Backend unreachable — continuing without DB persistence:", err);
   }
-
-  const candidate = await backendRes.json() as Record<string, unknown>;
 
   // Step 2 — HubSpot contact + deal (best-effort, non-blocking)
   if (HUBSPOT_TOKEN) {
