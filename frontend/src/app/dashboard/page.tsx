@@ -4,14 +4,9 @@ import { useEffect, useState } from "react";
 
 import { Header } from "@/components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getCandidates, getClients, getWorkers } from "@/lib/api";
+import { getAnalyticsOverview, getWorkers } from "@/lib/api";
+import type { AnalyticsOverview } from "@/types/api";
 import type { ReplyNotification } from "@/app/api/webhooks/instantly/route";
-
-interface Stats {
-  candidates: number;
-  workers: number;
-  clients: number;
-}
 
 const CATEGORY_COLOUR: Record<string, string> = {
   Interested: "bg-green-100 text-green-700",
@@ -23,24 +18,58 @@ function categoryBadge(cat: string) {
   return CATEGORY_COLOUR[cat] ?? "bg-gray-100 text-gray-600";
 }
 
+function formatPln(value: number): string {
+  return new Intl.NumberFormat("pl-PL", {
+    style: "currency",
+    currency: "PLN",
+    maximumFractionDigits: 0,
+  }).format(value);
+}
+
+function formatPercent(value: number): string {
+  return `${Math.round(value * 100)}%`;
+}
+
+interface StatCardProps {
+  title: string;
+  value: string | number;
+  placeholder?: boolean;
+}
+
+function StatCard({ title, value, placeholder }: StatCardProps) {
+  return (
+    <Card>
+      <CardHeader className="pb-2">
+        <CardTitle className="text-sm font-medium text-muted-foreground">{title}</CardTitle>
+      </CardHeader>
+      <CardContent>
+        <p className={`text-3xl font-bold ${placeholder ? "text-muted-foreground" : ""}`}>
+          {value}
+        </p>
+      </CardContent>
+    </Card>
+  );
+}
+
 export default function DashboardPage() {
-  const [stats, setStats] = useState<Stats>({ candidates: 0, workers: 0, clients: 0 });
+  const [activeWorkers, setActiveWorkers] = useState<number>(0);
+  const [analytics, setAnalytics] = useState<AnalyticsOverview | null>(null);
   const [replyNotifications, setReplyNotifications] = useState<ReplyNotification[]>([]);
 
   useEffect(() => {
     async function load() {
-      const [c, w, cl] = await Promise.allSettled([
-        getCandidates(1, 1),
+      const [workersResult, analyticsResult] = await Promise.allSettled([
         getWorkers(1, 1),
-        getClients(1, 1),
+        getAnalyticsOverview(),
       ]);
-      setStats({
-        candidates: c.status === "fulfilled" ? c.value.total : 0,
-        workers: w.status === "fulfilled" ? w.value.total : 0,
-        clients: cl.status === "fulfilled" ? cl.value.total : 0,
-      });
+      if (workersResult.status === "fulfilled") {
+        setActiveWorkers(workersResult.value.total);
+      }
+      if (analyticsResult.status === "fulfilled") {
+        setAnalytics(analyticsResult.value);
+      }
     }
-    load();
+    void load();
   }, []);
 
   useEffect(() => {
@@ -57,32 +86,53 @@ export default function DashboardPage() {
     void loadNotifications();
   }, []);
 
-  const statCards = [
-    { title: "Total Candidates", value: stats.candidates },
-    { title: "Active Workers", value: stats.workers },
-    { title: "Clients", value: stats.clients },
-    { title: "Scheduled (soon)", value: "—" },
+  const recruitmentCards: StatCardProps[] = [
+    { title: "Open Job Orders", value: 0, placeholder: true },
+    { title: "Active Workers", value: activeWorkers },
+    { title: "Expiring Documents (30 days)", value: 0, placeholder: true },
+    {
+      title: "Fill Rate",
+      value: analytics ? formatPercent(analytics.placement_rate) : "—",
+    },
+  ];
+
+  const b2bCards: StatCardProps[] = [
+    { title: "Pipeline Value", value: "—", placeholder: true },
+    { title: "Deals In Progress", value: 0, placeholder: true },
+    { title: "New Leads This Week", value: 0, placeholder: true },
+    {
+      title: "Revenue Forecast (monthly)",
+      value: analytics ? formatPln(analytics.revenue_forecast_monthly_pln) : "—",
+    },
   ];
 
   return (
     <div className="flex flex-1 flex-col overflow-auto">
       <Header title="Dashboard" />
-      <main className="flex-1 p-6 space-y-6">
-        {/* Stats */}
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          {statCards.map((card) => (
-            <Card key={card.title}>
-              <CardHeader className="pb-2">
-                <CardTitle className="text-sm font-medium text-muted-foreground">
-                  {card.title}
-                </CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-3xl font-bold">{card.value}</p>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
+      <main className="flex-1 p-6 space-y-8">
+        {/* Recruitment Overview */}
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            Recruitment Overview
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {recruitmentCards.map((card) => (
+              <StatCard key={card.title} {...card} />
+            ))}
+          </div>
+        </section>
+
+        {/* B2B Pipeline Overview */}
+        <section className="space-y-3">
+          <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+            B2B Pipeline Overview
+          </h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+            {b2bCards.map((card) => (
+              <StatCard key={card.title} {...card} />
+            ))}
+          </div>
+        </section>
 
         {/* Reply notifications panel */}
         <Card>
@@ -103,7 +153,10 @@ export default function DashboardPage() {
             ) : (
               <div className="divide-y">
                 {replyNotifications.map((n) => (
-                  <div key={n.id} className="flex items-start justify-between gap-4 py-3 first:pt-0 last:pb-0">
+                  <div
+                    key={n.id}
+                    className="flex items-start justify-between gap-4 py-3 first:pt-0 last:pb-0"
+                  >
                     <div className="min-w-0 flex-1">
                       <div className="flex flex-wrap items-center gap-2">
                         <span className="font-medium text-sm text-gray-900">{n.leadName}</span>
