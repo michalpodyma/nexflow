@@ -46,13 +46,15 @@ function SeverityBadge({ severity }: { severity: AlertSeverity }) {
 
 export default function CompliancePage() {
   const [alerts, setAlerts] = useState<ComplianceAlert[]>([]);
-  const [counts, setCounts] = useState({ critical: 0, warning: 0, info: 0, total: 0 });
+  const [counts, setCounts] = useState<{ critical: number; warning: number; info: number; total: number } | null>(null);
   const [loading, setLoading] = useState(true);
+  const [fetchError, setFetchError] = useState(false);
   const [severityFilter, setSeverityFilter] = useState<AlertSeverity | "">("");
   const [docTypeFilter, setDocTypeFilter] = useState<ComplianceDocumentType | "">("");
 
   useEffect(() => {
     setLoading(true);
+    setFetchError(false);
     getComplianceAlerts({
       severity: severityFilter || undefined,
       document_type: docTypeFilter || undefined,
@@ -68,6 +70,7 @@ export default function CompliancePage() {
       })
       .catch(() => {
         setAlerts([]);
+        setFetchError(true);
       })
       .finally(() => setLoading(false));
   }, [severityFilter, docTypeFilter]);
@@ -76,7 +79,13 @@ export default function CompliancePage() {
     <div className="flex flex-1 flex-col overflow-auto">
       <Header title="Compliance" />
       <main className="flex-1 p-6 space-y-6">
-        {/* Summary cards */}
+        {fetchError && (
+          <div className="rounded-md border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+            Failed to load compliance alerts. Please refresh the page or try again.
+          </div>
+        )}
+
+        {/* Summary cards — always reflect global totals (unaffected by active filters) */}
         <div className="grid gap-4 sm:grid-cols-3">
           <Card>
             <CardHeader className="pb-2">
@@ -85,7 +94,9 @@ export default function CompliancePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold text-red-600">{counts.critical}</p>
+              <p className={`text-3xl font-bold ${counts === null ? "text-muted-foreground" : "text-red-600"}`}>
+                {counts === null ? "—" : counts.critical}
+              </p>
             </CardContent>
           </Card>
           <Card>
@@ -95,7 +106,9 @@ export default function CompliancePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold text-yellow-600">{counts.warning}</p>
+              <p className={`text-3xl font-bold ${counts === null ? "text-muted-foreground" : "text-yellow-600"}`}>
+                {counts === null ? "—" : counts.warning}
+              </p>
             </CardContent>
           </Card>
           <Card>
@@ -105,7 +118,9 @@ export default function CompliancePage() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-3xl font-bold text-blue-600">{counts.info}</p>
+              <p className={`text-3xl font-bold ${counts === null ? "text-muted-foreground" : "text-blue-600"}`}>
+                {counts === null ? "—" : counts.info}
+              </p>
             </CardContent>
           </Card>
         </div>

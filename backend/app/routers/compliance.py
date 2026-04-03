@@ -115,15 +115,16 @@ async def get_compliance_alerts(
     # Sort by urgency (soonest first)
     alerts.sort(key=lambda a: a.days_remaining)
 
-    # Apply optional filters
+    # Compute global counts before filtering so summary cards always reflect totals
+    critical_count = sum(1 for a in alerts if a.severity == "critical")
+    warning_count = sum(1 for a in alerts if a.severity == "warning")
+    info_count = sum(1 for a in alerts if a.severity == "info")
+
+    # Apply optional filters (table only — counts above are unaffected)
     if severity:
         alerts = [a for a in alerts if a.severity == severity]
     if document_type:
         alerts = [a for a in alerts if a.document_type == document_type]
-
-    critical_count = sum(1 for a in alerts if a.severity == "critical")
-    warning_count = sum(1 for a in alerts if a.severity == "warning")
-    info_count = sum(1 for a in alerts if a.severity == "info")
 
     return ComplianceAlertsResponse(
         alerts=alerts,

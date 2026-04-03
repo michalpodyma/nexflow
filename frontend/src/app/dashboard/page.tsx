@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 
+import Link from "next/link";
+
 import { Header } from "@/components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { getAnalyticsOverview, getComplianceAlerts, getWorkers } from "@/lib/api";
@@ -34,11 +36,12 @@ interface StatCardProps {
   title: string;
   value: string | number;
   placeholder?: boolean;
+  href?: string;
 }
 
-function StatCard({ title, value, placeholder }: StatCardProps) {
-  return (
-    <Card>
+function StatCard({ title, value, placeholder, href }: StatCardProps) {
+  const card = (
+    <Card className={href ? "cursor-pointer transition-colors hover:bg-accent/50" : undefined}>
       <CardHeader className="pb-2">
         <CardTitle className="text-sm font-medium text-muted-foreground">{title}</CardTitle>
       </CardHeader>
@@ -49,6 +52,10 @@ function StatCard({ title, value, placeholder }: StatCardProps) {
       </CardContent>
     </Card>
   );
+  if (href) {
+    return <Link href={href}>{card}</Link>;
+  }
+  return card;
 }
 
 export default function DashboardPage() {
@@ -95,9 +102,10 @@ export default function DashboardPage() {
     { title: "Open Job Orders", value: 0, placeholder: true },
     { title: "Active Workers", value: activeWorkers },
     {
-      title: "Expiring Documents (30 days)",
+      title: "Expiring Documents (60 days)",
       value: complianceAlertCount ?? "—",
       placeholder: complianceAlertCount === null,
+      href: "/dashboard/compliance",
     },
     {
       title: "Fill Rate",
