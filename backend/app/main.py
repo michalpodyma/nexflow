@@ -12,6 +12,7 @@ from app.models import Base
 from app.routers.analytics import router as analytics_router
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
+from app.routers.compliance import router as compliance_router
 from app.routers.health import router as health_router
 from app.routers.job_orders import router as job_orders_router
 from app.routers.job_postings import router as job_postings_router
@@ -83,6 +84,7 @@ app.include_router(auth_router)
 app.include_router(candidates_router)
 app.include_router(workers_router)
 app.include_router(clients_router)
+app.include_router(compliance_router)
 app.include_router(job_orders_router)
 app.include_router(job_postings_router)
 app.include_router(analytics_router)

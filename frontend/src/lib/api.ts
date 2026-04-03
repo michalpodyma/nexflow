@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
+import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -227,6 +227,18 @@ export function getClients(page = 1, pageSize = 20): Promise<Paginated<Client>> 
 // Analytics
 export function getAnalyticsOverview(): Promise<AnalyticsOverview> {
   return request<AnalyticsOverview>("/api/v1/analytics/overview");
+}
+
+// Compliance
+export function getComplianceAlerts(filters?: {
+  severity?: AlertSeverity;
+  document_type?: ComplianceDocumentType;
+}): Promise<ComplianceAlertsResponse> {
+  const params = new URLSearchParams();
+  if (filters?.severity) params.set("severity", filters.severity);
+  if (filters?.document_type) params.set("document_type", filters.document_type);
+  const qs = params.toString();
+  return request<ComplianceAlertsResponse>(`/api/v1/compliance/alerts${qs ? `?${qs}` : ""}`);
 }
 
 // Job Orders

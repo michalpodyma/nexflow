@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { Header } from "@/components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAnalyticsOverview, getWorkers } from "@/lib/api";
+import { getAnalyticsOverview, getComplianceAlerts, getWorkers } from "@/lib/api";
 import type { AnalyticsOverview } from "@/types/api";
 import type { ReplyNotification } from "@/app/api/webhooks/instantly/route";
 
@@ -55,18 +55,23 @@ export default function DashboardPage() {
   const [activeWorkers, setActiveWorkers] = useState<number>(0);
   const [analytics, setAnalytics] = useState<AnalyticsOverview | null>(null);
   const [replyNotifications, setReplyNotifications] = useState<ReplyNotification[]>([]);
+  const [complianceAlertCount, setComplianceAlertCount] = useState<number | null>(null);
 
   useEffect(() => {
     async function load() {
-      const [workersResult, analyticsResult] = await Promise.allSettled([
+      const [workersResult, analyticsResult, complianceResult] = await Promise.allSettled([
         getWorkers(1, 1),
         getAnalyticsOverview(),
+        getComplianceAlerts(),
       ]);
       if (workersResult.status === "fulfilled") {
         setActiveWorkers(workersResult.value.total);
       }
       if (analyticsResult.status === "fulfilled") {
         setAnalytics(analyticsResult.value);
+      }
+      if (complianceResult.status === "fulfilled") {
+        setComplianceAlertCount(complianceResult.value.critical_count + complianceResult.value.warning_count);
       }
     }
     void load();
@@ -89,7 +94,11 @@ export default function DashboardPage() {
   const recruitmentCards: StatCardProps[] = [
     { title: "Open Job Orders", value: 0, placeholder: true },
     { title: "Active Workers", value: activeWorkers },
-    { title: "Expiring Documents (30 days)", value: 0, placeholder: true },
+    {
+      title: "Expiring Documents (30 days)",
+      value: complianceAlertCount ?? "—",
+      placeholder: complianceAlertCount === null,
+    },
     {
       title: "Fill Rate",
       value: analytics ? formatPercent(analytics.placement_rate) : "—",

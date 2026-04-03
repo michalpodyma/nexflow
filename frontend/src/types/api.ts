@@ -223,6 +223,27 @@ export interface JobOrderUpdate {
   currency?: Currency;
 }
 
+export type AlertSeverity = "critical" | "warning" | "info";
+export type ComplianceDocumentType = "work_permit" | "health_cert" | "safety_cert";
+
+export interface ComplianceAlert {
+  worker_id: string;
+  worker_name: string;
+  document_type: ComplianceDocumentType;
+  document_label: string;
+  expiry_date: string;
+  days_remaining: number;
+  severity: AlertSeverity;
+}
+
+export interface ComplianceAlertsResponse {
+  alerts: ComplianceAlert[];
+  critical_count: number;
+  warning_count: number;
+  info_count: number;
+  total: number;
+}
+
 export interface Paginated<T> {
   items: T[];
   total: number;
