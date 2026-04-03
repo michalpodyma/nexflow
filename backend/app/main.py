@@ -54,6 +54,7 @@ _ENUM_DDL_STATEMENTS = [
     "DO $$ BEGIN CREATE TYPE candidate_job_order_status AS ENUM ('submitted','interviewing','offered','placed','rejected'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE template_type_enum AS ENUM ('employment_contract','mandate_contract','annex','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE document_status_enum AS ENUM ('draft','final','signed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE client_activity_type_enum AS ENUM ('note','call','email','meeting'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
 ]
 
 

@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -241,6 +241,74 @@ export function updateWorkerAttendanceStatus(
 export function getClients(page = 1, pageSize = 20): Promise<Paginated<Client>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
   return request<Paginated<Client>>(`/api/v1/clients?${params}`);
+}
+
+export function getClient(id: string): Promise<Client> {
+  return request<Client>(`/api/v1/clients/${id}`);
+}
+
+export function createClient(data: ClientCreate): Promise<Client> {
+  return request<Client>("/api/v1/clients", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateClient(id: string, data: ClientUpdate): Promise<Client> {
+  return request<Client>(`/api/v1/clients/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getClientActivities(
+  clientId: string,
+  page = 1,
+  pageSize = 20,
+): Promise<Paginated<ClientActivity>> {
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<ClientActivity>>(`/api/v1/clients/${clientId}/activities?${params}`);
+}
+
+export function createClientActivity(
+  clientId: string,
+  data: ClientActivityCreate,
+): Promise<ClientActivity> {
+  return request<ClientActivity>(`/api/v1/clients/${clientId}/activities`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getClientContacts(clientId: string): Promise<ClientContact[]> {
+  return request<ClientContact[]>(`/api/v1/clients/${clientId}/contacts`);
+}
+
+export function createClientContact(
+  clientId: string,
+  data: ClientContactCreate,
+): Promise<ClientContact> {
+  return request<ClientContact>(`/api/v1/clients/${clientId}/contacts`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateClientContact(
+  clientId: string,
+  contactId: string,
+  data: ClientContactUpdate,
+): Promise<ClientContact> {
+  return request<ClientContact>(`/api/v1/clients/${clientId}/contacts/${contactId}`, {
+    method: "PUT",
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteClientContact(clientId: string, contactId: string): Promise<void> {
+  return request<void>(`/api/v1/clients/${clientId}/contacts/${contactId}`, {
+    method: "DELETE",
+  });
 }
 
 // Analytics

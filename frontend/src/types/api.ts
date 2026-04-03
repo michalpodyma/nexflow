@@ -168,6 +168,83 @@ export interface Client {
   updated_at: string;
 }
 
+export interface ClientCreate {
+  company_name: string;
+  nip?: string | null;
+  vat_eu?: string | null;
+  address?: string | null;
+  city?: string | null;
+  postal_code?: string | null;
+  country?: string | null;
+  phone?: string | null;
+  email?: string | null;
+  account_manager_name?: string | null;
+  payment_terms_days?: number;
+  currency?: Currency;
+  is_active?: boolean;
+}
+
+export interface ClientUpdate {
+  company_name?: string;
+  nip?: string | null;
+  vat_eu?: string | null;
+  address?: string | null;
+  city?: string | null;
+  postal_code?: string | null;
+  country?: string | null;
+  phone?: string | null;
+  email?: string | null;
+  account_manager_name?: string | null;
+  payment_terms_days?: number;
+  currency?: Currency;
+  is_active?: boolean;
+}
+
+export type ActivityType = "note" | "call" | "email" | "meeting";
+
+export interface ClientActivity {
+  id: string;
+  client_id: string;
+  activity_type: ActivityType;
+  description: string;
+  created_by: string | null;
+  created_at: string;
+}
+
+export interface ClientActivityCreate {
+  activity_type: ActivityType;
+  description: string;
+  created_by?: string | null;
+}
+
+export interface ClientContact {
+  id: string;
+  client_id: string;
+  name: string;
+  role: string | null;
+  phone: string | null;
+  email: string | null;
+  is_primary: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ClientContactCreate {
+  name: string;
+  role?: string | null;
+  phone?: string | null;
+  email?: string | null;
+  is_primary?: boolean;
+}
+
+export interface ClientContactUpdate {
+  name?: string;
+  role?: string | null;
+  phone?: string | null;
+  email?: string | null;
+  is_primary?: boolean;
+}
+
 export interface PipelineStageCount {
   status: string;
   count: number;

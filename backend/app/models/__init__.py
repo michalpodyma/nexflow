@@ -40,6 +40,8 @@ from .candidate_job_orders import CandidateJobOrder
 from .accommodations import Accommodation, AccommodationAssignment
 from .transport import TransportAssignment, TransportRoute, Vehicle
 from .documents import DocumentTemplate, GeneratedDocument
+from .client_activities import ClientActivity, ActivityType
+from .client_contacts import ClientContact
 
 __all__ = [
     "Base",
@@ -78,4 +80,7 @@ __all__ = [
     "TransportAssignment",
     "DocumentTemplate",
     "GeneratedDocument",
+    "ClientActivity",
+    "ActivityType",
+    "ClientContact",
 ]
