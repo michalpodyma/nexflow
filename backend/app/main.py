@@ -10,6 +10,7 @@ from app.config import settings
 from app.database import engine
 from app.models import Base
 from app.routers.analytics import router as analytics_router
+from app.routers.candidate_job_orders import router as candidate_job_orders_router
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
 from app.routers.compliance import router as compliance_router
@@ -44,6 +45,7 @@ _ENUM_DDL_STATEMENTS = [
     "DO $$ BEGIN CREATE TYPE job_posting_status AS ENUM ('active','expired','removed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE job_order_urgency AS ENUM ('normal','urgent','critical'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE job_order_status AS ENUM ('open','sourcing','submitted','interview','filled','on_hold','cancelled'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE candidate_job_order_status AS ENUM ('submitted','interviewing','offered','placed','rejected'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
 ]
 
 
@@ -82,6 +84,7 @@ app.add_middleware(
 app.include_router(health_router)
 app.include_router(auth_router)
 app.include_router(candidates_router)
+app.include_router(candidate_job_orders_router)
 app.include_router(workers_router)
 app.include_router(clients_router)
 app.include_router(compliance_router)

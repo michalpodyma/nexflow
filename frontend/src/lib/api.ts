@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
+import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -261,4 +261,34 @@ export function updateJobOrder(id: string, data: JobOrderUpdate): Promise<JobOrd
     method: "PATCH",
     body: JSON.stringify(data),
   });
+}
+
+// Candidate ↔ Job Order links
+export function getCandidateJobOrders(candidateId: string): Promise<Paginated<CandidateJobOrder>> {
+  return request<Paginated<CandidateJobOrder>>(`/api/v1/candidates/${candidateId}/job-orders`);
+}
+
+export function assignCandidateToJobOrder(
+  candidateId: string,
+  data: CandidateJobOrderCreate,
+): Promise<CandidateJobOrder> {
+  return request<CandidateJobOrder>(`/api/v1/candidates/${candidateId}/job-orders`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateCandidateJobOrderStatus(
+  candidateId: string,
+  jobOrderId: string,
+  data: CandidateJobOrderUpdate,
+): Promise<CandidateJobOrder> {
+  return request<CandidateJobOrder>(`/api/v1/candidates/${candidateId}/job-orders/${jobOrderId}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getJobOrderCandidates(jobOrderId: string): Promise<Paginated<CandidateJobOrder>> {
+  return request<Paginated<CandidateJobOrder>>(`/api/v1/job-orders/${jobOrderId}/candidates`);
 }

@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { createJobOrder, getClients, getJobOrders, updateJobOrder } from "@/lib/api";
+import { createJobOrder, getClients, getJobOrderCandidates, getJobOrders, updateJobOrder } from "@/lib/api";
 import type { Client, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUrgency } from "@/types/api";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
@@ -49,12 +49,13 @@ function UrgencyBadge({ urgency }: { urgency: JobOrderUrgency }) {
 interface KanbanCardProps {
   order: JobOrder;
   clientName: string;
+  candidateCount: number;
   onStatusChange: (id: string, status: JobOrderStatus) => void;
   draggable: boolean;
   onDragStart: (e: React.DragEvent, id: string) => void;
 }
 
-function KanbanCard({ order, clientName, onStatusChange, draggable, onDragStart }: KanbanCardProps) {
+function KanbanCard({ order, clientName, candidateCount, onStatusChange, draggable, onDragStart }: KanbanCardProps) {
   return (
     <div
       draggable={draggable}
@@ -69,6 +70,11 @@ function KanbanCard({ order, clientName, onStatusChange, draggable, onDragStart 
         <span className="text-xs text-gray-500">
           {order.headcount_filled}/{order.headcount_needed} filled
         </span>
+        {candidateCount > 0 && (
+          <span className="rounded-full bg-indigo-100 text-indigo-700 px-2 py-0.5 text-xs font-medium">
+            {candidateCount} candidate{candidateCount !== 1 ? "s" : ""}
+          </span>
+        )}
         {order.deadline && (
           <span className="text-xs text-gray-400">
             Due {order.deadline}
@@ -249,6 +255,7 @@ export default function JobOrdersPage() {
   const [clients, setClients] = useState<Client[]>([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
+  const [candidateCounts, setCandidateCounts] = useState<Record<string, number>>({});
   const draggingId = useRef<string | null>(null);
 
   useEffect(() => {
@@ -256,6 +263,16 @@ export default function JobOrdersPage() {
       .then(([ordersRes, clientsRes]) => {
         setOrders(ordersRes.items);
         setClients(clientsRes.items);
+        // Fetch candidate counts for all job orders in parallel
+        Promise.all(
+          ordersRes.items.map((o) =>
+            getJobOrderCandidates(o.id).then((r) => ({ id: o.id, count: r.total }))
+          )
+        ).then((results) => {
+          const map: Record<string, number> = {};
+          results.forEach(({ id, count }) => { map[id] = count; });
+          setCandidateCounts(map);
+        });
       })
       .finally(() => setLoading(false));
   }, []);
@@ -340,6 +357,7 @@ export default function JobOrdersPage() {
                       key={order.id}
                       order={order}
                       clientName={clientMap[order.client_id] ?? "Unknown client"}
+                      candidateCount={candidateCounts[order.id] ?? 0}
                       onStatusChange={handleStatusChange}
                       draggable={true}
                       onDragStart={handleDragStart}

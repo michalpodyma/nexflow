@@ -251,6 +251,31 @@ export interface Paginated<T> {
   page_size: number;
 }
 
+export type CandidateJobOrderStatus =
+  | "submitted"
+  | "interviewing"
+  | "offered"
+  | "placed"
+  | "rejected";
+
+export interface CandidateJobOrder {
+  id: string;
+  candidate_id: string;
+  job_order_id: string;
+  status: CandidateJobOrderStatus;
+  submitted_at: string;
+  updated_at: string;
+}
+
+export interface CandidateJobOrderCreate {
+  job_order_id: string;
+  status?: CandidateJobOrderStatus;
+}
+
+export interface CandidateJobOrderUpdate {
+  status: CandidateJobOrderStatus;
+}
+
 export interface TokenResponse {
   access_token: string;
   token_type: string;

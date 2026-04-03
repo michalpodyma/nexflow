@@ -13,15 +13,19 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import {
+  assignCandidateToJobOrder,
   bulkUpdateCandidates,
   createCandidateReminder,
   dismissCandidateReminder,
+  getCandidateJobOrders,
   getCandidateReminders,
   getCandidates,
+  getJobOrders,
   getJobPostings,
   updateCandidate,
+  updateCandidateJobOrderStatus,
 } from "@/lib/api";
-import type { Candidate, CandidateReminder, JobPosting } from "@/types/api";
+import type { Candidate, CandidateJobOrder, CandidateJobOrderStatus, CandidateReminder, JobOrder, JobPosting } from "@/types/api";
 
 // ---- Status colour map ----
 const STATUS_COLOURS: Record<string, string> = {
@@ -73,6 +77,22 @@ function ResultToast({
   );
 }
 
+const CJO_STATUS_COLOURS: Record<CandidateJobOrderStatus, string> = {
+  submitted: "bg-blue-100 text-blue-700",
+  interviewing: "bg-yellow-100 text-yellow-700",
+  offered: "bg-purple-100 text-purple-700",
+  placed: "bg-emerald-100 text-emerald-700",
+  rejected: "bg-gray-100 text-gray-500",
+};
+
+const CJO_STATUSES: CandidateJobOrderStatus[] = [
+  "submitted",
+  "interviewing",
+  "offered",
+  "placed",
+  "rejected",
+];
+
 // ---- Candidate detail modal ----
 interface DetailModalProps {
   candidate: Candidate;
@@ -93,11 +113,53 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
   const [reminderSaving, setReminderSaving] = useState(false);
   const [reminderError, setReminderError] = useState("");
 
+  // Job orders section
+  const [candidateJobOrders, setCandidateJobOrders] = useState<CandidateJobOrder[]>([]);
+  const [cjoLoading, setCjoLoading] = useState(true);
+  const [availableJobOrders, setAvailableJobOrders] = useState<JobOrder[]>([]);
+  const [selectedJobOrderId, setSelectedJobOrderId] = useState("");
+  const [assigningSaving, setAssigningSaving] = useState(false);
+  const [assigningError, setAssigningError] = useState("");
+
   useEffect(() => {
     getCandidateReminders(candidate.id)
       .then(setReminders)
       .finally(() => setRemindersLoading(false));
   }, [candidate.id]);
+
+  useEffect(() => {
+    getCandidateJobOrders(candidate.id)
+      .then((res) => setCandidateJobOrders(res.items))
+      .finally(() => setCjoLoading(false));
+    getJobOrders().then((res) => setAvailableJobOrders(res.items));
+  }, [candidate.id]);
+
+  async function handleAssignJobOrder() {
+    if (!selectedJobOrderId) {
+      setAssigningError("Select a job order first.");
+      return;
+    }
+    setAssigningSaving(true);
+    setAssigningError("");
+    try {
+      const created = await assignCandidateToJobOrder(candidate.id, { job_order_id: selectedJobOrderId });
+      setCandidateJobOrders((prev) => [created, ...prev]);
+      setSelectedJobOrderId("");
+    } catch {
+      setAssigningError("Failed to assign. The candidate may already be linked to this job order.");
+    } finally {
+      setAssigningSaving(false);
+    }
+  }
+
+  async function handleCjoStatusChange(jobOrderId: string, status: CandidateJobOrderStatus) {
+    try {
+      const updated = await updateCandidateJobOrderStatus(candidate.id, jobOrderId, { status });
+      setCandidateJobOrders((prev) => prev.map((l) => (l.job_order_id === jobOrderId ? updated : l)));
+    } catch {
+      // best-effort
+    }
+  }
 
   async function handleSaveNotes() {
     setNotesSaving(true);
@@ -217,6 +279,69 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
             </div>
           </div>
 
+          {/* Job Orders */}
+          <div>
+            <p className="text-sm font-medium mb-2">Job Orders</p>
+            {cjoLoading ? (
+              <p className="text-xs text-muted-foreground">Loading…</p>
+            ) : candidateJobOrders.length === 0 ? (
+              <p className="text-xs text-muted-foreground">Not linked to any job orders yet.</p>
+            ) : (
+              <ul className="space-y-2 mb-3">
+                {candidateJobOrders.map((link) => {
+                  const jo = availableJobOrders.find((o) => o.id === link.job_order_id);
+                  return (
+                    <li
+                      key={link.id}
+                      className="flex items-center justify-between gap-2 rounded-md border px-3 py-2 text-sm"
+                    >
+                      <span className="truncate font-medium text-gray-800">
+                        {jo?.title ?? link.job_order_id}
+                      </span>
+                      <select
+                        value={link.status}
+                        onChange={(e) =>
+                          void handleCjoStatusChange(link.job_order_id, e.target.value as CandidateJobOrderStatus)
+                        }
+                        className={`shrink-0 rounded-full px-2 py-0.5 text-xs border-0 cursor-pointer focus:outline-none ${CJO_STATUS_COLOURS[link.status]}`}
+                      >
+                        {CJO_STATUSES.map((s) => (
+                          <option key={s} value={s}>{s}</option>
+                        ))}
+                      </select>
+                    </li>
+                  );
+                })}
+              </ul>
+            )}
+
+            {/* Assign to job order */}
+            <div className="space-y-2 rounded-md border bg-gray-50 p-3">
+              <p className="text-xs font-medium text-gray-600">Assign to job order</p>
+              <select
+                value={selectedJobOrderId}
+                onChange={(e) => setSelectedJobOrderId(e.target.value)}
+                className="w-full rounded-md border px-3 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              >
+                <option value="">Select job order…</option>
+                {availableJobOrders
+                  .filter((o) => !candidateJobOrders.some((l) => l.job_order_id === o.id))
+                  .map((o) => (
+                    <option key={o.id} value={o.id}>{o.title}</option>
+                  ))}
+              </select>
+              {assigningError && <p className="text-xs text-red-600">{assigningError}</p>}
+              <Button
+                size="sm"
+                onClick={() => void handleAssignJobOrder()}
+                disabled={assigningSaving || !selectedJobOrderId}
+                className="w-full"
+              >
+                {assigningSaving ? "Assigning…" : "Assign"}
+              </Button>
+            </div>
+          </div>
+
           {/* Reminders */}
           <div>
             <p className="text-sm font-medium mb-2">Reminders</p>
@@ -292,6 +417,8 @@ export default function CandidatesPage() {
   const [candidates, setCandidates] = useState<Candidate[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
+  // Map of candidateId -> job order count (lazy-loaded on page mount)
+  const [cjoCounts, setCjoCounts] = useState<Record<string, number>>({});
 
   // Multi-select
   const [selected, setSelected] = useState<Set<string>>(new Set());
@@ -324,6 +451,16 @@ export default function CandidatesPage() {
       .then((res) => {
         setCandidates(res.items);
         setTotal(res.total);
+        // Fetch job order counts for all candidates in parallel
+        Promise.all(
+          res.items.map((c) =>
+            getCandidateJobOrders(c.id).then((r) => ({ id: c.id, count: r.total }))
+          )
+        ).then((results) => {
+          const map: Record<string, number> = {};
+          results.forEach(({ id, count }) => { map[id] = count; });
+          setCjoCounts(map);
+        });
       })
       .finally(() => setLoading(false));
   }, []);
@@ -511,6 +648,7 @@ export default function CandidatesPage() {
                   <TableHead>Email</TableHead>
                   <TableHead>Status</TableHead>
                   <TableHead>Nationality</TableHead>
+                  <TableHead>Job Orders</TableHead>
                   <TableHead>Contacted</TableHead>
                   <TableHead>Created</TableHead>
                 </TableRow>
@@ -563,6 +701,15 @@ export default function CandidatesPage() {
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>
                       {c.nationality ?? "—"}
+                    </TableCell>
+                    <TableCell onClick={() => setDetailCandidate(c)}>
+                      {cjoCounts[c.id] != null && cjoCounts[c.id] > 0 ? (
+                        <span className="rounded-full bg-blue-100 text-blue-700 px-2 py-0.5 text-xs font-medium">
+                          {cjoCounts[c.id]}
+                        </span>
+                      ) : (
+                        <span className="text-gray-400 text-xs">—</span>
+                      )}
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>
                       {c.contacted_at ? (

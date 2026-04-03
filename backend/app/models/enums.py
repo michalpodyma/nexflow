@@ -135,3 +135,12 @@ class JobOrderStatus(str, enum.Enum):
     filled = "filled"
     on_hold = "on_hold"
     cancelled = "cancelled"
+
+
+class CandidateJobOrderStatus(str, enum.Enum):
+    """Submission status of a candidate linked to a job order."""
+    submitted = "submitted"
+    interviewing = "interviewing"
+    offered = "offered"
+    placed = "placed"
+    rejected = "rejected"

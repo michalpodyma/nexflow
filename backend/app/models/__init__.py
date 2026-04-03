@@ -13,6 +13,7 @@ from .base import Base
 from .enums import (
     AlertType,
     AuditAction,
+    CandidateJobOrderStatus,
     ChatbotChannel,
     Currency,
     GdprSubjectType,
@@ -35,12 +36,14 @@ from .chatbot import ChatbotSession
 from .compliance import ComplianceAlert
 from .audit import AuditLog
 from .job_orders import JobOrder
+from .candidate_job_orders import CandidateJobOrder
 
 __all__ = [
     "Base",
     # Enums
     "AlertType",
     "AuditAction",
+    "CandidateJobOrderStatus",
     "ChatbotChannel",
     "Currency",
     "GdprSubjectType",
@@ -64,4 +67,5 @@ __all__ = [
     "ComplianceAlert",
     "AuditLog",
     "JobOrder",
+    "CandidateJobOrder",
 ]
