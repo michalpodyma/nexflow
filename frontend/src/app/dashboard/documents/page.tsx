@@ -319,6 +319,7 @@ export default function DocumentsPage() {
 
   const [previewHtml, setPreviewHtml] = useState<string | null>(null);
   const [loadingDetail, setLoadingDetail] = useState<string | null>(null);
+  const [detailError, setDetailError] = useState<string | null>(null);
 
   useEffect(() => {
     loadTemplates();
@@ -354,14 +355,14 @@ export default function DocumentsPage() {
 
   async function openEdit(tpl: DocumentTemplate) {
     setLoadingDetail(tpl.id);
+    setDetailError(null);
     try {
       const { getDocumentTemplate } = await import("@/lib/api");
       const detail = await getDocumentTemplate(tpl.id);
       setEditTarget(detail);
       setDialogOpen(true);
     } catch {
-      setEditTarget(tpl);
-      setDialogOpen(true);
+      setDetailError("Nie udało się załadować treści szablonu. Spróbuj ponownie.");
     } finally {
       setLoadingDetail(null);
     }
@@ -420,6 +421,20 @@ export default function DocumentsPage() {
             </CardContent>
           </Card>
         </div>
+
+        {/* Detail fetch error */}
+        {detailError && (
+          <div className="flex items-center justify-between rounded border border-destructive/50 bg-destructive/10 px-4 py-2 text-sm text-destructive">
+            <span>{detailError}</span>
+            <button
+              className="ml-4 text-destructive hover:opacity-70"
+              onClick={() => setDetailError(null)}
+              aria-label="Zamknij"
+            >
+              ✕
+            </button>
+          </div>
+        )}
 
         {/* Templates table */}
         <Card>
