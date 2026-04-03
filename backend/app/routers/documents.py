@@ -24,7 +24,7 @@ Tokens use {{key}} syntax and are replaced via simple string substitution.
 """
 
 import re
-from datetime import date
+from datetime import date, datetime, timezone
 from typing import Annotated
 from uuid import UUID
 
@@ -195,6 +195,7 @@ async def update_template(
         for field, value in updates.items():
             setattr(tpl, field, value)
         tpl.version = tpl.version + 1  # type: ignore[assignment]
+        tpl.updated_at = datetime.now(timezone.utc)
         await db.commit()
         await db.refresh(tpl)
 
