@@ -207,7 +207,7 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
 
   return (
     <div className="fixed inset-0 z-40 flex items-center justify-center bg-black/40">
-      <div className="relative w-full max-w-lg rounded-xl bg-white shadow-2xl overflow-y-auto max-h-[90vh]">
+      <div className="relative mx-4 w-full max-w-lg rounded-xl bg-white shadow-2xl overflow-y-auto max-h-[90dvh] sm:mx-0">
         <div className="flex items-center justify-between border-b px-6 py-4">
           <h2 className="text-lg font-semibold">
             {candidate.first_name} {candidate.last_name}
@@ -222,7 +222,7 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
 
         <div className="px-6 py-5 space-y-6">
           {/* Basic info */}
-          <div className="grid grid-cols-2 gap-3 text-sm">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div>
               <span className="text-muted-foreground">Status</span>
               <p className="mt-0.5">

@@ -1,12 +1,13 @@
 "use client";
 
-import { Bell, Clock, LogOut, X } from "lucide-react";
+import { Bell, Clock, LogOut, Menu, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { Button } from "@/components/ui/button";
 import { clearTokens } from "@/lib/auth";
 import { getDueRemindersCount, logout } from "@/lib/api";
+import { useSidebar } from "@/components/layout/sidebar-context";
 import type { ReplyNotification } from "@/app/api/webhooks/instantly/route";
 
 interface HeaderProps {
@@ -17,6 +18,7 @@ const POLL_INTERVAL_MS = 30_000;
 
 export function Header({ title }: HeaderProps) {
   const router = useRouter();
+  const { toggle: toggleSidebar } = useSidebar();
   const [unreadCount, setUnreadCount] = useState(0);
   const [notifications, setNotifications] = useState<ReplyNotification[]>([]);
   const [panelOpen, setPanelOpen] = useState(false);
@@ -94,8 +96,18 @@ export function Header({ title }: HeaderProps) {
   }
 
   return (
-    <header className="flex h-16 items-center justify-between border-b bg-white px-6">
-      <h1 className="text-xl font-semibold">{title}</h1>
+    <header className="flex h-16 items-center justify-between border-b bg-white px-4 md:px-6">
+      <div className="flex items-center gap-3">
+        {/* Hamburger — only visible on mobile */}
+        <button
+          onClick={toggleSidebar}
+          className="flex h-9 w-9 items-center justify-center rounded-md text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 md:hidden"
+          aria-label="Open menu"
+        >
+          <Menu className="h-5 w-5" />
+        </button>
+        <h1 className="text-xl font-semibold">{title}</h1>
+      </div>
 
       <div className="flex items-center gap-2">
         {/* Due reminders badge */}
@@ -128,7 +140,7 @@ export function Header({ title }: HeaderProps) {
           </button>
 
           {panelOpen && (
-            <div className="absolute right-0 top-11 z-50 w-96 rounded-lg border bg-white shadow-lg">
+            <div className="absolute right-0 top-11 z-50 w-[calc(100vw-2rem)] max-w-sm rounded-lg border bg-white shadow-lg sm:w-96">
               <div className="flex items-center justify-between border-b px-4 py-3">
                 <span className="text-sm font-semibold">Reply Notifications</span>
                 <button
@@ -175,7 +187,7 @@ export function Header({ title }: HeaderProps) {
 
         <Button variant="ghost" size="sm" onClick={handleLogout} className="gap-2">
           <LogOut className="h-4 w-4" />
-          Logout
+          <span className="hidden sm:inline">Logout</span>
         </Button>
       </div>
     </header>

@@ -155,7 +155,7 @@ function NewOrderModal({ clients, onClose, onCreate }: NewOrderModalProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-md rounded-xl bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-md rounded-xl bg-white p-6 shadow-xl">
         <h2 className="mb-4 text-lg font-semibold">New Job Order</h2>
         <form onSubmit={handleSubmit} className="space-y-3">
           <div>
@@ -185,7 +185,7 @@ function NewOrderModal({ clients, onClose, onCreate }: NewOrderModalProps) {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-600">Headcount</label>
               <Input
@@ -218,7 +218,7 @@ function NewOrderModal({ clients, onClose, onCreate }: NewOrderModalProps) {
             />
           </div>
 
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-600">Deadline</label>
               <Input

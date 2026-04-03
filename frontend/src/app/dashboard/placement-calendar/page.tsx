@@ -251,7 +251,7 @@ export default function PlacementCalendarPage() {
       <main className="flex flex-1 flex-col gap-4 p-6 overflow-auto">
         {/* Controls */}
         <Card>
-          <CardContent className="flex flex-wrap items-center gap-3 py-3">
+          <CardContent className="flex flex-wrap items-center gap-2 py-3 px-3 sm:gap-3 sm:px-4">
             <div className="flex rounded-md border border-gray-200 overflow-hidden">
               <button
                 className={`px-3 py-1.5 text-sm font-medium transition-colors ${view === "month" ? "bg-indigo-600 text-white" : "bg-white text-gray-700 hover:bg-gray-50"}`}
@@ -267,14 +267,14 @@ export default function PlacementCalendarPage() {
               </button>
             </div>
 
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1 sm:gap-2">
               <Button variant="outline" size="sm" onClick={() => navigate(-1)}>‹</Button>
-              <span className="text-sm font-semibold w-48 text-center">{label}</span>
+              <span className="text-sm font-semibold w-36 text-center sm:w-48">{label}</span>
               <Button variant="outline" size="sm" onClick={() => navigate(1)}>›</Button>
             </div>
             <Button variant="outline" size="sm" onClick={goToday}>Today</Button>
 
-            <div className="ml-auto flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3 sm:ml-auto">
               <label className="flex items-center gap-1.5 text-sm text-gray-600 cursor-pointer">
                 <input
                   type="checkbox"
@@ -288,7 +288,7 @@ export default function PlacementCalendarPage() {
               <select
                 value={clientFilter}
                 onChange={(e) => setClientFilter(e.target.value)}
-                className="h-8 w-48 rounded-md border border-gray-200 px-2 text-sm text-gray-700 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                className="h-8 w-40 rounded-md border border-gray-200 px-2 text-sm text-gray-700 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 sm:w-48"
               >
                 <option value="all">All clients</option>
                 {clients.map((c) => (

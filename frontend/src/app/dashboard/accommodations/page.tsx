@@ -106,7 +106,7 @@ function AccommodationFormDialog({ initial, onClose, onSaved }: AccommodationFor
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-4 text-base font-semibold">
           {initial ? "Edit Accommodation" : "Add Accommodation"}
         </h2>
@@ -120,7 +120,7 @@ function AccommodationFormDialog({ initial, onClose, onSaved }: AccommodationFor
               placeholder="e.g. ul. Kościuszki 12"
             />
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">Address</label>
               <input
@@ -138,7 +138,7 @@ function AccommodationFormDialog({ initial, onClose, onSaved }: AccommodationFor
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">
                 Total capacity (beds) *
@@ -162,7 +162,7 @@ function AccommodationFormDialog({ initial, onClose, onSaved }: AccommodationFor
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">
                 Monthly rent (PLN)
@@ -277,7 +277,7 @@ function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorker
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-1 text-base font-semibold">Assign Worker</h2>
         <p className="mb-4 text-xs text-muted-foreground">
           {accommodation.name} — {accommodation.current_occupancy}/{accommodation.total_capacity}{" "}
@@ -307,7 +307,7 @@ function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorker
               ))}
             </select>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">Room number</label>
               <input
@@ -379,7 +379,7 @@ function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-xl rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-xl rounded-lg bg-white p-6 shadow-xl">
         <div className="mb-4 flex items-center justify-between">
           <div>
             <h2 className="text-base font-semibold">{accommodation.name}</h2>
@@ -469,7 +469,7 @@ function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
 
       {moveOutPending && (
         <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/40">
-          <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-xl">
+          <div className="mx-4 w-full max-w-sm rounded-lg bg-white p-6 shadow-xl">
             <h2 className="mb-2 text-base font-semibold">Confirm move-out</h2>
             <p className="mb-4 text-sm text-muted-foreground">
               Recording move-out for <strong>{moveOutPending.workerName}</strong>.

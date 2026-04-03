@@ -158,7 +158,7 @@ function ProspectFormDialog({ prospect, onClose, onSaved }: ProspectFormDialogPr
         if (e.target === overlayRef.current) onClose();
       }}
     >
-      <div className="relative w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-lg bg-white shadow-xl">
+      <div className="relative mx-4 w-full max-w-2xl max-h-[90dvh] overflow-y-auto rounded-lg bg-white shadow-xl sm:mx-0">
         <div className="flex items-center justify-between border-b px-6 py-4">
           <h2 className="text-lg font-semibold">
             {isEdit ? "Edit Prospect" : "Add Prospect"}
@@ -178,7 +178,7 @@ function ProspectFormDialog({ prospect, onClose, onSaved }: ProspectFormDialogPr
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
               Company
             </h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="col-span-2">
                 <label className="mb-1 block text-sm font-medium">Company name *</label>
                 <Input
@@ -219,7 +219,7 @@ function ProspectFormDialog({ prospect, onClose, onSaved }: ProspectFormDialogPr
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
               Contact
             </h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="col-span-2">
                 <label className="mb-1 block text-sm font-medium">Contact name</label>
                 <Input
@@ -249,7 +249,7 @@ function ProspectFormDialog({ prospect, onClose, onSaved }: ProspectFormDialogPr
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
               Deal
             </h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div>
                 <label className="mb-1 block text-sm font-medium">Est. monthly value (PLN)</label>
                 <Input

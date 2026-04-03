@@ -157,7 +157,7 @@ export default function DashboardPage() {
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
             Recruitment Overview
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {recruitmentCards.map((card) => (
               <StatCard key={card.title} {...card} />
             ))}
@@ -169,7 +169,7 @@ export default function DashboardPage() {
           <h2 className="text-sm font-semibold uppercase tracking-wide text-muted-foreground">
             B2B Pipeline Overview
           </h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {b2bCards.map((card) => (
               <StatCard key={card.title} {...card} />
             ))}

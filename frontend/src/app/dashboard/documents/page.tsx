@@ -167,7 +167,7 @@ function TemplateDialog({
         <div className="space-y-4 py-2">
           {error && <p className="text-sm text-destructive">{error}</p>}
 
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <div className="space-y-1">
               <label className="text-sm font-medium">Nazwa szablonu *</label>
               <input

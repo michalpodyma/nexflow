@@ -119,12 +119,12 @@ function VehicleFormDialog({ initial, onClose, onSaved }: VehicleFormProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-4 text-base font-semibold">
           {initial ? "Edit Vehicle" : "Add Vehicle"}
         </h2>
         <form onSubmit={handleSubmit} className="space-y-3">
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">Make *</label>
               <input
@@ -180,7 +180,7 @@ function VehicleFormDialog({ initial, onClose, onSaved }: VehicleFormProps) {
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">
                 Insurance expiry
@@ -294,7 +294,7 @@ function RouteFormDialog({ initial, vehicles, workers, onClose, onSaved }: Route
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-lg rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-4 text-base font-semibold">
           {initial ? "Edit Route" : "Add Route"}
         </h2>
@@ -308,7 +308,7 @@ function RouteFormDialog({ initial, vehicles, workers, onClose, onSaved }: Route
               placeholder="e.g. Słubice → Rzepin Amazon"
             />
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">Origin *</label>
               <input
@@ -330,7 +330,7 @@ function RouteFormDialog({ initial, vehicles, workers, onClose, onSaved }: Route
               />
             </div>
           </div>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             <div>
               <label className="mb-1 block text-xs font-medium text-gray-700">
                 Departure time
@@ -454,7 +454,7 @@ function AssignRouteWorkerDialog({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
         <h2 className="mb-1 text-base font-semibold">Assign Worker to Route</h2>
         <p className="mb-4 text-xs text-muted-foreground">
           {route.name} — {route.origin} → {route.destination}
@@ -527,7 +527,7 @@ function PassengersPanel({ route, onClose, onRemoved }: PassengersPanelProps) {
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
-      <div className="w-full max-w-xl rounded-lg bg-white p-6 shadow-xl">
+      <div className="mx-4 w-full max-w-xl rounded-lg bg-white p-6 shadow-xl">
         <div className="mb-4 flex items-center justify-between">
           <div>
             <h2 className="text-base font-semibold">{route.name}</h2>
