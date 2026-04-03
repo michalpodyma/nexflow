@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import DOMPurify from "dompurify";
 import { FileText, Plus, Pencil, Eye, EyeOff } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
@@ -283,7 +284,7 @@ function PreviewModal({
         </DialogHeader>
         <div
           className="prose max-w-none rounded border p-4 text-sm"
-          dangerouslySetInnerHTML={{ __html: html }}
+          dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(html) }}
         />
         <DialogFooter>
           <Button variant="outline" onClick={onClose}>Zamknij</Button>
@@ -291,7 +292,7 @@ function PreviewModal({
             onClick={() => {
               const win = window.open("", "_blank");
               if (win) {
-                win.document.write(html);
+                win.document.write(DOMPurify.sanitize(html));
                 win.document.close();
                 win.print();
               }

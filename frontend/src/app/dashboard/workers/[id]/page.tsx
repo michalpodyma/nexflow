@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
+import DOMPurify from "dompurify";
 import { ArrowLeft, FileText, Download, ChevronDown } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
@@ -471,7 +472,7 @@ export default function WorkerProfilePage() {
                 </div>
                 <div
                   className="max-h-[50vh] overflow-y-auto rounded border p-4 text-xs"
-                  dangerouslySetInnerHTML={{ __html: previewHtml }}
+                  dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(previewHtml) }}
                 />
               </div>
             )}
