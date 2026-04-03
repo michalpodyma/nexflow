@@ -73,9 +73,9 @@ class RouteRead(BaseModel):
 
 
 class RouteWithWorkerCount(RouteRead):
-    assigned_workers: int
-    vehicle_plate: str | None
-    driver_name: str | None
+    assigned_workers: int = 0
+    vehicle_plate: str | None = None
+    driver_name: str | None = None
 
 
 class RouteCreate(BaseModel):

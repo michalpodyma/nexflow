@@ -24,7 +24,7 @@ class AccommodationRead(BaseModel):
 
 class AccommodationWithOccupancy(AccommodationRead):
     """AccommodationRead extended with live occupancy count."""
-    current_occupancy: int
+    current_occupancy: int = 0
 
 
 class AccommodationCreate(BaseModel):
