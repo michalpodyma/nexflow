@@ -3,7 +3,7 @@ from typing import Annotated
 
 from fastapi import APIRouter, Depends
 from pydantic import BaseModel
-from sqlalchemy import func, select
+from sqlalchemy import func, literal_column, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
@@ -143,15 +143,18 @@ async def get_analytics_overview(
     ]
 
     # Weekly trend: candidate intake per week for the last 8 weeks
+    # Use literal_column for the 'week' string to avoid PostgreSQL GROUP BY
+    # matching failure when SQLAlchemy parameterizes the same literal multiple times.
     eight_weeks_ago = now - timedelta(weeks=8)
+    _week_trunc = func.date_trunc(literal_column("'week'"), Candidate.created_at)
     weekly_result = await db.execute(
         select(
-            func.date_trunc("week", Candidate.created_at).label("week_start"),
+            _week_trunc.label("week_start"),
             func.count().label("new_candidates"),
         )
         .where(Candidate.created_at >= eight_weeks_ago)
-        .group_by(func.date_trunc("week", Candidate.created_at))
-        .order_by(func.date_trunc("week", Candidate.created_at))
+        .group_by(_week_trunc)
+        .order_by(_week_trunc)
     )
     weekly_trends = [
         WeeklyTrend(
@@ -228,14 +231,15 @@ async def get_recruiter_analytics(
 
     # Placements by month: count of assignments started per month, last 6 months
     six_months_ago = now - timedelta(days=183)
+    _month_fmt = func.to_char(Assignment.start_date, literal_column("'YYYY-MM'"))
     placements_result = await db.execute(
         select(
-            func.to_char(Assignment.start_date, "YYYY-MM").label("month"),
+            _month_fmt.label("month"),
             func.count().label("cnt"),
         )
         .where(Assignment.start_date >= six_months_ago)
-        .group_by(func.to_char(Assignment.start_date, "YYYY-MM"))
-        .order_by(func.to_char(Assignment.start_date, "YYYY-MM"))
+        .group_by(_month_fmt)
+        .order_by(_month_fmt)
     )
     placements_by_month = [
         PlacementsByMonth(month=row.month, count=row.cnt)
@@ -269,14 +273,15 @@ async def get_recruiter_analytics(
 
     # Weekly trend: candidate intake per week for the last 8 weeks
     eight_weeks_ago = now - timedelta(weeks=8)
+    _week_trunc_r = func.date_trunc(literal_column("'week'"), Candidate.created_at)
     weekly_result = await db.execute(
         select(
-            func.date_trunc("week", Candidate.created_at).label("week_start"),
+            _week_trunc_r.label("week_start"),
             func.count().label("new_candidates"),
         )
         .where(Candidate.created_at >= eight_weeks_ago)
-        .group_by(func.date_trunc("week", Candidate.created_at))
-        .order_by(func.date_trunc("week", Candidate.created_at))
+        .group_by(_week_trunc_r)
+        .order_by(_week_trunc_r)
     )
     weekly_trends = [
         WeeklyTrend(
