@@ -9,6 +9,7 @@ from typing import Sequence, Union
 
 import sqlalchemy as sa
 from alembic import op
+from sqlalchemy import inspect
 from sqlalchemy.dialects.postgresql import JSONB, UUID as PGUUID
 
 revision: str = "0001"
@@ -18,6 +19,13 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    # If the DB was already initialised outside Alembic (e.g. via
+    # Base.metadata.create_all on a prior Railway deployment), skip all DDL.
+    # The alembic_version row will be stamped with 0001 so subsequent
+    # migrations (0002, 0003 …) can run normally.
+    if inspect(op.get_bind()).has_table("admin_users"):
+        return
+
     # --- Extensions ---
     op.execute('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"')
 

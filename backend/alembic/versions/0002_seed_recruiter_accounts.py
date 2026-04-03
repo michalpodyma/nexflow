@@ -34,7 +34,8 @@ def upgrade() -> None:
             sa.text(
                 "INSERT INTO admin_users (username, hashed_password) "
                 "VALUES (:username, :hashed_password) "
-                "ON CONFLICT (username) DO NOTHING"
+                "ON CONFLICT (username) DO UPDATE "
+                    "SET hashed_password = EXCLUDED.hashed_password"
             ).bindparams(username=username, hashed_password=hashed_password)
         )
 
