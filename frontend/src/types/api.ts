@@ -103,15 +103,43 @@ export interface Worker {
   current_client_name: string | null;
   assignment_start_date: string | null;
   assignment_end_date: string | null;
+  archived_at: string | null;
   created_at: string;
   updated_at: string;
 }
 
-export interface WorkerUpdate {
+export interface WorkerCreate {
+  first_name: string;
+  last_name: string;
+  nationality?: string;
+  phone?: string;
+  email?: string;
+  address?: string;
+  date_of_birth?: string;
+  work_permit_type?: WorkPermitType;
+  work_permit_expiry?: string;
+  health_cert_expiry?: string;
+  safety_cert_expiry?: string;
+  a1_cert_status?: string;
   attendance_status?: AttendanceStatus;
+  gdpr_consent?: boolean;
+  gdpr_consent_at?: string;
+}
+
+export interface WorkerUpdate {
+  first_name?: string;
+  last_name?: string;
+  nationality?: string | null;
+  phone?: string | null;
+  email?: string | null;
+  address?: string | null;
+  date_of_birth?: string | null;
+  work_permit_type?: WorkPermitType | null;
   work_permit_expiry?: string | null;
   health_cert_expiry?: string | null;
   safety_cert_expiry?: string | null;
+  a1_cert_status?: string | null;
+  attendance_status?: AttendanceStatus;
   current_client_id?: string | null;
   assignment_start_date?: string | null;
   assignment_end_date?: string | null;

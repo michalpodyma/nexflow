@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerDetail, WorkerUpdate } from "@/types/api";
+import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerCreate, WorkerDetail, WorkerUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -194,10 +194,23 @@ export function getJobPostings(): Promise<Paginated<JobPosting>> {
 }
 
 // Workers
-export function getWorkers(page = 1, pageSize = 20, expiringDocs = false): Promise<Paginated<Worker>> {
+export function getWorkers(
+  page = 1,
+  pageSize = 20,
+  expiringDocs = false,
+  showArchived = false,
+): Promise<Paginated<Worker>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
   if (expiringDocs) params.set("expiring_docs", "true");
+  if (showArchived) params.set("show_archived", "true");
   return request<Paginated<Worker>>(`/api/v1/workers?${params}`);
+}
+
+export function createWorker(data: WorkerCreate): Promise<Worker> {
+  return request<Worker>("/api/v1/workers", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
 }
 
 export function getWorker(workerId: string): Promise<WorkerDetail> {
@@ -209,6 +222,10 @@ export function updateWorker(workerId: string, data: WorkerUpdate): Promise<Work
     method: "PATCH",
     body: JSON.stringify(data),
   });
+}
+
+export function archiveWorker(workerId: string): Promise<Worker> {
+  return request<Worker>(`/api/v1/workers/${workerId}/archive`, { method: "PATCH" });
 }
 
 export function updateWorkerAttendanceStatus(

@@ -109,6 +109,12 @@ class Worker(Base):
         sa.TIMESTAMP(timezone=True), nullable=True
     )
 
+    # Soft-delete — set by PATCH /api/v1/workers/{id}/archive. Archived workers are
+    # hidden from default list queries but remain in the DB for audit/GDPR purposes.
+    archived_at: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )

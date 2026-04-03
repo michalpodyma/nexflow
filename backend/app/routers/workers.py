@@ -14,6 +14,7 @@ from app.models.workers import Worker
 from app.schemas.workers import (
     AssignmentSummary,
     PaginatedWorkers,
+    WorkerCreate,
     WorkerDetail,
     WorkerRead,
     WorkerUpdate,
@@ -37,11 +38,17 @@ async def list_workers(
     expiring_docs: bool = Query(
         False, description="Filter to workers with any document expiring within 30 days"
     ),
+    show_archived: bool = Query(False, description="Include archived workers"),
 ) -> PaginatedWorkers:
     offset = (page - 1) * page_size
     cutoff = datetime.now(timezone.utc) + timedelta(days=30)
 
     base_q = select(Worker)
+
+    # By default hide archived workers
+    if not show_archived:
+        base_q = base_q.where(Worker.archived_at.is_(None))
+
     if expiring_docs:
         base_q = base_q.where(
             or_(
@@ -73,6 +80,19 @@ async def list_workers(
         for w in workers
     ]
     return PaginatedWorkers(items=items, total=total, page=page, page_size=page_size)
+
+
+@router.post("", response_model=WorkerRead, status_code=201)
+async def create_worker(
+    body: WorkerCreate,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> WorkerRead:
+    worker = Worker(**body.model_dump())
+    db.add(worker)
+    await db.commit()
+    await db.refresh(worker)
+    return _build_worker_read(worker, None)
 
 
 @router.get("/{worker_id}", response_model=WorkerDetail)
@@ -146,3 +166,22 @@ async def update_worker(
         client_name = cr.scalar_one_or_none()
 
     return _build_worker_read(worker, client_name)
+
+
+@router.patch("/{worker_id}/archive", response_model=WorkerRead)
+async def archive_worker(
+    worker_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> WorkerRead:
+    result = await db.execute(select(Worker).where(Worker.id == worker_id))
+    worker = result.scalar_one_or_none()
+    if worker is None:
+        raise HTTPException(status_code=404, detail="Worker not found")
+    if worker.archived_at is not None:
+        raise HTTPException(status_code=409, detail="Worker is already archived")
+
+    worker.archived_at = datetime.now(timezone.utc)
+    await db.commit()
+    await db.refresh(worker)
+    return _build_worker_read(worker, None)

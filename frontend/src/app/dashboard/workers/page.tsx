@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 
 import { Header } from "@/components/layout/Header";
@@ -13,7 +13,8 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { getWorkers } from "@/lib/api";
+import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
+import { archiveWorker, getWorkers } from "@/lib/api";
 import type { AttendanceStatus, Worker } from "@/types/api";
 
 const STATUS_STYLES: Record<AttendanceStatus, string> = {
@@ -86,42 +87,151 @@ function DocExpiryCell({ worker }: { worker: Worker }) {
   );
 }
 
+interface ArchiveConfirmProps {
+  worker: Worker;
+  onConfirm: () => void;
+  onCancel: () => void;
+  loading: boolean;
+}
+
+function ArchiveConfirm({ worker, onConfirm, onCancel, loading }: ArchiveConfirmProps) {
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
+      <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-xl">
+        <h2 className="mb-2 text-base font-semibold">Archive worker?</h2>
+        <p className="mb-5 text-sm text-muted-foreground">
+          <strong>{worker.first_name} {worker.last_name}</strong> will be hidden from the active
+          workers list. You can view archived workers using the toggle.
+        </p>
+        <div className="flex justify-end gap-2">
+          <Button variant="outline" onClick={onCancel} disabled={loading}>
+            Cancel
+          </Button>
+          <Button variant="destructive" onClick={onConfirm} disabled={loading}>
+            {loading ? "Archiving…" : "Archive"}
+          </Button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function WorkersPage() {
   const router = useRouter();
   const [workers, setWorkers] = useState<Worker[]>([]);
   const [total, setTotal] = useState(0);
   const [loading, setLoading] = useState(true);
   const [expiringOnly, setExpiringOnly] = useState(false);
+  const [showArchived, setShowArchived] = useState(false);
 
-  useEffect(() => {
+  // Dialog state
+  const [formTarget, setFormTarget] = useState<Worker | undefined>(undefined);
+  const [formOpen, setFormOpen] = useState(false);
+
+  // Archive confirm state
+  const [archiveTarget, setArchiveTarget] = useState<Worker | null>(null);
+  const [archiving, setArchiving] = useState(false);
+
+  const load = useCallback(() => {
     setLoading(true);
-    getWorkers(1, 20, expiringOnly)
+    getWorkers(1, 20, expiringOnly, showArchived)
       .then((res) => {
         setWorkers(res.items);
         setTotal(res.total);
       })
       .finally(() => setLoading(false));
-  }, [expiringOnly]);
+  }, [expiringOnly, showArchived]);
+
+  useEffect(() => {
+    load();
+  }, [load]);
+
+  function openAddDialog() {
+    setFormTarget(undefined);
+    setFormOpen(true);
+  }
+
+  function openEditDialog(e: React.MouseEvent, worker: Worker) {
+    e.stopPropagation();
+    setFormTarget(worker);
+    setFormOpen(true);
+  }
+
+  function openArchiveConfirm(e: React.MouseEvent, worker: Worker) {
+    e.stopPropagation();
+    setArchiveTarget(worker);
+  }
+
+  function handleFormSaved(saved: Worker) {
+    setFormOpen(false);
+    // Update in-place or prepend
+    setWorkers((prev) => {
+      const idx = prev.findIndex((w) => w.id === saved.id);
+      if (idx !== -1) {
+        const next = [...prev];
+        next[idx] = saved;
+        return next;
+      }
+      return [saved, ...prev];
+    });
+    if (!formTarget) setTotal((t) => t + 1);
+  }
+
+  async function handleArchiveConfirm() {
+    if (!archiveTarget) return;
+    setArchiving(true);
+    try {
+      await archiveWorker(archiveTarget.id);
+      setArchiveTarget(null);
+      // Remove from list (archived are hidden by default)
+      if (!showArchived) {
+        setWorkers((prev) => prev.filter((w) => w.id !== archiveTarget.id));
+        setTotal((t) => t - 1);
+      } else {
+        // Refresh to get updated archived_at timestamp
+        load();
+      }
+    } catch {
+      // keep dialog open, user can retry
+    } finally {
+      setArchiving(false);
+    }
+  }
 
   return (
     <div className="flex flex-1 flex-col overflow-auto">
       <Header title="Workers" />
       <main className="flex-1 p-6">
-        <div className="mb-4 flex items-center justify-between">
+        <div className="mb-4 flex items-center justify-between gap-2">
           <p className="text-sm text-muted-foreground">{total} total</p>
-          <Button
-            variant={expiringOnly ? "default" : "outline"}
-            size="sm"
-            onClick={() => setExpiringOnly((v) => !v)}
-          >
-            {expiringOnly ? "All workers" : "Expiring documents"}
-          </Button>
+          <div className="flex items-center gap-2">
+            <Button
+              variant={showArchived ? "default" : "outline"}
+              size="sm"
+              onClick={() => setShowArchived((v) => !v)}
+            >
+              {showArchived ? "Hide archived" : "Show archived"}
+            </Button>
+            <Button
+              variant={expiringOnly ? "default" : "outline"}
+              size="sm"
+              onClick={() => setExpiringOnly((v) => !v)}
+            >
+              {expiringOnly ? "All workers" : "Expiring documents"}
+            </Button>
+            <Button size="sm" onClick={openAddDialog}>
+              + Add worker
+            </Button>
+          </div>
         </div>
+
         {loading ? (
           <p className="text-sm text-muted-foreground">Loading...</p>
         ) : workers.length === 0 ? (
           <p className="text-sm text-muted-foreground">
-            {expiringOnly ? "No workers with documents expiring in the next 30 days." : "No workers yet."}
+            {expiringOnly
+              ? "No workers with documents expiring in the next 30 days."
+              : "No workers yet."}
           </p>
         ) : (
           <div className="rounded-md border bg-white">
@@ -134,6 +244,7 @@ export default function WorkersPage() {
                   <TableHead>Current Assignment</TableHead>
                   <TableHead>Doc Expiry</TableHead>
                   <TableHead>Status</TableHead>
+                  <TableHead className="w-[120px]" />
                 </TableRow>
               </TableHeader>
               <TableBody>
@@ -145,6 +256,11 @@ export default function WorkersPage() {
                   >
                     <TableCell className="font-medium">
                       {w.first_name} {w.last_name}
+                      {w.archived_at && (
+                        <span className="ml-2 rounded bg-gray-100 px-1.5 py-0.5 text-xs text-gray-500">
+                          archived
+                        </span>
+                      )}
                     </TableCell>
                     <TableCell>{w.phone ?? "—"}</TableCell>
                     <TableCell>{w.nationality ?? "—"}</TableCell>
@@ -172,6 +288,28 @@ export default function WorkersPage() {
                         {STATUS_LABELS[w.attendance_status]}
                       </span>
                     </TableCell>
+                    <TableCell>
+                      <div className="flex items-center gap-1" onClick={(e) => e.stopPropagation()}>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="h-7 px-2 text-xs"
+                          onClick={(e) => openEditDialog(e, w)}
+                        >
+                          Edit
+                        </Button>
+                        {!w.archived_at && (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            className="h-7 px-2 text-xs text-red-600 hover:text-red-700"
+                            onClick={(e) => openArchiveConfirm(e, w)}
+                          >
+                            Archive
+                          </Button>
+                        )}
+                      </div>
+                    </TableCell>
                   </TableRow>
                 ))}
               </TableBody>
@@ -179,6 +317,23 @@ export default function WorkersPage() {
           </div>
         )}
       </main>
+
+      {formOpen && (
+        <WorkerFormDialog
+          worker={formTarget}
+          onClose={() => setFormOpen(false)}
+          onSaved={handleFormSaved}
+        />
+      )}
+
+      {archiveTarget && (
+        <ArchiveConfirm
+          worker={archiveTarget}
+          onConfirm={handleArchiveConfirm}
+          onCancel={() => setArchiveTarget(null)}
+          loading={archiving}
+        />
+      )}
     </div>
   );
 }
