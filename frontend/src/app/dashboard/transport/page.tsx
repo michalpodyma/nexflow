@@ -563,7 +563,7 @@ function PassengersPanel({ route, onClose, onRemoved }: PassengersPanelProps) {
         ) : passengers.length === 0 ? (
           <p className="text-sm text-muted-foreground">No passengers assigned.</p>
         ) : (
-          <div className="rounded-md border bg-white">
+          <div className="overflow-x-auto rounded-md border bg-white">
             <Table>
               <TableHeader>
                 <TableRow>
@@ -623,7 +623,7 @@ function VehiclesTab({ vehicles, total, loading, onAdd, onEdit }: VehiclesTabPro
       ) : vehicles.length === 0 ? (
         <p className="text-sm text-muted-foreground">No vehicles yet.</p>
       ) : (
-        <div className="rounded-md border bg-white">
+        <div className="overflow-x-auto rounded-md border bg-white">
           <Table>
             <TableHeader>
               <TableRow>
@@ -721,7 +721,7 @@ function RoutesTab({
       ) : routes.length === 0 ? (
         <p className="text-sm text-muted-foreground">No routes yet.</p>
       ) : (
-        <div className="rounded-md border bg-white">
+        <div className="overflow-x-auto rounded-md border bg-white">
           <Table>
             <TableHeader>
               <TableRow>

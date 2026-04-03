@@ -101,7 +101,7 @@ export function Header({ title }: HeaderProps) {
         {/* Hamburger — only visible on mobile */}
         <button
           onClick={toggleSidebar}
-          className="flex h-9 w-9 items-center justify-center rounded-md text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 md:hidden"
+          className="flex h-11 w-11 items-center justify-center rounded-md text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 md:hidden"
           aria-label="Open menu"
         >
           <Menu className="h-5 w-5" />

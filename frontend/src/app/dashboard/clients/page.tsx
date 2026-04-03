@@ -378,7 +378,7 @@ export default function ClientsPage() {
         ) : clients.length === 0 ? (
           <p className="text-sm text-muted-foreground">No clients yet.</p>
         ) : (
-          <div className="rounded-md border bg-white">
+          <div className="overflow-x-auto rounded-md border bg-white">
             <Table>
               <TableHeader>
                 <TableRow>

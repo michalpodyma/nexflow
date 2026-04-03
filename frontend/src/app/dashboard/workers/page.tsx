@@ -242,7 +242,7 @@ export default function WorkersPage() {
               : "No workers yet."}
           </p>
         ) : (
-          <div className="rounded-md border bg-white">
+          <div className="overflow-x-auto rounded-md border bg-white">
             <Table>
               <TableHeader>
                 <TableRow>

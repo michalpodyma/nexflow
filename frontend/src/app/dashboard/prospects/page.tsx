@@ -451,7 +451,7 @@ export default function ProspectsPage() {
         ) : prospects.length === 0 ? (
           <p className="text-sm text-muted-foreground">No prospects found.</p>
         ) : (
-          <div className="rounded-md border bg-white">
+          <div className="overflow-x-auto rounded-md border bg-white">
             <Table>
               <TableHeader>
                 <TableRow>
