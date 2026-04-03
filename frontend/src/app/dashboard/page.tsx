@@ -6,7 +6,7 @@ import Link from "next/link";
 
 import { Header } from "@/components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getAnalyticsOverview, getComplianceAlerts, getWorkers } from "@/lib/api";
+import { getAccommodations, getAnalyticsOverview, getComplianceAlerts, getWorkers } from "@/lib/api";
 import type { AnalyticsOverview } from "@/types/api";
 import type { ReplyNotification } from "@/app/api/webhooks/instantly/route";
 
@@ -63,14 +63,20 @@ export default function DashboardPage() {
   const [analytics, setAnalytics] = useState<AnalyticsOverview | null>(null);
   const [replyNotifications, setReplyNotifications] = useState<ReplyNotification[]>([]);
   const [complianceAlertCount, setComplianceAlertCount] = useState<number | null>(null);
+  const [accommodationOccupancy, setAccommodationOccupancy] = useState<{
+    occupied: number;
+    total: number;
+  } | null>(null);
 
   useEffect(() => {
     async function load() {
-      const [workersResult, analyticsResult, complianceResult] = await Promise.allSettled([
-        getWorkers(1, 1),
-        getAnalyticsOverview(),
-        getComplianceAlerts(),
-      ]);
+      const [workersResult, analyticsResult, complianceResult, accommodationsResult] =
+        await Promise.allSettled([
+          getWorkers(1, 1),
+          getAnalyticsOverview(),
+          getComplianceAlerts(),
+          getAccommodations(1, 100, true),
+        ]);
       if (workersResult.status === "fulfilled") {
         setActiveWorkers(workersResult.value.total);
       }
@@ -78,7 +84,16 @@ export default function DashboardPage() {
         setAnalytics(analyticsResult.value);
       }
       if (complianceResult.status === "fulfilled") {
-        setComplianceAlertCount(complianceResult.value.critical_count + complianceResult.value.warning_count);
+        setComplianceAlertCount(
+          complianceResult.value.critical_count + complianceResult.value.warning_count,
+        );
+      }
+      if (accommodationsResult.status === "fulfilled") {
+        const accs = accommodationsResult.value.items;
+        setAccommodationOccupancy({
+          occupied: accs.reduce((sum, a) => sum + a.current_occupancy, 0),
+          total: accs.reduce((sum, a) => sum + a.total_capacity, 0),
+        });
       }
     }
     void load();
@@ -98,6 +113,10 @@ export default function DashboardPage() {
     void loadNotifications();
   }, []);
 
+  const accommodationLabel = accommodationOccupancy
+    ? `${accommodationOccupancy.occupied} / ${accommodationOccupancy.total}`
+    : "—";
+
   const recruitmentCards: StatCardProps[] = [
     { title: "Open Job Orders", value: 0, placeholder: true },
     { title: "Active Workers", value: activeWorkers },
@@ -110,6 +129,12 @@ export default function DashboardPage() {
     {
       title: "Fill Rate",
       value: analytics ? formatPercent(analytics.placement_rate) : "—",
+    },
+    {
+      title: "Accommodation Occupancy (beds)",
+      value: accommodationLabel,
+      placeholder: accommodationOccupancy === null,
+      href: "/dashboard/accommodations",
     },
   ];
 

@@ -37,6 +37,7 @@ from .compliance import ComplianceAlert
 from .audit import AuditLog
 from .job_orders import JobOrder
 from .candidate_job_orders import CandidateJobOrder
+from .accommodations import Accommodation, AccommodationAssignment
 
 __all__ = [
     "Base",
@@ -68,4 +69,6 @@ __all__ = [
     "AuditLog",
     "JobOrder",
     "CandidateJobOrder",
+    "Accommodation",
+    "AccommodationAssignment",
 ]

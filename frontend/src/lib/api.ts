@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AlertSeverity, AnalyticsOverview, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Worker, WorkerCreate, WorkerDetail, WorkerUpdate } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -308,4 +308,53 @@ export function updateCandidateJobOrderStatus(
 
 export function getJobOrderCandidates(jobOrderId: string): Promise<Paginated<CandidateJobOrder>> {
   return request<Paginated<CandidateJobOrder>>(`/api/v1/job-orders/${jobOrderId}/candidates`);
+}
+
+// Accommodations
+export function getAccommodations(
+  page = 1,
+  pageSize = 20,
+  activeOnly = false,
+): Promise<Paginated<Accommodation>> {
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  if (activeOnly) params.set("active_only", "true");
+  return request<Paginated<Accommodation>>(`/api/v1/accommodations?${params}`);
+}
+
+export function createAccommodation(data: AccommodationCreate): Promise<Accommodation> {
+  return request<Accommodation>("/api/v1/accommodations", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getAccommodation(id: string): Promise<AccommodationDetail> {
+  return request<AccommodationDetail>(`/api/v1/accommodations/${id}`);
+}
+
+export function updateAccommodation(id: string, data: AccommodationUpdate): Promise<Accommodation> {
+  return request<Accommodation>(`/api/v1/accommodations/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function assignWorkerToAccommodation(
+  accommodationId: string,
+  data: AssignmentCreate,
+): Promise<AccommodationAssignment> {
+  return request<AccommodationAssignment>(`/api/v1/accommodations/${accommodationId}/assign`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateAccommodationAssignment(
+  assignmentId: string,
+  data: AssignmentUpdate,
+): Promise<AccommodationAssignment> {
+  return request<AccommodationAssignment>(`/api/v1/accommodation-assignments/${assignmentId}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
 }

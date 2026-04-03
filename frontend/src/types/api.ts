@@ -309,3 +309,84 @@ export interface TokenResponse {
   token_type: string;
   // refresh_token is managed as an httpOnly cookie — not returned in the JSON body
 }
+
+// ── Accommodations ────────────────────────────────────────────────────────────
+
+export interface Accommodation {
+  id: string;
+  name: string;
+  address: string | null;
+  city: string | null;
+  total_capacity: number;
+  rooms_count: number | null;
+  monthly_rent: string | null;      // Decimal serialised as string
+  monthly_utilities: string | null;
+  is_active: boolean;
+  notes: string | null;
+  current_occupancy: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ResidentSummary {
+  worker_id: string;
+  worker_name: string;
+  room_number: string | null;
+  move_in_date: string;
+  move_out_date: string | null;
+  monthly_cost_to_worker: string | null;
+  assignment_id: string;
+}
+
+export interface AccommodationDetail extends Accommodation {
+  residents: ResidentSummary[];
+}
+
+export interface AccommodationCreate {
+  name: string;
+  address?: string;
+  city?: string;
+  total_capacity: number;
+  rooms_count?: number;
+  monthly_rent?: string;
+  monthly_utilities?: string;
+  is_active?: boolean;
+  notes?: string;
+}
+
+export interface AccommodationUpdate {
+  name?: string;
+  address?: string | null;
+  city?: string | null;
+  total_capacity?: number;
+  rooms_count?: number | null;
+  monthly_rent?: string | null;
+  monthly_utilities?: string | null;
+  is_active?: boolean;
+  notes?: string | null;
+}
+
+export interface AssignmentCreate {
+  worker_id: string;
+  room_number?: string;
+  move_in_date: string;   // ISO datetime
+  monthly_cost_to_worker?: string;
+}
+
+export interface AssignmentUpdate {
+  room_number?: string | null;
+  move_out_date?: string | null;
+  monthly_cost_to_worker?: string | null;
+}
+
+export interface AccommodationAssignment {
+  id: string;
+  worker_id: string;
+  accommodation_id: string;
+  room_number: string | null;
+  move_in_date: string;
+  move_out_date: string | null;
+  monthly_cost_to_worker: string | null;
+  created_at: string;
+  updated_at: string;
+}

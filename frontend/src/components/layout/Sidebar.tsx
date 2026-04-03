@@ -6,6 +6,7 @@ import {
   Building2,
   CalendarDays,
   GitBranch,
+  Home,
   LineChart,
   ShieldCheck,
   UserPlus,
@@ -21,6 +22,7 @@ const recruitmentNav = [
   { href: "/dashboard/job-orders", label: "Job Orders", icon: Briefcase },
   { href: "/dashboard/candidates", label: "Candidates", icon: UserSquare2 },
   { href: "/dashboard/workers", label: "Workers", icon: Users },
+  { href: "/dashboard/accommodations", label: "Accommodations", icon: Home },
   { href: "/dashboard/placement-calendar", label: "Placement Calendar", icon: CalendarDays },
   { href: "/dashboard/compliance", label: "Compliance", icon: ShieldCheck },
 ];
