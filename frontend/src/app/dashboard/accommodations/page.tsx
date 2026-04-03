@@ -235,6 +235,7 @@ interface AssignWorkerDialogProps {
 }
 
 function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorkerDialogProps) {
+  const [search, setSearch] = useState("");
   const [workers, setWorkers] = useState<Worker[]>([]);
   const [selectedWorkerId, setSelectedWorkerId] = useState("");
   const [roomNumber, setRoomNumber] = useState("");
@@ -244,8 +245,11 @@ function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorker
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    getWorkers(1, 200).then((res) => setWorkers(res.items));
-  }, []);
+    const timer = setTimeout(() => {
+      getWorkers(1, 50, false, false, search || undefined).then((res) => setWorkers(res.items));
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [search]);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -282,12 +286,19 @@ function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorker
         <form onSubmit={handleSubmit} className="space-y-3">
           <div>
             <label className="mb-1 block text-xs font-medium text-gray-700">Worker *</label>
+            <input
+              type="text"
+              className="mb-1 w-full rounded border px-3 py-1.5 text-sm outline-none focus:ring-1 focus:ring-primary"
+              placeholder="Search by name…"
+              value={search}
+              onChange={(e) => { setSearch(e.target.value); setSelectedWorkerId(""); }}
+            />
             <select
               className="w-full rounded border px-3 py-1.5 text-sm outline-none focus:ring-1 focus:ring-primary"
               value={selectedWorkerId}
               onChange={(e) => setSelectedWorkerId(e.target.value)}
             >
-              <option value="">Select worker…</option>
+              <option value="">{workers.length === 0 ? "No results" : "Select worker…"}</option>
               {workers.map((w) => (
                 <option key={w.id} value={w.id}>
                   {w.first_name} {w.last_name}
@@ -350,12 +361,14 @@ function AssignWorkerDialog({ accommodation, onClose, onAssigned }: AssignWorker
 interface DetailPanelProps {
   accommodation: Accommodation;
   onClose: () => void;
-  onMoveOut: (assignmentId: string) => void;
+  onMoveOut: (assignmentId: string, moveOutDate: string) => void;
 }
 
 function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
   const [detail, setDetail] = useState<AccommodationDetail | null>(null);
   const [loading, setLoading] = useState(true);
+  const [moveOutPending, setMoveOutPending] = useState<{ assignmentId: string; workerName: string } | null>(null);
+  const [moveOutDate, setMoveOutDate] = useState(new Date().toISOString().slice(0, 10));
 
   useEffect(() => {
     setLoading(true);
@@ -433,7 +446,10 @@ function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
                         variant="ghost"
                         size="sm"
                         className="h-7 px-2 text-xs text-red-600 hover:text-red-700"
-                        onClick={() => onMoveOut(r.assignment_id)}
+                        onClick={() => {
+                          setMoveOutDate(new Date().toISOString().slice(0, 10));
+                          setMoveOutPending({ assignmentId: r.assignment_id, workerName: r.worker_name });
+                        }}
                       >
                         Move out
                       </Button>
@@ -450,6 +466,41 @@ function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
           </p>
         )}
       </div>
+
+      {moveOutPending && (
+        <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black/40">
+          <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-xl">
+            <h2 className="mb-2 text-base font-semibold">Confirm move-out</h2>
+            <p className="mb-4 text-sm text-muted-foreground">
+              Recording move-out for <strong>{moveOutPending.workerName}</strong>.
+            </p>
+            <div className="mb-5">
+              <label className="mb-1 block text-xs font-medium text-gray-700">Move-out date *</label>
+              <input
+                type="date"
+                className="w-full rounded border px-3 py-1.5 text-sm outline-none focus:ring-1 focus:ring-primary"
+                value={moveOutDate}
+                onChange={(e) => setMoveOutDate(e.target.value)}
+              />
+            </div>
+            <div className="flex justify-end gap-2">
+              <Button variant="outline" onClick={() => setMoveOutPending(null)}>
+                Cancel
+              </Button>
+              <Button
+                variant="destructive"
+                disabled={!moveOutDate}
+                onClick={() => {
+                  onMoveOut(moveOutPending.assignmentId, moveOutDate);
+                  setMoveOutPending(null);
+                }}
+              >
+                Confirm move-out
+              </Button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -512,9 +563,9 @@ export default function AccommodationsPage() {
     if (!formTarget) setTotal((t) => t + 1);
   }
 
-  async function handleMoveOut(assignmentId: string) {
+  async function handleMoveOut(assignmentId: string, moveOutDate: string) {
     await updateAccommodationAssignment(assignmentId, {
-      move_out_date: new Date().toISOString(),
+      move_out_date: new Date(moveOutDate).toISOString(),
     });
     setDetailTarget(null);
     load();

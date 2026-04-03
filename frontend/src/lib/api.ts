@@ -199,10 +199,12 @@ export function getWorkers(
   pageSize = 20,
   expiringDocs = false,
   showArchived = false,
+  q?: string,
 ): Promise<Paginated<Worker>> {
   const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
   if (expiringDocs) params.set("expiring_docs", "true");
   if (showArchived) params.set("show_archived", "true");
+  if (q) params.set("q", q);
   return request<Paginated<Worker>>(`/api/v1/workers?${params}`);
 }
 

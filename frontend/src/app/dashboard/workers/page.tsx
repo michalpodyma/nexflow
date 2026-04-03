@@ -92,9 +92,10 @@ interface ArchiveConfirmProps {
   onConfirm: () => void;
   onCancel: () => void;
   loading: boolean;
+  error?: string | null;
 }
 
-function ArchiveConfirm({ worker, onConfirm, onCancel, loading }: ArchiveConfirmProps) {
+function ArchiveConfirm({ worker, onConfirm, onCancel, loading, error }: ArchiveConfirmProps) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
       <div className="w-full max-w-sm rounded-lg bg-white p-6 shadow-xl">
@@ -103,6 +104,11 @@ function ArchiveConfirm({ worker, onConfirm, onCancel, loading }: ArchiveConfirm
           <strong>{worker.first_name} {worker.last_name}</strong> will be hidden from the active
           workers list. You can view archived workers using the toggle.
         </p>
+        {error && (
+          <p className="mb-3 rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+            {error}
+          </p>
+        )}
         <div className="flex justify-end gap-2">
           <Button variant="outline" onClick={onCancel} disabled={loading}>
             Cancel
@@ -131,6 +137,7 @@ export default function WorkersPage() {
   // Archive confirm state
   const [archiveTarget, setArchiveTarget] = useState<Worker | null>(null);
   const [archiving, setArchiving] = useState(false);
+  const [archiveError, setArchiveError] = useState<string | null>(null);
 
   const load = useCallback(() => {
     setLoading(true);
@@ -159,6 +166,7 @@ export default function WorkersPage() {
 
   function openArchiveConfirm(e: React.MouseEvent, worker: Worker) {
     e.stopPropagation();
+    setArchiveError(null);
     setArchiveTarget(worker);
   }
 
@@ -191,8 +199,8 @@ export default function WorkersPage() {
         // Refresh to get updated archived_at timestamp
         load();
       }
-    } catch {
-      // keep dialog open, user can retry
+    } catch (err: unknown) {
+      setArchiveError(err instanceof Error ? err.message : "Failed to archive worker. Please try again.");
     } finally {
       setArchiving(false);
     }
@@ -330,8 +338,9 @@ export default function WorkersPage() {
         <ArchiveConfirm
           worker={archiveTarget}
           onConfirm={handleArchiveConfirm}
-          onCancel={() => setArchiveTarget(null)}
+          onCancel={() => { setArchiveTarget(null); setArchiveError(null); }}
           loading={archiving}
+          error={archiveError}
         />
       )}
     </div>

@@ -39,6 +39,7 @@ async def list_workers(
         False, description="Filter to workers with any document expiring within 30 days"
     ),
     show_archived: bool = Query(False, description="Include archived workers"),
+    q: str | None = Query(None, description="Search by first or last name (case-insensitive)"),
 ) -> PaginatedWorkers:
     offset = (page - 1) * page_size
     cutoff = datetime.now(timezone.utc) + timedelta(days=30)
@@ -48,6 +49,15 @@ async def list_workers(
     # By default hide archived workers
     if not show_archived:
         base_q = base_q.where(Worker.archived_at.is_(None))
+
+    if q:
+        pattern = f"%{q}%"
+        base_q = base_q.where(
+            or_(
+                Worker.first_name.ilike(pattern),
+                Worker.last_name.ilike(pattern),
+            )
+        )
 
     if expiring_docs:
         base_q = base_q.where(
