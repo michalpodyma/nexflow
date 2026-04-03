@@ -1082,9 +1082,9 @@ async def seed(conn: asyncpg.Connection) -> None:  # noqa: C901 (complexity acce
         existing = await conn.fetchval(
             """
             SELECT id FROM transport_assignments
-            WHERE worker_id = $1 AND route_id = $2 AND start_date = $3
+            WHERE worker_id = $1 AND route_id = $2
             """,
-            uuid.UUID(wid), uuid.UUID(rid), start_date,
+            uuid.UUID(wid), uuid.UUID(rid),
         )
         if existing:
             ta_count += 1
