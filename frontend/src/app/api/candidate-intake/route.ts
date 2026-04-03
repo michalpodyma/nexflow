@@ -59,11 +59,6 @@ const screeningRedis: {
   return { set: async (k, v) => { memStore.set(k, v); } };
 })();
 
-// Set these to match your HubSpot candidate pipeline.
-// Find pipeline/stage IDs in: HubSpot → Settings → CRM → Deals → Pipelines
-const HUBSPOT_PIPELINE_ID = process.env.HUBSPOT_PIPELINE_ID ?? "default";
-const HUBSPOT_STAGE_RECEIVED = process.env.HUBSPOT_STAGE_RECEIVED ?? "appointmentscheduled";
-
 // ---------------------------------------------------------------------------
 // HubSpot helpers
 // ---------------------------------------------------------------------------
@@ -144,32 +139,6 @@ async function upsertContact(p: IntakePayload): Promise<string> {
   }
 
   return contactId!;
-}
-
-async function createDeal(p: IntakePayload, contactId: string): Promise<void> {
-  // Close date set 90 days out as a working placeholder
-  const closeDate = new Date(Date.now() + 90 * 24 * 60 * 60 * 1000)
-    .toISOString()
-    .split("T")[0];
-
-  await hubspot("/crm/v3/objects/deals", {
-    method: "POST",
-    body: JSON.stringify({
-      properties: {
-        dealname: `${p.first_name} ${p.last_name} — ${p.preferred_position}`,
-        pipeline: HUBSPOT_PIPELINE_ID,
-        dealstage: HUBSPOT_STAGE_RECEIVED,
-        closedate: closeDate,
-      },
-      // Associate deal → contact at creation time (single API call)
-      associations: [
-        {
-          to: { id: contactId },
-          types: [{ associationCategory: "HUBSPOT_DEFINED", associationTypeId: 3 }],
-        },
-      ],
-    }),
-  });
 }
 
 // ---------------------------------------------------------------------------
@@ -406,11 +375,11 @@ export async function POST(req: NextRequest) {
     console.error("[intake] Backend unreachable — continuing without DB persistence:", err);
   }
 
-  // Step 2 — HubSpot contact + deal (best-effort, non-blocking)
+  // Step 2 — HubSpot contact only (best-effort, non-blocking)
+  // Note: no Deal is created here — aplikuj candidates belong in Kandydaci, not B2B pipeline
   if (HUBSPOT_TOKEN) {
     try {
-      const contactId = await upsertContact(payload);
-      await createDeal(payload, contactId);
+      await upsertContact(payload);
     } catch (err) {
       console.error("[intake] HubSpot sync failed:", err);
     }
