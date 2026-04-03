@@ -24,6 +24,7 @@ from app.routers.job_orders import router as job_orders_router
 from app.routers.job_postings import router as job_postings_router
 from app.routers.workers import router as workers_router
 from app.routers.documents import templates_router, documents_router, worker_docs_router
+from app.routers.placements import router as placements_router
 from app.routers.prospects import router as prospects_router
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
@@ -111,4 +112,5 @@ app.include_router(analytics_router)
 app.include_router(templates_router)
 app.include_router(documents_router)
 app.include_router(worker_docs_router)
+app.include_router(placements_router)
 app.include_router(prospects_router)

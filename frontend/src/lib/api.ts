@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -615,4 +615,19 @@ export function convertProspect(id: string): Promise<ConvertProspectResponse> {
   return request<ConvertProspectResponse>(`/api/v1/prospects/${id}/convert`, {
     method: "POST",
   });
+}
+
+// Placement Calendar
+export function getPlacementCalendar(params: {
+  start?: string;
+  end?: string;
+  client_id?: string;
+  active_only?: boolean;
+}): Promise<CalendarEntry[]> {
+  const p = new URLSearchParams();
+  if (params.start) p.set("start", params.start);
+  if (params.end) p.set("end", params.end);
+  if (params.client_id) p.set("client_id", params.client_id);
+  if (params.active_only) p.set("active_only", "true");
+  return request<CalendarEntry[]>(`/api/v1/placements/calendar?${p}`);
 }

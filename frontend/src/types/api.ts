@@ -719,3 +719,15 @@ export interface ConvertProspectResponse {
   prospect: Prospect;
   client_id: string;
 }
+
+export interface CalendarEntry {
+  id: string;
+  worker_id: string;
+  worker_name: string;
+  client_id: string;
+  client_name: string;
+  position: string;
+  start_date: string; // ISO date YYYY-MM-DD
+  end_date: string | null; // ISO date, null = open-ended
+  is_active: boolean;
+}
