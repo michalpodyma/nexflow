@@ -358,10 +358,6 @@ export function updateJobOrder(id: string, data: JobOrderUpdate): Promise<JobOrd
   });
 }
 
-export function getJobOrderCandidates(jobOrderId: string): Promise<Paginated<Candidate>> {
-  return request<Paginated<Candidate>>(`/api/v1/job-orders/${jobOrderId}/candidates`);
-}
-
 // Candidate ↔ Job Order links
 export function getCandidateJobOrders(candidateId: string): Promise<Paginated<CandidateJobOrder>> {
   return request<Paginated<CandidateJobOrder>>(`/api/v1/candidates/${candidateId}/job-orders`);
