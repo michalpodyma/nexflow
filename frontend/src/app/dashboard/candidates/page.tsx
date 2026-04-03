@@ -533,6 +533,7 @@ export default function CandidatesPage() {
                         type="checkbox"
                         checked={selected.has(c.id)}
                         onChange={() => toggleOne(c.id)}
+                        onClick={(e) => e.stopPropagation()}
                         className="h-4 w-4 cursor-pointer rounded border-gray-300"
                         aria-label={`Select ${c.first_name} ${c.last_name}`}
                       />
