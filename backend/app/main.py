@@ -12,6 +12,9 @@ from app.models import Base
 from app.routers.accommodations import assignments_router as accommodation_assignments_router
 from app.routers.accommodations import router as accommodations_router
 from app.routers.analytics import router as analytics_router
+from app.routers.transport import assignments_router as transport_assignments_router
+from app.routers.transport import routes_router as transport_routes_router
+from app.routers.transport import vehicles_router
 from app.routers.candidate_job_orders import router as candidate_job_orders_router
 from app.routers.candidates import router as candidates_router
 from app.routers.clients import router as clients_router
@@ -94,4 +97,7 @@ app.include_router(job_orders_router)
 app.include_router(job_postings_router)
 app.include_router(accommodations_router)
 app.include_router(accommodation_assignments_router)
+app.include_router(vehicles_router)
+app.include_router(transport_routes_router)
+app.include_router(transport_assignments_router)
 app.include_router(analytics_router)

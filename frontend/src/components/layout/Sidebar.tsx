@@ -4,6 +4,7 @@ import {
   BarChart3,
   Briefcase,
   Building2,
+  Bus,
   CalendarDays,
   GitBranch,
   Home,
@@ -23,6 +24,7 @@ const recruitmentNav = [
   { href: "/dashboard/candidates", label: "Candidates", icon: UserSquare2 },
   { href: "/dashboard/workers", label: "Workers", icon: Users },
   { href: "/dashboard/accommodations", label: "Accommodations", icon: Home },
+  { href: "/dashboard/transport", label: "Transport", icon: Bus },
   { href: "/dashboard/placement-calendar", label: "Placement Calendar", icon: CalendarDays },
   { href: "/dashboard/compliance", label: "Compliance", icon: ShieldCheck },
 ];

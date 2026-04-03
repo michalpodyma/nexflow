@@ -390,3 +390,101 @@ export interface AccommodationAssignment {
   created_at: string;
   updated_at: string;
 }
+
+// ── Transport ─────────────────────────────────────────────────────────────────
+
+export interface Vehicle {
+  id: string;
+  make: string;
+  model: string;
+  year: number | null;
+  license_plate: string;
+  capacity: number;
+  insurance_expiry_date: string | null;  // ISO date
+  inspection_expiry_date: string | null; // ISO date
+  is_active: boolean;
+  notes: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface VehicleCreate {
+  make: string;
+  model: string;
+  year?: number;
+  license_plate: string;
+  capacity: number;
+  insurance_expiry_date?: string;
+  inspection_expiry_date?: string;
+  is_active?: boolean;
+  notes?: string;
+}
+
+export interface VehicleUpdate {
+  make?: string;
+  model?: string;
+  year?: number | null;
+  license_plate?: string;
+  capacity?: number;
+  insurance_expiry_date?: string | null;
+  inspection_expiry_date?: string | null;
+  is_active?: boolean;
+  notes?: string | null;
+}
+
+export interface TransportRoute {
+  id: string;
+  name: string;
+  origin: string;
+  destination: string;
+  vehicle_id: string | null;
+  driver_worker_id: string | null;
+  departure_time: string | null; // "HH:MM:SS"
+  return_time: string | null;    // "HH:MM:SS"
+  is_active: boolean;
+  assigned_workers: number;
+  vehicle_plate: string | null;
+  driver_name: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface RouteCreate {
+  name: string;
+  origin: string;
+  destination: string;
+  vehicle_id?: string;
+  driver_worker_id?: string;
+  departure_time?: string;
+  return_time?: string;
+  is_active?: boolean;
+}
+
+export interface RouteUpdate {
+  name?: string;
+  origin?: string;
+  destination?: string;
+  vehicle_id?: string | null;
+  driver_worker_id?: string | null;
+  departure_time?: string | null;
+  return_time?: string | null;
+  is_active?: boolean;
+}
+
+export interface TransportAssignment {
+  id: string;
+  worker_id: string;
+  route_id: string;
+  start_date: string;
+  end_date: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface RoutePassenger {
+  worker_id: string;
+  worker_name: string;
+  start_date: string;
+  end_date: string | null;
+  assignment_id: string;
+}

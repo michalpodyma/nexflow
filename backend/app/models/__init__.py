@@ -38,6 +38,7 @@ from .audit import AuditLog
 from .job_orders import JobOrder
 from .candidate_job_orders import CandidateJobOrder
 from .accommodations import Accommodation, AccommodationAssignment
+from .transport import TransportAssignment, TransportRoute, Vehicle
 
 __all__ = [
     "Base",
@@ -71,4 +72,7 @@ __all__ = [
     "CandidateJobOrder",
     "Accommodation",
     "AccommodationAssignment",
+    "Vehicle",
+    "TransportRoute",
+    "TransportAssignment",
 ]

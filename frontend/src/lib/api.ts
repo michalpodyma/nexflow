@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -354,6 +354,86 @@ export function updateAccommodationAssignment(
   data: AssignmentUpdate,
 ): Promise<AccommodationAssignment> {
   return request<AccommodationAssignment>(`/api/v1/accommodation-assignments/${assignmentId}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+// ── Transport ─────────────────────────────────────────────────────────────────
+
+export function getVehicles(
+  page = 1,
+  pageSize = 50,
+  activeOnly = false,
+): Promise<Paginated<Vehicle>> {
+  const params = new URLSearchParams({
+    page: String(page),
+    page_size: String(pageSize),
+    active_only: String(activeOnly),
+  });
+  return request<Paginated<Vehicle>>(`/api/v1/vehicles?${params}`);
+}
+
+export function createVehicle(data: VehicleCreate): Promise<Vehicle> {
+  return request<Vehicle>("/api/v1/vehicles", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateVehicle(id: string, data: VehicleUpdate): Promise<Vehicle> {
+  return request<Vehicle>(`/api/v1/vehicles/${id}`, {
+    method: "PUT",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getTransportRoutes(
+  page = 1,
+  pageSize = 50,
+  activeOnly = false,
+): Promise<Paginated<TransportRoute>> {
+  const params = new URLSearchParams({
+    page: String(page),
+    page_size: String(pageSize),
+    active_only: String(activeOnly),
+  });
+  return request<Paginated<TransportRoute>>(`/api/v1/transport-routes?${params}`);
+}
+
+export function createTransportRoute(data: RouteCreate): Promise<TransportRoute> {
+  return request<TransportRoute>("/api/v1/transport-routes", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateTransportRoute(id: string, data: RouteUpdate): Promise<TransportRoute> {
+  return request<TransportRoute>(`/api/v1/transport-routes/${id}`, {
+    method: "PUT",
+    body: JSON.stringify(data),
+  });
+}
+
+export function assignWorkerToRoute(
+  routeId: string,
+  data: { worker_id: string; start_date: string; end_date?: string },
+): Promise<TransportAssignment> {
+  return request<TransportAssignment>(`/api/v1/transport-routes/${routeId}/assign`, {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getRoutePassengers(routeId: string): Promise<RoutePassenger[]> {
+  return request<RoutePassenger[]>(`/api/v1/transport-routes/${routeId}/passengers`);
+}
+
+export function updateTransportAssignment(
+  assignmentId: string,
+  data: { end_date?: string | null },
+): Promise<TransportAssignment> {
+  return request<TransportAssignment>(`/api/v1/transport-assignments/${assignmentId}`, {
     method: "PATCH",
     body: JSON.stringify(data),
   });
