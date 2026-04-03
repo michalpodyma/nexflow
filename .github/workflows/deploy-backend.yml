@@ -24,10 +24,12 @@ jobs:
       - name: Trigger Railway repo-source deploy
         run: |
           # Tell Railway to build from the latest GitHub commit (repo-source build)
-          # Railway builds from the connected repo directly — no GHCR needed
-          curl -s -X POST "https://backboard.railway.app/graphql/v2" \
+          # Project: nexflow-backend | Service: nexflow-api | Env: production
+          RESPONSE=$(curl -s -X POST "https://backboard.railway.app/graphql/v2" \
             -H "Authorization: Bearer ${{ secrets.RAILWAY_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d "{
-              \"query\": \"mutation { serviceInstanceDeploy(serviceId: \\\"${{ secrets.RAILWAY_SERVICE_ID }}\\\", environmentId: \\\"${{ secrets.RAILWAY_ENV_ID }}\\\", latestCommit: true) }\"
-            }"
+              \"query\": \"mutation { serviceInstanceDeploy(serviceId: \\\"88ee6afe-6f74-4fbd-8d7d-f5ad300a141c\\\", environmentId: \\\"221b985d-cbb1-4283-b0ca-cd786b4d036c\\\", latestCommit: true) }\"
+            }")
+          echo "Railway response: $RESPONSE"
+          echo "$RESPONSE" | grep -q '"serviceInstanceDeploy":true' || (echo "Deploy trigger failed" && exit 1)
