@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -577,4 +577,38 @@ export function getWorkerDocuments(
   return request<Paginated<GeneratedDocument>>(
     `/api/v1/workers/${workerId}/documents?${params}`,
   );
+}
+
+// ── Prospects ─────────────────────────────────────────────────────────────────
+
+export function getProspects(
+  page = 1,
+  pageSize = 50,
+  status?: ProspectStatus,
+  source?: ProspectSource,
+): Promise<Paginated<Prospect>> {
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  if (status) params.set("status", status);
+  if (source) params.set("source", source);
+  return request<Paginated<Prospect>>(`/api/v1/prospects?${params}`);
+}
+
+export function createProspect(data: ProspectCreate): Promise<Prospect> {
+  return request<Prospect>("/api/v1/prospects", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateProspect(id: string, data: ProspectUpdate): Promise<Prospect> {
+  return request<Prospect>(`/api/v1/prospects/${id}`, {
+    method: "PUT",
+    body: JSON.stringify(data),
+  });
+}
+
+export function convertProspect(id: string): Promise<ConvertProspectResponse> {
+  return request<ConvertProspectResponse>(`/api/v1/prospects/${id}/convert`, {
+    method: "POST",
+  });
 }

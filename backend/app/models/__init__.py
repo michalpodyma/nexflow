@@ -42,6 +42,7 @@ from .transport import TransportAssignment, TransportRoute, Vehicle
 from .documents import DocumentTemplate, GeneratedDocument
 from .client_activities import ClientActivity, ActivityType
 from .client_contacts import ClientContact
+from .prospects import Prospect
 
 __all__ = [
     "Base",
@@ -83,4 +84,5 @@ __all__ = [
     "ClientActivity",
     "ActivityType",
     "ClientContact",
+    "Prospect",
 ]

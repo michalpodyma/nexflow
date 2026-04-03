@@ -621,3 +621,56 @@ export interface GenerateDocumentRequest {
   assignment_id?: string;
   overrides?: Record<string, string>;
 }
+
+// ── Prospects ─────────────────────────────────────────────────────────────────
+
+export type ProspectSource = "referral" | "cold_call" | "website" | "linkedin" | "event" | "other";
+export type ProspectStatus = "new" | "contacted" | "qualified" | "proposal_sent" | "negotiating" | "converted" | "lost";
+
+export interface Prospect {
+  id: string;
+  company_name: string;
+  contact_name: string | null;
+  contact_email: string | null;
+  contact_phone: string | null;
+  source: ProspectSource;
+  status: ProspectStatus;
+  estimated_monthly_value: string | null;
+  notes: string | null;
+  next_follow_up: string | null;
+  converted_to_client_id: string | null;
+  assigned_to: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ProspectCreate {
+  company_name: string;
+  contact_name?: string | null;
+  contact_email?: string | null;
+  contact_phone?: string | null;
+  source?: ProspectSource;
+  status?: ProspectStatus;
+  estimated_monthly_value?: string | null;
+  notes?: string | null;
+  next_follow_up?: string | null;
+  assigned_to?: string | null;
+}
+
+export interface ProspectUpdate {
+  company_name?: string;
+  contact_name?: string | null;
+  contact_email?: string | null;
+  contact_phone?: string | null;
+  source?: ProspectSource;
+  status?: ProspectStatus;
+  estimated_monthly_value?: string | null;
+  notes?: string | null;
+  next_follow_up?: string | null;
+  assigned_to?: string | null;
+}
+
+export interface ConvertProspectResponse {
+  prospect: Prospect;
+  client_id: string;
+}

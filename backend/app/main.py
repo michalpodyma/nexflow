@@ -24,6 +24,7 @@ from app.routers.job_orders import router as job_orders_router
 from app.routers.job_postings import router as job_postings_router
 from app.routers.workers import router as workers_router
 from app.routers.documents import templates_router, documents_router, worker_docs_router
+from app.routers.prospects import router as prospects_router
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
 # Each statement is executed individually because asyncpg does not support
@@ -55,6 +56,8 @@ _ENUM_DDL_STATEMENTS = [
     "DO $$ BEGIN CREATE TYPE template_type_enum AS ENUM ('employment_contract','mandate_contract','annex','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE document_status_enum AS ENUM ('draft','final','signed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE client_activity_type_enum AS ENUM ('note','call','email','meeting'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE prospect_source_enum AS ENUM ('referral','cold_call','website','linkedin','event','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE prospect_status_enum AS ENUM ('new','contacted','qualified','proposal_sent','negotiating','converted','lost'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
 ]
 
 
@@ -108,3 +111,4 @@ app.include_router(analytics_router)
 app.include_router(templates_router)
 app.include_router(documents_router)
 app.include_router(worker_docs_router)
+app.include_router(prospects_router)
