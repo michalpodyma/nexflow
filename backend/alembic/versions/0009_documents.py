@@ -208,21 +208,9 @@ _UZ_HTML = """<!DOCTYPE html>
 
 
 def upgrade() -> None:
-    # ── Enum types ──────────────────────────────────────────────────────────────
-    op.execute(
-        """DO $$ BEGIN
-          CREATE TYPE template_type_enum AS ENUM (
-              'employment_contract','mandate_contract','annex','other'
-          );
-        EXCEPTION WHEN duplicate_object THEN NULL;
-        END $$"""
-    )
-    op.execute(
-        """DO $$ BEGIN
-          CREATE TYPE document_status_enum AS ENUM ('draft','final','signed');
-        EXCEPTION WHEN duplicate_object THEN NULL;
-        END $$"""
-    )
+    # No explicit DO blocks — let SQLAlchemy's visit_enum create enum types via its
+    # memo system as part of op.create_table. Using DO block + create_type=False
+    # breaks because visit_enum ignores create_type when checkfirst=False.
 
     # ── Tables ──────────────────────────────────────────────────────────────────
     op.create_table(
@@ -239,7 +227,6 @@ def upgrade() -> None:
             sa.Enum(
                 "employment_contract", "mandate_contract", "annex", "other",
                 name="template_type_enum",
-                create_type=False,
             ),
             nullable=False,
         ),
@@ -290,7 +277,7 @@ def upgrade() -> None:
         sa.Column("pdf_data", sa.LargeBinary, nullable=True),
         sa.Column(
             "status",
-            sa.Enum("draft", "final", "signed", name="document_status_enum", create_type=False),
+            sa.Enum("draft", "final", "signed", name="document_status_enum"),
             nullable=False,
             server_default="draft",
         ),
@@ -315,37 +302,30 @@ def upgrade() -> None:
     op.create_index("ix_generated_documents_assignment_id", "generated_documents", ["assignment_id"])
 
     # ── Seed templates ───────────────────────────────────────────────────────────
-    document_templates = sa.table(
-        "document_templates",
-        sa.column("id", PGUUID(as_uuid=True)),
-        sa.column("name", sa.String),
-        sa.column("template_type", sa.String),
-        sa.column("body_html", sa.Text),
-        sa.column("is_active", sa.Boolean),
-        sa.column("version", sa.Integer),
+    # Use CAST(... AS type) not ::type — the :: notation conflicts with SQLAlchemy's
+    # bind parameter parser (it tries to treat "template_type::template_type_enum" as
+    # a single bind param name and fails). CAST avoids this entirely.
+    _insert_sql = sa.text(
+        "INSERT INTO document_templates (id, name, template_type, body_html, is_active, version) "
+        "VALUES (:id, :name, CAST(:ttype AS template_type_enum), :body_html, :is_active, :version)"
     )
-
-    op.bulk_insert(
-        document_templates,
-        [
-            {
-                "id": str(uuid4()),
-                "name": "Umowa o pracę",
-                "template_type": "employment_contract",
-                "body_html": _UOP_HTML,
-                "is_active": True,
-                "version": 1,
-            },
-            {
-                "id": str(uuid4()),
-                "name": "Umowa zlecenie",
-                "template_type": "mandate_contract",
-                "body_html": _UZ_HTML,
-                "is_active": True,
-                "version": 1,
-            },
-        ],
-    )
+    conn = op.get_bind()
+    conn.execute(_insert_sql, {
+        "id": str(uuid4()),
+        "name": "Umowa o pracę",
+        "ttype": "employment_contract",
+        "body_html": _UOP_HTML,
+        "is_active": True,
+        "version": 1,
+    })
+    conn.execute(_insert_sql, {
+        "id": str(uuid4()),
+        "name": "Umowa zlecenie",
+        "ttype": "mandate_contract",
+        "body_html": _UZ_HTML,
+        "is_active": True,
+        "version": 1,
+    })
 
 
 def downgrade() -> None:

@@ -20,6 +20,10 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
+    # Use raw SQL for both enum creation and table creation to bypass SQLAlchemy's
+    # DDLGenerator.visit_enum, which re-emits CREATE TYPE regardless of create_type=False
+    # when checkfirst=False (Alembic's default). This is a SQLAlchemy 2.x bug/behaviour
+    # where create_type=False only guards direct enum.create() calls, not table-level DDL.
     op.execute("""
         DO $$ BEGIN
             CREATE TYPE job_order_urgency AS ENUM ('normal', 'urgent', 'critical');
@@ -35,45 +39,25 @@ def upgrade() -> None:
         EXCEPTION WHEN duplicate_object THEN NULL;
         END $$
     """)
-
-    op.create_table(
-        "job_orders",
-        sa.Column("id", UUID(as_uuid=True), primary_key=True, server_default=sa.text("uuid_generate_v4()")),
-        sa.Column("client_id", UUID(as_uuid=True), sa.ForeignKey("clients.id", ondelete="RESTRICT"), nullable=False),
-        sa.Column("title", sa.String(255), nullable=False),
-        sa.Column("description", sa.Text, nullable=True),
-        sa.Column("location", sa.String(255), nullable=True),
-        sa.Column("headcount_needed", sa.Integer, nullable=False, server_default="1"),
-        sa.Column("headcount_filled", sa.Integer, nullable=False, server_default="0"),
-        sa.Column(
-            "urgency",
-            sa.Enum("normal", "urgent", "critical", name="job_order_urgency", create_type=False),
-            nullable=False,
-            server_default="normal",
-        ),
-        sa.Column(
-            "status",
-            sa.Enum(
-                "open", "sourcing", "submitted", "interview", "filled", "on_hold", "cancelled",
-                name="job_order_status",
-                create_type=False,
-            ),
-            nullable=False,
-            server_default="open",
-        ),
-        sa.Column("deadline", sa.Date, nullable=True),
-        sa.Column("salary_min", sa.Numeric(10, 2), nullable=True),
-        sa.Column("salary_max", sa.Numeric(10, 2), nullable=True),
-        sa.Column(
-            "currency",
-            sa.Enum("PLN", "EUR", name="currency_enum", create_type=False),
-            nullable=False,
-            server_default="PLN",
-        ),
-        sa.Column("created_at", sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")),
-        sa.Column("updated_at", sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")),
-    )
-
+    op.execute("""
+        CREATE TABLE IF NOT EXISTS job_orders (
+            id          UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+            client_id   UUID NOT NULL REFERENCES clients(id) ON DELETE RESTRICT,
+            title       VARCHAR(255) NOT NULL,
+            description TEXT,
+            location    VARCHAR(255),
+            headcount_needed  INTEGER NOT NULL DEFAULT 1,
+            headcount_filled  INTEGER NOT NULL DEFAULT 0,
+            urgency     job_order_urgency NOT NULL DEFAULT 'normal',
+            status      job_order_status  NOT NULL DEFAULT 'open',
+            deadline    DATE,
+            salary_min  NUMERIC(10, 2),
+            salary_max  NUMERIC(10, 2),
+            currency    currency_enum NOT NULL DEFAULT 'PLN',
+            created_at  TIMESTAMPTZ NOT NULL DEFAULT now(),
+            updated_at  TIMESTAMPTZ NOT NULL DEFAULT now()
+        )
+    """)
     op.create_index("ix_job_orders_client_id", "job_orders", ["client_id"])
     op.create_index("ix_job_orders_status", "job_orders", ["status"])
 

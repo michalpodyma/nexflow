@@ -22,13 +22,9 @@ depends_on: Union[str, Sequence[str], None] = None
 
 
 def upgrade() -> None:
-    # ── Enum ────────────────────────────────────────────────────────────────────
-    op.execute(
-        """DO $$ BEGIN
-          CREATE TYPE client_activity_type_enum AS ENUM ('note','call','email','meeting');
-        EXCEPTION WHEN duplicate_object THEN NULL;
-        END $$"""
-    )
+    # No explicit DO block — let SQLAlchemy's visit_enum create the type via its
+    # memo system as part of op.create_table. Using DO block + create_type=False
+    # breaks because visit_enum ignores create_type when checkfirst=False.
 
     # ── client_activities ────────────────────────────────────────────────────────
     op.create_table(
@@ -50,7 +46,6 @@ def upgrade() -> None:
             sa.Enum(
                 "note", "call", "email", "meeting",
                 name="client_activity_type_enum",
-                create_type=False,
             ),
             nullable=False,
         ),
