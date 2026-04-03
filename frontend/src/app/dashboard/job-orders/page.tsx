@@ -5,6 +5,8 @@ import { useEffect, useRef, useState } from "react";
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import Link from "next/link";
+
 import { createJobOrder, getClients, getJobOrderCandidates, getJobOrders, updateJobOrder } from "@/lib/api";
 import type { Client, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUrgency } from "@/types/api";
 
@@ -63,7 +65,13 @@ function KanbanCard({ order, clientName, candidateCount, onStatusChange, draggab
       className="rounded-lg border bg-white p-3 shadow-sm cursor-grab active:cursor-grabbing hover:shadow-md transition-shadow"
     >
       <p className="text-sm font-semibold text-gray-900 leading-snug">{order.title}</p>
-      <p className="mt-1 text-xs text-gray-500">{clientName}</p>
+      <Link
+        href={`/dashboard/clients/${order.client_id}`}
+        className="mt-1 block text-xs text-blue-600 hover:underline"
+        onClick={(e) => e.stopPropagation()}
+      >
+        {clientName}
+      </Link>
 
       <div className="mt-2 flex items-center gap-2 flex-wrap">
         <UrgencyBadge urgency={order.urgency} />
