@@ -488,3 +488,59 @@ export interface RoutePassenger {
   end_date: string | null;
   assignment_id: string;
 }
+
+// ── Documents ─────────────────────────────────────────────────────────────────
+
+export type TemplateType = "employment_contract" | "mandate_contract" | "annex" | "other";
+export type DocumentStatus = "draft" | "final" | "signed";
+
+export interface DocumentTemplate {
+  id: string;
+  name: string;
+  template_type: TemplateType;
+  is_active: boolean;
+  version: number;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface DocumentTemplateDetail extends DocumentTemplate {
+  body_html: string;
+}
+
+export interface DocumentTemplateCreate {
+  name: string;
+  template_type: TemplateType;
+  body_html: string;
+  is_active?: boolean;
+}
+
+export interface DocumentTemplateUpdate {
+  name?: string;
+  template_type?: TemplateType;
+  body_html?: string;
+  is_active?: boolean;
+}
+
+export interface GeneratedDocument {
+  id: string;
+  template_id: string;
+  worker_id: string;
+  assignment_id: string | null;
+  status: DocumentStatus;
+  generated_by_user: string | null;
+  template_name_snapshot: string;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface GeneratedDocumentDetail extends GeneratedDocument {
+  rendered_html: string;
+}
+
+export interface GenerateDocumentRequest {
+  template_id: string;
+  worker_id: string;
+  assignment_id?: string;
+  overrides?: Record<string, string>;
+}

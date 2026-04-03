@@ -2,11 +2,18 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, FileText, Download, ChevronDown } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogFooter,
+} from "@/components/ui/dialog";
 import {
   Table,
   TableBody,
@@ -15,8 +22,32 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
-import { getWorker, updateWorkerAttendanceStatus } from "@/lib/api";
-import type { AttendanceStatus, WorkerDetail } from "@/types/api";
+import {
+  getWorker,
+  updateWorkerAttendanceStatus,
+  getDocumentTemplates,
+  generateDocument,
+  finalizeDocument,
+  getWorkerDocuments,
+} from "@/lib/api";
+import type {
+  AttendanceStatus,
+  DocumentTemplate,
+  GeneratedDocument,
+  WorkerDetail,
+} from "@/types/api";
+
+const DOC_STATUS_LABELS: Record<string, string> = {
+  draft: "Szkic",
+  final: "Finalny",
+  signed: "Podpisany",
+};
+
+const DOC_STATUS_STYLES: Record<string, string> = {
+  draft: "bg-yellow-50 text-yellow-700",
+  final: "bg-green-50 text-green-700",
+  signed: "bg-blue-50 text-blue-700",
+};
 
 const STATUS_STYLES: Record<AttendanceStatus, string> = {
   active: "bg-green-100 text-green-800",
@@ -40,12 +71,103 @@ export default function WorkerProfilePage() {
   const [error, setError] = useState<string | null>(null);
   const [statusUpdating, setStatusUpdating] = useState(false);
 
+  // Generate document flow
+  const [genDialogOpen, setGenDialogOpen] = useState(false);
+  const [templates, setTemplates] = useState<DocumentTemplate[]>([]);
+  const [selectedTemplateId, setSelectedTemplateId] = useState("");
+  const [generating, setGenerating] = useState(false);
+  const [genError, setGenError] = useState<string | null>(null);
+  const [generatedDoc, setGeneratedDoc] = useState<GeneratedDocument | null>(null);
+  const [previewHtml, setPreviewHtml] = useState<string | null>(null);
+  const [finalizing, setFinalizing] = useState(false);
+
+  // Worker documents list
+  const [documents, setDocuments] = useState<GeneratedDocument[]>([]);
+  const [docsLoading, setDocsLoading] = useState(false);
+
   useEffect(() => {
     getWorker(id)
       .then(setWorker)
       .catch((e: unknown) => setError(e instanceof Error ? e.message : "Failed to load worker"))
       .finally(() => setLoading(false));
+    loadDocuments();
   }, [id]);
+
+  async function loadDocuments() {
+    setDocsLoading(true);
+    try {
+      const res = await getWorkerDocuments(id, 1, 10);
+      setDocuments(res.items);
+    } catch {
+      // non-blocking
+    } finally {
+      setDocsLoading(false);
+    }
+  }
+
+  async function openGenDialog() {
+    setGenError(null);
+    setGeneratedDoc(null);
+    setPreviewHtml(null);
+    setSelectedTemplateId("");
+    try {
+      const res = await getDocumentTemplates(1, 50, true);
+      setTemplates(res.items);
+    } catch {
+      setTemplates([]);
+    }
+    setGenDialogOpen(true);
+  }
+
+  async function handleGenerate() {
+    if (!selectedTemplateId) {
+      setGenError("Wybierz szablon.");
+      return;
+    }
+    setGenerating(true);
+    setGenError(null);
+    try {
+      const { getGeneratedDocument } = await import("@/lib/api");
+      const doc = await generateDocument({ template_id: selectedTemplateId, worker_id: id });
+      setGeneratedDoc(doc);
+      const detail = await getGeneratedDocument(doc.id);
+      setPreviewHtml(detail.rendered_html);
+    } catch (e: unknown) {
+      setGenError(e instanceof Error ? e.message : "Błąd generowania dokumentu.");
+    } finally {
+      setGenerating(false);
+    }
+  }
+
+  async function handleFinalize() {
+    if (!generatedDoc) return;
+    setFinalizing(true);
+    try {
+      const finalized = await finalizeDocument(generatedDoc.id);
+      setGeneratedDoc(finalized);
+      loadDocuments();
+    } catch (e: unknown) {
+      setGenError(e instanceof Error ? e.message : "Błąd finalizacji.");
+    } finally {
+      setFinalizing(false);
+    }
+  }
+
+  function handleDownloadPdf() {
+    if (!generatedDoc) return;
+    const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+    window.open(`${apiBase}/api/v1/documents/${generatedDoc.id}/pdf`, "_blank");
+  }
+
+  function handlePrint() {
+    if (!previewHtml) return;
+    const win = window.open("", "_blank");
+    if (win) {
+      win.document.write(previewHtml);
+      win.document.close();
+      win.print();
+    }
+  }
 
   async function handleStatusChange(status: AttendanceStatus) {
     if (!worker || statusUpdating) return;
@@ -86,15 +208,21 @@ export default function WorkerProfilePage() {
     <div className="flex flex-1 flex-col overflow-auto">
       <Header title={`${worker.first_name} ${worker.last_name}`} />
       <main className="flex-1 space-y-6 p-6">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="gap-2"
-          onClick={() => router.push("/dashboard/workers")}
-        >
-          <ArrowLeft className="h-4 w-4" />
-          Back to Workers
-        </Button>
+        <div className="flex items-center justify-between">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="gap-2"
+            onClick={() => router.push("/dashboard/workers")}
+          >
+            <ArrowLeft className="h-4 w-4" />
+            Back to Workers
+          </Button>
+          <Button size="sm" className="gap-2" onClick={openGenDialog}>
+            <FileText className="h-4 w-4" />
+            Generuj dokument
+          </Button>
+        </div>
 
         {/* Worker details card */}
         <Card>
@@ -216,7 +344,158 @@ export default function WorkerProfilePage() {
             )}
           </CardContent>
         </Card>
+        {/* Generated Documents */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <FileText className="h-5 w-5" />
+              Wygenerowane dokumenty
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            {docsLoading ? (
+              <p className="text-sm text-muted-foreground">Ładowanie...</p>
+            ) : documents.length === 0 ? (
+              <p className="text-sm text-muted-foreground">Brak dokumentów dla tego pracownika.</p>
+            ) : (
+              <div className="rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Szablon</TableHead>
+                      <TableHead>Status</TableHead>
+                      <TableHead>Data wygenerowania</TableHead>
+                      <TableHead>Wygenerował</TableHead>
+                      <TableHead className="text-right">PDF</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {documents.map((doc) => (
+                      <TableRow key={doc.id}>
+                        <TableCell className="font-medium">{doc.template_name_snapshot}</TableCell>
+                        <TableCell>
+                          <span
+                            className={`inline-flex rounded-full px-2 py-0.5 text-xs font-semibold ${
+                              DOC_STATUS_STYLES[doc.status] ?? "bg-gray-100 text-gray-600"
+                            }`}
+                          >
+                            {DOC_STATUS_LABELS[doc.status] ?? doc.status}
+                          </span>
+                        </TableCell>
+                        <TableCell className="text-muted-foreground">
+                          {new Date(doc.created_at).toLocaleDateString("pl-PL")}
+                        </TableCell>
+                        <TableCell className="text-muted-foreground">
+                          {doc.generated_by_user ?? "—"}
+                        </TableCell>
+                        <TableCell className="text-right">
+                          {doc.status === "final" || doc.status === "signed" ? (
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => {
+                                const apiBase =
+                                  process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+                                window.open(
+                                  `${apiBase}/api/v1/documents/${doc.id}/pdf`,
+                                  "_blank",
+                                );
+                              }}
+                            >
+                              <Download className="h-4 w-4" />
+                            </Button>
+                          ) : (
+                            <span className="text-xs text-muted-foreground">—</span>
+                          )}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </div>
+            )}
+          </CardContent>
+        </Card>
       </main>
+
+      {/* Generate Document dialog */}
+      <Dialog open={genDialogOpen} onOpenChange={(v) => { if (!v) setGenDialogOpen(false); }}>
+        <DialogContent className="max-w-4xl max-h-[90vh] overflow-y-auto">
+          <DialogHeader>
+            <DialogTitle>Generuj dokument</DialogTitle>
+          </DialogHeader>
+
+          <div className="space-y-4 py-2">
+            {genError && <p className="text-sm text-destructive">{genError}</p>}
+
+            {!generatedDoc && (
+              <div className="space-y-1">
+                <label className="text-sm font-medium">Wybierz szablon</label>
+                <select
+                  value={selectedTemplateId}
+                  onChange={(e) => setSelectedTemplateId(e.target.value)}
+                  className="w-full rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
+                >
+                  <option value="">— wybierz szablon —</option>
+                  {templates.map((t) => (
+                    <option key={t.id} value={t.id}>
+                      {t.name}
+                    </option>
+                  ))}
+                </select>
+              </div>
+            )}
+
+            {previewHtml && (
+              <div className="space-y-2">
+                <div className="flex items-center justify-between">
+                  <p className="text-sm font-medium text-muted-foreground">
+                    Podgląd dokumentu (szkic)
+                  </p>
+                  <div className="flex gap-2">
+                    <Button variant="outline" size="sm" onClick={handlePrint}>
+                      Drukuj
+                    </Button>
+                    {generatedDoc?.status === "draft" && (
+                      <Button size="sm" onClick={handleFinalize} disabled={finalizing}>
+                        {finalizing ? "Finalizuję..." : "Finalizuj i generuj PDF"}
+                      </Button>
+                    )}
+                    {(generatedDoc?.status === "final" || generatedDoc?.status === "signed") && (
+                      <Button size="sm" className="gap-2" onClick={handleDownloadPdf}>
+                        <Download className="h-4 w-4" />
+                        Pobierz PDF
+                      </Button>
+                    )}
+                  </div>
+                </div>
+                <div
+                  className="max-h-[50vh] overflow-y-auto rounded border p-4 text-xs"
+                  dangerouslySetInnerHTML={{ __html: previewHtml }}
+                />
+              </div>
+            )}
+          </div>
+
+          <DialogFooter>
+            <Button
+              variant="outline"
+              onClick={() => setGenDialogOpen(false)}
+              disabled={generating || finalizing}
+            >
+              Zamknij
+            </Button>
+            {!generatedDoc && (
+              <Button
+                onClick={handleGenerate}
+                disabled={generating || !selectedTemplateId}
+              >
+                {generating ? "Generuję..." : "Wygeneruj podgląd"}
+              </Button>
+            )}
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }

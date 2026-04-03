@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, AssignmentCreate, AssignmentUpdate, AttendanceStatus, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ComplianceAlertsResponse, ComplianceDocumentType, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -437,4 +437,70 @@ export function updateTransportAssignment(
     method: "PATCH",
     body: JSON.stringify(data),
   });
+}
+
+// ── Documents ─────────────────────────────────────────────────────────────────
+
+export function getDocumentTemplates(
+  page = 1,
+  pageSize = 50,
+  activeOnly = false,
+): Promise<Paginated<DocumentTemplate>> {
+  const params = new URLSearchParams({
+    page: String(page),
+    page_size: String(pageSize),
+    active_only: String(activeOnly),
+  });
+  return request<Paginated<DocumentTemplate>>(`/api/v1/document-templates?${params}`);
+}
+
+export function getDocumentTemplate(id: string): Promise<DocumentTemplateDetail> {
+  return request<DocumentTemplateDetail>(`/api/v1/document-templates/${id}`);
+}
+
+export function createDocumentTemplate(
+  data: DocumentTemplateCreate,
+): Promise<DocumentTemplateDetail> {
+  return request<DocumentTemplateDetail>("/api/v1/document-templates", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateDocumentTemplate(
+  id: string,
+  data: DocumentTemplateUpdate,
+): Promise<DocumentTemplateDetail> {
+  return request<DocumentTemplateDetail>(`/api/v1/document-templates/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function generateDocument(data: GenerateDocumentRequest): Promise<GeneratedDocumentDetail> {
+  return request<GeneratedDocumentDetail>("/api/v1/documents/generate", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function getGeneratedDocument(id: string): Promise<GeneratedDocumentDetail> {
+  return request<GeneratedDocumentDetail>(`/api/v1/documents/${id}`);
+}
+
+export function finalizeDocument(id: string): Promise<GeneratedDocument> {
+  return request<GeneratedDocument>(`/api/v1/documents/${id}/finalize`, {
+    method: "POST",
+  });
+}
+
+export function getWorkerDocuments(
+  workerId: string,
+  page = 1,
+  pageSize = 20,
+): Promise<Paginated<GeneratedDocument>> {
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<GeneratedDocument>>(
+    `/api/v1/workers/${workerId}/documents?${params}`,
+  );
 }

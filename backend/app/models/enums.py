@@ -144,3 +144,18 @@ class CandidateJobOrderStatus(str, enum.Enum):
     offered = "offered"
     placed = "placed"
     rejected = "rejected"
+
+
+class TemplateType(str, enum.Enum):
+    """Type of document template used for contract generation."""
+    employment_contract = "employment_contract"
+    mandate_contract = "mandate_contract"
+    annex = "annex"
+    other = "other"
+
+
+class DocumentStatus(str, enum.Enum):
+    """Lifecycle status of a generated document."""
+    draft = "draft"
+    final = "final"
+    signed = "signed"

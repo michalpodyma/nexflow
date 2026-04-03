@@ -39,6 +39,7 @@ from .job_orders import JobOrder
 from .candidate_job_orders import CandidateJobOrder
 from .accommodations import Accommodation, AccommodationAssignment
 from .transport import TransportAssignment, TransportRoute, Vehicle
+from .documents import DocumentTemplate, GeneratedDocument
 
 __all__ = [
     "Base",
@@ -75,4 +76,6 @@ __all__ = [
     "Vehicle",
     "TransportRoute",
     "TransportAssignment",
+    "DocumentTemplate",
+    "GeneratedDocument",
 ]

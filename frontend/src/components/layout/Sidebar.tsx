@@ -6,6 +6,7 @@ import {
   Building2,
   Bus,
   CalendarDays,
+  FileText,
   GitBranch,
   Home,
   LineChart,
@@ -27,6 +28,7 @@ const recruitmentNav = [
   { href: "/dashboard/transport", label: "Transport", icon: Bus },
   { href: "/dashboard/placement-calendar", label: "Placement Calendar", icon: CalendarDays },
   { href: "/dashboard/compliance", label: "Compliance", icon: ShieldCheck },
+  { href: "/dashboard/documents", label: "Documents", icon: FileText },
 ];
 
 const b2bNav = [
