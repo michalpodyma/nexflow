@@ -108,6 +108,9 @@ app = FastAPI(title="Nexflow Platform API", version="0.1.0", lifespan=lifespan)
 origins = ["http://localhost:3000"]
 if settings.frontend_url and settings.frontend_url not in origins:
     origins.append(settings.frontend_url)
+for _extra in (o.strip() for o in settings.cors_extra_origins.split(",") if o.strip()):
+    if _extra not in origins:
+        origins.append(_extra)
 
 app.add_middleware(
     CORSMiddleware,

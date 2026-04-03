@@ -23,6 +23,9 @@ class Settings(BaseSettings):
 
     sendgrid_api_key: str = ""
     frontend_url: str = "http://localhost:3000"
+    # Comma-separated list of additional allowed CORS origins.
+    # Set CORS_EXTRA_ORIGINS=https://nexflow.work on Railway production.
+    cors_extra_origins: str = ""
     environment: str = "development"
 
     # OLX Business API (OAuth 2.0 client_credentials)
