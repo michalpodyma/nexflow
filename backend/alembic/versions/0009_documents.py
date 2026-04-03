@@ -312,6 +312,7 @@ def upgrade() -> None:
 
     op.create_index("ix_generated_documents_worker_id", "generated_documents", ["worker_id"])
     op.create_index("ix_generated_documents_template_id", "generated_documents", ["template_id"])
+    op.create_index("ix_generated_documents_assignment_id", "generated_documents", ["assignment_id"])
 
     # ── Seed templates ───────────────────────────────────────────────────────────
     document_templates = sa.table(
@@ -348,6 +349,7 @@ def upgrade() -> None:
 
 
 def downgrade() -> None:
+    op.drop_index("ix_generated_documents_assignment_id", "generated_documents")
     op.drop_index("ix_generated_documents_worker_id", "generated_documents")
     op.drop_index("ix_generated_documents_template_id", "generated_documents")
     op.drop_table("generated_documents")

@@ -299,7 +299,7 @@ async def finalize_document(
     doc = result.scalar_one_or_none()
     if doc is None:
         raise HTTPException(status_code=404, detail="Document not found")
-    if doc.status == DocumentStatus.final:
+    if doc.status in (DocumentStatus.final, DocumentStatus.signed):
         return GeneratedDocumentRead.model_validate(doc)
 
     try:
