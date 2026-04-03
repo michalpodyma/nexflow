@@ -265,6 +265,49 @@ export interface AnalyticsOverview {
   computed_at: string;
 }
 
+export interface PlacementsByMonth {
+  month: string; // YYYY-MM
+  count: number;
+}
+
+export interface ComplianceSummary {
+  expiring_7d: number;
+  expiring_30d: number;
+  expiring_90d: number;
+}
+
+export interface RecruiterAnalytics {
+  active_workers: number;
+  placement_rate: number;
+  fill_rate: number;
+  avg_time_to_fill_days: number | null;
+  placements_by_month: PlacementsByMonth[];
+  compliance_summary: ComplianceSummary;
+  weekly_trends: WeeklyTrend[];
+  computed_at: string;
+}
+
+export interface RevenuePerClient {
+  client_name: string;
+  revenue_monthly_pln: number;
+}
+
+export interface ProspectFunnelCount {
+  status: string;
+  count: number;
+}
+
+export interface B2BAnalytics {
+  revenue_forecast_monthly_pln: number;
+  pipeline_velocity: number;
+  pipeline_value_pln: number;
+  conversion_rate: number;
+  revenue_per_client: RevenuePerClient[];
+  pipeline_by_stage: PipelineStageCount[];
+  prospects_funnel: ProspectFunnelCount[];
+  computed_at: string;
+}
+
 export interface JobPosting {
   id: string;
   title: string;
