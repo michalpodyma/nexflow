@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
 from app.database import get_db
+from app.models.client_contacts import ClientContact
 from app.models.clients import Client
 from app.models.prospects import Prospect
 from app.schemas.clients import ClientCreate, ClientRead
@@ -132,6 +133,17 @@ async def convert_prospect(
     )
     db.add(client)
     await db.flush()  # get client.id before committing
+
+    # Create primary contact from prospect contact data
+    if prospect.contact_name:
+        contact = ClientContact(
+            client_id=client.id,
+            name=prospect.contact_name,
+            email=prospect.contact_email,
+            phone=prospect.contact_phone,
+            is_primary=True,
+        )
+        db.add(contact)
 
     # Update prospect
     prospect.status = "converted"
