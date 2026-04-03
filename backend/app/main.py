@@ -66,6 +66,8 @@ _ENUM_DDL_STATEMENTS = [
 async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
     import logging
 
+    log = logging.getLogger(__name__)
+
     try:
         async with engine.begin() as conn:
             await conn.execute(text('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"'))
@@ -73,9 +75,30 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
                 await conn.execute(text(stmt))
             await conn.run_sync(Base.metadata.create_all)
     except Exception as exc:
-        logging.getLogger(__name__).warning(
-            "DB init failed at startup (will retry on first request): %s", exc
-        )
+        log.warning("DB init failed at startup (will retry on first request): %s", exc)
+
+    # Ensure seed accounts are always present regardless of alembic state.
+    # Hashes correspond to the production credentials in DASHBOARD_USERS.
+    _SEED_USERS = [
+        ("nexflow0", "$2b$12$dRrcZpwHi0LONPnazrVyzO9.3T73KoncfqQ09vSt7XSZbJwoxskZ."),
+        ("nexflow1", "$2b$12$GawNP0wK3v5raT0tZfsp1eAjmirXtqAju4gag3QrkdI5gC.neyGc."),
+        ("nexflow2", "$2b$12$Zj1JkMw5aR23RUH/RW1j0OC9jWRT3eIotXm31FSBWhpsW4x7yh7Aa"),
+        ("nexflow3", "$2b$12$ygZq385slXjzOdNfsvypjexNwfwiixYxz0S/.vGqnrs.laRMxTsai"),
+    ]
+    try:
+        async with engine.begin() as conn:
+            for username, hashed_password in _SEED_USERS:
+                await conn.execute(
+                    text(
+                        "INSERT INTO admin_users (username, hashed_password) "
+                        "VALUES (:u, :h) "
+                        "ON CONFLICT (username) DO UPDATE "
+                        "SET hashed_password = EXCLUDED.hashed_password"
+                    ).bindparams(u=username, h=hashed_password)
+                )
+    except Exception as exc:
+        log.warning("Admin user seed failed at startup: %s", exc)
+
     yield
 
 
