@@ -440,7 +440,7 @@ export default function WorkerProfilePage() {
               <Pencil className="h-4 w-4" />
               Edit
             </Button>
-            <Button size="sm" className="gap-2" onClick={openGenDialog}>
+            <Button size="sm" className="gap-2" onClick={() => openGenDialog()}>
               <FileText className="h-4 w-4" />
               Generuj dokument
             </Button>

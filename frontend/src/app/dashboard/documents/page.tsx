@@ -38,6 +38,11 @@ const TEMPLATE_TYPE_LABELS: Record<TemplateType, string> = {
   employment_contract: "Umowa o pracę",
   mandate_contract: "Umowa zlecenie",
   annex: "Aneks",
+  oswiadczenie: "Oświadczenie",
+  permit_a: "Zezwolenie typ A",
+  permit_b: "Zezwolenie typ B",
+  permit_seasonal: "Zezwolenie sezonowe",
+  residence_prep: "Wniosek pobytowy",
   other: "Inne",
 };
 
@@ -45,6 +50,11 @@ const TEMPLATE_TYPE_OPTIONS: { value: TemplateType; label: string }[] = [
   { value: "employment_contract", label: "Umowa o pracę" },
   { value: "mandate_contract", label: "Umowa zlecenie" },
   { value: "annex", label: "Aneks" },
+  { value: "oswiadczenie", label: "Oświadczenie" },
+  { value: "permit_a", label: "Zezwolenie typ A" },
+  { value: "permit_b", label: "Zezwolenie typ B" },
+  { value: "permit_seasonal", label: "Zezwolenie sezonowe" },
+  { value: "residence_prep", label: "Wniosek pobytowy" },
   { value: "other", label: "Inne" },
 ];
 
