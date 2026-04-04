@@ -29,7 +29,7 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.RAILWAY_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d "{
-              \"query\": \"mutation { serviceInstanceDeploy(serviceId: \\\"88ee6afe-6f74-4fbd-8d7d-f5ad300a141c\\\", environmentId: \\\"221b985d-cbb1-4283-b0ca-cd786b4d036c\\\", latestCommit: true) }\"
+              \"query\": \"mutation { serviceInstanceDeploy(serviceId: \\\"5a9e7de6-f465-410b-a89e-227f22b5870b\\\", environmentId: \\\"9caf3892-adbc-48a0-bedc-5dd72db30fbb\\\", latestCommit: true) }\"
             }")
           echo "Railway response: $RESPONSE"
           echo "$RESPONSE" | grep -q '"serviceInstanceDeploy":true' || (echo "Deploy trigger failed" && exit 1)
