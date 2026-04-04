@@ -3,9 +3,10 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import DOMPurify from "dompurify";
-import { ArrowLeft, FileText, Download, ChevronDown } from "lucide-react";
+import { ArrowLeft, FileText, Download, ChevronDown, Pencil } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
+import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import {
@@ -71,6 +72,7 @@ export default function WorkerProfilePage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [statusUpdating, setStatusUpdating] = useState(false);
+  const [editOpen, setEditOpen] = useState(false);
 
   // Generate document flow
   const [genDialogOpen, setGenDialogOpen] = useState(false);
@@ -219,10 +221,16 @@ export default function WorkerProfilePage() {
             <ArrowLeft className="h-4 w-4" />
             Back to Workers
           </Button>
-          <Button size="sm" className="gap-2" onClick={openGenDialog}>
-            <FileText className="h-4 w-4" />
-            Generuj dokument
-          </Button>
+          <div className="flex gap-2">
+            <Button size="sm" variant="outline" className="gap-2" onClick={() => setEditOpen(true)}>
+              <Pencil className="h-4 w-4" />
+              Edit
+            </Button>
+            <Button size="sm" className="gap-2" onClick={openGenDialog}>
+              <FileText className="h-4 w-4" />
+              Generuj dokument
+            </Button>
+          </div>
         </div>
 
         {/* Worker details card */}
@@ -418,6 +426,18 @@ export default function WorkerProfilePage() {
           </CardContent>
         </Card>
       </main>
+
+      {/* Edit Worker dialog */}
+      {editOpen && worker && (
+        <WorkerFormDialog
+          worker={worker}
+          onClose={() => setEditOpen(false)}
+          onSaved={(updated) => {
+            setWorker((prev) => prev ? { ...prev, ...updated } : prev);
+            setEditOpen(false);
+          }}
+        />
+      )}
 
       {/* Generate Document dialog */}
       <Dialog open={genDialogOpen} onOpenChange={(v) => { if (!v) setGenDialogOpen(false); }}>
