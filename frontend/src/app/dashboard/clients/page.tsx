@@ -136,8 +136,8 @@ function ClientFormDialog({ client, onClose, onSaved }: ClientFormDialogProps) {
         if (e.target === overlayRef.current) onClose();
       }}
     >
-      <div className="relative mx-4 w-full max-w-2xl max-h-[90dvh] overflow-y-auto rounded-lg bg-white shadow-xl sm:mx-0">
-        <div className="flex items-center justify-between border-b px-6 py-4">
+      <div className="relative mx-4 w-full max-w-2xl max-h-[90dvh] flex flex-col rounded-lg bg-white shadow-xl sm:mx-0">
+        <div className="flex flex-shrink-0 items-center justify-between border-b px-6 py-4">
           <h2 className="text-lg font-semibold">{isEdit ? "Edit Client" : "Add Client"}</h2>
           <button
             type="button"
@@ -149,7 +149,7 @@ function ClientFormDialog({ client, onClose, onSaved }: ClientFormDialogProps) {
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} className="px-6 py-5 space-y-5">
+        <form id="client-form" onSubmit={handleSubmit} className="overflow-y-auto flex-1 min-h-0 px-6 py-5 space-y-5">
           <section>
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
               Company
@@ -295,15 +295,17 @@ function ClientFormDialog({ client, onClose, onSaved }: ClientFormDialogProps) {
             <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
           )}
 
-          <div className="flex justify-end gap-2 border-t pt-4">
-            <Button type="button" variant="outline" onClick={onClose} disabled={saving}>
-              Cancel
-            </Button>
-            <Button type="submit" disabled={saving}>
-              {saving ? "Saving…" : isEdit ? "Save changes" : "Add client"}
-            </Button>
-          </div>
         </form>
+
+        {/* Actions — outside scroll area so always visible */}
+        <div className="flex flex-shrink-0 justify-end gap-2 border-t px-6 py-4">
+          <Button type="button" variant="outline" onClick={onClose} disabled={saving}>
+            Cancel
+          </Button>
+          <Button type="submit" form="client-form" disabled={saving}>
+            {saving ? "Saving…" : isEdit ? "Save changes" : "Add client"}
+          </Button>
+        </div>
       </div>
     </div>
   );

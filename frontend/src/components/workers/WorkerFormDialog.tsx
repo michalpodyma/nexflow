@@ -193,9 +193,9 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
         if (e.target === overlayRef.current) onClose();
       }}
     >
-      <div className="relative mx-4 w-full max-w-2xl max-h-[90dvh] overflow-y-auto rounded-lg bg-white shadow-xl sm:mx-0">
+      <div className="relative mx-4 w-full max-w-2xl max-h-[90dvh] flex flex-col rounded-lg bg-white shadow-xl sm:mx-0">
         {/* Header */}
-        <div className="flex items-center justify-between border-b px-6 py-4">
+        <div className="flex flex-shrink-0 items-center justify-between border-b px-6 py-4">
           <h2 className="text-lg font-semibold">{isEdit ? "Edit Worker" : "Add Worker"}</h2>
           <button
             type="button"
@@ -207,7 +207,7 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           </button>
         </div>
 
-        <form onSubmit={handleSubmit} className="px-6 py-5 space-y-6">
+        <form id="worker-form" onSubmit={handleSubmit} className="overflow-y-auto flex-1 min-h-0 px-6 py-5 space-y-6">
           {/* Personal */}
           <section>
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
@@ -461,17 +461,17 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           {error && (
             <p className="rounded bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
           )}
-
-          {/* Actions */}
-          <div className="flex justify-end gap-2 border-t pt-4">
-            <Button type="button" variant="outline" onClick={onClose} disabled={saving}>
-              Cancel
-            </Button>
-            <Button type="submit" disabled={saving}>
-              {saving ? "Saving…" : isEdit ? "Save changes" : "Add worker"}
-            </Button>
-          </div>
         </form>
+
+        {/* Actions — outside scroll area so always visible */}
+        <div className="flex flex-shrink-0 justify-end gap-2 border-t px-6 py-4">
+          <Button type="button" variant="outline" onClick={onClose} disabled={saving}>
+            Cancel
+          </Button>
+          <Button type="submit" form="worker-form" disabled={saving}>
+            {saving ? "Saving…" : isEdit ? "Save changes" : "Add worker"}
+          </Button>
+        </div>
       </div>
     </div>
   );
