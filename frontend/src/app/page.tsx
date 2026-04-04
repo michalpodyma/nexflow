@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FlowMark from "@/components/FlowMark";
@@ -387,11 +388,22 @@ export default function HomePage() {
             <p className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-6">
               Zaufali nam
             </p>
-            {/* Placeholder — replace with real client logos when available */}
-            <div className="flex flex-wrap items-center justify-center gap-8 opacity-40">
-              {[1, 2, 3, 4, 5].map((i) => (
-                <div key={i} className="w-24 h-10 bg-gray-200 rounded" />
-              ))}
+            <div className="flex flex-wrap items-center justify-center gap-8 opacity-70">
+              <div className="w-36 h-14 flex items-center justify-center">
+                <Image src="/logos/shein.png" alt="SHEIN" width={200} height={80} className="max-h-full max-w-full object-contain" />
+              </div>
+              <div className="w-36 h-14 flex items-center justify-center">
+                <Image src="/logos/wendre.jpg" alt="Wendre" width={200} height={80} className="max-h-full max-w-full object-contain" />
+              </div>
+              <div className="w-36 h-14 flex items-center justify-center">
+                <Image src="/logos/hofman-slubice.png" alt="Hofman Słubice" width={200} height={80} className="max-h-full max-w-full object-contain" />
+              </div>
+              <div className="w-36 h-14 flex items-center justify-center">
+                <Image src="/logos/foliarex.jpeg" alt="Foliarex" width={200} height={80} className="max-h-full max-w-full object-contain" />
+              </div>
+              <div className="w-36 h-14 flex items-center justify-center">
+                <Image src="/logos/fraba.jpg" alt="FRABA" width={200} height={80} className="max-h-full max-w-full object-contain" />
+              </div>
             </div>
           </div>
         </section>
