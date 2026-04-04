@@ -34,6 +34,9 @@ import {
   generateDocument,
   finalizeDocument,
   getWorkerDocuments,
+  getWorkerLegalizations,
+  updateLegalizationStatus,
+  downloadPracaGovExport,
   listWorkerFiles,
   uploadWorkerFile,
   getWorkerFileDownloadUrl,
@@ -44,6 +47,7 @@ import type {
   AttendanceStatus,
   DocumentTemplate,
   GeneratedDocument,
+  LegalizationStatus,
   WorkerDetail,
   WorkerFile,
   WorkerFileDocumentType,
@@ -116,6 +120,13 @@ export default function WorkerProfilePage() {
   const [accommodations, setAccommodations] = useState<WorkerAccommodationEntry[]>([]);
   const [accLoading, setAccLoading] = useState(false);
 
+  // Legalization documents
+  const [legalizations, setLegalizations] = useState<GeneratedDocument[]>([]);
+  const [legLoading, setLegLoading] = useState(false);
+  const [legStatusMap, setLegStatusMap] = useState<Record<string, string>>({});
+  const [legStatusSaving, setLegStatusSaving] = useState<string | null>(null);
+  const [legStatusError, setLegStatusError] = useState<string | null>(null);
+
   // Uploaded files
   const [uploadedFiles, setUploadedFiles] = useState<WorkerFile[]>([]);
   const [filesLoading, setFilesLoading] = useState(false);
@@ -133,6 +144,7 @@ export default function WorkerProfilePage() {
     loadDocuments();
     loadUploadedFiles();
     loadAccommodations();
+    loadLegalizations();
   }, [id]);
 
   async function loadAccommodations() {
@@ -144,6 +156,38 @@ export default function WorkerProfilePage() {
       // non-blocking
     } finally {
       setAccLoading(false);
+    }
+  }
+
+  async function loadLegalizations() {
+    setLegLoading(true);
+    try {
+      const res = await getWorkerLegalizations(id, 1, 20);
+      setLegalizations(res.items);
+      const statusInit: Record<string, string> = {};
+      for (const doc of res.items) {
+        statusInit[doc.id] = doc.legalization_status ?? "";
+      }
+      setLegStatusMap(statusInit);
+    } catch {
+      // non-blocking
+    } finally {
+      setLegLoading(false);
+    }
+  }
+
+  async function handleSaveLegStatus(docId: string) {
+    const status = legStatusMap[docId];
+    if (!status) return;
+    setLegStatusSaving(docId);
+    setLegStatusError(null);
+    try {
+      const updated = await updateLegalizationStatus(docId, { legalization_status: status as LegalizationStatus });
+      setLegalizations((prev) => prev.map((d) => (d.id === updated.id ? updated : d)));
+    } catch (err) {
+      setLegStatusError(err instanceof Error ? err.message : "Błąd zapisu statusu.");
+    } finally {
+      setLegStatusSaving(null);
     }
   }
 
@@ -706,6 +750,131 @@ export default function WorkerProfilePage() {
                         </TableCell>
                       </TableRow>
                     ))}
+                  </TableBody>
+                </Table>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Legalizacja */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center justify-between">
+              <span className="flex items-center gap-2">
+                <FileText className="h-5 w-5" />
+                Legalizacja
+              </span>
+              <div className="flex gap-2">
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => downloadPracaGovExport(id)}
+                >
+                  Eksport praca.gov (CSV)
+                </Button>
+                <Button size="sm" onClick={openGenDialog}>
+                  Generuj dokument
+                </Button>
+              </div>
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            {legStatusError && (
+              <p className="mb-3 rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                {legStatusError}
+              </p>
+            )}
+            {legLoading ? (
+              <p className="text-sm text-muted-foreground">Ładowanie...</p>
+            ) : legalizations.length === 0 ? (
+              <p className="text-sm text-muted-foreground">Brak dokumentów legalizacyjnych. Użyj przycisku &quot;Generuj dokument&quot; aby utworzyć oświadczenie lub zezwolenie.</p>
+            ) : (
+              <div className="rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Dokument</TableHead>
+                      <TableHead>Status legalizacji</TableHead>
+                      <TableHead>Data wygenerowania</TableHead>
+                      <TableHead className="text-right">Akcje</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {legalizations.map((doc) => {
+                      const legStatus = legStatusMap[doc.id] ?? "";
+                      const STATUS_BADGE: Record<string, string> = {
+                        filed: "bg-blue-50 text-blue-700",
+                        pending: "bg-yellow-50 text-yellow-700",
+                        approved: "bg-green-50 text-green-700",
+                        rejected: "bg-red-50 text-red-700",
+                        expired: "bg-gray-100 text-gray-500",
+                      };
+                      const STATUS_LABEL: Record<string, string> = {
+                        filed: "Złożone",
+                        pending: "Oczekujące",
+                        approved: "Zatwierdzone",
+                        rejected: "Odrzucone",
+                        expired: "Wygasłe",
+                      };
+                      return (
+                        <TableRow key={doc.id}>
+                          <TableCell className="font-medium">{doc.template_name_snapshot}</TableCell>
+                          <TableCell>
+                            <div className="flex items-center gap-2">
+                              {legStatus && (
+                                <span className={`inline-flex rounded-full px-2 py-0.5 text-xs font-semibold ${STATUS_BADGE[legStatus] ?? "bg-gray-100 text-gray-600"}`}>
+                                  {STATUS_LABEL[legStatus] ?? legStatus}
+                                </span>
+                              )}
+                              <select
+                                className="rounded border px-2 py-1 text-xs focus:outline-none focus:ring-1 focus:ring-primary/50"
+                                value={legStatus}
+                                onChange={(e) =>
+                                  setLegStatusMap((prev) => ({ ...prev, [doc.id]: e.target.value }))
+                                }
+                              >
+                                <option value="">— ustaw status —</option>
+                                <option value="pending">Oczekujące</option>
+                                <option value="filed">Złożone</option>
+                                <option value="approved">Zatwierdzone</option>
+                                <option value="rejected">Odrzucone</option>
+                                <option value="expired">Wygasłe</option>
+                              </select>
+                              <Button
+                                size="sm"
+                                variant="outline"
+                                disabled={!legStatus || legStatusSaving === doc.id}
+                                onClick={() => handleSaveLegStatus(doc.id)}
+                                className="text-xs"
+                              >
+                                {legStatusSaving === doc.id ? "…" : "Zapisz"}
+                              </Button>
+                            </div>
+                          </TableCell>
+                          <TableCell className="text-muted-foreground">
+                            {new Date(doc.created_at).toLocaleDateString("pl-PL")}
+                          </TableCell>
+                          <TableCell className="text-right">
+                            {doc.status === "final" || doc.status === "signed" ? (
+                              <Button
+                                variant="ghost"
+                                size="sm"
+                                onClick={() => {
+                                  const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+                                  window.open(`${apiBase}/api/v1/documents/${doc.id}/pdf`, "_blank");
+                                }}
+                                title="Pobierz PDF"
+                              >
+                                <Download className="h-4 w-4" />
+                              </Button>
+                            ) : (
+                              <span className="text-xs text-muted-foreground">szkic</span>
+                            )}
+                          </TableCell>
+                        </TableRow>
+                      );
+                    })}
                   </TableBody>
                 </Table>
               </div>

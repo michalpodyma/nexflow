@@ -106,6 +106,20 @@ class GeneratedDocument(Base):
     )
     generated_by_user: Mapped[str | None] = mapped_column(sa.String(255), nullable=True)
     template_name_snapshot: Mapped[str] = mapped_column(sa.String(255), nullable=False)
+
+    # Legalization status — only populated for legalization template types.
+    # Values: filed / pending / approved / rejected / expired
+    legalization_status: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
+    legalization_filed_at: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+    legalization_approved_at: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+    legalization_expires_at: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )

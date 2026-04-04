@@ -23,13 +23,15 @@ Placeholder token context:
 Tokens use {{key}} syntax and are replaced via simple string substitution.
 """
 
+import csv
+import io
 import re
 from datetime import date, datetime, timezone
 from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query
-from fastapi.responses import Response
+from fastapi.responses import Response, StreamingResponse
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -38,7 +40,7 @@ from app.database import get_db
 from app.models.assignments import Assignment
 from app.models.clients import Client
 from app.models.documents import DocumentTemplate, GeneratedDocument
-from app.models.enums import DocumentStatus
+from app.models.enums import DocumentStatus, TemplateType
 from app.models.workers import Worker
 from app.schemas.documents import (
     DocumentTemplateCreate,
@@ -48,6 +50,7 @@ from app.schemas.documents import (
     GenerateDocumentRequest,
     GeneratedDocumentDetail,
     GeneratedDocumentRead,
+    LegalizationStatusUpdate,
     PaginatedDocuments,
     PaginatedTemplates,
 )
@@ -75,7 +78,7 @@ def _build_context(
         return str(val)
 
     ctx: dict[str, str] = {
-        # Worker
+        # Worker — core fields
         "worker.first_name": worker.first_name or "",
         "worker.last_name": worker.last_name or "",
         "worker.full_name": f"{worker.first_name} {worker.last_name}",
@@ -86,6 +89,14 @@ def _build_context(
         "worker.email": worker.email or "—",
         "worker.date_of_birth": _fmt_date(worker.date_of_birth),
         "worker.passport_number": worker.passport_number or "—",
+        # Worker — praca.gov fields (EUR-199)
+        "worker.gender": getattr(worker, "gender", None) or "—",
+        "worker.citizenship": getattr(worker, "citizenship", None) or "—",
+        "worker.travel_document_type": getattr(worker, "travel_document_type", None) or "—",
+        "worker.travel_document_series": getattr(worker, "travel_document_series", None) or "—",
+        "worker.travel_document_number": getattr(worker, "travel_document_number", None) or "—",
+        "worker.travel_document_issue_date": _fmt_date(getattr(worker, "travel_document_issue_date", None)),
+        "worker.travel_document_expiry": _fmt_date(getattr(worker, "travel_document_expiry", None)),
         # Client
         "client.company_name": client.company_name if client else "—",
         "client.nip": (client.nip if client else None) or "—",
@@ -345,6 +356,61 @@ async def download_pdf(
     )
 
 
+# ── Legalization status ────────────────────────────────────────────────────────
+
+_LEGALIZATION_TYPES = {
+    TemplateType.oswiadczenie,
+    TemplateType.permit_a,
+    TemplateType.permit_b,
+    TemplateType.permit_seasonal,
+    TemplateType.residence_prep,
+}
+
+_VALID_LEGALIZATION_STATUSES = {"filed", "pending", "approved", "rejected", "expired"}
+
+
+@documents_router.patch("/{document_id}/legalization-status", response_model=GeneratedDocumentRead)
+async def update_legalization_status(
+    document_id: UUID,
+    body: LegalizationStatusUpdate,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> GeneratedDocumentRead:
+    """Update the legalization filing status for a legalization-type document."""
+    if body.legalization_status not in _VALID_LEGALIZATION_STATUSES:
+        raise HTTPException(
+            status_code=422,
+            detail=f"legalization_status must be one of: {sorted(_VALID_LEGALIZATION_STATUSES)}",
+        )
+
+    result = await db.execute(
+        select(GeneratedDocument).where(GeneratedDocument.id == document_id)
+    )
+    doc = result.scalar_one_or_none()
+    if doc is None:
+        raise HTTPException(status_code=404, detail="Document not found")
+
+    # Fetch template to verify it's a legalization type
+    tpl_result = await db.execute(
+        select(DocumentTemplate).where(DocumentTemplate.id == doc.template_id)
+    )
+    tpl = tpl_result.scalar_one_or_none()
+    if tpl is None or tpl.template_type not in _LEGALIZATION_TYPES:
+        raise HTTPException(
+            status_code=400,
+            detail="Legalization status can only be set on legalization-type documents",
+        )
+
+    doc.legalization_status = body.legalization_status  # type: ignore[assignment]
+    doc.legalization_filed_at = body.legalization_filed_at  # type: ignore[assignment]
+    doc.legalization_approved_at = body.legalization_approved_at  # type: ignore[assignment]
+    doc.legalization_expires_at = body.legalization_expires_at  # type: ignore[assignment]
+    doc.updated_at = datetime.now(timezone.utc)
+    await db.commit()
+    await db.refresh(doc)
+    return GeneratedDocumentRead.model_validate(doc)
+
+
 # ── Worker documents list ──────────────────────────────────────────────────────
 
 @worker_docs_router.get("/{worker_id}/documents", response_model=PaginatedDocuments)
@@ -371,4 +437,98 @@ async def list_worker_documents(
         total=total,
         page=page,
         page_size=page_size,
+    )
+
+
+@worker_docs_router.get("/{worker_id}/legalizations", response_model=PaginatedDocuments)
+async def list_worker_legalizations(
+    worker_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+    page: int = Query(1, ge=1),
+    page_size: int = Query(20, ge=1, le=100),
+) -> PaginatedDocuments:
+    """List only legalization documents for a worker (filtered by template type)."""
+    legalization_type_values = [t.value for t in _LEGALIZATION_TYPES]
+    q = (
+        select(GeneratedDocument)
+        .join(DocumentTemplate, GeneratedDocument.template_id == DocumentTemplate.id)
+        .where(
+            GeneratedDocument.worker_id == worker_id,
+            DocumentTemplate.template_type.in_(legalization_type_values),
+        )
+    )
+
+    total_result = await db.execute(select(func.count()).select_from(q.subquery()))
+    total: int = total_result.scalar_one()
+
+    result = await db.execute(
+        q.order_by(GeneratedDocument.created_at.desc())
+        .offset((page - 1) * page_size)
+        .limit(page_size)
+    )
+    items = list(result.scalars().all())
+    return PaginatedDocuments(
+        items=[GeneratedDocumentRead.model_validate(d) for d in items],
+        total=total,
+        page=page,
+        page_size=page_size,
+    )
+
+
+@worker_docs_router.get("/{worker_id}/legalizations/praca-gov-export")
+async def praca_gov_export(
+    worker_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> StreamingResponse:
+    """Export worker data as a CSV file matching praca.gov required fields."""
+    worker_result = await db.execute(select(Worker).where(Worker.id == worker_id))
+    worker = worker_result.scalar_one_or_none()
+    if worker is None:
+        raise HTTPException(status_code=404, detail="Worker not found")
+
+    # Resolve current client/assignment for employer info
+    client: Client | None = None
+    assignment: Assignment | None = None
+    if worker.current_client_id:
+        c_result = await db.execute(select(Client).where(Client.id == worker.current_client_id))
+        client = c_result.scalar_one_or_none()
+
+    def _fmt(val: object) -> str:
+        if val is None:
+            return ""
+        if hasattr(val, "strftime"):
+            return val.strftime("%d.%m.%Y")
+        return str(val)
+
+    row = {
+        "first_name": worker.first_name or "",
+        "last_name": worker.last_name or "",
+        "date_of_birth": _fmt(worker.date_of_birth),
+        "citizenship": getattr(worker, "citizenship", None) or "",
+        "gender": getattr(worker, "gender", None) or "",
+        "travel_document_type": getattr(worker, "travel_document_type", None) or "",
+        "travel_document_series": getattr(worker, "travel_document_series", None) or "",
+        "travel_document_number": getattr(worker, "travel_document_number", None) or "",
+        "travel_document_issue_date": _fmt(getattr(worker, "travel_document_issue_date", None)),
+        "travel_document_expiry": _fmt(getattr(worker, "travel_document_expiry", None)),
+        "address": worker.address or "",
+        "employer_nip": (client.nip if client else "") or "",
+        "employer_name": (client.company_name if client else "") or "",
+        "assignment_start_date": _fmt(worker.assignment_start_date),
+        "assignment_end_date": _fmt(worker.assignment_end_date),
+    }
+
+    output = io.StringIO()
+    writer = csv.DictWriter(output, fieldnames=list(row.keys()))
+    writer.writeheader()
+    writer.writerow(row)
+    output.seek(0)
+
+    filename = f"praca_gov_{worker_id}.csv"
+    return StreamingResponse(
+        iter([output.getvalue()]),
+        media_type="text/csv",
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
     )

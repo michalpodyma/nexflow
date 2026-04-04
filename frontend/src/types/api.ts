@@ -638,7 +638,7 @@ export interface RoutePassenger {
 
 // ── Documents ─────────────────────────────────────────────────────────────────
 
-export type TemplateType = "employment_contract" | "mandate_contract" | "annex" | "other";
+export type TemplateType = "employment_contract" | "mandate_contract" | "annex" | "other" | "oswiadczenie" | "permit_a" | "permit_b" | "permit_seasonal" | "residence_prep";
 export type DocumentStatus = "draft" | "final" | "signed";
 
 export interface DocumentTemplate {
@@ -669,6 +669,8 @@ export interface DocumentTemplateUpdate {
   is_active?: boolean;
 }
 
+export type LegalizationStatus = "filed" | "pending" | "approved" | "rejected" | "expired";
+
 export interface GeneratedDocument {
   id: string;
   template_id: string;
@@ -679,6 +681,18 @@ export interface GeneratedDocument {
   template_name_snapshot: string;
   created_at: string;
   updated_at: string;
+  // Legalization tracking
+  legalization_status: LegalizationStatus | null;
+  legalization_filed_at: string | null;
+  legalization_approved_at: string | null;
+  legalization_expires_at: string | null;
+}
+
+export interface LegalizationStatusUpdate {
+  legalization_status: LegalizationStatus;
+  legalization_filed_at?: string | null;
+  legalization_approved_at?: string | null;
+  legalization_expires_at?: string | null;
 }
 
 export interface GeneratedDocumentDetail extends GeneratedDocument {

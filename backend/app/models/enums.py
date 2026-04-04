@@ -152,6 +152,12 @@ class TemplateType(str, enum.Enum):
     mandate_contract = "mandate_contract"
     annex = "annex"
     other = "other"
+    # Legalization document types (praca.gov)
+    oswiadczenie = "oswiadczenie"
+    permit_a = "permit_a"
+    permit_b = "permit_b"
+    permit_seasonal = "permit_seasonal"
+    residence_prep = "residence_prep"
 
 
 class DocumentStatus(str, enum.Enum):

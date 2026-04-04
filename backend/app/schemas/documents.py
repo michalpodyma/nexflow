@@ -57,6 +57,11 @@ class GeneratedDocumentRead(BaseModel):
     template_name_snapshot: str
     created_at: datetime
     updated_at: datetime
+    # Legalization tracking (None for non-legalization documents)
+    legalization_status: str | None = None
+    legalization_filed_at: datetime | None = None
+    legalization_approved_at: datetime | None = None
+    legalization_expires_at: datetime | None = None
 
     model_config = {"from_attributes": True}
 
@@ -70,6 +75,14 @@ class GenerateDocumentRequest(BaseModel):
     worker_id: UUID
     assignment_id: UUID | None = None
     overrides: dict[str, str] | None = None
+
+
+class LegalizationStatusUpdate(BaseModel):
+    """Payload for PATCH /api/v1/documents/{id}/legalization-status."""
+    legalization_status: str  # filed / pending / approved / rejected / expired
+    legalization_filed_at: datetime | None = None
+    legalization_approved_at: datetime | None = None
+    legalization_expires_at: datetime | None = None
 
 
 class PaginatedDocuments(BaseModel):
