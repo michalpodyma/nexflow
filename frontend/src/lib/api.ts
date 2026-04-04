@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry, HoursImportBatch, ColumnMappingItem, ColumnMappingRead, UploadResponse, PreviewResponse, CommitResponse } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -628,6 +628,83 @@ export function downloadPracaGovExport(workerId: string): void {
     ? (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000")
     : "http://localhost:8000";
   window.open(`${apiBase}/api/v1/workers/${workerId}/legalizations/praca-gov-export`, "_blank");
+}
+
+// ── Hours Import ──────────────────────────────────────────────────────────────
+
+export async function uploadHoursFile(
+  clientId: string,
+  file: File,
+): Promise<UploadResponse> {
+  const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+  const token = getAccessToken();
+  const formData = new FormData();
+  formData.append("file", file);
+  const res = await fetch(`${apiBase}/api/v1/clients/${clientId}/hours-import/upload`, {
+    method: "POST",
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+    body: formData,
+  });
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error((err as { detail?: string }).detail ?? `Upload failed: ${res.status}`);
+  }
+  return res.json() as Promise<UploadResponse>;
+}
+
+export function getClientColumnMappings(clientId: string): Promise<ColumnMappingRead> {
+  return request<ColumnMappingRead>(`/api/v1/clients/${clientId}/column-mappings`);
+}
+
+export function saveClientColumnMappings(
+  clientId: string,
+  mappings: ColumnMappingItem[],
+): Promise<ColumnMappingRead> {
+  return request<ColumnMappingRead>(`/api/v1/clients/${clientId}/column-mappings`, {
+    method: "PUT",
+    body: JSON.stringify({ mappings }),
+  });
+}
+
+export function validateBatch(
+  batchId: string,
+  mappings: Record<string, string>,
+  saveForClient: boolean = false,
+): Promise<PreviewResponse> {
+  return request<PreviewResponse>(`/api/v1/hours-import/${batchId}/validate`, {
+    method: "POST",
+    body: JSON.stringify({ mappings, save_for_client: saveForClient }),
+  });
+}
+
+export function commitBatch(
+  batchId: string,
+  mappings: Record<string, string>,
+  saveForClient: boolean = false,
+): Promise<CommitResponse> {
+  return request<CommitResponse>(`/api/v1/hours-import/${batchId}/commit`, {
+    method: "POST",
+    body: JSON.stringify({ mappings, save_for_client: saveForClient }),
+  });
+}
+
+export function getHoursImportBatch(batchId: string): Promise<HoursImportBatch> {
+  return request<HoursImportBatch>(`/api/v1/hours-import/${batchId}`);
+}
+
+export function deleteHoursImportBatch(batchId: string): Promise<void> {
+  return request<void>(`/api/v1/hours-import/${batchId}`, { method: "DELETE" });
+}
+
+export function getClientHoursImportHistory(
+  clientId: string,
+  page = 1,
+  pageSize = 20,
+): Promise<Paginated<HoursImportBatch>> {
+  const params = new URLSearchParams({ page: String(page), page_size: String(pageSize) });
+  return request<Paginated<HoursImportBatch>>(
+    `/api/v1/clients/${clientId}/hours-import?${params}`,
+  );
 }
 
 // ── Prospects ─────────────────────────────────────────────────────────────────

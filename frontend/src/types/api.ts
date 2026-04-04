@@ -706,6 +706,69 @@ export interface GenerateDocumentRequest {
   overrides?: Record<string, string>;
 }
 
+// ── Hours Import ──────────────────────────────────────────────────────────────
+
+export interface HoursImportBatch {
+  id: string;
+  client_id: string;
+  original_filename: string;
+  storage_key: string;
+  content_type: string;
+  file_size: number;
+  status: "pending" | "mapped" | "validated" | "imported" | "failed";
+  raw_headers: string[] | null;
+  row_count: number | null;
+  matched_count: number | null;
+  unmatched_count: number | null;
+  flagged_count: number | null;
+  uploaded_by_user: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ColumnMappingItem {
+  spreadsheet_header: string;
+  internal_field: string;
+}
+
+export interface ColumnMappingRead {
+  client_id: string;
+  mappings: ColumnMappingItem[];
+}
+
+export interface UploadResponse {
+  batch_id: string;
+  headers: string[];
+  suggested_mappings: Record<string, string>;
+  row_count: number;
+}
+
+export interface PreviewRow {
+  row_index: number;
+  raw_data: Record<string, string | null>;
+  matched_worker_id: string | null;
+  match_method: string | null;
+  match_status: "matched" | "unmatched" | "flagged";
+  validation_errors: string[];
+  work_date: string | null;
+  hours_worked: string | null;
+  overtime_hours: string | null;
+}
+
+export interface PreviewResponse {
+  batch_id: string;
+  rows: PreviewRow[];
+  matched_count: number;
+  unmatched_count: number;
+  flagged_count: number;
+}
+
+export interface CommitResponse {
+  batch_id: string;
+  imported_count: number;
+  skipped_count: number;
+}
+
 // ── Prospects ─────────────────────────────────────────────────────────────────
 
 export type ProspectSource = "referral" | "cold_call" | "website" | "linkedin" | "event" | "other";

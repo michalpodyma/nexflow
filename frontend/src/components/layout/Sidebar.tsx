@@ -6,6 +6,7 @@ import {
   Building2,
   Bus,
   CalendarDays,
+  Clock,
   FileText,
   GitBranch,
   Home,
@@ -38,6 +39,7 @@ export function Sidebar() {
     { href: "/dashboard/placement-calendar", labelKey: "nav.placement-calendar", icon: CalendarDays },
     { href: "/dashboard/compliance", labelKey: "nav.compliance", icon: ShieldCheck },
     { href: "/dashboard/documents", labelKey: "nav.documents", icon: FileText },
+    { href: "/dashboard/hours-import", labelKey: "nav.hours-import", icon: Clock },
   ];
 
   const b2bNav = [
