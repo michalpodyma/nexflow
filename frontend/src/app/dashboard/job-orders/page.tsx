@@ -267,7 +267,7 @@ export default function JobOrdersPage() {
   const draggingId = useRef<string | null>(null);
 
   useEffect(() => {
-    Promise.all([getJobOrders(), getClients(1, 200)])
+    Promise.all([getJobOrders(), getClients(1, 100)])
       .then(([ordersRes, clientsRes]) => {
         setOrders(ordersRes.items);
         setClients(clientsRes.items);

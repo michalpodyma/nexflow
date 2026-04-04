@@ -93,7 +93,25 @@ async def bulk_update_candidates(
             )
         for c in candidates:
             c.job_posting_id = body.job_posting_id
+            c.screening_status = ScreeningStatus.hired
             c.updated_at = now
+            if c.worker_id is None:
+                new_worker = Worker(
+                    first_name=c.first_name,
+                    last_name=c.last_name,
+                    phone=c.phone,
+                    email=c.email,
+                    nationality=c.nationality,
+                    gdpr_consent=c.gdpr_consent,
+                    gdpr_consent_at=c.gdpr_consent_at,
+                    gdpr_delete_at=None,
+                )
+                db.add(new_worker)
+                await db.flush()
+                await db.refresh(new_worker)
+                new_worker.gdpr_delete_at = None
+                c.worker_id = new_worker.id
+                c.gdpr_delete_at = None
 
     elif body.action == "mark_contacted":
         for c in candidates:

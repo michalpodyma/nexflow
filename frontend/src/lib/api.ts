@@ -783,8 +783,14 @@ export async function uploadWorkerFile(
     body: formData,
   });
   if (!res.ok) {
-    const text = await res.text().catch(() => res.statusText);
-    throw new ApiError(res.status, text);
+    let detail = res.statusText;
+    try {
+      const body = await res.json();
+      detail = body.detail ?? detail;
+    } catch {
+      detail = await res.text().catch(() => res.statusText);
+    }
+    throw new ApiError(res.status, detail);
   }
   return res.json() as Promise<WorkerFile>;
 }
