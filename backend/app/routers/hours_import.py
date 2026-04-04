@@ -231,7 +231,6 @@ async def validate_batch(
     all_workers = workers_result.scalars().all()
     worker_lookup: dict = {
         "by_pesel": {},
-        "by_employee_id": {},
         "by_name": {},
     }
     for w in all_workers:
@@ -329,7 +328,7 @@ async def commit_batch(
 
     workers_result = await db.execute(select(Worker).where(Worker.archived_at.is_(None)))
     all_workers = workers_result.scalars().all()
-    worker_lookup: dict = {"by_pesel": {}, "by_employee_id": {}, "by_name": {}}
+    worker_lookup: dict = {"by_pesel": {}, "by_name": {}}
     for w in all_workers:
         if w.pesel:
             worker_lookup["by_pesel"][w.pesel] = str(w.id)
@@ -480,7 +479,7 @@ async def get_assignment_hours(
     worker_id = hours_rows[0].worker_id if hours_rows else None
 
     return WorkerHoursSummary(
-        worker_id=worker_id or UUID(int=0),
+        worker_id=worker_id,
         assignment_id=assignment_id,
         total_hours=total_hours,
         total_overtime=total_overtime,

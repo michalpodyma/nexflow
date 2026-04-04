@@ -23,7 +23,6 @@ _FIELD_ALIASES: dict[str, list[str]] = {
     "absence_type": ["nieobecność", "nieobecnosc", "absence", "urlop", "zwolnienie"],
     "notes": ["uwagi", "notes", "komentarz", "comment"],
     "pesel": ["pesel"],
-    "employee_id": ["id pracownika", "employee id", "nr pracownika", "numer pracownika"],
 }
 
 
@@ -113,16 +112,17 @@ def suggest_column_mappings(
 def match_workers(
     rows: list[dict[str, Any]],
     field_mapping: dict[str, str],  # spreadsheet_header → internal_field
-    worker_lookup: dict[str, Any],  # keyed by pesel, employee_id, and normalized full_name
+    worker_lookup: dict[str, Any],  # keyed by pesel and normalized full_name
 ) -> list[dict[str, Any]]:
     """
     Attempt to match each row to a worker. Adds 'matched_worker_id' and
     'match_method' keys to each row dict. Unmatched rows get match_method=None.
 
+    Matching order: (1) PESEL → (2) exact name → (3) fuzzy name ≥ 90.
+
     worker_lookup format:
       {
         "by_pesel": {pesel: worker_id},
-        "by_employee_id": {employee_id: worker_id},
         "by_name": {normalized_name: worker_id},
       }
     """
@@ -154,12 +154,6 @@ def match_workers(
         if pesel and pesel in worker_lookup.get("by_pesel", {}):
             worker_id = worker_lookup["by_pesel"][pesel]
             match_method = "pesel"
-
-        if worker_id is None:
-            emp_id = get_cell(row, "employee_id")
-            if emp_id and emp_id in worker_lookup.get("by_employee_id", {}):
-                worker_id = worker_lookup["by_employee_id"][emp_id]
-                match_method = "employee_id"
 
         if worker_id is None:
             name = get_cell(row, "worker_name")

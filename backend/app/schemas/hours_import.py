@@ -9,7 +9,6 @@ class HoursImportBatchRead(BaseModel):
     id: UUID
     client_id: UUID
     original_filename: str
-    storage_key: str
     content_type: str
     file_size: int
     status: str
@@ -105,7 +104,7 @@ class PaginatedBatches(BaseModel):
 
 class WorkerHoursSummary(BaseModel):
     """Summary for invoicing: hours per worker for a given assignment + month."""
-    worker_id: UUID
+    worker_id: UUID | None
     assignment_id: UUID | None
     total_hours: Decimal
     total_overtime: Decimal

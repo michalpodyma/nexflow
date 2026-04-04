@@ -715,7 +715,6 @@ export interface HoursImportBatch {
   id: string;
   client_id: string;
   original_filename: string;
-  storage_key: string;
   content_type: string;
   file_size: number;
   status: "pending" | "mapped" | "validated" | "imported" | "failed";
