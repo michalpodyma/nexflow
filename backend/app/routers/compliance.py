@@ -1,7 +1,8 @@
 from datetime import datetime, timedelta, timezone
 from typing import Annotated, Literal
+from uuid import UUID
 
-from fastapi import APIRouter, Depends, Query
+from fastapi import APIRouter, Depends, HTTPException, Query
 from pydantic import BaseModel
 from sqlalchemy import or_, select
 from sqlalchemy.ext.asyncio import AsyncSession
@@ -38,6 +39,25 @@ class ComplianceAlertsResponse(BaseModel):
     warning_count: int
     info_count: int
     total: int
+
+
+_DOCUMENT_FIELD_MAP: dict[str, str] = {
+    "work_permit": "work_permit_expiry",
+    "health_cert": "health_cert_expiry",
+    "safety_cert": "safety_cert_expiry",
+}
+
+
+class RenewComplianceRequest(BaseModel):
+    worker_id: UUID
+    document_type: DocumentType
+    new_expiry_date: str  # ISO date string e.g. "2027-06-15"
+
+
+class RenewComplianceResponse(BaseModel):
+    worker_id: str
+    document_type: DocumentType
+    new_expiry_date: str
 
 
 def _severity(days: int) -> AlertSeverity:
@@ -132,4 +152,40 @@ async def get_compliance_alerts(
         warning_count=warning_count,
         info_count=info_count,
         total=len(alerts),
+    )
+
+
+@router.post("/renew", response_model=RenewComplianceResponse)
+async def renew_compliance_document(
+    body: RenewComplianceRequest,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> RenewComplianceResponse:
+    """
+    Update the expiry date for a worker's compliance document.
+
+    Accepts upcoming and expired documents alike — any document that needs renewal.
+    """
+    result = await db.execute(select(Worker).where(Worker.id == body.worker_id))
+    worker = result.scalar_one_or_none()
+    if worker is None:
+        raise HTTPException(status_code=404, detail="Worker not found")
+
+    try:
+        new_expiry = datetime.fromisoformat(body.new_expiry_date).replace(tzinfo=timezone.utc)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid date format — use ISO 8601 (e.g. 2027-06-15)")
+
+    now = datetime.now(timezone.utc)
+    if new_expiry <= now:
+        raise HTTPException(status_code=422, detail="New expiry date must be in the future")
+
+    field_name = _DOCUMENT_FIELD_MAP[body.document_type]
+    setattr(worker, field_name, new_expiry)
+    await db.commit()
+
+    return RenewComplianceResponse(
+        worker_id=str(worker.id),
+        document_type=body.document_type,
+        new_expiry_date=new_expiry.isoformat(),
     )

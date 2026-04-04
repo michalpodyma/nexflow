@@ -1,11 +1,11 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 
 import { Header } from "@/components/layout/Header";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { getComplianceAlerts } from "@/lib/api";
+import { getComplianceAlerts, renewComplianceDocument } from "@/lib/api";
 import type { AlertSeverity, ComplianceAlert, ComplianceDocumentType } from "@/types/api";
 
 const SEVERITY_BADGE: Record<AlertSeverity, string> = {
@@ -44,6 +44,113 @@ function SeverityBadge({ severity }: { severity: AlertSeverity }) {
   );
 }
 
+interface RenewModalProps {
+  alert: ComplianceAlert;
+  onClose: () => void;
+  onSuccess: () => void;
+}
+
+function RenewModal({ alert, onClose, onSuccess }: RenewModalProps) {
+  const today = new Date();
+  today.setDate(today.getDate() + 1);
+  const minDate = today.toISOString().split("T")[0];
+
+  const [newExpiry, setNewExpiry] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  useEffect(() => {
+    inputRef.current?.focus();
+  }, []);
+
+  async function handleConfirm() {
+    if (!newExpiry) {
+      setError("Please select a new expiry date.");
+      return;
+    }
+    setSubmitting(true);
+    setError(null);
+    try {
+      await renewComplianceDocument({
+        worker_id: alert.worker_id,
+        document_type: alert.document_type,
+        new_expiry_date: newExpiry,
+      });
+      onSuccess();
+    } catch {
+      setError("Failed to renew document. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
+  }
+
+  function handleBackdropClick(e: React.MouseEvent<HTMLDivElement>) {
+    if (e.target === e.currentTarget) onClose();
+  }
+
+  return (
+    <div
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/40"
+      onClick={handleBackdropClick}
+    >
+      <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
+        <h2 className="mb-1 text-base font-semibold text-gray-900">Renew Document</h2>
+        <p className="mb-4 text-sm text-muted-foreground">
+          {alert.worker_name} — {alert.document_label}
+        </p>
+
+        <div className="mb-4">
+          <label className="mb-1 block text-xs font-medium text-gray-700">
+            Current expiry
+          </label>
+          <p className="text-sm text-gray-600">
+            {new Date(alert.expiry_date).toLocaleDateString("pl-PL")}
+          </p>
+        </div>
+
+        <div className="mb-5">
+          <label htmlFor="new-expiry" className="mb-1 block text-xs font-medium text-gray-700">
+            New expiry date <span className="text-red-500">*</span>
+          </label>
+          <input
+            ref={inputRef}
+            id="new-expiry"
+            type="date"
+            min={minDate}
+            value={newExpiry}
+            onChange={(e) => setNewExpiry(e.target.value)}
+            className="w-full rounded-md border border-gray-300 px-3 py-1.5 text-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-primary"
+          />
+        </div>
+
+        {error && (
+          <p className="mb-4 rounded-md bg-red-50 px-3 py-2 text-xs text-red-700">{error}</p>
+        )}
+
+        <div className="flex justify-end gap-2">
+          <button
+            type="button"
+            onClick={onClose}
+            disabled={submitting}
+            className="rounded-md border border-gray-300 px-4 py-1.5 text-sm text-gray-700 hover:bg-gray-50 disabled:opacity-50"
+          >
+            Cancel
+          </button>
+          <button
+            type="button"
+            onClick={handleConfirm}
+            disabled={submitting || !newExpiry}
+            className="rounded-md bg-primary px-4 py-1.5 text-sm font-medium text-white hover:bg-primary/90 disabled:opacity-50"
+          >
+            {submitting ? "Saving…" : "Confirm Renewal"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function CompliancePage() {
   const [alerts, setAlerts] = useState<ComplianceAlert[]>([]);
   const [counts, setCounts] = useState<{ critical: number; warning: number; info: number; total: number } | null>(null);
@@ -51,8 +158,9 @@ export default function CompliancePage() {
   const [fetchError, setFetchError] = useState(false);
   const [severityFilter, setSeverityFilter] = useState<AlertSeverity | "">("");
   const [docTypeFilter, setDocTypeFilter] = useState<ComplianceDocumentType | "">("");
+  const [renewingAlert, setRenewingAlert] = useState<ComplianceAlert | null>(null);
 
-  useEffect(() => {
+  function fetchAlerts() {
     setLoading(true);
     setFetchError(false);
     getComplianceAlerts({
@@ -73,7 +181,17 @@ export default function CompliancePage() {
         setFetchError(true);
       })
       .finally(() => setLoading(false));
+  }
+
+  useEffect(() => {
+    fetchAlerts();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [severityFilter, docTypeFilter]);
+
+  function handleRenewSuccess() {
+    setRenewingAlert(null);
+    fetchAlerts();
+  }
 
   return (
     <div className="flex flex-1 flex-col overflow-auto">
@@ -185,7 +303,12 @@ export default function CompliancePage() {
                     {alerts.map((alert, idx) => (
                       <tr key={`${alert.worker_id}-${alert.document_type}-${idx}`} className="hover:bg-gray-50">
                         <td className="px-6 py-3 font-medium text-gray-900">
-                          {alert.worker_name}
+                          <Link
+                            href={`/dashboard/workers/${alert.worker_id}`}
+                            className="hover:underline underline-offset-2"
+                          >
+                            {alert.worker_name}
+                          </Link>
                         </td>
                         <td className="px-6 py-3 text-gray-600">{alert.document_label}</td>
                         <td className="px-6 py-3 text-gray-600">
@@ -196,12 +319,13 @@ export default function CompliancePage() {
                           <SeverityBadge severity={alert.severity} />
                         </td>
                         <td className="px-6 py-3">
-                          <Link
-                            href={`/dashboard/workers/${alert.worker_id}`}
+                          <button
+                            type="button"
+                            onClick={() => setRenewingAlert(alert)}
                             className="text-xs font-medium text-primary underline-offset-2 hover:underline"
                           >
                             Renew
-                          </Link>
+                          </button>
                         </td>
                       </tr>
                     ))}
@@ -212,6 +336,14 @@ export default function CompliancePage() {
           </CardContent>
         </Card>
       </main>
+
+      {renewingAlert && (
+        <RenewModal
+          alert={renewingAlert}
+          onClose={() => setRenewingAlert(null)}
+          onSuccess={handleRenewSuccess}
+        />
+      )}
     </div>
   );
 }

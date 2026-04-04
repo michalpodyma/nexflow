@@ -340,6 +340,17 @@ export function getComplianceAlerts(filters?: {
   return request<ComplianceAlertsResponse>(`/api/v1/compliance/alerts${qs ? `?${qs}` : ""}`);
 }
 
+export function renewComplianceDocument(data: {
+  worker_id: string;
+  document_type: ComplianceDocumentType;
+  new_expiry_date: string;
+}): Promise<{ worker_id: string; document_type: ComplianceDocumentType; new_expiry_date: string }> {
+  return request("/api/v1/compliance/renew", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
 // Job Orders
 export function getJobOrders(filters?: { status?: JobOrderStatus; client_id?: string }): Promise<Paginated<JobOrder>> {
   const params = new URLSearchParams({ page: "1", page_size: "200" });
