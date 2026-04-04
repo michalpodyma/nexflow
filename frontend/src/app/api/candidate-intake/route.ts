@@ -37,7 +37,7 @@ interface IntakePayload {
 const HUBSPOT_TOKEN = process.env.HUBSPOT_PRIVATE_APP_TOKEN;
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const RESEND_FROM = process.env.RESEND_FROM_EMAIL ?? "noreply@nexflow.work";
-const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL?.trim() ?? "http://localhost:8000";
 
 // Twilio / screening
 const TWILIO_ACCOUNT_SID   = process.env.TWILIO_ACCOUNT_SID   ?? "";
