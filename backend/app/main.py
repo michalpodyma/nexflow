@@ -63,6 +63,12 @@ _ENUM_DDL_STATEMENTS = [
     "DO $$ BEGIN CREATE TYPE job_order_status AS ENUM ('open','sourcing','submitted','interview','filled','on_hold','cancelled'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE candidate_job_order_status AS ENUM ('submitted','interviewing','offered','placed','rejected'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE template_type_enum AS ENUM ('employment_contract','mandate_contract','annex','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    # Add legalization template types if not already present (idempotent — safe on re-run)
+    "DO $$ BEGIN ALTER TYPE template_type_enum ADD VALUE IF NOT EXISTS 'oswiadczenie'; EXCEPTION WHEN others THEN NULL; END $$",
+    "DO $$ BEGIN ALTER TYPE template_type_enum ADD VALUE IF NOT EXISTS 'permit_a'; EXCEPTION WHEN others THEN NULL; END $$",
+    "DO $$ BEGIN ALTER TYPE template_type_enum ADD VALUE IF NOT EXISTS 'permit_b'; EXCEPTION WHEN others THEN NULL; END $$",
+    "DO $$ BEGIN ALTER TYPE template_type_enum ADD VALUE IF NOT EXISTS 'permit_seasonal'; EXCEPTION WHEN others THEN NULL; END $$",
+    "DO $$ BEGIN ALTER TYPE template_type_enum ADD VALUE IF NOT EXISTS 'residence_prep'; EXCEPTION WHEN others THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE document_status_enum AS ENUM ('draft','final','signed'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE client_activity_type_enum AS ENUM ('note','call','email','meeting'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE prospect_source_enum AS ENUM ('referral','cold_call','website','linkedin','event','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
