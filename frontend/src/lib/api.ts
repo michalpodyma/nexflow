@@ -623,11 +623,21 @@ export function updateLegalizationStatus(
   });
 }
 
-export function downloadPracaGovExport(workerId: string): void {
-  const apiBase = typeof window !== "undefined"
-    ? (process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000")
-    : "http://localhost:8000";
-  window.open(`${apiBase}/api/v1/workers/${workerId}/legalizations/praca-gov-export`, "_blank");
+export async function downloadPracaGovExport(workerId: string): Promise<void> {
+  const apiBase = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+  const token = getAccessToken();
+  const res = await fetch(
+    `${apiBase}/api/v1/workers/${workerId}/legalizations/praca-gov-export`,
+    { headers: token ? { Authorization: `Bearer ${token}` } : {} },
+  );
+  if (!res.ok) throw new Error(`CSV export failed: ${res.status}`);
+  const blob = await res.blob();
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  a.download = "praca-gov-export.csv";
+  a.click();
+  URL.revokeObjectURL(url);
 }
 
 // ── Hours Import ──────────────────────────────────────────────────────────────

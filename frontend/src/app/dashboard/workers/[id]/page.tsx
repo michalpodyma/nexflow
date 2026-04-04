@@ -782,7 +782,7 @@ export default function WorkerProfilePage() {
                 <Button
                   size="sm"
                   variant="outline"
-                  onClick={() => downloadPracaGovExport(id)}
+                  onClick={() => downloadPracaGovExport(id).catch(console.error)}
                 >
                   Eksport praca.gov (CSV)
                 </Button>
