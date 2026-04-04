@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -634,4 +634,50 @@ export function getPlacementCalendar(params: {
   if (params.client_id) p.set("client_id", params.client_id);
   if (params.active_only) p.set("active_only", "true");
   return request<CalendarEntry[]>(`/api/v1/placements/calendar?${p}`);
+}
+
+// Worker file uploads
+export function listWorkerFiles(
+  workerId: string,
+  page = 1,
+  pageSize = 20,
+): Promise<Paginated<WorkerFile>> {
+  return request<Paginated<WorkerFile>>(
+    `/api/v1/workers/${workerId}/files?page=${page}&page_size=${pageSize}`,
+  );
+}
+
+export async function uploadWorkerFile(
+  workerId: string,
+  file: File,
+  documentType?: WorkerFileDocumentType,
+): Promise<WorkerFile> {
+  const token = getAccessToken();
+  const formData = new FormData();
+  formData.append("file", file);
+  const url = `${BASE_URL}/api/v1/workers/${workerId}/files${documentType ? `?document_type=${documentType}` : ""}`;
+  const res = await fetch(url, {
+    method: "POST",
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+    credentials: "include",
+    body: formData,
+  });
+  if (!res.ok) {
+    const text = await res.text().catch(() => res.statusText);
+    throw new ApiError(res.status, text);
+  }
+  return res.json() as Promise<WorkerFile>;
+}
+
+export function getWorkerFileDownloadUrl(
+  workerId: string,
+  fileId: string,
+): Promise<WorkerFileDownloadResponse> {
+  return request<WorkerFileDownloadResponse>(
+    `/api/v1/workers/${workerId}/files/${fileId}/download`,
+  );
+}
+
+export async function deleteWorkerFile(workerId: string, fileId: string): Promise<void> {
+  await request<void>(`/api/v1/workers/${workerId}/files/${fileId}`, { method: "DELETE" });
 }

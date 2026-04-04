@@ -731,3 +731,28 @@ export interface CalendarEntry {
   end_date: string | null; // ISO date, null = open-ended
   is_active: boolean;
 }
+
+export type WorkerFileDocumentType =
+  | "work_permit"
+  | "passport"
+  | "medical_exam"
+  | "bhp_cert"
+  | "a1_cert"
+  | "id_card"
+  | "other";
+
+export interface WorkerFile {
+  id: string;
+  worker_id: string;
+  file_name: string;
+  content_type: string;
+  file_size: number;
+  document_type: WorkerFileDocumentType | null;
+  uploaded_by_user: string | null;
+  created_at: string;
+}
+
+export interface WorkerFileDownloadResponse {
+  url: string;
+  expires_in: number;
+}

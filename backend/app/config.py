@@ -16,6 +16,8 @@ class Settings(BaseSettings):
     b2_key_id: str = ""
     b2_app_key: str = ""
     b2_bucket_name: str = ""
+    # Backblaze B2 S3-compatible endpoint, e.g. https://s3.us-west-004.backblazeb2.com
+    b2_endpoint_url: str = ""
 
     twilio_account_sid: str = ""
     twilio_auth_token: str = ""

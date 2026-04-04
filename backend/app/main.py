@@ -26,6 +26,7 @@ from app.routers.workers import router as workers_router
 from app.routers.documents import templates_router, documents_router, worker_docs_router
 from app.routers.placements import router as placements_router
 from app.routers.prospects import router as prospects_router
+from app.routers.worker_files import router as worker_files_router
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
 # Each statement is executed individually because asyncpg does not support
@@ -140,3 +141,4 @@ app.include_router(documents_router)
 app.include_router(worker_docs_router)
 app.include_router(placements_router)
 app.include_router(prospects_router)
+app.include_router(worker_files_router)

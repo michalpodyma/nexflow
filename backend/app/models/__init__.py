@@ -43,6 +43,7 @@ from .documents import DocumentTemplate, GeneratedDocument
 from .client_activities import ClientActivity, ActivityType
 from .client_contacts import ClientContact
 from .prospects import Prospect
+from .worker_files import WorkerFile
 
 __all__ = [
     "Base",
@@ -85,4 +86,5 @@ __all__ = [
     "ActivityType",
     "ClientContact",
     "Prospect",
+    "WorkerFile",
 ]

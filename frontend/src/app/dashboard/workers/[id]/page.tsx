@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import DOMPurify from "dompurify";
-import { ArrowLeft, FileText, Download, ChevronDown, Pencil, Archive, RotateCcw } from "lucide-react";
+import { ArrowLeft, FileText, Download, ChevronDown, Pencil, Archive, RotateCcw, Upload, Trash2, Paperclip } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
 import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
@@ -33,12 +33,18 @@ import {
   generateDocument,
   finalizeDocument,
   getWorkerDocuments,
+  listWorkerFiles,
+  uploadWorkerFile,
+  getWorkerFileDownloadUrl,
+  deleteWorkerFile,
 } from "@/lib/api";
 import type {
   AttendanceStatus,
   DocumentTemplate,
   GeneratedDocument,
   WorkerDetail,
+  WorkerFile,
+  WorkerFileDocumentType,
 } from "@/types/api";
 
 const DOC_STATUS_LABELS: Record<string, string> = {
@@ -89,9 +95,17 @@ export default function WorkerProfilePage() {
   const [previewHtml, setPreviewHtml] = useState<string | null>(null);
   const [finalizing, setFinalizing] = useState(false);
 
-  // Worker documents list
+  // Worker documents list (generated contracts)
   const [documents, setDocuments] = useState<GeneratedDocument[]>([]);
   const [docsLoading, setDocsLoading] = useState(false);
+
+  // Uploaded files
+  const [uploadedFiles, setUploadedFiles] = useState<WorkerFile[]>([]);
+  const [filesLoading, setFilesLoading] = useState(false);
+  const [uploading, setUploading] = useState(false);
+  const [uploadError, setUploadError] = useState<string | null>(null);
+  const [selectedDocType, setSelectedDocType] = useState<WorkerFileDocumentType | "">("");
+  const [deletingFileId, setDeletingFileId] = useState<string | null>(null);
 
   useEffect(() => {
     getWorker(id)
@@ -99,6 +113,7 @@ export default function WorkerProfilePage() {
       .catch((e: unknown) => setError(e instanceof Error ? e.message : "Failed to load worker"))
       .finally(() => setLoading(false));
     loadDocuments();
+    loadUploadedFiles();
   }, [id]);
 
   async function loadDocuments() {
@@ -110,6 +125,60 @@ export default function WorkerProfilePage() {
       // non-blocking
     } finally {
       setDocsLoading(false);
+    }
+  }
+
+  async function loadUploadedFiles() {
+    setFilesLoading(true);
+    try {
+      const res = await listWorkerFiles(id, 1, 50);
+      setUploadedFiles(res.items);
+    } catch {
+      // non-blocking
+    } finally {
+      setFilesLoading(false);
+    }
+  }
+
+  async function handleFileUpload(e: React.ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setUploading(true);
+    setUploadError(null);
+    try {
+      const uploaded = await uploadWorkerFile(
+        id,
+        file,
+        selectedDocType || undefined,
+      );
+      setUploadedFiles((prev) => [uploaded, ...prev]);
+      setSelectedDocType("");
+      e.target.value = "";
+    } catch (err: unknown) {
+      setUploadError(err instanceof Error ? err.message : "Upload failed.");
+    } finally {
+      setUploading(false);
+    }
+  }
+
+  async function handleDownloadFile(fileId: string) {
+    try {
+      const { url } = await getWorkerFileDownloadUrl(id, fileId);
+      window.open(url, "_blank");
+    } catch {
+      // non-blocking
+    }
+  }
+
+  async function handleDeleteFile(fileId: string) {
+    setDeletingFileId(fileId);
+    try {
+      await deleteWorkerFile(id, fileId);
+      setUploadedFiles((prev) => prev.filter((f) => f.id !== fileId));
+    } catch {
+      // non-blocking
+    } finally {
+      setDeletingFileId(null);
     }
   }
 
@@ -480,6 +549,119 @@ export default function WorkerProfilePage() {
                           ) : (
                             <span className="text-xs text-muted-foreground">—</span>
                           )}
+                        </TableCell>
+                      </TableRow>
+                    ))}
+                  </TableBody>
+                </Table>
+              </div>
+            )}
+          </CardContent>
+        </Card>
+
+        {/* Uploaded Files */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Paperclip className="h-5 w-5" />
+              Przesłane pliki
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-4">
+            {/* Upload controls */}
+            <div className="flex flex-wrap items-center gap-3">
+              <select
+                value={selectedDocType}
+                onChange={(e) => setSelectedDocType(e.target.value as WorkerFileDocumentType | "")}
+                className="rounded-md border px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-primary/50"
+              >
+                <option value="">— typ dokumentu —</option>
+                <option value="work_permit">Zezwolenie na pracę</option>
+                <option value="passport">Paszport</option>
+                <option value="medical_exam">Badanie lekarskie</option>
+                <option value="bhp_cert">Certyfikat BHP</option>
+                <option value="a1_cert">Certyfikat A1</option>
+                <option value="id_card">Dowód osobisty</option>
+                <option value="other">Inne</option>
+              </select>
+              <label className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm font-medium transition-colors hover:bg-muted ${uploading ? "pointer-events-none opacity-50" : ""}`}>
+                <Upload className="h-4 w-4" />
+                {uploading ? "Przesyłam..." : "Prześlij plik"}
+                <input
+                  type="file"
+                  className="hidden"
+                  disabled={uploading}
+                  onChange={handleFileUpload}
+                />
+              </label>
+            </div>
+
+            {uploadError && (
+              <p className="rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                {uploadError}
+              </p>
+            )}
+
+            {filesLoading ? (
+              <p className="text-sm text-muted-foreground">Ładowanie...</p>
+            ) : uploadedFiles.length === 0 ? (
+              <p className="text-sm text-muted-foreground">Brak przesłanych plików.</p>
+            ) : (
+              <div className="rounded-md border">
+                <Table>
+                  <TableHeader>
+                    <TableRow>
+                      <TableHead>Nazwa pliku</TableHead>
+                      <TableHead>Typ dokumentu</TableHead>
+                      <TableHead>Rozmiar</TableHead>
+                      <TableHead>Przesłano</TableHead>
+                      <TableHead>Przez</TableHead>
+                      <TableHead className="text-right">Akcje</TableHead>
+                    </TableRow>
+                  </TableHeader>
+                  <TableBody>
+                    {uploadedFiles.map((f) => (
+                      <TableRow key={f.id}>
+                        <TableCell className="font-medium max-w-[200px] truncate">{f.file_name}</TableCell>
+                        <TableCell>
+                          {f.document_type ? (
+                            <span className="inline-flex rounded-full bg-blue-50 px-2 py-0.5 text-xs font-semibold text-blue-700">
+                              {f.document_type}
+                            </span>
+                          ) : (
+                            <span className="text-muted-foreground">—</span>
+                          )}
+                        </TableCell>
+                        <TableCell className="text-muted-foreground text-xs">
+                          {f.file_size > 1024 * 1024
+                            ? `${(f.file_size / 1024 / 1024).toFixed(1)} MB`
+                            : `${(f.file_size / 1024).toFixed(0)} KB`}
+                        </TableCell>
+                        <TableCell className="text-muted-foreground">
+                          {new Date(f.created_at).toLocaleDateString("pl-PL")}
+                        </TableCell>
+                        <TableCell className="text-muted-foreground">{f.uploaded_by_user ?? "—"}</TableCell>
+                        <TableCell className="text-right">
+                          <div className="flex items-center justify-end gap-1">
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              onClick={() => handleDownloadFile(f.id)}
+                              title="Pobierz"
+                            >
+                              <Download className="h-4 w-4" />
+                            </Button>
+                            <Button
+                              variant="ghost"
+                              size="sm"
+                              className="text-red-600 hover:text-red-700"
+                              disabled={deletingFileId === f.id}
+                              onClick={() => handleDeleteFile(f.id)}
+                              title="Usuń"
+                            >
+                              <Trash2 className="h-4 w-4" />
+                            </Button>
+                          </div>
                         </TableCell>
                       </TableRow>
                     ))}
