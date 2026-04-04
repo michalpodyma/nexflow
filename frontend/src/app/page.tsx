@@ -390,19 +390,19 @@ export default function HomePage() {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-8 opacity-70">
               <div className="w-36 h-14 flex items-center justify-center">
-                <Image src="/logos/shein.png" alt="SHEIN" width={200} height={80} className="max-h-full max-w-full object-contain" />
+                <Image src="/logos/shein.png" alt="SHEIN" width={207} height={48} className="max-h-full max-w-full object-contain" />
               </div>
               <div className="w-36 h-14 flex items-center justify-center">
-                <Image src="/logos/wendre.jpg" alt="Wendre" width={200} height={80} className="max-h-full max-w-full object-contain" />
+                <Image src="/logos/wendre.png" alt="Wendre" width={180} height={48} className="max-h-full max-w-full object-contain" />
               </div>
               <div className="w-36 h-14 flex items-center justify-center">
-                <Image src="/logos/hofman-slubice.png" alt="Hofman Słubice" width={200} height={80} className="max-h-full max-w-full object-contain" />
+                <Image src="/logos/hofman-slubice.png" alt="Hofman Słubice" width={137} height={48} className="max-h-full max-w-full object-contain" />
               </div>
               <div className="w-36 h-14 flex items-center justify-center">
-                <Image src="/logos/foliarex.jpeg" alt="Foliarex" width={200} height={80} className="max-h-full max-w-full object-contain" />
+                <Image src="/logos/foliarex.png" alt="Foliarex" width={160} height={48} className="max-h-full max-w-full object-contain" />
               </div>
               <div className="w-36 h-14 flex items-center justify-center">
-                <Image src="/logos/fraba.jpg" alt="FRABA" width={200} height={80} className="max-h-full max-w-full object-contain" />
+                <Image src="/logos/fraba.png" alt="FRABA" width={155} height={48} className="max-h-full max-w-full object-contain" />
               </div>
             </div>
           </div>
