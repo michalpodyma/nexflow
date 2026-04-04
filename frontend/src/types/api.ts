@@ -402,7 +402,7 @@ export interface JobOrderUpdate {
 }
 
 export type AlertSeverity = "critical" | "warning" | "info";
-export type ComplianceDocumentType = "work_permit" | "health_cert" | "safety_cert";
+export type ComplianceDocumentType = "work_permit" | "health_cert" | "safety_cert" | "legalization_permit";
 
 export interface ComplianceAlert {
   worker_id: string;
@@ -412,6 +412,7 @@ export interface ComplianceAlert {
   expiry_date: string;
   days_remaining: number;
   severity: AlertSeverity;
+  document_id?: string | null;
 }
 
 export interface ComplianceAlertsResponse {

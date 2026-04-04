@@ -9,17 +9,28 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
 from app.database import get_db
+from app.models.documents import DocumentTemplate, GeneratedDocument
+from app.models.enums import TemplateType
 from app.models.workers import Worker
 
 router = APIRouter(prefix="/api/v1/compliance", tags=["compliance"])
 
 AlertSeverity = Literal["critical", "warning", "info"]
-DocumentType = Literal["work_permit", "health_cert", "safety_cert"]
+DocumentType = Literal["work_permit", "health_cert", "safety_cert", "legalization_permit"]
+
+_LEGALIZATION_TYPES = {
+    TemplateType.oswiadczenie,
+    TemplateType.permit_a,
+    TemplateType.permit_b,
+    TemplateType.permit_seasonal,
+    TemplateType.residence_prep,
+}
 
 _DOCUMENT_LABELS: dict[str, str] = {
     "work_permit": "Work Permit",
     "health_cert": "Health Certificate",
     "safety_cert": "Safety Certificate (BHP)",
+    "legalization_permit": "Legalization Permit",
 }
 
 
@@ -31,6 +42,7 @@ class ComplianceAlert(BaseModel):
     expiry_date: str  # ISO datetime
     days_remaining: int
     severity: AlertSeverity
+    document_id: str | None = None  # set for legalization_permit alerts; links to GeneratedDocument
 
 
 class ComplianceAlertsResponse(BaseModel):
@@ -74,7 +86,7 @@ async def get_compliance_alerts(
     db: Annotated[AsyncSession, Depends(get_db)],
     severity: str | None = Query(None, description="Filter by severity: critical, warning, info"),
     document_type: str | None = Query(
-        None, description="Filter by document_type: work_permit, health_cert, safety_cert"
+        None, description="Filter by document_type: work_permit, health_cert, safety_cert, legalization_permit"
     ),
 ) -> ComplianceAlertsResponse:
     """
@@ -131,6 +143,36 @@ async def get_compliance_alerts(
                     severity=sev,
                 )
             )
+
+    # Legalization documents expiring within 90 days
+    leg_type_values = [t.value for t in _LEGALIZATION_TYPES]
+    leg_result = await db.execute(
+        select(GeneratedDocument, Worker)
+        .join(DocumentTemplate, GeneratedDocument.template_id == DocumentTemplate.id)
+        .join(Worker, GeneratedDocument.worker_id == Worker.id)
+        .where(
+            DocumentTemplate.template_type.in_(leg_type_values),
+            GeneratedDocument.legalization_expires_at.between(now, cutoff),
+        )
+    )
+    for gen_doc, worker in leg_result.all():
+        expiry = gen_doc.legalization_expires_at
+        if expiry.tzinfo is None:
+            expiry = expiry.replace(tzinfo=timezone.utc)
+        days_remaining = (expiry - now).days
+        sev = _severity(days_remaining)
+        alerts.append(
+            ComplianceAlert(
+                worker_id=str(worker.id),
+                worker_name=f"{worker.first_name} {worker.last_name}",
+                document_type="legalization_permit",
+                document_label=_DOCUMENT_LABELS["legalization_permit"],
+                expiry_date=expiry.isoformat(),
+                days_remaining=days_remaining,
+                severity=sev,
+                document_id=str(gen_doc.id),
+            )
+        )
 
     # Sort by urgency (soonest first)
     alerts.sort(key=lambda a: a.days_remaining)

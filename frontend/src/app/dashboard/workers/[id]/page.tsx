@@ -259,14 +259,26 @@ export default function WorkerProfilePage() {
     }
   }
 
-  async function openGenDialog() {
+  const LEGALIZATION_TEMPLATE_TYPES = new Set([
+    "oswiadczenie",
+    "permit_a",
+    "permit_b",
+    "permit_seasonal",
+    "residence_prep",
+  ]);
+
+  async function openGenDialog(legalizacjaOnly = false) {
     setGenError(null);
     setGeneratedDoc(null);
     setPreviewHtml(null);
     setSelectedTemplateId("");
     try {
       const res = await getDocumentTemplates(1, 50, true);
-      setTemplates(res.items);
+      setTemplates(
+        legalizacjaOnly
+          ? res.items.filter((t) => LEGALIZATION_TEMPLATE_TYPES.has(t.template_type))
+          : res.items,
+      );
     } catch {
       setTemplates([]);
     }
@@ -300,6 +312,7 @@ export default function WorkerProfilePage() {
       const finalized = await finalizeDocument(generatedDoc.id);
       setGeneratedDoc(finalized);
       loadDocuments();
+      loadLegalizations();
     } catch (e: unknown) {
       setGenError(e instanceof Error ? e.message : "Błąd finalizacji.");
     } finally {
@@ -773,7 +786,7 @@ export default function WorkerProfilePage() {
                 >
                   Eksport praca.gov (CSV)
                 </Button>
-                <Button size="sm" onClick={openGenDialog}>
+                <Button size="sm" onClick={() => openGenDialog(true)}>
                   Generuj dokument
                 </Button>
               </div>

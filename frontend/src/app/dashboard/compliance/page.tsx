@@ -25,6 +25,7 @@ const DOC_TYPE_OPTIONS: { value: ComplianceDocumentType | ""; label: string }[] 
   { value: "work_permit", label: "Work Permit" },
   { value: "health_cert", label: "Health Certificate" },
   { value: "safety_cert", label: "Safety Certificate (BHP)" },
+  { value: "legalization_permit", label: "Legalization Permit" },
 ];
 
 const SEVERITY_OPTIONS: { value: AlertSeverity | ""; label: string }[] = [
@@ -319,13 +320,22 @@ export default function CompliancePage() {
                           <SeverityBadge severity={alert.severity} />
                         </td>
                         <td className="px-6 py-3">
-                          <button
-                            type="button"
-                            onClick={() => setRenewingAlert(alert)}
-                            className="text-xs font-medium text-primary underline-offset-2 hover:underline"
-                          >
-                            Renew
-                          </button>
+                          {alert.document_type === "legalization_permit" ? (
+                            <Link
+                              href={`/dashboard/workers/${alert.worker_id}`}
+                              className="text-xs font-medium text-primary underline-offset-2 hover:underline"
+                            >
+                              Regenerate
+                            </Link>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() => setRenewingAlert(alert)}
+                              className="text-xs font-medium text-primary underline-offset-2 hover:underline"
+                            >
+                              Renew
+                            </button>
+                          )}
                         </td>
                       </tr>
                     ))}
