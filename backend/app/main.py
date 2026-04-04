@@ -34,6 +34,7 @@ from app.routers.hours_import import (
     assignments_hours_router,
 )
 from app.routers.aga_export import router as aga_export_router
+from app.seed_data import SEED_TEMPLATES
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
 # Each statement is executed individually because asyncpg does not support
@@ -112,6 +113,23 @@ async def lifespan(app: FastAPI) -> AsyncGenerator[None, None]:
                 )
     except Exception as exc:
         log.warning("Admin user seed failed at startup: %s", exc)
+
+    # Ensure document templates are present regardless of alembic state.
+    try:
+        async with engine.begin() as conn:
+            for name, ttype, body_html in SEED_TEMPLATES:
+                await conn.execute(
+                    text(
+                        "INSERT INTO document_templates "
+                        "(id, name, template_type, body_html, is_active, version) "
+                        "SELECT uuid_generate_v4(), :name, CAST(:ttype AS template_type_enum), "
+                        ":body_html, true, 1 "
+                        "WHERE NOT EXISTS "
+                        "(SELECT 1 FROM document_templates WHERE name = :name)"
+                    ).bindparams(name=name, ttype=ttype, body_html=body_html)
+                )
+    except Exception as exc:
+        log.warning("Document template seed failed at startup: %s", exc)
 
     yield
 
