@@ -80,6 +80,13 @@ class Candidate(Base):
         PGUUID(as_uuid=True), nullable=True
     )
 
+    # Set when screening_status transitions to 'hired' — links to the created Worker record
+    worker_id: Mapped[UUID | None] = mapped_column(
+        PGUUID(as_uuid=True),
+        sa.ForeignKey("workers.id", ondelete="SET NULL"),
+        nullable=True,
+    )
+
     # GDPR consent — must be captured at intake
     gdpr_consent: Mapped[bool] = mapped_column(
         sa.Boolean, nullable=False, server_default=sa.false()

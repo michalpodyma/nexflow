@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 
+import Link from "next/link";
+
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
 import {
@@ -225,14 +227,22 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
             <div>
               <span className="text-muted-foreground">Status</span>
-              <p className="mt-0.5">
+              <p className="mt-0.5 flex flex-wrap items-center gap-1.5">
                 <span
                   className={`rounded-full px-2 py-0.5 text-xs ${
                     STATUS_COLOURS[candidate.screening_status] ?? "bg-gray-100 text-gray-600"
                   }`}
                 >
-                  {candidate.screening_status}
+                  {candidate.screening_status === "hired" ? "Zatrudniony" : candidate.screening_status}
                 </span>
+                {candidate.screening_status === "hired" && candidate.worker_id && (
+                  <Link
+                    href={`/dashboard/workers/${candidate.worker_id}`}
+                    className="text-xs text-blue-600 hover:underline"
+                  >
+                    Przejdź do profilu pracownika →
+                  </Link>
+                )}
               </p>
             </div>
             <div>
@@ -691,12 +701,23 @@ export default function CandidatesPage() {
                       {c.email ?? "—"}
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>
-                      <span
-                        className={`rounded-full px-2 py-0.5 text-xs ${
-                          STATUS_COLOURS[c.screening_status] ?? "bg-gray-100 text-gray-600"
-                        }`}
-                      >
-                        {c.screening_status}
+                      <span className="flex flex-wrap items-center gap-1.5">
+                        <span
+                          className={`rounded-full px-2 py-0.5 text-xs ${
+                            STATUS_COLOURS[c.screening_status] ?? "bg-gray-100 text-gray-600"
+                          }`}
+                        >
+                          {c.screening_status === "hired" ? "Zatrudniony" : c.screening_status}
+                        </span>
+                        {c.screening_status === "hired" && c.worker_id && (
+                          <Link
+                            href={`/dashboard/workers/${c.worker_id}`}
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-xs text-blue-600 hover:underline"
+                          >
+                            Profil →
+                          </Link>
+                        )}
                       </span>
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>

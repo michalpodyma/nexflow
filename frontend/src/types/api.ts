@@ -41,6 +41,7 @@ export interface Candidate {
   notes: string | null;
   contacted_at: string | null;
   job_posting_id: string | null;
+  worker_id: string | null;
   created_at: string;
   updated_at: string;
 }

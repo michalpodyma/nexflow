@@ -11,7 +11,8 @@ from app.celery_client import celery_client
 from app.database import get_db
 from app.models.candidate_reminders import CandidateReminder
 from app.models.candidates import Candidate
-from app.models.enums import GdprSubjectType
+from app.models.enums import GdprSubjectType, ScreeningStatus
+from app.models.workers import Worker
 from app.models.gdpr import GdprConsent
 from app.schemas.candidates import (
     BulkUpdateRequest,
@@ -218,6 +219,21 @@ async def update_candidate(
         candidate.notes = body.notes
     if body.screening_status is not None:
         candidate.screening_status = body.screening_status
+        if body.screening_status == ScreeningStatus.hired and candidate.worker_id is None:
+            new_worker = Worker(
+                first_name=candidate.first_name,
+                last_name=candidate.last_name,
+                phone=candidate.phone,
+                email=candidate.email,
+                nationality=candidate.nationality,
+                gdpr_consent=candidate.gdpr_consent,
+                gdpr_consent_at=candidate.gdpr_consent_at,
+                gdpr_delete_at=None,
+            )
+            db.add(new_worker)
+            await db.flush()
+            candidate.worker_id = new_worker.id
+            candidate.gdpr_delete_at = None
     if body.job_posting_id is not None:
         candidate.job_posting_id = body.job_posting_id
     if body.contacted_at is not None:
