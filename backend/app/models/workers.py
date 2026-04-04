@@ -115,6 +115,19 @@ class Worker(Base):
         sa.TIMESTAMP(timezone=True), nullable=True
     )
 
+    # praca.gov fields — required for oświadczenie and zezwolenie document generation
+    gender: Mapped[str | None] = mapped_column(sa.String(20), nullable=True)
+    citizenship: Mapped[str | None] = mapped_column(sa.String(100), nullable=True)  # full text, e.g. "ukraińskie"
+    travel_document_type: Mapped[str | None] = mapped_column(sa.String(100), nullable=True)  # e.g. "paszport"
+    travel_document_series: Mapped[str | None] = mapped_column(sa.String(20), nullable=True)
+    travel_document_number: Mapped[str | None] = mapped_column(sa.String(50), nullable=True)
+    travel_document_issue_date: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+    travel_document_expiry: Mapped[datetime | None] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=True
+    )
+
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )

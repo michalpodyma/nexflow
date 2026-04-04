@@ -28,7 +28,21 @@ interface FormState {
   a1_cert_status: string;
   attendance_status: AttendanceStatus;
   gdpr_consent: boolean;
+  // praca.gov fields
+  gender: string;
+  citizenship: string;
+  travel_document_type: string;
+  travel_document_series: string;
+  travel_document_number: string;
+  travel_document_issue_date: string;
+  travel_document_expiry: string;
 }
+
+const GENDER_OPTIONS: { value: string; label: string }[] = [
+  { value: "", label: "— wybierz —" },
+  { value: "kobieta", label: "Kobieta" },
+  { value: "mężczyzna", label: "Mężczyzna" },
+];
 
 const WORK_PERMIT_OPTIONS: { value: string; label: string }[] = [
   { value: "", label: "— select —" },
@@ -73,6 +87,14 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
     a1_cert_status: worker?.a1_cert_status ?? "",
     attendance_status: worker?.attendance_status ?? "active",
     gdpr_consent: worker?.gdpr_consent ?? false,
+    // praca.gov fields
+    gender: worker?.gender ?? "",
+    citizenship: worker?.citizenship ?? "",
+    travel_document_type: worker?.travel_document_type ?? "",
+    travel_document_series: worker?.travel_document_series ?? "",
+    travel_document_number: worker?.travel_document_number ?? "",
+    travel_document_issue_date: toDateInput(worker?.travel_document_issue_date),
+    travel_document_expiry: toDateInput(worker?.travel_document_expiry),
   });
 
   const [saving, setSaving] = useState(false);
@@ -116,6 +138,13 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           safety_cert_expiry: toIsoDatetime(form.safety_cert_expiry) ?? null,
           a1_cert_status: form.a1_cert_status.trim() || null,
           attendance_status: form.attendance_status,
+          gender: form.gender || null,
+          citizenship: form.citizenship.trim() || null,
+          travel_document_type: form.travel_document_type.trim() || null,
+          travel_document_series: form.travel_document_series.trim() || null,
+          travel_document_number: form.travel_document_number.trim() || null,
+          travel_document_issue_date: toIsoDatetime(form.travel_document_issue_date) ?? null,
+          travel_document_expiry: toIsoDatetime(form.travel_document_expiry) ?? null,
         });
       } else {
         const payload: WorkerCreate = {
@@ -134,6 +163,13 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           attendance_status: form.attendance_status,
           gdpr_consent: form.gdpr_consent,
           gdpr_consent_at: form.gdpr_consent ? new Date().toISOString() : undefined,
+          gender: form.gender || undefined,
+          citizenship: form.citizenship.trim() || undefined,
+          travel_document_type: form.travel_document_type.trim() || undefined,
+          travel_document_series: form.travel_document_series.trim() || undefined,
+          travel_document_number: form.travel_document_number.trim() || undefined,
+          travel_document_issue_date: toIsoDatetime(form.travel_document_issue_date),
+          travel_document_expiry: toIsoDatetime(form.travel_document_expiry),
         };
         saved = await createWorker(payload);
       }
@@ -296,6 +332,77 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
                   value={form.a1_cert_status}
                   onChange={(e) => set("a1_cert_status", e.target.value)}
                   placeholder="valid / pending / n/a"
+                />
+              </div>
+            </div>
+          </section>
+
+          {/* Dokumenty podróży / praca.gov */}
+          <section>
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted-foreground">
+              Dokumenty podróży / praca.gov
+            </h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div>
+                <label className="mb-1 block text-sm font-medium">Płeć</label>
+                <select
+                  className="h-9 w-full rounded-md border border-input bg-transparent px-3 py-1 text-sm shadow-sm focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring"
+                  value={form.gender}
+                  onChange={(e) => set("gender", e.target.value)}
+                >
+                  {GENDER_OPTIONS.map((o) => (
+                    <option key={o.value} value={o.value}>
+                      {o.label}
+                    </option>
+                  ))}
+                </select>
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Obywatelstwo</label>
+                <Input
+                  value={form.citizenship}
+                  onChange={(e) => set("citizenship", e.target.value)}
+                  placeholder="ukraińskie"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Rodzaj dokumentu</label>
+                <Input
+                  value={form.travel_document_type}
+                  onChange={(e) => set("travel_document_type", e.target.value)}
+                  placeholder="paszport / dowód osobisty"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Seria dokumentu</label>
+                <Input
+                  value={form.travel_document_series}
+                  onChange={(e) => set("travel_document_series", e.target.value)}
+                  placeholder="AA"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Numer dokumentu</label>
+                <Input
+                  value={form.travel_document_number}
+                  onChange={(e) => set("travel_document_number", e.target.value)}
+                  placeholder="1234567"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Data wydania</label>
+                <Input
+                  type="date"
+                  value={form.travel_document_issue_date}
+                  onChange={(e) => set("travel_document_issue_date", e.target.value)}
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Data ważności dokumentu</label>
+                <Input
+                  type="date"
+                  value={form.travel_document_expiry}
+                  onChange={(e) => set("travel_document_expiry", e.target.value)}
                 />
               </div>
             </div>

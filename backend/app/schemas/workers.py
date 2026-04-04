@@ -42,6 +42,14 @@ class WorkerRead(BaseModel):
     archived_at: datetime | None
     created_at: datetime
     updated_at: datetime
+    # praca.gov fields
+    gender: str | None = None
+    citizenship: str | None = None
+    travel_document_type: str | None = None
+    travel_document_series: str | None = None
+    travel_document_number: str | None = None
+    travel_document_issue_date: datetime | None = None
+    travel_document_expiry: datetime | None = None
 
     model_config = {"from_attributes": True}
 
@@ -68,6 +76,14 @@ class WorkerCreate(BaseModel):
     attendance_status: AttendanceStatus = AttendanceStatus.active
     gdpr_consent: bool = False
     gdpr_consent_at: datetime | None = None
+    # praca.gov fields
+    gender: str | None = None
+    citizenship: str | None = None
+    travel_document_type: str | None = None
+    travel_document_series: str | None = None
+    travel_document_number: str | None = None
+    travel_document_issue_date: datetime | None = None
+    travel_document_expiry: datetime | None = None
 
 
 class WorkerUpdate(BaseModel):
@@ -89,6 +105,14 @@ class WorkerUpdate(BaseModel):
     current_client_id: UUID | None = None
     assignment_start_date: datetime | None = None
     assignment_end_date: datetime | None = None
+    # praca.gov fields
+    gender: str | None = None
+    citizenship: str | None = None
+    travel_document_type: str | None = None
+    travel_document_series: str | None = None
+    travel_document_number: str | None = None
+    travel_document_issue_date: datetime | None = None
+    travel_document_expiry: datetime | None = None
 
 
 class WorkerUpdateStatus(BaseModel):

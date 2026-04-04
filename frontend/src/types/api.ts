@@ -109,6 +109,14 @@ export interface Worker {
   archived_at: string | null;
   created_at: string;
   updated_at: string;
+  // praca.gov fields
+  gender?: string | null;
+  citizenship?: string | null;
+  travel_document_type?: string | null;
+  travel_document_series?: string | null;
+  travel_document_number?: string | null;
+  travel_document_issue_date?: string | null;
+  travel_document_expiry?: string | null;
 }
 
 export interface WorkerCreate {
@@ -127,6 +135,14 @@ export interface WorkerCreate {
   attendance_status?: AttendanceStatus;
   gdpr_consent?: boolean;
   gdpr_consent_at?: string;
+  // praca.gov fields
+  gender?: string;
+  citizenship?: string;
+  travel_document_type?: string;
+  travel_document_series?: string;
+  travel_document_number?: string;
+  travel_document_issue_date?: string;
+  travel_document_expiry?: string;
 }
 
 export interface WorkerUpdate {
@@ -146,6 +162,14 @@ export interface WorkerUpdate {
   current_client_id?: string | null;
   assignment_start_date?: string | null;
   assignment_end_date?: string | null;
+  // praca.gov fields
+  gender?: string | null;
+  citizenship?: string | null;
+  travel_document_type?: string | null;
+  travel_document_series?: string | null;
+  travel_document_number?: string | null;
+  travel_document_issue_date?: string | null;
+  travel_document_expiry?: string | null;
 }
 
 export interface WorkerDetail extends Worker {
