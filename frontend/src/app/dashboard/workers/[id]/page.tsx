@@ -50,6 +50,16 @@ import type {
   WorkerAccommodationEntry,
 } from "@/types/api";
 
+const FILE_DOC_TYPE_LABELS: Record<string, string> = {
+  work_permit: "Zezwolenie na pracę",
+  passport: "Paszport",
+  medical_exam: "Badanie lekarskie",
+  bhp_cert: "Zaświadczenie BHP",
+  a1_cert: "Certyfikat A1",
+  id_card: "Dowód osobisty",
+  other: "Inny",
+};
+
 const DOC_STATUS_LABELS: Record<string, string> = {
   draft: "Szkic",
   final: "Finalny",
@@ -113,6 +123,7 @@ export default function WorkerProfilePage() {
   const [uploadError, setUploadError] = useState<string | null>(null);
   const [selectedDocType, setSelectedDocType] = useState<WorkerFileDocumentType | "">("");
   const [deletingFileId, setDeletingFileId] = useState<string | null>(null);
+  const [fileActionError, setFileActionError] = useState<string | null>(null);
 
   useEffect(() => {
     getWorker(id)
@@ -182,21 +193,23 @@ export default function WorkerProfilePage() {
   }
 
   async function handleDownloadFile(fileId: string) {
+    setFileActionError(null);
     try {
       const { url } = await getWorkerFileDownloadUrl(id, fileId);
       window.open(url, "_blank");
-    } catch {
-      // non-blocking
+    } catch (err: unknown) {
+      setFileActionError(err instanceof Error ? err.message : "Nie udało się pobrać pliku.");
     }
   }
 
   async function handleDeleteFile(fileId: string) {
     setDeletingFileId(fileId);
+    setFileActionError(null);
     try {
       await deleteWorkerFile(id, fileId);
       setUploadedFiles((prev) => prev.filter((f) => f.id !== fileId));
-    } catch {
-      // non-blocking
+    } catch (err: unknown) {
+      setFileActionError(err instanceof Error ? err.message : "Nie udało się usunąć pliku.");
     } finally {
       setDeletingFileId(null);
     }
@@ -743,6 +756,12 @@ export default function WorkerProfilePage() {
               </p>
             )}
 
+            {fileActionError && (
+              <p className="rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+                {fileActionError}
+              </p>
+            )}
+
             {filesLoading ? (
               <p className="text-sm text-muted-foreground">Ładowanie...</p>
             ) : uploadedFiles.length === 0 ? (
@@ -767,7 +786,7 @@ export default function WorkerProfilePage() {
                         <TableCell>
                           {f.document_type ? (
                             <span className="inline-flex rounded-full bg-blue-50 px-2 py-0.5 text-xs font-semibold text-blue-700">
-                              {f.document_type}
+                              {FILE_DOC_TYPE_LABELS[f.document_type] ?? f.document_type}
                             </span>
                           ) : (
                             <span className="text-muted-foreground">—</span>
