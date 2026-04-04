@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useState } from "react";
 
 import { Header } from "@/components/layout/Header";
+import { useLanguage } from "@/components/layout/language-context";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
@@ -79,6 +80,7 @@ function positionLabel(raw: string): string {
 // ---------------------------------------------------------------------------
 
 export default function PipelinePage() {
+  const { t } = useLanguage();
   const [data, setData] = useState<PipelineData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
@@ -217,7 +219,7 @@ export default function PipelinePage() {
 
   return (
     <div className="flex flex-1 flex-col overflow-auto">
-      <Header title="Candidate Pipeline" />
+      <Header title={t("nav.pipeline")} />
 
       <main className="flex-1 p-4 md:p-6">
         {/* Error / loading states */}

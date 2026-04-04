@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 
 const HUBSPOT_TOKEN = process.env.HUBSPOT_PRIVATE_APP_TOKEN;
 const PIPELINE_ID = process.env.HUBSPOT_PIPELINE_ID ?? "default";
+const DEAL_TYPE = process.env.HUBSPOT_DEAL_TYPE ?? "";
 const DAYS_BACK = 30;
 
 async function hs(path: string, init: RequestInit = {}) {
@@ -42,22 +43,18 @@ export async function GET() {
 
     // 2. Fetch deals in this pipeline created in the last 30 days
     const sinceMs = Date.now() - DAYS_BACK * 24 * 60 * 60 * 1000;
+    const baseFilters: Array<{ propertyName: string; operator: string; value: string }> = [
+      { propertyName: "pipeline", operator: "EQ", value: PIPELINE_ID },
+      { propertyName: "createdate", operator: "GTE", value: String(sinceMs) },
+    ];
+    if (DEAL_TYPE) {
+      baseFilters.push({ propertyName: "deal_type", operator: "EQ", value: DEAL_TYPE });
+    }
     const searchResult = await hs("/crm/v3/objects/deals/search", {
       method: "POST",
       body: JSON.stringify({
-        filterGroups: [
-          {
-            filters: [
-              { propertyName: "pipeline", operator: "EQ", value: PIPELINE_ID },
-              {
-                propertyName: "createdate",
-                operator: "GTE",
-                value: String(sinceMs),
-              },
-            ],
-          },
-        ],
-        properties: ["dealname", "dealstage", "createdate", "pipeline"],
+        filterGroups: [{ filters: baseFilters }],
+        properties: ["dealname", "dealstage", "createdate", "pipeline", "deal_type"],
         limit: 100,
       }),
     });
