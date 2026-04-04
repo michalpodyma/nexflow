@@ -7,6 +7,7 @@ import {
   Bus,
   CalendarDays,
   Clock,
+  Database,
   FileText,
   GitBranch,
   Home,
@@ -40,6 +41,7 @@ export function Sidebar() {
     { href: "/dashboard/compliance", labelKey: "nav.compliance", icon: ShieldCheck },
     { href: "/dashboard/documents", labelKey: "nav.documents", icon: FileText },
     { href: "/dashboard/hours-import", labelKey: "nav.hours-import", icon: Clock },
+    { href: "/dashboard/aga-export", labelKey: "nav.aga-export", icon: Database },
   ];
 
   const b2bNav = [
