@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 import { Header } from "@/components/layout/Header";
 import { Button } from "@/components/ui/button";
@@ -435,7 +436,14 @@ function DetailPanel({ accommodation, onClose, onMoveOut }: DetailPanelProps) {
               <TableBody>
                 {detail.residents.map((r: ResidentSummary) => (
                   <TableRow key={r.assignment_id}>
-                    <TableCell className="font-medium">{r.worker_name}</TableCell>
+                    <TableCell className="font-medium">
+                      <Link
+                        href={`/dashboard/workers/${r.worker_id}`}
+                        className="hover:underline text-blue-700"
+                      >
+                        {r.worker_name}
+                      </Link>
+                    </TableCell>
                     <TableCell>{r.room_number ?? "—"}</TableCell>
                     <TableCell>
                       {new Date(r.move_in_date).toLocaleDateString("pl-PL")}

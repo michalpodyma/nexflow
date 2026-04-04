@@ -3,7 +3,8 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import DOMPurify from "dompurify";
-import { ArrowLeft, FileText, Download, ChevronDown, Pencil, Archive, RotateCcw, Upload, Trash2, Paperclip } from "lucide-react";
+import { ArrowLeft, FileText, Download, ChevronDown, Pencil, Archive, RotateCcw, Upload, Trash2, Paperclip, Home } from "lucide-react";
+import Link from "next/link";
 
 import { Header } from "@/components/layout/Header";
 import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
@@ -37,6 +38,7 @@ import {
   uploadWorkerFile,
   getWorkerFileDownloadUrl,
   deleteWorkerFile,
+  getWorkerAccommodations,
 } from "@/lib/api";
 import type {
   AttendanceStatus,
@@ -45,6 +47,7 @@ import type {
   WorkerDetail,
   WorkerFile,
   WorkerFileDocumentType,
+  WorkerAccommodationEntry,
 } from "@/types/api";
 
 const DOC_STATUS_LABELS: Record<string, string> = {
@@ -99,6 +102,10 @@ export default function WorkerProfilePage() {
   const [documents, setDocuments] = useState<GeneratedDocument[]>([]);
   const [docsLoading, setDocsLoading] = useState(false);
 
+  // Accommodation history
+  const [accommodations, setAccommodations] = useState<WorkerAccommodationEntry[]>([]);
+  const [accLoading, setAccLoading] = useState(false);
+
   // Uploaded files
   const [uploadedFiles, setUploadedFiles] = useState<WorkerFile[]>([]);
   const [filesLoading, setFilesLoading] = useState(false);
@@ -114,7 +121,20 @@ export default function WorkerProfilePage() {
       .finally(() => setLoading(false));
     loadDocuments();
     loadUploadedFiles();
+    loadAccommodations();
   }, [id]);
+
+  async function loadAccommodations() {
+    setAccLoading(true);
+    try {
+      const res = await getWorkerAccommodations(id);
+      setAccommodations(res);
+    } catch {
+      // non-blocking
+    } finally {
+      setAccLoading(false);
+    }
+  }
 
   async function loadDocuments() {
     setDocsLoading(true);
@@ -486,6 +506,127 @@ export default function WorkerProfilePage() {
             )}
           </CardContent>
         </Card>
+        {/* Accommodation */}
+        <Card>
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2">
+              <Home className="h-5 w-5" />
+              Accommodation
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            {accLoading ? (
+              <p className="text-sm text-muted-foreground">Loading...</p>
+            ) : accommodations.length === 0 ? (
+              <p className="text-sm text-muted-foreground">No accommodation recorded.</p>
+            ) : (() => {
+              const current = accommodations.find((a) => a.move_out_date === null);
+              const past = accommodations.filter((a) => a.move_out_date !== null);
+              return (
+                <div className="space-y-4">
+                  {current && (
+                    <div className="rounded-md border border-blue-200 bg-blue-50 p-4">
+                      <p className="mb-1 text-xs font-semibold uppercase tracking-wide text-blue-600">
+                        Current accommodation
+                      </p>
+                      <p className="font-medium">
+                        <Link
+                          href="/dashboard/accommodations"
+                          className="text-blue-700 hover:underline"
+                        >
+                          {current.accommodation_name}
+                        </Link>
+                      </p>
+                      {(current.accommodation_address || current.accommodation_city) && (
+                        <p className="text-sm text-muted-foreground">
+                          {[current.accommodation_address, current.accommodation_city]
+                            .filter(Boolean)
+                            .join(", ")}
+                        </p>
+                      )}
+                      <div className="mt-2 flex flex-wrap gap-4 text-sm">
+                        {current.room_number && (
+                          <span>Room: <strong>{current.room_number}</strong></span>
+                        )}
+                        <span>
+                          Since:{" "}
+                          <strong>
+                            {new Date(current.move_in_date).toLocaleDateString("pl-PL")}
+                          </strong>
+                        </span>
+                        {current.monthly_cost_to_worker && (
+                          <span>
+                            Cost:{" "}
+                            <strong>
+                              {Number(current.monthly_cost_to_worker).toLocaleString("pl-PL", {
+                                minimumFractionDigits: 2,
+                              })}{" "}
+                              PLN/mo
+                            </strong>
+                          </span>
+                        )}
+                      </div>
+                    </div>
+                  )}
+                  {past.length > 0 && (
+                    <div>
+                      <p className="mb-2 text-xs font-medium text-muted-foreground">
+                        Past accommodations
+                      </p>
+                      <div className="rounded-md border">
+                        <Table>
+                          <TableHeader>
+                            <TableRow>
+                              <TableHead>Property</TableHead>
+                              <TableHead>Room</TableHead>
+                              <TableHead>Move-in</TableHead>
+                              <TableHead>Move-out</TableHead>
+                              <TableHead>Cost/mo</TableHead>
+                            </TableRow>
+                          </TableHeader>
+                          <TableBody>
+                            {past.map((a) => (
+                              <TableRow key={a.assignment_id}>
+                                <TableCell className="font-medium">
+                                  <Link
+                                    href="/dashboard/accommodations"
+                                    className="hover:underline"
+                                  >
+                                    {a.accommodation_name}
+                                  </Link>
+                                  {a.accommodation_city && (
+                                    <p className="text-xs text-muted-foreground">
+                                      {a.accommodation_city}
+                                    </p>
+                                  )}
+                                </TableCell>
+                                <TableCell>{a.room_number ?? "—"}</TableCell>
+                                <TableCell>
+                                  {new Date(a.move_in_date).toLocaleDateString("pl-PL")}
+                                </TableCell>
+                                <TableCell>
+                                  {a.move_out_date
+                                    ? new Date(a.move_out_date).toLocaleDateString("pl-PL")
+                                    : "—"}
+                                </TableCell>
+                                <TableCell>
+                                  {a.monthly_cost_to_worker
+                                    ? `${Number(a.monthly_cost_to_worker).toLocaleString("pl-PL", { minimumFractionDigits: 2 })} PLN`
+                                    : "—"}
+                                </TableCell>
+                              </TableRow>
+                            ))}
+                          </TableBody>
+                        </Table>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            })()}
+          </CardContent>
+        </Card>
+
         {/* Generated Documents */}
         <Card>
           <CardHeader>

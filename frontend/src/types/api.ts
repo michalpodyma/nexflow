@@ -757,3 +757,15 @@ export interface WorkerFileDownloadResponse {
   url: string;
   expires_in: number;
 }
+
+export interface WorkerAccommodationEntry {
+  assignment_id: string;
+  accommodation_id: string;
+  accommodation_name: string;
+  accommodation_address: string | null;
+  accommodation_city: string | null;
+  room_number: string | null;
+  move_in_date: string;
+  move_out_date: string | null;
+  monthly_cost_to_worker: string | null;
+}

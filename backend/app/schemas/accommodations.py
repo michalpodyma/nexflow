@@ -101,3 +101,16 @@ class AssignmentUpdate(BaseModel):
     room_number: str | None = None
     move_out_date: datetime | None = None
     monthly_cost_to_worker: Decimal | None = None
+
+
+class WorkerAccommodationEntry(BaseModel):
+    """Accommodation history entry returned for a specific worker."""
+    assignment_id: UUID
+    accommodation_id: UUID
+    accommodation_name: str
+    accommodation_address: str | None
+    accommodation_city: str | None
+    room_number: str | None
+    move_in_date: datetime
+    move_out_date: datetime | None
+    monthly_cost_to_worker: Decimal | None

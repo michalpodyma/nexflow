@@ -19,11 +19,15 @@ from app.schemas.accommodations import (
     AssignmentUpdate,
     PaginatedAccommodations,
     ResidentSummary,
+    WorkerAccommodationEntry,
 )
 
 router = APIRouter(prefix="/api/v1/accommodations", tags=["accommodations"])
 assignments_router = APIRouter(
     prefix="/api/v1/accommodation-assignments", tags=["accommodations"]
+)
+worker_accommodations_router = APIRouter(
+    prefix="/api/v1/workers", tags=["accommodations"]
 )
 
 
@@ -215,3 +219,37 @@ async def update_assignment(
     await db.commit()
     await db.refresh(asgn)
     return AssignmentRead.model_validate(asgn)
+
+
+# ── Worker accommodation history ──────────────────────────────────────────────
+
+@worker_accommodations_router.get(
+    "/{worker_id}/accommodations",
+    response_model=list[WorkerAccommodationEntry],
+)
+async def get_worker_accommodations(
+    worker_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> list[WorkerAccommodationEntry]:
+    result = await db.execute(
+        select(AccommodationAssignment, Accommodation)
+        .join(Accommodation, AccommodationAssignment.accommodation_id == Accommodation.id)
+        .where(AccommodationAssignment.worker_id == worker_id)
+        .order_by(AccommodationAssignment.move_in_date.desc())
+    )
+    rows = result.all()
+    return [
+        WorkerAccommodationEntry(
+            assignment_id=asgn.id,
+            accommodation_id=acc.id,
+            accommodation_name=acc.name,
+            accommodation_address=acc.address,
+            accommodation_city=acc.city,
+            room_number=asgn.room_number,
+            move_in_date=asgn.move_in_date,
+            move_out_date=asgn.move_out_date,
+            monthly_cost_to_worker=asgn.monthly_cost_to_worker,
+        )
+        for asgn, acc in rows
+    ]
