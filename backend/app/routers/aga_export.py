@@ -55,23 +55,22 @@ def _fmt_decimal(val: object) -> str:
     return str(val).replace(".", ",")
 
 
-def _csv_response(rows: list[dict], filename: str) -> StreamingResponse:
-    """Build a semicolon-delimited CSV StreamingResponse."""
-    if not rows:
-        output = io.StringIO()
-        output.write("")
-        output.seek(0)
-        return StreamingResponse(
-            iter([output.getvalue()]),
-            media_type="text/csv; charset=utf-8-sig",
-            headers={"Content-Disposition": f'attachment; filename="{filename}"'},
-        )
+def _csv_response(
+    rows: list[dict], filename: str, fieldnames: list[str] | None = None
+) -> StreamingResponse:
+    """Build a semicolon-delimited CSV StreamingResponse.
+
+    When rows is empty, writes a header-only file using the provided fieldnames.
+    The AGA importer requires a header row even when there are no data rows.
+    """
+    effective_fieldnames = fieldnames if fieldnames is not None else (list(rows[0].keys()) if rows else [])
     output = io.StringIO()
     writer = csv.DictWriter(
-        output, fieldnames=list(rows[0].keys()), delimiter=";", lineterminator="\r\n"
+        output, fieldnames=effective_fieldnames, delimiter=";", lineterminator="\r\n"
     )
     writer.writeheader()
-    writer.writerows(rows)
+    if rows:
+        writer.writerows(rows)
     output.seek(0)
     # Prepend BOM for Windows/Excel compatibility
     content = "\ufeff" + output.getvalue()
@@ -93,18 +92,40 @@ def _parse_date_param(val: str | None, name: str) -> date | None:
 
 # ── Workers export ─────────────────────────────────────────────────────────────
 
+_WORKERS_FIELDNAMES = [
+    "Kod_pracownika", "Nazwisko", "Imie", "PESEL", "Data_urodzenia", "Plec",
+    "Obywatelstwo", "Narodowosc", "Rodzaj_dokumentu", "Seria_dokumentu",
+    "Numer_dokumentu", "Waznosc_dokumentu", "Adres", "Telefon", "Email",
+    "Typ_zezwolenia", "Waznosc_zezwolenia", "Status_ZUS", "Certyfikat_A1",
+    "Waznosc_A1", "Data_dodania",
+]
+_CONTRACTS_FIELDNAMES = [
+    "Nr_umowy", "Kod_pracownika", "Nazwisko_pracownika", "Imie_pracownika",
+    "PESEL", "Pracodawca_uzytkownik", "NIP_klienta", "Stanowisko",
+    "Data_od", "Data_do", "Stawka_pracodawcy", "Stawka_pracownika", "Waluta",
+]
+_HOURS_FIELDNAMES = [
+    "Kod_pracownika", "Nazwisko", "Imie", "PESEL", "Data_pracy",
+    "Godziny_normalne", "Nadgodziny", "Typ_nieobecnosci", "Uwagi",
+]
+_ASSIGNMENTS_FIELDNAMES = [
+    "ID_delegowania", "Kod_pracownika", "Nazwisko", "Imie", "PESEL",
+    "Pracodawca_uzytkownik", "NIP_klienta", "Kraj_klienta", "Stanowisko",
+    "Data_od", "Data_do", "Limit_18mies_od",
+]
+
+
 @router.get("/workers")
 async def export_workers(
     _: CurrentUser,
     db: Annotated[AsyncSession, Depends(get_db)],
-    date_from: str | None = Query(None),
-    date_to: str | None = Query(None),
     client_id: str | None = Query(None),
 ) -> StreamingResponse:
-    """Export worker/employee records for AGA import."""
-    _parse_date_param(date_from, "date_from")
-    _parse_date_param(date_to, "date_to")
+    """Export worker/employee records for AGA import.
 
+    Workers is master data — not date-filtered. All non-archived workers are
+    exported (optionally filtered by client_id for the worker's current client).
+    """
     q = select(Worker).where(Worker.archived_at.is_(None))
 
     if client_id:
@@ -142,7 +163,7 @@ async def export_workers(
         })
 
     today = date.today().strftime("%Y%m%d")
-    return _csv_response(rows, f"AGA_pracownicy_{today}.csv")
+    return _csv_response(rows, f"AGA_pracownicy_{today}.csv", _WORKERS_FIELDNAMES)
 
 
 # ── Contracts export ───────────────────────────────────────────────────────────
@@ -195,7 +216,7 @@ async def export_contracts(
         })
 
     today = date.today().strftime("%Y%m%d")
-    return _csv_response(rows, f"AGA_umowy_{today}.csv")
+    return _csv_response(rows, f"AGA_umowy_{today}.csv", _CONTRACTS_FIELDNAMES)
 
 
 # ── Hours export ───────────────────────────────────────────────────────────────
@@ -245,7 +266,7 @@ async def export_hours(
     today = date.today().strftime("%Y%m%d")
     d_from_str = date_from or "all"
     d_to_str = date_to or "all"
-    return _csv_response(rows, f"AGA_godziny_{d_from_str}_{d_to_str}.csv")
+    return _csv_response(rows, f"AGA_godziny_{d_from_str}_{d_to_str}.csv", _HOURS_FIELDNAMES)
 
 
 # ── Assignments export ─────────────────────────────────────────────────────────
@@ -297,4 +318,4 @@ async def export_assignments(
         })
 
     today = date.today().strftime("%Y%m%d")
-    return _csv_response(rows, f"AGA_delegowania_{today}.csv")
+    return _csv_response(rows, f"AGA_delegowania_{today}.csv", _ASSIGNMENTS_FIELDNAMES)

@@ -232,6 +232,8 @@ async def update_candidate(
             )
             db.add(new_worker)
             await db.flush()
+            await db.refresh(new_worker)  # sync trigger-set gdpr_delete_at from DB
+            new_worker.gdpr_delete_at = None  # active employee — no deletion scheduled
             candidate.worker_id = new_worker.id
             candidate.gdpr_delete_at = None
     if body.job_posting_id is not None:
