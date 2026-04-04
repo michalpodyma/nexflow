@@ -230,6 +230,10 @@ export function archiveWorker(workerId: string): Promise<Worker> {
   return request<Worker>(`/api/v1/workers/${workerId}/archive`, { method: "PATCH" });
 }
 
+export function restoreWorker(workerId: string): Promise<Worker> {
+  return request<Worker>(`/api/v1/workers/${workerId}/restore`, { method: "PATCH" });
+}
+
 export function updateWorkerAttendanceStatus(
   workerId: string,
   attendance_status: AttendanceStatus,

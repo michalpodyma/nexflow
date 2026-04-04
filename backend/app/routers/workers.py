@@ -195,3 +195,30 @@ async def archive_worker(
     await db.commit()
     await db.refresh(worker)
     return _build_worker_read(worker, None)
+
+
+@router.patch("/{worker_id}/restore", response_model=WorkerRead)
+async def restore_worker(
+    worker_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> WorkerRead:
+    result = await db.execute(select(Worker).where(Worker.id == worker_id))
+    worker = result.scalar_one_or_none()
+    if worker is None:
+        raise HTTPException(status_code=404, detail="Worker not found")
+    if worker.archived_at is None:
+        raise HTTPException(status_code=409, detail="Worker is not archived")
+
+    worker.archived_at = None
+    await db.commit()
+    await db.refresh(worker)
+
+    client_name: str | None = None
+    if worker.current_client_id:
+        cr = await db.execute(
+            select(Client.company_name).where(Client.id == worker.current_client_id)
+        )
+        client_name = cr.scalar_one_or_none()
+
+    return _build_worker_read(worker, client_name)

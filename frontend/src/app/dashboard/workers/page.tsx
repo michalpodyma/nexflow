@@ -14,7 +14,7 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
-import { archiveWorker, getWorkers } from "@/lib/api";
+import { archiveWorker, getWorkers, restoreWorker } from "@/lib/api";
 import type { AttendanceStatus, Worker } from "@/types/api";
 
 const STATUS_STYLES: Record<AttendanceStatus, string> = {
@@ -139,6 +139,9 @@ export default function WorkersPage() {
   const [archiving, setArchiving] = useState(false);
   const [archiveError, setArchiveError] = useState<string | null>(null);
 
+  // Restore state
+  const [restoring, setRestoring] = useState<string | null>(null);
+
   const load = useCallback(() => {
     setLoading(true);
     getWorkers(1, 20, expiringOnly, showArchived)
@@ -183,6 +186,24 @@ export default function WorkersPage() {
       return [saved, ...prev];
     });
     if (!formTarget) setTotal((t) => t + 1);
+  }
+
+  async function handleRestore(e: React.MouseEvent, worker: Worker) {
+    e.stopPropagation();
+    setRestoring(worker.id);
+    try {
+      const updated = await restoreWorker(worker.id);
+      if (!showArchived) {
+        setWorkers((prev) => prev.filter((w) => w.id !== worker.id));
+        setTotal((t) => t - 1);
+      } else {
+        setWorkers((prev) => prev.map((w) => (w.id === updated.id ? updated : w)));
+      }
+    } catch {
+      // non-blocking
+    } finally {
+      setRestoring(null);
+    }
   }
 
   async function handleArchiveConfirm() {
@@ -306,7 +327,7 @@ export default function WorkersPage() {
                         >
                           Edit
                         </Button>
-                        {!w.archived_at && (
+                        {!w.archived_at ? (
                           <Button
                             variant="ghost"
                             size="sm"
@@ -314,6 +335,16 @@ export default function WorkersPage() {
                             onClick={(e) => openArchiveConfirm(e, w)}
                           >
                             Archive
+                          </Button>
+                        ) : (
+                          <Button
+                            variant="ghost"
+                            size="sm"
+                            className="h-7 px-2 text-xs text-blue-600 hover:text-blue-700"
+                            disabled={restoring === w.id}
+                            onClick={(e) => handleRestore(e, w)}
+                          >
+                            {restoring === w.id ? "Restoring…" : "Restore"}
                           </Button>
                         )}
                       </div>

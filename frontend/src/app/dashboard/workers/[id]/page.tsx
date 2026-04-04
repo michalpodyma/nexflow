@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useRouter } from "next/navigation";
 import DOMPurify from "dompurify";
-import { ArrowLeft, FileText, Download, ChevronDown, Pencil } from "lucide-react";
+import { ArrowLeft, FileText, Download, ChevronDown, Pencil, Archive, RotateCcw } from "lucide-react";
 
 import { Header } from "@/components/layout/Header";
 import { WorkerFormDialog } from "@/components/workers/WorkerFormDialog";
@@ -25,7 +25,9 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import {
+  archiveWorker,
   getWorker,
+  restoreWorker,
   updateWorkerAttendanceStatus,
   getDocumentTemplates,
   generateDocument,
@@ -73,6 +75,9 @@ export default function WorkerProfilePage() {
   const [error, setError] = useState<string | null>(null);
   const [statusUpdating, setStatusUpdating] = useState(false);
   const [editOpen, setEditOpen] = useState(false);
+  const [archiveDialogOpen, setArchiveDialogOpen] = useState(false);
+  const [archiving, setArchiving] = useState(false);
+  const [archiveError, setArchiveError] = useState<string | null>(null);
 
   // Generate document flow
   const [genDialogOpen, setGenDialogOpen] = useState(false);
@@ -172,6 +177,34 @@ export default function WorkerProfilePage() {
     }
   }
 
+  async function handleArchive() {
+    if (!worker) return;
+    setArchiving(true);
+    setArchiveError(null);
+    try {
+      const updated = await archiveWorker(worker.id);
+      setWorker((prev) => prev ? { ...prev, archived_at: updated.archived_at } : prev);
+      setArchiveDialogOpen(false);
+    } catch (e: unknown) {
+      setArchiveError(e instanceof Error ? e.message : "Failed to archive worker.");
+    } finally {
+      setArchiving(false);
+    }
+  }
+
+  async function handleRestore() {
+    if (!worker) return;
+    setArchiving(true);
+    try {
+      const updated = await restoreWorker(worker.id);
+      setWorker((prev) => prev ? { ...prev, archived_at: updated.archived_at } : prev);
+    } catch {
+      // non-blocking
+    } finally {
+      setArchiving(false);
+    }
+  }
+
   async function handleStatusChange(status: AttendanceStatus) {
     if (!worker || statusUpdating) return;
     setStatusUpdating(true);
@@ -222,6 +255,28 @@ export default function WorkerProfilePage() {
             Back to Workers
           </Button>
           <div className="flex gap-2">
+            {worker.archived_at ? (
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-2 text-blue-600 hover:text-blue-700"
+                disabled={archiving}
+                onClick={handleRestore}
+              >
+                <RotateCcw className="h-4 w-4" />
+                {archiving ? "Restoring…" : "Restore"}
+              </Button>
+            ) : (
+              <Button
+                size="sm"
+                variant="outline"
+                className="gap-2 text-red-600 hover:text-red-700"
+                onClick={() => { setArchiveError(null); setArchiveDialogOpen(true); }}
+              >
+                <Archive className="h-4 w-4" />
+                Archive
+              </Button>
+            )}
             <Button size="sm" variant="outline" className="gap-2" onClick={() => setEditOpen(true)}>
               <Pencil className="h-4 w-4" />
               Edit
@@ -232,6 +287,15 @@ export default function WorkerProfilePage() {
             </Button>
           </div>
         </div>
+
+        {/* Archived banner */}
+        {worker.archived_at && (
+          <div className="rounded-md border border-gray-200 bg-gray-50 px-4 py-3 text-sm text-gray-600">
+            This worker was archived on{" "}
+            <strong>{new Date(worker.archived_at).toLocaleDateString()}</strong>. They are hidden
+            from active lists and assignment flows.
+          </div>
+        )}
 
         {/* Worker details card */}
         <Card>
@@ -426,6 +490,32 @@ export default function WorkerProfilePage() {
           </CardContent>
         </Card>
       </main>
+
+      {/* Archive confirmation dialog */}
+      <Dialog open={archiveDialogOpen} onOpenChange={(v) => { if (!v) setArchiveDialogOpen(false); }}>
+        <DialogContent className="max-w-sm">
+          <DialogHeader>
+            <DialogTitle>Archive worker?</DialogTitle>
+          </DialogHeader>
+          <p className="text-sm text-muted-foreground">
+            <strong>{worker.first_name} {worker.last_name}</strong> will be hidden from the active
+            workers list and assignment flows. You can restore them at any time.
+          </p>
+          {archiveError && (
+            <p className="rounded border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-700">
+              {archiveError}
+            </p>
+          )}
+          <DialogFooter>
+            <Button variant="outline" onClick={() => setArchiveDialogOpen(false)} disabled={archiving}>
+              Cancel
+            </Button>
+            <Button variant="destructive" onClick={handleArchive} disabled={archiving}>
+              {archiving ? "Archiving…" : "Archive"}
+            </Button>
+          </DialogFooter>
+        </DialogContent>
+      </Dialog>
 
       {/* Edit Worker dialog */}
       {editOpen && worker && (
