@@ -43,6 +43,7 @@ class WorkerRead(BaseModel):
     created_at: datetime
     updated_at: datetime
     # praca.gov fields
+    passport_number: str | None = None
     gender: str | None = None
     citizenship: str | None = None
     travel_document_type: str | None = None
@@ -77,6 +78,7 @@ class WorkerCreate(BaseModel):
     gdpr_consent: bool = False
     gdpr_consent_at: datetime | None = None
     # praca.gov fields
+    passport_number: str | None = None
     gender: str | None = None
     citizenship: str | None = None
     travel_document_type: str | None = None
@@ -106,6 +108,7 @@ class WorkerUpdate(BaseModel):
     assignment_start_date: datetime | None = None
     assignment_end_date: datetime | None = None
     # praca.gov fields
+    passport_number: str | None = None
     gender: str | None = None
     citizenship: str | None = None
     travel_document_type: str | None = None

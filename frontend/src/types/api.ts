@@ -110,6 +110,7 @@ export interface Worker {
   created_at: string;
   updated_at: string;
   // praca.gov fields
+  passport_number?: string | null;
   gender?: string | null;
   citizenship?: string | null;
   travel_document_type?: string | null;
@@ -136,6 +137,7 @@ export interface WorkerCreate {
   gdpr_consent?: boolean;
   gdpr_consent_at?: string;
   // praca.gov fields
+  passport_number?: string;
   gender?: string;
   citizenship?: string;
   travel_document_type?: string;
@@ -163,6 +165,7 @@ export interface WorkerUpdate {
   assignment_start_date?: string | null;
   assignment_end_date?: string | null;
   // praca.gov fields
+  passport_number?: string | null;
   gender?: string | null;
   citizenship?: string | null;
   travel_document_type?: string | null;

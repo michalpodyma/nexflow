@@ -29,6 +29,7 @@ interface FormState {
   attendance_status: AttendanceStatus;
   gdpr_consent: boolean;
   // praca.gov fields
+  passport_number: string;
   gender: string;
   citizenship: string;
   travel_document_type: string;
@@ -88,6 +89,7 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
     attendance_status: worker?.attendance_status ?? "active",
     gdpr_consent: worker?.gdpr_consent ?? false,
     // praca.gov fields
+    passport_number: worker?.passport_number ?? "",
     gender: worker?.gender ?? "",
     citizenship: worker?.citizenship ?? "",
     travel_document_type: worker?.travel_document_type ?? "",
@@ -138,6 +140,7 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           safety_cert_expiry: toIsoDatetime(form.safety_cert_expiry) ?? null,
           a1_cert_status: form.a1_cert_status.trim() || null,
           attendance_status: form.attendance_status,
+          passport_number: form.passport_number.trim() || null,
           gender: form.gender || null,
           citizenship: form.citizenship.trim() || null,
           travel_document_type: form.travel_document_type.trim() || null,
@@ -163,6 +166,7 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
           attendance_status: form.attendance_status,
           gdpr_consent: form.gdpr_consent,
           gdpr_consent_at: form.gdpr_consent ? new Date().toISOString() : undefined,
+          passport_number: form.passport_number.trim() || undefined,
           gender: form.gender || undefined,
           citizenship: form.citizenship.trim() || undefined,
           travel_document_type: form.travel_document_type.trim() || undefined,
@@ -387,6 +391,14 @@ export function WorkerFormDialog({ worker, onClose, onSaved }: WorkerFormDialogP
                   value={form.travel_document_number}
                   onChange={(e) => set("travel_document_number", e.target.value)}
                   placeholder="1234567"
+                />
+              </div>
+              <div>
+                <label className="mb-1 block text-sm font-medium">Numer paszportu (legacy)</label>
+                <Input
+                  value={form.passport_number}
+                  onChange={(e) => set("passport_number", e.target.value)}
+                  placeholder="AB1234567"
                 />
               </div>
               <div>
