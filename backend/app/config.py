@@ -45,5 +45,12 @@ class Settings(BaseSettings):
     # These are checked as a fallback when the user is not found in admin_users table.
     dashboard_users: str = ""
 
+    # WhatsApp Business API (Meta Graph API v19.0)
+    # Set all four in Railway / .env for the webhook to function.
+    whatsapp_phone_number_id: str = ""         # WHATSAPP_PHONE_NUMBER_ID
+    whatsapp_app_secret: str = ""              # WHATSAPP_APP_SECRET  (for X-Hub-Signature-256)
+    whatsapp_access_token: str = ""            # WHATSAPP_ACCESS_TOKEN
+    whatsapp_webhook_verify_token: str = ""    # WHATSAPP_WEBHOOK_VERIFY_TOKEN (self-chosen)
+
 
 settings = Settings()

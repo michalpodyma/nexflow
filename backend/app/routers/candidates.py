@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from typing import Annotated
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException, Query, Request
+from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query, Request
 from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
@@ -165,6 +165,7 @@ async def list_candidates(
 async def create_candidate(
     request: Request,
     body: CandidateCreate,
+    background_tasks: BackgroundTasks,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> CandidateRead:
     candidate = Candidate(
@@ -209,6 +210,31 @@ async def create_candidate(
         logging.getLogger(__name__).warning(
             "[candidates] Celery notification dispatch failed (non-blocking): %s", exc
         )
+
+    # Trigger WhatsApp screening chatbot — non-blocking, best-effort.
+    # A new DB session is needed because background tasks outlive the request session.
+    if candidate.phone:
+        async def _start_whatsapp_screening(candidate_id: str) -> None:
+            import logging as _logging
+            _log = _logging.getLogger(__name__)
+            try:
+                from app.database import AsyncSessionLocal  # noqa: PLC0415
+                from app.services.chatbot_fsm import initiate_session  # noqa: PLC0415
+                from app.models.enums import ChatbotChannel  # noqa: PLC0415
+                async with AsyncSessionLocal() as bg_db:
+                    from sqlalchemy import select as _select  # noqa: PLC0415
+                    from app.models.candidates import Candidate as _Candidate  # noqa: PLC0415
+                    from uuid import UUID as _UUID  # noqa: PLC0415
+                    result = await bg_db.execute(
+                        _select(_Candidate).where(_Candidate.id == _UUID(candidate_id))
+                    )
+                    cand = result.scalar_one_or_none()
+                    if cand:
+                        await initiate_session(cand, bg_db, channel=ChatbotChannel.whatsapp)
+            except Exception as _exc:  # noqa: BLE001
+                _log.warning("[candidates] WhatsApp session init failed (non-blocking): %s", _exc)
+
+        background_tasks.add_task(_start_whatsapp_screening, str(candidate.id))
 
     return CandidateRead.model_validate(candidate)
 

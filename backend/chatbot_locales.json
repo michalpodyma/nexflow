@@ -1,0 +1,62 @@
+{
+  "pl": {
+    "language_prompt": "Cześć! 👋 Jestem asystentem rekrutacyjnym Nexflow.\n\nWybierz język rozmowy:\n*1* Polski\n*2* English\n*3* Українська\n*4* Deutsch\n*5* Русский",
+    "welcome": "Cześć {first_name}! 👋 Jestem asystentem rekrutacyjnym Nexflow. Chciałbym zadać Ci kilka krótkich pytań rekrutacyjnych — zajmie to tylko 2–3 minuty.",
+    "experience_question": "Ile lat doświadczenia masz w pracy magazynowej, logistycznej lub przy produkcji?\n\n*1* Brak doświadczenia\n*2* Mniej niż 1 rok\n*3* 1–3 lata\n*4* Więcej niż 3 lata",
+    "availability_question": "Kiedy możesz rozpocząć pracę?\n\n*1* Jak najszybciej (do 7 dni)\n*2* Za 1–2 tygodnie\n*3* Za miesiąc\n*4* Za więcej niż miesiąc",
+    "relocation_question": "Czy jesteś gotów/gotowa pracować poza swoim aktualnym miejscem zamieszkania?\n\n*1* Tak, w Polsce lub za granicą\n*2* Tak, ale potrzebuję zakwaterowania\n*3* Nie, tylko lokalnie",
+    "salary_question": "Jaką minimalną stawkę godzinową netto oczekujesz? (Wpisz kwotę w PLN, np. *22*)",
+    "pass_message": "Dziękuję, {first_name}! 🎉 Twój profil świetnie pasuje do naszych ofert. Nasz rekruter skontaktuje się z Tobą wkrótce. Do zobaczenia!",
+    "fail_message": "Dziękuję za Twój czas, {first_name}. Niestety Twój profil nie pasuje do naszych aktualnych stanowisk. Zachowamy Twoje dane i odezwiemy się, gdy pojawi się odpowiednia oferta. Powodzenia!",
+    "invalid_input": "Przepraszam, nie rozumiem tej odpowiedzi. Proszę wybierz jedną z podanych opcji (np. wpisz *1*, *2*, *3* lub *4*).",
+    "already_screened": "Twój profil został już zweryfikowany — nasz rekruter skontaktuje się z Tobą wkrótce. 😊"
+  },
+  "en": {
+    "language_prompt": "Hello! 👋 I'm Nexflow's recruitment assistant.\n\nChoose your language:\n*1* Polski\n*2* English\n*3* Українська\n*4* Deutsch\n*5* Русский",
+    "welcome": "Hello {first_name}! 👋 I'm Nexflow's recruitment assistant. I'd like to ask you a few quick screening questions — it will only take 2–3 minutes.",
+    "experience_question": "How many years of experience do you have in warehouse, logistics or production work?\n\n*1* No experience\n*2* Less than 1 year\n*3* 1–3 years\n*4* More than 3 years",
+    "availability_question": "When can you start work?\n\n*1* As soon as possible (within 7 days)\n*2* In 1–2 weeks\n*3* In 1 month\n*4* More than 1 month from now",
+    "relocation_question": "Are you willing to work outside your current place of residence?\n\n*1* Yes, in Poland or abroad\n*2* Yes, but I need accommodation\n*3* No, only locally",
+    "salary_question": "What is the minimum net hourly rate you expect? (Enter the amount in PLN, e.g. *22*)",
+    "pass_message": "Thank you, {first_name}! 🎉 Your profile is a great match for our openings. One of our recruiters will contact you shortly. See you soon!",
+    "fail_message": "Thank you for your time, {first_name}. Unfortunately your profile doesn't match our current openings. We'll keep your details and reach out when a suitable role comes up. Good luck!",
+    "invalid_input": "Sorry, I didn't understand that answer. Please choose one of the listed options (e.g. type *1*, *2*, *3* or *4*).",
+    "already_screened": "Your profile has already been verified — our recruiter will be in touch soon. 😊"
+  },
+  "uk": {
+    "language_prompt": "Привіт! 👋 Я асистент з підбору персоналу Nexflow.\n\nОберіть мову:\n*1* Polski\n*2* English\n*3* Українська\n*4* Deutsch\n*5* Русский",
+    "welcome": "Привіт, {first_name}! 👋 Я асистент з підбору персоналу Nexflow. Хочу поставити кілька коротких запитань — це займе лише 2–3 хвилини.",
+    "experience_question": "Скільки років досвіду роботи на складі, в логістиці або на виробництві у вас є?\n\n*1* Без досвіду\n*2* Менше 1 року\n*3* 1–3 роки\n*4* Більше 3 років",
+    "availability_question": "Коли ви можете розпочати роботу?\n\n*1* Якомога швидше (до 7 днів)\n*2* Через 1–2 тижні\n*3* Через місяць\n*4* Більше ніж через місяць",
+    "relocation_question": "Чи готові ви працювати за межами свого теперішнього місця проживання?\n\n*1* Так, у Польщі або за кордоном\n*2* Так, але потрібне проживання\n*3* Ні, тільки місцево",
+    "salary_question": "Яку мінімальну годинну ставку (нетто) ви очікуєте? (Вкажіть суму в PLN, наприклад *22*)",
+    "pass_message": "Дякую, {first_name}! 🎉 Ваш профіль чудово підходить до наших вакансій. Наш рекрутер зв'яжеться з вами найближчим часом. До зустрічі!",
+    "fail_message": "Дякую за ваш час, {first_name}. На жаль, ваш профіль не відповідає нашим поточним вакансіям. Ми збережемо ваші дані та зв'яжемося, коли з'явиться відповідна пропозиція. Бажаємо успіху!",
+    "invalid_input": "Вибачте, я не зрозумів вашу відповідь. Будь ласка, оберіть один із запропонованих варіантів (наприклад, напишіть *1*, *2*, *3* або *4*).",
+    "already_screened": "Ваш профіль вже перевірено — наш рекрутер незабаром зв'яжеться з вами. 😊"
+  },
+  "de": {
+    "language_prompt": "Hallo! 👋 Ich bin der Recruiting-Assistent von Nexflow.\n\nBitte wählen Sie Ihre Sprache:\n*1* Polski\n*2* English\n*3* Українська\n*4* Deutsch\n*5* Русский",
+    "welcome": "Hallo {first_name}! 👋 Ich bin der Recruiting-Assistent von Nexflow. Ich möchte Ihnen ein paar kurze Fragen stellen — das dauert nur 2–3 Minuten.",
+    "experience_question": "Wie viele Jahre Berufserfahrung haben Sie in der Lager-, Logistik- oder Produktionsarbeit?\n\n*1* Keine Erfahrung\n*2* Weniger als 1 Jahr\n*3* 1–3 Jahre\n*4* Mehr als 3 Jahre",
+    "availability_question": "Wann können Sie mit der Arbeit beginnen?\n\n*1* So schnell wie möglich (innerhalb von 7 Tagen)\n*2* In 1–2 Wochen\n*3* In 1 Monat\n*4* In mehr als 1 Monat",
+    "relocation_question": "Sind Sie bereit, außerhalb Ihres aktuellen Wohnorts zu arbeiten?\n\n*1* Ja, in Polen oder im Ausland\n*2* Ja, aber ich brauche Unterkunft\n*3* Nein, nur lokal",
+    "salary_question": "Welchen Mindeststundenlohn (netto) erwarten Sie? (Bitte Betrag in PLN angeben, z.B. *22*)",
+    "pass_message": "Vielen Dank, {first_name}! 🎉 Ihr Profil passt hervorragend zu unseren Stellen. Einer unserer Recruiter wird sich in Kürze bei Ihnen melden. Bis bald!",
+    "fail_message": "Vielen Dank für Ihre Zeit, {first_name}. Leider passt Ihr Profil nicht zu unseren aktuellen Stellen. Wir speichern Ihre Daten und melden uns, sobald eine passende Stelle verfügbar ist. Viel Erfolg!",
+    "invalid_input": "Entschuldigung, ich habe Ihre Antwort nicht verstanden. Bitte wählen Sie eine der aufgeführten Optionen (z.B. geben Sie *1*, *2*, *3* oder *4* ein).",
+    "already_screened": "Ihr Profil wurde bereits überprüft — unser Recruiter wird sich bald bei Ihnen melden. 😊"
+  },
+  "ru": {
+    "language_prompt": "Привет! 👋 Я ассистент по подбору персонала Nexflow.\n\nВыберите язык:\n*1* Polski\n*2* English\n*3* Українська\n*4* Deutsch\n*5* Русский",
+    "welcome": "Привет, {first_name}! 👋 Я ассистент по подбору персонала Nexflow. Хочу задать несколько коротких вопросов — это займёт всего 2–3 минуты.",
+    "experience_question": "Сколько лет опыта работы на складе, в логистике или на производстве у вас есть?\n\n*1* Без опыта\n*2* Меньше 1 года\n*3* 1–3 года\n*4* Больше 3 лет",
+    "availability_question": "Когда вы сможете приступить к работе?\n\n*1* Как можно скорее (в течение 7 дней)\n*2* Через 1–2 недели\n*3* Через месяц\n*4* Более чем через месяц",
+    "relocation_question": "Готовы ли вы работать вне вашего текущего места проживания?\n\n*1* Да, в Польше или за рубежом\n*2* Да, но мне нужно жильё\n*3* Нет, только по месту жительства",
+    "salary_question": "Какой минимальный почасовой нетто-заработок вы ожидаете? (Укажите сумму в PLN, например *22*)",
+    "pass_message": "Спасибо, {first_name}! 🎉 Ваш профиль отлично подходит для наших вакансий. Наш рекрутер свяжется с вами в ближайшее время. До встречи!",
+    "fail_message": "Спасибо за ваше время, {first_name}. К сожалению, ваш профиль не соответствует нашим текущим вакансиям. Мы сохраним ваши данные и свяжемся с вами, как только появится подходящая вакансия. Удачи!",
+    "invalid_input": "Извините, я не понял ваш ответ. Пожалуйста, выберите один из предложенных вариантов (например, введите *1*, *2*, *3* или *4*).",
+    "already_screened": "Ваш профиль уже прошёл проверку — наш рекрутер свяжется с вами в ближайшее время. 😊"
+  }
+}
