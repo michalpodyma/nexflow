@@ -40,14 +40,6 @@ logger = logging.getLogger(__name__)
 # Days before expiry at which to send reminders
 EXPIRY_REMINDER_DAYS = [30, 14, 7]
 
-# Compliance alert_type → Worker attribute that holds the expiry date
-ALERT_TYPE_TO_WORKER_FIELD: dict[str, str] = {
-    "health_cert_expiry": "health_cert_expiry",
-    "bhp_cert_expiry": "safety_cert_expiry",
-    "a1_cert_expiry": "a1_cert_expiry",
-    "contract_expiry": "work_permit_expiry",  # best proxy in Phase 1
-}
-
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -55,7 +47,6 @@ ALERT_TYPE_TO_WORKER_FIELD: dict[str, str] = {
 
 
 def _log_notification(
-    session_sync_func,
     notification_type: str,
     channel: str,
     recipient: str,
@@ -116,7 +107,6 @@ def send_welcome_candidate(candidate_id: str, phone: str | None, email: str | No
     if resolved_phone:
         ok = notify_candidate_welcome_sms(resolved_phone, first_name)
         _log_notification(
-            None,
             "welcome_candidate",
             "sms",
             resolved_phone,
@@ -128,7 +118,6 @@ def send_welcome_candidate(candidate_id: str, phone: str | None, email: str | No
     if resolved_email:
         ok = notify_candidate_welcome_email(resolved_email, first_name)
         _log_notification(
-            None,
             "welcome_candidate",
             "email",
             resolved_email,
