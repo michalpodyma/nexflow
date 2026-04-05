@@ -12,6 +12,7 @@ import {
   GitBranch,
   Home,
   LineChart,
+  Receipt,
   Settings,
   ShieldCheck,
   UserPlus,
@@ -41,6 +42,7 @@ export function Sidebar() {
     { href: "/dashboard/compliance", labelKey: "nav.compliance", icon: ShieldCheck },
     { href: "/dashboard/documents", labelKey: "nav.documents", icon: FileText },
     { href: "/dashboard/hours-import", labelKey: "nav.hours-import", icon: Clock },
+    { href: "/dashboard/invoices", labelKey: "nav.invoices", icon: Receipt },
     { href: "/dashboard/aga-export", labelKey: "nav.aga-export", icon: Database },
   ];
 

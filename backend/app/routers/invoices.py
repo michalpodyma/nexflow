@@ -10,8 +10,15 @@ from app.auth.middleware import CurrentUser
 from app.celery_client import celery_client
 from app.database import get_db
 from app.models.clients import Client
-from app.models.invoices import Invoice
-from app.schemas.invoices import InvoiceCreate, InvoiceRead, InvoiceUpdate, PaginatedInvoices
+from app.models.invoices import Invoice, InvoiceLineItem
+from app.schemas.invoices import (
+    InvoiceCreate,
+    InvoiceRead,
+    InvoiceUpdate,
+    InvoiceWithLineItemsRead,
+    InvoiceLineItemRead,
+    PaginatedInvoices,
+)
 
 logger = logging.getLogger(__name__)
 
@@ -23,6 +30,7 @@ async def list_invoices(
     _: CurrentUser,
     db: Annotated[AsyncSession, Depends(get_db)],
     client_id: UUID | None = Query(None),
+    status: str | None = Query(None, description="Filter by payment_status"),
     page: int = Query(1, ge=1),
     page_size: int = Query(20, ge=1, le=100),
 ) -> PaginatedInvoices:
@@ -30,6 +38,8 @@ async def list_invoices(
     base_q = select(Invoice)
     if client_id:
         base_q = base_q.where(Invoice.client_id == client_id)
+    if status:
+        base_q = base_q.where(Invoice.payment_status == status)
 
     total: int = (await db.execute(select(func.count()).select_from(base_q.subquery()))).scalar_one()
     items = list((await db.execute(base_q.order_by(Invoice.sale_date.desc()).offset(offset).limit(page_size))).scalars().all())
@@ -75,16 +85,26 @@ async def create_invoice(
     return InvoiceRead.model_validate(invoice)
 
 
-@router.get("/{invoice_id}", response_model=InvoiceRead)
+@router.get("/{invoice_id}", response_model=InvoiceWithLineItemsRead)
 async def get_invoice(
     _: CurrentUser,
     invoice_id: UUID,
     db: Annotated[AsyncSession, Depends(get_db)],
-) -> InvoiceRead:
+) -> InvoiceWithLineItemsRead:
     invoice = await db.get(Invoice, invoice_id)
     if invoice is None:
         raise HTTPException(status_code=404, detail="Invoice not found")
-    return InvoiceRead.model_validate(invoice)
+
+    line_items_result = await db.execute(
+        select(InvoiceLineItem)
+        .where(InvoiceLineItem.invoice_id == invoice_id)
+        .order_by(InvoiceLineItem.created_at)
+    )
+    line_items = list(line_items_result.scalars().all())
+
+    data = InvoiceRead.model_validate(invoice).model_dump()
+    data["line_items"] = [InvoiceLineItemRead.model_validate(li) for li in line_items]
+    return InvoiceWithLineItemsRead(**data)
 
 
 @router.patch("/{invoice_id}", response_model=InvoiceRead)
@@ -104,3 +124,22 @@ async def update_invoice(
     await db.commit()
     await db.refresh(invoice)
     return InvoiceRead.model_validate(invoice)
+
+
+@router.delete("/{invoice_id}", status_code=204)
+async def delete_invoice(
+    _: CurrentUser,
+    invoice_id: UUID,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> None:
+    """Delete a draft invoice. Only pending invoices may be deleted."""
+    invoice = await db.get(Invoice, invoice_id)
+    if invoice is None:
+        raise HTTPException(status_code=404, detail="Invoice not found")
+    if invoice.payment_status != "pending":
+        raise HTTPException(
+            status_code=409,
+            detail="Only pending (draft) invoices can be deleted",
+        )
+    await db.delete(invoice)
+    await db.commit()

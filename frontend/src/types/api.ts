@@ -770,6 +770,53 @@ export interface CommitResponse {
   batch_id: string;
   imported_count: number;
   skipped_count: number;
+  // Present when a draft invoice was auto-generated
+  invoice_id: string | null;
+}
+
+// ── Invoices ──────────────────────────────────────────────────────────────────
+
+export type PaymentStatus = "pending" | "paid" | "overdue" | "cancelled";
+
+export interface InvoiceLineItem {
+  id: string;
+  invoice_id: string;
+  worker_id: string | null;
+  assignment_id: string | null;
+  description: string;
+  hours_worked: string | null;  // Decimal as string
+  unit_rate: string | null;     // Decimal as string
+  net_amount: string;           // Decimal as string
+  period_start: string | null;  // ISO date
+  period_end: string | null;    // ISO date
+  created_at: string;
+}
+
+export interface Invoice {
+  id: string;
+  client_id: string;
+  invoice_number: string;
+  sale_date: string;
+  due_date: string;
+  net_amount: string;    // Decimal as string
+  vat_amount: string;
+  gross_amount: string;
+  vat_rate: string;
+  currency: Currency;
+  payment_status: PaymentStatus;
+  period_start: string | null;
+  period_end: string | null;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface InvoiceWithLineItems extends Invoice {
+  line_items: InvoiceLineItem[];
+}
+
+export interface InvoiceUpdate {
+  payment_status?: PaymentStatus;
+  due_date?: string;
 }
 
 // ── Prospects ─────────────────────────────────────────────────────────────────

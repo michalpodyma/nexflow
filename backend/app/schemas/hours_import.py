@@ -74,6 +74,8 @@ class CommitResponse(BaseModel):
     batch_id: UUID
     imported_count: int
     skipped_count: int
+    # Set when a draft invoice was auto-generated from the committed hours
+    invoice_id: UUID | None = None
 
 
 class WorkerHoursRead(BaseModel):

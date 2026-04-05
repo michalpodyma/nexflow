@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry, HoursImportBatch, ColumnMappingItem, ColumnMappingRead, UploadResponse, PreviewResponse, CommitResponse } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry, HoursImportBatch, ColumnMappingItem, ColumnMappingRead, UploadResponse, PreviewResponse, CommitResponse, Invoice, InvoiceWithLineItems, InvoiceUpdate } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -816,4 +816,35 @@ export function getWorkerFileDownloadUrl(
 
 export async function deleteWorkerFile(workerId: string, fileId: string): Promise<void> {
   await request<void>(`/api/v1/workers/${workerId}/files/${fileId}`, { method: "DELETE" });
+}
+
+// ── Invoices ──────────────────────────────────────────────────────────────────
+
+export function getInvoices(params: {
+  client_id?: string;
+  status?: string;
+  page?: number;
+  page_size?: number;
+}): Promise<Paginated<Invoice>> {
+  const p = new URLSearchParams();
+  if (params.client_id) p.set("client_id", params.client_id);
+  if (params.status) p.set("status", params.status);
+  p.set("page", String(params.page ?? 1));
+  p.set("page_size", String(params.page_size ?? 20));
+  return request<Paginated<Invoice>>(`/api/v1/invoices?${p}`);
+}
+
+export function getInvoice(id: string): Promise<InvoiceWithLineItems> {
+  return request<InvoiceWithLineItems>(`/api/v1/invoices/${id}`);
+}
+
+export function updateInvoice(id: string, data: InvoiceUpdate): Promise<Invoice> {
+  return request<Invoice>(`/api/v1/invoices/${id}`, {
+    method: "PATCH",
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteInvoice(id: string): Promise<void> {
+  return request<void>(`/api/v1/invoices/${id}`, { method: "DELETE" });
 }

@@ -50,6 +50,7 @@ from app.services.hours_import import (
     suggest_column_mappings,
     validate_rows,
 )
+from app.services.invoice_service import create_draft_from_batch
 
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
 
@@ -379,9 +380,21 @@ async def commit_batch(
 
     batch.status = "imported"
     batch.updated_at = datetime.now(timezone.utc)
+
+    # Flush WorkerHours so invoice service can query them within this transaction
+    await db.flush()
+
+    # Auto-generate a draft invoice from committed hours
+    invoice = await create_draft_from_batch(batch, db)
+
     await db.commit()
 
-    return CommitResponse(batch_id=batch_id, imported_count=imported_count, skipped_count=skipped_count)
+    return CommitResponse(
+        batch_id=batch_id,
+        imported_count=imported_count,
+        skipped_count=skipped_count,
+        invoice_id=invoice.id if invoice else None,
+    )
 
 
 # ── Batch status ───────────────────────────────────────────────────────────────

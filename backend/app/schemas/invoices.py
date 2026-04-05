@@ -1,10 +1,26 @@
-from datetime import datetime
+from datetime import date, datetime
 from decimal import Decimal
 from uuid import UUID
 
 from pydantic import BaseModel, field_validator
 
 from app.models.enums import Currency, PaymentStatus
+
+
+class InvoiceLineItemRead(BaseModel):
+    id: UUID
+    invoice_id: UUID
+    worker_id: UUID | None
+    assignment_id: UUID | None
+    description: str
+    hours_worked: Decimal | None
+    unit_rate: Decimal | None
+    net_amount: Decimal
+    period_start: date | None
+    period_end: date | None
+    created_at: datetime
+
+    model_config = {"from_attributes": True}
 
 
 class InvoiceCreate(BaseModel):
@@ -52,6 +68,10 @@ class InvoiceRead(BaseModel):
     updated_at: datetime
 
     model_config = {"from_attributes": True}
+
+
+class InvoiceWithLineItemsRead(InvoiceRead):
+    line_items: list[InvoiceLineItemRead] = []
 
 
 class PaginatedInvoices(BaseModel):

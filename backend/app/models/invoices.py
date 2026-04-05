@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import date, datetime
 from decimal import Decimal
 from uuid import UUID
 
@@ -77,5 +77,48 @@ class Invoice(Base):
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )
     updated_at: Mapped[datetime] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
+    )
+
+
+class InvoiceLineItem(Base):
+    """
+    A single billing line on an invoice — typically one row per worker-assignment.
+
+    Auto-generated when a HoursImportBatch is committed:
+        hours_worked × unit_rate = net_amount
+    """
+
+    __tablename__ = "invoice_line_items"
+
+    id: Mapped[UUID] = mapped_column(
+        PGUUID(as_uuid=True),
+        primary_key=True,
+        server_default=sa.text("uuid_generate_v4()"),
+    )
+    invoice_id: Mapped[UUID] = mapped_column(
+        PGUUID(as_uuid=True),
+        sa.ForeignKey("invoices.id", ondelete="CASCADE"),
+        nullable=False,
+    )
+    # Optional — nullable for manually-added non-worker lines
+    worker_id: Mapped[UUID | None] = mapped_column(
+        PGUUID(as_uuid=True), nullable=True
+    )
+    assignment_id: Mapped[UUID | None] = mapped_column(
+        PGUUID(as_uuid=True), nullable=True
+    )
+    # Human-readable label for PDF rendering
+    description: Mapped[str] = mapped_column(sa.String(500), nullable=False)
+    hours_worked: Mapped[Decimal | None] = mapped_column(
+        sa.Numeric(8, 2), nullable=True
+    )
+    unit_rate: Mapped[Decimal | None] = mapped_column(
+        sa.Numeric(12, 2), nullable=True
+    )
+    net_amount: Mapped[Decimal] = mapped_column(sa.Numeric(12, 2), nullable=False)
+    period_start: Mapped[date | None] = mapped_column(sa.Date, nullable=True)
+    period_end: Mapped[date | None] = mapped_column(sa.Date, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )
