@@ -1,13 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import { put } from "@vercel/blob";
-import { Redis } from "@upstash/redis";
-import {
-  type ScreeningState,
-  type Role,
-  type Locale,
-  getIntroAndFirstQuestion,
-  screeningKey,
-} from "@/lib/screening";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -38,26 +30,6 @@ const HUBSPOT_TOKEN = process.env.HUBSPOT_PRIVATE_APP_TOKEN;
 const RESEND_API_KEY = process.env.RESEND_API_KEY;
 const RESEND_FROM = process.env.RESEND_FROM_EMAIL ?? "noreply@nexflow.work";
 const BACKEND_URL = process.env.NEXT_PUBLIC_API_URL?.trim() ?? "http://localhost:8000";
-
-// Twilio / screening
-const TWILIO_ACCOUNT_SID   = process.env.TWILIO_ACCOUNT_SID   ?? "";
-const TWILIO_AUTH_TOKEN    = process.env.TWILIO_AUTH_TOKEN     ?? "";
-const TWILIO_WHATSAPP_FROM = process.env.TWILIO_WHATSAPP_NUMBER ?? "";
-const SCREENING_TTL_SECONDS = 24 * 60 * 60;
-
-// Upstash Redis (for conversation state)
-const memStore = new Map<string, string>();
-const screeningRedis: {
-  set: (key: string, value: string, ttl: number) => Promise<void>;
-} = (() => {
-  const redisUrl = process.env.UPSTASH_REDIS_REST_URL || process.env.KV_REST_API_URL;
-  const redisToken = process.env.UPSTASH_REDIS_REST_TOKEN || process.env.KV_REST_API_TOKEN;
-  if (redisUrl && redisToken) {
-    const client = new Redis({ url: redisUrl, token: redisToken });
-    return { set: (k, v, ttl) => client.set(k, v, { ex: ttl }).then(() => undefined) };
-  }
-  return { set: async (k, v) => { memStore.set(k, v); } };
-})();
 
 // ---------------------------------------------------------------------------
 // HubSpot helpers
@@ -207,70 +179,6 @@ const EMAIL_TEMPLATES: Record<
   },
 };
 
-// ---------------------------------------------------------------------------
-// WhatsApp screening trigger
-// ---------------------------------------------------------------------------
-
-async function twilioSend(to: string, body: string): Promise<void> {
-  const credentials = Buffer.from(`${TWILIO_ACCOUNT_SID}:${TWILIO_AUTH_TOKEN}`).toString("base64");
-  const from = TWILIO_WHATSAPP_FROM;
-  const toFormatted = TWILIO_WHATSAPP_FROM.startsWith("whatsapp:")
-    ? (to.startsWith("whatsapp:") ? to : `whatsapp:${to}`)
-    : to.replace(/^whatsapp:/, "");
-  const res = await fetch(
-    `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`,
-    {
-      method: "POST",
-      headers: {
-        Authorization: `Basic ${credentials}`,
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: new URLSearchParams({ From: from, To: toFormatted, Body: body }),
-    },
-  );
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`Twilio send failed ${res.status}: ${text}`);
-  }
-}
-
-function normaliseRole(raw: string): Role {
-  const s = raw.toLowerCase();
-  if (s.includes("forklift") || s.includes("wózek") || s.includes("wozek") || s.includes("stapler")) return "forklift";
-  if (s.includes("truck") || s.includes("kierowca") || s.includes("fahrer")) return "truck";
-  return "picker";
-}
-
-function normaliseLocale(raw: string): Locale {
-  return raw.startsWith("de") ? "de" : "pl";
-}
-
-async function triggerScreeningChatbot(p: IntakePayload): Promise<void> {
-  if (!TWILIO_ACCOUNT_SID || !TWILIO_AUTH_TOKEN || !TWILIO_WHATSAPP_FROM) {
-    console.warn("[screening] Twilio not configured — skipping chatbot trigger");
-    return;
-  }
-
-  const role   = normaliseRole(p.preferred_position);
-  const locale = normaliseLocale(p.locale);
-
-  const state: ScreeningState = {
-    step:      "awaiting_availability",
-    role,
-    name:      p.first_name,
-    locale,
-    answers:   {},
-    startedAt: Date.now(),
-  };
-
-  const key     = screeningKey(p.phone);
-  const message = getIntroAndFirstQuestion(locale, p.first_name);
-
-  // Store state BEFORE sending so the reply finds it immediately
-  await screeningRedis.set(key, JSON.stringify(state), SCREENING_TTL_SECONDS);
-  await twilioSend(p.phone, message);
-}
-
 async function sendConfirmationEmail(p: IntakePayload): Promise<void> {
   if (!p.email || !RESEND_API_KEY) return;
 
@@ -396,12 +304,8 @@ export async function POST(req: NextRequest) {
     }
   }
 
-  // Step 4 — trigger WhatsApp/SMS screening chatbot (best-effort, non-blocking)
-  try {
-    await triggerScreeningChatbot(payload);
-  } catch (err) {
-    console.error("[intake] Screening chatbot trigger failed:", err);
-  }
+  // WhatsApp screening is initiated by the backend WhatsApp pipeline (initiate_session).
+  // The old Twilio SMS trigger has been removed — do not re-add it.
 
   return NextResponse.json(candidate, { status: 201 });
 }

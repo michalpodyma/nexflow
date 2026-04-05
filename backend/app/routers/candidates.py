@@ -7,7 +7,6 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
-from app.celery_client import celery_client
 from app.database import get_db
 from app.models.candidate_reminders import CandidateReminder
 from app.models.candidates import Candidate
@@ -197,19 +196,6 @@ async def create_candidate(
     db.add(gdpr_log)
     await db.commit()
     await db.refresh(candidate)
-
-    # Queue welcome notification (SMS + email) via Celery — non-blocking.
-    # If Redis/Celery is unavailable the intake submission still succeeds.
-    try:
-        celery_client.send_task(
-            "workers.tasks.notifications.send_welcome_candidate",
-            args=[str(candidate.id), candidate.phone, str(candidate.email) if candidate.email else None],
-        )
-    except Exception as exc:  # noqa: BLE001
-        import logging
-        logging.getLogger(__name__).warning(
-            "[candidates] Celery notification dispatch failed (non-blocking): %s", exc
-        )
 
     # Trigger WhatsApp screening chatbot — non-blocking, best-effort.
     # A new DB session is needed because background tasks outlive the request session.
