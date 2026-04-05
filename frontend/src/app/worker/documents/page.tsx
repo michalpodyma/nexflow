@@ -25,8 +25,8 @@ const MESSAGES = {
   },
 } as const;
 
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" });
+function formatDate(iso: string, locale: WorkerLocale): string {
+  return new Date(iso).toLocaleDateString(locale === "uk" ? "uk-UA" : "pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" });
 }
 
 export default function DocumentsPage() {
@@ -79,7 +79,7 @@ export default function DocumentsPage() {
               <div className="flex items-start justify-between gap-3">
                 <div className="min-w-0">
                   <p className="font-medium text-gray-900 truncate">{doc.template_name}</p>
-                  <p className="text-xs text-gray-400 mt-0.5">{formatDate(doc.created_at)}</p>
+                  <p className="text-xs text-gray-400 mt-0.5">{formatDate(doc.created_at, locale)}</p>
                   <span className={`inline-block text-xs font-medium px-2 py-0.5 rounded-full mt-1.5 ${
                     doc.status === "signed"
                       ? "bg-green-100 text-green-700"

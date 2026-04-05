@@ -29,8 +29,8 @@ function formatShiftDate(iso: string, locale: WorkerLocale): string {
   });
 }
 
-function formatTime(iso: string): string {
-  return new Date(iso).toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit" });
+function formatTime(iso: string, locale: WorkerLocale): string {
+  return new Date(iso).toLocaleTimeString(locale === "uk" ? "uk-UA" : "pl-PL", { hour: "2-digit", minute: "2-digit" });
 }
 
 function shiftDuration(start: string, end: string): string {
@@ -76,7 +76,7 @@ export default function SchedulePage() {
                     {formatShiftDate(s.shift_date, locale)}
                   </p>
                   <p className="text-sm text-blue-700 font-medium mt-0.5">
-                    {formatTime(s.start_dt)} – {formatTime(s.end_dt)}
+                    {formatTime(s.start_dt, locale)} – {formatTime(s.end_dt, locale)}
                     <span className="text-gray-400 font-normal ml-2">
                       ({shiftDuration(s.start_dt, s.end_dt)})
                     </span>

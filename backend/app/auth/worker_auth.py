@@ -67,12 +67,12 @@ def set_worker_refresh_cookie(response: Response, token: str) -> None:
         samesite="lax",
         secure=settings.cookie_secure,
         max_age=settings.refresh_token_expire_days * 86400,
-        path="/api/v1/worker/auth",
+        path="/api/v1/worker",
     )
 
 
 def clear_worker_refresh_cookie(response: Response) -> None:
-    response.delete_cookie(key=_WORKER_REFRESH_COOKIE, path="/api/v1/worker/auth")
+    response.delete_cookie(key=_WORKER_REFRESH_COOKIE, path="/api/v1/worker")
 
 
 # ---------------------------------------------------------------------------

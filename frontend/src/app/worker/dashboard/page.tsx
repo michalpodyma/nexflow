@@ -53,12 +53,16 @@ const MESSAGES = {
   },
 } as const;
 
-function formatDate(iso: string): string {
-  return new Date(iso).toLocaleDateString("pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" });
+function localeTag(locale: WorkerLocale): string {
+  return locale === "uk" ? "uk-UA" : "pl-PL";
 }
 
-function formatTime(iso: string): string {
-  return new Date(iso).toLocaleTimeString("pl-PL", { hour: "2-digit", minute: "2-digit" });
+function formatDate(iso: string, locale: WorkerLocale): string {
+  return new Date(iso).toLocaleDateString(localeTag(locale), { day: "2-digit", month: "2-digit", year: "numeric" });
+}
+
+function formatTime(iso: string, locale: WorkerLocale): string {
+  return new Date(iso).toLocaleTimeString(localeTag(locale), { hour: "2-digit", minute: "2-digit" });
 }
 
 export default function WorkerDashboardPage() {
@@ -112,7 +116,7 @@ export default function WorkerDashboardPage() {
             </div>
             <div className="flex justify-between text-sm">
               <span className="text-gray-500">{t.from}</span>
-              <span className="font-medium text-gray-900">{formatDate(data.current_assignment.start_date)}</span>
+              <span className="font-medium text-gray-900">{formatDate(data.current_assignment.start_date, locale)}</span>
             </div>
             <div className="flex justify-between text-sm">
               <span className="text-gray-500">{t.rate}</span>
@@ -131,12 +135,12 @@ export default function WorkerDashboardPage() {
           <div className="space-y-2">
             <div className="flex justify-between text-sm">
               <span className="text-gray-500">📅</span>
-              <span className="font-medium text-gray-900">{formatDate(data.next_shift.shift_date)}</span>
+              <span className="font-medium text-gray-900">{formatDate(data.next_shift.shift_date, locale)}</span>
             </div>
             <div className="flex justify-between text-sm">
               <span className="text-gray-500">🕐</span>
               <span className="font-medium text-gray-900">
-                {formatTime(data.next_shift.start_dt)} – {formatTime(data.next_shift.end_dt)}
+                {formatTime(data.next_shift.start_dt, locale)} – {formatTime(data.next_shift.end_dt, locale)}
               </span>
             </div>
             <div className="flex justify-between text-sm">
