@@ -798,7 +798,7 @@ export async function uploadWorkerFile(
       const body = await res.json();
       detail = body.detail ?? detail;
     } catch {
-      detail = await res.text().catch(() => res.statusText);
+      // non-JSON error body — use statusText
     }
     throw new ApiError(res.status, detail);
   }

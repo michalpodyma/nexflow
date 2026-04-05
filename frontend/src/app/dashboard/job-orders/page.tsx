@@ -267,13 +267,13 @@ export default function JobOrdersPage() {
   const draggingId = useRef<string | null>(null);
 
   useEffect(() => {
-    Promise.all([getJobOrders(), getClients(1, 100)])
-      .then(([ordersRes, clientsRes]) => {
-        setOrders(ordersRes.items);
-        setClients(clientsRes.items);
+    // Load orders and clients independently so one failure doesn't blank both.
+    const loadOrders = getJobOrders()
+      .then((res) => {
+        setOrders(res.items);
         // Fetch candidate counts for all job orders in parallel
         Promise.all(
-          ordersRes.items.map((o) =>
+          res.items.map((o) =>
             getJobOrderCandidates(o.id).then((r) => ({ id: o.id, count: r.total }))
           )
         ).then((results) => {
@@ -282,7 +282,13 @@ export default function JobOrdersPage() {
           setCandidateCounts(map);
         });
       })
-      .finally(() => setLoading(false));
+      .catch(() => {/* non-blocking */});
+
+    const loadClients = getClients(1, 100)
+      .then((res) => setClients(res.items))
+      .catch(() => {/* non-blocking */});
+
+    Promise.all([loadOrders, loadClients]).finally(() => setLoading(false));
   }, []);
 
   const clientMap = Object.fromEntries(clients.map((c) => [c.id, c.company_name]));

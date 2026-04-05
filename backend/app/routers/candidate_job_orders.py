@@ -9,7 +9,9 @@ from app.auth.middleware import CurrentUser
 from app.database import get_db
 from app.models.candidate_job_orders import CandidateJobOrder
 from app.models.candidates import Candidate
+from app.models.enums import CandidateJobOrderStatus, ScreeningStatus
 from app.models.job_orders import JobOrder
+from app.models.workers import Worker
 from app.schemas.candidate_job_orders import (
     CandidateJobOrderCreate,
     CandidateJobOrderRead,
@@ -152,6 +154,29 @@ async def update_candidate_job_order_status(
         raise HTTPException(status_code=404, detail="Assignment not found")
 
     link.status = body.status
+
+    # When a candidate is placed, promote them to a Worker (if not already one).
+    if body.status == CandidateJobOrderStatus.placed:
+        candidate = await db.get(Candidate, candidate_id)
+        if candidate is not None:
+            candidate.screening_status = ScreeningStatus.hired
+            candidate.gdpr_delete_at = None  # active employee — clear auto-deletion
+
+            if candidate.worker_id is None:
+                worker = Worker(
+                    first_name=candidate.first_name,
+                    last_name=candidate.last_name,
+                    phone=candidate.phone,
+                    email=candidate.email,
+                    nationality=candidate.nationality,
+                    gdpr_consent=candidate.gdpr_consent,
+                    gdpr_consent_at=candidate.gdpr_consent_at,
+                )
+                db.add(worker)
+                await db.flush()
+                await db.refresh(worker)
+                candidate.worker_id = worker.id
+
     await db.commit()
     await db.refresh(link)
     return CandidateJobOrderRead.model_validate(link)
