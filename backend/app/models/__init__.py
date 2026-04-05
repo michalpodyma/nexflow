@@ -45,6 +45,7 @@ from .client_contacts import ClientContact
 from .prospects import Prospect
 from .worker_files import WorkerFile
 from .hours_import import HoursImportBatch, ClientColumnMapping, WorkerHours
+from .notifications import NotificationLog
 
 __all__ = [
     "Base",
@@ -91,4 +92,5 @@ __all__ = [
     "HoursImportBatch",
     "ClientColumnMapping",
     "WorkerHours",
+    "NotificationLog",
 ]

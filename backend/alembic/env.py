@@ -22,6 +22,7 @@ import app.models.job_postings  # noqa: F401
 import app.models.positions  # noqa: F401
 import app.models.workers  # noqa: F401
 import app.models.candidate_reminders  # noqa: F401
+import app.models.notifications  # noqa: F401
 import app.auth.models  # noqa: F401
 
 config = context.config

@@ -197,18 +197,17 @@ async def create_candidate(
     await db.commit()
     await db.refresh(candidate)
 
-    # Phase 1 stub: queue SMS confirmation (task registered in workers container)
-    # Non-blocking — if Redis/Celery is unavailable (e.g. Railway without workers),
-    # log and continue rather than failing the intake submission.
+    # Queue welcome notification (SMS + email) via Celery — non-blocking.
+    # If Redis/Celery is unavailable the intake submission still succeeds.
     try:
         celery_client.send_task(
-            "workers.tasks.candidates.send_sms_confirmation",
-            args=[str(candidate.id), candidate.phone],
+            "workers.tasks.notifications.send_welcome_candidate",
+            args=[str(candidate.id), candidate.phone, str(candidate.email) if candidate.email else None],
         )
     except Exception as exc:  # noqa: BLE001
         import logging
         logging.getLogger(__name__).warning(
-            "[candidates] Celery task dispatch failed (non-blocking): %s", exc
+            "[candidates] Celery notification dispatch failed (non-blocking): %s", exc
         )
 
     return CandidateRead.model_validate(candidate)

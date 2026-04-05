@@ -24,6 +24,7 @@ class Settings(BaseSettings):
     twilio_from_number: str = ""
 
     sendgrid_api_key: str = ""
+    sendgrid_from_email: str = "noreply@nexflow.work"
     frontend_url: str = "http://localhost:3000"
     # Comma-separated list of additional allowed CORS origins.
     # Set CORS_EXTRA_ORIGINS=https://nexflow.work on Railway production.
