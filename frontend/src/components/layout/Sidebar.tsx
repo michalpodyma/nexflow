@@ -39,6 +39,7 @@ export function Sidebar() {
     { href: "/dashboard/accommodations", labelKey: "nav.accommodations", icon: Home },
     { href: "/dashboard/transport", labelKey: "nav.transport", icon: Bus },
     { href: "/dashboard/placement-calendar", labelKey: "nav.placement-calendar", icon: CalendarDays },
+    { href: "/dashboard/shifts", labelKey: "nav.shifts", icon: Clock },
     { href: "/dashboard/compliance", labelKey: "nav.compliance", icon: ShieldCheck },
     { href: "/dashboard/documents", labelKey: "nav.documents", icon: FileText },
     { href: "/dashboard/hours-import", labelKey: "nav.hours-import", icon: Clock },

@@ -46,6 +46,7 @@ from .prospects import Prospect
 from .worker_files import WorkerFile
 from .hours_import import HoursImportBatch, ClientColumnMapping, WorkerHours
 from .notifications import NotificationLog
+from .shifts import ShiftTemplate, ShiftEntry
 
 __all__ = [
     "Base",
@@ -93,4 +94,6 @@ __all__ = [
     "ClientColumnMapping",
     "WorkerHours",
     "NotificationLog",
+    "ShiftTemplate",
+    "ShiftEntry",
 ]

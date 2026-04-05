@@ -1,5 +1,5 @@
 import { clearTokens, getAccessToken, storeAccessToken } from "@/lib/auth";
-import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry, HoursImportBatch, ColumnMappingItem, ColumnMappingRead, UploadResponse, PreviewResponse, CommitResponse, Invoice, InvoiceWithLineItems, InvoiceUpdate } from "@/types/api";
+import type { AccommodationAssignment, AccommodationCreate, AccommodationDetail, AccommodationUpdate, AlertSeverity, AnalyticsOverview, B2BAnalytics, RecruiterAnalytics, AssignmentCreate, AssignmentUpdate, AttendanceStatus, CalendarEntry, Candidate, CandidateCreate, CandidateJobOrder, CandidateJobOrderCreate, CandidateJobOrderUpdate, CandidateReminder, Client, ClientCreate, ClientUpdate, ClientActivity, ClientActivityCreate, ClientContact, ClientContactCreate, ClientContactUpdate, ComplianceAlertsResponse, ComplianceDocumentType, ConvertProspectResponse, DueRemindersCount, JobOrder, JobOrderCreate, JobOrderStatus, JobOrderUpdate, JobPosting, Paginated, Prospect, ProspectCreate, ProspectStatus, ProspectSource, ProspectUpdate, TokenResponse, Accommodation, Worker, WorkerCreate, WorkerDetail, WorkerUpdate, Vehicle, VehicleCreate, VehicleUpdate, TransportRoute, RouteCreate, RouteUpdate, TransportAssignment, RoutePassenger, DocumentTemplate, DocumentTemplateDetail, DocumentTemplateCreate, DocumentTemplateUpdate, GeneratedDocument, GeneratedDocumentDetail, GenerateDocumentRequest, LegalizationStatusUpdate, WorkerFile, WorkerFileDocumentType, WorkerFileDownloadResponse, WorkerAccommodationEntry, HoursImportBatch, ColumnMappingItem, ColumnMappingRead, UploadResponse, PreviewResponse, CommitResponse, Invoice, InvoiceWithLineItems, InvoiceUpdate, ShiftTemplate, ShiftTemplateCreate, ShiftTemplateUpdate, ShiftEntry, ShiftEntryCreate, ConflictCheckResult, CapacitySlot } from "@/types/api";
 
 const BASE_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 
@@ -847,4 +847,102 @@ export function updateInvoice(id: string, data: InvoiceUpdate): Promise<Invoice>
 
 export function deleteInvoice(id: string): Promise<void> {
   return request<void>(`/api/v1/invoices/${id}`, { method: "DELETE" });
+}
+
+// ── Shift scheduling ──────────────────────────────────────────────────────────
+
+export function getShiftTemplates(params?: {
+  client_id?: string;
+  active_only?: boolean;
+}): Promise<ShiftTemplate[]> {
+  const p = new URLSearchParams();
+  if (params?.client_id) p.set("client_id", params.client_id);
+  if (params?.active_only) p.set("active_only", "true");
+  return request<ShiftTemplate[]>(`/api/v1/shifts/templates?${p}`);
+}
+
+export function createShiftTemplate(data: ShiftTemplateCreate): Promise<ShiftTemplate> {
+  return request<ShiftTemplate>("/api/v1/shifts/templates", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function updateShiftTemplate(id: string, data: ShiftTemplateUpdate): Promise<ShiftTemplate> {
+  return request<ShiftTemplate>(`/api/v1/shifts/templates/${id}`, {
+    method: "PUT",
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteShiftTemplate(id: string): Promise<void> {
+  return request<void>(`/api/v1/shifts/templates/${id}`, { method: "DELETE" });
+}
+
+export function getShiftSchedule(params?: {
+  start?: string;
+  end?: string;
+  client_id?: string;
+  worker_id?: string;
+  template_id?: string;
+}): Promise<ShiftEntry[]> {
+  const p = new URLSearchParams();
+  if (params?.start) p.set("start", params.start);
+  if (params?.end) p.set("end", params.end);
+  if (params?.client_id) p.set("client_id", params.client_id);
+  if (params?.worker_id) p.set("worker_id", params.worker_id);
+  if (params?.template_id) p.set("template_id", params.template_id);
+  return request<ShiftEntry[]>(`/api/v1/shifts/schedule?${p}`);
+}
+
+export function createShiftEntry(data: ShiftEntryCreate): Promise<ShiftEntry> {
+  return request<ShiftEntry>("/api/v1/shifts/schedule", {
+    method: "POST",
+    body: JSON.stringify(data),
+  });
+}
+
+export function deleteShiftEntry(id: string): Promise<void> {
+  return request<void>(`/api/v1/shifts/schedule/${id}`, { method: "DELETE" });
+}
+
+export function checkShiftConflicts(params: {
+  worker_id: string;
+  start_dt: string;
+  end_dt: string;
+  exclude_entry_id?: string;
+}): Promise<ConflictCheckResult> {
+  const p = new URLSearchParams({
+    worker_id: params.worker_id,
+    start_dt: params.start_dt,
+    end_dt: params.end_dt,
+  });
+  if (params.exclude_entry_id) p.set("exclude_entry_id", params.exclude_entry_id);
+  return request<ConflictCheckResult>(`/api/v1/shifts/conflicts?${p}`);
+}
+
+export function getShiftCapacity(params?: {
+  start?: string;
+  end?: string;
+  client_id?: string;
+}): Promise<CapacitySlot[]> {
+  const p = new URLSearchParams();
+  if (params?.start) p.set("start", params.start);
+  if (params?.end) p.set("end", params.end);
+  if (params?.client_id) p.set("client_id", params.client_id);
+  return request<CapacitySlot[]>(`/api/v1/shifts/capacity?${p}`);
+}
+
+export function exportShiftSchedule(params?: {
+  start?: string;
+  end?: string;
+  client_id?: string;
+}): string {
+  const p = new URLSearchParams();
+  if (params?.start) p.set("start", params.start);
+  if (params?.end) p.set("end", params.end);
+  if (params?.client_id) p.set("client_id", params.client_id);
+  // Returns a direct URL for browser download (GET with auth token in URL not ideal,
+  // but since BASE_URL is same-origin in prod, session cookie handles auth)
+  return `${BASE_URL}/api/v1/shifts/export?${p}`;
 }

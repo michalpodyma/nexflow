@@ -909,6 +909,87 @@ export interface WorkerFileDownloadResponse {
   expires_in: number;
 }
 
+// ---------------------------------------------------------------------------
+// Shift scheduling
+// ---------------------------------------------------------------------------
+
+export interface ShiftTemplate {
+  id: string;
+  client_id: string;
+  client_name: string;
+  name: string;
+  position: string;
+  days_of_week: number[]; // 0=Mon … 6=Sun
+  start_time: string; // "HH:MM"
+  end_time: string; // "HH:MM"
+  capacity: number;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface ShiftTemplateCreate {
+  client_id: string;
+  name: string;
+  position: string;
+  days_of_week: number[];
+  start_time: string; // "HH:MM"
+  end_time: string; // "HH:MM"
+  capacity?: number;
+}
+
+export interface ShiftTemplateUpdate {
+  name?: string;
+  position?: string;
+  days_of_week?: number[];
+  start_time?: string;
+  end_time?: string;
+  capacity?: number;
+  is_active?: boolean;
+}
+
+export interface ShiftEntry {
+  id: string;
+  template_id: string | null;
+  worker_id: string;
+  worker_name: string;
+  client_id: string;
+  client_name: string;
+  shift_date: string; // ISO date
+  start_dt: string; // ISO datetime
+  end_dt: string; // ISO datetime
+  notes: string | null;
+  created_at: string;
+}
+
+export interface ShiftEntryCreate {
+  template_id?: string;
+  worker_id: string;
+  client_id: string;
+  shift_date: string; // ISO date
+  start_time: string; // "HH:MM"
+  end_time: string; // "HH:MM"
+  notes?: string;
+}
+
+export interface ConflictCheckResult {
+  has_conflict: boolean;
+  conflicting_entries: ShiftEntry[];
+}
+
+export interface CapacitySlot {
+  template_id: string;
+  template_name: string;
+  client_id: string;
+  client_name: string;
+  shift_date: string; // ISO date
+  start_time: string;
+  end_time: string;
+  capacity: number;
+  booked: number;
+  available: number;
+}
+
 export interface WorkerAccommodationEntry {
   assignment_id: string;
   accommodation_id: string;
