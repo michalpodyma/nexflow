@@ -266,11 +266,10 @@ export default function ShiftsPage() {
 
   // ── Export ───────────────────────────────────────────────────────────────────
 
-  function handleExport() {
+  async function handleExport() {
     const start = toIso(weekOf);
     const end = toIso(addDays(weekOf, 6));
-    const url = exportShiftSchedule({ start, end, ...(clientFilter ? { client_id: clientFilter } : {}) });
-    window.open(url, "_blank");
+    await exportShiftSchedule({ start, end, ...(clientFilter ? { client_id: clientFilter } : {}) });
   }
 
   const today_ = toIso(new Date());

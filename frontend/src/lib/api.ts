@@ -933,16 +933,26 @@ export function getShiftCapacity(params?: {
   return request<CapacitySlot[]>(`/api/v1/shifts/capacity?${p}`);
 }
 
-export function exportShiftSchedule(params?: {
+export async function exportShiftSchedule(params?: {
   start?: string;
   end?: string;
   client_id?: string;
-}): string {
+}): Promise<void> {
   const p = new URLSearchParams();
   if (params?.start) p.set("start", params.start);
   if (params?.end) p.set("end", params.end);
   if (params?.client_id) p.set("client_id", params.client_id);
-  // Returns a direct URL for browser download (GET with auth token in URL not ideal,
-  // but since BASE_URL is same-origin in prod, session cookie handles auth)
-  return `${BASE_URL}/api/v1/shifts/export?${p}`;
+  const token = getAccessToken();
+  const res = await fetch(`${BASE_URL}/api/v1/shifts/export?${p}`, {
+    headers: token ? { Authorization: `Bearer ${token}` } : {},
+  });
+  if (!res.ok) throw new Error(`Schedule export failed: ${res.status}`);
+  const blob = await res.blob();
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement("a");
+  a.href = url;
+  const filename = `schedule_${params?.start ?? "week"}.csv`;
+  a.download = filename;
+  a.click();
+  URL.revokeObjectURL(url);
 }

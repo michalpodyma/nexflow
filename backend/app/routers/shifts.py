@@ -585,9 +585,10 @@ async def export_schedule(
         end = start + timedelta(days=6)
 
     stmt = (
-        select(ShiftEntry, Worker, Client)
+        select(ShiftEntry, Worker, Client, ShiftTemplate)
         .join(Worker, ShiftEntry.worker_id == Worker.id)
         .join(Client, ShiftEntry.client_id == Client.id)
+        .outerjoin(ShiftTemplate, ShiftEntry.template_id == ShiftTemplate.id)
         .where(
             and_(
                 ShiftEntry.shift_date >= start,
@@ -607,15 +608,14 @@ async def export_schedule(
         ["Date", "Day", "Worker", "Client", "Position", "Start", "End", "Notes"]
     )
     day_names = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
-    for entry, worker, client in rows:
+    for entry, worker, client, template in rows:
         writer.writerow(
             [
                 entry.shift_date.strftime("%Y-%m-%d"),
                 day_names[entry.shift_date.weekday()],
                 f"{worker.last_name}, {worker.first_name}",
                 client.company_name,
-                # Try to get position from linked template; fall back to client name
-                "",
+                template.position if template else "",
                 entry.start_dt.strftime("%H:%M"),
                 entry.end_dt.strftime("%H:%M"),
                 entry.notes or "",
