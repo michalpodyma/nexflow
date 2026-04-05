@@ -171,6 +171,7 @@ async def update_candidate_job_order_status(
                     nationality=candidate.nationality,
                     gdpr_consent=candidate.gdpr_consent,
                     gdpr_consent_at=candidate.gdpr_consent_at,
+                    gdpr_delete_at=None,  # active employee — clear trigger-set auto-deletion
                 )
                 db.add(worker)
                 await db.flush()
