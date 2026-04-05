@@ -47,6 +47,7 @@ from .worker_files import WorkerFile
 from .hours_import import HoursImportBatch, ClientColumnMapping, WorkerHours
 from .notifications import NotificationLog
 from .shifts import ShiftTemplate, ShiftEntry
+from .worker_otp import WorkerOTP
 
 __all__ = [
     "Base",
@@ -96,4 +97,5 @@ __all__ = [
     "NotificationLog",
     "ShiftTemplate",
     "ShiftEntry",
+    "WorkerOTP",
 ]

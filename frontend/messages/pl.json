@@ -1,4 +1,118 @@
 {
+  "worker": {
+    "login": {
+      "title": "Portal Pracownika",
+      "subtitle": "Zaloguj się za pomocą numeru telefonu",
+      "phonePlaceholder": "+48 501 234 567",
+      "phoneLabel": "Numer telefonu",
+      "sendCode": "Wyślij kod",
+      "sending": "Wysyłanie...",
+      "codeLabel": "Kod SMS",
+      "codePlaceholder": "123456",
+      "verify": "Zaloguj się",
+      "verifying": "Logowanie...",
+      "codeSent": "Kod wysłany na {phone}. Ważny 10 minut.",
+      "resend": "Wyślij ponownie",
+      "errors": {
+        "phoneRequired": "Podaj numer telefonu",
+        "phoneInvalid": "Podaj numer w formacie E.164, np. +48501234567",
+        "codeRequired": "Podaj kod SMS",
+        "invalidCode": "Nieprawidłowy lub wygasły kod",
+        "tooManyAttempts": "Za dużo prób. Spróbuj ponownie za godzinę."
+      }
+    },
+    "nav": {
+      "dashboard": "Pulpit",
+      "payslips": "Wypłaty",
+      "schedule": "Grafik",
+      "documents": "Dokumenty",
+      "profile": "Profil",
+      "logout": "Wyloguj"
+    },
+    "dashboard": {
+      "title": "Pulpit",
+      "greeting": "Cześć, {name}!",
+      "assignment": "Aktualne zatrudnienie",
+      "noAssignment": "Brak aktywnego zatrudnienia",
+      "position": "Stanowisko",
+      "client": "Pracodawca",
+      "startDate": "Od",
+      "rate": "Stawka",
+      "nextShift": "Następna zmiana",
+      "noShift": "Brak zaplanowanych zmian",
+      "shiftDate": "Data",
+      "shiftTime": "Godziny",
+      "compliance": "Dokumenty do odnowienia",
+      "noCompliance": "Wszystkie dokumenty aktualne",
+      "daysRemaining": "{days} dni",
+      "alertTypes": {
+        "health_cert_expiry": "Badanie lekarskie",
+        "bhp_cert_expiry": "Szkolenie BHP",
+        "a1_cert_expiry": "Certyfikat A1",
+        "contract_expiry": "Umowa",
+        "deployment_limit_warning": "Limit delegowania"
+      }
+    },
+    "payslips": {
+      "title": "Wypłaty",
+      "empty": "Brak danych o wypłatach",
+      "period": "{month} {year}",
+      "totalHours": "Godziny",
+      "totalPay": "Wypłata",
+      "hours": "{h} h",
+      "viewDetails": "Szczegóły",
+      "detail": {
+        "title": "{month} {year}",
+        "rate": "Stawka godzinowa",
+        "totalHours": "Łączne godziny",
+        "overtimeHours": "Godziny nadliczbowe",
+        "totalPay": "Łączna wypłata",
+        "date": "Data",
+        "worked": "Przepracowane",
+        "overtime": "Nadgodziny",
+        "dailyPay": "Kwota"
+      },
+      "months": {
+        "1": "Styczeń", "2": "Luty", "3": "Marzec", "4": "Kwiecień",
+        "5": "Maj", "6": "Czerwiec", "7": "Lipiec", "8": "Sierpień",
+        "9": "Wrzesień", "10": "Październik", "11": "Listopad", "12": "Grudzień"
+      }
+    },
+    "schedule": {
+      "title": "Grafik",
+      "next30": "Nadchodzące zmiany (30 dni)",
+      "empty": "Brak zaplanowanych zmian",
+      "date": "Data",
+      "time": "Godziny",
+      "employer": "Pracodawca",
+      "notes": "Uwagi"
+    },
+    "documents": {
+      "title": "Dokumenty",
+      "empty": "Brak dokumentów do pobrania",
+      "status": {
+        "final": "Gotowy",
+        "signed": "Podpisany"
+      },
+      "download": "Pobierz PDF",
+      "noPdf": "PDF niedostępny"
+    },
+    "profile": {
+      "title": "Profil",
+      "phone": "Telefon",
+      "email": "Email",
+      "bankAccount": "Numer konta bankowego (IBAN)",
+      "bankAccountPlaceholder": "PL61 1090 1014 0000 0712 1981 2874",
+      "save": "Zapisz",
+      "saving": "Zapisywanie...",
+      "saved": "Zapisano",
+      "gdprTitle": "Prawo do usunięcia danych",
+      "gdprDescription": "Możesz zażądać usunięcia swoich danych osobowych. Wniosek zostanie rozpatrzony w ciągu 7 dni.",
+      "gdprRequest": "Zażądaj usunięcia danych",
+      "gdprConfirm": "Czy na pewno chcesz zażądać usunięcia danych? Ta operacja jest nieodwracalna.",
+      "gdprRequested": "Wniosek o usunięcie danych został złożony"
+    }
+  },
   "intake": {
     "languageToggle": "Język",
     "title": "Formularz Rejestracyjny",

@@ -128,6 +128,9 @@ class Worker(Base):
         sa.TIMESTAMP(timezone=True), nullable=True
     )
 
+    # Payroll bank account (IBAN) — provided by worker via self-service portal
+    bank_account: Mapped[str | None] = mapped_column(sa.String(40), nullable=True)
+
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )

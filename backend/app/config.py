@@ -12,6 +12,8 @@ class Settings(BaseSettings):
     access_token_expire_minutes: int = 15
     refresh_token_expire_days: int = 7
     cookie_secure: bool = False  # Set True in production (requires HTTPS)
+    # Worker self-service portal — longer access token life suits mobile PWA usage
+    worker_portal_access_token_expire_minutes: int = 60
 
     b2_key_id: str = ""
     b2_app_key: str = ""
