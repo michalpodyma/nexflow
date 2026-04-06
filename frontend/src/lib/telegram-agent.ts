@@ -25,8 +25,8 @@ const CONV_TTL = 24 * 60 * 60; // 24h
 const MAX_HISTORY = 20; // keep last 20 turns
 const OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1";
 // Override via OPENROUTER_MODEL env var; default to a free model
-const AGENT_MODEL = process.env.OPENROUTER_MODEL ?? "meta-llama/llama-3.3-70b-instruct:free";
-const BRIEFING_MODEL = process.env.OPENROUTER_MODEL ?? "meta-llama/llama-3.3-70b-instruct:free";
+const AGENT_MODEL = process.env.OPENROUTER_MODEL ?? "qwen/qwen3.6-plus:free";
+const BRIEFING_MODEL = process.env.OPENROUTER_MODEL ?? "qwen/qwen3.6-plus:free";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
