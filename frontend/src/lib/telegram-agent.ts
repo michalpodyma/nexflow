@@ -4,7 +4,7 @@
  * Internal assistant for Nexflow staff. Handles text + voice messages,
  * supports Paperclip task management, and daily briefings.
  *
- * LLM: OpenRouter (configurable via OPENROUTER_MODEL, default: free Llama 3.3 70B)
+ * LLM: OpenRouter (configurable via OPENROUTER_MODEL, default: Qwen 3.6 Plus free)
  * Voice: OpenAI Whisper (optional — requires OPENAI_API_KEY)
  * State: Upstash Redis (conversation history, 24h TTL)
  */
