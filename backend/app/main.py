@@ -39,6 +39,7 @@ from app.routers.shifts import router as shifts_router
 from app.routers.worker_portal import router as worker_portal_router
 from app.routers.webhooks import router as webhooks_router
 from app.routers.chatbot import router as chatbot_router
+from app.routers.facebook_posts import router as facebook_posts_router
 from app.seed_data import SEED_TEMPLATES
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.
@@ -188,3 +189,4 @@ app.include_router(shifts_router)
 app.include_router(worker_portal_router)
 app.include_router(webhooks_router)
 app.include_router(chatbot_router)
+app.include_router(facebook_posts_router)

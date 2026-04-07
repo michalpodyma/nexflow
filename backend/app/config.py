@@ -52,5 +52,9 @@ class Settings(BaseSettings):
     whatsapp_access_token: str = ""            # WHATSAPP_ACCESS_TOKEN
     whatsapp_webhook_verify_token: str = ""    # WHATSAPP_WEBHOOK_VERIFY_TOKEN (self-chosen)
 
+    # Facebook Page API (Meta Graph API v19.0)
+    fb_page_access_token: str = ""             # FB_PAGE_ACCESS_TOKEN
+    fb_page_id: str = ""                       # FB_PAGE_ID
+
 
 settings = Settings()

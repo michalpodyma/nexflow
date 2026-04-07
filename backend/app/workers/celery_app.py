@@ -9,6 +9,7 @@ celery_app = Celery(
     backend=settings.redis_url,
     include=[
         "app.workers.tasks.notifications",
+        "app.workers.tasks.facebook",
     ],
 )
 
@@ -28,6 +29,11 @@ celery_app.conf.update(
         "scan-invoice-overdue-daily": {
             "task": "workers.tasks.notifications.scan_invoice_overdue",
             "schedule": crontab(hour=8, minute=0),
+        },
+        # 17:00 UTC Mon/Wed/Fri (19:00 CEST) — scheduled Facebook page post placeholder
+        "post-scheduled-facebook": {
+            "task": "post_scheduled_facebook",
+            "schedule": crontab(hour=17, minute=0, day_of_week="1,3,5"),
         },
     },
 )
