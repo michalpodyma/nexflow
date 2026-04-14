@@ -1,0 +1,7 @@
+<svg width="149" height="32" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="scale(0.8)">
+    <path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/>
+    <path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/>
+  </g>
+  <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+</svg>
