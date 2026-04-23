@@ -54,7 +54,7 @@ export default function ContactPage() {
                     email="at@nexflow.work"
                   />
                   <ContactCard
-                    name="Świetłana Owsiejczuk"
+                    name="Swietłana Owsiejczuk"
                     role="Manager"
                     email="so@nexflow.work"
                   />

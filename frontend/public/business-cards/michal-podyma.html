@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Card — Michał Podyma | Nexflow</title>
+<style>
+  /* ── Reset ── */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  /* ── Screen Preview ── */
+  body {
+    background: #e8ecf0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 48px 24px;
+  }
+  .card-set { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+  .card-label {
+    font-size: 11px;
+    color: #888;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+
+  /* ── Card base (screen: 510×284 ≈ 90×50mm at ~145ppi) ── */
+  .card {
+    width: 510px;
+    height: 284px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 32px rgba(0,0,0,0.16);
+    position: relative;
+    flex-shrink: 0;
+  }
+
+  /* ── FRONT ── */
+  .card-front {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 28px 32px 26px 36px;
+    border-left: 5px solid #00C2D1;
+  }
+  .card-front .logo-row svg { display: block; }
+  .card-front .contact-block { display: flex; flex-direction: column; }
+  .card-front .name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0F2040;
+    letter-spacing: -0.3px;
+    margin-bottom: 3px;
+  }
+  .card-front .title {
+    font-size: 11px;
+    font-weight: 700;
+    color: #00C2D1;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 14px;
+  }
+  .card-front .details {
+    font-size: 11.5px;
+    color: #556070;
+    line-height: 1.9;
+  }
+  .card-front .details a { color: #556070; text-decoration: none; }
+  .card-front .details .web { color: #00C2D1; font-weight: 600; }
+
+  /* ── BACK ── */
+  .card-back {
+    background: #0F2040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .card-back .tagline {
+    font-size: 10px;
+    font-weight: 700;
+    color: #00C2D1;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  .card-back .web-url {
+    font-size: 9px;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+  }
+  .card-back .company-info {
+    font-size: 7px;
+    color: rgba(255,255,255,0.25);
+    letter-spacing: 0.5px;
+    margin-top: 6px;
+  }
+  /* decorative corner accents */
+  .card-back::before, .card-back::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-color: rgba(0,194,209,0.2);
+    border-style: solid;
+  }
+  .card-back::before {
+    top: 14px; left: 14px;
+    border-width: 2px 0 0 2px;
+  }
+  .card-back::after {
+    bottom: 14px; right: 14px;
+    border-width: 0 2px 2px 0;
+  }
+
+  /* ── Print ── */
+  @media print {
+    @page { size: 90mm 50mm; margin: 0; }
+    body {
+      background: none;
+      padding: 0;
+      gap: 0;
+      display: block;
+    }
+    .card-label { display: none; }
+    .card-set { display: block; }
+    .card {
+      width: 90mm;
+      height: 50mm;
+      border-radius: 0;
+      box-shadow: none;
+      page-break-after: always;
+    }
+    /* Scale typography to mm */
+    .card-front { padding: 6mm 7mm 5mm 8mm; border-left-width: 1.2mm; }
+    .card-front .name { font-size: 5.2mm; margin-bottom: 0.6mm; }
+    .card-front .title { font-size: 2.6mm; margin-bottom: 3mm; }
+    .card-front .details { font-size: 2.8mm; line-height: 1.85; }
+    .card-back .tagline { font-size: 2.5mm; letter-spacing: 0.8mm; }
+    .card-back .web-url { font-size: 2mm; }
+    .card-back .company-info { font-size: 1.6mm; margin-top: 1.5mm; }
+    .card-back::before { top: 3mm; left: 3mm; width: 8mm; height: 8mm; border-width: 0.4mm 0 0 0.4mm; }
+    .card-back::after  { bottom: 3mm; right: 3mm; width: 8mm; height: 8mm; border-width: 0 0.4mm 0.4mm 0; }
+  }
+</style>
+</head>
+<body>
+
+  <!-- FRONT -->
+  <div class="card-set">
+    <span class="card-label">Front</span>
+    <div class="card card-front">
+      <div class="logo-row">
+        <svg width="134" height="29" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g transform="scale(0.8)">
+            <path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/>
+            <path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/>
+          </g>
+          <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+        </svg>
+      </div>
+      <div class="contact-block">
+        <p class="name">Michał Podyma</p>
+        <p class="title">Prezes Zarządu</p>
+        <div class="details">
+          <a href="mailto:mp@nexflow.work">mp@nexflow.work</a><br>
+          +48 882 501 520<br>
+          <span class="web">nexflow.work</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BACK -->
+  <div class="card-set">
+    <span class="card-label">Back</span>
+    <div class="card card-back">
+      <svg width="180" height="39" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g transform="scale(0.8)">
+          <path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/>
+          <path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/>
+        </g>
+        <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+      </svg>
+      <p class="tagline">Workforce in motion</p>
+      <p class="web-url">nexflow.work</p>
+      <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+    </div>
+  </div>
+
+</body>
+</html>

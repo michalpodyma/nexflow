@@ -9,6 +9,7 @@ const serviceLinks = [
 ];
 
 const companyLinks = [
+  { href: "/oferty", label: "Oferty pracy" },
   { href: "/o-nas", label: "O nas" },
   { href: "/kontakt", label: "Kontakt" },
   { href: "/kontakt#pracodawcy", label: "Dla pracodawców" },

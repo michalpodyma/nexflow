@@ -289,7 +289,7 @@ export default function AboutPage() {
             {[
               { name: "Michał Podyma", role: "Prezes Zarządu", email: "mp@nexflow.work", initials: "MP" },
               { name: "Anatolii Tychonenko", role: "Wiceprezes Zarządu", email: "at@nexflow.work", initials: "AT" },
-              { name: "Świetłana Owsiejczuk", role: "Manager", email: "so@nexflow.work", initials: "SO" },
+              { name: "Swietłana Owsiejczuk", role: "Manager", email: "so@nexflow.work", initials: "SO" },
               { name: "Olha Yablonska", role: "Koordynator i Rekruter EN/UA", email: "oy@nexflow.work", initials: "OY" },
               { name: "Hanna Serheeva", role: "Rekruter i Koordynator UA", email: "as@nexflow.work", initials: "HS" },
               { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work", initials: "OO" },

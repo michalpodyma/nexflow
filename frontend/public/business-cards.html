@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexflow Business Cards — All Team Members</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #dde2e8;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 48px 32px;
+    color: #0F2040;
+  }
+
+  /* ── Page Header ── */
+  .page-header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 48px;
+  }
+  .page-header svg { flex-shrink: 0; }
+  .page-header h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0F2040;
+  }
+  .page-header p {
+    font-size: 12px;
+    color: #778899;
+    margin-top: 3px;
+    letter-spacing: 0.3px;
+  }
+
+  /* ── Print instructions bar ── */
+  .print-bar {
+    background: #0F2040;
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .print-bar strong { color: #00C2D1; }
+  .print-btn {
+    margin-left: auto;
+    background: #00C2D1;
+    color: #0F2040;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+  }
+  .print-btn:hover { background: #00aabb; }
+
+  /* ── Grid ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(460px, 1fr));
+    gap: 40px 32px;
+  }
+
+  /* ── Person section ── */
+  .person {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .person-name-label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #0F2040;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-left: 4px;
+  }
+  .card-pair {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+  }
+  .card-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  .side-label {
+    font-size: 9px;
+    color: #aab;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* ── Card (screen: 216×120px — compact overview size) ── */
+  .card {
+    width: 216px;
+    height: 120px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 3px 16px rgba(0,0,0,0.14);
+    position: relative;
+    flex-shrink: 0;
+  }
+  /* FRONT */
+  .card-front {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px 14px 11px 15px;
+    border-left: 3px solid #00C2D1;
+  }
+  .card-front .logo-row svg { display: block; }
+  .card-front .name { font-size: 9px; font-weight: 700; color: #0F2040; margin-bottom: 1px; letter-spacing: -0.1px; }
+  .card-front .title { font-size: 5.5px; font-weight: 700; color: #00C2D1; text-transform: uppercase; letter-spacing: 0.7px; margin-bottom: 6px; }
+  .card-front .details { font-size: 5.5px; color: #556070; line-height: 1.9; }
+  .card-front .details a { color: #556070; text-decoration: none; }
+  .card-front .details .web { color: #00C2D1; font-weight: 600; }
+  /* BACK */
+  .card-back {
+    background: #0F2040;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .card-back .tagline { font-size: 4.5px; font-weight: 700; color: #00C2D1; text-transform: uppercase; letter-spacing: 1.5px; }
+  .card-back .web-url { font-size: 4px; color: rgba(255,255,255,0.3); letter-spacing: 0.8px; }
+  .card-back .company-info { font-size: 3px; color: rgba(255,255,255,0.2); letter-spacing: 0.3px; margin-top: 3px; }
+  .card-back::before, .card-back::after {
+    content: ''; position: absolute;
+    width: 16px; height: 16px;
+    border-color: rgba(0,194,209,0.2);
+    border-style: solid;
+  }
+  .card-back::before { top: 6px; left: 6px; border-width: 1px 0 0 1px; }
+  .card-back::after  { bottom: 6px; right: 6px; border-width: 0 1px 1px 0; }
+
+  /* ── Individual card link ── */
+  .open-btn {
+    margin-top: 4px;
+    font-size: 10px;
+    color: #00C2D1;
+    text-decoration: none;
+    letter-spacing: 0.3px;
+  }
+  .open-btn:hover { text-decoration: underline; }
+
+  /* ── Print ── */
+  @media print {
+    @page { size: A4; margin: 10mm; }
+    body { background: none; padding: 0; }
+    .print-bar, .page-header p { display: none; }
+    .print-btn { display: none; }
+    .page-header { margin-bottom: 8mm; }
+    .cards-grid { grid-template-columns: repeat(3, 1fr); gap: 10mm 6mm; }
+    .card { box-shadow: none; border: 0.5px solid #ddd; }
+    .open-btn { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <svg width="149" height="32" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <g transform="scale(0.8)">
+      <path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/>
+      <path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/>
+    </g>
+    <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+  </svg>
+  <div>
+    <h1>Business Cards — All Team Members</h1>
+    <p>90 × 50 mm · Print-ready · Click any name to open full-size printable card</p>
+  </div>
+</div>
+
+<div class="print-bar">
+  <span>To print individual cards at correct size: open the linked file → <strong>File → Print</strong> → set paper to <strong>90 × 50 mm</strong> or use browser PDF export. For batch printing, open each individual card file.</span>
+  <button class="print-btn" onclick="window.print()">Print Preview</button>
+</div>
+
+<div class="cards-grid">
+
+  <!-- 1. Michał Podyma -->
+  <div class="person">
+    <span class="person-name-label">Michał Podyma</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Michał Podyma</p>
+            <p class="title">Prezes Zarządu</p>
+            <div class="details">
+              <a href="mailto:mp@nexflow.work">mp@nexflow.work</a><br>
+              +48 882 501 520<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/michal-podyma.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 2. Anatolii Tychonenko -->
+  <div class="person">
+    <span class="person-name-label">Anatolii Tychonenko</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Anatolii Tychonenko</p>
+            <p class="title">Wiceprezes Zarządu</p>
+            <div class="details">
+              <a href="mailto:at@nexflow.work">at@nexflow.work</a><br>
+              +48 534 219 398<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/anatolii-tychonenko.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 3. Swietłana Owsiejczuk -->
+  <div class="person">
+    <span class="person-name-label">Swietłana Owsiejczuk</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Swietłana Owsiejczuk</p>
+            <p class="title">Manager</p>
+            <div class="details">
+              <a href="mailto:so@nexflow.work">so@nexflow.work</a><br>
+              +48 788 012 955<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/swietlana-owsiejczuk.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 4. Olha Yablonska -->
+  <div class="person">
+    <span class="person-name-label">Olha Yablonska</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Olha Yablonska</p>
+            <p class="title">Koordynator i Rekruter EN/UA</p>
+            <div class="details">
+              <a href="mailto:oy@nexflow.work">oy@nexflow.work</a><br>
+              +48 888 671 411<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/olha-yablonska.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 5. Hanna Serheeva -->
+  <div class="person">
+    <span class="person-name-label">Hanna Serheeva</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Hanna Serheeva</p>
+            <p class="title">Rekruter i Koordynator UA</p>
+            <div class="details">
+              <a href="mailto:as@nexflow.work">as@nexflow.work</a><br>
+              +48 698 910 179<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/hanna-serheeva.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 6. Olena Omelchenko -->
+  <div class="person">
+    <span class="person-name-label">Olena Omelchenko</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Olena Omelchenko</p>
+            <p class="title">Specjalista ds. Kadr i Płac</p>
+            <div class="details">
+              <a href="mailto:ao@nexflow.work">ao@nexflow.work</a><br>
+              +48 532 352 861<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/olena-omelchenko.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+  <!-- 7. Hanna Rybakova -->
+  <div class="person">
+    <span class="person-name-label">Hanna Rybakova</span>
+    <div class="card-pair">
+      <div class="card-wrap">
+        <span class="side-label">Front</span>
+        <div class="card card-front">
+          <div class="logo-row">
+            <svg width="57" height="12" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+              <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#0F2040" letter-spacing="-0.5">nexflow</text>
+            </svg>
+          </div>
+          <div>
+            <p class="name">Hanna Rybakova</p>
+            <p class="title">Rekruter i Koordynator UA</p>
+            <div class="details">
+              <a href="mailto:ar@nexflow.work">ar@nexflow.work</a><br>
+              +48 698 910 180<br>
+              <span class="web">nexflow.work</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card-wrap">
+        <span class="side-label">Back</span>
+        <div class="card card-back">
+          <svg width="76" height="16" viewBox="0 0 149 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g transform="scale(0.8)"><path d="M0 4 L36 4 L44 20 L36 14 L0 14 Z" fill="#00C2D1"/><path d="M0 22 L32 22 L44 20 L32 26 L0 30 Z" fill="#00C2D1"/></g>
+            <text x="47" y="25" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="22" fill="#ffffff" letter-spacing="-0.5">nexflow</text>
+          </svg>
+          <p class="tagline">Workforce in motion</p>
+          <p class="web-url">nexflow.work</p>
+          <p class="company-info">NIP: PL5981632310 · KRS: 0000496516 · REGON: 081188992</p>
+        </div>
+      </div>
+    </div>
+    <a class="open-btn" href="business-cards/hanna-rybakova.html" target="_blank">Open full-size printable card →</a>
+  </div>
+
+</div>
+
+<script>
+  // Print helper: open all cards or print this overview
+  document.querySelector('.print-btn').addEventListener('click', () => window.print());
+</script>
+
+</body>
+</html>
