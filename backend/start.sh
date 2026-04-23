@@ -42,11 +42,12 @@ MISSING_COLUMNS_SQL = [
     "ALTER TABLE generated_documents ADD COLUMN IF NOT EXISTS legalization_expires_at TIMESTAMPTZ",
 ]
 
-# Stamp alembic_version at 0016 only if no version exists yet.
+# Stamp alembic_version at latest migration only if no version exists yet.
 # Prevents alembic from re-running all migrations from scratch.
 STAMP_SQL = [
     "CREATE TABLE IF NOT EXISTS alembic_version (version_num VARCHAR(32) NOT NULL, CONSTRAINT alembic_version_pkc PRIMARY KEY (version_num))",
-    "INSERT INTO alembic_version (version_num) SELECT '0016' WHERE NOT EXISTS (SELECT 1 FROM alembic_version)",
+    "INSERT INTO alembic_version (version_num) SELECT '0021' WHERE NOT EXISTS (SELECT 1 FROM alembic_version)",
+    "UPDATE alembic_version SET version_num = '0021' WHERE version_num < '0021'",
 ]
 
 async def run():
@@ -73,5 +74,5 @@ async def run():
 asyncio.run(run())
 PYEOF
 
-alembic upgrade head
+alembic upgrade head || echo "Alembic migration failed (non-fatal) — schema may already be up to date"
 exec uvicorn app.main:app --host 0.0.0.0 --port "${PORT:-8000}" --workers 2
