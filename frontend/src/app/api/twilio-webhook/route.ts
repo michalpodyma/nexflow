@@ -8,7 +8,6 @@
 
 // ─── Route handler ────────────────────────────────────────────────────────────
 
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export async function POST(_req: Request): Promise<Response> {
   // Deprecated: screening now uses the Meta WhatsApp Business API.
   // New webhook: POST /api/webhooks/whatsapp (handled by backend)

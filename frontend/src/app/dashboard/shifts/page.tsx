@@ -580,7 +580,7 @@ function TemplatesTable({ templates, onEdit, onDelete, onToggle }: TemplatesTabl
         <CardContent className="py-16 text-center text-gray-500">
           <CalendarDays className="mx-auto mb-3 h-10 w-10 text-gray-300" />
           <p className="font-medium">No shift templates yet</p>
-          <p className="text-sm mt-1">Click "New Template" to define your first shift pattern.</p>
+          <p className="text-sm mt-1">Click &quot;New Template&quot; to define your first shift pattern.</p>
         </CardContent>
       </Card>
     );
