@@ -21,9 +21,9 @@ export const maxDuration = 30;
 // ─── Route handler ─────────────────────────────────────────────────────────────
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
-  // 1. Validate Telegram webhook secret
+  // 1. Validate Telegram webhook secret — always required (no open bypass)
   const secret = req.headers.get("x-telegram-bot-api-secret-token");
-  if (TELEGRAM_WEBHOOK_SECRET && secret !== TELEGRAM_WEBHOOK_SECRET) {
+  if (!TELEGRAM_WEBHOOK_SECRET || !secret || secret !== TELEGRAM_WEBHOOK_SECRET) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
@@ -47,11 +47,11 @@ async function handleUpdate(update: TelegramUpdate): Promise<void> {
   const msg = update.message;
   if (!msg) return;
 
-  const chatId = msg.chat.id;
-  const user = msg.from;
-  const text = (msg.text ?? "").trim();
-
   try {
+    const chatId = msg.chat.id;
+    const user = msg.from;
+    const text = (msg.text ?? "").trim();
+
     if (msg.voice) {
       await forwardToOpenClaw(chatId, user, "[Voice message]", "voice");
       return;
