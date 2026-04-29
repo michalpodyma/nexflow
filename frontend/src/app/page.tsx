@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   title: "Nexflow — Workforce in motion.",
   description:
     "Nexflow dostarcza sprawdzonych pracowników do firm logistycznych i magazynowych w Polsce i Niemczech — w 5 dni roboczych.",
+  alternates: {
+    canonical: "https://nexflow.work",
+    languages: {
+      "x-default": "https://nexflow.work",
+      pl: "https://nexflow.work",
+      de: "https://nexflow.work",
+    },
+  },
 };
 
 const services = [

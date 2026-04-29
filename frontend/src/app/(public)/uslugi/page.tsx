@@ -4,9 +4,17 @@ import { Users, UserCheck, Target, ClipboardList } from "lucide-react";
 import { FadeIn } from "@/components/FadeIn";
 
 export const metadata: Metadata = {
-  title: "Usługi",
+  title: "Usługi rekrutacyjne dla logistyki | Nexflow",
   description:
-    "Pracownicy tymczasowi, rekrutacja stała, headhunting i doradztwo HR dla firm logistycznych, magazynowych i szklarniowych w Polsce, Niemczech, Holandii i Belgii.",
+    "Pracownicy tymczasowi, rekrutacja stała, headhunting i doradztwo HR dla firm logistycznych i magazynowych w Polsce i Niemczech.",
+  alternates: {
+    canonical: "https://nexflow.work/uslugi",
+    languages: {
+      "x-default": "https://nexflow.work/uslugi",
+      pl: "https://nexflow.work/uslugi",
+      de: "https://nexflow.work/uslugi",
+    },
+  },
 };
 
 const serviceIcons = [Users, UserCheck, Target, ClipboardList];

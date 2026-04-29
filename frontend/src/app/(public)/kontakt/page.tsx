@@ -2,9 +2,17 @@ import type { Metadata } from "next";
 import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
-  title: "Kontakt",
+  title: "Kontakt | Nexflow",
   description:
     "Skontaktuj się z Nexflow. Umów rozmowę, zapytaj o pracowników lub aplikuj o pracę. Oddzwonimy tego samego dnia.",
+  alternates: {
+    canonical: "https://nexflow.work/kontakt",
+    languages: {
+      "x-default": "https://nexflow.work/kontakt",
+      pl: "https://nexflow.work/kontakt",
+      de: "https://nexflow.work/kontakt",
+    },
+  },
 };
 
 export default function ContactPage() {

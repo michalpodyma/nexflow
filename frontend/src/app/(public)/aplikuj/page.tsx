@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Wyślij zgłoszenie i dołącz do bazy kandydatów Nexflow. Praca tymczasowa w magazynach i logistyce w Polsce i Niemczech.",
   alternates: {
     canonical: "https://nexflow.work/aplikuj",
+    languages: {
+      "x-default": "https://nexflow.work/aplikuj",
+      pl: "https://nexflow.work/aplikuj",
+      de: "https://nexflow.work/aplikuj",
+    },
   },
 };
 

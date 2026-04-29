@@ -8,6 +8,11 @@ export const metadata: Metadata = {
     "Aktualności, porady i wiedza o rynku pracy tymczasowej w Polsce i Niemczech — od zespołu Nexflow.",
   alternates: {
     canonical: "https://nexflow.work/blog",
+    languages: {
+      "x-default": "https://nexflow.work/blog",
+      pl: "https://nexflow.work/blog",
+      de: "https://nexflow.work/blog",
+    },
   },
   openGraph: {
     title: "Blog | Nexflow",

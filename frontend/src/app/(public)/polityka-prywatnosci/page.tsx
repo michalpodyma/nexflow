@@ -4,6 +4,14 @@ export const metadata: Metadata = {
   title: "Polityka prywatności | Nexflow",
   description:
     "Polityka prywatności Nexflow Sp. z o.o. — informacje o przetwarzaniu danych osobowych zgodnie z RODO.",
+  alternates: {
+    canonical: "https://nexflow.work/polityka-prywatnosci",
+    languages: {
+      "x-default": "https://nexflow.work/polityka-prywatnosci",
+      pl: "https://nexflow.work/polityka-prywatnosci",
+      de: "https://nexflow.work/polityka-prywatnosci",
+    },
+  },
 };
 
 export default function PolitykaPrywatnosciPage() {

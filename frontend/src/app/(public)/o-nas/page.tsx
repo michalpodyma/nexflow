@@ -12,9 +12,17 @@ function InitialsAvatar({ initials }: { initials: string }) {
 }
 
 export const metadata: Metadata = {
-  title: "O nas",
+  title: "O nas | Nexflow",
   description:
     "Nexflow — dawniej Eurojob-West. Od 2013 roku łączymy pracowników z firmami logistycznymi po obu stronach granicy polsko-niemieckiej.",
+  alternates: {
+    canonical: "https://nexflow.work/o-nas",
+    languages: {
+      "x-default": "https://nexflow.work/o-nas",
+      pl: "https://nexflow.work/o-nas",
+      de: "https://nexflow.work/o-nas",
+    },
+  },
 };
 
 const values = [

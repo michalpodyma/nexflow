@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://nexflow.work/oferty",
     languages: {
+      "x-default": "https://nexflow.work/oferty",
       pl: "https://nexflow.work/oferty",
       de: "https://nexflow.work/oferty",
     },
