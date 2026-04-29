@@ -145,8 +145,11 @@ async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None
     try:
         candidate = await _resolve_candidate(from_phone, db)
 
-        # Mirror every inbound message to the OpenClaw inbox (tee — FSM unaffected)
-        await _tee_to_inbox(from_phone, text, candidate.id, db)
+        # Mirror every inbound message to the OpenClaw inbox — best-effort, must not block FSM
+        try:
+            await _tee_to_inbox(from_phone, text, candidate.id, db)
+        except Exception:
+            logger.exception("[whatsapp_webhook] Tee to OpenClaw inbox failed; FSM continues")
 
         # Find active (incomplete) session
         session: ChatbotSession | None = None
