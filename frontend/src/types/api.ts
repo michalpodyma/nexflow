@@ -69,6 +69,7 @@ export interface CandidateCreate {
   preferred_position: PreferredPosition;
   languages: LanguageCode[];
   location_preference?: string;
+  referred_by?: string;
   document_type?: DocumentType;
   cv_url?: string;
   gdpr_consent: boolean;

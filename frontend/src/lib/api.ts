@@ -170,6 +170,7 @@ export async function submitCandidateIntake(
   fd.append("preferred_position", data.preferred_position);
   data.languages.forEach((l) => fd.append("languages", l));
   if (data.location_preference) fd.append("location_preference", data.location_preference);
+  if (data.referred_by) fd.append("referred_by", data.referred_by);
   if (data.document_type) fd.append("document_type", data.document_type);
   fd.append("gdpr_consent", String(data.gdpr_consent));
   fd.append("gdpr_consent_at", data.gdpr_consent_at);

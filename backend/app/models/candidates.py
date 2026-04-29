@@ -69,6 +69,8 @@ class Candidate(Base):
     id_doc_url: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
     health_cert_url: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
 
+    referred_by: Mapped[str | None] = mapped_column(sa.String(255), nullable=True)
+
     # Recruiter notes — freetext per candidate, persisted by dashboard
     notes: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
     # Set when a recruiter explicitly marks this candidate as "contacted"

@@ -16,6 +16,7 @@ interface IntakePayload {
   languages: string[];
   location_preference?: string;
   document_type?: string;
+  referred_by?: string;
   cv_url?: string;
   gdpr_consent: boolean;
   gdpr_consent_at: string;
@@ -227,6 +228,7 @@ export async function POST(req: NextRequest) {
       languages: fd.getAll("languages").map(String),
       location_preference: str("location_preference"),
       document_type: str("document_type"),
+      referred_by: str("referred_by"),
       gdpr_consent: str("gdpr_consent") === "true",
       gdpr_consent_at: str("gdpr_consent_at") ?? new Date().toISOString(),
       locale: str("locale") ?? "pl",
@@ -268,6 +270,7 @@ export async function POST(req: NextRequest) {
         preferred_position: payload.preferred_position,
         languages: payload.languages,
         ...(payload.location_preference ? { location_preference: payload.location_preference } : {}),
+        ...(payload.referred_by ? { referred_by: payload.referred_by } : {}),
         gdpr_consent: payload.gdpr_consent,
         gdpr_consent_at: payload.gdpr_consent_at,
       }),

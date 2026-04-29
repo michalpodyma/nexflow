@@ -20,6 +20,7 @@ class CandidateCreate(BaseModel):
     preferred_position: PreferredPosition
     languages: list[LanguageCode]  # pl, de, en, uk, ru
     location_preference: str | None = None
+    referred_by: str | None = None
     gdpr_consent: bool  # must be True
     gdpr_consent_at: datetime  # client-side timestamp
 

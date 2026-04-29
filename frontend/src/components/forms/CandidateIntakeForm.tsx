@@ -50,6 +50,8 @@ interface Messages {
   documentTypes: Record<DocumentType, string>;
   cvUpload: string;
   cvHint: string;
+  referredBy: string;
+  referredByPlaceholder: string;
   errors: {
     firstNameRequired: string;
     lastNameRequired: string;
@@ -121,6 +123,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "CV (PDF, max 10 MB — opcjonalnie)",
     cvHint: "Prześlij CV w formacie PDF",
+    referredBy: "Kto Cię polecił? (opcjonalne)",
+    referredByPlaceholder: "Imię i nazwisko osoby polecającej",
     errors: {
       firstNameRequired: "Imię jest wymagane",
       lastNameRequired: "Nazwisko jest wymagane",
@@ -192,6 +196,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "Lebenslauf (PDF, max. 10 MB — optional)",
     cvHint: "Lebenslauf im PDF-Format hochladen",
+    referredBy: "Wer hat Sie empfohlen? (optional)",
+    referredByPlaceholder: "Name der empfehlenden Person",
     errors: {
       firstNameRequired: "Vorname ist erforderlich",
       lastNameRequired: "Nachname ist erforderlich",
@@ -262,6 +268,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "CV (PDF, max 10 MB — optional)",
     cvHint: "Upload your CV in PDF format",
+    referredBy: "Referred by (optional)",
+    referredByPlaceholder: "Name of the person who referred you",
     errors: {
       firstNameRequired: "First name is required",
       lastNameRequired: "Last name is required",
@@ -332,6 +340,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "CV (PDF, макс. 10 МБ — необов'язково)",
     cvHint: "Завантажте CV у форматі PDF",
+    referredBy: "Хто вас рекомендував? (необов'язково)",
+    referredByPlaceholder: "Ім'я та прізвище особи, яка вас рекомендувала",
     errors: {
       firstNameRequired: "Ім'я є обов'язковим",
       lastNameRequired: "Прізвище є обов'язковим",
@@ -402,6 +412,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "CV (PDF, maks. 10 MB — opsional)",
     cvHint: "Unggah CV dalam format PDF",
+    referredBy: "Referred by (optional)",
+    referredByPlaceholder: "Nama orang yang mereferensikan Anda",
     errors: {
       firstNameRequired: "Nama depan wajib diisi",
       lastNameRequired: "Nama belakang wajib diisi",
@@ -472,6 +484,8 @@ const messages: Record<Locale, Messages> = {
     },
     cvUpload: "CV (PDF, max. 10 MB — optioneel)",
     cvHint: "Upload uw CV in PDF-formaat",
+    referredBy: "Referred by (optional)",
+    referredByPlaceholder: "Naam van de persoon die u heeft doorverwezen",
     errors: {
       firstNameRequired: "Voornaam is verplicht",
       lastNameRequired: "Achternaam is verplicht",
@@ -600,6 +614,7 @@ interface FormState {
   preferred_position: PreferredPosition | "";
   languages: Set<LanguageCode>;
   location_preference: string;
+  referred_by: string;
   document_type: DocumentType | "";
   gdpr_consent: boolean;
 }
@@ -658,6 +673,7 @@ export function CandidateIntakeForm() {
     preferred_position: "",
     languages: new Set<LanguageCode>(),
     location_preference: "",
+    referred_by: "",
     document_type: "",
     gdpr_consent: false,
   });
@@ -742,6 +758,7 @@ export function CandidateIntakeForm() {
       ...(form.location_preference.trim() && {
         location_preference: form.location_preference.trim(),
       }),
+      ...(form.referred_by.trim() && { referred_by: form.referred_by.trim() }),
       ...(form.document_type && { document_type: form.document_type as DocumentType }),
     };
 
@@ -1053,6 +1070,18 @@ export function CandidateIntakeForm() {
               {cvError && (
                 <p className="mt-1 text-xs text-destructive">{cvError}</p>
               )}
+            </div>
+
+            {/* Referred by */}
+            <div>
+              <label className="mb-1 block text-sm font-medium">{t.referredBy}</label>
+              <Input
+                value={form.referred_by}
+                placeholder={t.referredByPlaceholder}
+                onChange={(e) =>
+                  setForm((f) => ({ ...f, referred_by: e.target.value }))
+                }
+              />
             </div>
 
             {/* GDPR consent */}

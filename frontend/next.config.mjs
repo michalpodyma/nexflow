@@ -17,6 +17,11 @@ const nextConfig = {
         destination: "/aplikuj",
         permanent: true,
       },
+      {
+        source: "/polec",
+        destination: "/aplikuj?ref=1",
+        permanent: false,
+      },
     ];
   },
 };
