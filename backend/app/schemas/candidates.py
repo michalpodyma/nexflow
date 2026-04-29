@@ -89,6 +89,7 @@ class CandidateRead(BaseModel):
     notes: str | None
     contacted_at: datetime | None
     job_posting_id: UUID | None
+    referred_by: str | None = None
     worker_id: UUID | None = None
     created_at: datetime
     updated_at: datetime

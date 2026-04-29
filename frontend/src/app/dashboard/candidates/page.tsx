@@ -257,6 +257,12 @@ function CandidateDetailModal({ candidate, onClose, onSaved }: DetailModalProps)
               <span className="text-muted-foreground">Nationality</span>
               <p className="mt-0.5 font-medium">{candidate.nationality ?? "—"}</p>
             </div>
+            {candidate.referred_by && (
+              <div>
+                <span className="text-muted-foreground">Polecający / Referred by</span>
+                <p className="mt-0.5 font-medium">{candidate.referred_by}</p>
+              </div>
+            )}
             {candidate.contacted_at && (
               <div className="col-span-2">
                 <span className="text-muted-foreground">Contacted</span>
@@ -658,6 +664,7 @@ export default function CandidatesPage() {
                   <TableHead>Email</TableHead>
                   <TableHead>Status</TableHead>
                   <TableHead>Nationality</TableHead>
+                  <TableHead>Polecający</TableHead>
                   <TableHead>Job Orders</TableHead>
                   <TableHead>Contacted</TableHead>
                   <TableHead>Created</TableHead>
@@ -722,6 +729,9 @@ export default function CandidatesPage() {
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>
                       {c.nationality ?? "—"}
+                    </TableCell>
+                    <TableCell onClick={() => setDetailCandidate(c)}>
+                      {c.referred_by ?? "—"}
                     </TableCell>
                     <TableCell onClick={() => setDetailCandidate(c)}>
                       {cjoCounts[c.id] != null && cjoCounts[c.id] > 0 ? (

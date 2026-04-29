@@ -34,6 +34,7 @@ export interface Candidate {
   preferred_position: PreferredPosition | null;
   languages: string[] | null;
   location_preference: string | null;
+  referred_by?: string | null;
   screening_status: ScreeningStatus;
   screening_score: number | null;
   gdpr_consent: boolean;
