@@ -1,10 +1,9 @@
 /**
  * POST /api/telegram
  *
- * Telegram webhook endpoint. Forwards all inbound messages to OpenClaw
- * (Paperclip Chief of Staff) by creating a Paperclip issue assigned to him.
- * OpenClaw replies directly via the Telegram Bot API using TELEGRAM_BOT_TOKEN
- * from his runtime — no LLM loop runs in this route.
+ * Telegram webhook — validates the request then forwards each message
+ * to OpenClaw (Chief of Staff) via a Paperclip issue. All LLM processing
+ * has moved to OpenClaw; this route is now a thin forwarder shim (EUR-314).
  *
  * Security: validated via X-Telegram-Bot-Api-Secret-Token header.
  */
@@ -15,12 +14,9 @@ import {
   TELEGRAM_WEBHOOK_SECRET,
   type TelegramUpdate,
   forwardToOpenClaw,
-  sendMessage,
-  sendTyping,
-  transcribeVoice,
 } from "@/lib/telegram-agent";
 
-export const maxDuration = 15;
+export const maxDuration = 30;
 
 // ─── Route handler ─────────────────────────────────────────────────────────────
 
@@ -39,7 +35,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "Bad request" }, { status: 400 });
   }
 
-  // 3. Forward to OpenClaw
+  // 3. Forward to OpenClaw — awaited so errors are logged before we return 200
   await handleUpdate(update);
 
   return NextResponse.json({ ok: true });
@@ -52,45 +48,23 @@ async function handleUpdate(update: TelegramUpdate): Promise<void> {
   if (!msg) return;
 
   const chatId = msg.chat.id;
+  const user = msg.from;
   const text = (msg.text ?? "").trim();
 
   try {
-    // /start → static welcome, no forwarding needed
-    if (text.startsWith("/start")) {
-      await sendMessage(
-        chatId,
-        `Cześć ${msg.from.first_name}! 👋\n\n` +
-          `Jestem asystentem AI Nexflow. Napisz lub nagraj wiadomość, a przekażę ją do OpenClaw.`,
-      );
-      return;
-    }
-
-    // Voice message → transcribe then forward with transcript
     if (msg.voice) {
-      await sendTyping(chatId);
-      const transcript = await transcribeVoice(msg.voice.file_id);
-      if (transcript) {
-        await sendMessage(chatId, `🎙️ _"${transcript}"_`);
-      }
-      await forwardToOpenClaw(msg, transcript ?? undefined);
+      await forwardToOpenClaw(chatId, user, "[Voice message]", "voice");
       return;
     }
 
-    // All text (including /help, /briefing, /zadania) → forward to OpenClaw
     if (text) {
-      await forwardToOpenClaw(msg);
+      await forwardToOpenClaw(chatId, user, text, "text");
       return;
     }
 
-    // Unsupported media type
-    await sendMessage(chatId, "Obsługuję wiadomości tekstowe i głosowe. Napisz lub nagraj wiadomość!");
+    // Non-text, non-voice update — silently ignore
   } catch (err) {
     console.error("[tg-webhook] handleUpdate failed:", err);
-    try {
-      await sendMessage(chatId, "Wystąpił błąd podczas przekazywania wiadomości. Spróbuj ponownie.");
-    } catch {
-      // ignore send failure in error handler
-    }
   }
 }
 
