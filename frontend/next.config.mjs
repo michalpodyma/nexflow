@@ -20,7 +20,7 @@ const nextConfig = {
       {
         source: "/polec",
         destination: "/aplikuj?ref=1",
-        permanent: false,
+        permanent: true,
       },
     ];
   },
