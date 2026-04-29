@@ -33,25 +33,26 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 function buildJobLocation(countries: string[]) {
-  const country = countries[0];
-  if (country === "PL") {
+  return countries.map((country) => {
+    if (country === "PL") {
+      return {
+        "@type": "Place",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Słubice",
+          addressRegion: "Lubuskie",
+          addressCountry: "PL",
+        },
+      };
+    }
     return {
       "@type": "Place",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Słubice",
-        addressRegion: "Lubuskie",
-        addressCountry: "PL",
+        addressCountry: country,
       },
     };
-  }
-  return {
-    "@type": "Place",
-    address: {
-      "@type": "PostalAddress",
-      addressCountry: country,
-    },
-  };
+  });
 }
 
 export default async function JobDetailPage({ params }: Props) {
@@ -78,7 +79,7 @@ export default async function JobDetailPage({ params }: Props) {
       "@type": "Organization",
       name: "Nexflow",
       sameAs: "https://nexflow.work",
-      logo: "https://nexflow.work/logo.png",
+      logo: "https://nexflow.work/nexflow-logo-email.svg",
     },
     jobLocation: buildJobLocation(job.countries),
     baseSalary: {
@@ -167,7 +168,7 @@ export default async function JobDetailPage({ params }: Props) {
             <p className="text-primary-foreground/75 text-sm mb-6">
               Formularz zajmuje mniej niż 3 minuty. Oddzwonimy w ciągu 24h.
             </p>
-            <Link href={`/aplikuj?job=${job.slug}`}>
+            <Link href={`/kontakt?job=${job.slug}`}>
               <Button
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8"
