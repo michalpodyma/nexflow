@@ -48,6 +48,7 @@ from .hours_import import HoursImportBatch, ClientColumnMapping, WorkerHours
 from .notifications import NotificationLog
 from .shifts import ShiftTemplate, ShiftEntry
 from .worker_otp import WorkerOTP
+from .whatsapp_inbox import WhatsAppInboxEvent
 
 __all__ = [
     "Base",
@@ -98,4 +99,5 @@ __all__ = [
     "ShiftTemplate",
     "ShiftEntry",
     "WorkerOTP",
+    "WhatsAppInboxEvent",
 ]

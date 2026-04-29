@@ -42,6 +42,7 @@ from app.database import AsyncSessionLocal
 from app.models.candidates import Candidate
 from app.models.chatbot import ChatbotSession
 from app.models.enums import ChatbotChannel, ScreeningStatus
+from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.services.chatbot_fsm import advance, initiate_session
 from app.services.whatsapp import normalize_phone, send_whatsapp_message
 
@@ -125,10 +126,27 @@ async def _handle_inbound_message(
         await _process_message(from_phone, text, db)
 
 
+async def _tee_to_inbox(
+    from_phone: str, text: str, candidate_id: object, db: AsyncSession
+) -> None:
+    """Write inbound message to the OpenClaw inbox table (fire-and-forget within session)."""
+    masked = normalize_phone(from_phone)[-4:] or "????"
+    event = WhatsAppInboxEvent(
+        candidate_id=candidate_id,  # type: ignore[arg-type]
+        from_phone_masked=masked,
+        message_text=text,
+    )
+    db.add(event)
+    # Flushed as part of the outer transaction; no separate commit needed here.
+
+
 async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None:
     """Process a single inbound WhatsApp message within an existing session."""
     try:
         candidate = await _resolve_candidate(from_phone, db)
+
+        # Mirror every inbound message to the OpenClaw inbox (tee — FSM unaffected)
+        await _tee_to_inbox(from_phone, text, candidate.id, db)
 
         # Find active (incomplete) session
         session: ChatbotSession | None = None

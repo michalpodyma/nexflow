@@ -56,5 +56,11 @@ class Settings(BaseSettings):
     fb_page_access_token: str = ""             # FB_PAGE_ACCESS_TOKEN
     fb_page_id: str = ""                       # FB_PAGE_ID
 
+    # OpenClaw read-only API key — grants access to /api/openclaw/* endpoints.
+    # OpenClaw must NOT receive WHATSAPP_ACCESS_TOKEN; this separate key is the
+    # only credential it needs to read the WhatsApp inbox.
+    # Generate with: python3 -c "import secrets; print(secrets.token_urlsafe(32))"
+    openclaw_api_key: str = ""                 # OPENCLAW_API_KEY
+
 
 settings = Settings()
