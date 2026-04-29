@@ -1,16 +1,12 @@
 /**
  * POST /api/telegram
  *
- * Telegram webhook endpoint. Telegram sends all bot updates here as JSON.
+ * Telegram webhook endpoint. Forwards all inbound messages to OpenClaw
+ * (Paperclip Chief of Staff) by creating a Paperclip issue assigned to him.
+ * OpenClaw replies directly via the Telegram Bot API using TELEGRAM_BOT_TOKEN
+ * from his runtime — no LLM loop runs in this route.
  *
  * Security: validated via X-Telegram-Bot-Api-Secret-Token header.
- * Processing: async via unstable_after (responds 200 immediately to Telegram).
- *
- * Handles:
- *   - Text messages → AI agent
- *   - Voice messages → Whisper transcription → AI agent
- *   - /start, /help commands → onboarding message
- *   - /briefing command → on-demand daily briefing
  */
 
 import { NextRequest, NextResponse } from "next/server";
@@ -18,15 +14,13 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   TELEGRAM_WEBHOOK_SECRET,
   type TelegramUpdate,
-  generateBriefing,
-  runAgent,
+  forwardToOpenClaw,
   sendMessage,
   sendTyping,
   transcribeVoice,
 } from "@/lib/telegram-agent";
 
-// Allow up to 60 seconds — Anthropic API calls can be slow
-export const maxDuration = 60;
+export const maxDuration = 15;
 
 // ─── Route handler ─────────────────────────────────────────────────────────────
 
@@ -45,9 +39,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "Bad request" }, { status: 400 });
   }
 
-  // 3. Process synchronously — Telegram waits up to 1 minute for a response.
-  // Fire-and-forget (void) caused the Vercel function to terminate before
-  // the Anthropic API call completed, aborting the fetch and throwing an error.
+  // 3. Forward to OpenClaw
   await handleUpdate(update);
 
   return NextResponse.json({ ok: true });
@@ -57,96 +49,45 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
 async function handleUpdate(update: TelegramUpdate): Promise<void> {
   const msg = update.message;
-  if (!msg) return; // ignore non-message updates (e.g. edited messages)
+  if (!msg) return;
 
   const chatId = msg.chat.id;
-  const user = msg.from;
   const text = (msg.text ?? "").trim();
 
   try {
-    // ── Commands ──────────────────────────────────────────────────────────────
+    // /start → static welcome, no forwarding needed
     if (text.startsWith("/start")) {
       await sendMessage(
         chatId,
-        `Cześć ${user.first_name}! 👋\n\n` +
-          `Jestem asystentem AI Nexflow. Mogę pomóc Ci:\n` +
-          `• 📋 Sprawdzić i zarządzać zadaniami (Paperclip)\n` +
-          `• 📞 Zainicjować połączenie telefoniczne\n` +
-          `• 📊 Wygenerować dzienny briefing\n` +
-          `• 🎙️ Przetworzyć wiadomości głosowe\n\n` +
-          `Napisz lub powiedz, czego potrzebujesz!`,
+        `Cześć ${msg.from.first_name}! 👋\n\n` +
+          `Jestem asystentem AI Nexflow. Napisz lub nagraj wiadomość, a przekażę ją do OpenClaw.`,
       );
       return;
     }
 
-    if (text.startsWith("/help")) {
-      await sendMessage(
-        chatId,
-        `*Dostępne komendy:*\n\n` +
-          `/briefing — Dzienny briefing zespołu\n` +
-          `/zadania — Lista otwartych zadań\n` +
-          `/help — Ta wiadomość\n\n` +
-          `Możesz też pisać lub nagrywać wiadomości głosowe w naturalnym języku.`,
-      );
-      return;
-    }
-
-    if (text.startsWith("/briefing")) {
-      await sendTyping(chatId);
-      const briefing = await generateBriefing();
-      await sendMessage(chatId, briefing);
-      return;
-    }
-
-    if (text.startsWith("/zadania") || text.startsWith("/tasks")) {
-      await sendTyping(chatId);
-      const reply = await runAgent(chatId, user, "Pokaż mi listę wszystkich otwartych zadań.");
-      await sendMessage(chatId, reply);
-      return;
-    }
-
-    // ── Voice message ─────────────────────────────────────────────────────────
+    // Voice message → transcribe then forward with transcript
     if (msg.voice) {
       await sendTyping(chatId);
       const transcript = await transcribeVoice(msg.voice.file_id);
-
-      if (!transcript) {
-        await sendMessage(
-          chatId,
-          "Nie udało się przetworzyć wiadomości głosowej. " +
-            "Upewnij się, że OPENAI_API_KEY jest ustawione.",
-        );
-        return;
+      if (transcript) {
+        await sendMessage(chatId, `🎙️ _"${transcript}"_`);
       }
-
-      // Echo transcript so user knows what was understood
-      await sendMessage(chatId, `🎙️ _"${transcript}"_`);
-
-      const reply = await runAgent(chatId, user, transcript);
-      await sendMessage(chatId, reply);
+      await forwardToOpenClaw(msg, transcript ?? undefined);
       return;
     }
 
-    // ── Regular text message ──────────────────────────────────────────────────
+    // All text (including /help, /briefing, /zadania) → forward to OpenClaw
     if (text) {
-      await sendTyping(chatId);
-      const reply = await runAgent(chatId, user, text);
-      await sendMessage(chatId, reply);
+      await forwardToOpenClaw(msg);
       return;
     }
 
-    // ── Unsupported message type ──────────────────────────────────────────────
-    await sendMessage(
-      chatId,
-      "Obsługuję tylko wiadomości tekstowe i głosowe. Napisz lub nagraj wiadomość!",
-    );
+    // Unsupported media type
+    await sendMessage(chatId, "Obsługuję wiadomości tekstowe i głosowe. Napisz lub nagraj wiadomość!");
   } catch (err) {
     console.error("[tg-webhook] handleUpdate failed:", err);
     try {
-      await sendMessage(
-        chatId,
-        "Wystąpił nieoczekiwany błąd. Spróbuj ponownie za chwilę.",
-      );
+      await sendMessage(chatId, "Wystąpił błąd podczas przekazywania wiadomości. Spróbuj ponownie.");
     } catch {
       // ignore send failure in error handler
     }

@@ -491,6 +491,64 @@ Kontekst firmy:
 - Zintegrowane systemy: HubSpot (kandydaci), Twilio (WhatsApp/SMS), Vercel (hosting)`;
 }
 
+// ─── OpenClaw forwarder ───────────────────────────────────────────────────────
+
+const OPENCLAW_AGENT_ID =
+  process.env.OPENCLAW_AGENT_ID ?? "5864221d-6a66-42e7-a99c-5b0e9274b9ee";
+
+/**
+ * Forward an inbound Telegram message to OpenClaw by creating a Paperclip issue
+ * assigned to him. OpenClaw replies by calling the Telegram Bot API directly
+ * using TELEGRAM_BOT_TOKEN from his runtime.
+ */
+export async function forwardToOpenClaw(
+  msg: TelegramMessage,
+  voiceTranscript?: string,
+): Promise<void> {
+  const chatId = msg.chat.id;
+  const user = msg.from;
+  const text = msg.text ?? voiceTranscript ?? "";
+  const chatTitle =
+    msg.chat.title ?? msg.chat.first_name ?? String(chatId);
+  const userName = [user.first_name, user.last_name].filter(Boolean).join(" ");
+
+  const snippet = text.slice(0, 60).replace(/\n/g, " ").trim() ||
+    (msg.voice ? "[voice]" : "[media]");
+  const title = `TG | ${chatTitle} | ${userName}: ${snippet}`;
+
+  const voiceNote = voiceTranscript
+    ? `\n\n**Voice transcript:** "${voiceTranscript}"`
+    : msg.voice
+    ? `\n\n**Voice file_id:** \`${msg.voice.file_id}\``
+    : "";
+
+  const description = `## Telegram Message
+
+**From:** ${userName}${user.username ? ` (@${user.username})` : ""}
+**Chat:** ${chatTitle} (chat\\_id: \`${chatId}\`, type: \`${msg.chat.type}\`)
+**Message ID:** ${msg.message_id}
+**Date:** ${new Date(msg.date * 1000).toISOString()}
+
+## Content
+
+${text || "_[no text — see voice/media note below]_"}${voiceNote}
+
+---
+> **Reply via:** \`POST https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage\`
+> Body: \`{"chat_id": ${chatId}, "text": "...", "parse_mode": "Markdown"}\``;
+
+  await paperclip(`/api/companies/${PAPERCLIP_COMPANY_ID}/issues`, {
+    method: "POST",
+    body: JSON.stringify({
+      title,
+      description,
+      priority: "medium",
+      status: "todo",
+      assigneeAgentId: OPENCLAW_AGENT_ID,
+    }),
+  });
+}
+
 // ─── Main agent loop ──────────────────────────────────────────────────────────
 
 export async function runAgent(
