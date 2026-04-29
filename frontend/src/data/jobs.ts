@@ -19,12 +19,28 @@ export interface JobListing {
   category: JobCategory;
   shiftKind: ShiftKind;
   salaryTier: SalaryTier;
+  salaryMin: number;
+  salaryMax: number;
+  salaryCurrency: string;
+  salaryUnit: "HOUR" | "MONTH";
   pl: JobLocale;
   de: JobLocale;
   nl: JobLocale;
   datePosted: string;
   validThrough: string;
   employmentType: string;
+}
+
+const EMPLOYMENT_TYPE_MAP: Record<string, string> = {
+  FULL_TIME: "FULL_TIME",
+  PART_TIME: "PART_TIME",
+  TEMPORARY: "TEMPORARY",
+  CONTRACTOR: "CONTRACTOR",
+  CONTRACT: "CONTRACTOR",
+};
+
+export function mapEmploymentType(type: string): string {
+  return EMPLOYMENT_TYPE_MAP[type.toUpperCase()] ?? "TEMPORARY";
 }
 
 export const jobs: JobListing[] = [
@@ -35,6 +51,10 @@ export const jobs: JobListing[] = [
     category: "picker",
     shiftKind: "rotating",
     salaryTier: "entry",
+    salaryMin: 32,
+    salaryMax: 38,
+    salaryCurrency: "PLN",
+    salaryUnit: "HOUR",
     pl: {
       title: "Pracownik magazynowy",
       location: "Słubice / Frankfurt (Oder)",
@@ -91,6 +111,10 @@ export const jobs: JobListing[] = [
     category: "forklift",
     shiftKind: "day",
     salaryTier: "mid",
+    salaryMin: 35,
+    salaryMax: 42,
+    salaryCurrency: "PLN",
+    salaryUnit: "HOUR",
     pl: {
       title: "Operator wózka widłowego",
       location: "Słubice",
@@ -147,6 +171,10 @@ export const jobs: JobListing[] = [
     category: "picker",
     shiftKind: "rotating",
     salaryTier: "entry",
+    salaryMin: 31,
+    salaryMax: 37,
+    salaryCurrency: "PLN",
+    salaryUnit: "HOUR",
     pl: {
       title: "Pracownik produkcji",
       location: "Słubice / okolice",
@@ -203,6 +231,10 @@ export const jobs: JobListing[] = [
     category: "driver",
     shiftKind: "day",
     salaryTier: "mid",
+    salaryMin: 33,
+    salaryMax: 40,
+    salaryCurrency: "PLN",
+    salaryUnit: "HOUR",
     pl: {
       title: "Kierowca logistyczny (kat. B)",
       location: "Słubice / Frankfurt (Oder) / region",
@@ -259,6 +291,10 @@ export const jobs: JobListing[] = [
     category: "picker",
     shiftKind: "day",
     salaryTier: "mid",
+    salaryMin: 14,
+    salaryMax: 17,
+    salaryCurrency: "EUR",
+    salaryUnit: "HOUR",
     pl: {
       title: "Pracownik szklarni (kwiaty / warzywa)",
       location: "Holandia (Westland / Aalsmeer / region)",
@@ -315,6 +351,10 @@ export const jobs: JobListing[] = [
     category: "picker",
     shiftKind: "rotating",
     salaryTier: "entry",
+    salaryMin: 14,
+    salaryMax: 16,
+    salaryCurrency: "EUR",
+    salaryUnit: "HOUR",
     pl: {
       title: "Pracownik magazynowy / produkcji",
       location: "Holandia / Belgia",
@@ -371,6 +411,10 @@ export const jobs: JobListing[] = [
     category: "picker",
     shiftKind: "rotating",
     salaryTier: "entry",
+    salaryMin: 14,
+    salaryMax: 17,
+    salaryCurrency: "EUR",
+    salaryUnit: "HOUR",
     pl: {
       title: "Pracownik magazynowy (Holandia)",
       location: "Holandia (Rotterdam / Amsterdam / region)",
@@ -427,6 +471,10 @@ export const jobs: JobListing[] = [
     category: "forklift",
     shiftKind: "day",
     salaryTier: "high",
+    salaryMin: 15,
+    salaryMax: 18,
+    salaryCurrency: "EUR",
+    salaryUnit: "HOUR",
     pl: {
       title: "Operator wózka widłowego (Holandia)",
       location: "Holandia (Venlo / Eindhoven / region)",
