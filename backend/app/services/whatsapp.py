@@ -1,7 +1,7 @@
 """
 WhatsApp Business API helper — Meta Graph API v19.0.
 
-Sends text messages via the Cloud API endpoint:
+Sends messages via the Cloud API endpoint:
     POST https://graph.facebook.com/v19.0/{phone_number_id}/messages
 
 Configuration (env vars):
@@ -26,36 +26,29 @@ logger = logging.getLogger(__name__)
 
 _GRAPH_API_BASE = "https://graph.facebook.com/v19.0"
 
+_TEMPLATE_LANGUAGE_MAP = {
+    "pl": "pl",
+    "en": "en",
+    "uk": "uk",
+    "de": "de",
+    "ru": "ru",
+}
 
-async def send_whatsapp_message(to: str, body: str) -> bool:
-    """
-    Send a plain-text WhatsApp message to `to` (E.164 without '+').
 
-    Returns True if Meta accepted the request (HTTP 200), False otherwise.
-    """
+def _get_credentials() -> tuple[str, str] | None:
     phone_number_id = settings.whatsapp_phone_number_id
     access_token = settings.whatsapp_access_token
-
     if not phone_number_id or not access_token:
-        logger.warning(
-            "[whatsapp] WHATSAPP_PHONE_NUMBER_ID or WHATSAPP_ACCESS_TOKEN not configured — "
-            "message to %s skipped",
-            to,
-        )
-        return False
+        return None
+    return phone_number_id, access_token
 
+
+async def _send(phone_number_id: str, access_token: str, to: str, payload: dict) -> bool:
     url = f"{_GRAPH_API_BASE}/{phone_number_id}/messages"
-    payload = {
-        "messaging_product": "whatsapp",
-        "to": to,
-        "type": "text",
-        "text": {"body": body, "preview_url": False},
-    }
     headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
     }
-
     try:
         async with httpx.AsyncClient(timeout=15.0) as client:
             response = await client.post(url, json=payload, headers=headers)
@@ -71,6 +64,63 @@ async def send_whatsapp_message(to: str, body: str) -> bool:
     except httpx.HTTPError as exc:
         logger.error("[whatsapp] HTTP error sending to %s: %s", to, exc)
         return False
+
+
+async def send_whatsapp_template(
+    to: str,
+    template_name: str,
+    language_code: str,
+    body_params: list[str] | None = None,
+) -> bool:
+    """Send a pre-approved template message (required for business-initiated conversations)."""
+    creds = _get_credentials()
+    if creds is None:
+        logger.warning("[whatsapp] credentials not configured — template to %s skipped", to)
+        return False
+
+    lang = _TEMPLATE_LANGUAGE_MAP.get(language_code, "en")
+    payload: dict = {
+        "messaging_product": "whatsapp",
+        "to": to,
+        "type": "template",
+        "template": {
+            "name": template_name,
+            "language": {"code": lang},
+        },
+    }
+    if body_params:
+        payload["template"]["components"] = [
+            {
+                "type": "body",
+                "parameters": [{"type": "text", "text": p} for p in body_params],
+            }
+        ]
+    return await _send(*creds, to, payload)
+
+
+async def send_whatsapp_message(to: str, body: str) -> bool:
+    """
+    Send a plain-text WhatsApp message to `to` (E.164 without '+').
+
+    Only works within the 24-hour customer service window (after user replied).
+    For business-initiated first contact, use send_whatsapp_template().
+    """
+    creds = _get_credentials()
+    if creds is None:
+        logger.warning(
+            "[whatsapp] WHATSAPP_PHONE_NUMBER_ID or WHATSAPP_ACCESS_TOKEN not configured — "
+            "message to %s skipped",
+            to,
+        )
+        return False
+
+    payload = {
+        "messaging_product": "whatsapp",
+        "to": to,
+        "type": "text",
+        "text": {"body": body, "preview_url": False},
+    }
+    return await _send(*creds, to, payload)
 
 
 def normalize_phone(phone: str) -> str:

@@ -18,7 +18,7 @@ Each ChatbotSession row carries a `session_state` JSONB column:
 
 Step order
 ──────────
-  language_selection → experience → availability → relocation → salary → complete
+  template_sent → language_selection → experience → availability → relocation → salary → complete
 
 "Skip known fields" policy
 ──────────────────────────
@@ -53,7 +53,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.candidates import Candidate
 from app.models.chatbot import ChatbotSession
 from app.models.enums import ChatbotChannel, ScreeningStatus
-from app.services.whatsapp import send_whatsapp_message
+from app.services.whatsapp import send_whatsapp_message, send_whatsapp_template
 
 if TYPE_CHECKING:
     pass
@@ -158,7 +158,12 @@ async def initiate_session(
 ) -> ChatbotSession | None:
     """
     Create a ChatbotSession for `candidate`, set the candidate to
-    `chatbot_in_progress`, and send the opening WhatsApp message.
+    `chatbot_in_progress`, and send the opening WhatsApp template message.
+
+    The first message must be an approved template (WhatsApp Business API
+    requirement for business-initiated conversations). Once the user replies,
+    the 24-hour customer service window opens and follow-up questions are
+    sent as plain text.
 
     Returns the new ChatbotSession, or None if the candidate has no phone
     or is already in/past a chatbot state.
@@ -192,29 +197,17 @@ async def initiate_session(
     if candidate.availability_from is not None:
         answers["availability"] = "web_form"
 
-    if language:
-        # Skip language selection — go straight to experience
-        first_step = "experience"
-        state: dict = {
-            "step": first_step,
-            "language": language,
-            "answers": answers,
-        }
-        opening_message = (
-            _t(language, "welcome", first_name=candidate.first_name)
-            + "\n\n"
-            + _question_for_step(first_step, language)
-        )
-    else:
-        # Language unknown — ask first
-        first_step = "language_selection"
-        state = {
-            "step": first_step,
-            "language": None,
-            "answers": answers,
-        }
-        opening_message = _t(_DEFAULT_LANGUAGE, "language_prompt")
+    # First step is always template_sent; the actual screening step is stored
+    # so advance() knows where to go when the user replies.
+    next_screening_step = "experience" if language else "language_selection"
+    state: dict = {
+        "step": "template_sent",
+        "next_step": next_screening_step,
+        "language": language,
+        "answers": answers,
+    }
 
+    template_text = f"[template: screening_welcome, name={candidate.first_name}]"
     session = ChatbotSession(
         candidate_id=candidate.id,
         channel=channel,
@@ -222,7 +215,7 @@ async def initiate_session(
         messages=[
             {
                 "role": "bot",
-                "text": opening_message,
+                "text": template_text,
                 "ts": datetime.now(tz=timezone.utc).isoformat(),
             }
         ],
@@ -238,16 +231,20 @@ async def initiate_session(
     await db.refresh(session)
     await db.refresh(candidate)
 
-    # Send opening message — non-blocking best-effort
-    from app.services.whatsapp import normalize_phone  # local import avoids circularity
+    from app.services.whatsapp import normalize_phone
     phone = normalize_phone(candidate.phone)
-    await send_whatsapp_message(phone, opening_message)
+    lang_code = language or _DEFAULT_LANGUAGE
+    await send_whatsapp_template(
+        to=phone,
+        template_name="screening_welcome",
+        language_code=lang_code,
+        body_params=[candidate.first_name],
+    )
 
     logger.info(
-        "[chatbot_fsm] Session %s initiated for candidate %s (step=%s, lang=%s)",
+        "[chatbot_fsm] Session %s initiated for candidate %s (template_sent, lang=%s)",
         session.id,
         candidate.id,
-        first_step,
         language,
     )
     return session
@@ -286,6 +283,27 @@ async def advance(
     if step == "complete":
         reply = _t(language, "already_screened")
         messages.append({"role": "bot", "text": reply, "ts": now_iso})
+        session.messages = messages
+        await db.commit()
+        return reply
+
+    # ---- Template sent (user replied to welcome template) ------------------
+    if step == "template_sent":
+        next_step = state.get("next_step", "experience")
+        state["step"] = next_step
+        state.pop("next_step", None)
+
+        if next_step == "language_selection":
+            reply = _t(_DEFAULT_LANGUAGE, "language_prompt")
+        else:
+            reply = (
+                _t(language, "welcome", first_name=candidate.first_name)
+                + "\n\n"
+                + _question_for_step(next_step, language)
+            )
+
+        messages.append({"role": "bot", "text": reply, "ts": now_iso})
+        session.session_state = state
         session.messages = messages
         await db.commit()
         return reply
