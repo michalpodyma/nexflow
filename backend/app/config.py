@@ -62,5 +62,13 @@ class Settings(BaseSettings):
     # Generate with: python3 -c "import secrets; print(secrets.token_urlsafe(32))"
     openclaw_api_key: str = ""                 # OPENCLAW_API_KEY
 
+    # Google Workspace — delegated OAuth on the board user's account.
+    # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.
+    # Board user performs the one-time consent flow; Developer stores the
+    # resulting refresh token here.  Never log these values.
+    google_oauth_client_id: str = ""           # GOOGLE_OAUTH_CLIENT_ID
+    google_oauth_client_secret: str = ""       # GOOGLE_OAUTH_CLIENT_SECRET
+    google_refresh_token: str = ""             # GOOGLE_REFRESH_TOKEN
+
 
 settings = Settings()
