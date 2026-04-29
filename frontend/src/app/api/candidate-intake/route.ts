@@ -96,6 +96,7 @@ async function upsertContact(p: IntakePayload): Promise<string> {
     candidate_gdpr_consent_at: p.gdpr_consent_at,
     ...(p.document_type ? { candidate_document_type: p.document_type } : {}),
     ...(p.cv_url ? { candidate_cv_url: p.cv_url } : {}),
+    ...(p.referred_by ? { candidate_referred_by: p.referred_by } : {}),
   };
 
   if (contactId) {
