@@ -1,9 +1,11 @@
 /**
  * POST /api/telegram
  *
- * Telegram webhook — validates the request then forwards each message
- * to OpenClaw (Chief of Staff) via a Paperclip issue. All LLM processing
- * has moved to OpenClaw; this route is now a thin forwarder shim (EUR-314).
+ * Telegram webhook — validates the request, applies the allowlist gate,
+ * then appends each message as a comment on a per-chat transcript issue
+ * assigned to OpenClaw (EUR-335/EUR-347).
+ *
+ * Non-allowlisted senders receive a polite rejection; no Paperclip issue is created.
  *
  * Security: validated via X-Telegram-Bot-Api-Secret-Token header.
  */
@@ -13,6 +15,8 @@ import { NextRequest, NextResponse } from "next/server";
 import {
   TELEGRAM_WEBHOOK_SECRET,
   type TelegramUpdate,
+  getAllowlistEntry,
+  sendPoliteRejection,
   forwardToOpenClaw,
 } from "@/lib/telegram-agent";
 
@@ -35,7 +39,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
     return NextResponse.json({ error: "Bad request" }, { status: 400 });
   }
 
-  // 3. Forward to OpenClaw — awaited so errors are logged before we return 200
+  // 3. Handle update — awaited so errors are logged before we return 200
   await handleUpdate(update);
 
   return NextResponse.json({ ok: true });
@@ -50,15 +54,24 @@ async function handleUpdate(update: TelegramUpdate): Promise<void> {
   try {
     const chatId = msg.chat.id;
     const user = msg.from;
-    const text = (msg.text ?? "").trim();
 
-    if (msg.voice) {
-      await forwardToOpenClaw(chatId, user, "[Voice message]", "voice");
+    // 1. Allowlist gate
+    const entry = getAllowlistEntry(chatId);
+    if (!entry) {
+      console.log(`[tg-gateway] DROPPED | chatId:${chatId} | username:@${user?.username ?? "unknown"} | preview:${(msg.text ?? "").slice(0, 60)}`);
+      await sendPoliteRejection(chatId);
       return;
     }
 
+    // 2. Forward to transcript
+    if (msg.voice) {
+      await forwardToOpenClaw(chatId, entry, user, "[Voice message]", "voice");
+      return;
+    }
+
+    const text = (msg.text ?? "").trim();
     if (text) {
-      await forwardToOpenClaw(chatId, user, text, "text");
+      await forwardToOpenClaw(chatId, entry, user, text, "text");
       return;
     }
 

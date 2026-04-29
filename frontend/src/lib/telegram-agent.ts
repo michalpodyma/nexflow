@@ -1,12 +1,13 @@
 /**
- * Telegram bot helpers — forwarder shim to OpenClaw (Paperclip).
+ * Telegram bot helpers — gateway + transcript forwarder to OpenClaw (Paperclip).
  *
- * Inbound: each message creates a Paperclip issue assigned to OpenClaw.
+ * Inbound flow (EUR-335/EUR-347):
+ *   1. Allowlist gate: non-allowlisted chatIds are dropped with a polite rejection.
+ *   2. Allowlisted chatIds: messages are appended as comments on a per-chat
+ *      "transcript" issue (reused across messages). OpenClaw wakes via comment wake.
+ *
  * Outbound: OpenClaw replies via Telegram API directly using TELEGRAM_BOT_TOKEN
  *           exposed in his adapter env.
- *
- * The old LLM loop (OpenRouter/Qwen + Whisper + Redis) has been removed.
- * See EUR-314 for the migration rationale.
  */
 
 // ─── Config ───────────────────────────────────────────────────────────────────
@@ -67,6 +68,23 @@ export interface TelegramCallbackQuery {
   data?: string;
 }
 
+// ─── Allowlist ────────────────────────────────────────────────────────────────
+
+export interface AllowlistEntry {
+  chatId: number;
+  role: "owner" | "team";
+  name: string;
+}
+
+function parseAllowlist(): AllowlistEntry[] {
+  const raw = process.env.TELEGRAM_ALLOWLIST_JSON ?? "[]";
+  try { return JSON.parse(raw); } catch { return []; }
+}
+
+export function getAllowlistEntry(chatId: number): AllowlistEntry | null {
+  return parseAllowlist().find(e => e.chatId === chatId) ?? null;
+}
+
 // ─── Telegram API helpers ─────────────────────────────────────────────────────
 
 async function telegramApi(method: string, body: Record<string, unknown>): Promise<unknown> {
@@ -94,64 +112,123 @@ export async function sendTyping(chatId: number): Promise<void> {
   await telegramApi("sendChatAction", { chat_id: chatId, action: "typing" });
 }
 
-// ─── Paperclip forwarder ──────────────────────────────────────────────────────
+export async function sendPoliteRejection(chatId: number): Promise<void> {
+  await sendMessage(
+    chatId,
+    "Ten bot jest wewnętrzny dla Nexflow. Jeśli chcesz dołączyć do naszego programu pracowniczego, skontaktuj się z nami przez stronę nexflow.pl."
+  );
+}
 
-export async function forwardToOpenClaw(
-  chatId: number,
+// ─── Transcript helpers ───────────────────────────────────────────────────────
+
+async function findOpenTranscript(chatId: number): Promise<string | null> {
+  const q = encodeURIComponent(`[Telegram Transcript] chat ${chatId}`);
+  const res = await fetch(
+    `${PAPERCLIP_API_URL}/api/companies/${PAPERCLIP_COMPANY_ID}/issues?q=${q}&status=in_progress`,
+    { headers: { Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}` } }
+  );
+  if (!res.ok) return null;
+  const issues = await res.json() as Array<{ id: string; title: string }>;
+  const match = issues.find(i => i.title.includes(`(chat ${chatId})`));
+  return match?.id ?? null;
+}
+
+async function createTranscriptIssue(
+  entry: AllowlistEntry,
   user: TelegramUser,
-  text: string,
-  messageType: "text" | "voice" = "text",
-): Promise<{ identifier: string } | null> {
-  if (!PAPERCLIP_BOT_API_KEY) {
-    console.error("[tg-forwarder] PAPERCLIP_BOT_API_KEY not configured");
-    return null;
-  }
-
+): Promise<string | null> {
   const userName = [user.first_name, user.last_name].filter(Boolean).join(" ");
   const userHandle = user.username ? ` (@${user.username})` : "";
-  const preview = text.length > 60 ? `${text.slice(0, 60)}…` : text;
 
-  const description = `Incoming Telegram ${messageType === "voice" ? "voice " : ""}message forwarded to OpenClaw.
+  const description = `## Telegram Conversation Transcript
 
-**From:** ${userName}${userHandle} (Telegram user id: \`${user.id}\`)
-**Chat id:** \`${chatId}\`
-**Message:**
-${text}
+**Chat ID:** \`${entry.chatId}\`
+**Primary sender:** ${entry.name} | ${userName}${userHandle} (Telegram ID: \`${user.id}\`)
+**Role:** \`${entry.role}\`
 
 ---
 
-**To reply**, send a POST request to Telegram (TELEGRAM_BOT_TOKEN is in your env):
-\`\`\`
-POST https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage
-Content-Type: application/json
+**OpenClaw:** handle each new comment in this thread as a Telegram message from this chat.
 
-{ "chat_id": ${chatId}, "text": "your reply here", "parse_mode": "Markdown" }
-\`\`\``;
+- **Reply:** \`POST https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage\` with \`{"chat_id": ${entry.chatId}, "text": "...", "parse_mode": "Markdown"}\`
+- **Role rules:**
+  - \`owner\`: full ops authority — create issues for any agent, run briefings, read any thread
+  - \`team\`: own tasks only — answer own assigned tasks; escalate own blockers; cannot create issues for others
+- **Issue-creation triggers (owner only):** "utwórz zadanie", "stwórz ticket", "zrób ticket", "dodaj do paperclip", "file this", "create an issue", "add to paperclip"
+- **Close this issue** when the conversation has no pending follow-up.`;
 
-  const res = await fetch(`${PAPERCLIP_API_URL}/api/companies/${PAPERCLIP_COMPANY_ID}/issues`, {
-    method: "POST",
-    headers: {
-      Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}`,
-      "Content-Type": "application/json",
-    },
-    body: JSON.stringify({
-      title: `[Telegram] ${userName}: ${preview}`,
-      description,
-      priority: "medium",
-      status: "todo",
-      assigneeAgentId: OPENCLAW_AGENT_ID,
-    }),
-  });
+  const res = await fetch(
+    `${PAPERCLIP_API_URL}/api/companies/${PAPERCLIP_COMPANY_ID}/issues`,
+    {
+      method: "POST",
+      headers: { Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({
+        title: `[Telegram Transcript] ${entry.name} (chat ${entry.chatId})`,
+        description,
+        status: "in_progress",
+        priority: entry.role === "owner" ? "high" : "medium",
+        assigneeAgentId: OPENCLAW_AGENT_ID,
+        goalId: "b6976126-bb68-4311-8dc4-1902aa7ef9d4",
+      }),
+    }
+  );
+  if (!res.ok) return null;
+  const issue = await res.json() as { id: string; identifier: string };
+  console.log(`[tg-gateway] Created transcript ${issue.identifier} for chat ${entry.chatId}`);
+  return issue.id;
+}
 
-  if (!res.ok) {
-    const err = await res.text();
-    console.error(`[tg-forwarder] Paperclip issue creation failed: ${res.status} ${err}`);
-    return null;
+async function appendMessageToTranscript(
+  issueId: string,
+  entry: AllowlistEntry,
+  user: TelegramUser,
+  text: string,
+  messageType: "text" | "voice",
+): Promise<void> {
+  const userName = [user.first_name, user.last_name].filter(Boolean).join(" ");
+  const userHandle = user.username ? ` (@${user.username})` : "";
+  const ts = new Date().toISOString();
+  const typeLabel = messageType === "voice" ? "🎤 Voice | " : "";
+
+  const body = `**📩 Telegram | ${typeLabel}${entry.role} | ${userName}${userHandle}** — ${ts}
+
+${text}`;
+
+  await fetch(
+    `${PAPERCLIP_API_URL}/api/issues/${issueId}/comments`,
+    {
+      method: "POST",
+      headers: { Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}`, "Content-Type": "application/json" },
+      body: JSON.stringify({ body }),
+    }
+  );
+}
+
+// ─── Paperclip gateway ────────────────────────────────────────────────────────
+
+export async function forwardToOpenClaw(
+  chatId: number,
+  entry: AllowlistEntry,
+  user: TelegramUser,
+  text: string,
+  messageType: "text" | "voice" = "text",
+): Promise<void> {
+  if (!PAPERCLIP_BOT_API_KEY) {
+    console.error("[tg-gateway] PAPERCLIP_BOT_API_KEY not configured");
+    return;
   }
 
-  const issue = (await res.json()) as { identifier: string; id: string };
-  console.log(`[tg-forwarder] Created ${issue.identifier} → OpenClaw (chat ${chatId})`);
-  return { identifier: issue.identifier };
+  let issueId = await findOpenTranscript(chatId);
+  if (!issueId) {
+    issueId = await createTranscriptIssue(entry, user);
+  }
+  if (!issueId) {
+    console.error(`[tg-gateway] Failed to find or create transcript for chat ${chatId}`);
+    return;
+  }
+
+  await appendMessageToTranscript(issueId, entry, user, text, messageType);
+  console.log(`[tg-gateway] Appended message to transcript for chat ${chatId}`);
 }
 
 // ─── Daily briefing (task-list summary, no LLM) ───────────────────────────────
