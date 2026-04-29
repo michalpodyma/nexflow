@@ -14,10 +14,11 @@ lives only in settings / Paperclip secrets.
 
 from __future__ import annotations
 
+import asyncio
 import base64
 import logging
 import time
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 from datetime import datetime, timezone
 from typing import Any
 
@@ -43,7 +44,6 @@ class _TokenCache:
     expires_at: float = 0.0  # unix timestamp
 
 
-_cache: _TokenCache = field(default_factory=_TokenCache)  # module-level singleton
 _cache = _TokenCache()
 
 
@@ -133,21 +133,21 @@ async def gmail_list_messages(
 
     message_stubs = list_resp.json().get("messages", [])
 
-    # Fetch snippet + metadata for each stub (parallel).
-    async with httpx.AsyncClient(timeout=30) as client:
-        results: list[dict[str, Any]] = []
-        for stub in message_stubs:
-            detail_resp = await client.get(
-                f"{_GMAIL_BASE}/messages/{stub['id']}",
-                headers=_auth_headers(token),
-                params={"format": "metadata", "metadataHeaders": ["From", "Subject", "Date"]},
-            )
-            if detail_resp.status_code == 200:
-                results.append(detail_resp.json())
-            else:
-                logger.warning("Could not fetch Gmail message %s: %s", stub["id"], detail_resp.status_code)
+    async def _fetch_detail(client: httpx.AsyncClient, msg_id: str) -> dict[str, Any] | None:
+        resp = await client.get(
+            f"{_GMAIL_BASE}/messages/{msg_id}",
+            headers=_auth_headers(token),
+            params={"format": "metadata", "metadataHeaders": ["From", "Subject", "Date"]},
+        )
+        if resp.status_code == 200:
+            return resp.json()
+        logger.warning("Could not fetch Gmail message %s: %s", msg_id, resp.status_code)
+        return None
 
-    return results
+    async with httpx.AsyncClient(timeout=30) as client:
+        fetched = await asyncio.gather(*(_fetch_detail(client, s["id"]) for s in message_stubs))
+
+    return [r for r in fetched if r is not None]
 
 
 async def gmail_label_message(message_id: str, add_label_ids: list[str]) -> dict[str, Any]:

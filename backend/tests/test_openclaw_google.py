@@ -375,7 +375,7 @@ async def test_endpoint_list_gmail_messages(client: AsyncClient):
 @pytest.mark.asyncio
 async def test_endpoint_list_gmail_messages_requires_auth(client: AsyncClient):
     resp = await client.get("/api/openclaw/gmail/messages")
-    assert resp.status_code == 403  # HTTPBearer returns 403 when no token at all
+    assert resp.status_code == 401
 
 
 @pytest.mark.asyncio
