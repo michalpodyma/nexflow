@@ -1,11 +1,3 @@
-"""
-Celery task for scheduled Facebook Page posts.
-
-Intended schedule: Mon/Wed/Fri at 17:00 UTC (19:00 CEST).
-CMO triggers posts manually via POST /api/admin/facebook/post.
-This beat task is a placeholder — it logs a notice when no message is queued.
-"""
-
 import asyncio
 import logging
 
@@ -15,23 +7,51 @@ logger = logging.getLogger(__name__)
 
 
 @celery_app.task(name="post_scheduled_facebook")
-def post_scheduled_facebook(message: str | None = None, image_url: str | None = None) -> None:
-    """Post a scheduled update to the Facebook Page.
+def post_scheduled_facebook() -> None:
+    """Drain the facebook_post_queue: publish all posts due now."""
+    from datetime import datetime, timezone
 
-    When called by Celery beat without arguments, logs a placeholder notice.
-    When called manually with a message, delegates to FacebookService.
-    """
-    if not message:
-        logger.info("post_scheduled_facebook: no message queued — skipping.")
-        return
+    from sqlalchemy.orm import Session
 
-    async def _post() -> None:
-        from app.services import facebook as fb_service
+    from app.database import SessionLocal
+    from app.models.facebook import FacebookPostQueue
+    from app.services import facebook as fb_service
 
-        if image_url:
-            result = await fb_service.post_photo(caption=message, image_url=image_url)
-        else:
-            result = await fb_service.post_text(message=message)
-        logger.info("Scheduled Facebook post published: %s", result.get("id"))
+    db: Session = SessionLocal()
+    try:
+        now = datetime.now(timezone.utc)
+        pending = (
+            db.query(FacebookPostQueue)
+            .filter(
+                FacebookPostQueue.scheduled_at <= now,
+                FacebookPostQueue.posted_at.is_(None),
+            )
+            .order_by(FacebookPostQueue.scheduled_at)
+            .all()
+        )
 
-    asyncio.run(_post())
+        logger.info("facebook beat: %d post(s) due", len(pending))
+
+        for post in pending:
+            try:
+                if post.image_url:
+                    result = asyncio.run(
+                        fb_service.post_photo(caption=post.message, image_url=post.image_url)
+                    )
+                else:
+                    result = asyncio.run(fb_service.post_text(message=post.message))
+
+                post.post_id = result.get("id")
+                post.post_url = f"https://www.facebook.com/{post.post_id}"
+                post.posted_at = datetime.now(timezone.utc)
+                logger.info("FB post published: %s", post.post_id)
+            except RuntimeError as exc:
+                # Credentials not configured — log and stop the whole drain
+                logger.error("FB service not configured: %s", exc)
+                break
+            except Exception as exc:
+                logger.error("FB post failed (id=%s): %s", post.id, exc)
+            finally:
+                db.commit()
+    finally:
+        db.close()
