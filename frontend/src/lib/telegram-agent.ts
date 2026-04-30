@@ -122,12 +122,16 @@ export async function sendPoliteRejection(chatId: number): Promise<void> {
 // ─── Transcript helpers ───────────────────────────────────────────────────────
 
 async function findOpenTranscript(chatId: number): Promise<string | null> {
-  const q = encodeURIComponent(`[Telegram Transcript] chat ${chatId}`);
+  // Search by chatId number only — square brackets break the search engine
+  const q = encodeURIComponent(String(chatId));
   const res = await fetch(
     `${PAPERCLIP_API_URL}/api/companies/${PAPERCLIP_COMPANY_ID}/issues?q=${q}&status=in_progress`,
     { headers: { Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}` } }
   );
-  if (!res.ok) return null;
+  if (!res.ok) {
+    console.error(`[tg-gateway] findOpenTranscript fetch failed: ${res.status}`);
+    return null;
+  }
   const issues = await res.json() as Array<{ id: string; title: string }>;
   const match = issues.find(i => i.title.includes(`(chat ${chatId})`));
   return match?.id ?? null;
@@ -172,7 +176,11 @@ async function createTranscriptIssue(
       }),
     }
   );
-  if (!res.ok) return null;
+  if (!res.ok) {
+    const errText = await res.text().catch(() => "(unreadable)");
+    console.error(`[tg-gateway] createTranscriptIssue failed: ${res.status} ${errText}`);
+    return null;
+  }
   const issue = await res.json() as { id: string; identifier: string };
   console.log(`[tg-gateway] Created transcript ${issue.identifier} for chat ${entry.chatId}`);
   return issue.id;
