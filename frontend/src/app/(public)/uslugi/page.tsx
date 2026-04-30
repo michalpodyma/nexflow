@@ -241,7 +241,7 @@ export default function ServicesPage() {
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/kontakt" className="btn-primary">Umów rozmowę →</Link>
-            <a href="tel:+48882501520" className="btn-outline">Zadzwoń teraz</a>
+            <a href="tel:+48224878828" className="btn-outline">Zadzwoń teraz</a>
           </div>
         </div>
         </FadeIn>
