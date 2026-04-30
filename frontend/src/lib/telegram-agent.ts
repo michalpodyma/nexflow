@@ -12,11 +12,11 @@
 
 // ─── Config ───────────────────────────────────────────────────────────────────
 
-export const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN ?? "";
-export const TELEGRAM_WEBHOOK_SECRET = process.env.TELEGRAM_WEBHOOK_SECRET ?? "";
-const PAPERCLIP_API_URL = process.env.PAPERCLIP_API_URL ?? "https://app.paperclip.ing";
-const PAPERCLIP_BOT_API_KEY = process.env.PAPERCLIP_BOT_API_KEY ?? "";
-const PAPERCLIP_COMPANY_ID = process.env.PAPERCLIP_COMPANY_ID ?? "";
+export const TELEGRAM_BOT_TOKEN = (process.env.TELEGRAM_BOT_TOKEN ?? "").trim();
+export const TELEGRAM_WEBHOOK_SECRET = (process.env.TELEGRAM_WEBHOOK_SECRET ?? "").trim();
+const PAPERCLIP_API_URL = (process.env.PAPERCLIP_API_URL ?? "https://app.paperclip.ing").trim();
+const PAPERCLIP_BOT_API_KEY = (process.env.PAPERCLIP_BOT_API_KEY ?? "").trim();
+const PAPERCLIP_COMPANY_ID = (process.env.PAPERCLIP_COMPANY_ID ?? "").trim();
 
 const OPENCLAW_AGENT_ID = "5864221d-6a66-42e7-a99c-5b0e9274b9ee";
 
