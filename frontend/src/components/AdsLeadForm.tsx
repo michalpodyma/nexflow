@@ -56,7 +56,7 @@ const LABELS: Record<"pl" | "de", Labels> = {
     consentText:
       "Ich stimme der Verarbeitung meiner personenbezogenen Daten durch Nexflow Sp. z o.o. zur Personalvermittlung gemäß DSGVO zu. Details in der ",
     privacyLabel: "Datenschutzerklärung",
-    privacyHref: "/polityka-prywatnosci",
+    privacyHref: "/datenschutz",
     submit: "Jetzt bewerben →",
     submitting: "Senden...",
     successTitle: "Vielen Dank!",
