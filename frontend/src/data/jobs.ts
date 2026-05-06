@@ -26,6 +26,10 @@ export interface JobListing {
   pl: JobLocale;
   de: JobLocale;
   nl: JobLocale;
+  /** Schema.org addressLocality for PL jobLocation (required when countries includes "PL") */
+  plCity?: string;
+  /** Schema.org addressRegion for PL jobLocation (required when countries includes "PL") */
+  plRegion?: string;
   datePosted: string;
   validThrough: string;
   employmentType: string;
@@ -100,6 +104,8 @@ export const jobs: JobListing[] = [
       ],
       tag: "Magazijn",
     },
+    plCity: "Słubice",
+    plRegion: "Lubuskie",
     datePosted: "2026-03-01",
     validThrough: "2026-10-31",
     employmentType: "TEMPORARY",
@@ -160,6 +166,8 @@ export const jobs: JobListing[] = [
       ],
       tag: "Magazijn",
     },
+    plCity: "Kąty Wrocławskie",
+    plRegion: "Dolnośląskie",
     datePosted: "2026-05-06",
     validThrough: "2026-10-31",
     employmentType: "TEMPORARY",
@@ -220,6 +228,8 @@ export const jobs: JobListing[] = [
       ],
       tag: "Logistiek",
     },
+    plCity: "Słubice",
+    plRegion: "Lubuskie",
     datePosted: "2026-03-01",
     validThrough: "2026-10-31",
     employmentType: "TEMPORARY",
@@ -280,6 +290,8 @@ export const jobs: JobListing[] = [
       ],
       tag: "Productie",
     },
+    plCity: "Słubice",
+    plRegion: "Lubuskie",
     datePosted: "2026-03-15",
     validThrough: "2026-10-31",
     employmentType: "TEMPORARY",
@@ -340,6 +352,8 @@ export const jobs: JobListing[] = [
       ],
       tag: "Transport",
     },
+    plCity: "Słubice",
+    plRegion: "Lubuskie",
     datePosted: "2026-03-20",
     validThrough: "2026-10-31",
     employmentType: "TEMPORARY",

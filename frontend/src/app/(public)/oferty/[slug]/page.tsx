@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Script from "next/script";
 
-import { jobs, mapEmploymentType } from "@/data/jobs";
+import { jobs, mapEmploymentType, type JobListing } from "@/data/jobs";
 import { Button } from "@/components/ui/button";
 
 type Props = { params: Promise<{ slug: string }> };
@@ -32,15 +32,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-function buildJobLocation(countries: string[]) {
-  return countries.map((country) => {
+function buildJobLocation(job: JobListing) {
+  return job.countries.map((country) => {
     if (country === "PL") {
       return {
         "@type": "Place",
         address: {
           "@type": "PostalAddress",
-          addressLocality: "Słubice",
-          addressRegion: "Lubuskie",
+          addressLocality: job.plCity ?? "Słubice",
+          addressRegion: job.plRegion ?? "Lubuskie",
           addressCountry: "PL",
         },
       };
@@ -81,7 +81,7 @@ export default async function JobDetailPage({ params }: Props) {
       sameAs: "https://nexflow.work",
       logo: "https://nexflow.work/nexflow-logo-email.svg",
     },
-    jobLocation: buildJobLocation(job.countries),
+    jobLocation: buildJobLocation(job),
     baseSalary: {
       "@type": "MonetaryAmount",
       currency: job.salaryCurrency,
