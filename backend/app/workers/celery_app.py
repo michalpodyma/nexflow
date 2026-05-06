@@ -30,10 +30,10 @@ celery_app.conf.update(
             "task": "workers.tasks.notifications.scan_invoice_overdue",
             "schedule": crontab(hour=8, minute=0),
         },
-        # 17:00 UTC Mon/Wed/Fri (19:00 CEST) — scheduled Facebook page post placeholder
+        # every 30 min — drain scheduled Facebook posts promptly (EUR-520)
         "post-scheduled-facebook": {
             "task": "post_scheduled_facebook",
-            "schedule": crontab(hour=17, minute=0, day_of_week="1,3,5"),
+            "schedule": crontab(minute="*/30"),
         },
     },
 )
