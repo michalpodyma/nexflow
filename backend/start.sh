@@ -75,4 +75,10 @@ asyncio.run(run())
 PYEOF
 
 alembic upgrade head || echo "Alembic migration failed (non-fatal) — schema may already be up to date"
+
+# Start Celery worker (processes tasks) and beat (fires scheduled tasks) as background processes.
+# beat schedule is defined in app/workers/celery_app.py.
+celery -A app.workers.celery_app worker --loglevel=info &
+celery -A app.workers.celery_app beat --loglevel=info &
+
 exec uvicorn app.main:app --host 0.0.0.0 --port "${PORT:-8000}" --workers 2
