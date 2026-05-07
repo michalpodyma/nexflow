@@ -555,6 +555,423 @@ export const posts: BlogPost[] = [
 <p><em>Artykuł zaktualizowany: luty 2026.</em></p>
     `.trim(),
   },
+  {
+    slug: "praca-tymczasowa-vs-stala-niemcy",
+    title:
+      "Praca tymczasowa vs. stała — co lepiej wybrać dla pracownika w Niemczech? (2026)",
+    description:
+      "Praca tymczasowa Niemcy: porównanie umowy tymczasowej i stałej — zarobki, prawa, ścieżka kariery i kiedy warto zacząć od agencji. Przewodnik dla polskich pracowników.",
+    date: "2026-06-09",
+    lang: "pl",
+    content: `
+<p><strong>Praca tymczasowa Niemcy</strong> czy umowa stała — to pytanie zadaje sobie większość Polaków planujących wyjazd za Odrę. Odpowiedź nie jest oczywista i zależy od Twojej sytuacji, doświadczenia i tego, czego szukasz. W tym artykule porównujemy oba modele krok po kroku — żebyś mógł świadomie wybrać lepszą ścieżkę.</p>
+
+<h2>Czym jest praca tymczasowa w Niemczech?</h2>
+<p><strong>Praca tymczasowa</strong> (<em>Zeitarbeit</em> lub <em>Leiharbeit</em>) to model, w którym pracownik jest zatrudniony przez agencję pracy (<em>Verleihfirma</em>), która deleguje go do różnych firm klientów (<em>Entleihbetriebe</em>). Reguluje to ustawa <em>Arbeitnehmerüberlassungsgesetz (AÜG)</em>.</p>
+<p>Praca stała (<em>Festanstellung</em>) to tradycyjna umowa bezpośrednio z pracodawcą — bez pośrednika.</p>
+<p><strong>Kluczowa różnica:</strong> W pracy tymczasowej Twój pracodawca to agencja, a nie firma, w której faktycznie pracujesz każdego dnia.</p>
+
+<h2>Porównanie: praca tymczasowa vs. stała</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Kryterium</th>
+      <th>Praca tymczasowa</th>
+      <th>Praca stała</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Czas do startu</td>
+      <td>3–7 dni roboczych</td>
+      <td>2–6 tygodni</td>
+    </tr>
+    <tr>
+      <td>Znajomość języka</td>
+      <td>Angielski komunikatywny</td>
+      <td>Często wymaga B1–B2 niem.</td>
+    </tr>
+    <tr>
+      <td>Stawka godzinowa (magazyn)</td>
+      <td>14,50–16,50 EUR/h</td>
+      <td>16–20 EUR/h (po stażu)</td>
+    </tr>
+    <tr>
+      <td>Urlop (min.)</td>
+      <td>25–28 dni/rok (TV Zeitarbeit)</td>
+      <td>20–30 dni/rok (TV branżowy)</td>
+    </tr>
+    <tr>
+      <td>Ochrona przed zwolnieniem</td>
+      <td>Niższa w 1. roku</td>
+      <td>Pełna po 6 miesiącach</td>
+    </tr>
+    <tr>
+      <td>Elastyczność miejsca pracy</td>
+      <td>Wysoka — możliwa zmiana firmy</td>
+      <td>Niska — jeden pracodawca</td>
+    </tr>
+    <tr>
+      <td>Ścieżka do stałej pracy</td>
+      <td>Tak — po 9–18 miesiącach</td>
+      <td>Już od pierwszego dnia</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Prawa pracownika tymczasowego w Niemczech</h2>
+<p>Pracownik tymczasowy ma te same prawa co pracownicy stali w zakresie BHP, czasu pracy i minimalnych zarobków. Ustawa AÜG gwarantuje:</p>
+<ul>
+  <li><strong>Mindestlohn</strong> (12,82 EUR/h w 2026 r.) lub stawka taryfowa TV Zeitarbeit — zależnie od tego, która jest wyższa</li>
+  <li><strong>Equal Pay po 15 miesiącach</strong> u tego samego pracodawcy — zarobki muszą być równe pracownikom stałym na tym samym stanowisku</li>
+  <li><strong>Maksymalna długość oddelegowania: 18 miesięcy</strong> u jednego klienta (z możliwością wydłużenia do 24 mies. przy taryfowym porozumieniu)</li>
+  <li>Prawo do świadczeń socjalnych takich jak Krankengeld (zasiłek chorobowy) i Urlaubsgeld (ekwiwalent urlopowy)</li>
+</ul>
+<blockquote><p><strong>Ważne:</strong> Jeśli agencja jest stroną Tarifvertrag Zeitarbeit (BAP/iGZ), Twoja stawka zaczyna się od Entgeltgruppe (EG) wyższej niż Mindestlohn. Przy pracy magazynowej z uprawnieniami UDT: EG 2, tj. ok. 14,50–15,50 EUR/h.</p></blockquote>
+
+<h2>Kiedy wybrać pracę tymczasową?</h2>
+<p>Praca tymczasowa przez agencję to lepsza opcja, gdy:</p>
+<ul>
+  <li><strong>Startujesz od zera</strong> — nie znasz rynku, nie masz sieci kontaktów, nie mówisz jeszcze płynnie po niemiecku</li>
+  <li><strong>Chcesz szybko zacząć zarabiać</strong> — 3–7 dni od zgłoszenia do pierwszej zmiany vs. kilka tygodni przy bezpośredniej aplikacji</li>
+  <li><strong>Chcesz sprawdzić pracodawcę i środowisko</strong> przed długoterminowym zobowiązaniem</li>
+  <li><strong>Potrzebujesz wsparcia formalnego</strong> — agencja obsługuje umowę, rejestrację podatkową, ubezpieczenie i A1</li>
+  <li><strong>Jesteś Grenzpendlerem</strong> — agencja zna specyfikę pracy transgranicznej i zorganizuje zatrudnienie po obu stronach granicy</li>
+</ul>
+
+<h2>Kiedy wybrać pracę stałą?</h2>
+<p>Bezpośrednia umowa z pracodawcą jest korzystniejsza, gdy:</p>
+<ul>
+  <li>Masz już <strong>doświadczenie i konkretne kwalifikacje</strong> cenione na rynku (Schichtleiter, mechanik, specjalista ds. BHP)</li>
+  <li>Posługujesz się <strong>językiem niemieckim na poziomie B1+</strong> — otwiera drzwi do wyższych stanowisk</li>
+  <li>Zależy Ci na <strong>pełnej ochronie przed zwolnieniem</strong> (Kündigungsschutz) i benefitach zakładowych (grupowe ubezpieczenia, premie roczne)</li>
+  <li>Chcesz budować <strong>długoterminową karierę</strong> w konkretnej firmie z perspektywą awansu</li>
+</ul>
+
+<h2>Ścieżka: od pracy tymczasowej do stałej</h2>
+<p>W praktyce większość polskich pracowników w Niemczech zaczyna od agencji i przechodzi na bezpośrednie zatrudnienie po 9–18 miesiącach. Ten model działa, bo:</p>
+<ol>
+  <li>Pracodawca może ocenić pracownika w praktyce przed podpisaniem umowy stałej</li>
+  <li>Pracownik może sprawdzić, czy środowisko pracy mu odpowiada</li>
+  <li>Agencja (np. Nexflow) prowadzi negocjacje przejścia i dba o poprawne warunki</li>
+</ol>
+<p><strong>Co ważne:</strong> Po 15 miesiącach u jednego pracodawcy masz prawo do Equal Pay — zarobki muszą być takie same jak u pracowników stałych. To często zbliża stawkę do poziomu umowy bezpośredniej, czyniąc różnicę mniej istotną finansowo.</p>
+
+<h2>Praktyczny przykład: Łukasz, operator wózka, Słubice</h2>
+<blockquote>
+<p>Łukasz (32 l.) miał ważne uprawnienia UDT i rok doświadczenia w Polsce. Przez Nexflow zaczął pracę w centrum logistycznym we Frankfurcie nad Odrą po 5 dniach od zgłoszenia. Stawka: 15,50 EUR/h. Po 18 miesiącach firma zaproponowała mu umowę bezpośrednią z stawką 18 EUR/h i premią świąteczną. Dziś dojeżdża 8 minut autem i zarabia ok. 2.500 EUR netto/miesiąc.</p>
+</blockquote>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy jako pracownik tymczasowy mam takie same prawa BHP jak pracownicy stali?</strong><br/>Tak — przepisy BHP obowiązują wszystkich pracowników na terenie zakładu, niezależnie od formy zatrudnienia.</p>
+<p><strong>Co się dzieje, gdy pracodawca nie potrzebuje mnie po sezonie?</strong><br/>Agencja może przekierować Cię do innego klienta lub zaproponować inne stanowisko. To jedna z zalet pracy tymczasowej — większa sieć możliwości.</p>
+<p><strong>Czy mogę negocjować stawkę z agencją?</strong><br/>Tak — jeśli masz uprawnienia lub doświadczenie powyżej standardowego profilu, stawka jest negocjowalna. Powiedz rekruterowi o swoich kwalifikacjach.</p>
+<p><strong>Ile trwa rekrutacja przez Nexflow?</strong><br/>Standardowo 3–7 dni roboczych. Przeczytaj szczegóły w: <a href="/blog/jak-wyglada-rekrutacja-nexflow">Jak wygląda rekrutacja w Nexflow?</a></p>
+
+<p>Chcesz wiedzieć, ile możesz zarobić? Sprawdź: <a href="/blog/praca-na-wozku-widlowym-niemcy">Praca forklift Niemcy — zarobki i wymagania 2026</a>.</p>
+
+<hr/>
+<p><strong>Praca tymczasowa w Niemczech to inteligentny punkt startowy</strong> — zwłaszcza dla kogoś, kto chce szybko zacząć, przetestować rynek i zbudować reputację u pracodawcy bez biurokratycznych barier językowych.</p>
+<p><strong><a href="/praca">Wyślij zgłoszenie na nexflow.work/praca →</a></strong> Rekruter oddzwoni w ciągu jednego dnia roboczego.</p>
+<p><em>Artykuł zaktualizowany: czerwiec 2026. Stawki wg Tarifvertrag Zeitarbeit (BAP/iGZ) i Mindestlohn 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "zeitarbeit-frankfurt-oder-lager-logistik",
+    title:
+      "Zeitarbeit Frankfurt Oder: Stellen für Lager und Logistik (2026)",
+    description:
+      "Zeitarbeit Frankfurt Oder: aktuelle Stellen in Lager und Logistik, Stundenlöhne 14,50–16,50 EUR, Anforderungen und wie Sie in 5–7 Tagen anfangen können.",
+    date: "2026-06-16",
+    lang: "de",
+    content: `
+<p><strong>Zeitarbeit Frankfurt Oder</strong> — der Korridor zwischen Frankfurt (Oder) und Słubice gehört zu den aktivsten grenzüberschreitenden Arbeitsmärkten in der EU. Lager- und Logistikunternehmen auf beiden Seiten der Oder suchen kontinuierlich qualifizierte Mitarbeiter: Staplerfahrer, Kommissionierer, Schichtleiter. Dieser Artikel zeigt, welche Stellen aktuell gefragt sind, was sie zahlen und wie die Bewerbung über eine Zeitarbeitsfirma abläuft.</p>
+
+<h2>Warum Frankfurt (Oder) als Logistikstandort?</h2>
+<p>Frankfurt (Oder) liegt an der Kreuzung zweier europäischer Verkehrskorridore — der Autobahn A12 (Berlin–Warschau) und der Bundesstraße B5 in Richtung Stettin. Die Vorteile für Logistikbetriebe:</p>
+<ul>
+  <li><strong>Berlin: 80 km westlich</strong> — direkter Zugang zum Berliner Verbrauchermarkt und dem BER-Frachtbetrieb</li>
+  <li><strong>Hafen Stettin: 130 km nördlich</strong> — Seezugang für internationale Container</li>
+  <li><strong>Arbeitskräftepool aus Polen direkt nebenan</strong> — Słubice auf der anderen Seite der Stadtbrücke, Rzepin 18 km, Gorzów Wielkopolski 50 km</li>
+  <li><strong>Günstigere Lohnkosten</strong> im Vergleich zu Berlin oder Hamburg</li>
+</ul>
+<p>Das Ergebnis: Logistikzentren mehrerer nationaler und internationaler Betreiber haben sich in der Region angesiedelt und suchen dauerhaft Personal über Zeitarbeitsfirmen.</p>
+
+<h2>Welche Stellen werden gesucht?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Position</th>
+      <th>Typische Anforderungen</th>
+      <th>Stundenlohn (Zeitarbeit 2026)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Gabelstaplerfahrer / Staplerfahrer</td>
+      <td>Gültiger Staplerschein (UDT oder DGUV)</td>
+      <td>15,00–16,50 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Kommissionierer</td>
+      <td>Keine Vorkenntnisse nötig; Grundenglisch</td>
+      <td>13,50–14,50 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Lagermitarbeiter allgemein</td>
+      <td>Körperliche Belastbarkeit, Schichtbereitschaft</td>
+      <td>12,82–14,00 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Vorarbeiter / Schichtführer</td>
+      <td>2+ Jahre Erfahrung, Grundkenntnisse Deutsch</td>
+      <td>17,00–20,00 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Kranführer (Hallenkran)</td>
+      <td>Kranführerausweis, Erfahrung Schwerlast</td>
+      <td>16,00–18,00 EUR/h</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Mindestlohn 2026:</strong> 12,82 EUR/h — gilt für alle Arbeitnehmer auf deutschem Territorium, unabhängig von der Nationalität.</p>
+
+<h2>Voraussetzungen für eine Stelle in der Zeitarbeit Frankfurt Oder</h2>
+<p><strong>Für alle Positionen:</strong></p>
+<ul>
+  <li>EU-Staatsbürgerschaft (polnische Arbeitnehmer brauchen kein Visum)</li>
+  <li>Gültiger Personalausweis oder Reisepass</li>
+  <li>Schichtbereitschaft (Früh/Spät/Nacht je nach Betrieb)</li>
+  <li>Zuverlässige Erreichbarkeit des Arbeitsortes</li>
+</ul>
+<p><strong>Für Staplerfahrer zusätzlich:</strong></p>
+<ul>
+  <li>Gültiger Staplerschein: <strong>UDT (Polen)</strong> oder <strong>DGUV Grundsatz 308-001 (Deutschland)</strong> — beide werden akzeptiert</li>
+  <li>Betriebliche Einweisung (<em>Einweisung nach DGUV</em>) durch den Entleihbetrieb — dauert 1–2 Stunden und ist keine erneute Prüfung</li>
+  <li>Arbeitsmedizinische Untersuchung (G25) bei einigen Betrieben Pflicht — Nexflow informiert vorab</li>
+</ul>
+<blockquote><p>Polnische UDT-Scheine werden auf Basis der EU-Richtlinie 2005/36/EG anerkannt. Prüfen Sie das Ablaufdatum Ihres Scheins vor der Bewerbung — ein abgelaufener Schein ist der häufigste Ablehnungsgrund.</p></blockquote>
+
+<h2>Schichtmodelle und Zuschläge in der Region</h2>
+<p>Die meisten Lager- und Logistikbetriebe in Frankfurt (Oder) fahren 2- oder 3-Schicht-Betrieb:</p>
+<ul>
+  <li><strong>Frühschicht:</strong> 06:00–14:00 Uhr</li>
+  <li><strong>Spätschicht:</strong> 14:00–22:00 Uhr</li>
+  <li><strong>Nachtschicht:</strong> 22:00–06:00 Uhr</li>
+</ul>
+<p><strong>Gesetzliche und tarifliche Zuschläge (Zeitarbeit):</strong></p>
+<ul>
+  <li>Nachtzuschlag (23:00–06:00): +25 % auf den Grundlohn</li>
+  <li>Sonntagszuschlag: +50 %</li>
+  <li>Feiertagszuschlag: +100–125 %</li>
+  <li>Überstunden (ab 40 h/Woche): +25–50 %</li>
+</ul>
+<p>Ein Staplerfahrer in 3-Schicht mit zwei Nachtschichten pro Woche kommt realistisch auf <strong>1.950–2.200 EUR netto/Monat</strong>.</p>
+
+<h2>Grenzpendeln aus Polen: So funktioniert es</h2>
+<p>Viele Mitarbeiter in Lagern der Region Frankfurt (Oder) pendeln täglich aus Polen. Typische Pendelzeiten:</p>
+<ul>
+  <li><strong>Słubice → Frankfurt (Oder) Innenstadt:</strong> 5–8 Minuten über die Stadtbrücke</li>
+  <li><strong>Rzepin → Frankfurt (Oder):</strong> 18–22 Minuten PKW</li>
+  <li><strong>Świecko (Autobahn A12):</strong> 10 Minuten</li>
+</ul>
+<p><strong>Was Grenzpendler wissen müssen:</strong></p>
+<ul>
+  <li>Sozialversicherung bei Entleihung über eine polnische Agentur mit <strong>A1-Bescheinigung</strong>: ZUS (Polen) bleibt zuständig bis zu 24 Monate — niedrigere Lohnnebenkosten</li>
+  <li>Einkommensteuer: In der Regel in Deutschland zu zahlen, da Arbeitsort DE ist (Doppelbesteuerungsabkommen DE-PL gilt)</li>
+  <li>Kein Visum, kein Antrag notwendig — EU-Bürger haben volle Arbeitnehmerfreizügigkeit</li>
+</ul>
+<p>Weitere Details zu Sozialversicherung und Rechten: <a href="/blog/lagerarbeit-polen-grenzpendler-arbeitgeber">Lagerarbeit in Polen: Was Grenzpendler wissen müssen</a>.</p>
+
+<h2>Wie läuft die Bewerbung über Nexflow ab?</h2>
+<p>Nexflow ist seit 2013 im Frankfurt-Oder-Słubice-Korridor tätig und führt Bewerbungen auf Polnisch und Deutsch. Der Ablauf in 5 Schritten:</p>
+<ol>
+  <li><strong>Bewerbung</strong> — per WhatsApp, E-Mail oder über das Formular auf nexflow.work. Kein Lebenslauf auf Deutsch nötig</li>
+  <li><strong>Telefoninterview</strong> (10–15 Min.) — wir klären Qualifikation, Schichtbereitschaft und Standort</li>
+  <li><strong>Dokumentenprüfung</strong> — Personalausweis, Staplerschein (Scan per WhatsApp)</li>
+  <li><strong>Vorstellung beim Arbeitgeber</strong> — kurze betriebliche Einweisung oder kurzes Probefahren (bei Staplerpositionen)</li>
+  <li><strong>Arbeitsvertrag und Start</strong> — Vertrag digital, Start innerhalb von 5–7 Werktagen</li>
+</ol>
+<p>Nexflow übernimmt: Steuerregistrierung, Anmeldung bei der Krankenkasse bzw. A1-Bescheinigung beim ZUS, Erläuterung aller Vertragsdetails auf Polnisch.</p>
+
+<h2>Häufige Fragen zu Zeitarbeit Frankfurt Oder</h2>
+<p><strong>Muss ich Deutsch können?</strong><br/>Für operative Positionen (Staplerfahrer, Kommissionierer, Lagermitarbeiter) reicht Grundenglisch. Deutsch ist ein Plus für Aufstieg zur Teamleiterstelle.</p>
+<p><strong>Gibt es Unterkunft?</strong><br/>Für einige Stellen ja — Nexflow informiert bereits beim ersten Gespräch über Verfügbarkeit und Kosten (Abzug vom Nettogehalt wird vorab transparent kommuniziert).</p>
+<p><strong>Kann ich nach einiger Zeit direkt vom Arbeitgeber übernommen werden?</strong><br/>Ja — nach 9–18 Monaten ist eine Direktübernahme möglich. Nexflow unterstützt die Verhandlung.</p>
+<p><strong>Was kostet mich die Vermittlung?</strong><br/>Nichts. Die Vermittlungsgebühr trägt der Arbeitgeber — für Arbeitnehmer ist der Service kostenlos.</p>
+
+<hr/>
+<p><strong>Zeitarbeit Frankfurt Oder — jetzt bewerben.</strong> Nexflow besetzt Lager- und Logistikstellen in der Region Frankfurt (Oder) ganzjährig. Staplerfahrer mit gültigem UDT-Schein werden bevorzugt, aber auch ungelernte Lagermitarbeiter finden schnell eine Stelle.</p>
+<p><strong><a href="/praca">Jetzt Kontakt aufnehmen → nexflow.work</a></strong> Antwort innerhalb eines Werktages.</p>
+<p><em>Artikel aktualisiert: Juni 2026. Stundenlöhne gemäß Tarifvertrag Zeitarbeit BAP/iGZ und gesetzlichem Mindestlohn 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "jak-rozliczyc-podatek-praca-niemcy",
+    title:
+      "Jak rozliczyć podatek z pracy w Niemczech? Poradnik dla Polaków (2026)",
+    description:
+      "Praca w Niemczech podatek: klasy podatkowe, Steueridentifikationsnummer, zeznanie roczne przez ELSTER, odliczenia dla dojeżdżających i kiedy można odzyskać pieniądze.",
+    date: "2026-06-23",
+    lang: "pl",
+    content: `
+<p>Pracujesz lub planujesz pracę w Niemczech? <strong>Praca w Niemczech podatek</strong> to temat, który budzi wiele pytań — i wiele nieporozumień. Gdzie płacić, ile odliczyć, czy trzeba się rozliczać w Polsce, jak odzyskać nadpłatę? Ten poradnik odpowiada na te pytania krok po kroku, w oparciu o przepisy obowiązujące w 2026 roku.</p>
+
+<h2>Gdzie płacisz podatek jako Polak pracujący w Niemczech?</h2>
+<p>To zależy od Twojej sytuacji:</p>
+<ul>
+  <li><strong>Pracujesz w Niemczech i mieszkasz w Polsce, ale dojeżdżasz codziennie</strong> (Grenzpendler) — podatek płacisz w <strong>Niemczech</strong> (zasada miejsca wykonywania pracy wg umowy o unikaniu podwójnego opodatkowania DE-PL)</li>
+  <li><strong>Jesteś delegowany z Polski i masz certyfikat A1</strong> — podatek mimo wszystko należy się Niemcom, jeśli praca jest wykonywana na ich terytorium dłużej niż 183 dni w roku podatkowym</li>
+  <li><strong>Mieszkasz i pracujesz w Niemczech</strong> — pełne opodatkowanie w Niemczech; w Polsce składasz oświadczenie o dochodach zagranicznych, ale podwójnego podatku nie płacisz</li>
+</ul>
+<blockquote><p><strong>Zasada unikania podwójnego opodatkowania:</strong> Polska i Niemcy mają umowę, która zapobiega podwójnemu opodatkowaniu tych samych dochodów. Jeśli zapłaciłeś podatek w Niemczech, w Polsce albo nie płacisz nic, albo rozliczasz w sposób zwalniający z polskiego podatku (metoda wyłączenia z progresją).</p></blockquote>
+
+<h2>Steueridentifikationsnummer — Twój numer podatkowy w Niemczech</h2>
+<p><strong>Steueridentifikationsnummer</strong> (w skrócie: Steuer-ID lub IdNr) to 11-cyfrowy numer nadany każdemu, kto pracuje i płaci podatki w Niemczech. Jest jednorazowy, dożywotni i nie zmienia się przy zmianie pracodawcy.</p>
+<p><strong>Jak go uzyskać?</strong></p>
+<ul>
+  <li>Jeśli pracujesz przez agencję (np. Nexflow) i jest to Twoja pierwsza praca w Niemczech — agencja pomoże w rejestracji</li>
+  <li>Jeśli masz zameldowanie w Niemczech (<em>Anmeldung</em>) — numer otrzymasz automatycznie pocztą w ciągu kilku tygodni od meldunku</li>
+  <li>Jeśli nie masz meldunku — możesz wnioskować przez <em>Bundeszentralamt für Steuern</em> (BZSt) online</li>
+</ul>
+<p><strong>Podaj numer Steuer-ID pracodawcy (agencji) jak najszybciej</strong> — do tego czasu podatek jest pobierany według niekorzystnej klasy VI.</p>
+
+<h2>Klasy podatkowe w Niemczech (Steuerklassen)</h2>
+<p>Niemcy mają 6 klas podatkowych, które określają wysokość miesięcznego potrącenia podatku. To nie jest ostateczna kwota podatku — końcowe rozliczenie następuje po złożeniu zeznania rocznego.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Klasa</th>
+      <th>Komu przysługuje</th>
+      <th>Charakterystyka</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Klasa I</td>
+      <td>Singiel, rozwiedziony, wdowiec</td>
+      <td>Standardowe potrącenia; najczęstsza dla Polaków w DE</td>
+    </tr>
+    <tr>
+      <td>Klasa II</td>
+      <td>Samotny rodzic</td>
+      <td>Wyższy odpis na dziecko (<em>Entlastungsbetrag</em>)</td>
+    </tr>
+    <tr>
+      <td>Klasa III</td>
+      <td>Małżonek z wyższymi dochodami (jeśli partner w kl. V)</td>
+      <td>Najniższe potrącenia miesięczne</td>
+    </tr>
+    <tr>
+      <td>Klasa IV</td>
+      <td>Małżeństwo z podobnymi dochodami</td>
+      <td>Symetryczne potrącenia</td>
+    </tr>
+    <tr>
+      <td>Klasa V</td>
+      <td>Małżonek z niższymi dochodami (partner w kl. III)</td>
+      <td>Wyższe potrącenia miesięczne</td>
+    </tr>
+    <tr>
+      <td>Klasa VI</td>
+      <td>Drugie i kolejne miejsca pracy</td>
+      <td>Najwyższe potrącenia — brak ulg</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Polscy pracownicy w Niemczech przeważnie należą do klasy I.</strong> Jeśli masz małżonka pracującego w Niemczech, możliwa jest kombinacja III/V. Klasa VI dotyczy drugiego etatu — unikaj jej jako klasy głównej.</p>
+
+<h2>Czy musisz składać zeznanie podatkowe w Niemczech?</h2>
+<p><strong>Nie zawsze</strong> — ale często warto, bo możesz odzyskać nadpłatę.</p>
+<p><strong>Obowiązek złożenia zeznania (Pflichtveranlagung) masz gdy:</strong></p>
+<ul>
+  <li>Dochody z kilku źródeł przekroczyły 410 EUR łącznie</li>
+  <li>Pracowałeś na kilku etatach jednocześnie (różne pracodawcy)</li>
+  <li>Urząd skarbowy wezwał Cię do rozliczenia</li>
+  <li>Korzystałeś z klasy III/V (małżeństwo)</li>
+</ul>
+<p><strong>Dobrowolne zeznanie (Antragsveranlagung) warto złożyć gdy:</strong></p>
+<ul>
+  <li>Dojeżdżasz do pracy ponad 20 km (Pendlerpauschale = odliczenie kosztów dojazdu)</li>
+  <li>Kupiłeś narzędzia, odzież lub sprzęt do pracy</li>
+  <li>Miałeś okresy bezrobocia lub przerwy w zatrudnieniu</li>
+  <li>Płaciłeś koszty kwatery wynajętej w okolicach pracy</li>
+</ul>
+<blockquote><p><strong>Statystyki:</strong> Średni zwrot podatku w Niemczech dla osoby fizycznej to ok. 1.000–1.500 EUR rocznie. Pracownicy z kosztami dojazdu z Polski mogą odzyskać znacznie więcej.</p></blockquote>
+
+<h2>Najważniejsze odliczenia dla polskich pracowników</h2>
+<p><strong>1. Pendlerpauschale (odliczenie kosztów dojazdu)</strong></p>
+<p>Za każdy kilometr trasy w jedną stronę przysługuje odliczenie:</p>
+<ul>
+  <li>Pierwsze 20 km: <strong>0,30 EUR/km za dzień pracy</strong></li>
+  <li>Powyżej 20 km: <strong>0,38 EUR/km za dzień pracy</strong></li>
+</ul>
+<p>Przykład: Pracownik z Rzepin (ok. 30 km od Frankfurtu nad Odrą), 220 dni pracy w roku:<br/>
+20 km × 0,30 EUR × 220 dni = 1.320 EUR<br/>
+10 km × 0,38 EUR × 220 dni = 836 EUR<br/>
+<strong>Łącznie: 2.156 EUR odliczenia</strong> — co przy stawce 25% podatku daje ok. 500–540 EUR zwrotu.</p>
+<p><strong>2. Arbeitsmittel (koszty narzędzi i odzieży roboczej)</strong></p>
+<p>Kupione buty BHP, okulary ochronne, specjalistyczna odzież, narzędzia — do 110 EUR bez dokumentowania (Arbeitnehmerpauschbetrag jest wliczony w kwotę 1.230 EUR/rok). Powyżej — potrzebujesz paragonów.</p>
+<p><strong>3. Doppelte Haushaltsführung (podwójne gospodarstwo domowe)</strong></p>
+<p>Jeśli wynajmujesz mieszkanie w Niemczech i utrzymujesz dom w Polsce, możesz odliczyć:</p>
+<ul>
+  <li>Koszty wynajmu w Niemczech (do 1.000 EUR/miesiąc)</li>
+  <li>Koszty cotygodniowych dojazdów do domu w Polsce</li>
+  <li>Koszty przeprowadzki</li>
+</ul>
+<p><strong>4. Werbungskosten (ogólne koszty uzyskania przychodu)</strong></p>
+<p>Kurs językowy, literatura fachowa, subskrypcje branżowe, koszty szukania pracy — można odliczyć ponad standardową kwotę ryczałtową 1.230 EUR/rok.</p>
+
+<h2>Jak złożyć zeznanie podatkowe? Krok po kroku</h2>
+<p><strong>Opcja 1 — ELSTER (bezpłatnie online)</strong></p>
+<ol>
+  <li>Zarejestruj się na <em>elster.de</em> — potrzebny adres e-mail i Steuer-ID</li>
+  <li>Pobierz formularz <em>ESt 1 A</em> (zeznanie roczne osób fizycznych) lub użyj kreatora</li>
+  <li>Uzupełnij dane: Lohnsteuerbescheinigung od pracodawcy (dostaniesz do końca lutego za rok poprzedni)</li>
+  <li>Dodaj odliczenia: koszty dojazdu, narzędzia, inne koszty</li>
+  <li>Wyślij elektronicznie — potwierdzenie w ciągu kilku sekund</li>
+</ol>
+<p><strong>Opcja 2 — Steuererklärung przez doradcę lub Lohnsteuerhilfeverein</strong></p>
+<p>Lohnsteuerhilfeverein to stowarzyszenia pomocy podatkowej (koszt: ok. 80–200 EUR/rok w zależności od dochodu). Obsługują proste zeznania pracownicze. W dużych miastach są oddziały mówiące po polsku lub angielsku.</p>
+<p><strong>Termin na złożenie zeznania:</strong></p>
+<ul>
+  <li>Dobrowolne: do <strong>31 grudnia roku następującego po roku podatkowym</strong> (możliwe 4 lata wstecz)</li>
+  <li>Obowiązkowe: do <strong>31 lipca roku następującego</strong> (możliwe przedłużenie przez doradcę)</li>
+</ul>
+
+<h2>Czy trzeba rozliczać się w Polsce po pracy w Niemczech?</h2>
+<p>Zależy od Twojego statusu podatkowego w Polsce:</p>
+<p><strong>Jeśli jesteś polskim rezydentem podatkowym</strong> (centrum życia w Polsce — rodzina, dom, majątek) i pracujesz w Niemczech:</p>
+<ul>
+  <li>Składasz w Polsce <strong>PIT-36 z załącznikiem PIT-ZG</strong></li>
+  <li>Stosujesz <strong>metodę wyłączenia z progresją</strong> — dochód z Niemiec jest zwolniony z polskiego podatku, ale wpływa na ustalenie stawki podatku od ewentualnych innych dochodów polskich</li>
+  <li>Jeśli nie masz żadnych dochodów w Polsce — podatku w Polsce nie płacisz, ale zeznanie warto złożyć dla porządku</li>
+</ul>
+<p><strong>Jeśli wyprowadziłeś się do Niemiec i masz tam centrum życia</strong> — możesz zgłosić zmianę rezydencji podatkowej i rozliczać się wyłącznie w Niemczech.</p>
+
+<h2>Przykład: Ile można odzyskać?</h2>
+<blockquote>
+<p>Marta (28 l.) pracuje przez Nexflow w centrum logistycznym we Frankfurcie nad Odrą. Dochód roczny: 24.000 EUR brutto (klasa I). Dojeżdża z Rzepin (30 km). Kupiła buty BHP za 80 EUR i kurs angielskiego za 200 EUR.</p>
+<p>Odliczenia: Pendlerpauschale 2.156 EUR + Arbeitsmittel 280 EUR = 2.436 EUR łącznie</p>
+<p>Szacowany zwrot podatku: <strong>ok. 600–700 EUR</strong></p>
+<p>Czas potrzebny na wypełnienie ELSTER: ok. 1 godzina. Urząd przelewa pieniądze zazwyczaj w ciągu 6–8 tygodni.</p>
+</blockquote>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy mogę złożyć zeznanie za poprzednie lata?</strong><br/>Tak — zeznanie dobrowolne można złożyć do 4 lat wstecz. Jeśli nie składałeś zeznań w poprzednich latach pracy w Niemczech, możesz odzyskać nadpłaty z lat 2022–2025.</p>
+<p><strong>Co to jest Lohnsteuerbescheinigung i skąd je dostanę?</strong><br/>To zaświadczenie od pracodawcy (agencji) o rocznych dochodach i potrąconym podatku. Dostajesz je drogą pocztową lub elektronicznie do końca lutego za rok poprzedni. Przechowuj je — to podstawa zeznania.</p>
+<p><strong>Czy jako pracownik agencji mam dostęp do Lohnsteuerbescheinigung?</strong><br/>Tak — Nexflow wystawia je wszystkim pracownikom do końca lutego. Jeśli go nie otrzymałeś, skontaktuj się z biurem.</p>
+<p><strong>Czy pracując przez polską agencję z A1, płacę podatek w Niemczech czy w Polsce?</strong><br/>Przy pracy na terytorium Niemiec przez więcej niż 183 dni w roku — podatek należy się Niemcom, niezależnie od tego, że składki ZUS odprowadzane są w Polsce. A1 dotyczy wyłącznie składek ubezpieczeniowych, nie podatku dochodowego.</p>
+<p><strong>Czy Nexflow pomoże mi z rozliczeniem podatkowym?</strong><br/>Nexflow wyjaśnia podstawy i wystawia wymagane dokumenty. Do złożenia zeznania zalecamy ELSTER (bezpłatnie) lub Lohnsteuerhilfeverein. Nie świadczymy usług doradztwa podatkowego.</p>
+
+<p>Więcej o pracy w Niemczech: <a href="/blog/jak-znalezc-prace-w-niemczech-2025">Jak znaleźć pracę w Niemczech — kompletny przewodnik</a>. Jeśli zastanawiasz się między pracą tymczasową a stałą: <a href="/blog/praca-tymczasowa-vs-stala-niemcy">Praca tymczasowa vs. stała — co wybrać?</a></p>
+
+<hr/>
+<p><strong>Praca w Niemczech a podatek — podsumowanie:</strong> Płacisz podatek w Niemczech, rozliczasz się rocznie przez ELSTER, odliczasz koszty dojazdu i narzędzi, a w Polsce składasz PIT-ZG jeśli masz tam rezydencję. Średni zwrot to kilkaset euro — warto poświęć godzinę na zeznanie.</p>
+<p><strong><a href="/praca">Szukasz pracy w Niemczech? Wyślij zgłoszenie na nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: czerwiec 2026. Przepisy wg stanu na 2026 r. — ustawa EStG, DBA DE-PL z 2003 r., Pendlerpauschale wg § 9 EStG. Artykuł ma charakter informacyjny i nie stanowi porady podatkowej.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
