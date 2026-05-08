@@ -8,6 +8,7 @@ from sqlalchemy.orm import Session
 from app.auth.agent_middleware import RequireAgentKey
 from app.database import get_db
 from app.models.facebook import FacebookPostQueue
+from app.workers.tasks.facebook import _drain
 
 router = APIRouter(prefix="/api/agent/facebook", tags=["facebook-agent"])
 
@@ -53,3 +54,14 @@ async def queue_facebook_post(
     db.commit()
     db.refresh(post)
     return QueuePostResponse(id=str(post.id), scheduled_at=post.scheduled_at)
+
+
+@router.post(
+    "/drain",
+    status_code=status.HTTP_200_OK,
+    summary="Manually trigger Facebook post queue drain",
+    description="Agent-accessible endpoint. Requires AGENT_API_KEY. Immediately publishes all due queued posts.",
+)
+async def drain_facebook_queue(_: Annotated[None, Depends(RequireAgentKey)]) -> dict:
+    await _drain()
+    return {"status": "drained"}
