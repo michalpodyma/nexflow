@@ -58,3 +58,6 @@ class ChatbotSession(Base):
     )
     # 0–100 composite score; NULL until completed
     score: Mapped[int | None] = mapped_column(sa.Integer, nullable=True)
+    # Full LLM audit log — requests, responses, and tool calls per session.
+    # Populated only when WHATSAPP_SCREENER_USE_LLM=true.
+    llm_log: Mapped[list | None] = mapped_column(JSONB, nullable=True)

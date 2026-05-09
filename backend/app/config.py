@@ -62,6 +62,13 @@ class Settings(BaseSettings):
     # Generate with: python3 -c "import secrets; print(secrets.token_urlsafe(32))"
     openclaw_api_key: str = ""                 # OPENCLAW_API_KEY
 
+    # OpenRouter LLM screener (EUR-628)
+    # Set OPENROUTER_API_KEY and OPENROUTER_MODEL in Railway / .env.
+    # Flip WHATSAPP_SCREENER_USE_LLM=true only after board pre-flip approval.
+    openrouter_api_key: str = ""               # OPENROUTER_API_KEY
+    openrouter_model: str = "stepfun/step-3.5-flash:free"  # OPENROUTER_MODEL
+    whatsapp_screener_use_llm: bool = False    # WHATSAPP_SCREENER_USE_LLM
+
     # Google Workspace — delegated OAuth on the board user's account.
     # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.
     # Board user performs the one-time consent flow; Developer stores the

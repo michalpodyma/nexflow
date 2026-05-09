@@ -176,8 +176,12 @@ async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None
                 await send_whatsapp_message(normalised, msg)
             return
 
-        # Advance FSM with user's reply
-        reply = await advance(session, candidate, text, db)
+        # Advance screener — LLM path when flag is enabled, FSM otherwise
+        if settings.whatsapp_screener_use_llm:
+            from app.services.llm_screener import advance as llm_advance  # noqa: PLC0415
+            reply = await llm_advance(session, candidate, text, db)
+        else:
+            reply = await advance(session, candidate, text, db)
         normalised = normalize_phone(from_phone)
         await send_whatsapp_message(normalised, reply)
 
