@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import AdsLeadForm from "@/components/AdsLeadForm";
 
 export const metadata: Metadata = {
@@ -35,6 +36,78 @@ const ROLES = [
   },
 ];
 
+const HIRING_ORG = {
+  "@type": "Organization",
+  name: "Nexflow",
+  sameAs: "https://nexflow.work",
+  logo: "https://nexflow.work/nexflow-logo-email.svg",
+} as const;
+
+const JOB_LOCATION_DE = {
+  "@type": "Place",
+  address: { "@type": "PostalAddress", addressCountry: "DE" },
+} as const;
+
+const JOBS_SCHEMA = [
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: "Kommissionierer",
+    description:
+      "Zusammenstellen von Aufträgen nach Pickliste in Versandzentren. Schichtarbeit, keine Deutschkenntnisse nötig. Legale Beschäftigung mit Arbeitsvertrag, Unterkunft und Transport inklusive.",
+    datePosted: "2026-03-01",
+    validThrough: "2026-10-31",
+    employmentType: "TEMPORARY",
+    hiringOrganization: HIRING_ORG,
+    jobLocation: JOB_LOCATION_DE,
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "EUR",
+      value: { "@type": "QuantitativeValue", minValue: 14.82, unitText: "HOUR" },
+    },
+    directApply: true,
+    url: "https://nexflow.work/jobs",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: "Lagerhelfer / Be- und Entladen",
+    description:
+      "Be- und Entladen von LKW und Containern, Palettieren und Wareneingangsprüfung. Keine Qualifikation erforderlich. Unterkunft und Transport inklusive.",
+    datePosted: "2026-03-01",
+    validThrough: "2026-10-31",
+    employmentType: "TEMPORARY",
+    hiringOrganization: HIRING_ORG,
+    jobLocation: JOB_LOCATION_DE,
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "EUR",
+      value: { "@type": "QuantitativeValue", minValue: 14.82, unitText: "HOUR" },
+    },
+    directApply: true,
+    url: "https://nexflow.work/jobs",
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: "Staplerfahrer",
+    description:
+      "Bedienung von Frontstapler oder Schubmaststapler in Produktions- und Logistikbetrieben. Staplerschein erforderlich. Unterkunft und Transport inklusive.",
+    datePosted: "2026-03-01",
+    validThrough: "2026-10-31",
+    employmentType: "TEMPORARY",
+    hiringOrganization: HIRING_ORG,
+    jobLocation: JOB_LOCATION_DE,
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: "EUR",
+      value: { "@type": "QuantitativeValue", minValue: 16.0, unitText: "HOUR" },
+    },
+    directApply: true,
+    url: "https://nexflow.work/jobs",
+  },
+];
+
 const PERKS = [
   "Unterkunft und Fahrt inklusive",
   "Legale Beschäftigung — Arbeitsvertrag",
@@ -47,6 +120,11 @@ const PERKS = [
 export default function JobsPage() {
   return (
     <>
+      <Script
+        id="jobs-de-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(JOBS_SCHEMA) }}
+      />
       {/* Hero with inline form */}
       <section className="bg-nexflow-navy text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">

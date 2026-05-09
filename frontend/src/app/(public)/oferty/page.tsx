@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Script from "next/script";
 
 import { JobsBoard } from "@/components/jobs/JobsBoard";
-import { jobs } from "@/data/jobs";
+import { jobs, mapEmploymentType } from "@/data/jobs";
 
 export const metadata: Metadata = {
   title: "Oferty pracy w magazynach i logistyce | Nexflow",
@@ -25,49 +25,54 @@ export const metadata: Metadata = {
   },
 };
 
-const jobPostingSchemas = jobs.map((job) => ({
-  "@context": "https://schema.org",
-  "@type": "JobPosting",
-  title: job.pl.title,
-  description: job.pl.summary,
-  identifier: {
-    "@type": "PropertyValue",
-    name: "Nexflow",
-    value: job.id,
-  },
-  datePosted: job.datePosted,
-  validThrough: job.validThrough,
-  employmentType: job.employmentType,
-  hiringOrganization: {
-    "@type": "Organization",
-    name: "Eurojob-West Sp. z o.o.",
-    sameAs: "https://nexflow.work",
-    logo: "https://nexflow.work/logo.png",
-  },
-  jobLocation: {
-    "@type": "Place",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Słubice",
-      addressRegion: "Lubuskie",
-      addressCountry: "PL",
+const jobPostingSchemas = jobs.map((job) => {
+  const locations = job.countries.map((country) =>
+    country === "PL"
+      ? {
+          "@type": "Place",
+          address: {
+            "@type": "PostalAddress",
+            addressLocality: job.plCity ?? "Słubice",
+            addressRegion: job.plRegion ?? "Lubuskie",
+            addressCountry: "PL",
+          },
+        }
+      : {
+          "@type": "Place",
+          address: { "@type": "PostalAddress", addressCountry: country },
+        }
+  );
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "JobPosting",
+    title: job.pl.title,
+    description: job.pl.summary,
+    identifier: { "@type": "PropertyValue", name: "Nexflow", value: job.id },
+    datePosted: job.datePosted,
+    validThrough: job.validThrough,
+    employmentType: mapEmploymentType(job.employmentType),
+    hiringOrganization: {
+      "@type": "Organization",
+      name: "Nexflow",
+      sameAs: "https://nexflow.work",
+      logo: "https://nexflow.work/nexflow-logo-email.svg",
     },
-  },
-  baseSalary: {
-    "@type": "MonetaryAmount",
-    currency: "PLN",
-    value: {
-      "@type": "QuantitativeValue",
-      unitText: "HOUR",
+    jobLocation: locations.length === 1 ? locations[0] : locations,
+    baseSalary: {
+      "@type": "MonetaryAmount",
+      currency: job.salaryCurrency,
+      value: {
+        "@type": "QuantitativeValue",
+        minValue: job.salaryMin,
+        maxValue: job.salaryMax,
+        unitText: job.salaryUnit,
+      },
     },
-  },
-  directApply: true,
-  jobLocationType: "TELECOMMUTE",
-  applicantLocationRequirements: {
-    "@type": "Country",
-    name: "Poland",
-  },
-}));
+    directApply: true,
+    url: `https://nexflow.work/oferty/${job.slug}`,
+  };
+});
 
 export default function OffertyPage() {
   return (
