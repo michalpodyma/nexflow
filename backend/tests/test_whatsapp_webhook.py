@@ -283,3 +283,60 @@ def test_t_missing_key_returns_key() -> None:
     """Missing keys return the key itself as fallback."""
     result = _t("en", "nonexistent_key_xyz")
     assert result == "nonexistent_key_xyz"
+
+
+# ---------------------------------------------------------------------------
+# Regression: no duplicate welcome after template_sent (EUR-624)
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_template_sent_reply_has_no_welcome_known_language() -> None:
+    """After template_sent with known language, bot reply must NOT contain the welcome text."""
+    from app.services.chatbot_fsm import advance
+
+    session = MagicMock()
+    session.session_state = {
+        "step": "template_sent",
+        "next_step": "experience",
+        "language": "en",
+        "answers": {},
+    }
+    session.messages = []
+
+    candidate = MagicMock()
+    candidate.first_name = "Jan"
+
+    db = AsyncMock()
+
+    reply = await advance(session, candidate, "Hi", db)
+
+    welcome_en = _t("en", "welcome", first_name="Jan")
+    assert welcome_en not in reply
+    assert _t("en", "experience_question") == reply
+
+
+@pytest.mark.asyncio
+async def test_template_sent_reply_has_no_welcome_for_each_locale() -> None:
+    """No welcome prefix for any supported locale when language is already known."""
+    from app.services.chatbot_fsm import advance
+
+    for lang in ("pl", "en", "uk", "de", "ru"):
+        session = MagicMock()
+        session.session_state = {
+            "step": "template_sent",
+            "next_step": "experience",
+            "language": lang,
+            "answers": {},
+        }
+        session.messages = []
+
+        candidate = MagicMock()
+        candidate.first_name = "Ana"
+
+        db = AsyncMock()
+
+        reply = await advance(session, candidate, "start", db)
+
+        welcome = _t(lang, "welcome", first_name="Ana")
+        assert welcome not in reply, f"Duplicate welcome found for lang={lang}: {reply!r}"

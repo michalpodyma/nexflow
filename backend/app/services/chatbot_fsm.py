@@ -296,11 +296,8 @@ async def advance(
         if next_step == "language_selection":
             reply = _t(_DEFAULT_LANGUAGE, "language_prompt")
         else:
-            reply = (
-                _t(language, "welcome", first_name=candidate.first_name)
-                + "\n\n"
-                + _question_for_step(next_step, language)
-            )
+            # Template already greeted the candidate by name; skip the duplicate welcome.
+            reply = _question_for_step(next_step, language)
 
         messages.append({"role": "bot", "text": reply, "ts": now_iso})
         session.session_state = state
