@@ -18,28 +18,44 @@ export function AnimatedCounter({
   className?: string
 }) {
   const ref = useRef<HTMLSpanElement>(null)
-  const [displayed, setDisplayed] = useState<string>('0')
-  const [started, setStarted] = useState(false)
+  // SSR default: final value so crawlers and no-JS users see real numbers, not zeros
+  const [displayed, setDisplayed] = useState<string>(value)
 
   const parsed = useMemo(() => parseValue(value), [value])
-
-  useEffect(() => {
-    if (!parsed) {
-      setDisplayed(value)
-      return
-    }
-    setDisplayed(`0${parsed.suffix}`)
-  }, [value, parsed])
 
   useEffect(() => {
     const el = ref.current
     if (!el || !parsed) return
 
+    // Respect reduced motion — keep final value, no count-up
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReduced) return
+
+    // Already in viewport at mount — skip count-up to avoid visible flash of final→0→final
+    const rect = el.getBoundingClientRect()
+    if (rect.top < window.innerHeight && rect.bottom > 0) return
+
+    const runCountUp = () => {
+      setDisplayed(`0${parsed.suffix}`)
+      const duration = 1200
+      const startTime = performance.now()
+
+      const tick = (now: number) => {
+        const progress = Math.min((now - startTime) / duration, 1)
+        const eased = 1 - Math.pow(1 - progress, 3)
+        const current = Math.round(eased * parsed.num)
+        setDisplayed(`${current}${parsed.suffix}`)
+        if (progress < 1) requestAnimationFrame(tick)
+      }
+
+      requestAnimationFrame(tick)
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setStarted(true)
           observer.unobserve(el)
+          runCountUp()
         }
       },
       { threshold: 0.5 }
@@ -47,39 +63,11 @@ export function AnimatedCounter({
 
     observer.observe(el)
     return () => observer.disconnect()
-  }, [parsed])
-
-  useEffect(() => {
-    if (!started || !parsed) return
-
-    // Respect reduced motion — jump straight to final value
-    const prefersReduced =
-      typeof window !== 'undefined' &&
-      window.matchMedia('(prefers-reduced-motion: reduce)').matches
-
-    if (prefersReduced) {
-      setDisplayed(`${parsed.num}${parsed.suffix}`)
-      return
-    }
-
-    const duration = 1200
-    const startTime = performance.now()
-
-    const tick = (now: number) => {
-      const progress = Math.min((now - startTime) / duration, 1)
-      // Ease-out cubic
-      const eased = 1 - Math.pow(1 - progress, 3)
-      const current = Math.round(eased * parsed.num)
-      setDisplayed(`${current}${parsed.suffix}`)
-      if (progress < 1) requestAnimationFrame(tick)
-    }
-
-    requestAnimationFrame(tick)
-  }, [started, parsed])
+  }, [parsed, value])
 
   return (
     <span ref={ref} className={className}>
-      {parsed ? displayed : value}
+      {displayed}
     </span>
   )
 }

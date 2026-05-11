@@ -25,21 +25,33 @@ export function FadeIn({
   threshold?: number
 }) {
   const ref = useRef<HTMLDivElement>(null)
+  // mounted tracks whether JS has run — before mount we emit no inline styles so
+  // SSR output is fully visible to crawlers, no-JS users, and link-preview unfurlers.
+  const [mounted, setMounted] = useState(false)
   const [visible, setVisible] = useState(false)
 
   useEffect(() => {
     const el = ref.current
     if (!el) return
 
-    // Elements already in the viewport at mount time should appear immediately
-    // without waiting for the async IntersectionObserver callback. This prevents
-    // a blank content flash on desktop where all above-the-fold items start at
-    // opacity:0 and the observer fires after the first browser paint.
-    const rect = el.getBoundingClientRect()
-    if (rect.top < window.innerHeight && rect.bottom > 0) {
+    // prefers-reduced-motion: show immediately, no animation
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    if (prefersReduced) {
+      setMounted(true)
       setVisible(true)
       return
     }
+
+    // Already in viewport at mount — appear immediately without flash
+    const rect = el.getBoundingClientRect()
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      setMounted(true)
+      setVisible(true)
+      return
+    }
+
+    // Below the fold: opt into hidden state and watch for intersection
+    setMounted(true)
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -54,6 +66,15 @@ export function FadeIn({
     observer.observe(el)
     return () => observer.disconnect()
   }, [threshold])
+
+  // Before JS mounts: no inline styles — content is visible in SSR and on no-JS paint
+  if (!mounted) {
+    return (
+      <div ref={ref} className={className}>
+        {children}
+      </div>
+    )
+  }
 
   const style: CSSProperties = {
     opacity: visible ? 1 : 0,
