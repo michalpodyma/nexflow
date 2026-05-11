@@ -70,10 +70,10 @@ const services = [
 ];
 
 const stats = [
-  { value: "240+", label: "aktywnych pracowników" },
-  { value: "21+", label: "narodowości" },
-  { value: "5 dni", label: "czas rozmieszczenia" },
-  { value: "10+", label: "lat doświadczenia" },
+  { value: "2013", label: "rok założenia", sublabel: "jako Eurojob-West" },
+  { value: "240+", label: "aktywnych pracowników", sublabel: "gotowych do pracy" },
+  { value: "21+", label: "narodowości", sublabel: "w naszej puli" },
+  { value: "KRAZ", label: "certyfikat agencji", sublabel: "nr 10916" },
 ];
 
 const testimonials = [
@@ -172,31 +172,50 @@ export default function HomePage() {
             />
           </div>
 
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
-            <div className="max-w-3xl">
-              <div className="mb-8">
-                <FlowMark variant="symbol" colorScheme="reversed" height={56} />
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+              {/* Left: text */}
+              <div>
+                <div className="mb-8">
+                  <FlowMark variant="symbol" colorScheme="reversed" height={56} />
+                </div>
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+                  Twój magazyn.{" "}
+                  <span className="text-nexflow-cyan">Twoje tempo.</span>{" "}
+                  Nasi ludzie.
+                </h1>
+                <p className="mt-6 text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl">
+                  Nexflow dostarcza sprawdzonych pracowników do firm logistycznych
+                  i magazynowych w Polsce i Niemczech —{" "}
+                  <strong className="text-white">w 5 dni roboczych.</strong>
+                </p>
+                <div className="mt-10 flex flex-col sm:flex-row gap-4">
+                  <Link href="/kontakt" className="btn-primary text-center text-base">
+                    Umów rozmowę →
+                  </Link>
+                  <Link
+                    href="/kontakt#pracownicy"
+                    className="btn-outline-white text-center text-base"
+                  >
+                    Szukam pracy
+                  </Link>
+                </div>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-                Twój magazyn.{" "}
-                <span className="text-nexflow-cyan">Twoje tempo.</span>{" "}
-                Nasi ludzie.
-              </h1>
-              <p className="mt-6 text-xl md:text-2xl text-white/80 leading-relaxed max-w-2xl">
-                Nexflow dostarcza sprawdzonych pracowników do firm logistycznych
-                i magazynowych w Polsce i Niemczech —{" "}
-                <strong className="text-white">w 5 dni roboczych.</strong>
-              </p>
-              <div className="mt-10 flex flex-col sm:flex-row gap-4">
-                <Link href="/kontakt" className="btn-primary text-center text-base">
-                  Umów rozmowę →
-                </Link>
-                <Link
-                  href="/kontakt#pracownicy"
-                  className="btn-outline-white text-center text-base"
-                >
-                  Szukam pracy
-                </Link>
+
+              {/* Right: warehouse photo */}
+              <div className="hidden lg:flex justify-end items-center">
+                <div className="relative w-full max-w-lg">
+                  <Image
+                    src="https://images.unsplash.com/photo-1553413077-190dd305871c?w=800&q=80&auto=format&fit=crop"
+                    alt="Pracownicy magazynu — Nexflow"
+                    width={640}
+                    height={520}
+                    className="rounded-2xl object-cover shadow-2xl border border-white/10"
+                    priority
+                  />
+                  {/* Subtle cyan corner accent */}
+                  <div className="absolute -bottom-3 -left-3 w-24 h-24 rounded-xl bg-nexflow-cyan/20 blur-xl pointer-events-none" />
+                </div>
               </div>
             </div>
           </div>
@@ -211,7 +230,8 @@ export default function HomePage() {
                   <p className="text-4xl md:text-5xl font-bold text-nexflow-navy">
                     <AnimatedCounter value={stat.value} />
                   </p>
-                  <p className="mt-2 text-sm text-slate">{stat.label}</p>
+                  <p className="mt-2 text-sm font-medium text-nexflow-navy/80">{stat.label}</p>
+                  <p className="mt-0.5 text-xs text-gray-400">{stat.sublabel}</p>
                 </FadeIn>
               ))}
             </div>
