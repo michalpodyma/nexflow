@@ -133,7 +133,7 @@ const LOCALE_LABELS = {
     noResults: "Brak ofert spełniających kryteria",
     noResultsSub: "Spróbuj zmienić filtry lub wyszukaj inną frazę.",
     openPositions: "Otwarte rekrutacje",
-    applyBtn: "Aplikuj",
+    applyBtn: "Aplikuj bezpłatnie",
     requirements: "Wymagania",
     showLess: "Zwiń",
     favCount: "ulubionych",
@@ -258,13 +258,13 @@ function JobCard({
               <h2 className="text-base font-semibold text-primary leading-snug group-hover:text-nexflow-cyan-dark transition-colors">
                 {data.title}
               </h2>
-              <p className="text-sm text-muted-foreground mt-0.5">{data.location}</p>
+              <p className="text-[15px] text-muted-foreground mt-0.5">{data.location}</p>
             </div>
             <FavoriteButton isFaved={isFaved} onToggle={onFav} />
           </div>
 
           {/* Meta row */}
-          <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-sm text-muted-foreground">
+          <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-[15px] text-muted-foreground">
             <span className="flex items-center gap-1.5">
               <svg className="w-3.5 h-3.5 shrink-0 text-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -280,13 +280,13 @@ function JobCard({
           </div>
 
           {/* Summary */}
-          <p className="text-sm text-muted-foreground leading-relaxed">{data.summary}</p>
+          <p className="text-[15px] text-muted-foreground leading-relaxed">{data.summary}</p>
 
           {/* Requirements */}
           <div>
             <button
               onClick={() => setExpanded((v) => !v)}
-              className="flex items-center gap-1 text-sm font-medium text-primary hover:text-accent transition-colors"
+              className="flex items-center gap-1 text-[15px] font-medium text-primary hover:text-accent transition-colors"
               aria-expanded={expanded}
             >
               {expanded ? (
@@ -308,7 +308,7 @@ function JobCard({
             {expanded && (
               <ul className="mt-2 space-y-1">
                 {data.requirements.map((req, i) => (
-                  <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
+                  <li key={i} className="flex items-start gap-2 text-[15px] text-muted-foreground">
                     <span className="mt-1 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
                     {req}
                   </li>
@@ -413,15 +413,16 @@ function JobsBoardContent({ jobs }: { jobs: JobListing[] }) {
           <Link href="/" className="text-xl font-bold tracking-tight hover:opacity-90 transition-opacity">
             Nexflow
           </Link>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-2">
             {favs.size > 0 && (
               <span className="text-sm text-primary-foreground/70">
-                ♥ {favs.size} {t.favCount}
+                ♥ {favs.size}
+                <span className="hidden sm:inline"> {t.favCount}</span>
               </span>
             )}
             <button
               onClick={() => setLocale((l) => LOCALE_CYCLE[l])}
-              className="text-sm font-semibold px-3 py-1 rounded border border-primary-foreground/30 hover:border-primary-foreground/70 transition-colors"
+              className="text-sm font-semibold px-2.5 py-1 rounded border border-primary-foreground/30 hover:border-primary-foreground/70 transition-colors min-w-[2.5rem] text-center"
               aria-label={`Switch language to ${t.langToggle}`}
             >
               {t.langToggle}
@@ -579,9 +580,9 @@ function JobsBoardContent({ jobs }: { jobs: JobListing[] }) {
             <p className="text-primary-foreground/75 mb-6 text-sm">
               Formularz zajmuje mniej niż 3 minuty. Skontaktujemy się w ciągu 24h.
             </p>
-            <Link href="/aplikuj">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8">
-                Wypełnij formularz →
+            <Link href="/aplikuj" className="block sm:inline-block">
+              <Button size="lg" className="w-full sm:w-auto bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8">
+                Aplikuj bezpłatnie →
               </Button>
             </Link>
           </div>

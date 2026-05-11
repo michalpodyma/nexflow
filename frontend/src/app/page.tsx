@@ -172,7 +172,7 @@ export default function HomePage() {
             />
           </div>
 
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 w-full">
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 w-full">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
               {/* Left: text */}
               <div>
@@ -223,7 +223,7 @@ export default function HomePage() {
 
         {/* Stats bar */}
         <section className="bg-white border-t border-gray-100">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {stats.map((stat, i) => (
                 <FadeIn key={stat.label} delay={i * 100}>
@@ -257,7 +257,7 @@ export default function HomePage() {
         </div>
 
         {/* Services */}
-        <section className="py-24 bg-cloud-white">
+        <section className="py-16 sm:py-24 bg-cloud-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <FadeIn>
               <div className="text-center mb-16">
