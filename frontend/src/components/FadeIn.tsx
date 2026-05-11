@@ -31,6 +31,16 @@ export function FadeIn({
     const el = ref.current
     if (!el) return
 
+    // Elements already in the viewport at mount time should appear immediately
+    // without waiting for the async IntersectionObserver callback. This prevents
+    // a blank content flash on desktop where all above-the-fold items start at
+    // opacity:0 and the observer fires after the first browser paint.
+    const rect = el.getBoundingClientRect()
+    if (rect.top < window.innerHeight && rect.bottom > 0) {
+      setVisible(true)
+      return
+    }
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
