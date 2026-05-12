@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { Users, UserCheck, Target, ClipboardList } from "lucide-react";
 import { FadeIn } from "@/components/FadeIn";
 
@@ -22,6 +23,7 @@ const serviceIcons = [Users, UserCheck, Target, ClipboardList];
 const services = [
   {
     id: "tymczasowi",
+    photo: "/images/uslugi-tymczasowi.jpg",
     number: "01",
     title: "Pracownicy tymczasowi",
     subtitle: "Elastyczne zatrudnienie na każdą skalę",
@@ -42,6 +44,7 @@ const services = [
   },
   {
     id: "rekrutacja",
+    photo: "/images/uslugi-rekrutacja.jpg",
     number: "02",
     title: "Rekrutacja stała",
     subtitle: "Kandydaci gotowi do zatrudnienia bezpośredniego",
@@ -62,6 +65,7 @@ const services = [
   },
   {
     id: "headhunting",
+    photo: "/images/uslugi-headhunting.jpg",
     number: "03",
     title: "Headhunting",
     subtitle: "Stanowiska specjalistyczne i menedżerskie",
@@ -82,6 +86,7 @@ const services = [
   },
   {
     id: "doradztwo",
+    photo: "/images/uslugi-hr.jpg",
     number: "04",
     title: "Doradztwo HR",
     subtitle: "Compliance, onboarding i dokumentacja pracownicza",
@@ -173,6 +178,15 @@ export default function ServicesPage() {
 
                 {/* Features grid */}
                 <div className={`grid grid-cols-1 sm:grid-cols-2 gap-4 ${index % 2 === 1 ? "lg:order-1" : ""}`}>
+                  <div className="sm:col-span-2">
+                    <Image
+                      src={service.photo}
+                      alt={service.title}
+                      width={600}
+                      height={400}
+                      className="rounded-xl object-cover w-full shadow-md"
+                    />
+                  </div>
                   {service.features.map((feature, fi) => (
                     <FadeIn key={feature.title} direction={index % 2 === 0 ? "right" : "left"} delay={fi * 80}>
                     <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full">
