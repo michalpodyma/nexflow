@@ -7,6 +7,7 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
+from app.config import settings
 from app.database import get_db
 from app.models.candidate_reminders import CandidateReminder
 from app.models.candidates import Candidate
@@ -198,8 +199,10 @@ async def create_candidate(
     await db.refresh(candidate)
 
     # Trigger WhatsApp screening chatbot — non-blocking, best-effort.
-    # A new DB session is needed because background tasks outlive the request session.
-    if candidate.phone:
+    # Gated by WHATSAPP_AUTO_REPLY_ENABLED (EUR-711): when ElevenLabs owns the
+    # WhatsApp number, the backend must not send the screening_welcome template
+    # on intake — it would overlap with the ElevenLabs greeting.
+    if candidate.phone and settings.whatsapp_auto_reply_enabled:
         async def _start_whatsapp_screening(candidate_id: str) -> None:
             import logging as _logging
             _log = _logging.getLogger(__name__)

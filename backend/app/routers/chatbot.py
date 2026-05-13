@@ -32,6 +32,7 @@ from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
+from app.config import settings
 from app.database import get_db
 from app.models.candidates import Candidate
 from app.models.enums import ChatbotChannel
@@ -66,6 +67,18 @@ async def initiate_chatbot_sessions(
     """
     if not body.candidate_ids:
         raise HTTPException(status_code=422, detail="candidate_ids must not be empty")
+
+    # EUR-711: while ElevenLabs owns the WhatsApp number, refuse manual bulk
+    # initiation so a recruiter click cannot overlap with the ElevenLabs greeting.
+    if not settings.whatsapp_auto_reply_enabled:
+        raise HTTPException(
+            status_code=409,
+            detail=(
+                "WhatsApp screening is disabled (WHATSAPP_AUTO_REPLY_ENABLED=false). "
+                "ElevenLabs owns the WhatsApp responder; set the flag to true only "
+                "after board approval to retire the external responder."
+            ),
+        )
 
     result = await db.execute(
         select(Candidate).where(Candidate.id.in_(body.candidate_ids))

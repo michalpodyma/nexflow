@@ -145,11 +145,26 @@ async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None
     try:
         candidate = await _resolve_candidate(from_phone, db)
 
-        # Mirror every inbound message to the OpenClaw inbox (tee — FSM unaffected)
+        # Mirror every inbound message to the OpenClaw inbox (tee — listener path,
+        # always on so OpenClaw can observe inbound conversation regardless of
+        # which responder owns the WhatsApp number).
         try:
             await _tee_to_inbox(from_phone, text, candidate.id, db)
         except Exception as tee_exc:  # noqa: BLE001
             logger.exception("[whatsapp_webhook] Tee to inbox failed (non-fatal): %s", tee_exc)
+
+        # EUR-711: ElevenLabs is the WhatsApp responder. The backend's
+        # FSM / LLM screener and any auto-replies are gated behind a kill-switch
+        # so they don't overlap with ElevenLabs. We still tee to the inbox above
+        # so OpenClaw can listen.
+        if not settings.whatsapp_auto_reply_enabled:
+            logger.info(
+                "[whatsapp_webhook] Auto-reply disabled (WHATSAPP_AUTO_REPLY_ENABLED=false) — "
+                "listened to message from %s; ElevenLabs owns the response",
+                from_phone,
+            )
+            await db.commit()
+            return
 
         # Find active (incomplete) session
         session: ChatbotSession | None = None

@@ -340,3 +340,78 @@ async def test_template_sent_reply_has_no_welcome_for_each_locale() -> None:
 
         welcome = _t(lang, "welcome", first_name="Ana")
         assert welcome not in reply, f"Duplicate welcome found for lang={lang}: {reply!r}"
+
+
+# ---------------------------------------------------------------------------
+# EUR-711: WHATSAPP_AUTO_REPLY_ENABLED kill-switch
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_auto_reply_disabled_tees_but_does_not_send() -> None:
+    """With WHATSAPP_AUTO_REPLY_ENABLED=false: tee to inbox happens, no WhatsApp send, no FSM/LLM."""
+    from app.routers import webhooks as webhooks_module
+
+    candidate = MagicMock()
+    candidate.id = "cand-1"
+    candidate.chatbot_session_id = None
+
+    db = AsyncMock()
+
+    with (
+        patch.object(webhooks_module, "settings") as mock_settings,
+        patch.object(webhooks_module, "_resolve_candidate", new_callable=AsyncMock) as mock_resolve,
+        patch.object(webhooks_module, "_tee_to_inbox", new_callable=AsyncMock) as mock_tee,
+        patch.object(webhooks_module, "initiate_session", new_callable=AsyncMock) as mock_initiate,
+        patch.object(webhooks_module, "advance", new_callable=AsyncMock) as mock_fsm_advance,
+        patch.object(webhooks_module, "send_whatsapp_message", new_callable=AsyncMock) as mock_send,
+    ):
+        mock_settings.whatsapp_auto_reply_enabled = False
+        mock_settings.whatsapp_screener_use_llm = False
+        mock_resolve.return_value = candidate
+
+        await webhooks_module._process_message("48123456789", "hello", db)
+
+    mock_tee.assert_awaited_once()
+    mock_initiate.assert_not_called()
+    mock_fsm_advance.assert_not_called()
+    mock_send.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
+    """With WHATSAPP_AUTO_REPLY_ENABLED=true and an active session, FSM runs and reply is sent."""
+    from app.routers import webhooks as webhooks_module
+
+    candidate = MagicMock()
+    candidate.id = "cand-1"
+    candidate.chatbot_session_id = "sess-1"
+
+    active_session = MagicMock()
+    active_session.completed_at = None
+
+    db = AsyncMock()
+    scalar_result = MagicMock()
+    scalar_result.scalar_one_or_none.return_value = active_session
+    db.execute = AsyncMock(return_value=scalar_result)
+
+    with (
+        patch.object(webhooks_module, "settings") as mock_settings,
+        patch.object(webhooks_module, "_resolve_candidate", new_callable=AsyncMock) as mock_resolve,
+        patch.object(webhooks_module, "_tee_to_inbox", new_callable=AsyncMock) as mock_tee,
+        patch.object(webhooks_module, "advance", new_callable=AsyncMock) as mock_fsm_advance,
+        patch.object(webhooks_module, "send_whatsapp_message", new_callable=AsyncMock) as mock_send,
+    ):
+        mock_settings.whatsapp_auto_reply_enabled = True
+        mock_settings.whatsapp_screener_use_llm = False
+        mock_resolve.return_value = candidate
+        mock_fsm_advance.return_value = "Next question?"
+
+        await webhooks_module._process_message("48123456789", "hello", db)
+
+    mock_tee.assert_awaited_once()
+    mock_fsm_advance.assert_awaited_once()
+    mock_send.assert_awaited_once()
+    sent_to, sent_body = mock_send.await_args.args
+    assert sent_to == "48123456789"
+    assert sent_body == "Next question?"
