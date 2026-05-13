@@ -16,7 +16,7 @@ export async function POST(req: NextRequest) {
 
   await resend.emails.send({
     from: "formularz@nexflow.work",
-    to: "info@nexflow.work",
+    to: "hr@nexflow.work",
     replyTo: email,
     subject: `Nowe zapytanie od ${name} (${typeLabel})`,
     text: [
