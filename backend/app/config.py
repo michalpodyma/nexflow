@@ -69,6 +69,14 @@ class Settings(BaseSettings):
     openrouter_model: str = "stepfun/step-3.5-flash:free"  # OPENROUTER_MODEL
     whatsapp_screener_use_llm: bool = False    # WHATSAPP_SCREENER_USE_LLM
 
+    # WhatsApp auto-reply master kill-switch (EUR-711).
+    # Default false: the nexflow backend listens (tees every inbound message to
+    # the OpenClaw inbox) but does NOT respond on WhatsApp.  Responses are owned
+    # by the ElevenLabs agent connected at the WhatsApp Business number.
+    # Flip to true ONLY after explicit board approval to retire ElevenLabs as the
+    # responder and bring the in-house FSM/LLM screener back online.
+    whatsapp_auto_reply_enabled: bool = False  # WHATSAPP_AUTO_REPLY_ENABLED
+
     # Google Workspace — delegated OAuth on the board user's account.
     # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.
     # Board user performs the one-time consent flow; Developer stores the
