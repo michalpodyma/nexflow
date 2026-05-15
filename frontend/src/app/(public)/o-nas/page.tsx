@@ -302,6 +302,7 @@ export default function AboutPage() {
               { name: "Hanna Serheeva", role: "Rekruter i Koordynator", email: "as@nexflow.work", initials: "HS" },
               { name: "Olena Omelchenko", role: "Specjalista ds. Kadr i Płac", email: "ao@nexflow.work", initials: "OO" },
               { name: "Hanna Rybakova", role: "Rekruter i Koordynator", email: "ar@nexflow.work", initials: "HR" },
+              { name: "Svetlana Shmyhol", role: "Koordynator i Rekruter", email: "ss@nexflow.work", initials: "SS" },
             ].map((person, i) => (
               <FadeIn key={person.name} delay={i * 60}>
                 <div className="bg-white/10 rounded-xl p-6 border border-white/10 text-center hover:bg-white/15 hover:-translate-y-1 transition-all duration-300 h-full">
