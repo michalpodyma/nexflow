@@ -1,5 +1,173 @@
 {
-  "intake": {},
+  "worker": {
+    "login": {
+      "title": "Medewerkerportaal",
+      "subtitle": "Inloggen met uw telefoonnummer",
+      "phonePlaceholder": "+48 501 234 567",
+      "phoneLabel": "Telefoonnummer",
+      "sendCode": "Code verzenden",
+      "sending": "Verzenden...",
+      "codeLabel": "Sms-code",
+      "codePlaceholder": "123456",
+      "verify": "Inloggen",
+      "verifying": "Inloggen...",
+      "codeSent": "Code verzonden naar {phone}. Geldig 10 minuten.",
+      "resend": "Opnieuw verzenden",
+      "errors": {
+        "phoneRequired": "Voer uw telefoonnummer in",
+        "phoneInvalid": "Voer een nummer in E.164-formaat in, bijv. +48501234567",
+        "codeRequired": "Voer de sms-code in",
+        "invalidCode": "Ongeldige of verlopen code",
+        "tooManyAttempts": "Te veel pogingen. Probeer het over een uur opnieuw."
+      }
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "payslips": "Loonstroken",
+      "schedule": "Rooster",
+      "documents": "Documenten",
+      "profile": "Profiel",
+      "logout": "Uitloggen"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "greeting": "Hallo, {name}!",
+      "assignment": "Huidige opdracht",
+      "noAssignment": "Geen actieve opdracht",
+      "position": "Functie",
+      "client": "Werkgever",
+      "startDate": "Vanaf",
+      "rate": "Tarief",
+      "nextShift": "Volgende dienst",
+      "noShift": "Geen geplande diensten",
+      "shiftDate": "Datum",
+      "shiftTime": "Uren",
+      "compliance": "Documenten te vernieuwen",
+      "noCompliance": "Alle documenten zijn actueel",
+      "daysRemaining": "{days} dagen",
+      "alertTypes": {
+        "health_cert_expiry": "Medisch onderzoek",
+        "bhp_cert_expiry": "Veiligheidstraining",
+        "a1_cert_expiry": "A1-certificaat",
+        "contract_expiry": "Contract",
+        "deployment_limit_warning": "Detacheringslimiet"
+      }
+    },
+    "payslips": {
+      "title": "Loonstroken",
+      "empty": "Geen loonstrookgegevens beschikbaar",
+      "period": "{month} {year}",
+      "totalHours": "Uren",
+      "totalPay": "Loon",
+      "hours": "{h} u",
+      "viewDetails": "Details",
+      "detail": {
+        "title": "{month} {year}",
+        "rate": "Uurtarief",
+        "totalHours": "Totaal uren",
+        "overtimeHours": "Overuren",
+        "totalPay": "Totaal loon",
+        "date": "Datum",
+        "worked": "Gewerkt",
+        "overtime": "Overwerk",
+        "dailyPay": "Bedrag"
+      },
+      "months": {
+        "1": "Januari", "2": "Februari", "3": "Maart", "4": "April",
+        "5": "Mei", "6": "Juni", "7": "Juli", "8": "Augustus",
+        "9": "September", "10": "Oktober", "11": "November", "12": "December"
+      }
+    },
+    "schedule": {
+      "title": "Rooster",
+      "next30": "Komende diensten (30 dagen)",
+      "empty": "Geen geplande diensten",
+      "date": "Datum",
+      "time": "Uren",
+      "employer": "Werkgever",
+      "notes": "Opmerkingen"
+    },
+    "documents": {
+      "title": "Documenten",
+      "empty": "Geen documenten beschikbaar om te downloaden",
+      "status": {
+        "final": "Gereed",
+        "signed": "Ondertekend"
+      },
+      "download": "PDF downloaden",
+      "noPdf": "PDF niet beschikbaar"
+    },
+    "profile": {
+      "title": "Profiel",
+      "phone": "Telefoon",
+      "email": "E-mail",
+      "bankAccount": "Bankrekeningnummer (IBAN)",
+      "bankAccountPlaceholder": "PL61 1090 1014 0000 0712 1981 2874",
+      "save": "Opslaan",
+      "saving": "Opslaan...",
+      "saved": "Opgeslagen",
+      "gdprTitle": "Recht op verwijdering",
+      "gdprDescription": "U kunt verzoeken om verwijdering van uw persoonsgegevens. Het verzoek wordt binnen 7 dagen verwerkt.",
+      "gdprRequest": "Verwijdering gegevens aanvragen",
+      "gdprConfirm": "Weet u zeker dat u verwijdering van uw gegevens wilt aanvragen? Deze handeling is onomkeerbaar.",
+      "gdprRequested": "Verzoek tot verwijdering van gegevens ingediend"
+    }
+  },
+  "intake": {
+    "languageToggle": "Taal",
+    "title": "Registratieformulier",
+    "subtitle": "Vul het formulier in om opgenomen te worden in onze kandidatendatabase.",
+    "firstName": "Voornaam",
+    "firstNamePlaceholder": "Jan",
+    "lastName": "Achternaam",
+    "lastNamePlaceholder": "de Vries",
+    "phone": "Telefoon",
+    "phonePlaceholder": "+48 123 456 789",
+    "email": "E-mail (optioneel)",
+    "emailPlaceholder": "jan@voorbeeld.nl",
+    "nationality": "Nationaliteit",
+    "nationalityPlaceholder": "Selecteer land...",
+    "availabilityFrom": "Beschikbaar vanaf",
+    "preferredPosition": "Gewenste functie",
+    "preferredPositionPlaceholder": "Selecteer functie...",
+    "languages": "Taalvaardigheden",
+    "locationPreference": "Gewenste locatie (optioneel)",
+    "locationPreferencePlaceholder": "bijv. Warschau, Słubice",
+    "gdprConsent": "Ik geef toestemming voor de verwerking van mijn persoonsgegevens door Eurojob-West sp. z o.o. ten behoeve van werving, overeenkomstig de AVG.",
+    "privacyPolicyLabel": "Privacybeleid",
+    "privacyPolicyText": "Eurojob-West sp. z o.o. verwerkt uw persoonsgegevens ten behoeve van de uitvoering van het wervingsproces op grond van art. 6 lid 1 sub b AVG. De gegevens worden 12 maanden na indiening van de sollicitatie bewaard, tenzij u wordt aangenomen — in dat geval worden de gegevens bewaard gedurende de looptijd van de arbeidsovereenkomst. U heeft het recht op inzage, rectificatie, verwijdering en overdraagbaarheid van uw gegevens. Neem voor vragen over uw persoonsgegevens contact met ons op via: kontakt@eurojob-west.pl",
+    "submit": "Aanmelding versturen",
+    "submitting": "Verzenden...",
+    "retry": "Opnieuw proberen",
+    "successTitle": "Aanmelding verzonden!",
+    "successMessage": "Dank u. Wij nemen binnenkort contact met u op.",
+    "errorTitle": "Verzendfout",
+    "positions": {
+      "warehouse_picker": "Magazijnmedewerker",
+      "forklift_operator": "Heftruck-operator",
+      "logistics_driver": "Logistiek chauffeur",
+      "other": "Overig"
+    },
+    "languageOptions": {
+      "pl": "Pools",
+      "de": "Duits",
+      "en": "Engels",
+      "uk": "Oekraïens",
+      "ru": "Russisch"
+    },
+    "errors": {
+      "firstNameRequired": "Voornaam is verplicht",
+      "lastNameRequired": "Achternaam is verplicht",
+      "phoneRequired": "Telefoonnummer is verplicht",
+      "phoneInvalid": "Voer een E.164-nummer in voor Polen (+48XXXXXXXXX) of Duitsland (+49XXXXXXXXX)",
+      "nationalityRequired": "Nationaliteit is verplicht",
+      "availabilityRequired": "Beschikbaarheidsdatum is verplicht",
+      "positionRequired": "Gewenste functie is verplicht",
+      "languagesRequired": "Selecteer minimaal één taal",
+      "gdprRequired": "Toestemming voor gegevensverwerking is verplicht",
+      "submitFailed": "Verzending mislukt. Probeer het opnieuw."
+    }
+  },
   "Navbar": {
     "jobs": "Vacatures",
     "services": "Diensten",
@@ -79,7 +247,7 @@
       "compliance_title": "Compliance",
       "compliance_desc": "Toegewijd compliance-team. Nultolerantie voor ontbrekende documentatie. Bilaterale juridische dekking PL/DE.",
       "scale_title": "Schaal",
-      "scale_desc": "Van 10 tot 1.000+ medewerkers — zelfde contract, zelfde accountmanager. Geen heronderhande­ling als u groeit.",
+      "scale_desc": "Van 10 tot 1.000+ medewerkers — zelfde contract, zelfde accountmanager. Geen heronderhandeling als u groeit.",
       "partnership_title": "Partnerschap",
       "partnership_desc": "Één toegewijde accountmanager, direct mobiel nummer. Geen callcenter — echt agentuurcontact."
     },
@@ -112,9 +280,9 @@
       "t2_name": "Operationeel manager",
       "t2_role": "Logistiek bedrijf",
       "t2_location": "Frankfurt (Oder), DE",
-      "t3_quote": "Kas in Nederland — goed werk, legaal contract, huisvesting geregeld. De recruiter was vanaf dag één bereikbaar op WhatsApp.",
+      "t3_quote": "Kassawerk in Nederland — goed werk, legaal contract, huisvesting geregeld. De recruiter was vanaf dag één bereikbaar op WhatsApp.",
       "t3_name": "Oksana V.",
-      "t3_role": "Kasmedewerker",
+      "t3_role": "Kassamedewerker",
       "t3_location": "Westland, NL"
     },
     "trustedBy": "Zij vertrouwen ons",
@@ -131,7 +299,7 @@
     "meta_desc": "Uitzendkrachten, vaste aanwerving, headhunting en HR-advies voor logistieke en magazijnbedrijven in Polen en Duitsland.",
     "hero_tag": "Diensten",
     "hero_heading": "Één partner. Vier diensten. Elke schaal.",
-    "hero_desc": "Volledig personeelsbeheer voor logistiek-, magazijn- en kasbedrijven in Polen, Duitsland, Nederland en België — van uitzendkracht tot operationeel directeur.",
+    "hero_desc": "Volledig personeelsbeheer voor logistiek-, magazijn- en kassabedrijven in Polen, Duitsland, Nederland en België — van uitzendkracht tot operationeel directeur.",
     "typical_profiles": "Typische profielen:",
     "ask_cta": "Informeer naar deze dienst →",
     "compliance_tag": "Compliance",
@@ -148,7 +316,7 @@
     "s1_desc": "Flexibele personeelsinzet op elke schaal — van enkele tot meer dan duizend medewerkers. We leveren geverifieerd magazijn- en logistiekpersoneel met volledige documentatie.",
     "s1_d1": "Order pickers, heftruckchauffeurs, assemblagemedewerkers",
     "s1_d2": "Chauffeurs categorie C, C+E — nationaal en internationaal transport",
-    "s1_d3": "Productie-, assemblagelijn- en kasmedewerkers",
+    "s1_d3": "Productie-, assemblagelijn- en kassamedewerkers",
     "s1_d4": "Teamleiders en ploegencoördinatoren",
     "s1_f1_title": "Snelle plaatsing",
     "s1_f1_desc": "Eerste medewerkers klaar binnen 5 werkdagen na briefing",
