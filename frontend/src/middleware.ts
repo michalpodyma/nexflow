@@ -16,6 +16,8 @@ const COUNTRY_LOCALE: Record<string, string> = {
 const handleI18nRouting = createMiddleware(routing);
 
 export default function middleware(request: NextRequest) {
+  const pathname = request.nextUrl.pathname;
+
   if (!request.cookies.has('NEXT_LOCALE')) {
     const acceptLang = request.headers.get('accept-language') ?? '';
     const primaryLang = acceptLang.split(',')[0]?.split('-')[0]?.toLowerCase() ?? '';
@@ -26,15 +28,13 @@ export default function middleware(request: NextRequest) {
       const geoLocale = COUNTRY_LOCALE[country.toUpperCase()];
 
       if (geoLocale) {
-        // Inject the geo-detected locale as a NEXT_LOCALE cookie hint so that
-        // next-intl's createMiddleware picks it up without overriding an
-        // explicit user preference on subsequent requests.
         const cookieHeader = [request.headers.get('cookie'), `NEXT_LOCALE=${geoLocale}`]
           .filter(Boolean)
           .join('; ');
 
         const modifiedHeaders = new Headers(request.headers);
         modifiedHeaders.set('cookie', cookieHeader);
+        modifiedHeaders.set('x-pathname', pathname);
 
         const modifiedRequest = new NextRequest(request.url, {
           headers: modifiedHeaders,
@@ -46,7 +46,14 @@ export default function middleware(request: NextRequest) {
     }
   }
 
-  return handleI18nRouting(request);
+  // Forward x-pathname so generateMetadata in [locale]/layout.tsx can build
+  // accurate per-page hreflang alternates without relying on middleware rewrite internals.
+  const headersWithPathname = new Headers(request.headers);
+  headersWithPathname.set('x-pathname', pathname);
+  return handleI18nRouting(new NextRequest(request.url, {
+    headers: headersWithPathname,
+    method: request.method,
+  }));
 }
 
 export const config = {

@@ -24,6 +24,8 @@ export const metadata: Metadata = {
       en: "https://nexflow.work/en",
       de: "https://nexflow.work/de",
       nl: "https://nexflow.work/nl",
+      ru: "https://nexflow.work/ru",
+      uk: "https://nexflow.work/uk",
     },
   },
 };
