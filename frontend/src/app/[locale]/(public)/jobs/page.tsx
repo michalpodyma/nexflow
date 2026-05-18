@@ -2,16 +2,27 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import AdsLeadForm from "@/components/AdsLeadForm";
 
-export const metadata: Metadata = {
-  title: "Jobs in Deutschland — Lager & Logistik | Nexflow",
-  description:
-    "Zeitarbeit in Lagern und Logistikzentren deutschlandweit. Kommissionierer, Staplerfahrer, Lageristen gesucht. Jetzt bewerben — Rückruf innerhalb 24h.",
-  alternates: {
-    canonical: "https://nexflow.work/de/jobs",
-    languages: { de: "https://nexflow.work/de/jobs" },
-  },
-  robots: { index: true, follow: true },
-};
+const BASE_URL = "https://nexflow.work";
+const LOCALES = ["pl", "en", "de", "nl", "ru", "uk"] as const;
+
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  return {
+    title: "Jobs in Deutschland — Lager & Logistik | Nexflow",
+    description:
+      "Zeitarbeit in Lagern und Logistikzentren deutschlandweit. Kommissionierer, Staplerfahrer, Lageristen gesucht. Jetzt bewerben — Rückruf innerhalb 24h.",
+    alternates: {
+      canonical: `${BASE_URL}/${locale}/jobs`,
+      languages: Object.fromEntries([
+        ["x-default", `${BASE_URL}/pl/jobs`],
+        ...LOCALES.map((loc) => [loc, `${BASE_URL}/${loc}/jobs`]),
+      ]),
+    },
+    robots: { index: true, follow: true },
+  };
+}
 
 const ROLES = [
   {

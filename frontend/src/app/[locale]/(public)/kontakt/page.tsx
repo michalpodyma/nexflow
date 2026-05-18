@@ -18,6 +18,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         en: "https://nexflow.work/en/kontakt",
         de: "https://nexflow.work/de/kontakt",
         nl: "https://nexflow.work/nl/kontakt",
+        ru: "https://nexflow.work/ru/kontakt",
+        uk: "https://nexflow.work/uk/kontakt",
       },
     },
   };

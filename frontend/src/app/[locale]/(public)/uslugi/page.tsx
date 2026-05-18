@@ -21,6 +21,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         en: "https://nexflow.work/en/uslugi",
         de: "https://nexflow.work/de/uslugi",
         nl: "https://nexflow.work/nl/uslugi",
+        ru: "https://nexflow.work/ru/uslugi",
+        uk: "https://nexflow.work/uk/uslugi",
       },
     },
   };
