@@ -1,0 +1,171 @@
+{
+  "worker": {
+    "login": {
+      "title": "Worker Portal",
+      "subtitle": "Sign in with your phone number",
+      "phonePlaceholder": "+48 501 234 567",
+      "phoneLabel": "Phone number",
+      "sendCode": "Send code",
+      "sending": "Sending...",
+      "codeLabel": "SMS code",
+      "codePlaceholder": "123456",
+      "verify": "Sign in",
+      "verifying": "Signing in...",
+      "codeSent": "Code sent to {phone}. Valid for 10 minutes.",
+      "resend": "Resend",
+      "errors": {
+        "phoneRequired": "Please enter your phone number",
+        "phoneInvalid": "Please enter a number in E.164 format, e.g. +48501234567",
+        "codeRequired": "Please enter the SMS code",
+        "invalidCode": "Invalid or expired code",
+        "tooManyAttempts": "Too many attempts. Please try again in an hour."
+      }
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "payslips": "Payslips",
+      "schedule": "Schedule",
+      "documents": "Documents",
+      "profile": "Profile",
+      "logout": "Log out"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "greeting": "Hello, {name}!",
+      "assignment": "Current assignment",
+      "noAssignment": "No active assignment",
+      "position": "Position",
+      "client": "Employer",
+      "startDate": "From",
+      "rate": "Rate",
+      "nextShift": "Next shift",
+      "noShift": "No scheduled shifts",
+      "shiftDate": "Date",
+      "shiftTime": "Hours",
+      "compliance": "Documents to renew",
+      "noCompliance": "All documents up to date",
+      "daysRemaining": "{days} days",
+      "alertTypes": {
+        "health_cert_expiry": "Medical examination",
+        "bhp_cert_expiry": "Health & Safety training",
+        "a1_cert_expiry": "A1 certificate",
+        "contract_expiry": "Contract",
+        "deployment_limit_warning": "Deployment limit"
+      }
+    },
+    "payslips": {
+      "title": "Payslips",
+      "empty": "No payslip data available",
+      "period": "{month} {year}",
+      "totalHours": "Hours",
+      "totalPay": "Pay",
+      "hours": "{h} h",
+      "viewDetails": "Details",
+      "detail": {
+        "title": "{month} {year}",
+        "rate": "Hourly rate",
+        "totalHours": "Total hours",
+        "overtimeHours": "Overtime hours",
+        "totalPay": "Total pay",
+        "date": "Date",
+        "worked": "Worked",
+        "overtime": "Overtime",
+        "dailyPay": "Amount"
+      },
+      "months": {
+        "1": "January", "2": "February", "3": "March", "4": "April",
+        "5": "May", "6": "June", "7": "July", "8": "August",
+        "9": "September", "10": "October", "11": "November", "12": "December"
+      }
+    },
+    "schedule": {
+      "title": "Schedule",
+      "next30": "Upcoming shifts (30 days)",
+      "empty": "No scheduled shifts",
+      "date": "Date",
+      "time": "Hours",
+      "employer": "Employer",
+      "notes": "Notes"
+    },
+    "documents": {
+      "title": "Documents",
+      "empty": "No documents available for download",
+      "status": {
+        "final": "Ready",
+        "signed": "Signed"
+      },
+      "download": "Download PDF",
+      "noPdf": "PDF not available"
+    },
+    "profile": {
+      "title": "Profile",
+      "phone": "Phone",
+      "email": "Email",
+      "bankAccount": "Bank account number (IBAN)",
+      "bankAccountPlaceholder": "PL61 1090 1014 0000 0712 1981 2874",
+      "save": "Save",
+      "saving": "Saving...",
+      "saved": "Saved",
+      "gdprTitle": "Right to erasure",
+      "gdprDescription": "You may request deletion of your personal data. The request will be processed within 7 days.",
+      "gdprRequest": "Request data deletion",
+      "gdprConfirm": "Are you sure you want to request data deletion? This action is irreversible.",
+      "gdprRequested": "Data deletion request has been submitted"
+    }
+  },
+  "intake": {
+    "languageToggle": "Language",
+    "title": "Registration Form",
+    "subtitle": "Fill in the form to join our candidate database.",
+    "firstName": "First name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Smith",
+    "phone": "Phone",
+    "phonePlaceholder": "+48 123 456 789",
+    "email": "Email (optional)",
+    "emailPlaceholder": "john@example.com",
+    "nationality": "Nationality",
+    "nationalityPlaceholder": "Select country...",
+    "availabilityFrom": "Available from",
+    "preferredPosition": "Preferred position",
+    "preferredPositionPlaceholder": "Select position...",
+    "languages": "Language skills",
+    "locationPreference": "Preferred location (optional)",
+    "locationPreferencePlaceholder": "e.g. Warsaw, Słubice",
+    "gdprConsent": "I consent to the processing of my personal data by Eurojob-West sp. z o.o. for recruitment purposes, in accordance with GDPR.",
+    "privacyPolicyLabel": "Privacy policy",
+    "privacyPolicyText": "Eurojob-West sp. z o.o. processes your personal data for the purpose of conducting the recruitment process on the basis of Art. 6(1)(b) GDPR. The data will be stored for 12 months from the date of application, unless you are hired — in which case the data is stored for the duration of the employment relationship. You have the right to access, rectify, delete and port your data. For data protection enquiries, contact us at: kontakt@eurojob-west.pl",
+    "submit": "Submit application",
+    "submitting": "Submitting...",
+    "retry": "Try again",
+    "successTitle": "Application submitted!",
+    "successMessage": "Thank you. We will be in touch with you shortly.",
+    "errorTitle": "Submission error",
+    "positions": {
+      "warehouse_picker": "Warehouse operative",
+      "forklift_operator": "Forklift operator",
+      "logistics_driver": "Logistics driver",
+      "other": "Other"
+    },
+    "languageOptions": {
+      "pl": "Polish",
+      "de": "German",
+      "en": "English",
+      "uk": "Ukrainian",
+      "ru": "Russian"
+    },
+    "errors": {
+      "firstNameRequired": "First name is required",
+      "lastNameRequired": "Last name is required",
+      "phoneRequired": "Phone number is required",
+      "phoneInvalid": "Please enter an E.164 number for Poland (+48XXXXXXXXX) or Germany (+49XXXXXXXXX)",
+      "nationalityRequired": "Nationality is required",
+      "availabilityRequired": "Availability date is required",
+      "positionRequired": "Preferred position is required",
+      "languagesRequired": "Please select at least one language",
+      "gdprRequired": "Consent to data processing is required",
+      "submitFailed": "Submission failed. Please try again."
+    }
+  }
+}

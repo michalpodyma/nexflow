@@ -1,4 +1,118 @@
 {
+  "worker": {
+    "login": {
+      "title": "Mitarbeiterportal",
+      "subtitle": "Melden Sie sich mit Ihrer Telefonnummer an",
+      "phonePlaceholder": "+48 501 234 567",
+      "phoneLabel": "Telefonnummer",
+      "sendCode": "Code senden",
+      "sending": "Wird gesendet...",
+      "codeLabel": "SMS-Code",
+      "codePlaceholder": "123456",
+      "verify": "Anmelden",
+      "verifying": "Anmeldung...",
+      "codeSent": "Code an {phone} gesendet. Gültig 10 Minuten.",
+      "resend": "Erneut senden",
+      "errors": {
+        "phoneRequired": "Bitte geben Sie Ihre Telefonnummer ein",
+        "phoneInvalid": "Bitte geben Sie eine Nummer im E.164-Format ein, z.B. +48501234567",
+        "codeRequired": "Bitte geben Sie den SMS-Code ein",
+        "invalidCode": "Ungültiger oder abgelaufener Code",
+        "tooManyAttempts": "Zu viele Versuche. Bitte in einer Stunde erneut versuchen."
+      }
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "payslips": "Gehaltsabrechnungen",
+      "schedule": "Dienstplan",
+      "documents": "Dokumente",
+      "profile": "Profil",
+      "logout": "Abmelden"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "greeting": "Hallo, {name}!",
+      "assignment": "Aktuelle Beschäftigung",
+      "noAssignment": "Keine aktive Beschäftigung",
+      "position": "Stelle",
+      "client": "Arbeitgeber",
+      "startDate": "Ab",
+      "rate": "Lohn",
+      "nextShift": "Nächste Schicht",
+      "noShift": "Keine geplanten Schichten",
+      "shiftDate": "Datum",
+      "shiftTime": "Stunden",
+      "compliance": "Dokumente zur Erneuerung",
+      "noCompliance": "Alle Dokumente aktuell",
+      "daysRemaining": "{days} Tage",
+      "alertTypes": {
+        "health_cert_expiry": "Arbeitsmedizinische Untersuchung",
+        "bhp_cert_expiry": "Arbeitssicherheitsschulung",
+        "a1_cert_expiry": "A1-Bescheinigung",
+        "contract_expiry": "Vertrag",
+        "deployment_limit_warning": "Entsendungslimit"
+      }
+    },
+    "payslips": {
+      "title": "Gehaltsabrechnungen",
+      "empty": "Keine Gehaltsabrechnungsdaten verfügbar",
+      "period": "{month} {year}",
+      "totalHours": "Stunden",
+      "totalPay": "Lohn",
+      "hours": "{h} Std.",
+      "viewDetails": "Details",
+      "detail": {
+        "title": "{month} {year}",
+        "rate": "Stundenlohn",
+        "totalHours": "Gesamtstunden",
+        "overtimeHours": "Überstunden",
+        "totalPay": "Gesamtlohn",
+        "date": "Datum",
+        "worked": "Gearbeitet",
+        "overtime": "Überstunden",
+        "dailyPay": "Betrag"
+      },
+      "months": {
+        "1": "Januar", "2": "Februar", "3": "März", "4": "April",
+        "5": "Mai", "6": "Juni", "7": "Juli", "8": "August",
+        "9": "September", "10": "Oktober", "11": "November", "12": "Dezember"
+      }
+    },
+    "schedule": {
+      "title": "Dienstplan",
+      "next30": "Bevorstehende Schichten (30 Tage)",
+      "empty": "Keine geplanten Schichten",
+      "date": "Datum",
+      "time": "Stunden",
+      "employer": "Arbeitgeber",
+      "notes": "Anmerkungen"
+    },
+    "documents": {
+      "title": "Dokumente",
+      "empty": "Keine Dokumente zum Herunterladen verfügbar",
+      "status": {
+        "final": "Fertig",
+        "signed": "Unterzeichnet"
+      },
+      "download": "PDF herunterladen",
+      "noPdf": "PDF nicht verfügbar"
+    },
+    "profile": {
+      "title": "Profil",
+      "phone": "Telefon",
+      "email": "E-Mail",
+      "bankAccount": "Bankkontonummer (IBAN)",
+      "bankAccountPlaceholder": "PL61 1090 1014 0000 0712 1981 2874",
+      "save": "Speichern",
+      "saving": "Wird gespeichert...",
+      "saved": "Gespeichert",
+      "gdprTitle": "Recht auf Löschung",
+      "gdprDescription": "Sie können die Löschung Ihrer personenbezogenen Daten beantragen. Der Antrag wird innerhalb von 7 Tagen bearbeitet.",
+      "gdprRequest": "Datenlöschung beantragen",
+      "gdprConfirm": "Sind Sie sicher, dass Sie die Löschung Ihrer Daten beantragen möchten? Diese Aktion ist unwiderruflich.",
+      "gdprRequested": "Antrag auf Datenlöschung wurde gestellt"
+    }
+  },
   "intake": {
     "languageToggle": "Sprache",
     "title": "Anmeldeformular",
