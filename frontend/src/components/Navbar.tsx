@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import FlowMark from "./FlowMark";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 const navLinks = [
   { href: "/oferty", label: "Oferty pracy" },
@@ -46,6 +47,7 @@ export default function Navbar() {
             >
               Aplikuj
             </Link>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile hamburger */}
@@ -89,6 +91,9 @@ export default function Navbar() {
             >
               Aplikuj
             </Link>
+            <div className="mt-4 pt-3 border-t border-white/10">
+              <LanguageSwitcher />
+            </div>
           </div>
         )}
       </nav>
