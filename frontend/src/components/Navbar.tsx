@@ -3,25 +3,29 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 import FlowMark from "./FlowMark";
-
-const navLinks = [
-  { href: "/oferty", label: "Oferty pracy" },
-  { href: "/uslugi", label: "Usługi" },
-  { href: "/o-nas", label: "O nas" },
-  { href: "/kontakt", label: "Kontakt" },
-];
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function Navbar() {
+  const t = useTranslations("Navbar");
+  const locale = useLocale();
   const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+
+  const navLinks = [
+    { href: `/${locale}/oferty`, label: t("jobs") },
+    { href: `/${locale}/uslugi`, label: t("services") },
+    { href: `/${locale}/o-nas`, label: t("about") },
+    { href: `/${locale}/kontakt`, label: t("contact") },
+  ];
 
   return (
     <header className="bg-nexflow-navy sticky top-0 z-50 shadow-md">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center" aria-label="Nexflow — strona główna">
+          <Link href={`/${locale}`} className="flex items-center" aria-label="Nexflow">
             <FlowMark variant="full" colorScheme="reversed" height={32} />
           </Link>
 
@@ -41,18 +45,19 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/intake"
+              href={`/${locale}/aplikuj`}
               className="bg-nexflow-cyan text-nexflow-navy font-semibold text-sm px-5 py-2 rounded-lg hover:bg-opacity-90 transition-all duration-200"
             >
-              Aplikuj
+              {t("apply")}
             </Link>
+            <LanguageSwitcher />
           </div>
 
           {/* Mobile hamburger */}
           <button
             className="md:hidden text-white p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
-            aria-label="Otwórz menu"
+            aria-label={t("openMenu")}
             aria-expanded={mobileOpen}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -83,12 +88,15 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/intake"
+              href={`/${locale}/aplikuj`}
               onClick={() => setMobileOpen(false)}
               className="mt-3 block w-full text-center bg-nexflow-cyan text-nexflow-navy font-semibold text-sm px-5 py-2 rounded-lg"
             >
-              Aplikuj
+              {t("apply")}
             </Link>
+            <div className="mt-4 pt-3 border-t border-white/10">
+              <LanguageSwitcher />
+            </div>
           </div>
         )}
       </nav>

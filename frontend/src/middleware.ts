@@ -50,5 +50,9 @@ export default function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: '/((?!api|trpc|_next|_vercel|.*\\..*).*)',
+  // Apply locale routing to the homepage + migrated public pages only.
+  // Non-migrated public pages (blog, o-nas, oferty, aplikuj, etc.) and
+  // admin routes (dashboard, worker, login) keep working at bare paths.
+  // datenschutz and jobs use explicit next.config.mjs redirects → /de/...
+  matcher: '/((?!api|trpc|_next|_vercel|dashboard|worker|login|blog|o-nas|oferty|aplikuj|intake|polityka-prywatnosci|praca|case-studies|datenschutz|jobs|.*\\..*).*)',
 };

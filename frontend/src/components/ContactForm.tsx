@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 
 type FormState = {
   name: string;
@@ -24,6 +25,8 @@ const initialState: FormState = {
 };
 
 export default function ContactForm() {
+  const t = useTranslations("ContactForm");
+  const locale = useLocale();
   const [form, setForm] = useState<FormState>(initialState);
   const [status, setStatus] = useState<SubmitStatus>("idle");
 
@@ -91,15 +94,13 @@ export default function ContactForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-nexflow-navy mb-2">Wiadomość wysłana!</h3>
-        <p className="text-slate text-sm">
-          Odpiszemy lub oddzwonimy jeszcze tego samego dnia roboczego.
-        </p>
+        <h3 className="text-xl font-bold text-nexflow-navy mb-2">{t("success_heading")}</h3>
+        <p className="text-slate text-sm">{t("success_desc")}</p>
         <button
           onClick={() => setStatus("idle")}
           className="mt-6 text-nexflow-navy text-sm hover:underline"
         >
-          Wyślij kolejną wiadomość
+          {t("success_again")}
         </button>
       </div>
     );
@@ -109,12 +110,12 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="space-y-5">
       {/* Enquiry type */}
       <div>
-        <label className="block text-sm font-medium text-graphite mb-2">Jestem</label>
+        <label className="block text-sm font-medium text-graphite mb-2">{t("iam")}</label>
         <div className="flex gap-3 flex-wrap">
           {[
-            { value: "employer", label: "Pracodawcą" },
-            { value: "worker", label: "Pracownikiem" },
-            { value: "other", label: "Inne" },
+            { value: "employer", label: t("employer") },
+            { value: "worker", label: t("worker") },
+            { value: "other", label: t("other") },
           ].map((opt) => (
             <label
               key={opt.value}
@@ -142,7 +143,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="name" className="block text-sm font-medium text-graphite mb-1.5">
-            Imię i nazwisko <span className="text-red-400">*</span>
+            {t("name")} <span className="text-red-400">*</span>
           </label>
           <input
             id="name"
@@ -157,7 +158,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="company" className="block text-sm font-medium text-graphite mb-1.5">
-            Firma{" "}
+            {t("company")}{" "}
             {form.type === "employer" && <span className="text-red-400">*</span>}
           </label>
           <input
@@ -167,7 +168,7 @@ export default function ContactForm() {
             required={form.type === "employer"}
             value={form.company}
             onChange={handleChange}
-            placeholder="Nazwa firmy"
+            placeholder="Nexflow Sp. z o.o."
             className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors"
           />
         </div>
@@ -177,7 +178,7 @@ export default function ContactForm() {
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div>
           <label htmlFor="email" className="block text-sm font-medium text-graphite mb-1.5">
-            E-mail <span className="text-red-400">*</span>
+            {t("email")} <span className="text-red-400">*</span>
           </label>
           <input
             id="email"
@@ -192,7 +193,7 @@ export default function ContactForm() {
         </div>
         <div>
           <label htmlFor="phone" className="block text-sm font-medium text-graphite mb-1.5">
-            Telefon
+            {t("phone")}
           </label>
           <input
             id="phone"
@@ -209,7 +210,7 @@ export default function ContactForm() {
       {/* Message */}
       <div>
         <label htmlFor="message" className="block text-sm font-medium text-graphite mb-1.5">
-          Wiadomość <span className="text-red-400">*</span>
+          {t("message")} <span className="text-red-400">*</span>
         </label>
         <textarea
           id="message"
@@ -220,24 +221,23 @@ export default function ContactForm() {
           onChange={handleChange}
           placeholder={
             form.type === "employer"
-              ? "Opisz swoje potrzeby kadrowe — liczba pracowników, lokalizacja, termin..."
+              ? t("placeholder_employer")
               : form.type === "worker"
-                ? "Powiedz nam o sobie — jakiej pracy szukasz, gdzie chcesz pracować..."
-                : "Twoja wiadomość..."
+                ? t("placeholder_worker")
+                : t("placeholder_other")
           }
           className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors resize-none"
         />
       </div>
 
-      {/* RODO note */}
+      {/* GDPR note */}
       <p className="text-xs text-slate">
-        Administratorem danych jest Nexflow Sp. z o.o. Dane przetwarzamy wyłącznie
-        w celu obsługi zapytania. Szczegóły w{" "}
+        {t("gdpr")}{" "}
         <Link
-          href="/polityka-prywatnosci"
+          href={`/${locale}/polityka-prywatnosci`}
           className="underline hover:text-nexflow-navy transition-colors"
         >
-          Polityce prywatności
+          {t("privacy_link")}
         </Link>
         .
       </p>
@@ -247,13 +247,11 @@ export default function ContactForm() {
         disabled={status === "submitting"}
         className="w-full bg-nexflow-cyan text-nexflow-navy font-semibold py-3 rounded-lg hover:bg-opacity-90 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        {status === "submitting" ? "Wysyłanie..." : "Wyślij wiadomość →"}
+        {status === "submitting" ? t("submitting") : t("submit")}
       </button>
 
       {status === "error" && (
-        <p className="text-red-500 text-sm text-center">
-          Coś poszło nie tak. Spróbuj ponownie lub zadzwoń bezpośrednio.
-        </p>
+        <p className="text-red-500 text-sm text-center">{t("error")}</p>
       )}
     </form>
   );

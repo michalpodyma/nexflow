@@ -14,6 +14,17 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // datenschutz and jobs are DE-only pages; bare paths redirect to /de/
+      {
+        source: "/datenschutz",
+        destination: "/de/datenschutz",
+        permanent: true,
+      },
+      {
+        source: "/jobs",
+        destination: "/de/jobs",
+        permanent: true,
+      },
       {
         source: "/en/jobs",
         destination: "/oferty",
