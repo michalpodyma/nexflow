@@ -1,11 +1,11 @@
 {
   "Navbar": {
-    "jobs": "Вакансії",
-    "services": "Послуги",
-    "about": "Про нас",
+    "jobs": "Вакансии",
+    "services": "Услуги",
+    "about": "О нас",
     "contact": "Контакт",
-    "apply": "Подати заявку",
-    "openMenu": "Відкрити меню"
+    "apply": "Подать заявку",
+    "openMenu": "Открыть меню"
   },
   "Footer": {
     "description": "Staffing agency specialising in warehouse and logistics in Poland and Germany. Workers ready within 5 business days.",

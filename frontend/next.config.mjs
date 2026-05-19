@@ -1,3 +1,7 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
@@ -10,6 +14,17 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // datenschutz and jobs are DE-only pages; bare paths redirect to /de/
+      {
+        source: "/datenschutz",
+        destination: "/de/datenschutz",
+        permanent: true,
+      },
+      {
+        source: "/jobs",
+        destination: "/de/jobs",
+        permanent: true,
+      },
       {
         source: "/en/jobs",
         destination: "/oferty",
@@ -34,4 +49,4 @@ const nextConfig = {
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

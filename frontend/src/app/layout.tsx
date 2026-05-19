@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { getLocale } from "next-intl/server";
 
 import "./globals.css";
 
@@ -19,15 +20,20 @@ export const metadata: Metadata = {
     canonical: "/",
     languages: {
       "x-default": "https://nexflow.work",
-      pl: "https://nexflow.work",
-      de: "https://nexflow.work",
+      pl: "https://nexflow.work/pl",
+      en: "https://nexflow.work/en",
+      de: "https://nexflow.work/de",
+      nl: "https://nexflow.work/nl",
+      ru: "https://nexflow.work/ru",
+      uk: "https://nexflow.work/uk",
     },
   },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const locale = await getLocale();
   return (
-    <html lang="pl">
+    <html lang={locale}>
       <body className={inter.className}>
         {GTM_ID && (
           <noscript>

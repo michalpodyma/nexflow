@@ -1,36 +1,47 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
 
-export const metadata: Metadata = {
-  title: "Kontakt | Nexflow",
-  description:
-    "Skontaktuj się z Nexflow. Umów rozmowę, zapytaj o pracowników lub aplikuj o pracę. Oddzwonimy tego samego dnia.",
-  alternates: {
-    canonical: "https://nexflow.work/kontakt",
-    languages: {
-      "x-default": "https://nexflow.work/kontakt",
-      pl: "https://nexflow.work/kontakt",
-      de: "https://nexflow.work/kontakt",
-    },
-  },
-};
+type Props = { params: Promise<{ locale: string }> };
 
-export default function ContactPage() {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Contact" });
+  return {
+    title: t("meta_title"),
+    description: t("meta_desc"),
+    alternates: {
+      canonical: `https://nexflow.work/${locale}/kontakt`,
+      languages: {
+        "x-default": "https://nexflow.work/pl/kontakt",
+        pl: "https://nexflow.work/pl/kontakt",
+        en: "https://nexflow.work/en/kontakt",
+        de: "https://nexflow.work/de/kontakt",
+        nl: "https://nexflow.work/nl/kontakt",
+        ru: "https://nexflow.work/ru/kontakt",
+        uk: "https://nexflow.work/uk/kontakt",
+      },
+    },
+  };
+}
+
+export default async function ContactPage({ params }: Props) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Contact" });
+
   return (
     <>
       {/* Hero */}
       <section className="bg-nexflow-navy text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
-            Kontakt
+            {t("hero_tag")}
           </p>
           <h1 className="text-4xl md:text-5xl font-bold max-w-2xl leading-tight">
-            Oddzwonimy jeszcze dzisiaj.
+            {t("hero_heading")}
           </h1>
           <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
-            Powiedz nam, czego potrzebujesz — pracowników do magazynu,
-            rekrutacji na stałe, albo chcesz sam do nas dołączyć. Wrócimy do
-            Ciebie szybko i konkretnie.
+            {t("hero_desc")}
           </p>
         </div>
       </section>
@@ -43,34 +54,18 @@ export default function ContactPage() {
             <div className="lg:col-span-2">
               {/* For employers */}
               <div id="pracodawcy" className="mb-10">
-                <h2 className="text-xl font-bold text-nexflow-navy mb-4">Dla pracodawców</h2>
-                <p className="text-slate text-sm leading-relaxed mb-6">
-                  Szukasz pracowników do magazynu, logistyki lub transportu?
-                  Skontaktuj się bezpośrednio — wrócimy do Ciebie z propozycją
-                  jeszcze tego samego dnia.
-                </p>
+                <h2 className="text-xl font-bold text-nexflow-navy mb-4">{t("employers_heading")}</h2>
+                <p className="text-slate text-sm leading-relaxed mb-6">{t("employers_desc")}</p>
 
                 <div className="space-y-4">
-                  <ContactCard
-                    name="Michał Podyma"
-                    role="Prezes Zarządu"
-                    email="mp@nexflow.work"
-                  />
-                  <ContactCard
-                    name="Anatolii Tychonenko"
-                    role="Wiceprezes Zarządu"
-                    email="at@nexflow.work"
-                  />
-                  <ContactCard
-                    name="Swietłana Owsiejczuk"
-                    role="Manager"
-                    email="so@nexflow.work"
-                  />
+                  <ContactCard name="Michał Podyma" role={t("roles.prezes")} email="mp@nexflow.work" />
+                  <ContactCard name="Anatolii Tychonenko" role={t("roles.wiceprezes")} email="at@nexflow.work" />
+                  <ContactCard name="Swietłana Owsiejczuk" role={t("roles.manager")} email="so@nexflow.work" />
                 </div>
 
                 <div className="mt-6 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
                   <p className="text-xs font-semibold text-slate uppercase tracking-wider mb-2">
-                    Centralny numer biura
+                    {t("office_number")}
                   </p>
                   <div className="text-sm text-graphite space-y-1">
                     <p>
@@ -90,26 +85,19 @@ export default function ContactPage() {
 
               {/* For workers */}
               <div id="pracownicy">
-                <h2 className="text-xl font-bold text-nexflow-navy mb-4">Dla pracowników</h2>
-                <p className="text-slate text-sm leading-relaxed mb-4">
-                  Szukasz pracy w magazynie lub logistyce w Polsce albo
-                  Niemczech? Wypełnij formularz lub zadzwoń — wrócimy do Ciebie
-                  w ciągu 24 godzin.
-                </p>
+                <h2 className="text-xl font-bold text-nexflow-navy mb-4">{t("workers_heading")}</h2>
+                <p className="text-slate text-sm leading-relaxed mb-4">{t("workers_desc")}</p>
                 <div className="mb-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
                   <p className="text-xs font-semibold text-slate uppercase tracking-wider mb-2">
-                    Zadzwoń do nas
+                    {t("call_us")}
                   </p>
-                  <a
-                    href="tel:+48224878828"
-                    className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors text-sm"
-                  >
+                  <a href="tel:+48224878828" className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors text-sm">
                     +48 224 878 828
                   </a>
-                  <p className="text-xs text-slate mt-1">Pon–Pt, 8:00–17:00</p>
+                  <p className="text-xs text-slate mt-1">{t("hours")}</p>
                 </div>
                 <div className="p-4 bg-nexflow-navy rounded-xl text-white">
-                  <p className="text-sm font-semibold mb-2">Pracujemy w językach:</p>
+                  <p className="text-sm font-semibold mb-2">{t("languages_label")}</p>
                   <div className="flex flex-wrap gap-2">
                     {["🇵🇱 Polski", "🇩🇪 Deutsch", "🇬🇧 English", "🇺🇦 Українська"].map((lang) => (
                       <span key={lang} className="text-xs bg-white/10 px-2 py-1 rounded-full">
@@ -135,10 +123,8 @@ export default function ContactPage() {
             {/* Contact form */}
             <div className="lg:col-span-3">
               <div className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
-                <h2 className="text-xl font-bold text-nexflow-navy mb-2">Napisz do nas</h2>
-                <p className="text-slate text-sm mb-6">
-                  Odpiszemy lub oddzwonimy jeszcze tego samego dnia roboczego.
-                </p>
+                <h2 className="text-xl font-bold text-nexflow-navy mb-2">{t("form_heading")}</h2>
+                <p className="text-slate text-sm mb-6">{t("form_desc")}</p>
                 <ContactForm />
               </div>
             </div>
@@ -149,15 +135,7 @@ export default function ContactPage() {
   );
 }
 
-function ContactCard({
-  name,
-  role,
-  email,
-}: {
-  name: string;
-  role: string;
-  email: string;
-}) {
+function ContactCard({ name, role, email }: { name: string; role: string; email: string }) {
   return (
     <div className="flex items-start gap-4 p-4 bg-white rounded-xl border border-gray-100 shadow-sm">
       <div className="w-10 h-10 rounded-full bg-nexflow-navy flex items-center justify-center text-nexflow-cyan shrink-0 text-sm font-bold">
@@ -166,13 +144,9 @@ function ContactCard({
       <div>
         <p className="font-semibold text-nexflow-navy text-sm">{name}</p>
         <p className="text-slate text-xs mb-2">{role}</p>
-        <div className="text-xs space-y-0.5">
-          <p>
-            <a href={`mailto:${email}`} className="text-nexflow-navy hover:underline">
-              {email}
-            </a>
-          </p>
-        </div>
+        <p className="text-xs">
+          <a href={`mailto:${email}`} className="text-nexflow-navy hover:underline">{email}</a>
+        </p>
       </div>
     </div>
   );
