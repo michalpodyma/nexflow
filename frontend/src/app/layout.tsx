@@ -30,10 +30,39 @@ export const metadata: Metadata = {
   },
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Nexflow",
+  legalName: "Nexflow Sp. z o.o.",
+  url: "https://nexflow.work",
+  logo: "https://nexflow.work/logo.png",
+  taxID: "PL5383532310",
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Słubice",
+    addressCountry: "PL",
+  },
+  contactPoint: [
+    {
+      "@type": "ContactPoint",
+      telephone: "+48-22-487-88-28",
+      contactType: "customer service",
+      availableLanguage: ["pl", "en", "de", "nl", "uk", "ru"],
+    },
+  ],
+};
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale();
   return (
     <html lang={locale}>
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+      </head>
       <body className={inter.className}>
         {GTM_ID && (
           <noscript>

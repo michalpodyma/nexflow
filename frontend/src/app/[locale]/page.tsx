@@ -11,11 +11,20 @@ import { ShieldCheck, FileCheck, Building2 } from "lucide-react";
 
 type Props = { params: Promise<{ locale: string }> };
 
+const LOCALE_TITLES: Record<string, string> = {
+  pl: "Agencja pracy tymczasowej — pracownicy do magazynu i logistyki w 5 dni | Nexflow",
+  de: "Personalvermittlung — Lager- und Logistikkräfte aus Polen, einsatzbereit in 5 Tagen | Nexflow",
+  en: "Workforce agency for warehouse & logistics — staffed in 5 working days | Nexflow",
+  nl: "Uitzendbureau voor magazijn & logistiek — personeel in 5 werkdagen | Nexflow",
+  uk: "Кадрова агенція — працівники для складу та логістики за 5 днів | Nexflow",
+  ru: "Кадровое агентство — работники для склада и логистики за 5 дней | Nexflow",
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Home" });
   return {
-    title: "Nexflow — Workforce in motion.",
+    title: LOCALE_TITLES[locale] ?? "Nexflow — Workforce in motion.",
     description: t("hero.description"),
     alternates: {
       canonical: `https://nexflow.work/${locale}`,
