@@ -45,6 +45,22 @@ const nextConfig = {
         destination: "/aplikuj?ref=1",
         permanent: true,
       },
+      // Legacy PL flat paths → /pl/{slug} (EUR-884)
+      {
+        source: "/o-nas",
+        destination: "/pl/o-nas",
+        permanent: true,
+      },
+      {
+        source: "/oferty",
+        destination: "/pl/oferty",
+        permanent: true,
+      },
+      {
+        source: "/aplikuj",
+        destination: "/pl/aplikuj",
+        permanent: true,
+      },
     ];
   },
 };

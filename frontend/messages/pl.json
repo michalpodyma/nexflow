@@ -493,5 +493,35 @@
     "cta_heading": "Chcesz wiedzieć więcej?",
     "cta_desc": "Porozmawiaj z nami o Twoich potrzebach kadrowych. Przedstawimy konkretne rozwiązanie.",
     "cta_book": "Umów rozmowę →"
+  },
+  "AboutPage": {
+    "meta_title": "O nas | Nexflow",
+    "meta_desc": "Nexflow — dawniej Eurojob-West. Od 2013 roku łączymy pracowników z firmami logistycznymi po obu stronach granicy polsko-niemieckiej.",
+    "hero_tag": "O nas",
+    "hero_heading": "Eurojob-West już nie istnieje. Jest Nexflow.",
+    "hero_desc": "Od 2013 roku łączyliśmy pracowników z firmami logistycznymi po obu stronach granicy polsko-niemieckiej. Zrobiliśmy to tysiące razy — z zaangażowaniem, terminowo, legalnie.",
+    "cta_heading": "Poznaj nas w akcji",
+    "cta_desc": "Opowiedz nam o swoim wyzwaniu kadrowym. Wrócimy do Ciebie jeszcze tego samego dnia z konkretną propozycją.",
+    "cta_btn": "Skontaktuj się z nami →"
+  },
+  "JobsPage": {
+    "meta_title": "Oferty pracy w magazynach i logistyce | Nexflow",
+    "meta_desc": "Aktualne oferty pracy tymczasowej w magazynach i logistyce. Słubice, Frankfurt (Oder) i okolice. Praca od zaraz — aplikuj online.",
+    "hero_tag": "Oferty pracy",
+    "hero_heading": "Znajdź pracę w logistyce i magazynach",
+    "hero_desc": "Aktualne oferty dla operatorów wózków, kierowców i pracowników kompletacji — w Polsce i Niemczech."
+  },
+  "ApplyPage": {
+    "meta_title": "Aplikuj — Praca w magazynie i logistyce | Nexflow",
+    "meta_desc": "Wyślij zgłoszenie i dołącz do bazy kandydatów Nexflow. Praca tymczasowa w magazynach i logistyce w Polsce i Niemczech.",
+    "hero_tag": "Aplikuj",
+    "hero_heading": "Dołącz do Nexflow — praca w Polsce i Niemczech",
+    "hero_desc": "Rejestracja zajmuje 3 minuty. Weryfikujemy dokumenty, łączymy z pracodawcami.",
+    "b1_title": "Szybka rekrutacja",
+    "b1_desc": "Pierwsze oferty w 48h od rejestracji. Aktywna pula 240+ zweryfikowanych pracowników.",
+    "b2_title": "Pełna dokumentacja",
+    "b2_desc": "Pomagamy z zezwoleniami, A1, ZUS — bez formalności z Twojej strony.",
+    "b3_title": "Niemcy i Polska",
+    "b3_desc": "Oferty po obu stronach granicy. Praca z zakwaterowaniem lub bez."
   }
 }

@@ -61,5 +61,6 @@ export const config = {
   // Non-migrated public pages (blog, o-nas, oferty, aplikuj, etc.) and
   // admin routes (dashboard, worker, login) keep working at bare paths.
   // datenschutz and jobs use explicit next.config.mjs redirects → /de/...
-  matcher: '/((?!api|trpc|_next|_vercel|dashboard|worker|login|blog|o-nas|oferty|aplikuj|intake|polityka-prywatnosci|praca|case-studies|datenschutz|jobs|.*\\..*).*)',
+  // o-nas, oferty, aplikuj removed — now live under [locale]/ (EUR-884)
+  matcher: '/((?!api|trpc|_next|_vercel|dashboard|worker|login|blog|intake|polityka-prywatnosci|praca|case-studies|datenschutz|jobs|.*\\..*).*)',
 };

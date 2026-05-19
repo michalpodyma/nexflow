@@ -484,5 +484,35 @@
     "cta_heading": "Wilt u meer weten?",
     "cta_desc": "Praat met ons over uw personeelsbehoeften. We presenteren een concrete oplossing.",
     "cta_book": "Plan een gesprek →"
+  },
+  "AboutPage": {
+    "meta_title": "Over ons | Nexflow",
+    "meta_desc": "Nexflow — voorheen Eurojob-West. Sinds 2013 verbinden wij werknemers met logistieke bedrijven aan beide kanten van de Pools-Duitse grens.",
+    "hero_tag": "Over ons",
+    "hero_heading": "Eurojob-West bestaat niet meer. Maak kennis met Nexflow.",
+    "hero_desc": "Sinds 2013 hebben wij werknemers verbonden met logistieke bedrijven aan beide kanten van de Pools-Duitse grens. Duizenden keren — met toewijding, op tijd, legaal.",
+    "cta_heading": "Ontmoet ons in actie",
+    "cta_desc": "Vertel ons over uw personeelsuitdaging. We nemen diezelfde dag nog contact met u op met een concreet voorstel.",
+    "cta_btn": "Neem contact op →"
+  },
+  "JobsPage": {
+    "meta_title": "Magazijn- en logistiekfuncties | Nexflow",
+    "meta_desc": "Actuele tijdelijke vacatures in magazijnen en logistiek. Słubice, Frankfurt (Oder) en omgeving. Direct aan de slag — solliciteer online.",
+    "hero_tag": "Vacatures",
+    "hero_heading": "Vind werk in logistiek en magazijnen",
+    "hero_desc": "Actuele vacatures voor heftruckchauffeurs, chauffeurs en orderpickers — in Polen en Duitsland."
+  },
+  "ApplyPage": {
+    "meta_title": "Solliciteren — Magazijn- en logistiekfuncties | Nexflow",
+    "meta_desc": "Stuur uw sollicitatie en word onderdeel van de Nexflow kandidatenpool. Tijdelijk werk in magazijnen en logistiek in Polen en Duitsland.",
+    "hero_tag": "Solliciteren",
+    "hero_heading": "Sluit je aan bij Nexflow — werk in Polen en Duitsland",
+    "hero_desc": "Registratie duurt 3 minuten. We controleren documenten en koppelen u aan werkgevers.",
+    "b1_title": "Snelle werving",
+    "b1_desc": "Eerste aanbiedingen binnen 48u na registratie. Actieve pool van 240+ geverifieerde werknemers.",
+    "b2_title": "Volledige documentatie",
+    "b2_desc": "Wij helpen met vergunningen, A1, ZUS — geen papierwerk van uw kant.",
+    "b3_title": "Duitsland en Polen",
+    "b3_desc": "Vacatures aan beide kanten van de grens. Werk met of zonder accommodatie."
   }
 }

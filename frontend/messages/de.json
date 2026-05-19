@@ -370,5 +370,35 @@
     "cta_heading": "Möchten Sie mehr erfahren?",
     "cta_desc": "Sprechen Sie mit uns über Ihren Personalbedarf. Wir stellen Ihnen eine konkrete Lösung vor.",
     "cta_book": "Gespräch vereinbaren →"
+  },
+  "AboutPage": {
+    "meta_title": "Über uns | Nexflow",
+    "meta_desc": "Nexflow — früher Eurojob-West. Seit 2013 verbinden wir Arbeitnehmer mit Logistikunternehmen auf beiden Seiten der deutsch-polnischen Grenze.",
+    "hero_tag": "Über uns",
+    "hero_heading": "Eurojob-West gibt es nicht mehr. Hier ist Nexflow.",
+    "hero_desc": "Seit 2013 haben wir Arbeitnehmer mit Logistikunternehmen auf beiden Seiten der deutsch-polnischen Grenze verbunden. Tausende Male — engagiert, pünktlich, legal.",
+    "cta_heading": "Erleben Sie uns in Aktion",
+    "cta_desc": "Erzählen Sie uns von Ihrem Personalbedarf. Wir melden uns noch am selben Tag mit einem konkreten Vorschlag.",
+    "cta_btn": "Kontakt aufnehmen →"
+  },
+  "JobsPage": {
+    "meta_title": "Stellen in Lager und Logistik | Nexflow",
+    "meta_desc": "Aktuelle Zeitarbeitsstellen in Lager und Logistik. Słubice, Frankfurt (Oder) und Umgebung. Arbeit sofort — online bewerben.",
+    "hero_tag": "Stellenangebote",
+    "hero_heading": "Finden Sie Arbeit in Logistik und Lager",
+    "hero_desc": "Aktuelle Stellen für Staplerfahrer, Fahrer und Kommissionierer — in Polen und Deutschland."
+  },
+  "ApplyPage": {
+    "meta_title": "Bewerben — Lager- und Logistikjobs | Nexflow",
+    "meta_desc": "Senden Sie Ihre Bewerbung und werden Sie Teil der Nexflow-Kandidatendatenbank. Zeitarbeit in Lager und Logistik in Polen und Deutschland.",
+    "hero_tag": "Bewerben",
+    "hero_heading": "Werde Teil von Nexflow — Arbeit in Polen und Deutschland",
+    "hero_desc": "Die Registrierung dauert 3 Minuten. Wir prüfen Dokumente und vermitteln Sie an Arbeitgeber.",
+    "b1_title": "Schnelle Vermittlung",
+    "b1_desc": "Erste Angebote innerhalb von 48h nach der Registrierung. Aktiver Pool mit 240+ geprüften Arbeitnehmern.",
+    "b2_title": "Vollständige Dokumentation",
+    "b2_desc": "Wir helfen bei Genehmigungen, A1, ZUS — kein Papierkram Ihrerseits.",
+    "b3_title": "Deutschland und Polen",
+    "b3_desc": "Stellen auf beiden Seiten der Grenze. Arbeit mit oder ohne Unterkunft."
   }
 }

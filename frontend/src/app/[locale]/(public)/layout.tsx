@@ -1,12 +1,15 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-export default function PublicLocaleLayout({ children }: { children: React.ReactNode }) {
+type Props = { children: React.ReactNode; params: Promise<{ locale: string }> };
+
+export default async function PublicLocaleLayout({ children, params }: Props) {
+  const { locale } = await params;
   return (
     <>
       <Navbar />
       {children}
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 }
