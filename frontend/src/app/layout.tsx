@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const locale = await getLocale();
+  const locale = await getLocale().catch(() => 'pl');
   return (
     <html lang={locale}>
       <body className={inter.className}>
