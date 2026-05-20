@@ -31,18 +31,18 @@ function localeVariants(
 export default function sitemap(): MetadataRoute.Sitemap {
   const localizedPages: MetadataRoute.Sitemap = [
     ...localeVariants("", "monthly", 1.0),
+    ...localeVariants("/o-nas", "monthly", 0.8),
+    ...localeVariants("/oferty", "daily", 0.9),
+    ...localeVariants("/aplikuj", "monthly", 0.8),
     ...localeVariants("/jobs", "daily", 0.9),
     ...localeVariants("/kontakt", "monthly", 0.8),
     ...localeVariants("/uslugi", "monthly", 0.7),
     ...localeVariants("/datenschutz", "yearly", 0.3),
   ];
 
-  // Pages not yet migrated to [locale]/ — served at bare paths for now
+  // Non-migrated pages served at bare paths (blog, polityka-prywatnosci)
   const barePages: MetadataRoute.Sitemap = [
-    { url: `${BASE_URL}/oferty`, changeFrequency: "daily", priority: 0.9 },
-    { url: `${BASE_URL}/aplikuj`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE_URL}/o-nas`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${BASE_URL}/polityka-prywatnosci`, changeFrequency: "yearly", priority: 0.3 },
   ];
 

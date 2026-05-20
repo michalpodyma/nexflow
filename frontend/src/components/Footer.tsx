@@ -1,22 +1,32 @@
+import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import FlowMark from "./FlowMark";
 
-const serviceLinks = [
-  { href: "/uslugi#tymczasowi", label: "Pracownicy tymczasowi" },
-  { href: "/uslugi#rekrutacja", label: "Rekrutacja stała" },
-  { href: "/uslugi#headhunting", label: "Headhunting" },
-  { href: "/uslugi#doradztwo", label: "Doradztwo HR" },
-];
+type Props = { locale?: string };
 
-const companyLinks = [
-  { href: "/oferty", label: "Oferty pracy" },
-  { href: "/o-nas", label: "O nas" },
-  { href: "/kontakt", label: "Kontakt" },
-  { href: "/kontakt#pracodawcy", label: "Dla pracodawców" },
-  { href: "/kontakt#pracownicy", label: "Dla pracowników" },
-];
+export default async function Footer({ locale }: Props) {
+  if (!locale) {
+    return <FooterFallback />;
+  }
 
-export default function Footer() {
+  const t = await getTranslations({ locale, namespace: "Footer" });
+  const year = new Date().getFullYear();
+
+  const serviceLinks = [
+    { href: `/${locale}/uslugi#tymczasowi`, label: t("links.temp_workers") },
+    { href: `/${locale}/uslugi#rekrutacja`, label: t("links.permanent") },
+    { href: `/${locale}/uslugi#headhunting`, label: t("links.headhunting") },
+    { href: `/${locale}/uslugi#doradztwo`, label: t("links.advisory") },
+  ];
+
+  const companyLinks = [
+    { href: `/${locale}/oferty`, label: t("links.job_offers") },
+    { href: `/${locale}/o-nas`, label: t("links.about") },
+    { href: `/${locale}/kontakt`, label: t("links.contact") },
+    { href: `/${locale}/kontakt#pracodawcy`, label: t("links.for_employers") },
+    { href: `/${locale}/kontakt#pracownicy`, label: t("links.for_workers") },
+  ];
+
   return (
     <footer className="bg-nexflow-navy text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
@@ -25,18 +35,17 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <FlowMark variant="full" colorScheme="reversed" height={32} />
             <p className="mt-4 text-white/70 text-sm leading-relaxed max-w-xs">
-              Agencja pracy specjalizująca się w sektorze warehouse i logistyki
-              w Polsce i Niemczech. Pracownicy gotowi do pracy w 5 dni roboczych.
+              {t("description")}
             </p>
             <p className="mt-4 text-nexflow-cyan text-sm font-semibold italic">
-              Workforce in motion.
+              {t("tagline")}
             </p>
             <div className="mt-6 space-y-1 text-sm text-white/70">
               <p>
                 <a href="tel:+48224878828" className="hover:text-nexflow-cyan transition-colors">
                   +48 224 878 828
                 </a>{" "}
-                (biuro)
+                ({t("phone_label")})
               </p>
               <p>
                 <a href="mailto:info@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
@@ -49,7 +58,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50 mb-4">
-              Usługi
+              {t("services_heading")}
             </h3>
             <ul className="space-y-3">
               {serviceLinks.map((link) => (
@@ -65,7 +74,7 @@ export default function Footer() {
           {/* Company */}
           <div>
             <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50 mb-4">
-              Firma
+              {t("company_heading")}
             </h3>
             <ul className="space-y-3">
               {companyLinks.map((link) => (
@@ -80,6 +89,26 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-white/10">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+            <div className="text-xs text-white/40 space-y-1">
+              <p>{t("legal")}</p>
+              <p>{t("legal2")}</p>
+            </div>
+            <p className="text-xs text-white/40">
+              {t("copyright", { year })}
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
+
+function FooterFallback() {
+  return (
+    <footer className="bg-nexflow-navy text-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="pt-8 border-t border-white/10">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div className="text-xs text-white/40 space-y-1">
               <p>Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992</p>

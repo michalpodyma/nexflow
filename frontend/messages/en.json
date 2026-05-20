@@ -315,5 +315,35 @@
     "cta_heading": "Want to know more?",
     "cta_desc": "Talk to us about your staffing needs. We'll present a concrete solution.",
     "cta_book": "Book a call →"
+  },
+  "AboutPage": {
+    "meta_title": "About us | Nexflow",
+    "meta_desc": "Nexflow — formerly Eurojob-West. Since 2013 connecting workers with logistics companies on both sides of the Polish-German border.",
+    "hero_tag": "About us",
+    "hero_heading": "Eurojob-West is gone. Meet Nexflow.",
+    "hero_desc": "Since 2013 we've been connecting workers with logistics companies on both sides of the Polish-German border. We've done it thousands of times — with commitment, on time, legally.",
+    "cta_heading": "See us in action",
+    "cta_desc": "Tell us about your staffing challenge. We'll get back to you the same day with a concrete proposal.",
+    "cta_btn": "Contact us →"
+  },
+  "JobsPage": {
+    "meta_title": "Warehouse and logistics jobs | Nexflow",
+    "meta_desc": "Current temporary job offers in warehouses and logistics. Słubice, Frankfurt (Oder) and surroundings. Work immediately — apply online.",
+    "hero_tag": "Job offers",
+    "hero_heading": "Find work in logistics and warehouses",
+    "hero_desc": "Current openings for forklift operators, drivers and pickers — in Poland and Germany."
+  },
+  "ApplyPage": {
+    "meta_title": "Apply — Warehouse and logistics jobs | Nexflow",
+    "meta_desc": "Submit your application and join the Nexflow candidate pool. Temporary work in warehouses and logistics in Poland and Germany.",
+    "hero_tag": "Apply",
+    "hero_heading": "Join Nexflow — work in Poland and Germany",
+    "hero_desc": "Registration takes 3 minutes. We verify documents and match you with employers.",
+    "b1_title": "Fast recruitment",
+    "b1_desc": "First offers within 48h of registration. Active pool of 240+ verified workers.",
+    "b2_title": "Full documentation",
+    "b2_desc": "We assist with permits, A1, ZUS — no paperwork on your side.",
+    "b3_title": "Germany and Poland",
+    "b3_desc": "Openings on both sides of the border. Work with or without accommodation."
   }
 }
