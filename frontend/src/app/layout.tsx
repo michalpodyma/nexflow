@@ -31,7 +31,14 @@ export const metadata: Metadata = {
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
-  const locale = await getLocale();
+  // Routes excluded from the next-intl middleware (blog, intake, praca, etc.) have no
+  // locale context, so getLocale() throws. Fall back to the default locale for those pages.
+  let locale = 'pl';
+  try {
+    locale = await getLocale();
+  } catch {
+    // no-op: non-locale route
+  }
   return (
     <html lang={locale}>
       <body className={inter.className}>
