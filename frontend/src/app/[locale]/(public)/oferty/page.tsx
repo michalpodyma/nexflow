@@ -3,8 +3,7 @@ import Script from "next/script";
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 
-import { JobsBoard } from "@/components/jobs/JobsBoard";
-import { jobs, mapEmploymentType } from "@/data/jobs";
+import { HRappkaWidget } from "@/components/jobs/HRappkaWidget";
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -35,54 +34,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const jobPostingSchemas = jobs.map((job) => {
-  const locations = job.countries.map((country) =>
-    country === "PL"
-      ? {
-          "@type": "Place",
-          address: {
-            "@type": "PostalAddress",
-            addressLocality: job.plCity ?? "Słubice",
-            addressRegion: job.plRegion ?? "Lubuskie",
-            addressCountry: "PL",
-          },
-        }
-      : {
-          "@type": "Place",
-          address: { "@type": "PostalAddress", addressCountry: country },
-        }
-  );
-
-  return {
-    "@context": "https://schema.org",
-    "@type": "JobPosting",
-    title: job.pl.title,
-    description: job.pl.summary,
-    identifier: { "@type": "PropertyValue", name: "Nexflow", value: job.id },
-    datePosted: job.datePosted,
-    validThrough: job.validThrough,
-    employmentType: mapEmploymentType(job.employmentType),
-    hiringOrganization: {
-      "@type": "Organization",
-      name: "Nexflow",
-      sameAs: "https://nexflow.work",
-      logo: "https://nexflow.work/nexflow-logo-email.svg",
-    },
-    jobLocation: locations.length === 1 ? locations[0] : locations,
-    baseSalary: {
-      "@type": "MonetaryAmount",
-      currency: job.salaryCurrency,
-      value: {
-        "@type": "QuantitativeValue",
-        minValue: job.salaryMin,
-        maxValue: job.salaryMax,
-        unitText: job.salaryUnit,
-      },
-    },
-    directApply: true,
-    url: `https://nexflow.work/pl/oferty/${job.slug}`,
-  };
-});
+// Static EmployerAggregateOffer schema — individual JobPosting schemas are
+// rendered dynamically by the HRappka widget on the client.
+const hiringOrgSchema = {
+  "@context": "https://schema.org",
+  "@type": "EmploymentAgency",
+  name: "Nexflow",
+  url: "https://nexflow.work",
+  logo: "https://nexflow.work/nexflow-logo-email.svg",
+  description:
+    "Agencja pracy tymczasowej specjalizująca się w rekrutacji do logistyki i magazynów w Polsce i Niemczech.",
+};
 
 export default async function JobsPage({ params }: Props) {
   const { locale } = await params;
@@ -91,15 +53,20 @@ export default async function JobsPage({ params }: Props) {
   return (
     <>
       <Script
-        id="job-postings-schema"
+        id="hiring-org-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jobPostingSchemas),
-        }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(hiringOrgSchema) }}
       />
       <section className="bg-nexflow-navy text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0">
-          <Image src="/images/hero-oferty.jpg" alt="Oferty pracy w logistyce — Nexflow" fill priority className="object-cover object-center" sizes="100vw" />
+          <Image
+            src="/images/hero-oferty.jpg"
+            alt="Oferty pracy w logistyce — Nexflow"
+            fill
+            priority
+            className="object-cover object-center"
+            sizes="100vw"
+          />
           <div className="absolute inset-0 bg-nexflow-navy/65" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,7 +81,11 @@ export default async function JobsPage({ params }: Props) {
           </p>
         </div>
       </section>
-      <JobsBoard jobs={jobs} />
+      <section className="py-12 bg-gray-50 min-h-[500px]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <HRappkaWidget locale={locale} />
+        </div>
+      </section>
     </>
   );
 }

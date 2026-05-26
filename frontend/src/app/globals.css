@@ -111,3 +111,47 @@
     @apply text-lg text-slate mt-4 max-w-2xl;
   }
 }
+
+/* ── HRappka recruitment widget — Nexflow brand overrides ───────────────────
+   HRappka injects a shadow DOM or scoped CSS; these selectors target the
+   classes it exposes in the light DOM wrapper.  Adjust if HRappka changes
+   their markup — the widget preview in HRappka dashboard shows live class names.
+   Brand palette: navy #0F2040 · cyan #00C2D1 · cyan-dark #007B86
+   ────────────────────────────────────────────────────────────────────────── */
+.hrappka-widget-wrapper {
+  --hrappka-primary: #0F2040;
+  --hrappka-accent: #00C2D1;
+  --hrappka-accent-hover: #007B86;
+  --hrappka-font-family: inherit;
+}
+
+/* Primary buttons rendered by the widget */
+.hrappka-widget-wrapper [class*="btn-primary"],
+.hrappka-widget-wrapper [class*="button--primary"],
+.hrappka-widget-wrapper [class*="submit"] {
+  background-color: #00C2D1 !important;
+  color: #0F2040 !important;
+  border-color: #00C2D1 !important;
+}
+
+.hrappka-widget-wrapper [class*="btn-primary"]:hover,
+.hrappka-widget-wrapper [class*="button--primary"]:hover,
+.hrappka-widget-wrapper [class*="submit"]:hover {
+  background-color: #007B86 !important;
+  border-color: #007B86 !important;
+}
+
+/* Header / banner area inside the widget */
+.hrappka-widget-wrapper [class*="header"],
+.hrappka-widget-wrapper [class*="banner"] {
+  background-color: #0F2040 !important;
+  color: #ffffff !important;
+}
+
+/* Link colour */
+.hrappka-widget-wrapper a {
+  color: #00C2D1;
+}
+.hrappka-widget-wrapper a:hover {
+  color: #007B86;
+}
