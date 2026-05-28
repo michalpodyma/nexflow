@@ -9,7 +9,10 @@ import "./globals.css";
 
 const GTM_ID = process.env.NEXT_PUBLIC_GTM_CONTAINER_ID?.trim();
 
-const inter = Inter({ subsets: ["latin", "latin-ext"] });
+const inter = Inter({
+  subsets: ["latin", "latin-ext", "cyrillic", "cyrillic-ext"],
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://nexflow.work"),
