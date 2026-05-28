@@ -57,10 +57,10 @@ const config: Config = {
         "ink-inverse": "var(--ink-inverse)",
 
         /* ── Nexflow accent ────────────────────────────────────────────── */
-        "accent-cyan":       "var(--accent-cyan)",
-        "accent-cyan-hover": "var(--accent-cyan-hover)",
-        "accent-cyan-deep":  "var(--accent-cyan-deep)",
-        "logo-navy":         "var(--logo-navy)",
+        /* accent.DEFAULT comes from shadcn compat above (hsl(var(--accent))) */
+        "accent-hover": "hsl(var(--accent-hover))",
+        "accent-deep":  "hsl(var(--accent-deep))",
+        "logo-navy":    "var(--logo-navy)",
 
         /* ── Nexflow semantic ──────────────────────────────────────────── */
         success: "var(--success)",
