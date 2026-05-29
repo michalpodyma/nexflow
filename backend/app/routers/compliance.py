@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Annotated, Literal
 from uuid import UUID
 
@@ -97,7 +97,7 @@ async def get_compliance_alerts(
     - warning   : expiring in 30–59 days
     - info      : expiring in 60–90 days
     """
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     cutoff = now + timedelta(days=90)
 
     result = await db.execute(
@@ -125,7 +125,7 @@ async def get_compliance_alerts(
                 continue
             # Make expiry timezone-aware if needed
             if expiry.tzinfo is None:
-                expiry = expiry.replace(tzinfo=timezone.utc)
+                expiry = expiry.replace(tzinfo=UTC)
             if expiry < now or expiry > cutoff:
                 continue
 
@@ -158,7 +158,7 @@ async def get_compliance_alerts(
     for gen_doc, worker in leg_result.all():
         expiry = gen_doc.legalization_expires_at
         if expiry.tzinfo is None:
-            expiry = expiry.replace(tzinfo=timezone.utc)
+            expiry = expiry.replace(tzinfo=UTC)
         days_remaining = (expiry - now).days
         sev = _severity(days_remaining)
         alerts.append(
@@ -214,11 +214,11 @@ async def renew_compliance_document(
         raise HTTPException(status_code=404, detail="Worker not found")
 
     try:
-        new_expiry = datetime.fromisoformat(body.new_expiry_date).replace(tzinfo=timezone.utc)
+        new_expiry = datetime.fromisoformat(body.new_expiry_date).replace(tzinfo=UTC)
     except ValueError:
         raise HTTPException(status_code=422, detail="Invalid date format — use ISO 8601 (e.g. 2027-06-15)")
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     if new_expiry <= now:
         raise HTTPException(status_code=422, detail="New expiry date must be in the future")
 

@@ -3,7 +3,7 @@ Tests for POST /api/v1/invoices — invoice creation and send_invoice_sent wirin
 """
 
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from decimal import Decimal
 from unittest.mock import AsyncMock, MagicMock, patch
 
@@ -14,7 +14,7 @@ from app.auth.middleware import get_current_user
 from app.database import get_db
 from app.main import app
 
-NOW = datetime.now(timezone.utc)
+NOW = datetime.now(UTC)
 
 VALID_PAYLOAD = {
     "client_id": str(uuid.uuid4()),

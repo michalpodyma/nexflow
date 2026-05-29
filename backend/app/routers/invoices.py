@@ -13,10 +13,10 @@ from app.models.clients import Client
 from app.models.invoices import Invoice, InvoiceLineItem
 from app.schemas.invoices import (
     InvoiceCreate,
+    InvoiceLineItemRead,
     InvoiceRead,
     InvoiceUpdate,
     InvoiceWithLineItemsRead,
-    InvoiceLineItemRead,
     PaginatedInvoices,
 )
 

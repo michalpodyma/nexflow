@@ -18,7 +18,7 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import TYPE_CHECKING, Any
 
 import httpx
@@ -202,16 +202,15 @@ def _apply_tool_call(
 
 
 async def _finalize_session(
-    session: "ChatbotSession",
-    candidate: "Candidate",
+    session: ChatbotSession,
+    candidate: Candidate,
     answers: dict[str, str],
     messages: list[dict],
-    db: "AsyncSession",
+    db: AsyncSession,
 ) -> None:
     """Compute score, update session and candidate, commit."""
-    from app.models.enums import ScreeningStatus  # local import avoids circular
 
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
     score = compute_score(answers)
     passed = score >= 70
 
@@ -242,10 +241,10 @@ async def _finalize_session(
 
 
 async def advance(
-    session: "ChatbotSession",
-    candidate: "Candidate",
+    session: ChatbotSession,
+    candidate: Candidate,
     user_text: str,
-    db: "AsyncSession",
+    db: AsyncSession,
 ) -> str:
     """
     Process an inbound WhatsApp message with the LLM screener.
@@ -259,7 +258,7 @@ async def advance(
     transcript: list[dict] = list(session.messages or [])
     llm_log: list[dict] = list(getattr(session, "llm_log", None) or [])
 
-    now_iso = datetime.now(tz=timezone.utc).isoformat()
+    now_iso = datetime.now(tz=UTC).isoformat()
 
     # Already complete — echo a brief message
     if step == "complete":
@@ -311,7 +310,7 @@ async def advance(
     # Audit log — response
     llm_log.append({
         "type": "llm_response",
-        "ts": datetime.now(tz=timezone.utc).isoformat(),
+        "ts": datetime.now(tz=UTC).isoformat(),
         "content": reply_text,
         "tool_calls": [
             {
@@ -350,7 +349,7 @@ async def advance(
             reply_text = "Could you tell me a bit more about your experience and availability?"
 
     # Persist transcript
-    transcript.append({"role": "bot", "text": reply_text, "ts": datetime.now(tz=timezone.utc).isoformat()})
+    transcript.append({"role": "bot", "text": reply_text, "ts": datetime.now(tz=UTC).isoformat()})
     session.session_state = state
     session.messages = transcript
     session.llm_log = llm_log  # type: ignore[attr-defined]

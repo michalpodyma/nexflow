@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Annotated
 from uuid import UUID
 
@@ -12,8 +12,8 @@ from app.database import get_db
 from app.models.candidate_reminders import CandidateReminder
 from app.models.candidates import Candidate
 from app.models.enums import GdprSubjectType, ScreeningStatus
-from app.models.workers import Worker
 from app.models.gdpr import GdprConsent
+from app.models.workers import Worker
 from app.schemas.candidates import (
     BulkUpdateRequest,
     CandidateCreate,
@@ -39,7 +39,7 @@ async def get_due_reminders_count(
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> DueRemindersCount:
     """Return count of undismissed reminders whose due date has passed."""
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
     result = await db.execute(
         select(func.count())
         .select_from(CandidateReminder)
@@ -75,7 +75,7 @@ async def bulk_update_candidates(
     if not candidates:
         raise HTTPException(status_code=404, detail="No matching candidates found")
 
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
 
     if body.action == "set_status":
         if body.status_value is None:
@@ -175,7 +175,7 @@ async def create_candidate(
         email=str(body.email) if body.email else None,
         nationality=body.nationality,
         availability_from=datetime.combine(body.availability_from, datetime.min.time()).replace(
-            tzinfo=timezone.utc
+            tzinfo=UTC
         ),
         preferred_position=body.preferred_position,
         languages=[lang.value for lang in body.languages],
@@ -208,12 +208,14 @@ async def create_candidate(
             _log = _logging.getLogger(__name__)
             try:
                 from app.database import AsyncSessionLocal  # noqa: PLC0415
-                from app.services.chatbot_fsm import initiate_session  # noqa: PLC0415
                 from app.models.enums import ChatbotChannel  # noqa: PLC0415
+                from app.services.chatbot_fsm import initiate_session  # noqa: PLC0415
                 async with AsyncSessionLocal() as bg_db:
-                    from sqlalchemy import select as _select  # noqa: PLC0415
-                    from app.models.candidates import Candidate as _Candidate  # noqa: PLC0415
                     from uuid import UUID as _UUID  # noqa: PLC0415
+
+                    from sqlalchemy import select as _select  # noqa: PLC0415
+
+                    from app.models.candidates import Candidate as _Candidate  # noqa: PLC0415
                     result = await bg_db.execute(
                         _select(_Candidate).where(_Candidate.id == _UUID(candidate_id))
                     )
@@ -246,7 +248,7 @@ async def update_candidate(
     if candidate is None:
         raise HTTPException(status_code=404, detail="Candidate not found")
 
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
     if body.notes is not None:
         candidate.notes = body.notes
     if body.screening_status is not None:

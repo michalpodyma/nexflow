@@ -11,7 +11,6 @@ Database is mocked so that all queries return empty results without requiring
 a real PostgreSQL instance.
 """
 
-from datetime import datetime, timezone
 from unittest.mock import AsyncMock, MagicMock
 
 import pytest

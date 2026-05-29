@@ -1,6 +1,7 @@
 "use client";
 
 import { Bell, Clock, LogOut, Menu, X } from "lucide-react";
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -112,7 +113,7 @@ export function Header({ title }: HeaderProps) {
       <div className="flex items-center gap-2">
         {/* Due reminders badge */}
         {dueReminders > 0 && (
-          <a
+          <Link
             href="/dashboard/candidates"
             className="relative flex h-9 w-9 items-center justify-center rounded-md text-amber-600 transition-colors hover:bg-amber-50"
             title={`${dueReminders} reminder${dueReminders !== 1 ? "s" : ""} due`}
@@ -121,7 +122,7 @@ export function Header({ title }: HeaderProps) {
             <span className="absolute right-1 top-1 flex h-4 w-4 items-center justify-center rounded-full bg-amber-500 text-[10px] font-bold text-white">
               {dueReminders > 9 ? "9+" : dueReminders}
             </span>
-          </a>
+          </Link>
         )}
 
         {/* Notifications bell */}

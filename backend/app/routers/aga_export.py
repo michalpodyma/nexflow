@@ -24,7 +24,7 @@ from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query
 from fastapi.responses import StreamingResponse
-from sqlalchemy import and_, select
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
@@ -263,7 +263,6 @@ async def export_hours(
             "Uwagi": wh.notes or "",
         })
 
-    today = date.today().strftime("%Y%m%d")
     d_from_str = date_from or "all"
     d_to_str = date_to or "all"
     return _csv_response(rows, f"AGA_godziny_{d_from_str}_{d_to_str}.csv", _HOURS_FIELDNAMES)

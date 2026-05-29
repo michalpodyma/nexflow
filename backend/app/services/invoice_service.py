@@ -8,7 +8,7 @@ that happens only when the account manager explicitly sends the invoice.
 
 import logging
 from collections import defaultdict
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 from decimal import Decimal
 from uuid import UUID
 
@@ -152,15 +152,15 @@ async def create_draft_from_batch(
     invoice_number = await _next_invoice_number(db)
 
     # 8. Create Invoice
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     due_date = now + timedelta(days=client.payment_terms_days)
 
     period_start_dt = (
-        datetime(period_start.year, period_start.month, period_start.day, tzinfo=timezone.utc)
+        datetime(period_start.year, period_start.month, period_start.day, tzinfo=UTC)
         if period_start else None
     )
     period_end_dt = (
-        datetime(period_end.year, period_end.month, period_end.day, tzinfo=timezone.utc)
+        datetime(period_end.year, period_end.month, period_end.day, tzinfo=UTC)
         if period_end else None
     )
 
@@ -210,7 +210,7 @@ async def create_draft_from_batch(
 
 async def _next_invoice_number(db: AsyncSession) -> str:
     """Return the next FV/YYYY/### sequential number for the current year."""
-    year = datetime.now(timezone.utc).year
+    year = datetime.now(UTC).year
     pattern = f"FV/{year}/%"
 
     result = await db.execute(

@@ -73,7 +73,7 @@ def suggest_column_mappings(
     """
     result: dict[str, str] = {}
     try:
-        from rapidfuzz import process, fuzz  # type: ignore[import-untyped]
+        from rapidfuzz import fuzz, process  # type: ignore[import-untyped]
         use_fuzzy = True
     except ImportError:
         use_fuzzy = False
@@ -127,7 +127,7 @@ def match_workers(
       }
     """
     try:
-        from rapidfuzz import process, fuzz  # type: ignore[import-untyped]
+        from rapidfuzz import fuzz, process  # type: ignore[import-untyped]
         use_fuzzy = True
     except ImportError:
         use_fuzzy = False

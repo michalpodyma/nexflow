@@ -1,7 +1,7 @@
 from datetime import datetime
 from typing import Annotated
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, status
 from pydantic import BaseModel, field_validator
 from sqlalchemy.orm import Session
 
@@ -53,7 +53,7 @@ async def queue_facebook_post(
     db.add(post)
     db.commit()
     db.refresh(post)
-    return QueuePostResponse(id=str(post.id), scheduled_at=post.scheduled_at)
+    return QueuePostResponse(id=str(post.id), scheduled_at=post.scheduled_at)  # type: ignore[arg-type]
 
 
 @router.post(

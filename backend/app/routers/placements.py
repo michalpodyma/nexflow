@@ -1,4 +1,4 @@
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from typing import Annotated
 from uuid import UUID
 
@@ -38,7 +38,7 @@ async def get_calendar(
     worker_id: UUID | None = Query(default=None),
     active_only: bool = Query(default=False),
 ) -> list[CalendarEntry]:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     if start is None:
         start = today.replace(day=1)
     if end is None:
@@ -48,8 +48,8 @@ async def get_calendar(
         else:
             end = today.replace(month=today.month + 1, day=1).replace(day=1) - __import__("datetime").timedelta(days=1)
 
-    start_dt = datetime(start.year, start.month, start.day, tzinfo=timezone.utc)
-    end_dt = datetime(end.year, end.month, end.day, 23, 59, 59, tzinfo=timezone.utc)
+    start_dt = datetime(start.year, start.month, start.day, tzinfo=UTC)
+    end_dt = datetime(end.year, end.month, end.day, 23, 59, 59, tzinfo=UTC)
 
     stmt = (
         select(Assignment, Worker, Client)

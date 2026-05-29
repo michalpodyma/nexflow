@@ -30,7 +30,6 @@ from __future__ import annotations
 import hashlib
 import hmac
 import logging
-from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Query, Request, Response

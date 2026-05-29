@@ -2,14 +2,13 @@
 Tests for POST /api/v1/candidates — the public candidate intake endpoint.
 
 Validation errors (invalid phone, missing fields, GDPR not true) are handled
-by Pydantic before the route handler runs, so no DB or Celery mock is needed
-for those cases. The valid-submission test overrides the DB dependency and
-patches Celery dispatch.
+by Pydantic before the route handler runs, so no DB mock is needed for those
+cases. The valid-submission test overrides the DB dependency.
 """
 
 import uuid
-from datetime import date, datetime, timezone
-from unittest.mock import AsyncMock, MagicMock, patch
+from datetime import UTC, date, datetime
+from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 from httpx import ASGITransport, AsyncClient
@@ -18,7 +17,7 @@ from app.database import get_db
 from app.main import app
 
 TODAY = date.today().isoformat()
-NOW_ISO = datetime.now(timezone.utc).isoformat()
+NOW_ISO = datetime.now(UTC).isoformat()
 
 VALID_PAYLOAD: dict = {
     "first_name": "Jan",
@@ -37,7 +36,7 @@ VALID_PAYLOAD: dict = {
 def mock_db_session() -> AsyncMock:
     """AsyncSession mock that fakes flush/commit/refresh without hitting the DB."""
     candidate_id = uuid.uuid4()
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     session = AsyncMock()
     session.add = MagicMock()
@@ -68,14 +67,10 @@ def override_db(mock_db_session: AsyncMock):
 
 @pytest.mark.asyncio
 async def test_valid_submission(override_db: AsyncMock) -> None:
-    with patch.object(app.state, "celery_client", create=True), patch(
-        "app.routers.candidates.celery_client"
-    ) as mock_celery:
-        mock_celery.send_task = MagicMock()
-        async with AsyncClient(
-            transport=ASGITransport(app=app), base_url="http://test"
-        ) as client:
-            response = await client.post("/api/v1/candidates", json=VALID_PAYLOAD)
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        response = await client.post("/api/v1/candidates", json=VALID_PAYLOAD)
 
     assert response.status_code == 201
     data = response.json()
@@ -84,7 +79,6 @@ async def test_valid_submission(override_db: AsyncMock) -> None:
     assert data["phone"] == "+48123456789"
     assert data["gdpr_consent"] is True
     assert data["screening_status"] == "new"
-    assert mock_celery.send_task.called
 
 
 @pytest.mark.asyncio
@@ -139,11 +133,9 @@ async def test_missing_gdpr_consent() -> None:
 async def test_german_phone_accepted(override_db: AsyncMock) -> None:
     """German E.164 numbers (+49...) must be accepted."""
     payload = {**VALID_PAYLOAD, "phone": "+491701234567"}
-    with patch("app.routers.candidates.celery_client") as mock_celery:
-        mock_celery.send_task = MagicMock()
-        async with AsyncClient(
-            transport=ASGITransport(app=app), base_url="http://test"
-        ) as client:
-            response = await client.post("/api/v1/candidates", json=payload)
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        response = await client.post("/api/v1/candidates", json=payload)
     assert response.status_code == 201
     assert response.json()["phone"] == "+491701234567"

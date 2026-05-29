@@ -5,7 +5,6 @@ from pydantic import BaseModel
 
 from app.models.enums import DocumentStatus, TemplateType
 
-
 # ── Document Templates ─────────────────────────────────────────────────────────
 
 class DocumentTemplateRead(BaseModel):

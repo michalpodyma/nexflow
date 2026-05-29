@@ -23,19 +23,18 @@ Protected worker endpoints (require Bearer worker access token):
 """
 
 import random
-import secrets
 import string
 import uuid
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 from decimal import Decimal
 from typing import Annotated
 from uuid import UUID
 
 import redis.asyncio as aioredis
-from fastapi import APIRouter, Cookie, Depends, HTTPException, Request, Response, status
+from fastapi import APIRouter, Cookie, Depends, HTTPException, Response, status
 from fastapi.responses import Response as FastAPIResponse
 from pydantic import BaseModel, Field
-from sqlalchemy import and_, func, select
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.worker_auth import (
@@ -201,7 +200,7 @@ async def _check_rate_limit(phone: str) -> None:
                 detail="Too many OTP requests. Try again in 1 hour.",
             )
     finally:
-        await redis.aclose()
+        await redis.aclose()  # type: ignore[attr-defined]
 
 
 # ---------------------------------------------------------------------------
@@ -236,7 +235,7 @@ async def request_otp(
         return
 
     code = _generate_otp()
-    expires_at = datetime.now(timezone.utc) + timedelta(seconds=_OTP_TTL_SECONDS)
+    expires_at = datetime.now(UTC) + timedelta(seconds=_OTP_TTL_SECONDS)
     otp = WorkerOTP(phone=body.phone, code=code, expires_at=expires_at)
     db.add(otp)
     await db.commit()
@@ -253,7 +252,7 @@ async def verify_otp(
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> TokenResponse:
     """Verify OTP and return a worker access token (+ set refresh cookie)."""
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     # Find a valid, unused OTP for this phone
     result = await db.execute(
@@ -299,7 +298,7 @@ async def verify_otp(
         ttl = settings.refresh_token_expire_days * 86400
         await redis.setex(f"worker_refresh:{jti}", ttl, str(worker.id))
     finally:
-        await redis.aclose()
+        await redis.aclose()  # type: ignore[attr-defined]
 
     set_worker_refresh_cookie(response, refresh_token)
     return TokenResponse(access_token=access_token)
@@ -336,7 +335,7 @@ async def worker_logout(
                 try:
                     await redis.delete(f"worker_refresh:{jti}")
                 finally:
-                    await redis.aclose()
+                    await redis.aclose()  # type: ignore[attr-defined]
         except JWTError:
             pass
     clear_worker_refresh_cookie(response)
@@ -390,7 +389,7 @@ async def update_worker_profile(
     if body.bank_account is not None:
         worker.bank_account = body.bank_account
 
-    worker.updated_at = datetime.now(timezone.utc)
+    worker.updated_at = datetime.now(UTC)
     await db.commit()
 
     return WorkerProfile(
@@ -425,8 +424,8 @@ async def request_gdpr_deletion(
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Worker not found")
 
     # Give ops 7 days to review before permanent deletion
-    worker.gdpr_delete_at = datetime.now(timezone.utc) + timedelta(days=7)
-    worker.updated_at = datetime.now(timezone.utc)
+    worker.gdpr_delete_at = datetime.now(UTC) + timedelta(days=7)
+    worker.updated_at = datetime.now(UTC)
     await db.commit()
 
 
@@ -503,9 +502,9 @@ async def get_dashboard(
         )
     )
     warnings: list[ComplianceWarning] = []
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     for alert in alerts_result.scalars().all():
-        days_remaining = (alert.due_date.replace(tzinfo=timezone.utc) - now).days
+        days_remaining = (alert.due_date.replace(tzinfo=UTC) - now).days
         warnings.append(
             ComplianceWarning(
                 alert_type=alert.alert_type.value,

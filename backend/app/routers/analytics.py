@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Annotated
 
 from fastapi import APIRouter, Depends
@@ -88,7 +88,7 @@ async def get_analytics_overview(
     _: CurrentUser,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> AnalyticsOverview:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     # Active workers: workers with attendance_status = 'active'
     active_workers_result = await db.execute(
@@ -125,7 +125,7 @@ async def get_analytics_overview(
         .join(Worker, Assignment.worker_id == Worker.id)
         .where(
             Worker.attendance_status == AttendanceStatus.active,
-            Assignment.is_active == True,
+            Assignment.is_active == True,  # noqa: E712
         )
     )
     avg_rate = avg_rate_result.scalar_one() or 0.0
@@ -180,7 +180,7 @@ async def get_recruiter_analytics(
     _: CurrentUser,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> RecruiterAnalytics:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     # Active workers
     active_workers_result = await db.execute(
@@ -256,7 +256,7 @@ async def get_recruiter_analytics(
             select(func.count())
             .select_from(ComplianceAlert)
             .where(
-                ComplianceAlert.acknowledged == False,
+                ComplianceAlert.acknowledged == False,  # noqa: E712
                 ComplianceAlert.due_date <= cutoff,
                 ComplianceAlert.due_date >= now,
             )
@@ -308,7 +308,7 @@ async def get_b2b_analytics(
     _: CurrentUser,
     db: Annotated[AsyncSession, Depends(get_db)],
 ) -> B2BAnalytics:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     # Revenue forecast
     active_workers_result = await db.execute(
@@ -323,7 +323,7 @@ async def get_b2b_analytics(
         .join(Worker, Assignment.worker_id == Worker.id)
         .where(
             Worker.attendance_status == AttendanceStatus.active,
-            Assignment.is_active == True,
+            Assignment.is_active == True,  # noqa: E712
         )
     )
     avg_rate = avg_rate_result.scalar_one() or 0.0
@@ -343,7 +343,7 @@ async def get_b2b_analytics(
         select(func.coalesce(func.sum(Prospect.estimated_monthly_value), 0))
         .where(Prospect.status.notin_(["converted", "lost"]))
     )
-    pipeline_value_pln = float(pipeline_value_result.scalar_one())
+    pipeline_value_pln = float(pipeline_value_result.scalar_one() or 0)
 
     # Conversion rate: converted / total prospects
     total_prospects_result = await db.execute(select(func.count()).select_from(Prospect))
@@ -363,7 +363,7 @@ async def get_b2b_analytics(
             (func.sum(Assignment.employer_rate) * 22).label("revenue_monthly"),
         )
         .join(Assignment, Assignment.client_id == Client.id)
-        .where(Assignment.is_active == True)
+        .where(Assignment.is_active == True)  # noqa: E712
         .group_by(Client.id, Client.company_name)
         .order_by((func.sum(Assignment.employer_rate) * 22).desc())
         .limit(10)

@@ -9,7 +9,19 @@ All models share Base from .base; import Base here when you need Base.metadata f
 Alembic autogenerate (see db/migrations/env.py).
 """
 
+from .accommodations import Accommodation, AccommodationAssignment
+from .assignments import Assignment, AssignmentRate
+from .audit import AuditLog
 from .base import Base
+from .candidate_job_orders import CandidateJobOrder
+from .candidate_reminders import CandidateReminder
+from .candidates import Candidate
+from .chatbot import ChatbotSession
+from .client_activities import ActivityType, ClientActivity
+from .client_contacts import ClientContact
+from .clients import Client
+from .compliance import ComplianceAlert
+from .documents import DocumentTemplate, GeneratedDocument
 from .enums import (
     AlertType,
     AuditAction,
@@ -24,31 +36,19 @@ from .enums import (
     ScreeningStatus,
     WorkPermitType,
 )
-from .clients import Client
-from .workers import Worker
-from .candidates import Candidate
-from .candidate_reminders import CandidateReminder
-from .assignments import Assignment, AssignmentRate
-from .invoices import Invoice
-from .positions import Position
 from .gdpr import GdprConsent
-from .chatbot import ChatbotSession
-from .compliance import ComplianceAlert
-from .audit import AuditLog
+from .hours_import import ClientColumnMapping, HoursImportBatch, WorkerHours
+from .invoices import Invoice
 from .job_orders import JobOrder
-from .candidate_job_orders import CandidateJobOrder
-from .accommodations import Accommodation, AccommodationAssignment
-from .transport import TransportAssignment, TransportRoute, Vehicle
-from .documents import DocumentTemplate, GeneratedDocument
-from .client_activities import ClientActivity, ActivityType
-from .client_contacts import ClientContact
-from .prospects import Prospect
-from .worker_files import WorkerFile
-from .hours_import import HoursImportBatch, ClientColumnMapping, WorkerHours
 from .notifications import NotificationLog
-from .shifts import ShiftTemplate, ShiftEntry
-from .worker_otp import WorkerOTP
+from .positions import Position
+from .prospects import Prospect
+from .shifts import ShiftEntry, ShiftTemplate
+from .transport import TransportAssignment, TransportRoute, Vehicle
 from .whatsapp_inbox import WhatsAppInboxEvent
+from .worker_files import WorkerFile
+from .worker_otp import WorkerOTP
+from .workers import Worker
 
 __all__ = [
     "Base",

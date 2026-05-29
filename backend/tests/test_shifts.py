@@ -6,8 +6,8 @@ The database is fully mocked; no live Postgres connection required.
 """
 
 import uuid
-from datetime import date, datetime, time, timezone
-from unittest.mock import AsyncMock, MagicMock, patch
+from datetime import UTC, datetime, time
+from unittest.mock import AsyncMock, MagicMock
 
 import pytest
 from httpx import ASGITransport, AsyncClient
@@ -18,7 +18,7 @@ from app.main import app
 
 # ── Fixtures ──────────────────────────────────────────────────────────────────
 
-NOW = datetime.now(timezone.utc)
+NOW = datetime.now(UTC)
 TODAY = NOW.date()
 
 CLIENT_ID = uuid.uuid4()
@@ -65,8 +65,8 @@ def _make_entry() -> MagicMock:
     e.worker_id = WORKER_ID
     e.client_id = CLIENT_ID
     e.shift_date = TODAY
-    e.start_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 6, 0, tzinfo=timezone.utc)
-    e.end_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 14, 0, tzinfo=timezone.utc)
+    e.start_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 6, 0, tzinfo=UTC)
+    e.end_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 14, 0, tzinfo=UTC)
     e.notes = None
     e.created_at = NOW
     return e
@@ -140,7 +140,7 @@ async def test_list_templates_returns_items():
 async def test_create_template_success():
     """POST /api/v1/shifts/templates creates a template and returns 201."""
     client = _make_client()
-    template = _make_template()
+    _make_template()
 
     session = AsyncMock()
     session.get = AsyncMock(return_value=client)
@@ -275,13 +275,13 @@ async def test_create_schedule_entry_success():
     """POST /api/v1/shifts/schedule creates entry and returns 201."""
     worker = _make_worker()
     client = _make_client()
-    entry = _make_entry()
+    _make_entry()
 
     session = AsyncMock()
 
     async def _get(model, pk):
-        from app.models.workers import Worker
         from app.models.clients import Client
+        from app.models.workers import Worker
         if model is Worker:
             return worker
         if model is Client:
@@ -302,8 +302,8 @@ async def test_create_schedule_entry_success():
         obj.worker_id = WORKER_ID
         obj.client_id = CLIENT_ID
         obj.shift_date = TODAY
-        obj.start_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 6, 0, tzinfo=timezone.utc)
-        obj.end_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 14, 0, tzinfo=timezone.utc)
+        obj.start_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 6, 0, tzinfo=UTC)
+        obj.end_dt = datetime(TODAY.year, TODAY.month, TODAY.day, 14, 0, tzinfo=UTC)
         obj.notes = None
         obj.created_at = NOW
 
@@ -341,8 +341,8 @@ async def test_create_schedule_entry_conflict_returns_409():
     session = AsyncMock()
 
     async def _get(model, pk):
-        from app.models.workers import Worker
         from app.models.clients import Client
+        from app.models.workers import Worker
         if model is Worker:
             return worker
         if model is Client:
@@ -481,8 +481,8 @@ async def test_conflict_check_with_conflict():
     session.execute = AsyncMock(return_value=result)
 
     async def _get(model, pk):
-        from app.models.workers import Worker
         from app.models.clients import Client
+        from app.models.workers import Worker
         if model is Worker:
             return worker
         if model is Client:
@@ -575,7 +575,7 @@ async def test_export_returns_csv():
 
     session = AsyncMock()
     result = MagicMock()
-    result.all.return_value = [(entry, worker, client)]
+    result.all.return_value = [(entry, worker, client, None)]
     session.execute = AsyncMock(return_value=result)
 
     _setup(session)

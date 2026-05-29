@@ -7,7 +7,7 @@ Verifies that when a candidate is placed:
 """
 
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from unittest.mock import AsyncMock, MagicMock
 
 import pytest
@@ -24,7 +24,7 @@ from app.models.workers import Worker
 
 
 def _make_candidate() -> MagicMock:
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
     c = MagicMock(spec=Candidate)
     c.id = uuid.uuid4()
     c.first_name = "Anna"
@@ -52,7 +52,7 @@ def _make_link(candidate_id: uuid.UUID, job_order_id: uuid.UUID) -> MagicMock:
     link.candidate_id = candidate_id
     link.job_order_id = job_order_id
     link.status = CandidateJobOrderStatus.submitted
-    link.submitted_at = datetime.now(timezone.utc)
+    link.submitted_at = datetime.now(UTC)
     return link
 
 
@@ -131,7 +131,7 @@ async def test_placement_clears_worker_gdpr_delete_at(placement_db: AsyncMock) -
         transport=ASGITransport(app=app), base_url="http://test"
     ) as client:
         # Inject auth header to satisfy CurrentUser dependency
-        response = await client.patch(
+        await client.patch(
             f"/api/v1/candidates/{candidate.id}/job-orders/{job_order_id}",
             json={"status": "placed"},
         )
@@ -153,7 +153,7 @@ async def test_placement_clears_candidate_gdpr_delete_at(placement_db: AsyncMock
     async with AsyncClient(
         transport=ASGITransport(app=app), base_url="http://test"
     ) as client:
-        response = await client.patch(
+        await client.patch(
             f"/api/v1/candidates/{candidate.id}/job-orders/{job_order_id}",
             json={"status": "placed"},
         )

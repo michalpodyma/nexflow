@@ -26,7 +26,7 @@ Tokens use {{key}} syntax and are replaced via simple string substitution.
 import csv
 import io
 import re
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from typing import Annotated
 from uuid import UUID
 
@@ -47,9 +47,9 @@ from app.schemas.documents import (
     DocumentTemplateDetail,
     DocumentTemplateRead,
     DocumentTemplateUpdate,
-    GenerateDocumentRequest,
     GeneratedDocumentDetail,
     GeneratedDocumentRead,
+    GenerateDocumentRequest,
     LegalizationStatusUpdate,
     PaginatedDocuments,
     PaginatedTemplates,
@@ -206,7 +206,7 @@ async def update_template(
         for field, value in updates.items():
             setattr(tpl, field, value)
         tpl.version = tpl.version + 1  # type: ignore[assignment]
-        tpl.updated_at = datetime.now(timezone.utc)
+        tpl.updated_at = datetime.now(UTC)
         await db.commit()
         await db.refresh(tpl)
 
@@ -405,7 +405,7 @@ async def update_legalization_status(
     doc.legalization_filed_at = body.legalization_filed_at  # type: ignore[assignment]
     doc.legalization_approved_at = body.legalization_approved_at  # type: ignore[assignment]
     doc.legalization_expires_at = body.legalization_expires_at  # type: ignore[assignment]
-    doc.updated_at = datetime.now(timezone.utc)
+    doc.updated_at = datetime.now(UTC)
     await db.commit()
     await db.refresh(doc)
     return GeneratedDocumentRead.model_validate(doc)
@@ -490,7 +490,6 @@ async def praca_gov_export(
 
     # Resolve current client/assignment for employer info
     client: Client | None = None
-    assignment: Assignment | None = None
     if worker.current_client_id:
         c_result = await db.execute(select(Client).where(Client.id == worker.current_client_id))
         client = c_result.scalar_one_or_none()

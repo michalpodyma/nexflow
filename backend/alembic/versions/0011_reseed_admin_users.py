@@ -9,15 +9,17 @@ Upserts nexflow0-nexflow3 with the production bcrypt hashes.  Migration
 was silently kept.  This migration forces the correct hash via DO UPDATE.
 """
 
-from typing import Sequence, Union
+from collections.abc import Sequence
+from typing import Union
 
 import sqlalchemy as sa
+
 from alembic import op
 
 revision: str = "0011"
-down_revision: Union[str, None] = "0010"
-branch_labels: Union[str, Sequence[str], None] = None
-depends_on: Union[str, Sequence[str], None] = None
+down_revision: str | None = "0010"
+branch_labels: str | Sequence[str] | None = None
+depends_on: str | Sequence[str] | None = None
 
 # bcrypt(cost=12) hashes — generated from production credentials
 # Passwords are stored in the Vercel DASHBOARD_USERS env var.

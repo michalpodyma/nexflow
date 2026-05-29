@@ -18,8 +18,13 @@ from unittest.mock import AsyncMock, MagicMock, patch
 import pytest
 
 from app.services.chatbot_fsm import compute_score
-from app.services.llm_screener import _apply_tool_call, _EXPERIENCE_MAP, _AVAILABILITY_MAP, _RELOCATION_MAP, advance
-
+from app.services.llm_screener import (
+    _AVAILABILITY_MAP,
+    _EXPERIENCE_MAP,
+    _RELOCATION_MAP,
+    _apply_tool_call,
+    advance,
+)
 
 # ---------------------------------------------------------------------------
 # Enum → numeric key mapping
@@ -226,7 +231,7 @@ async def test_advance_auto_completes_when_all_fields_set() -> None:
     )
 
     with patch("app.services.llm_screener._call_openrouter", new=AsyncMock(return_value=response)):
-        reply = await advance(session, candidate, "all in one go", db)
+        await advance(session, candidate, "all in one go", db)
 
     assert session.session_state["step"] == "complete"
     assert session.score is not None

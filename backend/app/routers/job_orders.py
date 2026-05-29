@@ -1,4 +1,4 @@
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Annotated
 from uuid import UUID
 
@@ -96,7 +96,7 @@ async def update_job_order(
 
     for field, value in body.model_dump(exclude_unset=True).items():
         setattr(order, field, value)
-    order.updated_at = datetime.now(timezone.utc)
+    order.updated_at = datetime.now(UTC)
 
     await db.commit()
     await db.refresh(order)

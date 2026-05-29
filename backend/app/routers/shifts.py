@@ -13,13 +13,13 @@ Additional utility endpoints:
 
 import csv
 import io
-from datetime import date, datetime, time, timedelta, timezone
+from datetime import UTC, date, datetime, time, timedelta
 from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query, Response
 from pydantic import BaseModel, field_validator
-from sqlalchemy import and_, func, or_, select
+from sqlalchemy import and_, func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
@@ -159,7 +159,7 @@ def _fmt_time(t: time) -> str:
 
 
 def _make_start_dt(d: date, t: time) -> datetime:
-    return datetime(d.year, d.month, d.day, t.hour, t.minute, t.second, tzinfo=timezone.utc)
+    return datetime(d.year, d.month, d.day, t.hour, t.minute, t.second, tzinfo=UTC)
 
 
 def _entry_to_out(entry: ShiftEntry, worker: Worker, client: Client) -> ShiftEntryOut:
@@ -300,7 +300,7 @@ async def update_template(
     template, client = row
     for field, value in body.model_dump(exclude_none=True).items():
         setattr(template, field, value)
-    template.updated_at = datetime.now(timezone.utc)
+    template.updated_at = datetime.now(UTC)
 
     await db.commit()
     await db.refresh(template)
@@ -360,7 +360,7 @@ async def list_schedule(
     worker_id: UUID | None = Query(default=None),
     template_id: UUID | None = Query(default=None),
 ) -> list[ShiftEntryOut]:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     if start is None:
         start = today - timedelta(days=today.weekday())  # Monday of current week
     if end is None:
@@ -464,9 +464,9 @@ async def check_conflicts(
 ) -> ConflictCheckResult:
     # Normalize to UTC
     if start_dt.tzinfo is None:
-        start_dt = start_dt.replace(tzinfo=timezone.utc)
+        start_dt = start_dt.replace(tzinfo=UTC)
     if end_dt.tzinfo is None:
-        end_dt = end_dt.replace(tzinfo=timezone.utc)
+        end_dt = end_dt.replace(tzinfo=UTC)
 
     conflicts = await _check_conflict(db, worker_id, start_dt, end_dt, exclude_id=exclude_entry_id)
     if not conflicts:
@@ -496,7 +496,7 @@ async def get_capacity(
     end: date = Query(default=None),
     client_id: UUID | None = Query(default=None),
 ) -> list[CapacitySlot]:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     if start is None:
         start = today - timedelta(days=today.weekday())
     if end is None:
@@ -578,7 +578,7 @@ async def export_schedule(
     end: date = Query(default=None),
     client_id: UUID | None = Query(default=None),
 ) -> Response:
-    today = datetime.now(timezone.utc).date()
+    today = datetime.now(UTC).date()
     if start is None:
         start = today - timedelta(days=today.weekday())
     if end is None:

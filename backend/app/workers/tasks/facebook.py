@@ -1,6 +1,6 @@
 import asyncio
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 from app.workers.celery_app import celery_app
 
@@ -20,7 +20,7 @@ async def _drain() -> None:
     from app.models.facebook import FacebookPostQueue
     from app.services import facebook as fb_service
 
-    now = datetime.now(timezone.utc)
+    now = datetime.now(UTC)
 
     async with AsyncSessionLocal() as db:
         result = await db.execute(
@@ -38,13 +38,13 @@ async def _drain() -> None:
         for post in pending:
             try:
                 if post.image_url:
-                    data = await fb_service.post_photo(caption=post.message, image_url=post.image_url)
+                    data = await fb_service.post_photo(caption=str(post.message), image_url=str(post.image_url))  # noqa: E501
                 else:
-                    data = await fb_service.post_text(message=post.message)
+                    data = await fb_service.post_text(message=str(post.message))
 
-                post.post_id = data.get("id")
-                post.post_url = f"https://www.facebook.com/{post.post_id}"
-                post.posted_at = datetime.now(timezone.utc)
+                post.post_id = data.get("id")  # type: ignore[assignment]
+                post.post_url = f"https://www.facebook.com/{post.post_id}"  # type: ignore[assignment]
+                post.posted_at = datetime.now(UTC)  # type: ignore[assignment]
                 await db.commit()
                 logger.info("FB post published: %s", post.post_id)
             except Exception as exc:

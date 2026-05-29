@@ -86,4 +86,4 @@ class Settings(BaseSettings):
     google_refresh_token: str = ""             # GOOGLE_REFRESH_TOKEN
 
 
-settings = Settings()
+settings = Settings()  # type: ignore[call-arg]

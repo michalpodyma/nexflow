@@ -15,11 +15,10 @@ lives only in settings / Paperclip secrets.
 from __future__ import annotations
 
 import asyncio
-import base64
 import logging
 import time
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Any
 
 import httpx
@@ -199,7 +198,7 @@ async def calendar_list_events(
 
     def _iso(dt: datetime) -> str:
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(tzinfo=UTC)
         return dt.isoformat()
 
     async with httpx.AsyncClient(timeout=30) as client:
@@ -241,7 +240,7 @@ async def calendar_create_event(
 
     def _event_dt(dt: datetime) -> dict[str, str]:
         if dt.tzinfo is None:
-            dt = dt.replace(tzinfo=timezone.utc)
+            dt = dt.replace(tzinfo=UTC)
         return {"dateTime": dt.isoformat(), "timeZone": "UTC"}
 
     body: dict[str, Any] = {

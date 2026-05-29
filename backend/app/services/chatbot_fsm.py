@@ -44,7 +44,7 @@ from __future__ import annotations
 
 import json
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from pathlib import Path
 from typing import TYPE_CHECKING
 
@@ -53,7 +53,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from app.models.candidates import Candidate
 from app.models.chatbot import ChatbotSession
 from app.models.enums import ChatbotChannel, ScreeningStatus
-from app.services.whatsapp import send_whatsapp_message, send_whatsapp_template
+from app.services.whatsapp import send_whatsapp_template
 
 if TYPE_CHECKING:
     pass
@@ -216,7 +216,7 @@ async def initiate_session(
             {
                 "role": "bot",
                 "text": template_text,
-                "ts": datetime.now(tz=timezone.utc).isoformat(),
+                "ts": datetime.now(tz=UTC).isoformat(),
             }
         ],
     )
@@ -225,7 +225,7 @@ async def initiate_session(
 
     candidate.chatbot_session_id = session.id
     candidate.screening_status = ScreeningStatus.chatbot_in_progress
-    candidate.updated_at = datetime.now(tz=timezone.utc)
+    candidate.updated_at = datetime.now(tz=UTC)
 
     await db.commit()
     await db.refresh(session)
@@ -271,7 +271,7 @@ async def advance(
     answers: dict[str, str] = dict(state.get("answers") or {})
     messages: list[dict] = list(session.messages or [])
 
-    now_iso = datetime.now(tz=timezone.utc).isoformat()
+    now_iso = datetime.now(tz=UTC).isoformat()
 
     # Record user message in transcript
     messages.append({"role": "user", "text": user_text, "ts": now_iso})
@@ -392,7 +392,7 @@ async def _complete_session(
     db: AsyncSession,
 ) -> tuple[str, dict, list[dict]]:
     """Finalize the session, compute score, update candidate status."""
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
     score = compute_score(answers)
     passed = score >= 70
 
