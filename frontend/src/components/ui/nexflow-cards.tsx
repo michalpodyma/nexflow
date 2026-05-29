@@ -53,7 +53,7 @@ export function StepCard({
 export function TestimonialCard({
   className,
   ...props
-}: React.HTMLAttributes<HTMLDivElement>) {
+}: React.HTMLAttributes<HTMLQuoteElement>) {
   return (
     <blockquote
       className={cn(
