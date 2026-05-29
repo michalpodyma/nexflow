@@ -1,5 +1,5 @@
+from collections.abc import AsyncGenerator
 from contextlib import asynccontextmanager
-from typing import AsyncGenerator
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -12,36 +12,40 @@ from app.models import Base
 from app.routers.accommodations import assignments_router as accommodation_assignments_router
 from app.routers.accommodations import router as accommodations_router
 from app.routers.accommodations import worker_accommodations_router
+from app.routers.aga_export import router as aga_export_router
 from app.routers.analytics import router as analytics_router
+from app.routers.candidate_job_orders import router as candidate_job_orders_router
+from app.routers.candidates import router as candidates_router
+from app.routers.chatbot import router as chatbot_router
+from app.routers.clients import router as clients_router
+from app.routers.compliance import router as compliance_router
+from app.routers.documents import documents_router, templates_router, worker_docs_router
+from app.routers.facebook_posts import router as facebook_posts_router
+from app.routers.facebook_queue import router as facebook_queue_router
+from app.routers.health import router as health_router
+from app.routers.hours_import import (
+    assignments_hours_router,
+)
+from app.routers.hours_import import (
+    batches_router as hours_import_batches_router,
+)
+from app.routers.hours_import import (
+    clients_router as hours_import_clients_router,
+)
+from app.routers.invoices import router as invoices_router
+from app.routers.job_orders import router as job_orders_router
+from app.routers.job_postings import router as job_postings_router
+from app.routers.openclaw import router as openclaw_router
+from app.routers.placements import router as placements_router
+from app.routers.prospects import router as prospects_router
+from app.routers.shifts import router as shifts_router
 from app.routers.transport import assignments_router as transport_assignments_router
 from app.routers.transport import routes_router as transport_routes_router
 from app.routers.transport import vehicles_router
-from app.routers.candidate_job_orders import router as candidate_job_orders_router
-from app.routers.candidates import router as candidates_router
-from app.routers.clients import router as clients_router
-from app.routers.compliance import router as compliance_router
-from app.routers.health import router as health_router
-from app.routers.job_orders import router as job_orders_router
-from app.routers.job_postings import router as job_postings_router
-from app.routers.workers import router as workers_router
-from app.routers.documents import templates_router, documents_router, worker_docs_router
-from app.routers.placements import router as placements_router
-from app.routers.prospects import router as prospects_router
-from app.routers.worker_files import router as worker_files_router
-from app.routers.hours_import import (
-    clients_router as hours_import_clients_router,
-    batches_router as hours_import_batches_router,
-    assignments_hours_router,
-)
-from app.routers.aga_export import router as aga_export_router
-from app.routers.invoices import router as invoices_router
-from app.routers.shifts import router as shifts_router
-from app.routers.worker_portal import router as worker_portal_router
 from app.routers.webhooks import router as webhooks_router
-from app.routers.chatbot import router as chatbot_router
-from app.routers.facebook_posts import router as facebook_posts_router
-from app.routers.facebook_queue import router as facebook_queue_router
-from app.routers.openclaw import router as openclaw_router
+from app.routers.worker_files import router as worker_files_router
+from app.routers.worker_portal import router as worker_portal_router
+from app.routers.workers import router as workers_router
 from app.seed_data import SEED_TEMPLATES
 
 # DDL for PostgreSQL enum types — mirrors app/models/enums.py.

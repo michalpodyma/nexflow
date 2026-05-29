@@ -15,9 +15,8 @@ import pytest
 from httpx import ASGITransport, AsyncClient
 
 from app.main import app
+from app.services.chatbot_fsm import _t, compute_score
 from app.services.whatsapp import normalize_phone
-from app.services.chatbot_fsm import compute_score, _t
-
 
 # ---------------------------------------------------------------------------
 # Fixtures
@@ -150,7 +149,7 @@ async def test_post_webhook_valid_schedules_background() -> None:
 
     with (
         patch("app.routers.webhooks.settings") as mock_settings,
-        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock) as mock_handler,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
     ):
         mock_settings.whatsapp_app_secret = APP_SECRET
 

@@ -10,7 +10,6 @@ from app.database import get_db
 from app.models.client_contacts import ClientContact
 from app.models.clients import Client
 from app.models.prospects import Prospect
-from app.schemas.clients import ClientCreate, ClientRead
 from app.schemas.prospects import (
     ConvertProspectResponse,
     PaginatedProspects,

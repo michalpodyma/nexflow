@@ -14,9 +14,8 @@ Endpoints:
 """
 
 import io
-import json
 import uuid
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from decimal import Decimal
 from typing import Annotated
 from uuid import UUID
@@ -174,7 +173,7 @@ async def save_column_mappings(
     for item in body.mappings:
         if item.internal_field in existing_map:
             existing_map[item.internal_field].spreadsheet_header = item.spreadsheet_header
-            existing_map[item.internal_field].updated_at = datetime.now(timezone.utc)
+            existing_map[item.internal_field].updated_at = datetime.now(UTC)
         else:
             db.add(ClientColumnMapping(
                 client_id=client_id,
@@ -253,7 +252,7 @@ async def validate_batch(
     batch.matched_count = matched
     batch.unmatched_count = unmatched
     batch.flagged_count = flagged
-    batch.updated_at = datetime.now(timezone.utc)
+    batch.updated_at = datetime.now(UTC)
 
     if body.save_for_client:
         existing_result = await db.execute(
@@ -379,7 +378,7 @@ async def commit_batch(
             skipped_count += 1
 
     batch.status = "imported"
-    batch.updated_at = datetime.now(timezone.utc)
+    batch.updated_at = datetime.now(UTC)
 
     # Flush WorkerHours so invoice service can query them within this transaction
     await db.flush()
@@ -494,7 +493,7 @@ async def get_assignment_hours(
     return WorkerHoursSummary(
         worker_id=worker_id,
         assignment_id=assignment_id,
-        total_hours=total_hours,
-        total_overtime=total_overtime,
+        total_hours=total_hours,  # type: ignore[arg-type]
+        total_overtime=total_overtime,  # type: ignore[arg-type]
         work_dates=work_dates,
     )

@@ -1,11 +1,10 @@
 from datetime import datetime
 from uuid import UUID
 
-from pydantic import BaseModel, EmailStr, field_validator
+from pydantic import BaseModel, field_validator
 
-from app.models.enums import Currency
 from app.models.client_activities import ActivityType
-
+from app.models.enums import Currency
 
 # ── Client schemas ─────────────────────────────────────────────────────────────
 

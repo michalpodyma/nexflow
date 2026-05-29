@@ -9,9 +9,8 @@ POST /api/admin/facebook/post
 """
 
 import logging
-from typing import Annotated
 
-from fastapi import APIRouter, Depends
+from fastapi import APIRouter
 from pydantic import BaseModel
 
 from app.auth.middleware import CurrentUser

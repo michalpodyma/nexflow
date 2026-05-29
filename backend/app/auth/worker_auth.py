@@ -8,12 +8,12 @@ Separate from the admin JWT flow so worker tokens cannot access admin endpoints.
 """
 
 import uuid
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Annotated
 from uuid import UUID
 
 import redis.asyncio as aioredis
-from fastapi import Cookie, Depends, HTTPException, Response, status
+from fastapi import Depends, HTTPException, Response, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from jose import JWTError, jwt
 
@@ -32,7 +32,7 @@ _TOKEN_TYPE_REFRESH = "worker_refresh"
 
 
 def create_worker_access_token(worker_id: UUID) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(
+    expire = datetime.now(UTC) + timedelta(
         minutes=settings.worker_portal_access_token_expire_minutes
     )
     payload = {
@@ -44,7 +44,7 @@ def create_worker_access_token(worker_id: UUID) -> str:
 
 
 def create_worker_refresh_token(worker_id: UUID, jti: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(days=settings.refresh_token_expire_days)
+    expire = datetime.now(UTC) + timedelta(days=settings.refresh_token_expire_days)
     payload = {
         "sub": str(worker_id),
         "type": _TOKEN_TYPE_REFRESH,
@@ -168,7 +168,7 @@ async def refresh_worker_token(
         await redis.delete(f"worker_refresh:{jti}")
         await redis.setex(f"worker_refresh:{new_jti}", ttl, str(worker_id))
     finally:
-        await redis.aclose()
+        await redis.aclose()  # type: ignore[attr-defined]
 
     set_worker_refresh_cookie(response, new_refresh_token)
     return access_token

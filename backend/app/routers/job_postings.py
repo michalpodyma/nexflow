@@ -9,7 +9,7 @@ platform posting is still persisted and the error is reported in the response.
 
 import asyncio
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Annotated
 from uuid import UUID
 from xml.etree.ElementTree import Element, SubElement, tostring
@@ -208,7 +208,7 @@ async def create_job_posting(
     if one platform fails the other's posting is still persisted and the error
     is surfaced in the `errors` map.
     """
-    now = datetime.now(tz=timezone.utc)
+    now = datetime.now(tz=UTC)
 
     async def _post_platform(platform: JobPostingPlatform) -> tuple[JobPostingPlatform, JobPosting | None, str | None]:
         try:

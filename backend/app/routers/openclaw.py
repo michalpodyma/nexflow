@@ -39,26 +39,26 @@ from __future__ import annotations
 
 import base64
 import logging
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from typing import Annotated
 from uuid import UUID
 
 from fastapi import APIRouter, Depends, HTTPException, Query
+from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, Field
 from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
-from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 
 from app.config import settings
 from app.database import get_db
 from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.services.google_workspace import (
     GoogleWorkspaceError,
-    gmail_label_message,
-    gmail_list_messages,
     calendar_create_event,
     calendar_list_events,
     drive_upload_file,
+    gmail_label_message,
+    gmail_list_messages,
 )
 
 router = APIRouter(prefix="/api/openclaw", tags=["openclaw"])
@@ -133,7 +133,7 @@ async def list_inbox(
     if since is not None:
         # Ensure timezone-aware comparison
         if since.tzinfo is None:
-            since = since.replace(tzinfo=timezone.utc)
+            since = since.replace(tzinfo=UTC)
         stmt = stmt.where(WhatsAppInboxEvent.received_at > since)
 
     if unacknowledged_only:
@@ -179,7 +179,7 @@ async def acknowledge_event(
     if event is None:
         raise HTTPException(status_code=404, detail="Event not found")
 
-    event.acknowledged_at = datetime.now(tz=timezone.utc)
+    event.acknowledged_at = datetime.now(tz=UTC)
     if body.paperclip_issue_id is not None:
         event.paperclip_issue_id = body.paperclip_issue_id
 

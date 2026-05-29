@@ -6,12 +6,10 @@ from sqlalchemy import pool
 from sqlalchemy.engine import Connection
 from sqlalchemy.ext.asyncio import async_engine_from_config
 
-from alembic import context
-
-# Import all models so Alembic can auto-generate migrations
-from app.models.base import Base  # noqa: F401
+import app.auth.models  # noqa: F401
 import app.models.assignments  # noqa: F401
 import app.models.audit  # noqa: F401
+import app.models.candidate_reminders  # noqa: F401
 import app.models.candidates  # noqa: F401
 import app.models.chatbot  # noqa: F401
 import app.models.clients  # noqa: F401
@@ -19,11 +17,13 @@ import app.models.compliance  # noqa: F401
 import app.models.gdpr  # noqa: F401
 import app.models.invoices  # noqa: F401
 import app.models.job_postings  # noqa: F401
+import app.models.notifications  # noqa: F401
 import app.models.positions  # noqa: F401
 import app.models.workers  # noqa: F401
-import app.models.candidate_reminders  # noqa: F401
-import app.models.notifications  # noqa: F401
-import app.auth.models  # noqa: F401
+from alembic import context
+
+# Import all models so Alembic can auto-generate migrations
+from app.models.base import Base  # noqa: F401
 
 config = context.config
 

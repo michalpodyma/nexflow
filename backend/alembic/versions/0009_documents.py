@@ -13,17 +13,19 @@ Seed data:
   - Umowa zlecenie (mandate/civil law contract)
 """
 
-from typing import Sequence, Union
+from collections.abc import Sequence
+from typing import Union
 from uuid import uuid4
 
 import sqlalchemy as sa
-from alembic import op
 from sqlalchemy.dialects.postgresql import UUID as PGUUID
 
+from alembic import op
+
 revision: str = "0009"
-down_revision: Union[str, None] = "0008"
-branch_labels: Union[str, Sequence[str], None] = None
-depends_on: Union[str, Sequence[str], None] = None
+down_revision: str | None = "0008"
+branch_labels: str | Sequence[str] | None = None
+depends_on: str | Sequence[str] | None = None
 
 # ── Seed template HTML ─────────────────────────────────────────────────────────
 

@@ -1,6 +1,6 @@
 import secrets
 import uuid
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Annotated
 
 import bcrypt as _bcrypt
@@ -54,7 +54,7 @@ def _hash_password(plain: str) -> str:
 
 
 def _create_access_token(username: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(
+    expire = datetime.now(UTC) + timedelta(
         minutes=settings.access_token_expire_minutes
     )
     payload = {"sub": username, "type": "access", "exp": expire}
@@ -62,7 +62,7 @@ def _create_access_token(username: str) -> str:
 
 
 def _create_refresh_token(username: str, jti: str) -> str:
-    expire = datetime.now(timezone.utc) + timedelta(days=settings.refresh_token_expire_days)
+    expire = datetime.now(UTC) + timedelta(days=settings.refresh_token_expire_days)
     payload = {"sub": username, "type": "refresh", "jti": jti, "exp": expire}
     return jwt.encode(payload, settings.jwt_secret_key, algorithm=settings.jwt_algorithm)
 
@@ -136,7 +136,7 @@ async def login(
         ttl = settings.refresh_token_expire_days * 86400
         await redis.setex(f"refresh:{jti}", ttl, authenticated_username)
     finally:
-        await redis.aclose()
+        await redis.aclose()  # type: ignore[attr-defined]
 
     _set_refresh_cookie(response, refresh_token)
     return TokenResponse(access_token=access_token)
@@ -176,7 +176,7 @@ async def refresh(request: Request, response: Response) -> TokenResponse:
         await redis.delete(f"refresh:{jti}")
         await redis.setex(f"refresh:{new_jti}", ttl, username)
     finally:
-        await redis.aclose()
+        await redis.aclose()  # type: ignore[attr-defined]
 
     _set_refresh_cookie(response, new_refresh_token)
     return TokenResponse(access_token=access_token)
@@ -198,7 +198,7 @@ async def logout(request: Request, response: Response) -> None:
                 try:
                     await redis.delete(f"refresh:{jti}")
                 finally:
-                    await redis.aclose()
+                    await redis.aclose()  # type: ignore[attr-defined]
         except JWTError:
             pass  # Expired/invalid tokens are silently ignored on logout
     _clear_refresh_cookie(response)

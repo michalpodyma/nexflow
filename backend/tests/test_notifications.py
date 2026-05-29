@@ -4,12 +4,13 @@ Tests for the notification service and Celery tasks.
 Uses mocking throughout — no real external provider calls, no DB required.
 """
 
-import uuid
 from unittest.mock import MagicMock, patch
 
-import pytest
-
 from app.services.notifications import (
+    _render_compliance_expiry,
+    _render_invoice_overdue,
+    _render_invoice_sent,
+    _render_welcome_candidate,
     notify_candidate_welcome_email,
     notify_candidate_welcome_sms,
     notify_compliance_expiry_email,
@@ -17,12 +18,7 @@ from app.services.notifications import (
     notify_invoice_sent_email,
     send_email,
     send_sms,
-    _render_welcome_candidate,
-    _render_compliance_expiry,
-    _render_invoice_sent,
-    _render_invoice_overdue,
 )
-
 
 # ---------------------------------------------------------------------------
 # Template rendering

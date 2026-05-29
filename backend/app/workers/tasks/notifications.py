@@ -16,7 +16,7 @@ Errors are caught and logged — tasks never crash the worker process.
 
 import asyncio
 import logging
-from datetime import UTC, datetime, timedelta
+from datetime import UTC, datetime
 from uuid import UUID
 
 import sqlalchemy as sa

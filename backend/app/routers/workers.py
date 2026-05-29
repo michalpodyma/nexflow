@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 from typing import Annotated
 from uuid import UUID
 
@@ -42,7 +42,7 @@ async def list_workers(
     q: str | None = Query(None, description="Search by first or last name (case-insensitive)"),
 ) -> PaginatedWorkers:
     offset = (page - 1) * page_size
-    cutoff = datetime.now(timezone.utc) + timedelta(days=30)
+    cutoff = datetime.now(UTC) + timedelta(days=30)
 
     base_q = select(Worker)
 
@@ -86,7 +86,7 @@ async def list_workers(
         client_names = {row.id: row.company_name for row in client_result}
 
     items = [
-        _build_worker_read(w, client_names.get(w.current_client_id))
+        _build_worker_read(w, client_names.get(w.current_client_id))  # type: ignore[arg-type]
         for w in workers
     ]
     return PaginatedWorkers(items=items, total=total, page=page, page_size=page_size)
@@ -191,7 +191,7 @@ async def archive_worker(
     if worker.archived_at is not None:
         raise HTTPException(status_code=409, detail="Worker is already archived")
 
-    worker.archived_at = datetime.now(timezone.utc)
+    worker.archived_at = datetime.now(UTC)
     await db.commit()
     await db.refresh(worker)
     return _build_worker_read(worker, None)

@@ -100,7 +100,6 @@ async def replace_client(
     for field, value in body.model_dump().items():
         setattr(client, field, value)
 
-    from sqlalchemy import text
     client.updated_at = (await db.execute(select(func.now()))).scalar_one()
 
     await db.commit()

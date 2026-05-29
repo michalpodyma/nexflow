@@ -331,10 +331,6 @@ export default function DocumentsPage() {
   const [loadingDetail, setLoadingDetail] = useState<string | null>(null);
   const [detailError, setDetailError] = useState<string | null>(null);
 
-  useEffect(() => {
-    loadTemplates();
-  }, []);
-
   async function loadTemplates() {
     setLoading(true);
     try {
@@ -347,6 +343,10 @@ export default function DocumentsPage() {
       setLoading(false);
     }
   }
+
+  useEffect(() => {
+    loadTemplates();
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   function handleSaved(tpl: DocumentTemplate) {
     setTemplates((prev) => {

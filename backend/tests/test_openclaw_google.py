@@ -11,9 +11,8 @@ independently of the Google APIs.
 from __future__ import annotations
 
 import base64
-import json
 import time
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import pytest
@@ -21,16 +20,15 @@ from httpx import ASGITransport, AsyncClient, Response
 
 from app.config import settings
 from app.main import app
-from app.services import google_workspace as gw_module
 from app.services.google_workspace import (
     GoogleWorkspaceError,
     _cache,
     _get_access_token,
-    gmail_label_message,
-    gmail_list_messages,
     calendar_create_event,
     calendar_list_events,
     drive_upload_file,
+    gmail_label_message,
+    gmail_list_messages,
 )
 
 # ---------------------------------------------------------------------------
@@ -258,8 +256,8 @@ async def test_calendar_list_events_returns_items():
     ):
         items = await calendar_list_events(
             calendar_id="board@nexflow.work",
-            time_min=datetime(2026, 4, 29, tzinfo=timezone.utc),
-            time_max=datetime(2026, 4, 30, tzinfo=timezone.utc),
+            time_min=datetime(2026, 4, 29, tzinfo=UTC),
+            time_max=datetime(2026, 4, 30, tzinfo=UTC),
         )
 
     assert len(items) == 1
@@ -295,8 +293,8 @@ async def test_calendar_create_event_success():
         result = await calendar_create_event(
             calendar_id="board@nexflow.work",
             summary="Kick-off",
-            start=datetime(2026, 4, 30, 10, 0, tzinfo=timezone.utc),
-            end=datetime(2026, 4, 30, 11, 0, tzinfo=timezone.utc),
+            start=datetime(2026, 4, 30, 10, 0, tzinfo=UTC),
+            end=datetime(2026, 4, 30, 11, 0, tzinfo=UTC),
         )
 
     assert result["id"] == "new-evt"
