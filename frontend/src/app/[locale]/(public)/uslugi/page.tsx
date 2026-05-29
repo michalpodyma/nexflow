@@ -125,7 +125,7 @@ export default async function ServicesPage({ params }: Props) {
               <div
                 key={service.id}
                 id={service.id}
-                className={`py-16 ${index < services.length - 1 ? "border-b border-gray-200" : ""}`}
+                className={`py-16 ${index < services.length - 1 ? "border-b border-white/10" : ""}`}
               >
                 <div className={`grid grid-cols-1 lg:grid-cols-2 gap-12 items-start ${index % 2 === 1 ? "lg:flex-row-reverse" : ""}`}>
                   <FadeIn direction={index % 2 === 0 ? "left" : "right"}>
@@ -134,21 +134,21 @@ export default async function ServicesPage({ params }: Props) {
                         <ServiceIcon className="w-7 h-7 text-nexflow-cyan" strokeWidth={1.5} />
                       </div>
                       <div className="flex items-center gap-3 mb-4">
-                        <span className="text-5xl font-bold text-nexflow-cyan/20 select-none leading-none">
+                        <span className="text-5xl font-bold text-nexflow-cyan/40 select-none leading-none">
                           {service.number}
                         </span>
                         <div>
-                          <p className="text-ink-inverse text-xs font-semibold uppercase tracking-wider">
+                          <p className="text-ink text-xs font-semibold uppercase tracking-wider">
                             {service.subtitle}
                           </p>
-                          <h2 className="text-2xl md:text-3xl font-bold text-ink-inverse">{service.title}</h2>
+                          <h2 className="text-2xl md:text-3xl font-bold text-ink">{service.title}</h2>
                         </div>
                       </div>
-                      <p className="text-graphite leading-relaxed mb-6">{service.description}</p>
-                      <h3 className="font-semibold text-ink-inverse mb-3">{t("typical_profiles")}</h3>
+                      <p className="text-ink-muted leading-relaxed mb-6">{service.description}</p>
+                      <h3 className="font-semibold text-ink mb-3">{t("typical_profiles")}</h3>
                       <ul className="space-y-2 mb-8">
                         {service.details.map((detail) => (
-                          <li key={detail} className="flex items-start gap-2 text-sm text-graphite">
+                          <li key={detail} className="flex items-start gap-2 text-sm text-ink-muted">
                             <svg className="w-4 h-4 text-nexflow-cyan mt-0.5 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                             </svg>

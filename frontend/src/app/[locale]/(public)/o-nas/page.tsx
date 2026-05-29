@@ -148,7 +148,7 @@ export default async function AboutPage({ params }: Props) {
                 <h2 className="section-heading">
                   Korytarz DE-PL — to jest nasze podwórko
                 </h2>
-                <div className="mt-6 space-y-4 text-graphite leading-relaxed">
+                <div className="mt-6 space-y-4 text-ink-muted leading-relaxed">
                   <p>
                     Nexflow (dawniej Eurojob-West) to agencja pracy
                     specjalizująca się w sektorze warehouse i logistyki w Polsce
