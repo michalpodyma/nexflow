@@ -255,7 +255,7 @@ function JobCard({
                 {meta.icon}
                 {meta.label}
               </span>
-              <h2 className="text-base font-semibold text-primary leading-snug group-hover:text-nexflow-cyan-dark transition-colors">
+              <h2 className="text-base font-semibold text-primary leading-snug group-hover:text-accent-dark transition-colors">
                 {data.title}
               </h2>
               <p className="text-[15px] text-muted-foreground mt-0.5">{data.location}</p>

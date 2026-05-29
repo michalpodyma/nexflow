@@ -115,14 +115,14 @@ export default function AdsLeadForm({ locale, source, ctaLabel }: Props) {
             />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-nexflow-navy mb-2">{t.successTitle}</h3>
+        <h3 className="text-xl font-bold text-ink-inverse mb-2">{t.successTitle}</h3>
         <p className="text-slate text-sm">{t.successMsg}</p>
       </div>
     );
   }
 
   const inputCls =
-    "w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors";
+    "w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
@@ -176,11 +176,11 @@ export default function AdsLeadForm({ locale, source, ctaLabel }: Props) {
           required
           checked={consent}
           onChange={(e) => setConsent(e.target.checked)}
-          className="mt-0.5 h-4 w-4 rounded border-gray-300 text-nexflow-cyan focus:ring-nexflow-cyan/30 shrink-0 cursor-pointer"
+          className="mt-0.5 h-4 w-4 rounded border-gray-300 text-nexflow-cyan focus:ring-accent/30 shrink-0 cursor-pointer"
         />
         <span className="text-xs text-slate leading-relaxed">
           {t.consentText}
-          <Link href={t.privacyHref} className="underline hover:text-nexflow-navy transition-colors" target="_blank">
+          <Link href={t.privacyHref} className="underline hover:text-ink-inverse transition-colors" target="_blank">
             {t.privacyLabel}
           </Link>
           .
@@ -190,7 +190,7 @@ export default function AdsLeadForm({ locale, source, ctaLabel }: Props) {
       <button
         type="submit"
         disabled={status === "submitting" || !consent}
-        className="w-full bg-nexflow-cyan text-nexflow-navy font-bold py-3.5 rounded-lg text-base hover:bg-opacity-90 active:scale-[0.98] transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+        className="w-full bg-nexflow-cyan text-ink-inverse font-bold py-3.5 rounded-lg text-base hover:bg-opacity-90 active:scale-[0.98] transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {status === "submitting" ? t.submitting : (ctaLabel ?? t.submit)}
       </button>

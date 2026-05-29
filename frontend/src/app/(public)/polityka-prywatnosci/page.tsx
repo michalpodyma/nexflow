@@ -18,7 +18,7 @@ export default function PolitykaPrywatnosciPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20">
+      <section className="bg-canvas text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
             Dokumenty prawne
@@ -39,7 +39,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 1 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 1. Administrator danych osobowych
               </h2>
               <p className="text-graphite text-sm leading-relaxed">
@@ -62,7 +62,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 2 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 2. Cele i podstawy prawne przetwarzania danych
               </h2>
               <div className="space-y-4">
@@ -100,7 +100,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 3 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 3. Kategorie przetwarzanych danych
               </h2>
               <ul className="list-disc list-inside text-sm text-graphite leading-relaxed space-y-1">
@@ -115,7 +115,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 4 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 4. Okres przechowywania danych
               </h2>
               <ul className="list-disc list-inside text-sm text-graphite leading-relaxed space-y-2">
@@ -138,7 +138,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 5 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 5. Odbiorcy danych
               </h2>
               <p className="text-graphite text-sm leading-relaxed">
@@ -160,7 +160,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 6 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 6. Twoje prawa
               </h2>
               <p className="text-graphite text-sm leading-relaxed mb-3">
@@ -205,7 +205,7 @@ export default function PolitykaPrywatnosciPage() {
                     key={r.title}
                     className="p-3 bg-white rounded-xl border border-gray-100 shadow-sm"
                   >
-                    <p className="text-xs font-semibold text-nexflow-navy mb-1">{r.title}</p>
+                    <p className="text-xs font-semibold text-ink-inverse mb-1">{r.title}</p>
                     <p className="text-xs text-slate leading-relaxed">{r.desc}</p>
                   </div>
                 ))}
@@ -224,7 +224,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 7 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 7. Pliki cookies i analityka
               </h2>
               <p className="text-graphite text-sm leading-relaxed">
@@ -237,7 +237,7 @@ export default function PolitykaPrywatnosciPage() {
 
             {/* 8 */}
             <div>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-3">
+              <h2 className="text-xl font-bold text-ink-inverse mb-3">
                 8. Zmiany polityki prywatności
               </h2>
               <p className="text-graphite text-sm leading-relaxed">
@@ -249,7 +249,7 @@ export default function PolitykaPrywatnosciPage() {
             </div>
 
             {/* Contact */}
-            <div className="rounded-2xl bg-nexflow-navy text-white p-6 mt-4">
+            <div className="rounded-2xl bg-canvas text-white p-6 mt-4">
               <h2 className="text-lg font-bold mb-2">Kontakt w sprawie danych osobowych</h2>
               <p className="text-white/70 text-sm leading-relaxed">
                 Nexflow Sp. z o.o.<br />
@@ -282,7 +282,7 @@ function PolicyTable({
     <div className="overflow-x-auto rounded-xl border border-gray-100 shadow-sm">
       <table className="w-full text-sm">
         <thead>
-          <tr className="bg-nexflow-navy text-white">
+          <tr className="bg-canvas text-white">
             <th className="text-left px-4 py-3 font-semibold text-xs uppercase tracking-wider w-2/5">
               Cel przetwarzania
             </th>

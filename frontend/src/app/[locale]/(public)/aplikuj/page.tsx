@@ -40,7 +40,7 @@ export default async function ApplyPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20 relative overflow-hidden">
+      <section className="bg-canvas text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/hero-aplikuj.jpg"
@@ -50,7 +50,7 @@ export default async function ApplyPage({ params }: Props) {
             className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-nexflow-navy/65" />
+          <div className="absolute inset-0 bg-canvas/65" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
@@ -66,15 +66,15 @@ export default async function ApplyPage({ params }: Props) {
       </section>
 
       {/* Benefit cards */}
-      <section className="bg-cloud-white py-12">
+      <section className="bg-surface-1 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {benefits.map((benefit) => (
               <div
                 key={benefit.title}
-                className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-1 transition-all duration-300"
+                className="bg-white rounded-xl p-6 border border-gray-100 hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="text-lg font-semibold text-nexflow-navy mb-2">{benefit.title}</h3>
+                <h3 className="text-lg font-semibold text-ink-inverse mb-2">{benefit.title}</h3>
                 <p className="text-slate text-sm leading-relaxed">{benefit.desc}</p>
               </div>
             ))}

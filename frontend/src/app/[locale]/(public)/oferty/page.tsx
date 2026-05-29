@@ -57,7 +57,7 @@ export default async function JobsPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(hiringOrgSchema) }}
       />
-      <section className="bg-nexflow-navy text-white py-20 relative overflow-hidden">
+      <section className="bg-canvas text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/hero-oferty.jpg"
@@ -67,7 +67,7 @@ export default async function JobsPage({ params }: Props) {
             className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-nexflow-navy/65" />
+          <div className="absolute inset-0 bg-canvas/65" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">

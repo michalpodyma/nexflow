@@ -66,7 +66,7 @@ export default async function ForClientsPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20">
+      <section className="bg-canvas text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
             {t("hero_tag")}
@@ -89,7 +89,7 @@ export default async function ForClientsPage({ params }: Props) {
       </section>
 
       {/* Benefits */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-14">
@@ -102,11 +102,11 @@ export default async function ForClientsPage({ params }: Props) {
               const Icon = benefit.icon;
               return (
                 <FadeIn key={benefit.title} direction="up" delay={i * 80}>
-                  <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full">
+                  <div className="bg-white rounded-2xl p-6 border border-gray-100 hover:-translate-y-0.5 transition-all duration-300 h-full">
                     <div className="w-12 h-12 bg-nexflow-cyan/10 rounded-xl flex items-center justify-center mb-4">
                       <Icon className="w-6 h-6 text-nexflow-cyan" strokeWidth={1.5} />
                     </div>
-                    <h3 className="font-bold text-nexflow-navy mb-2">{benefit.title}</h3>
+                    <h3 className="font-bold text-ink-inverse mb-2">{benefit.title}</h3>
                     <p className="text-slate text-sm leading-relaxed">{benefit.desc}</p>
                   </div>
                 </FadeIn>
@@ -117,7 +117,7 @@ export default async function ForClientsPage({ params }: Props) {
       </section>
 
       {/* How it works */}
-      <section className="py-20 bg-nexflow-navy text-white">
+      <section className="py-20 bg-canvas text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-14">
@@ -144,7 +144,7 @@ export default async function ForClientsPage({ params }: Props) {
       </section>
 
       {/* Sectors */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-12">
@@ -157,11 +157,11 @@ export default async function ForClientsPage({ params }: Props) {
               const Icon = sector.icon;
               return (
                 <FadeIn key={sector.label} direction="up" delay={i * 60}>
-                  <div className="flex items-center gap-3 bg-white rounded-xl p-4 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300">
-                    <div className="w-10 h-10 bg-nexflow-navy/5 rounded-lg flex items-center justify-center shrink-0">
+                  <div className="flex items-center gap-3 bg-white rounded-xl p-4 border border-gray-100 hover:-translate-y-0.5 transition-all duration-300">
+                    <div className="w-10 h-10 bg-canvas/5 rounded-lg flex items-center justify-center shrink-0">
                       <Icon className="w-5 h-5 text-nexflow-cyan" strokeWidth={1.5} />
                     </div>
-                    <span className="text-sm font-medium text-nexflow-navy">{sector.label}</span>
+                    <span className="text-sm font-medium text-ink-inverse">{sector.label}</span>
                   </div>
                 </FadeIn>
               );
@@ -171,7 +171,7 @@ export default async function ForClientsPage({ params }: Props) {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-nexflow-navy text-white">
+      <section className="py-20 bg-canvas text-white">
         <FadeIn>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold">{t("cta_heading")}</h2>

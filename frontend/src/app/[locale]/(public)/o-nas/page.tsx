@@ -8,7 +8,7 @@ type Props = { params: Promise<{ locale: string }> };
 
 function InitialsAvatar({ initials }: { initials: string }) {
   return (
-    <div className="w-16 h-16 rounded-full bg-nexflow-navy border-4 border-nexflow-cyan flex items-center justify-center mx-auto mb-4">
+    <div className="w-16 h-16 rounded-full bg-canvas border-4 border-accent flex items-center justify-center mx-auto mb-4">
       <span className="text-nexflow-cyan font-bold text-xl tracking-wider">{initials}</span>
     </div>
   );
@@ -125,7 +125,7 @@ export default async function AboutPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20">
+      <section className="bg-canvas text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
             {t("hero_tag")}
@@ -140,7 +140,7 @@ export default async function AboutPage({ params }: Props) {
       </section>
 
       {/* Story */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <FadeIn direction="left">
@@ -174,7 +174,7 @@ export default async function AboutPage({ params }: Props) {
             <div className="grid grid-cols-2 gap-6">
               {statsData.map((stat, i) => (
                 <FadeIn key={stat.label} direction="right" delay={i * 100}>
-                  <div className="bg-nexflow-navy rounded-xl p-6 text-center">
+                  <div className="bg-canvas rounded-xl p-6 text-center">
                     <p className="text-3xl font-bold text-nexflow-cyan">
                       <AnimatedCounter value={stat.value} />
                     </p>
@@ -220,10 +220,10 @@ export default async function AboutPage({ params }: Props) {
                     {index % 2 === 0 ? (
                       <>
                         <div className="md:pr-12">
-                          <span className="inline-block bg-nexflow-navy text-nexflow-cyan text-sm font-bold px-3 py-1 rounded-full mb-3">
+                          <span className="inline-block bg-canvas text-nexflow-cyan text-sm font-bold px-3 py-1 rounded-full mb-3">
                             {milestone.year}
                           </span>
-                          <h3 className="text-xl font-semibold text-nexflow-navy">
+                          <h3 className="text-xl font-semibold text-ink-inverse">
                             {milestone.title}
                           </h3>
                           <p className="text-slate text-sm leading-relaxed mt-2">
@@ -236,10 +236,10 @@ export default async function AboutPage({ params }: Props) {
                       <>
                         <div className="hidden md:block" />
                         <div className="md:pl-12">
-                          <span className="inline-block bg-nexflow-navy text-nexflow-cyan text-sm font-bold px-3 py-1 rounded-full mb-3">
+                          <span className="inline-block bg-canvas text-nexflow-cyan text-sm font-bold px-3 py-1 rounded-full mb-3">
                             {milestone.year}
                           </span>
-                          <h3 className="text-xl font-semibold text-nexflow-navy">
+                          <h3 className="text-xl font-semibold text-ink-inverse">
                             {milestone.title}
                           </h3>
                           <p className="text-slate text-sm leading-relaxed mt-2">
@@ -248,7 +248,7 @@ export default async function AboutPage({ params }: Props) {
                         </div>
                       </>
                     )}
-                    <div className="hidden md:block absolute left-1/2 top-3 w-4 h-4 rounded-full bg-nexflow-cyan border-4 border-white shadow-sm -translate-x-1/2" />
+                    <div className="hidden md:block absolute left-1/2 top-3 w-4 h-4 rounded-full bg-nexflow-cyan border-4 border-white -translate-x-1/2" />
                   </div>
                 </FadeIn>
               ))}
@@ -258,7 +258,7 @@ export default async function AboutPage({ params }: Props) {
       </section>
 
       {/* Values */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-16">
@@ -273,12 +273,12 @@ export default async function AboutPage({ params }: Props) {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {values.map((value, i) => (
               <FadeIn key={value.title} delay={i * 80}>
-                <div className="bg-white rounded-xl p-6 border border-gray-100 shadow-sm flex gap-5 hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full">
-                  <div className="w-14 h-14 rounded-xl bg-nexflow-navy flex items-center justify-center text-nexflow-cyan shrink-0">
+                <div className="bg-white rounded-xl p-6 border border-gray-100 flex gap-5 hover:-translate-y-0.5 transition-all duration-300 h-full">
+                  <div className="w-14 h-14 rounded-xl bg-canvas flex items-center justify-center text-nexflow-cyan shrink-0">
                     {value.icon}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-nexflow-navy mb-2">
+                    <h3 className="font-semibold text-ink-inverse mb-2">
                       {value.title}
                     </h3>
                     <p className="text-slate text-sm leading-relaxed">
@@ -293,7 +293,7 @@ export default async function AboutPage({ params }: Props) {
       </section>
 
       {/* Team */}
-      <section className="py-20 bg-nexflow-navy text-white">
+      <section className="py-20 bg-canvas text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-12">
@@ -319,7 +319,7 @@ export default async function AboutPage({ params }: Props) {
                   <p className="text-nexflow-cyan text-xs mt-1">{person.role}</p>
                   <div className="mt-4 space-y-1 text-xs text-white/60">
                     <p>
-                      <a href={`mailto:${person.email}`} className="hover:text-nexflow-cyan transition-colors">
+                      <a href={`mailto:${person.email}`} className="hover:text-accent transition-colors">
                         {person.email}
                       </a>
                     </p>
@@ -332,7 +332,7 @@ export default async function AboutPage({ params }: Props) {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <FadeIn>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="section-heading">{t("cta_heading")}</h2>

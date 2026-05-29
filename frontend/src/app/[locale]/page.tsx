@@ -130,7 +130,7 @@ export default async function LocalePage({ params }: Props) {
             className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-nexflow-navy/65" />
+          <div className="absolute inset-0 bg-canvas/65" />
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 w-full">
             <div className="mb-8">
               <FlowMark variant="symbol" colorScheme="reversed" height={56} />
@@ -161,10 +161,10 @@ export default async function LocalePage({ params }: Props) {
               {stats.map((stat, i) => (
                 <FadeIn key={stat.label} delay={i * 100}>
                   <div className="flex justify-center mb-2">{statIcons[i]}</div>
-                  <p className="text-4xl md:text-5xl font-bold text-nexflow-navy">
+                  <p className="text-4xl md:text-5xl font-bold text-ink-inverse">
                     <AnimatedCounter value={stat.value} />
                   </p>
-                  <p className="mt-2 text-sm font-medium text-nexflow-navy/80">{stat.label}</p>
+                  <p className="mt-2 text-sm font-medium text-ink-inverse/80">{stat.label}</p>
                   <p className="mt-0.5 text-xs text-gray-400">{stat.sublabel}</p>
                 </FadeIn>
               ))}
@@ -191,7 +191,7 @@ export default async function LocalePage({ params }: Props) {
         </div>
 
         {/* Services */}
-        <section className="py-16 sm:py-24 bg-cloud-white">
+        <section className="py-16 sm:py-24 bg-surface-1">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <FadeIn>
               <div className="text-center mb-16">
@@ -202,11 +202,11 @@ export default async function LocalePage({ params }: Props) {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {services.map((service, i) => (
                 <FadeIn key={service.id} delay={i * 80}>
-                  <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-1 hover:border-nexflow-cyan/30 transition-all duration-300 group h-full">
-                    <div className="w-14 h-14 rounded-xl bg-nexflow-navy flex items-center justify-center text-nexflow-cyan mb-5 group-hover:bg-nexflow-cyan group-hover:text-nexflow-navy transition-all duration-300">
+                  <div className="bg-white rounded-xl p-6 border border-gray-100 hover:-translate-y-1 hover:border-accent/30 transition-all duration-300 group h-full">
+                    <div className="w-14 h-14 rounded-xl bg-canvas flex items-center justify-center text-nexflow-cyan mb-5 group-hover:bg-accent-hover group-hover:text-ink-inverse transition-all duration-300">
                       {serviceIcons[i]}
                     </div>
-                    <h3 className="text-lg font-semibold text-nexflow-navy mb-3">{service.title}</h3>
+                    <h3 className="text-lg font-semibold text-ink-inverse mb-3">{service.title}</h3>
                     <p className="text-slate text-sm leading-relaxed">{service.description}</p>
                   </div>
                 </FadeIn>
@@ -240,11 +240,11 @@ export default async function LocalePage({ params }: Props) {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 {whyPoints.map((point, i) => (
                   <FadeIn key={point.title} direction="right" delay={i * 100}>
-                    <div className="bg-cloud-white rounded-xl p-5 border border-gray-100 hover:shadow-sm hover:-translate-y-0.5 transition-all duration-300 h-full">
-                      <div className="w-10 h-10 rounded-lg bg-nexflow-navy flex items-center justify-center text-nexflow-cyan mb-4">
+                    <div className="bg-surface-1 rounded-xl p-5 border border-gray-100 hover:-translate-y-0.5 transition-all duration-300 h-full">
+                      <div className="w-10 h-10 rounded-lg bg-canvas flex items-center justify-center text-nexflow-cyan mb-4">
                         {whyIcons[i]}
                       </div>
-                      <h3 className="font-semibold text-nexflow-navy mb-2">{point.title}</h3>
+                      <h3 className="font-semibold text-ink-inverse mb-2">{point.title}</h3>
                       <p className="text-slate text-sm leading-relaxed">{point.description}</p>
                     </div>
                   </FadeIn>
@@ -255,7 +255,7 @@ export default async function LocalePage({ params }: Props) {
         </section>
 
         {/* How it works */}
-        <section className="py-24 bg-nexflow-navy text-white">
+        <section className="py-24 bg-canvas text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <FadeIn>
               <div className="text-center mb-16">
@@ -269,7 +269,7 @@ export default async function LocalePage({ params }: Props) {
               {steps.map((step, i) => (
                 <FadeIn key={i} delay={i * 100}>
                   <div className="relative h-full">
-                    <div className="bg-white/10 rounded-xl p-5 h-full border border-white/10 hover:border-nexflow-cyan/50 hover:bg-white/15 transition-all duration-300">
+                    <div className="bg-white/10 rounded-xl p-5 h-full border border-white/10 hover:border-accent/50 hover:bg-white/15 transition-all duration-300">
                       <p className="text-nexflow-cyan text-xs font-semibold uppercase tracking-wider mb-2">{step.label}</p>
                       <h3 className="font-semibold text-white mb-2">{step.title}</h3>
                       <p className="text-white/60 text-sm leading-relaxed">{step.desc}</p>
@@ -292,17 +292,17 @@ export default async function LocalePage({ params }: Props) {
         <section className="py-16 px-6 bg-gray-50">
           <div className="max-w-4xl mx-auto">
             <FadeIn>
-              <h2 className="text-2xl font-bold text-nexflow-navy text-center mb-10">
+              <h2 className="text-2xl font-bold text-ink-inverse text-center mb-10">
                 {t("testimonials.heading")}
               </h2>
             </FadeIn>
             <div className="grid md:grid-cols-3 gap-6">
               {testimonials.map((item, i) => (
                 <FadeIn key={item.name} delay={i * 100}>
-                  <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100 h-full flex flex-col">
+                  <div className="bg-white rounded-2xl p-6 border border-gray-100 h-full flex flex-col">
                     <p className="text-gray-600 text-sm leading-relaxed mb-6 flex-1">&ldquo;{item.quote}&rdquo;</p>
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 rounded-full bg-nexflow-navy flex items-center justify-center flex-shrink-0">
+                      <div className="w-10 h-10 rounded-full bg-canvas flex items-center justify-center flex-shrink-0">
                         <span className="text-nexflow-cyan text-xs font-bold">{item.initials}</span>
                       </div>
                       <div>
@@ -340,7 +340,7 @@ export default async function LocalePage({ params }: Props) {
         </section>
 
         {/* Contact CTA */}
-        <section className="py-24 bg-cloud-white">
+        <section className="py-24 bg-surface-1">
           <FadeIn>
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
               <h2 className="section-heading">{t("cta.heading")}</h2>
@@ -355,7 +355,7 @@ export default async function LocalePage({ params }: Props) {
               </div>
               <p className="mt-6 text-sm text-slate">
                 {t("cta.phone_label")}{" "}
-                <a href="tel:+48224878828" className="text-nexflow-navy font-semibold hover:text-nexflow-cyan-dark transition-colors">
+                <a href="tel:+48224878828" className="text-ink-inverse font-semibold hover:text-accent-dark transition-colors">
                   +48 224 878 828
                 </a>
               </p>

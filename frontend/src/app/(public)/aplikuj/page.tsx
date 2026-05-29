@@ -36,7 +36,7 @@ export default function AplikujPage() {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20 relative overflow-hidden">
+      <section className="bg-canvas text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0">
           <Image
             src="/images/hero-aplikuj.jpg"
@@ -46,7 +46,7 @@ export default function AplikujPage() {
             className="object-cover object-center"
             sizes="100vw"
           />
-          <div className="absolute inset-0 bg-nexflow-navy/65" />
+          <div className="absolute inset-0 bg-canvas/65" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">Aplikuj</p>
@@ -68,7 +68,7 @@ export default function AplikujPage() {
                 key={benefit.title}
                 className="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:shadow-md hover:-translate-y-1 transition-all duration-300"
               >
-                <h3 className="text-lg font-semibold text-nexflow-navy mb-2">{benefit.title}</h3>
+                <h3 className="text-lg font-semibold text-ink-inverse mb-2">{benefit.title}</h3>
                 <p className="text-slate text-sm leading-relaxed">{benefit.desc}</p>
               </div>
             ))}

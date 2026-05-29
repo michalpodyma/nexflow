@@ -102,7 +102,7 @@ export default async function ServicesPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20">
+      <section className="bg-canvas text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
             {t("hero_tag")}
@@ -117,7 +117,7 @@ export default async function ServicesPage({ params }: Props) {
       </section>
 
       {/* Services detail */}
-      <section className="py-8 bg-cloud-white">
+      <section className="py-8 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {services.map((service, index) => {
             const ServiceIcon = serviceIcons[index];
@@ -138,14 +138,14 @@ export default async function ServicesPage({ params }: Props) {
                           {service.number}
                         </span>
                         <div>
-                          <p className="text-nexflow-navy text-xs font-semibold uppercase tracking-wider">
+                          <p className="text-ink-inverse text-xs font-semibold uppercase tracking-wider">
                             {service.subtitle}
                           </p>
-                          <h2 className="text-2xl md:text-3xl font-bold text-nexflow-navy">{service.title}</h2>
+                          <h2 className="text-2xl md:text-3xl font-bold text-ink-inverse">{service.title}</h2>
                         </div>
                       </div>
                       <p className="text-graphite leading-relaxed mb-6">{service.description}</p>
-                      <h3 className="font-semibold text-nexflow-navy mb-3">{t("typical_profiles")}</h3>
+                      <h3 className="font-semibold text-ink-inverse mb-3">{t("typical_profiles")}</h3>
                       <ul className="space-y-2 mb-8">
                         {service.details.map((detail) => (
                           <li key={detail} className="flex items-start gap-2 text-sm text-graphite">
@@ -169,18 +169,18 @@ export default async function ServicesPage({ params }: Props) {
                         alt={service.title}
                         width={600}
                         height={400}
-                        className="rounded-xl object-cover w-full shadow-md"
+                        className="rounded-xl object-cover w-full"
                       />
                     </div>
                     {service.features.map((feature, fi) => (
                       <FadeIn key={feature.title} direction={index % 2 === 0 ? "right" : "left"} delay={fi * 80}>
-                        <div className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full">
-                          <div className="w-8 h-8 rounded-lg bg-nexflow-navy/10 flex items-center justify-center mb-3">
+                        <div className="bg-white rounded-xl p-5 border border-gray-100 hover:-translate-y-0.5 transition-all duration-300 h-full">
+                          <div className="w-8 h-8 rounded-lg bg-canvas/10 flex items-center justify-center mb-3">
                             <svg className="w-4 h-4 text-nexflow-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                             </svg>
                           </div>
-                          <h4 className="font-semibold text-nexflow-navy text-sm mb-1">{feature.title}</h4>
+                          <h4 className="font-semibold text-ink-inverse text-sm mb-1">{feature.title}</h4>
                           <p className="text-slate text-xs leading-relaxed">{feature.desc}</p>
                         </div>
                       </FadeIn>
@@ -194,7 +194,7 @@ export default async function ServicesPage({ params }: Props) {
       </section>
 
       {/* Compliance section */}
-      <section className="py-20 bg-nexflow-navy text-white">
+      <section className="py-20 bg-canvas text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <FadeIn direction="left">
@@ -211,7 +211,7 @@ export default async function ServicesPage({ params }: Props) {
                 <FadeIn key={item} direction="right" delay={i * 80}>
                   <div className="flex items-center gap-3 bg-white/10 rounded-xl p-4 border border-white/10 hover:bg-white/15 transition-colors duration-300">
                     <div className="w-8 h-8 rounded-full bg-nexflow-cyan flex items-center justify-center shrink-0">
-                      <svg className="w-4 h-4 text-nexflow-navy" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="w-4 h-4 text-ink-inverse" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
@@ -225,7 +225,7 @@ export default async function ServicesPage({ params }: Props) {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <FadeIn>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="section-heading">{t("cta_heading")}</h2>

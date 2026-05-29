@@ -48,7 +48,7 @@ export default function MagazynPage() {
   return (
     <>
       {/* Hero with inline form */}
-      <section className="bg-nexflow-navy text-white">
+      <section className="bg-canvas text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Copy */}
@@ -92,7 +92,7 @@ export default function MagazynPage() {
               <p className="text-nexflow-cyan text-xs font-semibold uppercase tracking-wider mb-1">
                 Bezpłatna rekrutacja
               </p>
-              <h2 className="text-xl font-bold text-nexflow-navy mb-1">
+              <h2 className="text-xl font-bold text-ink-inverse mb-1">
                 Zostaw numer — oddzwonimy
               </h2>
               <p className="text-slate text-sm mb-5">
@@ -107,7 +107,7 @@ export default function MagazynPage() {
       {/* Current positions */}
       <section className="py-16 bg-cloud-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-nexflow-navy text-center mb-2">
+          <h2 className="text-2xl font-bold text-ink-inverse text-center mb-2">
             Aktualne stanowiska
           </h2>
           <p className="text-slate text-center text-sm mb-10">
@@ -121,8 +121,8 @@ export default function MagazynPage() {
               >
                 <div className="text-3xl mb-3" aria-hidden="true">{role.icon}</div>
                 <div className="flex items-start justify-between gap-2 mb-2">
-                  <h3 className="font-bold text-nexflow-navy text-base">{role.title}</h3>
-                  <span className="text-xs font-semibold bg-nexflow-cyan/10 text-nexflow-navy px-2 py-1 rounded-full whitespace-nowrap shrink-0">
+                  <h3 className="font-bold text-ink-inverse text-base">{role.title}</h3>
+                  <span className="text-xs font-semibold bg-nexflow-cyan/10 text-ink-inverse px-2 py-1 rounded-full whitespace-nowrap shrink-0">
                     {role.badge}
                   </span>
                 </div>
@@ -134,7 +134,7 @@ export default function MagazynPage() {
       </section>
 
       {/* Bottom CTA */}
-      <section className="bg-nexflow-navy py-14">
+      <section className="bg-canvas py-14">
         <div className="max-w-2xl mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-white mb-2">
             Gotowy na pracę w Niemczech?
@@ -144,7 +144,7 @@ export default function MagazynPage() {
           </p>
           <a
             href="tel:+48224878828"
-            className="inline-flex items-center gap-2 bg-nexflow-cyan text-nexflow-navy font-bold px-8 py-3.5 rounded-xl text-base hover:bg-opacity-90 transition-all"
+            className="inline-flex items-center gap-2 bg-nexflow-cyan text-ink-inverse font-bold px-8 py-3.5 rounded-xl text-base hover:bg-opacity-90 transition-all"
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />

@@ -94,11 +94,11 @@ export default function ContactForm() {
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
           </svg>
         </div>
-        <h3 className="text-xl font-bold text-nexflow-navy mb-2">{t("success_heading")}</h3>
+        <h3 className="text-xl font-bold text-ink-inverse mb-2">{t("success_heading")}</h3>
         <p className="text-slate text-sm">{t("success_desc")}</p>
         <button
           onClick={() => setStatus("idle")}
-          className="mt-6 text-nexflow-navy text-sm hover:underline"
+          className="mt-6 text-ink-inverse text-sm hover:underline"
         >
           {t("success_again")}
         </button>
@@ -121,8 +121,8 @@ export default function ContactForm() {
               key={opt.value}
               className={`flex items-center gap-2 px-4 py-2 rounded-lg border cursor-pointer text-sm transition-all ${
                 form.type === opt.value
-                  ? "border-nexflow-cyan bg-nexflow-cyan/5 text-nexflow-navy font-semibold"
-                  : "border-gray-200 text-slate hover:border-nexflow-cyan/50"
+                  ? "border-accent bg-accent/10 text-ink-inverse font-semibold"
+                  : "border-gray-200 text-slate hover:border-accent/50"
               }`}
             >
               <input
@@ -153,7 +153,7 @@ export default function ContactForm() {
             value={form.name}
             onChange={handleChange}
             placeholder="Jan Kowalski"
-            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors"
+            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors"
           />
         </div>
         <div>
@@ -169,7 +169,7 @@ export default function ContactForm() {
             value={form.company}
             onChange={handleChange}
             placeholder="Nexflow Sp. z o.o."
-            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors"
+            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors"
           />
         </div>
       </div>
@@ -188,7 +188,7 @@ export default function ContactForm() {
             value={form.email}
             onChange={handleChange}
             placeholder="jan@firma.pl"
-            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors"
+            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors"
           />
         </div>
         <div>
@@ -202,7 +202,7 @@ export default function ContactForm() {
             value={form.phone}
             onChange={handleChange}
             placeholder="+48 000 000 000"
-            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors"
+            className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors"
           />
         </div>
       </div>
@@ -226,7 +226,7 @@ export default function ContactForm() {
                 ? t("placeholder_worker")
                 : t("placeholder_other")
           }
-          className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-nexflow-cyan/30 focus:border-nexflow-cyan transition-colors resize-none"
+          className="w-full border border-gray-200 rounded-lg px-3.5 py-2.5 text-sm text-graphite placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-accent/30 focus:border-accent transition-colors resize-none"
         />
       </div>
 
@@ -235,7 +235,7 @@ export default function ContactForm() {
         {t("gdpr")}{" "}
         <Link
           href={`/${locale}/polityka-prywatnosci`}
-          className="underline hover:text-nexflow-navy transition-colors"
+          className="underline hover:text-ink-inverse transition-colors"
         >
           {t("privacy_link")}
         </Link>
@@ -245,7 +245,7 @@ export default function ContactForm() {
       <button
         type="submit"
         disabled={status === "submitting"}
-        className="w-full bg-nexflow-cyan text-nexflow-navy font-semibold py-3 rounded-lg hover:bg-opacity-90 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
+        className="w-full bg-nexflow-cyan text-ink-inverse font-semibold py-3 rounded-lg hover:bg-opacity-90 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed"
       >
         {status === "submitting" ? t("submitting") : t("submit")}
       </button>

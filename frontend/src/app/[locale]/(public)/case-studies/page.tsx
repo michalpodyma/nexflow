@@ -52,7 +52,7 @@ export default async function CaseStudiesPage({ params }: Props) {
   return (
     <>
       {/* Hero */}
-      <section className="bg-nexflow-navy text-white py-20">
+      <section className="bg-canvas text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-3">
             {t("hero_tag")}
@@ -67,16 +67,16 @@ export default async function CaseStudiesPage({ params }: Props) {
       </section>
 
       {/* Case studies list */}
-      <section className="py-20 bg-cloud-white">
+      <section className="py-20 bg-surface-1">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {caseStudies.map((cs, i) => (
               <FadeIn key={cs.title} direction="up" delay={i * 80}>
-                <div className="bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all duration-300 h-full flex flex-col">
+                <div className="bg-white rounded-2xl p-6 border border-gray-100 hover:-translate-y-0.5 transition-all duration-300 h-full flex flex-col">
                   <span className="inline-block text-xs font-semibold text-nexflow-cyan uppercase tracking-wider mb-3">
                     {cs.tag}
                   </span>
-                  <h2 className="text-lg font-bold text-nexflow-navy mb-2 leading-snug">
+                  <h2 className="text-lg font-bold text-ink-inverse mb-2 leading-snug">
                     {cs.title}
                   </h2>
                   <p className="text-slate text-xs mb-4">{cs.client}</p>
@@ -98,7 +98,7 @@ export default async function CaseStudiesPage({ params }: Props) {
       </section>
 
       {/* CTA */}
-      <section className="py-20 bg-nexflow-navy text-white">
+      <section className="py-20 bg-canvas text-white">
         <FadeIn>
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl md:text-4xl font-bold">{t("cta_heading")}</h2>

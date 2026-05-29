@@ -108,7 +108,7 @@ export default function LanguageSwitcher() {
         aria-label={`Język: ${meta.name}`}
         onClick={() => setOpen((v) => !v)}
         onKeyDown={handleTriggerKeyDown}
-        className="flex items-center gap-1 text-sm font-medium text-white hover:text-nexflow-cyan transition-colors duration-200 px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-nexflow-cyan"
+        className="flex items-center gap-1 text-body-sm font-medium text-ink-muted hover:text-ink transition-colors duration-200 px-2 py-1 rounded-xs focus:outline-none focus:ring-2 focus:ring-accent"
       >
         <span aria-hidden="true">{meta.flag}</span>
         <span>{meta.label}</span>
@@ -128,7 +128,7 @@ export default function LanguageSwitcher() {
           role="listbox"
           aria-label="Wybierz język / Select language"
           onKeyDown={handleListKeyDown}
-          className="absolute right-0 mt-1 w-36 bg-nexflow-navy border border-white/20 rounded-lg shadow-xl overflow-hidden z-50"
+          className="absolute right-0 mt-1 w-40 bg-surface-2 border border-hairline rounded-sm shadow-xl overflow-hidden z-50"
         >
           {locales.map((locale, idx) => {
             const m = LOCALE_META[locale];
@@ -143,15 +143,21 @@ export default function LanguageSwitcher() {
                   aria-selected={selected}
                   type="button"
                   onClick={() => switchLocale(locale)}
-                  className={`w-full flex items-center gap-2 px-3 py-2 text-sm transition-colors duration-150 focus:outline-none focus:bg-white/10 ${
+                  className={`w-full flex items-center gap-2 px-3 py-2 text-body-sm transition-colors duration-150 focus:outline-none focus:bg-surface-3 ${
                     selected
-                      ? "text-nexflow-cyan font-semibold bg-white/5"
-                      : "text-white hover:text-nexflow-cyan hover:bg-white/5"
+                      ? "text-accent font-semibold bg-surface-3"
+                      : "text-ink-muted hover:text-ink hover:bg-surface-3"
                   }`}
                 >
                   <span aria-hidden="true">{m.flag}</span>
                   <span className="font-medium">{m.label}</span>
-                  <span className="text-xs text-white/50 ml-auto">{m.name}</span>
+                  <span className="text-xs text-ink-tertiary ml-auto">{m.name}</span>
+                  {selected && (
+                    <span
+                      aria-hidden="true"
+                      className="ml-1 w-1.5 h-1.5 rounded-full bg-accent flex-shrink-0"
+                    />
+                  )}
                 </button>
               </li>
             );

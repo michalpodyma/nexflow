@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 import FlowMark from "./FlowMark";
+import { KrazBadge } from "./ui/badges";
 
 type Props = { locale?: string };
 
@@ -28,27 +29,27 @@ export default async function Footer({ locale }: Props) {
   ];
 
   return (
-    <footer className="bg-nexflow-navy text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+    <footer className="bg-surface-1 border-t border-hairline text-ink">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {/* Brand column */}
-          <div className="lg:col-span-2">
+          <div className="col-span-2">
             <FlowMark variant="full" colorScheme="reversed" height={32} />
-            <p className="mt-4 text-white/70 text-sm leading-relaxed max-w-xs">
+            <p className="mt-4 text-body-sm text-ink-muted leading-relaxed max-w-xs">
               {t("description")}
             </p>
-            <p className="mt-4 text-nexflow-cyan text-sm font-semibold italic">
+            <p className="mt-3 text-body-sm text-accent font-semibold italic">
               {t("tagline")}
             </p>
-            <div className="mt-6 space-y-1 text-sm text-white/70">
+            <div className="mt-5 space-y-1 text-body-sm text-ink-subtle">
               <p>
-                <a href="tel:+48224878828" className="hover:text-nexflow-cyan transition-colors">
+                <a href="tel:+48224878828" className="hover:text-accent transition-colors">
                   +48 224 878 828
                 </a>{" "}
                 ({t("phone_label")})
               </p>
               <p>
-                <a href="mailto:info@nexflow.work" className="hover:text-nexflow-cyan transition-colors">
+                <a href="mailto:info@nexflow.work" className="hover:text-accent transition-colors">
                   info@nexflow.work
                 </a>
               </p>
@@ -57,13 +58,13 @@ export default async function Footer({ locale }: Props) {
 
           {/* Services */}
           <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50 mb-4">
+            <h3 className="text-eyebrow font-semibold uppercase tracking-widest text-ink-tertiary mb-4">
               {t("services_heading")}
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {serviceLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-white/70 hover:text-nexflow-cyan transition-colors">
+                  <Link href={link.href} className="text-body-sm text-ink-subtle hover:text-accent transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -71,15 +72,15 @@ export default async function Footer({ locale }: Props) {
             </ul>
           </div>
 
-          {/* Company */}
-          <div>
-            <h3 className="text-sm font-semibold uppercase tracking-wider text-white/50 mb-4">
+          {/* Company — right-aligned address block */}
+          <div className="md:text-right">
+            <h3 className="text-eyebrow font-semibold uppercase tracking-widest text-ink-tertiary mb-4">
               {t("company_heading")}
             </h3>
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {companyLinks.map((link) => (
                 <li key={link.href}>
-                  <Link href={link.href} className="text-sm text-white/70 hover:text-nexflow-cyan transition-colors">
+                  <Link href={link.href} className="text-body-sm text-ink-subtle hover:text-accent transition-colors">
                     {link.label}
                   </Link>
                 </li>
@@ -88,15 +89,20 @@ export default async function Footer({ locale }: Props) {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10">
+        {/* Badges + legal row */}
+        <div className="mt-10 pt-6 border-t border-hairline">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <div className="text-xs text-white/40 space-y-1">
+            <div className="flex flex-wrap items-center gap-3">
+              <KrazBadge locale={locale} />
+              <span className="inline-flex items-center gap-1.5 bg-surface-1 border border-hairline rounded-pill px-3 py-1 text-eyebrow font-semibold tracking-widest text-ink-muted uppercase">
+                GDPR
+              </span>
+            </div>
+            <div className="text-xs text-ink-tertiary space-y-0.5 md:text-right">
               <p>{t("legal")}</p>
               <p>{t("legal2")}</p>
+              <p className="mt-1">{t("copyright", { year })}</p>
             </div>
-            <p className="text-xs text-white/40">
-              {t("copyright", { year })}
-            </p>
           </div>
         </div>
       </div>
@@ -106,15 +112,15 @@ export default async function Footer({ locale }: Props) {
 
 function FooterFallback() {
   return (
-    <footer className="bg-nexflow-navy text-white">
+    <footer className="bg-surface-1 border-t border-hairline text-ink">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="pt-8 border-t border-white/10">
+        <div className="pt-6 border-t border-hairline">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <div className="text-xs text-white/40 space-y-1">
+            <div className="text-xs text-ink-tertiary space-y-0.5">
               <p>Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992</p>
               <p>Działamy na podstawie certyfikatu KRAZ nr 10916. Słubice, Polska (granica DE-PL).</p>
             </div>
-            <p className="text-xs text-white/40">
+            <p className="text-xs text-ink-tertiary">
               © {new Date().getFullYear()} Nexflow Sp. z o.o. Wszelkie prawa zastrzeżone.
             </p>
           </div>
