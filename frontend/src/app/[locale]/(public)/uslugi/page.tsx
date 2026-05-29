@@ -232,7 +232,7 @@ export default async function ServicesPage({ params }: Props) {
             <p className="section-subheading mx-auto">{t("cta_desc")}</p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
               <Link href={`/${locale}/kontakt`} className="btn-primary">{t("cta_book")}</Link>
-              <a href="tel:+48224878828" className="btn-outline">{t("cta_call")}</a>
+              <a href="tel:+48224878828" className="btn-outline-white">{t("cta_call")}</a>
             </div>
           </div>
         </FadeIn>

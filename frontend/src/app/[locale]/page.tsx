@@ -214,7 +214,7 @@ export default async function LocalePage({ params }: Props) {
             </div>
             <FadeIn delay={200}>
               <div className="text-center mt-10">
-                <Link href={`/${locale}/uslugi`} className="btn-outline text-sm">
+                <Link href={`/${locale}/uslugi`} className="btn-outline-white text-sm">
                   {t("services.learnMore")}
                 </Link>
               </div>
@@ -228,8 +228,8 @@ export default async function LocalePage({ params }: Props) {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <FadeIn direction="left">
                 <div>
-                  <h2 className="section-heading">{t("why.heading")}</h2>
-                  <p className="section-subheading">{t("why.subheading")}</p>
+                  <h2 className="section-heading text-nexflow-navy">{t("why.heading")}</h2>
+                  <p className="section-subheading text-graphite">{t("why.subheading")}</p>
                   <div className="mt-10">
                     <Link href={`/${locale}/kontakt`} className="btn-primary">
                       {t("why.cta")}
@@ -244,8 +244,8 @@ export default async function LocalePage({ params }: Props) {
                       <div className="w-10 h-10 rounded-lg bg-canvas flex items-center justify-center text-nexflow-cyan mb-4">
                         {whyIcons[i]}
                       </div>
-                      <h3 className="font-semibold text-ink-inverse mb-2">{point.title}</h3>
-                      <p className="text-slate text-sm leading-relaxed">{point.description}</p>
+                      <h3 className="font-semibold text-ink mb-2">{point.title}</h3>
+                      <p className="text-ink-muted text-sm leading-relaxed">{point.description}</p>
                     </div>
                   </FadeIn>
                 ))}
@@ -349,13 +349,13 @@ export default async function LocalePage({ params }: Props) {
                 <Link href={`/${locale}/kontakt`} className="btn-primary text-base">
                   {t("cta.book")}
                 </Link>
-                <Link href={`/${locale}/uslugi`} className="btn-outline text-base">
+                <Link href={`/${locale}/uslugi`} className="btn-outline-white text-base">
                   {t("cta.services")}
                 </Link>
               </div>
-              <p className="mt-6 text-sm text-slate">
+              <p className="mt-6 text-sm text-ink-muted">
                 {t("cta.phone_label")}{" "}
-                <a href="tel:+48224878828" className="text-ink-inverse font-semibold hover:text-accent-dark transition-colors">
+                <a href="tel:+48224878828" className="text-ink font-semibold hover:text-accent transition-colors">
                   +48 224 878 828
                 </a>
               </p>

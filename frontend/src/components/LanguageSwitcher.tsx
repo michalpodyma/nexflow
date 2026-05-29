@@ -4,13 +4,13 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
 import { routing, type Locale } from "@/i18n/routing";
 
-const LOCALE_META: Record<Locale, { flag: string; label: string; name: string }> = {
-  pl: { flag: "🇵🇱", label: "PL", name: "Polski" },
-  en: { flag: "🇬🇧", label: "EN", name: "English" },
-  de: { flag: "🇩🇪", label: "DE", name: "Deutsch" },
-  nl: { flag: "🇳🇱", label: "NL", name: "Nederlands" },
-  ru: { flag: "🇷🇺", label: "RU", name: "Русский" },
-  uk: { flag: "🇺🇦", label: "UK", name: "Українська" },
+const LOCALE_META: Record<Locale, { flag: string; label: string; name: string; ariaLabel: string }> = {
+  pl: { flag: "🇵🇱", label: "PL", name: "Polski",     ariaLabel: "Wybierz język" },
+  en: { flag: "🇬🇧", label: "EN", name: "English",    ariaLabel: "Select language" },
+  de: { flag: "🇩🇪", label: "DE", name: "Deutsch",    ariaLabel: "Sprache auswählen" },
+  nl: { flag: "🇳🇱", label: "NL", name: "Nederlands", ariaLabel: "Taal kiezen" },
+  ru: { flag: "🇷🇺", label: "RU", name: "Русский",    ariaLabel: "Выбрать язык" },
+  uk: { flag: "🇺🇦", label: "UK", name: "Українська", ariaLabel: "Обрати мову" },
 };
 
 function parseLocale(pathname: string): Locale {
@@ -105,7 +105,7 @@ export default function LanguageSwitcher() {
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label={`Język: ${meta.name}`}
+        aria-label={meta.ariaLabel}
         onClick={() => setOpen((v) => !v)}
         onKeyDown={handleTriggerKeyDown}
         className="flex items-center gap-1 text-body-sm font-medium text-ink-muted hover:text-ink transition-colors duration-200 px-2 py-1 rounded-xs focus:outline-none focus:ring-2 focus:ring-accent"
@@ -126,7 +126,7 @@ export default function LanguageSwitcher() {
       {open && (
         <ul
           role="listbox"
-          aria-label="Wybierz język / Select language"
+          aria-label={meta.ariaLabel}
           onKeyDown={handleListKeyDown}
           className="absolute right-0 mt-1 w-40 bg-surface-2 border border-hairline rounded-sm shadow-xl overflow-hidden z-50"
         >

@@ -150,11 +150,11 @@
   }
 
   .section-heading {
-    @apply text-3xl md:text-4xl font-bold text-nexflow-navy;
+    @apply text-3xl md:text-4xl font-bold;
   }
 
   .section-subheading {
-    @apply text-lg text-slate mt-4 max-w-2xl;
+    @apply text-lg mt-4 max-w-2xl;
   }
 }
 

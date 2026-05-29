@@ -195,8 +195,8 @@ export default async function AboutPage({ params }: Props) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-16">
-              <h2 className="section-heading">Nasza historia</h2>
-              <p className="section-subheading mx-auto">
+              <h2 className="section-heading text-nexflow-navy">Nasza historia</h2>
+              <p className="section-subheading text-graphite mx-auto">
                 Ponad 10 lat na styku dwóch gospodarek.
               </p>
             </div>
