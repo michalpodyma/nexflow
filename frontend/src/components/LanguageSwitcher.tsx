@@ -108,7 +108,7 @@ export default function LanguageSwitcher() {
         aria-label={meta.ariaLabel}
         onClick={() => setOpen((v) => !v)}
         onKeyDown={handleTriggerKeyDown}
-        className="flex items-center gap-1 text-body-sm font-medium text-ink-muted hover:text-ink transition-colors duration-200 px-2 py-1 rounded-xs focus:outline-none focus:ring-2 focus:ring-accent"
+        className="flex items-center gap-1 text-body-sm font-medium text-ink-muted hover:text-ink transition-colors duration-200 px-2 py-2 min-h-[36px] rounded-xs focus:outline-none focus:ring-2 focus:ring-accent"
       >
         <span aria-hidden="true">{meta.flag}</span>
         <span>{meta.label}</span>

@@ -121,7 +121,7 @@ export default async function LocalePage({ params }: Props) {
       <Navbar />
       <main>
         {/* Hero */}
-        <section className="text-white min-h-[85vh] flex items-center relative overflow-hidden">
+        <section className="text-white aspect-[3/4] sm:aspect-[4/3] lg:aspect-video min-h-[480px] flex items-center relative overflow-hidden">
           <Image
             src="/images/hero-home.jpg"
             alt="Nexflow warehouse workers"
@@ -135,7 +135,7 @@ export default async function LocalePage({ params }: Props) {
             <div className="mb-8">
               <FlowMark variant="symbol" colorScheme="reversed" height={56} />
             </div>
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight max-w-3xl">
+            <h1 className="text-display-xl font-bold leading-tight max-w-3xl">
               {t("hero.line1")}{" "}
               <span className="text-nexflow-cyan">{t("hero.line2")}</span>{" "}
               {t("hero.accent")}
@@ -363,7 +363,7 @@ export default async function LocalePage({ params }: Props) {
           </FadeIn>
         </section>
       </main>
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 }
