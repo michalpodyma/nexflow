@@ -1,12 +1,26 @@
 /**
  * POST /api/webhooks/instantly
  *
- * Receives Instantly.ai reply events. For positive replies ("Interested",
- * "Meeting Booked", "Meeting Requested"), this handler:
+ * Receives Instantly.ai webhook events:
+ *
+ * - reply_received: For positive replies ("Interested", "Meeting Booked",
+ *   "Meeting Requested"), this handler:
  *   1. Finds or creates a HubSpot contact for the replying lead.
  *   2. Finds or creates a HubSpot deal and advances its stage to
  *      HUBSPOT_STAGE_MEETING_REQUESTED (env var).
  *   3. Pushes a notification record into Upstash Redis for the recruiter dashboard.
+ *
+ * - email_sent: Validates the outbound email body for chain-of-thought artifact
+ *   leakage (numbered tokens, bare Yes./No., mixed language). On detection:
+ *   1. Alerts Paperclip issue EUR-1517 with lead, violations, and snippet.
+ *   2. Disables the lead in Instantly (lt_interest_status: -1) to halt follow-ups.
+ *
+ * NOTE on email_sent webhook subscription: As of 2026-06-01, the Instantly
+ * dashboard (Settings → Webhooks) should have a subscription for event_type
+ * "email_sent" pointing to https://nexflow.work/api/webhooks/instantly. If this
+ * subscription does not yet exist, it must be created manually via the Instantly
+ * dashboard — the API does not expose webhook management endpoints. Check whether
+ * the subscription is active before deploying; without it this validator is a no-op.
  *
  * Optionally verifies the Instantly-Signature header when
  * INSTANTLY_WEBHOOK_SECRET is set.
@@ -26,6 +40,15 @@ const HUBSPOT_STAGE_MEETING_REQUESTED =
   process.env.HUBSPOT_STAGE_MEETING_REQUESTED ?? "appointmentscheduled";
 
 const INSTANTLY_WEBHOOK_SECRET = process.env.INSTANTLY_WEBHOOK_SECRET ?? "";
+const INSTANTLY_API_KEY = process.env.INSTANTLY_API_KEY ?? "";
+
+const PAPERCLIP_API_URL =
+  process.env.PAPERCLIP_API_URL ?? "https://app.paperclip.ing";
+const PAPERCLIP_BOT_API_KEY =
+  process.env.PAPERCLIP_BOT_API_KEY ?? process.env.PAPERCLIP_API_KEY ?? "";
+
+// Paperclip issue UUID for EUR-1517 — artifact alert destination
+const PAPERCLIP_ALERT_ISSUE_ID = "3b9cbffa-3cf7-4405-b98e-dbf65262555d";
 
 const MAX_NOTIFICATIONS = 100;
 
@@ -66,6 +89,16 @@ interface InstantlyWebhookPayload {
   lead?: InstantlyLead;
   reply_category?: string;
   reply?: InstantlyReply;
+  // email_sent fields
+  lead_email?: string;
+  email_account?: string;
+  step?: number;
+  variant?: number;
+  is_first?: boolean;
+  email_id?: string;
+  email_subject?: string;
+  email_text?: string;
+  email_html?: string;
 }
 
 export interface ReplyNotification {
@@ -80,6 +113,162 @@ export interface ReplyNotification {
   replyCategory: string;
   replySnippet: string;
   hubspotDealId: string | null;
+}
+
+// ── Artifact detection ────────────────────────────────────────────────────────
+
+interface ArtifactViolation {
+  type: "numbered_token" | "bare_yes_no" | "mixed_language";
+  description: string;
+}
+
+function detectArtifacts(text: string): ArtifactViolation[] {
+  const violations: ArtifactViolation[] = [];
+  if (/\(\d+\)/.test(text)) {
+    violations.push({
+      type: "numbered_token",
+      description: "Contains numbered parenthesized tokens like (1), (2)",
+    });
+  }
+  if (/^\s*(Yes|No)\s*\.\s*$/m.test(text)) {
+    violations.push({
+      type: "bare_yes_no",
+      description: "Contains bare Yes./No. chain-of-thought confirmations",
+    });
+  }
+  const hasPolish = /[ąęóśźżćńłĄĘÓŚŹŻĆŃŁ]/.test(text);
+  const hasEnglishSalutation =
+    /\b(Dear|Hi |Hello |Best regards|Kind regards|Sincerely|Thank you for)\b/i.test(
+      text,
+    );
+  if (hasPolish && hasEnglishSalutation) {
+    violations.push({
+      type: "mixed_language",
+      description: "Mixed Polish characters with English salutations/closings",
+    });
+  }
+  return violations;
+}
+
+// ── Paperclip alert ───────────────────────────────────────────────────────────
+
+async function alertPaperclip({
+  leadEmail,
+  payload,
+  violations,
+  snippet,
+}: {
+  leadEmail: string;
+  payload: InstantlyWebhookPayload;
+  violations: ArtifactViolation[];
+  snippet: string;
+}): Promise<void> {
+  if (!PAPERCLIP_BOT_API_KEY) return;
+
+  const violationList = violations
+    .map((v) => `- **${v.type}**: ${v.description}`)
+    .join("\n");
+  const body = [
+    `🚨 **AI artifact detected in outbound email** (EUR-1520)`,
+    ``,
+    `**Lead:** ${leadEmail}`,
+    `**Campaign:** ${payload.campaign_name ?? "unknown"}`,
+    `**Timestamp:** ${payload.timestamp ?? new Date().toISOString()}`,
+    ``,
+    `**Violations:**`,
+    violationList,
+    ``,
+    `**Email snippet (first 300 chars):**`,
+    `\`\`\``,
+    snippet,
+    `\`\`\``,
+  ].join("\n");
+
+  await fetch(
+    `${PAPERCLIP_API_URL}/api/issues/${PAPERCLIP_ALERT_ISSUE_ID}/comments`,
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${PAPERCLIP_BOT_API_KEY}`,
+      },
+      body: JSON.stringify({ body }),
+    },
+  );
+}
+
+// ── Instantly lead management ─────────────────────────────────────────────────
+
+async function disableInstantlyLead(email: string): Promise<void> {
+  if (!INSTANTLY_API_KEY) return;
+
+  // Step 1: look up the lead UUID
+  const listRes = await fetch("https://api.instantly.ai/api/v2/leads/list", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${INSTANTLY_API_KEY}`,
+    },
+    body: JSON.stringify({ contacts: [email], limit: 1 }),
+  });
+
+  if (!listRes.ok) {
+    throw new Error(
+      `Instantly leads/list ${listRes.status}: ${await listRes.text()}`,
+    );
+  }
+
+  const listData = (await listRes.json()) as {
+    data?: Array<{ id: string }>;
+    items?: Array<{ id: string }>;
+  };
+  const leads = listData.data ?? listData.items ?? [];
+  if (leads.length === 0) return; // lead not found — nothing to disable
+
+  const leadId = leads[0].id;
+
+  // Step 2: mark as Not Interested to halt follow-up sequences
+  const patchRes = await fetch(
+    `https://api.instantly.ai/api/v2/leads/${leadId}`,
+    {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${INSTANTLY_API_KEY}`,
+      },
+      body: JSON.stringify({ lt_interest_status: -1 }),
+    },
+  );
+
+  if (!patchRes.ok) {
+    throw new Error(
+      `Instantly leads PATCH ${patchRes.status}: ${await patchRes.text()}`,
+    );
+  }
+}
+
+// ── email_sent handler ────────────────────────────────────────────────────────
+
+async function handleEmailSent(
+  payload: InstantlyWebhookPayload,
+): Promise<void> {
+  const body = payload.email_text ?? payload.email_html ?? "";
+  const violations = detectArtifacts(body);
+  if (violations.length === 0) return;
+
+  const leadEmail = payload.lead_email ?? "unknown";
+  const snippet = body.length > 300 ? body.slice(0, 300) + "..." : body;
+
+  console.error("[instantly-validator] ARTIFACT DETECTED", {
+    leadEmail,
+    campaignName: payload.campaign_name,
+    violations: violations.map((v) => v.type),
+  });
+
+  await alertPaperclip({ leadEmail, payload, violations, snippet });
+  await disableInstantlyLead(leadEmail).catch((err) =>
+    console.error("[instantly-validator] Failed to disable lead:", err),
+  );
 }
 
 // ── HubSpot helpers ───────────────────────────────────────────────────────────
@@ -266,6 +455,14 @@ export async function POST(req: NextRequest) {
     payload = JSON.parse(rawBody) as InstantlyWebhookPayload;
   } catch {
     return NextResponse.json({ error: "Invalid JSON" }, { status: 400 });
+  }
+
+  // email_sent: validate for AI artifact leakage — must return 200 to prevent retries
+  if (payload.event_type === "email_sent") {
+    await handleEmailSent(payload).catch((err) =>
+      console.error("[instantly-validator] Unhandled error:", err),
+    );
+    return NextResponse.json({ ok: true, validated: true });
   }
 
   // Only process reply events
