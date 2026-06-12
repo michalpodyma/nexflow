@@ -77,9 +77,10 @@ class Settings(BaseSettings):
     # responder and bring the in-house FSM/LLM screener back online.
     whatsapp_auto_reply_enabled: bool = False  # WHATSAPP_AUTO_REPLY_ENABLED
 
-    # Paperclip service token for B2C intake issue creation
+    # Paperclip bot API key — used for B2C intake issue creation and Telegram bot.
+    # Set PAPERCLIP_BOT_API_KEY in Railway (same key used by the Telegram bot service).
     paperclip_api_url: str = "https://app.paperclip.ing"  # PAPERCLIP_API_URL
-    paperclip_service_token: str = ""                      # PAPERCLIP_SERVICE_TOKEN
+    paperclip_bot_api_key: str = ""                        # PAPERCLIP_BOT_API_KEY
 
     # Google Workspace — delegated OAuth on the board user's account.
     # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.

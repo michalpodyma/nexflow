@@ -161,7 +161,7 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
         if (
             candidate.screening_status == ScreeningStatus.new
             and candidate.chatbot_session_id is None
-            and settings.paperclip_service_token
+            and settings.paperclip_bot_api_key
         ):
             from app.services.b2c_intake import (  # noqa: PLC0415
                 create_intake_paperclip_issue,

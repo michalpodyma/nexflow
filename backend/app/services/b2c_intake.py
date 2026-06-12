@@ -6,7 +6,7 @@ Paperclip EUR-ticket creation for new inbound contacts from unknown numbers.
 
 Config requirements:
   PAPERCLIP_API_URL          — defaults to https://app.paperclip.ing
-  PAPERCLIP_SERVICE_TOKEN    — bearer token for Paperclip API (leave empty to disable)
+  PAPERCLIP_BOT_API_KEY      — bearer token for Paperclip API (leave empty to disable)
 """
 
 from __future__ import annotations
@@ -118,12 +118,12 @@ async def create_intake_paperclip_issue(
 
     Returns the issue identifier (e.g. 'EUR-1234') or None on failure.
     """
-    if not settings.paperclip_service_token:
-        logger.debug("[b2c_intake] PAPERCLIP_SERVICE_TOKEN not set — skipping issue creation")
+    if not settings.paperclip_bot_api_key:
+        logger.debug("[b2c_intake] PAPERCLIP_BOT_API_KEY not set — skipping issue creation")
         return None
 
     headers = {
-        "Authorization": f"Bearer {settings.paperclip_service_token}",
+        "Authorization": f"Bearer {settings.paperclip_bot_api_key}",
         "Content-Type": "application/json",
     }
     base_url = settings.paperclip_api_url.rstrip("/")
