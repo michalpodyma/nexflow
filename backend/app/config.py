@@ -77,6 +77,10 @@ class Settings(BaseSettings):
     # responder and bring the in-house FSM/LLM screener back online.
     whatsapp_auto_reply_enabled: bool = False  # WHATSAPP_AUTO_REPLY_ENABLED
 
+    # Paperclip service token for B2C intake issue creation
+    paperclip_api_url: str = "https://app.paperclip.ing"  # PAPERCLIP_API_URL
+    paperclip_service_token: str = ""                      # PAPERCLIP_SERVICE_TOKEN
+
     # Google Workspace — delegated OAuth on the board user's account.
     # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.
     # Board user performs the one-time consent flow; Developer stores the

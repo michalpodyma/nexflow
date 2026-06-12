@@ -30,6 +30,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 import logging
+from datetime import UTC, datetime
 from typing import Any
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Query, Request, Response
@@ -119,15 +120,16 @@ async def _resolve_candidate(from_phone: str, db: AsyncSession) -> Candidate:
 async def _handle_inbound_message(
     from_phone: str,
     text: str,
+    wamid: str = "",
 ) -> None:
     """Core processing logic — called in background with its own DB session."""
     async with AsyncSessionLocal() as db:
-        await _process_message(from_phone, text, db)
+        await _process_message(from_phone, text, wamid, db)
 
 
 async def _tee_to_inbox(
     from_phone: str, text: str, candidate_id: object, db: AsyncSession
-) -> None:
+) -> WhatsAppInboxEvent:
     """Write inbound message to the OpenClaw inbox table (fire-and-forget within session)."""
     masked = normalize_phone(from_phone)[-4:] or "????"
     event = WhatsAppInboxEvent(
@@ -137,9 +139,10 @@ async def _tee_to_inbox(
     )
     db.add(event)
     # Flushed as part of the outer transaction; no separate commit needed here.
+    return event
 
 
-async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None:
+async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSession) -> None:
     """Process a single inbound WhatsApp message within an existing session."""
     try:
         candidate = await _resolve_candidate(from_phone, db)
@@ -147,10 +150,53 @@ async def _process_message(from_phone: str, text: str, db: AsyncSession) -> None
         # Mirror every inbound message to the OpenClaw inbox (tee — listener path,
         # always on so OpenClaw can observe inbound conversation regardless of
         # which responder owns the WhatsApp number).
+        event: WhatsAppInboxEvent | None = None
         try:
-            await _tee_to_inbox(from_phone, text, candidate.id, db)
+            event = await _tee_to_inbox(from_phone, text, candidate.id, db)
         except Exception as tee_exc:  # noqa: BLE001
             logger.exception("[whatsapp_webhook] Tee to inbox failed (non-fatal): %s", tee_exc)
+
+        # B2C candidate intake — fires regardless of auto-reply kill-switch.
+        # Only triggers for brand-new contacts (screening_status=new, no active session).
+        if (
+            candidate.screening_status == ScreeningStatus.new
+            and candidate.chatbot_session_id is None
+            and settings.paperclip_service_token
+        ):
+            from app.services.b2c_intake import (  # noqa: PLC0415
+                create_intake_paperclip_issue,
+                detect_language,
+                detect_pii,
+                get_b2c_ack_text,
+            )
+
+            lang = detect_language(text)
+            has_pii, pii_types = detect_pii(text)
+            ack = get_b2c_ack_text(lang)
+            normalised_phone = normalize_phone(from_phone)
+            try:
+                await send_whatsapp_message(normalised_phone, ack)
+            except Exception as ack_exc:  # noqa: BLE001
+                logger.exception("[whatsapp_webhook] B2C ack send failed: %s", ack_exc)
+            try:
+                issue_id = await create_intake_paperclip_issue(
+                    phone="+" + normalised_phone,
+                    candidate_id=str(candidate.id),
+                    message_text=text,
+                    wamid=wamid,
+                    language=lang,
+                    has_pii=has_pii,
+                    pii_types=pii_types,
+                )
+                if issue_id and event:
+                    event.paperclip_issue_id = issue_id
+                    event.acknowledged_at = datetime.now(tz=UTC)
+            except Exception as pp_exc:  # noqa: BLE001
+                logger.exception(
+                    "[whatsapp_webhook] Paperclip intake issue creation failed: %s", pp_exc
+                )
+            await db.commit()
+            return  # Do NOT run B2B screener for B2C contacts
 
         # EUR-711: ElevenLabs is the WhatsApp responder. The backend's
         # FSM / LLM screener and any auto-replies are gated behind a kill-switch
@@ -270,11 +316,12 @@ async def receive_webhook(
                 if message.get("type") != "text":
                     # Ignore media, reactions, etc. for now
                     continue
+                wamid: str = message.get("id", "")
                 from_phone: str = message.get("from", "")
                 text: str = (message.get("text") or {}).get("body", "").strip()
                 if not from_phone or not text:
                     continue
 
-                background_tasks.add_task(_handle_inbound_message, from_phone, text)
+                background_tasks.add_task(_handle_inbound_message, from_phone, text, wamid)
 
     return {"status": "ok"}
