@@ -235,6 +235,13 @@ async def create_candidate(
 # ---------------------------------------------------------------------------
 
 
+_PROFILE_FIELDS = frozenset({
+    "first_name", "last_name", "phone", "email", "nationality",
+    "availability_from", "preferred_position", "languages",
+    "location_preference", "gdpr_consent", "gdpr_consent_at", "gdpr_delete_at",
+})
+
+
 @router.patch("/{candidate_id}", response_model=CandidateRead)
 async def update_candidate(
     candidate_id: UUID,
@@ -249,6 +256,13 @@ async def update_candidate(
         raise HTTPException(status_code=404, detail="Candidate not found")
 
     now = datetime.now(tz=UTC)
+
+    # Apply profile-completion fields via partial-update semantics (EUR-2058)
+    for field, value in body.model_dump(exclude_unset=True).items():
+        if field in _PROFILE_FIELDS:
+            setattr(candidate, field, value)
+
+    # Recruiter workflow fields — keep existing explicit handling
     if body.notes is not None:
         candidate.notes = body.notes
     if body.screening_status is not None:
