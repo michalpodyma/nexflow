@@ -50,10 +50,40 @@ class CandidateCreate(BaseModel):
 
 class CandidateUpdate(BaseModel):
     """PATCH body for a single candidate record — all fields optional."""
+    # recruiter workflow fields (existing)
     notes: str | None = None
     screening_status: ScreeningStatus | None = None
     job_posting_id: UUID | None = None
     contacted_at: datetime | None = None
+    # profile-completion fields (EUR-2058)
+    first_name: str | None = None
+    last_name: str | None = None
+    phone: str | None = None
+    email: EmailStr | None = None
+    nationality: str | None = None
+    availability_from: date | None = None
+    preferred_position: PreferredPosition | None = None
+    languages: list[LanguageCode] | None = None
+    location_preference: str | None = None
+    gdpr_consent: bool | None = None
+    gdpr_consent_at: datetime | None = None
+    gdpr_delete_at: datetime | None = None
+
+    @field_validator("phone")
+    @classmethod
+    def validate_phone(cls, v: str | None) -> str | None:
+        if v is not None and not _E164_PL_DE.match(v):
+            raise ValueError(
+                "Phone must be E.164 format for Polish (+48) or German (+49) numbers"
+            )
+        return v
+
+    @field_validator("nationality")
+    @classmethod
+    def validate_nationality(cls, v: str | None) -> str | None:
+        if v is not None and (len(v) != 2 or not v.isalpha()):
+            raise ValueError("Nationality must be a 2-letter ISO 3166-1 alpha-2 code")
+        return v.upper() if v is not None else v
 
 
 class BulkUpdateRequest(BaseModel):
