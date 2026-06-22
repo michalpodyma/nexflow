@@ -25,6 +25,10 @@ export function HRappkaWidget({ locale }: Props) {
   return (
     <>
       <Script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        strategy="beforeInteractive"
+      />
+      <Script
         key={`hrappka-widget-${lang}`}
         src={WIDGET_SRC}
         strategy="afterInteractive"
