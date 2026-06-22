@@ -62,5 +62,5 @@ export const config = {
   // admin routes (dashboard, worker, login) keep working at bare paths.
   // datenschutz and jobs use explicit next.config.mjs redirects → /de/...
   // o-nas, oferty, aplikuj removed — now live under [locale]/ (EUR-884)
-  matcher: '/((?!api|trpc|_next|_vercel|dashboard|worker|login|blog|intake|polityka-prywatnosci|praca|case-studies|datenschutz|jobs|.*\\..*).*)',
+  matcher: '/((?!api|trpc|_next|_vercel|dashboard|worker|login|blog|intake|praca|case-studies|datenschutz|jobs|.*\\..*).*)',
 };
