@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useRef, useState } from "react";
 import { usePathname, useRouter } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { routing, type Locale } from "@/i18n/routing";
 
 const LOCALE_META: Record<Locale, { flag: string; label: string; name: string }> = {
@@ -32,6 +33,7 @@ function buildLocalePath(pathname: string, locale: Locale): string {
 export default function LanguageSwitcher() {
   const pathname = usePathname();
   const router = useRouter();
+  const t = useTranslations("Navbar");
   const [open, setOpen] = useState(false);
   const containerRef = useRef<HTMLDivElement>(null);
   const optionRefs = useRef<(HTMLButtonElement | null)[]>([]);
@@ -105,7 +107,7 @@ export default function LanguageSwitcher() {
         type="button"
         aria-haspopup="listbox"
         aria-expanded={open}
-        aria-label={`Język: ${meta.name}`}
+        aria-label={`${t("language")}: ${meta.name}`}
         onClick={() => setOpen((v) => !v)}
         onKeyDown={handleTriggerKeyDown}
         className="flex items-center gap-1 text-sm font-medium text-white hover:text-nexflow-cyan transition-colors duration-200 px-2 py-1 rounded focus:outline-none focus:ring-2 focus:ring-nexflow-cyan"
@@ -126,7 +128,7 @@ export default function LanguageSwitcher() {
       {open && (
         <ul
           role="listbox"
-          aria-label="Wybierz język / Select language"
+          aria-label={t("language")}
           onKeyDown={handleListKeyDown}
           className="absolute right-0 mt-1 w-36 bg-nexflow-navy border border-white/20 rounded-lg shadow-xl overflow-hidden z-50"
         >

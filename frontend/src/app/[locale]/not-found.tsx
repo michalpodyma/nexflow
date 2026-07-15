@@ -1,4 +1,4 @@
-import { getLocale } from "next-intl/server";
+import { getLocale, getTranslations } from "next-intl/server";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -11,6 +11,8 @@ export default async function NotFound() {
     // fall back to Polish if locale context is unavailable
   }
 
+  const t = await getTranslations({ locale, namespace: "NotFound" });
+
   return (
     <div className="min-h-screen bg-nexflow-navy flex flex-col">
       <Navbar />
@@ -19,13 +21,13 @@ export default async function NotFound() {
           404
         </p>
         <h1 className="text-white text-2xl font-semibold mb-6">
-          Ta strona nie istnieje
+          {t("title")}
         </h1>
         <Link
           href={`/${locale}`}
           className="bg-nexflow-cyan text-nexflow-navy font-bold px-6 py-3 rounded hover:opacity-90 transition-opacity"
         >
-          Wróć na stronę główną
+          {t("back")}
         </Link>
       </main>
       <Footer locale={locale} />

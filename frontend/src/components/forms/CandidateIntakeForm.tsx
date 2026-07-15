@@ -659,8 +659,11 @@ function validateField(
 // Component
 // ---------------------------------------------------------------------------
 
-export function CandidateIntakeForm() {
-  const [locale, setLocale] = useState<Locale>("pl");
+export function CandidateIntakeForm({ defaultLocale = "pl" }: { defaultLocale?: string }) {
+  const initialLocale = (["pl", "de", "en", "uk", "id", "nl"] as Locale[]).includes(defaultLocale as Locale)
+    ? (defaultLocale as Locale)
+    : "pl";
+  const [locale, setLocale] = useState<Locale>(initialLocale);
   const t = messages[locale];
 
   const [form, setForm] = useState<FormState>({

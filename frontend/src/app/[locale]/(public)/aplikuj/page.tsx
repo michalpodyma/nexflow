@@ -83,7 +83,7 @@ export default async function ApplyPage({ params }: Props) {
       </section>
 
       {/* Form */}
-      <CandidateIntakeForm />
+      <CandidateIntakeForm defaultLocale={locale} />
     </>
   );
 }

@@ -114,8 +114,8 @@ export default async function ContactPage({ params }: Props) {
                   Nexflow Sp. z o.o.<br />
                   NIP: PL5981632310 | KRS: 0000496516<br />
                   REGON: 081188992<br />
-                  Certyfikat KRAZ nr 10916<br />
-                  Słubice, Polska (granica DE-PL)
+                  {t("legal_kraz")}<br />
+                  {t("legal_location")}
                 </p>
               </div>
             </div>
