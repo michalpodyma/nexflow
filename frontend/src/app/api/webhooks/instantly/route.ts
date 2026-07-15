@@ -265,10 +265,22 @@ async function handleEmailSent(
     violations: violations.map((v) => v.type),
   });
 
-  await alertPaperclip({ leadEmail, payload, violations, snippet });
-  await disableInstantlyLead(leadEmail).catch((err) =>
-    console.error("[instantly-validator] Failed to disable lead:", err),
-  );
+  const [alertResult, disableResult] = await Promise.allSettled([
+    alertPaperclip({ leadEmail, payload, violations, snippet }),
+    disableInstantlyLead(leadEmail),
+  ]);
+  if (alertResult.status === "rejected") {
+    console.error(
+      "[instantly-validator] Failed to alert Paperclip:",
+      alertResult.reason,
+    );
+  }
+  if (disableResult.status === "rejected") {
+    console.error(
+      "[instantly-validator] Failed to disable lead:",
+      disableResult.reason,
+    );
+  }
 }
 
 // ── HubSpot helpers ───────────────────────────────────────────────────────────
