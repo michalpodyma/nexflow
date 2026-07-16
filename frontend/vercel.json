@@ -6,7 +6,7 @@
     },
     {
       "path": "/api/cron/instantly-language-lint",
-      "schedule": "*/30 * * * *"
+      "schedule": "0 6 * * *"
     }
   ]
 }
