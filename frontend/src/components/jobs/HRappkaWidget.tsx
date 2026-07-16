@@ -66,7 +66,7 @@ export function HRappkaWidget({ locale }: Props) {
     if (!titleMap) return;
     const sortedKeys = Object.keys(titleMap).sort((a, b) => b.length - a.length);
 
-    function replaceInNode(node: ChildNode) {
+    function replaceInNode(node: Node) {
       if (node.nodeType === 3) {
         const text = node.textContent ?? "";
         for (const pl of sortedKeys) {
@@ -86,7 +86,7 @@ export function HRappkaWidget({ locale }: Props) {
     replaceInNode(container);
     const observer = new MutationObserver((mutations) => {
       for (const m of mutations) {
-        m.addedNodes.forEach(replaceInNode);
+        Array.from(m.addedNodes).forEach(replaceInNode);
       }
     });
     observer.observe(container, { childList: true, subtree: true });
