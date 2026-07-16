@@ -13,6 +13,12 @@ const LOCALE_TO_HRAPPKA_LANG: Record<string, string> = {
 
 const TITLE_MAP: Record<string, Record<string, string>> = {
   de: {
+    // compound/suffix variants — must appear before bare keys (longest-key sort handles runtime order)
+    "Operator wózka widłowego (Holandia)": "Gabelstaplerfahrer (Niederlande)",
+    "Pracownik magazynowy / produkcji": "Lager-/Produktionsmitarbeiter",
+    "Pracownik magazynowy (Holandia)": "Lagermitarbeiter (Niederlande)",
+    "Pracownik szklarni (kwiaty / warzywa)": "Gewächshausarbeiter (Blumen / Gemüse)",
+    // base keys
     "Magazynier": "Lagerarbeiter",
     "Operator wózka widłowego": "Gabelstaplerfahrer",
     "Pracownik magazynowy": "Lagermitarbeiter",
@@ -20,6 +26,10 @@ const TITLE_MAP: Record<string, Record<string, string>> = {
     "Pracownik szklarni": "Gewächshausarbeiter",
   },
   en: {
+    "Operator wózka widłowego (Holandia)": "Forklift Operator (Netherlands)",
+    "Pracownik magazynowy / produkcji": "Warehouse / Production Worker",
+    "Pracownik magazynowy (Holandia)": "Warehouse Associate (Netherlands)",
+    "Pracownik szklarni (kwiaty / warzywa)": "Greenhouse Worker (Flowers / Vegetables)",
     "Magazynier": "Warehouse Worker",
     "Operator wózka widłowego": "Forklift Operator",
     "Pracownik magazynowy": "Warehouse Associate",
@@ -27,6 +37,10 @@ const TITLE_MAP: Record<string, Record<string, string>> = {
     "Pracownik szklarni": "Greenhouse Worker",
   },
   nl: {
+    "Operator wózka widłowego (Holandia)": "Heftruckchauffeur (Nederland)",
+    "Pracownik magazynowy / produkcji": "Magazijn-/Productiemedewerker",
+    "Pracownik magazynowy (Holandia)": "Magazijnwerker (Nederland)",
+    "Pracownik szklarni (kwiaty / warzywa)": "Kassenwerker (Bloemen / Groenten)",
     "Magazynier": "Magazijnmedewerker",
     "Operator wózka widłowego": "Heftruckchauffeur",
     "Pracownik magazynowy": "Magazijnwerker",
@@ -69,13 +83,18 @@ export function HRappkaWidget({ locale }: Props) {
         >{`
           (function() {
             var map = ${JSON.stringify(titleMap)};
-            if (!Object.keys(map).length) return;
+            var sortedKeys = Object.keys(map).sort(function(a, b) { return b.length - a.length; });
+            if (!sortedKeys.length) return;
 
             function replaceInNode(node) {
               if (node.nodeType === 3) {
-                var trimmed = node.textContent.trim();
-                if (map[trimmed]) {
-                  node.textContent = node.textContent.replace(trimmed, map[trimmed]);
+                var text = node.textContent;
+                for (var k = 0; k < sortedKeys.length; k++) {
+                  var pl = sortedKeys[k];
+                  if (text.indexOf(pl) !== -1) {
+                    node.textContent = text.replace(pl, map[pl]);
+                    break;
+                  }
                 }
               } else {
                 for (var i = 0; i < node.childNodes.length; i++) {
