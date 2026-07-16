@@ -369,7 +369,7 @@ async def test_auto_reply_disabled_tees_but_does_not_send() -> None:
         mock_settings.whatsapp_screener_use_llm = False
         mock_resolve.return_value = candidate
 
-        await webhooks_module._process_message("48123456789", "hello", db)
+        await webhooks_module._process_message("48123456789", "hello", "wamid.TEST", db)
 
     mock_tee.assert_awaited_once()
     mock_initiate.assert_not_called()
@@ -406,7 +406,7 @@ async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
         mock_resolve.return_value = candidate
         mock_fsm_advance.return_value = "Next question?"
 
-        await webhooks_module._process_message("48123456789", "hello", db)
+        await webhooks_module._process_message("48123456789", "hello", "wamid.TEST", db)
 
     mock_tee.assert_awaited_once()
     mock_fsm_advance.assert_awaited_once()
@@ -414,3 +414,44 @@ async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
     sent_to, sent_body = mock_send.await_args.args
     assert sent_to == "48123456789"
     assert sent_body == "Next question?"
+
+
+# ---------------------------------------------------------------------------
+# EUR-2267: B2C ack fires even when PAPERCLIP_BOT_API_KEY is unset
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_b2c_ack_fires_when_paperclip_key_unset() -> None:
+    """B2C ack must send even when paperclip_bot_api_key is empty (EUR-2267)."""
+    from app.models.candidate import ScreeningStatus
+    from app.routers import webhooks as webhooks_module
+
+    candidate = MagicMock()
+    candidate.id = "cand-b2c"
+    candidate.screening_status = ScreeningStatus.new
+    candidate.chatbot_session_id = None
+
+    db = AsyncMock()
+
+    with (
+        patch.object(webhooks_module, "settings") as mock_settings,
+        patch.object(webhooks_module, "_resolve_candidate", new_callable=AsyncMock) as mock_resolve,
+        patch.object(webhooks_module, "_tee_to_inbox", new_callable=AsyncMock),
+        patch.object(webhooks_module, "send_whatsapp_message", new_callable=AsyncMock) as mock_send,
+        patch("app.services.b2c_intake.create_intake_paperclip_issue", new_callable=AsyncMock) as mock_create,
+    ):
+        mock_settings.whatsapp_auto_reply_enabled = True
+        mock_settings.whatsapp_screener_use_llm = False
+        mock_settings.paperclip_bot_api_key = ""  # key unset
+        mock_resolve.return_value = candidate
+        mock_send.return_value = None
+        mock_create.return_value = None  # graceful skip when key empty
+
+        await webhooks_module._process_message("48999888777", "szukam pracy", "wamid.B2C", db)
+
+    # Ack must fire regardless of the key
+    mock_send.assert_awaited_once()
+    sent_to, sent_body = mock_send.await_args.args
+    assert sent_to == "48999888777"
+    assert sent_body  # non-empty ack text

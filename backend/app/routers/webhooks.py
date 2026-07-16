@@ -158,10 +158,12 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
 
         # B2C candidate intake — fires regardless of auto-reply kill-switch.
         # Only triggers for brand-new contacts (screening_status=new, no active session).
+        # NOTE: paperclip_bot_api_key intentionally excluded — ack is GDPR-critical and
+        # must send even when the key is unset/rotated. The Paperclip issue creation
+        # inside create_intake_paperclip_issue() already skips gracefully when key is absent.
         if (
             candidate.screening_status == ScreeningStatus.new
             and candidate.chatbot_session_id is None
-            and settings.paperclip_bot_api_key
         ):
             from app.services.b2c_intake import (  # noqa: PLC0415
                 create_intake_paperclip_issue,
