@@ -3,9 +3,13 @@ OpenClaw API — WhatsApp inbox triage + Google Workspace tools.
 
 Endpoints
 ─────────
+Candidates
+  GET  /api/openclaw/candidates/{id}/contact   — full phone + name for WhatsApp outreach
+
 WhatsApp
   GET  /api/openclaw/whatsapp-inbox            — paginated list of inbound events
   POST /api/openclaw/whatsapp-inbox/{id}/ack   — mark an event acknowledged
+  POST /api/openclaw/whatsapp/send             — send template message via Twilio (EUR-2244)
 
 Gmail  (gmail.modify scope — read + label; NOT send, NOT delete)
   GET  /api/openclaw/gmail/messages            — list messages by label / since
@@ -38,12 +42,15 @@ WhatsApp responses return from_phone_masked (last 4 digits only) and candidate_i
 from __future__ import annotations
 
 import base64
+import json
 import logging
+import os
 from datetime import UTC, datetime
-from typing import Annotated
+from typing import Annotated, Any
 from uuid import UUID
 
-from fastapi import APIRouter, Depends, HTTPException, Query
+import httpx
+from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, Field
 from sqlalchemy import select
@@ -51,6 +58,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.config import settings
 from app.database import get_db
+from app.models.candidates import Candidate
 from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.services.google_workspace import (
     GoogleWorkspaceError,
@@ -74,6 +82,145 @@ def _require_openclaw_key(
         raise HTTPException(status_code=503, detail="OpenClaw API not configured on this instance")
     if credentials.credentials != key:
         raise HTTPException(status_code=401, detail="Invalid OpenClaw API key")
+
+
+# ---------------------------------------------------------------------------
+# GET /api/openclaw/candidates/{candidate_id}/contact  (EUR-2244)
+# ---------------------------------------------------------------------------
+
+
+class CandidateContactResponse(BaseModel):
+    phone: str
+    first_name: str | None
+    last_name: str | None
+
+
+@router.get(
+    "/candidates/{candidate_id}/contact",
+    response_model=CandidateContactResponse,
+    dependencies=[Depends(_require_openclaw_key)],
+    summary="Get candidate contact details for WhatsApp outreach",
+)
+async def get_candidate_contact(
+    candidate_id: UUID,
+    db: AsyncSession = Depends(get_db),
+) -> CandidateContactResponse:
+    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
+    candidate = result.scalar_one_or_none()
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+    if not candidate.phone:
+        raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
+    return CandidateContactResponse(
+        phone=candidate.phone,
+        first_name=candidate.first_name,
+        last_name=candidate.last_name,
+    )
+
+
+# ---------------------------------------------------------------------------
+# POST /api/openclaw/whatsapp/send  (EUR-2244 Option B)
+# ---------------------------------------------------------------------------
+
+
+class WhatsAppSendRequest(BaseModel):
+    candidate_id: UUID
+    template_name: str
+    language_code: str = "pl"
+    template_variables: dict[str, Any] | None = None
+
+
+class WhatsAppSendResponse(BaseModel):
+    message_sid: str
+    to: str
+    status: str
+
+
+def _get_twilio_config() -> tuple[str, str, str]:
+    account_sid = os.getenv("TWILIO_ACCOUNT_SID")
+    auth_token = os.getenv("TWILIO_AUTH_TOKEN")
+    from_number = os.getenv("TWILIO_WHATSAPP_FROM")
+    missing = [
+        name
+        for name, val in [
+            ("TWILIO_ACCOUNT_SID", account_sid),
+            ("TWILIO_AUTH_TOKEN", auth_token),
+            ("TWILIO_WHATSAPP_FROM", from_number),
+        ]
+        if not val
+    ]
+    if missing:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=f"Twilio not configured: {', '.join(missing)}",
+        )
+    return account_sid, auth_token, from_number  # type: ignore[return-value]
+
+
+@router.post(
+    "/whatsapp/send",
+    response_model=WhatsAppSendResponse,
+    dependencies=[Depends(_require_openclaw_key)],
+    summary="Send WhatsApp template message to a candidate via Twilio",
+)
+async def send_whatsapp_to_candidate(
+    body: WhatsAppSendRequest,
+    db: AsyncSession = Depends(get_db),
+) -> WhatsAppSendResponse:
+    result = await db.execute(select(Candidate).where(Candidate.id == body.candidate_id))
+    candidate = result.scalar_one_or_none()
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+    if not candidate.phone:
+        raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
+
+    env_key = f"TWILIO_CONTENT_SID_{body.template_name.upper()}"
+    content_sid = os.getenv(env_key)
+    if not content_sid:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail=f"Template not configured: {env_key} is not set",
+        )
+
+    account_sid, auth_token, from_number = _get_twilio_config()
+
+    from_wa = f"whatsapp:{from_number.removeprefix('whatsapp:')}"
+    to_wa = f"whatsapp:{candidate.phone}"
+
+    payload: dict[str, str] = {
+        "From": from_wa,
+        "To": to_wa,
+        "ContentSid": content_sid,
+    }
+    if body.template_variables:
+        payload["ContentVariables"] = json.dumps(body.template_variables)
+
+    twilio_url = f"https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json"
+
+    async with httpx.AsyncClient(timeout=30.0) as http:
+        twilio_resp = await http.post(
+            twilio_url,
+            data=payload,
+            auth=(account_sid, auth_token),
+        )
+
+    if twilio_resp.status_code not in (200, 201):
+        logger.error(
+            "openclaw.whatsapp_send.failed status=%d body=%s",
+            twilio_resp.status_code,
+            twilio_resp.text[:500],
+        )
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail=f"Twilio returned {twilio_resp.status_code}",
+        )
+
+    data = twilio_resp.json()
+    return WhatsAppSendResponse(
+        message_sid=data["sid"],
+        to=candidate.phone,
+        status=data["status"],
+    )
 
 
 # ---------------------------------------------------------------------------
