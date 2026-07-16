@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect } from "react";
 import Script from "next/script";
 
 const LOCALE_TO_HRAPPKA_LANG: Record<string, string> = {
@@ -61,6 +62,37 @@ export function HRappkaWidget({ locale }: Props) {
   const lang = LOCALE_TO_HRAPPKA_LANG[locale] ?? "pl";
   const titleMap = TITLE_MAP[lang] ?? null;
 
+  useEffect(() => {
+    if (!titleMap) return;
+    const sortedKeys = Object.keys(titleMap).sort((a, b) => b.length - a.length);
+
+    function replaceInNode(node: ChildNode) {
+      if (node.nodeType === 3) {
+        const text = node.textContent ?? "";
+        for (const pl of sortedKeys) {
+          if (text.includes(pl)) {
+            node.textContent = text.replace(pl, titleMap![pl]);
+            break;
+          }
+        }
+      } else {
+        node.childNodes.forEach(replaceInNode);
+      }
+    }
+
+    const container = document.querySelector(".hrappka-widget-container");
+    if (!container) return;
+
+    replaceInNode(container);
+    const observer = new MutationObserver((mutations) => {
+      for (const m of mutations) {
+        m.addedNodes.forEach(replaceInNode);
+      }
+    });
+    observer.observe(container, { childList: true, subtree: true });
+    return () => observer.disconnect();
+  }, [titleMap]);
+
   return (
     <>
       <Script
@@ -76,58 +108,6 @@ export function HRappkaWidget({ locale }: Props) {
         data-host={WIDGET_HOST}
         data-hide-language-select=""
       />
-      {titleMap && (
-        <Script
-          id={`hrappka-title-patch-${lang}`}
-          strategy="afterInteractive"
-        >{`
-          (function() {
-            var map = ${JSON.stringify(titleMap)};
-            var sortedKeys = Object.keys(map).sort(function(a, b) { return b.length - a.length; });
-            if (!sortedKeys.length) return;
-
-            function replaceInNode(node) {
-              if (node.nodeType === 3) {
-                var text = node.textContent;
-                for (var k = 0; k < sortedKeys.length; k++) {
-                  var pl = sortedKeys[k];
-                  if (text.indexOf(pl) !== -1) {
-                    node.textContent = text.replace(pl, map[pl]);
-                    break;
-                  }
-                }
-              } else {
-                for (var i = 0; i < node.childNodes.length; i++) {
-                  replaceInNode(node.childNodes[i]);
-                }
-              }
-            }
-
-            function init() {
-              var container = document.querySelector('.hrappka-widget-container');
-              if (!container) return;
-
-              replaceInNode(container);
-
-              var observer = new MutationObserver(function(mutations) {
-                for (var i = 0; i < mutations.length; i++) {
-                  var added = mutations[i].addedNodes;
-                  for (var j = 0; j < added.length; j++) {
-                    replaceInNode(added[j]);
-                  }
-                }
-              });
-              observer.observe(container, { childList: true, subtree: true });
-            }
-
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', init);
-            } else {
-              init();
-            }
-          })();
-        `}</Script>
-      )}
       <div
         className="hrappka-widget-container"
         data-k={WIDGET_KEY}
