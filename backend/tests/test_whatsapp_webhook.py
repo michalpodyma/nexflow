@@ -424,7 +424,7 @@ async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
 @pytest.mark.asyncio
 async def test_b2c_ack_fires_when_paperclip_key_unset() -> None:
     """B2C ack must send even when paperclip_bot_api_key is empty (EUR-2267)."""
-    from app.models.candidate import ScreeningStatus
+    from app.models.enums import ScreeningStatus
     from app.routers import webhooks as webhooks_module
 
     candidate = MagicMock()
