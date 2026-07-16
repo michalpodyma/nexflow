@@ -849,9 +849,9 @@ export function CandidateIntakeForm({ defaultLocale = "pl" }: { defaultLocale?: 
         </div>
 
         <div
-          className="rounded-xl border bg-white p-6 shadow-sm sm:p-8 text-slate-900 [--background:0_0%_100%] [--foreground:222_47%_11%] [--input:214_32%_91%] [--card:0_0%_100%] [--card-foreground:222_47%_11%] [--muted-foreground:215_16%_47%]"
+          className="rounded-xl border bg-white p-6 shadow-sm sm:p-8 form-light-surface"
         >
-          <h1 className="mb-1 text-2xl font-bold text-slate-900">{t.title}</h1>
+          <h1 className="mb-1 text-2xl font-bold">{t.title}</h1>
           <p className="mb-6 text-sm text-gray-500">{t.subtitle}</p>
 
           <form onSubmit={handleSubmit} noValidate className="space-y-5">

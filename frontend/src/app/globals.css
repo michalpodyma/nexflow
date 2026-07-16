@@ -202,6 +202,19 @@
   color: #007B86;
 }
 
+/* ── Light surface for white-background forms on the dark-themed site ────── */
+/* Overrides the globally-dark :root shadcn palette so that form inputs,     */
+/* labels, and text inside this wrapper render correctly on white.            */
+.form-light-surface {
+  color: hsl(222 47% 11%);
+  --background: 0 0% 100%;
+  --foreground: 222 47% 11%;
+  --input: 214 32% 91%;
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+  --muted-foreground: 215 16% 47%;
+}
+
 /* ── Display type step-down at ≤768px (acceptance criterion) ────────────── */
 @media (max-width: 768px) {
   .text-display-xl { font-size: 56px; line-height: 1.08; letter-spacing: -0.02em; }
