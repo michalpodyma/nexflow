@@ -12,7 +12,8 @@ The `to` parameter must be in E.164 format *without* the leading '+',
 e.g. "48123456789".  The `from` field in incoming Meta webhooks already
 arrives in this format, so you can pass it through directly.
 
-Returns True on HTTP 2xx, False on any error (logs the detail).
+send_whatsapp_message returns True on HTTP 2xx, False on any error.
+send_whatsapp_template returns the Meta message id (wamid) on success, None on error.
 Never raises — callers decide how to handle failures.
 """
 
@@ -43,7 +44,8 @@ def _get_credentials() -> tuple[str, str] | None:
     return phone_number_id, access_token
 
 
-async def _send(phone_number_id: str, access_token: str, to: str, payload: dict) -> bool:
+async def _send(phone_number_id: str, access_token: str, to: str, payload: dict) -> str | None:
+    """Return the wamid on success, None on failure."""
     url = f"{_GRAPH_API_BASE}/{phone_number_id}/messages"
     headers = {
         "Authorization": f"Bearer {access_token}",
@@ -53,17 +55,18 @@ async def _send(phone_number_id: str, access_token: str, to: str, payload: dict)
         async with httpx.AsyncClient(timeout=15.0) as client:
             response = await client.post(url, json=payload, headers=headers)
         if response.is_success:
-            return True
+            data = response.json()
+            return data.get("messages", [{}])[0].get("id")
         logger.error(
             "[whatsapp] Meta API error %s for recipient %s: %s",
             response.status_code,
             to,
             response.text[:500],
         )
-        return False
+        return None
     except httpx.HTTPError as exc:
         logger.error("[whatsapp] HTTP error sending to %s: %s", to, exc)
-        return False
+        return None
 
 
 async def send_whatsapp_template(
@@ -71,12 +74,12 @@ async def send_whatsapp_template(
     template_name: str,
     language_code: str,
     body_params: list[str] | None = None,
-) -> bool:
-    """Send a pre-approved template message (required for business-initiated conversations)."""
+) -> str | None:
+    """Send a pre-approved template message. Returns wamid on success, None on failure."""
     creds = _get_credentials()
     if creds is None:
         logger.warning("[whatsapp] credentials not configured — template to %s skipped", to)
-        return False
+        return None
 
     lang = _TEMPLATE_LANGUAGE_MAP.get(language_code, "en")
     payload: dict = {
@@ -120,7 +123,7 @@ async def send_whatsapp_message(to: str, body: str) -> bool:
         "type": "text",
         "text": {"body": body, "preview_url": False},
     }
-    return await _send(*creds, to, payload)
+    return (await _send(*creds, to, payload)) is not None
 
 
 def normalize_phone(phone: str) -> str:
