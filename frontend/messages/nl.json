@@ -73,9 +73,18 @@
         "dailyPay": "Bedrag"
       },
       "months": {
-        "1": "Januari", "2": "Februari", "3": "Maart", "4": "April",
-        "5": "Mei", "6": "Juni", "7": "Juli", "8": "Augustus",
-        "9": "September", "10": "Oktober", "11": "November", "12": "December"
+        "1": "Januari",
+        "2": "Februari",
+        "3": "Maart",
+        "4": "April",
+        "5": "Mei",
+        "6": "Juni",
+        "7": "Juli",
+        "8": "Augustus",
+        "9": "September",
+        "10": "Oktober",
+        "11": "November",
+        "12": "December"
       }
     },
     "schedule": {
@@ -190,8 +199,7 @@
     "company_heading": "Bedrijf",
     "copyright": "© {year} Nexflow Sp. z o.o. Alle rechten voorbehouden.",
     "legal": "Nexflow Sp. z o.o. | BTW: PL5981632310 | KRS: 0000496516 | REGON: 081188992",
-    "legal2": "Werkend onder KRAZ-certificaat nr. 10916. Kantoren: Słubice, Polen (DE-PL grens) | ul. Kobierzycka 3/10, 52-315 Wrocław.",
-    "links": {
+    "legal2": "KRAZ-certificaat nr. 10916 · HQ: ul. Wojska Polskiego 170, 69-100 Słubice · Kantoor Wrocław: ul. Kobierzycka 3/10, 52-315 Wrocław",    "links": {
       "temp_workers": "Uitzendkrachten",
       "permanent": "Vaste aanwerving",
       "headhunting": "Headhunting",
@@ -403,8 +411,13 @@
       "manager": "Manager"
     },
     "legal_kraz": "KRAZ-certificaat Nr. 10916",
-    "legal_location": "Kantoren: Słubice, Polen (DE-PL grens) | ul. Kobierzycka 3/10, 52-315 Wrocław"
-  },
+    "legal_location": "ul. Wojska Polskiego 170, 69-100 Słubice, Polen (DE-PL-grens)",
+    "offices_heading": "Onze kantoren",
+    "offices_subheading": "Bezoek ons persoonlijk",
+    "hq_badge": "Hoofdkantoor",
+    "hq_context": "DE-PL-grens",
+    "branch_badge": "Kantoor Wrocław",
+    "maps_link": "Google Maps →"  },
   "ContactForm": {
     "iam": "Ik ben",
     "employer": "Werkgever",

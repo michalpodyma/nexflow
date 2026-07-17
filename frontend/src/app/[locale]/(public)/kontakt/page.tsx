@@ -46,6 +46,38 @@ export default async function ContactPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Our offices */}
+      <section className="py-12 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-1">
+            {t("offices_heading")}
+          </p>
+          <p className="text-slate text-sm mb-8">{t("offices_subheading")}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl">
+            <OfficeCard
+              badge={t("hq_badge")}
+              name="Nexflow Sp. z o.o."
+              street="ul. Wojska Polskiego 170"
+              city="69-100 Słubice, Polska"
+              context={t("hq_context")}
+              hours={t("hours")}
+              mapsHref="https://maps.google.com/?q=ul.+Wojska+Polskiego+170,+69-100+S%C5%82ubice,+Polska"
+              mapsLabel={t("maps_link")}
+              isHQ
+            />
+            <OfficeCard
+              badge={t("branch_badge")}
+              name="Nexflow Sp. z o.o."
+              street="ul. Kobierzycka 3/10"
+              city="52-315 Wrocław, Polska"
+              hours={t("hours")}
+              mapsHref="https://maps.google.com/?q=ul.+Kobierzycka+3%2F10,+52-315+Wroc%C5%82aw,+Polska"
+              mapsLabel={t("maps_link")}
+            />
+          </div>
+        </div>
+      </section>
+
       {/* Contact content */}
       <section className="py-16 bg-cloud-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -132,6 +164,40 @@ export default async function ContactPage({ params }: Props) {
         </div>
       </section>
     </>
+  );
+}
+
+function OfficeCard({
+  badge, name, street, city, context, hours, mapsHref, mapsLabel, isHQ,
+}: {
+  badge: string; name: string; street: string; city: string;
+  context?: string; hours: string; mapsHref: string; mapsLabel: string; isHQ?: boolean;
+}) {
+  return (
+    <div className={`rounded-2xl border p-6 shadow-sm bg-white ${isHQ ? "border-nexflow-cyan" : "border-gray-100"}`}>
+      <div className="flex items-start justify-between mb-4">
+        <span className={`text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full ${
+          isHQ ? "bg-nexflow-cyan/10 text-nexflow-cyan-dark" : "bg-gray-100 text-slate"
+        }`}>
+          {badge}
+        </span>
+      </div>
+      <p className="font-semibold text-nexflow-navy text-base mb-1">{name}</p>
+      <p className="text-graphite text-sm">{street}</p>
+      <p className="text-graphite text-sm">{city}</p>
+      {context && <p className="text-slate text-xs mt-1 italic">{context}</p>}
+      <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
+        <p className="text-xs text-slate">{hours}</p>
+        <a
+          href={mapsHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-xs text-nexflow-cyan hover:text-nexflow-cyan-dark font-medium transition-colors"
+        >
+          {mapsLabel}
+        </a>
+      </div>
+    </div>
   );
 }
 

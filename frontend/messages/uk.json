@@ -21,8 +21,7 @@
     "company_heading": "Компанія",
     "copyright": "© {year} Nexflow Sp. z o.o. Всі права захищені.",
     "legal": "Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992",
-    "legal2": "Працюємо на підставі сертифіката KRAZ № 10916. Офіси: Слубіце, Польща (кордон DE-PL) | вул. Кобежицька 3/10, 52-315 Вроцлав.",
-    "links": {
+    "legal2": "Сертифікат KRAZ № 10916 · Гол. офіс: вул. Войська Польського 170, 69-100 Слубіце · Офіс Вроцлав: вул. Кобежицька 3/10, 52-315 Вроцлав",    "links": {
       "temp_workers": "Тимчасовий персонал",
       "permanent": "Постійний підбір",
       "headhunting": "Хедхантинг",
@@ -234,8 +233,13 @@
       "manager": "Manager"
     },
     "legal_kraz": "Сертифікат KRAZ № 10916",
-    "legal_location": "Офіси: Слубіце, Польща (кордон DE-PL) | вул. Кобежицька 3/10, 52-315 Вроцлав"
-  },
+    "legal_location": "вул. Войська Польського 170, 69-100 Слубіце, Польща (кордон DE-PL)",
+    "offices_heading": "Наші офіси",
+    "offices_subheading": "Відвідайте нас особисто",
+    "hq_badge": "Головний офіс",
+    "hq_context": "кордон DE-PL",
+    "branch_badge": "Офіс Вроцлав",
+    "maps_link": "Google Maps →"  },
   "ContactForm": {
     "iam": "I am",
     "employer": "An employer",
