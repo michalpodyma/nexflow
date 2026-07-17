@@ -1,6 +1,48 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { getTranslations } from "next-intl/server";
 import ContactForm from "@/components/ContactForm";
+
+const orgSchema = {
+  "@context": "https://schema.org",
+  "@type": "EmploymentAgency",
+  name: "Nexflow Sp. z o.o.",
+  url: "https://nexflow.work",
+  logo: "https://nexflow.work/nexflow-logo-email.svg",
+  telephone: "+48224878828",
+  email: "info@nexflow.work",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "ul. Wojska Polskiego 170",
+    postalCode: "69-100",
+    addressLocality: "Słubice",
+    addressCountry: "PL",
+  },
+  location: [
+    {
+      "@type": "LocalBusiness",
+      name: "Nexflow Słubice (siedziba główna)",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "ul. Wojska Polskiego 170",
+        postalCode: "69-100",
+        addressLocality: "Słubice",
+        addressCountry: "PL",
+      },
+    },
+    {
+      "@type": "LocalBusiness",
+      name: "Nexflow Wrocław",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "ul. Kobierzycka 3/10",
+        postalCode: "52-315",
+        addressLocality: "Wrocław",
+        addressCountry: "PL",
+      },
+    },
+  ],
+};
 
 type Props = { params: Promise<{ locale: string }> };
 
@@ -31,6 +73,11 @@ export default async function ContactPage({ params }: Props) {
 
   return (
     <>
+      <Script
+        id="contact-org-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }}
+      />
       {/* Hero */}
       <section className="bg-nexflow-navy text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
