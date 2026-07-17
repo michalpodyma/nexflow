@@ -363,7 +363,7 @@ export default async function LocalePage({ params }: Props) {
           </FadeIn>
         </section>
       </main>
-      <Footer />
+      <Footer locale={locale} />
     </>
   );
 }
