@@ -112,7 +112,7 @@ function FooterFallback() {
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div className="text-xs text-white/40 space-y-1">
               <p>Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992</p>
-              <p>Działamy na podstawie certyfikatu KRAZ nr 10916. Słubice, Polska (granica DE-PL).</p>
+              <p>Działamy na podstawie certyfikatu KRAZ nr 10916. Siedziba główna: ul. Wojska Polskiego 170, 69-100 Słubice (granica DE-PL). Biuro Wrocław: ul. Kobierzycka 3/10, 52-315 Wrocław.</p>
             </div>
             <p className="text-xs text-white/40">
               © {new Date().getFullYear()} Nexflow Sp. z o.o. Wszelkie prawa zastrzeżone.
