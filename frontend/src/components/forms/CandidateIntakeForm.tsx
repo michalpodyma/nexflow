@@ -1131,7 +1131,7 @@ export function CandidateIntakeForm({ defaultLocale = "pl" }: { defaultLocale?: 
               )}
             </div>
 
-            <Button type="submit" className="w-full" disabled={submitting}>
+            <Button type="submit" disabled={submitting} className="w-full bg-nexflow-cyan text-nexflow-navy font-semibold rounded-lg px-6 py-3 hover:bg-nexflow-cyan/90 transition-all duration-200 disabled:opacity-60 disabled:cursor-not-allowed">
               {submitting ? (
                 <span className="flex items-center justify-center gap-2">
                   <span className="inline-block h-4 w-4 animate-spin rounded-full border-2 border-white border-t-transparent" />

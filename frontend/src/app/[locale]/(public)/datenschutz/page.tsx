@@ -1,19 +1,30 @@
 import type { Metadata } from "next";
+import { redirect } from "next/navigation";
 
-export const metadata: Metadata = {
-  title: "Datenschutzerklärung | Nexflow",
-  description:
-    "Datenschutzerklärung der Nexflow Sp. z o.o. — Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
-  alternates: {
-    canonical: "https://nexflow.work/de/datenschutz",
-    languages: {
-      de: "https://nexflow.work/de/datenschutz",
-      pl: "https://nexflow.work/pl/polityka-prywatnosci",
+type Props = { params: Promise<{ locale: string }> };
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
+  if (locale !== "de") return {};
+  return {
+    title: "Datenschutzerklärung | Nexflow",
+    description:
+      "Datenschutzerklärung der Nexflow Sp. z o.o. — Informationen zur Verarbeitung personenbezogener Daten gemäß DSGVO.",
+    alternates: {
+      canonical: "https://nexflow.work/de/datenschutz",
+      languages: {
+        de: "https://nexflow.work/de/datenschutz",
+        pl: "https://nexflow.work/pl/polityka-prywatnosci",
+      },
     },
-  },
-};
+  };
+}
 
-export default function DatenschutzPage() {
+export default async function DatenschutzPage({ params }: Props) {
+  const { locale } = await params;
+  if (locale !== "de") {
+    redirect(`/${locale}/polityka-prywatnosci`);
+  }
   return (
     <>
       {/* Hero */}

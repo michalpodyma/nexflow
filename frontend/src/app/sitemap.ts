@@ -40,10 +40,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localeVariants("/datenschutz", "yearly", 0.3),
   ];
 
-  // Non-migrated pages served at bare paths (blog, polityka-prywatnosci)
   const barePages: MetadataRoute.Sitemap = [
     { url: `${BASE_URL}/blog`, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE_URL}/polityka-prywatnosci`, changeFrequency: "yearly", priority: 0.3 },
+    ...localeVariants("/polityka-prywatnosci", "yearly", 0.3),
   ];
 
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({

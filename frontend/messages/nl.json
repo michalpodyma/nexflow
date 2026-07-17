@@ -190,7 +190,7 @@
     "company_heading": "Bedrijf",
     "copyright": "© {year} Nexflow Sp. z o.o. Alle rechten voorbehouden.",
     "legal": "Nexflow Sp. z o.o. | BTW: PL5981632310 | KRS: 0000496516 | REGON: 081188992",
-    "legal2": "Werkend onder KRAZ-certificaat nr. 10916. Słubice, Polen (DE-PL grens).",
+    "legal2": "Werkend onder KRAZ-certificaat nr. 10916. Kantoren: Słubice, Polen (DE-PL grens) | ul. Kobierzycka 3/10, 52-315 Wrocław.",
     "links": {
       "temp_workers": "Uitzendkrachten",
       "permanent": "Vaste aanwerving",
@@ -403,7 +403,7 @@
       "manager": "Manager"
     },
     "legal_kraz": "KRAZ-certificaat Nr. 10916",
-    "legal_location": "Słubice, Polen (DE-PL-grens)"
+    "legal_location": "Kantoren: Słubice, Polen (DE-PL grens) | ul. Kobierzycka 3/10, 52-315 Wrocław"
   },
   "ContactForm": {
     "iam": "Ik ben",
