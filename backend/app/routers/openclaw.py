@@ -594,6 +594,10 @@ async def send_whatsapp_to_candidate(
             max_key = max(int(k) for k in numeric_keys)
             body_params = [str(body.template_variables.get(str(i), "")) for i in range(1, max_key + 1)]
 
+    # screening_welcome requires {{1}} = candidate first name; inject when caller omits template_variables
+    if body_params is None and body.template_name == "screening_welcome":
+        body_params = [candidate.first_name or ""]
+
     phone = normalize_phone(candidate.phone)
     try:
         message_id = await send_whatsapp_template(
