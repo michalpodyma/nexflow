@@ -33,11 +33,57 @@ export const metadata: Metadata = {
   },
 };
 
+const ORGANIZATION_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Nexflow Sp. z o.o.",
+  "alternateName": "Eurojob-West",
+  "url": "https://nexflow.work",
+  "telephone": "+48224878828",
+  "email": "info@nexflow.work",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "ul. Wojska Polskiego 170",
+    "addressLocality": "Słubice",
+    "postalCode": "69-100",
+    "addressCountry": "PL",
+    "description": "Siedziba główna / Registered seat"
+  },
+  "location": [
+    {
+      "@type": "Place",
+      "name": "Nexflow Słubice (Siedziba główna / HQ)",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Wojska Polskiego 170",
+        "addressLocality": "Słubice",
+        "postalCode": "69-100",
+        "addressCountry": "PL"
+      }
+    },
+    {
+      "@type": "Place",
+      "name": "Nexflow Wrocław",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Kobierzycka 3/10",
+        "addressLocality": "Wrocław",
+        "postalCode": "52-315",
+        "addressCountry": "PL"
+      }
+    }
+  ]
+};
+
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
   const locale = await getLocale().catch(() => 'pl');
   return (
     <html lang={locale}>
       <body className={inter.className}>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ORGANIZATION_SCHEMA) }}
+        />
         {GTM_ID && (
           <noscript>
             <iframe
