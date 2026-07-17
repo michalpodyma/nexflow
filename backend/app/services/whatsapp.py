@@ -12,8 +12,9 @@ The `to` parameter must be in E.164 format *without* the leading '+',
 e.g. "48123456789".  The `from` field in incoming Meta webhooks already
 arrives in this format, so you can pass it through directly.
 
-Raises WhatsAppConfigError when credentials are missing.
-Raises WhatsAppAPIError when Meta returns a non-2xx response.
+send_whatsapp_message returns True on HTTP 2xx, False on any error.
+send_whatsapp_template returns the Meta message id (wamid) on success, None on error.
+Never raises — callers decide how to handle failures.
 """
 
 import logging
@@ -35,46 +36,37 @@ _TEMPLATE_LANGUAGE_MAP = {
 }
 
 
-class WhatsAppConfigError(Exception):
-    """Raised when WHATSAPP_ACCESS_TOKEN or WHATSAPP_PHONE_NUMBER_ID is not set."""
-
-
-class WhatsAppAPIError(Exception):
-    """Raised when Meta Graph API returns a non-2xx response."""
-
-    def __init__(self, status_code: int, body: str) -> None:
-        self.status_code = status_code
-        self.body = body
-        super().__init__(f"Meta API {status_code}: {body}")
-
-
-def _get_credentials() -> tuple[str, str]:
+def _get_credentials() -> tuple[str, str] | None:
     phone_number_id = settings.whatsapp_phone_number_id
     access_token = settings.whatsapp_access_token
     if not phone_number_id or not access_token:
-        raise WhatsAppConfigError("WHATSAPP_ACCESS_TOKEN and WHATSAPP_PHONE_NUMBER_ID are not configured")
+        return None
     return phone_number_id, access_token
 
 
-async def _send(phone_number_id: str, access_token: str, to: str, payload: dict) -> str:
-    """Return the wamid on success. Raises WhatsAppAPIError on non-2xx."""
+async def _send(phone_number_id: str, access_token: str, to: str, payload: dict) -> str | None:
+    """Return the wamid on success, None on failure."""
     url = f"{_GRAPH_API_BASE}/{phone_number_id}/messages"
     headers = {
         "Authorization": f"Bearer {access_token}",
         "Content-Type": "application/json",
     }
-    async with httpx.AsyncClient(timeout=15.0) as client:
-        response = await client.post(url, json=payload, headers=headers)
-    if response.is_success:
-        data = response.json()
-        return data.get("messages", [{}])[0].get("id", "")
-    logger.error(
-        "[whatsapp] Meta API error %s for recipient %s: %s",
-        response.status_code,
-        to,
-        response.text[:500],
-    )
-    raise WhatsAppAPIError(response.status_code, response.text[:500])
+    try:
+        async with httpx.AsyncClient(timeout=15.0) as client:
+            response = await client.post(url, json=payload, headers=headers)
+        if response.is_success:
+            data = response.json()
+            return data.get("messages", [{}])[0].get("id")
+        logger.error(
+            "[whatsapp] Meta API error %s for recipient %s: %s",
+            response.status_code,
+            to,
+            response.text[:500],
+        )
+        return None
+    except httpx.HTTPError as exc:
+        logger.error("[whatsapp] HTTP error sending to %s: %s", to, exc)
+        return None
 
 
 async def send_whatsapp_template(
@@ -82,14 +74,12 @@ async def send_whatsapp_template(
     template_name: str,
     language_code: str,
     body_params: list[str] | None = None,
-) -> str:
-    """Send a pre-approved template message. Returns wamid on success.
-
-    Raises:
-        WhatsAppConfigError: credentials not set in environment.
-        WhatsAppAPIError: Meta returned a non-2xx response.
-    """
+) -> str | None:
+    """Send a pre-approved template message. Returns wamid on success, None on failure."""
     creds = _get_credentials()
+    if creds is None:
+        logger.warning("[whatsapp] credentials not configured — template to %s skipped", to)
+        return None
 
     lang = _TEMPLATE_LANGUAGE_MAP.get(language_code, "en")
     payload: dict = {
@@ -117,19 +107,23 @@ async def send_whatsapp_message(to: str, body: str) -> bool:
 
     Only works within the 24-hour customer service window (after user replied).
     For business-initiated first contact, use send_whatsapp_template().
-
-    Raises:
-        WhatsAppConfigError: credentials not set in environment.
-        WhatsAppAPIError: Meta returned a non-2xx response.
     """
     creds = _get_credentials()
+    if creds is None:
+        logger.warning(
+            "[whatsapp] WHATSAPP_PHONE_NUMBER_ID or WHATSAPP_ACCESS_TOKEN not configured — "
+            "message to %s skipped",
+            to,
+        )
+        return False
+
     payload = {
         "messaging_product": "whatsapp",
         "to": to,
         "type": "text",
         "text": {"body": body, "preview_url": False},
     }
-    return bool(await _send(*creds, to, payload))
+    return (await _send(*creds, to, payload)) is not None
 
 
 def normalize_phone(phone: str) -> str:
