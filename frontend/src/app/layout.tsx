@@ -35,10 +35,11 @@ export const metadata: Metadata = {
 
 const ORGANIZATION_SCHEMA = {
   "@context": "https://schema.org",
-  "@type": "Organization",
+  "@type": "EmploymentAgency",
   "name": "Nexflow Sp. z o.o.",
   "alternateName": "Eurojob-West",
   "url": "https://nexflow.work",
+  "logo": "https://nexflow.work/nexflow-logo-email.svg",
   "telephone": "+48224878828",
   "email": "info@nexflow.work",
   "address": {
@@ -46,13 +47,12 @@ const ORGANIZATION_SCHEMA = {
     "streetAddress": "ul. Wojska Polskiego 170",
     "addressLocality": "Słubice",
     "postalCode": "69-100",
-    "addressCountry": "PL",
-    "description": "Siedziba główna / Registered seat"
+    "addressCountry": "PL"
   },
   "location": [
     {
-      "@type": "Place",
-      "name": "Nexflow Słubice (Siedziba główna / HQ)",
+      "@type": "LocalBusiness",
+      "name": "Nexflow Słubice (siedziba główna / HQ)",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "ul. Wojska Polskiego 170",
@@ -62,7 +62,7 @@ const ORGANIZATION_SCHEMA = {
       }
     },
     {
-      "@type": "Place",
+      "@type": "LocalBusiness",
       "name": "Nexflow Wrocław",
       "address": {
         "@type": "PostalAddress",
