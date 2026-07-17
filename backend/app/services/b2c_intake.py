@@ -38,7 +38,7 @@ B2C_ACK: dict[str, str] = {
     "en": (
         "Hello! Thank you for contacting Nexflow. Your message has been received by our "
         "recruitment team. We will reply within 24 business hours. "
-        "Privacy notice: https://nexflow.work/polityka-prywatnosci"
+        "Privacy notice: https://nexflow.work/en/privacy"
     ),
 }
 

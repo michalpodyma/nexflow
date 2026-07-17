@@ -45,6 +45,17 @@ const nextConfig = {
         destination: "/aplikuj?ref=1",
         permanent: true,
       },
+      // English privacy canonical URLs (EUR-2288)
+      {
+        source: "/en/privacy",
+        destination: "/en/polityka-prywatnosci",
+        permanent: false,
+      },
+      {
+        source: "/privacy",
+        destination: "/en/polityka-prywatnosci",
+        permanent: false,
+      },
       // Legacy PL flat paths → /pl/{slug} (EUR-884)
       {
         source: "/o-nas",
