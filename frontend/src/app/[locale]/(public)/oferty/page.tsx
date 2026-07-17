@@ -44,6 +44,37 @@ const hiringOrgSchema = {
   logo: "https://nexflow.work/nexflow-logo-email.svg",
   description:
     "Agencja pracy tymczasowej specjalizująca się w rekrutacji do logistyki i magazynów w Polsce i Niemczech.",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "ul. Wojska Polskiego 170",
+    postalCode: "69-100",
+    addressLocality: "Słubice",
+    addressCountry: "PL",
+  },
+  location: [
+    {
+      "@type": "LocalBusiness",
+      name: "Nexflow Słubice (siedziba główna)",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "ul. Wojska Polskiego 170",
+        postalCode: "69-100",
+        addressLocality: "Słubice",
+        addressCountry: "PL",
+      },
+    },
+    {
+      "@type": "LocalBusiness",
+      name: "Nexflow Wrocław",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "ul. Kobierzycka 3/10",
+        postalCode: "52-315",
+        addressLocality: "Wrocław",
+        addressCountry: "PL",
+      },
+    },
+  ],
 };
 
 export default async function JobsPage({ params }: Props) {
