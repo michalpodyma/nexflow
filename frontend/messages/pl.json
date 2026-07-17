@@ -199,7 +199,7 @@
     "company_heading": "Firma",
     "copyright": "© {year} Nexflow Sp. z o.o. Wszelkie prawa zastrzeżone.",
     "legal": "Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992",
-    "legal2": "Działamy na podstawie certyfikatu KRAZ nr 10916. Biura: Słubice, Polska (granica DE-PL) | ul. Kobierzycka 3/10, 52-315 Wrocław.",
+    "legal2": "Działamy na podstawie certyfikatu KRAZ nr 10916. Siedziba główna: ul. Wojska Polskiego 170, 69-100 Słubice (granica DE-PL). Biuro Wrocław: ul. Kobierzycka 3/10, 52-315 Wrocław.",
     "links": {
       "temp_workers": "Pracownicy tymczasowi",
       "permanent": "Rekrutacja stała",
@@ -412,7 +412,13 @@
       "manager": "Manager"
     },
     "legal_kraz": "Certyfikat KRAZ nr 10916",
-    "legal_location": "Biura: Słubice, Polska (granica DE-PL) | ul. Kobierzycka 3/10, 52-315 Wrocław"
+    "legal_location": "Siedziba główna: ul. Wojska Polskiego 170, 69-100 Słubice (granica DE-PL) | Biuro Wrocław: ul. Kobierzycka 3/10, 52-315 Wrocław",
+    "offices_heading": "Odwiedź nas",
+    "office_hq_label": "Siedziba główna",
+    "office_hq_note": "granica DE-PL",
+    "office_hq_maps": "Google Maps →",
+    "office_wroclaw_label": "Biuro Wrocław",
+    "office_wroclaw_maps": "Google Maps →"
   },
   "ContactForm": {
     "iam": "Jestem",

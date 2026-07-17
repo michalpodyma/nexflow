@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
+import Script from "next/script";
 import ContactForm from "@/components/ContactForm";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -29,8 +30,54 @@ export default async function ContactPage({ params }: Props) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "Contact" });
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Nexflow Sp. z o.o.",
+    "url": "https://nexflow.work",
+    "telephone": "+48224878828",
+    "email": "info@nexflow.work",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "ul. Wojska Polskiego 170",
+      "postalCode": "69-100",
+      "addressLocality": "Słubice",
+      "addressCountry": "PL",
+    },
+    "location": [
+      {
+        "@type": "Place",
+        "name": "Nexflow — Siedziba główna (Słubice)",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Wojska Polskiego 170",
+          "postalCode": "69-100",
+          "addressLocality": "Słubice",
+          "addressCountry": "PL",
+        },
+      },
+      {
+        "@type": "Place",
+        "name": "Nexflow — Biuro Wrocław",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "ul. Kobierzycka 3/10",
+          "postalCode": "52-315",
+          "addressLocality": "Wrocław",
+          "addressCountry": "PL",
+        },
+      },
+    ],
+  };
+
   return (
     <>
+      <Script
+        id="org-jsonld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Hero */}
       <section className="bg-nexflow-navy text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -43,6 +90,71 @@ export default async function ContactPage({ params }: Props) {
           <p className="mt-6 text-lg text-white/70 max-w-xl leading-relaxed">
             {t("hero_desc")}
           </p>
+        </div>
+      </section>
+
+      {/* Office cards */}
+      <section className="py-12 bg-white border-b border-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <p className="text-nexflow-cyan text-sm font-semibold uppercase tracking-wider mb-6">
+            {t("offices_heading")}
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {/* HQ card */}
+            <div className="bg-nexflow-navy text-white rounded-2xl p-6 flex flex-col">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <span className="inline-block text-xs font-bold uppercase tracking-wider bg-nexflow-cyan text-nexflow-navy px-2 py-1 rounded mb-3">
+                    {t("office_hq_label")}
+                  </span>
+                  <h2 className="text-xl font-bold">Słubice</h2>
+                  <p className="text-white/60 text-sm">{t("office_hq_note")}</p>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center shrink-0 text-lg">
+                  📍
+                </div>
+              </div>
+              <address className="not-italic text-sm text-white/80 leading-relaxed mb-5 flex-1">
+                ul. Wojska Polskiego 170<br />
+                69-100 Słubice
+              </address>
+              <a
+                href="https://maps.google.com/?q=ul.+Wojska+Polskiego+170,+69-100+S%C5%82ubice"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-nexflow-cyan text-sm font-semibold hover:underline"
+              >
+                {t("office_hq_maps")}
+              </a>
+            </div>
+
+            {/* Wrocław card */}
+            <div className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm flex flex-col">
+              <div className="flex items-start justify-between mb-4">
+                <div>
+                  <span className="inline-block text-xs font-bold uppercase tracking-wider bg-nexflow-navy/10 text-nexflow-navy px-2 py-1 rounded mb-3">
+                    {t("office_wroclaw_label")}
+                  </span>
+                  <h2 className="text-xl font-bold text-nexflow-navy">Wrocław</h2>
+                </div>
+                <div className="w-10 h-10 rounded-full bg-nexflow-navy/10 flex items-center justify-center shrink-0 text-lg">
+                  📍
+                </div>
+              </div>
+              <address className="not-italic text-sm text-graphite leading-relaxed mb-5 flex-1">
+                ul. Kobierzycka 3/10<br />
+                52-315 Wrocław
+              </address>
+              <a
+                href="https://maps.google.com/?q=ul.+Kobierzycka+3%2F10,+52-315+Wroc%C5%82aw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-nexflow-navy text-sm font-semibold hover:underline hover:text-nexflow-cyan-dark transition-colors"
+              >
+                {t("office_wroclaw_maps")}
+              </a>
+            </div>
+          </div>
         </div>
       </section>
 

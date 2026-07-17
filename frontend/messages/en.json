@@ -21,7 +21,7 @@
     "company_heading": "Company",
     "copyright": "© {year} Nexflow Sp. z o.o. All rights reserved.",
     "legal": "Nexflow Sp. z o.o. | NIP: PL5981632310 | KRS: 0000496516 | REGON: 081188992",
-    "legal2": "Operating under KRAZ certificate no. 10916. Offices: Słubice, Poland (DE-PL border) | ul. Kobierzycka 3/10, 52-315 Wrocław.",
+    "legal2": "Operating under KRAZ certificate no. 10916. Registered seat: ul. Wojska Polskiego 170, 69-100 Słubice (DE-PL border). Wrocław Office: ul. Kobierzycka 3/10, 52-315 Wrocław.",
     "links": {
       "temp_workers": "Temporary staff",
       "permanent": "Permanent recruitment",
@@ -234,7 +234,13 @@
       "manager": "Manager"
     },
     "legal_kraz": "KRAZ Certificate No. 10916",
-    "legal_location": "Offices: Słubice, Poland (DE-PL border) | ul. Kobierzycka 3/10, 52-315 Wrocław"
+    "legal_location": "Registered seat: ul. Wojska Polskiego 170, 69-100 Słubice (DE-PL border) | Wrocław Office: ul. Kobierzycka 3/10, 52-315 Wrocław",
+    "offices_heading": "Visit us",
+    "office_hq_label": "Registered seat",
+    "office_hq_note": "DE-PL border",
+    "office_hq_maps": "Google Maps →",
+    "office_wroclaw_label": "Wrocław Office",
+    "office_wroclaw_maps": "Google Maps →"
   },
   "ContactForm": {
     "iam": "I am",
