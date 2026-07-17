@@ -42,9 +42,7 @@ WhatsApp responses return from_phone_masked (last 4 digits only) and candidate_i
 from __future__ import annotations
 
 import base64
-import json
 import logging
-import os
 from datetime import UTC, datetime
 from typing import Annotated, Any
 from uuid import UUID
@@ -126,7 +124,7 @@ async def get_candidate_contact(
 class WhatsAppSendRequest(BaseModel):
     candidate_id: UUID
     template_name: str
-    language_code: str = "pl"
+    language_code: str = "en"
     template_variables: dict[str, Any] | None = None
 
 
@@ -136,37 +134,48 @@ class WhatsAppSendResponse(BaseModel):
     status: str
 
 
-def _get_twilio_config() -> tuple[str, str, str]:
-    account_sid = os.getenv("TWILIO_ACCOUNT_SID")
-    auth_token = os.getenv("TWILIO_AUTH_TOKEN")
-    from_number = os.getenv("TWILIO_WHATSAPP_FROM")
-    missing = [
-        name
-        for name, val in [
-            ("TWILIO_ACCOUNT_SID", account_sid),
-            ("TWILIO_AUTH_TOKEN", auth_token),
-            ("TWILIO_WHATSAPP_FROM", from_number),
-        ]
-        if not val
-    ]
-    if missing:
-        raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Twilio not configured: {', '.join(missing)}",
-        )
-    return account_sid, auth_token, from_number  # type: ignore[return-value]
+# Named template bodies sent as free-form messages within the 24-hour service window.
+# Business-initiated outreach requires Meta-approved template names instead.
+_TEMPLATE_BODIES: dict[str, str] = {
+    "intake": (
+        "Hi! 👋 I'm from Eurojob-West. We'd love to help you find a job.\n\n"
+        "Please reply with:\n"
+        "1️⃣ Your full name\n"
+        "2️⃣ Your current location (city/country)\n"
+        "3️⃣ What type of work are you looking for? (e.g. warehouse, logistics, forklift, cleaning)\n\n"
+        "We'll get back to you shortly!"
+    ),
+    "intake_pl": (
+        "Cześć! 👋 Jestem z Eurojob-West. Chętnie pomożemy Ci znaleźć pracę.\n\n"
+        "Odpowiedz proszę:\n"
+        "1️⃣ Twoje imię i nazwisko\n"
+        "2️⃣ Twoja lokalizacja (miasto/kraj)\n"
+        "3️⃣ Jaki rodzaj pracy Cię interesuje? (np. magazyn, logistyka, wózek widłowy, sprzątanie)\n\n"
+        "Odezwiemy się wkrótce!"
+    ),
+    "intake_uk": (
+        "Привіт! 👋 Я з Eurojob-West. Ми раді допомогти вам знайти роботу.\n\n"
+        "Будь ласка, відповідайте:\n"
+        "1️⃣ Ваше повне ім'я\n"
+        "2️⃣ Ваше поточне місцезнаходження (місто/країна)\n"
+        "3️⃣ Яку роботу ви шукаєте? (наприклад, склад, логістика, навантажувач, прибирання)\n\n"
+        "Ми незабаром зв'яжемося з вами!"
+    ),
+}
 
 
 @router.post(
     "/whatsapp/send",
     response_model=WhatsAppSendResponse,
     dependencies=[Depends(_require_openclaw_key)],
-    summary="Send WhatsApp template message to a candidate via Twilio",
+    summary="Send WhatsApp message to a candidate via Meta Graph API",
 )
 async def send_whatsapp_to_candidate(
     body: WhatsAppSendRequest,
     db: AsyncSession = Depends(get_db),
 ) -> WhatsAppSendResponse:
+    from app.services.whatsapp import normalize_phone, send_whatsapp_message
+
     result = await db.execute(select(Candidate).where(Candidate.id == body.candidate_id))
     candidate = result.scalar_one_or_none()
     if candidate is None:
@@ -174,52 +183,32 @@ async def send_whatsapp_to_candidate(
     if not candidate.phone:
         raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
 
-    env_key = f"TWILIO_CONTENT_SID_{body.template_name.upper()}"
-    content_sid = os.getenv(env_key)
-    if not content_sid:
+    template_key = body.template_name.lower()
+    message_body = _TEMPLATE_BODIES.get(template_key)
+    if message_body is None:
+        available = ", ".join(sorted(_TEMPLATE_BODIES.keys()))
         raise HTTPException(
-            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
-            detail=f"Template not configured: {env_key} is not set",
+            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
+            detail=f"Unknown template '{body.template_name}'. Available: {available}",
         )
 
-    account_sid, auth_token, from_number = _get_twilio_config()
-
-    from_wa = f"whatsapp:{from_number.removeprefix('whatsapp:')}"
-    to_wa = f"whatsapp:{candidate.phone}"
-
-    payload: dict[str, str] = {
-        "From": from_wa,
-        "To": to_wa,
-        "ContentSid": content_sid,
-    }
-    if body.template_variables:
-        payload["ContentVariables"] = json.dumps(body.template_variables)
-
-    twilio_url = f"https://api.twilio.com/2010-04-01/Accounts/{account_sid}/Messages.json"
-
-    async with httpx.AsyncClient(timeout=30.0) as http:
-        twilio_resp = await http.post(
-            twilio_url,
-            data=payload,
-            auth=(account_sid, auth_token),
-        )
-
-    if twilio_resp.status_code not in (200, 201):
-        logger.error(
-            "openclaw.whatsapp_send.failed status=%d body=%s",
-            twilio_resp.status_code,
-            twilio_resp.text[:500],
-        )
+    phone = normalize_phone(candidate.phone)
+    ok = await send_whatsapp_message(to=phone, body=message_body)
+    if not ok:
         raise HTTPException(
             status_code=status.HTTP_502_BAD_GATEWAY,
-            detail=f"Twilio returned {twilio_resp.status_code}",
+            detail="Meta Graph API rejected the message — check WHATSAPP_ACCESS_TOKEN and WHATSAPP_PHONE_NUMBER_ID",
         )
 
-    data = twilio_resp.json()
+    logger.info(
+        "openclaw.whatsapp_send.ok template=%s to=%s",
+        body.template_name,
+        phone[-4:],
+    )
     return WhatsAppSendResponse(
-        message_sid=data["sid"],
-        to=candidate.phone,
-        status=data["status"],
+        message_sid="meta-" + phone[-4:],
+        to=phone,
+        status="sent",
     )
 
 
