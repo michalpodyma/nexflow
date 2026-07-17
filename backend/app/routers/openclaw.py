@@ -9,7 +9,7 @@ Candidates
 WhatsApp
   GET  /api/openclaw/whatsapp-inbox            — paginated list of inbound events
   POST /api/openclaw/whatsapp-inbox/{id}/ack   — mark an event acknowledged
-  POST /api/openclaw/whatsapp/send             — send template message via Twilio (EUR-2244)
+  POST /api/openclaw/whatsapp/send             — send template message via Meta API (EUR-2244/EUR-2301)
 
 Gmail  (gmail.modify scope — read + label; NOT send, NOT delete)
   GET  /api/openclaw/gmail/messages            — list messages by label / since
@@ -47,7 +47,6 @@ from datetime import UTC, datetime
 from typing import Annotated, Any
 from uuid import UUID
 
-import httpx
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, Field
@@ -66,6 +65,7 @@ from app.services.google_workspace import (
     gmail_label_message,
     gmail_list_messages,
 )
+from app.services.whatsapp import normalize_phone, send_whatsapp_template
 
 router = APIRouter(prefix="/api/openclaw", tags=["openclaw"])
 logger = logging.getLogger(__name__)
@@ -80,136 +80,6 @@ def _require_openclaw_key(
         raise HTTPException(status_code=503, detail="OpenClaw API not configured on this instance")
     if credentials.credentials != key:
         raise HTTPException(status_code=401, detail="Invalid OpenClaw API key")
-
-
-# ---------------------------------------------------------------------------
-# GET /api/openclaw/candidates/{candidate_id}/contact  (EUR-2244)
-# ---------------------------------------------------------------------------
-
-
-class CandidateContactResponse(BaseModel):
-    phone: str
-    first_name: str | None
-    last_name: str | None
-
-
-@router.get(
-    "/candidates/{candidate_id}/contact",
-    response_model=CandidateContactResponse,
-    dependencies=[Depends(_require_openclaw_key)],
-    summary="Get candidate contact details for WhatsApp outreach",
-)
-async def get_candidate_contact(
-    candidate_id: UUID,
-    db: AsyncSession = Depends(get_db),
-) -> CandidateContactResponse:
-    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
-    candidate = result.scalar_one_or_none()
-    if candidate is None:
-        raise HTTPException(status_code=404, detail="Candidate not found")
-    if not candidate.phone:
-        raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
-    return CandidateContactResponse(
-        phone=candidate.phone,
-        first_name=candidate.first_name,
-        last_name=candidate.last_name,
-    )
-
-
-# ---------------------------------------------------------------------------
-# POST /api/openclaw/whatsapp/send  (EUR-2244 Option B)
-# ---------------------------------------------------------------------------
-
-
-class WhatsAppSendRequest(BaseModel):
-    candidate_id: UUID
-    template_name: str
-    language_code: str = "en"
-    template_variables: dict[str, Any] | None = None
-
-
-class WhatsAppSendResponse(BaseModel):
-    message_sid: str
-    to: str
-    status: str
-
-
-# Named template bodies sent as free-form messages within the 24-hour service window.
-# Business-initiated outreach requires Meta-approved template names instead.
-_TEMPLATE_BODIES: dict[str, str] = {
-    "intake": (
-        "Hi! 👋 I'm from Eurojob-West. We'd love to help you find a job.\n\n"
-        "Please reply with:\n"
-        "1️⃣ Your full name\n"
-        "2️⃣ Your current location (city/country)\n"
-        "3️⃣ What type of work are you looking for? (e.g. warehouse, logistics, forklift, cleaning)\n\n"
-        "We'll get back to you shortly!"
-    ),
-    "intake_pl": (
-        "Cześć! 👋 Jestem z Eurojob-West. Chętnie pomożemy Ci znaleźć pracę.\n\n"
-        "Odpowiedz proszę:\n"
-        "1️⃣ Twoje imię i nazwisko\n"
-        "2️⃣ Twoja lokalizacja (miasto/kraj)\n"
-        "3️⃣ Jaki rodzaj pracy Cię interesuje? (np. magazyn, logistyka, wózek widłowy, sprzątanie)\n\n"
-        "Odezwiemy się wkrótce!"
-    ),
-    "intake_uk": (
-        "Привіт! 👋 Я з Eurojob-West. Ми раді допомогти вам знайти роботу.\n\n"
-        "Будь ласка, відповідайте:\n"
-        "1️⃣ Ваше повне ім'я\n"
-        "2️⃣ Ваше поточне місцезнаходження (місто/країна)\n"
-        "3️⃣ Яку роботу ви шукаєте? (наприклад, склад, логістика, навантажувач, прибирання)\n\n"
-        "Ми незабаром зв'яжемося з вами!"
-    ),
-}
-
-
-@router.post(
-    "/whatsapp/send",
-    response_model=WhatsAppSendResponse,
-    dependencies=[Depends(_require_openclaw_key)],
-    summary="Send WhatsApp message to a candidate via Meta Graph API",
-)
-async def send_whatsapp_to_candidate(
-    body: WhatsAppSendRequest,
-    db: AsyncSession = Depends(get_db),
-) -> WhatsAppSendResponse:
-    from app.services.whatsapp import normalize_phone, send_whatsapp_message
-
-    result = await db.execute(select(Candidate).where(Candidate.id == body.candidate_id))
-    candidate = result.scalar_one_or_none()
-    if candidate is None:
-        raise HTTPException(status_code=404, detail="Candidate not found")
-    if not candidate.phone:
-        raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
-
-    template_key = body.template_name.lower()
-    message_body = _TEMPLATE_BODIES.get(template_key)
-    if message_body is None:
-        available = ", ".join(sorted(_TEMPLATE_BODIES.keys()))
-        raise HTTPException(
-            status_code=status.HTTP_422_UNPROCESSABLE_ENTITY,
-            detail=f"Unknown template '{body.template_name}'. Available: {available}",
-        )
-
-    phone = normalize_phone(candidate.phone)
-    ok = await send_whatsapp_message(to=phone, body=message_body)
-    if not ok:
-        raise HTTPException(
-            status_code=status.HTTP_502_BAD_GATEWAY,
-            detail="Meta Graph API rejected the message — check WHATSAPP_ACCESS_TOKEN and WHATSAPP_PHONE_NUMBER_ID",
-        )
-
-    logger.info(
-        "openclaw.whatsapp_send.ok template=%s to=%s",
-        body.template_name,
-        phone[-4:],
-    )
-    return WhatsAppSendResponse(
-        message_sid="meta-" + phone[-4:],
-        to=phone,
-        status="sent",
-    )
 
 
 # ---------------------------------------------------------------------------
@@ -623,4 +493,129 @@ async def upload_drive_file(body: DriveUploadRequest) -> DriveUploadResponse:
         web_view_link=result.get("webViewLink", ""),
         mime_type=result.get("mimeType", body.mime_type),
         size=str(result.get("size", "")),
+    )
+
+
+# ---------------------------------------------------------------------------
+# GET /api/openclaw/candidates/{candidate_id}/contact  (EUR-2244)
+# ---------------------------------------------------------------------------
+
+
+class CandidateContactResponse(BaseModel):
+    phone: str
+    first_name: str | None
+    last_name: str | None
+
+
+@router.get(
+    "/candidates/{candidate_id}/contact",
+    response_model=CandidateContactResponse,
+    dependencies=[Depends(_require_openclaw_key)],
+    summary="Get candidate contact details for WhatsApp outreach",
+    description=(
+        "Returns the full E.164 phone number, first name, and last name for a candidate. "
+        "Intended for OpenClaw to initiate WhatsApp template messages without the "
+        "masked-phone limitation of the whatsapp-inbox feed."
+    ),
+)
+async def get_candidate_contact(
+    candidate_id: UUID,
+    db: AsyncSession = Depends(get_db),
+) -> CandidateContactResponse:
+    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
+    candidate = result.scalar_one_or_none()
+    if not candidate:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+
+    return CandidateContactResponse(
+        phone=candidate.phone or "",
+        first_name=candidate.first_name,
+        last_name=candidate.last_name,
+    )
+
+
+# ---------------------------------------------------------------------------
+# POST /api/openclaw/whatsapp/send  (EUR-2244)
+# ---------------------------------------------------------------------------
+
+
+class WhatsAppSendRequest(BaseModel):
+    candidate_id: str
+    template_name: str
+    language_code: str = "pl"
+    template_variables: dict[str, Any] | None = None
+
+
+class WhatsAppSendResponse(BaseModel):
+    message_id: str
+    to: str
+    status: str
+
+
+@router.post(
+    "/whatsapp/send",
+    response_model=WhatsAppSendResponse,
+    dependencies=[Depends(_require_openclaw_key)],
+    summary="Send WhatsApp template message to a candidate via Meta API",
+    description=(
+        "Resolves the candidate's E.164 phone number from the database and sends a "
+        "Meta WhatsApp Business API template message. "
+        "template_variables keys must be numeric strings ('1', '2', ...) "
+        "mapping to positional body parameters."
+    ),
+)
+async def send_whatsapp_to_candidate(
+    body: WhatsAppSendRequest,
+    db: AsyncSession = Depends(get_db),
+) -> WhatsAppSendResponse:
+    try:
+        cid = UUID(body.candidate_id)
+    except ValueError:
+        raise HTTPException(status_code=422, detail="Invalid candidate ID format")
+
+    result = await db.execute(select(Candidate).where(Candidate.id == cid))
+    candidate = result.scalar_one_or_none()
+    if not candidate:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+
+    if not candidate.phone:
+        raise HTTPException(status_code=422, detail="Candidate has no phone number on record")
+
+    # Convert dict[str, Any] with numeric keys ('1', '2', ...) to ordered list[str]
+    body_params: list[str] | None = None
+    if body.template_variables:
+        numeric_keys = [k for k in body.template_variables if k.isdigit()]
+        if numeric_keys:
+            max_key = max(int(k) for k in numeric_keys)
+            body_params = [str(body.template_variables.get(str(i), "")) for i in range(1, max_key + 1)]
+
+    phone = normalize_phone(candidate.phone)
+    message_id = await send_whatsapp_template(
+        to=phone,
+        template_name=body.template_name,
+        language_code=body.language_code,
+        body_params=body_params,
+    )
+
+    if message_id is None:
+        logger.error(
+            "openclaw.whatsapp_send.failed to=%s template=%s",
+            phone,
+            body.template_name,
+        )
+        raise HTTPException(
+            status_code=status.HTTP_502_BAD_GATEWAY,
+            detail="Meta WhatsApp API call failed — check server logs",
+        )
+
+    logger.info(
+        "openclaw.whatsapp_send.ok to=%s template=%s wamid=%s",
+        phone,
+        body.template_name,
+        message_id,
+    )
+    return WhatsAppSendResponse(
+        message_id=message_id,
+        to=candidate.phone,
+        status="sent",
     )
