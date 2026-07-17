@@ -65,7 +65,12 @@ from app.services.google_workspace import (
     gmail_label_message,
     gmail_list_messages,
 )
-from app.services.whatsapp import normalize_phone, send_whatsapp_template
+from app.services.whatsapp import (
+    WhatsAppAPIError,
+    WhatsAppConfigError,
+    normalize_phone,
+    send_whatsapp_template,
+)
 
 router = APIRouter(prefix="/api/openclaw", tags=["openclaw"])
 logger = logging.getLogger(__name__)
@@ -590,22 +595,29 @@ async def send_whatsapp_to_candidate(
             body_params = [str(body.template_variables.get(str(i), "")) for i in range(1, max_key + 1)]
 
     phone = normalize_phone(candidate.phone)
-    message_id = await send_whatsapp_template(
-        to=phone,
-        template_name=body.template_name,
-        language_code=body.language_code,
-        body_params=body_params,
-    )
-
-    if message_id is None:
+    try:
+        message_id = await send_whatsapp_template(
+            to=phone,
+            template_name=body.template_name,
+            language_code=body.language_code,
+            body_params=body_params,
+        )
+    except WhatsAppConfigError:
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail="WhatsApp credentials not configured — set WHATSAPP_ACCESS_TOKEN and WHATSAPP_PHONE_NUMBER_ID in Railway",
+        )
+    except WhatsAppAPIError as exc:
         logger.error(
-            "openclaw.whatsapp_send.failed to=%s template=%s",
+            "openclaw.whatsapp_send.meta_error to=%s template=%s status=%s body=%s",
             phone,
             body.template_name,
+            exc.status_code,
+            exc.body,
         )
         raise HTTPException(
             status_code=status.HTTP_502_BAD_GATEWAY,
-            detail="Meta WhatsApp API call failed — check server logs",
+            detail=f"Meta API error {exc.status_code}: {exc.body}",
         )
 
     logger.info(
