@@ -55,7 +55,7 @@ _PESEL_RE = re.compile(r"\b\d{11}\b")
 _ID_CARD_RE = re.compile(r"\b[A-Z]{2}\d{7}\b")
 
 _COMPANY_ID = "679a5f1a-b4bf-46ad-b414-09a0ee02bf78"
-_CMO_AGENT_ID = "c3603c44-a0d3-49e0-8fa5-776eaa20b945"
+_OPENCLAW_AGENT_ID = "5864221d-6a66-42e7-a99c-5b0e9274b9ee"
 _GOAL_ID = "b6976126-bb68-4311-8dc4-1902aa7ef9d4"
 
 
@@ -170,7 +170,7 @@ async def create_intake_paperclip_issue(
                 "title": f"WhatsApp candidate intake — {phone}",
                 "description": description,
                 "priority": "critical" if has_pii else "high",
-                "assigneeAgentId": _CMO_AGENT_ID,
+                "assigneeAgentId": _OPENCLAW_AGENT_ID,
                 "goalId": _GOAL_ID,
                 "originKind": "whatsapp_candidate_intake",
                 "originId": wamid,
