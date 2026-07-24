@@ -178,6 +178,9 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
                 await send_whatsapp_message(normalised_phone, ack)
             except Exception as ack_exc:  # noqa: BLE001
                 logger.exception("[whatsapp_webhook] B2C ack send failed: %s", ack_exc)
+            # Ack the inbox event immediately — Paperclip creation is best-effort.
+            if event:
+                event.acknowledged_at = datetime.now(tz=UTC)
             try:
                 issue_id = await create_intake_paperclip_issue(
                     phone="+" + normalised_phone,
@@ -190,7 +193,6 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
                 )
                 if issue_id and event:
                     event.paperclip_issue_id = issue_id
-                    event.acknowledged_at = datetime.now(tz=UTC)
             except Exception as pp_exc:  # noqa: BLE001
                 logger.exception(
                     "[whatsapp_webhook] Paperclip intake issue creation failed: %s", pp_exc
