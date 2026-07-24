@@ -183,6 +183,19 @@ async def create_intake_paperclip_issue(
             logger.info("[b2c_intake] Created intake issue %s for %s", issue_id, phone)
             return issue_id or None
 
+    except httpx.HTTPStatusError as exc:
+        logger.warning(
+            "[b2c_intake] Paperclip API returned HTTP %s for %s — issue queued for sweep retry",
+            exc.response.status_code,
+            phone,
+        )
+        return None
+    except httpx.TimeoutException:
+        logger.warning(
+            "[b2c_intake] Paperclip API timed out for %s — issue queued for sweep retry",
+            phone,
+        )
+        return None
     except Exception as exc:  # noqa: BLE001
-        logger.exception("[b2c_intake] Failed to create Paperclip issue for %s: %s", phone, exc)
+        logger.exception("[b2c_intake] Unexpected error creating Paperclip issue for %s: %s", phone, exc)
         return None

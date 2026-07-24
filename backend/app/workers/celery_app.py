@@ -10,6 +10,7 @@ celery_app = Celery(
     include=[
         "app.workers.tasks.notifications",
         "app.workers.tasks.facebook",
+        "app.workers.tasks.b2c_intake_retry",
     ],
 )
 
@@ -34,6 +35,11 @@ celery_app.conf.update(
         "post-scheduled-facebook": {
             "task": "post_scheduled_facebook",
             "schedule": crontab(minute="*/30"),
+        },
+        # every 15 min — retry B2C Paperclip issue creation after tunnel flaps (EUR-2433)
+        "retry-pending-b2c-paperclip-issues": {
+            "task": "workers.tasks.b2c_intake_retry.sweep_pending_paperclip_issues",
+            "schedule": crontab(minute="*/15"),
         },
     },
 )

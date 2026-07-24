@@ -7,6 +7,9 @@ Coverage:
   - get_b2c_ack_text: returns correct language string
   - Webhook: new contact + PAPERCLIP_SERVICE_TOKEN set → B2C path fires
   - Webhook: existing candidate with active session → B2C path skipped
+  - create_intake_paperclip_issue: 5xx → WARNING log, returns None
+  - create_intake_paperclip_issue: timeout → WARNING log, returns None
+  - sweep_pending_paperclip_issues: retries acked events with null paperclip_issue_id
 """
 
 from __future__ import annotations
@@ -14,14 +17,18 @@ from __future__ import annotations
 import hashlib
 import hmac
 import json
+import uuid
+from datetime import UTC, datetime
 from unittest.mock import AsyncMock, MagicMock, patch
 
+import httpx
 import pytest
 from httpx import ASGITransport, AsyncClient
 
 from app.main import app
 from app.services.b2c_intake import (
     B2C_ACK,
+    create_intake_paperclip_issue,
     detect_language,
     detect_pii,
     get_b2c_ack_text,
@@ -267,3 +274,173 @@ async def test_webhook_b2c_path_skipped_for_active_session() -> None:
 
         assert resp.status_code == 200
         mock_create.assert_not_called()
+
+
+# ---------------------------------------------------------------------------
+# create_intake_paperclip_issue — upstream error handling
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_create_issue_logs_warning_on_5xx(caplog: pytest.LogCaptureFixture) -> None:
+    """5xx from Paperclip proxy → WARNING log with status code, returns None."""
+    import logging
+
+    mock_response = MagicMock()
+    mock_response.status_code = 502
+
+    with (
+        patch("app.services.b2c_intake.settings") as mock_settings,
+        patch("app.services.b2c_intake.httpx.AsyncClient") as mock_client_cls,
+    ):
+        mock_settings.paperclip_bot_api_key = "pp-key"
+        mock_settings.paperclip_api_url = "https://app.paperclip.ing"
+
+        mock_client = AsyncMock()
+        mock_client_cls.return_value.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client_cls.return_value.__aexit__ = AsyncMock(return_value=False)
+
+        # Search returns 502
+        mock_client.get = AsyncMock(
+            return_value=MagicMock(status_code=502)
+        )
+        # Create raises HTTPStatusError
+        mock_client.post = AsyncMock(
+            side_effect=httpx.HTTPStatusError(
+                "502", request=MagicMock(), response=mock_response
+            )
+        )
+
+        with caplog.at_level(logging.WARNING, logger="app.services.b2c_intake"):
+            result = await create_intake_paperclip_issue(
+                phone="+48123456789",
+                candidate_id="cand-001",
+                message_text="Szukam pracy",
+                wamid="wamid.001",
+                language="pl",
+                has_pii=False,
+                pii_types=[],
+            )
+
+    assert result is None
+    assert any("502" in r.message for r in caplog.records if r.levelno == logging.WARNING)
+
+
+@pytest.mark.asyncio
+async def test_create_issue_logs_warning_on_timeout(caplog: pytest.LogCaptureFixture) -> None:
+    """Timeout from Paperclip proxy → WARNING log, returns None."""
+    import logging
+
+    with (
+        patch("app.services.b2c_intake.settings") as mock_settings,
+        patch("app.services.b2c_intake.httpx.AsyncClient") as mock_client_cls,
+    ):
+        mock_settings.paperclip_bot_api_key = "pp-key"
+        mock_settings.paperclip_api_url = "https://app.paperclip.ing"
+
+        mock_client = AsyncMock()
+        mock_client_cls.return_value.__aenter__ = AsyncMock(return_value=mock_client)
+        mock_client_cls.return_value.__aexit__ = AsyncMock(return_value=False)
+
+        mock_client.get = AsyncMock(side_effect=httpx.TimeoutException("timed out"))
+
+        with caplog.at_level(logging.WARNING, logger="app.services.b2c_intake"):
+            result = await create_intake_paperclip_issue(
+                phone="+48123456789",
+                candidate_id="cand-001",
+                message_text="Szukam pracy",
+                wamid="wamid.001",
+                language="pl",
+                has_pii=False,
+                pii_types=[],
+            )
+
+    assert result is None
+    assert any("timed out" in r.message.lower() or "retry" in r.message.lower() for r in caplog.records if r.levelno == logging.WARNING)
+
+
+# ---------------------------------------------------------------------------
+# sweep_pending_paperclip_issues — retry task
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_sweep_retries_pending_events() -> None:
+    """Sweep picks up acked events with null paperclip_issue_id and links them."""
+    from app.workers.tasks.b2c_intake_retry import _sweep
+
+    event_id = uuid.uuid4()
+    cand_id = uuid.uuid4()
+
+    mock_event = MagicMock()
+    mock_event.id = event_id
+    mock_event.candidate_id = cand_id
+    mock_event.message_text = "Szukam pracy"
+    mock_event.paperclip_issue_id = None
+
+    mock_candidate = MagicMock()
+    mock_candidate.id = cand_id
+    mock_candidate.phone = "+48999888777"
+
+    mock_db = AsyncMock()
+    mock_db.commit = AsyncMock()
+    mock_db.__aenter__ = AsyncMock(return_value=mock_db)
+    mock_db.__aexit__ = AsyncMock(return_value=False)
+
+    # First execute: returns events; second: returns candidate
+    mock_db.execute = AsyncMock(
+        side_effect=[
+            MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[mock_event])))),
+            MagicMock(scalar_one_or_none=MagicMock(return_value=mock_candidate)),
+        ]
+    )
+
+    with (
+        patch("app.workers.tasks.b2c_intake_retry.AsyncSessionLocal", return_value=mock_db),
+        patch(
+            "app.workers.tasks.b2c_intake_retry.create_intake_paperclip_issue",
+            new_callable=AsyncMock,
+            return_value="EUR-5001",
+        ) as mock_create,
+    ):
+        await _sweep()
+
+    mock_create.assert_called_once()
+    call_kwargs = mock_create.call_args.kwargs
+    assert call_kwargs["phone"] == "+48999888777"
+    assert mock_event.paperclip_issue_id == "EUR-5001"
+    mock_db.commit.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_sweep_skips_event_when_candidate_missing() -> None:
+    """Sweep skips an event when the candidate row has no phone."""
+    from app.workers.tasks.b2c_intake_retry import _sweep
+
+    mock_event = MagicMock()
+    mock_event.id = uuid.uuid4()
+    mock_event.candidate_id = uuid.uuid4()
+    mock_event.message_text = "Szukam pracy"
+
+    mock_db = AsyncMock()
+    mock_db.commit = AsyncMock()
+    mock_db.__aenter__ = AsyncMock(return_value=mock_db)
+    mock_db.__aexit__ = AsyncMock(return_value=False)
+    mock_db.execute = AsyncMock(
+        side_effect=[
+            MagicMock(scalars=MagicMock(return_value=MagicMock(all=MagicMock(return_value=[mock_event])))),
+            MagicMock(scalar_one_or_none=MagicMock(return_value=None)),  # candidate not found
+        ]
+    )
+
+    with (
+        patch("app.workers.tasks.b2c_intake_retry.AsyncSessionLocal", return_value=mock_db),
+        patch(
+            "app.workers.tasks.b2c_intake_retry.create_intake_paperclip_issue",
+            new_callable=AsyncMock,
+        ) as mock_create,
+    ):
+        await _sweep()
+
+    mock_create.assert_not_called()
+    mock_db.commit.assert_called_once()
