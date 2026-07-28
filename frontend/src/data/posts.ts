@@ -972,6 +972,288 @@ export const posts: BlogPost[] = [
 <p><em>Artykuł zaktualizowany: czerwiec 2026. Przepisy wg stanu na 2026 r. — ustawa EStG, DBA DE-PL z 2003 r., Pendlerpauschale wg § 9 EStG. Artykuł ma charakter informacyjny i nie stanowi porady podatkowej.</em></p>
     `.trim(),
   },
+  {
+    slug: "zakwaterowanie-pracownicy-niemcy",
+    title: "Zakwaterowanie dla pracowników w Niemczech — co zapewnia agencja i co kosztuje (2026)",
+    description:
+      "Zakwaterowanie pracownicy Niemcy: kiedy agencja zapewnia kwaterę, jakie są koszty, co sprawdzić przed podpisaniem umowy i jak uniknąć ukrytych potrąceń.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Jednym z pierwszych pytań kandydatów rozmawiających z Nexflow jest: <strong>czy agencja zapewnia zakwaterowanie?</strong> Odpowiedź brzmi: to zależy od stanowiska i lokalizacji. Ten artykuł wyjaśnia, kiedy kwatera jest częścią pakietu, co kosztuje i jak uniknąć nieprzyjemnych niespodzianek zanim podpiszesz umowę.</p>
+
+<h2>Kiedy agencja zapewnia zakwaterowanie?</h2>
+<p>Agencje pracy tymczasowej, w tym Nexflow, oferują zakwaterowanie pracownicze głównie w dwóch sytuacjach:</p>
+<ul>
+  <li><strong>Gdy miejsce pracy jest zbyt odległe od granicy</strong>, by dojeżdżać codziennie z Polski (ponad 50–80 km od Słubic / Zgorzelca)</li>
+  <li><strong>Gdy pracodawca posiada własną kwaterę pracowniczą</strong> i włącza ją do pakietu rekrutacyjnego jako element przyciągający kandydatów</li>
+</ul>
+<p>Przy ofertach w regionie Frankfurt nad Odrą–Słubice zakwaterowanie jest zazwyczaj <strong>opcjonalne</strong> — większość pracowników dojeżdża z Polski. Dla stanowisk w głębi Niemiec (np. Berlin, Hamburg, Hannover) zakwaterowanie jest częściej konieczne.</p>
+
+<h2>Ile kosztuje zakwaterowanie pracownicze w Niemczech?</h2>
+<p>Gdy agencja lub pracodawca zapewnia kwaterę, koszt jej wynajmu jest <strong>odliczany od wynagrodzenia netto</strong>. Typowe stawki (2026):</p>
+<table>
+  <thead>
+    <tr>
+      <th>Rodzaj zakwaterowania</th>
+      <th>Koszt miesięczny (odliczenie od netto)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Łóżko w pokoju wieloosobowym (4–6 osób)</td>
+      <td>150–250 EUR/miesiąc</td>
+    </tr>
+    <tr>
+      <td>Łóżko w pokoju 2–3-osobowym</td>
+      <td>250–350 EUR/miesiąc</td>
+    </tr>
+    <tr>
+      <td>Pokój jednoosobowy (rzadkość)</td>
+      <td>350–500 EUR/miesiąc</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Co jest zazwyczaj wliczone:</strong> łóżko z pościelą, dostęp do kuchni i łazienki, Wi-Fi, media. Jedzenie i pranie — zazwyczaj poza pakietem.</p>
+<blockquote><p><strong>Ważna zasada:</strong> Zgodnie z § 9 AÜG pracodawca/agencja nie może pobierać za zakwaterowanie kwoty wyższej niż rynkowa stawka czynszu w danym regionie. Maksymalny dzienny odpis to ok. 8,80 EUR (2026). Jeśli agencja chce potrącać więcej — masz prawo odmówić.</p></blockquote>
+
+<h2>Co sprawdzić przed podpisaniem umowy zawierającej zakwaterowanie?</h2>
+<ol>
+  <li><strong>Dokładna kwota odliczenia od wynagrodzenia</strong> — powinna być zapisana w umowie, nie ustalona ustnie</li>
+  <li><strong>Adres i odległość od miejsca pracy</strong> — kwatera 30 km od zakładu bez zapewnionego transportu to poważny problem przy zmianach nocnych</li>
+  <li><strong>Transport z kwatery do pracy</strong> — czy agencja organizuje bus, czy musisz sam dotrzeć?</li>
+  <li><strong>Regulamin kwatery</strong> — goście, cisza nocna, zasady korzystania z kuchni</li>
+  <li><strong>Co się dzieje z kwaterą po zakończeniu umowy?</strong> — zazwyczaj masz 1–3 dni na opuszczenie</li>
+</ol>
+
+<h2>Kwatera pracownicza a Anmeldung (meldunek w Niemczech)</h2>
+<p>Jeśli mieszkasz w kwaterze pracowniczej dłużej niż 3 miesiące bez regularnych powrotów do Polski, formalnie powinieneś się zameldować (<em>Anmeldung</em>) w urzędzie gminy (<em>Einwohnermeldeamt</em>). W praktyce:</p>
+<ul>
+  <li>Pracownicy przygraniczni wracający do Polski co tydzień lub częściej zazwyczaj nie meldują się w Niemczech</li>
+  <li>Przy zakwaterowaniu przez cały kontrakt i braku regularnych powrotów — meldunek jest wskazany i może być wymagany przez właściciela kwatery</li>
+  <li>Meldunek w Niemczech wiąże się z obowiązkiem płacenia kościelnego podatku (<em>Kirchensteuer</em>) — możesz wskazać przynależność do innego kościoła lub jego brak</li>
+</ul>
+
+<h2>Alternatywa: wynajem na własną rękę po stronie polskiej</h2>
+<p>Dla pracowników w regionie Frankfurt nad Odrą wynajem pokoju w Polsce jest często tańszy:</p>
+<ul>
+  <li>Słubice, Rzepin, Świecko — pokoje od 700–1 000 PLN/miesiąc (ok. 160–240 EUR)</li>
+  <li>Czas dojazdu do centrum Frankfurtu nad Odrą: 5–25 minut</li>
+  <li>Niższe koszty życia, własna kuchnia, brak regulaminu kwatery pracowniczej</li>
+</ul>
+<p>Szukasz pracy w Niemczech bez konieczności zakwaterowania? Sprawdź: <a href="/blog/jak-znalezc-prace-w-niemczech-2025">Jak znaleźć pracę w Niemczech — przewodnik</a>. Co zabrać na wyjazd: <a href="/blog/co-zabrac-do-pracy-w-niemczech-checklista">Checklista przed wyjazdem</a>.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy mogę zabrać partnera/partnerkę do kwatery pracowniczej?</strong><br/>Zazwyczaj nie — kwatery są przeznaczone wyłącznie dla pracowników agencji lub pracodawcy. Goście są dozwoleni na krótkie wizyty.</p>
+<p><strong>Czy kwatera jest obowiązkowa, jeśli ją oferuje agencja?</strong><br/>Nie — możesz odmówić i zorganizować zakwaterowanie samodzielnie. Poinformuj agencję na początku rekrutacji.</p>
+<p><strong>Co zabrać do kwatery pracowniczej?</strong><br/>Ręczniki, środki higieny, zamek do szafki, podstawowe leki. Pościel jest zazwyczaj zapewniona. Sprawdź: <a href="/blog/co-zabrac-do-pracy-w-niemczech-checklista">Checklista przed wyjazdem do Niemiec</a>.</p>
+
+<hr/>
+<p><strong>Nexflow informuje o kosztach zakwaterowania przed podpisaniem umowy</strong> — pełna transparentność to nasz standard. Żadnych ukrytych potrąceń.</p>
+<p><strong><a href="/praca">Wyślij zgłoszenie na nexflow.work/praca →</a></strong> Rekruter odpowie w ciągu jednego dnia roboczego.</p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Maksymalne stawki odliczenia wg § 9 AÜG i rozporządzenia Mindestlohn 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "praca-w-chlodni-niemcy",
+    title: "Praca w chłodni w Niemczech — stawki, wymagania i co warto wiedzieć przed startem (2026)",
+    description:
+      "Praca w chłodni Niemcy: wymagania zdrowotne, stawki 14,50–18,50 EUR/h, odzież ochronna, badanie G21 i które zakłady chłodnicze rekrutują przez agencje w regionie DE-PL.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Centra logistyczne obsługujące sklepy spożywcze, supermarkety i sieci gastronomiczne potrzebują pracowników gotowych pracować w warunkach chłodniczych i mroźniczych. <strong>Praca w chłodni w Niemczech</strong> to nisza łącząca wyższe stawki z konkretnymi wymaganiami zdrowotnymi. Oto kompletny przegląd — zanim wyślesz zgłoszenie.</p>
+
+<h2>Rodzaje zakładów chłodniczych w Niemczech</h2>
+<ul>
+  <li><strong>Chłodnia produktów świeżych (+2 do +8°C)</strong> — warzywa, owoce, nabiał, wędliny. Najłagodniejsze warunki.</li>
+  <li><strong>Chłodnia mięsna (0 do +4°C)</strong> — zakłady mięsne, przetwórnie. Wymaga zaświadczenia lekarskiego.</li>
+  <li><strong>Mroźnia/magazyn mroźniczy (−18 do −25°C)</strong> — mrożonki, lody, ryby. Najostrzejsze wymagania zdrowotne i odzieżowe.</li>
+  <li><strong>Komora chłodnicza cross-dock (0 do +6°C)</strong> — sieci Lidl/Aldi/Rewe. Przeładunek dostaw w cyklu dziennym.</li>
+</ul>
+<p>W regionie Frankfurt nad Odrą i Berlin–Brandenburg działają duże centra dystrybucji sieci spożywczych, w których Nexflow regularnie rekrutuje pracowników chłodni.</p>
+
+<h2>Zarobki w chłodni — ile można zarobić więcej?</h2>
+<p>Praca w warunkach chłodniczych i mroźniczych jest wyceniana wyżej niż standardowa praca magazynowa. Stawki (Zeitarbeit, region Brandenburg/Berlin, 2026):</p>
+<table>
+  <thead>
+    <tr>
+      <th>Typ chłodni</th>
+      <th>Stawka godzinowa brutto</th>
+      <th>Dodatek za warunki</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chłodnia świeżych (+2 do +8°C)</td>
+      <td>14,50–16,00 EUR/h</td>
+      <td>+0–0,50 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Chłodnia mięsna (0 do +4°C)</td>
+      <td>15,00–17,00 EUR/h</td>
+      <td>+0,50–1,00 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Mroźnia (−18 do −25°C)</td>
+      <td>16,00–18,50 EUR/h</td>
+      <td>+1,00–2,00 EUR/h</td>
+    </tr>
+  </tbody>
+</table>
+<blockquote><p>Operator wózka widłowego z uprawnieniami UDT pracujący w mroźni 3-zmianowej może realnie zarobić <strong>2 200–2 600 EUR netto/miesiąc</strong> z dodatkami nocnymi i za warunki.</p></blockquote>
+
+<h2>Wymagania zdrowotne — badanie G21 / G25</h2>
+<p>Praca w chłodni i mroźni wymaga zaświadczenia od lekarza medycyny pracy (<em>Betriebsarzt</em>). Badanie obejmuje ocenę układu sercowo-naczyniowego i oddechowego pod kątem narażenia na zimno.</p>
+<p><strong>Kto nie powinien pracować w mroźni?</strong></p>
+<ul>
+  <li>Osoby z chorobami naczyń obwodowych (Raynaud), reumatyzmem lub poważnymi schorzeniami stawów</li>
+  <li>Osoby z astmą wymagającą ciągłego leczenia — po konsultacji z lekarzem</li>
+  <li>Kobiety w ciąży — wyłączone ustawowo z pracy w temperaturach poniżej 0°C</li>
+</ul>
+<p>Nexflow informuje z góry, jakie badanie jest wymagane na danym stanowisku, i pomaga je umówić po obu stronach granicy.</p>
+
+<h2>Odzież i wyposażenie do pracy w chłodni</h2>
+<p><strong>Co zapewnia pracodawca:</strong> kurtka i spodnie ocieplane, rękawice termoizolacyjne, kamizelka odblaskowa.</p>
+<p><strong>Co warto zabrać samemu:</strong></p>
+<ul>
+  <li>Termoaktywna bielizna (baza termiczna) — polecamy merino lub syntetyk, nie bawełnę</li>
+  <li>Ciepłe skarpety wełniane lub termoaktywne</li>
+  <li>Kominiarka lub czapka pod hełm przy załadunku zewnętrznym</li>
+  <li>Buty z podnoskiem z izolacją termiczną — standardowe buty S1 mogą być niewystarczające przy −20°C</li>
+</ul>
+<blockquote><p><strong>Praktyczna wskazówka:</strong> W mroźni z cyrkulacją powietrza odczuwalny chłód jest o 5–8°C niższy niż wskazuje termometr. Odpowiednie warstwowanie ubrania to konieczność.</p></blockquote>
+
+<h2>Jak wygląda dzień pracy w chłodni?</h2>
+<p><strong>Przykładowy grafik operatora wózka w centrum dystrybucji chłodniczej (zmiana 06:00–14:00):</strong></p>
+<ol>
+  <li>Odbiór wózka, kontrola stanu — w strefie przejściowej (+8°C)</li>
+  <li>Rozładunek dostaw z tirów do strefy chłodniczej — praca przemiennie przy rampie i w chłodni</li>
+  <li>Odkładanie palet na lokacje według systemu WMS</li>
+  <li>Przerwa w ciepłej strefie socjalnej (30 min — obowiązkowe przy ekspozycji na zimno powyżej 1 h)</li>
+  <li>Kompletowanie zamówień do sklepów</li>
+  <li>Zdanie wózka, protokół zmianowy</li>
+</ol>
+<p><strong>Ważne:</strong> Przerwy w ciepłej strefie przy pracy w mroźni są obowiązkowe z mocy prawa (Arbeitsstättenverordnung). Pracodawca nie może ich pomijać.</p>
+
+<h2>Czy do pracy w chłodni potrzebne są dodatkowe uprawnienia?</h2>
+<p>Same warunki chłodnicze nie wymagają dodatkowych uprawnień poza standardowymi (UDT przy wózkach). Wyjątki:</p>
+<ul>
+  <li><strong>Zakłady mięsne</strong> — szkolenie z zasad higieny żywności (HACCP) jest zazwyczaj organizowane przez pracodawcę w pierwszym tygodniu</li>
+  <li><strong>Obsługa urządzeń chłodniczych z F-gazami</strong> — wymagana certyfikacja (F-Gase Verordnung). Dotyczy techników, nie operatorów.</li>
+</ul>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy można pracować w chłodni bez doświadczenia?</strong><br/>Tak — pozycje kompletacyjne w chłodniach świeżych są dostępne dla osób bez doświadczenia. Mroźnie zazwyczaj preferują kandydatów z co najmniej 3-miesięcznym stażem w logistyce.</p>
+<p><strong>Czy praca w chłodni jest szkodliwa dla zdrowia?</strong><br/>Przy odpowiedniej odzieży, przestrzeganiu przerw i braku przeciwwskazań zdrowotnych — nie. Badanie G21 wstępnie weryfikuje, czy kandydat może bezpiecznie pracować w niskich temperaturach.</p>
+<p><strong>Jak szybko przyzwyczajam się do warunków?</strong><br/>Większość nowych pracowników adaptuje się w ciągu 1–2 tygodni. Kluczowe jest prawidłowe warstwowanie ubrania od pierwszego dnia.</p>
+
+<p>Szukasz pracy w magazynie bez warunków chłodniczych? Sprawdź: <a href="/blog/praca-na-wozku-widlowym-niemcy">Praca forklift Niemcy — wymagania i zarobki</a>.</p>
+
+<hr/>
+<p><strong>Nexflow regularnie rekrutuje pracowników chłodni</strong> dla centrów dystrybucji sieci spożywczych w regionie Berlin–Brandenburg. Jeśli nie masz obaw zdrowotnych i szukasz wyższej stawki — chłodnia to dobry wybór.</p>
+<p><strong><a href="/praca">Sprawdź aktualne oferty i wyślij zgłoszenie na nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Stawki wg Tarifvertrag Zeitarbeit (BAP/iGZ) i danych rynkowych regionu Brandenburg, 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "urlop-l4-prawa-pracownicze-niemcy",
+    title: "Urlop, zwolnienie lekarskie i Kurzarbeit — prawa pracownika w Niemczech po polsku (2026)",
+    description:
+      "Urlop w Niemczech, L4 (Krankmeldung), zasiłek chorobowy Krankengeld i Kurzarbeit — jak działają prawa pracownicze dla Polaków zatrudnionych przez agencję tymczasową.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Pracujesz lub planujesz pracę w Niemczech przez agencję? Prawa pracownicze — urlop, zwolnienie lekarskie, zasiłek chorobowy — to obszar, który często wywołuje niepewność. Ten poradnik wyjaśnia, jak działają te prawa dla Polaków zatrudnionych przez agencję tymczasową w oparciu o przepisy z 2026 roku.</p>
+
+<h2>Urlop w Niemczech — ile dni i jak rozliczać?</h2>
+<p>Ustawowe minimum to <strong>20 dni roboczych</strong> urlopu przy pracy 5 dni w tygodniu (§ 3 BUrlG). W praktyce pracownicy Nexflow objęci <em>Tarifvertrag Zeitarbeit</em> (BAP/iGZ) mają prawo do <strong>25–28 dni</strong> w zależności od stażu pracy:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Staż pracy w agencji</th>
+      <th>Wymiar urlopu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Do 12 miesięcy</td>
+      <td>25 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>13–24 miesiące</td>
+      <td>26 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>25–36 miesięcy</td>
+      <td>27 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>Powyżej 36 miesięcy</td>
+      <td>28 dni roboczych/rok</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Ważne zasady:</strong></p>
+<ul>
+  <li>Urlop nalicza się od pierwszego dnia pracy — nawet przy umowie na 3 miesiące</li>
+  <li>Urlopu nie można wypłacić zamiast jego wykorzystania — chyba że umowa wygasa przed jego pobraniem</li>
+  <li>Urlop powinien być uzgodniony z agencją z wyprzedzeniem (zazwyczaj 2–4 tygodnie)</li>
+  <li>Niewykorzystany urlop z bieżącego roku można przenieść do 31 marca następnego roku (§ 7 BUrlG)</li>
+</ul>
+<blockquote><p><strong>Pracownicy agencji vs. stali:</strong> Tarifvertrag Zeitarbeit (BAP/iGZ) daje pracownikom tymczasowym porównywalny wymiar urlopu do pracowników stałych — to jeden z efektów reformy AÜG z 2017 roku.</p></blockquote>
+
+<h2>Zwolnienie lekarskie (Krankmeldung) — jak postępować?</h2>
+<p>Jeśli zachorujesz, masz <strong>obowiązek poinformowania agencji niezwłocznie</strong> — najlepiej telefonicznie przed godziną rozpoczęcia zmiany.</p>
+<p><strong>Procedura krok po kroku:</strong></p>
+<ol>
+  <li>Zadzwoń lub wyślij wiadomość do agencji <strong>przed zmianą</strong> (nie w jej trakcie)</li>
+  <li>Udaj się do lekarza — <strong>od 4. dnia choroby</strong> wymagane jest zaświadczenie lekarskie (<em>Arbeitsunfähigkeitsbescheinigung</em> / AU-Bescheinigung)</li>
+  <li>Dostarcz zaświadczenie do agencji do 3 dni roboczych od wystawienia</li>
+</ol>
+<p><strong>Co dostajesz podczas choroby?</strong></p>
+<ul>
+  <li><strong>Pierwsze 6 tygodni (42 dni):</strong> <em>Entgeltfortzahlung</em> — agencja wypłaca 100% wynagrodzenia netto. Obowiązuje po 4 tygodniach przepracowania.</li>
+  <li><strong>Od 7. tygodnia:</strong> <em>Krankengeld</em> — zasiłek z kasy chorych (Krankenkasse), ok. 70% wynagrodzenia brutto / 90% netto. Maksymalnie przez 72 tygodnie przy tej samej chorobie.</li>
+</ul>
+<p><strong>Do jakiego lekarza iść?</strong></p>
+<ul>
+  <li>Jesteś w systemie GKV (niemieckiej kasy chorych) → lekarz pierwszego kontaktu (<em>Kassenarzt</em>)</li>
+  <li>Masz EKUZ i A1 (polskie ubezpieczenie) → masz prawo do pilnej pomocy medycznej u lekarza przyjmującego EKUZ; unikaj prywatnych klinik (<em>Privatpraxis</em>) — będą kosztowne</li>
+</ul>
+<blockquote><p><strong>Uwaga:</strong> W Niemczech nie ma zwolnienia retroaktywnego. Zaświadczenie lekarskie obowiązuje od dnia wystawienia, nie wstecz. Jeśli byłeś chory w poniedziałek i poszedłeś do lekarza w środę — poniedziałek i wtorek mogą być nieusprawiedliwione.</p></blockquote>
+
+<h2>Kurzarbeit — czy dotyczy pracowników agencji?</h2>
+<p><em>Kurzarbeit</em> (skrócony czas pracy) to mechanizm, w którym Bundesagentur für Arbeit dofinansowuje wynagrodzenia, gdy zakład musi zmniejszyć produkcję z przyczyn niezależnych od pracownika (kryzys, brak zamówień).</p>
+<p>Od 2020 roku pracownicy tymczasowi są objęci Kurzarbeit na takich samych zasadach jak pracownicy stali. Wysokość świadczenia: <strong>60% utraconego wynagrodzenia netto</strong> (67% dla osób z dziećmi).</p>
+<p>Przykład: jeśli zakład zmniejsza zamówienie o 50% — agencja może wnioskować o Kurzarbeit i otrzymujesz 60–67% brakujących godzin jako świadczenie z urzędu pracy.</p>
+
+<h2>Okresy wypowiedzenia w pracy tymczasowej</h2>
+<p>Zgodnie z Tarifvertrag Zeitarbeit (BAP/iGZ):</p>
+<ul>
+  <li>Do 1 miesiąca pracy: 2 tygodnie</li>
+  <li>1–3 miesiące: 2 tygodnie</li>
+  <li>Po 3 miesiącach: 4 tygodnie ze skutkiem na koniec lub 15. miesiąca</li>
+  <li>Po 2 latach: 1 miesiąc</li>
+  <li>Po 5 latach: 2 miesiące</li>
+</ul>
+<p><strong>Ochrona przed zwolnieniem (Kündigungsschutz)</strong> obowiązuje od 6. miesiąca zatrudnienia w tej samej agencji. Przed tym progiem agencja może rozwiązać umowę bez podania przyczyny.</p>
+<p>Więcej o porównaniu pracy tymczasowej i stałej: <a href="/blog/praca-tymczasowa-vs-stala-niemcy">Praca tymczasowa vs. stała — co wybrać?</a></p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy muszę iść do lekarza od pierwszego dnia choroby?</strong><br/>Nie — od 4. dnia. Ale jeśli umowa wymaga zaświadczenia od 1. dnia — musisz zastosować się do umowy.</p>
+<p><strong>Czy mogę wziąć urlop w pierwszym tygodniu pracy?</strong><br/>Prawo do pełnego urlopu nabywa się po 6 miesiącach pracy u danego pracodawcy (§ 4 BUrlG). Wcześniej przysługuje proporcjonalna część urlopu przy rozwiązaniu umowy.</p>
+<p><strong>Co jeśli zachoruję w Polsce podczas urlopu?</strong><br/>Możesz uzyskać zaświadczenie od polskiego lekarza. Niemieccy pracodawcy są przyzwyczajeni do takich sytuacji u pracowników transgranicznych — zaświadczenie w języku angielskim lub polskim z tłumaczeniem jest akceptowane.</p>
+<p><strong>Ile wcześniej muszę zgłosić chęć wzięcia urlopu?</strong><br/>Zazwyczaj 2–4 tygodnie — termin jest zapisany w umowie lub regulaminie agencji. Przy ważnych powodach rodzinnych (ślub, pogrzeb) agencja może zaakceptować krótsze zgłoszenie.</p>
+
+<p>Chcesz wiedzieć więcej o zatrudnieniu przez agencję? Przeczytaj: <a href="/blog/jak-wyglada-rekrutacja-nexflow">Jak wygląda rekrutacja w Nexflow?</a> i <a href="/blog/praca-tymczasowa-vs-stala-niemcy">Praca tymczasowa vs. stała — porównanie</a>.</p>
+
+<hr/>
+<p><strong>Nexflow wyjaśnia prawa pracownicze przed podpisaniem umowy</strong> — po polsku, bez żargonu. Twoje prawa to nasz obowiązek.</p>
+<p><strong><a href="/praca">Wyślij zgłoszenie na nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Przepisy wg BUrlG, EntgFG, SGB V, AÜG i Tarifvertrag Zeitarbeit BAP/iGZ 2026. Artykuł ma charakter informacyjny i nie zastępuje porady prawnej.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
