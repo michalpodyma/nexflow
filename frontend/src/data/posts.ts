@@ -1254,6 +1254,127 @@ export const posts: BlogPost[] = [
 <p><em>Artykuł zaktualizowany: lipiec 2026. Przepisy wg BUrlG, EntgFG, SGB V, AÜG i Tarifvertrag Zeitarbeit BAP/iGZ 2026. Artykuł ma charakter informacyjny i nie zastępuje porady prawnej.</em></p>
     `.trim(),
   },
+  {
+    slug: "konto-bankowe-niemcy-pracownik",
+    title: "Jak otworzyć konto bankowe w Niemczech jako pracownik z Polski?",
+    description:
+      "Praktyczny przewodnik dla polskich pracowników delegowanych i sezonowych — które banki są dostępne bez Anmeldung, jakie dokumenty przygotować i jak działa konto online.",
+    date: "2026-07-30",
+    lang: "pl",
+    content: `
+<p>Jednym z pierwszych praktycznych problemów po przyjeździe do pracy w Niemczech jest otwarcie konta bankowego. Bez niego trudno otrzymać wynagrodzenie przelewem, zapłacić za media czy wynająć mieszkanie. Dobra wiadomość: jako obywatel UE masz prawo do <em>Basiskonto</em> (konta podstawowego) w każdym niemieckim banku.</p>
+
+<h2>Czy do otwarcia konta potrzebujesz Anmeldung?</h2>
+<p>Tradycyjnie banki wymagały zaświadczenia o zameldowaniu (Anmeldung) w Niemczech. W praktyce jednak wiele banków online oraz fintech pozwala otworzyć konto bez Anmeldung — wystarczy paszport lub dowód osobisty.</p>
+<ul>
+  <li><strong>N26</strong> — konto online, otwarcie przez aplikację, akceptuje zagraniczny adres</li>
+  <li><strong>Wise (dawniej TransferWise)</strong> — konto multi-walutowe, IBAN DE, bez Anmeldung</li>
+  <li><strong>Revolut</strong> — IBAN DE lub LT, natychmiastowe otwarcie, darmowe przelewy SEPA</li>
+  <li><strong>Deutsche Bank / Sparkasse</strong> — klasyczne banki, wymagają zazwyczaj Anmeldung, ale pracownicy delegowani mogą się ubiegać o wyjątek</li>
+</ul>
+
+<h2>Jakie dokumenty przygotować?</h2>
+<ul>
+  <li>Dowód osobisty lub paszport (ważny)</li>
+  <li>Adres zamieszkania w Niemczech lub w Polsce (banki online akceptują oba)</li>
+  <li>Numer telefonu i adres e-mail</li>
+  <li>Niekiedy: umowa o pracę lub zaświadczenie pracodawcy</li>
+</ul>
+
+<h2>Jak Nexflow pomaga pracownikom?</h2>
+<p>Nexflow informuje każdego nowego pracownika o najwygodniejszych opcjach bankowych jeszcze przed rozpoczęciem pracy. Dla pracowników, którym zależy na szybkim dostępie do wypłaty, rekomendujemy konta fintech (N26, Wise, Revolut) — otwarcie zajmuje kilkanaście minut przez smartfon, a karta dociera pocztą.</p>
+
+<h2>Ważna wskazówka: IBAN dla przelewów z Nexflow</h2>
+<p>Wypłaty realizujemy wyłącznie przelewem SEPA. Po założeniu konta jak najszybciej przekaż nam swój numer IBAN — pozwoli to uniknąć opóźnień w pierwszej wypłacie. Możesz też podać polski IBAN — wypłacamy na rachunki w dowolnym kraju UE.</p>
+    `.trim(),
+  },
+  {
+    slug: "arbeitssicherheit-lager-leiharbeiter-deutschland",
+    title: "Arbeitssicherheit im Lager: Was polnische Leiharbeiter in Deutschland wissen müssen",
+    description:
+      "Schutzausrüstung, Unterweisungspflicht, Unfallmeldung — die wichtigsten Regeln zur Arbeitssicherheit für polnische Zeitarbeitnehmer in deutschen Lager- und Logistikbetrieben.",
+    date: "2026-07-30",
+    lang: "de",
+    content: `
+<p>Sicherheit am Arbeitsplatz ist in Deutschland gesetzlich streng geregelt — und das gilt ausdrücklich auch für Leiharbeitnehmer. Wer in einem deutschen Lager oder Logistikbetrieb eingesetzt wird, hat dieselben Schutzrechte wie Stammarbeitnehmer. Dieser Artikel erklärt, was Sie als polnischer Leiharbeitnehmer wissen und einfordern dürfen.</p>
+
+<h2>Unterweisungspflicht des Entleihers</h2>
+<p>Bevor Sie mit der Arbeit beginnen, ist der Entleihbetrieb (der Betrieb, in dem Sie tatsächlich arbeiten) verpflichtet, Sie über arbeitsplatzbezogene Gefährdungen und Schutzmaßnahmen zu unterweisen (<em>Einweisung</em>). Diese Unterweisung muss:</p>
+<ul>
+  <li>vor dem ersten Einsatz stattfinden</li>
+  <li>in einer Sprache erfolgen, die Sie verstehen (polnisch, wenn nötig)</li>
+  <li>Themen wie Notausgänge, Feuerlöscher, Gefahrstoffe und maschinenbezogene Risiken umfassen</li>
+  <li>schriftlich dokumentiert und von Ihnen unterschrieben werden</li>
+</ul>
+<p>Wenn keine verständliche Unterweisung erfolgt, haben Sie das Recht, die Arbeit zu verweigern, bis dies nachgeholt wird.</p>
+
+<h2>Persönliche Schutzausrüstung (PSA)</h2>
+<p>Der Entleihbetrieb stellt die PSA kostenlos zur Verfügung. Je nach Tätigkeit umfasst das:</p>
+<ul>
+  <li>Sicherheitsschuhe (Stahlkappen, EN ISO 20345)</li>
+  <li>Warnweste oder Warnkleidung in Lagern mit Fahrzeugverkehr</li>
+  <li>Handschuhe, Gehörschutz, Schutzbrille (je nach Bereich)</li>
+  <li>Kälteschutzkleidung bei Einsätzen im Kühl- oder Tiefkühlbereich</li>
+</ul>
+<p>Niemals auf eigene Kosten PSA kaufen — das ist eine Pflicht des Arbeitgebers.</p>
+
+<h2>Unfallmeldung: Was zu tun ist</h2>
+<p>Bei einem Arbeitsunfall gilt:</p>
+<ol>
+  <li>Unfall sofort dem Vorgesetzten melden — auch bei Bagatellverletzungen</li>
+  <li>Arzt aufsuchen (Durchgangsarzt, kurz D-Arzt) — nur dieser darf Arbeitsunfälle behandeln und dokumentieren</li>
+  <li>Nexflow informieren — wir übernehmen die Kommunikation mit der Berufsgenossenschaft (BG)</li>
+</ol>
+<p>Als Leiharbeitnehmer sind Sie über die Berufsgenossenschaft des Entleihbetriebs unfallversichert — nicht über Nexflow direkt. Alle Unfallmeldungen laufen jedoch über uns.</p>
+
+<h2>Nexflow-Ansprechpartner bei Problemen</h2>
+<p>Wenn Ihr Einsatzbetrieb die Sicherheitsvorschriften nicht einhält oder Sie sich unsicher fühlen, wenden Sie sich sofort an Ihre Ansprechperson bei Nexflow. Wir klären das mit dem Entleiher — anonym, wenn gewünscht. Sicherheit hat Vorrang vor Produktivität.</p>
+    `.trim(),
+  },
+  {
+    slug: "praca-na-linii-produkcyjnej-niemcy",
+    title: "Praca na linii produkcyjnej w Niemczech — zarobki, rytm dnia i jak dostać taką pracę",
+    description:
+      "Praca produkcyjna w Niemczech przez agencję: co czeka Cię na hali montażowej, ile zarobisz i dlaczego linia produkcyjna to dobry start dla pracowników bez specjalizacji.",
+    date: "2026-07-30",
+    lang: "pl",
+    content: `
+<p>Praca na linii produkcyjnej (po niemiecku: <em>Montageband</em> lub <em>Fertigungslinie</em>) to jeden z najczęstszych typów zatrudnienia tymczasowego w zachodniej Polsce i w Niemczech. Nie wymaga specjalnych kwalifikacji, jest płatna co najmniej według minimalnej stawki godzinowej i daje pewność stabilnych godzin. W tym artykule tłumaczymy, czego można się spodziewać.</p>
+
+<h2>Na czym polega praca przy linii produkcyjnej?</h2>
+<p>W zależności od zakładu zadania różnią się, ale typowe obowiązki obejmują:</p>
+<ul>
+  <li>montaż elementów (np. komponenty elektroniczne, części samochodowe, opakowania)</li>
+  <li>kontrola jakości — wzrokowa lub z użyciem prostych przyrządów</li>
+  <li>zasilanie linii materiałem i odbieranie gotowych produktów</li>
+  <li>obsługa maszyn przy minimalnym szkoleniu stanowiskowym</li>
+</ul>
+<p>Praca jest rytmiczna i powtarzalna. Wymaga koncentracji i tempa, ale nie specjalistycznego wykształcenia.</p>
+
+<h2>Zarobki w produkcji w Niemczech (2026)</h2>
+<ul>
+  <li><strong>Podstawa:</strong> od 13,00 EUR/h brutto (stawka minimalna Mindestlohn od 2026)</li>
+  <li><strong>Z dodatkami nocnymi i weekendowymi:</strong> 14,50–17,00 EUR/h brutto</li>
+  <li><strong>Operatorzy maszyn / linia CNC:</strong> od 15,50 EUR/h brutto</li>
+</ul>
+<p>Wiele zakładów w regionie Frankfurt nad Odrą, Eisenhüttenstadt i Fürstenwalde oferuje zakwaterowanie w pobliżu hali lub zwrot kosztów dojazdu — zapytaj o to podczas rekrutacji.</p>
+
+<h2>Jak wygląda typowy dzień pracy?</h2>
+<p>Większość zakładów produkcyjnych pracuje w systemie dwuzmianowym lub trzyzmianowym:</p>
+<ul>
+  <li><strong>Zmiana ranna:</strong> 06:00–14:00</li>
+  <li><strong>Zmiana popołudniowa:</strong> 14:00–22:00</li>
+  <li><strong>Zmiana nocna:</strong> 22:00–06:00 (z dodatkiem nocnym ~25%)</li>
+</ul>
+<p>Przed wyjazdem warto ustalić, czy Cię interesuje konkretna zmiana — w Nexflow staramy się dopasować harmonogram do Twoich preferencji.</p>
+
+<h2>Czy znajomość języka jest potrzebna?</h2>
+<p>W wielu zakładach wystarczy znajomość kilkudziesięciu słów technicznych po niemiecku — kolory, liczby, nazwy stanowisk. Nexflow przygotowuje pracowników ze słowniczkiem branżowym i tłumaczy kluczowe procedury BHP. Na liniach produkcyjnych blisko granicy polsko-niemieckiej językiem komunikacji wewnętrznej bywa też angielski.</p>
+
+<h2>Jak się zgłosić?</h2>
+<p>Skontaktuj się z Nexflow — rekrutujemy pracowników do zakładów produkcyjnych w regionie przygranicznym. Pierwsza rozmowa kwalifikacyjna odbywa się telefonicznie lub przez WhatsApp. Możesz zacząć pracować już w ciągu kilku dni od zgłoszenia.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
