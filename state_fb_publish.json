@@ -90,7 +90,25 @@
       "fb_post_id": "1107760715748033_122124830006808780",
       "published_at": "2026-07-31T06:46:03+0000",
       "sitemap_lastmod": "2026-07-30T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/jak-czytac-lohnabrechnung-niemcy",
+      "fb_post_id": "1107760715748033_122124946802808780",
+      "published_at": "2026-08-01T05:20:00+0000",
+      "sitemap_lastmod": "2026-08-04T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/steuerklasse-niemcy-polak",
+      "fb_post_id": "1107760715748033_122124946814808780",
+      "published_at": "2026-08-01T05:20:05+0000",
+      "sitemap_lastmod": "2026-08-11T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/krankenversicherung-leiharbeiter-polen",
+      "fb_post_id": "1107760715748033_122124946826808780",
+      "published_at": "2026-08-01T05:20:10+0000",
+      "sitemap_lastmod": "2026-08-18T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-07-31T07:01:43Z"
+  "last_run": "2026-08-01T05:20:10Z"
 }
