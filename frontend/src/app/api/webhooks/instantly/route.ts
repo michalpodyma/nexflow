@@ -278,8 +278,6 @@ async function handleEmailSent(
   if (germanMismatch) violations.push(germanMismatch);
 
   if (violations.length === 0) return;
-
-  const leadEmail = payload.lead_email ?? "unknown";
   const snippet = body.length > 300 ? body.slice(0, 300) + "..." : body;
 
   console.error("[instantly-validator] ARTIFACT DETECTED", {
