@@ -369,7 +369,7 @@ async def test_auto_reply_disabled_tees_but_does_not_send() -> None:
         mock_settings.whatsapp_screener_use_llm = False
         mock_resolve.return_value = candidate
 
-        await webhooks_module._process_message("48123456789", "hello", db)
+        await webhooks_module._process_message("48123456789", "hello", "wamid.test.1", db)
 
     mock_tee.assert_awaited_once()
     mock_initiate.assert_not_called()
@@ -406,7 +406,7 @@ async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
         mock_resolve.return_value = candidate
         mock_fsm_advance.return_value = "Next question?"
 
-        await webhooks_module._process_message("48123456789", "hello", db)
+        await webhooks_module._process_message("48123456789", "hello", "wamid.test.1", db)
 
     mock_tee.assert_awaited_once()
     mock_fsm_advance.assert_awaited_once()
