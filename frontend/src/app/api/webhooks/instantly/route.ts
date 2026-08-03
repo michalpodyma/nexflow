@@ -28,6 +28,10 @@
 
 import { Redis } from "@upstash/redis";
 import { NextRequest, NextResponse } from "next/server";
+import {
+  isGermanCompanyDomain,
+  looksNonGermanForGermanLead,
+} from "@/lib/german-companies";
 
 // ── env ──────────────────────────────────────────────────────────────────────
 
@@ -118,8 +122,21 @@ export interface ReplyNotification {
 // ── Artifact detection ────────────────────────────────────────────────────────
 
 interface ArtifactViolation {
-  type: "numbered_token" | "bare_yes_no" | "mixed_language";
+  type: "numbered_token" | "bare_yes_no" | "mixed_language" | "german_company_non_german";
   description: string;
+}
+
+/**
+ * Detect language mismatch for German-owned company leads.
+ * Called separately from detectArtifacts because it needs the lead email context.
+ */
+function detectGermanMismatch(text: string, leadEmail: string): ArtifactViolation | null {
+  if (!isGermanCompanyDomain(leadEmail)) return null;
+  if (!looksNonGermanForGermanLead(text)) return null;
+  return {
+    type: "german_company_non_german",
+    description: `Lead at German-owned company domain (${leadEmail.split("@")[1] ?? ""}) received non-German email`,
+  };
 }
 
 function detectArtifacts(text: string): ArtifactViolation[] {
@@ -253,7 +270,13 @@ async function handleEmailSent(
   payload: InstantlyWebhookPayload,
 ): Promise<void> {
   const body = payload.email_text ?? payload.email_html ?? "";
+  const leadEmail = payload.lead_email ?? "";
   const violations = detectArtifacts(body);
+
+  // Check German company language mismatch independently of artifact leakage
+  const germanMismatch = detectGermanMismatch(body, leadEmail);
+  if (germanMismatch) violations.push(germanMismatch);
+
   if (violations.length === 0) return;
 
   const leadEmail = payload.lead_email ?? "unknown";
