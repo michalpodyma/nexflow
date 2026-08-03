@@ -5,6 +5,10 @@
       "schedule": "0 6 * * 1-5"
     },
     {
+      "path": "/api/cron/instantly-german-routing",
+      "schedule": "0 5 * * *"
+    },
+    {
       "path": "/api/cron/instantly-language-lint",
       "schedule": "0 6 * * *"
     }

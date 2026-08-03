@@ -1,28 +1,34 @@
 /**
- * GET/POST /api/cron/instantly-language-lint
+ * GET/POST /api/cron/instantly-german-routing
  *
- * Pre-send language linter for the Instantly AI SDR main campaign.
+ * Pre-send German language enforcer for Instantly AI campaigns.
  *
- * The AI SDR enriches leads in batches and stages personalized drafts into each
- * lead's `custom_variables` under keys like `_email_1`, `_email_followup_1..3`
- * (or the campaign-prefixed variants `{campaignId}_email_1`, etc.). Leads with
- * `status_summary == {}` have not been sent yet — their staged drafts are still
- * mutable via `PATCH /api/v2/leads/{id}`.
+ * Scans unsent leads across configured campaigns. When a lead's email domain
+ * belongs to a German-owned company (kuehne-nagel.com, dhl.com, arvato.com,
+ * dbschenker.com, etc.), any staged draft that is not primarily German is
+ * rewritten in formal German and PATCHed back via PATCH /api/v2/leads/{id}.
+ * The next time the AI SDR fires a send for that lead, the template variable
+ * resolves to the rewritten German copy.
  *
- * This route walks unsent leads in the main campaign, and for each recipient
- * on a `.pl`/`.com.pl` domain it asks a cheap LLM whether each staged draft
- * is primarily Polish. If not, it rewrites the draft in formal Polish and
- * PATCHes the custom_variables back. The next time the AI SDR fires a send
- * for that lead, the template `{{...email_1}}` resolves to the rewritten copy.
+ * Fix for EUR-2562: German-owned company contacts were receiving Polish/English
+ * outreach because the AI SDR routes by contact location, not company HQ.
  *
  * Authentication: standard Vercel cron `Authorization: Bearer ${CRON_SECRET}`.
  *
- * Counter-metric: comments to Paperclip issue EUR-2139 on every regenerated
- * draft (one comment per lead), so weekly review can count rewrites by domain.
+ * Environment variables:
+ *   INSTANTLY_API_KEY                          — required
+ *   OPENAI_API_KEY                             — required
+ *   INSTANTLY_GERMAN_ROUTING_CAMPAIGN_IDS      — comma-separated campaign UUIDs
+ *                                                (defaults to main campaign)
+ *   INSTANTLY_GERMAN_MAX_LEADS_PER_CAMPAIGN    — cap per campaign (default 25)
+ *   INSTANTLY_GERMAN_ROUTING_TRACKING_ISSUE_ID — Paperclip issue for audit log
  */
 
 import { NextRequest, NextResponse } from "next/server";
-import { isGermanCompanyDomain } from "@/lib/german-companies";
+import {
+  isGermanCompanyDomain,
+  getEmailDomain,
+} from "@/lib/german-companies";
 
 const INSTANTLY_API_KEY = process.env.INSTANTLY_API_KEY ?? "";
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY ?? "";
@@ -32,19 +38,29 @@ const PAPERCLIP_API_URL =
 const PAPERCLIP_BOT_API_KEY =
   process.env.PAPERCLIP_BOT_API_KEY ?? process.env.PAPERCLIP_API_KEY ?? "";
 
-const MAIN_CAMPAIGN_ID = "a842e444-8676-40e0-9c47-2328a72b2d3a";
-const AI_SDR_AGENT_ID = "019d409e-fc35-7009-ba4e-877318ead276";
+const PAPERCLIP_TRACKING_ISSUE_ID =
+  process.env.INSTANTLY_GERMAN_ROUTING_TRACKING_ISSUE_ID ?? "";
 
-// Paperclip issue EUR-2139 — log destination for regenerated drafts
-const PAPERCLIP_TRACKING_ISSUE_ID = process.env
-  .INSTANTLY_LINT_TRACKING_ISSUE_ID ?? "";
+// Main campaign UUID (same as the Polish linter) + any rescue campaigns.
+// Override with a comma-separated list to add RESCUE-2 and future campaigns.
+const DEFAULT_CAMPAIGN_IDS = "a842e444-8676-40e0-9c47-2328a72b2d3a";
+const CAMPAIGN_IDS = (
+  process.env.INSTANTLY_GERMAN_ROUTING_CAMPAIGN_IDS ?? DEFAULT_CAMPAIGN_IDS
+)
+  .split(",")
+  .map((s) => s.trim())
+  .filter(Boolean);
 
-// Hard cap so the cron always returns within Vercel's function budget,
-// even if many leads are staged. Each lead = up to 4 LLM classify calls
-// + up to 4 LLM rewrite calls. Tune via env.
-const MAX_LEADS_PER_RUN = Number(
-  process.env.INSTANTLY_LINT_MAX_LEADS_PER_RUN ?? 25,
+const MAX_LEADS_PER_CAMPAIGN = Number(
+  process.env.INSTANTLY_GERMAN_MAX_LEADS_PER_CAMPAIGN ?? 25,
 );
+
+const DRAFT_KEY_SUFFIXES = [
+  "_email_1",
+  "_email_followup_1",
+  "_email_followup_2",
+  "_email_followup_3",
+];
 
 type LeadCustomVariables = Record<string, string | null | undefined>;
 
@@ -63,32 +79,18 @@ interface InstantlyListResponse {
   next_starting_after?: string;
 }
 
-interface LintOutcome {
+interface GermanRoutingOutcome {
   leadId: string;
   email: string;
   domain: string;
+  campaignId: string;
   drafts_checked: number;
   drafts_rewritten: number;
   rewritten_keys: string[];
 }
 
-// Draft keys the AI SDR is known to populate on a lead. Both the bare and
-// campaign-prefixed forms are accepted; whichever shape Instantly stores is
-// what we read and PATCH back.
-const DRAFT_KEY_SUFFIXES = [
-  "_email_1",
-  "_email_followup_1",
-  "_email_followup_2",
-  "_email_followup_3",
-];
-
-function isPolishDomain(email: string): boolean {
-  const domain = email.split("@")[1]?.toLowerCase() ?? "";
-  return domain.endsWith(".pl") || domain.endsWith(".com.pl");
-}
-
-function getDomain(email: string): string {
-  return email.split("@")[1]?.toLowerCase() ?? "";
+interface OpenAIChatResponse {
+  choices?: Array<{ message?: { content?: string | null } }>;
 }
 
 function normalizeVars(
@@ -98,7 +100,9 @@ function normalizeVars(
   if (typeof raw === "string") {
     try {
       const parsed = JSON.parse(raw);
-      return (parsed && typeof parsed === "object" ? parsed : {}) as LeadCustomVariables;
+      return (parsed && typeof parsed === "object"
+        ? parsed
+        : {}) as LeadCustomVariables;
     } catch {
       return {};
     }
@@ -119,14 +123,16 @@ function collectDraftEntries(
   return entries;
 }
 
-async function listUnsentLeads(): Promise<InstantlyLead[]> {
+async function listGermanLeadsForCampaign(
+  campaignId: string,
+): Promise<InstantlyLead[]> {
   const collected: InstantlyLead[] = [];
   let cursor: string | undefined = undefined;
   const pageSize = 100;
 
-  for (let i = 0; i < 8 && collected.length < MAX_LEADS_PER_RUN; i++) {
+  for (let i = 0; i < 8 && collected.length < MAX_LEADS_PER_CAMPAIGN; i++) {
     const body: Record<string, unknown> = {
-      campaign: MAIN_CAMPAIGN_ID,
+      campaign: campaignId,
       limit: pageSize,
     };
     if (cursor) body.starting_after = cursor;
@@ -141,7 +147,7 @@ async function listUnsentLeads(): Promise<InstantlyLead[]> {
     });
     if (!res.ok) {
       throw new Error(
-        `Instantly leads/list ${res.status}: ${await res.text()}`,
+        `Instantly leads/list campaign=${campaignId} ${res.status}: ${await res.text()}`,
       );
     }
 
@@ -149,11 +155,14 @@ async function listUnsentLeads(): Promise<InstantlyLead[]> {
     const page = data.items ?? [];
     for (const lead of page) {
       const summary = lead.status_summary ?? {};
-      const empty =
-        summary && typeof summary === "object" &&
+      const unsent =
+        summary &&
+        typeof summary === "object" &&
         Object.keys(summary).length === 0;
-      if (empty) collected.push(lead);
-      if (collected.length >= MAX_LEADS_PER_RUN) break;
+      if (unsent && isGermanCompanyDomain(lead.email)) {
+        collected.push(lead);
+      }
+      if (collected.length >= MAX_LEADS_PER_CAMPAIGN) break;
     }
 
     cursor = data.next_starting_after;
@@ -161,10 +170,6 @@ async function listUnsentLeads(): Promise<InstantlyLead[]> {
   }
 
   return collected;
-}
-
-interface OpenAIChatResponse {
-  choices?: Array<{ message?: { content?: string | null } }>;
 }
 
 async function openaiChat(
@@ -194,18 +199,22 @@ async function openaiChat(
   return (data.choices?.[0]?.message?.content ?? "").trim();
 }
 
-async function isPrimarilyPolish(draft: string): Promise<boolean> {
+async function isPrimarilyGerman(draft: string): Promise<boolean> {
   const answer = await openaiChat(
-    "You classify business emails by primary language. Answer with a single token: 'pl' if the email body is primarily Polish, or 'other' for any other language. Polish characters are not sufficient — assess the overall body. Do not explain.",
+    "You classify business emails by primary language. Answer with a single token: 'de' if the email body is primarily German, or 'other' for any other language. German diacritics (ä, ö, ü, ß) alone are not sufficient — assess the overall body. Do not explain.",
     `Email body:\n\n${draft}`,
     { temperature: 0 },
   );
-  return answer.toLowerCase().startsWith("pl");
+  return answer.toLowerCase().startsWith("de");
 }
 
-async function rewriteInPolish(
+async function rewriteInGerman(
   original: string,
-  context: { firstName?: string; lastName?: string; companyName?: string },
+  context: {
+    firstName?: string;
+    lastName?: string;
+    companyName?: string;
+  },
 ): Promise<string> {
   const ctx = [
     context.firstName ? `Recipient first name: ${context.firstName}` : "",
@@ -216,20 +225,21 @@ async function rewriteInPolish(
     .join("\n");
 
   const systemPrompt = [
-    "You rewrite cold B2B sales emails into formal Polish for Nexflow, a Polish staffing agency.",
-    "Output ONLY the rewritten email body. No commentary, no markdown, no reasoning, no numbered tokens like (1) (2), no standalone 'Yes.'/'No.' lines.",
+    "You rewrite cold B2B sales emails into formal German for Nexflow, a Polish staffing agency placing temporary workers at German-owned companies.",
+    "Output ONLY the rewritten email body. No commentary, no markdown, no reasoning, no numbered tokens like (1) (2), no standalone 'Ja.'/'Nein.' lines.",
     "Rules:",
-    "- Address the recipient formally with 'Szanowny Panie [Nazwisko]' or 'Szanowna Pani [Nazwisko]' if a last name is known.",
-    "- If only a first name is available, fall back to 'Szanowna Pani' / 'Szanowny Panie' without a name.",
-    "- Preserve every concrete fact from the original (company observations, pain points, value props, CTA).",
+    "- Address the recipient formally: 'Sehr geehrter Herr [Nachname]' or 'Sehr geehrte Frau [Nachname]' if a last name is known.",
+    "- Without a last name: 'Sehr geehrte Damen und Herren'.",
+    "- Preserve every concrete fact from the original (company observations, pain points, value props, call to action).",
     "- Match the original length within ±20%.",
-    "- Sign off naturally in Polish (e.g. 'Pozdrawiam,').",
-    "- Do not invent details. Do not add disclaimers. Do not include any English words or salutations.",
+    "- Close naturally in German: 'Mit freundlichen Grüßen,' or 'Freundliche Grüße,'.",
+    "- Do not invent details. Do not add disclaimers. Do not include any Polish or English words, salutations, or closings.",
+    "- Do not translate the sender's name or company name (Nexflow stays Nexflow).",
   ].join("\n");
 
   return openaiChat(
     systemPrompt,
-    `${ctx ? ctx + "\n\n" : ""}Original draft (rewrite into formal Polish):\n\n${original}`,
+    `${ctx ? ctx + "\n\n" : ""}Original draft (rewrite into formal German):\n\n${original}`,
     { temperature: 0.2 },
   );
 }
@@ -238,30 +248,33 @@ async function patchLeadVars(
   leadId: string,
   patch: LeadCustomVariables,
 ): Promise<void> {
-  const res = await fetch(`https://api.instantly.ai/api/v2/leads/${leadId}`, {
-    method: "PATCH",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${INSTANTLY_API_KEY}`,
+  const res = await fetch(
+    `https://api.instantly.ai/api/v2/leads/${leadId}`,
+    {
+      method: "PATCH",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${INSTANTLY_API_KEY}`,
+      },
+      body: JSON.stringify({ custom_variables: patch }),
     },
-    body: JSON.stringify({ custom_variables: patch }),
-  });
+  );
   if (!res.ok) {
     throw new Error(`Instantly lead PATCH ${res.status}: ${await res.text()}`);
   }
 }
 
-async function logRewriteToPaperclip(outcome: LintOutcome): Promise<void> {
+async function logToPaperclip(outcome: GermanRoutingOutcome): Promise<void> {
   if (!PAPERCLIP_TRACKING_ISSUE_ID || !PAPERCLIP_BOT_API_KEY) return;
   const body = [
-    `🔁 **Pre-send language rewrite**`,
+    `🇩🇪 **German company lead routed to German**`,
     ``,
     `- Lead: \`${outcome.email}\` (id \`${outcome.leadId}\`)`,
     `- Domain: \`${outcome.domain}\``,
+    `- Campaign: \`${outcome.campaignId}\``,
     `- Drafts checked: ${outcome.drafts_checked}`,
     `- Drafts rewritten: ${outcome.drafts_rewritten}`,
     `- Keys: ${outcome.rewritten_keys.map((k) => `\`${k}\``).join(", ")}`,
-    `- AI SDR: \`${AI_SDR_AGENT_ID}\` · Campaign: \`${MAIN_CAMPAIGN_ID}\``,
   ].join("\n");
 
   try {
@@ -277,17 +290,14 @@ async function logRewriteToPaperclip(outcome: LintOutcome): Promise<void> {
       },
     );
   } catch (err) {
-    console.error("[instantly-lint] paperclip log failed:", err);
+    console.error("[instantly-german-routing] paperclip log failed:", err);
   }
 }
 
-async function lintLead(lead: InstantlyLead): Promise<LintOutcome | null> {
-  const email = lead.email;
-  if (!isPolishDomain(email)) return null;
-  // German-company leads are handled by the instantly-german-routing cron;
-  // skip them here so we don't overwrite their German drafts with Polish.
-  if (isGermanCompanyDomain(email)) return null;
-
+async function routeLead(
+  lead: InstantlyLead,
+  campaignId: string,
+): Promise<GermanRoutingOutcome | null> {
   const vars = normalizeVars(lead.custom_variables);
   const drafts = collectDraftEntries(vars);
   if (drafts.length === 0) return null;
@@ -296,17 +306,21 @@ async function lintLead(lead: InstantlyLead): Promise<LintOutcome | null> {
   const rewrittenKeys: string[] = [];
 
   for (const { key, value } of drafts) {
-    let polish: boolean;
+    let german: boolean;
     try {
-      polish = await isPrimarilyPolish(value);
+      german = await isPrimarilyGerman(value);
     } catch (err) {
-      console.error("[instantly-lint] classify failed", { leadId: lead.id, key, err });
+      console.error("[instantly-german-routing] classify failed", {
+        leadId: lead.id,
+        key,
+        err,
+      });
       continue;
     }
-    if (polish) continue;
+    if (german) continue;
 
     try {
-      const newBody = await rewriteInPolish(value, {
+      const newBody = await rewriteInGerman(value, {
         firstName: lead.first_name,
         lastName: lead.last_name,
         companyName: lead.company_name,
@@ -316,27 +330,23 @@ async function lintLead(lead: InstantlyLead): Promise<LintOutcome | null> {
         rewrittenKeys.push(key);
       }
     } catch (err) {
-      console.error("[instantly-lint] rewrite failed", { leadId: lead.id, key, err });
+      console.error("[instantly-german-routing] rewrite failed", {
+        leadId: lead.id,
+        key,
+        err,
+      });
     }
   }
 
-  if (rewrittenKeys.length === 0) {
-    return {
-      leadId: lead.id,
-      email,
-      domain: getDomain(email),
-      drafts_checked: drafts.length,
-      drafts_rewritten: 0,
-      rewritten_keys: [],
-    };
+  if (rewrittenKeys.length > 0) {
+    await patchLeadVars(lead.id, { ...vars, ...rewritten });
   }
-
-  await patchLeadVars(lead.id, { ...vars, ...rewritten });
 
   return {
     leadId: lead.id,
-    email,
-    domain: getDomain(email),
+    email: lead.email,
+    domain: getEmailDomain(lead.email),
+    campaignId,
     drafts_checked: drafts.length,
     drafts_rewritten: rewrittenKeys.length,
     rewritten_keys: rewrittenKeys,
@@ -358,41 +368,62 @@ async function handleCron(): Promise<NextResponse> {
   }
 
   const startedAt = new Date().toISOString();
-  const leads = await listUnsentLeads();
+  const outcomes: GermanRoutingOutcome[] = [];
+  let totalLeadsScanned = 0;
+  const campaignErrors: string[] = [];
 
-  const outcomes: LintOutcome[] = [];
-  for (const lead of leads) {
+  for (const campaignId of CAMPAIGN_IDS) {
+    let leads: InstantlyLead[];
     try {
-      const result = await lintLead(lead);
-      if (result) outcomes.push(result);
+      leads = await listGermanLeadsForCampaign(campaignId);
     } catch (err) {
-      console.error("[instantly-lint] lead failed", { leadId: lead.id, err });
+      const msg = `campaign=${campaignId}: ${String(err)}`;
+      console.error("[instantly-german-routing] list failed", msg);
+      campaignErrors.push(msg);
+      continue;
+    }
+    totalLeadsScanned += leads.length;
+
+    for (const lead of leads) {
+      try {
+        const result = await routeLead(lead, campaignId);
+        if (result) outcomes.push(result);
+      } catch (err) {
+        console.error("[instantly-german-routing] lead failed", {
+          leadId: lead.id,
+          err,
+        });
+      }
     }
   }
 
   const rewritten = outcomes.filter((o) => o.drafts_rewritten > 0);
   for (const o of rewritten) {
-    await logRewriteToPaperclip(o);
+    await logToPaperclip(o);
   }
 
   const summary = {
     ok: true,
     startedAt,
     finishedAt: new Date().toISOString(),
-    leads_scanned: leads.length,
-    polish_recipient_leads: outcomes.length,
+    campaigns_scanned: CAMPAIGN_IDS.length,
+    leads_scanned: totalLeadsScanned,
+    german_company_leads: outcomes.length,
     leads_with_rewrite: rewritten.length,
     drafts_rewritten_total: rewritten.reduce(
       (n, o) => n + o.drafts_rewritten,
       0,
     ),
+    campaign_errors: campaignErrors,
     samples: rewritten.slice(0, 5).map((o) => ({
       email: o.email,
+      domain: o.domain,
+      campaign: o.campaignId,
       keys: o.rewritten_keys,
     })),
   };
 
-  console.log("[instantly-lint] run summary", summary);
+  console.log("[instantly-german-routing] run summary", summary);
   return NextResponse.json(summary);
 }
 
