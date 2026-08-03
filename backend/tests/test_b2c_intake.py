@@ -18,7 +18,6 @@ import hashlib
 import hmac
 import json
 import uuid
-from datetime import UTC, datetime
 from unittest.mock import AsyncMock, MagicMock, patch
 
 import httpx
@@ -190,8 +189,8 @@ async def test_webhook_b2c_path_fires_for_new_contact() -> None:
         patch("app.routers.webhooks.AsyncSessionLocal", return_value=mock_db),
         patch("app.routers.webhooks._resolve_candidate", new_callable=AsyncMock, return_value=mock_candidate),
         patch("app.routers.webhooks._tee_to_inbox", new_callable=AsyncMock, return_value=mock_event),
-        patch("app.routers.webhooks.send_whatsapp_message", new_callable=AsyncMock) as mock_send,
-        patch("app.services.b2c_intake.create_intake_paperclip_issue", new_callable=AsyncMock, return_value="EUR-9999") as mock_create,
+        patch("app.routers.webhooks.send_whatsapp_message", new_callable=AsyncMock),
+        patch("app.services.b2c_intake.create_intake_paperclip_issue", new_callable=AsyncMock, return_value="EUR-9999"),
     ):
         mock_settings.whatsapp_app_secret = APP_SECRET
         mock_settings.whatsapp_webhook_verify_token = "tok"
