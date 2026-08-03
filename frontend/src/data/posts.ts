@@ -972,6 +972,1134 @@ export const posts: BlogPost[] = [
 <p><em>Artykuł zaktualizowany: czerwiec 2026. Przepisy wg stanu na 2026 r. — ustawa EStG, DBA DE-PL z 2003 r., Pendlerpauschale wg § 9 EStG. Artykuł ma charakter informacyjny i nie stanowi porady podatkowej.</em></p>
     `.trim(),
   },
+  {
+    slug: "zakwaterowanie-pracownicy-niemcy",
+    title: "Zakwaterowanie dla pracowników w Niemczech — co zapewnia agencja i co kosztuje (2026)",
+    description:
+      "Zakwaterowanie pracownicy Niemcy: kiedy agencja zapewnia kwaterę, jakie są koszty, co sprawdzić przed podpisaniem umowy i jak uniknąć ukrytych potrąceń.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Jednym z pierwszych pytań kandydatów rozmawiających z Nexflow jest: <strong>czy agencja zapewnia zakwaterowanie?</strong> Odpowiedź brzmi: to zależy od stanowiska i lokalizacji. Ten artykuł wyjaśnia, kiedy kwatera jest częścią pakietu, co kosztuje i jak uniknąć nieprzyjemnych niespodzianek zanim podpiszesz umowę.</p>
+
+<h2>Kiedy agencja zapewnia zakwaterowanie?</h2>
+<p>Agencje pracy tymczasowej, w tym Nexflow, oferują zakwaterowanie pracownicze głównie w dwóch sytuacjach:</p>
+<ul>
+  <li><strong>Gdy miejsce pracy jest zbyt odległe od granicy</strong>, by dojeżdżać codziennie z Polski (ponad 50–80 km od Słubic / Zgorzelca)</li>
+  <li><strong>Gdy pracodawca posiada własną kwaterę pracowniczą</strong> i włącza ją do pakietu rekrutacyjnego jako element przyciągający kandydatów</li>
+</ul>
+<p>Przy ofertach w regionie Frankfurt nad Odrą–Słubice zakwaterowanie jest zazwyczaj <strong>opcjonalne</strong> — większość pracowników dojeżdża z Polski. Dla stanowisk w głębi Niemiec (np. Berlin, Hamburg, Hannover) zakwaterowanie jest częściej konieczne.</p>
+
+<h2>Ile kosztuje zakwaterowanie pracownicze w Niemczech?</h2>
+<p>Gdy agencja lub pracodawca zapewnia kwaterę, koszt jej wynajmu jest <strong>odliczany od wynagrodzenia netto</strong>. Typowe stawki (2026):</p>
+<table>
+  <thead>
+    <tr>
+      <th>Rodzaj zakwaterowania</th>
+      <th>Koszt miesięczny (odliczenie od netto)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Łóżko w pokoju wieloosobowym (4–6 osób)</td>
+      <td>150–250 EUR/miesiąc</td>
+    </tr>
+    <tr>
+      <td>Łóżko w pokoju 2–3-osobowym</td>
+      <td>250–350 EUR/miesiąc</td>
+    </tr>
+    <tr>
+      <td>Pokój jednoosobowy (rzadkość)</td>
+      <td>350–500 EUR/miesiąc</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Co jest zazwyczaj wliczone:</strong> łóżko z pościelą, dostęp do kuchni i łazienki, Wi-Fi, media. Jedzenie i pranie — zazwyczaj poza pakietem.</p>
+<blockquote><p><strong>Ważna zasada:</strong> Zgodnie z § 9 AÜG pracodawca/agencja nie może pobierać za zakwaterowanie kwoty wyższej niż rynkowa stawka czynszu w danym regionie. Maksymalny dzienny odpis to ok. 8,80 EUR (2026). Jeśli agencja chce potrącać więcej — masz prawo odmówić.</p></blockquote>
+
+<h2>Co sprawdzić przed podpisaniem umowy zawierającej zakwaterowanie?</h2>
+<ol>
+  <li><strong>Dokładna kwota odliczenia od wynagrodzenia</strong> — powinna być zapisana w umowie, nie ustalona ustnie</li>
+  <li><strong>Adres i odległość od miejsca pracy</strong> — kwatera 30 km od zakładu bez zapewnionego transportu to poważny problem przy zmianach nocnych</li>
+  <li><strong>Transport z kwatery do pracy</strong> — czy agencja organizuje bus, czy musisz sam dotrzeć?</li>
+  <li><strong>Regulamin kwatery</strong> — goście, cisza nocna, zasady korzystania z kuchni</li>
+  <li><strong>Co się dzieje z kwaterą po zakończeniu umowy?</strong> — zazwyczaj masz 1–3 dni na opuszczenie</li>
+</ol>
+
+<h2>Kwatera pracownicza a Anmeldung (meldunek w Niemczech)</h2>
+<p>Jeśli mieszkasz w kwaterze pracowniczej dłużej niż 3 miesiące bez regularnych powrotów do Polski, formalnie powinieneś się zameldować (<em>Anmeldung</em>) w urzędzie gminy (<em>Einwohnermeldeamt</em>). W praktyce:</p>
+<ul>
+  <li>Pracownicy przygraniczni wracający do Polski co tydzień lub częściej zazwyczaj nie meldują się w Niemczech</li>
+  <li>Przy zakwaterowaniu przez cały kontrakt i braku regularnych powrotów — meldunek jest wskazany i może być wymagany przez właściciela kwatery</li>
+  <li>Meldunek w Niemczech wiąże się z obowiązkiem płacenia kościelnego podatku (<em>Kirchensteuer</em>) — możesz wskazać przynależność do innego kościoła lub jego brak</li>
+</ul>
+
+<h2>Alternatywa: wynajem na własną rękę po stronie polskiej</h2>
+<p>Dla pracowników w regionie Frankfurt nad Odrą wynajem pokoju w Polsce jest często tańszy:</p>
+<ul>
+  <li>Słubice, Rzepin, Świecko — pokoje od 700–1 000 PLN/miesiąc (ok. 160–240 EUR)</li>
+  <li>Czas dojazdu do centrum Frankfurtu nad Odrą: 5–25 minut</li>
+  <li>Niższe koszty życia, własna kuchnia, brak regulaminu kwatery pracowniczej</li>
+</ul>
+<p>Szukasz pracy w Niemczech bez konieczności zakwaterowania? Sprawdź: <a href="/blog/jak-znalezc-prace-w-niemczech-2025">Jak znaleźć pracę w Niemczech — przewodnik</a>. Co zabrać na wyjazd: <a href="/blog/co-zabrac-do-pracy-w-niemczech-checklista">Checklista przed wyjazdem</a>.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy mogę zabrać partnera/partnerkę do kwatery pracowniczej?</strong><br/>Zazwyczaj nie — kwatery są przeznaczone wyłącznie dla pracowników agencji lub pracodawcy. Goście są dozwoleni na krótkie wizyty.</p>
+<p><strong>Czy kwatera jest obowiązkowa, jeśli ją oferuje agencja?</strong><br/>Nie — możesz odmówić i zorganizować zakwaterowanie samodzielnie. Poinformuj agencję na początku rekrutacji.</p>
+<p><strong>Co zabrać do kwatery pracowniczej?</strong><br/>Ręczniki, środki higieny, zamek do szafki, podstawowe leki. Pościel jest zazwyczaj zapewniona. Sprawdź: <a href="/blog/co-zabrac-do-pracy-w-niemczech-checklista">Checklista przed wyjazdem do Niemiec</a>.</p>
+
+<hr/>
+<p><strong>Nexflow informuje o kosztach zakwaterowania przed podpisaniem umowy</strong> — pełna transparentność to nasz standard. Żadnych ukrytych potrąceń.</p>
+<p><strong><a href="/praca">Wyślij zgłoszenie na nexflow.work/praca →</a></strong> Rekruter odpowie w ciągu jednego dnia roboczego.</p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Maksymalne stawki odliczenia wg § 9 AÜG i rozporządzenia Mindestlohn 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "praca-w-chlodni-niemcy",
+    title: "Praca w chłodni w Niemczech — stawki, wymagania i co warto wiedzieć przed startem (2026)",
+    description:
+      "Praca w chłodni Niemcy: wymagania zdrowotne, stawki 14,50–18,50 EUR/h, odzież ochronna, badanie G21 i które zakłady chłodnicze rekrutują przez agencje w regionie DE-PL.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Centra logistyczne obsługujące sklepy spożywcze, supermarkety i sieci gastronomiczne potrzebują pracowników gotowych pracować w warunkach chłodniczych i mroźniczych. <strong>Praca w chłodni w Niemczech</strong> to nisza łącząca wyższe stawki z konkretnymi wymaganiami zdrowotnymi. Oto kompletny przegląd — zanim wyślesz zgłoszenie.</p>
+
+<h2>Rodzaje zakładów chłodniczych w Niemczech</h2>
+<ul>
+  <li><strong>Chłodnia produktów świeżych (+2 do +8°C)</strong> — warzywa, owoce, nabiał, wędliny. Najłagodniejsze warunki.</li>
+  <li><strong>Chłodnia mięsna (0 do +4°C)</strong> — zakłady mięsne, przetwórnie. Wymaga zaświadczenia lekarskiego.</li>
+  <li><strong>Mroźnia/magazyn mroźniczy (−18 do −25°C)</strong> — mrożonki, lody, ryby. Najostrzejsze wymagania zdrowotne i odzieżowe.</li>
+  <li><strong>Komora chłodnicza cross-dock (0 do +6°C)</strong> — sieci Lidl/Aldi/Rewe. Przeładunek dostaw w cyklu dziennym.</li>
+</ul>
+<p>W regionie Frankfurt nad Odrą i Berlin–Brandenburg działają duże centra dystrybucji sieci spożywczych, w których Nexflow regularnie rekrutuje pracowników chłodni.</p>
+
+<h2>Zarobki w chłodni — ile można zarobić więcej?</h2>
+<p>Praca w warunkach chłodniczych i mroźniczych jest wyceniana wyżej niż standardowa praca magazynowa. Stawki (Zeitarbeit, region Brandenburg/Berlin, 2026):</p>
+<table>
+  <thead>
+    <tr>
+      <th>Typ chłodni</th>
+      <th>Stawka godzinowa brutto</th>
+      <th>Dodatek za warunki</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Chłodnia świeżych (+2 do +8°C)</td>
+      <td>14,50–16,00 EUR/h</td>
+      <td>+0–0,50 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Chłodnia mięsna (0 do +4°C)</td>
+      <td>15,00–17,00 EUR/h</td>
+      <td>+0,50–1,00 EUR/h</td>
+    </tr>
+    <tr>
+      <td>Mroźnia (−18 do −25°C)</td>
+      <td>16,00–18,50 EUR/h</td>
+      <td>+1,00–2,00 EUR/h</td>
+    </tr>
+  </tbody>
+</table>
+<blockquote><p>Operator wózka widłowego z uprawnieniami UDT pracujący w mroźni 3-zmianowej może realnie zarobić <strong>2 200–2 600 EUR netto/miesiąc</strong> z dodatkami nocnymi i za warunki.</p></blockquote>
+
+<h2>Wymagania zdrowotne — badanie G21 / G25</h2>
+<p>Praca w chłodni i mroźni wymaga zaświadczenia od lekarza medycyny pracy (<em>Betriebsarzt</em>). Badanie obejmuje ocenę układu sercowo-naczyniowego i oddechowego pod kątem narażenia na zimno.</p>
+<p><strong>Kto nie powinien pracować w mroźni?</strong></p>
+<ul>
+  <li>Osoby z chorobami naczyń obwodowych (Raynaud), reumatyzmem lub poważnymi schorzeniami stawów</li>
+  <li>Osoby z astmą wymagającą ciągłego leczenia — po konsultacji z lekarzem</li>
+  <li>Kobiety w ciąży — wyłączone ustawowo z pracy w temperaturach poniżej 0°C</li>
+</ul>
+<p>Nexflow informuje z góry, jakie badanie jest wymagane na danym stanowisku, i pomaga je umówić po obu stronach granicy.</p>
+
+<h2>Odzież i wyposażenie do pracy w chłodni</h2>
+<p><strong>Co zapewnia pracodawca:</strong> kurtka i spodnie ocieplane, rękawice termoizolacyjne, kamizelka odblaskowa.</p>
+<p><strong>Co warto zabrać samemu:</strong></p>
+<ul>
+  <li>Termoaktywna bielizna (baza termiczna) — polecamy merino lub syntetyk, nie bawełnę</li>
+  <li>Ciepłe skarpety wełniane lub termoaktywne</li>
+  <li>Kominiarka lub czapka pod hełm przy załadunku zewnętrznym</li>
+  <li>Buty z podnoskiem z izolacją termiczną — standardowe buty S1 mogą być niewystarczające przy −20°C</li>
+</ul>
+<blockquote><p><strong>Praktyczna wskazówka:</strong> W mroźni z cyrkulacją powietrza odczuwalny chłód jest o 5–8°C niższy niż wskazuje termometr. Odpowiednie warstwowanie ubrania to konieczność.</p></blockquote>
+
+<h2>Jak wygląda dzień pracy w chłodni?</h2>
+<p><strong>Przykładowy grafik operatora wózka w centrum dystrybucji chłodniczej (zmiana 06:00–14:00):</strong></p>
+<ol>
+  <li>Odbiór wózka, kontrola stanu — w strefie przejściowej (+8°C)</li>
+  <li>Rozładunek dostaw z tirów do strefy chłodniczej — praca przemiennie przy rampie i w chłodni</li>
+  <li>Odkładanie palet na lokacje według systemu WMS</li>
+  <li>Przerwa w ciepłej strefie socjalnej (30 min — obowiązkowe przy ekspozycji na zimno powyżej 1 h)</li>
+  <li>Kompletowanie zamówień do sklepów</li>
+  <li>Zdanie wózka, protokół zmianowy</li>
+</ol>
+<p><strong>Ważne:</strong> Przerwy w ciepłej strefie przy pracy w mroźni są obowiązkowe z mocy prawa (Arbeitsstättenverordnung). Pracodawca nie może ich pomijać.</p>
+
+<h2>Czy do pracy w chłodni potrzebne są dodatkowe uprawnienia?</h2>
+<p>Same warunki chłodnicze nie wymagają dodatkowych uprawnień poza standardowymi (UDT przy wózkach). Wyjątki:</p>
+<ul>
+  <li><strong>Zakłady mięsne</strong> — szkolenie z zasad higieny żywności (HACCP) jest zazwyczaj organizowane przez pracodawcę w pierwszym tygodniu</li>
+  <li><strong>Obsługa urządzeń chłodniczych z F-gazami</strong> — wymagana certyfikacja (F-Gase Verordnung). Dotyczy techników, nie operatorów.</li>
+</ul>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy można pracować w chłodni bez doświadczenia?</strong><br/>Tak — pozycje kompletacyjne w chłodniach świeżych są dostępne dla osób bez doświadczenia. Mroźnie zazwyczaj preferują kandydatów z co najmniej 3-miesięcznym stażem w logistyce.</p>
+<p><strong>Czy praca w chłodni jest szkodliwa dla zdrowia?</strong><br/>Przy odpowiedniej odzieży, przestrzeganiu przerw i braku przeciwwskazań zdrowotnych — nie. Badanie G21 wstępnie weryfikuje, czy kandydat może bezpiecznie pracować w niskich temperaturach.</p>
+<p><strong>Jak szybko przyzwyczajam się do warunków?</strong><br/>Większość nowych pracowników adaptuje się w ciągu 1–2 tygodni. Kluczowe jest prawidłowe warstwowanie ubrania od pierwszego dnia.</p>
+
+<p>Szukasz pracy w magazynie bez warunków chłodniczych? Sprawdź: <a href="/blog/praca-na-wozku-widlowym-niemcy">Praca forklift Niemcy — wymagania i zarobki</a>.</p>
+
+<hr/>
+<p><strong>Nexflow regularnie rekrutuje pracowników chłodni</strong> dla centrów dystrybucji sieci spożywczych w regionie Berlin–Brandenburg. Jeśli nie masz obaw zdrowotnych i szukasz wyższej stawki — chłodnia to dobry wybór.</p>
+<p><strong><a href="/praca">Sprawdź aktualne oferty i wyślij zgłoszenie na nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Stawki wg Tarifvertrag Zeitarbeit (BAP/iGZ) i danych rynkowych regionu Brandenburg, 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "urlop-l4-prawa-pracownicze-niemcy",
+    title: "Urlop, zwolnienie lekarskie i Kurzarbeit — prawa pracownika w Niemczech po polsku (2026)",
+    description:
+      "Urlop w Niemczech, L4 (Krankmeldung), zasiłek chorobowy Krankengeld i Kurzarbeit — jak działają prawa pracownicze dla Polaków zatrudnionych przez agencję tymczasową.",
+    date: "2026-07-28",
+    lang: "pl",
+    content: `
+<p>Pracujesz lub planujesz pracę w Niemczech przez agencję? Prawa pracownicze — urlop, zwolnienie lekarskie, zasiłek chorobowy — to obszar, który często wywołuje niepewność. Ten poradnik wyjaśnia, jak działają te prawa dla Polaków zatrudnionych przez agencję tymczasową w oparciu o przepisy z 2026 roku.</p>
+
+<h2>Urlop w Niemczech — ile dni i jak rozliczać?</h2>
+<p>Ustawowe minimum to <strong>20 dni roboczych</strong> urlopu przy pracy 5 dni w tygodniu (§ 3 BUrlG). W praktyce pracownicy Nexflow objęci <em>Tarifvertrag Zeitarbeit</em> (BAP/iGZ) mają prawo do <strong>25–28 dni</strong> w zależności od stażu pracy:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Staż pracy w agencji</th>
+      <th>Wymiar urlopu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Do 12 miesięcy</td>
+      <td>25 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>13–24 miesiące</td>
+      <td>26 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>25–36 miesięcy</td>
+      <td>27 dni roboczych/rok</td>
+    </tr>
+    <tr>
+      <td>Powyżej 36 miesięcy</td>
+      <td>28 dni roboczych/rok</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Ważne zasady:</strong></p>
+<ul>
+  <li>Urlop nalicza się od pierwszego dnia pracy — nawet przy umowie na 3 miesiące</li>
+  <li>Urlopu nie można wypłacić zamiast jego wykorzystania — chyba że umowa wygasa przed jego pobraniem</li>
+  <li>Urlop powinien być uzgodniony z agencją z wyprzedzeniem (zazwyczaj 2–4 tygodnie)</li>
+  <li>Niewykorzystany urlop z bieżącego roku można przenieść do 31 marca następnego roku (§ 7 BUrlG)</li>
+</ul>
+<blockquote><p><strong>Pracownicy agencji vs. stali:</strong> Tarifvertrag Zeitarbeit (BAP/iGZ) daje pracownikom tymczasowym porównywalny wymiar urlopu do pracowników stałych — to jeden z efektów reformy AÜG z 2017 roku.</p></blockquote>
+
+<h2>Zwolnienie lekarskie (Krankmeldung) — jak postępować?</h2>
+<p>Jeśli zachorujesz, masz <strong>obowiązek poinformowania agencji niezwłocznie</strong> — najlepiej telefonicznie przed godziną rozpoczęcia zmiany.</p>
+<p><strong>Procedura krok po kroku:</strong></p>
+<ol>
+  <li>Zadzwoń lub wyślij wiadomość do agencji <strong>przed zmianą</strong> (nie w jej trakcie)</li>
+  <li>Udaj się do lekarza — <strong>od 4. dnia choroby</strong> wymagane jest zaświadczenie lekarskie (<em>Arbeitsunfähigkeitsbescheinigung</em> / AU-Bescheinigung)</li>
+  <li>Dostarcz zaświadczenie do agencji do 3 dni roboczych od wystawienia</li>
+</ol>
+<p><strong>Co dostajesz podczas choroby?</strong></p>
+<ul>
+  <li><strong>Pierwsze 6 tygodni (42 dni):</strong> <em>Entgeltfortzahlung</em> — agencja wypłaca 100% wynagrodzenia netto. Obowiązuje po 4 tygodniach przepracowania.</li>
+  <li><strong>Od 7. tygodnia:</strong> <em>Krankengeld</em> — zasiłek z kasy chorych (Krankenkasse), ok. 70% wynagrodzenia brutto / 90% netto. Maksymalnie przez 72 tygodnie przy tej samej chorobie.</li>
+</ul>
+<p><strong>Do jakiego lekarza iść?</strong></p>
+<ul>
+  <li>Jesteś w systemie GKV (niemieckiej kasy chorych) → lekarz pierwszego kontaktu (<em>Kassenarzt</em>)</li>
+  <li>Masz EKUZ i A1 (polskie ubezpieczenie) → masz prawo do pilnej pomocy medycznej u lekarza przyjmującego EKUZ; unikaj prywatnych klinik (<em>Privatpraxis</em>) — będą kosztowne</li>
+</ul>
+<blockquote><p><strong>Uwaga:</strong> W Niemczech nie ma zwolnienia retroaktywnego. Zaświadczenie lekarskie obowiązuje od dnia wystawienia, nie wstecz. Jeśli byłeś chory w poniedziałek i poszedłeś do lekarza w środę — poniedziałek i wtorek mogą być nieusprawiedliwione.</p></blockquote>
+
+<h2>Kurzarbeit — czy dotyczy pracowników agencji?</h2>
+<p><em>Kurzarbeit</em> (skrócony czas pracy) to mechanizm, w którym Bundesagentur für Arbeit dofinansowuje wynagrodzenia, gdy zakład musi zmniejszyć produkcję z przyczyn niezależnych od pracownika (kryzys, brak zamówień).</p>
+<p>Od 2020 roku pracownicy tymczasowi są objęci Kurzarbeit na takich samych zasadach jak pracownicy stali. Wysokość świadczenia: <strong>60% utraconego wynagrodzenia netto</strong> (67% dla osób z dziećmi).</p>
+<p>Przykład: jeśli zakład zmniejsza zamówienie o 50% — agencja może wnioskować o Kurzarbeit i otrzymujesz 60–67% brakujących godzin jako świadczenie z urzędu pracy.</p>
+
+<h2>Okresy wypowiedzenia w pracy tymczasowej</h2>
+<p>Zgodnie z Tarifvertrag Zeitarbeit (BAP/iGZ):</p>
+<ul>
+  <li>Do 1 miesiąca pracy: 2 tygodnie</li>
+  <li>1–3 miesiące: 2 tygodnie</li>
+  <li>Po 3 miesiącach: 4 tygodnie ze skutkiem na koniec lub 15. miesiąca</li>
+  <li>Po 2 latach: 1 miesiąc</li>
+  <li>Po 5 latach: 2 miesiące</li>
+</ul>
+<p><strong>Ochrona przed zwolnieniem (Kündigungsschutz)</strong> obowiązuje od 6. miesiąca zatrudnienia w tej samej agencji. Przed tym progiem agencja może rozwiązać umowę bez podania przyczyny.</p>
+<p>Więcej o porównaniu pracy tymczasowej i stałej: <a href="/blog/praca-tymczasowa-vs-stala-niemcy">Praca tymczasowa vs. stała — co wybrać?</a></p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy muszę iść do lekarza od pierwszego dnia choroby?</strong><br/>Nie — od 4. dnia. Ale jeśli umowa wymaga zaświadczenia od 1. dnia — musisz zastosować się do umowy.</p>
+<p><strong>Czy mogę wziąć urlop w pierwszym tygodniu pracy?</strong><br/>Prawo do pełnego urlopu nabywa się po 6 miesiącach pracy u danego pracodawcy (§ 4 BUrlG). Wcześniej przysługuje proporcjonalna część urlopu przy rozwiązaniu umowy.</p>
+<p><strong>Co jeśli zachoruję w Polsce podczas urlopu?</strong><br/>Możesz uzyskać zaświadczenie od polskiego lekarza. Niemieccy pracodawcy są przyzwyczajeni do takich sytuacji u pracowników transgranicznych — zaświadczenie w języku angielskim lub polskim z tłumaczeniem jest akceptowane.</p>
+<p><strong>Ile wcześniej muszę zgłosić chęć wzięcia urlopu?</strong><br/>Zazwyczaj 2–4 tygodnie — termin jest zapisany w umowie lub regulaminie agencji. Przy ważnych powodach rodzinnych (ślub, pogrzeb) agencja może zaakceptować krótsze zgłoszenie.</p>
+
+<p>Chcesz wiedzieć więcej o zatrudnieniu przez agencję? Przeczytaj: <a href="/blog/jak-wyglada-rekrutacja-nexflow">Jak wygląda rekrutacja w Nexflow?</a> i <a href="/blog/praca-tymczasowa-vs-stala-niemcy">Praca tymczasowa vs. stała — porównanie</a>.</p>
+
+<hr/>
+<p><strong>Nexflow wyjaśnia prawa pracownicze przed podpisaniem umowy</strong> — po polsku, bez żargonu. Twoje prawa to nasz obowiązek.</p>
+<p><strong><a href="/praca">Wyślij zgłoszenie na nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: lipiec 2026. Przepisy wg BUrlG, EntgFG, SGB V, AÜG i Tarifvertrag Zeitarbeit BAP/iGZ 2026. Artykuł ma charakter informacyjny i nie zastępuje porady prawnej.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "konto-bankowe-niemcy-pracownik",
+    title: "Jak otworzyć konto bankowe w Niemczech jako pracownik z Polski?",
+    description:
+      "Praktyczny przewodnik dla polskich pracowników delegowanych i sezonowych — które banki są dostępne bez Anmeldung, jakie dokumenty przygotować i jak działa konto online.",
+    date: "2026-07-30",
+    lang: "pl",
+    content: `
+<p>Jednym z pierwszych praktycznych problemów po przyjeździe do pracy w Niemczech jest otwarcie konta bankowego. Bez niego trudno otrzymać wynagrodzenie przelewem, zapłacić za media czy wynająć mieszkanie. Dobra wiadomość: jako obywatel UE masz prawo do <em>Basiskonto</em> (konta podstawowego) w każdym niemieckim banku.</p>
+
+<h2>Czy do otwarcia konta potrzebujesz Anmeldung?</h2>
+<p>Tradycyjnie banki wymagały zaświadczenia o zameldowaniu (Anmeldung) w Niemczech. W praktyce jednak wiele banków online oraz fintech pozwala otworzyć konto bez Anmeldung — wystarczy paszport lub dowód osobisty.</p>
+<ul>
+  <li><strong>N26</strong> — konto online, otwarcie przez aplikację, akceptuje zagraniczny adres</li>
+  <li><strong>Wise (dawniej TransferWise)</strong> — konto multi-walutowe, IBAN DE, bez Anmeldung</li>
+  <li><strong>Revolut</strong> — IBAN DE lub LT, natychmiastowe otwarcie, darmowe przelewy SEPA</li>
+  <li><strong>Deutsche Bank / Sparkasse</strong> — klasyczne banki, wymagają zazwyczaj Anmeldung, ale pracownicy delegowani mogą się ubiegać o wyjątek</li>
+</ul>
+
+<h2>Jakie dokumenty przygotować?</h2>
+<ul>
+  <li>Dowód osobisty lub paszport (ważny)</li>
+  <li>Adres zamieszkania w Niemczech lub w Polsce (banki online akceptują oba)</li>
+  <li>Numer telefonu i adres e-mail</li>
+  <li>Niekiedy: umowa o pracę lub zaświadczenie pracodawcy</li>
+</ul>
+
+<h2>Jak Nexflow pomaga pracownikom?</h2>
+<p>Nexflow informuje każdego nowego pracownika o najwygodniejszych opcjach bankowych jeszcze przed rozpoczęciem pracy. Dla pracowników, którym zależy na szybkim dostępie do wypłaty, rekomendujemy konta fintech (N26, Wise, Revolut) — otwarcie zajmuje kilkanaście minut przez smartfon, a karta dociera pocztą.</p>
+
+<h2>Ważna wskazówka: IBAN dla przelewów z Nexflow</h2>
+<p>Wypłaty realizujemy wyłącznie przelewem SEPA. Po założeniu konta jak najszybciej przekaż nam swój numer IBAN — pozwoli to uniknąć opóźnień w pierwszej wypłacie. Możesz też podać polski IBAN — wypłacamy na rachunki w dowolnym kraju UE.</p>
+    `.trim(),
+  },
+  {
+    slug: "arbeitssicherheit-lager-leiharbeiter-deutschland",
+    title: "Arbeitssicherheit im Lager: Was polnische Leiharbeiter in Deutschland wissen müssen",
+    description:
+      "Schutzausrüstung, Unterweisungspflicht, Unfallmeldung — die wichtigsten Regeln zur Arbeitssicherheit für polnische Zeitarbeitnehmer in deutschen Lager- und Logistikbetrieben.",
+    date: "2026-07-30",
+    lang: "de",
+    content: `
+<p>Sicherheit am Arbeitsplatz ist in Deutschland gesetzlich streng geregelt — und das gilt ausdrücklich auch für Leiharbeitnehmer. Wer in einem deutschen Lager oder Logistikbetrieb eingesetzt wird, hat dieselben Schutzrechte wie Stammarbeitnehmer. Dieser Artikel erklärt, was Sie als polnischer Leiharbeitnehmer wissen und einfordern dürfen.</p>
+
+<h2>Unterweisungspflicht des Entleihers</h2>
+<p>Bevor Sie mit der Arbeit beginnen, ist der Entleihbetrieb (der Betrieb, in dem Sie tatsächlich arbeiten) verpflichtet, Sie über arbeitsplatzbezogene Gefährdungen und Schutzmaßnahmen zu unterweisen (<em>Einweisung</em>). Diese Unterweisung muss:</p>
+<ul>
+  <li>vor dem ersten Einsatz stattfinden</li>
+  <li>in einer Sprache erfolgen, die Sie verstehen (polnisch, wenn nötig)</li>
+  <li>Themen wie Notausgänge, Feuerlöscher, Gefahrstoffe und maschinenbezogene Risiken umfassen</li>
+  <li>schriftlich dokumentiert und von Ihnen unterschrieben werden</li>
+</ul>
+<p>Wenn keine verständliche Unterweisung erfolgt, haben Sie das Recht, die Arbeit zu verweigern, bis dies nachgeholt wird.</p>
+
+<h2>Persönliche Schutzausrüstung (PSA)</h2>
+<p>Der Entleihbetrieb stellt die PSA kostenlos zur Verfügung. Je nach Tätigkeit umfasst das:</p>
+<ul>
+  <li>Sicherheitsschuhe (Stahlkappen, EN ISO 20345)</li>
+  <li>Warnweste oder Warnkleidung in Lagern mit Fahrzeugverkehr</li>
+  <li>Handschuhe, Gehörschutz, Schutzbrille (je nach Bereich)</li>
+  <li>Kälteschutzkleidung bei Einsätzen im Kühl- oder Tiefkühlbereich</li>
+</ul>
+<p>Niemals auf eigene Kosten PSA kaufen — das ist eine Pflicht des Arbeitgebers.</p>
+
+<h2>Unfallmeldung: Was zu tun ist</h2>
+<p>Bei einem Arbeitsunfall gilt:</p>
+<ol>
+  <li>Unfall sofort dem Vorgesetzten melden — auch bei Bagatellverletzungen</li>
+  <li>Arzt aufsuchen (Durchgangsarzt, kurz D-Arzt) — nur dieser darf Arbeitsunfälle behandeln und dokumentieren</li>
+  <li>Nexflow informieren — wir übernehmen die Kommunikation mit der Berufsgenossenschaft (BG)</li>
+</ol>
+<p>Als Leiharbeitnehmer sind Sie über die Berufsgenossenschaft des Entleihbetriebs unfallversichert — nicht über Nexflow direkt. Alle Unfallmeldungen laufen jedoch über uns.</p>
+
+<h2>Nexflow-Ansprechpartner bei Problemen</h2>
+<p>Wenn Ihr Einsatzbetrieb die Sicherheitsvorschriften nicht einhält oder Sie sich unsicher fühlen, wenden Sie sich sofort an Ihre Ansprechperson bei Nexflow. Wir klären das mit dem Entleiher — anonym, wenn gewünscht. Sicherheit hat Vorrang vor Produktivität.</p>
+    `.trim(),
+  },
+  {
+    slug: "praca-na-linii-produkcyjnej-niemcy",
+    title: "Praca na linii produkcyjnej w Niemczech — zarobki, rytm dnia i jak dostać taką pracę",
+    description:
+      "Praca produkcyjna w Niemczech przez agencję: co czeka Cię na hali montażowej, ile zarobisz i dlaczego linia produkcyjna to dobry start dla pracowników bez specjalizacji.",
+    date: "2026-07-30",
+    lang: "pl",
+    content: `
+<p>Praca na linii produkcyjnej (po niemiecku: <em>Montageband</em> lub <em>Fertigungslinie</em>) to jeden z najczęstszych typów zatrudnienia tymczasowego w zachodniej Polsce i w Niemczech. Nie wymaga specjalnych kwalifikacji, jest płatna co najmniej według minimalnej stawki godzinowej i daje pewność stabilnych godzin. W tym artykule tłumaczymy, czego można się spodziewać.</p>
+
+<h2>Na czym polega praca przy linii produkcyjnej?</h2>
+<p>W zależności od zakładu zadania różnią się, ale typowe obowiązki obejmują:</p>
+<ul>
+  <li>montaż elementów (np. komponenty elektroniczne, części samochodowe, opakowania)</li>
+  <li>kontrola jakości — wzrokowa lub z użyciem prostych przyrządów</li>
+  <li>zasilanie linii materiałem i odbieranie gotowych produktów</li>
+  <li>obsługa maszyn przy minimalnym szkoleniu stanowiskowym</li>
+</ul>
+<p>Praca jest rytmiczna i powtarzalna. Wymaga koncentracji i tempa, ale nie specjalistycznego wykształcenia.</p>
+
+<h2>Zarobki w produkcji w Niemczech (2026)</h2>
+<ul>
+  <li><strong>Podstawa:</strong> od 13,00 EUR/h brutto (stawka minimalna Mindestlohn od 2026)</li>
+  <li><strong>Z dodatkami nocnymi i weekendowymi:</strong> 14,50–17,00 EUR/h brutto</li>
+  <li><strong>Operatorzy maszyn / linia CNC:</strong> od 15,50 EUR/h brutto</li>
+</ul>
+<p>Wiele zakładów w regionie Frankfurt nad Odrą, Eisenhüttenstadt i Fürstenwalde oferuje zakwaterowanie w pobliżu hali lub zwrot kosztów dojazdu — zapytaj o to podczas rekrutacji.</p>
+
+<h2>Jak wygląda typowy dzień pracy?</h2>
+<p>Większość zakładów produkcyjnych pracuje w systemie dwuzmianowym lub trzyzmianowym:</p>
+<ul>
+  <li><strong>Zmiana ranna:</strong> 06:00–14:00</li>
+  <li><strong>Zmiana popołudniowa:</strong> 14:00–22:00</li>
+  <li><strong>Zmiana nocna:</strong> 22:00–06:00 (z dodatkiem nocnym ~25%)</li>
+</ul>
+<p>Przed wyjazdem warto ustalić, czy Cię interesuje konkretna zmiana — w Nexflow staramy się dopasować harmonogram do Twoich preferencji.</p>
+
+<h2>Czy znajomość języka jest potrzebna?</h2>
+<p>W wielu zakładach wystarczy znajomość kilkudziesięciu słów technicznych po niemiecku — kolory, liczby, nazwy stanowisk. Nexflow przygotowuje pracowników ze słowniczkiem branżowym i tłumaczy kluczowe procedury BHP. Na liniach produkcyjnych blisko granicy polsko-niemieckiej językiem komunikacji wewnętrznej bywa też angielski.</p>
+
+<h2>Jak się zgłosić?</h2>
+<p>Skontaktuj się z Nexflow — rekrutujemy pracowników do zakładów produkcyjnych w regionie przygranicznym. Pierwsza rozmowa kwalifikacyjna odbywa się telefonicznie lub przez WhatsApp. Możesz zacząć pracować już w ciągu kilku dni od zgłoszenia.</p>
+    `.trim(),
+  },
+  {
+    slug: "jak-czytac-lohnabrechnung-niemcy",
+    title: "Jak czytać Lohnabrechnung? Pierwsza wypłata z Niemiec krok po kroku",
+    description:
+      "Lohnabrechnung po polsku — tłumaczenie każdej pozycji odcinka płacowego, skróty, składki i klasy podatkowe. Sprawdź to zanim zadzwonisz do pracodawcy.",
+    date: "2026-08-04",
+    lang: "pl",
+    content: `
+<p>Pierwsza wypłata z Niemiec trafia na konto i razem z nią przychodzi <strong>Lohnabrechnung</strong> — odcinek płacowy. Dla wielu Polaków to gęsta kolumna cyfr i skrótów, które na pierwszy rzut oka nic nie mówią. W tym artykule rozkładamy Lohnabrechnung na części pierwsze — po polsku, pozycja po pozycji.</p>
+
+<h2>Czym jest Lohnabrechnung?</h2>
+<p><strong>Lohnabrechnung</strong> (lub <em>Gehaltsabrechnung</em>) to miesięczny odcinek płacowy — dokument potwierdzający naliczenie wynagrodzenia, wszystkie potrącenia oraz kwotę, która wpłynęła na Twoje konto. Pracodawca jest prawnie zobowiązany go wystawić (<em>§ 108 GewO</em>). Zachowuj każdy odcinek — będą potrzebne przy rozliczeniu podatkowym i wniosku o kredyt lub mieszkanie.</p>
+
+<h2>Struktura typowej Lohnabrechnung — sekcja po sekcji</h2>
+
+<h3>Nagłówek (dane identyfikacyjne)</h3>
+<table>
+  <thead><tr><th>Pole w dokumencie</th><th>Co oznacza</th></tr></thead>
+  <tbody>
+    <tr><td>Arbeitnehmer / Name</td><td>Twoje imię i nazwisko</td></tr>
+    <tr><td>Personalnummer</td><td>Numer pracowniczy w systemie pracodawcy</td></tr>
+    <tr><td>Sozialversicherungsnummer</td><td>Numer ubezpieczenia społecznego (DE) — nadawany przez Rentenversicherung</td></tr>
+    <tr><td>Steuer-ID</td><td>Identyfikator podatkowy (11 cyfr) — nadawany przez Finanzamt</td></tr>
+    <tr><td>Steuerklasse</td><td>Klasa podatkowa (I–VI) — wpływa na wysokość zaliczki na podatek</td></tr>
+    <tr><td>Abrechnungsmonat</td><td>Miesiąc rozliczeniowy</td></tr>
+    <tr><td>Krankenkasse</td><td>Kasa chorych (np. AOK, TK, Barmer) — Twoje ubezpieczenie zdrowotne</td></tr>
+  </tbody>
+</table>
+
+<h3>Wynagrodzenie brutto (Bruttolohn)</h3>
+<table>
+  <thead><tr><th>Pozycja</th><th>Co oznacza</th></tr></thead>
+  <tbody>
+    <tr><td>Grundlohn / Stundenlohn</td><td>Podstawowa stawka godzinowa × przepracowane godziny</td></tr>
+    <tr><td>Nachtzuschlag</td><td>Dopłata nocna (23:00–06:00): +25 % podstawy</td></tr>
+    <tr><td>Sonntagszuschlag</td><td>Dopłata niedzielna: +50 %</td></tr>
+    <tr><td>Feiertagszuschlag</td><td>Dopłata świąteczna: +100–125 %</td></tr>
+    <tr><td>Überstundenzuschlag</td><td>Dopłata za nadgodziny: +25–50 %</td></tr>
+    <tr><td>Urlaubsentgelt</td><td>Wynagrodzenie za urlop</td></tr>
+    <tr><td>Krankengeld (Lohnfortzahlung)</td><td>Wynagrodzenie chorobowe (pierwsze 6 tygodni — 100 % od pracodawcy)</td></tr>
+    <tr><td>Gesamtbrutto</td><td>Suma wszystkich składników brutto — punkt wyjścia do obliczeń</td></tr>
+  </tbody>
+</table>
+<blockquote><p><strong>Uwaga:</strong> Dopłaty nocne i świąteczne są w Niemczech zwolnione z podatku dochodowego (<em>§ 3b EStG</em>) do określonych limitów — dlatego widzisz je jako osobne pozycje, nie doliczone do podstawy.</p></blockquote>
+
+<h3>Składki na ubezpieczenie społeczne (Sozialversicherungsbeiträge)</h3>
+<p>Składki dzielone są po połowie między pracownika i pracodawcę. Na odcinku widzisz tylko <strong>Twój udział</strong> (Arbeitnehmeranteil):</p>
+<table>
+  <thead><tr><th>Składka</th><th>Skrót</th><th>Stawka pracownik (2026)</th></tr></thead>
+  <tbody>
+    <tr><td>Krankenversicherung (ubezpieczenie zdrowotne)</td><td>KV</td><td>7,3 % + Zusatzbeitrag kasy (ok. 1,7 %) = ok. 9 %</td></tr>
+    <tr><td>Rentenversicherung (emerytalne)</td><td>RV</td><td>9,3 %</td></tr>
+    <tr><td>Arbeitslosenversicherung (bezrobocie)</td><td>AV</td><td>1,3 %</td></tr>
+    <tr><td>Pflegeversicherung (opiekuńcze)</td><td>PV</td><td>1,7 % (bez dzieci: +0,35 %) </td></tr>
+    <tr><td>Razem (przybliżenie)</td><td>SV gesamt</td><td>~20,5 % brutto</td></tr>
+  </tbody>
+</table>
+<p><strong>Wyjątek dla pracowników delegowanych z Polski z A1:</strong> Jeśli Nexflow wystawiło Ci zaświadczenie A1, pozostajesz w polskim ZUS — składki SV na odcinku będą wyzerowane lub zastąpione symboliczną pozycją, a pracodawca odprowadza składki do ZUS przez polską firmę.</p>
+
+<h3>Podatek dochodowy (Lohnsteuer)</h3>
+<table>
+  <thead><tr><th>Pozycja</th><th>Co oznacza</th></tr></thead>
+  <tbody>
+    <tr><td>Lohnsteuer</td><td>Zaliczka na podatek dochodowy — obliczona od dochodu podlegającego opodatkowaniu (Brutto minus SV)</td></tr>
+    <tr><td>Solidaritätszuschlag</td><td>Solidarnościowy dodatek podatkowy — od 2021 r. większość pracowników go nie płaci; może pojawić się przy wyższych zarobkach</td></tr>
+    <tr><td>Kirchensteuer</td><td>Podatek kościelny (8–9 % od Lohnsteuer) — tylko jeśli jesteś zarejestrowanym członkiem Kościoła w Niemczech. Polacy zazwyczaj tego nie mają.</td></tr>
+  </tbody>
+</table>
+<blockquote><p><strong>Klasa podatkowa a netto:</strong> Klasa I (kawaler/panna bez dzieci) → wyższa zaliczka. Klasa III (małżonkowie — wyżej zarabiający) → niższa zaliczka. Szczegóły w artykule <a href="/blog/steuerklasse-niemcy-polak">Steuerklasse w Niemczech — którą wybrać?</a> (wkrótce).</p></blockquote>
+
+<h3>Wynagrodzenie netto (Nettoauszahlung)</h3>
+<p><code>Nettoauszahlung = Gesamtbrutto − SV-Beiträge (AN) − Lohnsteuer − inne potrącenia</code></p>
+<p><strong>Inne potrącenia</strong> mogą obejmować:</p>
+<ul>
+  <li><em>Unterkunftsabzug</em> — potrącenie za zakwaterowanie (jeśli pracodawca zapewnił kwaterę)</li>
+  <li><em>Fahrkostenzuschuss</em> — może być też dopłata pracodawcy do dojazdu (zwiększa netto)</li>
+  <li><em>Pfändung</em> — zajęcie komornicze (pojawia się z postanowieniem sądu)</li>
+</ul>
+
+<h2>Przykładowy odcinek — operator wózka, Frankfurt nad Odrą (lipiec 2026)</h2>
+<table>
+  <thead><tr><th>Pozycja</th><th>Kwota (EUR)</th></tr></thead>
+  <tbody>
+    <tr><td>Grundlohn (168 h × 15,50 EUR)</td><td>2 604,00</td></tr>
+    <tr><td>Nachtzuschlag (32 h × 3,88 EUR)</td><td>124,16</td></tr>
+    <tr><td>Überstundenzuschlag (8 h × 3,88 EUR)</td><td>31,04</td></tr>
+    <tr><td><strong>Gesamtbrutto</strong></td><td><strong>2 759,20</strong></td></tr>
+    <tr><td>– Rentenversicherung (9,3 %)</td><td>– 256,61</td></tr>
+    <tr><td>– Krankenversicherung (9,0 %)</td><td>– 248,33</td></tr>
+    <tr><td>– Arbeitslosenversicherung (1,3 %)</td><td>– 35,87</td></tr>
+    <tr><td>– Pflegeversicherung (1,7 %)</td><td>– 46,91</td></tr>
+    <tr><td>– Lohnsteuer (klasa I)</td><td>– 315,00</td></tr>
+    <tr><td>– Unterkunftsabzug</td><td>– 250,00</td></tr>
+    <tr><td><strong>Nettoauszahlung</strong></td><td><strong>1 606,48</strong></td></tr>
+  </tbody>
+</table>
+<p><em>* Przykład poglądowy. Kwoty szacunkowe — Lohnsteuer zależy od klasy podatkowej i indywidualnej sytuacji.</em></p>
+
+<h2>Co sprawdzić na każdym odcinku?</h2>
+<ol>
+  <li><strong>Liczba godzin i stawka</strong> — czy zgadza się z Twoim timesheet / aplikacją obecności?</li>
+  <li><strong>Dopłaty</strong> — czy nocne i świąteczne zostały ujęte?</li>
+  <li><strong>Steuerklasse</strong> — czy jest właściwa? Błędna klasa oznacza nadpłatę podatku przez rok.</li>
+  <li><strong>Krankenkasse</strong> — czy masz przypisaną kasę, do której się zarejestrowałeś?</li>
+  <li><strong>Sozialversicherungsnummer</strong> — czy jest wpisany? Bez niego pracodawca nie może poprawnie odprowadzać składek.</li>
+</ol>
+
+<h2>Co zrobić, jeśli coś się nie zgadza?</h2>
+<ol>
+  <li>Zrób print-screen odcinka i porównaj z harmonogramem pracy.</li>
+  <li>Skontaktuj się z koordynatorem Nexflow — pomożemy odczytać i zinterpretować każdą pozycję.</li>
+  <li>Jeśli błąd dotyczy podatku lub składek — Nexflow zgłasza korektę do pracodawcy i Finanzamt.</li>
+</ol>
+<p>Nie czekaj do końca roku — błędy w odcinku najłatwiej korygować w miesiącu, w którym wystąpiły.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Kiedy dostanę Lohnabrechnung?</strong><br/>Zazwyczaj razem z przelewem wynagrodzenia (do 10. następnego miesiąca) — w formie papierowej lub elektronicznie (email, portal pracowniczy pracodawcy).</p>
+<p><strong>Czy muszę oddawać Lohnabrechnung w Polsce przy rozliczeniu PIT?</strong><br/>Tak — o ile Twoje dochody podlegają opodatkowaniu w Polsce (np. pracujesz krócej niż 183 dni w DE). Zachowaj wszystkie odcinki z roku podatkowego. Więcej: <a href="/blog/jak-rozliczyc-podatek-praca-niemcy">Jak rozliczyć podatek z pracy w Niemczech?</a></p>
+<p><strong>Co to jest Steueridentifikationsnummer i skąd go wziąć?</strong><br/>To 11-cyfrowy numer identyfikacji podatkowej nadawany przez Bundeszentralamt für Steuern. Jeśli pracujesz w Niemczech po raz pierwszy, Nexflow pomaga w jego uzyskaniu.</p>
+
+<hr/>
+<p><strong>Pytania o swój odcinek?</strong> Skontaktuj się z koordynatorem Nexflow — wyjaśnimy każdą pozycję po polsku, bez biurokratycznego żargonu.</p>
+<p><strong><a href="/praca">nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: sierpień 2026. Stawki składek wg stanu na 2026 r.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "steuerklasse-niemcy-polak",
+    title: "Steuerklasse w Niemczech — którą klasę podatkową wybrać i kiedy ją zmienić (2026)",
+    description:
+      "Steuerklasse Niemcy wyjaśnione po polsku: klasy I–VI, co zależy od klasy podatkowej, kiedy Polak może zmienić klasę i ile netto więcej wyniesie. Przykłady liczbowe.",
+    date: "2026-08-11",
+    lang: "pl",
+    content: `
+<p><strong>Steuerklasse</strong> — klasa podatkowa — to jedno z pierwszych pojęć, z jakimi styka się Polak rozpoczynający pracę w Niemczech. Od niej zależy, ile podatku potrąci Ci pracodawca co miesiąc z pensji. Dobra wiadomość: możesz ją zmienić i realnie zwiększyć miesięczne netto. Zła wiadomość: wiele osób tego nie robi, bo nie wie, że ma taką możliwość.</p>
+
+<h2>System klas podatkowych w Niemczech — przegląd</h2>
+<p>W Niemczech obowiązuje sześć klas podatkowych (Steuerklassen). Klasa jest przypisywana automatycznie na podstawie stanu cywilnego i sytuacji rodzinnej, ale można ją zmienić.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Klasa</th>
+      <th>Dla kogo</th>
+      <th>Zaliczka na podatek</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>I</strong></td>
+      <td>Singiel, kawaler/panna, rozwiedziony/a, wdow/a (po upływie roku)</td>
+      <td>Standardowa — punkt odniesienia</td>
+    </tr>
+    <tr>
+      <td><strong>II</strong></td>
+      <td>Samotny rodzic z dzieckiem mieszkającym w gosp. domowym</td>
+      <td>Niższa niż I — ulga na samotnego rodzica (Entlastungsbetrag)</td>
+    </tr>
+    <tr>
+      <td><strong>III</strong></td>
+      <td>Małżonek wyżej zarabiający (przy kombinacji III/V)</td>
+      <td>Znacznie niższa — korzystna przy dużej rozpiętości dochodów</td>
+    </tr>
+    <tr>
+      <td><strong>IV</strong></td>
+      <td>Małżonkowie z podobnymi zarobkami</td>
+      <td>Taka sama jak klasa I dla każdego małżonka</td>
+    </tr>
+    <tr>
+      <td><strong>V</strong></td>
+      <td>Małżonek niżej zarabiający (przy kombinacji III/V)</td>
+      <td>Wyższa niż I — więcej podatku u niżej zarabiającego</td>
+    </tr>
+    <tr>
+      <td><strong>VI</strong></td>
+      <td>Drugie i kolejne zatrudnienie jednocześnie</td>
+      <td>Najwyższa — brak jakichkolwiek ulg i zwolnień</td>
+    </tr>
+  </tbody>
+</table>
+<blockquote><p><strong>Ważne:</strong> Klasa podatkowa wpływa TYLKO na miesięczną zaliczkę (<em>Lohnsteuer</em>), nie na ostateczny podatek za rok. Roczne rozliczenie (<em>Steuererklärung</em>) wyrównuje różnice. Jednak im niższa zaliczka, tym więcej pieniędzy masz w kieszeni przez cały rok — bez czekania na zwrot.</p></blockquote>
+
+<h2>Którą klasę dostaje Polak pracujący w Niemczech?</h2>
+<p>Przy pierwszej rejestracji w systemie podatkowym (przez Finanzamt lub przez pracodawcę/agencję) Polacy domyślnie otrzymują:</p>
+<ul>
+  <li><strong>Klasa I</strong> — jeśli jesteś singlem, kawalerem/panną lub nie masz małżonka zarejestrowanego w Niemczech</li>
+  <li><strong>Klasa III lub IV/IV</strong> — jeśli małżonek mieszka i pracuje z Tobą w Niemczech i złożycie wspólny wniosek</li>
+  <li><strong>Klasa VI</strong> — jeśli to Twoja dodatkowa praca przy równoległym zatrudnieniu</li>
+</ul>
+<p>Większość polskich pracowników magazynowych pracujących samotnie w Niemczech zaczyna od <strong>klasy I</strong> — i tu są największe możliwości optymalizacji.</p>
+
+<h2>Kombinacja III/V — dla małżeństw z jednym głównym żywicielem</h2>
+<p>Jeśli Twój współmałżonek mieszka z Tobą w Niemczech lub wyjeżdża do Polski tylko sporadycznie, możecie złożyć wniosek o podział III/V:</p>
+<ul>
+  <li>Wyżej zarabiający → <strong>klasa III</strong> (prawie zero podatku co miesiąc)</li>
+  <li>Niżej zarabiający → <strong>klasa V</strong> (bardzo wysoki podatek)</li>
+</ul>
+<p><strong>Kiedy to się opłaca?</strong> Gdy różnica zarobków między wami wynosi minimum 40 %. Przy podobnych zarobkach lepszy jest układ IV/IV.</p>
+
+<h2>Ile netto więcej przy zmianie klasy? Przykład liczbowy</h2>
+<p>Operator wózka, Frankfurt nad Odrą, 2 704 EUR brutto/miesiąc, singiel:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Scenariusz</th>
+      <th>Lohnsteuer/miesiąc</th>
+      <th>Netto/miesiąc (est.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Klasa I (domyślna)</td>
+      <td>~330 EUR</td>
+      <td>~1 895 EUR</td>
+    </tr>
+    <tr>
+      <td>Klasa II (samotny rodzic, 1 dziecko)</td>
+      <td>~210 EUR</td>
+      <td>~2 015 EUR (+120 EUR/mies.)</td>
+    </tr>
+    <tr>
+      <td>Klasa III (małżonek nie pracuje)</td>
+      <td>~65 EUR</td>
+      <td>~2 160 EUR (+265 EUR/mies.)</td>
+    </tr>
+  </tbody>
+</table>
+<p><em>* Szacunki — zależą od indywidualnej sytuacji i roku podatkowego. Kasy chorych, Kirchensteuer i inne potrącenia pominięte dla uproszczenia.</em></p>
+<blockquote><p>Różnica między klasą I a III to nawet <strong>3 000–4 000 EUR netto rocznie</strong> przy tym samego brutto. Roczne rozliczenie wyrówna podatek ostatecznie, ale po co czekać 12 miesięcy na zwrot?</p></blockquote>
+
+<h2>Jak zmienić Steuerklasse?</h2>
+<p>Od 2024 r. zmiana klasy podatkowej odbywa się elektronicznie przez <strong>ELSTER</strong> (elster.de) lub w formie papierowej poprzez formularz <em>„Antrag auf Steuerklassenwechsel für Ehegatten/Lebenspartner"</em> złożony w Finanzamt.</p>
+<p><strong>Krok po kroku:</strong></p>
+<ol>
+  <li>Zarejestruj się na elster.de (potrzebujesz Steuer-ID — 11-cyfrowy numer z pierwszego pisma Finanzamt)</li>
+  <li>Złóż wniosek o zmianę — zmiana wchodzi w życie od następnego miesiąca po zatwierdzeniu</li>
+  <li>Poinformuj agencję (Nexflow) lub pracodawcę o nowej klasie, żeby pracodawca pobrał zaktualizowane dane z systemu ELSTAM</li>
+</ol>
+<p><strong>Kiedy można zmienić?</strong></p>
+<ul>
+  <li>Raz w roku — ale po śmierci małżonka, rozwodzie lub nowym związku możliwa zmiana natychmiastowa</li>
+  <li>Najkorzystniejszy moment: <strong>styczeń</strong> — obowiązuje od razu cały rok</li>
+</ul>
+
+<h2>Najczęstsze błędy Polaków przy klasie podatkowej</h2>
+<ol>
+  <li><strong>Zostanie na klasie I z dziećmi w Polsce</strong> — jeśli masz dziecko pozostające na Twoim utrzymaniu (nawet w Polsce), możesz ubiegać się o <em>Kinderfreibetrag</em> (ulgę na dziecko) lub dodatek Kindergeld. Nie poprawia to klasy podatkowej, ale zmniejsza podatek roczny.</li>
+  <li><strong>Niezgłoszenie małżonka</strong> — jeśli żona/mąż pracuje razem z Tobą w Niemczech i nie złożyliście wniosku o II/V lub IV/IV, oboje płacicie za dużo zaliczki.</li>
+  <li><strong>Ignorowanie klasy VI przy dorabianiu</strong> — przy pracy na dwie firmy klasa VI na drugie zatrudnienie jest obowiązkowa i oznacza bardzo wysoki podatek. Złóż zeznanie roczne, by go odzyskać.</li>
+</ol>
+
+<h2>Czy mogę rozliczyć nadpłacony podatek?</h2>
+<p>Tak — przez roczne zeznanie podatkowe (<em>Einkommensteuererklärung</em>). Większość Polaków pracujących w klasie I, którzy nie wykorzystali wszystkich ulg, dostaje zwrot. Średni zwrot podatku dla pracownika tymczasowego to 400–900 EUR rocznie. Termin złożenia: do 31 lipca następnego roku (z Steuerberaterem/doradcą podatkowym — do końca lutego roku kolejnego).</p>
+<p>Więcej o rozliczeniu podatkowym: <a href="/blog/jak-rozliczyc-podatek-praca-niemcy">Jak rozliczyć podatek z pracy w Niemczech?</a></p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy muszę meldować się w Niemczech, żeby zmienić klasę podatkową?</strong><br/>Nie, ale bez <em>Anmeldung</em> (meldunku) nie dostaniesz Steuer-ID w Niemczech. Przy pracy przez polską agencję z A1 Nexflow pomoże w alternatywnych ścieżkach.</p>
+<p><strong>Czy zmiana klasy wpływa na składki ZUS/GKV?</strong><br/>Nie — składki ubezpieczeniowe naliczane są od brutto, niezależnie od klasy podatkowej.</p>
+<p><strong>Pracuję sezonowo w Niemczech przez 3 miesiące. Czy warto zmieniać klasę?</strong><br/>Przy krótkich sezonach zwrot przychodzi zazwyczaj przez zeznanie roczne. Zmiana klasy daje efekt przy zatrudnieniu minimum kilku miesięcy.</p>
+
+<p>Nie wiesz, jak czytać odcinek płacowy? Sprawdź: <a href="/blog/jak-czytac-lohnabrechnung-niemcy">Jak czytać Lohnabrechnung? Krok po kroku</a>.</p>
+
+<hr/>
+<p><strong>Masz pytania o swoją sytuację podatkową?</strong> Nexflow współpracuje z doradcami podatkowymi w regionie i może polecić kontakt. Napisz do koordynatora.</p>
+<p><strong><a href="/praca">nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł zaktualizowany: sierpień 2026. Stawki i zasady wg stanu prawnego 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "krankenversicherung-leiharbeiter-polen",
+    title: "Krankenversicherung für polnische Leiharbeiter in Deutschland — GKV, A1 und was Betriebe wissen müssen (2026)",
+    description:
+      "Krankenversicherung Leiharbeiter aus Polen: Wann gilt die deutsche GKV, wann bleibt der ZUS zuständig? Vollständiger Überblick mit A1-Bescheinigung, Entsenderichtlinie und praktischen Beispielen für Arbeitnehmer und Entleihbetriebe.",
+    date: "2026-08-18",
+    lang: "de",
+    content: `
+<p>Die Frage der <strong>Krankenversicherung</strong> ist für polnische Leiharbeiter in Deutschland eine der häufigsten Unklarheiten — und gleichzeitig eine der folgenreichsten: Wer nicht richtig versichert ist, trägt im Krankheitsfall persönliche Haftung. Dieser Artikel klärt, wann die deutsche GKV greift, wann der polnische ZUS zuständig bleibt und was sowohl Arbeitnehmer als auch Entleihbetriebe beachten müssen.</p>
+
+<h2>Zwei Grundmodelle: Direkte Beschäftigung vs. Entsendung mit A1</h2>
+<p>Ob ein polnischer Arbeitnehmer in der deutschen oder polnischen Sozialversicherung verbleibt, hängt vom <strong>Beschäftigungsmodell</strong> ab — nicht von seiner Nationalität.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Modell</th>
+      <th>Zuständiges Sozialversicherungssystem</th>
+      <th>Krankenversicherung</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Direktanstellung durch deutschen Arbeitgeber</td>
+      <td>Deutschland (SGB IV)</td>
+      <td>Deutsche GKV (AOK, TK, Barmer, DAK etc.)</td>
+    </tr>
+    <tr>
+      <td>Entleihung über polnische Agentur mit A1-Bescheinigung</td>
+      <td>Polen (ZUS) — bis zu 24 Monate</td>
+      <td>Polnische NFZ + EKUZ als Notfallkarte in DE</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow arbeitet mit beiden Modellen — je nach Kundenwunsch und Einsatzdauer. Die klare Trennung beider Wege ist entscheidend, um Doppelversicherungen, Beitragslücken und Compliance-Risiken zu vermeiden.</p>
+
+<h2>Modell 1: Deutsche GKV — Wann greift sie?</h2>
+<p>Ein polnischer Arbeitnehmer ist automatisch Mitglied der deutschen gesetzlichen Krankenversicherung, wenn:</p>
+<ul>
+  <li>Er direkt bei einem deutschen Arbeitgeber oder einer deutschen Zeitarbeitsfirma angestellt ist, <strong>und</strong></li>
+  <li>kein gültiges A1-Dokument für eine Entsendung vorliegt</li>
+</ul>
+<p>Die GKV-Mitgliedschaft tritt <strong>automatisch ab dem ersten Arbeitstag</strong> ein — der Arbeitgeber muss den Arbeitnehmer bei der gewählten Kasse anmelden (DEÜV-Meldung). Wählt der Arbeitnehmer keine Kasse, weist das Finanzamt eine zu.</p>
+<p><strong>Was die GKV abdeckt:</strong></p>
+<ul>
+  <li>Arztbesuche bei zugelassenen Kassenkassen (niedergelassene Ärzte mit GKV-Zulassung)</li>
+  <li>Krankenhausaufenthalte (Zuzahlung: 10 EUR/Tag, max. 28 Tage/Jahr)</li>
+  <li>Verschreibungspflichtige Medikamente (Rezept erforderlich, Zuzahlung 5–10 EUR)</li>
+  <li>Zahnbehandlungen (Grundversorgung; Zahnersatz mit Eigenanteil)</li>
+  <li>Krankengeld (<em>Krankengeld</em>) ab dem 43. Krankheitstag (70 % des Bruttolohns)</li>
+  <li>Familienversicherung für nicht erwerbstätige Familienangehörige in Deutschland</li>
+</ul>
+<p><strong>Beitragssatz 2026:</strong> Allgemeiner Beitragssatz 14,6 % + kassenindividueller Zusatzbeitrag (durchschnittlich ca. 1,7 %) = ca. 16,3 % — zur Hälfte Arbeitnehmer, zur Hälfte Arbeitgeber.</p>
+
+<h2>Modell 2: A1-Bescheinigung — ZUS bleibt zuständig</h2>
+<p>Die A1-Bescheinigung (<em>Entsendebescheinigung</em>) ist ein EU-Dokument, das bestätigt: Dieser Arbeitnehmer bleibt im Sozialversicherungssystem seines Heimatlandes versichert — obwohl er vorübergehend in einem anderen EU-Staat arbeitet.</p>
+<p><strong>Rechtliche Grundlage:</strong> Art. 12 Abs. 1 der Verordnung (EG) Nr. 883/2004 über die Koordinierung der Systeme der sozialen Sicherheit.</p>
+<p><strong>Voraussetzungen für die A1-Entsendebescheinigung:</strong></p>
+<ol>
+  <li>Der Arbeitnehmer ist in Polen sozialversicherungspflichtig beschäftigt (ZUS)</li>
+  <li>Die Entsendedauer beträgt maximal 24 Monate</li>
+  <li>Der Arbeitnehmer wird nicht als Ersatz für eine andere entsandte Person eingesetzt</li>
+  <li>Das entsendende Unternehmen (Nexflow Polen) übt wesentliche Tätigkeit in Polen aus</li>
+</ol>
+<p><strong>Konsequenzen bei gültigem A1:</strong></p>
+<ul>
+  <li>Keine deutschen Sozialversicherungsbeiträge (KV, RV, AV, PV) — erhebliche Lohnkosteneinsparung für Entleihbetriebe</li>
+  <li>Krankenversicherungsschutz in Deutschland: die <strong>EKUZ (Europäische Krankenversicherungskarte)</strong>, ausgestellt vom polnischen NFZ, gilt für notwendige medizinische Behandlungen in Deutschland. Kein Schutz für planbare Eingriffe.</li>
+  <li>Für Routinemedizin (Hausarzt, chronische Erkrankungen) muss der Arbeitnehmer in Polen behandelt werden oder private Zusatzversicherung abschließen</li>
+</ul>
+<blockquote><p><strong>Praxis-Tipp:</strong> Nexflow beantragt das A1 für jeden entsandten Mitarbeiter rechtzeitig vor Arbeitsbeginn beim ZUS. Kontrollen durch den Zoll (<em>Finanzkontrolle Schwarzarbeit, FKS</em>) im grenznahen Raum Frankfurt (Oder) sind häufig — das A1 muss auf Verlangen vorgelegt werden können, in der Regel als Ausdruck oder auf dem Smartphone.</p></blockquote>
+
+<h2>Was gilt bei Krankheit in Deutschland?</h2>
+
+<h3>Bei GKV-Mitgliedschaft (Modell 1)</h3>
+<ol>
+  <li>Arztbesuch beim Kassenarzt (kein Notfall): Krankenversicherungskarte (<em>Gesundheitskarte</em>) vorlegen. Keine Vorauszahlung.</li>
+  <li>Notfall: Jede Notaufnahme (<em>Notaufnahme</em>) ist verpflichtet zur Behandlung — GKV übernimmt die Kosten direkt.</li>
+  <li>Krankmeldung (<em>AU-Bescheinigung</em>): Ab dem 1. Kranktag elektronisch über den Arzt (<em>eAU</em>); Arbeitgeber informieren — am gleichen Tag oder spätestens am nächsten Morgen.</li>
+  <li>Lohnfortzahlung: Erste 6 Wochen zahlt der Arbeitgeber 100 % des Entgelts (<em>Entgeltfortzahlungsgesetz</em>). Ab der 7. Woche zahlt die GKV Krankengeld (70 % Brutto, max. 90 % Netto).</li>
+</ol>
+
+<h3>Bei A1-Entsendung (Modell 2)</h3>
+<ol>
+  <li>Notfall: EKUZ vorzeigen → Behandlung in einer Kassenpraxis möglich. Privatarzt oder Wahlleistungen → Kosten selbst tragen.</li>
+  <li>Leichtere Erkrankungen: Arztbesuch nach Möglichkeit in Polen (bei der eigenen Kasse) oder über eine eventuell abgeschlossene Auslandskrankenversicherung.</li>
+  <li>Krankmeldung: Selbes Verfahren wie bei GKV — Arztbescheinigung in Deutschland oder Polen an den Arbeitgeber/Nexflow schicken. Lohnfortzahlung: 6 Wochen durch den polnischen Arbeitgeber (Nexflow); danach ZUS-Krankengeld (80 % des versicherten Verdienstes).</li>
+</ol>
+
+<h2>Für Entleihbetriebe: Compliance-Checkliste</h2>
+<p>Beschäftigen Sie polnische Leiharbeiter über Nexflow? Diese Punkte gehören in Ihr AÜG-Compliance-Set:</p>
+<ol>
+  <li><strong>A1-Bescheinigung vorhanden?</strong> — Lassen Sie sich das Dokument vor Arbeitsbeginn vorlegen. Ohne A1 haftet der Entleihbetrieb bei einer FKS-Kontrolle mitunter für Schwarzarbeit.</li>
+  <li><strong>Korrekte Abgrenzung der Sozialversicherungspflicht</strong> — stellen Sie sicher, dass die Verleihfirma (Nexflow) klar kommuniziert, ob GKV oder ZUS gilt, und dass die Lohnabrechnung dies korrekt widerspiegelt.</li>
+  <li><strong>24-Monats-Grenze im Blick</strong> — nach 24 Monaten endet die Entsendung; der Arbeitnehmer wechselt in die deutsche SV oder die Zusammenarbeit wird neu strukturiert. Nexflow überwacht diese Fristen systematisch.</li>
+  <li><strong>Gleichstellungsgrundsatz (Equal Pay)</strong> — unabhängig von der Krankenversicherungsfrage gilt AÜG § 8: ab dem 15. Monat Überlassung Anspruch auf gleiche wesentliche Arbeitsbedingungen wie Stammbelegschaft. Nicht verwechseln mit Equal Treatment in der SV.</li>
+</ol>
+
+<h2>Private Zusatzversicherung — sinnvoll für A1-Entsendete</h2>
+<p>EKUZ deckt nur Notfallbehandlungen. Für einen polnischen Arbeitnehmer, der mehrere Monate in Deutschland verbringt, empfiehlt sich eine <strong>Auslandsreisekrankenversicherung</strong> (kurz: AKV oder Reise-KV) mit Dauerschutz:</p>
+<ul>
+  <li>Kosten: 5–15 EUR/Monat (Jahrestarif für Arbeitnehmer im EU-Ausland)</li>
+  <li>Deckt: Arztbesuche, Zahnarzt-Notfall, Rücktransport nach Polen, geplante Behandlungen nach Wartezeit</li>
+  <li>Beispielanbieter: Hanse Merkur, ERGO Reise, AXA Ausland (kein kommerzieller Hinweis — bitte selbst vergleichen)</li>
+</ul>
+<p>Nexflow informiert seine Mitarbeiter über diese Option und unterstützt bei der Auswahl, schließt aber keine Verträge im Namen der Arbeitnehmer ab.</p>
+
+<h2>Häufige Fragen</h2>
+<p><strong>Was passiert, wenn ein Arbeitnehmer mit A1 ins Krankenhaus muss?</strong><br/>Deutsche Krankenhäuser sind zur Behandlung verpflichtet. EKUZ vorlegen — die Kasse rechnet mit dem NFZ ab. Bei Privatkliniken oder Wahlleistungen zahlt der Arbeitnehmer selbst und kann den Betrag beim polnischen NFZ erstatten lassen (begrenzt).</p>
+<p><strong>Kann ich als Arbeitnehmer in die deutsche GKV wechseln, obwohl ich ein A1 habe?</strong><br/>Nein — A1 und GKV schließen sich gegenseitig aus. Sie können erst in die GKV eintreten, wenn das A1 nicht mehr gilt (Einsatzende nach 24 Monaten oder Neuanstellung direkt in Deutschland).</p>
+<p><strong>Gilt die Lohnfortzahlung im Krankheitsfall auch für Leiharbeiter mit A1?</strong><br/>Ja — das <em>Entgeltfortzahlungsgesetz</em> (EFZG) gilt für alle in Deutschland arbeitenden Arbeitnehmer. Nexflow als polnischer Arbeitgeber zahlt die ersten 6 Wochen weiter; danach greift ZUS-Krankengeld.</p>
+<p><strong>Wir sind ein deutsches Logistikunternehmen und wollen polnische Mitarbeiter über Nexflow. Wer kümmert sich um die Krankenversicherungsfrage?</strong><br/>Nexflow übernimmt die vollständige Compliance — A1-Beantragung, Kommunikation mit ZUS, EKUZ-Information für Arbeitnehmer. Sie als Entleihbetrieb müssen nur unser A1-Dokument zu Ihren Akten nehmen. <a href="/o-nas">Kontakt aufnehmen →</a></p>
+
+<p>Weitere Informationen zu Rechten polnischer Leiharbeiter: <a href="/blog/arbeitnehmerrechte-fuer-polnische-leiharbeiter">Arbeitnehmerrechte für polnische Leiharbeiter in Deutschland</a>.</p>
+
+<hr/>
+<p><strong>Nexflow — Ihr Compliance-Partner im DE-PL Korridor.</strong> Von der A1-Bescheinigung bis zur Lohnabrechnung: Wir übernehmen die Komplexität, Sie bekommen qualifizierte Mitarbeiter ohne Verwaltungsaufwand.</p>
+<p><strong><a href="/praca">nexflow.work →</a></strong></p>
+<p><em>Artikel aktualisiert: August 2026. Sozialversicherungsrecht und GKV-Beitragssätze gemäß Stand 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "anmeldung-niemcy-rejestracja-pobytu",
+    title: "Anmeldung w Niemczech — jak zarejestrować pobyt krok po kroku (2026)",
+    description:
+      "Anmeldung Niemcy: kiedy musisz się zameldować, jakie dokumenty zabrać do Bürgeramt i co grozi za pominięcie rejestracji. Praktyczny przewodnik dla pracowników tymczasowych i grenzpendlerów.",
+    date: "2026-08-25",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Niemczech dłużej niż 90 dni lub wynajmujesz tam mieszkanie, masz <strong>ustawowy obowiązek zameldowania</strong> się w lokalnym Bürgeramt. Rejestracja pobytu (<em>Anmeldung</em>) to krok, bez którego nie otworzysz konta bankowego, nie złożysz wniosku o Steuer-ID ani nie zarejestrujesz się w kasie chorych.</p>
+
+<h2>Kiedy musisz złożyć Anmeldung?</h2>
+<p>Prawo wymaga rejestracji w ciągu <strong>14 dni od daty zameldowania</strong> (Einzugsdatum) podanej przez właściciela mieszkania. Dotyczy to każdej osoby, która:</p>
+<ul>
+  <li>wynajmuje pokój lub mieszkanie w Niemczech,</li>
+  <li>mieszka w zakwaterowaniu służbowym, jeśli Anmeldung nie złożył za Ciebie pracodawca,</li>
+  <li>przebywa w Niemczech dłużej niż 3 miesiące.</li>
+</ul>
+<blockquote><p><strong>Ważne dla grenzpendlerów:</strong> jeśli codziennie dojeżdżasz z Polski i nie nocujesz w Niemczech, Anmeldung nie jest wymagany.</p></blockquote>
+
+<h2>Dokumenty do Bürgeramt</h2>
+<p>Zabierz ze sobą:</p>
+<table>
+  <thead><tr><th>Dokument</th><th>Uwagi</th></tr></thead>
+  <tbody>
+    <tr><td>Dowód osobisty lub paszport</td><td>oryginał</td></tr>
+    <tr><td>Wohnungsgeberbestätigung</td><td>potwierdzenie zameldowania od właściciela — bez tego urząd nie przyjmie wniosku</td></tr>
+    <tr><td>Formularz Anmeldeformular</td><td>dostępny na stronie Bürgeramt lub do pobrania online</td></tr>
+    <tr><td>Akt małżeństwa / urodzenia dzieci</td><td>tylko przy rejestracji całej rodziny</td></tr>
+  </tbody>
+</table>
+<p><strong>Wohnungsgeberbestätigung</strong> — to kluczowy dokument. Właściciel mieszkania musi Ci go wystawić w ciągu 2 tygodni od podpisania umowy. Jeśli odmawia, możesz go prawnie do tego zobowiązać na piśmie.</p>
+
+<h2>Wizyta w Bürgeramt — jak przebiega?</h2>
+<ol>
+  <li>Umów wizytę online (Terminvereinbarung) — w Frankfurt (Oder) zazwyczaj dostępne terminy w ciągu tygodnia.</li>
+  <li>Przyjdź z kompletnymi dokumentami.</li>
+  <li>Urzędnik wyda <strong>Meldebescheinigung</strong> — zaświadczenie o zameldowaniu.</li>
+  <li>Cała procedura trwa 10–20 minut.</li>
+</ol>
+
+<h2>Co się dzieje po Anmeldung?</h2>
+<p>Po zameldowaniu automatycznie otrzymasz <strong>Steuer-Identifikationsnummer (Steuer-ID)</strong> pocztą na adres w Niemczech (w ciągu 2–4 tygodni). Numer ten podasz pracodawcy, żeby poprawnie naliczył podatek. Meldebescheinigung potrzebujesz też do: otwarcia konta bankowego, rejestracji w GKV i wyrobienia karty BahnCard.</p>
+
+<h2>Kary za brak Anmeldung</h2>
+<p>Niezłożenie Anmeldung w terminie może skutkować mandatem do <strong>1 000 EUR</strong>. W praktyce urzędy rzadko nakładają maksymalną karę przy pierwszym wykroczeniu, ale brak rejestracji blokuje szereg formalności.</p>
+
+<h2>Jak Nexflow pomaga?</h2>
+<p>Nexflow informuje każdego pracownika o obowiązku rejestracji i — gdy pracodawca zapewnia zakwaterowanie — przekazuje wypełniony formularz Wohnungsgeberbestätigung wraz z umową o pracę.</p>
+<p><em>Masz pytania dotyczące formalności przed rozpoczęciem pracy w Niemczech? Skontaktuj się z nami: <a href="https://nexflow.work">nexflow.work</a></em></p>
+    `.trim(),
+  },
+  {
+    slug: "urlaubsanspruch-leiharbeiter-berechnung-2026",
+    title: "Urlaubsanspruch für Leiharbeiter in Deutschland — Berechnung, Urlaubsgeld und Tipps (2026)",
+    description:
+      "Wie viele Urlaubstage stehen Leiharbeitern zu? Wie wird Urlaubsgeld berechnet? Alle Antworten zum Urlaubsrecht für Zeitarbeiter nach BUrlG und Tarifvertrag.",
+    date: "2026-09-01",
+    lang: "de",
+    content: `
+<p>Als Leiharbeiter haben Sie dieselben Urlaubsrechte wie andere Beschäftigte — in manchen Punkten sogar mehr, wenn ein Tarifvertrag gilt. Dieser Artikel erklärt, wie viele Urlaubstage Ihnen zustehen, wie das Urlaubsgeld berechnet wird und was bei Einsatzende passiert.</p>
+
+<h2>Gesetzlicher Mindesturlaub</h2>
+<p>Das <strong>Bundesurlaubsgesetz (BUrlG)</strong> garantiert bei einer 5-Tage-Woche mindestens <strong>20 Urlaubstage</strong> pro Kalenderjahr (24 Tage bei 6-Tage-Woche). Dieser Anspruch gilt ab dem ersten Arbeitstag — wird aber erst nach einer 6-monatigen Wartezeit vollständig erworben.</p>
+<blockquote><p>Für Beschäftigungen kürzer als 6 Monate gilt: <strong>1/12 des Jahresurlaubs pro vollem Beschäftigungsmonat</strong> (anteiliger Erwerb).</p></blockquote>
+
+<h3>Tarifvertraglicher Mehranspruch</h3>
+<p>Die meisten Zeitarbeitsunternehmen sind an den <strong>iGZ- oder BAP-Tarifvertrag</strong> gebunden. Dort sind in der Regel <strong>28–30 Urlaubstage</strong> vorgesehen — das übersteigt den gesetzlichen Mindestanspruch deutlich.</p>
+
+<h2>Wie wird Urlaub beantragt?</h2>
+<p>Leiharbeiter beantragen Urlaub beim <strong>Verleiher</strong> (Zeitarbeitsunternehmen wie Nexflow) — nicht beim Entleiher (Kundenbetrieb). Der Entleiher kann Urlaubswünsche ablehnen, wenn dringende betriebliche Gründe dagegen sprechen.</p>
+<p><strong>Praktischer Tipp:</strong> Planen Sie Urlaub frühzeitig und klären Sie mit Ihrem Nexflow-Ansprechpartner, ob der Einsatzbetrieb Sperrfristen hat (z.B. Saisonspitzen in der Logistik).</p>
+
+<h2>Urlaubsgeld — was steht mir zu?</h2>
+<p>Das <strong>Urlaubsentgelt</strong> ist der Lohn, den Sie während des Urlaubs erhalten — berechnet auf Basis des Durchschnittsverdiensts der letzten 13 Wochen. Zusätzlich zahlen manche Tarifverträge ein <strong>Urlaubsgeld</strong> als einmalige Sonderzahlung (häufig im Juni).</p>
+
+<h2>Was passiert am Ende des Einsatzes?</h2>
+<p>Wenn der Einsatz oder Arbeitsvertrag endet und Sie noch nicht genommenen Urlaub haben, wird dieser <strong>abgegolten</strong> — in Geld ausgezahlt. Dieser Betrag ist lohnsteuer- und sozialversicherungspflichtig und erscheint als separate Zeile auf der letzten Lohnabrechnung.</p>
+
+<h2>Häufige Irrtümer</h2>
+<table>
+  <thead><tr><th>Irrtum</th><th>Richtigstellung</th></tr></thead>
+  <tbody>
+    <tr><td>„Als Leiharbeiter habe ich weniger Urlaub"</td><td>Nein — mindestens 20 Tage gesetzlich, oft 28–30 per Tarifvertrag</td></tr>
+    <tr><td>„Ich muss Urlaub beim Kundenbetrieb beantragen"</td><td>Nein — immer beim Verleiher (Nexflow) beantragen</td></tr>
+    <tr><td>„Urlaub verfällt nach Einsatzende"</td><td>Nein — er wird abgegolten (ausbezahlt)</td></tr>
+  </tbody>
+</table>
+
+<h2>Nexflow und Ihr Urlaub</h2>
+<p>Bei Nexflow erhalten alle Mitarbeiter eine schriftliche Bestätigung ihres Urlaubsanspruchs im Arbeitsvertrag. Offene Fragen? Wir sind für Sie da: <a href="https://nexflow.work">nexflow.work</a></p>
+    `.trim(),
+  },
+  {
+    slug: "praca-zmianowa-niemcy-dodatki-nadgodziny",
+    title: "Praca zmianowa w Niemczech — dodatki za nocki, weekendy i nadgodziny (2026)",
+    description:
+      "Jakie dodatki przysługują za pracę nocną, niedzielną i świąteczną w Niemczech? Jak nalicza się Nachtzuschlag i kiedy muszą być wypłacone nadgodziny? Praktyczny przewodnik dla pracowników magazynów i produkcji.",
+    date: "2026-09-08",
+    lang: "pl",
+    content: `
+<p>Praca w systemie zmianowym to standard w logistyce i magazynach. Jeśli pracujesz na nocki, weekendy lub święta w Niemczech, przysługują Ci specjalne dodatki. W tym artykule wyjaśniamy, ile wynoszą, jak je znaleźć na odcinku płacowym (Lohnabrechnung) i kiedy pracodawca musi wypłacić nadgodziny.</p>
+
+<h2>Dodatek za pracę nocną (Nachtzuschlag)</h2>
+<p>Praca nocna w Niemczech jest zdefiniowana przez § 2 ArbZG jako praca wykonywana między <strong>23:00 a 6:00</strong> (lub zmiana trwająca ponad 2 godziny w tym przedziale). Za pracę nocną przysługuje <strong>Nachtzuschlag</strong> — jego wysokość ustalają układy zbiorowe (Tarifvertrag):</p>
+<table>
+  <thead><tr><th>Godziny</th><th>Typowy Nachtzuschlag</th></tr></thead>
+  <tbody>
+    <tr><td>23:00–06:00</td><td>25% stawki godzinowej</td></tr>
+    <tr><td>00:00–04:00 (noc głęboka, TV)</td><td>40% lub więcej</td></tr>
+  </tbody>
+</table>
+<blockquote><p><strong>Uwaga podatkowa:</strong> Nachtzuschlag do określonego limitu jest wolny od podatku dochodowego (§ 3b EStG) — ta część wynagrodzenia wypłacana jest netto bez potrącenia Lohnsteuer.</p></blockquote>
+
+<h2>Dodatki za niedziele i święta (Sonn- und Feiertagszuschlag)</h2>
+<table>
+  <thead><tr><th>Dzień</th><th>Typowy dodatek</th></tr></thead>
+  <tbody>
+    <tr><td>Niedziela</td><td>50–100% stawki godzinowej</td></tr>
+    <tr><td>Ustawowy dzień świąteczny (gesetzlicher Feiertag)</td><td>125–150%</td></tr>
+  </tbody>
+</table>
+<p>Podobnie jak Nachtzuschlag, te dodatki mogą być <strong>zwolnione z podatku</strong> do określonej kwoty zgodnie z § 3b EStG.</p>
+
+<h2>Nadgodziny (Überstunden)</h2>
+<p>Maksymalny czas pracy w Niemczech wynosi co do zasady <strong>8 godzin dziennie</strong> (do 10 godzin sporadycznie, jeśli zostanie to wyrównane w ciągu 6 miesięcy). Godziny powyżej tego limitu to nadgodziny. Mogą być rozliczane na dwa sposoby:</p>
+<ol>
+  <li><strong>Pieniężnie</strong> — 100% stawki godzinowej + ewentualny Zuschlag (zazwyczaj 25–50% extra)</li>
+  <li><strong>Czasowo</strong> — odbiór wolnego (Freizeitausgleich), godzina za godzinę lub z naddatkiem</li>
+</ol>
+
+<h2>Jak to znaleźć na Lohnabrechnung?</h2>
+<p>Na odcinku płacowym szukaj następujących pozycji:</p>
+<table>
+  <thead><tr><th>Skrót</th><th>Co oznacza</th><th>Podatek</th></tr></thead>
+  <tbody>
+    <tr><td>Nachtzuschlag / NZ</td><td>Dodatek nocny</td><td>Zwolniony do limitu (§ 3b EStG)</td></tr>
+    <tr><td>Sonntagszuschlag / SZ</td><td>Dodatek niedzielny</td><td>Zwolniony do limitu</td></tr>
+    <tr><td>Feiertagszuschlag / FZ</td><td>Dodatek świąteczny</td><td>Zwolniony do limitu</td></tr>
+    <tr><td>Überstunden</td><td>Nadgodziny</td><td>Pełne opodatkowanie</td></tr>
+  </tbody>
+</table>
+<p>Każda pozycja powinna zawierać: liczbę godzin × stawkę × procent = kwotę brutto.</p>
+
+<h2>Co zrobić, jeśli nie widać dodatków?</h2>
+<p>Jeśli pracujesz w noce lub w niedziele, a na Twoim odcinku płacowym nie ma dodatków — zapytaj koordynatora. Brak dodatków może wynikać z ich wliczenia w stawkę bazową (co musi być wyraźnie zapisane w umowie) lub z błędu.</p>
+<p>Nexflow stosuje zasadę pełnej transparentności wynagrodzeń — każdy dodatek jest wykazany osobno. Pytania? Napisz do nas: <a href="https://nexflow.work">nexflow.work</a></p>
+    `.trim(),
+  },
+  {
+    slug: "slownictwo-magazyn-niemcy-podstawowe-zwroty",
+    title: "Słownictwo na magazynie w Niemczech – podstawowe zwroty i komendy po niemiecku",
+    description:
+      "Pracujesz lub planujesz pracę w niemieckim magazynie? Poznaj niezbędne słownictwo i zwroty, które pomogą Ci porozumieć się z przełożonymi i współpracownikami od pierwszego dnia.",
+    date: "2026-09-15",
+    lang: "pl",
+    content: `
+<p>Jedną z największych obaw Polaków wyjeżdżających do pracy w Niemczech jest bariera językowa. W magazynie czy hali produkcyjnej nieznajomość podstawowych komend może prowadzić do nieporozumień, a nawet zagrożenia bezpieczeństwa. Poniżej zebraliśmy najważniejsze słownictwo, które przyda się od pierwszego dnia pracy.</p>
+
+<h2>Podstawowe komendy i oznaczenia w magazynie</h2>
+<table>
+  <thead><tr><th>Niemiecki</th><th>Polski</th></tr></thead>
+  <tbody>
+    <tr><td>Achtung!</td><td>Uwaga!</td></tr>
+    <tr><td>Stopp! / Halt!</td><td>Stój! / Stop!</td></tr>
+    <tr><td>Vorsicht!</td><td>Ostrożnie!</td></tr>
+    <tr><td>Notausgang</td><td>Wyjście awaryjne</td></tr>
+    <tr><td>Feuerlöscher</td><td>Gaśnica</td></tr>
+    <tr><td>Erste Hilfe</td><td>Pierwsza pomoc</td></tr>
+    <tr><td>Lager / Lagerhalle</td><td>Magazyn / hala magazynowa</td></tr>
+    <tr><td>Eingang / Ausgang</td><td>Wejście / Wyjście</td></tr>
+    <tr><td>Gabelstapler</td><td>Wózek widłowy</td></tr>
+    <tr><td>Palette / Paletten</td><td>Paleta / palety</td></tr>
+    <tr><td>Lieferschein</td><td>List przewozowy / dowód dostawy</td></tr>
+    <tr><td>Pickliste</td><td>Lista pickingowa</td></tr>
+    <tr><td>Schicht</td><td>Zmiana (np. Frühschicht = zmiana ranna)</td></tr>
+    <tr><td>Überstunden</td><td>Nadgodziny</td></tr>
+    <tr><td>Pause</td><td>Przerwa</td></tr>
+    <tr><td>Feierabend</td><td>Koniec pracy / zakończenie zmiany</td></tr>
+  </tbody>
+</table>
+
+<h2>Przydatne zwroty w komunikacji z przełożonym</h2>
+<ul>
+  <li><strong>„Ich verstehe nicht"</strong> — Nie rozumiem</li>
+  <li><strong>„Können Sie das bitte wiederholen?"</strong> — Czy może Pan/Pani powtórzyć?</li>
+  <li><strong>„Wo soll ich das hinstellen?"</strong> — Gdzie mam to postawić?</li>
+  <li><strong>„Was soll ich als Nächstes tun?"</strong> — Co mam teraz zrobić?</li>
+  <li><strong>„Ich bin fertig"</strong> — Skończyłem/skończyłam</li>
+  <li><strong>„Das Gerät funktioniert nicht"</strong> — Urządzenie nie działa</li>
+  <li><strong>„Ich habe einen Fehler gemacht"</strong> — Popełniłem/popełniłam błąd</li>
+  <li><strong>„Ich brauche Hilfe"</strong> — Potrzebuję pomocy</li>
+</ul>
+
+<h2>Oznaczenia stref i kolorów bezpieczeństwa</h2>
+<p>Niemieckie magazyny stosują zunifikowany system kolorów oznaczania stref:</p>
+<ul>
+  <li><strong>Żółte linie</strong> — ciągi komunikacyjne dla wózków widłowych</li>
+  <li><strong>Białe linie</strong> — strefy dla pieszych</li>
+  <li><strong>Czerwone strefy</strong> — obszary niebezpieczne lub zakaz wstępu</li>
+  <li><strong>Zielone oznaczenia</strong> — wyjścia awaryjne, apteczki, gaśnice</li>
+</ul>
+
+<h2>Dokumenty i formularze – słownictwo biurowe</h2>
+<ul>
+  <li><strong>Arbeitsvertrag</strong> — umowa o pracę</li>
+  <li><strong>Lohnabrechnung</strong> — pasek wypłaty / rozliczenie wynagrodzenia</li>
+  <li><strong>Urlaubsantrag</strong> — wniosek urlopowy</li>
+  <li><strong>Krankmeldung</strong> — zwolnienie lekarskie / zgłoszenie choroby</li>
+  <li><strong>Steueridentifikationsnummer</strong> — numer identyfikacji podatkowej</li>
+  <li><strong>Sozialversicherungsausweis</strong> — karta ubezpieczenia społecznego</li>
+</ul>
+
+<h2>Jak szybko poprawić swój niemiecki?</h2>
+<p>Kilka sprawdzonych sposobów na naukę języka podczas pracy za granicą:</p>
+<ol>
+  <li><strong>Aplikacje mobilne</strong> — Duolingo, Babbel lub Pimsleur — 15 minut dziennie przynosi efekty po miesiącu</li>
+  <li><strong>Notatnik z terminologią</strong> — zapisuj nieznane słowa usłyszane w pracy i ucz się ich wieczorem</li>
+  <li><strong>YouTube</strong> — kanały do nauki niemieckiego w kontekście pracy (wyszukaj „Deutsch für den Beruf")</li>
+  <li><strong>Rozmowy ze współpracownikami</strong> — Niemcy doceniają próby mówienia w ich języku, nawet jeśli popełniasz błędy</li>
+</ol>
+
+<h2>Nexflow wspiera Cię od pierwszego dnia</h2>
+<p>W Nexflow zapewniamy wszystkim pracownikom materiały z podstawowym słownictwem w języku polskim i niemieckim jeszcze przed rozpoczęciem pracy. Nasz koordynator jest zawsze dostępny telefonicznie lub przez WhatsApp, jeśli masz pytania lub potrzebujesz tłumaczenia. Skontaktuj się z nami, jeśli szukasz pracy w niemieckim magazynie — pomożemy Ci od formalności aż po pierwsze dni na nowym miejscu.</p>
+    `.trim(),
+  },
+  {
+    slug: "mindestlohn-2026-leiharbeiter-rechte",
+    title: "Mindestlohn 2026 für Leiharbeiter: Aktuelle Sätze, Equal Pay und Ihre Rechte",
+    description:
+      "Was verdienen Leiharbeiter in Deutschland 2026 wirklich? Mindestlohn, Branchenzuschläge, Equal-Pay-Anspruch und wie Nexflow transparente Vergütung sicherstellt.",
+    date: "2026-09-22",
+    lang: "de",
+    content: `
+<p>Der gesetzliche Mindestlohn in Deutschland steigt weiter — und damit wächst auch die Bedeutung, Ihre Rechte als Leiharbeitnehmer genau zu kennen. Ob Mindestlohn, Branchenzuschläge oder Equal-Pay-Anspruch: In diesem Beitrag erfahren Sie alles Wichtige zur Vergütung von Zeitarbeitnehmern im Jahr 2026.</p>
+
+<h2>Gesetzlicher Mindestlohn 2026</h2>
+<p>Seit dem <strong>1. Januar 2026</strong> gilt in Deutschland ein gesetzlicher Mindestlohn von <strong>13,00 EUR brutto pro Stunde</strong>. Dieser Satz gilt für alle Arbeitnehmer, die in Deutschland beschäftigt sind — unabhängig von ihrer Nationalität oder ob sie von einer polnischen Zeitarbeitsfirma entsandt werden.</p>
+<p>Für Leiharbeitnehmer gilt zusätzlich der <strong>Mindestlohn der Zeitarbeit</strong> gemäß dem iGZ/DGB-Tarifvertrag. Dieser liegt in der Regel über dem allgemeinen Mindestlohn und richtet sich nach Entgeltgruppen:</p>
+<table>
+  <thead><tr><th>Entgeltgruppe</th><th>Beschreibung</th><th>Stundenlohn (ab 2026)</th></tr></thead>
+  <tbody>
+    <tr><td>EG 1</td><td>Helfer, einfache Tätigkeiten</td><td>ab 13,00 EUR</td></tr>
+    <tr><td>EG 2</td><td>Angelernter Arbeiter, Staplerschein</td><td>ab 13,80 EUR</td></tr>
+    <tr><td>EG 3</td><td>Fachkraft, Berufsausbildung</td><td>ab 15,20 EUR</td></tr>
+    <tr><td>EG 4</td><td>Spezialist, mehrjährige Erfahrung</td><td>ab 16,50 EUR</td></tr>
+  </tbody>
+</table>
+<p><em>Hinweis: Die genauen Sätze können je nach Region und Tarifvertrag variieren. Nexflow informiert Sie vor Arbeitsbeginn über Ihren konkreten Stundenlohn.</em></p>
+
+<h2>Branchenzuschläge — mehr Lohn in bestimmten Branchen</h2>
+<p>In vielen Branchen haben Leiharbeitnehmer Anspruch auf <strong>Branchenzuschläge</strong> (BZT), die auf den Tariflohn der Zeitarbeit aufgeschlagen werden. Diese wurden zwischen Gewerkschaften und Arbeitgeberverbänden für folgende Sektoren vereinbart:</p>
+<ul>
+  <li>Metall- und Elektroindustrie</li>
+  <li>Chemische Industrie</li>
+  <li>Papier- und Druckindustrie</li>
+  <li>Kautschukindustrie</li>
+  <li>Holz- und Kunststoffindustrie</li>
+</ul>
+<p>Die Zuschläge steigen mit der Einsatzdauer: Nach 6 Wochen erhalten Sie den ersten Zuschlag, nach 3 Monaten einen höheren, und so weiter — bis zum vollständigen Equal Pay nach 9 Monaten.</p>
+
+<h2>Equal Pay: Gleiches Geld nach 9 Monaten</h2>
+<p>Das <strong>Arbeitnehmerüberlassungsgesetz (AÜG)</strong> schreibt vor: Nach <strong>9 Monaten ununterbrochener Überlassung</strong> an denselben Entleiher haben Leiharbeitnehmer Anspruch auf <strong>Equal Pay</strong> — also dasselbe Entgelt, das vergleichbare Stammarbeitnehmer des Entleihers erhalten.</p>
+<p>Was zählt zur Gleichbehandlung?</p>
+<ul>
+  <li>Grundgehalt / Stundenlohn</li>
+  <li>Sonderzahlungen (Urlaubs- und Weihnachtsgeld, falls im Betrieb üblich)</li>
+  <li>Sachleistungen (z.B. Essensgutscheine, Firmenwagen)</li>
+  <li>Arbeitszeit und Pausen</li>
+</ul>
+<p><strong>Wichtig:</strong> Die 9-Monats-Frist läuft nur dann ohne Unterbrechung, wenn zwischen zwei Einsätzen beim selben Kunden nicht mehr als 3 Monate liegen. Nexflow verwaltet diese Fristen für alle eingesetzten Arbeitnehmer systematisch.</p>
+
+<h2>18-Monats-Limit: Maximale Überlassungsdauer</h2>
+<p>Das AÜG begrenzt die Überlassungsdauer an denselben Entleiher auf <strong>maximal 18 Monate</strong>. Ausnahmen sind nur durch Tarifvertrag möglich. Nexflow informiert betroffene Arbeitnehmer und Kunden rechtzeitig über nahende Ablaufdaten und organisiert — falls gewünscht — eine Direktanstellung oder einen Wechsel.</p>
+
+<h2>Zuschläge für Schicht- und Nachtarbeit</h2>
+<p>Neben dem Grundlohn haben Sie in der Regel Anspruch auf Zuschläge für:</p>
+<ul>
+  <li><strong>Nachtarbeit</strong> (22:00–6:00 Uhr): 25–40 % Zuschlag</li>
+  <li><strong>Sonntagsarbeit</strong>: 50 % Zuschlag</li>
+  <li><strong>Feiertagsarbeit</strong>: 100–125 % Zuschlag</li>
+  <li><strong>Samstagsarbeit</strong>: abhängig vom Tarifvertrag, meist 10–25 %</li>
+</ul>
+
+<h2>Wie Nexflow transparente Vergütung sicherstellt</h2>
+<p>Bei Nexflow erhalten alle Arbeitnehmer vor Arbeitsantritt eine <strong>schriftliche Aufstellung</strong> ihres Stundenlohns, der anfallenden Zuschläge und der Bedingungen für Equal Pay und Branchenzuschläge. Unsere Lohnabrechnungen (Lohnzettel) werden monatlich auf Polnisch erläutert — auf Anfrage auch per Video-Call. Transparenz ist für uns kein Marketingversprechen, sondern Standard.</p>
+<p>Haben Sie Fragen zu Ihrem Lohn oder möchten Sie Ihre aktuelle Abrechnung prüfen lassen? Kontaktieren Sie uns — wir helfen auf Polnisch und Deutsch.</p>
+    `.trim(),
+  },
+  {
+    slug: "wypadek-przy-pracy-niemcy-co-robic",
+    title: "Wypadek przy pracy w Niemczech – co zrobić, komu zgłosić i jakie masz prawa",
+    description:
+      "Wypadek przy pracy w Niemczech to poważna sytuacja. Dowiedz się, jakie kroki podjąć natychmiast, jak działa system Berufsgenossenschaft i jakie świadczenia Ci przysługują.",
+    date: "2026-09-29",
+    lang: "pl",
+    content: `
+<p>Wypadek przy pracy w Niemczech — nawet drobne zdarzenie — może mieć poważne konsekwencje prawne i finansowe, jeśli nie zostanie odpowiednio zgłoszony. Jako pracownik tymczasowy musisz wiedzieć, komu zgłosić wypadek, jakie świadczenia Ci przysługują i co powinien zrobić Twój pracodawca. Ten artykuł tłumaczy cały proces krok po kroku.</p>
+
+<h2>Co to jest wypadek przy pracy (Arbeitsunfall)?</h2>
+<p>Zgodnie z niemieckim prawem, wypadek przy pracy (<strong>Arbeitsunfall</strong>) to zdarzenie, które:</p>
+<ul>
+  <li>nastąpiło w trakcie lub w związku z wykonywaną pracą,</li>
+  <li>spowodowało uraz fizyczny lub śmierć,</li>
+  <li>miało miejsce na terenie zakładu pracy lub w drodze do/z pracy (wypadek komunikacyjny — <em>Wegeunfall</em>).</li>
+</ul>
+<p>Za wypadek przy pracy uznaje się też urazy spowodowane nagłym przeciążeniem (np. naderwanie mięśnia przy podnoszeniu ciężaru), o ile były bezpośrednim skutkiem wykonywanej pracy.</p>
+
+<h2>Co zrobić natychmiast po wypadku — 5 kroków</h2>
+<ol>
+  <li><strong>Udziel sobie lub poszkodowanemu pierwszej pomocy</strong> — zawołaj pomoc, wezwij pogotowie (112), zabezpiecz miejsce zdarzenia.</li>
+  <li><strong>Poinformuj przełożonego</strong> — zgłoś wypadek bezpośredniemu kierownikowi lub mistrzowi zmianowemu (<em>Schichtleiter</em>) jeszcze tego samego dnia. Nie odkładaj tego, nawet jeśli uraz wydaje się drobny.</li>
+  <li><strong>Skontaktuj się z lekarzem wypadkowym (Durchgangsarzt / D-Arzt)</strong> — przy poważniejszych urazach musisz trafić do lekarza posiadającego uprawnienia do leczenia wypadków przy pracy (D-Arzt), nie do zwykłego lekarza pierwszego kontaktu. Poinformuj lekarza, że jest to wypadek przy pracy.</li>
+  <li><strong>Zadzwoń do Nexflow</strong> — nasz koordynator pomoże Ci w komunikacji z pracodawcą i instytucjami, zapewni tłumacza i zadba o prawidłowe zgłoszenie zdarzenia.</li>
+  <li><strong>Zachowaj dokumentację</strong> — zapisz datę, godzinę, okoliczności wypadku i dane świadków. Zrób zdjęcia, jeśli to możliwe.</li>
+</ol>
+
+<h2>Kto płaci za leczenie po wypadku przy pracy w Niemczech?</h2>
+<p>W Niemczech wypadki przy pracy są objęte ustawowym ubezpieczeniem wypadkowym (<strong>gesetzliche Unfallversicherung</strong>), którym zarządza instytucja zwana <strong>Berufsgenossenschaft (BG)</strong>. Każdy pracodawca jest obowiązkowo ubezpieczony w odpowiedniej BG — składki płaci wyłącznie pracodawca, nie pracownik.</p>
+<p>Z ubezpieczenia BG przysługuje Ci:</p>
+<ul>
+  <li><strong>Pełne pokrycie kosztów leczenia</strong> — bez żadnych dopłat ze strony pracownika</li>
+  <li><strong>Rehabilitacja zawodowa i medyczna</strong></li>
+  <li><strong>Zasiłek chorobowy (Verletztengeld)</strong> — wypłacany od 2. dnia niezdolności do pracy, w wysokości ok. 80% wynagrodzenia brutto, maksymalnie przez 78 tygodni</li>
+  <li><strong>Renta wypadkowa (Verletztenrente)</strong> — jeśli wypadek spowodował trwały uszczerbek na zdrowiu powyżej 20%</li>
+  <li><strong>Jednorazowe odszkodowanie</strong> — w określonych przypadkach</li>
+</ul>
+
+<h2>Co grozi pracodawcy za nieodnotowanie wypadku?</h2>
+<p>Pracodawca ma ustawowy obowiązek zgłosić każdy wypadek, w wyniku którego pracownik był niezdolny do pracy przez więcej niż 3 dni robocze. Niewywiązanie się z tego obowiązku grozi pracodawcy karami administracyjnymi. Jako pracownik masz prawo upewnić się, że wypadek został zgłoszony.</p>
+
+<h2>Wypadek komunikacyjny w drodze do pracy (Wegeunfall)</h2>
+<p>Wypadek, który zdarzył się w drodze do lub z miejsca pracy, również jest objęty ubezpieczeniem wypadkowym BG — pod warunkiem, że jechałeś bezpośrednią trasą bez odchyleń niezwiązanych z pracą. Dotyczy to zarówno podróży samochodem, rowerem, jak i komunikacją publiczną.</p>
+
+<h2>Jako pracownik tymczasowy Nexflow — co ważne</h2>
+<p>Pracownicy tymczasowi są ubezpieczeni w BG zakładu pracy (<em>Entleiher</em>), w którym faktycznie wykonują pracę — nie w BG agencji pracy. Nexflow zapewnia pełną dokumentację ubezpieczeniową każdemu pracownikowi i w razie wypadku koordynuje zgłoszenie zarówno z pracodawcą użytkownikiem, jak i z właściwą BG. Nie jesteś w tym sam.</p>
+<p>Masz pytania o bezpieczeństwo pracy lub chcesz się dowiedzieć, w jakiej BG jesteś ubezpieczony? Skontaktuj się z nami — odpowiemy po polsku.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
