@@ -1910,6 +1910,196 @@ export const posts: BlogPost[] = [
 <p>Nexflow stosuje zasadę pełnej transparentności wynagrodzeń — każdy dodatek jest wykazany osobno. Pytania? Napisz do nas: <a href="https://nexflow.work">nexflow.work</a></p>
     `.trim(),
   },
+  {
+    slug: "slownictwo-magazyn-niemcy-podstawowe-zwroty",
+    title: "Słownictwo na magazynie w Niemczech – podstawowe zwroty i komendy po niemiecku",
+    description:
+      "Pracujesz lub planujesz pracę w niemieckim magazynie? Poznaj niezbędne słownictwo i zwroty, które pomogą Ci porozumieć się z przełożonymi i współpracownikami od pierwszego dnia.",
+    date: "2026-09-15",
+    lang: "pl",
+    content: `
+<p>Jedną z największych obaw Polaków wyjeżdżających do pracy w Niemczech jest bariera językowa. W magazynie czy hali produkcyjnej nieznajomość podstawowych komend może prowadzić do nieporozumień, a nawet zagrożenia bezpieczeństwa. Poniżej zebraliśmy najważniejsze słownictwo, które przyda się od pierwszego dnia pracy.</p>
+
+<h2>Podstawowe komendy i oznaczenia w magazynie</h2>
+<table>
+  <thead><tr><th>Niemiecki</th><th>Polski</th></tr></thead>
+  <tbody>
+    <tr><td>Achtung!</td><td>Uwaga!</td></tr>
+    <tr><td>Stopp! / Halt!</td><td>Stój! / Stop!</td></tr>
+    <tr><td>Vorsicht!</td><td>Ostrożnie!</td></tr>
+    <tr><td>Notausgang</td><td>Wyjście awaryjne</td></tr>
+    <tr><td>Feuerlöscher</td><td>Gaśnica</td></tr>
+    <tr><td>Erste Hilfe</td><td>Pierwsza pomoc</td></tr>
+    <tr><td>Lager / Lagerhalle</td><td>Magazyn / hala magazynowa</td></tr>
+    <tr><td>Eingang / Ausgang</td><td>Wejście / Wyjście</td></tr>
+    <tr><td>Gabelstapler</td><td>Wózek widłowy</td></tr>
+    <tr><td>Palette / Paletten</td><td>Paleta / palety</td></tr>
+    <tr><td>Lieferschein</td><td>List przewozowy / dowód dostawy</td></tr>
+    <tr><td>Pickliste</td><td>Lista pickingowa</td></tr>
+    <tr><td>Schicht</td><td>Zmiana (np. Frühschicht = zmiana ranna)</td></tr>
+    <tr><td>Überstunden</td><td>Nadgodziny</td></tr>
+    <tr><td>Pause</td><td>Przerwa</td></tr>
+    <tr><td>Feierabend</td><td>Koniec pracy / zakończenie zmiany</td></tr>
+  </tbody>
+</table>
+
+<h2>Przydatne zwroty w komunikacji z przełożonym</h2>
+<ul>
+  <li><strong>„Ich verstehe nicht"</strong> — Nie rozumiem</li>
+  <li><strong>„Können Sie das bitte wiederholen?"</strong> — Czy może Pan/Pani powtórzyć?</li>
+  <li><strong>„Wo soll ich das hinstellen?"</strong> — Gdzie mam to postawić?</li>
+  <li><strong>„Was soll ich als Nächstes tun?"</strong> — Co mam teraz zrobić?</li>
+  <li><strong>„Ich bin fertig"</strong> — Skończyłem/skończyłam</li>
+  <li><strong>„Das Gerät funktioniert nicht"</strong> — Urządzenie nie działa</li>
+  <li><strong>„Ich habe einen Fehler gemacht"</strong> — Popełniłem/popełniłam błąd</li>
+  <li><strong>„Ich brauche Hilfe"</strong> — Potrzebuję pomocy</li>
+</ul>
+
+<h2>Oznaczenia stref i kolorów bezpieczeństwa</h2>
+<p>Niemieckie magazyny stosują zunifikowany system kolorów oznaczania stref:</p>
+<ul>
+  <li><strong>Żółte linie</strong> — ciągi komunikacyjne dla wózków widłowych</li>
+  <li><strong>Białe linie</strong> — strefy dla pieszych</li>
+  <li><strong>Czerwone strefy</strong> — obszary niebezpieczne lub zakaz wstępu</li>
+  <li><strong>Zielone oznaczenia</strong> — wyjścia awaryjne, apteczki, gaśnice</li>
+</ul>
+
+<h2>Dokumenty i formularze – słownictwo biurowe</h2>
+<ul>
+  <li><strong>Arbeitsvertrag</strong> — umowa o pracę</li>
+  <li><strong>Lohnabrechnung</strong> — pasek wypłaty / rozliczenie wynagrodzenia</li>
+  <li><strong>Urlaubsantrag</strong> — wniosek urlopowy</li>
+  <li><strong>Krankmeldung</strong> — zwolnienie lekarskie / zgłoszenie choroby</li>
+  <li><strong>Steueridentifikationsnummer</strong> — numer identyfikacji podatkowej</li>
+  <li><strong>Sozialversicherungsausweis</strong> — karta ubezpieczenia społecznego</li>
+</ul>
+
+<h2>Jak szybko poprawić swój niemiecki?</h2>
+<p>Kilka sprawdzonych sposobów na naukę języka podczas pracy za granicą:</p>
+<ol>
+  <li><strong>Aplikacje mobilne</strong> — Duolingo, Babbel lub Pimsleur — 15 minut dziennie przynosi efekty po miesiącu</li>
+  <li><strong>Notatnik z terminologią</strong> — zapisuj nieznane słowa usłyszane w pracy i ucz się ich wieczorem</li>
+  <li><strong>YouTube</strong> — kanały do nauki niemieckiego w kontekście pracy (wyszukaj „Deutsch für den Beruf")</li>
+  <li><strong>Rozmowy ze współpracownikami</strong> — Niemcy doceniają próby mówienia w ich języku, nawet jeśli popełniasz błędy</li>
+</ol>
+
+<h2>Nexflow wspiera Cię od pierwszego dnia</h2>
+<p>W Nexflow zapewniamy wszystkim pracownikom materiały z podstawowym słownictwem w języku polskim i niemieckim jeszcze przed rozpoczęciem pracy. Nasz koordynator jest zawsze dostępny telefonicznie lub przez WhatsApp, jeśli masz pytania lub potrzebujesz tłumaczenia. Skontaktuj się z nami, jeśli szukasz pracy w niemieckim magazynie — pomożemy Ci od formalności aż po pierwsze dni na nowym miejscu.</p>
+    `.trim(),
+  },
+  {
+    slug: "mindestlohn-2026-leiharbeiter-rechte",
+    title: "Mindestlohn 2026 für Leiharbeiter: Aktuelle Sätze, Equal Pay und Ihre Rechte",
+    description:
+      "Was verdienen Leiharbeiter in Deutschland 2026 wirklich? Mindestlohn, Branchenzuschläge, Equal-Pay-Anspruch und wie Nexflow transparente Vergütung sicherstellt.",
+    date: "2026-09-22",
+    lang: "de",
+    content: `
+<p>Der gesetzliche Mindestlohn in Deutschland steigt weiter — und damit wächst auch die Bedeutung, Ihre Rechte als Leiharbeitnehmer genau zu kennen. Ob Mindestlohn, Branchenzuschläge oder Equal-Pay-Anspruch: In diesem Beitrag erfahren Sie alles Wichtige zur Vergütung von Zeitarbeitnehmern im Jahr 2026.</p>
+
+<h2>Gesetzlicher Mindestlohn 2026</h2>
+<p>Seit dem <strong>1. Januar 2026</strong> gilt in Deutschland ein gesetzlicher Mindestlohn von <strong>13,00 EUR brutto pro Stunde</strong>. Dieser Satz gilt für alle Arbeitnehmer, die in Deutschland beschäftigt sind — unabhängig von ihrer Nationalität oder ob sie von einer polnischen Zeitarbeitsfirma entsandt werden.</p>
+<p>Für Leiharbeitnehmer gilt zusätzlich der <strong>Mindestlohn der Zeitarbeit</strong> gemäß dem iGZ/DGB-Tarifvertrag. Dieser liegt in der Regel über dem allgemeinen Mindestlohn und richtet sich nach Entgeltgruppen:</p>
+<table>
+  <thead><tr><th>Entgeltgruppe</th><th>Beschreibung</th><th>Stundenlohn (ab 2026)</th></tr></thead>
+  <tbody>
+    <tr><td>EG 1</td><td>Helfer, einfache Tätigkeiten</td><td>ab 13,00 EUR</td></tr>
+    <tr><td>EG 2</td><td>Angelernter Arbeiter, Staplerschein</td><td>ab 13,80 EUR</td></tr>
+    <tr><td>EG 3</td><td>Fachkraft, Berufsausbildung</td><td>ab 15,20 EUR</td></tr>
+    <tr><td>EG 4</td><td>Spezialist, mehrjährige Erfahrung</td><td>ab 16,50 EUR</td></tr>
+  </tbody>
+</table>
+<p><em>Hinweis: Die genauen Sätze können je nach Region und Tarifvertrag variieren. Nexflow informiert Sie vor Arbeitsbeginn über Ihren konkreten Stundenlohn.</em></p>
+
+<h2>Branchenzuschläge — mehr Lohn in bestimmten Branchen</h2>
+<p>In vielen Branchen haben Leiharbeitnehmer Anspruch auf <strong>Branchenzuschläge</strong> (BZT), die auf den Tariflohn der Zeitarbeit aufgeschlagen werden. Diese wurden zwischen Gewerkschaften und Arbeitgeberverbänden für folgende Sektoren vereinbart:</p>
+<ul>
+  <li>Metall- und Elektroindustrie</li>
+  <li>Chemische Industrie</li>
+  <li>Papier- und Druckindustrie</li>
+  <li>Kautschukindustrie</li>
+  <li>Holz- und Kunststoffindustrie</li>
+</ul>
+<p>Die Zuschläge steigen mit der Einsatzdauer: Nach 6 Wochen erhalten Sie den ersten Zuschlag, nach 3 Monaten einen höheren, und so weiter — bis zum vollständigen Equal Pay nach 9 Monaten.</p>
+
+<h2>Equal Pay: Gleiches Geld nach 9 Monaten</h2>
+<p>Das <strong>Arbeitnehmerüberlassungsgesetz (AÜG)</strong> schreibt vor: Nach <strong>9 Monaten ununterbrochener Überlassung</strong> an denselben Entleiher haben Leiharbeitnehmer Anspruch auf <strong>Equal Pay</strong> — also dasselbe Entgelt, das vergleichbare Stammarbeitnehmer des Entleihers erhalten.</p>
+<p>Was zählt zur Gleichbehandlung?</p>
+<ul>
+  <li>Grundgehalt / Stundenlohn</li>
+  <li>Sonderzahlungen (Urlaubs- und Weihnachtsgeld, falls im Betrieb üblich)</li>
+  <li>Sachleistungen (z.B. Essensgutscheine, Firmenwagen)</li>
+  <li>Arbeitszeit und Pausen</li>
+</ul>
+<p><strong>Wichtig:</strong> Die 9-Monats-Frist läuft nur dann ohne Unterbrechung, wenn zwischen zwei Einsätzen beim selben Kunden nicht mehr als 3 Monate liegen. Nexflow verwaltet diese Fristen für alle eingesetzten Arbeitnehmer systematisch.</p>
+
+<h2>18-Monats-Limit: Maximale Überlassungsdauer</h2>
+<p>Das AÜG begrenzt die Überlassungsdauer an denselben Entleiher auf <strong>maximal 18 Monate</strong>. Ausnahmen sind nur durch Tarifvertrag möglich. Nexflow informiert betroffene Arbeitnehmer und Kunden rechtzeitig über nahende Ablaufdaten und organisiert — falls gewünscht — eine Direktanstellung oder einen Wechsel.</p>
+
+<h2>Zuschläge für Schicht- und Nachtarbeit</h2>
+<p>Neben dem Grundlohn haben Sie in der Regel Anspruch auf Zuschläge für:</p>
+<ul>
+  <li><strong>Nachtarbeit</strong> (22:00–6:00 Uhr): 25–40 % Zuschlag</li>
+  <li><strong>Sonntagsarbeit</strong>: 50 % Zuschlag</li>
+  <li><strong>Feiertagsarbeit</strong>: 100–125 % Zuschlag</li>
+  <li><strong>Samstagsarbeit</strong>: abhängig vom Tarifvertrag, meist 10–25 %</li>
+</ul>
+
+<h2>Wie Nexflow transparente Vergütung sicherstellt</h2>
+<p>Bei Nexflow erhalten alle Arbeitnehmer vor Arbeitsantritt eine <strong>schriftliche Aufstellung</strong> ihres Stundenlohns, der anfallenden Zuschläge und der Bedingungen für Equal Pay und Branchenzuschläge. Unsere Lohnabrechnungen (Lohnzettel) werden monatlich auf Polnisch erläutert — auf Anfrage auch per Video-Call. Transparenz ist für uns kein Marketingversprechen, sondern Standard.</p>
+<p>Haben Sie Fragen zu Ihrem Lohn oder möchten Sie Ihre aktuelle Abrechnung prüfen lassen? Kontaktieren Sie uns — wir helfen auf Polnisch und Deutsch.</p>
+    `.trim(),
+  },
+  {
+    slug: "wypadek-przy-pracy-niemcy-co-robic",
+    title: "Wypadek przy pracy w Niemczech – co zrobić, komu zgłosić i jakie masz prawa",
+    description:
+      "Wypadek przy pracy w Niemczech to poważna sytuacja. Dowiedz się, jakie kroki podjąć natychmiast, jak działa system Berufsgenossenschaft i jakie świadczenia Ci przysługują.",
+    date: "2026-09-29",
+    lang: "pl",
+    content: `
+<p>Wypadek przy pracy w Niemczech — nawet drobne zdarzenie — może mieć poważne konsekwencje prawne i finansowe, jeśli nie zostanie odpowiednio zgłoszony. Jako pracownik tymczasowy musisz wiedzieć, komu zgłosić wypadek, jakie świadczenia Ci przysługują i co powinien zrobić Twój pracodawca. Ten artykuł tłumaczy cały proces krok po kroku.</p>
+
+<h2>Co to jest wypadek przy pracy (Arbeitsunfall)?</h2>
+<p>Zgodnie z niemieckim prawem, wypadek przy pracy (<strong>Arbeitsunfall</strong>) to zdarzenie, które:</p>
+<ul>
+  <li>nastąpiło w trakcie lub w związku z wykonywaną pracą,</li>
+  <li>spowodowało uraz fizyczny lub śmierć,</li>
+  <li>miało miejsce na terenie zakładu pracy lub w drodze do/z pracy (wypadek komunikacyjny — <em>Wegeunfall</em>).</li>
+</ul>
+<p>Za wypadek przy pracy uznaje się też urazy spowodowane nagłym przeciążeniem (np. naderwanie mięśnia przy podnoszeniu ciężaru), o ile były bezpośrednim skutkiem wykonywanej pracy.</p>
+
+<h2>Co zrobić natychmiast po wypadku — 5 kroków</h2>
+<ol>
+  <li><strong>Udziel sobie lub poszkodowanemu pierwszej pomocy</strong> — zawołaj pomoc, wezwij pogotowie (112), zabezpiecz miejsce zdarzenia.</li>
+  <li><strong>Poinformuj przełożonego</strong> — zgłoś wypadek bezpośredniemu kierownikowi lub mistrzowi zmianowemu (<em>Schichtleiter</em>) jeszcze tego samego dnia. Nie odkładaj tego, nawet jeśli uraz wydaje się drobny.</li>
+  <li><strong>Skontaktuj się z lekarzem wypadkowym (Durchgangsarzt / D-Arzt)</strong> — przy poważniejszych urazach musisz trafić do lekarza posiadającego uprawnienia do leczenia wypadków przy pracy (D-Arzt), nie do zwykłego lekarza pierwszego kontaktu. Poinformuj lekarza, że jest to wypadek przy pracy.</li>
+  <li><strong>Zadzwoń do Nexflow</strong> — nasz koordynator pomoże Ci w komunikacji z pracodawcą i instytucjami, zapewni tłumacza i zadba o prawidłowe zgłoszenie zdarzenia.</li>
+  <li><strong>Zachowaj dokumentację</strong> — zapisz datę, godzinę, okoliczności wypadku i dane świadków. Zrób zdjęcia, jeśli to możliwe.</li>
+</ol>
+
+<h2>Kto płaci za leczenie po wypadku przy pracy w Niemczech?</h2>
+<p>W Niemczech wypadki przy pracy są objęte ustawowym ubezpieczeniem wypadkowym (<strong>gesetzliche Unfallversicherung</strong>), którym zarządza instytucja zwana <strong>Berufsgenossenschaft (BG)</strong>. Każdy pracodawca jest obowiązkowo ubezpieczony w odpowiedniej BG — składki płaci wyłącznie pracodawca, nie pracownik.</p>
+<p>Z ubezpieczenia BG przysługuje Ci:</p>
+<ul>
+  <li><strong>Pełne pokrycie kosztów leczenia</strong> — bez żadnych dopłat ze strony pracownika</li>
+  <li><strong>Rehabilitacja zawodowa i medyczna</strong></li>
+  <li><strong>Zasiłek chorobowy (Verletztengeld)</strong> — wypłacany od 2. dnia niezdolności do pracy, w wysokości ok. 80% wynagrodzenia brutto, maksymalnie przez 78 tygodni</li>
+  <li><strong>Renta wypadkowa (Verletztenrente)</strong> — jeśli wypadek spowodował trwały uszczerbek na zdrowiu powyżej 20%</li>
+  <li><strong>Jednorazowe odszkodowanie</strong> — w określonych przypadkach</li>
+</ul>
+
+<h2>Co grozi pracodawcy za nieodnotowanie wypadku?</h2>
+<p>Pracodawca ma ustawowy obowiązek zgłosić każdy wypadek, w wyniku którego pracownik był niezdolny do pracy przez więcej niż 3 dni robocze. Niewywiązanie się z tego obowiązku grozi pracodawcy karami administracyjnymi. Jako pracownik masz prawo upewnić się, że wypadek został zgłoszony.</p>
+
+<h2>Wypadek komunikacyjny w drodze do pracy (Wegeunfall)</h2>
+<p>Wypadek, który zdarzył się w drodze do lub z miejsca pracy, również jest objęty ubezpieczeniem wypadkowym BG — pod warunkiem, że jechałeś bezpośrednią trasą bez odchyleń niezwiązanych z pracą. Dotyczy to zarówno podróży samochodem, rowerem, jak i komunikacją publiczną.</p>
+
+<h2>Jako pracownik tymczasowy Nexflow — co ważne</h2>
+<p>Pracownicy tymczasowi są ubezpieczeni w BG zakładu pracy (<em>Entleiher</em>), w którym faktycznie wykonują pracę — nie w BG agencji pracy. Nexflow zapewnia pełną dokumentację ubezpieczeniową każdemu pracownikowi i w razie wypadku koordynuje zgłoszenie zarówno z pracodawcą użytkownikiem, jak i z właściwą BG. Nie jesteś w tym sam.</p>
+<p>Masz pytania o bezpieczeństwo pracy lub chcesz się dowiedzieć, w jakiej BG jesteś ubezpieczony? Skontaktuj się z nami — odpowiemy po polsku.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
