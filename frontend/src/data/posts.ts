@@ -2181,7 +2181,7 @@ export const posts: BlogPost[] = [
 
 <h2>Najczęstsze pytania</h2>
 <p><strong>Czy Nexflow pomaga uzyskać Sozialversicherungsnummer?</strong><br/>
-Jeśli Twoje stanowisko wymaga podlegania pod niemicki system ubezpieczeń (bez A1), nasz dział kadr przeprowadzi Cię przez proces zgłoszenia.</p>
+Jeśli Twoje stanowisko wymaga podlegania pod niemiecki system ubezpieczeń (bez A1), nasz dział kadr przeprowadzi Cię przez proces zgłoszenia.</p>
 <p><strong>Czy SVNR to to samo co numer ubezpieczenia zdrowotnego (Krankenkasse)?</strong><br/>
 Nie — to są różne numery. Numer Krankenkasse to Versichertennummer (6 cyfr + litera + 2 cyfry) przyznawany przez ubezpieczyciela. Więcej o ubezpieczeniu zdrowotnym: <a href="/blog/krankenversicherung-leiharbeiter-polen">Krankenversicherung dla pracowników tymczasowych</a>.</p>
 <p><strong>Czy A1 całkowicie zastępuje SVNR?</strong><br/>
@@ -2275,7 +2275,7 @@ Wenn Sie nach einem Zeitarbeits-Einsatz direkt vom Kundenunternehmen übernommen
     slug: "zwolnienie-praca-tymczasowa-niemcy-prawa",
     title: "Prawa przy zwolnieniu z pracy tymczasowej w Niemczech",
     description:
-      "Zwolnienie praca tymczasowa Niemcy: jakie masz prawa gdy pracodawca kończy kontrakt, kiedy należy Ci się odprawa i co zrobić gdy uważasz że zwolnienie było nisłuszne.",
+      "Zwolnienie praca tymczasowa Niemcy: jakie masz prawa gdy pracodawca kończy kontrakt, kiedy należy Ci się odprawa i co zrobić gdy uważasz że zwolnienie było niesłuszne.",
     date: "2026-10-20",
     lang: "pl",
     content: `
