@@ -2100,6 +2100,281 @@ export const posts: BlogPost[] = [
 <p>Masz pytania o bezpieczeństwo pracy lub chcesz się dowiedzieć, w jakiej BG jesteś ubezpieczony? Skontaktuj się z nami — odpowiemy po polsku.</p>
     `.trim(),
   },
+  {
+    slug: "sozialversicherungsnummer-niemcy-jak-uzyskac",
+    title: "Sozialversicherungsnummer w Niemczech — jak uzyskać",
+    description:
+      "Sozialversicherungsnummer Niemcy: co to jest, czym różni się od Steuer-ID, jak i kiedy go dostać — krok po kroku dla polskich pracowników tymczasowych.",
+    date: "2026-10-06",
+    lang: "pl",
+    content: `
+<p>Każdy pracownik w Niemczech otrzymuje <strong>Sozialversicherungsnummer</strong> (SVNR) — 12-cyfrowy numer ubezpieczenia społecznego, który towarzyszy mu przez całe życie zawodowe. Bez niego pracodawca nie może prawidłowo odprowadzić składek na ubezpieczenia społeczne. Dla polskich pracowników tymczasowych jest to jeden z pierwszych dokumentów, o który warto zadbać.</p>
+
+<h2>Czym jest Sozialversicherungsnummer i czym różni się od Steuer-ID?</h2>
+<p>W Niemczech funkcjonują dwa różne numery, które często mylone są przez nowych pracowników:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Cecha</th>
+      <th>Sozialversicherungsnummer (SVNR)</th>
+      <th>Steuer-ID (TIN)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wydaje</td>
+      <td>Deutsche Rentenversicherung (DRV)</td>
+      <td>Bundeszentralamt für Steuern (BZSt)</td>
+    </tr>
+    <tr>
+      <td>Format</td>
+      <td>12 cyfr (np. 65 190864 B 221)</td>
+      <td>11 cyfr (np. 86 095 742 719)</td>
+    </tr>
+    <tr>
+      <td>Do czego służy</td>
+      <td>Składki ZUS w Niemczech (emerytura, chorobowe, pielęgnacyjne)</td>
+      <td>Podatek dochodowy (Lohnsteuer)</td>
+    </tr>
+    <tr>
+      <td>Kiedy potrzebny</td>
+      <td>Od pierwszego dnia zatrudnienia w Niemczech</td>
+      <td>Od pierwszego dnia zatrudnienia w Niemczech</td>
+    </tr>
+  </tbody>
+</table>
+<p>Pracownicy delegowani z A1 <strong>nie podlegają</strong> niemieckiemu systemowi ubezpieczeń społecznych — ich składki odprowadzane są w Polsce przez agencję (ZUS). Oznacza to, że SVNR <strong>nie jest wymagany</strong> przy delegowaniu do 24 miesięcy z zaświadczeniem A1.</p>
+
+<h2>Kto potrzebuje Sozialversicherungsnummer?</h2>
+<p>SVNR jest wymagany, gdy Twoje ubezpieczenie społeczne podlega Niemcom — czyli gdy:</p>
+<ul>
+  <li>Pracujesz w Niemczech bez zaświadczenia A1 (bezpośrednie zatrudnienie przez niemieckiego pracodawcę)</li>
+  <li>Delegowanie przekroczyło 24 miesiące i ubezpieczenie zostało przeniesione do Niemiec</li>
+  <li>Jesteś zatrudniony przez agencję na warunkach lokalnych (np. jako rezydent Niemiec)</li>
+</ul>
+<p><strong>Jeśli pracujesz przez Nexflow z zaświadczeniem A1:</strong> nie potrzebujesz SVNR — Twoje składki odprowadzamy w ZUS. Numer ten nie pojawi się na Twoim Lohnabrechnung (odcinku wynagrodzenia).</p>
+
+<h2>Jak uzyskać Sozialversicherungsnummer — krok po kroku</h2>
+<ol>
+  <li><strong>Złóż wniosek do Deutsche Rentenversicherung (DRV)</strong><br/>
+    Formularz <em>V100</em> dostępny online na drv.de lub pocztowo. Wypełniasz: imię, nazwisko, datę urodzenia, adres w Niemczech, narodowość, poprzedni numer ubezpieczenia (jeśli miałeś).
+  </li>
+  <li><strong>Dołącz kopię dowodu tożsamości lub paszportu</strong><br/>
+    Wystarczy czytelna kopia — nie wymaga notarialnego potwierdzenia.
+  </li>
+  <li><strong>Poczekaj na list z DRV</strong><br/>
+    Zazwyczaj 2–4 tygodnie. Numer przychodzi pocztą na adres w Niemczech. Jeśli nie masz adresu — może zostać wysłany do pracodawcy lub na adres agencji.
+  </li>
+  <li><strong>Przekaż numer pracodawcy</strong><br/>
+    Pracodawca (lub agencja) wpisuje SVNR do systemu płacowego i zgłasza Cię do systemu ubezpieczeń społecznych.
+  </li>
+</ol>
+<blockquote><p><strong>Ważne:</strong> SVNR jest stały — raz przyznany towarzyszy Ci przez całe życie zawodowe w Niemczech. Zapisz go i przechowuj razem z dokumentami.</p></blockquote>
+
+<h2>Co jeśli pracowałem wcześniej w Niemczech i mam już SVNR?</h2>
+<p>Jeśli pracowałeś legalnie w Niemczech w przeszłości (np. jako rezydent), możesz mieć już przypisany numer. Aby go odszukać:</p>
+<ul>
+  <li>Sprawdź stare dokumenty z poprzedniego zatrudnienia (Sozialversicherungsausweis — plastikowa karta)</li>
+  <li>Złóż zapytanie do DRV — możliwe przez portal <em>drv.de</em> lub telefonicznie (+49 800 1000 4800)</li>
+  <li>Sprawdź stary Lohnabrechnung — SVNR jest na nim widoczny</li>
+</ul>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy Nexflow pomaga uzyskać Sozialversicherungsnummer?</strong><br/>
+Jeśli Twoje stanowisko wymaga podlegania pod niemicki system ubezpieczeń (bez A1), nasz dział kadr przeprowadzi Cię przez proces zgłoszenia.</p>
+<p><strong>Czy SVNR to to samo co numer ubezpieczenia zdrowotnego (Krankenkasse)?</strong><br/>
+Nie — to są różne numery. Numer Krankenkasse to Versichertennummer (6 cyfr + litera + 2 cyfry) przyznawany przez ubezpieczyciela. Więcej o ubezpieczeniu zdrowotnym: <a href="/blog/krankenversicherung-leiharbeiter-polen">Krankenversicherung dla pracowników tymczasowych</a>.</p>
+<p><strong>Czy A1 całkowicie zastępuje SVNR?</strong><br/>
+Tak — przy ważnym A1 ubezpieczenie pozostaje w Polsce, więc Niemcy nie przyznają ani nie wymagają SVNR. Nexflow dba o terminowe wystawienie A1 przez ZUS przed każdym kontraktem.</p>
+
+<hr/>
+<p><strong>Praca przez Nexflow z zaświadczeniem A1 = brak potrzeby uzyskiwania SVNR.</strong> Agencja obsługuje całą stronę ubezpieczeniową. <a href="/praca">Wyślij zgłoszenie →</a></p>
+<p><em>Artykuł: październik 2026. Podstawa: SGB IV, § 147 SGB VI. Treść informacyjna, nie doradcza.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "probezeit-zeitarbeit-deutschland-polnische-arbeitnehmer",
+    title: "Probezeit in der Zeitarbeit — Rechte polnischer Leiharbeitnehmer",
+    description:
+      "Probezeit Zeitarbeit Deutschland: Was gilt beim ersten Einsatz, wie lange dauert sie, welche Kündigungsfristen gelten und was passiert, wenn die Probezeit endet?",
+    date: "2026-10-13",
+    lang: "de",
+    content: `
+<p>Viele polnische Arbeitnehmer, die zum ersten Mal über eine Zeitarbeitsfirma in Deutschland arbeiten, stellen sich die Frage: <strong>Gibt es auch in der Zeitarbeit eine Probezeit — und was bedeutet das für meinen Schutz?</strong> Die Antwort ist differenziert: Es gibt eine Probezeit im Arbeitsvertrag, aber die Regeln unterscheiden sich in einigen Punkten von der klassischen Festanstellung.</p>
+
+<h2>Wie lange dauert die Probezeit in der Zeitarbeit?</h2>
+<p>In der Zeitarbeit darf die Probezeit laut Arbeitnehmerüberlassungsgesetz (AÜG) und den einschlägigen Tarifverträgen (iGZ/BAP) <strong>maximal 6 Monate</strong> betragen. In der Praxis sehen die meisten Zeitarbeitsverträge eine Probezeit von <strong>1 bis 3 Monaten</strong> vor.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Probezeitlänge</th>
+      <th>Kündigungsfrist während Probezeit</th>
+      <th>Kündigungsfrist danach</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bis 1 Monat</td>
+      <td>2 Wochen</td>
+      <td>2–6 Wochen (je nach Betriebszugehörigkeit)</td>
+    </tr>
+    <tr>
+      <td>1–3 Monate</td>
+      <td>2 Wochen</td>
+      <td>4 Wochen zum 15. oder Monatsende</td>
+    </tr>
+    <tr>
+      <td>3–6 Monate</td>
+      <td>2 Wochen</td>
+      <td>4 Wochen zum 15. oder Monatsende</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Wichtig:</strong> Die Probezeit gilt für den Vertrag mit der Zeitarbeitsfirma (Nexflow), nicht für den einzelnen Entleihbetrieb. Wenn Sie zu einem neuen Kundenunternehmen wechseln, beginnt <strong>keine neue Probezeit</strong> — Ihr Arbeitsvertrag mit Nexflow läuft weiter.</p>
+
+<h2>Was darf der Arbeitgeber während der Probezeit?</h2>
+<p>Während der Probezeit gelten vereinfachte Kündigungsbedingungen — aber nicht ohne Grenzen:</p>
+<ul>
+  <li><strong>Was erlaubt ist:</strong> Kündigung mit 2-wöchiger Frist, ohne detaillierte Begründung</li>
+  <li><strong>Was verboten ist:</strong> Kündigung wegen Krankheit (wenn nicht exzessiv und prognostisch dauerhaft), Schwangerschaft, Betriebsratsaktivität, Diskriminierung (Alter, Herkunft, Geschlecht, Religion)</li>
+  <li><strong>Auch in der Probezeit gilt:</strong> Anspruch auf Mindestlohn (13,00 EUR/h ab 2026), korrekte Lohnabrechnung, Arbeitssicherheit</li>
+</ul>
+<blockquote><p><strong>Beispiel:</strong> Ein polnischer Arbeitnehmer wird nach 3 Wochen krank. Die Kündigung allein wegen der Krankmeldung ist auch in der Probezeit unzulässig, wenn die Erkrankung nicht auf eine langfristige Arbeitsunfähigkeit hindeutet.</p></blockquote>
+
+<h2>Was passiert nach der Probezeit?</h2>
+<p>Nach Ablauf der Probezeit genießen Sie als Zeitarbeitnehmer bei Nexflow einen stärkeren Kündigungsschutz:</p>
+<ul>
+  <li>Längere Kündigungsfristen — gestaffelt nach Betriebszugehörigkeit</li>
+  <li>Bei mehr als 6 Monaten im Betrieb: Kündigungsschutzgesetz (KSchG) greift — Kündigung muss sozial gerechtfertigt sein</li>
+  <li>Bei 9 Monaten ununterbrochener Überlassung an denselben Entleihbetrieb: Equal Pay-Anspruch beginnt (gleicher Lohn wie Stammbelegschaft)</li>
+</ul>
+<p>Mehr zu Equal Pay: <a href="/blog/mindestlohn-2026-leiharbeiter-rechte">Mindestlohn 2026 und Leiharbeiter-Rechte</a>.</p>
+
+<h2>Probezeit bei befristeten Verträgen</h2>
+<p>Viele Zeitarbeitsverträge sind befristet (z. B. auf 3 oder 6 Monate). Wenn der Vertrag kürzer als die vereinbarte Probezeit ist, gilt:</p>
+<ul>
+  <li>Die Probezeit kann nur so lange dauern wie das Vertragsverhältnis selbst</li>
+  <li>Beispiel: Vertrag für 2 Monate — Probezeit maximal 2 Monate</li>
+  <li>Ein automatisch verlängerter Folgevertrag bedeutet: eine neue Probezeit ist <strong>nicht</strong> zulässig, wenn der Einsatz bei derselben Zeitarbeitsfirma nahtlos weitergeht</li>
+</ul>
+
+<h2>Häufige Fragen</h2>
+<p><strong>Kann ich während der Probezeit selbst kündigen?</strong><br/>
+Ja — mit 2-wöchiger Frist, ohne Begründung. Informieren Sie Ihren Nexflow-Ansprechpartner möglichst frühzeitig, damit wir Ihnen ggf. einen anderen Einsatz anbieten können.</p>
+<p><strong>Was tun, wenn der Entleihbetrieb mich nicht mehr haben möchte?</strong><br/>
+Der Entleihbetrieb kündigt nicht Ihnen — er meldet Nexflow, dass er Sie nicht mehr benötigt. Nexflow ist dann verpflichtet, Ihnen einen Anschlusseinsatz oder — bei fehlenden Möglichkeiten — Ausgleichsleistungen anzubieten.</p>
+<p><strong>Gilt die Probezeit auch für Stammmitarbeiter des Entleihbetriebs?</strong><br/>
+Wenn Sie nach einem Zeitarbeits-Einsatz direkt vom Kundenunternehmen übernommen werden (§ 9 Abs. 1 Nr. 3a AÜG regelt die Vermittlungsgebühr), kann eine neue Probezeit im neuen Vertrag vereinbart werden.</p>
+
+<hr/>
+<p><strong>Nexflow informiert alle Mitarbeiter vor Vertragsunterzeichnung</strong> über Probezeitdauer, Kündigungsfristen und Equal-Pay-Ansprüche — auf Polnisch und Deutsch. <a href="/praca">Jetzt bewerben →</a></p>
+<p><em>Artikel: Oktober 2026. Grundlage: AÜG, iGZ-DGB-Tarifvertrag, KSchG, § 622 BGB.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "zwolnienie-praca-tymczasowa-niemcy-prawa",
+    title: "Prawa przy zwolnieniu z pracy tymczasowej w Niemczech",
+    description:
+      "Zwolnienie praca tymczasowa Niemcy: jakie masz prawa gdy pracodawca kończy kontrakt, kiedy należy Ci się odprawa i co zrobić gdy uważasz że zwolnienie było nisłuszne.",
+    date: "2026-10-20",
+    lang: "pl",
+    content: `
+<p>Koniec kontraktu w pracy tymczasowej w Niemczech może zaskoczyć niejednemu pracownikowi — szczególnie gdy dzieje się nagle lub bez wyraźnego powodu. Ten artykuł wyjaśnia, <strong>jakie prawa przysługują pracownikowi tymczasowemu po zakończeniu umowy</strong> — zarówno gdy kontrakt wygasa, jak i gdy dochodzi do wcześniejszego rozwiązania.</p>
+
+<h2>Trzy sposoby zakończenia umowy w pracy tymczasowej</h2>
+
+<h3>1. Umowa wygasa z upływem terminu</h3>
+<p>Jeśli masz umowę na czas określony (co jest standardem w pracy tymczasowej), wygasa ona automatycznie. Pracodawca nie musi składać wypowiedzenia — ale powinien poinformować Cię, czy planuje przedłużenie kontraktu. Dobra praktyka agencji to powiadomienie z co najmniej 2-tygodniowym wyprzedzeniem.</p>
+<p><strong>Co Ci przysługuje:</strong></p>
+<ul>
+  <li>Wynagrodzenie za wszystkie przepracowane dni i nadgodziny</li>
+  <li>Wypłata ekwiwalentu za niewykorzystany urlop (Urlaubsabgeltung)</li>
+  <li>Lohnsteuerbescheinigung (zaświadczenie podatkowe) — do końca lutego następnego roku</li>
+  <li>Sozialversicherungsnachweis (jeśli podlegasz niemieckiemu ZUS)</li>
+</ul>
+
+<h3>2. Wypowiedzenie przez agencję (Kündigung)</h3>
+<p>Agencja może wypowiedzieć umowę z zachowaniem okresu wypowiedzenia. Długość zależy od stażu pracy:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Staż u agencji</th>
+      <th>Minimalny okres wypowiedzenia</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Do 6 miesięcy (w tym okres próbny)</td>
+      <td>2 tygodnie</td>
+    </tr>
+    <tr>
+      <td>Po 6 miesiącach</td>
+      <td>4 tygodnie do 15. lub do końca miesiąca</td>
+    </tr>
+    <tr>
+      <td>Po 2 latach</td>
+      <td>1 miesiąc do końca miesiąca</td>
+    </tr>
+    <tr>
+      <td>Po 5 latach</td>
+      <td>2 miesiące do końca miesiąca</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>W trakcie okresu wypowiedzenia masz prawo do:</strong></p>
+<ul>
+  <li>Pełnego wynagrodzenia</li>
+  <li>Zwolnienia na poszukiwanie nowej pracy (<em>Freistellung zur Stellensuche</em>) — zazwyczaj kilka godzin tygodniowo</li>
+  <li>Pisemnego świadectwa pracy (<em>Arbeitszeugnis</em>) — masz prawo wnioskować o jego wydanie</li>
+</ul>
+
+<h3>3. Porozumienie stron (Aufhebungsvertrag)</h3>
+<p>Agencja może zaproponować rozwiązanie umowy za porozumieniem stron — często bez zachowania okresu wypowiedzenia. <strong>Uważaj:</strong> podpisanie Aufhebungsvertrag może pozbawić Cię prawa do zasiłku dla bezrobotnych (Arbeitslosengeld) przez 12 tygodni — jest to tzw. Sperrzeit (okres karencji). Przed podpisaniem skonsultuj się z prawnikiem lub związkiem zawodowym.</p>
+
+<h2>Czy przysługuje Ci odprawa (Abfindung)?</h2>
+<p>W Niemczech odprawa <strong>nie jest automatyczna</strong> — prawo jej nie przewiduje przy standardowym rozwiązaniu umowy. Odprawa może pojawić się gdy:</p>
+<ul>
+  <li>Sąd pracy stwierdzi niezgodność wypowiedzenia z prawem i zaproponuje ugodę</li>
+  <li>Agencja sam zaproponuje odprawę w ramach Aufhebungsvertrag — jako zachętę do podpisania</li>
+  <li>Układ zbiorowy w konkretnej agencji przewiduje odprawę po określonym stażu</li>
+</ul>
+
+<h2>Co zrobić gdy uważasz, że zwolnienie było bezprawne?</h2>
+<ol>
+  <li><strong>Odwołanie do sądu pracy (Arbeitsgericht)</strong> — masz <strong>3 tygodnie</strong> od otrzymania wypowiedzenia. To twardy termin, po którym prawo do odwołania wygasa.</li>
+  <li><strong>Skonsultuj się z:</strong>
+    <ul>
+      <li>Związkiem zawodowym (ver.di, IG Metall — wielu agencyjnych pracowników jest członkami i ma dostęp do pomocy prawnej)</li>
+      <li>Arbeitsgericht — możesz złożyć wniosek o bezpłatne doradztwo (<em>Rechtsantragsstelle</em>)</li>
+      <li>Kancelarią prawną specjalizującą się w prawie pracy</li>
+    </ul>
+  </li>
+  <li><strong>Zarejestruj się w urzędzie pracy (Agentur für Arbeit)</strong> — zrób to <strong>niezwłocznie</strong>, najpóźniej w dniu zakończenia pracy. Opóźnienie rejestracji skraca okres wypłaty zasiłku.</li>
+</ol>
+<blockquote><p><strong>Pamiętaj:</strong> Zasiłek dla bezrobotnych (Arbeitslosengeld I) w Niemczech przysługuje po 12 miesiącach składkowania. Jeśli Twoje składki były odprowadzane w Polsce przez agencję (A1), ten okres nie wlicza się do niemieckiego ALG I. Nexflow informuje o tym na początku współpracy.</p></blockquote>
+
+<h2>Świadectwo pracy (Arbeitszeugnis) — jak je uzyskać?</h2>
+<p>Masz prawo żądać pisemnego Arbeitszeugnis po zakończeniu stosunku pracy. Może być:</p>
+<ul>
+  <li><em>Einfaches Zeugnis</em> — potwierdza tylko stanowisko i czas zatrudnienia</li>
+  <li><em>Qualifiziertes Zeugnis</em> — zawiera ocenę pracy i zachowania (to żądaj, bo ma większą wartość dla przyszłego pracodawcy)</li>
+</ul>
+<p>Wniosek możesz złożyć pisemnie lub ustnie. Agencja ma obowiązek wystawić je niezwłocznie.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy jeśli klient (pracodawca użytkownik) mnie nie chce, automatycznie tracę pracę?</strong><br/>
+Nie bezpośrednio — kontrakt masz z agencją (Nexflow), nie z klientem. Gdy klient rezygnuje z Twoich usług, agencja zobowiązana jest zaoferować Ci inny einsatz lub — jeśli nie ma możliwości — wypowiedzieć umowę z zachowaniem okresu wypowiedzenia.</p>
+<p><strong>Czy mogę samemu zrezygnować i mieć prawo do zasiłku?</strong><br/>
+Rezygnacja z własnej inicjatywy zazwyczaj oznacza Sperrzeit 12 tygodni bez zasiłku. Wyjątek: gdy praca zagrażała Twojemu zdrowiu lub pracodawca rażąco naruszał warunki umowy.</p>
+<p><strong>Ile czasu po zwolnieniu mam na odbiór dokumentów?</strong><br/>
+Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocznie po zakończeniu stosunku pracy. Lohnsteuerbescheinigung za cały rok podatkowy — do końca lutego roku następnego.</p>
+
+<hr/>
+<p><strong>Nexflow dba o przejrzystość warunków zatrudnienia od pierwszego dnia.</strong> Jeśli masz pytania o umowę lub swoje prawa — skontaktuj się z naszym działem HR, który odpowie po polsku i po niemiecku.</p>
+<p><strong><a href="/praca">Szukasz nowej pracy w Niemczech? Wyślij zgłoszenie →</a></strong></p>
+<p><em>Artykuł: październik 2026. Podstawa: § 622 BGB, AÜG, KSchG, SGB III. Treść informacyjna, nie stanowi porady prawnej.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
