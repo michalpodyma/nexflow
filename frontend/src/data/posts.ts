@@ -2375,6 +2375,186 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p><em>Artykuł: październik 2026. Podstawa: § 622 BGB, AÜG, KSchG, SGB III. Treść informacyjna, nie stanowi porady prawnej.</em></p>
     `.trim(),
   },
+  {
+    slug: "kindergeld-niemcy-polskie-dzieci",
+    title:
+      "Kindergeld w Niemczech — jak polscy pracownicy tymczasowi mogą pobierać zasiłek na dziecko",
+    description:
+      "Poradnik dla Polaków pracujących w Niemczech przez agencję tymczasową: kto ma prawo do Kindergeld, ile wynosi świadczenie w 2026 roku i jak złożyć wniosek do Familienkasse.",
+    date: "2026-10-27",
+    lang: "pl",
+    content: `
+<p>Kindergeld — czyli zasiłek na dziecko — jest jednym z najbardziej wartościowych świadczeń, jakie Niemcy oferują pracownikom na swoim terytorium. Wielu Polaków pracujących przez agencję tymczasową nie wie, że ma do niego prawo już od pierwszego dnia pracy w Niemczech. W tym artykule wyjaśniamy, komu przysługuje świadczenie, ile wynosi i jak je uzyskać.</p>
+
+<h2>Kto może ubiegać się o Kindergeld?</h2>
+<p>Prawo do Kindergeld mają wszystkie osoby <strong>nieogranicznie zobowiązane do płacenia podatku dochodowego w Niemczech</strong> — a więc osoby mieszkające lub pracujące w Niemczech przez co najmniej 183 dni w roku. Obywatele UE, w tym Polacy, spełniają ten warunek automatycznie, pracując legalnie w Niemczech.</p>
+<p>Świadczenie przysługuje na dzieci do 18. roku życia. Jeśli dziecko się uczy lub studiuje, granicę tę przesuwa się do 25. roku życia.</p>
+<p><strong>Ważne:</strong> Dzieci nie muszą mieszkać w Niemczech. Polak pracujący w Niemczech może pobierać Kindergeld na dzieci pozostające w Polsce — pod warunkiem, że nie wypłaca go już Polska (Zakład Ubezpieczeń Społecznych lub Centrum Świadczeń Rodzinnych). W takim przypadku obowiązuje zasada priorytetu: wyższe świadczenie wypłaca kraj zatrudnienia, a kraj zamieszkania (Polska) wyrównuje ewentualną różnicę.</p>
+
+<h2>Ile wynosi Kindergeld w 2026 roku?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Liczba dzieci</th>
+      <th>Kwota miesięczna (każde dziecko)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. dziecko</td>
+      <td>255 EUR / miesiąc</td>
+    </tr>
+    <tr>
+      <td>2. dziecko</td>
+      <td>255 EUR / miesiąc</td>
+    </tr>
+    <tr>
+      <td>3. dziecko</td>
+      <td>255 EUR / miesiąc</td>
+    </tr>
+    <tr>
+      <td>4. i kolejne dzieci</td>
+      <td>255 EUR / miesiąc</td>
+    </tr>
+  </tbody>
+</table>
+<p>Od 2023 roku kwota została ujednolicona — każde dziecko daje ten sam zasiłek (255 EUR miesięcznie w 2026 r.). Przy dwójce dzieci to 510 EUR miesięcznie dodatkowego dochodu rodziny.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<p>Wniosek o Kindergeld składa się do <strong>Familienkasse</strong> — oddziału Federalnej Agencji Pracy (Bundesagentur für Arbeit). Formularz KG 1 jest dostępny online lub w oddziale.</p>
+<p>Dokumenty potrzebne do wniosku:</p>
+<ul>
+  <li>Formularz KG 1 (wniosek główny)</li>
+  <li>Akt urodzenia dziecka (z apostille i tłumaczeniem przysięgłym na niemiecki)</li>
+  <li>Dowód zameldowania w Niemczech (Anmeldebescheinigung) lub umowa o pracę</li>
+  <li>Zaświadczenie od polskiego ZUS lub urzędu o tym, że Kindergeld lub jego polski odpowiednik nie jest wypłacany w Polsce (formularz E401 / PL U002)</li>
+  <li>IBAN i numer konta bankowego w euro</li>
+</ul>
+
+<h2>Czy agencja pracy pomaga z wnioskiem?</h2>
+<p>Nexflow wspiera swoich pracowników w procesie uzyskania Kindergeld — wyjaśniamy, jakich dokumentów potrzebujesz z Polski, i kierujemy do właściwej Familienkasse na podstawie miejsca pracy. Skontaktuj się z naszym koordynatorem, jeśli chcesz rozpocząć procedurę.</p>
+
+<h2>Kiedy zostanie wypłacone pierwsze świadczenie?</h2>
+<p>Familienkasse rozpatruje wniosek zazwyczaj w ciągu 4–8 tygodni. Świadczenie jest wypłacane wstecz — od miesiąca złożenia wniosku lub od momentu spełnienia warunków (co do zasady max. 6 miesięcy wstecz). Nie zwlekaj z wnioskiem — każdy miesiąc zwłoki to utracone 255 EUR na dziecko.</p>
+    `.trim(),
+  },
+  {
+    slug: "feiertagszuschlaege-leiharbeiter-zeitarbeit",
+    title:
+      "Feiertagszuschläge und Sonntagsarbeit für Leiharbeiter — was steht Ihnen zu?",
+    description:
+      "Leiharbeiter in Deutschland haben Anspruch auf Feiertagszuschläge, Nachtzuschläge und Sonntagszuschläge. Dieser Artikel erklärt die gesetzlichen Regelungen und was Zeitarbeitnehmer aus Polen konkret erwarten können.",
+    date: "2026-11-03",
+    lang: "de",
+    content: `
+<p>Viele Leiharbeitnehmer aus Polen wissen nicht, dass sie bei Arbeit an Sonn- und Feiertagen oder nachts gesetzlich verankerte Zuschläge erhalten können. Diese Zuschläge sind in Deutschland steuerlich begünstigt — ein wichtiger finanzieller Vorteil, den Zeitarbeitnehmer kennen sollten.</p>
+
+<h2>Welche Zuschläge gibt es?</h2>
+<p>In Deutschland sind folgende Lohnzuschläge gesetzlich oder tarifvertraglich geregelt und in bestimmten Grenzen <strong>steuer- und sozialversicherungsfrei</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Zuschlagsart</th>
+      <th>Steuerfreier Anteil (max.)</th>
+      <th>Typische Höhe</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nachtarbeit (20–24 Uhr)</td>
+      <td>25 % des Grundlohns</td>
+      <td>25–30 %</td>
+    </tr>
+    <tr>
+      <td>Nachtarbeit (0–4 Uhr)</td>
+      <td>40 % des Grundlohns</td>
+      <td>40–50 %</td>
+    </tr>
+    <tr>
+      <td>Sonntagsarbeit</td>
+      <td>50 % des Grundlohns</td>
+      <td>50 %</td>
+    </tr>
+    <tr>
+      <td>Gesetzliche Feiertage</td>
+      <td>125 % des Grundlohns</td>
+      <td>100–150 %</td>
+    </tr>
+    <tr>
+      <td>1. Mai und 25./26. Dezember</td>
+      <td>150 % des Grundlohns</td>
+      <td>150 %</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Beispiel:</strong> Wer am 1. Mai (Tag der Arbeit) arbeitet und 14 EUR brutto pro Stunde verdient, erhält einen steuerfreien Zuschlag von bis zu 21 EUR pro Stunde zusätzlich — macht 35 EUR brutto pro Stunde, von denen der Zuschlagsanteil netto fast vollständig bleibt.</p>
+
+<h2>Gilt das auch für Leiharbeitnehmer?</h2>
+<p><strong>Ja.</strong> Das Arbeitnehmerüberlassungsgesetz (AÜG) und die geltenden Tarifverträge für die Zeitarbeit (iGZ/BAP) sehen Zuschläge für Nacht-, Sonn- und Feiertagsarbeit vor. Nexflow wendet diese Regelungen auf alle eingesetzten Arbeitnehmer an — unabhängig davon, in welchem Entleihbetrieb sie tätig sind.</p>
+
+<h2>Feiertagskalender — was gilt in Brandenburg?</h2>
+<p>Da Nexflow im Grenzraum Frankfurt (Oder) / Brandenburg tätig ist, gelten die brandenburgischen Feiertage. Dazu zählen u. a.:</p>
+<ul>
+  <li>Neujahr (1. Januar)</li>
+  <li>Karfreitag und Ostermontag</li>
+  <li>Tag der Arbeit (1. Mai)</li>
+  <li>Christi Himmelfahrt</li>
+  <li>Pfingstmontag</li>
+  <li>Tag der Deutschen Einheit (3. Oktober)</li>
+  <li>Reformationstag (31. Oktober) — nur Brandenburg</li>
+  <li>1. und 2. Weihnachtstag</li>
+</ul>
+<p>Der <strong>Reformationstag am 31. Oktober</strong> ist in Brandenburg gesetzlicher Feiertag — in vielen anderen Bundesländern nicht. Das bedeutet: Wer bei einem brandenburgischen Arbeitgeber eingesetzt wird und an diesem Tag arbeitet, hat Anspruch auf den Feiertagszuschlag.</p>
+
+<h2>Muss ich den Zuschlag einfordern?</h2>
+<p>Nein — Nexflow berechnet die Zuschläge automatisch auf Basis der gebuchten Schichten. Falls Sie den Eindruck haben, dass ein Zuschlag fehlt, sprechen Sie direkt Ihren Ansprechpartner bei Nexflow an. Wir prüfen die Abrechnung und korrigieren Fehler umgehend.</p>
+
+<h2>Fazit</h2>
+<p>Schicht-, Nacht- und Feiertagsarbeit ist körperlich anspruchsvoll — aber finanziell kann sie sich erheblich lohnen. Nutzen Sie die steuerlichen Vorteile und überprüfen Sie Ihre Gehaltsabrechnungen. Nexflow steht Ihnen dabei mit transparenter Abrechnung und persönlicher Beratung zur Seite.</p>
+    `.trim(),
+  },
+  {
+    slug: "nebenjob-praca-dodatkowa-niemcy-przepisy",
+    title:
+      "Praca dodatkowa w Niemczech (Nebenjob) — co wolno pracownikowi tymczasowemu?",
+    description:
+      "Czy pracownik tymczasowy w Niemczech może dorabiać na boku? Tłumaczymy zasady dotyczące Nebenjob: czas pracy, podatek, umowa o zakazie konkurencji i wpływ na Steuerklasse.",
+    date: "2026-11-10",
+    lang: "pl",
+    content: `
+<p>Pracując w Niemczech przez agencję tymczasową, wielu Polaków zastanawia się, czy można podjąć dodatkowe zlecenie w weekendy lub wieczorami. Odpowiedź jest: <strong>tak, ale z ważnymi ograniczeniami</strong>. Oto co musisz wiedzieć przed podpisaniem drugiej umowy.</p>
+
+<h2>Co to jest Nebenjob?</h2>
+<p>Nebenjob (Nebenbeschäftigung) to praca dodatkowa obok głównego stosunku pracy. W Niemczech nie ma zakazu posiadania kilku pracodawców jednocześnie — jednak przepisy o czasie pracy, prawie podatkowym i postanowienia umowy z głównym pracodawcą mogą to ograniczać.</p>
+
+<h2>Limit czasu pracy — kluczowe ograniczenie</h2>
+<p>Najważniejszy przepis to <strong>Arbeitszeitgesetz (ArbZG)</strong> — ustawa o czasie pracy. Zabrania ona przekraczania 10 godzin pracy dziennie i 48 godzin tygodniowo w przeciętnym rozliczeniu 6-miesięcznym. Czas z obu pracodawców sumuje się.</p>
+<p>Przykład: pracujesz 8 godzin dziennie dla Nexflow. Możesz dorobić maksymalnie 2 godziny dziennie u drugiego pracodawcy. Jeśli pracujesz 5 dni po 8 godzin, masz tygodniowo jeszcze 8 godzin na Nebenjob.</p>
+<p><strong>Niedziele i święta:</strong> W Niemczech obowiązuje co do zasady zakaz pracy w niedzielę (Sonntagsarbeitsverbot). Wyjątki istnieją dla określonych branż (gastronomia, transport, produkcja ciągła) — sprawdź, czy Twój potencjalny drugi pracodawca posiada odpowiednie zezwolenie.</p>
+
+<h2>Czy agencja pracy może zakazać Nebenjob?</h2>
+<p>Twoja umowa z Nexflow może zawierać klauzulę wymagającą <strong>pisemnej zgody na podjęcie dodatkowego zatrudnienia</strong>. Nie jest to zakaz bezwzględny — agencja ma prawo odmówić jedynie wtedy, gdy Nebenjob koliduje z Twoją dyspozycyjnością lub stanowi działalność konkurencyjną. W praktyce: powiadom agencję i uzyskaj zgodę na piśmie.</p>
+
+<h2>Wpływ na podatek — zmiana Steuerklasse</h2>
+<p>Przy dwóch jednoczesnych stosunkach pracy w Niemczech główne miejsce pracy korzysta z Twojej aktualnej klasy podatkowej (zazwyczaj I lub II). <strong>Drugi pracodawca automatycznie stosuje klasę VI</strong> — najwyższe opodatkowanie, bez żadnych ulg. Oznacza to, że z wynagrodzenia z Nebenjob zostanie potrącony podatek na poziomie ok. 40–45%.</p>
+<p>Podatek zostanie jednak wyrównany przy rocznym rozliczeniu podatkowym (Steuererklärung), jeśli zsumowane dochody na to pozwolą. Rozliczenie warto złożyć — często oznacza zwrot kilkuset euro.</p>
+
+<h2>Ubezpieczenie społeczne przy Nebenjob</h2>
+<p>Jeśli zarabiasz u drugiego pracodawcy więcej niż 538 EUR miesięcznie (Minijob-Grenze), podlegasz pełnym składkom społecznym z obu umów — ZUS odprowadzany jest od każdej z osobna. Jeśli drugi dochód jest niższy lub równy 538 EUR, możliwy jest <strong>Minijob</strong> — zwolniony z pełnych składek.</p>
+
+<h2>Praktyczne kroki przed podjęciem Nebenjob</h2>
+<ol>
+  <li>Sprawdź umowę z Nexflow — szukaj zapisów o zgodzie na dodatkowe zatrudnienie</li>
+  <li>Oblicz swój dostępny czas pracy (10h dziennie max., 48h tyg. max.)</li>
+  <li>Zdecyduj, czy chcesz Minijob (do 538 EUR) czy pełen etat dodatkowy</li>
+  <li>Poinformuj Nexflow na piśmie i uzyskaj zgodę</li>
+  <li>Złóż Steuererklärung po zakończeniu roku podatkowego</li>
+</ol>
+
+<h2>Pomoc Nexflow</h2>
+<p>Masz pytania o możliwość pracy dodatkowej przy Twojej umowie z Nexflow? Skontaktuj się z naszym koordynatorem — wyjaśnimy zapisy w Twojej umowie i podpowiemy, jak legalnie dorobić bez ryzyka sankcji.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
