@@ -2555,6 +2555,191 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>Masz pytania o możliwość pracy dodatkowej przy Twojej umowie z Nexflow? Skontaktuj się z naszym koordynatorem — wyjaśnimy zapisy w Twojej umowie i podpowiemy, jak legalnie dorobić bez ryzyka sankcji.</p>
     `.trim(),
   },
+  {
+    slug: "pendler-podatki-niemcy-polska",
+    title:
+      "Grenzpendler z Polski do Niemiec — jak rozliczać podatek z pracy przy granicy?",
+    description:
+      "Pracujesz w Niemczech i wracasz każdego dnia do Polski? Dowiedz się, w którym kraju płacisz podatek, jak wygląda rozliczenie w systemie Elster i co zrobić, żeby uniknąć podwójnego opodatkowania.",
+    date: "2026-12-08",
+    lang: "pl",
+    content: `
+<p>Dla pracowników z okolic Słubic, Rzepina czy Świecka codzienne dojazdy do pracy w Niemczech to codzienność. Jeśli mieszkasz w Polsce i pracujesz po drugiej stronie granicy, masz szczególny status podatkowy — jesteś <strong>Grenzpendlerem</strong> (pracownikiem przygranicznym). To zmienia zasady rozliczeń z fiskusem.</p>
+
+<h2>W którym kraju płacisz podatek?</h2>
+<p>Odpowiedź wynika z <strong>Umowy między Polską a Niemcami o unikaniu podwójnego opodatkowania</strong> (DBA — Doppelbesteuerungsabkommen, podpisanej w 2003 r.). Ogólna zasada: dochód z pracy najemnej jest opodatkowany <strong>tam, gdzie praca jest wykonywana</strong>.</p>
+<p>Jeśli pracujesz fizycznie w Niemczech — <strong>podatek płacisz w Niemczech</strong>. Niemieccy pracodawcy (w tym agencje takie jak Nexflow) automatycznie potrącają z Twojego wynagrodzenia:</p>
+<ul>
+  <li><strong>Lohnsteuer</strong> — podatek dochodowy od wynagrodzeń</li>
+  <li><strong>Solidaritätszuschlag</strong> (Soli) — 5,5% od podatku (od 2021 r. większość pracowników go nie płaci)</li>
+  <li><strong>Kirchensteuer</strong> — podatek kościelny (jeśli jesteś zarejestrowany jako członek kościoła)</li>
+</ul>
+
+<h2>Czy muszę składać deklarację w Polsce?</h2>
+<p>Tak. W Polsce składasz <strong>PIT-36 lub PIT-ZG</strong> i wykazujesz dochód uzyskany w Niemczech. Dzięki metodzie wyłączenia z progresją (stosowanej przez Polskę zgodnie z DBA) dochód z Niemiec:</p>
+<ul>
+  <li>Jest <strong>zwolniony od podatku w Polsce</strong></li>
+  <li>Ale uwzględniany jest do ustalenia <strong>stawki procentowej</strong>, którą opodatkujesz ewentualne inne dochody polskie (np. najem, umowy zlecenia)</li>
+</ul>
+<p>Jeśli nie masz żadnych dochodów w Polsce — możesz nie mieć podatku do zapłaty w Polsce w ogóle. Mimo to PIT i tak złóż — to Twój obowiązek.</p>
+
+<h2>Jak działa Lohnsteuerjahresausgleich (rozliczenie roczne w Niemczech)?</h2>
+<p>Na koniec roku możesz złożyć <strong>Einkommensteuererklärung</strong> (zeznanie podatkowe) w Niemczech przez system <strong>Elster</strong> (elster.de). Jest to opłacalne, bo możesz odliczyć:</p>
+<ul>
+  <li><strong>Werbungskosten</strong> (koszty dojazdu) — 0,30 EUR/km × 2 × odległość dom–praca</li>
+  <li>Składki na związki zawodowe, odzież roboczą, koszty kształcenia</li>
+  <li>Wydatki na zakwaterowanie (jeśli zostajesz w Niemczech w tygodniu)</li>
+</ul>
+<p>Przeciętny zwrot nadpłaconego podatku dla pracownika tymczasowego dojeżdżającego z Polski to <strong>400–1 200 EUR rocznie</strong>.</p>
+
+<h2>Ważne: Steuerklasse na Lohnsteuerkarte</h2>
+<p>Twoja stawka podatkowa zależy od <strong>Steuerklasse</strong> (klasy podatkowej) wpisanej w Twoją Lohnsteuerkarte (elektronicznie: ELStAM):</p>
+<ul>
+  <li><strong>Klasa I</strong> — single lub żona/mąż za granicą, bez dzieci</li>
+  <li><strong>Klasa III</strong> — możliwa, jeśli małżonek pracuje w Polsce i zarabia znacznie mniej</li>
+  <li><strong>Klasa II</strong> — osoba samotnie wychowująca dzieci</li>
+</ul>
+<p>Zmiana klasy podatkowej może znacząco obniżyć miesięczne potrącenia. Złóż wniosek (<em>Antrag auf Steuerklassenwechsel</em>) w swoim Finanzamt (urząd skarbowy) w Niemczech.</p>
+
+<h2>Praktyczne kroki dla nowego Grenzpendlera</h2>
+<ol>
+  <li>Zrób <strong>Anmeldung</strong> — rejestrację adresu w Niemczech lub oświadcz pracodawcy, że jesteś polskim rezydentem (wpływa na klasę podatkową i ubezpieczenie)</li>
+  <li>Zbierz <strong>Lohnsteuerbescheinigung</strong> od pracodawcy za każdy rok (dostaniesz z Nexflow)</li>
+  <li>Złóż <strong>Einkommensteuererklärung</strong> przez Elster do 31 lipca roku następnego (lub do 28 lutego jeśli przez doradcę podatkowego)</li>
+  <li>W Polsce złóż <strong>PIT-ZG</strong> jako załącznik do PIT-36</li>
+</ol>
+
+<h2>Nexflow pomaga w formalnościach</h2>
+<p>Jako pracownik Nexflow otrzymujesz na koniec roku <strong>Lohnsteuerbescheinigung</strong> (zaświadczenie o potrąconym podatku) w formie elektronicznej i papierowej. Nasz dział kadr odpowie na pytania po polsku. W bardziej skomplikowanych sprawach (zmiana klasy, odliczenia) rekomendujemy polskiego doradcę podatkowego specjalizującego się w rozliczeniach DE-PL.</p>
+    `.trim(),
+  },
+  {
+    slug: "elterngeld-zeitarbeit-polnische-arbeitnehmer-deutschland",
+    title:
+      "Elterngeld für polnische Leiharbeitnehmer in Deutschland — Anspruch, Berechnung und Antragstellung",
+    description:
+      "Als polnischer Zeitarbeiter in Deutschland haben Sie grundsätzlich Anspruch auf Elterngeld. Wir erklären, wie der Anspruch entsteht, wie viel Sie bekommen können und wie Nexflow bei der Antragstellung helfen kann.",
+    date: "2026-12-15",
+    lang: "de",
+    content: `
+<p>Das <strong>Elterngeld</strong> ist eine der wertvollsten staatlichen Leistungen für Eltern in Deutschland — und polnische Leiharbeitnehmer, die in Deutschland sozialversichert sind, haben grundsätzlich denselben Anspruch wie deutsche Staatsangehörige. In der Praxis wissen jedoch viele Betroffene nicht, dass ihnen dieses Geld zusteht.</p>
+
+<h2>Was ist Elterngeld?</h2>
+<p>Elterngeld ist eine staatliche Einkommensersatzleistung für Eltern, die ihr Kind nach der Geburt selbst betreuen und deshalb (ganz oder teilweise) nicht arbeiten. Es ersetzt <strong>65–67 % des bisherigen Nettolohns</strong> für bis zu 14 Monate — aufgeteilt zwischen beiden Elternteilen.</p>
+<p>Es gibt drei Varianten:</p>
+<ul>
+  <li><strong>Basiselterngeld</strong> — 12 Monate (+ 2 Partnermonate), ersetzt 65–67 % des Nettoeinkommens, mindestens 300 EUR, höchstens 1.800 EUR monatlich</li>
+  <li><strong>ElterngeldPlus</strong> — doppelt so lange, halbe monatliche Summe; ideal bei Teilzeitarbeit</li>
+  <li><strong>Partnerschaftsbonus</strong> — 4 zusätzliche Monate pro Elternteil bei gleichzeitiger Teilzeit (24–32 Std./Woche)</li>
+</ul>
+
+<h2>Wer hat als polnischer Zeitarbeiter Anspruch?</h2>
+<p>Der Anspruch auf Elterngeld setzt voraus:</p>
+<ul>
+  <li>Das Kind lebt im selben Haushalt (<strong>keine Staatsangehörigkeitsvoraussetzung</strong>)</li>
+  <li>Der Antragsteller hat einen <strong>Wohnsitz oder gewöhnlichen Aufenthalt in Deutschland</strong> — <em>oder</em> ist in Deutschland sozialversicherungspflichtig beschäftigt (§ 1 Abs. 7 BEEG)</li>
+  <li>Es wird kein Vollzeiteinkommen über 300.000 EUR/Jahr erzielt (praktisch nicht relevant)</li>
+</ul>
+<p><strong>Wichtig für Grenzpendler:</strong> Wenn Sie in Polen wohnen, aber in Deutschland bei Nexflow angestellt und sozialversichert sind, <strong>gelten Sie als berechtigt nach § 1 Abs. 7 BEEG</strong>. Das hat der Europäische Gerichtshof und die deutsche Rechtsprechung mehrfach bestätigt.</p>
+
+<h2>Wie wird das Elterngeld berechnet?</h2>
+<p>Grundlage ist das <strong>durchschnittliche Nettoeinkommen der letzten 12 Monate</strong> vor dem Monat der Geburt (bei Leiharbeit: Ihres tatsächlichen Verdienstes, nicht Stundenlohnmindestlohn).</p>
+
+<table>
+  <thead><tr><th>Nettoeinkommen/Monat</th><th>Elterngeld (65 %)</th></tr></thead>
+  <tbody>
+    <tr><td>1.500 EUR</td><td>~975 EUR/Monat</td></tr>
+    <tr><td>2.000 EUR</td><td>~1.300 EUR/Monat</td></tr>
+    <tr><td>2.500 EUR</td><td>~1.625 EUR/Monat</td></tr>
+  </tbody>
+</table>
+
+<p>Bei niedrigem Einkommen steigt die Ersatzquote auf bis zu <strong>100 %</strong> (Einkommensabhängigkeit nach Tabelle).</p>
+
+<h2>Wo und wie beantragen?</h2>
+<p>Den Antrag stellen Sie bei der <strong>Elterngeldstelle</strong> des Bundeslandes, in dem Sie <em>Ihren Wohnsitz oder gewöhnlichen Aufenthalt</em> haben:</p>
+<ul>
+  <li>Grenzpendler mit Wohnsitz in Polen → zuständig ist das Bundesland, in dem Ihr Arbeitgeber (Nexflow) seinen Sitz hat, also <strong>Brandenburg</strong> (Elterngeldstelle Frankfurt/Oder oder Potsdam)</li>
+  <li>Personen mit Wohnsitz in Deutschland → Elterngeldstelle des jeweiligen Bundeslandes</li>
+</ul>
+<p>Sie benötigen:</p>
+<ul>
+  <li>Ausgefülltes Antragsformular (auf BMFSFJ-Website oder bei der Elterngeldstelle erhältlich)</li>
+  <li><strong>Lohnsteuerbescheinigungen</strong> der letzten 12 Monate (erhalten Sie von Nexflow)</li>
+  <li>Geburtsurkunde des Kindes (mit beglaubigter Übersetzung ins Deutsche, falls polnisch)</li>
+  <li>Nachweis über Beschäftigung bei Nexflow</li>
+  <li>A1-Bescheinigung (Nachweis der deutschen Sozialversicherungspflicht)</li>
+</ul>
+
+<h2>Nexflow unterstützt Sie</h2>
+<p>Unser HR-Team stellt Ihnen alle erforderlichen Arbeitgeberbescheinigungen schnell auf Polnisch und Deutsch aus: Lohnsteuerbescheinigungen, Beschäftigungsnachweis und A1-Formular. Sprechen Sie Ihren Nexflow-Betreuer an — wir begleiten Sie durch den Prozess.</p>
+    `.trim(),
+  },
+  {
+    slug: "badania-lekarskie-bhp-praca-niemcy",
+    title:
+      "Badania lekarskie przed pracą w Niemczech — G21, G25, G26 i inne skierowania, które musisz znać",
+    description:
+      "Zanim zaczniesz pracę w magazynie, chłodni lub na wózku widłowym w Niemczech, musisz przejść specjalistyczne badania lekarskie. Wyjaśniamy, czym są G21, G25 i G26, jak długo trwają i jak Nexflow pomaga je zorganizować.",
+    date: "2026-12-22",
+    lang: "pl",
+    content: `
+<p>Praca w Niemczech — szczególnie w magazynach, zakładach produkcyjnych i chłodniach — wymaga czegoś więcej niż CV i chęci do pracy. Niemieccy pracodawcy są zobowiązani przepisami BHP do wymagania od pracowników specjalistycznych badań lekarskich. Te badania noszą oznaczenia „G" (od niem. <em>Grundsatz</em> — wytyczna). Dla Polaków pracujących tymczasowo przez Nexflow poniższe informacje są kluczowe.</p>
+
+<h2>Czym są badania G i kto je przeprowadza?</h2>
+<p>Badania G to medyczne wytyczne (<em>Grundsätze für arbeitsmedizinische Vorsorge</em>) opracowane przez Komitet ds. Medycyny Pracy (ABAS) i wydawane przez lekarzy medycyny pracy (<em>Betriebsarzt</em>). Pracodawca — lub agencja pracy jak Nexflow — jest zobowiązany do pokrycia kosztów badań i ich organizacji.</p>
+<p>Badania dzielą się na:</p>
+<ul>
+  <li><strong>Pflichtvorsorge</strong> — badania obowiązkowe (pracownik musi je przejść przed podjęciem pracy)</li>
+  <li><strong>Angebotsvorsorge</strong> — badania oferowane (pracodawca musi je zaproponować, pracownik może odmówić)</li>
+  <li><strong>Wunschvorsorge</strong> — badania na życzenie pracownika</li>
+</ul>
+
+<h2>G21 — praca w środowiskach zimnych (chłodnie, mroźnie)</h2>
+<p>Jeśli aplikujesz do pracy w chłodni (poniżej 0°C) lub w strefach chłodniczych (0–5°C) — wymagane jest badanie <strong>G21</strong>.</p>
+<p><strong>Co obejmuje G21?</strong></p>
+<ul>
+  <li>Ocena układu krążenia i serca (EKG, ciśnienie)</li>
+  <li>Badanie układu oddechowego</li>
+  <li>Ocena narządu ruchu (szczególnie dłoni i stóp)</li>
+  <li>Wywiad na temat chorób skóry i układu naczyniowego</li>
+</ul>
+<p><strong>Czas oczekiwania:</strong> badanie trwa zazwyczaj 45–90 minut. Nexflow umawia terminy u lekarza medycyny pracy na terenie Niemiec — zazwyczaj w ciągu 5–7 dni od podpisania umowy.</p>
+<p><strong>Ważność:</strong> 24–36 miesięcy (w zależności od wyniku i stanowiska).</p>
+
+<h2>G25 — operatorzy wózków widłowych i maszyn</h2>
+<p>Badanie <strong>G25</strong> (Fahr-, Steuer- und Überwachungstätigkeiten) jest wymagane dla każdego, kto obsługuje wózki widłowe, suwnice, podesty ruchome lub prowadzi pojazdy służbowe.</p>
+<p><strong>Co obejmuje G25?</strong></p>
+<ul>
+  <li>Ostrość wzroku i pole widzenia (bez okularów i z korekcją)</li>
+  <li>Widzenie barw i widzenie przestrzenne</li>
+  <li>Testy reakcji i koordynacji</li>
+  <li>Badanie słuchu</li>
+  <li>Ocena neurologiczna (ewentualna EEG, jeśli są wskazania)</li>
+</ul>
+<p><strong>Czas trwania:</strong> 60–120 minut. <strong>Ważność:</strong> 12–24 miesiące (dla osób powyżej 40 lat — co rok).</p>
+<p><em>Uwaga:</em> Wynik G25 jest absolutnym warunkiem pracy na wózku widłowym w Niemczech. Brak ważnego G25 = zakaz pracy na maszynie.</p>
+
+<h2>G26 — praca w aparatach ochrony dróg oddechowych (maski)</h2>
+<p>Badanie <strong>G26</strong> wymagane jest na stanowiskach, gdzie pracownik nosi maski filtrujące lub aparaty izolujące (np. przy niebezpiecznych substancjach, spawaniu, pracy z pyłami).</p>
+<p>G26 obejmuje ocenę wydolności płuc, serca i ogólną sprawność fizyczną. Stopień G26/1, G26/2 lub G26/3 określa, jakiego rodzaju maskę możesz nosić.</p>
+
+<h2>G37 — praca przy monitorach i ekranach</h2>
+<p>Dla pracowników biurowych i operatorów systemów logistycznych (WMS, skanery) Nexflow oferuje badanie <strong>G37</strong> na życzenie — bezpłatne badanie wzroku i ocena stanowiska pracy przy ekranie.</p>
+
+<h2>Jak to wygląda w praktyce w Nexflow?</h2>
+<ol>
+  <li><strong>Podpisujesz umowę</strong> — Nexflow wystawia skierowanie na odpowiednie badanie G</li>
+  <li><strong>Nexflow umawia termin</strong> — u lekarza medycyny pracy (<em>Betriebsarzt</em>) współpracującego z agencją</li>
+  <li><strong>Idź na badanie</strong> — zaświadczenie lekarskie trafia do Nexflow elektronicznie lub pocztą</li>
+  <li><strong>Zaczynasz pracę</strong> — bez ważnego zaświadczenia pracodawca użytkownik nie może Cię dopuścić do pracy</li>
+</ol>
+<p>Koszty badań pokrywa w całości Nexflow — nie płacisz nic.</p>
+
+<h2>A co z polskimi badaniami lekarskimi?</h2>
+<p>Polskie badania medycyny pracy <strong>nie są honorowane</strong> przez niemieckich pracodawców — inny zakres, inne normy. Nawet jeśli masz aktualną kartę badań od polskiego lekarza medycyny pracy, w Niemczech i tak będziesz musiał przejść badanie G. To jednorazowy koszt czasu, który szybko się zwraca — szczególnie że Nexflow organizuje wszystko za Ciebie.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
