@@ -104,7 +104,7 @@ async def test_missing_required_fields() -> None:
 
 @pytest.mark.asyncio
 async def test_invalid_phone_format() -> None:
-    """Phone not in E.164 PL/DE format must be rejected."""
+    """Phone not in E.164 format must be rejected (missing '+' or wrong length)."""
     payload = {**VALID_PAYLOAD, "phone": "123456789"}  # missing + prefix
     async with AsyncClient(
         transport=ASGITransport(app=app), base_url="http://test"
@@ -112,11 +112,11 @@ async def test_invalid_phone_format() -> None:
         response = await client.post("/api/v1/candidates", json=payload)
     assert response.status_code == 422
 
-    payload_uk = {**VALID_PAYLOAD, "phone": "+44123456789"}  # UK number — not allowed
+    payload_short = {**VALID_PAYLOAD, "phone": "+1234567"}  # only 7 digits — too short
     async with AsyncClient(
         transport=ASGITransport(app=app), base_url="http://test"
     ) as client:
-        response = await client.post("/api/v1/candidates", json=payload_uk)
+        response = await client.post("/api/v1/candidates", json=payload_short)
     assert response.status_code == 422
 
 
@@ -141,6 +141,18 @@ async def test_german_phone_accepted(override_db: AsyncMock) -> None:
         response = await client.post("/api/v1/candidates", json=payload)
     assert response.status_code == 201
     assert response.json()["phone"] == "+491701234567"
+
+
+@pytest.mark.asyncio
+async def test_international_phone_accepted(override_db: AsyncMock) -> None:
+    """Non-EU E.164 numbers (e.g. +254 Kenya) must be accepted — EUR-2687."""
+    payload = {**VALID_PAYLOAD, "phone": "+254707676521", "nationality": "KE"}
+    async with AsyncClient(
+        transport=ASGITransport(app=app), base_url="http://test"
+    ) as client:
+        response = await client.post("/api/v1/candidates", json=payload)
+    assert response.status_code == 201
+    assert response.json()["phone"] == "+254707676521"
 
 
 # ---------------------------------------------------------------------------

@@ -6,14 +6,14 @@ from pydantic import BaseModel, EmailStr, field_validator
 
 from app.models.enums import LanguageCode, PreferredPosition, ScreeningStatus
 
-# E.164 for Polish (+48, exactly 9 digits) or German (+49, 9–12 digits)
-_E164_PL_DE = re.compile(r"^\+(48\d{9}|49\d{9,12})$")
+# Any valid E.164 number: '+' followed by 8–15 digits
+_E164 = re.compile(r"^\+\d{8,15}$")
 
 
 class CandidateCreate(BaseModel):
     first_name: str
     last_name: str
-    phone: str  # E.164, PL (+48) or DE (+49)
+    phone: str  # E.164, any country
     email: EmailStr | None = None
     nationality: str  # ISO 3166-1 alpha-2
     availability_from: date
@@ -27,9 +27,9 @@ class CandidateCreate(BaseModel):
     @field_validator("phone")
     @classmethod
     def validate_phone(cls, v: str) -> str:
-        if not _E164_PL_DE.match(v):
+        if not _E164.match(v):
             raise ValueError(
-                "Phone must be E.164 format for Polish (+48) or German (+49) numbers"
+                "Phone must be E.164 format: '+' followed by 8–15 digits"
             )
         return v
 
@@ -72,9 +72,9 @@ class CandidateUpdate(BaseModel):
     @field_validator("phone")
     @classmethod
     def validate_phone(cls, v: str | None) -> str | None:
-        if v is not None and not _E164_PL_DE.match(v):
+        if v is not None and not _E164.match(v):
             raise ValueError(
-                "Phone must be E.164 format for Polish (+48) or German (+49) numbers"
+                "Phone must be E.164 format: '+' followed by 8–15 digits"
             )
         return v
 
