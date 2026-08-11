@@ -2740,6 +2740,217 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>Polskie badania medycyny pracy <strong>nie są honorowane</strong> przez niemieckich pracodawców — inny zakres, inne normy. Nawet jeśli masz aktualną kartę badań od polskiego lekarza medycyny pracy, w Niemczech i tak będziesz musiał przejść badanie G. To jednorazowy koszt czasu, który szybko się zwraca — szczególnie że Nexflow organizuje wszystko za Ciebie.</p>
     `.trim(),
   },
+  {
+    slug: "rentenversicherung-niemcy-emerytura-polak",
+    title: "Rentenversicherung w Niemczech — emerytura polskiego pracownika tymczasowego",
+    description: "Czy Polak pracujący tymczasowo w Niemczech nabywa prawa emerytalne? Tłumaczymy, jak działają składki na Rentenversicherung, kiedy można je odzyskać i co grozi, gdy ich nie odprowadzisz.",
+    date: "2026-11-17",
+    lang: "pl",
+    content: `
+<p>Każdy, kto pracuje w Niemczech legalnie, płaci składki na <strong>Rentenversicherung</strong> — obowiązkowe ubezpieczenie emerytalne. Dla polskich pracowników tymczasowych rodzi to ważne pytania: czy zbuduję prawo do niemieckiej emerytury? Czy mogę odzyskać składki po powrocie do Polski? I ile właściwie płacę każdego miesiąca?</p>
+
+<h2>Ile wynosi składka na Rentenversicherung?</h2>
+<p>W 2026 r. składka na Rentenversicherung wynosi <strong>18,6% wynagrodzenia brutto</strong> — podzielone po równo między pracownika (9,3%) i pracodawcę (9,3%). Przy zarobku 2 500 EUR brutto miesięcznie pracownik wpłaca ok. <strong>232,50 EUR</strong>, a pracodawca drugie tyle.</p>
+<p>Dotyczy to wyłącznie pracowników zatrudnionych bezpośrednio w Niemczech lub w modelu AÜG bez zaświadczenia A1. <strong>Pracownicy delegowani z Polski z ważnym A1</strong> płacą składki do <em>polskiego ZUS</em> — nie do Deutsche Rentenversicherung.</p>
+
+<h2>Jak działa A1 w kontekście emerytur?</h2>
+<p>Zaświadczenie A1 oznacza, że Twoja emerytura rośnie w Polsce, nie w Niemczech. Twoje składki trafiają do ZUS — i to ZUS będzie Ci kiedyś wypłacał emeryturę. Jedynym wyjątkiem jest sytuacja, gdy:</p>
+<ul>
+  <li>pracujesz w Niemczech bezpośrednio u niemieckiego pracodawcy (np. jako Leiharbeiter z umową z DE), lub</li>
+  <li>Twoja delegacja trwa dłużej niż 24 miesiące i A1 nie jest odnawiane.</li>
+</ul>
+<p>W takim przypadku zaczynasz płacić do Deutsche Rentenversicherung (DRV).</p>
+
+<h2>Czy można odzyskać składki z DRV?</h2>
+<p>Tak — ale tylko pod ścisłymi warunkami:</p>
+<ul>
+  <li>Musisz mieć mniej niż <strong>60 miesięcy</strong> składek w DRV (poniżej minimum niezbędnego do emerytury) — w praktyce dotyczy to większości Polaków pracujących krótkoterminowo.</li>
+  <li>Musisz przestać podlegać obowiązkowemu ubezpieczeniu w Niemczech (np. wrócić do Polski i nie pracować w DE).</li>
+  <li>Musisz odczekać <strong>24 miesiące</strong> od ostatniego miesiąca ubezpieczenia.</li>
+</ul>
+<p>Wniosek (formularz <em>V900</em>) składasz do: <strong>Deutsche Rentenversicherung Bund</strong>, 10704 Berlin. Zwrot obejmuje wyłącznie część pracownika (9,3%) — część pracodawcy przepada.</p>
+<blockquote><p><strong>Przykład:</strong> 12 miesięcy pracy w Niemczech × 232,50 EUR = <strong>2 790 EUR</strong> do odzyskania po 2 latach od zakończenia ubezpieczenia.</p></blockquote>
+
+<h2>Zasada koordynacji systemów emerytalnych UE</h2>
+<p>Jeśli pracowałeś zarówno w Polsce (ZUS), jak i w Niemczech (DRV), oba systemy zsumują Twój staż ubezpieczeniowy przy ustalaniu prawa do emerytury. Oznacza to:</p>
+<ul>
+  <li>Polska zsumuje Twoje lata polskie + lata z UE przy sprawdzaniu, czy masz 25 lat stażu wymaganego dla kobiet (20 lat dla mężczyzn).</li>
+  <li>Każdy system wypłaci emeryturę proporcjonalnie do zgromadzonych w nim składek.</li>
+</ul>
+<p>Aby skorzystać z koordynacji, musisz mieć w każdym systemie <strong>co najmniej 1 rok składkowy</strong>.</p>
+
+<h2>Co zrobić, gdy za dużo potrącono?</h2>
+<p>Jeśli zauważysz, że masz zarówno polskie ZUS, jak i DRV za ten sam okres (co zdarza się przy błędach w obsłudze A1), złóż reklamację do Nexflow. Takie przypadki rozwiązywane są przez obustronną weryfikację ZUS–DRV — Nexflow ma procedurę na takie sytuacje.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Czy jeśli mam A1, moje składki emerytalne idą do Polski?</strong><br/>Tak — ZUS jest jedynym ubezpieczycielem emerytalnym przez cały okres delegowania.</p>
+<p><strong>Czy warto pracować w Niemczech, żeby zbudować prawo do emerytury z DRV?</strong><br/>Tylko przy długim zatrudnieniu (powyżej 5 lat) lub jeśli planujesz zostać na stałe. Przy krótkich kontraktach z A1 — całość i tak idzie do ZUS.</p>
+<p><strong>Kiedy mogę złożyć wniosek o zwrot składek DRV?</strong><br/>Najwcześniej po 24 miesiącach od ostatniego miesiąca ubezpieczenia w Niemczech i po zakończeniu aktywnego ubezpieczenia w DE.</p>
+
+<p>Masz pytania o swoje składki lub chcesz sprawdzić, czy masz A1? Napisz do koordynatora Nexflow.</p>
+<hr/>
+<p><strong>Nexflow — transparentna obsługa pracowników delegowanych.</strong> Od dokumentów A1 po wyjaśnianie odcinków płacowych — jesteśmy z Tobą na każdym etapie.</p>
+<p><strong><a href="/praca">nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł: sierpień 2026. Stawki i zasady wg stanu prawnego 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "weihnachtsgeld-zeitarbeit-leiharbeiter-anspruch",
+    title: "Weihnachtsgeld bei Zeitarbeit — Anspruch, Berechnung und was Leiharbeiter wissen müssen (2026)",
+    description: "Haben Leiharbeiter Anspruch auf Weihnachtsgeld? Wir erklären, wann und wie viel, welche Tarifverträge gelten, und was polnische Zeitarbeitnehmer in Deutschland beachten müssen.",
+    date: "2026-11-24",
+    lang: "de",
+    content: `
+<p>Kurz vor den Feiertagen stellt sich viele Arbeitnehmer die gleiche Frage: <strong>Habe ich Anspruch auf Weihnachtsgeld?</strong> Für Leiharbeiter ist die Antwort nicht pauschal — sie hängt vom anwendbaren Tarifvertrag, der Beschäftigungsdauer und dem Entleihbetrieb ab. Dieser Artikel erklärt, was polnische Zeitarbeitnehmer in Deutschland wissen müssen.</p>
+
+<h2>Gibt es ein gesetzliches Recht auf Weihnachtsgeld?</h2>
+<p>Nein — ein gesetzlicher Anspruch auf Weihnachtsgeld existiert in Deutschland <strong>nicht</strong>. Der Anspruch kann sich ergeben aus:</p>
+<ul>
+  <li>einem Tarifvertrag (TV),</li>
+  <li>dem individuellen Arbeitsvertrag,</li>
+  <li>einer Betriebsvereinbarung (gilt nur für Stammbelegschaft des Entleihbetriebs), oder</li>
+  <li>betrieblicher Übung (drei Jahre hintereinander vorbehaltlos gewährt).</li>
+</ul>
+<p>Für Leiharbeiter ist der <strong>Tarifvertrag der Zeitarbeitsbranche</strong> entscheidend.</p>
+
+<h2>Tarifvertrag Zeitarbeit: Was gilt?</h2>
+<p>Die meisten deutschen Zeitarbeitsfirmen sind über die Mitgliedsverbände iGZ (Interessenverband Deutscher Zeitarbeitsunternehmen) oder BAP (Bundesarbeitgeberverband der Personaldienstleister) an Branchentarifverträge gebunden. Diese sehen:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Beschäftigungsdauer</th>
+      <th>Weihnachtsgeld (ca.)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ab 3 Monaten</td>
+      <td>37,5 % eines Monatslohns (iGZ-TV West)</td>
+    </tr>
+    <tr>
+      <td>Ab 6 Monaten</td>
+      <td>62,5 % eines Monatslohns</td>
+    </tr>
+    <tr>
+      <td>Ab 12 Monaten</td>
+      <td>75 % eines Monatslohns</td>
+    </tr>
+  </tbody>
+</table>
+<p><em>Hinweis: Genaue Sätze variieren nach Tarifgebiet (West/Ost) und Vertragsstand. Die aktuell gültigen Sätze entnehmen Sie Ihrem Arbeitsvertrag oder fragen Sie Ihren Nexflow-Ansprechpartner.</em></p>
+
+<h2>Equal Pay — gilt Weihnachtsgeld des Entleihbetriebs auch für Leiharbeiter?</h2>
+<p>Das <strong>AÜG § 8 (Equal Pay)</strong> tritt nach 15 Monaten ununterbrochener Überlassung an denselben Entleiher in Kraft. Ab diesem Zeitpunkt müssen Leiharbeiter die gleichen <em>wesentlichen Arbeitsbedingungen</em> erhalten wie vergleichbare Stammmitarbeiter — dazu kann auch ein Weihnachtsgeld des Entleihbetriebs zählen, sofern es zum Grundentgelt gerechnet wird.</p>
+<blockquote><p><strong>Wichtig:</strong> Equal Pay gilt für den 15. Monat der <em>ununterbrochenen</em> Überlassung an denselben Betrieb — nicht der Gesamtbeschäftigung bei Nexflow. Eine Unterbrechung (auch kurze) setzt den Zähler zurück.</p></blockquote>
+
+<h2>Wann wird Weihnachtsgeld ausgezahlt?</h2>
+<p>Üblicherweise mit dem Novembergehalt (Fälligkeit: Ende November oder Anfang Dezember). Ihr Nexflow-Arbeitsvertrag nennt den genauen Termin. Wenn Sie unsicher sind, fragen Sie Ihren Koordinator — spätestens im Oktober, damit eventuelle Unklarheiten rechtzeitig geklärt werden können.</p>
+
+<h2>Muss Weihnachtsgeld versteuert werden?</h2>
+<p>Ja — Weihnachtsgeld ist <strong>reguläres Arbeitseinkommen</strong> und wird mit Lohn- und Sozialversicherungsbeiträgen belastet. Es gibt keine Steuerfreiheit für Weihnachtsgeld (anders als z. B. Nacht- oder Feiertagszuschläge).</p>
+<p>Bei A1-Entsendung (polnische Sozialversicherung) bleibt die Beitragsstruktur wie beim regulären Lohn — ZUS statt DRV/GKV.</p>
+
+<h2>Was tun, wenn kein Weihnachtsgeld gezahlt wurde?</h2>
+<ol>
+  <li>Prüfen Sie Ihren Arbeitsvertrag auf die entsprechende Klausel.</li>
+  <li>Wenden Sie sich an Ihren Nexflow-Koordinator — wir prüfen, ob ein Anspruch besteht.</li>
+  <li>Ansprüche verjähren nach 3 Monaten nach Fälligkeit (sofern im TV keine andere Ausschlussfristen stehen) — handeln Sie schnell.</li>
+</ol>
+
+<h2>Häufige Fragen</h2>
+<p><strong>Ich war erst seit 2 Monaten bei Nexflow — habe ich Anspruch?</strong><br/>Nein — die meisten Tarifverträge sehen eine Mindestbeschäftigungsdauer von 3 Monaten vor (Stichtag üblicherweise 1. Dezember).</p>
+<p><strong>Was gilt für polnische Leiharbeiter mit A1?</strong><br/>Gleich wie für alle anderen Leiharbeiter — der Anspruch richtet sich nach Tarifvertrag und Vertragsdauer. Die Art der Sozialversicherung (ZUS vs. DRV) spielt keine Rolle für den Weihnachtsgeldanspruch.</p>
+<p><strong>Kann mir Weihnachtsgeld verweigert werden, wenn ich kündige?</strong><br/>Ja — bei Eigenkündigung bis zum 31. März des Folgejahres sehen manche TV eine Rückzahlungsklausel vor. Lesen Sie Ihren Vertrag oder fragen Sie Ihren Koordinator, bevor Sie kündigen.</p>
+
+<p>Mehr zur Lohnabrechnung: <a href="/blog/jak-czytac-lohnabrechnung-niemcy">Lohnabrechnung richtig lesen</a>.</p>
+<hr/>
+<p><strong>Nexflow — Ihr Zeitarbeitspartner im DE-PL-Korridor.</strong> Transparente Verträge, pünktliche Zahlung, persönliche Beratung auf Polnisch und Deutsch.</p>
+<p><strong><a href="/praca">nexflow.work →</a></strong></p>
+<p><em>Artikel: August 2026. Tarifrecht und Abgaben gemäß Stand 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "po-18-miesiacach-praca-tymczasowa-niemcy-equal-pay",
+    title: "Po 18 miesiącach pracy tymczasowej w Niemczech — co mówi AÜG i czym jest Equal Pay?",
+    description: "Pracujesz tymczasowo w Niemczech przez agencję? Wyjaśniamy limit 18 miesięcy z AÜG, zasadę Equal Pay po 15 miesiącach i opcje, gdy limit dobiega końca.",
+    date: "2026-12-01",
+    lang: "pl",
+    content: `
+<p>Niemcy mają jeden z najbardziej uregulowanych systemów pracy tymczasowej w Europie. Kluczową ustawą jest <strong>Arbeitnehmerüberlassungsgesetz (AÜG)</strong> — ustawa o pracy tymczasowej, która nakłada twarde limity dotyczące czasu oddelegowania. Jeśli pracujesz przez agencję (np. Nexflow) u tego samego pracodawcy użytkownika, musisz znać te zasady.</p>
+
+<h2>Limit 18 miesięcy — co to oznacza?</h2>
+<p>Zgodnie z AÜG §1 ust. 1b, pracownik tymczasowy może być oddelegowany do <strong>tego samego pracodawcy użytkownika</strong> (<em>Entleiher</em>) przez maksymalnie <strong>18 miesięcy</strong>. Po tym czasie agencja i pracodawca użytkownik muszą zakończyć oddelegowanie lub zmienić formę zatrudnienia.</p>
+<p>Limit liczony jest:</p>
+<ul>
+  <li><strong>Per pracownik per pracodawca użytkownik</strong> — nie per agencja. Jeśli w tym samym zakładzie pracowałeś przez inną agencję, ten czas wlicza się do limitu.</li>
+  <li>Okresy przerwy krótsze niż <strong>3 miesiące</strong> nie zerują licznika.</li>
+  <li>Limit dotyczy faktycznego miejsca pracy (<em>Einsatzort/Betrieb</em>), nie całej firmy klienta.</li>
+</ul>
+<blockquote><p><strong>Przykład:</strong> Pracujesz w magazynie firmy XYZ przez agencję A przez 10 miesięcy, potem przez agencję B przez 9 miesięcy — łącznie 19 miesięcy. Przekroczono limit 18 miesięcy. Agencja B może mieć problem z AÜG, a Twoje oddelegowanie jest niezgodne z prawem — ryzyko sankcji po stronie pracodawcy użytkownika.</p></blockquote>
+
+<h2>Czy limit 18 miesięcy można przedłużyć?</h2>
+<p>Tak — ale tylko w drodze <strong>porozumienia zbiorowego (Tarifvertrag)</strong> pomiędzy pracodawcą użytkownikiem a reprezentatywnym związkiem zawodowym. W praktyce dotyczy to dużych firm z układem zbiorowym. Mały lub średni zakład logistyczny zazwyczaj nie może przedłużyć limitu.</p>
+
+<h2>Equal Pay po 15 miesiącach — co to jest?</h2>
+<p>Jeszcze przed upływem limitu 18 miesięcy wchodzi zasada <strong>Equal Pay</strong> — równego wynagrodzenia. Na mocy AÜG §8, po <strong>15 miesiącach ununterbrochenen Überlassung</strong> (nieprzerwanego oddelegowania do tego samego pracodawcy użytkownika), pracownik tymczasowy ma prawo do takich samych <em>wesentlichen Arbeitsbedingungen</em> (istotnych warunków pracy) jak porównywalny pracownik stały w zakładzie użytkownika. Dotyczy to:</p>
+<ul>
+  <li>wynagrodzenia zasadniczego,</li>
+  <li>nadgodzin i premii,</li>
+  <li>urlopu wypoczynkowego,</li>
+  <li>czasu pracy,</li>
+  <li>BHP i warunków pracy.</li>
+</ul>
+<p>Oznacza to, że jeśli stały pracownik zarabia 18 EUR/h, po 15 miesiącach Ty też powinieneś zarabiać 18 EUR/h — nawet jeśli Twój taryfowy stawka agencyjna była niższa.</p>
+
+<h2>Co się dzieje, gdy limit 18 miesięcy dobiega końca?</h2>
+<p>Masz kilka opcji:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Opcja</th>
+      <th>Kto decyduje</th>
+      <th>Konsekwencje</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zatrudnienie bezpośrednie przez pracodawcę użytkownika</td>
+      <td>Pracodawca użytkownik + Ty</td>
+      <td>Stajesz się pracownikiem firmy XYZ — umowa o pracę z nowym pracodawcą</td>
+    </tr>
+    <tr>
+      <td>Zmiana miejsca pracy (inny <em>Einsatzort</em>)</td>
+      <td>Nexflow + Ty</td>
+      <td>Limit zerowany, nowe oddelegowanie w innym zakładzie / u innego klienta</td>
+    </tr>
+    <tr>
+      <td>Przerwa >3 miesiące</td>
+      <td>Nexflow + Ty</td>
+      <td>Po 3-miesięcznej przerwie limit może być teoretycznie odnowiony (zależy od interpretacji)</td>
+    </tr>
+    <tr>
+      <td>Zakończenie oddelegowania bez nowej umowy</td>
+      <td>—</td>
+      <td>Szukasz nowego miejsca przez Nexflow lub na własną rękę</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Jaką rolę pełni Nexflow przy limitach AÜG?</h2>
+<p>Nexflow monitoruje okresy oddelegowania każdego pracownika i informuje o zbliżaniu się limitów — zarówno pracownika, jak i pracodawcę użytkownika — z wyprzedzeniem co najmniej 4–6 tygodni. Jeśli pracujesz dla klienta Nexflow i zbliżasz się do 15 lub 18 miesięcy, Twój koordynator skontaktuje się z Tobą w sprawie dostępnych opcji.</p>
+
+<h2>Najczęstsze pytania</h2>
+<p><strong>Pracuję przez Nexflow i zmieniam klientów co kilka miesięcy. Czy limit 18 miesięcy mnie dotyczy?</strong><br/>Limit liczony jest per pracodawca użytkownik — jeśli zmieniasz zakłady, każdy nowy klient to nowy licznik od zera.</p>
+<p><strong>Co jeśli mój pracodawca użytkownik chce mnie zatrudnić na stałe po 18 miesiącach?</strong><br/>To bardzo dobra opcja — i Nexflow jej nie blokuje. W takiej sytuacji rozwiązujemy umowę agencyjną i przechodzisz bezpośrednio do pracodawcy użytkownika. Nie pobieramy żadnych opłat od pracownika za takie przejście.</p>
+<p><strong>Czy Equal Pay obowiązuje mnie z A1?</strong><br/>Tak — Equal Pay to prawo pracy, niezależne od modelu ubezpieczenia społecznego. A1 dotyczy wyłącznie ubezpieczeń, nie wynagrodzenia.</p>
+
+<p>Chcesz sprawdzić, ile miesięcy minęło w Twoim oddelegowaniu lub co Ci przysługuje? Napisz do koordynatora Nexflow.</p>
+<hr/>
+<p><strong>Nexflow — znamy AÜG na wylot.</strong> Pilnujemy Twoich terminów, wynagrodzenia i praw — abyś mógł skupić się na pracy.</p>
+<p><strong><a href="/praca">nexflow.work/praca →</a></strong></p>
+<p><em>Artykuł: sierpień 2026. Prawo wg stanu na 2026 r.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
