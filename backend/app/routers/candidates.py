@@ -295,6 +295,22 @@ async def update_candidate(
     return CandidateRead.model_validate(candidate)
 
 
+@router.delete("/{candidate_id}", status_code=204)
+async def delete_candidate(
+    candidate_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> None:
+    """Hard-delete a candidate record. Child rows (reminders, chatbot sessions, job orders)
+    are removed via CASCADE; whatsapp_inbox rows have candidate_id SET NULL."""
+    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
+    candidate = result.scalar_one_or_none()
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+    await db.delete(candidate)
+    await db.commit()
+
+
 # ---------------------------------------------------------------------------
 # Reminder routes
 # ---------------------------------------------------------------------------

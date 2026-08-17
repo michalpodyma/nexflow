@@ -1,87 +1,121 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
-import { posts, getPostBySlug } from "@/data/posts";
-import type { BlogPost } from "@/data/posts";
-
-const SUPPORTED_LOCALES = ["uk", "ru", "en"] as const;
-type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
+import { posts, getPostsByLang } from "@/data/posts";
+import { routing } from "@/i18n/routing";
 
 type Props = { params: Promise<{ locale: string; slug: string }> };
 
-export function generateStaticParams() {
-  const params: { locale: string; slug: string }[] = [];
-  for (const locale of SUPPORTED_LOCALES) {
-    for (const post of posts.filter((p) => p.lang === locale)) {
+const LOCALE_LANG_MAP: Record<string, "uk" | "ru" | "en"> = {
+  uk: "uk",
+  ru: "ru",
+  en: "en",
+};
+
+const HREFLANG: Record<string, string> = {
+  uk: "uk-UA",
+  ru: "ru-RU",
+  en: "en-US",
+};
+
+const LANG_LABEL: Record<string, string> = {
+  uk: "Українська",
+  ru: "Русский",
+  en: "English",
+};
+
+const BACK_LABEL: Record<string, string> = {
+  uk: "Всі статті",
+  ru: "Все статьи",
+  en: "All articles",
+};
+
+const CTA_HEADING: Record<string, string> = {
+  uk: "Шукаєте роботу за кордоном?",
+  ru: "Ищете работу за рубежом?",
+  en: "Looking for work abroad?",
+};
+
+const CTA_BODY: Record<string, string> = {
+  uk: "Nexflow повністю супроводжує відряджених працівників — від документів до виплати зарплати.",
+  ru: "Nexflow полностью сопровождает командированных сотрудников — от документов до выплаты зарплаты.",
+  en: "Nexflow handles everything for temporary workers — from documents to payroll.",
+};
+
+const CTA_BTN: Record<string, string> = {
+  uk: "Зв'яжіться з нами →",
+  ru: "Свяжитесь с нами →",
+  en: "Contact us →",
+};
+
+export async function generateStaticParams() {
+  const locales = Object.keys(LOCALE_LANG_MAP) as Array<keyof typeof LOCALE_LANG_MAP>;
+  const params: Array<{ locale: string; slug: string }> = [];
+  for (const locale of locales) {
+    const lang = LOCALE_LANG_MAP[locale];
+    const localePosts = getPostsByLang(lang);
+    for (const post of localePosts) {
       params.push({ locale, slug: post.slug });
     }
   }
   return params;
 }
 
-const LANG_LABEL: Record<string, string> = {
-  en: "English",
-  uk: "Українська",
-  ru: "Русский",
-};
-
-const LANG_TO_HREFLANG: Record<string, string> = {
-  en: "en",
-  uk: "uk",
-  ru: "ru",
-};
-
-const BASE_URL = "https://nexflow.work";
-
-function formatDate(iso: string, locale: string): string {
-  const localeCode = locale === "uk" ? "uk-UA" : locale === "ru" ? "ru-RU" : "en-US";
-  return new Date(iso).toLocaleDateString(localeCode, {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
-  if (!SUPPORTED_LOCALES.includes(locale as SupportedLocale)) return {};
+  const lang = LOCALE_LANG_MAP[locale];
+  if (!lang) return {};
 
-  const post = getPostBySlug(slug);
-  if (!post || post.lang !== locale) return {};
+  const post = posts.find((p) => p.slug === slug && p.lang === lang);
+  if (!post) return {};
 
-  const hreflang = LANG_TO_HREFLANG[locale] ?? locale;
-  const canonical = `${BASE_URL}/${locale}/blog/${slug}`;
+  const hreflang = HREFLANG[locale] ?? locale;
+  const canonicalUrl = `https://nexflow.work/${locale}/blog/${post.slug}`;
 
   return {
     title: `${post.title} | Nexflow`,
     description: post.description,
     alternates: {
-      canonical,
+      canonical: canonicalUrl,
       languages: {
-        [hreflang]: canonical,
-        "x-default": `${BASE_URL}/blog`,
+        [hreflang]: canonicalUrl,
       },
     },
     openGraph: {
       title: post.title,
       description: post.description,
-      url: canonical,
+      url: canonicalUrl,
       type: "article",
       publishedTime: post.date,
     },
   };
 }
 
+function formatDate(iso: string, locale: string): string {
+  const intlLocale = locale === "uk" ? "uk-UA" : locale === "ru" ? "ru-RU" : "en-US";
+  return new Date(iso).toLocaleDateString(intlLocale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
 export default async function LocaleBlogPostPage({ params }: Props) {
   const { locale, slug } = await params;
 
-  if (!SUPPORTED_LOCALES.includes(locale as SupportedLocale)) notFound();
+  if (!routing.locales.includes(locale as (typeof routing.locales)[number])) {
+    notFound();
+  }
 
-  const post = getPostBySlug(slug);
-  if (!post || post.lang !== locale) notFound();
+  const lang = LOCALE_LANG_MAP[locale];
+  if (!lang) notFound();
+
+  const post = posts.find((p) => p.slug === slug && p.lang === lang);
+  if (!post) notFound();
 
   return (
     <main className="min-h-screen bg-[hsl(var(--cloud-white))]">
+      {/* Hero */}
       <section className="bg-primary text-primary-foreground pb-12 pt-10">
         <div className="max-w-3xl mx-auto px-4">
           <Link
@@ -101,7 +135,7 @@ export default async function LocaleBlogPostPage({ params }: Props) {
                 d="M15 19l-7-7 7-7"
               />
             </svg>
-            {locale === "uk" ? "Усі статті" : locale === "ru" ? "Все статьи" : "All articles"}
+            {BACK_LABEL[locale] ?? "Blog"}
           </Link>
 
           <div className="flex items-center gap-3 mb-4">
@@ -125,6 +159,7 @@ export default async function LocaleBlogPostPage({ params }: Props) {
         </div>
       </section>
 
+      {/* Article body */}
       <div className="max-w-3xl mx-auto px-4 py-10">
         <article className="bg-white rounded-xl border border-border shadow-sm p-8">
           <div
@@ -139,30 +174,17 @@ export default async function LocaleBlogPostPage({ params }: Props) {
           />
         </article>
 
+        {/* Footer CTA */}
         <section className="mt-6 bg-primary text-primary-foreground rounded-2xl p-8 text-center">
-          <h2 className="text-xl font-bold mb-2">
-            {locale === "uk"
-              ? "Шукаєте роботу за кордоном?"
-              : locale === "ru"
-              ? "Ищете работу за рубежом?"
-              : "Looking for work abroad?"}
-          </h2>
+          <h2 className="text-xl font-bold mb-2">{CTA_HEADING[locale] ?? "Looking for work?"}</h2>
           <p className="text-primary-foreground/75 text-sm mb-6">
-            {locale === "uk"
-              ? "Nexflow надає повний супровід делегованих працівників — від документів до зарплати."
-              : locale === "ru"
-              ? "Nexflow обеспечивает полное сопровождение командированных работников — от документов до зарплаты."
-              : "Nexflow provides full support for delegated workers — from documents to payroll."}
+            {CTA_BODY[locale] ?? "Nexflow handles everything for temporary workers — from documents to payroll."}
           </p>
           <Link
-            href="/kontakt"
+            href={`/${locale}/kontakt`}
             className="inline-block bg-accent hover:bg-accent/90 text-accent-foreground font-bold text-base px-8 py-3 rounded-lg transition-colors"
           >
-            {locale === "uk"
-              ? "Зв'яжіться з нами →"
-              : locale === "ru"
-              ? "Свяжитесь с нами →"
-              : "Contact us →"}
+            {CTA_BTN[locale] ?? "Contact us →"}
           </Link>
         </section>
       </div>

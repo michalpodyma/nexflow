@@ -6,7 +6,9 @@ import { posts, getPostBySlug } from "@/data/posts";
 type Props = { params: Promise<{ slug: string }> };
 
 export function generateStaticParams() {
-  return posts.map((post) => ({ slug: post.slug }));
+  return posts
+    .filter((post) => post.lang === "pl" || post.lang === "de")
+    .map((post) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -14,10 +16,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPostBySlug(slug);
   if (!post) return {};
 
-  const LANG_TO_HREFLANG: Record<string, string> = {
-    pl: "pl-PL", de: "de-DE", en: "en", uk: "uk", ru: "ru",
-  };
-  const hreflangLocale = LANG_TO_HREFLANG[post.lang] ?? post.lang;
+  const HREFLANG: Record<string, string> = { pl: "pl-PL", de: "de-DE", uk: "uk-UA", ru: "ru-RU", en: "en-US" };
+  const hreflangLocale = HREFLANG[post.lang] ?? post.lang;
 
   return {
     title: `${post.title} | Nexflow`,
@@ -41,9 +41,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 const LANG_LABEL: Record<string, string> = {
   pl: "Polski",
   de: "Deutsch",
-  en: "English",
   uk: "Українська",
   ru: "Русский",
+  en: "English",
 };
 
 function formatDate(iso: string): string {
