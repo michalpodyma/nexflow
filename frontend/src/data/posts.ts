@@ -4190,6 +4190,872 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>Nexflow helps temporary workers navigate the paperwork in Poland. If you have questions about PESEL, ZUS, or other documents — message us on WhatsApp or contact our office. We're here to help.</p>
     `.trim(),
   },
+  {
+    slug: "zus-rejestracja-pracownik-tymczasowy-cudzoziemiec",
+    title: "ZUS — rejestracja jako pracownik tymczasowy cudzoziemiec w Polsce",
+    description:
+      "Kto zgłasza Cię do ZUS jako pracownika tymczasowego, jakie składki są potrącane i co z tego wynika? Praktyczny przewodnik dla cudzoziemców pracujących przez agencję.",
+    date: "2026-08-13",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce przez agencję pracy tymczasowej? Jako cudzoziemiec (m.in. obywatel Ukrainy, Białorusi, Mołdawii) masz prawo i obowiązek podlegania ubezpieczeniu społecznemu w ZUS. W tym artykule tłumaczymy, kto zgłasza Cię do ZUS, jakie składki są odprowadzane i co z tego wynika dla Ciebie.</p>
+
+<h2>Czym jest ZUS?</h2>
+
+<p>ZUS (Zakład Ubezpieczeń Społecznych) to polska instytucja ubezpieczeń społecznych. Odpowiada za:</p>
+
+<ul>
+  <li>ubezpieczenie emerytalne i rentowe (na wypadek niezdolności do pracy)</li>
+  <li>ubezpieczenie chorobowe (wypłata zasiłku chorobowego — L4)</li>
+  <li>ubezpieczenie wypadkowe (odszkodowanie za wypadek przy pracy)</li>
+  <li>ubezpieczenie zdrowotne (NFZ — dostęp do publicznej służby zdrowia)</li>
+</ul>
+
+<h2>Kto zgłasza Cię do ZUS?</h2>
+
+<p>Jako pracownik tymczasowy zatrudniony przez agencję (np. Nexflow) to <strong>agencja pracy tymczasowej</strong> jest Twoim pracodawcą i to <strong>ona</strong> ma obowiązek zgłosić Cię do ZUS. Pracownik nie robi tego samodzielnie.</p>
+
+<p>Agencja musi:</p>
+
+<ol>
+  <li>Zgłosić Cię jako ubezpieczonego w ciągu <strong>7 dni</strong> od pierwszego dnia pracy (formularz ZUS ZUA).</li>
+  <li>Co miesiąc odprowadzać składki od Twojego wynagrodzenia.</li>
+  <li>Po zakończeniu umowy wyrejestrować Cię (formularz ZUS ZWUA).</li>
+</ol>
+
+<h2>Jakie składki są potrącane z Twojego wynagrodzenia?</h2>
+
+<table>
+<thead>
+<tr><th>Składka</th><th>Finansuje pracownik</th><th>Finansuje pracodawca</th></tr>
+</thead>
+<tbody>
+<tr><td>Emerytalna</td><td>9,76%</td><td>9,76%</td></tr>
+<tr><td>Rentowa</td><td>1,5%</td><td>6,5%</td></tr>
+<tr><td>Chorobowa</td><td>2,45%</td><td>—</td></tr>
+<tr><td>Wypadkowa</td><td>—</td><td>~1,67%</td></tr>
+<tr><td>Zdrowotna (NFZ)</td><td>9% (od podstawy)</td><td>—</td></tr>
+<tr><td>Fundusz Pracy</td><td>—</td><td>2,45%</td></tr>
+</tbody>
+</table>
+
+<p>Łącznie pracownik płaci ok. <strong>22,71%</strong> brutto na ZUS + NFZ. To jest widoczne na Twoim pasku jako potrącenia.</p>
+
+<blockquote><p>Przykład: jeśli zarabiasz 4 500 zł brutto, potrącenia ZUS+NFZ wynoszą ok. 1 021 zł, a na rękę otrzymujesz ok. 3 261 zł (po odliczeniu również zaliczki na podatek PIT).</p></blockquote>
+
+<h2>Czy cudzoziemiec może być zgłoszony do ZUS?</h2>
+
+<p>Tak. Cudzoziemcy pracujący legalnie w Polsce podlegają dokładnie tym samym zasadom co obywatele polscy. Nie ma znaczenia, czy jesteś obywatelem Ukrainy, Białorusi, Mołdawii czy innego kraju. Warunkiem jest legalna podstawa pobytu i pracy (wiza, ochrona tymczasowa, zezwolenie na pobyt itp.).</p>
+
+<blockquote><p><strong>Uwaga dla obywateli Ukrainy:</strong> Osoby objęte ochroną tymczasową (w ramach ustawy z 2022 roku) mogą pracować i podlegają ZUS na takich samych zasadach.</p></blockquote>
+
+<h2>Jak sprawdzić, czy jesteś zgłoszony do ZUS?</h2>
+
+<p>Możesz to zrobić online przez <strong>Platformę Usług Elektronicznych ZUS (PUE ZUS)</strong>:</p>
+
+<ol>
+  <li>Wejdź na <code>pue.zus.pl</code></li>
+  <li>Zaloguj się przez Profil Zaufany (jeśli go masz) lub konto bankowe</li>
+  <li>W zakładce „Ubezpieczony" sprawdź datę zgłoszenia i rodzaj ubezpieczeń</li>
+</ol>
+
+<p>Jeśli nie możesz się zalogować, możesz odwiedzić dowolny oddział ZUS z dokumentem tożsamości.</p>
+
+<h2>Co daje ubezpieczenie w ZUS?</h2>
+
+<ul>
+  <li><strong>Dostęp do NFZ</strong> — możesz korzystać z bezpłatnej opieki medycznej w Polsce (lekarze, szpitale, specjaliści).</li>
+  <li><strong>Zasiłek chorobowy (L4)</strong> — jeśli zachorujesz i lekarz wystawi Ci zwolnienie, po 30 dniach nieprzerwanego ubezpieczenia możesz otrzymać zasiłek chorobowy (80% wynagrodzenia).</li>
+  <li><strong>Ubezpieczenie wypadkowe</strong> — w razie wypadku przy pracy przysługuje Ci odszkodowanie i świadczenie rehabilitacyjne.</li>
+  <li><strong>Emerytura</strong> — wpłacane składki emerytalne są gromadzone na Twoim koncie w ZUS. Po osiągnięciu wieku emerytalnego (lub po powrocie do swojego kraju — umowy dwustronne) możesz ubiegać się o ich wypłatę.</li>
+</ul>
+
+<h2>Czy składki emerytalne przepadają, gdy wrócę do swojego kraju?</h2>
+
+<p>Nie. Polska ma podpisane umowy o zabezpieczeniu społecznym z wieloma krajami (m.in. z Ukrainą). Jeśli wracasz do swojego kraju, możesz ubiegać się o:</p>
+
+<ul>
+  <li>zwrot składek emerytalnych (w określonych warunkach), lub</li>
+  <li>uwzględnienie polskiego stażu przy obliczaniu emerytury w swoim kraju</li>
+</ul>
+
+<h2>Co zrobić, jeśli agencja nie zgłosiła Cię do ZUS?</h2>
+
+<p>To naruszenie prawa przez pracodawcę. Masz prawo:</p>
+
+<ol>
+  <li>Zgłosić to do Państwowej Inspekcji Pracy (PIP).</li>
+  <li>Złożyć skargę do ZUS.</li>
+  <li>Skontaktować się z prawnikiem lub organizacją wspierającą pracowników migrantów.</li>
+</ol>
+
+<p>Jako pracownik tymczasowy Nexflow — jeśli masz wątpliwości co do Twojego zgłoszenia do ZUS, skontaktuj się bezpośrednio z naszym działem kadr.</p>
+
+<h2>Podsumowanie</h2>
+
+<table>
+<thead>
+<tr><th>Co</th><th>Kto to robi</th></tr>
+</thead>
+<tbody>
+<tr><td>Zgłoszenie do ZUS</td><td>Agencja (Nexflow) — w ciągu 7 dni od zatrudnienia</td></tr>
+<tr><td>Odprowadzanie składek</td><td>Agencja — co miesiąc z Twojego wynagrodzenia</td></tr>
+<tr><td>Wyrejestrowanie z ZUS</td><td>Agencja — po zakończeniu umowy</td></tr>
+<tr><td>Sprawdzenie statusu</td><td>Ty — przez PUE ZUS lub w oddziale</td></tr>
+</tbody>
+</table>
+
+<p>Pracując przez Nexflow, masz pewność, że wszystkie formalności ZUS są realizowane zgodnie z polskim prawem. Masz pytania? Skontaktuj się z naszym biurem.</p>
+    `.trim(),
+  },
+  {
+    slug: "zus-reyestratsia-inozemnyi-pratsivnyk-polshcha",
+    title: "ZUS — реєстрація як тимчасовий працівник-іноземець у Польщі",
+    description:
+      "Хто реєструє вас у ZUS, які внески сплачуються і що ви від цього отримуєте? Практичний посібник для іноземців, які працюють через агентство тимчасової праці.",
+    date: "2026-08-13",
+    lang: "uk",
+    content: `
+<p>Ви працюєте в Польщі через агентство тимчасової праці? Як іноземець (громадянин України, Білорусі, Молдови та ін.) ви маєте право та обов'язок бути застрахованим у ZUS. У цій статті пояснюємо, хто реєструє вас у ZUS, які внески сплачуються і що це означає для вас.</p>
+
+<h2>Що таке ZUS?</h2>
+
+<p>ZUS (Zakład Ubezpieczeń Społecznych — Управління соціального страхування) — це польська установа соціального страхування. Вона відповідає за:</p>
+
+<ul>
+  <li>пенсійне та рентне страхування (на випадок непрацездатності)</li>
+  <li>страхування по хворобі (виплата лікарняних — L4)</li>
+  <li>страхування від нещасних випадків на виробництві</li>
+  <li>медичне страхування (NFZ — доступ до державної охорони здоров'я)</li>
+</ul>
+
+<h2>Хто реєструє вас у ZUS?</h2>
+
+<p>Як тимчасовий працівник, найнятий через агентство (наприклад, Nexflow), саме <strong>агентство тимчасової праці</strong> є вашим роботодавцем і <strong>вона</strong> зобов'язана зареєструвати вас у ZUS. Працівник не робить це самостійно.</p>
+
+<p>Агентство зобов'язане:</p>
+
+<ol>
+  <li>Зареєструвати вас як застрахованого протягом <strong>7 днів</strong> від першого дня роботи (форма ZUS ZUA).</li>
+  <li>Щомісяця перераховувати внески з вашої зарплати.</li>
+  <li>Після закінчення договору зняти вас з обліку (форма ZUS ZWUA).</li>
+</ol>
+
+<h2>Які внески утримуються з вашої зарплати?</h2>
+
+<table>
+<thead>
+<tr><th>Внесок</th><th>Платить працівник</th><th>Платить роботодавець</th></tr>
+</thead>
+<tbody>
+<tr><td>Пенсійний</td><td>9,76%</td><td>9,76%</td></tr>
+<tr><td>Рентний</td><td>1,5%</td><td>6,5%</td></tr>
+<tr><td>По хворобі</td><td>2,45%</td><td>—</td></tr>
+<tr><td>Від нещасних випадків</td><td>—</td><td>~1,67%</td></tr>
+<tr><td>Медичний (NFZ)</td><td>9% (від бази)</td><td>—</td></tr>
+<tr><td>Фонд праці</td><td>—</td><td>2,45%</td></tr>
+</tbody>
+</table>
+
+<p>Загалом працівник сплачує близько <strong>22,71%</strong> від брутто на ZUS+NFZ.</p>
+
+<blockquote><p>Приклад: якщо ваша зарплата 4 500 злотих брутто, утримання ZUS+NFZ становить ~1 021 злотий, а на руки ви отримуєте ~3 261 злотий (після відрахування авансу з ПДФО).</p></blockquote>
+
+<h2>Чи може іноземець бути зареєстрований у ZUS?</h2>
+
+<p>Так. Іноземці, які працюють легально в Польщі, підпадають під ті самі правила, що й польські громадяни. Не має значення, чи ви громадянин України, Білорусі, Молдови чи іншої країни. Умова — легальна підстава перебування та роботи (віза, тимчасовий захист, дозвіл на проживання тощо).</p>
+
+<blockquote><p><strong>Для громадян України:</strong> Особи під тимчасовим захистом (відповідно до закону 2022 року) можуть працювати і підпадають під ZUS на загальних підставах.</p></blockquote>
+
+<h2>Як перевірити, чи зареєстровані ви в ZUS?</h2>
+
+<p>Через <strong>Електронну платформу ZUS (PUE ZUS)</strong>:</p>
+
+<ol>
+  <li>Зайдіть на <code>pue.zus.pl</code></li>
+  <li>Увійдіть через Profil Zaufany або банківський рахунок</li>
+  <li>У вкладці «Ubezpieczony» («Застрахований») перевірте дату реєстрації та вид страхування</li>
+</ol>
+
+<p>Якщо не можете увійти онлайн — відвідайте будь-який відділ ZUS з документом, що посвідчує особу.</p>
+
+<h2>Що дає страхування в ZUS?</h2>
+
+<ul>
+  <li><strong>Доступ до NFZ</strong> — безкоштовна медична допомога в Польщі (лікарі, лікарні, спеціалісти).</li>
+  <li><strong>Лікарняні (L4)</strong> — якщо ви захворієте і лікар виставить лікарняний лист, після 30 днів безперервного страхування ви маєте право на лікарняну допомогу (80% зарплати).</li>
+  <li><strong>Страхування від нещасних випадків</strong> — у разі травми на роботі ви маєте право на відшкодування та реабілітаційну допомогу.</li>
+  <li><strong>Пенсія</strong> — сплачені пенсійні внески накопичуються на вашому рахунку в ZUS і можуть бути враховані при нарахуванні пенсії.</li>
+</ul>
+
+<h2>Чи пропадуть пенсійні внески, якщо я поверну на батьківщину?</h2>
+
+<p>Ні. Польща уклала договори про соціальне забезпечення з низкою країн (у тому числі з Україною). Ви можете звернутися за:</p>
+
+<ul>
+  <li>поверненням пенсійних внесків (за певних умов), або</li>
+  <li>врахуванням польського стажу при розрахунку пенсії у вашій країні</li>
+</ul>
+
+<h2>Що робити, якщо агентство не зареєструвало вас у ZUS?</h2>
+
+<p>Це порушення закону з боку роботодавця. Ви маєте право:</p>
+
+<ol>
+  <li>Повідомити Державну інспекцію праці (PIP).</li>
+  <li>Подати скаргу до ZUS.</li>
+  <li>Звернутися до юриста або організацій підтримки трудових мігрантів.</li>
+</ol>
+
+<p>Як тимчасовий працівник Nexflow — якщо у вас є сумніви щодо вашої реєстрації в ZUS, зверніться до нашого відділу кадрів.</p>
+
+<h2>Підсумок</h2>
+
+<table>
+<thead>
+<tr><th>Що</th><th>Хто це робить</th></tr>
+</thead>
+<tbody>
+<tr><td>Реєстрація в ZUS</td><td>Агентство (Nexflow) — протягом 7 днів від прийняття на роботу</td></tr>
+<tr><td>Сплата внесків</td><td>Агентство — щомісяця з вашої зарплати</td></tr>
+<tr><td>Зняття з обліку ZUS</td><td>Агентство — після закінчення договору</td></tr>
+<tr><td>Перевірка статусу</td><td>Ви — через PUE ZUS або у відділенні</td></tr>
+</tbody>
+</table>
+
+<p>Працюючи через Nexflow, ви можете бути впевнені, що всі формальності ZUS виконуються відповідно до польського законодавства.</p>
+    `.trim(),
+  },
+  {
+    slug: "zus-registratsiya-inostrannyi-rabotnik-polsha",
+    title: "ZUS — регистрация как временный работник-иностранец в Польше",
+    description:
+      "Кто регистрирует вас в ZUS, какие взносы удерживаются и что вы от этого получаете? Практическое руководство для иностранцев, работающих через агентство временного труда.",
+    date: "2026-08-13",
+    lang: "ru",
+    content: `
+<p>Вы работаете в Польше через агентство временного труда? Как иностранец (гражданин Украины, Беларуси, Молдовы и др.) вы имеете право и обязанность быть застрахованным в ZUS. В этой статье объясняем, кто регистрирует вас в ZUS, какие взносы удерживаются и что это значит для вас.</p>
+
+<h2>Что такое ZUS?</h2>
+
+<p>ZUS (Zakład Ubezpieczeń Społecznych — Управление социального страхования) — это польское учреждение социального страхования. Оно отвечает за:</p>
+
+<ul>
+  <li>пенсионное и рентное страхование (на случай нетрудоспособности)</li>
+  <li>страхование по болезни (выплата больничных — L4)</li>
+  <li>страхование от несчастных случаев на производстве</li>
+  <li>медицинское страхование (NFZ — доступ к государственному здравоохранению)</li>
+</ul>
+
+<h2>Кто регистрирует вас в ZUS?</h2>
+
+<p>Как временный работник, нанятый через агентство (например, Nexflow), именно <strong>агентство временного труда</strong> является вашим работодателем и <strong>оно</strong> обязано зарегистрировать вас в ZUS. Работник не делает это самостоятельно.</p>
+
+<p>Агентство обязано:</p>
+
+<ol>
+  <li>Зарегистрировать вас как застрахованного в течение <strong>7 дней</strong> с первого рабочего дня (форма ZUS ZUA).</li>
+  <li>Ежемесячно перечислять взносы с вашей зарплаты.</li>
+  <li>После окончания договора снять вас с учёта (форма ZUS ZWUA).</li>
+</ol>
+
+<h2>Какие взносы удерживаются из вашей зарплаты?</h2>
+
+<table>
+<thead>
+<tr><th>Взнос</th><th>Платит работник</th><th>Платит работодатель</th></tr>
+</thead>
+<tbody>
+<tr><td>Пенсионный</td><td>9,76%</td><td>9,76%</td></tr>
+<tr><td>Рентный</td><td>1,5%</td><td>6,5%</td></tr>
+<tr><td>По болезни</td><td>2,45%</td><td>—</td></tr>
+<tr><td>От несчастных случаев</td><td>—</td><td>~1,67%</td></tr>
+<tr><td>Медицинский (NFZ)</td><td>9% (от базы)</td><td>—</td></tr>
+<tr><td>Фонд труда</td><td>—</td><td>2,45%</td></tr>
+</tbody>
+</table>
+
+<p>В сумме работник платит около <strong>22,71%</strong> от брутто на ZUS+NFZ.</p>
+
+<blockquote><p>Пример: если ваша зарплата составляет 4 500 злотых брутто, удержания ZUS+NFZ составят ~1 021 злотый, а на руки вы получите ~3 261 злотый (после вычета аванса по НДФЛ).</p></blockquote>
+
+<h2>Может ли иностранец быть зарегистрирован в ZUS?</h2>
+
+<p>Да. Иностранцы, работающие в Польше легально, подпадают под те же правила, что и польские граждане. Не имеет значения, являетесь ли вы гражданином Украины, Беларуси, Молдовы или другой страны. Условие — законное основание для пребывания и работы (виза, временная защита, разрешение на проживание и т.д.).</p>
+
+<blockquote><p><strong>Для граждан Украины:</strong> Лица под временной защитой (в рамках закона 2022 года) могут работать и подпадают под ZUS на общих основаниях.</p></blockquote>
+
+<h2>Как проверить, зарегистрированы ли вы в ZUS?</h2>
+
+<p>Через <strong>Электронную платформу ZUS (PUE ZUS)</strong>:</p>
+
+<ol>
+  <li>Зайдите на <code>pue.zus.pl</code></li>
+  <li>Войдите через Profil Zaufany или банковский счёт</li>
+  <li>Во вкладке «Ubezpieczony» («Застрахованный») проверьте дату регистрации и вид страхования</li>
+</ol>
+
+<p>Если не можете войти онлайн — посетите любое отделение ZUS с документом, удостоверяющим личность.</p>
+
+<h2>Что даёт страхование в ZUS?</h2>
+
+<ul>
+  <li><strong>Доступ к NFZ</strong> — бесплатная медицинская помощь в Польше (врачи, больницы, специалисты).</li>
+  <li><strong>Больничный (L4)</strong> — если вы заболеете и врач выпишет больничный лист, после 30 дней непрерывного страхования вы имеете право на больничное пособие (80% зарплаты).</li>
+  <li><strong>Страхование от несчастных случаев</strong> — в случае травмы на работе вам полагается компенсация и реабилитационное пособие.</li>
+  <li><strong>Пенсия</strong> — уплаченные пенсионные взносы накапливаются на вашем счёте в ZUS и могут быть учтены при начислении пенсии.</li>
+</ul>
+
+<h2>Пропадут ли пенсионные взносы, если я вернусь на родину?</h2>
+
+<p>Нет. Польша заключила договоры о социальном обеспечении с рядом стран (в том числе с Украиной). Вы можете обратиться за:</p>
+
+<ul>
+  <li>возвратом пенсионных взносов (при определённых условиях), или</li>
+  <li>учётом польского трудового стажа при расчёте пенсии в вашей стране</li>
+</ul>
+
+<h2>Что делать, если агентство не зарегистрировало вас в ZUS?</h2>
+
+<p>Это нарушение закона со стороны работодателя. Вы имеете право:</p>
+
+<ol>
+  <li>Сообщить в Государственную инспекцию труда (PIP).</li>
+  <li>Подать жалобу в ZUS.</li>
+  <li>Обратиться к юристу или в организации поддержки трудовых мигрантов.</li>
+</ol>
+
+<p>Как временный работник Nexflow — если у вас есть сомнения относительно вашей регистрации в ZUS, обратитесь в наш отдел кадров.</p>
+
+<h2>Итог</h2>
+
+<table>
+<thead>
+<tr><th>Что</th><th>Кто это делает</th></tr>
+</thead>
+<tbody>
+<tr><td>Регистрация в ZUS</td><td>Агентство (Nexflow) — в течение 7 дней с начала работы</td></tr>
+<tr><td>Уплата взносов</td><td>Агентство — ежемесячно из вашей зарплаты</td></tr>
+<tr><td>Снятие с учёта ZUS</td><td>Агентство — после окончания договора</td></tr>
+<tr><td>Проверка статуса</td><td>Вы — через PUE ZUS или в отделении</td></tr>
+</tbody>
+</table>
+
+<p>Работая через Nexflow, вы можете быть уверены, что все формальности ZUS выполняются в соответствии с польским законодательством.</p>
+    `.trim(),
+  },
+  {
+    slug: "zus-registration-foreign-temp-worker-poland",
+    title: "ZUS Registration for Foreign Temporary Workers in Poland",
+    description:
+      "Who registers you with ZUS, what contributions are deducted, and what do you gain from it? A practical guide for foreign workers employed through a staffing agency in Poland.",
+    date: "2026-08-13",
+    lang: "en",
+    content: `
+<p>Working in Poland through a temporary staffing agency? As a foreign worker (Ukrainian, Belarusian, Moldovan or other non-EU nationals) you are entitled — and required — to be covered by Poland's social insurance system, ZUS. This guide explains who registers you, what contributions are deducted, and what you gain.</p>
+
+<h2>What is ZUS?</h2>
+
+<p>ZUS (<em>Zakład Ubezpieczeń Społecznych</em>) is Poland's Social Insurance Institution. It manages:</p>
+
+<ul>
+  <li><strong>Pension and disability insurance</strong> — protects you if you become unable to work</li>
+  <li><strong>Sickness insurance</strong> — pays sick-leave benefits (L4) when you are ill</li>
+  <li><strong>Accident insurance</strong> — covers workplace injuries</li>
+  <li><strong>Health insurance (NFZ)</strong> — gives you access to Poland's public healthcare system</li>
+</ul>
+
+<h2>Who registers you with ZUS?</h2>
+
+<p>As a temporary worker hired through an agency (e.g. Nexflow), the <strong>staffing agency</strong> is your legal employer and it is <strong>the agency's obligation</strong> to register you. You do not do this yourself.</p>
+
+<p>The agency must:</p>
+
+<ol>
+  <li>Register you as insured within <strong>7 days</strong> of your first working day (form ZUS ZUA).</li>
+  <li>Pay contributions from your salary every month.</li>
+  <li>Deregister you after the contract ends (form ZUS ZWUA).</li>
+</ol>
+
+<h2>What contributions are deducted from your salary?</h2>
+
+<table>
+<thead>
+<tr><th>Contribution</th><th>Paid by employee</th><th>Paid by employer</th></tr>
+</thead>
+<tbody>
+<tr><td>Pension</td><td>9.76%</td><td>9.76%</td></tr>
+<tr><td>Disability</td><td>1.5%</td><td>6.5%</td></tr>
+<tr><td>Sickness</td><td>2.45%</td><td>—</td></tr>
+<tr><td>Accident</td><td>—</td><td>~1.67%</td></tr>
+<tr><td>Health (NFZ)</td><td>9% (of base)</td><td>—</td></tr>
+<tr><td>Labour Fund</td><td>—</td><td>2.45%</td></tr>
+</tbody>
+</table>
+
+<p>In total, the employee's share is approximately <strong>22.71%</strong> of gross salary.</p>
+
+<blockquote><p>Example: on a gross salary of PLN 4,500, ZUS+NFZ deductions are ~PLN 1,021, leaving approximately PLN 3,261 in take-home pay (after income-tax advance).</p></blockquote>
+
+<h2>Can a foreign national be covered by ZUS?</h2>
+
+<p>Yes. Foreign workers employed legally in Poland fall under exactly the same rules as Polish citizens. Your nationality — Ukrainian, Belarusian, Moldovan, or other — does not matter. The only requirement is a legal basis to stay and work (visa, temporary protection status, residence permit, etc.).</p>
+
+<blockquote><p><strong>For Ukrainian citizens:</strong> Persons under temporary protection (under the 2022 Act) are entitled to work and are covered by ZUS on the same terms as other workers.</p></blockquote>
+
+<h2>How to check if you are registered with ZUS</h2>
+
+<p>Use the <strong>ZUS Electronic Services Platform (PUE ZUS)</strong>:</p>
+
+<ol>
+  <li>Go to <code>pue.zus.pl</code></li>
+  <li>Log in using Profil Zaufany (Trusted Profile) or your Polish bank account</li>
+  <li>Under the "Ubezpieczony" ("Insured person") tab, verify your registration date and coverage type</li>
+</ol>
+
+<p>If you cannot log in online, visit any ZUS branch with a valid identity document.</p>
+
+<h2>What does ZUS coverage give you?</h2>
+
+<ul>
+  <li><strong>NFZ health access</strong> — free medical care in Poland: GPs, hospitals, specialists.</li>
+  <li><strong>Sick-leave pay (L4)</strong> — after 30 continuous days of insurance, if a doctor issues a sick note you receive 80% of your salary as a sickness benefit.</li>
+  <li><strong>Accident protection</strong> — workplace injury entitles you to compensation and rehabilitation support.</li>
+  <li><strong>Pension savings</strong> — your pension contributions accumulate in your ZUS account and can be counted toward your retirement entitlement.</li>
+</ul>
+
+<h2>Will my pension contributions be lost if I return home?</h2>
+
+<p>No. Poland has bilateral social-security agreements with several countries (including Ukraine). Depending on the treaty, you may:</p>
+
+<ul>
+  <li>Claim a refund of pension contributions (under specific conditions), or</li>
+  <li>Have your Polish contribution period counted toward your home-country pension</li>
+</ul>
+
+<p>Contact ZUS or your country's embassy/consulate for details specific to your situation.</p>
+
+<h2>What if the agency has not registered me with ZUS?</h2>
+
+<p>This is a legal violation by the employer. You have the right to:</p>
+
+<ol>
+  <li>Report it to the National Labour Inspectorate (PIP).</li>
+  <li>File a complaint directly with ZUS.</li>
+  <li>Consult a lawyer or a migrant-worker support organisation.</li>
+</ol>
+
+<p>As a Nexflow temporary worker — if you have any doubts about your ZUS registration status, contact our HR team directly.</p>
+
+<h2>Summary</h2>
+
+<table>
+<thead>
+<tr><th>What</th><th>Who does it</th></tr>
+</thead>
+<tbody>
+<tr><td>ZUS registration</td><td>Agency (Nexflow) — within 7 days of start date</td></tr>
+<tr><td>Monthly contribution payment</td><td>Agency — deducted from your salary</td></tr>
+<tr><td>ZUS deregistration</td><td>Agency — after the contract ends</td></tr>
+<tr><td>Checking your status</td><td>You — via PUE ZUS or at a ZUS branch</td></tr>
+</tbody>
+</table>
+
+<p>Working through Nexflow, you can be confident that all ZUS formalities are handled in compliance with Polish law. Questions? Reach out to our office.</p>
+    `.trim(),
+  },
+  {
+    slug: "zezwolenie-na-prace-vs-oswiadczenie-cudzoziemiec-polska",
+    title: "Zezwolenie na pracę vs. oświadczenie — co musisz wiedzieć jako cudzoziemiec w Polsce",
+    description:
+      "Oświadczenie czy zezwolenie na pracę — który dokument uprawnia Cię do legalnej pracy w Polsce? Wyjaśniamy różnice i tłumaczymy, co Nexflow robi za Ciebie.",
+    date: "2026-08-17",
+    lang: "pl",
+    content: `
+<p>Przyjeżdżasz do Polski do pracy przez agencję pracy tymczasowej? Jedną z pierwszych spraw formalnych, o której powinieneś wiedzieć, jest legalne podstawa do wykonywania pracy. W Polsce istnieją dwa główne dokumenty uprawniające cudzoziemca spoza UE do pracy: <strong>zezwolenie na pracę</strong> i <strong>oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</strong>. Wyjaśniamy, czym się różnią i który dokument dotyczy Ciebie.</p>
+
+<h2>Oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</h2>
+
+<p><strong>Oświadczenie</strong> to uproszczona ścieżka legalizacji pracy, dostępna dla obywateli wybranych krajów: Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii i Rosji. Procedura jest szybsza i prostsza niż pełne zezwolenie na pracę.</p>
+
+<p><strong>Jak to działa?</strong></p>
+
+<ul>
+  <li>Pracodawca (np. Nexflow jako agencja pracy tymczasowej) składa oświadczenie w Powiatowym Urzędzie Pracy (PUP)</li>
+  <li>Urząd rejestruje oświadczenie — zazwyczaj w ciągu kilku dni roboczych</li>
+  <li>Na podstawie zarejestrowanego oświadczenia możesz ubiegać się o wizę pracowniczą lub wjechać do Polski (jeśli jesteś obywatelem Ukrainy — patrz niżej)</li>
+  <li>Jeden dokument uprawnia do pracy u jednego pracodawcy na określonym stanowisku</li>
+  <li>Czas trwania: <strong>do 24 miesięcy</strong> w ciągu 36 miesięcy</li>
+</ul>
+
+<p><strong>Dla kogo?</strong> Obywatele Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii, Rosji.</p>
+
+<p><strong>Ważne dla Ukraińców:</strong> Obywatele Ukrainy, którzy przybyli do Polski po 24 lutego 2022 r. w związku z wojną, mogą korzystać ze specjalnych przepisów ustawy o pomocy obywatelom Ukrainy. Na podstawie tzw. statusu UKR mogą podejmować legalną pracę bez oświadczenia ani zezwolenia na pracę — wystarczy pisemne powiadomienie pracodawcy w odpowiednim urzędzie. Warunki i terminy się zmieniają, więc zawsze sprawdzaj aktualny stan prawny lub zapytaj swojego koordynatora w Nexflow.</p>
+
+<h2>Zezwolenie na pracę</h2>
+
+<p>Jeśli nie kwalifikujesz się do uproszczonej procedury oświadczeniowej (lub potrzebujesz dłuższego zatrudnienia), pracodawca składa wniosek o <strong>zezwolenie na pracę</strong> do Urzędu Wojewódzkiego.</p>
+
+<p><strong>Najczęstszy typ: Zezwolenie typ A</strong></p>
+
+<ul>
+  <li>Dla cudzoziemca pracującego w Polsce na podstawie umowy z podmiotem, którego siedziba mieści się w Polsce</li>
+  <li>Wydawane przez Urząd Wojewódzki właściwy dla siedziby pracodawcy</li>
+  <li>Czas oczekiwania: kilka tygodni do kilku miesięcy (zależy od urzędu)</li>
+  <li>Ważność: do 3 lat (z możliwością przedłużenia)</li>
+  <li>Pracodawca musi wykazać, że na dane stanowisko nie było możliwości zatrudnienia pracownika z UE (tzw. test rynku pracy) — w niektórych zawodach wyjęty</li>
+</ul>
+
+<p>Dla typowej pracy tymczasowej w magazynie lub logistyce najczęściej stosuje się <strong>oświadczenie</strong> (szybciej) lub <strong>zezwolenie typ A</strong> (dla dłuższych kontraktów lub obywateli krajów nieujętych na liście uproszczonej ścieżki).</p>
+
+<h2>Co robi Nexflow?</h2>
+
+<p>Jako agencja pracy tymczasowej posiadamy uprawnienia Krajowego Rejestru Agencji Zatrudnienia (KRAZ) i zajmujemy się wszystkimi formalnościami legalizacyjnymi za Ciebie:</p>
+
+<ul>
+  <li>Składamy oświadczenie lub wniosek o zezwolenie na pracę</li>
+  <li>Informujemy Cię o koniecznych dokumentach z Twojej strony (paszport, zdjęcia, ewentualne zaświadczenia)</li>
+  <li>Pilnujemy terminów ważności dokumentów</li>
+  <li>Pomagamy przy przedłużeniu, gdy kontrakt się przedłuża</li>
+</ul>
+
+<p><strong>Nie musisz sam chodzić po urzędach</strong> — koordynator Nexflow przeprowadzi Cię przez cały proces.</p>
+
+<h2>Jakie dokumenty masz dostarczyć?</h2>
+
+<p>Dla procesu oświadczeniowego zazwyczaj potrzebujesz:</p>
+
+<ul>
+  <li>Ważny paszport (kopia)</li>
+  <li>Zdjęcia paszportowe</li>
+  <li>Dane kontaktowe (adres zamieszkania w Polsce lub za granicą)</li>
+  <li>W niektórych przypadkach: zaświadczenie o niekaralności</li>
+</ul>
+
+<h2>Co grozi za pracę nielegalną?</h2>
+
+<p>Praca bez ważnego dokumentu legalizacyjnego to poważne ryzyko:</p>
+
+<ul>
+  <li>Deportacja i zakaz wjazdu do strefy Schengen</li>
+  <li>Grzywna dla pracodawcy (do 30 000 zł)</li>
+  <li>Brak ochrony pracowniczej i ZUS-u</li>
+</ul>
+
+<p>Pracując z Nexflow, masz pewność, że jesteś zatrudniony legalnie i masz pełną ochronę prawa pracy.</p>
+
+<h2>Podsumowanie</h2>
+
+<table>
+<thead>
+<tr><th>Cecha</th><th>Oświadczenie</th><th>Zezwolenie typ A</th></tr>
+</thead>
+<tbody>
+<tr><td>Kraj pochodzenia</td><td>UA, BY, GE, MD, AM, RU</td><td>Wszystkie kraje</td></tr>
+<tr><td>Czas oczekiwania</td><td>Kilka dni roboczych</td><td>Kilka tygodni–miesięcy</td></tr>
+<tr><td>Ważność</td><td>Do 24 miesięcy</td><td>Do 3 lat</td></tr>
+<tr><td>Kto składa wniosek</td><td>Pracodawca (Nexflow)</td><td>Pracodawca (Nexflow)</td></tr>
+<tr><td>Gdzie</td><td>Powiatowy Urząd Pracy</td><td>Urząd Wojewódzki</td></tr>
+</tbody>
+</table>
+
+<p>Masz pytania dotyczące swojego statusu prawnego? Skontaktuj się ze swoim koordynatorem Nexflow — pomożemy Ci zrozumieć każdy krok procedury legalizacyjnej.</p>
+    `.trim(),
+  },
+  {
+    slug: "dozovil-na-robotu-polshcha-zayava-chy-zezvolennya",
+    title: "Дозвіл на роботу в Польщі: заява роботодавця чи зезволення? Пояснюємо",
+    description:
+      "Oświadczenie чи zezwolenie na pracę — який документ потрібен для легальної роботи в Польщі? Пояснюємо різницю та розповідаємо, що Nexflow робить за вас.",
+    date: "2026-08-17",
+    lang: "uk",
+    content: `
+<p>Приїжджаєте до Польщі працювати через агентство тимчасової праці? Одне з перших питань, яке виникає — чи маєте ви право легально працювати і який документ вам потрібен. Ось коротке пояснення двох основних шляхів легалізації праці для іноземців у Польщі.</p>
+
+<h2>Oświadczenie — заява роботодавця про доручення роботи іноземцю</h2>
+
+<p><strong>Oświadczenie</strong> (вимовляється: ошвядченє) — це спрощений шлях легалізації праці для громадян певних країн: України, Білорусі, Грузії, Молдови, Вірменії та Росії.</p>
+
+<p><strong>Як це працює?</strong></p>
+
+<ul>
+  <li>Роботодавець (наприклад, Nexflow як агентство тимчасової праці) подає заяву до місцевого Powiatowy Urząd Pracy (PUP — районна служба зайнятості)</li>
+  <li>Служба реєструє заяву — зазвичай протягом кількох робочих днів</li>
+  <li>На підставі зареєстрованої заяви ви можете отримати робочу візу або в'їхати до Польщі (якщо ви громадянин України — читайте нижче)</li>
+  <li>Один документ — для одного роботодавця та однієї посади</li>
+  <li>Термін дії: <strong>до 24 місяців</strong> протягом 36 місяців</li>
+</ul>
+
+<p><strong>Для кого?</strong> Громадяни України, Білорусі, Грузії, Молдови, Вірменії, Росії.</p>
+
+<p><strong>Важливо для українців:</strong> Громадяни України, які приїхали до Польщі після 24 лютого 2022 р. у зв'язку з війною, можуть скористатися особливими положеннями закону про допомогу громадянам України. Завдяки статусу «UKR» вони можуть легально працювати без заяви чи зезволення — достатньо письмового повідомлення роботодавця. Умови та терміни можуть змінюватися, тому завжди уточнюйте актуальні вимоги у свого координатора Nexflow.</p>
+
+<h2>Zezwolenie na pracę — дозвіл на роботу</h2>
+
+<p>Якщо ви не підпадаєте під спрощену процедуру заяви (або потребуєте довшого перебування), роботодавець подає заявку на <strong>зезволення на працю</strong> до Urząd Wojewódzki (Воєводське управління).</p>
+
+<p><strong>Найпоширеніший тип: Зезволення тип A</strong></p>
+
+<ul>
+  <li>Для іноземця, який працює в Польщі за договором із польським суб'єктом господарювання</li>
+  <li>Видається Воєводським управлінням за місцем реєстрації роботодавця</li>
+  <li>Час очікування: кілька тижнів до кількох місяців</li>
+  <li>Термін дії: до 3 років (із можливістю продовження)</li>
+  <li>Роботодавець повинен підтвердити, що на цю посаду не вдалося знайти працівника з ЄС (тест ринку праці) — для деяких посад це не вимагається</li>
+</ul>
+
+<p>Для типової тимчасової роботи на складі або в логістиці найчастіше використовують <strong>oświadczenie</strong> (швидко, просто) або <strong>zezwolenie тип A</strong> (для довших контрактів).</p>
+
+<h2>Що робить Nexflow?</h2>
+
+<p>Як агентство тимчасової праці з ліцензією KRAZ, ми беремо на себе всі формальності:</p>
+
+<ul>
+  <li>Подаємо oświadczenie або заявку на zezwolenie</li>
+  <li>Повідомляємо вас, які документи потрібні з вашого боку (паспорт, фото тощо)</li>
+  <li>Стежимо за термінами дії документів</li>
+  <li>Допомагаємо з продовженням при пролонгації контракту</li>
+</ul>
+
+<p><strong>Вам не потрібно самостійно ходити по установах</strong> — координатор Nexflow проведе вас через весь процес.</p>
+
+<h2>Які документи потрібні від вас?</h2>
+
+<p>Для процедури oświadczenie зазвичай потрібні:</p>
+
+<ul>
+  <li>Дійсний паспорт (копія)</li>
+  <li>Фотографії паспортного формату</li>
+  <li>Контактні дані (адреса проживання в Польщі або за кордоном)</li>
+  <li>У деяких випадках: довідка про несудимість</li>
+</ul>
+
+<h2>Що загрожує за нелегальну роботу?</h2>
+
+<p>Праця без дійсного дозвільного документа — серйозний ризик:</p>
+
+<ul>
+  <li>Депортація та заборона в'їзду до зони Шенген</li>
+  <li>Штраф для роботодавця (до 30 000 злотих)</li>
+  <li>Відсутність захисту трудових прав і ZUS-страхування</li>
+</ul>
+
+<p>Працюючи з Nexflow, ви маєте гарантію легального працевлаштування та повний захист за трудовим законодавством.</p>
+
+<h2>Підсумок</h2>
+
+<table>
+<thead>
+<tr><th>Характеристика</th><th>Oświadczenie (заява)</th><th>Zezwolenie тип A</th></tr>
+</thead>
+<tbody>
+<tr><td>Країна походження</td><td>UA, BY, GE, MD, AM, RU</td><td>Всі країни</td></tr>
+<tr><td>Час очікування</td><td>Кілька робочих днів</td><td>Кілька тижнів–місяців</td></tr>
+<tr><td>Термін дії</td><td>До 24 місяців</td><td>До 3 років</td></tr>
+<tr><td>Хто подає</td><td>Роботодавець (Nexflow)</td><td>Роботодавець (Nexflow)</td></tr>
+<tr><td>Де</td><td>Районна служба зайнятості</td><td>Воєводське управління</td></tr>
+</tbody>
+</table>
+
+<p>Маєте питання щодо свого правового статусу? Зверніться до координатора Nexflow — допоможемо розібратися з кожним кроком.</p>
+    `.trim(),
+  },
+  {
+    slug: "razreshenie-na-rabotu-polsha-zayavlenie-ili-zezvolenie",
+    title: "Разрешение на работу в Польше: заявление работодателя или зезволение? Объясняем",
+    description:
+      "Oświadczenie или zezwolenie na pracę — какой документ нужен для легальной работы в Польше? Объясняем разницу и рассказываем, что Nexflow делает за вас.",
+    date: "2026-08-17",
+    lang: "ru",
+    content: `
+<p>Собираетесь работать в Польше через агентство временного труда? Один из первых вопросов, который возникает — как легально работать и какой документ вам нужен. Вот краткое объяснение двух основных путей легализации труда для иностранцев в Польше.</p>
+
+<h2>Oświadczenie — заявление работодателя о поручении работы иностранцу</h2>
+
+<p><strong>Oświadczenie</strong> (произносится: ошвядченэ) — это упрощённый путь легализации труда для граждан определённых стран: Украины, Беларуси, Грузии, Молдовы, Армении и России.</p>
+
+<p><strong>Как это работает?</strong></p>
+
+<ul>
+  <li>Работодатель (например, Nexflow как агентство временного труда) подаёт заявление в местный Powiatowy Urząd Pracy (PUP — районная служба занятости)</li>
+  <li>Служба регистрирует заявление — обычно в течение нескольких рабочих дней</li>
+  <li>На основании зарегистрированного заявления вы можете получить рабочую визу или въехать в Польшу</li>
+  <li>Один документ — для одного работодателя и одной должности</li>
+  <li>Срок действия: <strong>до 24 месяцев</strong> в течение 36 месяцев</li>
+</ul>
+
+<p><strong>Для кого?</strong> Граждане Украины, Беларуси, Грузии, Молдовы, Армении, России.</p>
+
+<p><strong>Важно для украинцев:</strong> Граждане Украины, прибывшие в Польшу после 24 февраля 2022 г. в связи с войной, могут воспользоваться специальными положениями закона о помощи гражданам Украины. Благодаря статусу «UKR» они могут легально работать без заявления или разрешения — достаточно письменного уведомления работодателя. Условия и сроки могут меняться, поэтому всегда уточняйте актуальные требования у своего координатора Nexflow.</p>
+
+<h2>Zezwolenie na pracę — разрешение на работу</h2>
+
+<p>Если вы не подпадаете под упрощённую процедуру заявления (или вам нужно более длительное пребывание), работодатель подаёт заявку на <strong>зезволение на работу</strong> в Urząd Wojewódzki (Воеводское управление).</p>
+
+<p><strong>Наиболее распространённый тип: Зезволение тип A</strong></p>
+
+<ul>
+  <li>Для иностранца, работающего в Польше по договору с польским субъектом</li>
+  <li>Выдаётся Воеводским управлением по месту регистрации работодателя</li>
+  <li>Время ожидания: от нескольких недель до нескольких месяцев</li>
+  <li>Срок действия: до 3 лет (с возможностью продления)</li>
+  <li>Работодатель должен подтвердить, что не удалось найти работника из ЕС на данную должность (тест рынка труда) — для ряда профессий не требуется</li>
+</ul>
+
+<p>Для типичной временной работы на складе или в логистике чаще всего используют <strong>oświadczenie</strong> (быстро, просто) или <strong>zezwolenie тип A</strong> (для длительных контрактов).</p>
+
+<h2>Что делает Nexflow?</h2>
+
+<p>Как агентство временного труда с лицензией KRAZ, мы берём на себя все формальности:</p>
+
+<ul>
+  <li>Подаём oświadczenie или заявку на zezwolenie</li>
+  <li>Сообщаем, какие документы нужны с вашей стороны (паспорт, фото и т.д.)</li>
+  <li>Следим за сроками действия документов</li>
+  <li>Помогаем с продлением при пролонгации контракта</li>
+</ul>
+
+<p><strong>Вам не нужно самостоятельно ходить по инстанциям</strong> — координатор Nexflow проведёт вас через весь процесс.</p>
+
+<h2>Какие документы нужны от вас?</h2>
+
+<p>Для процедуры oświadczenie обычно требуются:</p>
+
+<ul>
+  <li>Действующий паспорт (копия)</li>
+  <li>Фотографии паспортного формата</li>
+  <li>Контактные данные (адрес проживания в Польше или за рубежом)</li>
+  <li>В некоторых случаях: справка о несудимости</li>
+</ul>
+
+<h2>Что грозит за нелегальную работу?</h2>
+
+<p>Работа без действующего разрешительного документа — серьёзный риск:</p>
+
+<ul>
+  <li>Депортация и запрет въезда в Шенгенскую зону</li>
+  <li>Штраф для работодателя (до 30 000 злотых)</li>
+  <li>Отсутствие защиты трудовых прав и страховки ZUS</li>
+</ul>
+
+<p>Работая с Nexflow, вы гарантированно трудоустроены легально и имеете полную защиту по трудовому законодательству.</p>
+
+<h2>Итог</h2>
+
+<table>
+<thead>
+<tr><th>Характеристика</th><th>Oświadczenie (заявление)</th><th>Zezwolenie тип A</th></tr>
+</thead>
+<tbody>
+<tr><td>Страна происхождения</td><td>UA, BY, GE, MD, AM, RU</td><td>Все страны</td></tr>
+<tr><td>Время ожидания</td><td>Несколько рабочих дней</td><td>Недели–месяцы</td></tr>
+<tr><td>Срок действия</td><td>До 24 месяцев</td><td>До 3 лет</td></tr>
+<tr><td>Кто подаёт</td><td>Работодатель (Nexflow)</td><td>Работодатель (Nexflow)</td></tr>
+<tr><td>Где</td><td>Районная служба занятости</td><td>Воеводское управление</td></tr>
+</tbody>
+</table>
+
+<p>Есть вопросы о вашем правовом статусе? Обратитесь к координатору Nexflow — поможем разобраться с каждым шагом.</p>
+    `.trim(),
+  },
+  {
+    slug: "work-authorization-poland-employer-declaration-vs-work-permit",
+    title: "Work Authorization in Poland: Employer Declaration vs. Work Permit — Explained",
+    description:
+      "Oświadczenie or zezwolenie na pracę — which document authorises you to work legally in Poland? We explain the difference and what Nexflow handles for you.",
+    date: "2026-08-17",
+    lang: "en",
+    content: `
+<p>Planning to work in Poland through a temporary staffing agency? One of the first legal questions you'll face is: what document authorises you to work legally? In Poland, there are two main pathways for non-EU nationals: the <strong>employer declaration (oświadczenie)</strong> and the <strong>work permit (zezwolenie na pracę)</strong>. Here's what you need to know.</p>
+
+<h2>Oświadczenie — the Employer Declaration (Fast Track)</h2>
+
+<p>The <strong>oświadczenie</strong> (pronounced: osh-vyad-che-nyeh) is a simplified work authorisation route available to nationals of specific countries: Ukraine, Belarus, Georgia, Moldova, Armenia, and Russia.</p>
+
+<p><strong>How it works:</strong></p>
+
+<ul>
+  <li>Your employer (e.g. Nexflow as your temporary staffing agency) files the declaration at the local Powiatowy Urząd Pracy (PUP — district employment office)</li>
+  <li>The office registers the declaration — typically within a few business days</li>
+  <li>Based on the registered declaration, you can apply for a work visa or enter Poland legally</li>
+  <li>One declaration = one employer + one job title</li>
+  <li>Duration: <strong>up to 24 months</strong> within a 36-month period</li>
+</ul>
+
+<p><strong>Who qualifies?</strong> Nationals of Ukraine, Belarus, Georgia, Moldova, Armenia, Russia.</p>
+
+<p><strong>Special note for Ukrainian nationals:</strong> Ukrainians who arrived in Poland after 24 February 2022 due to the war may be covered by the special provisions of the Ukrainian Citizens Assistance Act. Under the "UKR" status, they may work legally without an oświadczenie or work permit — a written notification by the employer to the relevant office is sufficient. Conditions and deadlines change frequently, so always verify the current rules with your Nexflow coordinator.</p>
+
+<h2>Zezwolenie na pracę — the Formal Work Permit</h2>
+
+<p>If you don't qualify for the simplified declaration route (or need a longer employment period), your employer applies for a formal <strong>work permit (zezwolenie na pracę)</strong> from the Urząd Wojewódzki (Voivodeship Office).</p>
+
+<p><strong>Most common type: Work Permit Type A</strong></p>
+
+<ul>
+  <li>For a foreigner working in Poland under a contract with a Polish entity</li>
+  <li>Issued by the Voivodeship Office where the employer is registered</li>
+  <li>Processing time: several weeks to a few months (varies by region)</li>
+  <li>Validity: up to 3 years (renewable)</li>
+  <li>The employer must demonstrate that the position could not be filled by an EU national (labour market test) — some occupations are exempt</li>
+</ul>
+
+<p>For typical temporary warehouse or logistics work, the <strong>oświadczenie</strong> (faster, simpler) or <strong>Type A work permit</strong> (for longer contracts or nationals outside the fast-track list) is most commonly used.</p>
+
+<h2>What Does Nexflow Handle?</h2>
+
+<p>As a licensed temporary staffing agency (KRAZ-registered), Nexflow takes care of all legal formalities on your behalf:</p>
+
+<ul>
+  <li>Files the oświadczenie or work permit application</li>
+  <li>Tells you exactly which documents are needed from you (passport copy, photos, etc.)</li>
+  <li>Tracks document expiry dates</li>
+  <li>Assists with renewals when your contract is extended</li>
+</ul>
+
+<p><strong>You don't need to navigate government offices alone</strong> — your Nexflow coordinator will guide you through every step.</p>
+
+<h2>Documents Typically Required from You</h2>
+
+<p>For the oświadczenie process, you usually need:</p>
+
+<ul>
+  <li>Valid passport (copy)</li>
+  <li>Passport-sized photos</li>
+  <li>Contact details (your address in Poland or abroad)</li>
+  <li>In some cases: a criminal record clearance certificate</li>
+</ul>
+
+<h2>What Happens If You Work Without Valid Authorisation?</h2>
+
+<p>Working without a valid legal document carries serious risks:</p>
+
+<ul>
+  <li>Deportation and a ban on re-entering the Schengen Area</li>
+  <li>A fine for the employer of up to PLN 30,000</li>
+  <li>No employment law protection and no ZUS social insurance coverage</li>
+</ul>
+
+<p>Working through Nexflow guarantees you are legally employed with full protection under Polish labour law.</p>
+
+<h2>Quick Comparison</h2>
+
+<table>
+<thead>
+<tr><th>Feature</th><th>Oświadczenie (Declaration)</th><th>Zezwolenie Type A (Permit)</th></tr>
+</thead>
+<tbody>
+<tr><td>Countries eligible</td><td>UA, BY, GE, MD, AM, RU</td><td>All nationalities</td></tr>
+<tr><td>Processing time</td><td>A few business days</td><td>Several weeks to months</td></tr>
+<tr><td>Validity</td><td>Up to 24 months</td><td>Up to 3 years</td></tr>
+<tr><td>Who files</td><td>Employer (Nexflow)</td><td>Employer (Nexflow)</td></tr>
+<tr><td>Where</td><td>District employment office</td><td>Voivodeship office</td></tr>
+</tbody>
+</table>
+
+<p>Have questions about your legal status? Reach out to your Nexflow coordinator — we'll walk you through every step of the process.</p>
+    `.trim(),
+  }
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
