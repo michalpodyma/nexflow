@@ -23,9 +23,12 @@ export const metadata: Metadata = {
   },
 };
 
-const LANG_LABEL: Record<"pl" | "de", string> = {
+const LANG_LABEL: Record<string, string> = {
   pl: "PL",
   de: "DE",
+  en: "EN",
+  uk: "UA",
+  ru: "RU",
 };
 
 function formatDate(iso: string): string {

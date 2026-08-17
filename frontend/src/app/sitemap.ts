@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { posts } from "@/data/posts";
+import { posts, getPostsByLang } from "@/data/posts";
 
 const BASE_URL = "https://nexflow.work";
 const LOCALES = ["pl", "en", "de", "nl", "ru", "uk"] as const;
@@ -45,12 +45,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...localeVariants("/polityka-prywatnosci", "yearly", 0.3),
   ];
 
-  const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
-    url: `${BASE_URL}/blog/${post.slug}`,
-    lastModified: new Date(post.date),
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  const blogPages: MetadataRoute.Sitemap = posts
+    .filter((p) => p.lang === "pl" || p.lang === "de")
+    .map((post) => ({
+      url: `${BASE_URL}/blog/${post.slug}`,
+      lastModified: new Date(post.date),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    }));
 
-  return [...localizedPages, ...barePages, ...blogPages];
+  const localeBlogListings: MetadataRoute.Sitemap = (["uk", "ru", "en"] as const).map(
+    (locale) => ({
+      url: `${BASE_URL}/${locale}/blog`,
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })
+  );
+
+  const localeBlogPages: MetadataRoute.Sitemap = (["uk", "ru", "en"] as const).flatMap(
+    (locale) =>
+      getPostsByLang(locale).map((post) => ({
+        url: `${BASE_URL}/${locale}/blog/${post.slug}`,
+        lastModified: new Date(post.date),
+        changeFrequency: "monthly" as const,
+        priority: 0.6,
+      }))
+  );
+
+  return [...localizedPages, ...barePages, ...blogPages, ...localeBlogListings, ...localeBlogPages];
 }
