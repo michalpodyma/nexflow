@@ -336,8 +336,32 @@
       "fb_post_id": "1107760715748033_122126987996808780",
       "published_at": "2026-08-17T07:08:28+0000",
       "sitemap_lastmod": "2026-08-10T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/karta-czasowego-pobytu-praca-polska",
+      "fb_post_id": "1107760715748033_122126989742808780",
+      "published_at": "2026-08-17T00:00:00+0000",
+      "sitemap_lastmod": "2027-02-02T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/karta-czasowego-pobytu-praca-polska-ua",
+      "fb_post_id": "1107760715748033_122126989784808780",
+      "published_at": "2026-08-17T00:00:00+0000",
+      "sitemap_lastmod": "2027-02-09T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/karta-czasowego-pobytu-praca-polska-ru",
+      "fb_post_id": "1107760715748033_122126989832808780",
+      "published_at": "2026-08-17T00:00:00+0000",
+      "sitemap_lastmod": "2027-02-16T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/karta-czasowego-pobytu-praca-polska-en",
+      "fb_post_id": "1107760715748033_122126989886808780",
+      "published_at": "2026-08-17T00:00:00+0000",
+      "sitemap_lastmod": "2027-02-23T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-17T07:08:35Z",
+  "last_run": "2026-08-17T00:00:00Z",
   "pending": []
 }
