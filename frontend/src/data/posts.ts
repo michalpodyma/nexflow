@@ -5732,6 +5732,342 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p><strong>Nexflow</strong> helps temporary workers from around the world find legal employment in Poland and Germany. Have questions about documents and formalities? Contact our team — we're here to help.</p>
     `.trim(),
+  },
+  {
+    slug: "badania-lekarskie-pracownik-tymczasowy-polska",
+    title: "Badania lekarskie dla pracownika tymczasowego w Polsce: co, gdzie i kiedy",
+    description:
+      "Pracujesz przez agencję pracy w Polsce? Sprawdź, jakie badania lekarskie są obowiązkowe, kto je opłaca i co grozi za ich brak.",
+    date: "2027-03-30",
+    lang: "pl",
+    content: `
+<h1>Badania lekarskie dla pracownika tymczasowego w Polsce: co, gdzie i kiedy</h1>
+
+<p>Każdy pracownik zatrudniony w Polsce — niezależnie od tego, czy na umowę o pracę, umowę zlecenie czy przez agencję pracy tymczasowej — ma obowiązek przejść badania lekarskie medycyny pracy przed rozpoczęciem zatrudnienia. To wymóg prawny wynikający z Kodeksu pracy, a jego niedopełnienie może skutkować niedopuszczeniem do pracy.</p>
+
+<h2>Jakie badania lekarskie są obowiązkowe?</h2>
+
+<p>Polskie prawo pracy wyróżnia trzy rodzaje badań lekarskich:</p>
+
+<ul>
+  <li><strong>Wstępne</strong> — przed podjęciem pracy na danym stanowisku (obowiązkowe dla każdego nowego pracownika)</li>
+  <li><strong>Okresowe</strong> — wykonywane co określony czas (zazwyczaj co 1–3 lata, zależnie od stanowiska)</li>
+  <li><strong>Kontrolne</strong> — po chorobie trwającej ponad 30 dni, przed powrotem do pracy</li>
+</ul>
+
+<p>W ramach badań wstępnych lekarz medycyny pracy ocenia, czy pracownik jest zdolny do wykonywania pracy na konkretnym stanowisku, biorąc pod uwagę warunki i zagrożenia opisane w skierowaniu.</p>
+
+<h2>Kto wystawia skierowanie na badania?</h2>
+
+<p>Skierowanie wystawia pracodawca lub — w przypadku agencji pracy tymczasowej — agencja. Skierowanie zawiera:</p>
+
+<ul>
+  <li>nazwę stanowiska pracy</li>
+  <li>opis warunków pracy (praca fizyczna, praca na wysokości, obsługa maszyn, praca w hałasie itp.)</li>
+  <li>informację o rodzaju badania (wstępne / okresowe / kontrolne)</li>
+</ul>
+
+<p><strong>Nexflow</strong> wystawia skierowania swoim pracownikom przed każdym nowym skierowaniem do pracy. Nie musisz samodzielnie kontaktować się z kliniką — agencja wskaże Ci placówkę i termin.</p>
+
+<h2>Gdzie wykonuje się badania?</h2>
+
+<p>Badania medycyny pracy wykonuje się w <strong>przychodniach medycyny pracy</strong> lub u lekarzy posiadających odpowiednie uprawnienia. Lekarz pierwszego kontaktu (rodzinny) <strong>nie może</strong> wystawić zaświadczenia do celów pracowniczych — musi to być lekarz medycyny pracy.</p>
+
+<p>Nexflow współpracuje z siecią przychodni w regionach, w których zatrudniamy pracowników. Podamy Ci adres i godziny otwarcia odpowiedniej placówki wraz ze skierowaniem.</p>
+
+<h2>Kto płaci za badania?</h2>
+
+<p>Zgodnie z polskim Kodeksem pracy, koszt badań lekarskich ponosi <strong>pracodawca</strong> (lub agencja pracy). Pracownik nie płaci za badania wstępne, okresowe ani kontrolne z własnej kieszeni.</p>
+
+<blockquote><p><strong>Ważne:</strong> Jeśli ktokolwiek prosi Cię o opłacenie badań lekarskich przed zatrudnieniem przez agencję — to nieprawidłowa praktyka. Zgłoś to do Nexflow lub Państwowej Inspekcji Pracy.</p></blockquote>
+
+<h2>Co zawiera orzeczenie lekarskie?</h2>
+
+<p>Po badaniu lekarz wystawia <strong>orzeczenie lekarskie</strong> (zaświadczenie o braku przeciwwskazań zdrowotnych do pracy na danym stanowisku). Orzeczenie zawiera:</p>
+
+<ul>
+  <li>imię i nazwisko pracownika</li>
+  <li>nazwę stanowiska</li>
+  <li>stwierdzenie braku lub istnienia przeciwwskazań</li>
+  <li>datę następnego badania (jeśli dotyczy)</li>
+</ul>
+
+<p>Orzeczenie dostarcza się pracodawcy — pracownik zachowuje kopię dla siebie.</p>
+
+<h2>Czy badania z poprzedniego miejsca pracy są ważne?</h2>
+
+<p>Co do zasady — <strong>nie</strong>. Każda zmiana pracodawcy lub stanowiska wymaga nowych badań wstępnych. Wyjątek stanowi sytuacja, gdy:</p>
+
+<ul>
+  <li>pracownik zmienia pracodawcę w trakcie ważności orzeczenia <strong>i</strong></li>
+  <li>nowe warunki pracy są identyczne jak poprzednie <strong>i</strong></li>
+  <li>nowy pracodawca wyrazi zgodę na honorowanie dotychczasowego orzeczenia</li>
+</ul>
+
+<p>W praktyce agencje pracy tymczasowej najczęściej kierują pracownika na nowe badania przy każdej zmianie miejsca pracy, żeby uniknąć wątpliwości.</p>
+
+<h2>Co grozi za brak badań?</h2>
+
+<p>Dopuszczenie pracownika do pracy bez aktualnego orzeczenia lekarskiego jest wykroczeniem i może skutkować karą grzywny dla pracodawcy. Pracownik bez ważnych badań nie może legalnie wykonywać pracy — w razie wypadku przy pracy brak badań może wpłynąć na wypłatę odszkodowania.</p>
+
+<h2>Podsumowanie</h2>
+
+<p>Badania lekarskie medycyny pracy są obowiązkowe, bezpłatne dla pracownika i organizowane przez agencję lub pracodawcę. Nexflow zapewnia swoim pracownikom skierowania, wskazuje placówki i pilnuje terminów, żebyś mógł/mogła bezpiecznie zacząć pracę na czas.</p>
+
+<p>Masz pytania dotyczące badań lub dokumentów? Skontaktuj się z naszym zespołem — jesteśmy tutaj, żeby pomóc.</p>
+    `.trim(),
+  },
+  {
+    slug: "medychni-dovidky-pratsivnyk-polshcha",
+    title: "Медичні довідки для тимчасового працівника в Польщі: що, де і коли",
+    description:
+      "Працюєш через агентство в Польщі? Дізнайся, які медичні обстеження є обов'язковими, хто за них платить і що буде, якщо їх не пройти.",
+    date: "2027-04-06",
+    lang: "uk",
+    content: `
+<h1>Медичні довідки для тимчасового працівника в Польщі: що, де і коли</h1>
+
+<p>Кожен працівник, який офіційно влаштовується в Польщі — незалежно від типу контракту чи через агентство тимчасової праці — зобов'язаний пройти медичний огляд у лікаря медицини праці перед початком роботи. Це вимога польського Кодексу праці, і без дійсного медичного висновку роботодавець не має права допустити тебе до роботи.</p>
+
+<h2>Які медичні огляди є обов'язковими?</h2>
+
+<p>Польське трудове законодавство передбачає три види медичних оглядів:</p>
+
+<ul>
+  <li><strong>Вступний</strong> — перед початком роботи на конкретній посаді (обов'язковий для кожного нового працівника)</li>
+  <li><strong>Періодичний</strong> — проводиться через визначені проміжки часу (зазвичай кожні 1–3 роки залежно від посади)</li>
+  <li><strong>Контрольний</strong> — після лікарняного, що тривав понад 30 днів, перед поверненням на роботу</li>
+</ul>
+
+<p>Під час вступного огляду лікар медицини праці оцінює, чи здатний працівник виконувати роботу на конкретній посаді з урахуванням умов і ризиків, зазначених у направленні.</p>
+
+<h2>Хто видає направлення на огляд?</h2>
+
+<p>Направлення видає роботодавець або — у разі агентства тимчасової праці — саме агентство. У направленні зазначаються:</p>
+
+<ul>
+  <li>назва посади</li>
+  <li>опис умов праці (фізична праця, робота на висоті, робота з машинами, шумове навантаження тощо)</li>
+  <li>вид огляду (вступний / періодичний / контрольний)</li>
+</ul>
+
+<p><strong>Nexflow</strong> видає направлення своїм працівникам перед кожним новим направленням на роботу. Тобі не потрібно самостійно шукати клініку — агентство вкаже заклад і зручний час прийому.</p>
+
+<h2>Де проходити огляд?</h2>
+
+<p>Медичні огляди для потреб праці проводять у <strong>клініках медицини праці</strong> або у лікарів із відповідною спеціалізацією. Сімейний лікар (лікар загальної практики) <strong>не може</strong> видати висновок для трудових цілей — це може зробити лише лікар медицини праці.</p>
+
+<p>Nexflow співпрацює з мережею клінік у регіонах, де ми наймаємо працівників. Адресу та графік роботи відповідного закладу ми повідомимо разом із направленням.</p>
+
+<h2>Хто платить за огляди?</h2>
+
+<p>Відповідно до польського Кодексу праці, витрати на медичні огляди несе <strong>роботодавець</strong> (або агентство). Працівник не сплачує за вступні, періодичні чи контрольні огляди зі своєї кишені.</p>
+
+<blockquote><p><strong>Важливо:</strong> Якщо хтось просить тебе оплатити медогляд перед працевлаштуванням через агентство — це неправомірна практика. Повідом про це в Nexflow або до Державної інспекції праці (PIP).</p></blockquote>
+
+<h2>Що міститься у медичному висновку?</h2>
+
+<p>Після огляду лікар видає <strong>медичний висновок</strong> (zaświadczenie lekarskie) про відсутність протипоказань до роботи на відповідній посаді. У документі зазначаються:</p>
+
+<ul>
+  <li>ім'я та прізвище працівника</li>
+  <li>назва посади</li>
+  <li>висновок про відсутність або наявність протипоказань</li>
+  <li>дата наступного огляду (якщо потрібно)</li>
+</ul>
+
+<p>Оригінал висновку передається роботодавцю — копія залишається у працівника.</p>
+
+<h2>Чи дійсні довідки з попереднього місця роботи?</h2>
+
+<p>Як правило — <strong>ні</strong>. Кожна зміна роботодавця або посади вимагає нового вступного огляду. Виняток можливий, якщо:</p>
+
+<ul>
+  <li>термін дії попереднього висновку ще не минув <strong>і</strong></li>
+  <li>умови праці на новому місці ідентичні попередньому <strong>і</strong></li>
+  <li>новий роботодавець погоджується прийняти попередній висновок</li>
+</ul>
+
+<p>На практиці агентства тимчасової праці зазвичай направляють працівника на новий огляд при кожній зміні місця роботи, щоб уникнути непорозумінь.</p>
+
+<h2>Що буде, якщо нема медогляду?</h2>
+
+<p>Допуск працівника до роботи без дійсного медичного висновку є адміністративним правопорушенням і може потягнути за собою штраф для роботодавця. Працівник без актуального огляду не може законно виконувати роботу — у разі нещасного випадку на виробництві відсутність медогляду може вплинути на виплату компенсації.</p>
+
+<h2>Підсумок</h2>
+
+<p>Медичні огляди в рамках медицини праці обов'язкові, безкоштовні для працівника та організовуються агентством або роботодавцем. Nexflow забезпечує своїх працівників направленнями, вказує клініки і стежить за термінами, щоб ти міг/могла безпечно розпочати роботу вчасно.</p>
+
+<p>Маєш запитання щодо медоглядів або документів? Звернися до нашої команди — ми тут, щоб допомогти.</p>
+    `.trim(),
+  },
+  {
+    slug: "medicinskaya-spravka-rabotnik-polsha",
+    title: "Медицинская справка для временного работника в Польше: что, где и когда",
+    description:
+      "Работаешь через агентство в Польше? Узнай, какие медосмотры обязательны, кто за них платит и что будет, если их не пройти.",
+    date: "2027-04-13",
+    lang: "ru",
+    content: `
+<h1>Медицинская справка для временного работника в Польше: что, где и когда</h1>
+
+<p>Каждый работник, официально трудоустраивающийся в Польше — независимо от типа контракта или через агентство временного труда — обязан пройти медицинский осмотр у врача медицины труда перед началом работы. Это требование польского Трудового кодекса, и без действующего медицинского заключения работодатель не вправе допустить тебя к работе.</p>
+
+<h2>Какие медосмотры обязательны?</h2>
+
+<p>Польское трудовое законодательство предусматривает три вида медицинских осмотров:</p>
+
+<ul>
+  <li><strong>Предварительный (wstępny)</strong> — перед началом работы на конкретной должности (обязателен для каждого нового работника)</li>
+  <li><strong>Периодический (okresowy)</strong> — проводится через установленные промежутки времени (как правило, каждые 1–3 года в зависимости от должности)</li>
+  <li><strong>Контрольный (kontrolny)</strong> — после больничного, длившегося более 30 дней, перед возвращением на работу</li>
+</ul>
+
+<p>В ходе предварительного осмотра врач медицины труда оценивает, способен ли работник выполнять работу на конкретной должности с учётом условий труда и рисков, указанных в направлении.</p>
+
+<h2>Кто выдаёт направление на осмотр?</h2>
+
+<p>Направление выдаёт работодатель или — в случае агентства временного труда — само агентство. В направлении указываются:</p>
+
+<ul>
+  <li>название должности</li>
+  <li>описание условий труда (физический труд, работа на высоте, работа с машинами, шумовое воздействие и т.д.)</li>
+  <li>вид осмотра (предварительный / периодический / контрольный)</li>
+</ul>
+
+<p><strong>Nexflow</strong> выдаёт направления своим работникам перед каждым новым направлением на работу. Тебе не нужно самостоятельно искать клинику — агентство укажет медицинское учреждение и удобное время приёма.</p>
+
+<h2>Где проходить осмотр?</h2>
+
+<p>Медосмотры для трудовых целей проводятся в <strong>клиниках медицины труда</strong> или у врачей с соответствующей специализацией. Семейный врач (врач общей практики) <strong>не может</strong> выдать заключение для трудовых целей — это вправе сделать только врач медицины труда.</p>
+
+<p>Nexflow сотрудничает с сетью клиник в регионах, где мы нанимаем работников. Адрес и расписание работы нужного учреждения мы сообщим вместе с направлением.</p>
+
+<h2>Кто платит за осмотры?</h2>
+
+<p>В соответствии с польским Трудовым кодексом расходы на медицинские осмотры несёт <strong>работодатель</strong> (или агентство). Работник не оплачивает предварительные, периодические или контрольные осмотры из собственного кармана.</p>
+
+<blockquote><p><strong>Важно:</strong> Если кто-либо просит тебя оплатить медосмотр перед трудоустройством через агентство — это неправомерная практика. Сообщи об этом в Nexflow или в Государственную инспекцию труда (PIP).</p></blockquote>
+
+<h2>Что содержится в медицинском заключении?</h2>
+
+<p>После осмотра врач выдаёт <strong>медицинское заключение</strong> (orzeczenie lekarskie) об отсутствии противопоказаний к работе на соответствующей должности. В документе указываются:</p>
+
+<ul>
+  <li>имя и фамилия работника</li>
+  <li>название должности</li>
+  <li>вывод об отсутствии или наличии противопоказаний</li>
+  <li>дата следующего осмотра (если необходимо)</li>
+</ul>
+
+<p>Оригинал заключения передаётся работодателю — копия остаётся у работника.</p>
+
+<h2>Действительны ли справки с предыдущего места работы?</h2>
+
+<p>Как правило — <strong>нет</strong>. Каждая смена работодателя или должности требует нового предварительного осмотра. Исключение возможно, если:</p>
+
+<ul>
+  <li>срок действия предыдущего заключения ещё не истёк <strong>и</strong></li>
+  <li>условия труда на новом месте идентичны предыдущему <strong>и</strong></li>
+  <li>новый работодатель соглашается принять предыдущее заключение</li>
+</ul>
+
+<p>На практике агентства временного труда, как правило, направляют работника на новый осмотр при каждой смене места работы, чтобы избежать недоразумений.</p>
+
+<h2>Что будет, если нет медосмотра?</h2>
+
+<p>Допуск работника к работе без действующего медицинского заключения является административным правонарушением и может повлечь штраф для работодателя. Работник без актуального осмотра не может законно выполнять работу — в случае несчастного случая на производстве отсутствие медосмотра может повлиять на выплату компенсации.</p>
+
+<h2>Итог</h2>
+
+<p>Медицинские осмотры в рамках медицины труда обязательны, бесплатны для работника и организуются агентством или работодателем. Nexflow обеспечивает своих работников направлениями, указывает клиники и следит за сроками, чтобы ты мог/могла безопасно приступить к работе вовремя.</p>
+
+<p>Есть вопросы по медосмотрам или документам? Обратись к нашей команде — мы здесь, чтобы помочь.</p>
+    `.trim(),
+  },
+  {
+    slug: "occupational-health-check-temp-worker-poland",
+    title: "Occupational Health Check for Temp Workers in Poland: What, Where and When",
+    description:
+      "Working through a staffing agency in Poland? Learn which medical examinations are mandatory, who pays for them, and what happens if you skip them.",
+    date: "2027-04-20",
+    lang: "en",
+    content: `
+<h1>Occupational Health Check for Temp Workers in Poland: What, Where and When</h1>
+
+<p>Every worker legally employed in Poland — regardless of contract type or whether they are placed through a temporary staffing agency — is required to undergo an occupational health examination before starting work. This is a legal obligation under the Polish Labour Code, and without a valid medical certificate your employer cannot lawfully allow you to begin work.</p>
+
+<h2>Which Medical Examinations Are Mandatory?</h2>
+
+<p>Polish labour law provides for three types of occupational health examinations:</p>
+
+<ul>
+  <li><strong>Pre-employment (wstępne)</strong> — required before starting work in any new position (mandatory for every new employee)</li>
+  <li><strong>Periodic (okresowe)</strong> — carried out at regular intervals (typically every 1–3 years depending on the role)</li>
+  <li><strong>Post-sick-leave (kontrolne)</strong> — required after sick leave lasting more than 30 consecutive days, before returning to work</li>
+</ul>
+
+<p>During the pre-employment examination, the occupational health physician assesses whether the worker is fit to perform the duties of the specific role, taking into account the working conditions and hazards described in the referral.</p>
+
+<h2>Who Issues the Referral?</h2>
+
+<p>The referral is issued by the employer or — in the case of a temporary staffing agency — by the agency itself. The referral includes:</p>
+
+<ul>
+  <li>the job title and position</li>
+  <li>a description of working conditions (physical labour, working at height, operating machinery, noise exposure, etc.)</li>
+  <li>the type of examination (pre-employment / periodic / post-sick-leave)</li>
+</ul>
+
+<p><strong>Nexflow</strong> issues referrals to its workers before every new placement. You do not need to arrange the clinic yourself — the agency will provide you with the address and appointment details.</p>
+
+<h2>Where Are Examinations Carried Out?</h2>
+
+<p>Occupational health examinations must be carried out at <strong>occupational medicine clinics</strong> or by physicians holding the required specialist qualifications. A GP or family doctor <strong>cannot</strong> issue a certificate for employment purposes — only a qualified occupational health physician can do so.</p>
+
+<p>Nexflow works with a network of clinics in the regions where we employ workers. We will give you the address and opening hours of the relevant clinic together with your referral.</p>
+
+<h2>Who Pays for the Examination?</h2>
+
+<p>Under the Polish Labour Code, the cost of occupational health examinations is borne by the <strong>employer</strong> (or the staffing agency). Workers do not pay out of pocket for pre-employment, periodic, or post-sick-leave examinations.</p>
+
+<blockquote><p><strong>Important:</strong> If anyone asks you to pay for a medical examination before being placed in work through an agency — that is an improper practice. Report it to Nexflow or to the National Labour Inspectorate (Państwowa Inspekcja Pracy — PIP).</p></blockquote>
+
+<h2>What Does the Medical Certificate Contain?</h2>
+
+<p>After the examination, the physician issues a <strong>medical certificate</strong> (orzeczenie lekarskie) stating that the worker has no health contraindications to performing work in the specified role. The document includes:</p>
+
+<ul>
+  <li>the worker's full name</li>
+  <li>the job title</li>
+  <li>a finding of no contraindications (or the opposite, if applicable)</li>
+  <li>the date of the next required examination (where relevant)</li>
+</ul>
+
+<p>The original certificate is provided to the employer; the worker keeps a copy for their own records.</p>
+
+<h2>Are Certificates from a Previous Employer Valid?</h2>
+
+<p>As a general rule — <strong>no</strong>. Every change of employer or role requires a new pre-employment examination. An exception may apply if:</p>
+
+<ul>
+  <li>the previous certificate is still within its validity period <strong>and</strong></li>
+  <li>the working conditions at the new position are identical to those at the previous one <strong>and</strong></li>
+  <li>the new employer explicitly agrees to accept the existing certificate</li>
+</ul>
+
+<p>In practice, staffing agencies typically arrange a new examination each time a worker moves to a different workplace to avoid any ambiguity.</p>
+
+<h2>What Happens If You Don't Have a Valid Certificate?</h2>
+
+<p>Allowing a worker to start work without a valid occupational health certificate is a regulatory offence and can result in a fine for the employer. A worker without an up-to-date certificate cannot legally perform work — and in the event of a workplace accident, the absence of a valid certificate may affect entitlement to compensation.</p>
+
+<h2>Summary</h2>
+
+<p>Occupational health examinations are mandatory, free of charge for the worker, and arranged by the agency or employer. Nexflow provides its workers with referrals, directs them to the appropriate clinic, and tracks deadlines so you can start work safely and on time.</p>
+
+<p>Have questions about medical checks or other employment documents? Get in touch with our team — we're here to help.</p>
+    `.trim(),
   }
 ];
 
