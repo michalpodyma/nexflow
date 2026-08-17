@@ -6068,6 +6068,667 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p>Have questions about medical checks or other employment documents? Get in touch with our team — we're here to help.</p>
     `.trim(),
+  },
+  {
+    slug: "podstawowe-zwroty-magazyn-polska",
+    title:
+      "Podstawowe zwroty i słownictwo na magazynie w Polsce – przewodnik dla cudzoziemców",
+    description:
+      "Najważniejsze polskie zwroty i słownictwo na magazynie – powitania, BHP, narzędzia, czynności i komunikacja z przełożonym. Praktyczny przewodnik dla cudzoziemców pracujących w Polsce.",
+    date: "2027-04-27",
+    lang: "pl",
+    content: `
+<h1>Podstawowe zwroty i słownictwo na magazynie w Polsce – przewodnik dla cudzoziemców</h1>
+
+<p>Jeśli zaczynasz pracę w polskim magazynie lub centrum logistycznym, kilkadziesiąt kluczowych słów może zdecydować o Twoim bezpieczeństwie i komforcie. Ten przewodnik zawiera najważniejsze polskie wyrażenia używane codziennie w pracy magazynowej – z wymową i kontekstem użycia.</p>
+
+<h2>Dlaczego warto znać podstawy po polsku?</h2>
+
+<p>W polskich magazynach pracuje coraz więcej cudzoziemców. Znajomość języka polskiego nie jest wymagana na każdym stanowisku, ale podstawowe słownictwo pomaga:</p>
+<ul>
+  <li>rozumieć komunikaty BHP i zapewnić sobie bezpieczeństwo</li>
+  <li>sprawnie komunikować się z przełożonymi i współpracownikami</li>
+  <li>szybciej adaptować się w nowym miejscu pracy</li>
+  <li>zwiększyć szanse na przedłużenie umowy lub awans</li>
+</ul>
+
+<h2>Powitania i codzienne zwroty</h2>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Wymowa (uproszczona)</th><th>Znaczenie</th></tr></thead>
+  <tbody>
+    <tr><td>Dzień dobry</td><td>djeń DOB-ry</td><td>Good morning / Good day</td></tr>
+    <tr><td>Cześć</td><td>cheshch</td><td>Hi / Hello (nieformalne)</td></tr>
+    <tr><td>Do widzenia</td><td>do vi-DZE-nya</td><td>Goodbye</td></tr>
+    <tr><td>Przepraszam</td><td>pshep-RA-sham</td><td>Excuse me / Sorry</td></tr>
+    <tr><td>Dziękuję</td><td>dzhen-KU-ye</td><td>Thank you</td></tr>
+    <tr><td>Proszę</td><td>PRO-she</td><td>Please / Here you are</td></tr>
+    <tr><td>Nie rozumiem</td><td>nye ro-ZU-myem</td><td>I do not understand</td></tr>
+    <tr><td>Proszę powtórzyć</td><td>PRO-she pov-TU-zhych</td><td>Please repeat</td></tr>
+    <tr><td>Proszę mówić wolniej</td><td>PRO-she MU-vich VOL-nyey</td><td>Please speak slower</td></tr>
+    <tr><td>Tak / Nie</td><td>tak / nye</td><td>Yes / No</td></tr>
+  </tbody>
+</table>
+
+<h2>Słownictwo magazynowe – miejsca i strefy</h2>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Znaczenie (EN)</th></tr></thead>
+  <tbody>
+    <tr><td>magazyn</td><td>warehouse</td></tr>
+    <tr><td>hala produkcyjna</td><td>production hall</td></tr>
+    <tr><td>strefa załadunku</td><td>loading zone</td></tr>
+    <tr><td>strefa rozładunku</td><td>unloading zone</td></tr>
+    <tr><td>strefa składowania</td><td>storage zone</td></tr>
+    <tr><td>rampa</td><td>loading dock / ramp</td></tr>
+    <tr><td>regał</td><td>shelf / rack</td></tr>
+    <tr><td>korytarz / alejka</td><td>aisle / corridor</td></tr>
+    <tr><td>biuro</td><td>office</td></tr>
+    <tr><td>szatnia</td><td>changing room / locker room</td></tr>
+    <tr><td>stołówka</td><td>canteen / cafeteria</td></tr>
+    <tr><td>toaleta / WC</td><td>restroom / toilet</td></tr>
+    <tr><td>wyjście ewakuacyjne</td><td>emergency exit</td></tr>
+    <tr><td>punkt pierwszej pomocy</td><td>first aid station</td></tr>
+  </tbody>
+</table>
+
+<h2>Urządzenia i sprzęt</h2>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Znaczenie (EN)</th></tr></thead>
+  <tbody>
+    <tr><td>wózek widłowy</td><td>forklift</td></tr>
+    <tr><td>wózek paletowy / paleciak</td><td>pallet jack / hand pallet truck</td></tr>
+    <tr><td>przenośnik taśmowy</td><td>conveyor belt</td></tr>
+    <tr><td>skaner</td><td>scanner</td></tr>
+    <tr><td>czytnik kodów kreskowych</td><td>barcode reader</td></tr>
+    <tr><td>drukarka</td><td>printer</td></tr>
+    <tr><td>paleta</td><td>pallet</td></tr>
+    <tr><td>karton / pudełko</td><td>carton / box</td></tr>
+    <tr><td>folia stretch</td><td>stretch wrap film</td></tr>
+    <tr><td>taśma pakowa</td><td>packing tape</td></tr>
+    <tr><td>nożyk</td><td>box cutter / knife</td></tr>
+    <tr><td>rękawice ochronne</td><td>protective gloves</td></tr>
+  </tbody>
+</table>
+
+<h2>Czynności i zadania</h2>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Znaczenie (EN)</th></tr></thead>
+  <tbody>
+    <tr><td>kompletowanie zamówień / picking</td><td>order picking</td></tr>
+    <tr><td>pakowanie</td><td>packing</td></tr>
+    <tr><td>załadunek</td><td>loading</td></tr>
+    <tr><td>rozładunek</td><td>unloading</td></tr>
+    <tr><td>przyjęcie towaru</td><td>goods receiving</td></tr>
+    <tr><td>wysyłka / ekspedycja</td><td>dispatch / shipping</td></tr>
+    <tr><td>sortowanie</td><td>sorting</td></tr>
+    <tr><td>etykietowanie</td><td>labeling</td></tr>
+    <tr><td>skanowanie</td><td>scanning</td></tr>
+    <tr><td>kontrola jakości</td><td>quality control</td></tr>
+    <tr><td>inwentaryzacja</td><td>inventory count</td></tr>
+    <tr><td>przepakowanie</td><td>repackaging</td></tr>
+  </tbody>
+</table>
+
+<h2>Zwroty BHP i bezpieczeństwo</h2>
+
+<p>Komunikaty bezpieczeństwa to priorytet – ich zrozumienie może uratować zdrowie lub życie.</p>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Znaczenie (EN)</th></tr></thead>
+  <tbody>
+    <tr><td>Uwaga!</td><td>Caution! / Watch out!</td></tr>
+    <tr><td>Niebezpieczeństwo!</td><td>Danger!</td></tr>
+    <tr><td>Zakaz wstępu</td><td>No entry</td></tr>
+    <tr><td>Tylko dla personelu</td><td>Staff only</td></tr>
+    <tr><td>Noś kask ochronny</td><td>Wear a hard hat</td></tr>
+    <tr><td>Noś kamizelkę odblaskową</td><td>Wear a reflective vest</td></tr>
+    <tr><td>Noś buty ochronne</td><td>Wear safety shoes</td></tr>
+    <tr><td>Alarm pożarowy!</td><td>Fire alarm!</td></tr>
+    <tr><td>Ewakuacja!</td><td>Evacuation!</td></tr>
+    <tr><td>Zadzwoń po pomoc!</td><td>Call for help!</td></tr>
+    <tr><td>Miałem wypadek</td><td>I had an accident</td></tr>
+    <tr><td>Potrzebuję lekarza</td><td>I need a doctor</td></tr>
+    <tr><td>Apteczka</td><td>First aid kit</td></tr>
+    <tr><td>Gaśnica</td><td>Fire extinguisher</td></tr>
+  </tbody>
+</table>
+
+<h2>Komunikacja z przełożonym</h2>
+
+<p>Kilka zdań, które warto znać podczas rozmowy z kierownikiem zmiany:</p>
+
+<ul>
+  <li><strong>"Co mam teraz robić?"</strong> – What should I do now?</li>
+  <li><strong>"Potrzebuję pomocy."</strong> – I need help.</li>
+  <li><strong>"Skaner nie działa."</strong> – The scanner is not working.</li>
+  <li><strong>"Wózek jest uszkodzony."</strong> – The forklift/pallet jack is damaged.</li>
+  <li><strong>"Czy mogę skorzystać z przerwy?"</strong> – Can I take a break?</li>
+  <li><strong>"Źle się czuję."</strong> – I feel unwell.</li>
+  <li><strong>"Nie rozumiem instrukcji. Proszę pokazać."</strong> – I do not understand the instructions. Please show me.</li>
+  <li><strong>"Jutro nie przyjdę – jestem chory/chora."</strong> – I will not come tomorrow – I am sick.</li>
+</ul>
+
+<h2>Czas pracy – słownictwo</h2>
+
+<table>
+  <thead><tr><th>Po polsku</th><th>Znaczenie (EN)</th></tr></thead>
+  <tbody>
+    <tr><td>zmiana poranna (ranna)</td><td>morning shift</td></tr>
+    <tr><td>zmiana popołudniowa</td><td>afternoon shift</td></tr>
+    <tr><td>zmiana nocna</td><td>night shift</td></tr>
+    <tr><td>przerwa</td><td>break</td></tr>
+    <tr><td>nadgodziny</td><td>overtime</td></tr>
+    <tr><td>grafik</td><td>schedule / rota</td></tr>
+    <tr><td>urlop</td><td>annual leave / vacation</td></tr>
+    <tr><td>zwolnienie lekarskie / L4</td><td>sick leave</td></tr>
+    <tr><td>nieobecność</td><td>absence</td></tr>
+  </tbody>
+</table>
+
+<h2>Liczby i pomiar – przydatne w magazynie</h2>
+
+<table>
+  <thead><tr><th>Liczba</th><th>Po polsku</th><th>Wymowa</th></tr></thead>
+  <tbody>
+    <tr><td>1</td><td>jeden</td><td>YE-den</td></tr>
+    <tr><td>2</td><td>dwa</td><td>dva</td></tr>
+    <tr><td>3</td><td>trzy</td><td>tshy</td></tr>
+    <tr><td>5</td><td>pięć</td><td>pyench</td></tr>
+    <tr><td>10</td><td>dziesięć</td><td>DZhE-shench</td></tr>
+    <tr><td>100</td><td>sto</td><td>sto</td></tr>
+    <tr><td>kilogram (kg)</td><td>kilogram</td><td>ki-LO-gram</td></tr>
+    <tr><td>sztuka (szt.)</td><td>piece / unit</td><td>–</td></tr>
+    <tr><td>karton (krt.)</td><td>carton</td><td>–</td></tr>
+  </tbody>
+</table>
+
+<h2>Jak uczyć się szybciej?</h2>
+
+<p>Kilka sprawdzonych sposobów na naukę polskiego słownictwa magazynowego:</p>
+<ul>
+  <li><strong>Przyklejaj etykiety</strong> – oznacz nazwy przedmiotów w miejscu pracy (jeśli możesz).</li>
+  <li><strong>Aplikacja Duolingo</strong> – kurs polskiego dostępny w języku ukraińskim i rosyjskim.</li>
+  <li><strong>Google Translate z aparatem</strong> – skanuj tablice i napisy, by poznać ich znaczenie.</li>
+  <li><strong>Ucz się 5 słów dziennie</strong> – po miesiącu będziesz znać 150 przydatnych wyrażeń.</li>
+  <li><strong>Rozmawiaj z kolegami</strong> – polscy współpracownicy zwykle chętnie pomagają.</li>
+</ul>
+
+<h2>Nexflow – praca w Polsce z wsparciem w Twoim języku</h2>
+
+<p>Nexflow to agencja pracy tymczasowej specjalizująca się w zatrudnieniu pracowników z Ukrainy i innych krajów w Polsce. Zapewniamy wsparcie w języku ukraińskim, rosyjskim i angielskim na każdym etapie – od rekrutacji, przez formalności legalizacyjne, po codzienną pracę.</p>
+
+<p>Masz pytania? Skontaktuj się z nami.</p>
+    `.trim(),
+  },
+  {
+    slug: "bazovi-frazy-sklad-polshcha",
+    title:
+      "Базові фрази та словник на складі в Польщі — посібник для іноземних працівників",
+    description:
+      "Найважливіші польські фрази та словник для роботи на складі — привітання, охорона праці, обладнання, операції та спілкування з керівником. Практичний посібник для іноземних працівників у Польщі.",
+    date: "2027-05-04",
+    lang: "uk",
+    content: `
+<h1>Базові фрази та словник на складі в Польщі — посібник для іноземних працівників</h1>
+
+<p>Якщо ви починаєте роботу на польському складі або в логістичному центрі, знання кількох десятків ключових слів може вирішити питання вашої безпеки та комфорту. Цей посібник містить найважливіші польські вирази, які щодня вживаються в складській роботі — з вимовою та контекстом використання.</p>
+
+<h2>Чому варто знати основи польської?</h2>
+
+<p>На польських складах працює дедалі більше іноземців. Знання польської не є обов'язковим на кожній посаді, але базова лексика допомагає:</p>
+<ul>
+  <li>розуміти інструкції з охорони праці та забезпечити власну безпеку</li>
+  <li>ефективно спілкуватися з керівниками та колегами</li>
+  <li>швидше адаптуватися на новому місці роботи</li>
+  <li>збільшити шанси на продовження контракту або підвищення</li>
+</ul>
+
+<h2>Привітання та щоденні фрази</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Вимова</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>Dzień dobry</td><td>джень ДОБ-ри</td><td>Добрий день</td></tr>
+    <tr><td>Cześć</td><td>чешч</td><td>Привіт (неформально)</td></tr>
+    <tr><td>Do widzenia</td><td>до ві-ДЗЕ-ня</td><td>До побачення</td></tr>
+    <tr><td>Przepraszam</td><td>пшеп-РА-шам</td><td>Вибачте</td></tr>
+    <tr><td>Dziękuję</td><td>джен-КУ-є</td><td>Дякую</td></tr>
+    <tr><td>Proszę</td><td>ПРО-ше</td><td>Будь ласка</td></tr>
+    <tr><td>Nie rozumiem</td><td>не ро-ЗУ-мєм</td><td>Я не розумію</td></tr>
+    <tr><td>Proszę powtórzyć</td><td>ПРО-ше пов-ТУ-жич</td><td>Будь ласка, повторіть</td></tr>
+    <tr><td>Proszę mówić wolniej</td><td>ПРО-ше МУ-віч ВОЛ-ньєй</td><td>Говоріть повільніше</td></tr>
+    <tr><td>Tak / Nie</td><td>так / не</td><td>Так / Ні</td></tr>
+  </tbody>
+</table>
+
+<h2>Словник складу — місця та зони</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>magazyn</td><td>склад</td></tr>
+    <tr><td>hala produkcyjna</td><td>виробничий цех</td></tr>
+    <tr><td>strefa załadunku</td><td>зона завантаження</td></tr>
+    <tr><td>strefa rozładunku</td><td>зона розвантаження</td></tr>
+    <tr><td>strefa składowania</td><td>зона зберігання</td></tr>
+    <tr><td>rampa</td><td>рампа / вантажна платформа</td></tr>
+    <tr><td>regał</td><td>стелаж</td></tr>
+    <tr><td>korytarz / alejka</td><td>коридор / прохід</td></tr>
+    <tr><td>biuro</td><td>офіс</td></tr>
+    <tr><td>szatnia</td><td>роздягальня</td></tr>
+    <tr><td>stołówka</td><td>їдальня</td></tr>
+    <tr><td>wyjście ewakuacyjne</td><td>евакуаційний вихід</td></tr>
+    <tr><td>punkt pierwszej pomocy</td><td>пункт першої допомоги</td></tr>
+  </tbody>
+</table>
+
+<h2>Обладнання та інструменти</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>wózek widłowy</td><td>навантажувач</td></tr>
+    <tr><td>wózek paletowy / paleciak</td><td>палетний візок</td></tr>
+    <tr><td>przenośnik taśmowy</td><td>стрічковий конвеєр</td></tr>
+    <tr><td>skaner</td><td>сканер</td></tr>
+    <tr><td>czytnik kodów kreskowych</td><td>зчитувач штрих-кодів</td></tr>
+    <tr><td>drukarka</td><td>принтер</td></tr>
+    <tr><td>paleta</td><td>піддон / палета</td></tr>
+    <tr><td>karton / pudełko</td><td>картон / коробка</td></tr>
+    <tr><td>folia stretch</td><td>стретч-плівка</td></tr>
+    <tr><td>taśma pakowa</td><td>пакувальна стрічка</td></tr>
+    <tr><td>nożyk</td><td>ніж / канцелярський ніж</td></tr>
+    <tr><td>rękawice ochronne</td><td>захисні рукавиці</td></tr>
+  </tbody>
+</table>
+
+<h2>Завдання та операції</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>kompletowanie zamówień</td><td>комплектація замовлень</td></tr>
+    <tr><td>pakowanie</td><td>пакування</td></tr>
+    <tr><td>załadunek</td><td>завантаження</td></tr>
+    <tr><td>rozładunek</td><td>розвантаження</td></tr>
+    <tr><td>przyjęcie towaru</td><td>приймання товару</td></tr>
+    <tr><td>wysyłka</td><td>відправка</td></tr>
+    <tr><td>sortowanie</td><td>сортування</td></tr>
+    <tr><td>etykietowanie</td><td>маркування</td></tr>
+    <tr><td>kontrola jakości</td><td>контроль якості</td></tr>
+    <tr><td>inwentaryzacja</td><td>інвентаризація</td></tr>
+  </tbody>
+</table>
+
+<h2>Охорона праці та безпека</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>Uwaga!</td><td>Увага! / Обережно!</td></tr>
+    <tr><td>Niebezpieczeństwo!</td><td>Небезпека!</td></tr>
+    <tr><td>Zakaz wstępu</td><td>Вхід заборонено</td></tr>
+    <tr><td>Tylko dla personelu</td><td>Тільки для персоналу</td></tr>
+    <tr><td>Noś kask ochronny</td><td>Носіть захисну каску</td></tr>
+    <tr><td>Noś buty ochronne</td><td>Носіть захисне взуття</td></tr>
+    <tr><td>Alarm pożarowy!</td><td>Пожежна тривога!</td></tr>
+    <tr><td>Ewakuacja!</td><td>Евакуація!</td></tr>
+    <tr><td>Miałem wypadek</td><td>Зі мною стався нещасний випадок</td></tr>
+    <tr><td>Potrzebuję lekarza</td><td>Мені потрібен лікар</td></tr>
+  </tbody>
+</table>
+
+<h2>Спілкування з керівником</h2>
+
+<ul>
+  <li><strong>"Co mam teraz robić?"</strong> — Що мені зараз робити?</li>
+  <li><strong>"Potrzebuję pomocy."</strong> — Мені потрібна допомога.</li>
+  <li><strong>"Skaner nie działa."</strong> — Сканер не працює.</li>
+  <li><strong>"Czy mogę skorzystać z przerwy?"</strong> — Чи можу я взяти перерву?</li>
+  <li><strong>"Źle się czuję."</strong> — Я погано себе почуваю.</li>
+  <li><strong>"Nie rozumiem. Proszę pokazać."</strong> — Я не розумію. Будь ласка, покажіть.</li>
+</ul>
+
+<h2>Графік роботи</h2>
+
+<table>
+  <thead><tr><th>По-польськи</th><th>Значення (UA)</th></tr></thead>
+  <tbody>
+    <tr><td>zmiana poranna</td><td>ранкова зміна</td></tr>
+    <tr><td>zmiana nocna</td><td>нічна зміна</td></tr>
+    <tr><td>przerwa</td><td>перерва</td></tr>
+    <tr><td>nadgodziny</td><td>понаднормові години</td></tr>
+    <tr><td>grafik</td><td>графік</td></tr>
+    <tr><td>urlop</td><td>відпустка</td></tr>
+    <tr><td>zwolnienie lekarskie</td><td>лікарняний</td></tr>
+  </tbody>
+</table>
+
+<h2>Nexflow — робота в Польщі з підтримкою вашою мовою</h2>
+
+<p>Nexflow — агенція тимчасової праці, яка спеціалізується на працевлаштуванні громадян України та інших країн у Польщі. Ми надаємо підтримку українською, російською та англійською мовами на кожному етапі — від рекрутингу до щоденної роботи.</p>
+    `.trim(),
+  },
+  {
+    slug: "bazovye-frazy-sklad-polsha",
+    title:
+      "Базовые фразы и словарь на складе в Польше — руководство для иностранных работников",
+    description:
+      "Важнейшие польские фразы и словарь для работы на складе — приветствия, охрана труда, оборудование, операции и общение с руководителем. Практическое руководство для иностранных работников в Польше.",
+    date: "2027-05-11",
+    lang: "ru",
+    content: `
+<h1>Базовые фразы и словарь на складе в Польше — руководство для иностранных работников</h1>
+
+<p>Если вы начинаете работу на польском складе или в логистическом центре, знание нескольких десятков ключевых слов может определить вашу безопасность и комфорт. Это руководство содержит важнейшие польские выражения, ежедневно используемые в складской работе, — с произношением и контекстом употребления.</p>
+
+<h2>Почему стоит знать основы польского?</h2>
+
+<p>На польских складах работает всё больше иностранцев. Знание польского не является обязательным на каждой должности, но базовая лексика помогает:</p>
+<ul>
+  <li>понимать инструкции по охране труда и обеспечивать собственную безопасность</li>
+  <li>эффективно общаться с руководителями и коллегами</li>
+  <li>быстрее адаптироваться на новом рабочем месте</li>
+  <li>повысить шансы на продление контракта или повышение</li>
+</ul>
+
+<h2>Приветствия и ежедневные фразы</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Произношение</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>Dzień dobry</td><td>джень ДОБ-ры</td><td>Добрый день</td></tr>
+    <tr><td>Cześć</td><td>чешч</td><td>Привет (неформально)</td></tr>
+    <tr><td>Do widzenia</td><td>до ви-ДЗЕ-ня</td><td>До свидания</td></tr>
+    <tr><td>Przepraszam</td><td>пшеп-РА-шам</td><td>Извините / Простите</td></tr>
+    <tr><td>Dziękuję</td><td>джен-КУ-ę</td><td>Спасибо</td></tr>
+    <tr><td>Proszę</td><td>ПРО-ше</td><td>Пожалуйста</td></tr>
+    <tr><td>Nie rozumiem</td><td>не ро-ЗУ-мем</td><td>Я не понимаю</td></tr>
+    <tr><td>Proszę powtórzyć</td><td>ПРО-ше пов-ТУ-жич</td><td>Пожалуйста, повторите</td></tr>
+    <tr><td>Proszę mówić wolniej</td><td>ПРО-ше МУ-вич ВОЛ-ньей</td><td>Говорите медленнее</td></tr>
+    <tr><td>Tak / Nie</td><td>так / не</td><td>Да / Нет</td></tr>
+  </tbody>
+</table>
+
+<h2>Словарь склада — места и зоны</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>magazyn</td><td>склад</td></tr>
+    <tr><td>hala produkcyjna</td><td>производственный цех</td></tr>
+    <tr><td>strefa załadunku</td><td>зона погрузки</td></tr>
+    <tr><td>strefa rozładunku</td><td>зона разгрузки</td></tr>
+    <tr><td>strefa składowania</td><td>зона хранения</td></tr>
+    <tr><td>rampa</td><td>рампа / погрузочная платформа</td></tr>
+    <tr><td>regał</td><td>стеллаж</td></tr>
+    <tr><td>korytarz / alejka</td><td>коридор / проход</td></tr>
+    <tr><td>biuro</td><td>офис</td></tr>
+    <tr><td>szatnia</td><td>раздевалка</td></tr>
+    <tr><td>stołówka</td><td>столовая / кантина</td></tr>
+    <tr><td>wyjście ewakuacyjne</td><td>эвакуационный выход</td></tr>
+    <tr><td>punkt pierwszej pomocy</td><td>пункт первой помощи</td></tr>
+  </tbody>
+</table>
+
+<h2>Оборудование и инструменты</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>wózek widłowy</td><td>вилочный погрузчик</td></tr>
+    <tr><td>wózek paletowy / paleciak</td><td>гидравлическая тележка</td></tr>
+    <tr><td>przenośnik taśmowy</td><td>ленточный конвейер</td></tr>
+    <tr><td>skaner</td><td>сканер</td></tr>
+    <tr><td>czytnik kodów kreskowych</td><td>считыватель штрих-кодов</td></tr>
+    <tr><td>drukarka</td><td>принтер</td></tr>
+    <tr><td>paleta</td><td>поддон / паллета</td></tr>
+    <tr><td>karton / pudełko</td><td>картон / коробка</td></tr>
+    <tr><td>folia stretch</td><td>стрейч-плёнка</td></tr>
+    <tr><td>taśma pakowa</td><td>упаковочная лента / скотч</td></tr>
+    <tr><td>nożyk</td><td>нож / канцелярский нож</td></tr>
+    <tr><td>rękawice ochronne</td><td>защитные перчатки</td></tr>
+  </tbody>
+</table>
+
+<h2>Задачи и операции</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>kompletowanie zamówień</td><td>комплектация заказов</td></tr>
+    <tr><td>pakowanie</td><td>упаковка</td></tr>
+    <tr><td>załadunek</td><td>погрузка</td></tr>
+    <tr><td>rozładunek</td><td>разгрузка</td></tr>
+    <tr><td>przyjęcie towaru</td><td>приёмка товара</td></tr>
+    <tr><td>wysyłka</td><td>отправка</td></tr>
+    <tr><td>sortowanie</td><td>сортировка</td></tr>
+    <tr><td>etykietowanie</td><td>маркировка</td></tr>
+    <tr><td>kontrola jakości</td><td>контроль качества</td></tr>
+    <tr><td>inwentaryzacja</td><td>инвентаризация</td></tr>
+  </tbody>
+</table>
+
+<h2>Охрана труда и безопасность</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>Uwaga!</td><td>Внимание! / Осторожно!</td></tr>
+    <tr><td>Niebezpieczeństwo!</td><td>Опасность!</td></tr>
+    <tr><td>Zakaz wstępu</td><td>Вход запрещён</td></tr>
+    <tr><td>Tylko dla personelu</td><td>Только для персонала</td></tr>
+    <tr><td>Noś kask ochronny</td><td>Носите защитную каску</td></tr>
+    <tr><td>Noś buty ochronne</td><td>Носите защитную обувь</td></tr>
+    <tr><td>Alarm pożarowy!</td><td>Пожарная тревога!</td></tr>
+    <tr><td>Ewakuacja!</td><td>Эвакуация!</td></tr>
+    <tr><td>Miałem wypadek</td><td>Со мной произошёл несчастный случай</td></tr>
+    <tr><td>Potrzebuję lekarza</td><td>Мне нужен врач</td></tr>
+  </tbody>
+</table>
+
+<h2>Общение с руководителем</h2>
+
+<ul>
+  <li><strong>"Co mam teraz robić?"</strong> — Что мне сейчас делать?</li>
+  <li><strong>"Potrzebuję pomocy."</strong> — Мне нужна помощь.</li>
+  <li><strong>"Skaner nie działa."</strong> — Сканер не работает.</li>
+  <li><strong>"Czy mogę skorzystać z przerwy?"</strong> — Могу ли я взять перерыв?</li>
+  <li><strong>"Źle się czuję."</strong> — Я плохо себя чувствую.</li>
+  <li><strong>"Nie rozumiem. Proszę pokazać."</strong> — Я не понимаю. Пожалуйста, покажите.</li>
+  <li><strong>"Jutro nie przyjdę – jestem chory/chora."</strong> — Завтра я не приду — я болен/больна.</li>
+</ul>
+
+<h2>График работы</h2>
+
+<table>
+  <thead><tr><th>По-польски</th><th>Значение (RU)</th></tr></thead>
+  <tbody>
+    <tr><td>zmiana poranna</td><td>утренняя смена</td></tr>
+    <tr><td>zmiana nocna</td><td>ночная смена</td></tr>
+    <tr><td>przerwa</td><td>перерыв</td></tr>
+    <tr><td>nadgodziny</td><td>сверхурочные часы</td></tr>
+    <tr><td>grafik</td><td>график</td></tr>
+    <tr><td>urlop</td><td>отпуск</td></tr>
+    <tr><td>zwolnienie lekarskie</td><td>больничный</td></tr>
+  </tbody>
+</table>
+
+<h2>Nexflow — работа в Польше с поддержкой на вашем языке</h2>
+
+<p>Nexflow — агентство временного труда, специализирующееся на трудоустройстве граждан Украины, России и других стран в Польше. Мы предоставляем поддержку на украинском, русском и английском языках на каждом этапе — от рекрутинга до ежедневной работы.</p>
+    `.trim(),
+  },
+  {
+    slug: "basic-polish-phrases-warehouse-worker-poland",
+    title:
+      "Basic Polish Phrases for Warehouse Workers in Poland — Practical Guide for Foreign Employees",
+    description:
+      "The most important Polish words and phrases for warehouse work — greetings, health and safety, equipment, tasks, and talking to your supervisor. A practical guide for foreign workers in Poland.",
+    date: "2027-05-18",
+    lang: "en",
+    content: `
+<h1>Basic Polish Phrases for Warehouse Workers in Poland — Practical Guide for Foreign Employees</h1>
+
+<p>Starting a job at a Polish warehouse or logistics centre? Learning a few dozen key words and phrases can make a real difference to your safety, efficiency, and relationships with your team. This guide covers the most important Polish expressions used every day in warehouse work — with pronunciation tips and usage context.</p>
+
+<h2>Why learn basic Polish?</h2>
+
+<p>More and more foreign workers are employed in Polish warehouses. Fluency is not required, but basic vocabulary helps you:</p>
+<ul>
+  <li>understand health and safety instructions and stay safe</li>
+  <li>communicate clearly with supervisors and colleagues</li>
+  <li>adapt faster to your new workplace</li>
+  <li>improve your chances of contract renewal or promotion</li>
+</ul>
+
+<h2>Greetings and everyday phrases</h2>
+
+<table>
+  <thead><tr><th>Polish</th><th>Pronunciation</th><th>Meaning</th></tr></thead>
+  <tbody>
+    <tr><td>Dzień dobry</td><td>jen DOB-ry</td><td>Good morning / Good day (formal)</td></tr>
+    <tr><td>Cześć</td><td>cheshch</td><td>Hi / Hello (informal)</td></tr>
+    <tr><td>Do widzenia</td><td>do vee-DZE-nya</td><td>Goodbye</td></tr>
+    <tr><td>Przepraszam</td><td>pshep-RA-sham</td><td>Excuse me / Sorry</td></tr>
+    <tr><td>Dziękuję</td><td>jen-KOO-yeh</td><td>Thank you</td></tr>
+    <tr><td>Proszę</td><td>PRO-sheh</td><td>Please / Here you go</td></tr>
+    <tr><td>Nie rozumiem</td><td>nyeh ro-ZOO-myem</td><td>I do not understand</td></tr>
+    <tr><td>Proszę powtórzyć</td><td>PRO-sheh pov-TOO-zhich</td><td>Please repeat that</td></tr>
+    <tr><td>Proszę mówić wolniej</td><td>PRO-sheh MOO-vich VOL-nyey</td><td>Please speak more slowly</td></tr>
+    <tr><td>Tak / Nie</td><td>tak / nyeh</td><td>Yes / No</td></tr>
+  </tbody>
+</table>
+
+<h2>Warehouse vocabulary — places and zones</h2>
+
+<table>
+  <thead><tr><th>Polish</th><th>English meaning</th></tr></thead>
+  <tbody>
+    <tr><td>magazyn</td><td>warehouse</td></tr>
+    <tr><td>hala produkcyjna</td><td>production hall</td></tr>
+    <tr><td>strefa załadunku</td><td>loading zone</td></tr>
+    <tr><td>strefa rozładunku</td><td>unloading zone</td></tr>
+    <tr><td>strefa składowania</td><td>storage zone</td></tr>
+    <tr><td>rampa</td><td>loading dock / ramp</td></tr>
+    <tr><td>regał</td><td>shelf / rack</td></tr>
+    <tr><td>korytarz / alejka</td><td>aisle / corridor</td></tr>
+    <tr><td>biuro</td><td>office</td></tr>
+    <tr><td>szatnia</td><td>changing room / locker room</td></tr>
+    <tr><td>stołówka</td><td>canteen / cafeteria</td></tr>
+    <tr><td>wyjście ewakuacyjne</td><td>emergency exit</td></tr>
+    <tr><td>punkt pierwszej pomocy</td><td>first aid station</td></tr>
+  </tbody>
+</table>
+
+<h2>Equipment and tools</h2>
+
+<table>
+  <thead><tr><th>Polish</th><th>English meaning</th></tr></thead>
+  <tbody>
+    <tr><td>wózek widłowy</td><td>forklift</td></tr>
+    <tr><td>wózek paletowy / paleciak</td><td>pallet jack / hand pallet truck</td></tr>
+    <tr><td>przenośnik taśmowy</td><td>conveyor belt</td></tr>
+    <tr><td>skaner</td><td>scanner</td></tr>
+    <tr><td>czytnik kodów kreskowych</td><td>barcode reader</td></tr>
+    <tr><td>drukarka</td><td>printer</td></tr>
+    <tr><td>paleta</td><td>pallet</td></tr>
+    <tr><td>karton / pudełko</td><td>carton / box</td></tr>
+    <tr><td>folia stretch</td><td>stretch wrap film</td></tr>
+    <tr><td>taśma pakowa</td><td>packing tape</td></tr>
+    <tr><td>nożyk</td><td>box cutter / knife</td></tr>
+    <tr><td>rękawice ochronne</td><td>protective gloves</td></tr>
+  </tbody>
+</table>
+
+<h2>Tasks and operations</h2>
+
+<table>
+  <thead><tr><th>Polish</th><th>English meaning</th></tr></thead>
+  <tbody>
+    <tr><td>kompletowanie zamówień / picking</td><td>order picking</td></tr>
+    <tr><td>pakowanie</td><td>packing</td></tr>
+    <tr><td>załadunek</td><td>loading</td></tr>
+    <tr><td>rozładunek</td><td>unloading</td></tr>
+    <tr><td>przyjęcie towaru</td><td>goods receiving</td></tr>
+    <tr><td>wysyłka / ekspedycja</td><td>dispatch / shipping</td></tr>
+    <tr><td>sortowanie</td><td>sorting</td></tr>
+    <tr><td>etykietowanie</td><td>labeling</td></tr>
+    <tr><td>skanowanie</td><td>scanning</td></tr>
+    <tr><td>kontrola jakości</td><td>quality control</td></tr>
+    <tr><td>inwentaryzacja</td><td>inventory count</td></tr>
+  </tbody>
+</table>
+
+<h2>Health and safety — critical phrases</h2>
+
+<p>Understanding safety instructions is the top priority — it can protect your health and your life.</p>
+
+<table>
+  <thead><tr><th>Polish</th><th>English meaning</th></tr></thead>
+  <tbody>
+    <tr><td>Uwaga!</td><td>Caution! / Watch out!</td></tr>
+    <tr><td>Niebezpieczeństwo!</td><td>Danger!</td></tr>
+    <tr><td>Zakaz wstępu</td><td>No entry</td></tr>
+    <tr><td>Tylko dla personelu</td><td>Staff only</td></tr>
+    <tr><td>Noś kask ochronny</td><td>Wear a hard hat</td></tr>
+    <tr><td>Noś kamizelkę odblaskową</td><td>Wear a reflective vest</td></tr>
+    <tr><td>Noś buty ochronne</td><td>Wear safety shoes</td></tr>
+    <tr><td>Alarm pożarowy!</td><td>Fire alarm!</td></tr>
+    <tr><td>Ewakuacja!</td><td>Evacuation!</td></tr>
+    <tr><td>Miałem wypadek</td><td>I had an accident</td></tr>
+    <tr><td>Potrzebuję lekarza</td><td>I need a doctor</td></tr>
+  </tbody>
+</table>
+
+<h2>Talking to your supervisor — key phrases</h2>
+
+<ul>
+  <li><strong>"Co mam teraz robić?"</strong> — What should I do now?</li>
+  <li><strong>"Potrzebuję pomocy."</strong> — I need help.</li>
+  <li><strong>"Skaner nie działa."</strong> — The scanner is not working.</li>
+  <li><strong>"Wózek jest uszkodzony."</strong> — The forklift/pallet jack is damaged.</li>
+  <li><strong>"Czy mogę skorzystać z przerwy?"</strong> — Can I take a break?</li>
+  <li><strong>"Źle się czuję."</strong> — I feel unwell.</li>
+  <li><strong>"Nie rozumiem. Proszę pokazać."</strong> — I do not understand. Please show me.</li>
+  <li><strong>"Jutro nie przyjdę – jestem chory/chora."</strong> — I will not come tomorrow — I am sick.</li>
+</ul>
+
+<h2>Working hours — vocabulary</h2>
+
+<table>
+  <thead><tr><th>Polish</th><th>English meaning</th></tr></thead>
+  <tbody>
+    <tr><td>zmiana poranna</td><td>morning shift</td></tr>
+    <tr><td>zmiana popołudniowa</td><td>afternoon shift</td></tr>
+    <tr><td>zmiana nocna</td><td>night shift</td></tr>
+    <tr><td>przerwa</td><td>break</td></tr>
+    <tr><td>nadgodziny</td><td>overtime</td></tr>
+    <tr><td>grafik</td><td>schedule / rota</td></tr>
+    <tr><td>urlop</td><td>annual leave</td></tr>
+    <tr><td>zwolnienie lekarskie</td><td>sick leave</td></tr>
+  </tbody>
+</table>
+
+<h2>Tips for learning Polish faster</h2>
+
+<ul>
+  <li><strong>Duolingo</strong> — Polish course available in Ukrainian, Russian, and English.</li>
+  <li><strong>Google Translate camera</strong> — point at signs and notices to translate instantly.</li>
+  <li><strong>YouTube</strong> — search "Polish for beginners" or "Польська для початківців".</li>
+  <li><strong>5 words a day</strong> — after a month you will know 150 useful expressions.</li>
+  <li><strong>Talk to your Polish colleagues</strong> — most are happy to help you learn.</li>
+</ul>
+
+<h2>Nexflow — work in Poland with support in your language</h2>
+
+<p>Nexflow is a temporary staffing agency specialising in placing workers from Ukraine and other countries in Poland. We provide support in Ukrainian, Russian, and English at every stage — from recruitment through legalisation formalities to daily work.</p>
+
+<p>Have questions? Get in touch with us.</p>
+    `.trim(),
   }
 ];
 

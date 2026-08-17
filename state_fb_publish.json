@@ -411,5 +411,22 @@
     }
   ],
   "last_run": "2026-08-17T12:48:00Z",
-  "pending": []
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/podstawowe-zwroty-magazyn-polska",
+      "sitemap_lastmod": "2027-04-27T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/bazovi-frazy-sklad-polshcha",
+      "sitemap_lastmod": "2027-05-04T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/bazovye-frazy-sklad-polsha",
+      "sitemap_lastmod": "2027-05-11T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/basic-polish-phrases-warehouse-worker-poland",
+      "sitemap_lastmod": "2027-05-18T00:00:00.000Z"
+    }
+  ]
 }
