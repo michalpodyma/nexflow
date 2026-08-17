@@ -384,8 +384,32 @@
       "fb_post_id": "1107760715748033_122127021956808780",
       "published_at": "2026-08-17T00:00:00+0000",
       "sitemap_lastmod": "2027-03-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/badania-lekarskie-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122127024206808780",
+      "published_at": "2026-08-17T12:47:09+0000",
+      "sitemap_lastmod": "2027-03-30T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/medychni-dovidky-pratsivnyk-polshcha",
+      "fb_post_id": "1107760715748033_122127024254808780",
+      "published_at": "2026-08-17T12:47:27+0000",
+      "sitemap_lastmod": "2027-04-06T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/medicinskaya-spravka-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122127024320808780",
+      "published_at": "2026-08-17T12:47:43+0000",
+      "sitemap_lastmod": "2027-04-13T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/occupational-health-check-temp-worker-poland",
+      "fb_post_id": "1107760715748033_122127024398808780",
+      "published_at": "2026-08-17T12:48:00+0000",
+      "sitemap_lastmod": "2027-04-20T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-17T00:00:00Z",
+  "last_run": "2026-08-17T12:48:00Z",
   "pending": []
 }
