@@ -5339,6 +5339,399 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p><em>This article is for information only and is not legal advice. Legal status: August 2026.</em></p>
     `.trim(),
+  },
+  {
+    slug: "konto-bankowe-cudzoziemiec-polska",
+    title: "Konto bankowe w Polsce dla cudzoziemca: jak otworzyć krok po kroku",
+    description:
+      "Pracujesz legalnie w Polsce i potrzebujesz konta bankowego? Dowiedz się, jakie dokumenty są potrzebne i które banki są przyjazne cudzoziemcom spoza UE.",
+    date: "2027-03-02",
+    lang: "pl",
+    content: `
+<h1>Konto bankowe w Polsce dla cudzoziemca: jak otworzyć krok po kroku</h1>
+
+<p>Posiadanie konta bankowego w Polsce to praktyczna konieczność dla każdego pracownika tymczasowego spoza UE. Bez konta trudno otrzymać wynagrodzenie przelewem, opłacić czynsz czy skorzystać z usług online. Dobra wiadomość: otwarcie konta w Polsce jako cudzoziemiec jest możliwe — nawet bez numeru PESEL.</p>
+
+<h2>Dlaczego warto mieć polskie konto bankowe?</h2>
+<ul>
+  <li><strong>Wynagrodzenie</strong> — większość pracodawców wypłaca pensje przelewem bankowym</li>
+  <li><strong>Czynsz i rachunki</strong> — opłaty za mieszkanie, prąd, internet</li>
+  <li><strong>Przelew do domu</strong> — tańsze przelewy międzynarodowe niż przez punkty wymiany walut</li>
+  <li><strong>Bezpieczeństwo</strong> — nie musisz nosić przy sobie dużej gotówki</li>
+  <li><strong>Płatności online</strong> — zakupy w internecie, bilety, aplikacje mobilne</li>
+</ul>
+
+<h2>Jakie dokumenty są potrzebne?</h2>
+<p>Wymagane dokumenty różnią się w zależności od banku, ale podstawowy zestaw to:</p>
+<ul>
+  <li><strong>Paszport</strong> — ważny dokument tożsamości ze zdjęciem</li>
+  <li><strong>Tytuł pobytowy</strong> — wiza, zezwolenie na pobyt (karta pobytu) lub stempel wjazdowy w paszporcie potwierdzający legalny pobyt</li>
+  <li><strong>Numer PESEL</strong> — wiele banków wymaga go do otwarcia konta, ale nie wszystkie; bez PESEL możesz otworzyć konto w mBanku, Santander czy Alior Banku</li>
+  <li><strong>Adres zamieszkania w Polsce</strong> — niektóre banki proszą o potwierdzenie adresu (np. umowę najmu lub zaświadczenie od pracodawcy)</li>
+</ul>
+
+<blockquote><p><strong>Ważne:</strong> Jeśli nie masz jeszcze numeru PESEL, nie czekaj — kilka banków otworzy Ci konto na podstawie samego paszportu i wizy lub karty pobytu. Po uzyskaniu PESEL możesz go później uzupełnić w banku.</p></blockquote>
+
+<h2>Które banki są przyjazne cudzoziemcom?</h2>
+<p>Polskie banki coraz lepiej obsługują klientów spoza UE. Oto przegląd najpopularniejszych opcji:</p>
+
+<h3>PKO Bank Polski</h3>
+<p>Największy bank w Polsce, z oddziałami w całym kraju. Otwiera konta dla cudzoziemców z kartą pobytu lub wizą. Obsługa w języku angielskim dostępna w większych miastach. Wymaga numeru PESEL.</p>
+
+<h3>Bank Pekao SA</h3>
+<p>Przyjazny cudzoziemcom, możliwość otwarcia konta online lub w oddziale. Wymaga karty pobytu lub wizy pracowniczej. W niektórych oddziałach obsługa w języku ukraińskim.</p>
+
+<h3>mBank</h3>
+<p>Jeden z najbardziej elastycznych banków — możesz otworzyć konto przez internet bez wizyty w oddziale. Obsługa w języku angielskim dostępna online. Nie wymaga numeru PESEL na etapie zakładania konta.</p>
+
+<h3>Santander Bank Polska</h3>
+<p>Otwiera konta dla pracowników tymczasowych bez PESEL. Aplikacja mobilna w języku angielskim. Dobra opcja dla osób, które dopiero niedawno przyjechały do Polski.</p>
+
+<h3>ING Bank Śląski</h3>
+<p>Szybkie otwarcie konta online lub w oddziale. Dobre wsparcie w języku angielskim. Wymaga PESEL przy zakładaniu konta przez internet.</p>
+
+<h3>Alior Bank</h3>
+<p>Przyjazna procedura dla cudzoziemców, możliwość obsługi w języku angielskim i ukraińskim w wybranych oddziałach. Elastyczne wymagania dokumentowe.</p>
+
+<blockquote><p><strong>Dla obywateli Ukrainy:</strong> Santander, Pekao i Alior Bank zatrudniają pracowników mówiących po ukraińsku w wybranych oddziałach — zapytaj o to przy wejściu.</p></blockquote>
+
+<h2>Jak otworzyć konto krok po kroku?</h2>
+
+<h3>Wariant 1: W oddziale banku</h3>
+<ol>
+  <li>Przygotuj dokumenty: paszport + dokument pobytowy (+ PESEL jeśli masz + umowa najmu lub zaświadczenie od pracodawcy)</li>
+  <li>Znajdź najbliższy oddział wybranego banku (strona banku lub Google Maps)</li>
+  <li>Powiedz pracownikowi: <em>„Chciałbym/Chciałabym otworzyć konto osobiste. Jestem obcokrajowcem."</em></li>
+  <li>Wypełnij formularz przy pomocy pracownika banku</li>
+  <li>Podpisz umowę — kartę płatniczą otrzymasz od razu lub pocztą w ciągu 5–7 dni roboczych</li>
+</ol>
+
+<h3>Wariant 2: Online (mBank, ING, Santander)</h3>
+<ol>
+  <li>Wejdź na oficjalną stronę banku i wybierz opcję „Otwórz konto"</li>
+  <li>Wypełnij formularz online — podaj dane z paszportu</li>
+  <li>Wykonaj weryfikację tożsamości: wideorozmowa z pracownikiem banku lub przelew weryfikacyjny 1 grosza z innego konta w Polsce</li>
+  <li>Prześlij skan paszportu i dokumentu pobytowego</li>
+  <li>Karta zostanie dostarczona pocztą na Twój adres w Polsce w ciągu 7–10 dni</li>
+</ol>
+
+<h2>Najczęstsze problemy i jak je rozwiązać</h2>
+
+<h3>Problem: Brak numeru PESEL</h3>
+<p>Rozwiązanie: Wybierz bank, który nie wymaga PESEL: mBank, Santander lub Alior Bank. Pamiętaj, że PESEL możesz uzyskać bezpłatnie w urzędzie gminy lub miasta — jest to obowiązkowe dla każdego, kto pracuje legalnie w Polsce.</p>
+
+<h3>Problem: Bariera językowa</h3>
+<p>Rozwiązanie: Przygotuj kartkę z napisem: <em>„Chciałbym/Chciałabym otworzyć konto osobiste. Jestem pracownikiem z [Ukrainy/Rosji/inny kraj]."</em> Możesz też skorzystać z aplikacji tłumaczącej (Google Translate). Większość banków w miastach ma pracowników mówiących po angielsku.</p>
+
+<h3>Problem: Odmowa otwarcia konta</h3>
+<p>Rozwiązanie: Każdy bank i każdy oddział ma nieco inne podejście. Jeśli jeden bank odmówi, spróbuj innego. Weź ze sobą komplet dokumentów: paszport, dokument pobytowy, umowę o pracę lub zaświadczenie od pracodawcy, adres zamieszkania.</p>
+
+<h2>Numer IBAN i wynagrodzenie</h2>
+<p>Po otwarciu konta podaj numer IBAN pracodawcy, żeby wynagrodzenie trafiało bezpośrednio na konto. Polski IBAN składa się z 28 znaków i zaczyna się od liter „PL".</p>
+
+<blockquote><p><strong>Przykład:</strong> PL 61 1090 1014 0000 0712 1981 2874</p></blockquote>
+
+<p>Numer IBAN znajdziesz w aplikacji bankowej, w umowie z bankiem lub na wyciągu bankowym.</p>
+
+<h2>Podsumowanie</h2>
+<p>Otwarcie konta bankowego w Polsce jako cudzoziemiec jest możliwe i nie jest skomplikowane — wystarczy paszport i dokument pobytowy. Najłatwiej zacząć od mBanku lub Santandera online, albo odwiedzić PKO BP lub Pekao w oddziale. Konto bankowe to podstawa bezpiecznego i wygodnego funkcjonowania w Polsce.</p>
+
+<p><strong>Nexflow</strong> pomaga pracownikom tymczasowym z całego świata znaleźć legalną pracę w Polsce i Niemczech. Masz pytania o dokumenty i formalności? Skontaktuj się z naszym zespołem — jesteśmy tutaj, żeby pomóc.</p>
+    `.trim(),
+  },
+  {
+    slug: "vidkryttia-rakhunku-inozemets-polshcha",
+    title: "Банківський рахунок у Польщі для іноземця: як відкрити покроково",
+    description:
+      "Працюєте легально в Польщі і потребуєте банківського рахунку? Дізнайтеся, які документи потрібні та які банки є найзручнішими для іноземців.",
+    date: "2027-03-09",
+    lang: "uk",
+    content: `
+<h1>Банківський рахунок у Польщі для іноземця: як відкрити покроково</h1>
+
+<p>Наявність банківського рахунку в Польщі — це практична необхідність для кожного тимчасового працівника з-за меж ЄС. Без рахунку важко отримати зарплату банківським переказом, оплатити оренду чи скористатися онлайн-сервісами. Хороша новина: відкрити рахунок у Польщі як іноземцю цілком можливо — навіть без номера PESEL.</p>
+
+<h2>Навіщо потрібен польський банківський рахунок?</h2>
+<ul>
+  <li><strong>Зарплата</strong> — більшість роботодавців виплачують кошти банківським переказом</li>
+  <li><strong>Оренда та рахунки</strong> — оплата житла, електрики, інтернету</li>
+  <li><strong>Перекази додому</strong> — дешевше, ніж через пункти обміну валют або Western Union</li>
+  <li><strong>Безпека</strong> — не потрібно носити з собою готівку</li>
+  <li><strong>Онлайн-платежі</strong> — інтернет-магазини, квитки, мобільні додатки</li>
+</ul>
+
+<h2>Які документи потрібні?</h2>
+<p>Вимоги залежать від банку, але базовий пакет документів такий:</p>
+<ul>
+  <li><strong>Паспорт</strong> — чинний документ з фото</li>
+  <li><strong>Документ про перебування</strong> — віза, дозвіл на проживання (карта побуту) або штамп у паспорті, що підтверджує легальне перебування</li>
+  <li><strong>Номер PESEL</strong> — багато банків вимагають його, але не всі; без PESEL можна відкрити рахунок у mBanku, Santander або Alior Banku</li>
+  <li><strong>Адреса проживання в Польщі</strong> — деякі банки просять підтвердження адреси (наприклад, договір оренди або довідка від роботодавця)</li>
+</ul>
+
+<blockquote><p><strong>Важливо:</strong> Якщо у вас ще немає номера PESEL — не чекайте. Кілька банків відкриють рахунок лише за паспортом і візою або картою побуту. PESEL можна додати пізніше.</p></blockquote>
+
+<h2>Які банки є найзручнішими для іноземців?</h2>
+
+<h3>PKO Bank Polski</h3>
+<p>Найбільший банк Польщі з відділеннями по всій країні. Відкриває рахунки для іноземців з картою побуту або візою. Потребує номера PESEL. Обслуговування англійською в більших містах.</p>
+
+<h3>Bank Pekao SA</h3>
+<p>Зручний для іноземців, можливість відкрити рахунок онлайн або у відділенні. У деяких відділеннях є україномовний персонал.</p>
+
+<h3>mBank</h3>
+<p>Один із найгнучкіших варіантів — рахунок можна відкрити онлайн без відвідування відділення. Не вимагає PESEL на момент відкриття рахунку. Обслуговування англійською онлайн.</p>
+
+<h3>Santander Bank Polska</h3>
+<p>Відкриває рахунки для тимчасових працівників без PESEL. Мобільний додаток англійською мовою. Хороший варіант для тих, хто нещодавно приїхав до Польщі.</p>
+
+<h3>ING Bank Śląski</h3>
+<p>Швидке відкриття рахунку онлайн або у відділенні. Гарна підтримка англійською.</p>
+
+<h3>Alior Bank</h3>
+<p>Зручна процедура для іноземців, у деяких відділеннях є обслуговування українською мовою.</p>
+
+<blockquote><p><strong>Для громадян України:</strong> Santander, Pekao та Alior Bank мають україномовний персонал у деяких відділеннях — запитайте про це на вході.</p></blockquote>
+
+<h2>Як відкрити рахунок покроково?</h2>
+
+<h3>Варіант 1: У відділенні банку</h3>
+<ol>
+  <li>Зберіть документи: паспорт + документ про перебування (+ PESEL якщо є + договір оренди)</li>
+  <li>Знайдіть найближче відділення обраного банку (сайт банку або Google Maps)</li>
+  <li>Скажіть співробітнику: <em>„Chciałbym/Chciałabym otworzyć konto osobiste. Jestem obcokrajowcem."</em> (Хочу відкрити особистий рахунок. Я іноземець.)</li>
+  <li>Заповніть форму за допомогою співробітника банку</li>
+  <li>Підпишіть договір — картку отримаєте одразу або поштою протягом 5–7 робочих днів</li>
+</ol>
+
+<h3>Варіант 2: Онлайн (mBank, ING, Santander)</h3>
+<ol>
+  <li>Зайдіть на офіційний сайт банку та оберіть „Відкрити рахунок"</li>
+  <li>Заповніть онлайн-форму — введіть дані з паспорта</li>
+  <li>Пройдіть верифікацію особи: відеодзвінок із співробітником банку або переказ 1 гроша з іншого рахунку</li>
+  <li>Надішліть скан паспорта та документа про перебування</li>
+  <li>Картку доставлять поштою на вашу адресу в Польщі протягом 7–10 днів</li>
+</ol>
+
+<h2>Типові проблеми та рішення</h2>
+
+<h3>Проблема: Немає номера PESEL</h3>
+<p>Рішення: Оберіть банк без вимоги PESEL — mBank, Santander або Alior Bank. Пам'ятайте, що PESEL можна безкоштовно отримати в місцевому уряді (gmina) — це обов'язково для тих, хто легально працює в Польщі.</p>
+
+<h3>Проблема: Мовний бар'єр</h3>
+<p>Рішення: Підготуйте записку: <em>„Chciałbym otworzyć konto. Jestem z Ukrainy."</em> Використовуйте Google Translate або додаток для перекладу. У більшості банків великих міст є англомовний персонал.</p>
+
+<h3>Проблема: Відмова у відкритті рахунку</h3>
+<p>Рішення: Кожен банк і кожне відділення мають трохи різні вимоги. Спробуйте інший банк. Візьміть із собою повний пакет документів: паспорт, документ про перебування, трудовий договір або довідку від роботодавця.</p>
+
+<h2>IBAN та зарплата</h2>
+<p>Після відкриття рахунку надайте номер IBAN роботодавцю, щоб зарплата надходила прямо на рахунок. Польський IBAN складається з 28 символів і починається з літер „PL".</p>
+
+<blockquote><p><strong>Приклад:</strong> PL 61 1090 1014 0000 0712 1981 2874</p></blockquote>
+
+<p>Номер IBAN знайдете в мобільному додатку банку, у договорі або у виписці з рахунку.</p>
+
+<h2>Підсумок</h2>
+<p>Відкрити банківський рахунок у Польщі як іноземцю — це реально і не складно. Достатньо мати паспорт та документ про перебування. Найлегше почати з mBank або Santander онлайн, або відвідати PKO BP чи Pekao у відділенні. Банківський рахунок — основа зручного та безпечного життя в Польщі.</p>
+
+<p><strong>Nexflow</strong> допомагає тимчасовим працівникам з усього світу знайти легальну роботу в Польщі та Німеччині. Маєте питання щодо документів і формальностей? Зв'яжіться з нашою командою — ми тут, щоб допомогти.</p>
+    `.trim(),
+  },
+  {
+    slug: "otkrytie-scheta-inostranets-polsha",
+    title: "Банковский счёт в Польше для иностранца: как открыть пошагово",
+    description:
+      "Работаете легально в Польше и нужен банковский счёт? Узнайте, какие документы необходимы и какие банки наиболее удобны для иностранцев.",
+    date: "2027-03-16",
+    lang: "ru",
+    content: `
+<h1>Банковский счёт в Польше для иностранца: как открыть пошагово</h1>
+
+<p>Наличие банковского счёта в Польше — практическая необходимость для каждого временного работника из-за пределов ЕС. Без счёта сложно получить зарплату переводом, оплатить аренду или пользоваться онлайн-сервисами. Хорошая новость: открыть счёт в Польше как иностранцу вполне возможно — даже без номера PESEL.</p>
+
+<h2>Зачем нужен польский банковский счёт?</h2>
+<ul>
+  <li><strong>Зарплата</strong> — большинство работодателей выплачивают деньги банковским переводом</li>
+  <li><strong>Аренда и счета</strong> — оплата жилья, электричества, интернета</li>
+  <li><strong>Переводы домой</strong> — дешевле, чем через обменники или Western Union</li>
+  <li><strong>Безопасность</strong> — не нужно носить с собой наличные</li>
+  <li><strong>Онлайн-платежи</strong> — интернет-магазины, билеты, мобильные приложения</li>
+</ul>
+
+<h2>Какие документы необходимы?</h2>
+<p>Требования варьируются в зависимости от банка, но стандартный набор такой:</p>
+<ul>
+  <li><strong>Паспорт</strong> — действующий документ с фото</li>
+  <li><strong>Документ о пребывании</strong> — виза, разрешение на проживание (карта побыта) или штамп в паспорте, подтверждающий законное нахождение в стране</li>
+  <li><strong>Номер PESEL</strong> — многие банки его требуют, но не все; без PESEL можно открыть счёт в mBanku, Santander или Alior Banku</li>
+  <li><strong>Адрес проживания в Польше</strong> — некоторые банки запрашивают подтверждение адреса (например, договор аренды или справка от работодателя)</li>
+</ul>
+
+<blockquote><p><strong>Важно:</strong> Если у вас ещё нет номера PESEL — не ждите. Ряд банков откроет счёт только по паспорту и визе или карте побыта. PESEL можно добавить позже.</p></blockquote>
+
+<h2>Какие банки удобны для иностранцев?</h2>
+
+<h3>PKO Bank Polski</h3>
+<p>Крупнейший банк Польши с отделениями по всей стране. Открывает счета для иностранцев с картой побыта или визой. Требует PESEL. Обслуживание на английском в крупных городах.</p>
+
+<h3>Bank Pekao SA</h3>
+<p>Удобен для иностранцев, счёт можно открыть онлайн или в отделении. В некоторых отделениях есть русскоязычный персонал.</p>
+
+<h3>mBank</h3>
+<p>Один из наиболее гибких вариантов — счёт открывается онлайн без визита в отделение. Не требует PESEL при открытии. Обслуживание на английском онлайн.</p>
+
+<h3>Santander Bank Polska</h3>
+<p>Открывает счета для временных работников без PESEL. Мобильное приложение на английском. Хороший вариант для тех, кто недавно приехал в Польшу.</p>
+
+<h3>ING Bank Śląski</h3>
+<p>Быстрое открытие счёта онлайн или в отделении. Хорошая поддержка на английском языке.</p>
+
+<h3>Alior Bank</h3>
+<p>Удобная процедура для иностранцев, в ряде отделений есть обслуживание на русском и украинском языках.</p>
+
+<blockquote><p><strong>Для граждан из СНГ:</strong> В ряде отделений Pekao, Alior Bank и Santander есть русскоязычный персонал — уточните заранее при звонке или визите.</p></blockquote>
+
+<h2>Как открыть счёт пошагово?</h2>
+
+<h3>Вариант 1: В отделении банка</h3>
+<ol>
+  <li>Подготовьте документы: паспорт + документ о пребывании (+ PESEL если есть + договор аренды)</li>
+  <li>Найдите ближайшее отделение выбранного банка (сайт банка или Google Maps)</li>
+  <li>Скажите сотруднику: <em>„Chciałbym/Chciałabym otworzyć konto osobiste. Jestem obcokrajowcem."</em> (Хочу открыть личный счёт. Я иностранец.)</li>
+  <li>Заполните форму с помощью сотрудника банка</li>
+  <li>Подпишите договор — карту получите сразу или по почте в течение 5–7 рабочих дней</li>
+</ol>
+
+<h3>Вариант 2: Онлайн (mBank, ING, Santander)</h3>
+<ol>
+  <li>Перейдите на официальный сайт банка и выберите „Открыть счёт"</li>
+  <li>Заполните онлайн-форму, указав данные из паспорта</li>
+  <li>Пройдите верификацию личности: видеозвонок с сотрудником банка или перевод 1 гроша с другого счёта</li>
+  <li>Загрузите скан паспорта и документа о пребывании</li>
+  <li>Карта будет доставлена по почте на ваш польский адрес в течение 7–10 дней</li>
+</ol>
+
+<h2>Типичные проблемы и решения</h2>
+
+<h3>Проблема: Нет PESEL</h3>
+<p>Решение: Выберите банк без требования PESEL — mBank, Santander или Alior Bank. PESEL можно бесплатно оформить в местной гмине — это обязательно для всех, кто легально работает в Польше.</p>
+
+<h3>Проблема: Языковой барьер</h3>
+<p>Решение: Подготовьте записку: <em>„Chciałbym otworzyć konto. Jestem z Rosji / z Białorusi."</em> Используйте Google Translate. В большинстве банков крупных городов есть англоязычный персонал.</p>
+
+<h3>Проблема: Отказ в открытии счёта</h3>
+<p>Решение: У каждого банка и каждого отделения свои требования. Если один банк отказал — попробуйте другой. Возьмите с собой полный комплект документов: паспорт, документ о пребывании, трудовой договор или справку от работодателя.</p>
+
+<h2>IBAN и зарплата</h2>
+<p>После открытия счёта сообщите номер IBAN работодателю, чтобы зарплата поступала напрямую. Польский IBAN состоит из 28 символов и начинается с букв „PL".</p>
+
+<blockquote><p><strong>Пример:</strong> PL 61 1090 1014 0000 0712 1981 2874</p></blockquote>
+
+<p>Номер IBAN можно найти в мобильном приложении банка, в договоре или в банковской выписке.</p>
+
+<h2>Итог</h2>
+<p>Открыть банковский счёт в Польше как иностранцу — это реально и не сложно. Достаточно иметь паспорт и документ о пребывании. Проще всего начать с mBank или Santander онлайн, либо посетить PKO BP или Pekao в отделении. Банковский счёт — основа удобной и безопасной жизни в Польше.</p>
+
+<p><strong>Nexflow</strong> помогает временным работникам со всего мира найти легальную работу в Польше и Германии. Есть вопросы по документам и формальностям? Свяжитесь с нашей командой — мы здесь, чтобы помочь.</p>
+    `.trim(),
+  },
+  {
+    slug: "bank-account-foreign-worker-poland",
+    title: "How to Open a Bank Account in Poland as a Foreign Worker: Step-by-Step Guide",
+    description:
+      "Working legally in Poland and need a bank account? Find out which documents you need and which banks are most foreigner-friendly.",
+    date: "2027-03-23",
+    lang: "en",
+    content: `
+<h1>How to Open a Bank Account in Poland as a Foreign Worker: Step-by-Step Guide</h1>
+
+<p>Having a bank account in Poland is a practical necessity for every non-EU temporary worker. Without one, it's difficult to receive your salary by transfer, pay rent, or use online services. The good news: opening a bank account in Poland as a foreigner is absolutely possible — even without a PESEL number.</p>
+
+<h2>Why Do You Need a Polish Bank Account?</h2>
+<ul>
+  <li><strong>Salary payments</strong> — most employers pay wages by bank transfer</li>
+  <li><strong>Rent and bills</strong> — paying for accommodation, electricity, internet</li>
+  <li><strong>Sending money home</strong> — cheaper than money transfer services or currency exchange offices</li>
+  <li><strong>Security</strong> — no need to carry large amounts of cash</li>
+  <li><strong>Online payments</strong> — shopping, transport tickets, mobile apps</li>
+</ul>
+
+<h2>What Documents Do You Need?</h2>
+<p>Requirements vary by bank, but the standard document set is:</p>
+<ul>
+  <li><strong>Passport</strong> — a valid photo ID document</li>
+  <li><strong>Residence document</strong> — visa, residence permit (karta pobytu), or an entry stamp confirming legal stay in Poland</li>
+  <li><strong>PESEL number</strong> — many banks require it, but not all; you can open an account without PESEL at mBank, Santander, or Alior Bank</li>
+  <li><strong>Polish address</strong> — some banks ask for proof of address (e.g., rental agreement or a letter from your employer)</li>
+</ul>
+
+<blockquote><p><strong>Important:</strong> If you don't have a PESEL number yet, don't wait. Several banks will open an account with just your passport and visa or residence card. You can add your PESEL number later.</p></blockquote>
+
+<h2>Which Banks Are Foreigner-Friendly?</h2>
+
+<h3>PKO Bank Polski</h3>
+<p>Poland's largest bank with branches across the country. Opens accounts for foreigners with a residence card or visa. Requires PESEL. English-language service available in major cities.</p>
+
+<h3>Bank Pekao SA</h3>
+<p>Foreigner-friendly with the option to open an account online or in branch. Requires a residence card or work visa. Some branches have Ukrainian- or English-speaking staff.</p>
+
+<h3>mBank</h3>
+<p>One of the most flexible options — you can open an account online without visiting a branch. Does not require PESEL at account opening stage. English-language service available online.</p>
+
+<h3>Santander Bank Polska</h3>
+<p>Opens accounts for temporary workers without PESEL. Mobile app in English. A good option for those who have recently arrived in Poland.</p>
+
+<h3>ING Bank Śląski</h3>
+<p>Fast account opening online or in branch. Good English-language support.</p>
+
+<h3>Alior Bank</h3>
+<p>Foreigner-friendly procedures; some branches offer service in English, Ukrainian, and Russian.</p>
+
+<blockquote><p><strong>For Ukrainian nationals:</strong> Santander, Pekao, and Alior Bank have Ukrainian-speaking staff in selected branches — ask at the entrance.</p></blockquote>
+
+<h2>How to Open a Bank Account: Step by Step</h2>
+
+<h3>Option 1: In a bank branch</h3>
+<ol>
+  <li>Gather your documents: passport + residence document (+ PESEL if you have it + rental agreement)</li>
+  <li>Find the nearest branch of your chosen bank (bank's website or Google Maps)</li>
+  <li>Tell the staff: <em>„Chciałbym/Chciałabym otworzyć konto osobiste. Jestem obcokrajowcem."</em> (I'd like to open a personal account. I'm a foreigner.)</li>
+  <li>Complete the form with the help of a bank employee</li>
+  <li>Sign the agreement — you'll receive your card immediately or by post within 5–7 business days</li>
+</ol>
+
+<h3>Option 2: Online (mBank, ING, Santander)</h3>
+<ol>
+  <li>Go to the bank's official website and select "Open an account"</li>
+  <li>Fill in the online form using your passport details</li>
+  <li>Complete identity verification: a video call with a bank employee or a 1 grosz verification transfer from another account</li>
+  <li>Upload a scan of your passport and residence document</li>
+  <li>Your card will be delivered by post to your Polish address within 7–10 days</li>
+</ol>
+
+<h2>Common Problems and How to Solve Them</h2>
+
+<h3>Problem: No PESEL number</h3>
+<p>Solution: Choose a bank that doesn't require PESEL — mBank, Santander, or Alior Bank. Remember that PESEL can be obtained for free at your local gmina (municipality office) — it's mandatory for everyone working legally in Poland.</p>
+
+<h3>Problem: Language barrier</h3>
+<p>Solution: Prepare a note saying: <em>„Chciałbym otworzyć konto. Jestem pracownikiem z Ukrainy / Rosji."</em> Use Google Translate or a translation app. Most bank branches in larger cities have English-speaking staff.</p>
+
+<h3>Problem: Account opening refused</h3>
+<p>Solution: Different banks and even different branches have varying requirements. If one bank refuses, try another. Bring a full set of documents: passport, residence document, employment contract or a letter from your employer confirming your job.</p>
+
+<h2>IBAN and Your Salary</h2>
+<p>Once your account is open, give your IBAN number to your employer so that salary payments go directly to your account. A Polish IBAN consists of 28 characters and begins with the letters "PL".</p>
+
+<blockquote><p><strong>Example:</strong> PL 61 1090 1014 0000 0712 1981 2874</p></blockquote>
+
+<p>You can find your IBAN in the bank's mobile app, in your account agreement, or on a bank statement.</p>
+
+<h2>Summary</h2>
+<p>Opening a bank account in Poland as a foreign worker is straightforward — all you need is your passport and a residence document. The easiest route is mBank or Santander online, or visiting PKO BP or Pekao in branch. A bank account is the foundation of a safe and convenient life in Poland.</p>
+
+<p><strong>Nexflow</strong> helps temporary workers from around the world find legal employment in Poland and Germany. Have questions about documents and formalities? Contact our team — we're here to help.</p>
+    `.trim(),
   }
 ];
 
