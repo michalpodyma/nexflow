@@ -5055,6 +5055,290 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p>Have questions about your legal status? Reach out to your Nexflow coordinator — we'll walk you through every step of the process.</p>
     `.trim(),
+  },
+  {
+    slug: "karta-czasowego-pobytu-praca-polska",
+    title: "Karta czasowego pobytu w Polsce — jak ją uzyskać, gdy pracujesz przez agencję (przewodnik 2026)",
+    description: "Zezwolenie na pobyt czasowy i praca w Polsce: gdzie złożyć wniosek, jakie dokumenty, ile kosztuje, ile się czeka i co z pracą w trakcie oczekiwania.",
+    date: "2027-02-02",
+    lang: "pl",
+    content: `
+<h2>Czym jest zezwolenie na pobyt czasowy i karta pobytu?</h2>
+
+<p>Zezwolenie na pobyt czasowy to decyzja wojewody, która pozwala legalnie mieszkać w Polsce dłużej, niż pozwala wiza lub ruch bezwizowy — maksymalnie do 3 lat. Karta pobytu (potocznie „karta czasowego pobytu", po angielsku TRC — temporary residence card) to plastikowy dokument, który dostajesz po pozytywnej decyzji. Potwierdza tożsamość i prawo pobytu, a razem z paszportem pozwala przekraczać granicę.</p>
+
+<p>Dla osób pracujących najwygodniejsze jest zwykle <strong>jednolite zezwolenie na pobyt czasowy i pracę</strong> — jeden wniosek legalizuje i pobyt, i zatrudnienie.</p>
+
+<h2>Kiedy złożyć wniosek</h2>
+
+<p>Najpóźniej <strong>ostatniego dnia legalnego pobytu</strong> (ważności wizy lub okresu bezwizowego). W praktyce: zacznij kompletować dokumenty 2–3 miesiące wcześniej. Po złożeniu kompletnego wniosku w terminie dostajesz odcisk stempla w paszporcie (lub potwierdzenie złożenia) — od tej chwili Twój pobyt w Polsce jest legalny aż do decyzji, nawet jeśli wiza wygaśnie.</p>
+
+<p>Uwaga: stempel legalizuje pobyt <strong>tylko w Polsce</strong>. Jeśli wyjedziesz, do powrotu potrzebujesz ważnej wizy.</p>
+
+<h2>Gdzie składa się wniosek</h2>
+
+<p>W urzędzie wojewódzkim właściwym dla Twojego miejsca zamieszkania. W większości województw sprawę zaczyna się elektronicznie (moduł obsługi spraw dla cudzoziemców), a następnie na umówionej wizycie składa się odciski palców i oryginały dokumentów. Zasady różnią się między województwami — sprawdź stronę swojego urzędu.</p>
+
+<h2>Jakie dokumenty przygotować (typowy zestaw)</h2>
+
+<ul>
+  <li>wypełniony wniosek + <strong>załącznik nr 1 wypełniony przez pracodawcę</strong> (w pracy tymczasowej: przez agencję)</li>
+  <li>ważny paszport + kopie wszystkich zapisanych stron</li>
+  <li>4 aktualne fotografie biometryczne</li>
+  <li>potwierdzenie ubezpieczenia zdrowotnego (np. zgłoszenie do ZUS — masz je automatycznie przy umowie przez Nexflow)</li>
+  <li>dokumenty potwierdzające dochód (umowa, rozliczenia)</li>
+  <li>potwierdzenie miejsca zamieszkania (umowa najmu lub zaświadczenie o zakwaterowaniu)</li>
+</ul>
+
+<h2>Ile to kosztuje</h2>
+
+<ul>
+  <li>440 zł opłaty skarbowej za zezwolenie na pobyt czasowy i pracę</li>
+  <li>100 zł za wydanie karty pobytu</li>
+</ul>
+
+<p>(Stan na sierpień 2026 — kwoty mogą się zmieniać, sprawdź aktualne stawki urzędu.)</p>
+
+<h2>Ile się czeka</h2>
+
+<p>Ustawowy termin to ok. 60 dni, ale realnie postępowanie trwa <strong>od kilku miesięcy do ponad roku</strong>, zależnie od województwa. Status sprawy sprawdzisz online lub telefonicznie w urzędzie. Nie ignoruj wezwań do uzupełnienia braków — nieuzupełnione w terminie kończą się pozostawieniem wniosku bez rozpoznania.</p>
+
+<h2>Czy mogę pracować w czasie oczekiwania?</h2>
+
+<p>Jeśli złożyłeś wniosek w terminie, a Twoje dotychczasowe dokumenty (oświadczenie o powierzeniu pracy albo zezwolenie na pracę) są ważne, co do zasady możesz kontynuować pracę u tego samego pracodawcy. Każdy przypadek jest trochę inny — skonsultuj swój z koordynatorem Nexflow, zanim wygaśnie Ci dokument.</p>
+
+<h2>Obywatele Ukrainy — ważny wyjątek</h2>
+
+<p>Jeśli masz status UKR (PESEL UKR), Twój pobyt reguluje specustawa i może być legalny bez karty pobytu, a od 2025 r. działają uproszczone ścieżki uzyskania karty. Zasady zmieniają się często — zapytaj koordynatora o stan na dziś.</p>
+
+<h2>Najczęstsze błędy</h2>
+
+<ol>
+  <li>Złożenie wniosku po terminie (pobyt staje się nielegalny).</li>
+  <li>Braki formalne nieuzupełnione w wyznaczonym terminie.</li>
+  <li>Nieaktualny adres — urząd wysyła korespondencję na adres z wniosku.</li>
+  <li>Brak dokumentów potwierdzających stabilny dochód.</li>
+</ol>
+
+<h2>Jak pomaga Nexflow</h2>
+
+<p>Agencja wypełnia załącznik pracodawcy, wystawia zaświadczenia o zatrudnieniu, dochodach i zakwaterowaniu oraz przypomina o terminach. Zgłoś się do swojego koordynatora minimum 2 miesiące przed końcem legalnego pobytu.</p>
+
+<p><em>Ten artykuł ma charakter informacyjny i nie jest poradą prawną. Stan prawny: sierpień 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "karta-czasowego-pobytu-praca-polska-ua",
+    title: "Карта тимчасового побиту в Польщі — як її отримати, якщо ви працюєте через агентство (гід 2026)",
+    description: "Дозвіл на тимчасове проживання і робота в Польщі: куди подавати заяву, які документи, скільки коштує, скільки чекати і чи можна працювати під час очікування.",
+    date: "2027-02-09",
+    lang: "uk",
+    content: `
+<h2>Що таке дозвіл на тимчасове проживання і карта побиту?</h2>
+
+<p>Дозвіл на тимчасове проживання (zezwolenie na pobyt czasowy) — це рішення воєводи, яке дозволяє легально жити в Польщі довше, ніж дозволяє віза чи безвіз — максимум до 3 років. Карта побиту (karta pobytu, англійською TRC — temporary residence card) — це пластикова картка, яку ви отримуєте після позитивного рішення. Вона підтверджує особу і право на проживання, а разом із паспортом дозволяє перетинати кордон.</p>
+
+<p>Для працівників найзручніший варіант — <strong>єдиний дозвіл на проживання і роботу</strong> (zezwolenie na pobyt czasowy i pracę): одна заява легалізує і перебування, і працевлаштування.</p>
+
+<h2>Коли подавати заяву</h2>
+
+<p>Найпізніше — <strong>в останній день легального перебування</strong> (дії візи або безвізового періоду). На практиці: почніть збирати документи за 2–3 місяці. Після вчасної подачі повної заяви вам поставлять штамп у паспорт (або видадуть підтвердження подачі) — з цього моменту ваше перебування в Польщі легальне до ухвалення рішення, навіть якщо віза закінчиться.</p>
+
+<p>Увага: штамп легалізує перебування <strong>лише в Польщі</strong>. Якщо виїдете, для повернення потрібна дійсна віза.</p>
+
+<h2>Куди подавати</h2>
+
+<p>До воєводського управління (urząd wojewódzki) за місцем проживання. У більшості воєводств справу починають онлайн (електронний модуль для іноземців), а потім на призначеному візиті здають відбитки пальців та оригінали документів. Правила відрізняються — перевірте сайт свого управління.</p>
+
+<h2>Які документи підготувати (типовий набір)</h2>
+
+<ul>
+  <li>заповнена заява + <strong>додаток №1, заповнений роботодавцем</strong> (у тимчасовій праці — агентством)</li>
+  <li>дійсний паспорт + копії всіх заповнених сторінок</li>
+  <li>4 актуальні біометричні фото</li>
+  <li>підтвердження медичного страхування (наприклад, реєстрація в ZUS — з договором через Nexflow вона у вас є автоматично)</li>
+  <li>документи про дохід (договір, розрахунки)</li>
+  <li>підтвердження місця проживання (договір оренди або довідка про житло)</li>
+</ul>
+
+<h2>Скільки це коштує</h2>
+
+<ul>
+  <li>440 злотих гербового збору за дозвіл на проживання і роботу</li>
+  <li>100 злотих за видачу карти побиту</li>
+</ul>
+
+<p>(Станом на серпень 2026 — суми можуть змінюватися, перевірте актуальні тарифи.)</p>
+
+<h2>Скільки чекати</h2>
+
+<p>Законний строк — близько 60 днів, але реально розгляд триває <strong>від кількох місяців до понад року</strong>, залежно від воєводства. Статус справи можна перевірити онлайн або телефоном. Не ігноруйте виклики про доповнення документів — якщо не доповнити вчасно, заяву залишать без розгляду.</p>
+
+<h2>Чи можна працювати під час очікування?</h2>
+
+<p>Якщо ви подали заяву вчасно, а ваші поточні документи (oświadczenie o powierzeniu pracy або дозвіл на роботу) дійсні, як правило, можна продовжувати працювати в того самого роботодавця. Кожен випадок трохи інший — проконсультуйтеся зі своїм координатором Nexflow до закінчення дії документа.</p>
+
+<h2>Громадяни України — важливий виняток</h2>
+
+<p>Якщо у вас статус UKR (PESEL UKR), ваше перебування регулює спецзакон: воно може бути легальним без карти побиту, а з 2025 року діють спрощені шляхи її отримання. Правила часто змінюються — запитайте координатора про актуальний стан.</p>
+
+<h2>Найпоширеніші помилки</h2>
+
+<ol>
+  <li>Подача заяви після строку (перебування стає нелегальним).</li>
+  <li>Формальні недоліки, не виправлені у визначений строк.</li>
+  <li>Неактуальна адреса — управління надсилає листи на адресу із заяви.</li>
+  <li>Відсутність документів про стабільний дохід.</li>
+</ol>
+
+<h2>Як допомагає Nexflow</h2>
+
+<p>Агентство заповнює додаток роботодавця, видає довідки про працевлаштування, доходи та житло, нагадує про строки. Зверніться до свого координатора щонайменше за 2 місяці до закінчення легального перебування.</p>
+
+<p><em>Ця стаття має інформаційний характер і не є юридичною консультацією. Правовий стан: серпень 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "karta-czasowego-pobytu-praca-polska-ru",
+    title: "Карта временного пребывания в Польше — как её получить, если вы работаете через агентство (гид 2026)",
+    description: "Разрешение на временное пребывание и работа в Польше: куда подавать заявление, какие документы, сколько стоит, сколько ждать и можно ли работать во время ожидания.",
+    date: "2027-02-16",
+    lang: "ru",
+    content: `
+<h2>Что такое разрешение на временное пребывание и карта побыту?</h2>
+
+<p>Разрешение на временное пребывание (zezwolenie na pobyt czasowy) — это решение воеводы, позволяющее легально жить в Польше дольше, чем разрешает виза или безвиз — максимум до 3 лет. Карта побыту (karta pobytu, по-английски TRC — temporary residence card) — пластиковая карта, которую вы получаете после положительного решения. Она подтверждает личность и право на пребывание, а вместе с паспортом позволяет пересекать границу.</p>
+
+<p>Для работников удобнее всего <strong>единое разрешение на пребывание и работу</strong> (zezwolenie na pobyt czasowy i pracę): одно заявление легализует и проживание, и трудоустройство.</p>
+
+<h2>Когда подавать заявление</h2>
+
+<p>Не позднее <strong>последнего дня легального пребывания</strong> (действия визы или безвизового периода). На практике: начните собирать документы за 2–3 месяца. После своевременной подачи полного заявления вам поставят штамп в паспорт (или выдадут подтверждение подачи) — с этого момента ваше пребывание в Польше легально до вынесения решения, даже если виза закончится.</p>
+
+<p>Внимание: штамп легализует пребывание <strong>только в Польше</strong>. Если выедете, для возвращения понадобится действующая виза.</p>
+
+<h2>Куда подавать</h2>
+
+<p>В воеводское управление (urząd wojewódzki) по месту проживания. В большинстве воеводств дело начинают онлайн (электронный модуль для иностранцев), а затем на назначенном визите сдают отпечатки пальцев и оригиналы документов. Правила отличаются — проверьте сайт своего управления.</p>
+
+<h2>Какие документы подготовить (типовой набор)</h2>
+
+<ul>
+  <li>заполненное заявление + <strong>приложение №1, заполненное работодателем</strong> (при временной работе — агентством)</li>
+  <li>действующий паспорт + копии всех заполненных страниц</li>
+  <li>4 актуальные биометрические фотографии</li>
+  <li>подтверждение медицинского страхования (например, регистрация в ZUS — при договоре через Nexflow она у вас есть автоматически)</li>
+  <li>документы о доходе (договор, расчёты)</li>
+  <li>подтверждение места проживания (договор аренды или справка о жилье)</li>
+</ul>
+
+<h2>Сколько это стоит</h2>
+
+<ul>
+  <li>440 злотых гербового сбора за разрешение на пребывание и работу</li>
+  <li>100 злотых за выдачу карты побыту</li>
+</ul>
+
+<p>(По состоянию на август 2026 — суммы могут меняться, проверьте актуальные тарифы.)</p>
+
+<h2>Сколько ждать</h2>
+
+<p>Законный срок — около 60 дней, но реально рассмотрение длится <strong>от нескольких месяцев до более года</strong>, в зависимости от воеводства. Статус дела можно проверить онлайн или по телефону. Не игнорируйте требования о дополнении документов — если не дополнить вовремя, заявление оставят без рассмотрения.</p>
+
+<h2>Можно ли работать во время ожидания?</h2>
+
+<p>Если вы подали заявление вовремя, а ваши текущие документы (oświadczenie o powierzeniu pracy или разрешение на работу) действительны, как правило, можно продолжать работать у того же работодателя. Каждый случай немного отличается — проконсультируйтесь со своим координатором Nexflow до истечения срока действия документа.</p>
+
+<h2>Граждане Украины — важное исключение</h2>
+
+<p>Если у вас статус UKR (PESEL UKR), ваше пребывание регулирует специальный закон: оно может быть легальным без карты побыту, а с 2025 года действуют упрощённые пути её получения. Правила часто меняются — уточните у координатора актуальное состояние.</p>
+
+<h2>Самые частые ошибки</h2>
+
+<ol>
+  <li>Подача заявления после срока (пребывание становится нелегальным).</li>
+  <li>Формальные недостатки, не исправленные в назначенный срок.</li>
+  <li>Неактуальный адрес — управление отправляет письма на адрес из заявления.</li>
+  <li>Отсутствие документов о стабильном доходе.</li>
+</ol>
+
+<h2>Как помогает Nexflow</h2>
+
+<p>Агентство заполняет приложение работодателя, выдаёт справки о трудоустройстве, доходах и жилье, напоминает о сроках. Обратитесь к своему координатору минимум за 2 месяца до окончания легального пребывания.</p>
+
+<p><em>Эта статья носит информационный характер и не является юридической консультацией. Правовое состояние: август 2026.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "karta-czasowego-pobytu-praca-polska-en",
+    title: "Temporary residence card (karta pobytu) in Poland — how to get one when you work through an agency (2026 guide)",
+    description: "Temporary residence permit and work in Poland: where to apply, what documents you need, costs, waiting times, and whether you can work while you wait.",
+    date: "2027-02-23",
+    lang: "en",
+    content: `
+<h2>What are the temporary residence permit and the karta pobytu?</h2>
+
+<p>The temporary residence permit (zezwolenie na pobyt czasowy) is a decision issued by the voivode that lets you legally live in Poland longer than your visa or visa-free stay allows — for up to 3 years. The karta pobytu (residence card, TRC) is the plastic card you receive after a positive decision. It confirms your identity and right of residence, and together with your passport lets you cross the border.</p>
+
+<p>For workers, the most convenient option is usually the <strong>single permit for residence and work</strong> (zezwolenie na pobyt czasowy i pracę): one application legalizes both your stay and your employment.</p>
+
+<h2>When to apply</h2>
+
+<p>At the latest on the <strong>last day of your legal stay</strong> (visa validity or visa-free period). In practice: start collecting documents 2–3 months earlier. Once you submit a complete application on time, you get a stamp in your passport (or a submission confirmation) — from that moment your stay in Poland is legal until the decision, even if your visa expires.</p>
+
+<p>Note: the stamp legalizes your stay <strong>only in Poland</strong>. If you leave, you need a valid visa to come back.</p>
+
+<h2>Where to apply</h2>
+
+<p>At the voivodeship office (urząd wojewódzki) for your place of residence. In most voivodeships you start the case online (the electronic module for foreigners), then attend an appointment to give fingerprints and submit original documents. Rules differ by region — check your office's website.</p>
+
+<h2>Documents to prepare (typical set)</h2>
+
+<ul>
+  <li>completed application + <strong>annex no. 1 filled in by your employer</strong> (for temp work: by the agency)</li>
+  <li>valid passport + copies of all used pages</li>
+  <li>4 current biometric photos</li>
+  <li>proof of health insurance (e.g. ZUS registration — you have it automatically with a Nexflow contract)</li>
+  <li>proof of income (contract, payslips)</li>
+  <li>proof of accommodation (rental agreement or housing confirmation)</li>
+</ul>
+
+<h2>How much it costs</h2>
+
+<ul>
+  <li>PLN 440 stamp duty for the residence-and-work permit</li>
+  <li>PLN 100 for issuing the residence card</li>
+</ul>
+
+<p>(As of August 2026 — amounts can change, check current rates.)</p>
+
+<h2>How long it takes</h2>
+
+<p>The statutory deadline is about 60 days, but in reality proceedings take <strong>from a few months to over a year</strong>, depending on the voivodeship. You can check your case status online or by phone. Never ignore requests to complete missing documents — if you miss the deadline, your application is left unexamined.</p>
+
+<h2>Can I work while I wait?</h2>
+
+<p>If you applied on time and your current documents (oświadczenie o powierzeniu pracy — declaration of entrusting work — or a work permit) are still valid, you can generally keep working for the same employer. Every case is slightly different — talk to your Nexflow coordinator before your document expires.</p>
+
+<h2>Ukrainian citizens — an important exception</h2>
+
+<p>If you have UKR status (PESEL UKR), your stay is governed by the special act: it may be legal without a residence card, and since 2025 there are simplified paths to obtain one. The rules change often — ask your coordinator for the current state.</p>
+
+<h2>Most common mistakes</h2>
+
+<ol>
+  <li>Applying after the deadline (your stay becomes illegal).</li>
+  <li>Formal deficiencies not corrected within the set deadline.</li>
+  <li>An outdated address — the office sends letters to the address in your application.</li>
+  <li>Missing proof of stable income.</li>
+</ol>
+
+<h2>How Nexflow helps</h2>
+
+<p>The agency fills in the employer annex, issues certificates of employment, income and accommodation, and reminds you about deadlines. Contact your coordinator at least 2 months before your legal stay ends.</p>
+
+<p><em>This article is for information only and is not legal advice. Legal status: August 2026.</em></p>
+    `.trim(),
   }
 ];
 
