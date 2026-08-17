@@ -3,7 +3,7 @@ export interface BlogPost {
   title: string;
   description: string;
   date: string;
-  lang: "pl" | "de";
+  lang: "pl" | "de" | "uk" | "ru" | "en";
   content: string;
 }
 
@@ -2951,8 +2951,1251 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p><em>Artykuł: sierpień 2026. Prawo wg stanu na 2026 r.</em></p>
     `.trim(),
   },
+  {
+    slug: "karta-czasowego-pobytu-jak-zlozyc-wniosek",
+    title: "Karta czasowego pobytu w Polsce — jak złożyć wniosek krok po kroku",
+    description: "Kompletny przewodnik dla obcokrajowców pracujących w Polsce: jakie dokumenty zebrać, gdzie złożyć wniosek o kartę pobytu i czego się spodziewać w trakcie procesu.",
+    date: "2026-08-10",
+    lang: "pl",
+    content: `
+<h1>Karta czasowego pobytu w Polsce — jak złożyć wniosek krok po kroku</h1>
+
+<p>Jeśli pracujesz w Polsce i planujesz zostać dłużej niż 90 dni, musisz zalegalizować swój pobyt. Najczęstszym rozwiązaniem dla pracowników tymczasowych jest <strong>karta pobytu na pobyt czasowy</strong> — popularnie zwana kartą czasowego pobytu. Ten przewodnik tłumaczy krok po kroku, jak złożyć wniosek, co przygotować i czego się spodziewać.</p>
+
+<h2>Kto potrzebuje karty czasowego pobytu?</h2>
+
+<p>Karta pobytu jest wymagana dla obywateli spoza Unii Europejskiej, którzy planują przebywać w Polsce <strong>dłużej niż 90 dni</strong> w ciągu 180 dni. Dotyczy to m.in. obywateli Ukrainy, Białorusi, Gruzji, Mołdawii i innych krajów.</p>
+
+<p><strong>Uwaga dla obywateli Ukrainy:</strong> od 24 lutego 2022 r. obywatele Ukrainy korzystają z ochrony tymczasowej w Polsce, która daje prawo pobytu i pracy bez osobnej karty pobytu. Niemniej wiele osób decyduje się na złożenie wniosku o kartę, by mieć stabilniejszy dokument. Sprawdź aktualny status ochrony tymczasowej w Polsce przed złożeniem wniosku.</p>
+
+<h2>Gdzie złożyć wniosek?</h2>
+
+<p>Wniosek składasz w <strong>Urzędzie Wojewódzkim</strong> — w wydziale ds. cudzoziemców. Ważne: nie w Urzędzie Gminy, nie w Urzędzie Miasta — wyłącznie w urzędzie właściwym dla województwa, w którym zamieszkujesz.</p>
+
+<p>Główne urzędy Wojewódzkie obsługujące cudzoziemców:</p>
+<ul>
+  <li>Mazowieckie (Warszawa): ul. Marszałkowska 3/5</li>
+  <li>Małopolskie (Kraków): ul. Basztowa 22</li>
+  <li>Dolnośląskie (Wrocław): pl. Powstańców Warszawy 1</li>
+  <li>Wielkopolskie (Poznań): al. Niepodległości 16/18</li>
+  <li>Śląskie (Katowice): ul. Jagiellońska 25</li>
+  <li>Zachodniopomorskie (Szczecin): ul. Wały Chrobrego 4</li>
+  <li>Lubuskie (Zielona Góra / Gorzów Wlkp.): ul. Podgórna 7</li>
+</ul>
+
+<p>Wizytę najczęściej musisz zarezerwować przez internet (system rezerwacji elektronicznej). Terminy bywają odległe o kilka tygodni lub miesięcy — zapisz się jak najwcześniej.</p>
+
+<h2>Jakie dokumenty zebrać?</h2>
+
+<p>Podstawowy komplet dokumentów do wniosku o pobyt czasowy w celu pracy:</p>
+
+<ol>
+  <li><strong>Wypełniony wniosek</strong> (formularz do pobrania ze strony urzędu lub gov.pl). Wniosek musi być podpisany.</li>
+  <li><strong>4 zdjęcia</strong> (3,5 × 4,5 cm, tło białe, aktualne, bez okularów).</li>
+  <li><strong>Ważny paszport</strong> + kserokopie wszystkich zapisanych stron (w tym stron z wizami i pieczątkami).</li>
+  <li><strong>Potwierdzenie posiadania miejsca zamieszkania</strong> — umowa najmu, zaświadczenie od pracodawcy o zapewnieniu zakwaterowania lub oświadczenie właściciela.</li>
+  <li><strong>Umowa o pracę lub umowa zlecenia</strong> — aktualna, potwierdzająca zatrudnienie w Polsce. Pracodawca powinien podać w niej wynagrodzenie nie niższe od minimalnego (w 2026 r.: 4 666 zł brutto).</li>
+  <li><strong>Zaświadczenie o dochodach</strong> lub paski wynagrodzeń — potwierdzające regularne wpłaty wynagrodzenia.</li>
+  <li><strong>Ubezpieczenie zdrowotne</strong> — zgłoszenie do NFZ (przez ZUS ZUA składany przez pracodawcę) lub polisa ubezpieczenia prywatnego pokrywająca leczenie w Polsce.</li>
+  <li><strong>Dowód wpłaty opłaty skarbowej</strong> — 340 zł za wydanie karty pobytu. Płatność przelewem na konto urzędu lub w kasie.</li>
+  <li>(Opcjonalnie) <strong>Zezwolenie na pracę lub oświadczenie o powierzeniu pracy</strong> — jeśli twoja umowa wymaga zezwolenia, musisz je dołączyć. W wielu przypadkach pracodawca załatwia to wcześniej.</li>
+</ol>
+
+<p><strong>Ważne:</strong> wszystkie dokumenty w języku obcym muszą być przetłumaczone na język polski przez <strong>tłumacza przysięgłego</strong>. Zachowaj oryginały — urząd może je porównać z kopiami.</p>
+
+<h2>Stempel w paszporcie — co to oznacza?</h2>
+
+<p>Po złożeniu kompletnego wniosku urząd <strong>umieszcza stempel w paszporcie</strong> (odcisk pieczęci z datą złożenia wniosku). Ten stempel jest bardzo ważny:</p>
+
+<ul>
+  <li>Legalnie przebywasz i pracujesz w Polsce podczas oczekiwania na decyzję.</li>
+  <li>Możesz przekraczać granicę strefy Schengen (z paszportem i stemplem).</li>
+  <li>Jeśli Twoja wiza wygaśnie w trakcie oczekiwania — stempel ją zastępuje.</li>
+</ul>
+
+<p>Bez stempla (gdy złożony wniosek jest niekompletny) możesz mieć problemy z legalnym pobytem. Dlatego upewnij się, że komplet dokumentów jest pełny przy pierwszej wizycie.</p>
+
+<h2>Uzupełnienie braków — co robić, gdy dostaniesz pismo z urzędu?</h2>
+
+<p>Jeśli złożyłeś wniosek z brakującymi lub nieprawidłowymi dokumentami, urząd wyśle Ci list polecony z <strong>wezwaniem do uzupełnienia braków</strong>. To normalna procedura — nie panikuj.</p>
+
+<ul>
+  <li>Zwróć uwagę na termin wskazany w piśmie — zwykle <strong>7 lub 14 dni</strong> od daty doręczenia listu.</li>
+  <li>Dostarcz brakujące dokumenty osobiście lub przesyłką poleconą przed upływem terminu.</li>
+  <li>Jeśli nie uzupełnisz w terminie, urząd może <strong>odmówić wszczęcia postępowania</strong> — i będziesz musiał składać wniosek od nowa.</li>
+  <li>Masz pytania do listu? Zadzwoń pod numer kontaktowy podany w piśmie lub przyjdź na infolinię urzędu (często bez osobnej wizyty).</li>
+</ul>
+
+<h2>Jak długo czeka się na decyzję?</h2>
+
+<p>Czas oczekiwania jest <strong>zróżnicowany w zależności od województwa</strong> i aktualnego obciążenia urzędu:</p>
+
+<ul>
+  <li>Minimum: 1–3 miesiące (rzadko, przy sprawnych urzędach i kompletnych dokumentach)</li>
+  <li>Typowo: 3–6 miesięcy</li>
+  <li>W dużych miastach (np. Warszawa): nawet 9–12 miesięcy w szczycie</li>
+</ul>
+
+<p>W tym czasie możesz legalnie pracować dzięki stemplowi w paszporcie. Po otrzymaniu pozytywnej decyzji możesz odebrać <strong>fizyczną kartę pobytu</strong> — plastikową kartę z danymi i zdjęciem, ważną zwykle na 1–3 lata.</p>
+
+<h2>Kiedy i jak odnawiać kartę?</h2>
+
+<p>Wniosek o przedłużenie złóż <strong>co najmniej 45 dni przed wygaśnięciem</strong> aktualnej karty. Procedura jest podobna do pierwszego wniosku, ale znacznie prostsza — nie potrzebujesz ponownie wszystkich dokumentów od zera.</p>
+
+<h2>Nexflow pomaga w legalizacji</h2>
+
+<p>Pracownicy Nexflow mogą liczyć na wsparcie naszego zespołu przy kompletowaniu dokumentów do legalizacji pobytu. Pracodawca wystawia niezbędne zaświadczenia o zatrudnieniu i wynagrodzeniu, a nasz dział kadr odpowie na pytania dotyczące procedury. Skontaktuj się z nami, jeśli potrzebujesz pomocy.</p>
+
+<p><strong>Masz pytania?</strong> Napisz do nas przez WhatsApp lub zadzwoń — jesteśmy tutaj, żeby pomóc Ci z formalnościami.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-tymchasovogo-prozhyvannya-polshcha",
+    title: "Картка тимчасового проживання в Польщі — як подати заяву покроково",
+    description: "Повний посібник для іноземців, які працюють у Польщі: які документи зібрати, де подати заяву на картку проживання та чого очікувати в процесі.",
+    date: "2026-08-10",
+    lang: "uk",
+    content: `
+<h1>Картка тимчасового проживання в Польщі — як подати заяву покроково</h1>
+
+<p>Якщо ви працюєте в Польщі та плануєте залишитися більше ніж 90 днів, вам потрібно легалізувати своє перебування. Найпоширенішим рішенням для тимчасових працівників є <strong>картка поселення на тимчасове проживання</strong> (karta pobytu na pobyt czasowy) — або, як її ще називають, тимчасова картка поживання. Цей посібник пояснює крок за кроком, як подати заяву, що підготувати та чого очікувати.</p>
+
+<h2>Хто потребує картки тимчасового проживання?</h2>
+
+<p>Картка поживання необхідна громадянам країн за межами Європейського Союзу, які планують перебувати в Польщі <strong>більше 90 днів</strong> протягом 180 днів. Це стосується громадян України, Білорусі, Грузії, Молдови та інших країн.</p>
+
+<p><strong>Увага для громадян України:</strong> з 24 лютого 2022 р. громадяни України користуються тимчасовим захистом у Польщі, що дає право на проживання та роботу без окремої картки проживання. Однак багато людей вирішують подати заявку на картку, щоб мати стабільніший документ. Перевірте актуальний статус тимчасового захисту в Польщі перед подачею заяви.</p>
+
+<h2>Куди подавати заяву?</h2>
+
+<p>Заяву подають у <strong>Воєводському управлінні (Urząd Wojewódzki)</strong> — у відділі у справах іноземців. Важливо: не в міській раді, не в гміні — лише в управлінні воєводства, де ви проживаєте.</p>
+
+<p>Головні воєводські управління, що обслуговують іноземців:</p>
+<ul>
+  <li>Мазовецьке (Варшава): вул. Маршалківська 3/5</li>
+  <li>Малопольське (Краків): вул. Баштова 22</li>
+  <li>Нижньосілезьке (Вроцлав): пл. Постансців Варшавьких 1</li>
+  <li>Великопольське (Познань): ал. Незалежності 16/18</li>
+  <li>Силезьке (Катовиці): вул. Ягєллонська 25</li>
+  <li>Західнопоморське (Щецин): вул. Валли Хробрего 4</li>
+  <li>Любуське (Зелона Гура / Гожув-Велькопольський): вул. Подгурна 7</li>
+</ul>
+
+<p>Запис на прийом зазвичай здійснюється через інтернет. Терміни можуть бути через кілька тижнів або місяців — записуйтеся якнайраніше.</p>
+
+<h2>Які документи зібрати?</h2>
+
+<p>Базовий пакет документів для заяви на тимчасове проживання з метою роботи:</p>
+
+<ol>
+  <li><strong>Заповнена заява</strong> (форму можна завантажити з сайту управління або gov.pl). Заява має бути підписана.</li>
+  <li><strong>4 фотографії</strong> (3,5 × 4,5 см, біле тло, актуальні, без окулярів).</li>
+  <li><strong>Дійсний паспорт</strong> + ксерокопії всіх заповнених сторінок (включно з візами та штампами).</li>
+  <li><strong>Підтвердження наявності місця проживання</strong> — договір оренди, довідка від роботодавця про надання житла або заява власника.</li>
+  <li><strong>Трудовий договір або договір доручення (zlecenia)</strong> — актуальний, що підтверджує зайнятість у Польщі. Роботодавець має вказати заробітну плату не нижче мінімальної (у 2026 р.: 4 666 зл. брутто).</li>
+  <li><strong>Довідка про доходи</strong> або розрахункові листки — що підтверджують регулярні виплати заробітної плати.</li>
+  <li><strong>Медичне страхування</strong> — реєстрація в NFZ (через ZUS ZUA, яку подає роботодавець) або поліс приватного страхування, що покриває лікування в Польщі.</li>
+  <li><strong>Підтвердження оплати державного мита</strong> — 340 зл. за видачу картки проживання. Оплата банківським переказом на рахунок управління або в касі.</li>
+  <li>(За потреби) <strong>Дозвіл на роботу або декларація (oświadczenie)</strong> — якщо ваш договір вимагає дозволу, його необхідно додати. У більшості випадків роботодавець оформляє це заздалегідь.</li>
+</ol>
+
+<p><strong>Важливо:</strong> усі документи іноземною мовою мають бути перекладені польською мовою <strong>присяжним перекладачем</strong>. Збережіть оригінали — управління може їх порівняти з копіями.</p>
+
+<h2>Штамп у паспорті — що це означає?</h2>
+
+<p>Після подачі повного пакету документів управління <strong>ставить штамп у паспорт</strong> (відбиток з датою подачі заяви). Цей штамп дуже важливий:</p>
+
+<ul>
+  <li>Ви легально перебуваєте та працюєте в Польщі під час очікування рішення.</li>
+  <li>Можете перетинати кордон Шенгенської зони (з паспортом і штампом).</li>
+  <li>Якщо ваша віза закінчується під час очікування — штамп її замінює.</li>
+</ul>
+
+<p>Без штампа (якщо заява неповна) можуть виникнути проблеми з законним перебуванням. Тому переконайтеся, що всі документи повні під час першого візиту.</p>
+
+<h2>Доповнення недоліків — що робити, якщо прийде лист з управління?</h2>
+
+<p>Якщо ви подали заяву з відсутніми або неправильними документами, управління надішле вам рекомендований лист із <strong>вимогою усунути недоліки</strong>. Це нормальна процедура — не панікуйте.</p>
+
+<ul>
+  <li>Зверніть увагу на термін, зазначений у листі — зазвичай <strong>7 або 14 днів</strong> з дати вручення листа.</li>
+  <li>Доставте відсутні документи особисто або рекомендованою поштою до закінчення терміну.</li>
+  <li>Якщо не виправите вчасно, управління може <strong>відмовити у відкритті провадження</strong> — і вам доведеться подавати заяву заново.</li>
+  <li>Маєте запитання до листа? Зателефонуйте за контактним номером, зазначеним у ньому, або прийдіть на гарячу лінію управління.</li>
+</ul>
+
+<h2>Скільки часу чекати на рішення?</h2>
+
+<p>Час очікування <strong>різниться залежно від воєводства</strong> та поточного навантаження управління:</p>
+
+<ul>
+  <li>Мінімум: 1–3 місяці (рідко, при ефективних управліннях і повних документах)</li>
+  <li>Зазвичай: 3–6 місяців</li>
+  <li>У великих містах (наприклад, Варшава): навіть 9–12 місяців у пік</li>
+</ul>
+
+<p>В цей час ви можете легально працювати завдяки штампу в паспорті. Після отримання позитивного рішення можна забрати <strong>фізичну картку проживання</strong> — пластикову картку з даними та фото, яка зазвичай дійсна 1–3 роки.</p>
+
+<h2>Nexflow допомагає з легалізацією</h2>
+
+<p>Працівники Nexflow можуть розраховувати на підтримку нашої команди при зборі документів для легалізації проживання. Роботодавець видає необхідні довідки про зайнятість і зарплату, а наш відділ кадрів відповість на запитання щодо процедури. Зв'яжіться з нами, якщо потребуєте допомоги.</p>
+
+<p><strong>Маєте запитання?</strong> Напишіть нам у WhatsApp або зателефонуйте — ми тут, щоб допомогти вам з оформленням.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-vremennogo-prozhivaniya-polsha",
+    title: "Карта временного проживания в Польше — как подать заявку шаг за шагом",
+    description: "Полное руководство для иностранцев, работающих в Польше: какие документы собрать, куда подавать заявку на карту проживания и чего ожидать в процессе.",
+    date: "2026-08-10",
+    lang: "ru",
+    content: `
+<h1>Карта временного проживания в Польше — как подать заявку шаг за шагом</h1>
+
+<p>Если вы работаете в Польше и планируете оставаться здесь дольше 90 дней, вам необходимо легализовать своё пребывание. Наиболее распространённое решение для временных работников — <strong>карта проживания на временное пребывание</strong> (karta pobytu na pobyt czasowy), которую также называют картой временного проживания. Это руководство объясняет шаг за шагом, как подать заявку, что подготовить и чего ожидать.</p>
+
+<h2>Кому нужна карта временного проживания?</h2>
+
+<p>Карта проживания необходима гражданам стран за пределами Европейского Союза, которые планируют находиться в Польше <strong>более 90 дней</strong> в течение 180 дней. Это касается граждан Украины, Беларуси, Грузии, Молдовы и других стран.</p>
+
+<p><strong>Внимание для граждан Украины:</strong> с 24 февраля 2022 года граждане Украины пользуются временной защитой в Польше, которая даёт право на проживание и работу без отдельной карты проживания. Тем не менее многие предпочитают оформить карту, чтобы иметь более стабильный документ. Проверьте актуальный статус временной защиты в Польше перед подачей заявки.</p>
+
+<h2>Куда подавать заявку?</h2>
+
+<p>Заявка подаётся в <strong>Воеводское управление (Urząd Wojewódzki)</strong> — в отдел по делам иностранцев. Важно: не в городскую администрацию, не в управление гмины — только в управление воеводства, на территории которого вы проживаете.</p>
+
+<p>Главные воеводские управления, обслуживающие иностранцев:</p>
+<ul>
+  <li>Мазовецкое (Варшава): ул. Маршалковская 3/5</li>
+  <li>Малопольское (Краков): ул. Баштова 22</li>
+  <li>Нижнесилезское (Вроцлав): пл. Восстания Варшавского 1</li>
+  <li>Великопольское (Познань): ал. Независимости 16/18</li>
+  <li>Силезское (Катовице): ул. Ягеллонская 25</li>
+  <li>Западнопоморское (Щецин): ул. Вал Хробрего 4</li>
+  <li>Любуское (Зелёна-Гура / Гожув-Велькопольский): ул. Подгурна 7</li>
+</ul>
+
+<p>Запись на приём обычно осуществляется через интернет. Сроки могут быть через несколько недель или месяцев — записывайтесь как можно раньше.</p>
+
+<h2>Какие документы собрать?</h2>
+
+<p>Базовый пакет документов для заявки на временное проживание в целях работы:</p>
+
+<ol>
+  <li><strong>Заполненная заявка</strong> (форму можно скачать с сайта управления или gov.pl). Заявка должна быть подписана.</li>
+  <li><strong>4 фотографии</strong> (3,5 × 4,5 см, белый фон, актуальные, без очков).</li>
+  <li><strong>Действующий паспорт</strong> + ксерокопии всех заполненных страниц (включая страницы с визами и штампами).</li>
+  <li><strong>Подтверждение наличия места проживания</strong> — договор аренды, справка от работодателя о предоставлении жилья или заявление собственника.</li>
+  <li><strong>Трудовой договор или договор подряда (zlecenia)</strong> — актуальный, подтверждающий занятость в Польше. Работодатель должен указать зарплату не ниже минимальной (в 2026 г.: 4 666 злотых брутто).</li>
+  <li><strong>Справка о доходах</strong> или расчётные листки — подтверждающие регулярные выплаты заработной платы.</li>
+  <li><strong>Медицинское страхование</strong> — регистрация в NFZ (через ZUS ZUA, которую подаёт работодатель) или полис частного страхования, покрывающего лечение в Польше.</li>
+  <li><strong>Подтверждение оплаты государственной пошлины</strong> — 340 злотых за выдачу карты проживания. Оплата банковским переводом на счёт управления или в кассе.</li>
+  <li>(При необходимости) <strong>Разрешение на работу или декларация (oświadczenie)</strong> — если ваш договор требует разрешения, его необходимо приложить. В большинстве случаев работодатель оформляет это заранее.</li>
+</ol>
+
+<p><strong>Важно:</strong> все документы на иностранном языке должны быть переведены на польский язык <strong>присяжным переводчиком</strong>. Сохраните оригиналы — управление может их сверить с копиями.</p>
+
+<h2>Штамп в паспорте — что это значит?</h2>
+
+<p>После подачи полного пакета документов управление <strong>ставит штамп в паспорт</strong> (оттиск с датой подачи заявки). Этот штамп очень важен:</p>
+
+<ul>
+  <li>Вы легально находитесь и работаете в Польше в период ожидания решения.</li>
+  <li>Вы можете пересекать границу Шенгенской зоны (с паспортом и штампом).</li>
+  <li>Если ваша виза истекает в период ожидания — штамп её заменяет.</li>
+</ul>
+
+<p>Без штампа (если заявка неполная) могут возникнуть проблемы с законным пребыванием. Поэтому убедитесь, что все документы собраны при первом посещении.</p>
+
+<h2>Устранение недостатков — что делать, если пришло письмо из управления?</h2>
+
+<p>Если вы подали заявку с недостающими или неправильными документами, управление отправит вам заказное письмо с <strong>требованием устранить недостатки</strong>. Это нормальная процедура — не паникуйте.</p>
+
+<ul>
+  <li>Обратите внимание на срок, указанный в письме — обычно <strong>7 или 14 дней</strong> с даты вручения письма.</li>
+  <li>Доставьте недостающие документы лично или заказным письмом до истечения срока.</li>
+  <li>Если не исправите вовремя, управление может <strong>отказать в возбуждении производства</strong> — и вам придётся подавать заявку заново.</li>
+  <li>Есть вопросы по письму? Позвоните по контактному номеру, указанному в нём, или обратитесь на горячую линию управления.</li>
+</ul>
+
+<h2>Сколько ждать решения?</h2>
+
+<p>Время ожидания <strong>варьируется в зависимости от воеводства</strong> и текущей нагрузки управления:</p>
+
+<ul>
+  <li>Минимум: 1–3 месяца (редко, при эффективных управлениях и полных документах)</li>
+  <li>Обычно: 3–6 месяцев</li>
+  <li>В крупных городах (например, Варшава): даже 9–12 месяцев в пик</li>
+</ul>
+
+<p>В этот период вы можете легально работать благодаря штампу в паспорте. После получения положительного решения можно забрать <strong>физическую карту проживания</strong> — пластиковую карту с данными и фото, обычно действительную 1–3 года.</p>
+
+<h2>Nexflow помогает с легализацией</h2>
+
+<p>Работники Nexflow могут рассчитывать на поддержку нашей команды при сборе документов для легализации проживания. Работодатель выдаёт необходимые справки о занятости и зарплате, а наш отдел кадров ответит на вопросы по процедуре. Свяжитесь с нами, если вам нужна помощь.</p>
+
+<p><strong>Есть вопросы?</strong> Напишите нам в WhatsApp или позвоните — мы здесь, чтобы помочь вам с оформлением документов.</p>
+    `.trim(),
+  },
+  {
+    slug: "temporary-residence-card-poland-how-to-apply",
+    title: "Temporary Residence Card in Poland — Step-by-Step Application Guide",
+    description: "A complete guide for foreign workers in Poland: what documents to gather, where to submit your residence card application, and what to expect throughout the process.",
+    date: "2026-08-10",
+    lang: "en",
+    content: `
+<h1>Temporary Residence Card in Poland — Step-by-Step Application Guide</h1>
+
+<p>If you work in Poland and plan to stay longer than 90 days, you need to legalize your residence. The most common solution for temporary workers is the <strong>temporary residence permit card</strong> (karta pobytu na pobyt czasowy). This guide explains step by step how to apply, what to prepare, and what to expect.</p>
+
+<h2>Who needs a temporary residence card?</h2>
+
+<p>A residence card is required for citizens of countries outside the European Union who plan to stay in Poland for <strong>more than 90 days</strong> within any 180-day period. This applies to citizens of Ukraine, Belarus, Georgia, Moldova, and other non-EU countries.</p>
+
+<p><strong>Note for Ukrainian citizens:</strong> since 24 February 2022, Ukrainian citizens benefit from temporary protection in Poland, granting the right to stay and work without a separate residence card. Many people still choose to apply for a card to have a more stable document. Check the current status of temporary protection in Poland before applying.</p>
+
+<h2>Where to submit your application?</h2>
+
+<p>You submit the application at the <strong>Voivodeship Office (Urząd Wojewódzki)</strong> — specifically at the Department for Foreigners (Wydział ds. Cudzoziemców). Important: not at the city hall, not at the district office (gmina) — only at the voivodeship authority for the region where you live.</p>
+
+<p>Main voivodeship offices serving foreigners:</p>
+<ul>
+  <li>Masovian (Warsaw): ul. Marszałkowska 3/5</li>
+  <li>Lesser Poland (Kraków): ul. Basztowa 22</li>
+  <li>Lower Silesia (Wrocław): pl. Powstańców Warszawy 1</li>
+  <li>Greater Poland (Poznań): al. Niepodległości 16/18</li>
+  <li>Silesia (Katowice): ul. Jagiellońska 25</li>
+  <li>West Pomerania (Szczecin): ul. Wały Chrobrego 4</li>
+  <li>Lubusz (Zielona Góra / Gorzów Wlkp.): ul. Podgórna 7</li>
+</ul>
+
+<p>Appointments are usually booked online. Slots can be weeks or even months away — book as early as possible.</p>
+
+<h2>What documents do you need?</h2>
+
+<p>The standard document set for a temporary residence application for work purposes:</p>
+
+<ol>
+  <li><strong>Completed application form</strong> (downloadable from the voivodeship office website or gov.pl). The application must be signed.</li>
+  <li><strong>4 photographs</strong> (3.5 × 4.5 cm, white background, recent, no glasses).</li>
+  <li><strong>Valid passport</strong> + photocopies of all filled pages (including pages with visas and entry stamps).</li>
+  <li><strong>Proof of accommodation</strong> — rental agreement, employer-provided housing letter, or a property owner's declaration.</li>
+  <li><strong>Employment contract (umowa o pracę) or civil contract (umowa zlecenia)</strong> — current, confirming employment in Poland. The stated salary must be at least the minimum wage (in 2026: PLN 4,666 gross).</li>
+  <li><strong>Proof of income</strong> — payslips or income certificate confirming regular salary payments.</li>
+  <li><strong>Health insurance</strong> — registration with NFZ (via ZUS ZUA form submitted by your employer) or a private health insurance policy covering treatment in Poland.</li>
+  <li><strong>Proof of fee payment</strong> — PLN 340 for the residence card. Payment by bank transfer to the office account or in the cashier's office.</li>
+  <li>(If required) <strong>Work permit or employer declaration (oświadczenie)</strong> — if your contract requires a work permit, attach it. In most cases, your employer handles this in advance.</li>
+</ol>
+
+<p><strong>Important:</strong> all documents in a foreign language must be translated into Polish by a <strong>sworn translator (tłumacz przysięgły)</strong>. Keep the originals — the office may compare them with your copies.</p>
+
+<h2>The passport stamp — what does it mean?</h2>
+
+<p>After submitting a complete application, the office places a <strong>stamp in your passport</strong> (with the date of submission). This stamp is crucial:</p>
+
+<ul>
+  <li>You can legally stay and work in Poland while waiting for the decision.</li>
+  <li>You can cross the Schengen border (with your passport and the stamp).</li>
+  <li>If your visa expires during the waiting period — the stamp replaces it as legal proof of stay.</li>
+</ul>
+
+<p>Without the stamp (when the application is incomplete), you may face issues with your legal status. Make sure all documents are complete on your first visit.</p>
+
+<h2>Request to complete missing documents (uzupełnienie braków) — what to do if you receive a letter?</h2>
+
+<p>If you submitted your application with missing or incorrect documents, the office will send you a registered letter requesting you to <strong>complete the missing items</strong>. This is a normal procedure — don't panic.</p>
+
+<ul>
+  <li>Note the deadline stated in the letter — usually <strong>7 or 14 days</strong> from the date the letter was delivered.</li>
+  <li>Deliver the missing documents in person or by registered mail before the deadline.</li>
+  <li>If you miss the deadline, the office may <strong>refuse to open the proceedings</strong> — and you will have to start the application from scratch.</li>
+  <li>Questions about the letter? Call the contact number listed in the letter, or visit the office's information desk (often without a separate appointment).</li>
+</ul>
+
+<h2>How long does it take to get a decision?</h2>
+
+<p>Processing time <strong>varies by voivodeship</strong> and the current workload of the office:</p>
+
+<ul>
+  <li>Minimum: 1–3 months (rare, with efficient offices and complete documents)</li>
+  <li>Typical: 3–6 months</li>
+  <li>In large cities (e.g. Warsaw): up to 9–12 months at peak demand</li>
+</ul>
+
+<p>During this time you can legally work thanks to the stamp in your passport. Once you receive a positive decision, you can collect your <strong>physical residence card</strong> — a plastic card with your photo and data, usually valid for 1–3 years.</p>
+
+<h2>When and how to renew?</h2>
+
+<p>Submit a renewal application at least <strong>45 days before your current card expires</strong>. The process is similar to the initial application but considerably simpler — you do not need to resubmit all documents from scratch.</p>
+
+<h2>Nexflow supports your legalization</h2>
+
+<p>Nexflow employees can count on our team's support in gathering documents for residence legalization. We issue the required employment and salary certificates, and our HR department will answer your questions about the process. Contact us if you need assistance.</p>
+
+<p><strong>Have questions?</strong> Message us on WhatsApp or call us — we're here to help you with the paperwork.</p>
+    `.trim(),
+  },
+  {
+    slug: "zezwolenie-na-prace-vs-oswiadczenie-polska",
+    title: "Zezwolenie na pracę vs. oświadczenie o powierzeniu pracy — który dokument Cię dotyczy?",
+    description: "Praktyczny przewodnik dla obcokrajowców pracujących w Polsce: różnice między zezwoleniem na pracę a oświadczeniem, kto ma prawo do uproszczonej procedury i co grozi za pracę bez dokumentów.",
+    date: "2026-08-10",
+    lang: "pl",
+    content: `
+<h1>Zezwolenie na pracę vs. oświadczenie o powierzeniu pracy — który dokument Cię dotyczy?</h1>
+
+<p>Jeśli jesteś obcokrajowcem spoza Unii Europejskiej i chcesz legalnie pracować w Polsce, musisz mieć odpowiedni dokument zezwalający na pracę. Dwa najczęściej spotykane to <strong>zezwolenie na pracę</strong> i <strong>oświadczenie o powierzeniu wykonywania pracy</strong>. Choć brzmią podobnie, różnią się zasadniczo — procedurą, czasem oczekiwania i tym, kto może z nich korzystać.</p>
+
+<h2>Czym jest oświadczenie o powierzeniu wykonywania pracy?</h2>
+
+<p>To uproszczona, szybsza ścieżka dostępna wyłącznie dla obywateli <strong>Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii i Rosji</strong>. Pracodawca rejestruje oświadczenie w Powiatowym Urzędzie Pracy (PUP) — bez testu rynku pracy, bez długiego oczekiwania.</p>
+
+<h3>Kluczowe parametry oświadczenia</h3>
+<ul>
+  <li><strong>Czas trwania:</strong> do 24 miesięcy (przy jednym pracodawcy, następnie można przedłużyć)</li>
+  <li><strong>Kto składa:</strong> pracodawca (nie pracownik)</li>
+  <li><strong>Gdzie:</strong> Powiatowy Urząd Pracy właściwy dla siedziby pracodawcy</li>
+  <li><strong>Czas oczekiwania:</strong> 1–7 dni roboczych</li>
+  <li><strong>Koszt:</strong> 100 PLN (opłata pobierana przez PUP)</li>
+  <li><strong>Obowiązek wpisu:</strong> pracodawca musi wpisać oświadczenie do ewidencji oświadczeń w PUP przed dopuszczeniem do pracy</li>
+</ul>
+
+<p><strong>Ważne:</strong> oświadczenie jest wystawione na konkretnego pracodawcę i konkretne stanowisko. Zmiana pracodawcy lub stanowiska wymaga nowego oświadczenia.</p>
+
+<h2>Czym jest zezwolenie na pracę?</h2>
+
+<p>Zezwolenie na pracę to standardowy dokument dla obcokrajowców spoza UE, którzy nie mają prawa do uproszczonej procedury oświadczeniowej lub chcą pracować dłużej w Polsce. Jest kilka typów — najważniejsze dla pracowników tymczasowych:</p>
+
+<h3>Typy zezwoleń</h3>
+<ul>
+  <li><strong>Typ A:</strong> praca dla zagranicznego podmiotu, który wydelegował pracownika do pracy w Polsce — nie dotyczy standardowego zatrudnienia w Polsce</li>
+  <li><strong>Typ B:</strong> dla cudzoziemca pełniącego funkcję w zarządzie osoby prawnej lub będącego komplementariuszem</li>
+  <li><strong>Zezwolenie jednolite (single permit):</strong> łączy zezwolenie na pobyt i pracę — wydawane razem z kartą pobytu, jedno postępowanie w urzędzie wojewódzkim</li>
+</ul>
+
+<p>Najczęściej stosowane w praktyce pracy tymczasowej to <strong>oświadczenie</strong> (dla uprawnionych narodowości) lub <strong>zezwolenie jednolite</strong> (łączone z wnioskiem o kartę pobytu).</p>
+
+<h2>Porównanie: oświadczenie vs. zezwolenie</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Kryterium</th>
+      <th>Oświadczenie</th>
+      <th>Zezwolenie / jednolite</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Kto może wnioskować</td>
+      <td>Obywatele UA/BY/GE/MD/AM/RU</td>
+      <td>Wszyscy obcokrajownicy spoza UE</td>
+    </tr>
+    <tr>
+      <td>Kto składa wniosek</td>
+      <td>Pracodawca</td>
+      <td>Pracodawca (zwykłe) lub pracownik (jednolite)</td>
+    </tr>
+    <tr>
+      <td>Czas oczekiwania</td>
+      <td>1–7 dni</td>
+      <td>1–6 miesięcy</td>
+    </tr>
+    <tr>
+      <td>Maks. okres ważności</td>
+      <td>24 miesiące</td>
+      <td>3 lata (zezwolenie) / do 3 lat (jednolite)</td>
+    </tr>
+    <tr>
+      <td>Test rynku pracy</td>
+      <td>Nie</td>
+      <td>Tak (z wyjątkami)</td>
+    </tr>
+    <tr>
+      <td>Wiązanie z pracodawcą</td>
+      <td>Tak — konkretny pracodawca</td>
+      <td>Tak — konkretny pracodawca</td>
+    </tr>
+    <tr>
+      <td>Koszt dla pracodawcy</td>
+      <td>100 PLN</td>
+      <td>50–100 PLN + ew. adwokat</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Czy możesz pracować przez agencję tymczasową na oświadczeniu?</h2>
+
+<p>Tak — agencja pracy tymczasowej (jak Nexflow) jest pracodawcą i to ona składa oświadczenie lub wniosek o zezwolenie. Pracownik tymczasowy jest formalnie zatrudniony przez agencję i delegowany do klienta (pracodawcy użytkownika). W przypadku oświadczenia: pracodawcą wymienionym w dokumencie jest agencja — zmiana klienta u agencji nie wymaga nowego oświadczenia, ale zmiana agencji — tak.</p>
+
+<h2>Co grozi za pracę bez zezwolenia?</h2>
+
+<p>Praca bez wymaganych dokumentów to <strong>wykroczenie</strong> (dla pracownika) i <strong>wykroczenie lub przestępstwo</strong> (dla pracodawcy):</p>
+<ul>
+  <li>Pracownik: grzywna do 5 000 PLN + wydalenie z Polski i zakaz wjazdu</li>
+  <li>Pracodawca: grzywna do 30 000 PLN, zakaz ubiegania się o dofinansowania UE</li>
+</ul>
+
+<h2>Jak Nexflow pomaga?</h2>
+
+<p>Nexflow jako agencja pracy tymczasowej zajmuje się całą stroną formalną — rejestrujemy oświadczenia lub wnioskujemy o zezwolenia. Pracownik dostarcza dokumenty (paszport, wiza lub zaświadczenie o ochronie tymczasowej), a resztą zajmuje się nasz dział HR. Zadzwoń lub napisz — sprawdzimy, który dokument dotyczy Twojej sytuacji i przygotujemy wszystko przed Twoim pierwszym dniem pracy.</p>
+    `.trim(),
+  },
+  {
+    slug: "dozvilna-robotu-vs-zayava-polshcha",
+    title: "Дозвіл на роботу vs. заява про доручення роботи — який документ потрібен саме вам?",
+    description: "Практичний посібник для іноземців у Польщі: різниця між дозволом на роботу та заявою, хто має право на спрощену процедуру та що загрожує за роботу без документів.",
+    date: "2026-08-10",
+    lang: "uk",
+    content: `
+<h1>Дозвіл на роботу vs. заява про доручення роботи — який документ потрібен саме вам?</h1>
+
+<p>Якщо ви іноземець з-за меж Європейського Союзу і хочете легально працювати в Польщі, вам потрібен відповідний документ. Два найпоширеніших — це <strong>дозвіл на роботу (zezwolenie na pracę)</strong> та <strong>заява про доручення виконання роботи (oświadczenie o powierzeniu wykonywania pracy)</strong>. Вони схожі за назвою, але суттєво відрізняються — процедурою, терміном очікування та тим, хто може ними скористатися.</p>
+
+<h2>Що таке заява про доручення роботи (oświadczenie)?</h2>
+
+<p>Це спрощена, швидша процедура, доступна виключно для громадян <strong>України, Білорусі, Грузії, Молдови, Вірменії та Росії</strong>. Роботодавець реєструє заяву в районному центрі зайнятості (Powiatowy Urząd Pracy, PUP) — без тесту ринку праці, без тривалого очікування.</p>
+
+<h3>Ключові параметри заяви</h3>
+<ul>
+  <li><strong>Термін дії:</strong> до 24 місяців (у одного роботодавця, потім можна продовжити)</li>
+  <li><strong>Хто подає:</strong> роботодавець (не працівник)</li>
+  <li><strong>Де:</strong> PUP за місцезнаходженням роботодавця</li>
+  <li><strong>Час очікування:</strong> 1–7 робочих днів</li>
+  <li><strong>Вартість:</strong> 100 PLN (оплата PUP)</li>
+  <li><strong>Обов'язок:</strong> роботодавець зобов'язаний внести заяву до реєстру до початку роботи</li>
+</ul>
+
+<p><strong>Важливо:</strong> заява оформлюється на конкретного роботодавця та конкретну посаду. Зміна роботодавця або посади вимагає нової заяви.</p>
+
+<h2>Що таке дозвіл на роботу?</h2>
+
+<p>Дозвіл на роботу — це стандартний документ для іноземців з-за меж ЄС, які не мають права на спрощену процедуру або хочуть працювати довше. Для тимчасових працівників найчастіше застосовується <strong>єдиний дозвіл (single permit)</strong> — поєднує дозвіл на перебування та роботу, одна процедура у воєводському управлінні.</p>
+
+<h2>Порівняння: заява vs. дозвіл</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Критерій</th>
+      <th>Заява (oświadczenie)</th>
+      <th>Дозвіл / єдиний</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Хто може подавати</td>
+      <td>Громадяни UA/BY/GE/MD/AM/RU</td>
+      <td>Усі іноземці з-за меж ЄС</td>
+    </tr>
+    <tr>
+      <td>Хто подає заяву</td>
+      <td>Роботодавець</td>
+      <td>Роботодавець або працівник (єдиний)</td>
+    </tr>
+    <tr>
+      <td>Час очікування</td>
+      <td>1–7 днів</td>
+      <td>1–6 місяців</td>
+    </tr>
+    <tr>
+      <td>Макс. термін дії</td>
+      <td>24 місяці</td>
+      <td>До 3 років</td>
+    </tr>
+    <tr>
+      <td>Тест ринку праці</td>
+      <td>Ні</td>
+      <td>Так (з винятками)</td>
+    </tr>
+    <tr>
+      <td>Вартість для роботодавця</td>
+      <td>100 PLN</td>
+      <td>50–100 PLN + можливо адвокат</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Чи можна працювати через кадрове агентство на заяві?</h2>
+
+<p>Так — агентство тимчасової праці (як Nexflow) є роботодавцем і саме воно подає заяву або клопотання про дозвіл. Тимчасовий працівник офіційно наймається агентством і направляється до клієнта. У випадку заяви: роботодавцем, зазначеним у документі, є агентство — зміна клієнта агентства не потребує нової заяви, але зміна самого агентства — так.</p>
+
+<h2>Що загрожує за роботу без документів?</h2>
+
+<ul>
+  <li>Працівник: штраф до 5 000 PLN + депортація та заборона в'їзду</li>
+  <li>Роботодавець: штраф до 30 000 PLN, заборона на отримання субсидій ЄС</li>
+</ul>
+
+<h2>Як допомагає Nexflow?</h2>
+
+<p>Nexflow як агентство тимчасової праці займається всією формальною стороною — реєструємо заяви або клопочемо про дозволи. Вам потрібно лише надати документи (паспорт, виза або довідка про тимчасовий захист), а решту робить наш відділ кадрів. Зателефонуйте або напишіть — ми перевіримо, який документ підходить для вашої ситуації, та підготуємо все до першого робочого дня.</p>
+    `.trim(),
+  },
+  {
+    slug: "razreshenie-na-rabotu-vs-zayavlenie-polsha",
+    title: "Разрешение на работу vs. заявление о поручении работы — какой документ нужен именно вам?",
+    description: "Практическое руководство для иностранных работников в Польше: разница между разрешением на работу и заявлением, кто имеет право на упрощённую процедуру и что грозит за работу без документов.",
+    date: "2026-08-10",
+    lang: "ru",
+    content: `
+<h1>Разрешение на работу vs. заявление о поручении работы — какой документ нужен именно вам?</h1>
+
+<p>Если вы иностранец из страны за пределами Европейского союза и хотите легально работать в Польше, вам необходим соответствующий документ. Два наиболее распространённых — это <strong>разрешение на работу (zezwolenie na pracę)</strong> и <strong>заявление о поручении выполнения работы (oświadczenie o powierzeniu wykonywania pracy)</strong>. Несмотря на схожие названия, они принципиально различаются — процедурой, сроком ожидания и тем, кто может ими воспользоваться.</p>
+
+<h2>Что такое заявление о поручении работы (oświadczenie)?</h2>
+
+<p>Это упрощённая, более быстрая процедура, доступная исключительно для граждан <strong>Украины, Беларуси, Грузии, Молдовы, Армении и России</strong>. Работодатель регистрирует заявление в районном центре занятости (Powiatowy Urząd Pracy, PUP) — без теста рынка труда, без длительного ожидания.</p>
+
+<h3>Ключевые параметры заявления</h3>
+<ul>
+  <li><strong>Срок действия:</strong> до 24 месяцев (у одного работодателя, затем можно продлить)</li>
+  <li><strong>Кто подаёт:</strong> работодатель (не работник)</li>
+  <li><strong>Где:</strong> PUP по месту нахождения работодателя</li>
+  <li><strong>Время ожидания:</strong> 1–7 рабочих дней</li>
+  <li><strong>Стоимость:</strong> 100 PLN (оплата PUP)</li>
+  <li><strong>Обязательство:</strong> работодатель обязан внести заявление в реестр до начала работы</li>
+</ul>
+
+<p><strong>Важно:</strong> заявление оформляется на конкретного работодателя и конкретную должность. Смена работодателя или должности требует нового заявления.</p>
+
+<h2>Что такое разрешение на работу?</h2>
+
+<p>Разрешение на работу — стандартный документ для иностранцев из стран за пределами ЕС, которые не имеют права на упрощённую процедуру или хотят работать дольше. Для временных работников чаще всего применяется <strong>единое разрешение (single permit)</strong> — сочетает разрешение на пребывание и работу, одна процедура в воеводском управлении.</p>
+
+<h2>Сравнение: заявление vs. разрешение</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Критерий</th>
+      <th>Заявление (oświadczenie)</th>
+      <th>Разрешение / единое</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Кто может подавать</td>
+      <td>Граждане UA/BY/GE/MD/AM/RU</td>
+      <td>Все иностранцы из стран за пределами ЕС</td>
+    </tr>
+    <tr>
+      <td>Кто подаёт заявление</td>
+      <td>Работодатель</td>
+      <td>Работодатель или работник (единое)</td>
+    </tr>
+    <tr>
+      <td>Время ожидания</td>
+      <td>1–7 дней</td>
+      <td>1–6 месяцев</td>
+    </tr>
+    <tr>
+      <td>Макс. срок действия</td>
+      <td>24 месяца</td>
+      <td>До 3 лет</td>
+    </tr>
+    <tr>
+      <td>Тест рынка труда</td>
+      <td>Нет</td>
+      <td>Да (с исключениями)</td>
+    </tr>
+    <tr>
+      <td>Стоимость для работодателя</td>
+      <td>100 PLN</td>
+      <td>50–100 PLN + возможно адвокат</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Можно ли работать через кадровое агентство по заявлению?</h2>
+
+<p>Да — агентство временного труда (как Nexflow) является работодателем и именно оно подаёт заявление или ходатайство о разрешении. Временный работник официально нанимается агентством и направляется к клиенту. В случае заявления: работодателем в документе указано агентство — смена клиента агентства не требует нового заявления, но смена самого агентства — требует.</p>
+
+<h2>Что грозит за работу без документов?</h2>
+
+<ul>
+  <li>Работник: штраф до 5 000 PLN + депортация и запрет въезда</li>
+  <li>Работодатель: штраф до 30 000 PLN, запрет на получение субсидий ЕС</li>
+</ul>
+
+<h2>Как помогает Nexflow?</h2>
+
+<p>Nexflow как агентство временного труда берёт на себя всю формальную сторону — регистрируем заявления или ходатайствуем о разрешениях. Вам нужно только предоставить документы (паспорт, виза или справка о временной защите), а остальным занимается наш отдел кадров. Позвоните или напишите — мы проверим, какой документ подходит для вашей ситуации, и подготовим всё к первому рабочему дню.</p>
+    `.trim(),
+  },
+  {
+    slug: "work-permit-vs-employer-statement-poland",
+    title: "Work Permit vs. Employer Statement in Poland — Which Document Do You Need?",
+    description: "A practical guide for non-EU foreign workers in Poland: the difference between a work permit and an employer's statement, who qualifies for the simplified procedure, and the consequences of working without documents.",
+    date: "2026-08-10",
+    lang: "en",
+    content: `
+<h1>Work Permit vs. Employer Statement in Poland — Which Document Do You Need?</h1>
+
+<p>If you're a non-EU citizen planning to work legally in Poland, you need the right authorization document. The two most common are the <strong>work permit (zezwolenie na pracę)</strong> and the <strong>employer's statement of intent to employ (oświadczenie o powierzeniu wykonywania pracy)</strong>. Despite their similar names, they differ fundamentally — in procedure, waiting time, and who is eligible to use them.</p>
+
+<h2>What is an Employer's Statement (oświadczenie)?</h2>
+
+<p>This is a simplified, faster track available exclusively to citizens of <strong>Ukraine, Belarus, Georgia, Moldova, Armenia, and Russia</strong>. The employer registers the statement at the local district labor office (Powiatowy Urząd Pracy, PUP) — with no labor market test and no lengthy wait.</p>
+
+<h3>Key parameters of the statement</h3>
+<ul>
+  <li><strong>Duration:</strong> up to 24 months (with one employer; renewable thereafter)</li>
+  <li><strong>Who applies:</strong> the employer (not the worker)</li>
+  <li><strong>Where:</strong> PUP serving the employer's registered address</li>
+  <li><strong>Processing time:</strong> 1–7 business days</li>
+  <li><strong>Cost:</strong> 100 PLN (PUP fee)</li>
+  <li><strong>Obligation:</strong> employer must register the statement before the worker starts</li>
+</ul>
+
+<p><strong>Important:</strong> the statement is tied to a specific employer and a specific position. Changing employer or role requires a new statement.</p>
+
+<h2>What is a Work Permit (zezwolenie na pracę)?</h2>
+
+<p>A work permit is the standard authorization document for non-EU nationals who either don't qualify for the simplified statement procedure or plan to work in Poland for longer. For temp workers, the most relevant type is the <strong>single (unified) permit</strong> — combining residence and work authorization in one procedure at the voivodeship office (Urząd Wojewódzki).</p>
+
+<h2>Comparison: Statement vs. Permit</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Criterion</th>
+      <th>Statement (oświadczenie)</th>
+      <th>Permit / Single Permit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Who can use it</td>
+      <td>Citizens of UA/BY/GE/MD/AM/RU</td>
+      <td>All non-EU nationals</td>
+    </tr>
+    <tr>
+      <td>Who files</td>
+      <td>Employer</td>
+      <td>Employer (standard) or worker (single)</td>
+    </tr>
+    <tr>
+      <td>Processing time</td>
+      <td>1–7 days</td>
+      <td>1–6 months</td>
+    </tr>
+    <tr>
+      <td>Max validity</td>
+      <td>24 months</td>
+      <td>Up to 3 years</td>
+    </tr>
+    <tr>
+      <td>Labor market test</td>
+      <td>No</td>
+      <td>Yes (with exceptions)</td>
+    </tr>
+    <tr>
+      <td>Cost to employer</td>
+      <td>100 PLN</td>
+      <td>50–100 PLN + possible legal fees</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Can I work through a temp agency on an employer statement?</h2>
+
+<p>Yes — a temporary staffing agency like Nexflow is your legal employer and files the statement or work permit on your behalf. As a temporary worker you are formally employed by the agency and assigned to a client company. With a statement: the agency's name is on the document — switching between client sites within the agency doesn't require a new statement, but switching agencies does.</p>
+
+<h2>Consequences of working without authorization</h2>
+
+<ul>
+  <li>Worker: fine up to 5,000 PLN + deportation and entry ban</li>
+  <li>Employer: fine up to 30,000 PLN, loss of access to EU subsidies</li>
+</ul>
+
+<h2>How Nexflow helps</h2>
+
+<p>As a licensed temporary staffing agency, Nexflow handles all the paperwork — we register employer statements or apply for permits on your behalf. You provide the documents (passport, visa, or Ukrainian protection certificate), and our HR team does the rest. Reach out and we'll check which document applies to your situation and get everything ready before your first day on the job.</p>
+    `.trim(),
+  },
+  {
+    slug: "pesel-profil-zaufany-cudzoziemiec-polska",
+    title: "PESEL i Profil Zaufany dla cudzoziemca w Polsce — poradnik krok po kroku",
+    description: "Jako pracownik tymczasowy spoza UE możesz uzyskać PESEL i założyć Profil Zaufany — wyjaśniamy kto ma do tego prawo, jak złożyć wniosek i dlaczego warto to zrobić.",
+    date: "2027-01-05",
+    lang: "pl",
+    content: `
+<h1>PESEL i Profil Zaufany dla cudzoziemca w Polsce — poradnik krok po kroku</h1>
+
+<p>Pracujesz w Polsce jako cudzoziemiec spoza UE? Numer PESEL i Profil Zaufany to dwa narzędzia, które znacznie ułatwiają życie w Polsce — szczególnie przy kontaktach z urzędami i systemem ubezpieczeń społecznych. Dowiedz się, jak je uzyskać.</p>
+
+<h2>Co to jest PESEL?</h2>
+
+<p>PESEL to 11-cyfrowy numer ewidencyjny nadawany przez polskie państwo wszystkim osobom zamieszkałym lub pracującym w Polsce. Dla pracowników tymczasowych spoza UE jest on często niezbędny przy:</p>
+
+<ul>
+  <li>Rejestracji w ZUS jako ubezpieczony</li>
+  <li>Korzystaniu z bezpłatnej opieki zdrowotnej (NFZ)</li>
+  <li>Otwieraniu konta bankowego</li>
+  <li>Składaniu wniosków o kartę pobytu (TRC) lub inne dokumenty</li>
+  <li>Korzystaniu z Profilu Zaufanego i usług online</li>
+</ul>
+
+<h2>Kto może uzyskać PESEL?</h2>
+
+<p>Jako cudzoziemiec pracujący legalnie w Polsce masz prawo do uzyskania numeru PESEL. Wystarczy jedna z poniższych podstaw:</p>
+
+<ul>
+  <li><strong>Jesteś zatrudniony</strong> na umowę o pracę lub zlecenie i zgłoszony do ZUS</li>
+  <li><strong>Zameldowałeś się</strong> w Polsce (nawet tymczasowo)</li>
+  <li><strong>Złożyłeś wniosek bezpośrednio</strong> w urzędzie gminy (dostępne od 2023 r.)</li>
+</ul>
+
+<h2>Jak uzyskać PESEL — krok po kroku</h2>
+
+<h3>Sposób 1: Przez ZUS (najczęstszy dla pracowników tymczasowych)</h3>
+
+<p>Jeśli pracujesz przez agencję taką jak Nexflow i jesteś zgłoszony do ZUS:</p>
+
+<ol>
+  <li>Agencja zgłasza Cię do ubezpieczeń (formularz ZUS ZUA)</li>
+  <li>ZUS automatycznie nadaje Ci numer PESEL, jeśli go nie masz</li>
+  <li>Numer możesz sprawdzić na swoim koncie w ZUS PUE (pue.zus.pl)</li>
+</ol>
+
+<p>Agencja Nexflow dba o to dla Ciebie — nie musisz nic robić sam.</p>
+
+<h3>Sposób 2: Przez meldunek tymczasowy w urzędzie gminy</h3>
+
+<ol>
+  <li>Udaj się do urzędu gminy/dzielnicy właściwego dla Twojego adresu zamieszkania</li>
+  <li>Złóż formularz zgłoszenia pobytu tymczasowego</li>
+  <li>Potrzebujesz: paszport + potwierdzenie adresu (umowa najmu lub oświadczenie właściciela)</li>
+  <li>Urząd nada Ci PESEL automatycznie, jeśli jeszcze go nie masz</li>
+</ol>
+
+<h3>Sposób 3: Bezpośredni wniosek o PESEL (od 2023 r.)</h3>
+
+<p>Nawet bez meldunku możesz złożyć wniosek o PESEL w dowolnym urzędzie gminy w Polsce:</p>
+
+<ol>
+  <li>Wypełnij formularz wniosku (dostępny w urzędzie lub na gov.pl)</li>
+  <li>Dołącz kopię paszportu i dokumentu potwierdzającego legalny pobyt (wiza, oświadczenie o powierzeniu pracy)</li>
+  <li>Urząd ma obowiązek nadać PESEL w ciągu 30 dni</li>
+</ol>
+
+<h2>Co to jest Profil Zaufany?</h2>
+
+<p>Profil Zaufany (PZ) to bezpłatne narzędzie elektroniczne, które umożliwia potwierdzanie Twojej tożsamości w kontaktach z polską administracją publiczną — przez internet, bez wychodzenia z domu.</p>
+
+<p>Dzięki Profilowi Zaufanemu możesz:</p>
+<ul>
+  <li>Składać wnioski o kartę pobytu (TRC) i inne dokumenty online</li>
+  <li>Zarządzać swoim kontem w ZUS PUE</li>
+  <li>Sprawdzać historię ubezpieczeń i stan zdrowotny NFZ</li>
+  <li>Kontaktować się z urzędem skarbowym (e-Urząd Skarbowy)</li>
+  <li>Korzystać z wielu innych usług państwowych przez gov.pl</li>
+</ul>
+
+<p><strong>Ważne:</strong> Potrzebujesz numeru PESEL, żeby założyć Profil Zaufany.</p>
+
+<h2>Jak założyć Profil Zaufany</h2>
+
+<h3>Opcja A: Przez bank (najszybciej)</h3>
+
+<p>Wiele polskich banków (PKO BP, Santander, ING, mBank, Alior Bank) umożliwia potwierdzenie PZ przez aplikację bankową:</p>
+
+<ol>
+  <li>Wejdź na <strong>profil.gov.pl</strong></li>
+  <li>Wybierz "Załóż Profil Zaufany" → "Przez bankowość elektroniczną"</li>
+  <li>Zaloguj się do swojego polskiego banku przez gov.pl</li>
+  <li>Potwierdź — Profil Zaufany zostaje aktywowany natychmiast</li>
+</ol>
+
+<h3>Opcja B: Przez ePUAP z wizytą w urzędzie</h3>
+
+<p>Jeśli nie masz konta w polskim banku:</p>
+
+<ol>
+  <li>Złóż wniosek online na <strong>profil.gov.pl</strong></li>
+  <li>W ciągu 14 dni udaj się do dowolnego punktu potwierdzającego: urząd gminy, ZUS, urząd pracy, poczta</li>
+  <li>Okaż paszport i podpisz potwierdzenie</li>
+  <li>Profil Zaufany zostaje aktywowany na miejscu</li>
+</ol>
+
+<h2>Lista kontrolna — PESEL i Profil Zaufany</h2>
+
+<ul>
+  <li>☑ Sprawdź u Nexflow, czy masz już numer PESEL (nadajemy go przy rejestracji w ZUS)</li>
+  <li>☑ Jeśli nie masz — złóż wniosek w urzędzie gminy lub poproś agencję o pomoc</li>
+  <li>☑ Gdy masz PESEL — wejdź na profil.gov.pl i załóż Profil Zaufany przez bank</li>
+  <li>☑ Aktywuj konto w ZUS PUE (pue.zus.pl) — sprawdź swoje ubezpieczenie</li>
+</ul>
+
+<h2>Potrzebujesz pomocy?</h2>
+
+<p>Agencja Nexflow pomaga pracownikom tymczasowym w formalnościach w Polsce. Jeśli masz pytania o PESEL, ZUS lub inne dokumenty — napisz do nas przez WhatsApp lub skontaktuj się z naszym biurem. Jesteśmy tu, żeby pomóc.</p>
+    `.trim(),
+  },
+  {
+    slug: "pesel-profil-zaufany-inozemets-polshcha",
+    title: "PESEL і Довірений профіль (Profil Zaufany) для іноземця в Польщі — покроковий посібник",
+    description: "Якщо ви іноземець і працюєте в Польщі — дізнайтеся, як отримати PESEL та зареєструвати Довірений профіль для онлайн-послуг польської держави.",
+    date: "2027-01-12",
+    lang: "uk",
+    content: `
+<h1>PESEL і Довірений профіль (Profil Zaufany) для іноземця в Польщі — покроковий посібник</h1>
+
+<p>Працюєте в Польщі як іноземець з-поза ЄС? PESEL і Profil Zaufany — два інструменти, які значно спрощують повсякденне життя в Польщі, особливо при взаємодії з держорганами та системою соціального страхування.</p>
+
+<h2>Що таке PESEL?</h2>
+
+<p>PESEL — це 11-значний ідентифікаційний номер, який видається всім особам, що проживають або працюють у Польщі. Для тимчасових працівників з-поза ЄС він часто необхідний для:</p>
+
+<ul>
+  <li>Реєстрації в ZUS (соціальне страхування)</li>
+  <li>Користування безоплатною медичною допомогою (NFZ)</li>
+  <li>Відкриття банківського рахунку</li>
+  <li>Подачі заяв на карту тимчасового проживання (TRC)</li>
+  <li>Реєстрації Довіреного профілю і користування онлайн-сервісами</li>
+</ul>
+
+<h2>Хто може отримати PESEL?</h2>
+
+<p>Якщо ви легально працюєте в Польщі, у вас є право на отримання PESEL. Достатньо однієї з таких підстав:</p>
+
+<ul>
+  <li><strong>Ви працевлаштовані</strong> за договором і зареєстровані в ZUS</li>
+  <li><strong>Ви зареєструвалися</strong> за місцем проживання в Польщі (навіть тимчасово)</li>
+  <li><strong>Ви подали пряму заяву</strong> в органі реєстрації населення (гміна)</li>
+</ul>
+
+<h2>Як отримати PESEL — покрокова інструкція</h2>
+
+<h3>Спосіб 1: Через ZUS (найпоширеніший для тимчасових працівників)</h3>
+
+<p>Якщо ви працюєте через агенцію Nexflow і зареєстровані в ZUS:</p>
+
+<ol>
+  <li>Агенція реєструє вас у системі страхування (форма ZUS ZUA)</li>
+  <li>ZUS автоматично надає вам PESEL, якщо у вас його ще немає</li>
+  <li>Перевірити номер можна в особистому кабінеті ZUS PUE (pue.zus.pl)</li>
+</ol>
+
+<p>Агенція Nexflow займається цим за вас — вам не потрібно нічого робити самостійно.</p>
+
+<h3>Спосіб 2: Через тимчасову реєстрацію в органі місцевого самоврядування</h3>
+
+<ol>
+  <li>Зверніться до органу реєстрації населення (Urząd Gminy) за місцем проживання</li>
+  <li>Заповніть форму реєстрації тимчасового проживання</li>
+  <li>Знадобляться: паспорт + підтвердження адреси (договір оренди або заява власника)</li>
+  <li>PESEL буде надано автоматично, якщо він ще не присвоєний</li>
+</ol>
+
+<h3>Спосіб 3: Пряма заява на PESEL (з 2023 р.)</h3>
+
+<p>Навіть без реєстрації за місцем проживання ви можете подати заяву на PESEL в будь-якому органі реєстрації:</p>
+
+<ol>
+  <li>Заповніть форму заяви (доступна в органі або на gov.pl)</li>
+  <li>Додайте копію паспорта і документа про легальне перебування (віза, заява про доручення роботи)</li>
+  <li>Орган зобов'язаний надати PESEL протягом 30 днів</li>
+</ol>
+
+<h2>Що таке Profil Zaufany (Довірений профіль)?</h2>
+
+<p>Profil Zaufany — це безкоштовний електронний інструмент, який дозволяє підтверджувати вашу особу при взаємодії з польськими держорганами онлайн — без відвідування офісу.</p>
+
+<p>Завдяки Довіреному профілю ви можете:</p>
+<ul>
+  <li>Подавати заяви на картку тимчасового проживання (TRC) онлайн</li>
+  <li>Керувати своїм акаунтом у ZUS PUE</li>
+  <li>Перевіряти стан медичного страхування NFZ</li>
+  <li>Спілкуватися з податковою службою (e-Urząd Skarbowy)</li>
+  <li>Користуватися держсервісами на gov.pl</li>
+</ul>
+
+<p><strong>Важливо:</strong> Для реєстрації Довіреного профілю вам потрібен PESEL.</p>
+
+<h2>Як зареєструвати Profil Zaufany</h2>
+
+<h3>Варіант А: Через банк (найшвидше)</h3>
+
+<p>Багато польських банків (PKO BP, Santander, ING, mBank, Alior Bank) дозволяють підтвердити PZ через банківський додаток:</p>
+
+<ol>
+  <li>Перейдіть на <strong>profil.gov.pl</strong></li>
+  <li>Виберіть "Załóż Profil Zaufany" → "Przez bankowość elektroniczną"</li>
+  <li>Увійдіть до свого польського банку через gov.pl</li>
+  <li>Підтвердіть — Довірений профіль активується негайно</li>
+</ol>
+
+<h3>Варіант Б: Через ePUAP з відвідуванням органу</h3>
+
+<p>Якщо у вас немає польського банківського рахунку:</p>
+
+<ol>
+  <li>Подайте заяву онлайн на <strong>profil.gov.pl</strong></li>
+  <li>Протягом 14 днів зверніться до будь-якого підтверджувального пункту: орган реєстрації (гміна), ZUS, служба зайнятості, пошта</li>
+  <li>Пред'явіть паспорт і підпишіть підтвердження</li>
+  <li>Довірений профіль активується одразу</li>
+</ol>
+
+<h2>Контрольний список — PESEL і Profil Zaufany</h2>
+
+<ul>
+  <li>☑ Дізнайтеся у Nexflow, чи вже маєте PESEL (ми оформлюємо його при реєстрації в ZUS)</li>
+  <li>☑ Якщо немає — подайте заяву в органі реєстрації або зверніться до агенції</li>
+  <li>☑ Після отримання PESEL — зареєструйте Profil Zaufany на profil.gov.pl через банк</li>
+  <li>☑ Активуйте акаунт у ZUS PUE (pue.zus.pl) — перевірте своє страхування</li>
+</ul>
+
+<h2>Потрібна допомога?</h2>
+
+<p>Агенція Nexflow допомагає тимчасовим працівникам з оформленням документів у Польщі. Якщо у вас виникли питання щодо PESEL, ZUS або інших документів — напишіть нам у WhatsApp або зв'яжіться з нашим офісом.</p>
+    `.trim(),
+  },
+  {
+    slug: "pesel-profil-zaufany-inostranets-polsha",
+    title: "PESEL и Доверенный профиль (Profil Zaufany) для иностранца в Польше — пошаговое руководство",
+    description: "Работаете в Польше как иностранный гражданин? Узнайте, как получить номер PESEL и зарегистрировать Доверенный профиль для онлайн-сервисов польского государства.",
+    date: "2027-01-19",
+    lang: "ru",
+    content: `
+<h1>PESEL и Доверенный профиль (Profil Zaufany) для иностранца в Польше — пошаговое руководство</h1>
+
+<p>Работаете в Польше как иностранный гражданин из-за пределов ЕС? PESEL и Profil Zaufany — два инструмента, которые значительно упрощают повседневную жизнь в Польше, особенно при взаимодействии с государственными органами и системой социального страхования.</p>
+
+<h2>Что такое PESEL?</h2>
+
+<p>PESEL — это 11-значный идентификационный номер, который присваивается всем лицам, проживающим или работающим в Польше. Для временных работников из-за пределов ЕС он часто необходим для:</p>
+
+<ul>
+  <li>Регистрации в ZUS (социальное страхование)</li>
+  <li>Пользования бесплатной медицинской помощью (NFZ)</li>
+  <li>Открытия банковского счёта</li>
+  <li>Подачи заявлений на карту временного проживания (TRC)</li>
+  <li>Регистрации Доверенного профиля и пользования онлайн-сервисами</li>
+</ul>
+
+<h2>Кто может получить PESEL?</h2>
+
+<p>Если вы легально работаете в Польше, вы имеете право на получение PESEL. Достаточно одного из оснований:</p>
+
+<ul>
+  <li><strong>Вы трудоустроены</strong> по договору и зарегистрированы в ZUS</li>
+  <li><strong>Вы зарегистрировались</strong> по месту жительства в Польше (даже временно)</li>
+  <li><strong>Вы подали прямое заявление</strong> в органе регистрации (гмина)</li>
+</ul>
+
+<h2>Как получить PESEL — пошаговая инструкция</h2>
+
+<h3>Способ 1: Через ZUS (наиболее распространённый для временных работников)</h3>
+
+<p>Если вы работаете через агентство Nexflow и зарегистрированы в ZUS:</p>
+
+<ol>
+  <li>Агентство регистрирует вас в системе страхования (форма ZUS ZUA)</li>
+  <li>ZUS автоматически присваивает вам PESEL, если его у вас ещё нет</li>
+  <li>Проверить номер можно в личном кабинете ZUS PUE (pue.zus.pl)</li>
+</ol>
+
+<p>Агентство Nexflow делает это за вас — вам не нужно ничего делать самостоятельно.</p>
+
+<h3>Способ 2: Через временную регистрацию по месту жительства</h3>
+
+<ol>
+  <li>Обратитесь в орган регистрации населения (Urząd Gminy) по месту проживания</li>
+  <li>Заполните форму регистрации временного проживания</li>
+  <li>Понадобятся: паспорт + подтверждение адреса (договор аренды или заявление владельца)</li>
+  <li>PESEL будет присвоен автоматически, если он ещё не оформлен</li>
+</ol>
+
+<h3>Способ 3: Прямое заявление на PESEL (с 2023 г.)</h3>
+
+<p>Даже без регистрации по месту жительства вы можете подать заявление на PESEL в любом органе регистрации:</p>
+
+<ol>
+  <li>Заполните форму заявления (доступна в органе или на gov.pl)</li>
+  <li>Приложите копию паспорта и документа о законном пребывании (виза, заявление о поручении работы)</li>
+  <li>Орган обязан присвоить PESEL в течение 30 дней</li>
+</ol>
+
+<h2>Что такое Profil Zaufany (Доверенный профиль)?</h2>
+
+<p>Profil Zaufany — это бесплатный электронный инструмент, позволяющий подтверждать личность при взаимодействии с польскими государственными органами онлайн — без посещения офиса.</p>
+
+<p>Благодаря Доверенному профилю вы можете:</p>
+<ul>
+  <li>Подавать заявления на карту временного проживания (TRC) онлайн</li>
+  <li>Управлять своим аккаунтом в ZUS PUE</li>
+  <li>Проверять состояние медицинского страхования NFZ</li>
+  <li>Взаимодействовать с налоговой службой (e-Urząd Skarbowy)</li>
+  <li>Пользоваться государственными сервисами на gov.pl</li>
+</ul>
+
+<p><strong>Важно:</strong> Для регистрации Доверенного профиля вам нужен PESEL.</p>
+
+<h2>Как зарегистрировать Profil Zaufany</h2>
+
+<h3>Вариант А: Через банк (быстрее всего)</h3>
+
+<p>Многие польские банки (PKO BP, Santander, ING, mBank, Alior Bank) позволяют подтвердить PZ через банковское приложение:</p>
+
+<ol>
+  <li>Перейдите на <strong>profil.gov.pl</strong></li>
+  <li>Выберите "Załóż Profil Zaufany" → "Przez bankowość elektroniczną"</li>
+  <li>Войдите в свой польский банк через gov.pl</li>
+  <li>Подтвердите — Доверенный профиль активируется немедленно</li>
+</ol>
+
+<h3>Вариант Б: Через ePUAP с посещением органа</h3>
+
+<p>Если у вас нет польского банковского счёта:</p>
+
+<ol>
+  <li>Подайте заявление онлайн на <strong>profil.gov.pl</strong></li>
+  <li>В течение 14 дней обратитесь в любой подтверждающий пункт: орган регистрации (гмина), ZUS, служба занятости, почта</li>
+  <li>Предъявите паспорт и подпишите подтверждение</li>
+  <li>Доверенный профиль активируется сразу</li>
+</ol>
+
+<h2>Контрольный список — PESEL и Profil Zaufany</h2>
+
+<ul>
+  <li>☑ Узнайте в Nexflow, есть ли у вас уже PESEL (мы оформляем его при регистрации в ZUS)</li>
+  <li>☑ Если нет — подайте заявление в органе регистрации или обратитесь к агентству</li>
+  <li>☑ После получения PESEL — зарегистрируйте Profil Zaufany на profil.gov.pl через банк</li>
+  <li>☑ Активируйте аккаунт в ZUS PUE (pue.zus.pl) — проверьте своё страхование</li>
+</ul>
+
+<h2>Нужна помощь?</h2>
+
+<p>Агентство Nexflow помогает временным работникам с оформлением документов в Польше. Если у вас возникли вопросы по PESEL, ZUS или другим документам — напишите нам в WhatsApp или свяжитесь с нашим офисом.</p>
+    `.trim(),
+  },
+  {
+    slug: "pesel-trusted-profile-foreign-worker-poland",
+    title: "PESEL Number and Trusted Profile in Poland — A Step-by-Step Guide for Non-EU Workers",
+    description: "A practical guide for non-EU foreign workers in Poland: how to get your PESEL number and set up Profil Zaufany (Trusted Profile) to manage government services online.",
+    date: "2027-01-26",
+    lang: "en",
+    content: `
+<h1>PESEL Number and Trusted Profile (Profil Zaufany) for Non-EU Workers in Poland — Step-by-Step Guide</h1>
+
+<p>Working in Poland as a non-EU national? Your PESEL number and Profil Zaufany (Trusted Profile) are two tools that make life in Poland significantly easier — especially when dealing with government agencies, social insurance, and official documents.</p>
+
+<h2>What is PESEL?</h2>
+
+<p>PESEL is Poland's 11-digit national identification number, assigned to everyone residing or working in the country. For non-EU temporary workers, it's often essential for:</p>
+
+<ul>
+  <li>Registering with ZUS (social insurance)</li>
+  <li>Accessing free healthcare through NFZ</li>
+  <li>Opening a bank account</li>
+  <li>Applying for a temporary residence card (TRC / karta pobytu)</li>
+  <li>Setting up a Trusted Profile and using online government services</li>
+</ul>
+
+<h2>Who Can Get a PESEL Number?</h2>
+
+<p>If you work legally in Poland, you are entitled to a PESEL number. Any one of these is sufficient:</p>
+
+<ul>
+  <li><strong>You are employed</strong> under a contract and registered with ZUS</li>
+  <li><strong>You are registered</strong> at an address in Poland (even temporarily)</li>
+  <li><strong>You submit a direct application</strong> at a municipal registry office (urząd gminy)</li>
+</ul>
+
+<h2>How to Get Your PESEL Number — Step by Step</h2>
+
+<h3>Method 1: Through ZUS (most common for temporary workers)</h3>
+
+<p>If you work through a staffing agency like Nexflow and are registered with ZUS:</p>
+
+<ol>
+  <li>The agency registers you with the social insurance system (ZUS ZUA form)</li>
+  <li>ZUS automatically assigns you a PESEL if you don't have one</li>
+  <li>You can check your number in your ZUS PUE account (pue.zus.pl)</li>
+</ol>
+
+<p>Nexflow handles this for you — you don't need to do anything yourself.</p>
+
+<h3>Method 2: Through temporary residence registration at the municipal office</h3>
+
+<ol>
+  <li>Go to the local municipal registry office (Urząd Gminy) for your address</li>
+  <li>Fill out a temporary residence registration form</li>
+  <li>You'll need: passport + address confirmation (rental contract or landlord's statement)</li>
+  <li>A PESEL number will be assigned automatically if you don't have one</li>
+</ol>
+
+<h3>Method 3: Direct PESEL application (available from 2023)</h3>
+
+<p>Even without residence registration, you can apply for PESEL at any municipal office in Poland:</p>
+
+<ol>
+  <li>Fill out the application form (available at the office or on gov.pl)</li>
+  <li>Attach a copy of your passport and a document confirming legal stay (visa, employer's statement)</li>
+  <li>The office must assign your PESEL within 30 days</li>
+</ol>
+
+<h2>What is Profil Zaufany (Trusted Profile)?</h2>
+
+<p>Profil Zaufany is a free electronic tool that lets you verify your identity when dealing with Polish public authorities online — without visiting an office.</p>
+
+<p>With a Trusted Profile you can:</p>
+<ul>
+  <li>Apply for a temporary residence card (TRC) online</li>
+  <li>Manage your ZUS PUE account</li>
+  <li>Check your NFZ health insurance status</li>
+  <li>Communicate with the tax office (e-Urząd Skarbowy)</li>
+  <li>Access government services on gov.pl</li>
+</ul>
+
+<p><strong>Important:</strong> You need a PESEL number before you can set up a Trusted Profile.</p>
+
+<h2>How to Set Up Your Trusted Profile</h2>
+
+<h3>Option A: Through a bank (fastest)</h3>
+
+<p>Many Polish banks (PKO BP, Santander, ING, mBank, Alior Bank) allow you to confirm your Trusted Profile through their banking app:</p>
+
+<ol>
+  <li>Go to <strong>profil.gov.pl</strong></li>
+  <li>Choose "Załóż Profil Zaufany" (Set up Trusted Profile) → "Przez bankowość elektroniczną" (via online banking)</li>
+  <li>Log into your Polish bank through gov.pl</li>
+  <li>Confirm — your Trusted Profile is activated immediately</li>
+</ol>
+
+<h3>Option B: Through ePUAP with an office visit</h3>
+
+<p>If you don't have a Polish bank account:</p>
+
+<ol>
+  <li>Submit an application online at <strong>profil.gov.pl</strong></li>
+  <li>Within 14 days, visit any confirmation point: municipal office, ZUS office, employment office, or post office</li>
+  <li>Show your passport and sign the confirmation</li>
+  <li>Your Trusted Profile is activated on the spot</li>
+</ol>
+
+<h2>Checklist — PESEL and Profil Zaufany</h2>
+
+<ul>
+  <li>☑ Ask Nexflow if you already have a PESEL (we obtain it when registering you with ZUS)</li>
+  <li>☑ If not — submit an application at the municipal office or ask the agency for help</li>
+  <li>☑ Once you have PESEL — register your Trusted Profile at profil.gov.pl via your bank</li>
+  <li>☑ Activate your ZUS PUE account (pue.zus.pl) — check your insurance status</li>
+</ul>
+
+<h2>Need Help?</h2>
+
+<p>Nexflow helps temporary workers navigate the paperwork in Poland. If you have questions about PESEL, ZUS, or other documents — message us on WhatsApp or contact our office. We're here to help.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
   return posts.find((p) => p.slug === slug);
+}
+
+export function getPostsByLang(lang: BlogPost["lang"]): BlogPost[] {
+  return posts.filter((p) => p.lang === lang);
 }

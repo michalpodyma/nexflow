@@ -23,9 +23,12 @@ export const metadata: Metadata = {
   },
 };
 
-const LANG_LABEL: Record<"pl" | "de", string> = {
+const LANG_LABEL: Record<string, string> = {
   pl: "PL",
   de: "DE",
+  uk: "UA",
+  ru: "RU",
+  en: "EN",
 };
 
 function formatDate(iso: string): string {
@@ -37,9 +40,9 @@ function formatDate(iso: string): string {
 }
 
 export default function BlogPage() {
-  const sorted = [...posts].sort(
-    (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
-  );
+  const sorted = [...posts]
+    .filter((p) => p.lang === "pl" || p.lang === "de")
+    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return (
     <main className="min-h-screen bg-[hsl(var(--cloud-white))]">
