@@ -6729,6 +6729,356 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p>Have questions? Get in touch with us.</p>
     `.trim(),
+  },
+  {
+    slug: "umowa-o-prace-polska-cudzoziemiec-kluczowe-zapisy",
+    title:
+      "Jak podpisać umowę o pracę w Polsce — kluczowe zapisy dla cudzoziemców",
+    description:
+      "Przewodnik po kluczowych zapisach umowy o pracę w Polsce dla cudzoziemców — rodzaje umów, wynagrodzenie brutto, składki ZUS, prawa pracownicze i typowe pułapki. Praktyczne informacje dla pracowników z Ukrainy i innych krajów.",
+    date: "2027-05-25",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Jak podpisać umowę o pracę w Polsce — kluczowe zapisy dla cudzoziemców</h1>
+
+  <p>Podpisanie umowy o pracę to jeden z najważniejszych kroków w procesie zatrudnienia w Polsce. Dla cudzoziemca — pracownika z Ukrainy, Rosji, Mołdawii czy innego kraju spoza UE — dokument ten może być trudny do zrozumienia, szczególnie gdy jest pisany wyłącznie po polsku. Ten przewodnik wyjaśnia, na co zwrócić szczególną uwagę przed złożeniem podpisu.</p>
+
+  <h2>Rodzaje umów o pracę w Polsce</h2>
+
+  <p>W Polsce istnieją trzy główne formy zatrudnienia:</p>
+
+  <ul>
+    <li><strong>Umowa o pracę</strong> — pełna umowa pracownicza z wszystkimi uprawnieniami: płatny urlop, L4 na chorobę, ochrona przed natychmiastowym zwolnieniem. Może być na czas określony lub nieokreślony.</li>
+    <li><strong>Umowa zlecenie</strong> — umowa cywilnoprawna, powszechna w pracy tymczasowej. Daje mniej uprawnień niż umowa o pracę, ale jest w pełni legalna i zapewnia ubezpieczenie ZUS i NFZ.</li>
+    <li><strong>Umowa o dzieło</strong> — kontrakt na konkretny rezultat/dzieło. Rzadko stosowana przy pracach fizycznych w magazynach i produkcji.</li>
+  </ul>
+
+  <p>Jako pracownik tymczasowy najczęściej spotkasz się z <strong>umową zlecenie</strong> zawartą przez agencję pracy tymczasowej (taką jak Nexflow). To normalna i legalna praktyka — masz pełne prawo do wynagrodzenia, obowiązkowych składek ZUS i ubezpieczenia zdrowotnego NFZ.</p>
+
+  <h2>Kluczowe elementy każdej umowy — sprawdź przed podpisem</h2>
+
+  <h3>1. Strony umowy</h3>
+  <p>Zawsze sprawdź, kto jest Twoim formalnym pracodawcą. Przy pracy tymczasowej umowę podpisujesz z <strong>agencją pracy</strong> (np. Nexflow), nie z firmą, w której faktycznie pracujesz. Agencja jest odpowiedzialna za wypłatę wynagrodzenia, odprowadzanie składek ZUS i wydawanie świadectw pracy.</p>
+
+  <h3>2. Rodzaj i czas trwania umowy</h3>
+  <p>Umowa musi precyzyjnie określać okres zatrudnienia: datę rozpoczęcia i zakończenia (np. „od 1 czerwca do 31 sierpnia 2027") lub zapis, że jest zawarta na czas nieokreślony. Nie podpisuj umowy, która nie określa tych dat.</p>
+
+  <h3>3. Wynagrodzenie i sposób wypłaty</h3>
+  <p>W umowie musi znajdować się:</p>
+  <ul>
+    <li>Stawka godzinowa lub miesięczna <strong>brutto</strong> (przed potrąceniami)</li>
+    <li>Konkretny termin wypłaty — np. „do 10. dnia następnego miesiąca"</li>
+    <li>Forma płatności — powinien być to przelew na konto bankowe</li>
+  </ul>
+  <p><strong>Ważne:</strong> Kwota „na rękę" (netto) jest zawsze niższa niż brutto — od wynagrodzenia brutto odlicza się podatek dochodowy i część składek ZUS. W 2026 roku minimalna stawka godzinowa w Polsce to <strong>30,50 zł brutto</strong>.</p>
+
+  <h3>4. Miejsce pracy</h3>
+  <p>W umowie powinno być wskazane konkretne miejsce wykonywania pracy — adres magazynu, fabryki lub centrum logistycznego. Sprawdź, czy wpisany adres zgadza się z miejscem, do którego będziesz dojeżdżać. Ma to znaczenie przy ewentualnych sporach.</p>
+
+  <h3>5. Zakres obowiązków</h3>
+  <p>Umowa zlecenie opisuje ogólnie charakter powierzonych prac — np. „prace magazynowe", „kompletacja zamówień", „obsługa wózka widłowego". Masz prawo odmówić wykonywania czynności, które wykraczają poza zakres wskazany w umowie.</p>
+
+  <h3>6. Składki ZUS i ubezpieczenie zdrowotne</h3>
+  <p>Pracodawca (agencja) jest zobowiązana do odprowadzania za Ciebie składek na ZUS (ubezpieczenie emerytalne, rentowe i wypadkowe) oraz na NFZ (ubezpieczenie zdrowotne). Dzięki składkom ZUS jesteś objęty ubezpieczeniem i masz prawo do bezpłatnej opieki medycznej w polskich przychodniach i szpitalach.</p>
+
+  <h3>7. Zasady wypowiedzenia umowy</h3>
+  <p>Zanim podpiszesz, sprawdź, jak można rozwiązać umowę i ile trwa okres wypowiedzenia. Przy umowie zlecenie może to być kilka dni lub strony mogą ją rozwiązać bez wypowiedzenia (jeśli tak wynika z umowy). Przy umowie o pracę na czas określony — zazwyczaj 2 tygodnie lub 1 miesiąc, zależnie od stażu pracy.</p>
+
+  <h2>Typowe pułapki — na co uważać</h2>
+
+  <ul>
+    <li><strong>Praca bez umowy na piśmie</strong> — Nigdy nie zgadzaj się na pracę „na słowo" lub z obietnicą podpisania umowy „później". Brak pisemnej umowy oznacza brak dowodów na zatrudnienie, brak ZUS i praktycznie niemożliwe odzyskanie wynagrodzenia w razie konfliktu.</li>
+    <li><strong>Praca „na czarno"</strong> — Nielegalne zatrudnienie jest poważnym ryzykiem: grozi wydaleniem z Polski, utratą prawa do TRC i odmową w kolejnych sprawach pobytowych.</li>
+    <li><strong>Stawka niższa niż minimalna</strong> — Jeśli oferowana kwota brutto jest niższa niż 30,50 zł/h (rok 2026), pracodawca łamie prawo. Możesz to zgłosić do <strong>Państwowej Inspekcji Pracy (PIP)</strong>.</li>
+    <li><strong>Brak tłumaczenia lub wyjaśnień</strong> — Masz prawo prosić o wyjaśnienie każdego punktu umowy przed podpisaniem. Dobra agencja pracy zapewni wsparcie w Twoim języku.</li>
+  </ul>
+
+  <h2>Twoje prawa jako pracownik w Polsce</h2>
+
+  <p>Bez względu na narodowość masz te same podstawowe prawa pracownicze co obywatele polscy:</p>
+  <ul>
+    <li>Prawo do wynagrodzenia wypłacanego w terminie</li>
+    <li>Prawo do bezpłatnej opieki zdrowotnej przez NFZ</li>
+    <li>Prawo do bezpiecznych warunków pracy (przepisy BHP)</li>
+    <li>Prawo do urlopu wypoczynkowego (przy umowie o pracę)</li>
+    <li>Prawo do złożenia skargi w Państwowej Inspekcji Pracy bez ryzyka zwolnienia</li>
+  </ul>
+
+  <h2>Podpisanie umowy krok po kroku</h2>
+
+  <ol>
+    <li>Przeczytaj całą umowę zanim złożysz podpis — nie spiesz się.</li>
+    <li>Poproś o tłumaczenie lub wyjaśnienie niejasnych zapisów.</li>
+    <li>Sprawdź poprawność swoich danych: imię, nazwisko, numer PESEL lub paszportu.</li>
+    <li>Zażądaj kopii podpisanej umowy — masz do tego prawo na mocy polskiego prawa pracy.</li>
+    <li>Zachowaj kopię w bezpiecznym miejscu — przyda się przy sprawach ZUS, TRC lub w razie sporu z pracodawcą.</li>
+  </ol>
+
+  <h2>Nexflow — przejrzyste warunki zatrudnienia dla cudzoziemców</h2>
+
+  <p>W Nexflow każda umowa jest sporządzana zgodnie z polskim prawem pracy. Nasi pracownicy mówią po ukraińsku, rosyjsku i angielsku — wyjaśnimy Ci każdy zapis umowy, zanim ją podpiszesz. Dbamy o to, żebyś dokładnie wiedział, na co się zgadzasz i żebyś był chroniony przez polskie prawo.</p>
+
+  <p>Masz pytania dotyczące umowy lub warunków zatrudnienia w Polsce? <a href="https://nexflow.work">Odwiedź nexflow.work</a> lub skontaktuj się z naszym biurem — pomożemy na każdym etapie.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "trudovyi-dohovir-polshcha-klyuchovi-terminy",
+    title:
+      "Як підписати трудовий договір у Польщі — ключові терміни для іноземців",
+    description:
+      "Посібник з ключових термінів трудового договору в Польщі для іноземних працівників — типи договорів, зарплата брутто, внески ZUS, права працівників та типові пастки. Практична інформація для громадян України та інших країн.",
+    date: "2027-06-01",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Як підписати трудовий договір у Польщі — ключові терміни для іноземців</h1>
+
+  <p>Підписання трудового договору — один з найважливіших кроків при працевлаштуванні в Польщі. Для іноземця — працівника з України, Молдови чи іншої країни за межами ЄС — цей документ може бути складним для розуміння, особливо якщо він написаний виключно польською мовою. Цей посібник пояснює, на що звернути увагу перед підписанням.</p>
+
+  <h2>Типи договорів про працю в Польщі</h2>
+
+  <ul>
+    <li><strong>Umowa o pracę (трудовий договір)</strong> — повноцінний трудовий договір з усіма правами: оплачувана відпустка, лікарняний, захист від звільнення. Може бути на визначений або невизначений строк.</li>
+    <li><strong>Umowa zlecenie (договір-доручення)</strong> — цивільно-правовий договір, поширений у тимчасовій зайнятості. Передбачає сплату внесків ZUS та медичне страхування NFZ.</li>
+    <li><strong>Umowa o dzieło (договір підряду)</strong> — договір на конкретний результат. Рідко застосовується при фізичній праці.</li>
+  </ul>
+
+  <p>Як тимчасовий працівник, ви найчастіше укладатимете <strong>umowa zlecenie</strong> через агентство тимчасової зайнятості (наприклад, Nexflow).</p>
+
+  <h2>Ключові елементи договору</h2>
+
+  <h3>1. Сторони договору</h3>
+  <p>При тимчасовій зайнятості договір підписується з <strong>агентством</strong> (наприклад, Nexflow), а не з підприємством, де ви фактично працюєте. Агентство відповідає за виплату зарплати та внески ZUS.</p>
+
+  <h3>2. Строк дії договору</h3>
+  <p>Договір має чітко вказувати дати початку та закінчення або зазначати, що він укладений на невизначений строк. Не підписуйте договір без цих дат.</p>
+
+  <h3>3. Заробітна плата і порядок виплати</h3>
+  <ul>
+    <li>Годинна або місячна ставка <strong>брутто</strong> (до вирахування)</li>
+    <li>Конкретна дата виплати (наприклад, до 10-го числа наступного місяця)</li>
+    <li>Спосіб оплати — банківський переказ</li>
+  </ul>
+  <p>Мінімальна годинна ставка в Польщі у 2026 році: <strong>30,50 злотих брутто</strong>.</p>
+
+  <h3>4. Місце роботи</h3>
+  <p>Перевірте, чи вказана адреса відповідає місцю вашої фактичної роботи.</p>
+
+  <h3>5. Внески ZUS і медичне страхування</h3>
+  <p>Агентство зобов'язане сплачувати внески ZUS та NFZ. Завдяки цьому ви маєте право на безкоштовну медичну допомогу в польських лікарнях.</p>
+
+  <h3>6. Умови розірвання договору</h3>
+  <p>З'ясуйте строк повідомлення про розірвання. При umowa zlecenie це може бути кілька днів або без попередження.</p>
+
+  <h2>Типові пастки</h2>
+
+  <ul>
+    <li><strong>Робота без письмового договору</strong> — Ніколи не погоджуйтеся на роботу «на слово». Без договору неможливо стягнути зарплату.</li>
+    <li><strong>Нелегальна праця</strong> — Ризик виселення з Польщі та втрати права на карту побуту.</li>
+    <li><strong>Ставка нижча за мінімальну</strong> — Менше 30,50 злотих/год — порушення закону. Скаржтесь до Державної інспекції праці (PIP).</li>
+    <li><strong>Відсутність перекладу</strong> — Ви маєте право вимагати пояснення кожного пункту.</li>
+  </ul>
+
+  <h2>Ваші права як працівника в Польщі</h2>
+
+  <ul>
+    <li>Право на своєчасну виплату заробітної плати</li>
+    <li>Право на безкоштовну медичну допомогу через NFZ</li>
+    <li>Право на безпечні умови праці</li>
+    <li>Право подати скаргу до Державної інспекції праці</li>
+  </ul>
+
+  <h2>Підписання договору крок за кроком</h2>
+
+  <ol>
+    <li>Прочитайте весь договір перед підписанням.</li>
+    <li>Попросіть переклад незрозумілих пунктів.</li>
+    <li>Перевірте свої персональні дані: ім'я, прізвище, PESEL або номер паспорта.</li>
+    <li>Вимагайте копію підписаного договору.</li>
+    <li>Зберігайте копію — знадобиться для ZUS, карти побуту або в разі суперечки.</li>
+  </ol>
+
+  <h2>Nexflow — прозорі умови праці для іноземців</h2>
+
+  <p>У Nexflow кожен договір укладається відповідно до польського трудового законодавства. Ми пояснимо вам кожен пункт договору українською мовою перед підписанням. <a href="https://nexflow.work">Відвідайте nexflow.work</a> — ми допоможемо на кожному етапі.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "trudovoy-dogovor-polsha-klyuchevye-terminy",
+    title:
+      "Как подписать трудовой договор в Польше — ключевые термины для иностранцев",
+    description:
+      "Руководство по ключевым терминам трудового договора в Польше для иностранных работников — виды договоров, зарплата брутто, взносы ZUS, права работников и типичные ловушки. Практическая информация для граждан Украины, России и других стран.",
+    date: "2027-06-08",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Как подписать трудовой договор в Польше — ключевые термины для иностранцев</h1>
+
+  <p>Подписание трудового договора — один из важнейших шагов при трудоустройстве в Польше. Для иностранца — работника из Украины, России, Молдовы или другой страны за пределами ЕС — этот документ может быть сложным для понимания, особенно если он написан исключительно на польском языке. Данное руководство объясняет, на что обратить внимание перед подписанием.</p>
+
+  <h2>Виды договоров о найме в Польше</h2>
+
+  <ul>
+    <li><strong>Umowa o pracę (трудовой договор)</strong> — полноценный трудовой договор со всеми правами: оплачиваемый отпуск, больничный, защита от увольнения. Может быть срочным или бессрочным.</li>
+    <li><strong>Umowa zlecenie (договор поручения)</strong> — гражданско-правовой договор, распространённый во временной занятости. Предусматривает уплату взносов ZUS и медицинское страхование NFZ.</li>
+    <li><strong>Umowa o dzieło (подрядный договор)</strong> — договор на конкретный результат. Редко применяется при физическом труде на складах и производстве.</li>
+  </ul>
+
+  <p>Как временный работник, вы чаще всего будете заключать <strong>umowa zlecenie</strong> через агентство временного найма (например, Nexflow).</p>
+
+  <h2>Ключевые элементы договора</h2>
+
+  <h3>1. Стороны договора</h3>
+  <p>При временной занятости договор подписывается с <strong>агентством</strong> (например, Nexflow), а не с предприятием, где вы фактически работаете. Агентство несёт ответственность за выплату зарплаты и уплату взносов ZUS.</p>
+
+  <h3>2. Срок действия договора</h3>
+  <p>Договор должен чётко указывать даты начала и окончания или запись о том, что он заключён на неопределённый срок. Не подписывайте договор без этих дат.</p>
+
+  <h3>3. Заработная плата и порядок выплаты</h3>
+  <ul>
+    <li>Почасовая или месячная ставка <strong>брутто</strong> (до вычетов)</li>
+    <li>Конкретная дата выплаты (например, до 10-го числа следующего месяца)</li>
+    <li>Способ оплаты — банковский перевод</li>
+  </ul>
+  <p>Минимальная почасовая ставка в Польше в 2026 году: <strong>30,50 злотых брутто</strong>.</p>
+
+  <h3>4. Место работы</h3>
+  <p>Проверьте, соответствует ли указанный адрес фактическому месту вашей работы.</p>
+
+  <h3>5. Взносы ZUS и медицинское страхование</h3>
+  <p>Работодатель (агентство) обязан уплачивать за вас взносы в ZUS и NFZ. Это даёт вам право на бесплатную медицинскую помощь в польских поликлиниках и больницах.</p>
+
+  <h3>6. Условия расторжения договора</h3>
+  <p>Выясните срок уведомления о расторжении. При umowa zlecenie это может быть несколько дней или расторжение без предупреждения.</p>
+
+  <h2>Типичные ловушки</h2>
+
+  <ul>
+    <li><strong>Работа без письменного договора</strong> — Никогда не соглашайтесь работать «на словах». Без договора невозможно взыскать зарплату.</li>
+    <li><strong>Нелегальный труд</strong> — Риск депортации из Польщи и утраты права на карту проживания.</li>
+    <li><strong>Ставка ниже минимальной</strong> — Меньше 30,50 злотых/час — нарушение закона. Жалуйтесь в Государственную инспекцию труда (PIP).</li>
+    <li><strong>Отсутствие перевода</strong> — Вы имеете право требовать разъяснения каждого пункта договора.</li>
+  </ul>
+
+  <h2>Ваши права как работника в Польше</h2>
+
+  <ul>
+    <li>Право на своевременную выплату заработной платы</li>
+    <li>Право на бесплатную медицинскую помощь через NFZ</li>
+    <li>Право на безопасные условия труда</li>
+    <li>Право подать жалобу в Государственную инспекцию труда</li>
+  </ul>
+
+  <h2>Подписание договора пошагово</h2>
+
+  <ol>
+    <li>Прочитайте весь договор перед подписанием.</li>
+    <li>Попросите перевод или разъяснение непонятных пунктов.</li>
+    <li>Проверьте свои личные данные: имя, фамилию, PESEL или номер паспорта.</li>
+    <li>Потребуйте копию подписанного договора.</li>
+    <li>Сохраните копию — она понадобится для ZUS, карты проживания или в случае спора.</li>
+  </ol>
+
+  <h2>Nexflow — прозрачные условия занятости для иностранцев</h2>
+
+  <p>В Nexflow каждый договор заключается в соответствии с польским трудовым законодательством. Мы объясним вам каждый пункт договора на русском языке перед подписанием. <a href="https://nexflow.work">Посетите nexflow.work</a> — мы поможем на каждом этапе.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "employment-contract-poland-key-terms-foreign-worker",
+    title:
+      "How to Sign a Polish Employment Contract — Key Terms for Foreign Workers",
+    description:
+      "A guide to key terms in a Polish employment contract for foreign workers — types of contracts, gross salary, ZUS contributions, worker rights, and common pitfalls. Practical information for workers from Ukraine, Russia, and other countries.",
+    date: "2027-06-15",
+    lang: "en",
+    content: `
+<article>
+  <h1>How to Sign a Polish Employment Contract — Key Terms for Foreign Workers</h1>
+
+  <p>Signing an employment contract is one of the most important steps when starting work in Poland. For a foreign worker — from Ukraine, Russia, Moldova, or any country outside the EU — the document can be difficult to understand, especially if it is written exclusively in Polish. This guide explains what to look for before you sign.</p>
+
+  <h2>Types of Employment Contracts in Poland</h2>
+
+  <ul>
+    <li><strong>Umowa o pracę (employment contract)</strong> — a full employment contract with complete rights: paid leave, sick pay, and protection against dismissal. It can be fixed-term or indefinite.</li>
+    <li><strong>Umowa zlecenie (mandate/service contract)</strong> — a civil law contract, common in temporary employment. It provides fewer rights than a full employment contract, but is fully legal and includes ZUS social insurance contributions and NFZ health insurance.</li>
+    <li><strong>Umowa o dzieło (work-for-hire contract)</strong> — a contract for a specific deliverable or result. Rarely used for physical labour in warehouses or manufacturing.</li>
+  </ul>
+
+  <p>As a temporary worker, you will most commonly sign an <strong>umowa zlecenie</strong> with a staffing agency (such as Nexflow). This is a normal and legal arrangement — you are entitled to your wages, mandatory ZUS contributions, and NFZ health coverage.</p>
+
+  <h2>Key Contract Elements — Check Before You Sign</h2>
+
+  <h3>1. Parties to the Contract</h3>
+  <p>Always check who your formal employer is. In temporary employment, you sign the contract with the <strong>staffing agency</strong> (e.g. Nexflow), not with the company where you actually work. The agency is responsible for paying your wages and making ZUS contributions.</p>
+
+  <h3>2. Contract Type and Duration</h3>
+  <p>The contract must clearly specify start and end dates (e.g. "from 1 June to 31 August 2027") or state that it is indefinite. Do not sign a contract without these dates.</p>
+
+  <h3>3. Salary and Payment Terms</h3>
+  <p>The contract must include:</p>
+  <ul>
+    <li>An hourly or monthly rate expressed as <strong>gross</strong> (before deductions)</li>
+    <li>A specific payment date — e.g. "by the 10th of the following month"</li>
+    <li>Payment method — should be a bank transfer</li>
+  </ul>
+  <p><strong>Important:</strong> Your take-home pay (net) will always be lower than the gross figure — income tax and ZUS contributions are deducted. In 2026, the minimum hourly wage in Poland is <strong>PLN 30.50 gross</strong>.</p>
+
+  <h3>4. Place of Work</h3>
+  <p>The contract should specify your exact workplace — the address of the warehouse, factory, or logistics centre. Verify that the address matches where you will actually be working. This matters if a dispute arises.</p>
+
+  <h3>5. Scope of Duties</h3>
+  <p>An umowa zlecenie describes the general nature of your tasks — e.g. "warehouse operations", "order picking", "forklift operation". You have the right to decline tasks that fall outside what is specified in the contract.</p>
+
+  <h3>6. ZUS Contributions and Health Insurance</h3>
+  <p>Your employer (the agency) is required to pay ZUS contributions (pension, disability, and accident insurance) and NFZ health insurance on your behalf. This entitles you to free medical care in Polish clinics and hospitals.</p>
+
+  <h3>7. Termination Conditions</h3>
+  <p>Before signing, find out the notice period for termination. For an umowa zlecenie it may be a few days, or the contract may allow termination without notice. For a fixed-term employment contract, the notice period is usually 2 weeks or 1 month, depending on your length of service.</p>
+
+  <h2>Common Pitfalls — What to Watch Out For</h2>
+
+  <ul>
+    <li><strong>Working without a written contract</strong> — Never agree to work on a verbal promise or with a contract "to follow later". Without a written contract you have no proof of employment, no ZUS coverage, and little chance of recovering unpaid wages.</li>
+    <li><strong>Undeclared work ("na czarno")</strong> — Working illegally in Poland risks deportation, loss of your temporary residence card (TRC), and refusal of future residence applications.</li>
+    <li><strong>Rate below the minimum wage</strong> — If the offered gross rate is below PLN 30.50/h (2026), the employer is breaking the law. You can report this to the <strong>National Labour Inspectorate (PIP)</strong>.</li>
+    <li><strong>No translation or explanation provided</strong> — You have the right to ask for an explanation of every clause before signing. A good staffing agency will provide support in your language.</li>
+  </ul>
+
+  <h2>Your Rights as a Worker in Poland</h2>
+
+  <p>Regardless of your nationality, you have the same fundamental employment rights as Polish citizens:</p>
+  <ul>
+    <li>The right to receive wages on time</li>
+    <li>The right to free healthcare through NFZ</li>
+    <li>The right to safe working conditions (health and safety regulations)</li>
+    <li>The right to paid annual leave (for employment contracts)</li>
+    <li>The right to file a complaint with the National Labour Inspectorate without risk of dismissal</li>
+  </ul>
+
+  <h2>Signing Your Contract Step by Step</h2>
+
+  <ol>
+    <li>Read the entire contract before signing — take the time you need.</li>
+    <li>Ask for a translation or explanation of any unclear clauses.</li>
+    <li>Check your personal details: first name, last name, PESEL number, or passport number.</li>
+    <li>Request a copy of the signed contract — you are legally entitled to one under Polish law.</li>
+    <li>Keep the copy in a safe place — you will need it for ZUS matters, your TRC application, or in the event of a dispute.</li>
+  </ol>
+
+  <h2>Nexflow — Transparent Employment for Foreign Workers</h2>
+
+  <p>At Nexflow, every contract is drawn up in accordance with Polish employment law. Our team speaks Ukrainian, Russian, and English — we will walk you through every clause of your contract before you sign. We make sure you know exactly what you are agreeing to and that you are protected under Polish law.</p>
+
+  <p>Have questions about your contract or working conditions in Poland? <a href="https://nexflow.work">Visit nexflow.work</a> or contact our office — we are here to help at every step.</p>
+</article>
+    `.trim(),
   }
 ];
 
