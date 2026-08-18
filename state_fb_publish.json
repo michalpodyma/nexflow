@@ -408,25 +408,32 @@
       "fb_post_id": "1107760715748033_122127024398808780",
       "published_at": "2026-08-17T12:48:00+0000",
       "sitemap_lastmod": "2027-04-20T00:00:00.000Z"
-    }
-  ],
-  "last_run": "2026-08-17T12:48:00Z",
-  "pending": [
+    },
     {
       "url": "https://nexflow.work/blog/podstawowe-zwroty-magazyn-polska",
+      "fb_post_id": "1107760715748033_122127108830808780",
+      "published_at": "2026-08-18T07:17:13+0000",
       "sitemap_lastmod": "2027-04-27T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/uk/blog/bazovi-frazy-sklad-polshcha",
+      "fb_post_id": "1107760715748033_122127108890808780",
+      "published_at": "2026-08-18T07:17:19+0000",
       "sitemap_lastmod": "2027-05-04T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/bazovye-frazy-sklad-polsha",
+      "fb_post_id": "1107760715748033_122127108914808780",
+      "published_at": "2026-08-18T07:17:22+0000",
       "sitemap_lastmod": "2027-05-11T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/en/blog/basic-polish-phrases-warehouse-worker-poland",
+      "fb_post_id": "1107760715748033_122127108938808780",
+      "published_at": "2026-08-18T07:17:24+0000",
       "sitemap_lastmod": "2027-05-18T00:00:00.000Z"
     }
-  ]
+  ],
+  "last_run": "2026-08-18T07:17:24Z",
+  "pending": []
 }
