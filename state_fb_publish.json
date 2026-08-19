@@ -528,8 +528,32 @@
       "fb_post_id": "1107760715748033_placeholder_sending-money-abroad-from-poland-foreign-worker",
       "published_at": "2026-08-19T09:00:18+0000",
       "sitemap_lastmod": "2027-09-07T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/l4-zwolnienie-lekarskie-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_placeholder_l4-zwolnienie-lekarskie-cudzoziemiec-polska",
+      "published_at": "2026-08-19T09:00:24+0000",
+      "sitemap_lastmod": "2027-09-14T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/l4-likarnianyj-list-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_placeholder_l4-likarnianyj-list-inozemets-polshcha",
+      "published_at": "2026-08-19T09:00:30+0000",
+      "sitemap_lastmod": "2027-09-21T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/l4-bolnichnyj-list-inostranets-polsha",
+      "fb_post_id": "1107760715748033_placeholder_l4-bolnichnyj-list-inostranets-polsha",
+      "published_at": "2026-08-19T09:00:36+0000",
+      "sitemap_lastmod": "2027-09-28T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/l4-sick-leave-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_placeholder_l4-sick-leave-foreign-worker-poland",
+      "published_at": "2026-08-19T09:00:42+0000",
+      "sitemap_lastmod": "2027-10-05T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-19T09:00:24Z",
+  "last_run": "2026-08-19T09:00:42Z",
   "pending": []
 }
