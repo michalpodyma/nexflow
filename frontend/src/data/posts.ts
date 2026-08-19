@@ -9293,6 +9293,364 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>If you need help navigating the paperwork for working in Poland — contact <strong>Nexflow</strong>. We support temporary workers at every step of legalising their stay and work in Poland.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "urlop-wypoczynkowy-pracownik-tymczasowy-polska",
+    title: "Urlop wypoczynkowy dla pracownika tymczasowego w Polsce – wszystko co musisz wiedzieć",
+    description:
+      "Urlop wypoczynkowy dla pracownika tymczasowego — ile dni urlopu przysługuje, kto go wypłaca i jak wyliczyć ekwiwalent? Kompletny przewodnik po prawach pracownika tymczasowego w Polsce.",
+    date: "2027-12-07",
+    lang: "pl",
+    content: `
+<article>
+<h1>Urlop wypoczynkowy dla pracownika tymczasowego w Polsce – wszystko co musisz wiedzieć</h1>
+
+<h2>Urlop wypoczynkowy dla pracownika tymczasowego — ile dni przysługuje?</h2>
+
+<p>Jako pracownik tymczasowy w Polsce masz prawo do urlopu wypoczynkowego, podobnie jak każdy inny pracownik. Wiele osób nie zdaje sobie z tego sprawy, szczególnie jeśli pracują na <strong>umowie o pracę tymczasową</strong> za pośrednictwem agencji pracy. W tym artykule wyjaśniamy dokładnie, jakie masz prawa i jak działa urlop w przypadku pracy tymczasowej.</p>
+
+<h2>Podstawa prawna — ustawa o zatrudnianiu pracowników tymczasowych</h2>
+
+<p>Urlop pracowników tymczasowych reguluje przede wszystkim <strong>Ustawa z dnia 9 lipca 2003 r. o zatrudnianiu pracowników tymczasowych</strong> oraz przepisy Kodeksu pracy. W przypadku umowy o pracę tymczasową urlop nalicza się proporcjonalnie do czasu trwania skierowania.</p>
+
+<p><strong>Kluczowa zasada:</strong> Za każdy miesiąc pracy tymczasowej pracownikowi przysługuje <strong>2 dni urlopu</strong>. Jeśli pracujesz przez 12 miesięcy — masz prawo do 24 dni urlopu.</p>
+
+<h2>Jak nalicza się urlop?</h2>
+
+<p>Urlop w pracy tymczasowej nalicza się następująco:</p>
+
+<ul>
+<li>Za każdy pełny miesiąc pracy tymczasowej — <strong>2 dni urlopu</strong></li>
+<li>Dni urlopu oblicza się proporcjonalnie, jeśli praca trwała krócej niż miesiąc</li>
+<li>Niepełny dzień urlopu zaokrągla się w górę do pełnego dnia</li>
+</ul>
+
+<p><strong>Przykład:</strong> Pracujesz 3 miesiące przez agencję pracy. Przysługuje Ci 3 × 2 = 6 dni urlopu.</p>
+
+<h2>Urlop przy umowie zlecenie — inaczej niż umowa o pracę</h2>
+
+<p>Jeśli pracujesz na podstawie <strong>umowy zlecenie</strong> (a nie umowy o pracę tymczasową), sytuacja jest inna:</p>
+
+<ul>
+<li>Umowa zlecenie <strong>nie uprawnia automatycznie</strong> do urlopu wypoczynkowego</li>
+<li>Możesz jednak wynegocjować z pracodawcą (zleceniodawcą) dni wolne</li>
+<li>Zamiast urlopu możesz otrzymać <strong>ekwiwalent pieniężny</strong> — pod warunkiem że to zapisano w umowie</li>
+</ul>
+
+<h2>Kto wypłaca urlop — agencja czy pracodawca użytkownik?</h2>
+
+<p>W przypadku pracy tymczasowej urlop wypłaca <strong>agencja pracy</strong> — czyli podmiot, który zawarł z Tobą umowę. Pracodawca użytkownik (firma, do której zostałeś skierowany) nie wypłaca urlopu bezpośrednio.</p>
+
+<p>Ważne: urlop powinien być <strong>wykorzystany w naturze</strong> (czyli jako dni wolne) podczas trwania skierowania. Jeśli nie możesz go wykorzystać przed zakończeniem współpracy, agencja ma obowiązek wypłacić Ci <strong>ekwiwalent pieniężny za niewykorzystany urlop</strong>.</p>
+
+<h2>Jak obliczyć ekwiwalent za urlop?</h2>
+
+<p>Ekwiwalent za urlop oblicza się na podstawie Twojego wynagrodzenia:</p>
+
+<ol>
+<li>Oblicz średnią stawkę dzienną (miesięczne wynagrodzenie ÷ 21)</li>
+<li>Pomnóż przez liczbę dni urlopu do wypłaty</li>
+</ol>
+
+<p><strong>Przykład:</strong> Zarabiasz 4 500 zł brutto miesięcznie i masz 4 dni urlopu. Ekwiwalent wynosi: (4 500 ÷ 21) × 4 = 857 zł brutto.</p>
+
+<h2>Jak poprosić o urlop?</h2>
+
+<ol>
+<li>Zgłoś się do swojego opiekuna w agencji pracy</li>
+<li>Podaj termin urlopu z wyprzedzeniem (zazwyczaj 2 tygodnie)</li>
+<li>Poczekaj na pisemne zatwierdzenie przez agencję</li>
+<li>Pracodawca użytkownik musi zostać poinformowany</li>
+</ol>
+
+<p>Pamiętaj: urlop możesz wziąć wyłącznie w porozumieniu z agencją pracy — samowolne opuszczenie pracy może być traktowane jako nieusprawiedliwiona nieobecność.</p>
+
+<h2>Najczęstsze pytania</h2>
+
+<p><strong>Czy urlop przepada po zakończeniu skierowania?</strong><br>
+Nie. Jeśli nie wykorzystasz urlopu, agencja musi wypłacić ekwiwalent pieniężny.</p>
+
+<p><strong>Czy mogę przenieść urlop z jednej agencji do drugiej?</strong><br>
+Nie — urlop naliczany jest dla każdego skierowania osobno. Po zakończeniu współpracy agencja rozlicza urlop z Tobą bezpośrednio.</p>
+
+<p><strong>Czy w pierwszym miesiącu pracy przysługuje mi urlop?</strong><br>
+Tak — za niepełny miesiąc nalicza się proporcjonalną część (zaokrągloną w górę do pełnego dnia).</p>
+
+<h2>Podsumowanie</h2>
+
+<ul>
+<li><strong>2 dni urlopu za każdy miesiąc</strong> pracy tymczasowej (umowa o pracę)</li>
+<li>Urlop wypłaca agencja pracy, nie pracodawca użytkownik</li>
+<li>Niewykorzystany urlop = ekwiwalent pieniężny wypłacany przy zakończeniu skierowania</li>
+<li>Umowa zlecenie: urlop nie jest obowiązkowy, ale można go wynegocjować</li>
+</ul>
+
+<p>Masz pytania dotyczące urlopu lub innych praw pracowniczych w Polsce? Skontaktuj się z nami — nasz zespół w Nexflow chętnie pomoże.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-tymchasovyi-pratsivnyk-polshcha",
+    title: "Відпустка для тимчасового працівника в Польщі – скільки днів і як її отримати",
+    description:
+      "Відпустка тимчасового працівника в Польщі — скільки днів належить, хто виплачує і як розрахувати компенсацію? Повний посібник для тимчасових працівників.",
+    date: "2027-12-14",
+    lang: "uk",
+    content: `
+<article>
+<h1>Відпустка для тимчасового працівника в Польщі – скільки днів і як її отримати</h1>
+
+<h2>Відпустка для тимчасового працівника — скільки днів належить?</h2>
+
+<p>Як тимчасовий працівник у Польщі ти маєш право на оплачувану відпустку — так само, як і будь-який інший працівник. Багато хто не знає про це, особливо ті, хто працює за <strong>договором про тимчасову роботу</strong> через агентство. У цій статті пояснюємо, які у тебе права і як розраховується відпустка.</p>
+
+<h2>Правова база — Закон про працевлаштування тимчасових працівників</h2>
+
+<p>Відпустку тимчасових працівників регулює насамперед <strong>Закон від 9 липня 2003 р. про працевлаштування тимчасових працівників</strong> та положення Трудового кодексу Польщі. При договорі про тимчасову роботу відпустка нараховується пропорційно до тривалості направлення.</p>
+
+<p><strong>Ключове правило:</strong> За кожен місяць тимчасової роботи працівнику належить <strong>2 дні відпустки</strong>. Якщо ти пропрацював 12 місяців — маєш право на 24 дні відпустки.</p>
+
+<h2>Як нараховується відпустка?</h2>
+
+<ul>
+<li>За кожен повний місяць тимчасової роботи — <strong>2 дні відпустки</strong></li>
+<li>Якщо робота тривала менше місяця — розраховується пропорційно</li>
+<li>Неповний день відпустки заокруглюється вгору до повного дня</li>
+</ul>
+
+<p><strong>Приклад:</strong> Ти пропрацював 3 місяці через агентство. Тобі належить 3 × 2 = 6 днів відпустки.</p>
+
+<h2>Відпустка за договором-підрядом (umowa zlecenie)</h2>
+
+<p>Якщо ти працюєш за <strong>договором-підрядом (umowa zlecenie)</strong>, а не за договором про тимчасову роботу, ситуація інша:</p>
+
+<ul>
+<li>Договір-підряд <strong>автоматично не дає права</strong> на оплачувану відпустку</li>
+<li>Ти можеш домовитися про вихідні дні з роботодавцем</li>
+<li>Замість відпустки можна отримати <strong>грошову компенсацію</strong> — якщо це прописано в договорі</li>
+</ul>
+
+<h2>Хто виплачує відпускні — агентство чи підприємство?</h2>
+
+<p>При тимчасовій роботі відпустку виплачує <strong>агентство праці</strong> — тобто організація, яка уклала з тобою договір. Підприємство-користувач (фірма, куди тебе направили) не виплачує відпускних безпосередньо.</p>
+
+<p>Важливо: відпустку потрібно використати під час дії направлення. Якщо не встигнеш — агентство зобов'язане виплатити тобі <strong>грошову компенсацію за невикористану відпустку</strong> при завершенні співпраці.</p>
+
+<h2>Як розрахувати компенсацію за відпустку?</h2>
+
+<ol>
+<li>Обчисли середньоденну ставку (місячна зарплата ÷ 21)</li>
+<li>Помнож на кількість днів відпустки до виплати</li>
+</ol>
+
+<p><strong>Приклад:</strong> Ти заробляєш 4 500 злотих брутто на місяць і маєш 4 дні відпустки. Компенсація: (4 500 ÷ 21) × 4 = 857 злотих брутто.</p>
+
+<h2>Як попросити про відпустку?</h2>
+
+<ol>
+<li>Зверніться до свого куратора в агентстві праці</li>
+<li>Повідомте про дати відпустки заздалегідь (зазвичай за 2 тижні)</li>
+<li>Дочекайтесь письмового підтвердження від агентства</li>
+<li>Підприємство-користувач має бути повідомлене</li>
+</ol>
+
+<h2>Поширені запитання</h2>
+
+<p><strong>Чи згоряє відпустка після закінчення направлення?</strong><br>
+Ні. Якщо ти не використав відпустку, агентство зобов'язане виплатити компенсацію.</p>
+
+<p><strong>Чи можна перенести відпустку з одного агентства до іншого?</strong><br>
+Ні — відпустка нараховується окремо для кожного направлення. Після завершення співпраці агентство розраховується з тобою.</p>
+
+<h2>Підсумок</h2>
+
+<ul>
+<li><strong>2 дні відпустки за кожен місяць</strong> тимчасової роботи (трудовий договір)</li>
+<li>Відпустку виплачує агентство, а не підприємство-користувач</li>
+<li>Невикористана відпустка = грошова компенсація при завершенні направлення</li>
+<li>Договір-підряд: відпустка не обов'язкова, але можна домовитися</li>
+</ul>
+
+<p>Є запитання щодо відпустки чи інших трудових прав у Польщі? Зв'яжіться з нами — команда Nexflow завжди готова допомогти.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-vremennyj-rabotnik-polsha",
+    title: "Отпуск для временного работника в Польше – сколько дней и как получить",
+    description:
+      "Отпуск временного работника в Польше — сколько дней положено, кто выплачивает и как рассчитать компенсацию? Полное руководство для временных работников.",
+    date: "2027-12-21",
+    lang: "ru",
+    content: `
+<article>
+<h1>Отпуск для временного работника в Польше – сколько дней и как получить</h1>
+
+<h2>Отпуск для временного работника — сколько дней положено?</h2>
+
+<p>Как временный работник в Польше вы имеете право на оплачиваемый отпуск — так же, как и любой другой работник. Многие не знают об этом, особенно те, кто работает по <strong>договору о временной работе</strong> через кадровое агентство. В этой статье объясняем, какие у вас права и как рассчитывается отпуск.</p>
+
+<h2>Правовая база — Закон о трудоустройстве временных работников</h2>
+
+<p>Отпуск временных работников регулируется прежде всего <strong>Законом от 9 июля 2003 г. о трудоустройстве временных работников</strong> и нормами Трудового кодекса Польши. При договоре о временной работе отпуск начисляется пропорционально сроку направления.</p>
+
+<p><strong>Ключевое правило:</strong> За каждый месяц временной работы работнику положено <strong>2 дня отпуска</strong>. Если вы проработали 12 месяцев — вы имеете право на 24 дня отпуска.</p>
+
+<h2>Как начисляется отпуск?</h2>
+
+<ul>
+<li>За каждый полный месяц временной работы — <strong>2 дня отпуска</strong></li>
+<li>Если работа длилась менее месяца — рассчитывается пропорционально</li>
+<li>Неполный день отпуска округляется вверх до полного</li>
+</ul>
+
+<p><strong>Пример:</strong> Вы проработали 3 месяца через агентство. Вам положено 3 × 2 = 6 дней отпуска.</p>
+
+<h2>Отпуск по договору-подряду (umowa zlecenie)</h2>
+
+<p>Если вы работаете по <strong>договору-подряду (umowa zlecenie)</strong>, а не по договору о временной работе, ситуация иная:</p>
+
+<ul>
+<li>Договор-подряд <strong>автоматически не даёт права</strong> на оплачиваемый отпуск</li>
+<li>Вы можете договориться о выходных днях с работодателем</li>
+<li>Вместо отпуска можно получить <strong>денежную компенсацию</strong> — при условии, что это прописано в договоре</li>
+</ul>
+
+<h2>Кто выплачивает отпускные — агентство или предприятие?</h2>
+
+<p>При временной работе отпуск выплачивает <strong>кадровое агентство</strong> — то есть организация, заключившая с вами договор. Предприятие-пользователь (фирма, куда вас направили) не выплачивает отпускные напрямую.</p>
+
+<p>Важно: отпуск нужно использовать в период действия направления. Если не успели — агентство обязано выплатить <strong>денежную компенсацию за неиспользованный отпуск</strong> при завершении сотрудничества.</p>
+
+<h2>Как рассчитать компенсацию за отпуск?</h2>
+
+<ol>
+<li>Вычислите среднедневную ставку (месячная зарплата ÷ 21)</li>
+<li>Умножьте на количество дней отпуска к выплате</li>
+</ol>
+
+<p><strong>Пример:</strong> Вы зарабатываете 4 500 злотых брутто в месяц и имеете 4 дня отпуска. Компенсация: (4 500 ÷ 21) × 4 = 857 злотых брутто.</p>
+
+<h2>Как попросить отпуск?</h2>
+
+<ol>
+<li>Обратитесь к своему куратору в кадровом агентстве</li>
+<li>Сообщите о датах отпуска заблаговременно (обычно за 2 недели)</li>
+<li>Дождитесь письменного подтверждения от агентства</li>
+<li>Предприятие-пользователь должно быть уведомлено</li>
+</ol>
+
+<h2>Частые вопросы</h2>
+
+<p><strong>Сгорает ли отпуск после окончания направления?</strong><br>
+Нет. Если вы не использовали отпуск, агентство обязано выплатить компенсацию.</p>
+
+<p><strong>Можно ли перенести отпуск из одного агентства в другое?</strong><br>
+Нет — отпуск начисляется отдельно для каждого направления. После окончания сотрудничества агентство рассчитывается с вами.</p>
+
+<h2>Итог</h2>
+
+<ul>
+<li><strong>2 дня отпуска за каждый месяц</strong> временной работы (трудовой договор)</li>
+<li>Отпуск выплачивает агентство, а не предприятие-пользователь</li>
+<li>Неиспользованный отпуск = денежная компенсация при завершении направления</li>
+<li>Договор-подряд: отпуск не обязателен, но можно договориться</li>
+</ul>
+
+<p>Есть вопросы об отпуске или других трудовых правах в Польше? Свяжитесь с нами — команда Nexflow всегда рада помочь.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "annual-leave-temporary-worker-poland",
+    title: "Annual Leave for Temporary Workers in Poland – How Many Days and How to Claim",
+    description:
+      "Annual leave for temporary workers in Poland — how many days you get, who pays, and how to calculate unused leave equivalent. A complete guide to your rights.",
+    date: "2027-12-28",
+    lang: "en",
+    content: `
+<article>
+<h1>Annual Leave for Temporary Workers in Poland – How Many Days and How to Claim</h1>
+
+<h2>Annual Leave for Temporary Workers — How Many Days Are You Entitled To?</h2>
+
+<p>As a temporary worker in Poland, you have the right to paid annual leave — just like any other employee. Many workers are unaware of this, especially those working under a <strong>temporary employment contract</strong> through a staffing agency. This guide explains your rights and how annual leave works in temporary employment.</p>
+
+<h2>Legal Basis — The Act on Temporary Workers</h2>
+
+<p>Annual leave for temporary workers is primarily governed by the <strong>Act of 9 July 2003 on the Employment of Temporary Workers</strong> and the Polish Labour Code. Under a temporary employment contract, annual leave accrues proportionally to the length of each work assignment.</p>
+
+<p><strong>Key rule:</strong> For every month of temporary employment, you are entitled to <strong>2 days of annual leave</strong>. Work 12 months and you have 24 days of leave.</p>
+
+<h2>How Is Annual Leave Calculated?</h2>
+
+<ul>
+<li>For each full month of temporary work — <strong>2 days of annual leave</strong></li>
+<li>Calculated proportionally for periods shorter than one month</li>
+<li>Any fraction of a day is rounded up to a full day</li>
+</ul>
+
+<p><strong>Example:</strong> You have worked 3 months through a staffing agency. You are entitled to 3 × 2 = 6 days of annual leave.</p>
+
+<h2>Leave Under a Mandate Contract (Umowa Zlecenie)</h2>
+
+<p>If you work under a <strong>mandate contract (umowa zlecenie)</strong> rather than a temporary employment contract, the situation is different:</p>
+
+<ul>
+<li>A mandate contract does <strong>not automatically entitle</strong> you to paid annual leave</li>
+<li>You may negotiate days off with the employer</li>
+<li>Instead of leave, you may receive a <strong>cash equivalent</strong> — provided this is written into the contract</li>
+</ul>
+
+<h2>Who Pays Holiday Pay — the Agency or the Client Company?</h2>
+
+<p>In temporary employment, leave is paid by the <strong>staffing agency</strong> — the entity that signed your contract. The client company (the business where you are placed) does not pay holiday pay directly.</p>
+
+<p>Important: leave should ideally be taken during the assignment period. If you cannot use it before the assignment ends, the agency is legally required to pay you a <strong>cash equivalent for unused leave</strong> at the end of the assignment.</p>
+
+<h2>How to Calculate Leave Equivalent Pay</h2>
+
+<ol>
+<li>Calculate your average daily rate (monthly gross salary ÷ 21)</li>
+<li>Multiply by the number of unused leave days</li>
+</ol>
+
+<p><strong>Example:</strong> You earn 4,500 PLN gross per month and have 4 unused leave days. Equivalent pay: (4,500 ÷ 21) × 4 = 857 PLN gross.</p>
+
+<h2>How to Request Annual Leave</h2>
+
+<ol>
+<li>Contact your coordinator at the staffing agency</li>
+<li>Give advance notice of your preferred dates (usually 2 weeks)</li>
+<li>Wait for written confirmation from the agency</li>
+<li>The client company must be informed of your absence</li>
+</ol>
+
+<p>Remember: you can only take leave with the agency's approval — unauthorised absence may be treated as an unexcused absence.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Does annual leave expire when my assignment ends?</strong><br>
+No. If you have unused leave, the agency must pay you the cash equivalent.</p>
+
+<p><strong>Can I transfer leave from one agency to another?</strong><br>
+No — leave is calculated separately for each assignment. When one assignment ends, the agency settles the leave balance with you directly.</p>
+
+<p><strong>Am I entitled to leave in my first month?</strong><br>
+Yes — for a partial month, leave accrues proportionally (rounded up to a full day).</p>
+
+<h2>Summary</h2>
+
+<ul>
+<li><strong>2 days of leave per month</strong> of temporary work (employment contract)</li>
+<li>Leave is paid by the staffing agency, not the client company</li>
+<li>Unused leave = cash equivalent paid at the end of the assignment</li>
+<li>Mandate contract: leave is not mandatory, but can be negotiated</li>
+</ul>
+
+<p>Questions about annual leave or other workers' rights in Poland? Contact us — the Nexflow team is happy to help.</p>
+</article>
+    `.trim(),
   }
 ];
 
