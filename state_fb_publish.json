@@ -456,8 +456,32 @@
       "fb_post_id": "1107760715748033_placeholder_employment-contract-poland-key-terms-foreign-worker",
       "published_at": "2026-08-18T09:00:18+0000",
       "sitemap_lastmod": "2027-06-15T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/pit-zeznanie-podatkowe-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_placeholder_pit-zeznanie-podatkowe-cudzoziemiec-polska",
+      "published_at": "2026-08-19T09:00:00+0000",
+      "sitemap_lastmod": "2027-06-22T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/pit-podatkova-deklaratsia-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_placeholder_pit-podatkova-deklaratsia-inozemets-polshcha",
+      "published_at": "2026-08-19T09:00:06+0000",
+      "sitemap_lastmod": "2027-06-29T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/pit-nalogovaya-deklaratsiya-inostranets-polsha",
+      "fb_post_id": "1107760715748033_placeholder_pit-nalogovaya-deklaratsiya-inostranets-polsha",
+      "published_at": "2026-08-19T09:00:12+0000",
+      "sitemap_lastmod": "2027-07-06T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pit-tax-return-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_placeholder_pit-tax-return-foreign-worker-poland",
+      "published_at": "2026-08-19T09:00:18+0000",
+      "sitemap_lastmod": "2027-07-13T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-18T07:17:24Z",
+  "last_run": "2026-08-19T09:00:18Z",
   "pending": []
 }
