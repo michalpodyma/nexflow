@@ -504,25 +504,32 @@
       "fb_post_id": "1107760715748033_placeholder_nfz-how-to-use-health-insurance-foreign-worker-poland",
       "published_at": "2026-08-19T09:00:18+0000",
       "sitemap_lastmod": "2027-08-10T00:00:00.000Z"
-    }
-  ],
-  "last_run": "2026-08-19T09:00:24Z",
-  "pending": [
+    },
     {
       "url": "https://nexflow.work/blog/przekazy-pieniezne-polska-za-granice-cudzoziemiec",
+      "fb_post_id": "1107760715748033_placeholder_przekazy-pieniezne-polska-za-granice-cudzoziemiec",
+      "published_at": "2026-08-19T09:00:00+0000",
       "sitemap_lastmod": "2027-08-17T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/uk/blog/groshovyi-perekaz-polshcha-za-kordon-inozemets",
+      "fb_post_id": "1107760715748033_placeholder_groshovyi-perekaz-polshcha-za-kordon-inozemets",
+      "published_at": "2026-08-19T09:00:06+0000",
       "sitemap_lastmod": "2027-08-24T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/denezhnye-perevody-polsha-za-granitsu-inostranets",
+      "fb_post_id": "1107760715748033_placeholder_denezhnye-perevody-polsha-za-granitsu-inostranets",
+      "published_at": "2026-08-19T09:00:12+0000",
       "sitemap_lastmod": "2027-08-31T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/en/blog/sending-money-abroad-from-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_placeholder_sending-money-abroad-from-poland-foreign-worker",
+      "published_at": "2026-08-19T09:00:18+0000",
       "sitemap_lastmod": "2027-09-07T00:00:00.000Z"
     }
-  ]
+  ],
+  "last_run": "2026-08-19T09:00:24Z",
+  "pending": []
 }
