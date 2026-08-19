@@ -10292,6 +10292,473 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>Meldunek is a simple, free step that opens access to many services in Poland. Do it as soon as you arrive. Nexflow supports its workers with admin procedures — contact us for help.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "zmiana-pracodawcy-cudzoziemiec-polska",
+    title: "Zmiana pracodawcy w Polsce jako cudzoziemiec — co dzieje się z zezwoleniem na pracę?",
+    description:
+      "Zmieniasz pracę w Polsce jako cudzoziemiec? Dowiedz się, co dzieje się z Twoim zezwoleniem na pracę lub oświadczeniem, kiedy możesz legalnie podjąć zatrudnienie u nowego pracodawcy i jak działa elastyczność agencji tymczasowej.",
+    date: "2028-03-01",
+    lang: "pl",
+    content: `
+<h2>Zmiana pracodawcy w Polsce jako cudzoziemiec — co dzieje się z zezwoleniem na pracę?</h2>
+
+<p>Pracujesz w Polsce jako cudzoziemiec spoza UE i chcesz zmienić pracodawcę? A może Twoja agencja pracy kieruje Cię do innego zakładu? To częsta sytuacja, która może mieć poważne konsekwencje prawne, jeśli nie przeprowadzisz jej prawidłowo. W tym przewodniku tłumaczymy, co dzieje się z Twoim zezwoleniem na pracę lub oświadczeniem o powierzeniu pracy, gdy zmieniasz miejsce zatrudnienia.</p>
+
+<h3>Podstawy — dwa główne typy dokumentów uprawniających do pracy w Polsce</h3>
+
+<p>Zanim omówimy zmianę pracodawcy, przypomnijmy, na jakiej podstawie cudzoziemcy spoza UE mogą legalnie pracować w Polsce:</p>
+
+<ul>
+  <li><strong>Oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</strong> — uproszczona ścieżka dla obywateli Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii i Uzbekistanu. Ważne maksymalnie 24 miesiące, wystawiane dla konkretnego pracodawcy i określonego stanowiska.</li>
+  <li><strong>Zezwolenie na pracę typ A</strong> — standardowy dokument wydawany przez Urząd Wojewódzki na wniosek pracodawcy. Dotyczy pracy u konkretnego pracodawcy. Ważne od 1 do 3 lat.</li>
+</ul>
+
+<h3>Czy można zmienić pracodawcę mając aktualne zezwolenie?</h3>
+
+<p><strong>Nie — zarówno zezwolenie na pracę, jak i oświadczenie są wystawiane dla konkretnego pracodawcy i nie można ich przenieść na inny podmiot.</strong></p>
+
+<p>Zezwolenie na pracę (typ A) zawiera następujące dane:</p>
+<ul>
+  <li>pełna nazwa i NIP pracodawcy,</li>
+  <li>stanowisko i rodzaj wykonywanej pracy,</li>
+  <li>wymiar czasu pracy,</li>
+  <li>minimalne wynagrodzenie określone w zezwoleniu.</li>
+</ul>
+
+<p>Analogicznie oświadczenie o powierzeniu pracy jest rejestrowane w Powiatowym Urzędzie Pracy dla konkretnego pracodawcy. Jeśli zmienisz pracodawcę bez nowego dokumentu — narażasz się na pracę nielegalną, co grozi deportacją i zakazem wjazdu do Polski przez kilka lat.</p>
+
+<h3>Co musisz zrobić przy zmianie pracodawcy?</h3>
+
+<h4>Wariant 1: Zmiana pracodawcy po zakończeniu lub rozwiązaniu umowy</h4>
+
+<ol>
+  <li><strong>Nowy pracodawca musi uzyskać nowe zezwolenie lub złożyć nowe oświadczenie</strong> zanim zaczniesz u niego pracować — nie dzień po rozpoczęciu, ale przed pierwszym dniem pracy.</li>
+  <li>Złożenie oświadczenia trwa zazwyczaj od 2 do 7 dni roboczych. Zezwolenie na pracę może trwać kilka miesięcy.</li>
+  <li>W czasie oczekiwania na nowy dokument <strong>nie wolno Ci legalnie pracować u nowego pracodawcy</strong>.</li>
+  <li>Zaplanuj zmianę z wyprzedzeniem i nie rozwiązuj umowy z dotychczasowym pracodawcą, dopóki nowy dokument nie będzie gotowy.</li>
+</ol>
+
+<h4>Wariant 2: Praca przez agencję pracy tymczasowej</h4>
+
+<p>Jeśli pracujesz przez agencję pracy tymczasowej (taką jak Nexflow), sytuacja wygląda inaczej i jest znacznie korzystniejsza:</p>
+
+<ul>
+  <li>Twoim formalnym pracodawcą <strong>jest agencja</strong>, nie firma, do której jesteś delegowany (pracodawca użytkownik).</li>
+  <li>Agencja może kierować Cię do różnych zakładów pracy bez konieczności wystawiania nowego zezwolenia — dopóki to agencja wypłaca Ci wynagrodzenie i Ty pozostajesz jej pracownikiem.</li>
+  <li>Zmiana firmy, do której jesteś oddelegowany, <strong>nie wymaga nowego zezwolenia na pracę</strong>.</li>
+  <li>Warunkiem jest jednak, że stanowisko i wynagrodzenie muszą odpowiadać tym wskazanym w zezwoleniu lub oświadczeniu agencji.</li>
+</ul>
+
+<p>To jedna z największych zalet pracy przez agencję tymczasową — możesz zmieniać miejsca pracy elastycznie, bez ryzyka utraty legalności zatrudnienia.</p>
+
+<h3>A co z Kartą Czasowego Pobytu (TRC)?</h3>
+
+<p>Jeśli posiadasz Kartę Czasowego Pobytu (karta pobytu) wydaną w celu wykonywania pracy w Polsce, zmiana pracodawcy komplikuje się:</p>
+
+<ul>
+  <li>Karta pobytu jest zazwyczaj powiązana z konkretnym zezwoleniem na pracę lub oświadczeniem.</li>
+  <li>Zmiana pracodawcy może wymagać <strong>złożenia nowego wniosku o zezwolenie na pobyt</strong> lub przynajmniej zmiany decyzji.</li>
+  <li>W przypadku łącznego zezwolenia na pobyt i pracę (tzw. „jedno-okienko") zmiana pracodawcy <strong>zawsze wymaga nowego wniosku</strong> do Urzędu Wojewódzkiego.</li>
+  <li>Wyjątek: jeśli Twoja TRC jest wydana dla celów rodzinnych lub z innego powodu niż praca — możesz swobodnie zmieniać pracodawcę.</li>
+</ul>
+
+<p><strong>Ważna zasada:</strong> jeśli pracujesz przez agencję tymczasową i agencja pozostaje ta sama, zmiana pracodawcy użytkownika nie wymaga aktualizacji TRC — Twój pracodawca (agencja) się nie zmienia.</p>
+
+<h3>Kiedy możesz pracować u nowego pracodawcy bez nowego zezwolenia?</h3>
+
+<p>Istnieje kilka sytuacji, w których możesz legalnie zmienić pracodawcę bez uzyskiwania nowego dokumentu:</p>
+
+<ul>
+  <li>Posiadasz <strong>Kartę Stałego Pobytu</strong> — możesz pracować u dowolnego pracodawcy bez ograniczeń.</li>
+  <li>Masz <strong>status uchodźcy lub ochronę uzupełniającą</strong> w Polsce.</li>
+  <li>Jesteś małżonkiem obywatela polskiego (i spełniasz dodatkowe warunki).</li>
+  <li>Posiadasz <strong>Kartę Polaka</strong> — uprawnia do pracy bez zezwolenia.</li>
+  <li>Twoje poprzednie zezwolenie wygasło, a złożyłeś nowy wniosek — w niektórych przypadkach możesz kontynuować pracę u tego samego pracodawcy do czasu decyzji.</li>
+</ul>
+
+<h3>Lista kontrolna — zmiana pracodawcy krok po kroku</h3>
+
+<ol>
+  <li>✅ Sprawdź, jaki dokument uprawnia Cię do pracy (oświadczenie, zezwolenie typ A, TRC z prawem pracy).</li>
+  <li>✅ Skontaktuj się z potencjalnym nowym pracodawcą lub agencją — wyjaśnij swoją sytuację dokumentową.</li>
+  <li>✅ Upewnij się, że nowe zezwolenie lub oświadczenie zostanie wystawione <strong>przed Twoim pierwszym dniem pracy</strong>.</li>
+  <li>✅ Jeśli masz TRC powiązaną z pracą — sprawdź, czy konieczna jest zmiana decyzji pobytowej.</li>
+  <li>✅ Nie rozwiązuj umowy z dotychczasowym pracodawcą, dopóki nowy dokument nie będzie gotowy.</li>
+  <li>✅ Zachowaj kopie wszystkich dokumentów (umowa, zezwolenie, oświadczenie, TRC).</li>
+</ol>
+
+<h3>Jak Nexflow może pomóc?</h3>
+
+<p>Agencja pracy tymczasowej Nexflow ma wieloletnie doświadczenie w legalizacji zatrudnienia cudzoziemców. Jako Twój formalny pracodawca możemy:</p>
+
+<ul>
+  <li>sprawdzić ważność i zakres Twoich obecnych dokumentów,</li>
+  <li>złożyć oświadczenie lub wniosek o zezwolenie na pracę w Twoim imieniu,</li>
+  <li>doradzić optymalną ścieżkę legalizacji przy zmianie stanowiska lub zakładu pracy,</li>
+  <li>zapewnić ciągłość legalnego zatrudnienia bez przerw w dokumentacji.</li>
+</ul>
+
+<p>Skontaktuj się z nami przed podjęciem decyzji — pozwoli to uniknąć kosztownych błędów prawnych.</p>
+
+<h3>Podsumowanie</h3>
+
+<ul>
+  <li>Zezwolenie na pracę i oświadczenie są wystawiane dla konkretnego pracodawcy — nie można ich przenieść.</li>
+  <li>Zmiana pracodawcy wymaga nowego dokumentu wystawionego <strong>zanim zaczniesz pracować</strong>.</li>
+  <li>Praca przez agencję tymczasową daje elastyczność — zmiana pracodawcy użytkownika nie wymaga nowych dokumentów.</li>
+  <li>Posiadacze TRC powiązanej z pracą muszą zaktualizować dokumenty pobytowe przy zmianie bezpośredniego pracodawcy.</li>
+  <li>W razie wątpliwości — zawsze skonsultuj się z agencją lub prawnikiem przed podjęciem decyzji.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "zmina-robotodavtsya-inozemets-polshcha",
+    title: "Зміна роботодавця в Польщі для іноземців — що відбувається з дозволом на роботу?",
+    description:
+      "Хочете змінити роботодавця в Польщі? Дізнайтесь, що відбувається з вашим дозволом на роботу або заявою, коли можна легально розпочати роботу у нового роботодавця і як працює гнучкість агентства тимчасової праці.",
+    date: "2028-03-08",
+    lang: "uk",
+    content: `
+<h2>Зміна роботодавця в Польщі для іноземців — що відбувається з дозволом на роботу?</h2>
+
+<p>Ви працюєте в Польщі як іноземець і хочете змінити роботодавця? Або агентство праці направляє вас на новий об'єкт? Це поширена ситуація, яка може мати серйозні правові наслідки, якщо її не здійснити правильно. У цьому посібнику пояснюємо, що відбувається з вашим дозволом на роботу або заявою про доручення роботи (oświadczenie), коли ви міняєте місце праці.</p>
+
+<h3>Два основні типи документів на право праці в Польщі</h3>
+
+<p>Перш ніж говорити про зміну роботодавця, нагадаємо, на якій підставі іноземці з-за меж ЄС можуть легально працювати в Польщі:</p>
+
+<ul>
+  <li><strong>Заява про доручення роботи іноземцю (oświadczenie)</strong> — спрощена процедура для громадян України, Білорусі, Грузії, Молдови, Вірменії та Узбекистану. Дійсна максимум 24 місяці, видається на конкретного роботодавця та посаду.</li>
+  <li><strong>Дозвіл на роботу тип А</strong> — стандартний документ, що видається Воєводським управлінням на прохання роботодавця. Стосується роботи у конкретного роботодавця. Дійсний від 1 до 3 років.</li>
+</ul>
+
+<h3>Чи можна змінити роботодавця з наявним дозволом на роботу?</h3>
+
+<p><strong>Ні — і дозвіл на роботу, і заява видаються на конкретного роботодавця, і їх не можна перенести на іншу особу.</strong></p>
+
+<p>Дозвіл на роботу (тип А) містить такі дані:</p>
+<ul>
+  <li>повна назва та NIP роботодавця,</li>
+  <li>посада та вид виконуваної роботи,</li>
+  <li>розмір робочого часу,</li>
+  <li>мінімальна заробітна плата, зазначена у дозволі.</li>
+</ul>
+
+<p>Якщо ви зміните роботодавця без нового документа — ризикуєте нелегальним працевлаштуванням, що загрожує депортацією та забороною в'їзду до Польщі на кілька років.</p>
+
+<h3>Що потрібно зробити при зміні роботодавця?</h3>
+
+<h4>Варіант 1: Зміна роботодавця після закінчення або розірвання договору</h4>
+
+<ol>
+  <li><strong>Новий роботодавець повинен отримати новий дозвіл або подати нову заяву</strong> до вашого першого робочого дня — не після початку роботи, а до нього.</li>
+  <li>Подання заяви зазвичай займає від 2 до 7 робочих днів. Дозвіл на роботу може розглядатися кілька місяців.</li>
+  <li>Поки новий документ не буде готовий, <strong>ви не можете легально працювати у нового роботодавця</strong>.</li>
+  <li>Плануйте зміну заздалегідь і не розривайте договір з поточним роботодавцем, доки новий документ не буде оформлено.</li>
+</ol>
+
+<h4>Варіант 2: Робота через агентство тимчасової праці</h4>
+
+<p>Якщо ви працюєте через агентство тимчасової праці (наприклад, Nexflow), ситуація зовсім інша і набагато вигідніша:</p>
+
+<ul>
+  <li>Вашим офіційним роботодавцем <strong>є агентство</strong>, а не підприємство, на яке вас направляють (роботодавець-користувач).</li>
+  <li>Агентство може направляти вас на різні підприємства без необхідності отримувати новий дозвіл — поки агентство виплачує вам зарплату і ви залишаєтесь його працівником.</li>
+  <li>Зміна підприємства, на яке вас направляють, <strong>не вимагає нового дозволу на роботу</strong>.</li>
+  <li>Умова: посада та оплата праці повинні відповідати зазначеним у дозволі або заяві агентства.</li>
+</ul>
+
+<p>Це одна з головних переваг роботи через агентство тимчасової праці — ви можете гнучко змінювати місця роботи без ризику втрати легальності.</p>
+
+<h3>А що з Карткою тимчасового проживання (TRC)?</h3>
+
+<p>Якщо у вас є Картка тимчасового проживання (карта побиту), видана для цілей роботи в Польщі, при зміні роботодавця ситуація ускладнюється:</p>
+
+<ul>
+  <li>Карта побиту зазвичай пов'язана з конкретним дозволом на роботу або заявою.</li>
+  <li>Зміна роботодавця може вимагати <strong>подання нового клопотання про дозвіл на проживання</strong> або принаймні зміни рішення.</li>
+  <li>У разі єдиного дозволу на проживання та роботу («єдине вікно») зміна роботодавця <strong>завжди вимагає нового клопотання</strong> до Воєводського управління.</li>
+  <li>Виняток: якщо ваша карта побиту видана з сімейних або інших некарних підстав — ви можете вільно змінювати роботодавця.</li>
+</ul>
+
+<p><strong>Важливо:</strong> якщо ви працюєте через агентство і агентство залишається тим самим, зміна роботодавця-користувача не вимагає оновлення TRC — ваш роботодавець (агентство) не змінюється.</p>
+
+<h3>Коли можна змінити роботодавця без нового дозволу?</h3>
+
+<ul>
+  <li>У вас є <strong>Картка постійного проживання</strong> — ви можете працювати в будь-якого роботодавця без обмежень.</li>
+  <li>Ви маєте <strong>статус біженця або додатковий захист</strong> у Польщі.</li>
+  <li>Ви є подружжям громадянина Польщі (та відповідаєте додатковим умовам).</li>
+  <li>У вас є <strong>Картка поляка</strong> — надає право на роботу без дозволу.</li>
+</ul>
+
+<h3>Покроковий контрольний список</h3>
+
+<ol>
+  <li>✅ Перевірте, який документ дає вам право на роботу (заява, дозвіл тип А, карта побиту з правом праці).</li>
+  <li>✅ Зв'яжіться з потенційним новим роботодавцем або агентством — поясніть свою документальну ситуацію.</li>
+  <li>✅ Переконайтесь, що новий дозвіл або заява будуть оформлені <strong>до вашого першого дня роботи</strong>.</li>
+  <li>✅ Якщо у вас є TRC, пов'язана з роботою — з'ясуйте, чи потрібна зміна рішення про проживання.</li>
+  <li>✅ Не розривайте договір з поточним роботодавцем, доки новий документ не буде готовий.</li>
+  <li>✅ Зберігайте копії всіх документів (договір, дозвіл, заява, TRC).</li>
+</ol>
+
+<h3>Як Nexflow може допомогти?</h3>
+
+<p>Агентство тимчасової праці Nexflow має багаторічний досвід у легалізації працевлаштування іноземців. Як ваш офіційний роботодавець ми можемо:</p>
+
+<ul>
+  <li>перевірити чинність і сферу дії ваших наявних документів,</li>
+  <li>подати заяву або клопотання про дозвіл на роботу від вашого імені,</li>
+  <li>порадити оптимальний шлях легалізації при зміні посади або об'єкта роботи,</li>
+  <li>забезпечити безперервність легального працевлаштування без прогалин у документах.</li>
+</ul>
+
+<p>Зверніться до нас перед прийняттям рішення — це допоможе уникнути дорогих юридичних помилок.</p>
+
+<h3>Підсумок</h3>
+
+<ul>
+  <li>Дозвіл на роботу та заява видаються на конкретного роботодавця — їх не можна перенести.</li>
+  <li>Зміна роботодавця вимагає нового документа, оформленого <strong>до початку роботи</strong>.</li>
+  <li>Робота через агентство тимчасової праці дає гнучкість — зміна роботодавця-користувача не потребує нових документів.</li>
+  <li>Власники TRC, пов'язаної з роботою, повинні оновити документи при зміні прямого роботодавця.</li>
+  <li>У разі сумнівів — завжди консультуйтеся з агентством або юристом перед ухваленням рішення.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "smena-rabotodatelya-inostranets-polsha",
+    title: "Смена работодателя в Польше для иностранцев — что происходит с разрешением на работу?",
+    description:
+      "Хотите сменить работодателя в Польше? Узнайте, что происходит с вашим разрешением на работу или заявлением, когда можно легально начать работу у нового работодателя и как работает гибкость агентства временной занятости.",
+    date: "2028-03-15",
+    lang: "ru",
+    content: `
+<h2>Смена работодателя в Польше для иностранцев — что происходит с разрешением на работу?</h2>
+
+<p>Вы работаете в Польше как иностранец из страны за пределами ЕС и хотите сменить работодателя? Или агентство труда направляет вас на другой объект? Это частая ситуация, которая может иметь серьёзные правовые последствия, если не провести её правильно. В этом руководстве объясняем, что происходит с вашим разрешением на работу или заявлением о поручении работы (oświadczenie), когда вы меняете место работы.</p>
+
+<h3>Два основных типа документов на право работы в Польше</h3>
+
+<p>Прежде чем говорить о смене работодателя, вспомним, на каком основании иностранцы из-за пределов ЕС могут легально работать в Польше:</p>
+
+<ul>
+  <li><strong>Заявление о поручении работы иностранцу (oświadczenie)</strong> — упрощённая процедура для граждан Украины, Беларуси, Грузии, Молдовы, Армении и Узбекистана. Действительно максимум 24 месяца, выдаётся на конкретного работодателя и должность.</li>
+  <li><strong>Разрешение на работу тип А</strong> — стандартный документ, выдаваемый Воеводским управлением по заявлению работодателя. Касается работы у конкретного работодателя. Действительно от 1 до 3 лет.</li>
+</ul>
+
+<h3>Можно ли сменить работодателя с действующим разрешением на работу?</h3>
+
+<p><strong>Нет — как разрешение на работу, так и заявление выдаются на конкретного работодателя и не могут быть переданы другому лицу.</strong></p>
+
+<p>Разрешение на работу (тип А) содержит следующие данные:</p>
+<ul>
+  <li>полное наименование и NIP работодателя,</li>
+  <li>должность и вид выполняемой работы,</li>
+  <li>размер рабочего времени,</li>
+  <li>минимальная заработная плата, указанная в разрешении.</li>
+</ul>
+
+<p>Если вы смените работодателя без нового документа — рискуете нелегальным трудоустройством, что грозит депортацией и запретом на въезд в Польшу на несколько лет.</p>
+
+<h3>Что нужно сделать при смене работодателя?</h3>
+
+<h4>Вариант 1: Смена работодателя после окончания или расторжения договора</h4>
+
+<ol>
+  <li><strong>Новый работодатель должен получить новое разрешение или подать новое заявление</strong> до вашего первого рабочего дня — не после начала работы, а до него.</li>
+  <li>Подача заявления обычно занимает от 2 до 7 рабочих дней. Разрешение на работу может рассматриваться несколько месяцев.</li>
+  <li>Пока новый документ не готов, <strong>вы не можете легально работать у нового работодателя</strong>.</li>
+  <li>Планируйте смену заблаговременно и не расторгайте договор с нынешним работодателем, пока новый документ не будет оформлен.</li>
+</ol>
+
+<h4>Вариант 2: Работа через агентство временного труда</h4>
+
+<p>Если вы работаете через агентство временного труда (например, Nexflow), ситуация совершенно другая и значительно выгоднее:</p>
+
+<ul>
+  <li>Вашим официальным работодателем <strong>является агентство</strong>, а не предприятие, на которое вас направляют (работодатель-пользователь).</li>
+  <li>Агентство может направлять вас на разные предприятия без необходимости получать новое разрешение — пока агентство выплачивает вам зарплату и вы остаётесь его работником.</li>
+  <li>Смена предприятия, на которое вас направляют, <strong>не требует нового разрешения на работу</strong>.</li>
+  <li>Условие: должность и оплата труда должны соответствовать указанным в разрешении или заявлении агентства.</li>
+</ul>
+
+<p>Это одно из главных преимуществ работы через агентство временного труда — вы можете гибко менять места работы без риска потери легальности занятости.</p>
+
+<h3>А что насчёт Карты временного проживания (TRC)?</h3>
+
+<p>Если у вас есть Карта временного проживания (karta pobytu), выданная для целей работы в Польше, при смене работодателя ситуация усложняется:</p>
+
+<ul>
+  <li>Карта проживания обычно связана с конкретным разрешением на работу или заявлением.</li>
+  <li>Смена работодателя может потребовать <strong>подачи нового ходатайства о разрешении на проживание</strong> или хотя бы изменения решения.</li>
+  <li>В случае единого разрешения на проживание и работу («единое окно») смена работодателя <strong>всегда требует нового ходатайства</strong> в Воеводское управление.</li>
+  <li>Исключение: если ваша карта проживания выдана по семейным или иным нерабочим основаниям — вы можете свободно менять работодателя.</li>
+</ul>
+
+<p><strong>Важно:</strong> если вы работаете через агентство и агентство остаётся тем же, смена работодателя-пользователя не требует обновления TRC — ваш работодатель (агентство) не меняется.</p>
+
+<h3>Когда можно сменить работодателя без нового разрешения?</h3>
+
+<ul>
+  <li>У вас есть <strong>Карта постоянного проживания</strong> — вы можете работать у любого работодателя без ограничений.</li>
+  <li>Вы имеете <strong>статус беженца или дополнительную защиту</strong> в Польше.</li>
+  <li>Вы являетесь супругом гражданина Польши (и соответствуете дополнительным условиям).</li>
+  <li>У вас есть <strong>Карта поляка</strong> — даёт право работать без разрешения.</li>
+</ul>
+
+<h3>Пошаговый контрольный список</h3>
+
+<ol>
+  <li>✅ Проверьте, какой документ даёт вам право на работу (заявление, разрешение тип А, карта проживания с правом работы).</li>
+  <li>✅ Свяжитесь с потенциальным новым работодателем или агентством — объясните свою документальную ситуацию.</li>
+  <li>✅ Убедитесь, что новое разрешение или заявление будет оформлено <strong>до вашего первого рабочего дня</strong>.</li>
+  <li>✅ Если у вас есть TRC, связанная с работой — выясните, нужно ли изменить решение о проживании.</li>
+  <li>✅ Не расторгайте договор с нынешним работодателем, пока новый документ не будет готов.</li>
+  <li>✅ Храните копии всех документов (договор, разрешение, заявление, TRC).</li>
+</ol>
+
+<h3>Как Nexflow может помочь?</h3>
+
+<p>Агентство временного труда Nexflow имеет многолетний опыт в легализации трудоустройства иностранцев. Как ваш официальный работодатель мы можем:</p>
+
+<ul>
+  <li>проверить действительность и сферу действия ваших нынешних документов,</li>
+  <li>подать заявление или ходатайство о разрешении на работу от вашего имени,</li>
+  <li>посоветовать оптимальный путь легализации при смене должности или объекта работы,</li>
+  <li>обеспечить непрерывность легального трудоустройства без пробелов в документации.</li>
+</ul>
+
+<p>Обратитесь к нам перед принятием решения — это поможет избежать дорогостоящих юридических ошибок.</p>
+
+<h3>Итог</h3>
+
+<ul>
+  <li>Разрешение на работу и заявление выдаются на конкретного работодателя — их нельзя перенести.</li>
+  <li>Смена работодателя требует нового документа, оформленного <strong>до начала работы</strong>.</li>
+  <li>Работа через агентство временного труда даёт гибкость — смена работодателя-пользователя не требует новых документов.</li>
+  <li>Владельцы TRC, связанной с работой, должны обновить документы при смене прямого работодателя.</li>
+  <li>В случае сомнений — всегда консультируйтесь с агентством или юристом перед принятием решения.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "changing-employer-foreign-worker-poland",
+    title: "Changing Employer in Poland as a Foreign Worker — What Happens to Your Work Permit?",
+    description:
+      "Want to change employer in Poland as a non-EU foreign worker? Learn what happens to your work permit or employer declaration, when you can legally start with a new employer, and how temporary staffing agencies offer flexibility without legal risk.",
+    date: "2028-03-22",
+    lang: "en",
+    content: `
+<h2>Changing Employer in Poland as a Foreign Worker — What Happens to Your Work Permit?</h2>
+
+<p>Are you a non-EU foreign worker in Poland thinking about changing employers? Or is your staffing agency sending you to a new workplace? This is a common situation that can have serious legal consequences if not handled correctly. In this guide, we explain what happens to your work permit or employer declaration (oświadczenie) when you change your place of employment.</p>
+
+<h3>Two Main Types of Work Authorisation Documents in Poland</h3>
+
+<p>Before discussing employer changes, let's recap the two main ways non-EU foreigners can legally work in Poland:</p>
+
+<ul>
+  <li><strong>Employer declaration (oświadczenie o powierzeniu pracy)</strong> — a simplified procedure available to citizens of Ukraine, Belarus, Georgia, Moldova, Armenia, and Uzbekistan. Valid for up to 24 months, issued for a specific employer and job position.</li>
+  <li><strong>Work permit type A</strong> — a standard document issued by the Regional Governor's Office (Urząd Wojewódzki) at the employer's request. It applies to work with a specific employer and is valid for 1–3 years.</li>
+</ul>
+
+<h3>Can You Change Employer with an Existing Work Permit?</h3>
+
+<p><strong>No — both work permits and employer declarations are issued for a specific employer and cannot be transferred to another one.</strong></p>
+
+<p>A work permit (type A) specifies:</p>
+<ul>
+  <li>the employer's full name and tax ID (NIP),</li>
+  <li>the job position and type of work,</li>
+  <li>the working time (full-time/part-time),</li>
+  <li>the minimum salary stated in the permit.</li>
+</ul>
+
+<p>Similarly, the employer declaration is registered at the local Labour Office for a specific employer. If you change employers without a new document, you risk working illegally — which can result in deportation and a ban from entering Poland for several years.</p>
+
+<h3>What to Do When Changing Employer?</h3>
+
+<h4>Option 1: Changing Employer After Contract Ends or Is Terminated</h4>
+
+<ol>
+  <li><strong>Your new employer must obtain a new permit or file a new employer declaration</strong> before your first day of work — not after you start, but before.</li>
+  <li>Filing an employer declaration typically takes 2–7 working days. A work permit may take several months to process.</li>
+  <li>While waiting for the new document, <strong>you cannot legally work for the new employer</strong>.</li>
+  <li>Plan the transition well in advance, and don't end your contract with your current employer until the new document is in place.</li>
+</ol>
+
+<h4>Option 2: Working Through a Temporary Staffing Agency</h4>
+
+<p>If you work through a temporary staffing agency (like Nexflow), the situation is quite different — and much more advantageous:</p>
+
+<ul>
+  <li>Your official employer <strong>is the agency</strong>, not the company where you are placed (the user employer).</li>
+  <li>The agency can assign you to different workplaces without a new permit being required — as long as the agency pays your wages and you remain their employee.</li>
+  <li>Changing the company where you are placed <strong>does not require a new work permit</strong>.</li>
+  <li>The condition: your job position and salary must match those stated in the agency's permit or declaration.</li>
+</ul>
+
+<p>This is one of the key advantages of working through a temporary staffing agency — you can change workplaces flexibly without risking the legality of your employment.</p>
+
+<h3>What About Your Temporary Residence Card (TRC)?</h3>
+
+<p>If you have a Temporary Residence Card (karta pobytu) issued for the purpose of working in Poland, changing employers becomes more complex:</p>
+
+<ul>
+  <li>The residence card is typically linked to a specific work permit or employer declaration.</li>
+  <li>Changing employer may require <strong>submitting a new residence permit application</strong> or at least amending the existing decision.</li>
+  <li>If you have a combined residence and work permit ("single window"), changing employer <strong>always requires a new application</strong> to the Regional Governor's Office.</li>
+  <li>Exception: if your TRC was issued for family reasons or other non-work grounds, you can freely change employers.</li>
+</ul>
+
+<p><strong>Key rule:</strong> if you work through a staffing agency and the agency stays the same, changing the user employer does not require updating your TRC — your employer (the agency) has not changed.</p>
+
+<h3>When Can You Change Employer Without a New Permit?</h3>
+
+<ul>
+  <li>You have a <strong>Permanent Residence Card</strong> — you can work for any employer without restrictions.</li>
+  <li>You have <strong>refugee status or subsidiary protection</strong> in Poland.</li>
+  <li>You are the spouse of a Polish citizen (and meet additional conditions).</li>
+  <li>You hold a <strong>Karta Polaka</strong> (Polish Heritage Card) — entitles you to work without a permit.</li>
+</ul>
+
+<h3>Step-by-Step Checklist</h3>
+
+<ol>
+  <li>✅ Check which document gives you the right to work (employer declaration, work permit type A, TRC with work rights).</li>
+  <li>✅ Contact your potential new employer or agency — explain your document situation.</li>
+  <li>✅ Confirm that the new permit or declaration will be issued <strong>before your first day of work</strong>.</li>
+  <li>✅ If you have a work-related TRC — check whether a change to your residence decision is needed.</li>
+  <li>✅ Don't terminate your contract with your current employer until the new document is ready.</li>
+  <li>✅ Keep copies of all documents (contract, permit, declaration, TRC).</li>
+</ol>
+
+<h3>How Nexflow Can Help</h3>
+
+<p>Nexflow temporary staffing agency has years of experience in the legal employment of foreign workers. As your official employer, we can:</p>
+
+<ul>
+  <li>check the validity and scope of your current documents,</li>
+  <li>file an employer declaration or work permit application on your behalf,</li>
+  <li>advise on the best legalisation path when changing position or workplace,</li>
+  <li>ensure continuous legal employment without gaps in your documentation.</li>
+</ul>
+
+<p>Contact us before making any decisions — it can save you from costly legal mistakes.</p>
+
+<h3>Summary</h3>
+
+<ul>
+  <li>Work permits and employer declarations are tied to a specific employer — they cannot be transferred.</li>
+  <li>Changing employer requires a new document issued <strong>before you start work</strong>.</li>
+  <li>Working through a temporary agency gives flexibility — changing user employers doesn't require new documents.</li>
+  <li>TRC holders whose card is linked to work must update their residence documents when changing direct employer.</li>
+  <li>When in doubt — always consult your agency or a lawyer before making a decision.</li>
+</ul>
+    `.trim(),
   }
 ];
 
