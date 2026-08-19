@@ -9651,6 +9651,409 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>Questions about annual leave or other workers' rights in Poland? Contact us — the Nexflow team is happy to help.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "najem-mieszkania-polska-cudzoziemiec",
+    title: "Najem mieszkania w Polsce jako cudzoziemiec — praktyczny przewodnik",
+    description:
+      "Najem mieszkania w Polsce jako cudzoziemiec — jakie dokumenty są potrzebne, co powinna zawierać umowa najmu, kaucja i meldunek tymczasowy. Praktyczny poradnik dla pracowników tymczasowych.",
+    date: "2028-01-04",
+    lang: "pl",
+    content: `
+<article>
+<h1>Najem mieszkania w Polsce jako cudzoziemiec — praktyczny przewodnik</h1>
+
+<p>Przyjazd do Polski w celach zarobkowych wiąże się z koniecznością znalezienia miejsca zamieszkania. Wynajem mieszkania jako cudzoziemiec może być wyzwaniem — różnice językowe, nieznane przepisy i ryzyko trafienia na nieuczciwego wynajmującego. Ten poradnik wyjaśnia krok po kroku, jak bezpiecznie wynająć mieszkanie w Polsce.</p>
+
+<h2>Kogo dotyczy ten przewodnik?</h2>
+
+<p>Artykuł jest skierowany przede wszystkim do <strong>pracowników tymczasowych spoza UE</strong> — obywateli Ukrainy, Białorusi, Gruzji i innych krajów, którzy przyjeżdżają do Polski do pracy przez agencję zatrudnienia. Wiele osób przez pierwsze miesiące korzysta z <strong>zakwaterowania zapewnionego przez agencję</strong>, ale prędzej czy później pojawia się potrzeba wynajmu własnego mieszkania.</p>
+
+<h2>Jakie dokumenty są potrzebne do wynajmu?</h2>
+
+<p>Właściciel mieszkania (wynajmujący) ma prawo poprosić Cię o:</p>
+
+<ul>
+<li><strong>Paszport lub karta pobytu</strong> — podstawowy dokument tożsamości</li>
+<li><strong>Potwierdzenie zatrudnienia</strong> — zaświadczenie od pracodawcy lub agencji, umowa o pracę</li>
+<li><strong>Numer PESEL</strong> — choć nie jest obowiązkowy do zawarcia umowy, wielu wynajmujących go wymaga</li>
+<li><strong>Numer NIP</strong> — przydatny, gdy wynajmujący wystawia faktury</li>
+</ul>
+
+<p><strong>Ważne:</strong> Brak numeru PESEL nie może być powodem odmowy zawarcia umowy najmu. Jeśli wynajmujący twierdzi inaczej, jest to praktyka niezgodna z prawem.</p>
+
+<h2>Umowa najmu — co musi zawierać?</h2>
+
+<p>Umowa najmu powinna być zawarta na piśmie. Nigdy nie podpisuj umowy ustnej ani nie wpłacaj zaliczki bez podpisanej umowy. Sprawdź, czy umowa zawiera:</p>
+
+<ul>
+<li><strong>Dane obu stron</strong> — pełne imię i nazwisko, numer PESEL/paszportu właściciela i najemcy</li>
+<li><strong>Adres i opis lokalu</strong> — adres, metraż, liczba pomieszczeń</li>
+<li><strong>Czas trwania umowy</strong> — na czas określony (np. 12 miesięcy) lub nieokreślony</li>
+<li><strong>Wysokość czynszu i termin płatności</strong></li>
+<li><strong>Informacja o mediach</strong> — czy prąd, gaz, woda są wliczone w czynsz, czy płacone osobno</li>
+<li><strong>Wysokość kaucji i warunki jej zwrotu</strong></li>
+<li><strong>Warunki wypowiedzenia umowy</strong></li>
+</ul>
+
+<p>Poproś o tłumaczenie umowy lub skonsultuj się z kimś, kto zna język polski, zanim ją podpiszesz. Możesz też skontaktować się z <strong>Biurem Porad Obywatelskich</strong> lub <strong>prawnikiem</strong>, który pomoże w interpretacji trudnych zapisów.</p>
+
+<h2>Kaucja — ile i jak odzyskać?</h2>
+
+<p>Kaucja to depozyt zabezpieczający, który wpłacasz właścicielowi przed wprowadzeniem się. Standardowa kaucja wynosi od <strong>jednego do trzech czynszów miesięcznych</strong>. Zgodnie z polskim prawem:</p>
+
+<ul>
+<li>Kaucja powinna być zwrócona w ciągu <strong>30 dni od zakończenia najmu</strong></li>
+<li>Właściciel może potrącić z kaucji koszty naprawy szkód wyrządzonych przez najemcę</li>
+<li>Normalne zużycie (tzw. <em>zużycie eksploatacyjne</em>) nie może być powodem potrącenia kaucji</li>
+</ul>
+
+<p><strong>Praktyczna wskazówka:</strong> Przy wejściu do mieszkania zrób zdjęcia wszystkich pomieszczeń, mebli i sprzętów. To najlepsza ochrona przed bezpodstawnym zatrzymaniem kaucji.</p>
+
+<h2>Meldunek tymczasowy — czy jest obowiązkowy?</h2>
+
+<p>Jako cudzoziemiec w Polsce masz obowiązek zameldowania się w miejscu pobytu, jeśli przebywasz w nim dłużej niż 30 dni. Meldunek na pobyt tymczasowy składa się w urzędzie gminy (urzędzie dzielnicy) i jest bezpłatny. Właściciel mieszkania jest zobowiązany do umożliwienia Ci meldunku.</p>
+
+<p><strong>Uwaga:</strong> Meldunek to rejestracja miejsca pobytu — nie zastępuje zezwolenia na pobyt (karty pobytu).</p>
+
+<h2>Jak szukać mieszkania w Polsce?</h2>
+
+<p>Najpopularniejsze portale z ogłoszeniami o wynajmie:</p>
+
+<ul>
+<li><strong>OLX.pl</strong> — ogłoszenia prywatne i od agencji</li>
+<li><strong>Otodom.pl</strong> — profesjonalny serwis nieruchomości</li>
+<li><strong>Gratka.pl</strong> — szeroka baza ogłoszeń</li>
+<li><strong>Morizon.pl</strong> — agregator ogłoszeń</li>
+</ul>
+
+<p>Warto też dołączyć do ukraińsko- lub rosyjskojęzycznych grup na Facebooku w swoim mieście — często można tam znaleźć pokoje do wynajęcia bezpośrednio od rodaków.</p>
+
+<h2>Na co uważać?</h2>
+
+<ul>
+<li><strong>Ogłoszenia-oszustwa</strong> — podejrzanie tanie oferty bez kaucji to często próba wyłudzenia. Nigdy nie wpłacaj pieniędzy bez umowy i obejrzenia mieszkania.</li>
+<li><strong>Niesprawdzeni pośrednicy</strong> — poproś o numer licencji pośrednika nieruchomości</li>
+<li><strong>Zawyżone opłaty za media</strong> — porównaj kwoty na fakturach z rzeczywistym zużyciem</li>
+<li><strong>Niejasne warunki wypowiedzenia</strong> — każdy zapis mówiący o wypowiedzeniu w trybie natychmiastowym bez przyczyny jest niezgodny z prawem</li>
+</ul>
+
+<h2>Prawa najemcy w skrócie</h2>
+
+<ul>
+<li>Właściciel nie może wejść do mieszkania bez Twojej zgody</li>
+<li>Podwyżka czynszu wymaga 3-miesięcznego wypowiedzenia</li>
+<li>Eksmisja bez nakazu sądowego jest nielegalna</li>
+<li>Awarie instalacji naprawia właściciel na własny koszt</li>
+</ul>
+
+<h2>Gdzie szukać pomocy?</h2>
+
+<ul>
+<li><strong>Biuro Porad Obywatelskich</strong> — bezpłatne porady prawne</li>
+<li><strong>Rzecznik Praw Obywatelskich</strong> — w sprawach dyskryminacji</li>
+<li><strong>Nexflow</strong> — pomagamy pracownikom w pierwszych krokach w Polsce</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+
+<p>Wynajem mieszkania w Polsce jest jak najbardziej możliwy dla cudzoziemca. Klucz to pisemna umowa, dokumentacja stanu mieszkania przy wejściu i znajomość swoich praw. Masz pytania? Skontaktuj się z nami — jesteśmy tu, żeby pomóc.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "orenda-zhytla-polshcha-inozemets",
+    title: "Оренда житла в Польщі для іноземців — практичний посібник",
+    description:
+      "Оренда житла в Польщі для іноземців — які документи потрібні, що має містити договір оренди, застава та тимчасова реєстрація. Практичний посібник для тимчасових працівників.",
+    date: "2028-01-11",
+    lang: "uk",
+    content: `
+<article>
+<h1>Оренда житла в Польщі для іноземців — практичний посібник</h1>
+
+<p>Приїхавши до Польщі на заробітки, одне з перших завдань — знайти місце для проживання. Цей посібник пояснює крок за кроком, як безпечно орендувати житло в Польщі як іноземець.</p>
+
+<h2>Кому адресований цей посібник?</h2>
+
+<p>Насамперед — <strong>тимчасовим працівникам з-поза ЄС</strong>: громадянам України, Білорусі, Грузії та інших країн, які приїздять до Польщі через агентство праці. Перші місяці багато хто мешкає у <strong>житлі, наданому агентством</strong>, але рано чи пізно виникає потреба орендувати власне помешкання.</p>
+
+<h2>Які документи потрібні для оренди?</h2>
+
+<p>Власник квартири (орендодавець) має право попросити:</p>
+
+<ul>
+<li><strong>Паспорт або карту побуту</strong> — основний документ, що посвідчує особу</li>
+<li><strong>Підтвердження зайнятості</strong> — довідка від роботодавця або агентства, трудовий договір</li>
+<li><strong>Номер PESEL</strong> — не обов'язковий, але багато орендодавців його вимагають</li>
+<li><strong>Номер NIP</strong> — корисний, якщо орендодавець виставляє рахунки-фактури</li>
+</ul>
+
+<p><strong>Важливо:</strong> Відсутність номера PESEL не може бути підставою для відмови в укладенні договору. Якщо орендодавець стверджує інше — це незаконно.</p>
+
+<h2>Договір оренди — що повинен містити?</h2>
+
+<p>Договір має бути укладений письмово. Ніколи не вносьте передоплату без підписаного договору. Перевірте наявність:</p>
+
+<ul>
+<li><strong>Дані обох сторін</strong> — ПІБ, PESEL/паспорт власника та орендаря</li>
+<li><strong>Адреса і опис приміщення</strong> — площа, кількість кімнат</li>
+<li><strong>Строк договору</strong> — на визначений термін або безстроковий</li>
+<li><strong>Розмір орендної плати та строк оплати</strong></li>
+<li><strong>Інформація про комунальні послуги</strong> — чи включені у вартість оренди</li>
+<li><strong>Розмір застави та умови її повернення</strong></li>
+<li><strong>Умови розірвання договору</strong></li>
+</ul>
+
+<h2>Застава — скільки і як повернути?</h2>
+
+<p>Застава становить від <strong>одного до трьох місячних платежів</strong>. За польським законом вона має бути повернена протягом <strong>30 днів</strong> після виїзду. Звичайне зношення — не підстава для утримання застави.</p>
+
+<p><strong>Порада:</strong> Сфотографуйте всі приміщення при заселенні — це захистить вас від безпідставного утримання застави.</p>
+
+<h2>Тимчасова реєстрація</h2>
+
+<p>Якщо ви проживаєте за однією адресою більше 30 днів, ви зобов'язані зареєструватися. Реєстрація в урядзє ґміни є безкоштовною. Власник зобов'язаний дозволити реєстрацію. Пам'ятайте: реєстрація не замінює карту побуту.</p>
+
+<h2>Де шукати житло?</h2>
+
+<ul>
+<li><strong>OLX.pl</strong>, <strong>Otodom.pl</strong>, <strong>Gratka.pl</strong>, <strong>Morizon.pl</strong> — основні портали нерухомості</li>
+<li>Україномовні групи у Facebook у вашому місті</li>
+</ul>
+
+<h2>На що звертати увагу?</h2>
+
+<ul>
+<li>Підозріло дешеві пропозиції без застави — часто шахрайство; не переказуйте гроші без договору і огляду</li>
+<li>Перевіряйте ліцензію ріелтора</li>
+<li>Порівнюйте рахунки за комунальні з реальним споживанням</li>
+<li>Умова про розірвання без попередження є незаконною</li>
+</ul>
+
+<h2>Права орендаря</h2>
+
+<ul>
+<li>Власник не може входити без вашого дозволу</li>
+<li>Підвищення орендної плати — мінімум 3 місяці попередження</li>
+<li>Виселення без судового рішення незаконне</li>
+<li>Аварійний ремонт — відповідальність власника</li>
+</ul>
+
+<h2>Де шукати допомогу?</h2>
+
+<ul>
+<li><strong>Бюро громадських порад</strong> — безкоштовна правова допомога</li>
+<li><strong>Уповноважений з прав людини</strong> — у справах дискримінації</li>
+<li><strong>Nexflow</strong> — допомагаємо з першими кроками в Польщі</li>
+</ul>
+
+<h2>Підсумок</h2>
+
+<p>Орендувати житло в Польщі як іноземець цілком реально. Головне — письмовий договір, фото при заселенні та знання своїх прав. Маєте питання? Nexflow тут, щоб допомогти.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "arenda-zhilya-polsha-inostranets",
+    title: "Аренда жилья в Польше для иностранцев — практическое руководство",
+    description:
+      "Аренда жилья в Польше для иностранцев — какие документы нужны, что должен содержать договор аренды, залог и временная регистрация. Практическое руководство для временных работников.",
+    date: "2028-01-18",
+    lang: "ru",
+    content: `
+<article>
+<h1>Аренда жилья в Польше для иностранцев — практическое руководство</h1>
+
+<p>Приехав в Польшу на заработки, одна из первых задач — найти жильё. Аренда квартиры как иностранец может оказаться непростой задачей из-за языкового барьера и незнания законодательства. Это руководство объясняет шаг за шагом, как безопасно арендовать жильё в Польше.</p>
+
+<h2>Кому адресовано это руководство?</h2>
+
+<p>Прежде всего — <strong>временным работникам из стран вне ЕС</strong>: гражданам Украины, Беларуси, Грузии и других стран, приезжающим в Польшу через кадровое агентство. Первые месяцы многие живут в <strong>жилье от агентства</strong>, но рано или поздно возникает необходимость снять собственную квартиру.</p>
+
+<h2>Какие документы нужны для аренды?</h2>
+
+<ul>
+<li><strong>Паспорт или карта пребывания</strong> — основной документ, удостоверяющий личность</li>
+<li><strong>Подтверждение занятости</strong> — справка от работодателя или агентства, трудовой договор</li>
+<li><strong>Номер PESEL</strong> — не является обязательным, но многие арендодатели его требуют</li>
+<li><strong>Номер NIP</strong> — полезен, если арендодатель выставляет счета-фактуры</li>
+</ul>
+
+<p><strong>Важно:</strong> Отсутствие номера PESEL не может быть основанием для отказа в заключении договора аренды. Если арендодатель утверждает обратное — это незаконно.</p>
+
+<h2>Договор аренды — что должен содержать?</h2>
+
+<p>Договор аренды должен быть заключён в письменной форме. Никогда не вносите предоплату без подписанного договора. Проверьте наличие:</p>
+
+<ul>
+<li><strong>Данные обеих сторон</strong> — ФИО, PESEL/паспорт владельца и арендатора</li>
+<li><strong>Адрес и описание помещения</strong> — площадь, количество комнат</li>
+<li><strong>Срок договора</strong> — на определённый срок или бессрочный</li>
+<li><strong>Размер арендной платы и сроки оплаты</strong></li>
+<li><strong>Информация о коммунальных услугах</strong> — включены ли в стоимость аренды</li>
+<li><strong>Размер залога и условия его возврата</strong></li>
+<li><strong>Условия расторжения договора</strong></li>
+</ul>
+
+<h2>Залог — сколько и как вернуть?</h2>
+
+<p>Залог составляет от <strong>одного до трёх месячных платежей</strong>. По польскому закону он должен быть возвращён в течение <strong>30 дней</strong> после окончания аренды. Обычный износ помещения не является основанием для удержания залога.</p>
+
+<p><strong>Совет:</strong> При заселении сфотографируйте все помещения, мебель и технику — это лучшая защита от необоснованного удержания залога.</p>
+
+<h2>Временная регистрация</h2>
+
+<p>Если вы проживаете по одному адресу более 30 дней, вы обязаны зарегистрироваться. Регистрация в гминном управлении бесплатна. Владелец обязан разрешить регистрацию. Помните: регистрация — это не вид на жительство (карта пребывания).</p>
+
+<h2>Где искать жильё?</h2>
+
+<ul>
+<li><strong>OLX.pl</strong> — частные объявления и от агентств</li>
+<li><strong>Otodom.pl</strong> — профессиональный сайт недвижимости</li>
+<li><strong>Gratka.pl</strong> — широкая база объявлений</li>
+<li><strong>Morizon.pl</strong> — агрегатор объявлений</li>
+<li>Русскоязычные группы в Facebook в вашем городе</li>
+</ul>
+
+<h2>На что обратить внимание?</h2>
+
+<ul>
+<li><strong>Мошеннические объявления</strong> — подозрительно дешёвые предложения без залога — часто мошенничество; не переводите деньги без договора и осмотра</li>
+<li><strong>Непроверенные посредники</strong> — попросите номер лицензии риелтора</li>
+<li><strong>Завышенные коммунальные</strong> — сравните счета с реальным потреблением</li>
+<li><strong>Непонятные условия расторжения</strong> — любое положение об одностороннем расторжении без уведомления незаконно</li>
+</ul>
+
+<h2>Права арендатора</h2>
+
+<ul>
+<li>Владелец не может входить в квартиру без вашего согласия</li>
+<li>Повышение арендной платы требует 3-месячного предупреждения</li>
+<li>Выселение без судебного решения незаконно</li>
+<li>Аварийный ремонт коммуникаций — ответственность владельца</li>
+</ul>
+
+<h2>Где получить помощь?</h2>
+
+<ul>
+<li><strong>Бюро гражданских консультаций</strong> — бесплатная юридическая помощь</li>
+<li><strong>Уполномоченный по правам граждан</strong> — по делам о дискриминации</li>
+<li><strong>Nexflow</strong> — помогаем нашим работникам с первыми шагами в Польше</li>
+</ul>
+
+<h2>Итог</h2>
+
+<p>Арендовать жильё в Польше как иностранец вполне возможно. Главное — письменный договор, фотофиксация состояния квартиры при заселении и знание своих прав. Есть вопросы? Nexflow здесь, чтобы помочь.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "renting-apartment-poland-foreign-worker",
+    title: "Renting an Apartment in Poland as a Foreign Worker — A Practical Guide",
+    description:
+      "Renting an apartment in Poland as a foreign worker — documents required, rental contract essentials, security deposit rules and tenant rights. A practical step-by-step guide.",
+    date: "2028-01-25",
+    lang: "en",
+    content: `
+<article>
+<h1>Renting an Apartment in Poland as a Foreign Worker — A Practical Guide</h1>
+
+<p>When you arrive in Poland to work, finding a place to live is one of your first challenges. Renting as a foreigner can be daunting — language barriers, unfamiliar laws, and the risk of meeting an unreliable landlord. This guide walks you through the process step by step so you can rent safely and confidently.</p>
+
+<h2>Who is this guide for?</h2>
+
+<p>This guide is aimed at <strong>non-EU temporary workers</strong> — citizens of Ukraine, Belarus, Georgia, and other countries who come to Poland through a staffing agency. Many people spend their first months in <strong>agency-provided accommodation</strong>, but sooner or later you will want or need to rent your own place.</p>
+
+<h2>What documents do you need to rent?</h2>
+
+<p>The landlord has the right to ask for:</p>
+
+<ul>
+<li><strong>Passport or residence card (karta pobytu)</strong> — your primary ID</li>
+<li><strong>Proof of employment</strong> — a letter from your employer or agency, or your employment contract</li>
+<li><strong>PESEL number</strong> — not legally required to sign a lease, but many landlords ask for it</li>
+<li><strong>NIP number</strong> — useful if the landlord issues VAT invoices</li>
+</ul>
+
+<p><strong>Important:</strong> Not having a PESEL number cannot legally be a reason to refuse you a rental contract. If a landlord claims otherwise, that is unlawful practice.</p>
+
+<h2>The rental contract — what must it include?</h2>
+
+<p>The rental agreement must be in writing. Never sign a verbal agreement or pay a deposit without a signed written contract. Make sure the contract includes:</p>
+
+<ul>
+<li><strong>Full details of both parties</strong> — name, PESEL/passport number of landlord and tenant</li>
+<li><strong>Address and description of the property</strong> — size in square metres, number of rooms</li>
+<li><strong>Duration of the tenancy</strong> — fixed term (e.g. 12 months) or open-ended</li>
+<li><strong>Monthly rent and payment due date</strong></li>
+<li><strong>Utility information</strong> — whether electricity, gas and water are included in the rent or billed separately</li>
+<li><strong>Security deposit amount and conditions for return</strong></li>
+<li><strong>Notice period and termination conditions</strong></li>
+</ul>
+
+<p>Ask for a translation of the contract or have someone who speaks Polish review it before you sign. You can also contact a <strong>Citizens' Advice Bureau (Biuro Porad Obywatelskich)</strong> or a lawyer for help with difficult clauses.</p>
+
+<h2>Security deposit — how much and how to get it back?</h2>
+
+<p>The deposit is typically <strong>one to three months' rent</strong>. Under Polish law:</p>
+
+<ul>
+<li>The deposit must be returned within <strong>30 days of the end of the tenancy</strong></li>
+<li>The landlord may deduct the cost of repairs for damage caused by the tenant</li>
+<li>Normal wear and tear cannot be deducted from the deposit</li>
+</ul>
+
+<p><strong>Practical tip:</strong> Take photos of every room, every piece of furniture and every appliance when you move in. This is your best protection against an unjustified deposit deduction.</p>
+
+<h2>Temporary registration (meldunek) — is it compulsory?</h2>
+
+<p>As a foreigner in Poland, you are required to register your address if you stay there for more than 30 days. Registration is done at the local municipal office (urząd gminy) and is free of charge. The landlord is legally required to allow you to register. Note: address registration is not the same as a residence permit — they are two separate things.</p>
+
+<h2>Where to find accommodation in Poland?</h2>
+
+<p>The most popular rental listing sites in Poland:</p>
+
+<ul>
+<li><strong>OLX.pl</strong> — private and agency listings</li>
+<li><strong>Otodom.pl</strong> — professional property portal</li>
+<li><strong>Gratka.pl</strong> — wide classifieds base</li>
+<li><strong>Morizon.pl</strong> — listings aggregator</li>
+</ul>
+
+<p>Ukrainian- and Russian-language Facebook groups in your city are also a great resource — you can often find rooms or apartments directly from fellow countrymen.</p>
+
+<h2>Common pitfalls to watch out for</h2>
+
+<ul>
+<li><strong>Scam listings</strong> — suspiciously cheap offers with no deposit are often fraud. Never send money without a contract and a physical viewing.</li>
+<li><strong>Unlicensed agents</strong> — ask for the agent's professional licence number</li>
+<li><strong>Inflated utility bills</strong> — compare invoice amounts with actual meter readings</li>
+<li><strong>Unclear termination clauses</strong> — any clause allowing immediate termination without notice is unlawful</li>
+</ul>
+
+<h2>Tenant rights — quick summary</h2>
+
+<ul>
+<li>The landlord cannot enter the property without your consent</li>
+<li>Rent increases require at least 3 months' notice</li>
+<li>Eviction without a court order is illegal</li>
+<li>Emergency repairs to utilities are the landlord's responsibility</li>
+</ul>
+
+<h2>Where to get help?</h2>
+
+<ul>
+<li><strong>Citizens' Advice Bureau (Biuro Porad Obywatelskich)</strong> — free legal advice</li>
+<li><strong>Commissioner for Human Rights (Rzecznik Praw Obywatelskich)</strong> — for discrimination cases</li>
+<li><strong>Nexflow</strong> — we help our workers settle in Poland, not just find work</li>
+</ul>
+
+<h2>Summary</h2>
+
+<p>Renting an apartment in Poland as a foreign worker is absolutely achievable. The keys are a written contract, photos on move-in day, and knowing your rights. Have questions? Contact Nexflow — we are here to help.</p>
+</article>
+    `.trim(),
   }
 ];
 

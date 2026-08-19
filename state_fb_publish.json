@@ -624,6 +624,30 @@
       "fb_post_id": "1107760715748033_placeholder_annual-leave-temporary-worker-poland",
       "published_at": "2026-08-19T10:00:18+0000",
       "sitemap_lastmod": "2027-12-28T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/najem-mieszkania-polska-cudzoziemiec",
+      "fb_post_id": "placeholder_najem_pl",
+      "published_at": null,
+      "sitemap_lastmod": "2028-01-04T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/orenda-zhytla-polshcha-inozemets",
+      "fb_post_id": "placeholder_najem_uk",
+      "published_at": null,
+      "sitemap_lastmod": "2028-01-11T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/arenda-zhilya-polsha-inostranets",
+      "fb_post_id": "placeholder_najem_ru",
+      "published_at": null,
+      "sitemap_lastmod": "2028-01-18T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/renting-apartment-poland-foreign-worker",
+      "fb_post_id": "placeholder_najem_en",
+      "published_at": null,
+      "sitemap_lastmod": "2028-01-25T00:00:00.000Z"
     }
   ],
   "last_run": "2026-08-19T09:00:42Z",
