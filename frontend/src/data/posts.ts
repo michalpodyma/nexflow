@@ -10054,6 +10054,244 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>Renting an apartment in Poland as a foreign worker is absolutely achievable. The keys are a written contract, photos on move-in day, and knowing your rights. Have questions? Contact Nexflow — we are here to help.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "zameldowanie-meldunek-cudzoziemiec-polska",
+    title: "Zameldowanie w Polsce jako cudzoziemiec — praktyczny przewodnik",
+    description:
+      "Meldunek w Polsce jako cudzoziemiec — jak się zameldować, jakie dokumenty są potrzebne, e-meldunek przez gov.pl i dlaczego warto to zrobić. Praktyczny przewodnik dla pracowników tymczasowych z zagranicy.",
+    date: "2028-02-01",
+    lang: "pl",
+    content: `
+<article>
+<h1>Zameldowanie w Polsce jako cudzoziemiec — praktyczny przewodnik</h1>
+
+<p>Meldunek (oficjalnie: zameldowanie na pobyt stały lub tymczasowy) to obowiązek administracyjny, o którym wiele osób przyjezdnych nie wie. W praktyce cudzoziemcy pracujący w Polsce często go pomijają — bo nikt im nie powiedział, że trzeba to zrobić, albo dlatego, że wydaje się skomplikowane. Ten przewodnik wyjaśnia, czym jest meldunek, czy jest obowiązkowy i jak go uzyskać.</p>
+
+<h2>Co to jest meldunek?</h2>
+
+<p>Meldunek to rejestracja miejsca pobytu w polskim systemie administracyjnym. Wyróżniamy:</p>
+<ul>
+<li><strong>Zameldowanie na pobyt stały</strong> — dla osób, które osiedlają się w Polsce na stałe</li>
+<li><strong>Zameldowanie na pobyt tymczasowy</strong> — dla osób przebywających poza swoim stałym miejscem zamieszkania przez ponad 3 miesiące</li>
+</ul>
+<p>Jako pracownik tymczasowy z zagranicy, który mieszka w Polsce i pracuje przez agencję pracy, powinieneś się zameldować na pobyt tymczasowy w miejscu, gdzie faktycznie mieszkasz.</p>
+
+<h2>Czy meldunek jest obowiązkowy?</h2>
+
+<p>Formalnie tak — ustawa o ewidencji ludności nakłada obowiązek zameldowania w ciągu 30 dni od przybycia na pobyt dłuższy niż 3 miesiące. W praktyce jednak brak meldunku rzadko jest egzekwowany.</p>
+
+<p>Meldunek jest potrzebny w wielu sytuacjach:</p>
+<ul>
+<li>Rejestracja w ZUS i urzędzie skarbowym</li>
+<li>Uzyskanie numeru PESEL</li>
+<li>Dostęp do świadczeń publicznych i opieki zdrowotnej NFZ</li>
+<li>Otwarcie konta bankowego w niektórych bankach</li>
+<li>Wnioski o kartę czasowego pobytu</li>
+</ul>
+
+<h2>Kto może zameldować cudzoziemca?</h2>
+
+<p>Właściciel lub najemca mieszkania musi wyrazić zgodę na zameldowanie. Wynajmujący lub pracodawca/agencja (jeśli zapewniają zakwaterowanie) powinni pomóc przy meldunku. Pamiętaj: brak meldunku przy długoterminowym najmu może utrudnić życie administracyjne.</p>
+
+<h2>Jak się zameldować?</h2>
+
+<p>Zameldowanie możesz zrobić na trzy sposoby:</p>
+<ol>
+<li><strong>Osobiście w urzędzie gminy/miasta</strong> właściwym dla miejsca zamieszkania — przynieś dokumenty i wypełnij formularz meldunkowy.</li>
+<li><strong>Przez internet (e-meldunek)</strong> — przez stronę <a href="https://www.gov.pl" rel="noopener">gov.pl</a>, jeśli masz aktywny Profil Zaufany. Procedura trwa kilka minut.</li>
+<li><strong>Przez pełnomocnika</strong> — z pisemnym pełnomocnictwem.</li>
+</ol>
+
+<h3>Dokumenty potrzebne do zameldowania:</h3>
+<ul>
+<li>Paszport lub karta pobytu</li>
+<li>Dokument potwierdzający prawo do lokalu — umowa najmu lub oświadczenie właściciela</li>
+<li>Formularz meldunkowy (dostępny w urzędzie lub do pobrania ze strony gminy)</li>
+</ul>
+<p><strong>Zameldowanie jest bezpłatne.</strong></p>
+
+<h2>E-meldunek przez internet</h2>
+
+<p>Jeśli masz aktywny Profil Zaufany, zameldowanie przez internet to najwygodniejsza opcja. Wejdź na gov.pl, wyszukaj usługę "zameldowanie na pobyt tymczasowy", zaloguj się Profilem Zaufanym i wypełnij formularz. Musisz mieć skan lub zdjęcie dokumentu potwierdzającego prawo do lokalu (np. skan umowy najmu).</p>
+
+<h2>Co po zameldowaniu?</h2>
+
+<p>Po zameldowaniu otrzymasz <strong>zaświadczenie o zameldowaniu</strong>, które może być potrzebne przy:</p>
+<ul>
+<li>Rejestracji w urzędzie skarbowym (US)</li>
+<li>Wniosku o kartę pobytu</li>
+<li>Zapisaniu dzieci do szkoły lub przedszkola</li>
+<li>Dostępie do opieki zdrowotnej NFZ</li>
+</ul>
+
+<h2>Wymeldowanie przy wyprowadzce</h2>
+
+<p>Przy wyprowadzce powinieneś wymeldować się z dotychczasowego adresu. Możesz to zrobić jednocześnie z zameldowaniem w nowym miejscu — wystarczy wspomnieć o tym urzędnikowi lub zaznaczyć odpowiednie pole w formularzu online.</p>
+
+<h2>Podsumowanie</h2>
+
+<p>Meldunek to prosty, bezpłatny krok, który otwiera dostęp do wielu usług w Polsce. Zrób go jak najszybciej po przybyciu — unikniesz problemów z urzędami i ułatwisz sobie codzienne życie.</p>
+
+<p>Nexflow pomaga swoim pracownikom w załatwianiu formalności. Skontaktuj się z nami, jeśli potrzebujesz wsparcia — jesteśmy po to, żeby ułatwić Ci start w Polsce.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "reyestratsia-mistsia-prozhyvannya-polshcha-inozemets",
+    title: "Реєстрація місця проживання в Польщі для іноземців — практичний посібник",
+    description:
+      "Мелдунек у Польщі для іноземців — як зареєструватися за місцем проживання, які документи потрібні та чому це важливо. Практичний посібник для тимчасових працівників.",
+    date: "2028-02-08",
+    lang: "uk",
+    content: `
+<article>
+<h1>Реєстрація місця проживання в Польщі для іноземців — практичний посібник</h1>
+
+<p>Meldunek (zameldowanie) — офіційна реєстрація місця проживання в польській адміністративній системі. Багато іноземців, які приїздять до Польщі на роботу, не знають про цей крок. Цей посібник пояснює, що таке meldunek, чи він обов'язковий і як його оформити.</p>
+
+<h2>Що таке meldunek?</h2>
+<ul>
+<li><strong>Постійна реєстрація (pobyt stały)</strong> — для тих, хто осідає в Польщі назавжди</li>
+<li><strong>Тимчасова реєстрація (pobyt tymczasowy)</strong> — для тих, хто мешкає не за постійним місцем проживання понад 3 місяці</li>
+</ul>
+<p>Як іноземний тимчасовий працівник, ти маєш зареєструватися за місцем фактичного проживання.</p>
+
+<h2>Чи обов'язкова реєстрація?</h2>
+<p>Формально так — закон зобов'язує зареєструватися протягом 30 днів після прибуття на строк понад 3 місяці. Вона потрібна для: реєстрації в ZUS та податковому органі, отримання PESEL, доступу до NFZ, відкриття банківського рахунку, подання заяви на карту побуту.</p>
+
+<h2>Як зареєструватися?</h2>
+<ol>
+<li><strong>Особисто у відділі гміни</strong> за місцем проживання — принеси документи і заповни бланк.</li>
+<li><strong>Онлайн через gov.pl</strong> — якщо є активний Profil Zaufany. Займе кілька хвилин.</li>
+<li><strong>Через уповноважену особу</strong> — з письмовим дорученням.</li>
+</ol>
+
+<h3>Необхідні документи:</h3>
+<ul>
+<li>Паспорт або карта побуту</li>
+<li>Договір оренди або заява власника житла</li>
+<li>Бланк реєстрації (у відділі або онлайн)</li>
+</ul>
+<p><strong>Реєстрація безкоштовна.</strong></p>
+
+<h2>Онлайн-реєстрація через gov.pl</h2>
+<p>З активним Profil Zaufany зайди на gov.pl, знайди послугу «zameldowanie na pobyt tymczasowy», увійди через Profil Zaufany і заповни форму. Знадобиться скан договору оренди.</p>
+
+<h2>Після реєстрації</h2>
+<p>Ти отримаєш довідку про реєстрацію, яка знадобиться для: реєстрації в податковій, заяви на карту побуту, запису дітей до школи та доступу до NFZ.</p>
+
+<h2>Виписка при переїзді</h2>
+<p>При переїзді треба виписатися з попередньої адреси. Це можна зробити одночасно з реєстрацією на новій адресі.</p>
+
+<h2>Підсумок</h2>
+<p>Meldunek — простий і безкоштовний крок, що відкриває доступ до багатьох послуг у Польщі. Nexflow допомагає своїм працівникам з оформленням документів — звернись до нас.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "registratsiya-mesta-prozhivaniya-polsha-inostranets",
+    title: "Регистрация места жительства в Польше для иностранцев — практическое руководство",
+    description:
+      "Мелдунек в Польше для иностранцев — как зарегистрироваться по месту жительства, какие документы нужны и почему это важно. Практическое руководство для временных работников.",
+    date: "2028-02-15",
+    lang: "ru",
+    content: `
+<article>
+<h1>Регистрация места жительства в Польше для иностранцев — практическое руководство</h1>
+
+<p>Meldunek (zameldowanie) — официальная регистрация места жительства в польской административной системе. Многие иностранцы, приезжающие в Польшу на работу, не знают об этом шаге. Руководство объясняет, что такое meldunek, обязательна ли она и как её оформить.</p>
+
+<h2>Что такое meldunek?</h2>
+<ul>
+<li><strong>Постоянная регистрация (pobyt stały)</strong> — для тех, кто остаётся в Польше навсегда</li>
+<li><strong>Временная регистрация (pobyt tymczasowy)</strong> — для тех, кто проживает не по постоянному месту жительства более 3 месяцев</li>
+</ul>
+<p>Как иностранный временный работник, проживающий в Польше, ты должен зарегистрироваться по фактическому месту жительства.</p>
+
+<h2>Обязательна ли регистрация?</h2>
+<p>Формально да — закон обязывает зарегистрироваться в течение 30 дней после прибытия на срок более 3 месяцев. Регистрация нужна для: регистрации в ZUS и налоговой инспекции, получения PESEL, доступа к NFZ, открытия банковского счёта в ряде банков, подачи заявления на карту проживания.</p>
+
+<h2>Как зарегистрироваться?</h2>
+<ol>
+<li><strong>Лично в отделе гмины</strong> по месту проживания — принеси документы и заполни бланк регистрации.</li>
+<li><strong>Онлайн через gov.pl</strong> — если есть активный Profil Zaufany. Занимает несколько минут.</li>
+<li><strong>Через уполномоченного</strong> — с письменной доверенностью.</li>
+</ol>
+
+<h3>Необходимые документы:</h3>
+<ul>
+<li>Паспорт или карта проживания</li>
+<li>Договор аренды или заявление собственника жилья</li>
+<li>Бланк регистрации (в отделе или онлайн)</li>
+</ul>
+<p><strong>Регистрация бесплатна.</strong></p>
+
+<h2>Онлайн-регистрация через gov.pl</h2>
+<p>С активным Profil Zaufany зайди на gov.pl, найди услугу «zameldowanie na pobyt tymczasowy», войди через Profil Zaufany и заполни форму. Понадобится скан договора аренды.</p>
+
+<h2>После регистрации</h2>
+<p>Ты получишь справку о регистрации, которая нужна для: регистрации в налоговой, карты проживания, записи детей в школу и доступа к NFZ.</p>
+
+<h2>Выписка при переезде</h2>
+<p>При переезде нужно выписаться с прежнего адреса. Это можно сделать одновременно с регистрацией на новом адресе.</p>
+
+<h2>Итог</h2>
+<p>Meldunek — простой и бесплатный шаг, открывающий доступ ко многим услугам в Польше. Nexflow помогает своим работникам с оформлением документов — обратись к нам.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "address-registration-poland-foreign-worker",
+    title: "Address Registration (Meldunek) in Poland for Foreign Workers — A Practical Guide",
+    description:
+      "Meldunek in Poland for foreign workers — what it is, whether it is mandatory, how to register in person or online via gov.pl, and what documents you need. A practical guide for temporary workers.",
+    date: "2028-02-22",
+    lang: "en",
+    content: `
+<article>
+<h1>Address Registration (Meldunek) in Poland for Foreign Workers — A Practical Guide</h1>
+
+<p>Meldunek (zameldowanie) is the official registration of your place of residence in Poland. Many foreign workers are unaware of this step. This guide explains what it is, whether it is mandatory, and how to complete it.</p>
+
+<h2>What is meldunek?</h2>
+<ul>
+<li><strong>Permanent registration (pobyt stały)</strong> — for those settling in Poland permanently</li>
+<li><strong>Temporary registration (pobyt tymczasowy)</strong> — for those living away from their permanent address for more than 3 months</li>
+</ul>
+<p>As a non-EU temporary worker living in Poland, register at your actual place of residence.</p>
+
+<h2>Is registration mandatory?</h2>
+<p>Formally yes — Polish law requires registration within 30 days of arriving for a stay over 3 months. It is needed for: ZUS and tax office registration, getting a PESEL number, accessing NFZ health insurance, opening a bank account at some banks, applying for a residence card.</p>
+
+<h2>How to register?</h2>
+<ol>
+<li><strong>In person at your local municipality office (gmina)</strong> — bring your passport and rental contract.</li>
+<li><strong>Online at gov.pl</strong> — if you have an active Profil Zaufany. Takes a few minutes.</li>
+<li><strong>Via a proxy</strong> — with written authorisation.</li>
+</ol>
+
+<h3>Documents needed:</h3>
+<ul>
+<li>Passport or residence card</li>
+<li>Rental contract or landlord's declaration</li>
+<li>Registration form (at the office or downloadable)</li>
+</ul>
+<p><strong>Registration is free of charge.</strong></p>
+
+<h2>Online registration via gov.pl</h2>
+<p>Log in with Profil Zaufany at gov.pl, find "zameldowanie na pobyt tymczasowy", fill the form and attach a scan of your rental contract.</p>
+
+<h2>After registration</h2>
+<p>You receive a certificate of registration, useful for: tax office registration, residence card applications, enrolling children in school, and accessing NFZ.</p>
+
+<h2>Deregistering when you move out</h2>
+<p>Deregister from your old address when you move — you can do this simultaneously with registering at the new address.</p>
+
+<h2>Summary</h2>
+<p>Meldunek is a simple, free step that opens access to many services in Poland. Do it as soon as you arrive. Nexflow supports its workers with admin procedures — contact us for help.</p>
+</article>
+    `.trim(),
   }
 ];
 
