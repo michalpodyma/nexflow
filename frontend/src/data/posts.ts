@@ -8131,6 +8131,278 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>We help foreign workers understand their rights and financial options in Poland. Reach out — we work in Ukrainian, Russian and English.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "l4-zwolnienie-lekarskie-cudzoziemiec-polska",
+    title: "L4 w Polsce dla cudzoziemca — jak wziąć zwolnienie lekarskie i co się należy",
+    description:
+      "Zwolnienie lekarskie (L4) w Polsce dla pracowników tymczasowych z zagranicy. Jak uzyskać e-ZLA, ile wynosi zasiłek, czy grozi zwolnienie z pracy i co z kartą pobytu.",
+    date: "2027-09-14",
+    lang: "pl",
+    content: `
+<article>
+<h1>L4 w Polsce dla cudzoziemca — jak wziąć zwolnienie lekarskie i co się należy</h1>
+
+<p>L4 to popularne potoczne określenie zwolnienia lekarskiego w Polsce. Dla cudzoziemca pracującego tymczasowo jako pracownik agencji pracy sytuacja może być zagadkowa: czy mogę wziąć zwolnienie? Czy stracę pracę? Co z wynagrodzeniem? Co z kartą pobytu?</p>
+
+<p>Ten poradnik odpowiada na te pytania krok po kroku.</p>
+
+<h2>Kto może wziąć L4 w Polsce?</h2>
+
+<p>Każda osoba objęta ubezpieczeniem chorobowym w ZUS. Jeśli pracujesz przez agencję pracy tymczasowej (jak Nexflow) na podstawie umowy zlecenia lub umowy o pracę tymczasową, Twój pracodawca odprowadza składki ZUS — w tym składkę chorobową.</p>
+
+<p><strong>Ważne:</strong> składka chorobowa jest dobrowolna przy umowie zlecenia. Zapytaj agencję (Nexflow), czy jesteś objęty ubezpieczeniem chorobowym — mamy obowiązek Cię o tym poinformować.</p>
+
+<h2>Jak uzyskać zwolnienie lekarskie w Polsce — krok po kroku</h2>
+
+<ol>
+<li>Idź do lekarza (lekarza pierwszego kontaktu, internisty lub specjalisty). Możesz skorzystać z NFZ — masz do tego prawo jako ubezpieczony.</li>
+<li>Lekarz wystawia <strong>e-ZLA</strong> — elektroniczne zwolnienie lekarskie. System jest w pełni cyfrowy od 2018 roku. Nie dostajesz papierowego dokumentu.</li>
+<li>e-ZLA trafia automatycznie do ZUS i do Twojego pracodawcy (agencji pracy tymczasowej).</li>
+<li>Poinformuj agencję (Nexflow), że jesteś na zwolnieniu — dla pewności, choć system robi to automatycznie.</li>
+</ol>
+
+<h2>Karencja — kiedy zasiłek zaczyna przysługiwać?</h2>
+
+<ul>
+<li><strong>Umowa o pracę tymczasową:</strong> Pierwsze 33 dni choroby w roku kalendarzowym wypłaca pracodawca (80% wynagrodzenia). Od 34. dnia — ZUS wypłaca zasiłek chorobowy.</li>
+<li><strong>Umowa zlecenia z dobrowolnym ubezpieczeniem chorobowym:</strong> Zasiłek przysługuje od pierwszego dnia, ale musisz mieć minimum 90 dni nieprzerwanego ubezpieczenia chorobowego (tzw. karencja).</li>
+</ul>
+
+<h2>Ile wynosi zasiłek chorobowy?</h2>
+
+<ul>
+<li><strong>80%</strong> podstawy wymiaru (przeciętna pensja z ostatnich 12 miesięcy) w przypadku zwykłej choroby.</li>
+<li><strong>100%</strong> przy ciąży, wypadku przy pracy lub chorobie zawodowej.</li>
+</ul>
+
+<h2>Kto wypłaca zasiłek?</h2>
+
+<p>Przy dużych agencjach (powyżej 20 pracowników): pracodawca wypłaca wynagrodzenie chorobowe i zasiłek, a ZUS refunduje. Przy mniejszych pracodawcach: ZUS przelewa zasiłek bezpośrednio na Twoje konto bankowe.</p>
+
+<h2>Czy mogę stracić pracę z powodu L4?</h2>
+
+<ul>
+<li><strong>Umowa o pracę tymczasową:</strong> Pracodawca nie może Cię zwolnić w trakcie zwolnienia lekarskiego (ochrona przez cały czas trwania L4, maksymalnie przez okres zasiłkowy — 182 dni lub 270 dni w ciąży).</li>
+<li><strong>Umowa zlecenia:</strong> Umowa zlecenia nie daje tej samej ochrony co umowa o pracę. Jednak agencja etyczna, jak Nexflow, nie rozwiązuje umów z powodu choroby pracownika.</li>
+</ul>
+
+<h2>Co z kartą pobytu podczas L4?</h2>
+
+<p>Karta czasowego pobytu (TRC) jest wydana na podstawie zatrudnienia. Jeśli zachorujesz, stosunek pracy nie ustaje — masz nadal ważną umowę, więc karta pobytu pozostaje w mocy.</p>
+
+<p><strong>Uwaga:</strong> jeśli umowa wygaśnie podczas zwolnienia lekarskiego i nie podpiszesz nowej, może to wpłynąć na Twój status pobytowy. W takim przypadku skontaktuj się z Nexflow — pomożemy znaleźć rozwiązanie.</p>
+
+<h2>Praktyczne wskazówki</h2>
+
+<ul>
+<li>Zawsze idź do lekarza, gdy jesteś chory — nie odkładaj wizyty ze strachu przed pracodawcą. To Twoje prawo.</li>
+<li>Zadzwoń lub napisz do agencji (Nexflow) jak najszybciej — SMS lub telefon wystarczy.</li>
+<li>Zachowaj wszystkie dokumenty związane ze zwolnieniem i leczeniem.</li>
+<li>Masz pytania? Nexflow odpowiada w języku polskim, ukraińskim i rosyjskim — przez WhatsApp.</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+
+<p>L4 w Polsce to Twoje prawo — nie przywilej. Jako pracownik objęty ubezpieczeniem chorobowym masz pełne prawo do korzystania ze zwolnienia lekarskiego, zasiłku chorobowego i ochrony stosunku pracy. Agencja pracy tymczasowej, taka jak Nexflow, odprowadza za Ciebie składki ZUS — dbaj więc o swoje zdrowie bez obaw.</p>
+
+<p><strong>Pytania? Skontaktuj się z Nexflow przez WhatsApp — jesteśmy tu, żeby pomóc.</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "l4-likarnianyj-list-inozemets-polshcha",
+    title: "Лікарняний лист (L4) у Польщі для іноземців — як отримати і що належиться",
+    description:
+      "Лікарняний лист L4 у Польщі для тимчасових працівників-іноземців. Як отримати e-ZLA, розмір допомоги, захист від звільнення та статус картки проживання під час хвороби.",
+    date: "2027-09-21",
+    lang: "uk",
+    content: `
+<article>
+<h1>Лікарняний лист (L4) у Польщі для іноземців — як отримати і що належиться</h1>
+
+<p>Лікарняний лист у Польщі — це ваше право. Якщо ви працюєте через агентство тимчасової праці (як Nexflow) і застраховані в ZUS, ви маєте право на оплачуваний лікарняний. Цей посібник пояснює як отримати L4 і що вам належиться.</p>
+
+<h2>Хто може отримати L4?</h2>
+
+<p>Кожна особа, застрахована в ZUS за хворобою. При договорі доручення (умова злецення) страхування хвороби є добровільним — уточніть в Nexflow, чи ви застраховані.</p>
+
+<h2>Як отримати лікарняний?</h2>
+
+<ol>
+<li>Зверніться до лікаря (NFZ — ваше право як застрахованого).</li>
+<li>Лікар виписує e-ZLA — електронний лікарняний (з 2018 р. лише цифровий формат).</li>
+<li>e-ZLA автоматично надходить до ZUS та агентства.</li>
+<li>Повідомте Nexflow — дзвінок або SMS.</li>
+</ol>
+
+<h2>Розмір допомоги</h2>
+
+<p><strong>80%</strong> середньої зарплати (100% при вагітності або нещасному випадку).</p>
+
+<h2>Захист від звільнення</h2>
+
+<p>При умові о працю тимчасову — роботодавець не може звільнити під час L4 (до 182 днів). При умові злецення захист менший, але Nexflow не розриває договори через хворобу.</p>
+
+<h2>Картка тимчасового проживання (TRC)</h2>
+
+<p>Хвороба не припиняє трудових відносин — TRC залишається дійсною. Якщо договір закінчується під час лікарняного, зверніться до Nexflow завчасно.</p>
+
+<h2>Практичні поради</h2>
+
+<ul>
+<li>Завжди звертайтеся до лікаря, коли хворієте — це ваше законне право.</li>
+<li>Якнайшвидше повідомте Nexflow — дзвінок або SMS.</li>
+<li>Зберігайте всі документи, пов'язані з лікуванням.</li>
+<li>Питання? Nexflow відповідає українською через WhatsApp.</li>
+</ul>
+
+<p><strong>L4 — це ваше право. Nexflow відповідає українською через WhatsApp.</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "l4-bolnichnyj-list-inostranets-polsha",
+    title: "Больничный лист (L4) в Польше для иностранцев — как оформить и что полагается",
+    description:
+      "Больничный лист L4 в Польше для иностранных временных работников. Как получить e-ZLA, размер пособия, защита от увольнения и статус карты проживания во время болезни.",
+    date: "2027-09-28",
+    lang: "ru",
+    content: `
+<article>
+<h1>Больничный лист (L4) в Польше для иностранцев — как оформить и что полагается</h1>
+
+<p>L4 — это разговорное название больничного листа в Польше. Для иностранного работника, работающего через агентство временного труда (как Nexflow), возникают закономерные вопросы: можно ли взять больничный? Потеряю ли работу? Что с зарплатой? Что с картой временного проживания?</p>
+
+<p>Этот гид отвечает на все вопросы шаг за шагом.</p>
+
+<h2>Кто может получить L4 в Польше?</h2>
+
+<p>Каждый, кто застрахован в ZUS по болезни. Если вы работаете через агентство временного труда (Nexflow) по умове злецения (договор поручения) или умове о праце тымчасовой (договор о временной работе), работодатель уплачивает взносы в ZUS, включая страхование по болезни.</p>
+
+<p>Важно: при умове злецения страхование по болезни является добровольным. Уточните в агентстве Nexflow, застрахованы ли вы.</p>
+
+<h2>Как оформить больничный — пошагово</h2>
+
+<ol>
+<li>Обратитесь к врачу (семейному врачу или специалисту) — по страховке NFZ, вы имеете на это право.</li>
+<li>Врач выписывает e-ZLA — электронный больничный лист (с 2018 г. только в цифровом формате). Бумажного документа нет.</li>
+<li>e-ZLA автоматически поступает в ZUS и к вашему работодателю (агентству).</li>
+<li>Сообщите в Nexflow, что вы на больничном — звонок или SMS достаточно.</li>
+</ol>
+
+<h2>Период ожидания</h2>
+
+<ul>
+<li><strong>Умова о праце тымчасова (договор о временной работе):</strong> первые 33 дня болезни в году оплачивает работодатель (80% зарплаты). С 34-го дня — ZUS выплачивает пособие по болезни.</li>
+<li><strong>Умова злецения с добровольным страхованием:</strong> пособие с первого дня, но требуется минимум 90 дней непрерывного страхования (карентный срок).</li>
+</ul>
+
+<h2>Размер пособия по болезни</h2>
+
+<p><strong>80%</strong> средней зарплаты за последние 12 месяцев (100% при беременности или производственной травме).</p>
+
+<h2>Кто выплачивает</h2>
+
+<p>При большом агентстве — работодатель (с возмещением от ZUS). При небольшом — ZUS напрямую на ваш счёт.</p>
+
+<h2>Увольнение во время L4</h2>
+
+<ul>
+<li><strong>Умова о праце тымчасова:</strong> работодатель не вправе вас уволить во время больничного (защита до 182 дней, при беременности — 270 дней).</li>
+<li><strong>Умова злецения:</strong> меньшая защита, чем по трудовому договору, но Nexflow не расторгает договоры из-за болезни работника.</li>
+</ul>
+
+<h2>Карта временного проживания (TRC) во время L4</h2>
+
+<p>Трудовые отношения не прекращаются из-за болезни — договор остаётся в силе, TRC действует. Если договор заканчивается во время больничного и вы не заключаете новый — обратитесь в Nexflow заранее, мы найдём решение.</p>
+
+<h2>Практические советы</h2>
+
+<ul>
+<li>Всегда обращайтесь к врачу, когда больны — это ваше право, не бойтесь последствий.</li>
+<li>Сообщайте в Nexflow как можно скорее — звонок или SMS.</li>
+<li>Сохраняйте все документы, связанные с лечением.</li>
+<li>Вопросы? Nexflow отвечает по-русски через WhatsApp.</li>
+</ul>
+
+<p><strong>L4 — это ваше право. Nexflow рядом.</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "l4-sick-leave-foreign-worker-poland",
+    title: "Sick Leave (L4) in Poland for Foreign Workers — How It Works and What You're Entitled To",
+    description:
+      "Everything foreign temporary workers need to know about sick leave (L4) in Poland: how to get a sick note, benefit amounts, job protection, and what happens to your residence card.",
+    date: "2027-10-05",
+    lang: "en",
+    content: `
+<article>
+<h1>Sick Leave (L4) in Poland for Foreign Workers — How It Works and What You're Entitled To</h1>
+
+<p>"L4" is the everyday Polish term for a sick note (zwolnienie lekarskie). If you're working in Poland as a temporary worker through a staffing agency like Nexflow, you may wonder: Am I entitled to sick leave? Will I lose my job? What about my pay? What happens to my residence permit?</p>
+
+<p>This guide answers all of those questions step by step.</p>
+
+<h2>Who Is Eligible for Sick Leave (L4) in Poland?</h2>
+
+<p>Anyone covered by sickness insurance (ubezpieczenie chorobowe) through ZUS (Poland's Social Insurance Institution). If you work through a temporary staffing agency like Nexflow under a contract of mandate (umowa zlecenia) or temporary employment contract (umowa o pracę tymczasową), your employer pays ZUS contributions including sickness insurance.</p>
+
+<p>Important: sickness insurance is voluntary under a contract of mandate (umowa zlecenia). Ask Nexflow whether you are covered — we are required to inform you.</p>
+
+<h2>How to Get a Sick Note — Step by Step</h2>
+
+<ol>
+<li>Visit a doctor (GP or specialist). You can use the public NFZ health service — you have the right to do so as an insured person.</li>
+<li>The doctor issues an e-ZLA (electronic sick note). The system has been fully digital since 2018. You do not receive a paper document.</li>
+<li>The e-ZLA is automatically sent to ZUS and to your employer (the staffing agency).</li>
+<li>Notify Nexflow that you are on sick leave — a call or SMS is sufficient.</li>
+</ol>
+
+<h2>Waiting Period — When Does the Benefit Start?</h2>
+
+<ul>
+<li><strong>Temporary employment contract (umowa o pracę tymczasową):</strong> Your employer pays 80% of your salary for the first 33 days of illness per calendar year. From day 34, ZUS pays the sickness benefit.</li>
+<li><strong>Contract of mandate with voluntary sickness insurance:</strong> Benefit starts from day 1, but you must have at least 90 consecutive days of sickness insurance coverage (qualifying period).</li>
+</ul>
+
+<h2>How Much Is the Sickness Benefit?</h2>
+
+<ul>
+<li><strong>80%</strong> of your average salary from the last 12 months for standard illness.</li>
+<li><strong>100%</strong> for pregnancy-related illness, workplace accidents, or occupational disease.</li>
+</ul>
+
+<h2>Who Pays the Benefit?</h2>
+
+<p>Larger employers (over 20 employees): the employer pays and is reimbursed by ZUS. Smaller employers: ZUS transfers the benefit directly to your bank account.</p>
+
+<h2>Can I Be Fired While on Sick Leave?</h2>
+
+<ul>
+<li><strong>Temporary employment contract:</strong> Your employer cannot terminate your employment while you are on sick leave (protection lasts for up to 182 days, or 270 days during pregnancy).</li>
+<li><strong>Contract of mandate:</strong> Offers less statutory protection than an employment contract. However, a responsible agency like Nexflow does not terminate contracts due to illness.</li>
+</ul>
+
+<h2>What Happens to My Residence Card (TRC) During Sick Leave?</h2>
+
+<p>Your temporary residence card (karta czasowego pobytu) is tied to your employment. Illness does not end your employment — your contract remains in force and your TRC stays valid.</p>
+
+<p>Note: If your contract expires while you are on sick leave and you do not sign a new one, this may affect your residence status. Contact Nexflow in advance — we will help you find a solution.</p>
+
+<h2>Practical Tips</h2>
+
+<ul>
+<li>Always see a doctor when you are ill — this is your legal right, not a privilege.</li>
+<li>Notify Nexflow as soon as possible: a call or SMS is enough.</li>
+<li>Keep all documents related to your treatment and sick leave.</li>
+<li>Questions? Nexflow provides support in Polish, Ukrainian, and Russian via WhatsApp.</li>
+</ul>
+
+<p><strong>Sick leave in Poland is your right. Nexflow is here to help.</strong></p>
+</article>
+    `.trim(),
   }
 ];
 
