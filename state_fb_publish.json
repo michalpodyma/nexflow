@@ -507,5 +507,22 @@
     }
   ],
   "last_run": "2026-08-19T09:00:24Z",
-  "pending": []
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/przekazy-pieniezne-polska-za-granice-cudzoziemiec",
+      "sitemap_lastmod": "2027-08-17T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/groshovyi-perekaz-polshcha-za-kordon-inozemets",
+      "sitemap_lastmod": "2027-08-24T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/denezhnye-perevody-polsha-za-granitsu-inostranets",
+      "sitemap_lastmod": "2027-08-31T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sending-money-abroad-from-poland-foreign-worker",
+      "sitemap_lastmod": "2027-09-07T00:00:00.000Z"
+    }
+  ]
 }

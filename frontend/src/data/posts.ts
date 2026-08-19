@@ -7671,6 +7671,466 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 
 <p><strong>Nexflow</strong> supports foreign workers at every stage of work and residence legalization in Poland. Contact us if you have questions about NFZ or any other employment formalities.</p>
     `.trim(),
+  },
+  {
+    slug: "przekazy-pieniezne-polska-za-granice-cudzoziemiec",
+    title: "Jak wysyłać pieniądze z Polski za granicę — praktyczny poradnik dla cudzoziemców",
+    description:
+      "Porównanie metod przekazu pieniędzy z Polski za granicę: Wise, Revolut, Western Union, przelew SWIFT. Koszty, czas realizacji i porady dla pracowników z Ukrainy i innych krajów.",
+    date: "2027-08-17",
+    lang: "pl",
+    content: `
+<article>
+<h2>Jak wysyłać pieniądze z Polski za granicę — praktyczny poradnik dla cudzoziemców</h2>
+
+<p>Pracujesz w Polsce i chcesz wysłać pieniądze do rodziny w Ukrainie, Rosji, Mołdawii lub innym kraju? Masz do wyboru kilka opcji — od tradycyjnych banków po nowoczesne aplikacje. W tym poradniku porównamy najpopularniejsze sposoby przekazu pieniędzy, ich koszty i czas realizacji.</p>
+
+<h3>Opcja 1: Przelew bankowy (SWIFT)</h3>
+
+<p>Jeśli posiadasz konto w polskim banku (PKO BP, mBank, ING, Pekao), możesz zrobić przelew SWIFT bezpośrednio na zagraniczne konto bankowe odbiorcy.</p>
+
+<ul>
+  <li><strong>Koszt:</strong> 15–50 zł (opłata banku) + spread walutowy (zwykle 2–4%)</li>
+  <li><strong>Czas realizacji:</strong> 1–3 dni robocze</li>
+  <li><strong>Co potrzebujesz:</strong> IBAN lub numer konta odbiorcy, kod SWIFT/BIC banku odbiorcy</li>
+  <li><strong>Limit:</strong> dla kwot powyżej 15 000 EUR może być wymagane oświadczenie</li>
+</ul>
+
+<p><strong>Wada:</strong> Banki stosują niekorzystny kurs wymiany i wysokie opłaty za SWIFT. Bardziej opłaca się korzystać z wyspecjalizowanych serwisów.</p>
+
+<h3>Opcja 2: Wise (dawniej TransferWise)</h3>
+
+<p>Wise to aplikacja umożliwiająca przelewy walutowe po kursie zbliżonym do kursu rynkowego (mid-market rate). Jest znacznie tańsza niż bank i bardzo popularna wśród pracowników zagranicznych.</p>
+
+<ul>
+  <li><strong>Koszt:</strong> ok. 0,5–1% kwoty przelewu (brak ukrytych opłat)</li>
+  <li><strong>Czas realizacji:</strong> kilka minut do 1 dnia roboczego</li>
+  <li><strong>Co potrzebujesz:</strong> dokument tożsamości, numer konta bankowego odbiorcy</li>
+  <li><strong>Obsługiwane kraje:</strong> Ukraina ✅, kraje UE ✅, i ponad 80 innych krajów</li>
+</ul>
+
+<p><strong>Jak zacząć:</strong> Pobierz aplikację Wise na smartfon, zarejestruj się (wymagany dokument tożsamości — paszport lub karta pobytu), dodaj swoje polskie konto bankowe jako źródło finansowania i wyślij pieniądze.</p>
+
+<h3>Opcja 3: Revolut</h3>
+
+<p>Revolut to karta i konto wielowalutowe. Możesz wymienić PLN na EUR, USD lub UAH po kursie rynkowym i wysłać pieniądze bezpłatnie (lub za niską opłatą).</p>
+
+<ul>
+  <li><strong>Koszt:</strong> bezpłatnie do określonego limitu miesięcznego (plan Standard), potem 0,5%</li>
+  <li><strong>Czas realizacji:</strong> natychmiastowo (między kontami Revolut), 1–2 dni (na zwykłe konta bankowe)</li>
+  <li><strong>Obsługiwane kraje:</strong> Ukraina ✅, UE ✅</li>
+</ul>
+
+<h3>Opcja 4: Western Union / MoneyGram</h3>
+
+<p>Klasyczne przekazy pieniężne — odbiorca może odebrać gotówkę bez konta bankowego. Idealne, jeśli rodzina nie ma konta bankowego.</p>
+
+<ul>
+  <li><strong>Koszt:</strong> wyższy niż Wise/Revolut — ok. 3–8% kwoty przelewu</li>
+  <li><strong>Czas realizacji:</strong> kilka minut (przekaz gotówkowy), 1–3 dni (na konto)</li>
+  <li><strong>Gdzie nadać:</strong> punkty Western Union i MoneyGram w Polsce — stacje paliw, sklepy, poczta</li>
+</ul>
+
+<h3>Opcja 5: Kantory internetowe (Walutomat, Cinkciarz)</h3>
+
+<p>Polskie kantory internetowe oferują korzystny kurs wymiany i możliwość przelewu za granicę. Wymagają wcześniejszej rejestracji i weryfikacji konta.</p>
+
+<ul>
+  <li><strong>Koszt:</strong> spread walutowy ok. 0,5–1%, opłata przelewu SWIFT ok. 10–20 zł</li>
+  <li><strong>Czas realizacji:</strong> 1–2 dni robocze</li>
+</ul>
+
+<h3>Porównanie — co wybrać?</h3>
+
+<table>
+  <tr><th>Metoda</th><th>Koszt</th><th>Czas</th><th>Odbiór bez konta</th></tr>
+  <tr><td>Wise</td><td>~1%</td><td>kilka min–1 dzień</td><td>❌</td></tr>
+  <tr><td>Revolut</td><td>0–0,5%</td><td>natychmiast–2 dni</td><td>❌</td></tr>
+  <tr><td>Western Union</td><td>3–8%</td><td>kilka minut</td><td>✅</td></tr>
+  <tr><td>Przelew SWIFT</td><td>15–50 zł + 2–4%</td><td>1–3 dni</td><td>❌</td></tr>
+  <tr><td>Kantor online</td><td>~1% + 10–20 zł</td><td>1–2 dni</td><td>❌</td></tr>
+</table>
+
+<p><strong>Rekomendacja:</strong> Dla regularnych przelewów na konto bankowe — Wise lub Revolut. Jeśli rodzina nie ma konta bankowego — Western Union lub MoneyGram.</p>
+
+<h3>Ważne informacje dla pracowników z Ukrainy</h3>
+
+<p>Po 2022 roku Ukraina wprowadziła ograniczenia na wypłaty walutowe za granicą. Jednak:</p>
+<ul>
+  <li>Przelewy w PLN (złotówkach) na ukraińskie konta bankowe są możliwe przez Wise i Revolut</li>
+  <li>Western Union i MoneyGram działają z Ukrainą (sprawdź aktualne limity na stronie serwisu)</li>
+  <li>Sprawdzaj aktualny limit dzienny/miesięczny w aplikacji przed wysłaniem dużej kwoty</li>
+  <li>Przelew w UAH wymaga, by odbiorca miał konto w ukraińskim banku i aktywowaną kartę debetową</li>
+</ul>
+
+<h3>Jak uniknąć oszustw?</h3>
+
+<ul>
+  <li>Nigdy nie wysyłaj pieniędzy przez nieznane aplikacje lub strony internetowe</li>
+  <li>Sprawdzaj, czy serwis jest zarejestrowany w polskim KNF (Komisja Nadzoru Finansowego) lub podlega regulacjom UE</li>
+  <li>Nie klikaj w linki z SMS-ów dotyczących transferów pieniężnych — to może być phishing</li>
+  <li>Sprawdzaj kurs wymiany bezpośrednio w aplikacji, nie ufaj reklamom z nieoficjalnych stron</li>
+</ul>
+
+<h3>Ile kosztuje przelew 1 000 zł za granicę?</h3>
+
+<p>Przykładowe koszty przy przelewie 1 000 PLN (kwota przybliżona):</p>
+<ul>
+  <li><strong>Wise:</strong> ok. 7–10 zł opłaty + kurs rynkowy → odbiorca dostaje max</li>
+  <li><strong>Revolut:</strong> 0 zł (do limitu) + kurs rynkowy</li>
+  <li><strong>Western Union:</strong> ok. 30–80 zł opłaty + gorszy kurs</li>
+  <li><strong>Przelew bankowy:</strong> 25–50 zł opłaty + gorszy kurs (łącznie ok. 5–8% straty)</li>
+</ul>
+
+<h2>Pracujesz w Polsce przez Nexflow?</h2>
+<p>Pomożemy Ci zrozumieć Twoje prawa i możliwości finansowe jako pracownika zagranicznego w Polsce. Skontaktuj się z nami — działamy w języku ukraińskim, rosyjskim i angielskim.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "groshovyi-perekaz-polshcha-za-kordon-inozemets",
+    title: "Як надсилати гроші з Польщі за кордон — практичний посібник для іноземців",
+    description:
+      "Порівняння методів переказу грошей з Польщі за кордон: Wise, Revolut, Western Union, банківський переказ SWIFT. Вартість, терміни та поради для працівників з України та інших країн.",
+    date: "2027-08-24",
+    lang: "uk",
+    content: `
+<article>
+<h2>Як надсилати гроші з Польщі за кордон — практичний посібник для іноземців</h2>
+
+<p>Працюєш у Польщі та хочеш надіслати гроші родині в Україні або іншій країні? Є кілька варіантів — від традиційних банків до сучасних застосунків. У цьому посібнику порівнюємо найпопулярніші способи переказу грошей, їхню вартість та терміни виконання.</p>
+
+<h3>Варіант 1: Банківський переказ (SWIFT)</h3>
+
+<p>Якщо маєш рахунок у польському банку (PKO BP, mBank, ING, Pekao), можна зробити переказ SWIFT напряму на закордонний рахунок одержувача.</p>
+
+<ul>
+  <li><strong>Вартість:</strong> 15–50 злотих (комісія банку) + валютний спред (зазвичай 2–4%)</li>
+  <li><strong>Термін:</strong> 1–3 робочих дні</li>
+  <li><strong>Що потрібно:</strong> IBAN або номер рахунку одержувача, код SWIFT/BIC банку одержувача</li>
+  <li><strong>Ліміт:</strong> для сум понад 15 000 EUR може знадобитися декларація</li>
+</ul>
+
+<p><strong>Недолік:</strong> Банки застосовують невигідний курс обміну та високі комісії за SWIFT. Вигідніше використовувати спеціалізовані сервіси.</p>
+
+<h3>Варіант 2: Wise (колишній TransferWise)</h3>
+
+<p>Wise — застосунок для переказу валюти за курсом, близьким до ринкового (mid-market rate). Значно дешевший за банк і дуже популярний серед іноземних працівників.</p>
+
+<ul>
+  <li><strong>Вартість:</strong> ~0,5–1% суми переказу (без прихованих комісій)</li>
+  <li><strong>Термін:</strong> кілька хвилин — 1 робочий день</li>
+  <li><strong>Що потрібно:</strong> документ, що посвідчує особу, номер банківського рахунку одержувача</li>
+  <li><strong>Підтримувані країни:</strong> Україна ✅, ЄС ✅, понад 80 інших країн</li>
+</ul>
+
+<p><strong>Як почати:</strong> Завантаж застосунок Wise на смартфон, зареєструйся (потрібен документ, що посвідчує особу — паспорт або картка проживання), додай польський банківський рахунок як джерело фінансування і надсилай гроші.</p>
+
+<h3>Варіант 3: Revolut</h3>
+
+<p>Revolut — мультивалютна картка та рахунок. Можна обміняти PLN на EUR, USD або UAH за ринковим курсом і надіслати гроші безкоштовно (або за мінімальну комісію).</p>
+
+<ul>
+  <li><strong>Вартість:</strong> безкоштовно до місячного ліміту (план Standard), далі 0,5%</li>
+  <li><strong>Термін:</strong> миттєво (між рахунками Revolut), 1–2 дні (на звичайний банківський рахунок)</li>
+  <li><strong>Підтримувані країни:</strong> Україна ✅, ЄС ✅</li>
+</ul>
+
+<h3>Варіант 4: Western Union / MoneyGram</h3>
+
+<p>Класичні грошові перекази — одержувач може отримати готівку без банківського рахунку. Ідеально, якщо родина не має банківського рахунку.</p>
+
+<ul>
+  <li><strong>Вартість:</strong> вища, ніж Wise/Revolut — ~3–8% суми переказу</li>
+  <li><strong>Термін:</strong> кілька хвилин (готівка), 1–3 дні (на рахунок)</li>
+  <li><strong>Де відправити:</strong> пункти Western Union і MoneyGram у Польщі — заправки, магазини, пошта</li>
+</ul>
+
+<h3>Варіант 5: Онлайн-обмінники (Walutomat, Cinkciarz)</h3>
+
+<p>Польські онлайн-обмінники пропонують вигідний курс обміну та можливість переказу за кордон. Потребують попередньої реєстрації та верифікації рахунку.</p>
+
+<ul>
+  <li><strong>Вартість:</strong> валютний спред ~0,5–1%, комісія SWIFT ~10–20 злотих</li>
+  <li><strong>Термін:</strong> 1–2 робочих дні</li>
+</ul>
+
+<h3>Порівняння — що обрати?</h3>
+
+<table>
+  <tr><th>Метод</th><th>Вартість</th><th>Час</th><th>Отримання готівкою</th></tr>
+  <tr><td>Wise</td><td>~1%</td><td>кілька хв–1 день</td><td>❌</td></tr>
+  <tr><td>Revolut</td><td>0–0,5%</td><td>миттєво–2 дні</td><td>❌</td></tr>
+  <tr><td>Western Union</td><td>3–8%</td><td>кілька хвилин</td><td>✅</td></tr>
+  <tr><td>Переказ SWIFT</td><td>15–50 зл + 2–4%</td><td>1–3 дні</td><td>❌</td></tr>
+  <tr><td>Онлайн-обмінник</td><td>~1% + 10–20 зл</td><td>1–2 дні</td><td>❌</td></tr>
+</table>
+
+<p><strong>Рекомендація:</strong> Для регулярних переказів на банківський рахунок — Wise або Revolut. Якщо родина не має банківського рахунку — Western Union або MoneyGram.</p>
+
+<h3>Важлива інформація для працівників з України</h3>
+
+<p>Після 2022 року Україна ввела обмеження на валютні виплати за кордон. Проте:</p>
+<ul>
+  <li>Перекази в злотих (PLN) на українські банківські рахунки можливі через Wise і Revolut</li>
+  <li>Western Union і MoneyGram працюють з Україною (перевіряй актуальні ліміти на сайті сервісу)</li>
+  <li>Перевіряй денний/місячний ліміт у застосунку перед відправленням великої суми</li>
+  <li>Переказ в UAH потребує, щоб одержувач мав рахунок в українському банку та активовану дебетову картку</li>
+</ul>
+
+<h3>Як уникнути шахрайства?</h3>
+
+<ul>
+  <li>Ніколи не надсилай гроші через незнайомі застосунки або сайти</li>
+  <li>Перевіряй, чи зареєстрований сервіс у польській KNF (Комісія фінансового нагляду) або підпадає під регулювання ЄС</li>
+  <li>Не натискай на посилання з СМС про грошові перекази — це може бути фішинг</li>
+  <li>Перевіряй курс обміну безпосередньо в застосунку, не довіряй рекламі з неофіційних сайтів</li>
+</ul>
+
+<h3>Скільки коштує переказ 1 000 злотих за кордон?</h3>
+
+<p>Приблизні витрати при переказі 1 000 PLN:</p>
+<ul>
+  <li><strong>Wise:</strong> ~7–10 злотих комісії + ринковий курс → одержувач отримує максимум</li>
+  <li><strong>Revolut:</strong> 0 злотих (до ліміту) + ринковий курс</li>
+  <li><strong>Western Union:</strong> ~30–80 злотих комісії + гірший курс</li>
+  <li><strong>Банківський переказ:</strong> 25–50 злотих комісії + гірший курс (загалом ~5–8% втрат)</li>
+</ul>
+
+<h2>Працюєш у Польщі через Nexflow?</h2>
+<p>Допоможемо тобі розібратися з правами та фінансовими можливостями як іноземного працівника в Польщі. Звертайся до нас — працюємо українською, російською та англійською мовами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "denezhnye-perevody-polsha-za-granitsu-inostranets",
+    title: "Как отправить деньги из Польши за рубеж — практическое руководство для иностранцев",
+    description:
+      "Сравнение методов денежных переводов из Польши за рубеж: Wise, Revolut, Western Union, банковский перевод SWIFT. Стоимость, сроки и советы для работников из Украины и других стран.",
+    date: "2027-08-31",
+    lang: "ru",
+    content: `
+<article>
+<h2>Как отправить деньги из Польши за рубеж — практическое руководство для иностранцев</h2>
+
+<p>Работаешь в Польше и хочешь отправить деньги родственникам в Украину, Россию, Молдову или другую страну? Есть несколько вариантов — от традиционных банков до современных приложений. В этом руководстве сравниваем самые популярные способы перевода денег, их стоимость и сроки.</p>
+
+<h3>Вариант 1: Банковский перевод (SWIFT)</h3>
+
+<p>Если у тебя есть счёт в польском банке (PKO BP, mBank, ING, Pekao), можно сделать перевод SWIFT напрямую на зарубежный счёт получателя.</p>
+
+<ul>
+  <li><strong>Стоимость:</strong> 15–50 злотых (комиссия банка) + валютный спред (обычно 2–4%)</li>
+  <li><strong>Срок:</strong> 1–3 рабочих дня</li>
+  <li><strong>Что нужно:</strong> IBAN или номер счёта получателя, код SWIFT/BIC банка получателя</li>
+  <li><strong>Лимит:</strong> для сумм свыше 15 000 EUR может потребоваться декларация</li>
+</ul>
+
+<p><strong>Недостаток:</strong> Банки применяют невыгодный курс обмена и высокие комиссии за SWIFT. Выгоднее использовать специализированные сервисы.</p>
+
+<h3>Вариант 2: Wise (бывший TransferWise)</h3>
+
+<p>Wise — приложение для валютных переводов по курсу, близкому к рыночному (mid-market rate). Значительно дешевле банка и очень популярно среди иностранных работников.</p>
+
+<ul>
+  <li><strong>Стоимость:</strong> ~0,5–1% суммы перевода (без скрытых комиссий)</li>
+  <li><strong>Срок:</strong> несколько минут — 1 рабочий день</li>
+  <li><strong>Что нужно:</strong> документ, удостоверяющий личность, номер банковского счёта получателя</li>
+  <li><strong>Поддерживаемые страны:</strong> Украина ✅, ЕС ✅, более 80 других стран</li>
+</ul>
+
+<p><strong>Как начать:</strong> Скачай приложение Wise на смартфон, зарегистрируйся (нужен документ, удостоверяющий личность — паспорт или карта проживания), добавь польский банковский счёт как источник финансирования и отправляй деньги.</p>
+
+<h3>Вариант 3: Revolut</h3>
+
+<p>Revolut — мультивалютная карта и счёт. Можно обменять PLN на EUR, USD или другую валюту по рыночному курсу и отправить деньги бесплатно (или за минимальную комиссию).</p>
+
+<ul>
+  <li><strong>Стоимость:</strong> бесплатно до месячного лимита (план Standard), затем 0,5%</li>
+  <li><strong>Срок:</strong> мгновенно (между счетами Revolut), 1–2 дня (на обычный банковский счёт)</li>
+  <li><strong>Поддерживаемые страны:</strong> Украина ✅, ЕС ✅</li>
+</ul>
+
+<h3>Вариант 4: Western Union / MoneyGram</h3>
+
+<p>Классические денежные переводы — получатель может получить наличные без банковского счёта. Идеально, если родственники не имеют банковского счёта.</p>
+
+<ul>
+  <li><strong>Стоимость:</strong> выше, чем Wise/Revolut — ~3–8% суммы перевода</li>
+  <li><strong>Срок:</strong> несколько минут (наличные), 1–3 дня (на счёт)</li>
+  <li><strong>Где отправить:</strong> пункты Western Union и MoneyGram в Польше — заправки, магазины, почта</li>
+</ul>
+
+<h3>Вариант 5: Онлайн-обменники (Walutomat, Cinkciarz)</h3>
+
+<p>Польские онлайн-обменники предлагают выгодный курс обмена и возможность перевода за рубеж. Требуют предварительной регистрации и верификации счёта.</p>
+
+<ul>
+  <li><strong>Стоимость:</strong> валютный спред ~0,5–1%, комиссия SWIFT ~10–20 злотых</li>
+  <li><strong>Срок:</strong> 1–2 рабочих дня</li>
+</ul>
+
+<h3>Сравнение — что выбрать?</h3>
+
+<table>
+  <tr><th>Метод</th><th>Стоимость</th><th>Срок</th><th>Получение наличными</th></tr>
+  <tr><td>Wise</td><td>~1%</td><td>несколько мин–1 день</td><td>❌</td></tr>
+  <tr><td>Revolut</td><td>0–0,5%</td><td>мгновенно–2 дня</td><td>❌</td></tr>
+  <tr><td>Western Union</td><td>3–8%</td><td>несколько минут</td><td>✅</td></tr>
+  <tr><td>Перевод SWIFT</td><td>15–50 зл + 2–4%</td><td>1–3 дня</td><td>❌</td></tr>
+  <tr><td>Онлайн-обменник</td><td>~1% + 10–20 зл</td><td>1–2 дня</td><td>❌</td></tr>
+</table>
+
+<p><strong>Рекомендация:</strong> Для регулярных переводов на банковский счёт — Wise или Revolut. Если родственники не имеют банковского счёта — Western Union или MoneyGram.</p>
+
+<h3>Важная информация для работников из Украины</h3>
+
+<p>После 2022 года Украина ввела ограничения на валютные выплаты за рубеж. Однако:</p>
+<ul>
+  <li>Переводы в злотых (PLN) на украинские банковские счета возможны через Wise и Revolut</li>
+  <li>Western Union и MoneyGram работают с Украиной (проверяй актуальные лимиты на сайте сервиса)</li>
+  <li>Проверяй дневной/месячный лимит в приложении перед отправкой крупной суммы</li>
+  <li>Перевод в UAH требует, чтобы получатель имел счёт в украинском банке и активированную дебетовую карту</li>
+</ul>
+
+<h3>Как избежать мошенничества?</h3>
+
+<ul>
+  <li>Никогда не отправляй деньги через незнакомые приложения или сайты</li>
+  <li>Проверяй, зарегистрирован ли сервис в польской KNF (Комиссия финансового надзора) или подпадает под регулирование ЕС</li>
+  <li>Не переходи по ссылкам из СМС о денежных переводах — это может быть фишинг</li>
+  <li>Проверяй курс обмена непосредственно в приложении, не доверяй рекламе с неофициальных сайтов</li>
+</ul>
+
+<h3>Сколько стоит перевод 1 000 злотых за рубеж?</h3>
+
+<p>Примерные затраты при переводе 1 000 PLN:</p>
+<ul>
+  <li><strong>Wise:</strong> ~7–10 злотых комиссии + рыночный курс → получатель получает максимум</li>
+  <li><strong>Revolut:</strong> 0 злотых (до лимита) + рыночный курс</li>
+  <li><strong>Western Union:</strong> ~30–80 злотых комиссии + худший курс</li>
+  <li><strong>Банковский перевод:</strong> 25–50 злотых комиссии + худший курс (всего ~5–8% потерь)</li>
+</ul>
+
+<h2>Работаешь в Польше через Nexflow?</h2>
+<p>Поможем разобраться с правами и финансовыми возможностями как иностранного работника в Польше. Обращайся к нам — работаем на украинском, русском и английском языках.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "sending-money-abroad-from-poland-foreign-worker",
+    title: "How to Send Money from Poland Abroad — Practical Guide for Foreign Workers",
+    description:
+      "Comparing money transfer methods from Poland: Wise, Revolut, Western Union, SWIFT bank transfer. Costs, timelines and tips for workers from Ukraine and other countries.",
+    date: "2027-09-07",
+    lang: "en",
+    content: `
+<article>
+<h2>How to Send Money from Poland Abroad — Practical Guide for Foreign Workers</h2>
+
+<p>Working in Poland and want to send money to family in Ukraine, Russia, Moldova or another country? There are several options — from traditional banks to modern apps. This guide compares the most popular money transfer methods, their costs and transfer times.</p>
+
+<h3>Option 1: Bank transfer (SWIFT)</h3>
+
+<p>If you have a Polish bank account (PKO BP, mBank, ING, Pekao), you can send a SWIFT transfer directly to the recipient's foreign bank account.</p>
+
+<ul>
+  <li><strong>Cost:</strong> 15–50 PLN (bank fee) + currency spread (usually 2–4%)</li>
+  <li><strong>Transfer time:</strong> 1–3 business days</li>
+  <li><strong>What you need:</strong> IBAN or account number, SWIFT/BIC code of the recipient's bank</li>
+  <li><strong>Note:</strong> For amounts over 15,000 EUR a declaration may be required</li>
+</ul>
+
+<p><strong>Downside:</strong> Polish banks apply an unfavourable exchange rate and high SWIFT fees. Specialised services are significantly cheaper.</p>
+
+<h3>Option 2: Wise (formerly TransferWise)</h3>
+
+<p>Wise is an app for currency transfers at a rate close to the mid-market rate. It is significantly cheaper than a bank and very popular among foreign workers.</p>
+
+<ul>
+  <li><strong>Cost:</strong> ~0.5–1% of the transfer amount (no hidden fees)</li>
+  <li><strong>Transfer time:</strong> a few minutes to 1 business day</li>
+  <li><strong>What you need:</strong> a government-issued ID, the recipient's bank account number</li>
+  <li><strong>Supported countries:</strong> Ukraine ✅, EU ✅, and over 80 other countries</li>
+</ul>
+
+<p><strong>How to get started:</strong> Download the Wise app, register (you need a passport or residence card), add your Polish bank account as the funding source, and send money.</p>
+
+<h3>Option 3: Revolut</h3>
+
+<p>Revolut is a multi-currency card and account. You can exchange PLN to EUR, USD, UAH or other currencies at the market rate and send money for free (or at a low fee).</p>
+
+<ul>
+  <li><strong>Cost:</strong> free up to a monthly limit (Standard plan), then 0.5%</li>
+  <li><strong>Transfer time:</strong> instant (between Revolut accounts), 1–2 days (to bank accounts)</li>
+  <li><strong>Supported countries:</strong> Ukraine ✅, EU ✅</li>
+</ul>
+
+<h3>Option 4: Western Union / MoneyGram</h3>
+
+<p>Classic money transfers — the recipient can collect cash without a bank account. Ideal if your family does not have a bank account.</p>
+
+<ul>
+  <li><strong>Cost:</strong> higher than Wise/Revolut — ~3–8% of the transfer amount</li>
+  <li><strong>Transfer time:</strong> a few minutes (cash pickup), 1–3 days (bank deposit)</li>
+  <li><strong>Where to send:</strong> Western Union and MoneyGram locations in Poland — petrol stations, shops, post offices</li>
+</ul>
+
+<h3>Option 5: Online currency exchanges (Walutomat, Cinkciarz)</h3>
+
+<p>Polish online currency exchanges offer competitive exchange rates and the ability to transfer funds abroad. They require prior registration and account verification.</p>
+
+<ul>
+  <li><strong>Cost:</strong> currency spread ~0.5–1%, SWIFT fee ~10–20 PLN</li>
+  <li><strong>Transfer time:</strong> 1–2 business days</li>
+</ul>
+
+<h3>Comparison — which to choose?</h3>
+
+<table>
+  <tr><th>Method</th><th>Cost</th><th>Time</th><th>Cash pickup</th></tr>
+  <tr><td>Wise</td><td>~1%</td><td>minutes–1 day</td><td>❌</td></tr>
+  <tr><td>Revolut</td><td>0–0.5%</td><td>instant–2 days</td><td>❌</td></tr>
+  <tr><td>Western Union</td><td>3–8%</td><td>minutes</td><td>✅</td></tr>
+  <tr><td>SWIFT transfer</td><td>15–50 PLN + 2–4%</td><td>1–3 days</td><td>❌</td></tr>
+  <tr><td>Online exchange</td><td>~1% + 10–20 PLN</td><td>1–2 days</td><td>❌</td></tr>
+</table>
+
+<p><strong>Recommendation:</strong> For regular transfers to a bank account — use Wise or Revolut. If your family does not have a bank account — use Western Union or MoneyGram.</p>
+
+<h3>Important for workers from Ukraine</h3>
+
+<p>Since 2022, Ukraine has introduced restrictions on foreign currency transfers. However:</p>
+<ul>
+  <li>Transfers in PLN (Polish zloty) to Ukrainian bank accounts are possible via Wise and Revolut</li>
+  <li>Western Union and MoneyGram operate with Ukraine (check current limits on the service's website)</li>
+  <li>Check the daily/monthly limit in the app before sending a large amount</li>
+  <li>UAH transfers require the recipient to have a Ukrainian bank account and an active debit card</li>
+</ul>
+
+<h3>How to avoid scams?</h3>
+
+<ul>
+  <li>Never send money through unfamiliar apps or websites</li>
+  <li>Check whether the service is registered with the Polish KNF (Financial Supervision Authority) or regulated by EU law</li>
+  <li>Do not click on links in SMS messages about money transfers — this could be phishing</li>
+  <li>Check the exchange rate directly in the app; do not trust ads from unofficial websites</li>
+</ul>
+
+<h3>How much does sending 1,000 PLN abroad cost?</h3>
+
+<p>Approximate costs when transferring 1,000 PLN:</p>
+<ul>
+  <li><strong>Wise:</strong> ~7–10 PLN fee + market rate → recipient gets the maximum amount</li>
+  <li><strong>Revolut:</strong> 0 PLN (within the limit) + market rate</li>
+  <li><strong>Western Union:</strong> ~30–80 PLN fee + worse exchange rate</li>
+  <li><strong>Bank SWIFT transfer:</strong> 25–50 PLN fee + worse rate (total ~5–8% loss)</li>
+</ul>
+
+<h2>Working in Poland through Nexflow?</h2>
+<p>We help foreign workers understand their rights and financial options in Poland. Reach out — we work in Ukrainian, Russian and English.</p>
+</article>
+    `.trim(),
   }
 ];
 
