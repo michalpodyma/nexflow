@@ -7295,6 +7295,382 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>Working in Poland through Nexflow and have questions about your PIT-11? Reach out — we are here to help.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "nfz-jak-korzystac-cudzoziemiec-polska",
+    title:
+      "NFZ dla cudzoziemca: jak korzystać z ubezpieczenia zdrowotnego w Polsce",
+    description:
+      "Jak korzystać z NFZ jako cudzoziemiec w Polsce — krok po kroku. Jak znaleźć lekarza POZ, co zabrać na wizytę, jak uzyskać skierowanie do specjalisty i co zrobić w nagłych przypadkach. Praktyczny poradnik dla pracowników z Ukrainy i innych krajów.",
+    date: "2027-07-20",
+    lang: "pl",
+    content: `
+<h2>NFZ dla cudzoziemca: jak korzystać z ubezpieczenia zdrowotnego w Polsce</h2>
+
+<p>Jesteś cudzoziemcem pracującym w Polsce? Jeśli Twój pracodawca odprowadza za Ciebie składki do ZUS, masz prawo do bezpłatnej opieki medycznej w ramach Narodowego Funduszu Zdrowia (NFZ). Problem polega na tym, że mało kto wyjaśnia <strong>jak to działa w praktyce</strong>. Ten przewodnik krok po kroku pokazuje, jak z NFZ korzystać na co dzień.</p>
+
+<h3>Kto ma prawo do NFZ?</h3>
+<p>Prawo do świadczeń zdrowotnych w ramach NFZ przysługuje Ci, jeśli:</p>
+<ul>
+  <li>Jesteś zatrudniony na umowę o pracę lub umowę zlecenia i pracodawca odprowadza za Ciebie składkę zdrowotną do ZUS</li>
+  <li>Posiadasz Kartę Czasowego Pobytu lub inny tytuł legalnego pobytu w Polsce</li>
+  <li>Jesteś zarejestrowany jako bezrobotny w Urzędzie Pracy</li>
+</ul>
+<p><strong>Uwaga:</strong> Samo posiadanie pozwolenia na pracę nie daje prawa do NFZ – musisz mieć aktywną umowę i opłacane składki. Sprawdź z pracodawcą, czy Twoje składki są regularnie odprowadzane.</p>
+
+<h3>Jak znaleźć lekarza NFZ?</h3>
+<p>Pierwszym krokiem jest wybór <strong>lekarza pierwszego kontaktu (POZ)</strong> – po polsku „lekarz POZ" lub „lekarz rodzinny". To Twój podstawowy lekarz, który wystawia skierowania do specjalistów.</p>
+
+<p>Jak znaleźć lekarza POZ przyjmującego w NFZ:</p>
+<ol>
+  <li>Wejdź na stronę <strong>znaleźlekarz.nfz.gov.pl</strong> lub aplikację <strong>mojeIKP</strong></li>
+  <li>Wpisz swoją miejscowość i zaznacz filtr „NFZ"</li>
+  <li>Wybierz przychodnię lub lekarza, który ma wolne zapisy</li>
+  <li>Zadzwoń lub przyjdź osobiście i złóż <strong>Deklarację wyboru lekarza POZ</strong> (prosty formularz – imię, PESEL, podpis)</li>
+</ol>
+<p>Możesz zmienić lekarza POZ raz w roku bezpłatnie (w szczególnych przypadkach częściej).</p>
+
+<h3>Wizyta u lekarza – co zabrać?</h3>
+<p>Na pierwszą wizytę przygotuj:</p>
+<ul>
+  <li>Dokument tożsamości (paszport lub dowód osobisty)</li>
+  <li>Numer PESEL (niezbędny do rejestracji)</li>
+  <li>Kartę pobytu (jeśli ją masz)</li>
+</ul>
+<p>Recepcja zweryfikuje Twoje ubezpieczenie w systemie <strong>EWUŚ</strong> (Elektroniczna Weryfikacja Uprawnień Świadczeniobiorców). Jeśli system nie potwierdza ubezpieczenia, możesz podpisać <strong>oświadczenie o przysługującym prawie do świadczeń</strong> – w takiej sytuacji lekarz jest zobowiązany Cię przyjąć.</p>
+
+<h3>Skierowanie do specjalisty</h3>
+<p>Do większości specjalistów w NFZ potrzebujesz <strong>skierowania od lekarza POZ</strong>. Wyjątki – bez skierowania możesz się zgłosić bezpośrednio do:</p>
+<ul>
+  <li>Psychiatry</li>
+  <li>Dentysty (zakres bezpłatnych usług jest jednak ograniczony)</li>
+  <li>Ginekologa i położnika</li>
+  <li>Okulisty</li>
+  <li>Dermatologa</li>
+  <li>Wenerologa</li>
+  <li>Onkologa</li>
+</ul>
+<p>Skierowanie możesz wykorzystać w dowolnej poradni specjalistycznej NFZ w Polsce – nie musisz chodzić do poradni w swoim mieście.</p>
+
+<h3>Jak działa NFZ u dentysty?</h3>
+<p>NFZ refunduje tylko <strong>podstawowe usługi stomatologiczne</strong>: konsultację, ekstrakcję zęba, plombę amalgamatową, usuwanie kamienia nazębnego raz w roku. Usługi estetyczne (białe plomby kompozytowe, licówki, ortodoncja) są płatne. Wielu dentystów ma kontrakt z NFZ tylko na część usług – zapytaj przed wizytą, co jest objęte refundacją.</p>
+
+<h3>Pogotowie i SOR – kiedy jechać?</h3>
+<p>Jeśli potrzebujesz natychmiastowej pomocy, masz trzy kanały:</p>
+<ul>
+  <li><strong>Pogotowie ratunkowe: 112 lub 999</strong> – w stanach bezpośredniego zagrożenia życia (zawał, wypadek, utrata przytomności)</li>
+  <li><strong>SOR (Szpitalny Oddział Ratunkowy)</strong> – przypadki pilne, które nie zagrażają życiu bezpośrednio, ale wymagają szybkiej diagnostyki lub leczenia</li>
+  <li><strong>NiŻ (Nocna i Weekendowa Opieka Zdrowotna)</strong> – wieczorami, nocą i w weekendy, gdy POZ jest nieczynny, dla przypadków niewymagających SOR (np. angina, infekcja, ból ucha)</li>
+</ul>
+<p>Zgłaszając się na SOR lub do pogotowia jako osoba ubezpieczona w NFZ – <strong>nie płacisz</strong>. Nawet jeśli system EWUŚ chwilowo nie potwierdzi ubezpieczenia.</p>
+
+<h3>Refundacja leków</h3>
+<p>Leki na receptę mogą być refundowane przez NFZ w różnym zakresie: bezpłatne (0 zł), za 30% lub 50% ceny. Lekarz wypisując receptę zaznacza, czy lek jest refundowany. W aptece zapytaj o „lek refundowany" lub „odpowiednik refundowany", jeśli chcesz tańszy zamiennik.</p>
+
+<h3>Aplikacja mojeIKP – must-have</h3>
+<p>Pobierz aplikację <strong>mojeIKP</strong> (Moje Internetowe Konto Pacjenta) – dostępna w App Store i Google Play. Po zalogowaniu przez Profil Zaufany możesz:</p>
+<ul>
+  <li>Sprawdzić, czy jesteś aktualnie ubezpieczony w NFZ</li>
+  <li>Zobaczyć historię wizyt, badań i recept</li>
+  <li>Pobrać e-ZLA (elektroniczne zwolnienie lekarskie)</li>
+  <li>Zapisać się do lekarza online (w przychodni korzystającej z e-rejestracji)</li>
+</ul>
+
+<h3>Co robić, gdy NFZ odmawia?</h3>
+<p>Jeśli placówka odmawia przyjęcia w ramach NFZ bez uzasadnienia:</p>
+<ol>
+  <li>Poproś o odmowę na piśmie</li>
+  <li>Zgłoś sprawę do <strong>oddziału NFZ</strong> właściwego dla Twojego województwa (kontakt na nfz.gov.pl)</li>
+  <li>Możesz też złożyć skargę do <strong>Rzecznika Praw Pacjenta</strong> (bezpłatna infolinia: 800 190 590)</li>
+</ol>
+
+<h3>Podsumowanie</h3>
+<p>NFZ to solidna ochrona zdrowia dla pracujących cudzoziemców w Polsce. Kluczowe kroki: znaleźć lekarza POZ przez znaleźlekarz.nfz.gov.pl, zabrać na wizytę PESEL i paszport, a w razie wątpliwości co do ubezpieczenia – podpisać oświadczenie o prawie do świadczeń. W nagłych przypadkach masz prawo do pomocy medycznej bez żadnych formalności i bez opłat.</p>
+
+<p><strong>Nexflow</strong> wspiera cudzoziemców na każdym etapie legalizacji pracy i pobytu w Polsce. Skontaktuj się z nami, jeśli masz pytania dotyczące NFZ lub innych formalności pracowniczych.</p>
+    `.trim(),
+  },
+  {
+    slug: "nfz-yak-korystuvatys-inozemets-polshcha",
+    title:
+      "НФЗ для іноземця: як користуватися медичним страхуванням у Польщі",
+    description:
+      "Як користуватися НФЗ як іноземець у Польщі — покроковий посібник. Як знайти лікаря POZ, що взяти на прийом, як отримати направлення до спеціаліста та що робити у невідкладних ситуаціях. Практичний посібник для працівників з України та інших країн.",
+    date: "2027-07-27",
+    lang: "uk",
+    content: `
+<h2>НФЗ для іноземця: як користуватися медичним страхуванням у Польщі</h2>
+
+<p>Ви іноземець, який працює в Польщі? Якщо ваш роботодавець сплачує за вас внески до ZUS, ви маєте право на безкоштовну медичну допомогу в рамках Народного фонду здоров'я (НФЗ / NFZ). Проблема в тому, що мало хто пояснює, <strong>як це працює на практиці</strong>. Цей покроковий посібник показує, як користуватися НФЗ щодня.</p>
+
+<h3>Хто має право на НФЗ?</h3>
+<p>Право на медичну допомогу в рамках НФЗ ви маєте, якщо:</p>
+<ul>
+  <li>Ви працюєте за трудовим договором або договором-дорученням (умова злецення), і роботодавець сплачує за вас медичний внесок до ZUS</li>
+  <li>Ви маєте Карту тимчасового проживання або інший дозвіл на легальне перебування в Польщі</li>
+  <li>Ви зареєстровані як безробітний у відділі зайнятості (Urząd Pracy)</li>
+</ul>
+<p><strong>Увага:</strong> Сам по собі дозвіл на роботу не дає права на НФЗ — потрібен активний договір із внесками. Уточніть у роботодавця, чи регулярно сплачуються ваші внески.</p>
+
+<h3>Як знайти лікаря НФЗ?</h3>
+<p>Перший крок — вибрати <strong>лікаря первинної медичної допомоги (ПМД / POZ)</strong> — польською «лікар POZ» або «сімейний лікар». Це ваш основний лікар, який видає направлення до спеціалістів.</p>
+
+<p>Як знайти лікаря POZ, що приймає в НФЗ:</p>
+<ol>
+  <li>Зайдіть на сайт <strong>znaleźlekarz.nfz.gov.pl</strong> або в застосунок <strong>mojeIKP</strong></li>
+  <li>Введіть своє місто та поставте фільтр «NFZ»</li>
+  <li>Виберіть клініку або лікаря, до якого є вільний запис</li>
+  <li>Зателефонуйте або прийдіть особисто й заповніть <strong>Декларацію вибору лікаря POZ</strong> (простий бланк — ім'я, PESEL, підпис)</li>
+</ol>
+<p>Лікаря POZ можна змінювати безкоштовно раз на рік (у виняткових випадках — частіше).</p>
+
+<h3>Що взяти на прийом до лікаря?</h3>
+<p>На перший прийом підготуйте:</p>
+<ul>
+  <li>Документ, що посвідчує особу (паспорт або посвідчення особи)</li>
+  <li>Номер PESEL (необхідний для реєстрації)</li>
+  <li>Карту проживання (якщо є)</li>
+</ul>
+<p>Реєстратура перевірить вашу страховку в системі <strong>EWUŚ</strong> (Електронна верифікація прав застрахованих). Якщо система не підтверджує страховку, ви можете підписати <strong>заяву про право на медичну допомогу</strong> — у такому випадку лікар зобов'язаний вас прийняти.</p>
+
+<h3>Направлення до спеціаліста</h3>
+<p>До більшості спеціалістів НФЗ потрібне <strong>направлення від лікаря POZ</strong>. Виняток — без направлення можна звернутися безпосередньо до:</p>
+<ul>
+  <li>Психіатра</li>
+  <li>Стоматолога (але обсяг безкоштовних послуг обмежений)</li>
+  <li>Гінеколога і акушера</li>
+  <li>Офтальмолога</li>
+  <li>Дерматолога</li>
+  <li>Венеролога</li>
+  <li>Онколога</li>
+</ul>
+<p>Направлення можна використати в будь-якій спеціалізованій клініці НФЗ у Польщі — не обов'язково у вашому місті.</p>
+
+<h3>Як НФЗ працює у стоматолога?</h3>
+<p>НФЗ покриває лише <strong>базові стоматологічні послуги</strong>: консультацію, видалення зуба, пломбу (амальгамну), зняття зубного каменю раз на рік. Естетичні послуги (білі композитні пломби, вініри, ортодонтія) — платні. Багато стоматологів мають контракт із НФЗ лише на частину послуг — запитайте заздалегідь.</p>
+
+<h3>Швидка допомога та SOR — коли їхати?</h3>
+<p>Якщо вам потрібна невідкладна допомога, є три канали:</p>
+<ul>
+  <li><strong>Швидка допомога: 112 або 999</strong> — при безпосередній загрозі життю (серцевий напад, нещасний випадок, непритомність)</li>
+  <li><strong>SOR (Лікарняне відділення невідкладної допомоги)</strong> — термінові випадки, що не загрожують безпосередньо життю, але потребують швидкої діагностики чи лікування</li>
+  <li><strong>NiŻ (Нічна та вихідна медична допомога)</strong> — ввечері, вночі та у вихідні, коли POZ не працює, для нетермінових випадків (ангіна, інфекція, біль у вусі)</li>
+</ul>
+<p>Якщо ви застраховані в НФЗ, при зверненні до SOR або швидкої допомоги ви <strong>нічого не платите</strong> — навіть якщо система EWUŚ тимчасово не підтверджує страховку.</p>
+
+<h3>Відшкодування ліків</h3>
+<p>Рецептурні ліки можуть відшкодовуватися НФЗ у різному обсязі: безкоштовно (0 зл), за 30% або 50% ціни. Призначаючи рецепт, лікар зазначає, чи відшкодовується ліки. В аптеці запитайте про «ліки зі знижкою» (lek refundowany) або дешевший замінник.</p>
+
+<h3>Застосунок mojeIKP — must-have</h3>
+<p>Завантажте застосунок <strong>mojeIKP</strong> (Моє Інтернет-Рахунок Пацієнта) — доступний у App Store та Google Play. Після входу через Профіль Довіри (Profil Zaufany) ви зможете:</p>
+<ul>
+  <li>Перевірити, чи ви зараз застраховані в НФЗ</li>
+  <li>Переглянути історію візитів, аналізів і рецептів</li>
+  <li>Завантажити e-ZLA (електронний лікарняний лист)</li>
+  <li>Записатися до лікаря онлайн (у клініках із системою е-запису)</li>
+</ul>
+
+<h3>Що робити, якщо НФЗ відмовляє?</h3>
+<p>Якщо медичний заклад відмовляє у прийомі в рамках НФЗ без обґрунтування:</p>
+<ol>
+  <li>Попросіть відмову в письмовій формі</li>
+  <li>Зверніться до <strong>відділу НФЗ</strong> вашого воєводства (контакти на nfz.gov.pl)</li>
+  <li>Також можна подати скаргу до <strong>Уповноваженого з прав пацієнта</strong> (безкоштовна гаряча лінія: 800 190 590)</li>
+</ol>
+
+<h3>Підсумок</h3>
+<p>НФЗ — надійний медичний захист для іноземних працівників у Польщі. Головне: знайти лікаря POZ через znaleźlekarz.nfz.gov.pl, взяти на прийом PESEL і паспорт, а при сумнівах щодо страховки — підписати заяву про право на допомогу. У невідкладних випадках ви маєте право на медичну допомогу без жодних формальностей і безкоштовно.</p>
+
+<p><strong>Nexflow</strong> підтримує іноземних працівників на кожному етапі легалізації роботи та проживання в Польщі. Зв'яжіться з нами, якщо у вас є запитання щодо НФЗ або інших трудових формальностей.</p>
+    `.trim(),
+  },
+  {
+    slug: "nfz-kak-polzovatsya-inostranets-polsha",
+    title:
+      "НФЗ для иностранца: как пользоваться медицинской страховкой в Польше",
+    description:
+      "Как пользоваться НФЗ как иностранец в Польше — пошаговое руководство. Как найти врача POZ, что взять на приём, как получить направление к специалисту и что делать в экстренных случаях. Практическое руководство для работников из Украины и других стран.",
+    date: "2027-08-03",
+    lang: "ru",
+    content: `
+<h2>НФЗ для иностранца: как пользоваться медицинской страховкой в Польше</h2>
+
+<p>Вы иностранец, работающий в Польше? Если ваш работодатель платит за вас взносы в ZUS, вы имеете право на бесплатную медицинскую помощь в рамках Национального фонда здоровья (НФЗ / NFZ). Проблема в том, что мало кто объясняет, <strong>как это работает на практике</strong>. Это пошаговое руководство показывает, как пользоваться НФЗ в повседневной жизни.</p>
+
+<h3>Кто имеет право на НФЗ?</h3>
+<p>Право на медицинскую помощь в рамках НФЗ вы имеете, если:</p>
+<ul>
+  <li>Вы работаете по трудовому договору или договору-поручению (umowa zlecenia), и работодатель перечисляет за вас медицинский взнос в ZUS</li>
+  <li>У вас есть Карта временного проживания или иной документ, подтверждающий законное пребывание в Польше</li>
+  <li>Вы зарегистрированы как безработный в центре занятости (Urząd Pracy)</li>
+</ul>
+<p><strong>Внимание:</strong> Само по себе разрешение на работу не даёт права на НФЗ — необходим действующий договор с уплатой взносов. Уточните у работодателя, регулярно ли перечисляются ваши взносы.</p>
+
+<h3>Как найти врача НФЗ?</h3>
+<p>Первый шаг — выбрать <strong>врача первичной медицинской помощи (ПМП / POZ)</strong> — по-польски «lekarz POZ» или «семейный врач». Это ваш основной врач, который выдаёт направления к специалистам.</p>
+
+<p>Как найти врача POZ, принимающего по НФЗ:</p>
+<ol>
+  <li>Зайдите на сайт <strong>znaleźlekarz.nfz.gov.pl</strong> или в приложение <strong>mojeIKP</strong></li>
+  <li>Введите свой город и установите фильтр «NFZ»</li>
+  <li>Выберите клинику или врача, к которому есть свободная запись</li>
+  <li>Позвоните или придите лично и заполните <strong>Декларацию выбора врача POZ</strong> (простой бланк — имя, PESEL, подпись)</li>
+</ol>
+<p>Врача POZ можно менять бесплатно раз в год (в исключительных случаях — чаще).</p>
+
+<h3>Что взять на приём к врачу?</h3>
+<p>На первый приём подготовьте:</p>
+<ul>
+  <li>Документ, удостоверяющий личность (паспорт или удостоверение личности)</li>
+  <li>Номер PESEL (необходим для регистрации)</li>
+  <li>Карту проживания (если имеется)</li>
+</ul>
+<p>Регистратура проверит вашу страховку в системе <strong>EWUŚ</strong> (Электронная верификация прав застрахованных). Если система не подтверждает страховку, вы можете подписать <strong>заявление о праве на медицинскую помощь</strong> — в такой ситуации врач обязан вас принять.</p>
+
+<h3>Направление к специалисту</h3>
+<p>К большинству специалистов НФЗ требуется <strong>направление от врача POZ</strong>. Исключения — без направления можно обратиться напрямую к:</p>
+<ul>
+  <li>Психиатру</li>
+  <li>Стоматологу (но объём бесплатных услуг ограничен)</li>
+  <li>Гинекологу и акушеру</li>
+  <li>Офтальмологу</li>
+  <li>Дерматологу</li>
+  <li>Венерологу</li>
+  <li>Онкологу</li>
+</ul>
+<p>Направление можно использовать в любой специализированной клинике НФЗ в Польше — не обязательно в вашем городе.</p>
+
+<h3>Как НФЗ работает у стоматолога?</h3>
+<p>НФЗ покрывает только <strong>базовые стоматологические услуги</strong>: консультацию, удаление зуба, пломбу (амальгамную), снятие зубного камня раз в год. Эстетические услуги (белые композитные пломбы, виниры, ортодонтия) — платные. Многие стоматологи имеют контракт с НФЗ только на часть услуг — уточните заранее.</p>
+
+<h3>Скорая помощь и SOR — когда ехать?</h3>
+<p>Если вам нужна неотложная помощь, есть три канала:</p>
+<ul>
+  <li><strong>Скорая помощь: 112 или 999</strong> — при непосредственной угрозе жизни (инфаркт, несчастный случай, потеря сознания)</li>
+  <li><strong>SOR (Больничное отделение неотложной помощи)</strong> — срочные случаи, не угрожающие жизни напрямую, но требующие быстрой диагностики или лечения</li>
+  <li><strong>NiŻ (Ночная и выходная медицинская помощь)</strong> — вечером, ночью и в выходные, когда POZ не работает, для несрочных случаев (ангина, инфекция, боль в ухе)</li>
+</ul>
+<p>Если вы застрахованы в НФЗ, при обращении в SOR или скорую помощь вы <strong>ничего не платите</strong> — даже если система EWUŚ временно не подтверждает страховку.</p>
+
+<h3>Компенсация за лекарства</h3>
+<p>Рецептурные лекарства могут компенсироваться НФЗ в разном объёме: бесплатно (0 зл), за 30% или 50% цены. Выписывая рецепт, врач отмечает, компенсируется ли препарат. В аптеке попросите «компенсируемые лекарства» (lek refundowany) или более дешёвый аналог.</p>
+
+<h3>Приложение mojeIKP — must-have</h3>
+<p>Скачайте приложение <strong>mojeIKP</strong> (Мой Интернет-Счёт Пациента) — доступно в App Store и Google Play. После входа через Профиль Доверия (Profil Zaufany) вы сможете:</p>
+<ul>
+  <li>Проверить, застрахованы ли вы сейчас в НФЗ</li>
+  <li>Просмотреть историю визитов, анализов и рецептов</li>
+  <li>Скачать e-ZLA (электронный больничный лист)</li>
+  <li>Записаться к врачу онлайн (в клиниках с системой электронной записи)</li>
+</ul>
+
+<h3>Что делать, если НФЗ отказывает?</h3>
+<p>Если медицинское учреждение отказывает в приёме по НФЗ без обоснования:</p>
+<ol>
+  <li>Попросите отказ в письменном виде</li>
+  <li>Обратитесь в <strong>отдел НФЗ</strong> вашего воеводства (контакты на nfz.gov.pl)</li>
+  <li>Также можно подать жалобу Уполномоченному по правам пациентов (бесплатная горячая линия: 800 190 590)</li>
+</ol>
+
+<h3>Итоги</h3>
+<p>НФЗ — надёжная медицинская защита для иностранных работников в Польше. Главное: найти врача POZ через znaleźlekarz.nfz.gov.pl, взять на приём PESEL и паспорт, а при сомнениях в наличии страховки — подписать заявление о праве на помощь. В экстренных случаях вы имеете право на медицинскую помощь без каких-либо формальностей и без оплаты.</p>
+
+<p><strong>Nexflow</strong> поддерживает иностранных работников на каждом этапе легализации работы и проживания в Польше. Свяжитесь с нами, если у вас есть вопросы по НФЗ или другим трудовым формальностям.</p>
+    `.trim(),
+  },
+  {
+    slug: "nfz-how-to-use-health-insurance-foreign-worker-poland",
+    title:
+      "NFZ Health Insurance for Foreign Workers in Poland: A Practical Guide",
+    description:
+      "How to use NFZ health insurance as a foreign worker in Poland — step by step. How to find a POZ doctor, what to bring to your appointment, how to get a specialist referral, and what to do in emergencies. Practical guide for workers from Ukraine and other countries.",
+    date: "2027-08-10",
+    lang: "en",
+    content: `
+<h2>NFZ Health Insurance for Foreign Workers in Poland: A Practical Guide</h2>
+
+<p>Working in Poland as a foreign worker? If your employer pays your ZUS social security contributions, you're entitled to free healthcare through Poland's National Health Fund (NFZ — Narodowy Fundusz Zdrowia). The challenge is that few people explain <strong>how the system actually works in practice</strong>. This step-by-step guide shows you how to use your NFZ coverage day-to-day.</p>
+
+<h3>Who qualifies for NFZ coverage?</h3>
+<p>You have the right to NFZ healthcare if:</p>
+<ul>
+  <li>You're employed on an employment contract (umowa o pracę) or a civil-law contract (umowa zlecenia) and your employer pays your health insurance contribution to ZUS</li>
+  <li>You hold a Temporary Residence Card (Karta Czasowego Pobytu) or another valid legal residence permit in Poland</li>
+  <li>You're registered as unemployed at a local employment office (Urząd Pracy)</li>
+</ul>
+<p><strong>Important:</strong> Having a work permit alone does not give you NFZ access — you need an active contract with contributions being paid. Confirm with your employer that your contributions are being submitted regularly.</p>
+
+<h3>How to find an NFZ doctor</h3>
+<p>Your first step is choosing a <strong>primary care physician (POZ — Podstawowa Opieka Zdrowotna)</strong>, also called a "family doctor" (lekarz rodzinny). This is your main doctor who issues referrals to specialists.</p>
+
+<p>How to find an NFZ primary care doctor:</p>
+<ol>
+  <li>Visit <strong>znaleźlekarz.nfz.gov.pl</strong> or open the <strong>mojeIKP</strong> app</li>
+  <li>Enter your city and filter by "NFZ"</li>
+  <li>Choose a clinic or doctor with available appointments</li>
+  <li>Call or visit in person to submit a <strong>Declaration of Choice of POZ Doctor</strong> (a simple form — your name, PESEL number, signature)</li>
+</ol>
+<p>You can change your primary care doctor once per year for free (more often in exceptional circumstances).</p>
+
+<h3>What to bring to your appointment</h3>
+<p>For your first visit, bring:</p>
+<ul>
+  <li>A photo ID (passport or national ID card)</li>
+  <li>Your PESEL number (required for registration)</li>
+  <li>Your residence card (if you have one)</li>
+</ul>
+<p>The receptionist will verify your insurance status in the <strong>EWUŚ system</strong> (Electronic Verification of Healthcare Entitlements). If the system doesn't confirm your coverage, you can sign a <strong>statement of entitlement to benefits</strong> — in this case, the doctor is legally obligated to see you.</p>
+
+<h3>Getting a referral to a specialist</h3>
+<p>For most specialists under NFZ, you'll need a <strong>referral from your POZ doctor</strong>. Exceptions — you can go directly, without a referral, to:</p>
+<ul>
+  <li>Psychiatrist</li>
+  <li>Dentist (though the scope of free services is limited)</li>
+  <li>Gynecologist and obstetrician</li>
+  <li>Ophthalmologist</li>
+  <li>Dermatologist</li>
+  <li>Venereologist</li>
+  <li>Oncologist</li>
+</ul>
+<p>Your referral is valid at any NFZ specialist clinic in Poland — you don't have to use the one nearest to you.</p>
+
+<h3>NFZ at the dentist</h3>
+<p>NFZ covers only <strong>basic dental services</strong>: a consultation, tooth extraction, amalgam filling, and tartar removal once per year. Cosmetic services (white composite fillings, veneers, orthodontics) are not covered and must be paid privately. Many dentists have an NFZ contract for only some services — ask before your appointment what's included.</p>
+
+<h3>Emergency services and SOR — when to go where</h3>
+<p>For urgent medical needs, there are three channels:</p>
+<ul>
+  <li><strong>Ambulance: 112 or 999</strong> — life-threatening emergencies (heart attack, accident, loss of consciousness)</li>
+  <li><strong>SOR (Hospital Emergency Department)</strong> — urgent but not immediately life-threatening situations that require fast diagnosis or treatment</li>
+  <li><strong>NiŻ (Night and Weekend Healthcare)</strong> — evenings, nights, and weekends when your POZ is closed, for non-emergency situations (sore throat, ear pain, mild infection)</li>
+</ul>
+<p>If you're insured by NFZ, emergency and SOR care is <strong>free of charge</strong> — even if the EWUŚ system temporarily can't confirm your coverage.</p>
+
+<h3>Prescription drug reimbursement</h3>
+<p>Prescription medications may be partially or fully reimbursed by NFZ: free (0 PLN), at 30%, or at 50% of the full price. Your doctor marks whether a drug is reimbursable when writing the prescription. At the pharmacy, ask for a "reimbursed medication" (lek refundowany) or a cheaper generic equivalent.</p>
+
+<h3>The mojeIKP app — highly recommended</h3>
+<p>Download the <strong>mojeIKP</strong> app (My Online Patient Account) — available on App Store and Google Play. After logging in with your Trusted Profile (Profil Zaufany), you can:</p>
+<ul>
+  <li>Check your current NFZ insurance status</li>
+  <li>View your history of appointments, test results, and prescriptions</li>
+  <li>Download your e-ZLA (electronic sick leave certificate)</li>
+  <li>Book appointments online (at clinics with e-registration)</li>
+</ul>
+
+<h3>What to do if NFZ care is denied</h3>
+<p>If a medical facility refuses to provide NFZ-covered care without justification:</p>
+<ol>
+  <li>Request a written refusal</li>
+  <li>Contact the <strong>NFZ branch office</strong> for your voivodeship (region) — contact details at nfz.gov.pl</li>
+  <li>You can also file a complaint with the <strong>Patient Rights Ombudsman</strong> (free helpline: 800 190 590)</li>
+</ol>
+
+<h3>Summary</h3>
+<p>NFZ is solid healthcare protection for foreign workers in Poland. The key steps: find a POZ doctor through znaleźlekarz.nfz.gov.pl, bring your PESEL and passport to appointments, and if there's any doubt about your coverage status, sign the entitlement statement. In emergencies, you have the right to medical care with no formalities and no charge.</p>
+
+<p><strong>Nexflow</strong> supports foreign workers at every stage of work and residence legalization in Poland. Contact us if you have questions about NFZ or any other employment formalities.</p>
+    `.trim(),
   }
 ];
 

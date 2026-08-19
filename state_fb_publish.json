@@ -483,5 +483,22 @@
     }
   ],
   "last_run": "2026-08-19T09:00:18Z",
-  "pending": []
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/nfz-jak-korzystac-cudzoziemiec-polska",
+      "sitemap_lastmod": "2027-07-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/nfz-yak-korystuvatys-inozemets-polshcha",
+      "sitemap_lastmod": "2027-07-27T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/nfz-kak-polzovatsya-inostranets-polsha",
+      "sitemap_lastmod": "2027-08-03T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nfz-how-to-use-health-insurance-foreign-worker-poland",
+      "sitemap_lastmod": "2027-08-10T00:00:00.000Z"
+    }
+  ]
 }
