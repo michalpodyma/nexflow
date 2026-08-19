@@ -7079,6 +7079,222 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
   <p>Have questions about your contract or working conditions in Poland? <a href="https://nexflow.work">Visit nexflow.work</a> or contact our office — we are here to help at every step.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "pit-zeznanie-podatkowe-cudzoziemiec-polska",
+    title:
+      "Jak złożyć zeznanie podatkowe PIT w Polsce — poradnik dla cudzoziemca",
+    description:
+      "Jak złożyć zeznanie podatkowe PIT w Polsce jako cudzoziemiec — krok po kroku. Czym jest PIT-11, jak korzystać z Twój e-PIT, kwota wolna od podatku 30 000 zł i jak odzyskać zwrot. Praktyczny poradnik dla pracowników z Ukrainy i innych krajów.",
+    date: "2027-06-22",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Jak złożyć zeznanie podatkowe PIT w Polsce — poradnik dla cudzoziemca</h1>
+
+  <h2>PIT w Polsce — co to jest i kto musi złożyć zeznanie?</h2>
+<p><strong>PIT</strong> to skrót od <em>Podatku Dochodowego od osób fizycznych</em>. Jeśli pracujesz w Polsce i uzyskujesz tutaj dochody — niezależnie od tego, czy jesteś obywatelem Ukrainy, Białorusi, Gruzji czy innego kraju spoza Unii Europejskiej — masz obowiązek rozliczyć się z polskim urzędem skarbowym. Brzmi poważnie, ale w rzeczywistości cały proces można przeprowadzić przez internet w kilkanaście minut. Ten poradnik wyjaśnia krok po kroku wszystko, co musisz wiedzieć.</p>
+
+<h2>Rok podatkowy i termin złożenia zeznania</h2>
+<p>Polski rok podatkowy trwa od <strong>1 stycznia do 31 grudnia</strong>. Zeznanie podatkowe za dany rok składasz do <strong>30 kwietnia</strong> roku następnego. Przykładowo: za rok 2026 musisz się rozliczyć do 30 kwietnia 2027 roku.</p>
+<p>Dobra wiadomość: jeśli zapomnisz złożyć zeznanie przed terminem, system Twój e-PIT automatycznie złoży je za Ciebie w ostatnim dniu — ale tylko wtedy, gdy Twoje dane są kompletne. Lepiej jednak zrobić to samodzielnie i upewnić się, że wszystko się zgadza.</p>
+
+<h2>PIT-11 — dokument, który dostaniesz od pracodawcy</h2>
+<p>Zanim zaczniesz rozliczenie, poczekaj na <strong>PIT-11</strong>. To informacja podatkowa wystawiana przez pracodawcę, którą ma on obowiązek dostarczyć Ci do <strong>28 lutego</strong> roku następującego po roku rozliczeniowym. Znajdziesz w niej:</p>
+<ul>
+  <li>łączną kwotę Twoich zarobków brutto w ciągu roku,</li>
+  <li>kwotę zaliczek na podatek dochodowy pobranych i odprowadzonych za Ciebie do urzędu skarbowego,</li>
+  <li>składki na ubezpieczenie społeczne (ZUS) i zdrowotne.</li>
+</ul>
+<p>Jeśli pracowałeś u kilku pracodawców w ciągu roku, otrzymasz PIT-11 od każdego z nich. Wszystkie muszą być uwzględnione w jednym zeznaniu podatkowym — nie składaj osobnych deklaracji dla każdego pracodawcy.</p>
+
+<h2>Który formularz PIT musisz złożyć?</h2>
+<p>Większość pracowników zatrudnionych na etacie lub na umowie zlecenie składa formularz <strong>PIT-37</strong>. Używa się go wtedy, gdy pracodawca przez cały rok odprowadzał za Ciebie zaliczki na podatek dochodowy na podstawie PIT-11.</p>
+<p>Nie musisz jednak nic wypełniać ręcznie — system <strong>Twój e-PIT</strong> przygotowuje formularze automatycznie na podstawie danych od Twojego pracodawcy.</p>
+
+<h2>Twój e-PIT — rozliczenie w kilka kliknięć</h2>
+<p>Rząd Polski uruchomił wygodną usługę <strong>Twój e-PIT</strong>, dostępną na stronie podatki.gov.pl. System automatycznie przygotowuje Twoje zeznanie na podstawie danych przekazanych przez pracodawcę. Wystarczy, że je sprawdzisz i zatwierdzisz jednym kliknięciem.</p>
+<p>Aby zalogować się do systemu, potrzebujesz <strong>Profilu Zaufanego</strong>. Jeśli jeszcze go nie masz, przeczytaj nasz artykuł: <a href="/blog/pesel-profil-zaufany-cudzoziemiec-polska">Jak założyć Profil Zaufany jako cudzoziemiec w Polsce</a>.</p>
+
+<h2>Kwota wolna od podatku — możesz odzyskać wszystko</h2>
+<p>Od 2022 roku w Polsce obowiązuje <strong>kwota wolna od podatku wynosząca 30 000 zł rocznie</strong>. Oznacza to, że jeśli Twoje dochody w całym roku były niższe niż 30 000 zł, masz prawo do zwrotu <em>całego</em> pobranego podatku dochodowego.</p>
+<p>Nawet jeśli zarabiałeś więcej niż 30 000 zł, możesz być uprawniony do częściowego zwrotu. Zawsze warto sprawdzić.</p>
+
+<h2>Stawki podatku dochodowego PIT</h2>
+<ul>
+  <li><strong>12%</strong> — od dochodów do 120 000 zł rocznie,</li>
+  <li><strong>32%</strong> — od dochodów powyżej 120 000 zł rocznie.</li>
+</ul>
+
+<h2>Rezydencja podatkowa</h2>
+<p>Jeśli przebywałeś w Polsce przez <strong>ponad 183 dni</strong> w roku, stajesz się polskim rezydentem podatkowym i deklarujesz wszystkie dochody z całego świata. Polska ma umowy o unikaniu podwójnego opodatkowania z Ukrainą, Białorusią, Gruzją i innymi krajami.</p>
+
+<h2>Jak uzyskać zwrot podatku?</h2>
+<p>Potrzebujesz <strong>polskiego rachunku bankowego</strong>. Urząd skarbowy ma <strong>45 dni</strong> na przelanie zwrotu od złożenia zeznania elektronicznego.</p>
+
+<h2>Krok po kroku</h2>
+<ol>
+  <li>Poczekaj na PIT-11 od pracodawcy (do 28 lutego).</li>
+  <li>Zaloguj się na podatki.gov.pl Profilem Zaufanym.</li>
+  <li>Znajdź swój Twój e-PIT — zeznanie jest już wypełnione.</li>
+  <li>Sprawdź dane i zatwierdź.</li>
+  <li>Podaj numer polskiego rachunku bankowego.</li>
+  <li>Czekaj na zwrot (do 45 dni).</li>
+</ol>
+
+<p><strong>Pamiętaj: termin składania — 30 kwietnia. Sprawdź zawsze, czy należy Ci się zwrot!</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pit-podatkova-deklaratsia-inozemets-polshcha",
+    title:
+      "Як подати податкову декларацію PIT у Польщі — посібник для іноземця",
+    description:
+      "Як подати декларацію PIT у Польщі як іноземець — покроковий посібник. PIT-11, сервіс Twój e-PIT, неоподатковуваний мінімум 30 000 злотих та повернення податку. Практична інформація для працівників з України та інших країн.",
+    date: "2027-06-29",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Як подати податкову декларацію PIT у Польщі — посібник для іноземця</h1>
+
+  <h2>PIT у Польщі — що це таке і хто повинен подавати декларацію?</h2>
+<p><strong>PIT</strong> — це скорочення від <em>Podatek Dochodowy od osób fizycznych</em>, тобто податок на доходи фізичних осіб. Якщо ви працюєте в Польщі та отримуєте тут доходи — незалежно від того, чи є ви громадянином України, Білорусі, Грузії чи іншої країни за межами ЄС — ви зобов'язані подати звіт до польського податкового органу. Весь процес можна завершити онлайн за кілька хвилин.</p>
+
+<h2>Податковий рік і строки</h2>
+<p>Польський податковий рік: <strong>1 січня – 31 грудня</strong>. Термін подання: <strong>30 квітня</strong> наступного року. За 2026 рік — до 30 квітня 2027.</p>
+
+<h2>PIT-11 — документ від роботодавця</h2>
+<p>Роботодавець зобов'язаний надати PIT-11 до <strong>28 лютого</strong>. У ньому: загальна сума доходів брутто, сума утриманого авансового платежу з податку, внески на ZUS. Якщо працювали у кількох роботодавців — PIT-11 від кожного, всі в одній декларації.</p>
+
+<h2>Яку форму подавати?</h2>
+<p>Для більшості найманих працівників — форма <strong>PIT-37</strong>. Але заповнювати вручну не потрібно — система <strong>Twój e-PIT</strong> робить це автоматично.</p>
+
+<h2>Twój e-PIT — розрахунок за хвилини</h2>
+<p>Сервіс на podatki.gov.pl автоматично готує декларацію на основі даних від роботодавця. Потрібен <strong>Profil Zaufany</strong> для входу. Деталі: <a href="/uk/blog/pesel-profil-zaufany-inozemets-polshcha">Як отримати Profil Zaufany</a>.</p>
+
+<h2>Неоподатковуваний мінімум 30 000 зл</h2>
+<p>З 2022 року: якщо ваш річний дохід менший за 30 000 злотих — вам повернуть ВЕСЬ утриманий податок. Навіть при вищих доходах можливе часткове повернення.</p>
+
+<h2>Ставки податку</h2>
+<ul><li><strong>12%</strong> — до 120 000 зл на рік</li><li><strong>32%</strong> — понад 120 000 зл</li></ul>
+
+<h2>Податкове резидентство</h2>
+<p>Понад 183 дні в Польщі за рік = польський податковий резидент, декларуєте всі доходи. Угода про уникнення подвійного оподаткування Польща–Україна: доходи, зароблені в Польщі, оподатковуються лише тут.</p>
+
+<h2>Повернення податку</h2>
+<p>Потрібен польський банківський рахунок. Повернення: до <strong>45 днів</strong> після подачі онлайн.</p>
+
+<h2>Покроки</h2>
+<ol><li>Отримайте PIT-11 (до 28 лютого)</li><li>Увійдіть на podatki.gov.pl через Profil Zaufany</li><li>Відкрийте Twój e-PIT — декларація вже заповнена</li><li>Перевірте і підтвердіть</li><li>Вкажіть номер польського рахунку</li><li>Очікуйте повернення (до 45 днів)</li></ol>
+
+<h2>Поради</h2>
+<ul><li>Завжди перевіряйте наявність повернення — навіть якщо не впевнені</li><li>Подавайте завчасно — наприкінці квітня сервер перевантажений</li><li>Подача через Twój e-PIT безкоштовна</li><li>Зберігайте PIT-11 кілька років</li></ul>
+
+<p><strong>Термін: 30 квітня. Перевірте — вам може належати повернення!</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pit-nalogovaya-deklaratsiya-inostranets-polsha",
+    title:
+      "Как подать налоговую декларацию PIT в Польше — руководство для иностранца",
+    description:
+      "Как подать налоговую декларацию PIT в Польше как иностранец — пошаговое руководство. PIT-11, сервис Twój e-PIT, необлагаемый минимум 30 000 злотых и возврат налога. Практическая информация для работников из Украины и других стран.",
+    date: "2027-07-06",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Как подать налоговую декларацию PIT в Польше — руководство для иностранца</h1>
+
+  <h2>PIT в Польше — что это и кто обязан подавать декларацию?</h2>
+<p><strong>PIT</strong> (Podatek dochodowy od osób fizycznych) — польский налог на доходы физических лиц. Декларацию обязан подавать каждый, кто получил доход в Польше: и граждане, и иностранцы — по трудовым договорам, договорам подряда и другим соглашениям.</p>
+<p>Налоговый год: <strong>1 января – 31 декабря</strong>. Срок подачи декларации за прошедший год: <strong>30 апреля</strong> следующего года.</p>
+
+<h2>Налоговый резидент или нерезидент?</h2>
+<p>Если вы провели в Польше <strong>183 дня или более</strong> в году — вы польский налоговый резидент и обязаны декларировать все мировые доходы. Менее 183 дней — только доходы из Польши. Польша заключила соглашения об избежании двойного налогообложения с Украиной, Беларусью, Грузией — платить налог дважды не придётся.</p>
+
+<h2>PIT-11 — документ от работодателя</h2>
+<p>До <strong>28 февраля</strong> работодатель обязан выдать справку <strong>PIT-11</strong>: сумма заработка за год, удержанный налог, взносы в ZUS. Несколько работодателей — PIT-11 от каждого, все данные объединяются в одной декларации.</p>
+
+<h2>Какую форму подавать?</h2>
+<p>Большинству наёмных работников подходит форма <strong>PIT-37</strong>. Но заполнять её вручную не нужно — система <strong>Twój e-PIT</strong> делает всё автоматически.</p>
+
+<h2>Twój e-PIT: декларация за несколько минут</h2>
+<p>Сервис на <strong>podatki.gov.pl</strong> автоматически формирует декларацию на основе данных работодателя. Вам остаётся войти, проверить и нажать «Отправить». Для входа нужен <strong>Profil Zaufany</strong> — бесплатная цифровая идентификация, оформляемая через польский банк или офис ZUS.</p>
+
+<h2>Необлагаемый минимум и ставки</h2>
+<p>С 2022 года: <strong>необлагаемый минимум 30 000 злотых/год</strong>. Если заработали меньше — весь удержанный налог вернут. Ставки: <strong>12%</strong> до 120 000 злотых, <strong>32%</strong> сверх этой суммы.</p>
+
+<h2>Возврат налога</h2>
+<p>Нужен <strong>польский банковский счёт</strong>. Возврат переводится в течение <strong>45 дней</strong> после электронной подачи декларации.</p>
+
+<h2>Пошаговая инструкция</h2>
+<ol><li>Получите PIT-11 от работодателя (до 28 февраля)</li><li>Войдите на podatki.gov.pl через Profil Zaufany</li><li>Откройте Twój e-PIT — декларация уже заполнена</li><li>Проверьте данные и нажмите «Отправить»</li><li>Укажите номер польского банковского счёта</li><li>Ожидайте возврат (до 45 дней)</li></ol>
+
+<h2>Практические советы</h2>
+<ul><li>Всегда проверяйте наличие возврата — даже если не уверены</li><li>Не откладывайте до конца апреля — серверы перегружены</li><li>Подача через Twój e-PIT бесплатна — не платите посредникам</li><li>Храните PIT-11 несколько лет</li><li>Вопросы: горячая линия КАС 22 330 03 30</li></ul>
+
+<p><strong>Срок подачи: 30 апреля. Проверьте — возможно, вам положен возврат!</strong></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pit-tax-return-foreign-worker-poland",
+    title: "How to File a PIT Tax Return in Poland as a Foreign Worker",
+    description:
+      "A step-by-step guide to filing a PIT tax return in Poland as a foreign worker — what PIT-11 is, how to use Twój e-PIT, the 30,000 PLN tax-free allowance, and how to claim your refund. Practical guide for workers from Ukraine and other countries.",
+    date: "2027-07-13",
+    lang: "en",
+    content: `
+<article>
+  <h1>How to File a PIT Tax Return in Poland as a Foreign Worker</h1>
+
+  <h2>What Is PIT and Who Has to File?</h2>
+<p><strong>PIT</strong> stands for <em>Podatek dochodowy od osób fizycznych</em> — Poland's personal income tax. Anyone who earns income in Poland during the year is required to file a PIT return: Polish citizens and foreign workers alike, whether under an employment contract, a civil-law contract (umowa zlecenia), or another arrangement.</p>
+<p>The Polish tax year runs from <strong>1 January to 31 December</strong>. The filing deadline is <strong>30 April</strong> of the following year (e.g., return for 2026 must be filed by 30 April 2027).</p>
+
+<h2>Are You a Tax Resident of Poland?</h2>
+<p>If you spent <strong>183 days or more</strong> in Poland during the calendar year, Polish law considers you a <strong>Polish tax resident</strong>. As a resident, you must declare your <em>worldwide income</em>. If you spent fewer than 183 days, you only declare income earned in Poland.</p>
+<p>Poland has <strong>double taxation treaties</strong> with Ukraine, Belarus, Georgia, and many others — so the same income will not be taxed twice.</p>
+
+<h2>Your PIT-11: The Document That Makes It Simple</h2>
+<p>Before filing, your employer must provide a <strong>PIT-11</strong> statement by <strong>28 February</strong> of the following year. It shows: your total income for the year, tax withheld by the employer, and social insurance (ZUS) contributions. If you worked for multiple employers, each issues a PIT-11 — combine all in one return.</p>
+
+<h2>Which Form Do You Need?</h2>
+<p>Most employees file using <strong>PIT-37</strong> — designed for workers whose income tax was collected by an employer. In practice, you may not need to fill it in at all, thanks to Twój e-PIT.</p>
+
+<h2>Tax Rates and the Tax-Free Allowance</h2>
+<p>Poland uses a two-band system: <strong>12%</strong> on annual income up to 120,000 PLN; <strong>32%</strong> on income above that. Since 2022, there is a <strong>tax-free allowance of 30,000 PLN per year</strong>. If your total income was below 30,000 PLN, you owe no income tax — and any tax withheld by your employer will be refunded in full.</p>
+
+<h2>Twój e-PIT: Your Return, Already Filled In</h2>
+<p>The Polish government runs <strong>Twój e-PIT</strong> at <strong>podatki.gov.pl</strong>. The system automatically collects data from your employers and prepares a pre-filled return. You just log in, check the figures, and click to confirm — typically under ten minutes.</p>
+<p>To access it you need a <strong>Profil Zaufany</strong> (Trusted Profile) — a free digital ID for Polish government services, obtainable through many Polish banks' internet banking apps.</p>
+
+<h2>Step-by-Step Guide</h2>
+<ol>
+  <li><strong>Collect your PIT-11</strong> — from each employer by 28 February.</li>
+  <li><strong>Log in to podatki.gov.pl</strong> — using your Profil Zaufany.</li>
+  <li><strong>Open your Twój e-PIT</strong> — the pre-filled return is waiting for you.</li>
+  <li><strong>Review and submit</strong> — verify the figures match your PIT-11 and click Send (Wyślij).</li>
+  <li><strong>Enter your Polish bank account number</strong> — refunds are paid to Polish accounts only.</li>
+  <li><strong>Wait for your refund</strong> — the tax office processes it within 45 days.</li>
+</ol>
+
+<h2>Practical Tips</h2>
+<ul>
+  <li><strong>File early.</strong> February or March means a faster refund and time to fix any errors.</li>
+  <li><strong>Set up Profil Zaufany now</strong> — many Polish banks let you do it in minutes via their app.</li>
+  <li><strong>Check even if you think there is nothing to gain.</strong> If you worked part of the year or earned under 30,000 PLN, you are likely owed a refund.</li>
+  <li><strong>Multiple employers?</strong> Ensure all PIT-11 data is captured in Twój e-PIT.</li>
+  <li><strong>Filing is free</strong> — do not pay third parties to do something you can do yourself at no cost.</li>
+</ul>
+
+<h2>The Bottom Line</h2>
+<p>Filing a PIT return in Poland is far simpler than it sounds. Twój e-PIT does the heavy lifting — your job is to log in, verify, and confirm. With the 30,000 PLN tax-free allowance, many foreign workers receive a meaningful refund. Check yours before 30 April.</p>
+<p>Working in Poland through Nexflow and have questions about your PIT-11? Reach out — we are here to help.</p>
+</article>
+    `.trim(),
   }
 ];
 
