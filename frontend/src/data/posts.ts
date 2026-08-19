@@ -8869,6 +8869,430 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p>Your Polish payslip: <strong>gross</strong> (from contract) → minus ZUS (13.71%) → minus NFZ (9%) → minus PIT (12%) = <strong>net</strong> (into your account). Something looks wrong? Contact Nexflow HR — we're here to help.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "nip-numer-identyfikacji-podatkowej-cudzoziemiec-polska",
+    title: "NIP dla cudzoziemca w Polsce — jak uzyskać Numer Identyfikacji Podatkowej",
+    description:
+      "NIP to 10-cyfrowy numer podatkowy wymagany od każdego legalnie pracującego cudzoziemca w Polsce. Dowiedz się, jak go uzyskać krok po kroku, jakie dokumenty przygotować i co zrobić po otrzymaniu.",
+    date: "2027-11-09",
+    lang: "pl",
+    content: `
+<article>
+<h1>NIP dla cudzoziemca w Polsce — jak uzyskać Numer Identyfikacji Podatkowej</h1>
+
+<p>NIP (Numer Identyfikacji Podatkowej) to 10-cyfrowy numer identyfikacji podatkowej w Polsce. Każda osoba, która legalnie pracuje na terenie Polski, jest zobowiązana go posiadać. Jeśli jesteś obcokrajowcem i zaczynasz pracę jako pracownik tymczasowy, uzyskanie NIP to jeden z pierwszych kroków formalnych, o których musisz pamiętać.</p>
+
+<p>W tym przewodniku wyjaśniamy krok po kroku: co to jest NIP, kto musi go mieć, czym różni się od numeru PESEL, jak i gdzie go uzyskać, jakie dokumenty są potrzebne oraz co zrobić po jego otrzymaniu.</p>
+
+<h2>Co to jest NIP?</h2>
+
+<p>NIP to Numer Identyfikacji Podatkowej — 10-cyfrowy numer nadawany przez polskie urzędy skarbowe. Służy wyłącznie do celów podatkowych: identyfikuje podatnika w systemie fiskalnym, jest wymagany przy rozliczeniach z Urzędem Skarbowym, na umowach o pracę i formularzach podatkowych.</p>
+
+<p>NIP różni się od numeru PESEL. PESEL to numer ewidencyjny ludności nadawany przez urząd gminy — służy do identyfikacji osoby w rejestrach państwowych (np. przy meldowaniu, wizytach lekarskich, rejestracji w ZUS). NIP natomiast jest czysto podatkowy. Możesz mieć oba numery jednocześnie — i powinieneś, jeśli pracujesz legalnie w Polsce.</p>
+
+<h2>Kto musi mieć NIP w Polsce?</h2>
+
+<p>Obowiązek posiadania NIP dotyczy:</p>
+<ul>
+<li>osób zatrudnionych na umowę o pracę lub umowę zlecenie,</li>
+<li>osób prowadzących działalność gospodarczą,</li>
+<li>cudzoziemców legalnie pracujących w Polsce — niezależnie od obywatelstwa.</li>
+</ul>
+
+<p>Jeśli twój pracodawca odprowadza za ciebie zaliczki na podatek dochodowy (PIT), potrzebuje twojego NIP. Bez niego nie może prawidłowo wystawić PIT-11 (informacji o twoich dochodach za rok podatkowy), który jest podstawą do twojego rocznego zeznania podatkowego.</p>
+
+<h2>Jak uzyskać NIP — krok po kroku</h2>
+
+<h3>Krok 1: Udaj się do Urzędu Skarbowego</h3>
+
+<p>NIP przyznaje właściwy Urząd Skarbowy — zazwyczaj ten, który jest właściwy dla miejsca twojego zamieszkania lub pobytu w Polsce. Listę urzędów znajdziesz na stronie gov.pl lub wyszukując "Urząd Skarbowy [nazwa miasta]". Nie możesz uzyskać NIP przez internet jako osoba fizyczna — musisz zjawić się osobiście.</p>
+
+<h3>Krok 2: Wypełnij formularz NIP-7</h3>
+
+<p>Formularz do złożenia to <strong>NIP-7</strong> — "Zgłoszenie identyfikacyjne / zgłoszenie aktualizacyjne osoby fizycznej będącej podatnikiem". Możesz go pobrać ze strony Ministerstwa Finansów lub poprosić o wydanie go w urzędzie. Formularz wypełnia się po polsku. Wymagane dane to:</p>
+<ul>
+<li>imię i nazwisko,</li>
+<li>data urodzenia,</li>
+<li>obywatelstwo,</li>
+<li>adres zamieszkania lub pobytu w Polsce,</li>
+<li>dane paszportu lub karty pobytu,</li>
+<li>numer PESEL (jeśli posiadasz),</li>
+<li>dane kontaktowe (telefon, e-mail).</li>
+</ul>
+
+<h3>Krok 3: Przygotuj wymagane dokumenty</h3>
+
+<p>Do wniosku NIP-7 potrzebujesz:</p>
+<ul>
+<li>ważny paszport lub kartę pobytu (dokument tożsamości),</li>
+<li>umowę o pracę, zlecenie lub zezwolenie na pracę (jako potwierdzenie, że pracujesz legalnie),</li>
+<li>ewentualnie: decyzję o nadaniu PESEL (jeśli ją posiadasz),</li>
+<li>adres pobytu w Polsce (umowa najmu lub zaświadczenie od pracodawcy).</li>
+</ul>
+
+<h3>Krok 4: Złóż wniosek</h3>
+
+<p>Oddaj wypełniony formularz NIP-7 wraz z dokumentami w okienku urzędu skarbowego. Urzędnik sprawdzi dokumenty i potwierdzi przyjęcie wniosku. Złożenie wniosku jest <strong>bezpłatne</strong>.</p>
+
+<h3>Krok 5: Odbiór NIP</h3>
+
+<p>NIP jest nadawany w ciągu <strong>3 dni roboczych</strong>. Możesz odebrać go osobiście w urzędzie lub poprosić o przesłanie pocztą. NIP pozostaje twoim na zawsze — nie zmienia się, nawet jeśli zmienisz miejsce zamieszkania lub pracodawcę.</p>
+
+<h2>Co zrobić z NIP po jego otrzymaniu?</h2>
+
+<ol>
+<li><strong>Podaj go pracodawcy</strong> — potrzebuje go do prawidłowego odprowadzenia podatku i wystawienia PIT-11.</li>
+<li><strong>Zachowaj go</strong> — NIP podajesz przy każdym kolejnym rozliczeniu podatkowym.</li>
+<li><strong>Użyj go przy składaniu PIT</strong> — jeśli rozliczasz roczne zeznanie podatkowe (np. PIT-37), podajesz swój NIP.</li>
+</ol>
+
+<h2>Brak NIP — co się dzieje?</h2>
+
+<p>Pracodawca jest zobowiązany pobrać zaliczkę na podatek dochodowy od twojego wynagrodzenia. Jeśli nie masz NIP, może to powodować komplikacje przy wystawianiu PIT-11. Urząd Skarbowy może zastosować wyższą stawkę podatkową dla podatnika, który nie podał NIP. Dlatego warto zarejestrować się jak najszybciej po podjęciu pracy.</p>
+
+<h2>Często zadawane pytania</h2>
+
+<h3>Czy NIP to to samo co PESEL?</h3>
+<p>Nie. PESEL to numer ewidencyjny ludności używany przez różne urzędy i instytucje (ZUS, NFZ, banki). NIP jest wyłącznie do celów podatkowych. Oba numery uzupełniają się nawzajem.</p>
+
+<h3>Czy mogę pracować bez NIP?</h3>
+<p>Technicznie tak — pracodawca może zatrudnić cię bez NIP, ale ma obowiązek zgłosić ten fakt do Urzędu Skarbowego. Po uzyskaniu NIP musisz go jak najszybciej podać pracodawcy. Brak NIP może powodować wyższe potrącenia podatkowe.</p>
+
+<h3>Czy NIP jest potrzebny do otwarcia konta bankowego?</h3>
+<p>Niektóre banki mogą o niego prosić, ale podstawowo do otwarcia konta wystarczy PESEL lub dokument tożsamości. NIP może być wymagany przy zakładaniu konta firmowego.</p>
+
+<h3>Czy NIP wygasa?</h3>
+<p>Nie. NIP jest przyznawany bezterminowo. Nawet jeśli wyjedziesz z Polski i wrócisz, twój NIP pozostaje ważny.</p>
+
+<h3>Gdzie mogę sprawdzić swój NIP?</h3>
+<p>Jeśli zapomniałeś swojego NIP, możesz go sprawdzić w Urzędzie Skarbowym, na dokumentach podatkowych (np. PIT-11 od pracodawcy) lub przez infolinię Krajowej Administracji Skarbowej (KAS).</p>
+
+<h2>Podsumowanie</h2>
+
+<p>NIP to obowiązek podatkowy każdego pracującego cudzoziemca w Polsce. Uzyskasz go bezpłatnie w Urzędzie Skarbowym, wypełniając formularz NIP-7 i przynosząc paszport, umowę o pracę i adres pobytu. Cały proces zajmuje maksymalnie 3 dni robocze. Im szybciej to zrobisz po podjęciu pracy, tym szybciej twój pracodawca będzie mógł prawidłowo rozliczać twój podatek.</p>
+
+<p>Jeśli potrzebujesz pomocy przy formalnościach zatrudnienia w Polsce — skontaktuj się z <strong>Nexflow</strong>. Pomagamy pracownikom tymczasowym na każdym etapie legalizacji pobytu i pracy w Polsce.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nip-identyfikatsijnyj-nomer-inozemets-polshcha",
+    title: "НІП для іноземця в Польщі — як отримати ідентифікаційний номер платника податків",
+    description:
+      "НІП — 10-значний податковий номер, обов'язковий для кожного іноземця, який легально працює в Польщі. Покрокова інструкція отримання, необхідні документи та що робити після отримання.",
+    date: "2027-11-16",
+    lang: "uk",
+    content: `
+<article>
+<h1>НІП для іноземця в Польщі — як отримати ідентифікаційний номер платника податків</h1>
+
+<p>НІП (Numer Identyfikacji Podatkowej) — це 10-значний податковий ідентифікаційний номер у Польщі. Кожна особа, яка легально працює на території Польщі, зобов'язана його мати. Якщо ви іноземець і починаєте роботу як тимчасовий працівник, отримання НІП — один із перших адміністративних кроків, про які потрібно пам'ятати.</p>
+
+<p>У цьому посібнику пояснюємо крок за кроком: що таке НІП, хто зобов'язаний його мати, чим він відрізняється від PESEL, як і де його отримати, які документи потрібні та що робити після отримання.</p>
+
+<h2>Що таке НІП?</h2>
+
+<p>НІП — це Numer Identyfikacji Podatkowej (Номер ідентифікації платника податків) — 10-значний номер, який видається польськими податковими органами. Він використовується виключно для податкових цілей: ідентифікує платника податків у фіскальній системі, є обов'язковим при розрахунках з Податковим управлінням (Urząd Skarbowy), в трудових договорах та на податкових формах.</p>
+
+<p>НІП відрізняється від PESEL. PESEL — це реєстраційний номер населення, який видається гміною і використовується для ідентифікації особи в державних реєстрах (реєстрація місця проживання, відвідування лікаря, реєстрація в ZUS). НІП є суто податковим номером. Ви можете мати обидва номери одночасно — і повинні мати, якщо легально працюєте в Польщі.</p>
+
+<h2>Хто зобов'язаний мати НІП у Польщі?</h2>
+
+<p>Обов'язок мати НІП стосується:</p>
+<ul>
+<li>осіб, зайнятих за трудовим договором або договором підряду (umowa zlecenie),</li>
+<li>осіб, які займаються підприємницькою діяльністю,</li>
+<li>іноземців, які легально працюють у Польщі — незалежно від громадянства.</li>
+</ul>
+
+<p>Якщо ваш роботодавець сплачує за вас аванси з податку на доходи фізичних осіб (PIT), йому потрібен ваш НІП. Без нього він не може правильно оформити PIT-11 (довідку про ваші доходи за податковий рік), яка є основою для вашої річної податкової декларації.</p>
+
+<h2>Як отримати НІП — покрокова інструкція</h2>
+
+<h3>Крок 1: Зверніться до Податкового управління (Urząd Skarbowy)</h3>
+
+<p>НІП видає відповідне Податкове управління — як правило, те, що компетентне за місцем вашого проживання або перебування в Польщі. Список управлінь можна знайти на сайті gov.pl або пошуком "Urząd Skarbowy [назва міста]". Отримати НІП онлайн як фізична особа неможливо — потрібно з'явитися особисто.</p>
+
+<h3>Крок 2: Заповніть форму NIP-7</h3>
+
+<p>Форма для подачі — <strong>NIP-7</strong> — "Zgłoszenie identyfikacyjne / zgłoszenie aktualizacyjne osoby fizycznej będącej podatnikiem". Завантажте її з сайту Міністерства фінансів або попросіть у відділенні управління. Форма заповнюється польською мовою. Необхідні дані:</p>
+<ul>
+<li>прізвище та ім'я,</li>
+<li>дата народження,</li>
+<li>громадянство,</li>
+<li>адреса проживання або перебування в Польщі,</li>
+<li>дані паспорта або карти проживання (karta pobytu),</li>
+<li>номер PESEL (якщо є),</li>
+<li>контактні дані (телефон, електронна пошта).</li>
+</ul>
+
+<h3>Крок 3: Підготуйте необхідні документи</h3>
+
+<p>До заяви NIP-7 потрібно:</p>
+<ul>
+<li>дійсний паспорт або карту проживання (документ, що посвідчує особу),</li>
+<li>трудовий договір, договір підряду або дозвіл на роботу (як підтвердження легальної роботи),</li>
+<li>за наявності: рішення про присвоєння PESEL,</li>
+<li>адреса перебування в Польщі (договір оренди або довідка від роботодавця).</li>
+</ul>
+
+<h3>Крок 4: Подайте заяву</h3>
+
+<p>Передайте заповнену форму NIP-7 разом із документами у вікно Податкового управління. Інспектор перевірить документи та підтвердить прийняття заяви. Подача заяви <strong>безкоштовна</strong>.</p>
+
+<h3>Крок 5: Отримання НІП</h3>
+
+<p>НІП присвоюється протягом <strong>3 робочих днів</strong>. Його можна отримати особисто у відділенні або попросити надіслати поштою. НІП залишається вашим назавжди — він не змінюється, навіть якщо ви зміните місце проживання або роботодавця.</p>
+
+<h2>Що робити з НІП після отримання?</h2>
+
+<ol>
+<li><strong>Повідомте роботодавця</strong> — він потребує НІП для правильного утримання податку та оформлення PIT-11.</li>
+<li><strong>Зберігайте його</strong> — НІП вказується при кожному наступному податковому розрахунку.</li>
+<li><strong>Використовуйте при поданні декларації PIT</strong> — якщо ви подаєте річну податкову декларацію (наприклад, PIT-37), вказуєте свій НІП.</li>
+</ol>
+
+<h2>Відсутність НІП — що відбувається?</h2>
+
+<p>Роботодавець зобов'язаний утримувати аванс з податку на доходи фізичних осіб із вашої заробітної плати. Якщо у вас немає НІП, це може спричинити ускладнення при оформленні PIT-11. Без НІП Податкове управління може застосувати підвищену ставку податку. Тому варто зареєструватися якомога швидше після початку роботи.</p>
+
+<h2>Часті питання</h2>
+
+<h3>Чи НІП — це те саме, що PESEL?</h3>
+<p>Ні. PESEL — реєстраційний номер населення, який використовується різними органами (ZUS, NFZ, банки). НІП є виключно для податкових цілей. Обидва номери доповнюють один одного.</p>
+
+<h3>Чи можу я працювати без НІП?</h3>
+<p>Технічно так — роботодавець може вас найняти без НІП, але зобов'язаний повідомити про це Податкове управління. Після отримання НІП необхідно якнайшвидше повідомити роботодавця. Відсутність НІП може призвести до вищих податкових відрахувань.</p>
+
+<h3>Чи потрібен НІП для відкриття банківського рахунку?</h3>
+<p>Деякі банки можуть його запросити, але зазвичай для відкриття рахунку достатньо PESEL або документа, що посвідчує особу. НІП може знадобитися для відкриття підприємницького рахунку.</p>
+
+<h3>Чи закінчується строк дії НІП?</h3>
+<p>Ні. НІП присвоюється безстроково. Навіть якщо ви виїдете з Польщі та повернетеся, ваш НІП залишатиметься дійсним.</p>
+
+<h3>Де перевірити свій НІП?</h3>
+<p>Якщо ви забули свій НІП, його можна перевірити у Податковому управлінні, на податкових документах (наприклад, PIT-11 від роботодавця) або за телефоном гарячої лінії Державної податкової адміністрації (KAS).</p>
+
+<h2>Підсумок</h2>
+
+<p>НІП — це податковий обов'язок кожного іноземця, який працює в Польщі. Його можна отримати безкоштовно в Податковому управлінні, заповнивши форму NIP-7 і принісши паспорт, трудовий договір та адресу перебування. Весь процес займає максимум 3 робочих дні. Чим швидше ви це зробите після початку роботи, тим швидше роботодавець зможе правильно розраховувати ваш податок.</p>
+
+<p>Якщо вам потрібна допомога з оформленням документів для роботи в Польщі — зверніться до <strong>Nexflow</strong>. Ми допомагаємо тимчасовим працівникам на кожному етапі легалізації перебування та роботи в Польщі.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nip-nalogovyj-nomer-inostranets-polsha",
+    title: "НИП для иностранца в Польше — как получить налоговый идентификационный номер",
+    description:
+      "НИП — 10-значный налоговый номер, обязательный для каждого иностранца, легально работающего в Польше. Пошаговая инструкция получения, необходимые документы и что делать после получения.",
+    date: "2027-11-23",
+    lang: "ru",
+    content: `
+<article>
+<h1>НИП для иностранца в Польше — как получить налоговый идентификационный номер</h1>
+
+<p>НИП (Numer Identyfikacji Podatkowej) — это 10-значный налоговый идентификационный номер в Польше. Каждый, кто легально работает на территории Польши, обязан его иметь. Если вы иностранец и начинаете работу в качестве временного работника, получение НИП — один из первых административных шагов, о которых нужно помнить.</p>
+
+<p>В этом руководстве мы объясняем шаг за шагом: что такое НИП, кто обязан его иметь, чем он отличается от PESEL, как и где его получить, какие документы нужны и что делать после получения.</p>
+
+<h2>Что такое НИП?</h2>
+
+<p>НИП — это Numer Identyfikacji Podatkowej (Налоговый идентификационный номер) — 10-значный номер, присваиваемый польскими налоговыми органами. Он используется исключительно в налоговых целях: идентифицирует налогоплательщика в фискальной системе, необходим при расчётах с Налоговым управлением (Urząd Skarbowy), в трудовых договорах и на налоговых формах.</p>
+
+<p>НИП отличается от PESEL. PESEL — регистрационный номер населения, присваиваемый гминой и используемый для идентификации лица в государственных реестрах (регистрация места жительства, визиты к врачу, регистрация в ZUS). НИП является исключительно налоговым номером. Вы можете иметь оба номера одновременно — и должны, если легально работаете в Польше.</p>
+
+<h2>Кто обязан иметь НИП в Польше?</h2>
+
+<p>Обязанность иметь НИП распространяется на:</p>
+<ul>
+<li>лиц, занятых по трудовому договору или договору подряда (umowa zlecenie),</li>
+<li>лиц, занимающихся предпринимательской деятельностью,</li>
+<li>иностранцев, легально работающих в Польше — независимо от гражданства.</li>
+</ul>
+
+<p>Если ваш работодатель уплачивает за вас авансовые платежи по налогу на доходы физических лиц (PIT), ему нужен ваш НИП. Без него он не может правильно оформить PIT-11 (справку о ваших доходах за налоговый год), которая является основой для вашей годовой налоговой декларации.</p>
+
+<h2>Как получить НИП — пошаговая инструкция</h2>
+
+<h3>Шаг 1: Обратитесь в Налоговое управление (Urząd Skarbowy)</h3>
+
+<p>НИП присваивается соответствующим Налоговым управлением — как правило, тем, которое компетентно по месту вашего проживания или пребывания в Польше. Список управлений можно найти на сайте gov.pl или поиском "Urząd Skarbowy [название города]". Получить НИП онлайн как физическое лицо невозможно — необходимо явиться лично.</p>
+
+<h3>Шаг 2: Заполните форму NIP-7</h3>
+
+<p>Форма для подачи — <strong>NIP-7</strong> — "Zgłoszenie identyfikacyjne / zgłoszenie aktualizacyjne osoby fizycznej będącej podatnikiem". Скачайте её с сайта Министерства финансов или попросите в отделении управления. Форма заполняется на польском языке. Необходимые данные:</p>
+<ul>
+<li>фамилия и имя,</li>
+<li>дата рождения,</li>
+<li>гражданство,</li>
+<li>адрес проживания или пребывания в Польше,</li>
+<li>данные паспорта или карты пребывания (karta pobytu),</li>
+<li>номер PESEL (если есть),</li>
+<li>контактные данные (телефон, электронная почта).</li>
+</ul>
+
+<h3>Шаг 3: Подготовьте необходимые документы</h3>
+
+<p>К заявлению NIP-7 необходимо приложить:</p>
+<ul>
+<li>действующий паспорт или карту пребывания (документ, удостоверяющий личность),</li>
+<li>трудовой договор, договор подряду или разрешение на работу (как подтверждение легальной работы),</li>
+<li>при наличии: решение о присвоении PESEL,</li>
+<li>адрес пребывания в Польше (договор аренды или справка от работодателя).</li>
+</ul>
+
+<h3>Шаг 4: Подайте заявление</h3>
+
+<p>Передайте заполненную форму NIP-7 вместе с документами в окошко Налогового управления. Инспектор проверит документы и подтвердит принятие заявления. Подача заявления <strong>бесплатна</strong>.</p>
+
+<h3>Шаг 5: Получение НИП</h3>
+
+<p>НИП присваивается в течение <strong>3 рабочих дней</strong>. Вы можете получить его лично в отделении или попросить отправить по почте. НИП остаётся вашим навсегда — он не изменяется, даже если вы смените место жительства или работодателя.</p>
+
+<h2>Что делать с НИП после получения?</h2>
+
+<ol>
+<li><strong>Сообщите работодателю</strong> — ему нужен НИП для правильного удержания налога и оформления PIT-11.</li>
+<li><strong>Сохраняйте его</strong> — НИП указывается при каждом последующем налоговом расчёте.</li>
+<li><strong>Используйте при подаче декларации PIT</strong> — если вы подаёте годовую налоговую декларацию (например, PIT-37), указываете свой НИП.</li>
+</ol>
+
+<h2>Отсутствие НИП — что происходит?</h2>
+
+<p>Работодатель обязан удерживать авансовый платёж по налогу на доходы физических лиц из вашей заработной платы. Если у вас нет НИП, это может вызвать осложнения при оформлении PIT-11. Без НИП Налоговое управление может применить повышенную налоговую ставку. Поэтому стоит зарегистрироваться как можно скорее после начала работы.</p>
+
+<h2>Часто задаваемые вопросы</h2>
+
+<h3>Является ли НИП тем же, что и PESEL?</h3>
+<p>Нет. PESEL — регистрационный номер населения, используемый различными органами (ZUS, NFZ, банки). НИП является исключительно налоговым номером. Оба номера дополняют друг друга.</p>
+
+<h3>Могу ли я работать без НИП?</h3>
+<p>Технически да — работодатель может вас нанять без НИП, но обязан уведомить об этом Налоговое управление. После получения НИП необходимо как можно скорее сообщить его работодателю. Отсутствие НИП может привести к более высоким налоговым вычетам.</p>
+
+<h3>Нужен ли НИП для открытия банковского счёта?</h3>
+<p>Некоторые банки могут его запросить, но обычно для открытия счёта достаточно PESEL или документа, удостоверяющего личность. НИП может потребоваться для открытия предпринимательского счёта.</p>
+
+<h3>Истекает ли срок действия НИП?</h3>
+<p>Нет. НИП присваивается бессрочно. Даже если вы уедете из Польши и вернётесь, ваш НИП останется действительным.</p>
+
+<h3>Где проверить свой НИП?</h3>
+<p>Если вы забыли свой НИП, его можно проверить в Налоговом управлении, на налоговых документах (например, PIT-11 от работодателя) или по телефону горячей линии Государственной налоговой администрации (KAS).</p>
+
+<h2>Итог</h2>
+
+<p>НИП — это налоговая обязанность каждого иностранца, работающего в Польше. Его можно получить бесплатно в Налоговом управлении, заполнив форму NIP-7 и принеся паспорт, трудовой договор и адрес пребывания. Весь процесс занимает максимум 3 рабочих дня. Чем быстрее вы это сделаете после начала работы, тем быстрее работодатель сможет правильно рассчитывать ваш налог.</p>
+
+<p>Если вам нужна помощь с оформлением документов для работы в Польше — обратитесь в <strong>Nexflow</strong>. Мы помогаем временным работникам на каждом этапе легализации пребывания и работы в Польше.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nip-tax-identification-number-foreign-worker-poland",
+    title: "NIP for Foreign Workers in Poland — How to Get Your Tax Identification Number",
+    description:
+      "NIP (Numer Identyfikacji Podatkowej) is Poland's 10-digit tax identification number, required for every foreign worker. Step-by-step guide to applying, documents needed, and what to do once you receive it.",
+    date: "2027-11-30",
+    lang: "en",
+    content: `
+<article>
+<h1>NIP for Foreign Workers in Poland — How to Get Your Tax Identification Number</h1>
+
+<p>NIP (Numer Identyfikacji Podatkowej) is Poland's 10-digit tax identification number. Every person who legally works in Poland is required to have one. If you're a foreign national starting work as a temporary worker, obtaining your NIP is one of the first administrative steps you need to complete.</p>
+
+<p>This guide walks you through everything you need to know: what NIP is, who needs it, how it differs from PESEL, where and how to apply, what documents you need, and what to do once you have it.</p>
+
+<h2>What is NIP?</h2>
+
+<p>NIP stands for Numer Identyfikacji Podatkowej — Poland's Tax Identification Number. It's a 10-digit code assigned by the Polish tax authorities (Urząd Skarbowy). NIP is used exclusively for tax purposes: it identifies you as a taxpayer in the fiscal system, is required on employment contracts and tax forms, and is used in all your dealings with the tax office.</p>
+
+<p>NIP is different from PESEL. PESEL is a national identification number assigned by the municipality, used for identifying you in public registries — health care (NFZ), social insurance (ZUS), housing registration. NIP is strictly for tax purposes. You can and should have both if you are working legally in Poland.</p>
+
+<h2>Who Needs a NIP in Poland?</h2>
+
+<p>You need a NIP if you are:</p>
+<ul>
+<li>employed under a work contract (umowa o pracę) or civil law contract (umowa zlecenie),</li>
+<li>self-employed or running a business in Poland,</li>
+<li>a foreign national legally working in Poland — regardless of nationality.</li>
+</ul>
+
+<p>Your employer needs your NIP to correctly withhold income tax (PIT) advances and to issue you a PIT-11 (annual earnings statement), which you'll need to file your annual tax return. Without it, tax administration becomes complicated for both you and your employer.</p>
+
+<h2>How to Get Your NIP — Step by Step</h2>
+
+<h3>Step 1: Go to the Local Tax Office (Urząd Skarbowy)</h3>
+
+<p>NIP is assigned by the local tax office that covers your place of residence or stay in Poland. You can find your nearest office at gov.pl or by searching "Urząd Skarbowy [city name]". You cannot apply online as an individual — you must appear in person.</p>
+
+<h3>Step 2: Fill in Form NIP-7</h3>
+
+<p>The application form is <strong>NIP-7</strong> — "Zgłoszenie identyfikacyjne / zgłoszenie aktualizacyjne osoby fizycznej będącej podatnikiem" (Identification registration / update for individual taxpayers). Download it from the Ministry of Finance website or ask for it at the office. The form is in Polish. You'll need to provide:</p>
+<ul>
+<li>full name,</li>
+<li>date of birth,</li>
+<li>nationality,</li>
+<li>residential address in Poland,</li>
+<li>passport or residence card details (karta pobytu),</li>
+<li>PESEL number (if you have one),</li>
+<li>contact details (phone, email).</li>
+</ul>
+
+<h3>Step 3: Prepare Required Documents</h3>
+
+<p>Along with the NIP-7 form, bring:</p>
+<ul>
+<li>a valid passport or residence card (karta pobytu),</li>
+<li>your employment contract, civil law contract, or work permit (proof of legal employment),</li>
+<li>PESEL registration decision (if you have one),</li>
+<li>proof of your Polish address (rental agreement or employer's confirmation of your address).</li>
+</ul>
+
+<h3>Step 4: Submit the Application</h3>
+
+<p>Hand your completed NIP-7 form and documents to the tax officer at the counter. They will check your documents and confirm receipt of the application. There is <strong>no fee</strong> for the application.</p>
+
+<h3>Step 5: Receive Your NIP</h3>
+
+<p>Your NIP will be assigned within <strong>3 business days</strong>. You can collect it in person at the office or ask for it to be sent by post. Your NIP is yours permanently — it doesn't change when you move or change employers.</p>
+
+<h2>What to Do With Your NIP</h2>
+
+<ol>
+<li><strong>Tell your employer</strong> — they need it to correctly withhold income tax and issue your PIT-11.</li>
+<li><strong>Keep it safe</strong> — you'll use your NIP on every future tax filing.</li>
+<li><strong>Use it when filing PIT</strong> — your NIP appears on all annual tax return forms (e.g., PIT-37).</li>
+</ol>
+
+<h2>What If You Don't Have a NIP?</h2>
+
+<p>Your employer is required to withhold income tax advances from your wages. Without a NIP, they may face complications issuing your PIT-11. The tax office may also apply a higher tax rate to taxpayers who haven't provided a NIP. Register as soon as possible after starting work to avoid any of these issues.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is NIP the same as PESEL?</h3>
+<p>No. PESEL is a general identification number used by many institutions (ZUS, NFZ, banks). NIP is strictly for tax purposes. Both complement each other, and working legally in Poland requires both.</p>
+
+<h3>Can I work without a NIP?</h3>
+<p>Technically yes — your employer can hire you without a NIP but must notify the tax office. Once you receive your NIP, give it to your employer immediately. Working without a NIP may mean higher tax withholding rates.</p>
+
+<h3>Do I need NIP to open a bank account?</h3>
+<p>Some banks may ask for it, but generally you can open a personal bank account with your PESEL and ID document alone. NIP is typically required for business accounts.</p>
+
+<h3>Does NIP expire?</h3>
+<p>No. NIP is permanent. Even if you leave Poland and return, your NIP remains valid.</p>
+
+<h3>What if I forgot my NIP?</h3>
+<p>You can look it up at the tax office, on your PIT-11 form from your employer, or via the National Revenue Administration (KAS) hotline.</p>
+
+<h2>Summary</h2>
+
+<p>NIP is a tax obligation for every foreign worker in Poland. You can get it for free at the local tax office (Urząd Skarbowy) by submitting the NIP-7 form with your passport, work contract, and proof of address. The whole process takes up to 3 business days. The sooner you register after starting work, the sooner your employer can handle your taxes correctly.</p>
+
+<p>If you need help navigating the paperwork for working in Poland — contact <strong>Nexflow</strong>. We support temporary workers at every step of legalising their stay and work in Poland.</p>
+</article>
+    `.trim(),
   }
 ];
 
