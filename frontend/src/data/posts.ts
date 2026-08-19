@@ -8403,6 +8403,472 @@ Nexflow przesyła dokumenty pocztą lub udostępnia je elektronicznie niezwłocz
 <p><strong>Sick leave in Poland is your right. Nexflow is here to help.</strong></p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "pasek-wyplaty-polska-cudzoziemiec",
+    title: "Jak czytać pasek wypłaty w Polsce? Przewodnik dla cudzoziemców",
+    description:
+      "Pasek wypłaty w Polsce — co oznaczają brutto, netto, ZUS, NFZ i PIT? Praktyczny przewodnik dla cudzoziemców pracujących w Polsce.",
+    date: "2027-10-12",
+    lang: "pl",
+    content: `
+<article>
+<h1>Jak czytać pasek wypłaty w Polsce? Przewodnik dla cudzoziemców</h1>
+
+<p>Kiedy dostajesz pierwszą wypłatę w Polsce, pasek wypłaty może wyglądać jak zestaw niezrozumiałych cyfr i skrótów. Ten przewodnik wyjaśni, co kryje się za każdą pozycją.</p>
+
+<h2>Co to jest pasek wypłaty?</h2>
+
+<p>Pasek wypłaty to dokument, który pracodawca musi wydać przy wypłacie wynagrodzenia. Pokazuje: ile zarobiłeś <strong>brutto</strong> (przed potrąceniami) i ile otrzymujesz na konto (<strong>netto</strong>).</p>
+
+<h2>Główne elementy</h2>
+
+<h3>1. Wynagrodzenie brutto</h3>
+
+<p>Twoje wynagrodzenie przed wszelkimi potrąceniami — kwota z umowy. <strong>Minimum w Polsce w 2026 roku: 4 666 zł brutto miesięcznie.</strong></p>
+
+<h3>2. Składki ZUS</h3>
+
+<table>
+  <thead>
+    <tr><th>Rodzaj składki</th><th>Stawka (pracownik)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Emerytalna</td><td>9,76%</td></tr>
+    <tr><td>Rentowa</td><td>1,5%</td></tr>
+    <tr><td>Chorobowa</td><td>2,45%</td></tr>
+    <tr><td><strong>Łącznie</strong></td><td><strong>13,71%</strong></td></tr>
+  </tbody>
+</table>
+
+<p>Przykład (4 000 zł brutto): ZUS = 548,40 zł</p>
+
+<p>Co dają składki:</p>
+<ul>
+  <li><strong>Emerytalna</strong> — polska emerytura</li>
+  <li><strong>Rentowa</strong> — ochrona przy niezdolności do pracy</li>
+  <li><strong>Chorobowa</strong> — zasiłek L4 po 90 dniach ubezpieczenia</li>
+</ul>
+
+<h3>3. Składka zdrowotna (NFZ)</h3>
+
+<p>9% od podstawy (brutto minus ZUS). Daje dostęp do lekarzy i szpitali.</p>
+
+<p>Przykład: (4 000 – 548,40) × 9% = <strong>310,64 zł</strong></p>
+
+<h3>4. Zaliczka na podatek PIT</h3>
+
+<p>Stawka: <strong>12%</strong> do 120 000 zł/rok. Kwota wolna od podatku: 30 000 zł/rok (złóż PIT-2 u pracodawcy, by odliczać ulgę co miesiąc).</p>
+
+<p>Wskazówka: ponad 183 dni w Polsce = rezydent podatkowy = obowiązek złożenia PIT-37 do końca kwietnia roku następnego.</p>
+
+<h3>5. Wynagrodzenie netto</h3>
+
+<pre><code>Brutto – ZUS – NFZ – PIT = Netto</code></pre>
+
+<p>Przykład (4 000 zł brutto):</p>
+<ul>
+  <li>ZUS: –548,40 zł</li>
+  <li>NFZ: –310,64 zł</li>
+  <li>PIT (po uldze): –ok. 168,00 zł</li>
+  <li><strong>Netto: ok. 2 972,96 zł</strong></li>
+</ul>
+
+<h3>6. Inne pozycje</h3>
+
+<ul>
+  <li><strong>Premie</strong> — premia produkcyjna, efektywnościowa</li>
+  <li><strong>Dodatek nocny</strong> — 20% stawki godzinowej za każdą godzinę nocną</li>
+  <li><strong>Potrącenia</strong> — np. zakwaterowanie (tylko z pisemną umową!)</li>
+  <li><strong>Wynagrodzenie chorobowe</strong> — L4: pierwsze 33 dni płaci pracodawca (80% pensji)</li>
+</ul>
+
+<h2>Jak sprawdzić poprawność?</h2>
+
+<ol>
+  <li>Sprawdź, czy brutto zgadza się z umową</li>
+  <li>Przelicz: 13,71% brutto = ZUS; 9% × (brutto – ZUS) = NFZ</li>
+  <li>Szukaj nieznanych potrąceń — masz prawo do wyjaśnienia każdej pozycji</li>
+  <li>Wątpliwości? Kontakt z Państwową Inspekcją Pracy (PIP) lub HR Nexflow</li>
+</ol>
+
+<h2>Słowniczek</h2>
+
+<table>
+  <thead>
+    <tr><th>Termin</th><th>Znaczenie</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wynagrodzenie brutto</td><td>Pensja przed potrąceniami</td></tr>
+    <tr><td>Wynagrodzenie netto</td><td>Kwota na konto</td></tr>
+    <tr><td>Składki ZUS</td><td>Ubezpieczenia społeczne</td></tr>
+    <tr><td>Emerytalna</td><td>Składka emerytalna</td></tr>
+    <tr><td>Rentowa</td><td>Ubezpieczenie rentowe</td></tr>
+    <tr><td>Chorobowa</td><td>Ubezpieczenie chorobowe</td></tr>
+    <tr><td>Składka zdrowotna</td><td>Opłata za NFZ</td></tr>
+    <tr><td>Zaliczka na podatek</td><td>Podatek dochodowy PIT</td></tr>
+    <tr><td>Premia</td><td>Bonus</td></tr>
+    <tr><td>Potrącenia</td><td>Odliczenia</td></tr>
+    <tr><td>Dodatek nocny</td><td>Nocna nadgodzinowa</td></tr>
+  </tbody>
+</table>
+
+<h2>Podsumowanie</h2>
+
+<p>Pasek wypłaty: <strong>brutto</strong> (z umowy) → minus ZUS (13,71%) → minus NFZ (9%) → minus PIT (12%) = <strong>netto</strong> (do wypłaty). Jeśli coś wygląda nieprawidłowo, skontaktuj się z HR Nexflow — jesteśmy tu, by pomóc.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pasok-vyplaty-polshcha-inozemets-posniannia",
+    title: "Як читати розрахунковий листок у Польщі? Посібник для іноземців",
+    description:
+      "Розрахунковий листок у Польщі — що означають брутто, нетто, ZUS, NFZ і PIT? Практичний посібник для іноземців, які працюють у Польщі.",
+    date: "2027-10-19",
+    lang: "uk",
+    content: `
+<article>
+<h1>Як читати розрахунковий листок у Польщі? Посібник для іноземців</h1>
+
+<p>Коли ви отримуєте першу зарплату в Польщі, розрахунковий листок (pasek wypłaty) може здатися набором незрозумілих цифр і скорочень. Цей посібник пояснить кожну позицію.</p>
+
+<h2>Що таке розрахунковий листок?</h2>
+
+<p>Розрахунковий листок — документ, який роботодавець зобов'язаний надати при виплаті зарплати. Він показує: скільки ви заробили <strong>брутто</strong> (до відрахувань) і скільки отримуєте на рахунок (<strong>нетто</strong>).</p>
+
+<h2>Основні складові</h2>
+
+<h3>1. Wynagrodzenie brutto (Заробітна плата брутто)</h3>
+
+<p>Ваша зарплата до будь-яких відрахувань — сума у вашому трудовому договорі. <strong>Мінімальна зарплата в Польщі у 2026 році: 4 666 злотих брутто на місяць.</strong></p>
+
+<h3>2. Składki ZUS (Внески соціального страхування)</h3>
+
+<p>ZUS — польська установа соціального страхування. З вашої зарплати брутто утримуються:</p>
+
+<table>
+  <thead>
+    <tr><th>Вид внеску</th><th>Ставка (працівник)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Пенсійна (emerytalna)</td><td>9,76%</td></tr>
+    <tr><td>Рентова (rentowa)</td><td>1,5%</td></tr>
+    <tr><td>По хворобі (chorobowa)</td><td>2,45%</td></tr>
+    <tr><td><strong>Разом</strong></td><td><strong>13,71%</strong></td></tr>
+  </tbody>
+</table>
+
+<p>Приклад (4 000 зл брутто): внески ZUS = 548,40 зл</p>
+
+<p>Що дають внески:</p>
+<ul>
+  <li><strong>Пенсійна</strong> — польська пенсія</li>
+  <li><strong>Рентова</strong> — захист при тривалій непрацездатності</li>
+  <li><strong>По хворобі</strong> — право на лікарняний (L4) через 90 днів страхування</li>
+</ul>
+
+<h3>3. Składka zdrowotna (Внесок NFZ — охорона здоров'я)</h3>
+
+<p>9% від бази (брутто мінус ZUS). Дає доступ до польської публічної медицини.</p>
+
+<p>Приклад: (4 000 – 548,40) × 9% = <strong>310,64 зл</strong></p>
+
+<h3>4. Zaliczka na podatek PIT (Авансовий податок)</h3>
+
+<p>Ставка: <strong>12%</strong> до 120 000 зл/рік. Неоподаткована сума: 30 000 зл/рік.</p>
+
+<p>Порада: більше 183 днів у Польщі = польський податковий резидент = обов'язок подати декларацію PIT-37 до кінця квітня наступного року.</p>
+
+<h3>5. Wynagrodzenie netto (Чиста зарплата)</h3>
+
+<pre><code>Брутто – ZUS – NFZ – PIT = Нетто</code></pre>
+
+<p>Приклад (4 000 зл брутто):</p>
+<ul>
+  <li>ZUS: –548,40 зл</li>
+  <li>NFZ: –310,64 зл</li>
+  <li>PIT (після пільги): –бл. 168,00 зл</li>
+  <li><strong>Нетто: бл. 2 972,96 зл</strong></li>
+</ul>
+
+<h3>6. Інші позиції</h3>
+
+<ul>
+  <li><strong>Premie</strong> — премії та надбавки</li>
+  <li><strong>Dodatek nocny</strong> — нічна надбавка (20% погодинної ставки)</li>
+  <li><strong>Potrącenia</strong> — відрахування (напр. проживання — лише за письмовим договором!)</li>
+  <li><strong>Wynagrodzenie chorobowe</strong> — при L4: перші 33 дні платить роботодавець (80% зарплати)</li>
+</ul>
+
+<h2>Як перевірити правильність?</h2>
+
+<ol>
+  <li>Брутто = сума з договору?</li>
+  <li>ZUS = 13,71% × брутто?</li>
+  <li>NFZ = 9% × (брутто – ZUS)?</li>
+  <li>Невідомі відрахування? Вимагайте пояснень — це ваше право</li>
+</ol>
+
+<h2>Глосарій польського розрахункового листка</h2>
+
+<table>
+  <thead>
+    <tr><th>Польський термін</th><th>Значення</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wynagrodzenie brutto</td><td>Зарплата брутто</td></tr>
+    <tr><td>Wynagrodzenie netto</td><td>Зарплата нетто (на руки)</td></tr>
+    <tr><td>Składki ZUS</td><td>Внески соціального страхування</td></tr>
+    <tr><td>Emerytalna</td><td>Пенсійна</td></tr>
+    <tr><td>Rentowa</td><td>По інвалідності</td></tr>
+    <tr><td>Chorobowa</td><td>По хворобі</td></tr>
+    <tr><td>Składka zdrowotna</td><td>Внесок на охорону здоров'я</td></tr>
+    <tr><td>Zaliczka na podatek</td><td>Авансовий прибутковий податок</td></tr>
+    <tr><td>Premia</td><td>Премія</td></tr>
+    <tr><td>Potrącenia</td><td>Відрахування</td></tr>
+    <tr><td>Dodatek nocny</td><td>Нічна надбавка</td></tr>
+  </tbody>
+</table>
+
+<h2>Підсумок</h2>
+
+<p>Розрахунковий листок: <strong>брутто</strong> (з договору) → мінус ZUS (13,71%) → мінус NFZ (9%) → мінус PIT (12%) = <strong>нетто</strong> (на рахунок). Є питання? Зверніться до відділу кадрів Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "rasschetnyi-list-polsha-inostranets-obyasnenie",
+    title: "Как читать расчётный лист в Польше? Руководство для иностранцев",
+    description:
+      "Расчётный лист в Польше — что означают брутто, нетто, ZUS, NFZ и PIT? Практическое руководство для иностранных работников в Польше.",
+    date: "2027-10-26",
+    lang: "ru",
+    content: `
+<article>
+<h1>Как читать расчётный лист в Польше? Руководство для иностранцев</h1>
+
+<p>Когда вы получаете первую зарплату в Польше, расчётный лист (pasek wypłaty) может показаться набором непонятных цифр и сокращений. Это руководство объяснит каждую строку.</p>
+
+<h2>Что такое расчётный лист?</h2>
+
+<p>Расчётный лист — документ, который работодатель обязан выдавать при каждой выплате зарплаты. Он показывает: сколько вы заработали <strong>брутто</strong> (до вычетов) и сколько получаете на счёт (<strong>нетто</strong>).</p>
+
+<h2>Основные составляющие</h2>
+
+<h3>1. Wynagrodzenie brutto (Заработная плата брутто)</h3>
+
+<p>Ваша зарплата до каких-либо удержаний — сумма в трудовом договоре. <strong>Минимальная зарплата в Польше в 2026 году: 4 666 злотых брутто в месяц.</strong></p>
+
+<h3>2. Składki ZUS (Взносы социального страхования)</h3>
+
+<p>ZUS — польское ведомство социального страхования. С вашей зарплаты брутто удерживаются:</p>
+
+<table>
+  <thead>
+    <tr><th>Вид взноса</th><th>Ставка (работник)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Пенсионный (emerytalna)</td><td>9,76%</td></tr>
+    <tr><td>Рентный (rentowa)</td><td>1,5%</td></tr>
+    <tr><td>По болезни (chorobowa)</td><td>2,45%</td></tr>
+    <tr><td><strong>Итого</strong></td><td><strong>13,71%</strong></td></tr>
+  </tbody>
+</table>
+
+<p>Пример (4 000 зл брутто): взносы ZUS = 548,40 зл</p>
+
+<p>Что дают взносы:</p>
+<ul>
+  <li><strong>Пенсионный</strong> — польская пенсия</li>
+  <li><strong>Рентный</strong> — защита при длительной нетрудоспособности</li>
+  <li><strong>По болезни</strong> — право на больничный (L4) через 90 дней страхования</li>
+</ul>
+
+<h3>3. Składka zdrowotna (Взнос NFZ — медицинское страхование)</h3>
+
+<p>9% от базы (брутто минус ZUS). Даёт доступ к польской государственной медицине.</p>
+
+<p>Пример: (4 000 – 548,40) × 9% = <strong>310,64 зл</strong></p>
+
+<h3>4. Zaliczka na podatek PIT (Авансовый налог)</h3>
+
+<p>Ставка: <strong>12%</strong> до 120 000 зл/год. Необлагаемая сумма: 30 000 зл/год.</p>
+
+<p>Совет: более 183 дней в Польше = польский налоговый резидент = обязанность подать декларацию PIT-37 до конца апреля следующего года.</p>
+
+<h3>5. Wynagrodzenie netto (Чистая зарплата)</h3>
+
+<pre><code>Брутто – ZUS – NFZ – PIT = Нетто</code></pre>
+
+<p>Пример (4 000 зл брутто):</p>
+<ul>
+  <li>ZUS: –548,40 зл</li>
+  <li>NFZ: –310,64 зл</li>
+  <li>PIT (после льготы): –ок. 168,00 зл</li>
+  <li><strong>Нетто: ок. 2 972,96 зл</strong></li>
+</ul>
+
+<h3>6. Другие позиции</h3>
+
+<ul>
+  <li><strong>Premie</strong> — премии и надбавки</li>
+  <li><strong>Dodatek nocny</strong> — ночная надбавка (20% часовой ставки)</li>
+  <li><strong>Potrącenia</strong> — удержания (напр. жильё — только по письменному договору!)</li>
+  <li><strong>Wynagrodzenie chorobowe</strong> — при L4: первые 33 дня платит работодатель (80% зарплаты)</li>
+</ul>
+
+<h2>Как проверить правильность?</h2>
+
+<ol>
+  <li>Брутто = сумма из договора?</li>
+  <li>ZUS = 13,71% × брутто?</li>
+  <li>NFZ = 9% × (брутто – ZUS)?</li>
+  <li>Незнакомые удержания? Требуйте объяснений — это ваше право</li>
+</ol>
+
+<h2>Глоссарий расчётного листа</h2>
+
+<table>
+  <thead>
+    <tr><th>Польский термин</th><th>Значение</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wynagrodzenie brutto</td><td>Зарплата брутто</td></tr>
+    <tr><td>Wynagrodzenie netto</td><td>Зарплата нетто (на руки)</td></tr>
+    <tr><td>Składki ZUS</td><td>Взносы социального страхования</td></tr>
+    <tr><td>Emerytalna</td><td>Пенсионный взнос</td></tr>
+    <tr><td>Rentowa</td><td>По инвалидности</td></tr>
+    <tr><td>Chorobowa</td><td>По болезни</td></tr>
+    <tr><td>Składka zdrowotna</td><td>Взнос на медицинское страхование</td></tr>
+    <tr><td>Zaliczka na podatek</td><td>Авансовый подоходный налог</td></tr>
+    <tr><td>Premia</td><td>Премия</td></tr>
+    <tr><td>Potrącenia</td><td>Удержания</td></tr>
+    <tr><td>Dodatek nocny</td><td>Ночная надбавка</td></tr>
+  </tbody>
+</table>
+
+<h2>Резюме</h2>
+
+<p>Расчётный лист: <strong>брутто</strong> (из договора) → минус ZUS (13,71%) → минус NFZ (9%) → минус PIT (12%) = <strong>нетто</strong> (на счёт). Вопросы? Обратитесь в отдел кадров Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "payslip-poland-explained-foreign-worker",
+    title: "How to Read Your Polish Payslip — A Guide for Foreign Workers",
+    description:
+      "Polish payslip explained: what gross, net, ZUS, NFZ and PIT mean, with a worked example for foreign workers earning 4,000 PLN.",
+    date: "2027-11-02",
+    lang: "en",
+    content: `
+<article>
+<h1>How to Read Your Polish Payslip — A Guide for Foreign Workers</h1>
+
+<p>When you receive your first payslip (pasek wypłaty) in Poland, it can look like a confusing mix of numbers and abbreviations. This guide explains what every line means.</p>
+
+<h2>What Is a Polish Payslip?</h2>
+
+<p>A payslip is a document your employer must provide with every salary payment. It shows: how much you earned (<strong>gross</strong>) and how much you actually receive in your bank account (<strong>net</strong>).</p>
+
+<h2>Key Components</h2>
+
+<h3>1. Wynagrodzenie brutto (Gross Salary)</h3>
+
+<p>Your salary before any deductions — the amount stated in your employment contract. <strong>Minimum wage in Poland in 2026: 4,666 PLN gross per month.</strong></p>
+
+<h3>2. Składki ZUS (Social Security Contributions)</h3>
+
+<p>ZUS (Zakład Ubezpieczeń Społecznych) is Poland's social insurance institution. The following are deducted from your gross salary:</p>
+
+<table>
+  <thead>
+    <tr><th>Contribution</th><th>Rate (employee)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pension (emerytalna)</td><td>9.76%</td></tr>
+    <tr><td>Disability (rentowa)</td><td>1.5%</td></tr>
+    <tr><td>Sick pay (chorobowa)</td><td>2.45%</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>13.71%</strong></td></tr>
+  </tbody>
+</table>
+
+<p>Example (4,000 PLN gross): ZUS = 548.40 PLN</p>
+
+<p>What these contributions give you:</p>
+<ul>
+  <li><strong>Pension</strong> — builds your Polish pension entitlement</li>
+  <li><strong>Disability</strong> — covers long-term inability to work</li>
+  <li><strong>Sick pay</strong> — right to L4 sick leave after 90 days of contribution</li>
+</ul>
+
+<h3>3. Składka zdrowotna (Health Insurance — NFZ)</h3>
+
+<p>9% of the base (gross minus ZUS). Gives you access to Poland's public healthcare system.</p>
+
+<p>Example: (4,000 – 548.40) × 9% = <strong>310.64 PLN</strong></p>
+
+<h3>4. Zaliczka na podatek PIT (Income Tax Advance)</h3>
+
+<p>Rate: <strong>12%</strong> up to 120,000 PLN/year. Tax-free allowance: 30,000 PLN/year.</p>
+
+<p>Tax tip: spending more than 183 days in Poland = Polish tax resident = you must file a PIT-37 annual return by end of April the following year.</p>
+
+<h3>5. Wynagrodzenie netto (Net Salary — Take-Home Pay)</h3>
+
+<pre><code>Gross – ZUS – NFZ – PIT = Net</code></pre>
+
+<p>Full example (4,000 PLN gross):</p>
+<ul>
+  <li>ZUS: –548.40 PLN</li>
+  <li>NFZ: –310.64 PLN</li>
+  <li>PIT advance (after allowance): –approx. 168.00 PLN</li>
+  <li><strong>Net: approx. 2,972.96 PLN</strong></li>
+</ul>
+
+<h3>6. Other Lines on Your Payslip</h3>
+
+<ul>
+  <li><strong>Premie</strong> — bonuses and allowances</li>
+  <li><strong>Dodatek nocny</strong> — night shift allowance (20% of hourly rate per night hour)</li>
+  <li><strong>Potrącenia</strong> — deductions (e.g. housing costs — only with a separate written agreement!)</li>
+  <li><strong>Wynagrodzenie chorobowe</strong> — sick pay: first 33 days/year paid by employer at 80% of salary</li>
+</ul>
+
+<h2>How to Check Your Payslip Is Correct</h2>
+
+<ol>
+  <li>Does gross match your contract?</li>
+  <li>Is ZUS = 13.71% × gross?</li>
+  <li>Is NFZ = 9% × (gross – ZUS)?</li>
+  <li>Unknown deductions? You have the right to a full explanation from HR</li>
+</ol>
+
+<h2>Glossary of Polish Payslip Terms</h2>
+
+<table>
+  <thead>
+    <tr><th>Polish term</th><th>English meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wynagrodzenie brutto</td><td>Gross salary</td></tr>
+    <tr><td>Wynagrodzenie netto</td><td>Net salary / take-home pay</td></tr>
+    <tr><td>Składki ZUS</td><td>Social security contributions</td></tr>
+    <tr><td>Emerytalna</td><td>Pension contribution</td></tr>
+    <tr><td>Rentowa</td><td>Disability insurance</td></tr>
+    <tr><td>Chorobowa</td><td>Sick pay insurance</td></tr>
+    <tr><td>Składka zdrowotna</td><td>Health insurance (NFZ)</td></tr>
+    <tr><td>Zaliczka na podatek</td><td>Income tax advance</td></tr>
+    <tr><td>Premia</td><td>Bonus</td></tr>
+    <tr><td>Potrącenia</td><td>Deductions</td></tr>
+    <tr><td>Dodatek nocny</td><td>Night shift allowance</td></tr>
+  </tbody>
+</table>
+
+<h2>Summary</h2>
+
+<p>Your Polish payslip: <strong>gross</strong> (from contract) → minus ZUS (13.71%) → minus NFZ (9%) → minus PIT (12%) = <strong>net</strong> (into your account). Something looks wrong? Contact Nexflow HR — we're here to help.</p>
+</article>
+    `.trim(),
   }
 ];
 
