@@ -795,26 +795,26 @@
     },
     {
       "url": "https://nexflow.work/blog/wypadek-przy-pracy-polska-co-robic",
-      "fb_post_id": null,
-      "published_at": null,
+      "fb_post_id": "1107760715748033_122127438866808780",
+      "published_at": "2026-08-20T15:57:00+0000",
       "sitemap_lastmod": "2028-06-29T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/uk/blog/vypadok-na-roboti-polshcha-sho-robyty",
-      "fb_post_id": null,
-      "published_at": null,
+      "fb_post_id": "1107760715748033_122127438926808780",
+      "published_at": "2026-08-20T15:57:00+0000",
       "sitemap_lastmod": "2028-07-06T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/neschastnyj-sluchaj-na-rabote-polsha-chto-delat",
-      "fb_post_id": null,
-      "published_at": null,
+      "fb_post_id": "1107760715748033_122127438956808780",
+      "published_at": "2026-08-20T15:57:00+0000",
       "sitemap_lastmod": "2028-07-13T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/en/blog/work-accident-poland-what-to-do",
-      "fb_post_id": null,
-      "published_at": null,
+      "fb_post_id": "1107760715748033_122127438986808780",
+      "published_at": "2026-08-20T15:57:00+0000",
       "sitemap_lastmod": "2028-07-20T00:00:00.000Z"
     },
     {
@@ -840,8 +840,32 @@
       "fb_post_id": "1107760715748033_122127436304808780",
       "published_at": "2026-08-20T13:51:15+0000",
       "sitemap_lastmod": "2028-08-17T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/swiadectwo-pracy-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122127439028808780",
+      "published_at": "2026-08-20T15:57:00+0000",
+      "sitemap_lastmod": "2028-08-24T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/svidetelstvo-pro-pratsyu-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122127439196808780",
+      "published_at": "2026-08-20T15:57:00+0000",
+      "sitemap_lastmod": "2028-08-31T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/svidetelstvo-o-rabote-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122127439256808780",
+      "published_at": "2026-08-20T15:57:00+0000",
+      "sitemap_lastmod": "2028-09-07T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employment-certificate-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122127439286808780",
+      "published_at": "2026-08-20T15:57:00+0000",
+      "sitemap_lastmod": "2028-09-14T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-20T13:51:15+0000",
+  "last_run": "2026-08-20T15:57:00+0000",
   "pending": []
 }
