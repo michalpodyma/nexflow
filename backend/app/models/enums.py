@@ -165,3 +165,18 @@ class DocumentStatus(str, enum.Enum):
     draft = "draft"
     final = "final"
     signed = "signed"
+
+
+class ConversationIntent(str, enum.Enum):
+    """Intent classified by ElevenLabs post-call webhook (EUR-1575)."""
+    candidate_application = "candidate_application"
+    client_inquiry = "client_inquiry"
+    other = "other"
+
+
+class HRappkaSyncStatus(str, enum.Enum):
+    """HRappka sync state for an ElevenLabs conversation record (EUR-1575)."""
+    pending = "pending"
+    synced = "synced"
+    failed = "failed"
+    skipped = "skipped"

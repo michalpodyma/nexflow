@@ -90,5 +90,15 @@ class Settings(BaseSettings):
     google_oauth_client_secret: str = ""       # GOOGLE_OAUTH_CLIENT_SECRET
     google_refresh_token: str = ""             # GOOGLE_REFRESH_TOKEN
 
+    # ElevenLabs post-call webhook (EUR-1575).
+    # HMAC-SHA256 secret set in ElevenLabs → Workspace → Webhooks → Post-call.
+    # Generate with: python3 -c "import secrets; print(secrets.token_urlsafe(32))"
+    elevenlabs_webhook_secret: str = ""        # ELEVENLABS_WEBHOOK_SECRET
+
+    # HRappka API — client auto-import from ElevenLabs conversations (EUR-1575).
+    hrappka_api_url: str = "https://app.hrappka.pl"  # HRAPPKA_API_URL
+    hrappka_login: str = ""                           # HRAPPKA_LOGIN
+    hrappka_password: str = ""                        # HRAPPKA_PASSWORD
+
 
 settings = Settings()  # type: ignore[call-arg]

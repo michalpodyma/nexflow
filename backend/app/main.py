@@ -86,6 +86,9 @@ _ENUM_DDL_STATEMENTS = [
     "DO $$ BEGIN CREATE TYPE client_activity_type_enum AS ENUM ('note','call','email','meeting'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE prospect_source_enum AS ENUM ('referral','cold_call','website','linkedin','event','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
     "DO $$ BEGIN CREATE TYPE prospect_status_enum AS ENUM ('new','contacted','qualified','proposal_sent','negotiating','converted','lost'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    # EUR-1575 — ElevenLabs post-call webhook enums
+    "DO $$ BEGIN CREATE TYPE conversation_intent_enum AS ENUM ('candidate_application','client_inquiry','other'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
+    "DO $$ BEGIN CREATE TYPE hrappka_sync_status_enum AS ENUM ('pending','synced','failed','skipped'); EXCEPTION WHEN duplicate_object THEN NULL; END $$",
 ]
 
 

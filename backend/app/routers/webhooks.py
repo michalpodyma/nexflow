@@ -1,26 +1,27 @@
 """
-WhatsApp webhook — Meta Graph API.
+Webhook endpoints — WhatsApp (Meta Graph API) and ElevenLabs post-call (EUR-1575).
 
 Endpoints
 ─────────
-GET  /api/webhooks/whatsapp  — Meta verification challenge (hub.challenge)
-POST /api/webhooks/whatsapp  — Incoming message events (X-Hub-Signature-256)
+GET  /api/webhooks/whatsapp                      — Meta verification challenge
+POST /api/webhooks/whatsapp                      — Inbound WhatsApp events (X-Hub-Signature-256)
+POST /api/webhooks/elevenlabs/conversation-end   — ElevenLabs post-call webhook (HMAC-SHA256)
 
-Meta sends ALL event types to the same POST endpoint.  We process only
-"messages" change-field events and silently ack everything else (status
-updates, read receipts, etc.) with HTTP 200 so Meta doesn't retry them.
-
-Signature validation
-────────────────────
+WhatsApp signature validation
+─────────────────────────────
 Every POST is signed with HMAC-SHA256 using the app secret:
     X-Hub-Signature-256: sha256=<hex>
-We validate before any processing.  Set WHATSAPP_APP_SECRET in Railway.
-Signature validation is skipped in development if the secret is empty
-(for local testing with ngrok/tunnels), but a warning is logged.
+Set WHATSAPP_APP_SECRET in Railway.  Skipped in dev if the secret is empty.
 
-Phone matching
-──────────────
-Meta sends phone numbers in E.164 format *without* the '+' (e.g. "48123456789").
+ElevenLabs signature validation
+────────────────────────────────
+ElevenLabs sends:  ElevenLabs-Signature: t=<timestamp>,v0=<hex>
+Signed string: "{timestamp}.{raw_body}".  Secret: ELEVENLABS_WEBHOOK_SECRET.
+Set that env var in Railway after pasting the same value into ElevenLabs dashboard.
+
+Phone matching (WhatsApp)
+─────────────────────────
+Meta sends phone numbers in E.164 without '+' (e.g. "48123456789").
 We normalise stored candidate.phone the same way and match on equality.
 If no candidate matches we create a skeleton candidate so the flow can run.
 """
@@ -30,7 +31,7 @@ from __future__ import annotations
 import hashlib
 import hmac
 import logging
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from typing import Any
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Query, Request, Response
@@ -41,7 +42,13 @@ from app.config import settings
 from app.database import AsyncSessionLocal
 from app.models.candidates import Candidate
 from app.models.chatbot import ChatbotSession
-from app.models.enums import ChatbotChannel, ScreeningStatus
+from app.models.elevenlabs_conversation import ElevenLabsConversation
+from app.models.enums import (
+    ChatbotChannel,
+    ConversationIntent,
+    HRappkaSyncStatus,
+    ScreeningStatus,
+)
 from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.services.chatbot_fsm import advance, initiate_session
 from app.services.whatsapp import normalize_phone, send_whatsapp_message
@@ -325,5 +332,252 @@ async def receive_webhook(
                     continue
 
                 background_tasks.add_task(_handle_inbound_message, from_phone, text, wamid)
+
+    return {"status": "ok"}
+
+
+# ---------------------------------------------------------------------------
+# ElevenLabs post-call webhook (EUR-1575)
+# ---------------------------------------------------------------------------
+
+
+def _verify_elevenlabs_signature(body: bytes, signature_header: str) -> bool:
+    """
+    Validate ElevenLabs-Signature header.
+
+    Format: "t=<unix_timestamp>,v0=<hex_digest>"
+    Signed string: "{timestamp}.{raw_body_bytes}"
+    """
+    secret = settings.elevenlabs_webhook_secret
+    if not secret:
+        logger.warning(
+            "[elevenlabs_webhook] ELEVENLABS_WEBHOOK_SECRET not set — skipping signature check"
+        )
+        return True  # dev / testing only
+
+    parts: dict[str, str] = {}
+    for segment in signature_header.split(","):
+        if "=" in segment:
+            k, _, v = segment.partition("=")
+            parts[k.strip()] = v.strip()
+
+    timestamp = parts.get("t", "")
+    received_sig = parts.get("v0", "")
+    if not timestamp or not received_sig:
+        logger.warning("[elevenlabs_webhook] Malformed ElevenLabs-Signature header")
+        return False
+
+    signed_payload = f"{timestamp}.".encode() + body
+    expected = hmac.new(
+        secret.encode("utf-8"), signed_payload, hashlib.sha256
+    ).hexdigest()
+    return hmac.compare_digest(expected, received_sig)
+
+
+def _extract_intent(evaluation_results: dict[str, Any]) -> ConversationIntent:
+    """
+    Read the `intent` field from ElevenLabs Data Collection results.
+
+    ElevenLabs wraps each collected field as {"value": ..., "rationale": ...}
+    under data_collection_results.
+    """
+    collected = evaluation_results.get("data_collection_results", {})
+    raw = collected.get("intent")
+    if isinstance(raw, dict):
+        raw = raw.get("value")
+    if isinstance(raw, str):
+        try:
+            return ConversationIntent(raw.strip().lower())
+        except ValueError:
+            pass
+    return ConversationIntent.other
+
+
+def _extract_client_fields(evaluation_results: dict[str, Any]) -> dict[str, str | None]:
+    """Pull client contact fields out of ElevenLabs data_collection_results."""
+    collected = evaluation_results.get("data_collection_results", {})
+
+    def _val(key: str) -> str | None:
+        entry = collected.get(key)
+        if entry is None:
+            return None
+        if isinstance(entry, dict):
+            return entry.get("value") or None
+        return str(entry) if entry else None
+
+    return {
+        "company_name": _val("company_name"),
+        "nip": _val("nip"),
+        "email": _val("contact_email"),
+        "phone": _val("contact_phone"),
+        "address": _val("address"),
+        "city": _val("city"),
+        "postal_code": _val("postal_code"),
+        "country": _val("country"),
+    }
+
+
+async def _sync_client_to_hrappka(conversation_id: str) -> None:
+    """
+    Background task: create a Client row from conversation data and push to HRappka.
+
+    Runs in its own DB session so the webhook handler returns immediately.
+    """
+    from app.models.clients import Client  # noqa: PLC0415
+    from app.models.enums import Currency  # noqa: PLC0415
+    from app.services.hrappka_sync.clients import push_client_to_hrappka  # noqa: PLC0415
+
+    async with AsyncSessionLocal() as db:
+        result = await db.execute(
+            select(ElevenLabsConversation).where(
+                ElevenLabsConversation.id == conversation_id
+            )
+        )
+        conv = result.scalar_one_or_none()
+        if conv is None:
+            logger.error(
+                "[elevenlabs_webhook] sync_client: conversation %s not found", conversation_id
+            )
+            return
+
+        evaluation = conv.evaluation_results_json or {}
+        fields = _extract_client_fields(evaluation)
+
+        company_name = fields.get("company_name") or "Unknown (ElevenLabs)"
+        try:
+            client = Client(
+                company_name=company_name,
+                nip=fields.get("nip"),
+                email=fields.get("email"),
+                phone=fields.get("phone"),
+                address=fields.get("address"),
+                city=fields.get("city"),
+                postal_code=fields.get("postal_code"),
+                country=(fields.get("country") or "PL")[:2],
+                currency=Currency.PLN,
+            )
+            db.add(client)
+            await db.flush()
+            await db.refresh(client)
+
+            contractor_id = await push_client_to_hrappka(client.id, db)
+            conv.hrappka_sync_status = HRappkaSyncStatus.synced
+            conv.hrappka_target_id = contractor_id
+            logger.info(
+                "[elevenlabs_webhook] Client synced to HRappka: conv=%s hrappka_id=%s",
+                conversation_id,
+                contractor_id,
+            )
+        except Exception as exc:  # noqa: BLE001
+            conv.hrappka_sync_status = HRappkaSyncStatus.failed
+            conv.hrappka_sync_error = str(exc)[:500]
+            logger.exception(
+                "[elevenlabs_webhook] HRappka sync failed for conv=%s: %s",
+                conversation_id,
+                exc,
+            )
+
+        await db.commit()
+
+
+@router.post("/elevenlabs/conversation-end", status_code=200)
+async def elevenlabs_conversation_end(
+    request: Request,
+    background_tasks: BackgroundTasks,
+) -> dict[str, str]:
+    """
+    ElevenLabs post-call webhook — persists conversation data and
+    triggers HRappka client import for client_inquiry intents.
+
+    Must ack within 2 s; all heavy work runs in BackgroundTasks.
+    """
+    body = await request.body()
+
+    sig = request.headers.get("elevenlabs-signature", "")
+    if not _verify_elevenlabs_signature(body, sig):
+        logger.warning("[elevenlabs_webhook] Invalid ElevenLabs-Signature")
+        raise HTTPException(status_code=403, detail="Invalid signature")
+
+    payload: dict[str, Any] = await request.json()
+
+    # Support both direct payload shape and wrapped {"type": ..., "data": {...}}
+    data: dict[str, Any] = payload.get("data", payload)
+
+    conversation_id: str = data.get("conversation_id", "")
+    if not conversation_id:
+        logger.warning("[elevenlabs_webhook] Missing conversation_id in payload")
+        raise HTTPException(status_code=422, detail="Missing conversation_id")
+
+    agent_id: str = data.get("agent_id", "")
+    metadata: dict[str, Any] = data.get("metadata", {})
+    analysis: dict[str, Any] = data.get("analysis", {})
+
+    wa_phone: str | None = metadata.get("phone_number") or None
+    start_ts: int | None = metadata.get("start_time_unix_secs")
+    duration: int | None = metadata.get("call_duration_secs")
+
+    started_at: datetime | None = None
+    ended_at: datetime | None = None
+    if start_ts is not None:
+        started_at = datetime.fromtimestamp(start_ts, tz=UTC)
+        if duration is not None:
+            ended_at = started_at + timedelta(seconds=duration)
+
+    evaluation_results: dict[str, Any] = analysis.get("evaluation_criteria_results") or {}
+    # ElevenLabs places data_collection_results inside analysis
+    data_collection: dict[str, Any] = analysis.get("data_collection_results") or {}
+    # Merge both so _extract_intent and build_contractor_payload have a unified dict
+    merged_evaluation = {
+        **evaluation_results,
+        "data_collection_results": data_collection,
+    }
+
+    intent = _extract_intent(merged_evaluation)
+    summary = analysis.get("transcript_summary") or None
+    transcript = data.get("transcript")
+
+    async with AsyncSessionLocal() as db:
+        existing = await db.execute(
+            select(ElevenLabsConversation).where(
+                ElevenLabsConversation.id == conversation_id
+            )
+        )
+        if existing.scalar_one_or_none() is not None:
+            logger.info(
+                "[elevenlabs_webhook] Duplicate delivery for conv=%s — acked", conversation_id
+            )
+            return {"status": "ok", "note": "duplicate"}
+
+        # Determine initial HRappka sync status
+        if intent == ConversationIntent.client_inquiry:
+            initial_hrappka = HRappkaSyncStatus.pending
+        else:
+            initial_hrappka = HRappkaSyncStatus.skipped
+
+        conv = ElevenLabsConversation(
+            id=conversation_id,
+            wa_phone_number=wa_phone,
+            agent_id=agent_id or None,
+            started_at=started_at,
+            ended_at=ended_at,
+            duration_seconds=duration,
+            transcript_json=transcript if isinstance(transcript, (dict, list)) else None,
+            summary_text=summary,
+            evaluation_results_json=merged_evaluation,
+            intent=intent,
+            hrappka_sync_status=initial_hrappka,
+        )
+        db.add(conv)
+        await db.commit()
+
+        logger.info(
+            "[elevenlabs_webhook] Saved conv=%s intent=%s phone=%s",
+            conversation_id,
+            intent.value,
+            wa_phone,
+        )
+
+    if intent == ConversationIntent.client_inquiry:
+        background_tasks.add_task(_sync_client_to_hrappka, conversation_id)
 
     return {"status": "ok"}

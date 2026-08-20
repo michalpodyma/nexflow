@@ -22,13 +22,16 @@ from .client_contacts import ClientContact
 from .clients import Client
 from .compliance import ComplianceAlert
 from .documents import DocumentTemplate, GeneratedDocument
+from .elevenlabs_conversation import ElevenLabsConversation
 from .enums import (
     AlertType,
     AuditAction,
     CandidateJobOrderStatus,
     ChatbotChannel,
+    ConversationIntent,
     Currency,
     GdprSubjectType,
+    HRappkaSyncStatus,
     JobOrderStatus,
     JobOrderUrgency,
     PaymentStatus,
@@ -100,4 +103,7 @@ __all__ = [
     "ShiftEntry",
     "WorkerOTP",
     "WhatsAppInboxEvent",
+    "ElevenLabsConversation",
+    "ConversationIntent",
+    "HRappkaSyncStatus",
 ]
