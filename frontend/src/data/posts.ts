@@ -12531,6 +12531,377 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 
 <p>Working in Poland through a temporary staffing agency? <strong>Nexflow</strong> helps temporary workers with documents and legalization at every step. Visit: <a href="https://nexflow.work">nexflow.work</a></p>
     `.trim(),
+  },
+  {
+    slug: "swiadectwo-pracy-cudzoziemiec-polska",
+    title: "Świadectwo pracy w Polsce: co to jest i jak je uzyskać jako cudzoziemiec?",
+    description:
+      "Kompletny poradnik dla obcokrajowców — czym jest świadectwo pracy, kiedy pracodawca musi je wydać, co zawiera i co zrobić, gdy nie otrzymasz dokumentu.",
+    date: "2028-08-24",
+    lang: "pl",
+    content: `
+<p>Kończysz pracę w Polsce i nie wiesz, jakie dokumenty powinieneś dostać od pracodawcy? <strong>Świadectwo pracy</strong> to jeden z najważniejszych dokumentów, do których masz prawo jako pracownik — niezależnie od tego, czy jesteś obywatelem Polski, Ukrainy, czy innego kraju. W tym artykule wyjaśniamy, czym jest świadectwo pracy, co powinno zawierać i jak zareagować, gdy pracodawca go nie wyda.</p>
+
+<h2>Czym jest świadectwo pracy?</h2>
+<p>Świadectwo pracy to oficjalny dokument wystawiany przez pracodawcę, który potwierdza przebieg Twojego zatrudnienia. Jest wymagane przez polskie prawo pracy — pracodawca jest zobowiązany wydać je każdemu pracownikowi po zakończeniu stosunku pracy.</p>
+<p>Dokument ten jest niezbędny m.in. do:</p>
+<ul>
+  <li>ubiegania się o zasiłek dla bezrobotnych (urząd pracy wymaga świadectw pracy z ostatnich 18 miesięcy)</li>
+  <li>udowodnienia stażu pracy u nowego pracodawcy</li>
+  <li>obliczenia przyszłej emerytury przez ZUS</li>
+  <li>potwierdzenia przerwy w ubezpieczeniu przy rejestracji w NFZ</li>
+</ul>
+
+<h2>Kiedy pracodawca musi wydać świadectwo pracy?</h2>
+<p>Zgodnie z art. 97 Kodeksu pracy, pracodawca ma obowiązek wydać świadectwo pracy:</p>
+<ul>
+  <li><strong>W dniu zakończenia umowy</strong> — jeśli nie planuje zawrzeć z Tobą kolejnej umowy w ciągu 7 dni</li>
+  <li><strong>W ciągu 7 dni od zakończenia umowy</strong> — jeśli stosunek pracy trwał łącznie z kilku umów zawartych z tym samym pracodawcą</li>
+</ul>
+<p>Ważne: jeśli pracujesz przez agencję pracy tymczasowej (taką jak Nexflow), świadectwo pracy wystawia <strong>agencja</strong>, nie firma, u której faktycznie pracowałeś.</p>
+
+<h2>Co zawiera świadectwo pracy?</h2>
+<p>Prawidłowo wystawione świadectwo pracy powinno zawierać:</p>
+<ul>
+  <li>Imię i nazwisko pracownika, datę urodzenia</li>
+  <li>Okres zatrudnienia (od — do)</li>
+  <li>Stanowisko/rodzaj wykonywanej pracy</li>
+  <li>Wymiar czasu pracy (pełny etat, 3/4 etatu itd.)</li>
+  <li>Tryb zakończenia stosunku pracy (wypowiedzenie, porozumienie stron, wygaśnięcie umowy itd.)</li>
+  <li>Liczbę dni urlopu wypoczynkowego wykorzystanego w danym roku</li>
+  <li>Informację o urlopach macierzyńskich, ojcowskich, wychowawczych (jeśli były)</li>
+  <li>Zajęcia komornicze (jeśli były prowadzone)</li>
+  <li>Informację o zastosowanej skróconej normie czasu pracy (jeśli dotyczy)</li>
+</ul>
+
+<h2>Jak odebrać świadectwo pracy?</h2>
+<p>Świadectwo pracy możesz odebrać:</p>
+<ul>
+  <li><strong>Osobiście</strong> — w biurze pracodawcy lub agencji</li>
+  <li><strong>Pocztą</strong> — pracodawca może wysłać je na Twój adres zamieszkania</li>
+  <li><strong>Przez upoważnioną osobę</strong> — jeśli wystawisz pisemne pełnomocnictwo</li>
+</ul>
+
+<h2>Co zrobić, gdy pracodawca nie wyda świadectwa pracy?</h2>
+<p>Jeśli pracodawca nie wyda Ci świadectwa pracy lub wyda je z błędami, masz kilka możliwości:</p>
+
+<h3>1. Wezwanie pracodawcy na piśmie</h3>
+<p>Napisz pismo do pracodawcy z żądaniem wydania świadectwa pracy. Zachowaj kopię pisma lub potwierdzenie nadania e-maila — to ważny dowód w razie dalszych kroków.</p>
+
+<h3>2. Skarga do Państwowej Inspekcji Pracy (PIP)</h3>
+<p>Państwowa Inspekcja Pracy to organ kontrolujący przestrzeganie prawa pracy w Polsce. Możesz złożyć skargę:</p>
+<ul>
+  <li>Online: <strong>www.pip.gov.pl</strong></li>
+  <li>Osobiście: w okręgowym inspektoracie pracy właściwym dla siedziby pracodawcy</li>
+  <li>Telefonicznie lub pocztą</li>
+</ul>
+<p>Inspektor pracy może nałożyć na pracodawcę mandat za niewydanie świadectwa.</p>
+
+<h3>3. Pozew do sądu pracy</h3>
+<p>Jeśli pracodawca nadal odmawia wydania dokumentu lub wystawił go z błędami, możesz złożyć pozew do sądu pracy (sąd rejonowy — wydział pracy). Możesz domagać się zarówno wydania poprawnego świadectwa, jak i odszkodowania za szkody poniesione z powodu jego braku (np. utrata zasiłku dla bezrobotnych).</p>
+
+<h2>Błędy w świadectwie pracy — jak poprosić o sprostowanie?</h2>
+<p>Jeśli otrzymałeś świadectwo pracy z błędami (np. złe daty, błędny tryb zakończenia umowy), masz prawo żądać sprostowania:</p>
+<ol>
+  <li>W ciągu <strong>14 dni</strong> od otrzymania dokumentu złóż wniosek o sprostowanie (pisemnie)</li>
+  <li>Pracodawca ma <strong>7 dni</strong> na odpowiedź</li>
+  <li>Jeśli odmówi lub nie odpowie — możesz złożyć pozew do sądu pracy w ciągu 14 dni od odmowy</li>
+</ol>
+
+<h2>Duplikat świadectwa pracy — co zrobić, gdy zgubiłeś dokument?</h2>
+<p>Jeśli zgubiłeś świadectwo pracy, możesz poprosić byłego pracodawcę o wystawienie duplikatu. Pracodawca ma obowiązek przechowywać kopię świadectwa przez cały okres przechowywania akt osobowych pracownika (10 lat dla umów zawartych od 2019 roku).</p>
+
+<h2>Świadectwo pracy a praca tymczasowa przez agencję</h2>
+<p>Pracownicy tymczasowi (zatrudniani przez agencje pracy tymczasowej) często nie wiedzą, że mają takie samo prawo do świadectwa pracy jak pracownicy stali. Pracodawcą w rozumieniu prawa jest agencja — to ona wystawia świadectwo po każdej zakończonej umowie lub po zakończeniu całej współpracy.</p>
+<p>Nexflow wydaje świadectwa pracy wszystkim pracownikom po zakończeniu umowy. Jeśli masz pytania dotyczące swoich dokumentów, skontaktuj się bezpośrednio z naszym biurem.</p>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Świadectwo pracy to Twój ustawowy dokument — pracodawca musi je wydać</li>
+  <li>Czas na wydanie: w dniu zakończenia umowy lub w ciągu 7 dni</li>
+  <li>W razie problemów: najpierw pismo do pracodawcy, potem PIP, potem sąd pracy</li>
+  <li>Przy pracy tymczasowej — dokument wystawia agencja, nie pracodawca użytkownik</li>
+  <li>Możesz żądać duplikatu, jeśli zgubiłeś oryginał</li>
+</ul>
+<p>Masz pytania dotyczące swoich dokumentów pracowniczych? Napisz do nas lub odwiedź biuro Nexflow — pomożemy.</p>
+    `.trim(),
+  },
+  {
+    slug: "svidetelstvo-pro-pratsyu-inozemets-polshcha",
+    title: "Довідка про роботу в Польщі: що це таке і як її отримати іноземцю?",
+    description:
+      "Повний посібник для іноземців — що таке świadectwo pracy, коли роботодавець зобов'язаний його видати, що воно містить і що робити, якщо документ не надано.",
+    date: "2028-08-31",
+    lang: "uk",
+    content: `
+<p>Закінчуєш роботу в Польщі і не знаєш, які документи маєш отримати від роботодавця? <strong>Świadectwo pracy</strong> (довідка про роботу) — один із найважливіших документів, на які ти маєш право як працівник — незалежно від того, чи є ти громадянином Польщі, України чи іншої країни. У цьому посібнику пояснюємо, що таке świadectwo pracy, що воно повинно містити і як діяти, якщо роботодавець його не видає.</p>
+
+<h2>Що таке świadectwo pracy?</h2>
+<p>Świadectwo pracy — це офіційний документ, виданий роботодавцем, який підтверджує перебіг твого працевлаштування. Це вимога польського трудового законодавства — роботодавець зобов'язаний видати його кожному працівнику після завершення трудових відносин.</p>
+<p>Цей документ необхідний, зокрема, для:</p>
+<ul>
+  <li>отримання допомоги по безробіттю (urząd pracy вимагає довідки за останні 18 місяців)</li>
+  <li>підтвердження стажу роботи у нового роботодавця</li>
+  <li>розрахунку майбутньої пенсії через ZUS</li>
+  <li>підтвердження перерви в страхуванні при реєстрації в NFZ</li>
+</ul>
+
+<h2>Коли роботодавець зобов'язаний видати довідку?</h2>
+<p>Відповідно до ст. 97 Кодексу праці, роботодавець зобов'язаний видати świadectwo pracy:</p>
+<ul>
+  <li><strong>У день закінчення договору</strong> — якщо не планує укласти з тобою нового договору протягом 7 днів</li>
+  <li><strong>Протягом 7 днів від закінчення договору</strong> — якщо трудові відносини тривали сукупно за кількома договорами з тим самим роботодавцем</li>
+</ul>
+<p>Важливо: якщо ти працюєш через агентство тимчасової праці (таке як Nexflow), świadectwo pracy видає <strong>агентство</strong>, а не компанія, де ти фактично працював.</p>
+
+<h2>Що містить świadectwo pracy?</h2>
+<p>Правильно оформлена довідка про роботу повинна містити:</p>
+<ul>
+  <li>Прізвище та ім'я працівника, дату народження</li>
+  <li>Строк роботи (від — до)</li>
+  <li>Посаду / вид виконуваної роботи</li>
+  <li>Розмір робочого часу (повна ставка, 3/4 ставки тощо)</li>
+  <li>Спосіб припинення трудових відносин (попередження, угода сторін, закінчення строку договору тощо)</li>
+  <li>Кількість днів відпустки, використаних у поточному році</li>
+  <li>Інформацію про декретну, батьківську, виховну відпустку (якщо були)</li>
+  <li>Відомості про виконавчі провадження (якщо проводились)</li>
+</ul>
+
+<h2>Як отримати świadectwo pracy?</h2>
+<p>Довідку про роботу можна отримати:</p>
+<ul>
+  <li><strong>Особисто</strong> — в офісі роботодавця або агентства</li>
+  <li><strong>Поштою</strong> — роботодавець може надіслати її на твою адресу проживання</li>
+  <li><strong>Через уповноважену особу</strong> — якщо ти видаси письмове доручення</li>
+</ul>
+
+<h2>Що робити, якщо роботодавець не видає довідку?</h2>
+<p>Якщо роботодавець не видає тобі świadectwo pracy або видає з помилками, маєш кілька варіантів:</p>
+
+<h3>1. Письмова вимога до роботодавця</h3>
+<p>Напиши листа до роботодавця з вимогою видати довідку. Збережи копію листа або підтвердження надсилання email — це важливий доказ у разі подальших кроків.</p>
+
+<h3>2. Скарга до Державної інспекції праці (PIP)</h3>
+<p>Państwowa Inspekcja Pracy — орган, що контролює дотримання трудового законодавства в Польщі. Подати скаргу можна:</p>
+<ul>
+  <li>Онлайн: <strong>www.pip.gov.pl</strong></li>
+  <li>Особисто: в окружній інспекції праці за місцем знаходження роботодавця</li>
+  <li>Телефоном або поштою</li>
+</ul>
+
+<h3>3. Позов до суду праці</h3>
+<p>Якщо роботодавець і надалі відмовляє у видачі або видав документ з помилками, можна подати позов до суду праці. Можна вимагати як видачі правильного документа, так і відшкодування збитків (наприклад, втрата допомоги по безробіттю).</p>
+
+<h2>Помилки в довідці — як попросити про виправлення?</h2>
+<p>Якщо отримав довідку з помилками (неправильні дати, неправильний спосіб закінчення договору), маєш право вимагати виправлення:</p>
+<ol>
+  <li>Протягом <strong>14 днів</strong> від отримання документа подай письмову заяву про виправлення</li>
+  <li>Роботодавець має <strong>7 днів</strong> на відповідь</li>
+  <li>Якщо відмовить або не відповість — протягом 14 днів від відмови можна подати позов до суду праці</li>
+</ol>
+
+<h2>Дублікат świadectwo pracy — що робити, якщо загубив документ?</h2>
+<p>Якщо загубив довідку про роботу, можна попросити колишнього роботодавця видати дублікат. Роботодавець зобов'язаний зберігати копію довідки протягом усього строку зберігання особової справи (10 років для договорів, укладених після 2019 року).</p>
+
+<h2>Довідка про роботу та тимчасова праця через агентство</h2>
+<p>Тимчасові працівники (найняті через агентства тимчасової праці) часто не знають, що мають таке ж право на свідоцтво про роботу, як і штатні працівники. Роботодавцем з точки зору закону є агентство — воно і видає довідку після кожного закінченого договору або після завершення всього співробітництва.</p>
+<p>Nexflow видає świadectwa pracy всім працівникам після закінчення договору. Якщо є питання щодо документів — звертайся до нашого офісу.</p>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Świadectwo pracy — твій законний документ, роботодавець зобов'язаний його видати</li>
+  <li>Термін видачі: в день закінчення договору або протягом 7 днів</li>
+  <li>У разі проблем: спочатку лист роботодавцю, потім PIP, потім суд праці</li>
+  <li>При тимчасовій праці — документ видає агентство, а не роботодавець-користувач</li>
+  <li>Можна вимагати дублікат, якщо загубив оригінал</li>
+</ul>
+<p>Є запитання щодо своїх трудових документів? Напиши нам або відвідай офіс Nexflow — допоможемо.</p>
+    `.trim(),
+  },
+  {
+    slug: "svidetelstvo-o-rabote-inostranets-polsha",
+    title: "Świadectwo pracy в Польше: что это и как получить иностранному работнику?",
+    description:
+      "Полный справочник для иностранцев — что такое свидетельство о работе, когда работодатель обязан его выдать, что оно содержит и что делать, если документ не получен.",
+    date: "2028-09-07",
+    lang: "ru",
+    content: `
+<p>Заканчиваешь работу в Польше и не знаешь, какие документы должен получить от работодателя? <strong>Świadectwo pracy</strong> (свидетельство о работе) — один из важнейших документов, на которые ты имеешь право как работник — независимо от того, гражданином какой страны являешься. В этом руководстве объясняем, что такое świadectwo pracy, что оно должно содержать и как действовать, если работодатель его не выдаёт.</p>
+
+<h2>Что такое świadectwo pracy?</h2>
+<p>Świadectwo pracy — официальный документ, выданный работодателем, подтверждающий историю твоего трудоустройства. Это требование польского трудового законодательства — работодатель обязан выдать его каждому работнику после прекращения трудовых отношений.</p>
+<p>Этот документ необходим, в частности, для:</p>
+<ul>
+  <li>получения пособия по безработице (urząd pracy требует справки за последние 18 месяцев)</li>
+  <li>подтверждения стажа работы у нового работодателя</li>
+  <li>расчёта будущей пенсии через ZUS</li>
+  <li>подтверждения перерыва в страховании при регистрации в NFZ</li>
+</ul>
+
+<h2>Когда работодатель обязан выдать справку?</h2>
+<p>В соответствии со ст. 97 Трудового кодекса, работодатель обязан выдать świadectwo pracy:</p>
+<ul>
+  <li><strong>В день окончания договора</strong> — если не планирует заключить с тобой новый договор в течение 7 дней</li>
+  <li><strong>В течение 7 дней со дня окончания договора</strong> — если трудовые отношения длились суммарно по нескольким договорам с одним работодателем</li>
+</ul>
+<p>Важно: если ты работаешь через агентство временного труда (например, Nexflow), świadectwo pracy выдаёт <strong>агентство</strong>, а не компания, где ты фактически работал.</p>
+
+<h2>Что содержит świadectwo pracy?</h2>
+<p>Правильно оформленная справка о работе должна содержать:</p>
+<ul>
+  <li>Фамилию и имя работника, дату рождения</li>
+  <li>Период работы (с — по)</li>
+  <li>Должность / вид выполняемой работы</li>
+  <li>Объём рабочего времени (полная ставка, 3/4 ставки и т.д.)</li>
+  <li>Способ прекращения трудовых отношений (предупреждение, соглашение сторон, истечение срока договора и т.д.)</li>
+  <li>Количество дней отпуска, использованных в текущем году</li>
+  <li>Сведения о декретном, отцовском, воспитательном отпуске (если были)</li>
+  <li>Сведения об исполнительных производствах (если проводились)</li>
+</ul>
+
+<h2>Как получить świadectwo pracy?</h2>
+<p>Справку о работе можно получить:</p>
+<ul>
+  <li><strong>Лично</strong> — в офисе работодателя или агентства</li>
+  <li><strong>По почте</strong> — работодатель может отправить её на твой адрес проживания</li>
+  <li><strong>Через уполномоченное лицо</strong> — если оформишь письменную доверенность</li>
+</ul>
+
+<h2>Что делать, если работодатель не выдаёт справку?</h2>
+<p>Если работодатель не выдаёт тебе świadectwo pracy или выдаёт с ошибками, есть несколько вариантов:</p>
+
+<h3>1. Письменное требование к работодателю</h3>
+<p>Напиши письмо работодателю с требованием выдать справку. Сохрани копию письма или подтверждение отправки email — это важное доказательство в случае дальнейших шагов.</p>
+
+<h3>2. Жалоба в Государственную инспекцию труда (PIP)</h3>
+<p>Państwowa Inspekcja Pracy — орган, контролирующий соблюдение трудового законодательства в Польше. Подать жалобу можно:</p>
+<ul>
+  <li>Онлайн: <strong>www.pip.gov.pl</strong></li>
+  <li>Лично: в окружной инспекции труда по месту нахождения работодателя</li>
+  <li>По телефону или почте</li>
+</ul>
+
+<h3>3. Иск в трудовой суд</h3>
+<p>Если работодатель по-прежнему отказывает в выдаче или выдал документ с ошибками, можно подать иск в трудовой суд. Можно требовать как выдачи правильного документа, так и возмещения убытков (например, потеря пособия по безработице).</p>
+
+<h2>Ошибки в справке — как потребовать исправления?</h2>
+<p>Если получил справку с ошибками (неверные даты, неверный способ прекращения договора), имеешь право требовать исправления:</p>
+<ol>
+  <li>В течение <strong>14 дней</strong> с момента получения документа подай письменное заявление об исправлении</li>
+  <li>Работодатель имеет <strong>7 дней</strong> на ответ</li>
+  <li>Если откажет или не ответит — в течение 14 дней с момента отказа можно подать иск в трудовой суд</li>
+</ol>
+
+<h2>Дубликат świadectwo pracy — что делать, если потерял документ?</h2>
+<p>Если потерял справку о работе, можно попросить бывшего работодателя выдать дубликат. Работодатель обязан хранить копию справки в течение всего срока хранения личного дела (10 лет для договоров, заключённых после 2019 года).</p>
+
+<h2>Справка о работе и временная работа через агентство</h2>
+<p>Временные работники (нанятые через агентства временного труда) часто не знают, что имеют такое же право на świadectwo pracy, как и постоянные работники. Работодателем с точки зрения закона является агентство — оно и выдаёт справку после каждого завершённого договора или после окончания всего сотрудничества.</p>
+<p>Nexflow выдаёт świadectwa pracy всем работникам после окончания договора. Если есть вопросы по документам — обращайся в наш офис.</p>
+
+<h2>Итог</h2>
+<ul>
+  <li>Świadectwo pracy — твой законный документ, работодатель обязан его выдать</li>
+  <li>Срок выдачи: в день окончания договора или в течение 7 дней</li>
+  <li>При проблемах: сначала письмо работодателю, затем PIP, затем трудовой суд</li>
+  <li>При временной работе — документ выдаёт агентство, а не работодатель-пользователь</li>
+  <li>Можно требовать дубликат, если потерял оригинал</li>
+</ul>
+<p>Есть вопросы по своим трудовым документам? Напиши нам или посети офис Nexflow — поможем.</p>
+    `.trim(),
+  },
+  {
+    slug: "employment-certificate-poland-foreign-worker",
+    title: "Polish Employment Certificate (Świadectwo Pracy): What It Is and How to Get It as a Foreign Worker",
+    description:
+      "Complete guide for foreign workers — what is świadectwo pracy, when must the employer issue it, what does it contain, and what to do if you do not receive it.",
+    date: "2028-09-14",
+    lang: "en",
+    content: `
+<p>Finishing your job in Poland and unsure what documents you are entitled to receive from your employer? <strong>Świadectwo pracy</strong> (employment certificate) is one of the most important documents you have a right to as a worker — regardless of whether you are a Polish, Ukrainian, or other foreign national. This guide explains what świadectwo pracy is, what it must contain, and how to act if your employer refuses to issue it.</p>
+
+<h2>What is świadectwo pracy?</h2>
+<p>Świadectwo pracy is an official document issued by the employer that confirms the history of your employment. It is required by Polish labour law — the employer must issue it to every employee when the employment relationship ends.</p>
+<p>This document is essential for:</p>
+<ul>
+  <li>Claiming unemployment benefits (the employment office requires certificates covering the last 18 months)</li>
+  <li>Proving your work history to a new employer</li>
+  <li>Calculating your future pension through ZUS</li>
+  <li>Confirming insurance gaps when registering with NFZ health insurance</li>
+</ul>
+
+<h2>When must the employer issue the certificate?</h2>
+<p>Under Article 97 of the Polish Labour Code, the employer must issue świadectwo pracy:</p>
+<ul>
+  <li><strong>On the last day of employment</strong> — if they do not plan to enter into a new contract with you within 7 days</li>
+  <li><strong>Within 7 days of the end of the contract</strong> — if the employment relationship consisted of several consecutive contracts with the same employer</li>
+</ul>
+<p>Important: if you work through a temporary employment agency (such as Nexflow), the świadectwo pracy is issued by the <strong>agency</strong>, not the client company where you actually worked.</p>
+
+<h2>What does świadectwo pracy contain?</h2>
+<p>A correctly completed employment certificate must include:</p>
+<ul>
+  <li>Employee name and date of birth</li>
+  <li>Period of employment (from — to)</li>
+  <li>Job title / type of work performed</li>
+  <li>Working time (full-time, 3/4 time, etc.)</li>
+  <li>Method of termination (notice, mutual agreement, contract expiry, etc.)</li>
+  <li>Number of annual leave days used in the current calendar year</li>
+  <li>Information about parental, paternity, or childcare leave (if applicable)</li>
+  <li>Information about wage garnishment orders (if any were in place)</li>
+</ul>
+
+<h2>How to receive your świadectwo pracy?</h2>
+<p>You can collect the certificate:</p>
+<ul>
+  <li><strong>In person</strong> — at the employer or agency office</li>
+  <li><strong>By post</strong> — the employer may send it to your residential address</li>
+  <li><strong>Through an authorised person</strong> — if you issue a written power of attorney</li>
+</ul>
+
+<h2>What to do if the employer does not issue the certificate?</h2>
+<p>If your employer fails to issue świadectwo pracy or issues it with errors, you have several options:</p>
+
+<h3>1. Written demand to the employer</h3>
+<p>Send a written request to the employer demanding the certificate. Keep a copy of the letter or email confirmation — this is important evidence if you need to take further action.</p>
+
+<h3>2. Complaint to the State Labour Inspectorate (PIP)</h3>
+<p>Państwowa Inspekcja Pracy (PIP) is the body that enforces labour law in Poland. You can file a complaint:</p>
+<ul>
+  <li>Online: <strong>www.pip.gov.pl</strong></li>
+  <li>In person: at the regional labour inspectorate covering your employer's location</li>
+  <li>By phone or post</li>
+</ul>
+<p>An inspector can impose a fine on the employer for failing to issue the certificate.</p>
+
+<h3>3. Lawsuit in labour court</h3>
+<p>If the employer still refuses or issued the document with errors, you can file a claim in the labour court (sąd pracy). You can claim both a corrected certificate and compensation for any damages caused by its absence (e.g. loss of unemployment benefit).</p>
+
+<h2>Errors in the certificate — how to request a correction?</h2>
+<p>If you received a certificate with errors (wrong dates, wrong termination method), you have the right to request a correction:</p>
+<ol>
+  <li>Within <strong>14 days</strong> of receiving the document, submit a written request for correction</li>
+  <li>The employer has <strong>7 days</strong> to respond</li>
+  <li>If they refuse or do not respond — within 14 days of the refusal you can file a claim in the labour court</li>
+</ol>
+
+<h2>Duplicate certificate — what if you lost the original?</h2>
+<p>If you have lost your employment certificate, you can ask your former employer to issue a duplicate. The employer is required to retain a copy of the certificate for the entire retention period of the employee personal file (10 years for contracts entered into from 2019 onwards).</p>
+
+<h2>Employment certificate and temporary agency work</h2>
+<p>Temporary workers (employed through temporary employment agencies) often do not know that they have the same right to świadectwo pracy as permanent employees. The legal employer is the agency — it issues the certificate after each completed contract or at the end of the entire working relationship.</p>
+<p>Nexflow issues employment certificates to all workers upon contract completion. If you have questions about your employment documents, contact our office — we are here to help.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Świadectwo pracy is your legal entitlement — the employer is obliged to issue it</li>
+  <li>Issuance deadline: on the last day of employment or within 7 days</li>
+  <li>If there are problems: first a written demand, then PIP, then labour court</li>
+  <li>In temporary agency work — the document is issued by the agency, not the client employer</li>
+  <li>You can request a duplicate if you lose the original</li>
+</ul>
+<p>Do you have questions about your employment documents? Write to us or visit the Nexflow office — we will help you.</p>
+    `.trim(),
   }
 ];
 
