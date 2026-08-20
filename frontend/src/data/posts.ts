@@ -10759,6 +10759,910 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
   <li>When in doubt — always consult your agency or a lawyer before making a decision.</li>
 </ul>
     `.trim(),
+  },
+  {
+    slug: "przedluzenie-karty-czasowego-pobytu-polska",
+    title: "Przedłużenie karty czasowego pobytu w Polsce — kiedy złożyć wniosek i jak to zrobić",
+    description:
+      "Kiedy złożyć wniosek o przedłużenie karty czasowego pobytu w Polsce, jakie dokumenty są potrzebne i co zrobić, gdy karta wygaśnie. Praktyczny poradnik dla cudzoziemców pracujących legalnie w Polsce.",
+    date: "2028-03-29",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Przedłużenie karty czasowego pobytu w Polsce — kiedy złożyć wniosek i jak to zrobić krok po kroku</h1>
+
+  <p>Karta czasowego pobytu (KCP) wydawana jest zazwyczaj na okres od 1 do 3 lat. Kiedy zbliża się jej koniec ważności, wiele osób pyta: kiedy złożyć wniosek o przedłużenie? Co się stanie, jeśli karta wygaśnie? Czy mogę w tym czasie pracować? Ten poradnik odpowiada na wszystkie te pytania.</p>
+
+  <h2>Kiedy złożyć wniosek o przedłużenie?</h2>
+
+  <p>Wniosek o przedłużenie karty czasowego pobytu należy złożyć <strong>przed upływem daty ważności</strong> aktualnej karty. Przepisy stanowią, że można to zrobić najwcześniej <strong>1 rok przed końcem ważności</strong> i — co najważniejsze — najpóźniej <strong>w ostatnim dniu jej ważności</strong>.</p>
+
+  <p>W praktyce zalecamy złożenie wniosku <strong>co najmniej 3 miesiące przed wygaśnięciem karty</strong>. Urzędy wojewódzkie mają obłożone kolejki — czas oczekiwania na decyzję wynosi od kilku tygodni do nawet kilku miesięcy.</p>
+
+  <h2>Co się dzieje po złożeniu wniosku?</h2>
+
+  <p>Jeśli złożysz wniosek przed upływem ważności karty, Twój pobyt jest <strong>legalny</strong> przez cały czas oczekiwania na decyzję — nawet jeśli karta wygaśnie w międzyczasie. W tym celu urząd wbija do paszportu specjalną <strong>pieczątkę potwierdzającą złożenie wniosku</strong> (tzw. stempel legalizacyjny).</p>
+
+  <p>Pieczątka ta stanowi dowód legalnego pobytu. Możesz z nią:</p>
+  <ul>
+    <li>pozostać w Polsce;</li>
+    <li>kontynuować pracę na dotychczasowych warunkach;</li>
+    <li>przekraczać granicę (w ograniczonym zakresie — pamiętaj, żeby sprawdzić aktualne przepisy).</li>
+  </ul>
+
+  <h2>Jakie dokumenty są potrzebne?</h2>
+
+  <p>Lista dokumentów jest podobna jak przy pierwszym wniosku, ale mogą pojawić się pewne różnice. Standardowo potrzebne są:</p>
+  <ul>
+    <li>wniosek o udzielenie zezwolenia na pobyt czasowy (formularz z urzędu lub ze strony internetowej urzędu wojewódzkiego);</li>
+    <li>4 zdjęcia paszportowe (35 × 45 mm, tło białe);</li>
+    <li>ważny paszport (oryginał i kserokopia wszystkich stron ze stemplami);</li>
+    <li>umowa o pracę lub umowa zlecenie (aktualna, potwierdzająca zatrudnienie);</li>
+    <li>zaświadczenie od pracodawcy lub agencji pracy o zatrudnieniu i wynagrodzeniu;</li>
+    <li>potwierdzenie zameldowania lub umowa najmu mieszkania;</li>
+    <li>potwierdzenie opłacania składek ZUS (wydruk z PUE ZUS);</li>
+    <li>aktualna karta czasowego pobytu (oryginał i kserokopia).</li>
+  </ul>
+
+  <p>Urząd może zażądać dodatkowych dokumentów — warto zadzwonić przed wizytą lub sprawdzić stronę urzędu.</p>
+
+  <h2>Gdzie i jak złożyć wniosek?</h2>
+
+  <p>Wniosek składasz w <strong>Urzędzie Wojewódzkim</strong> właściwym dla miejsca zamieszkania. W Polsce działa 16 urzędów wojewódzkich — każdy obsługuje cudzoziemców w wydziale spraw cudzoziemców lub biurze paszportowym.</p>
+
+  <p>Procedura krok po kroku:</p>
+  <ol>
+    <li><strong>Zarejestruj wizytę online</strong> — większość urzędów wymaga wcześniejszej rejestracji przez system kolejkowy (np. kolejka.gov.pl lub system regionalny).</li>
+    <li><strong>Przygotuj komplet dokumentów</strong> — sprawdź listę na stronie urzędu, bo wymagania mogą się różnić między województwami.</li>
+    <li><strong>Złóż wniosek osobiście</strong> — wniosek składa się osobiście lub przez pełnomocnika. Urzędnik sprawdza dokumenty i wbija pieczęć do paszportu.</li>
+    <li><strong>Opłać wniosek</strong> — opłata skarbowa za wydanie karty wynosi 340 zł (2025). Wnoś opłatę przed wizytą lub zgodnie z instrukcją urzędu.</li>
+    <li><strong>Czekaj na decyzję</strong> — urząd ma 1 miesiąc na wydanie decyzji (w sprawach skomplikowanych do 2 miesięcy). W praktyce bywa dłużej.</li>
+    <li><strong>Odbierz kartę</strong> — po pozytywnej decyzji dostaniesz zawiadomienie o gotowości karty do odbioru. Karta jest gotowa zwykle kilka dni po decyzji.</li>
+  </ol>
+
+  <h2>Co jeśli zapomniałem złożyć wniosek i karta wygasła?</h2>
+
+  <p>To poważna sytuacja. Jeśli karta wygasła i nie złożyłeś wniosku o przedłużenie, Twój pobyt staje się nielegalny. W takim przypadku:</p>
+  <ul>
+    <li>możesz zostać zobowiązany do opuszczenia Polski;</li>
+    <li>grożą Ci kary administracyjne;</li>
+    <li>możesz mieć trudności z uzyskaniem kolejnej wizy lub zezwolenia na pobyt.</li>
+  </ul>
+
+  <p>Jeśli znalazłeś się w takiej sytuacji — nie zwlekaj, skonsultuj się z prawnikiem lub organizacją pomagającą cudzoziemcom.</p>
+
+  <h2>Praktyczne wskazówki</h2>
+
+  <ul>
+    <li><strong>Monitoruj datę ważności karty</strong> — ustaw przypomnienie w telefonie 4 miesiące przed końcem ważności.</li>
+    <li><strong>Zachowaj kopie wszystkich dokumentów</strong> — paszport, umowa, zaświadczenie od pracodawcy.</li>
+    <li><strong>Jeśli zmieniasz pracę lub adres</strong> — poinformuj urząd, bo zmiana tych danych może wpłynąć na Twój wniosek.</li>
+    <li><strong>Agencja pracy może pomóc</strong> — Nexflow wspiera swoich pracowników w procesach legalizacyjnych. Skonsultuj się z nami przed złożeniem wniosku.</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+
+  <p>Przedłużenie karty czasowego pobytu to naturalny krok dla każdego cudzoziemca pracującego legalnie w Polsce. Kluczem do sukcesu jest złożenie wniosku z odpowiednim wyprzedzeniem — najlepiej 3 miesiące przed końcem ważności. Po złożeniu wniosku Twój pobyt i praca są legalne przez cały czas oczekiwania na decyzję.</p>
+
+  <p>Pracujesz jako pracownik tymczasowy lub szukasz pracy w Polsce? <strong>Skontaktuj się z Nexflow</strong> — pomagamy w procesach legalizacyjnych i znajdziemy dla Ciebie stabilne zatrudnienie.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prodovzhennia-karty-tymchasovogo-prozhyvannia-polshcha",
+    title: "Продовження карти тимчасового проживання в Польщі — коли подавати заяву і як це зробити",
+    description:
+      "Коли подавати заяву на продовження картки тимчасового проживання в Польщі, які документи потрібні та що відбувається, якщо картка закінчиться. Практичний посібник для іноземців.",
+    date: "2028-04-05",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Продовження карти тимчасового проживання в Польщі — коли подавати заяву і як це зробити крок за кроком</h1>
+
+  <p>Картка тимчасового проживання (KCP) зазвичай видається на термін від 1 до 3 років. Коли термін дії наближається до кінця, багато хто запитує: коли подати заяву на продовження? Що відбудеться, якщо картка закінчиться? Чи можу я в цей час працювати? Цей посібник відповідає на всі ці питання.</p>
+
+  <h2>Коли подавати заяву на продовження?</h2>
+
+  <p>Заяву на продовження карти тимчасового проживання необхідно подати <strong>до закінчення терміну дії</strong> поточної картки. Згідно з правилами, це можна зробити не раніше ніж <strong>за 1 рік до закінчення терміну</strong> і — що найважливіше — не пізніше <strong>в останній день її дії</strong>.</p>
+
+  <p>На практиці рекомендуємо подавати заяву <strong>не менш ніж за 3 місяці до закінчення терміну</strong>. Черги у воєводських управліннях довгі — час очікування рішення становить від кількох тижнів до кількох місяців.</p>
+
+  <h2>Що відбувається після подачі заяви?</h2>
+
+  <p>Якщо ви подасте заяву до закінчення терміну дії картки, ваше перебування є <strong>законним</strong> протягом усього часу очікування рішення — навіть якщо картка закінчиться в цей час. Для цього управління ставить до паспорта спеціальний <strong>штамп, що підтверджує подачу заяви</strong> (так зваий легалізаційний штамп).</p>
+
+  <p>Цей штамп є підтвердженням законного перебування. З ним ви можете:</p>
+  <ul>
+    <li>залишатися в Польщі;</li>
+    <li>продовжувати роботу на попередніх умовах;</li>
+    <li>перетинати кордон (з певними обмеженнями — перевіряйте актуальні правила).</li>
+  </ul>
+
+  <h2>Які документи потрібні?</h2>
+
+  <p>Список документів схожий на перший раз, але можуть бути деякі відмінності. Стандартно потрібні:</p>
+  <ul>
+    <li>заява про надання дозволу на тимчасове перебування (бланк з управління або з його сайту);</li>
+    <li>4 паспортних фото (35 × 45 мм, білий фон);</li>
+    <li>дійсний паспорт (оригінал і копія всіх сторінок зі штампами);</li>
+    <li>трудовий договір або договір підряду (актуальний, що підтверджує працевлаштування);</li>
+    <li>довідка від роботодавця або агенції праці про працевлаштування та зарплату;</li>
+    <li>підтвердження реєстрації місця проживання або договір оренди;</li>
+    <li>підтвердження сплати внесків ZUS (роздруківка з PUE ZUS);</li>
+    <li>чинна картка тимчасового проживання (оригінал і копія).</li>
+  </ul>
+
+  <h2>Де і як подати заяву?</h2>
+
+  <p>Заяву подається у <strong>Воєводському управлінні</strong> за місцем проживання. Процедура крок за кроком:</p>
+  <ol>
+    <li><strong>Зареєструйтесь онлайн</strong> — більшість управлінь вимагає попереднього запису через електронну систему черг.</li>
+    <li><strong>Підготуйте повний комплект документів</strong> — перевірте список на сайті управління.</li>
+    <li><strong>Подайте заяву особисто</strong> — чиновник перевірить документи і поставить штамп у паспорт.</li>
+    <li><strong>Оплатіть збір</strong> — держмито за видачу картки становить 340 злотих (2025).</li>
+    <li><strong>Чекайте на рішення</strong> — управління має 1 місяць на видачу рішення (у складних справах — до 2 місяців).</li>
+    <li><strong>Заберіть картку</strong> — після позитивного рішення отримаєте повідомлення про готовність картки.</li>
+  </ol>
+
+  <h2>Що робити, якщо я забув подати заяву і картка закінчилась?</h2>
+
+  <p>Це серйозна ситуація. Якщо картка закінчилась і ви не подали заяву на продовження, ваше перебування стає незаконним. У такому випадку вам можуть загрожувати адміністративні санкції, а в майбутньому — труднощі з отриманням нового дозволу. Не зволікайте — зверніться до юриста або організації, що допомагає іноземцям.</p>
+
+  <h2>Практичні поради</h2>
+
+  <ul>
+    <li><strong>Стежте за датою закінчення картки</strong> — встановіть нагадування у телефоні за 4 місяці до закінчення терміну.</li>
+    <li><strong>Зберігайте копії всіх документів</strong> — паспорт, договір, довідка від роботодавця.</li>
+    <li><strong>Якщо міняєте роботу або адресу</strong> — повідомте управління, оскільки ці зміни можуть вплинути на вашу заяву.</li>
+    <li><strong>Агенція праці може допомогти</strong> — Nexflow підтримує своїх працівників у процесах легалізації.</li>
+  </ul>
+
+  <h2>Підсумок</h2>
+
+  <p>Продовження карти тимчасового проживання — природний крок для кожного іноземця, який легально працює в Польщі. Головне — подати заяву завчасно, не менш ніж за 3 місяці до закінчення терміну. Після подачі заяви ваше перебування та робота є законними протягом усього часу очікування рішення.</p>
+
+  <p>Шукаєте роботу в Польщі? <strong>Зв'яжіться з Nexflow</strong> — ми допомагаємо у процесах легалізації та знайдемо для вас стабільну роботу.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prodlenie-karty-vremennogo-prozhivaniya-polsha",
+    title: "Продление карты временного проживания в Польше — когда подавать заявление и как это сделать",
+    description:
+      "Когда подавать заявление на продление карты временного проживания в Польше, какие документы нужны и что происходит, если карта истечёт. Практическое руководство для иностранцев.",
+    date: "2028-04-12",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Продление карты временного проживания в Польше — когда подавать заявление и как это сделать шаг за шагом</h1>
+
+  <p>Карта временного проживания (KCP) обычно выдаётся на срок от 1 до 3 лет. Когда срок её действия подходит к концу, многие спрашивают: когда подавать заявление на продление? Что будет, если карта закончится? Смогу ли я в это время работать? Это руководство отвечает на все эти вопросы.</p>
+
+  <h2>Когда подавать заявление на продление?</h2>
+
+  <p>Заявление на продление карты временного проживания необходимо подать <strong>до истечения срока действия</strong> текущей карты. По правилам, это можно сделать не раньше чем <strong>за 1 год до окончания</strong> и — что важно — не позднее <strong>в последний день её действия</strong>.</p>
+
+  <p>На практике рекомендуем подавать заявление <strong>не менее чем за 3 месяца до истечения срока</strong>. Очереди в воеводских управлениях значительные — время ожидания решения составляет от нескольких недель до нескольких месяцев.</p>
+
+  <h2>Что происходит после подачи заявления?</h2>
+
+  <p>Если вы подадите заявление до истечения срока действия карты, ваше пребывание является <strong>законным</strong> в течение всего времени ожидания решения — даже если карта истечёт в этот период. Для этого управление ставит в паспорт специальный <strong>штамп, подтверждающий подачу заявления</strong> (так называемый легализационный штамп).</p>
+
+  <p>Этот штамп служит подтверждением законного пребывания. С ним вы можете:</p>
+  <ul>
+    <li>оставаться в Польше;</li>
+    <li>продолжать работу на прежних условиях;</li>
+    <li>пересекать границу (с определёнными ограничениями — проверяйте актуальные правила).</li>
+  </ul>
+
+  <h2>Какие документы нужны?</h2>
+
+  <p>Список документов схож с первым разом, но могут быть некоторые отличия. Стандартно требуются:</p>
+  <ul>
+    <li>заявление о предоставлении разрешения на временное пребывание (бланк из управления или с его сайта);</li>
+    <li>4 паспортных фото (35 × 45 мм, белый фон);</li>
+    <li>действительный паспорт (оригинал и копия всех страниц со штампами);</li>
+    <li>трудовой договор или договор подряда (актуальный, подтверждающий трудоустройство);</li>
+    <li>справка от работодателя или кадрового агентства о трудоустройстве и зарплате;</li>
+    <li>подтверждение регистрации по месту жительства или договор аренды;</li>
+    <li>подтверждение уплаты взносов ZUS (распечатка из PUE ZUS);</li>
+    <li>действующая карта временного проживания (оригинал и копия).</li>
+  </ul>
+
+  <h2>Где и как подать заявление?</h2>
+
+  <p>Заявление подаётся в <strong>Воеводском управлении</strong> по месту жительства. Процедура шаг за шагом:</p>
+  <ol>
+    <li><strong>Запишитесь онлайн</strong> — большинство управлений требует предварительной записи через электронную систему очередей.</li>
+    <li><strong>Подготовьте полный комплект документов</strong> — проверьте список на сайте управления.</li>
+    <li><strong>Подайте заявление лично</strong> — чиновник проверит документы и поставит штамп в паспорт.</li>
+    <li><strong>Оплатите сбор</strong> — государственная пошлина за выдачу карты составляет 340 злотых (2025).</li>
+    <li><strong>Ждите решения</strong> — управление имеет 1 месяц на вынесение решения (в сложных делах — до 2 месяцев).</li>
+    <li><strong>Заберите карту</strong> — после положительного решения вы получите уведомление о готовности карты.</li>
+  </ol>
+
+  <h2>Что делать, если я забыл подать заявление и карта истекла?</h2>
+
+  <p>Это серьёзная ситуация. Если карта истекла и вы не подали заявление на продление, ваше пребывание становится незаконным. В таком случае вам грозят административные санкции, а в будущем — трудности с получением нового разрешения. Не медлите — обратитесь к юристу или организации, помогающей иностранцам.</p>
+
+  <h2>Практические советы</h2>
+
+  <ul>
+    <li><strong>Следите за датой окончания карты</strong> — установите напоминание в телефоне за 4 месяца до конца срока.</li>
+    <li><strong>Сохраняйте копии всех документов</strong> — паспорт, договор, справка от работодателя.</li>
+    <li><strong>Если меняете работу или адрес</strong> — уведомите управление, так как эти изменения могут повлиять на заявление.</li>
+    <li><strong>Агентство труда может помочь</strong> — Nexflow поддерживает своих работников в процессах легализации.</li>
+  </ul>
+
+  <h2>Итог</h2>
+
+  <p>Продление карты временного проживания — естественный шаг для каждого иностранца, легально работающего в Польше. Главное — подать заявление заблаговременно, не менее чем за 3 месяца до окончания срока. После подачи заявления ваше пребывание и работа являются законными в течение всего времени ожидания решения.</p>
+
+  <p>Ищете работу в Польше? <strong>Свяжитесь с Nexflow</strong> — мы помогаем в процессах легализации и найдём для вас стабильную работу.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "renewing-temporary-residence-card-poland",
+    title: "Renewing Your Temporary Residence Card in Poland — When to Apply and What to Do",
+    description:
+      "When to apply for renewal of your temporary residence card in Poland, what documents you need, and what happens if the card expires. A practical step-by-step guide for foreign workers.",
+    date: "2028-04-19",
+    lang: "en",
+    content: `
+<article>
+  <h1>Renewing Your Temporary Residence Card in Poland — When to Apply and What to Do Step by Step</h1>
+
+  <p>The temporary residence card (karta czasowego pobytu, KCP) is typically issued for 1 to 3 years. As the expiry date approaches, many people ask: when should I apply for renewal? What happens if the card expires? Can I keep working while I wait? This guide answers all these questions.</p>
+
+  <h2>When Should You Apply for Renewal?</h2>
+
+  <p>You must submit your renewal application <strong>before your current card expires</strong>. Under Polish law, you can apply as early as <strong>1 year before expiry</strong>, but no later than <strong>on the last day the card is valid</strong>.</p>
+
+  <p>In practice, we recommend applying <strong>at least 3 months before expiry</strong>. Provincial offices (urzędy wojewódzkie) are heavily backlogged — waiting times for a decision range from a few weeks to several months.</p>
+
+  <h2>What Happens After You Submit Your Application?</h2>
+
+  <p>If you apply before your card expires, your stay in Poland is <strong>fully legal</strong> throughout the waiting period — even if the card expires in the meantime. The office will stamp your passport with a <strong>confirmation stamp</strong> (stempel legalizacyjny) proving that your application is pending.</p>
+
+  <p>This stamp serves as proof of legal residence. With it, you can:</p>
+  <ul>
+    <li>remain in Poland legally;</li>
+    <li>continue working under the same terms;</li>
+    <li>cross the border (with some limitations — always check current rules before travelling).</li>
+  </ul>
+
+  <h2>What Documents Do You Need?</h2>
+
+  <p>The documents required are similar to your first application, with some possible differences. Standard requirements include:</p>
+  <ul>
+    <li>the application form for a temporary residence permit (available at the office or its website);</li>
+    <li>4 passport-size photos (35 × 45 mm, white background);</li>
+    <li>a valid passport (original + copies of all pages with stamps);</li>
+    <li>an employment contract or civil-law contract (current, proving employment);</li>
+    <li>a statement from your employer or staffing agency confirming employment and salary;</li>
+    <li>proof of registered address or a rental agreement;</li>
+    <li>proof of ZUS contributions paid (printout from PUE ZUS);</li>
+    <li>your current residence card (original + copy).</li>
+  </ul>
+
+  <p>The office may request additional documents — call ahead or check the office website before your appointment.</p>
+
+  <h2>Where and How to Submit Your Application</h2>
+
+  <p>Submit your application at the <strong>Voivodeship (Provincial) Office</strong> for the region where you live. Step by step:</p>
+  <ol>
+    <li><strong>Register online for an appointment</strong> — most offices require pre-booking through an online queue system.</li>
+    <li><strong>Prepare a full set of documents</strong> — check the requirements on the office website, as they vary between provinces.</li>
+    <li><strong>Submit in person</strong> — the officer checks your documents and stamps your passport.</li>
+    <li><strong>Pay the fee</strong> — the stamp duty for issuing the card is 340 PLN (2025).</li>
+    <li><strong>Wait for a decision</strong> — the office has 1 month to issue a decision (up to 2 months for complex cases). In practice, it often takes longer.</li>
+    <li><strong>Pick up your card</strong> — once the decision is positive, you'll be notified that your card is ready for collection.</li>
+  </ol>
+
+  <h2>What If I Forgot to Apply and My Card Has Expired?</h2>
+
+  <p>This is a serious situation. If your card has expired and you didn't apply for renewal, your stay becomes illegal. You may face administrative penalties and future difficulties obtaining a new permit. Do not delay — consult a lawyer or an organisation that supports foreigners in Poland.</p>
+
+  <h2>Practical Tips</h2>
+
+  <ul>
+    <li><strong>Track your card's expiry date</strong> — set a phone reminder 4 months before it expires.</li>
+    <li><strong>Keep copies of all documents</strong> — passport, contract, employer statement.</li>
+    <li><strong>Changing jobs or address?</strong> — notify the office, as these changes can affect your application.</li>
+    <li><strong>Your staffing agency can help</strong> — Nexflow supports its workers throughout the legalisation process.</li>
+  </ul>
+
+  <h2>Summary</h2>
+
+  <p>Renewing your temporary residence card is a routine step for every foreign worker living legally in Poland. The key is to apply well in advance — at least 3 months before expiry. Once you apply, your stay and your right to work remain fully legal throughout the waiting period.</p>
+
+  <p>Looking for work in Poland? <strong>Contact Nexflow</strong> — we support you through legalisation processes and match you with stable employment.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prawa-pracownicze-polska-cudzoziemiec-minimalne-wynagrodzenie",
+    title: "Prawa pracownicze w Polsce dla cudzoziemców — minimalne wynagrodzenie, czas pracy i urlopy",
+    description:
+      "Minimalne wynagrodzenie 4666 zł, czas pracy, urlopy i prawa przy umowie zlecenie — kompletny przewodnik po prawach pracowniczych cudzoziemców w Polsce (2025).",
+    date: "2028-04-26",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Prawa pracownicze w Polsce dla cudzoziemców — minimalne wynagrodzenie, czas pracy i urlopy</h1>
+
+  <p>Jeśli pracujesz w Polsce jako cudzoziemiec — niezależnie od tego, czy masz umowę o pracę, czy umowę zlecenie — masz określone prawa. Polskie prawo pracy chroni wszystkich pracowników, bez względu na obywatelstwo. Ten poradnik wyjaśnia najważniejsze zasady: ile musisz zarabiać co najmniej, jak długo możesz pracować, kiedy należy Ci się urlop i co zrobić, gdy pracodawca łamie te zasady.</p>
+
+  <h2>Minimalne wynagrodzenie w Polsce (2025)</h2>
+
+  <p>Od 1 stycznia 2025 r. minimalne wynagrodzenie za pracę w Polsce wynosi <strong>4666 zł brutto</strong> miesięcznie (przy umowie o pracę na pełny etat). Minimalna stawka godzinowa (dla umów zlecenie) to <strong>30,50 zł brutto</strong> za godzinę.</p>
+
+  <p>Każdy pracodawca jest zobowiązany płacić co najmniej tę stawkę. Jeśli zarabiasz mniej — nawet jeśli podpisałeś taką umowę — masz prawo dochodzić brakującego wynagrodzenia.</p>
+
+  <h2>Czas pracy</h2>
+
+  <p>Przy pełnym etacie obowiązuje Cię <strong>8 godzin dziennie i 40 godzin tygodniowo</strong>. To jest norma czasu pracy zgodna z Kodeksem pracy.</p>
+
+  <p>Praca powyżej tych norm to <strong>nadgodziny</strong>. Za nadgodziny przysługuje Ci:</p>
+  <ul>
+    <li>dodatek 50% wynagrodzenia za pierwszych 2 nadgodziny w dniu lub za pracę w nocy;</li>
+    <li>dodatek 100% wynagrodzenia za nadgodziny przekraczające 2 w dniu lub za pracę w niedzielę i święta;</li>
+    <li>alternatywnie: czas wolny w zamian za nadgodziny (w takim samym wymiarze lub — jeśli sam poprosisz — o połowę więcej).</li>
+  </ul>
+
+  <p>Łączna liczba nadgodzin w roku nie może przekroczyć <strong>150 godzin</strong> (lub więcej, jeśli tak stanowi układ zbiorowy lub umowa o pracę — maksymalnie 416).</p>
+
+  <h2>Przerwy i odpoczynek</h2>
+
+  <p>Przy pracy trwającej co najmniej 6 godzin dziennie przysługuje Ci <strong>co najmniej 15-minutowa przerwa</strong> wliczana do czasu pracy. Między zmianami masz prawo do co najmniej <strong>11 godzin nieprzerwanego odpoczynku</strong>.</p>
+
+  <h2>Urlop wypoczynkowy</h2>
+
+  <p>Przy umowie o pracę masz prawo do płatnego urlopu wypoczynkowego:</p>
+  <ul>
+    <li><strong>20 dni</strong> rocznie — jeśli pracujesz krócej niż 10 lat;</li>
+    <li><strong>26 dni</strong> rocznie — jeśli pracujesz co najmniej 10 lat.</li>
+  </ul>
+
+  <p>Do stażu pracy wlicza się praca w Polsce i za granicą, jeśli zostanie udokumentowana. Urlop jest płatny — zarabiasz tyle, ile byś zarobił, pracując normalnie.</p>
+
+  <h2>Zwolnienie lekarskie (L4)</h2>
+
+  <p>Jeśli jesteś chory i masz zwolnienie lekarskie (L4), przez pierwsze <strong>33 dni choroby w roku</strong> pracodawca wypłaca Ci 80% wynagrodzenia (lub 100%, jeśli choroba jest wynikiem wypadku przy pracy). Jeśli choroba trwa dłużej, wypłatę przejmuje ZUS.</p>
+
+  <h2>Umowa zlecenie — co różni ją od umowy o pracę?</h2>
+
+  <p>Umowa zlecenie (cywilnoprawna) daje mniej ochrony niż umowa o pracę:</p>
+  <ul>
+    <li>nie obowiązuje limit czasu pracy ani prawo do urlopu (chyba że umowa to stanowi);</li>
+    <li>obowiązuje minimalna stawka godzinowa (30,50 zł brutto, 2025);</li>
+    <li>pracodawca ma obowiązek płacić składki ZUS (choroby, emerytury, wypadki).</li>
+  </ul>
+
+  <h2>Kiedy pracodawca łamie Twoje prawa?</h2>
+
+  <p>Jeśli pracodawca:</p>
+  <ul>
+    <li>nie wypłaca wynagrodzenia lub płaci mniej niż minimalne,</li>
+    <li>zmusza do nadgodzin bez wynagrodzenia,</li>
+    <li>nie daje urlopu lub nie płaci za niego,</li>
+    <li>zwolnił Cię bezprawnie,</li>
+  </ul>
+  <p>— możesz zgłosić to do <strong>Państwowej Inspekcji Pracy (PIP)</strong>. Inspekcja ma obowiązek zbadać sprawę, a postępowanie jest bezpłatne. Możesz złożyć skargę anonimowo lub podając dane — zależy od Twojej decyzji.</p>
+
+  <h2>Podsumowanie</h2>
+
+  <p>Jako cudzoziemiec pracujący w Polsce masz te same prawa co Polacy. Kluczowe zasady: minimalne wynagrodzenie 4666 zł miesięcznie (2025), 8 godzin pracy dziennie, 20–26 dni urlopu rocznie i pełna ochrona przed bezprawnym zwolnieniem. Jeśli Twoje prawa są naruszane — Państwowa Inspekcja Pracy jest po Twojej stronie.</p>
+
+  <p>Masz pytania o swoje prawa pracownicze? <strong>Skontaktuj się z Nexflow</strong> — współpracujemy wyłącznie z pracodawcami, którzy przestrzegają polskiego prawa pracy.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "trudovi-prava-polshcha-minimalna-zarplata",
+    title: "Трудові права в Польщі для іноземців — мінімальна зарплата, робочий час і відпустка",
+    description:
+      "Мінімальна зарплата 4 666 злотих, робочий час, відпустка і права за цивільно-правовим договором — повний посібник з трудових прав іноземців у Польщі (2025).",
+    date: "2028-05-03",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Трудові права в Польщі для іноземців — мінімальна зарплата, робочий час і відпустка</h1>
+
+  <p>Якщо ви працюєте в Польщі як іноземець — незалежно від того, чи маєте трудовий договір, чи цивільно-правовий — у вас є певні права. Польське трудове законодавство захищає всіх працівників незалежно від громадянства. Цей посібник пояснює ключові правила: який мінімальний заробіток ви маєте отримувати, скільки годин може тривати робочий день, коли належить відпустка і що робити, якщо роботодавець порушує ці правила.</p>
+
+  <h2>Мінімальна заробітна плата в Польщі (2025)</h2>
+
+  <p>З 1 січня 2025 року мінімальна заробітна плата в Польщі становить <strong>4 666 злотих брутто</strong> на місяць (при повній зайнятості за трудовим договором). Мінімальна годинна ставка (для цивільно-правових договорів) — <strong>30,50 злотих брутто</strong> за годину.</p>
+
+  <p>Кожен роботодавець зобов'язаний платити не менше цієї ставки. Якщо ви заробляєте менше — навіть якщо підписали такий договір — ви маєте право вимагати різницю.</p>
+
+  <h2>Робочий час</h2>
+
+  <p>При повній зайнятості норма становить <strong>8 годин на день і 40 годин на тиждень</strong>. Робота понад ці норми — це <strong>понаднормові</strong>. За них ви маєте право на:</p>
+  <ul>
+    <li>надбавку 50% зарплати за перші 2 понаднормові години на день або за нічну роботу;</li>
+    <li>надбавку 100% зарплати за понаднормові понад 2 на день або за роботу в неділю та свята;</li>
+    <li>альтернативно: відгул замість понаднормових (у рівному або — якщо ви самі попросили — у півторакратному розмірі).</li>
+  </ul>
+
+  <h2>Перерви та відпочинок</h2>
+
+  <p>При робочому дні тривалістю не менше 6 годин вам належить <strong>щонайменше 15 хвилин перерви</strong>, що входить до робочого часу. Між змінами ви маєте право на щонайменше <strong>11 годин безперервного відпочинку</strong>.</p>
+
+  <h2>Оплачувана відпустка</h2>
+
+  <p>При трудовому договорі вам належить оплачувана щорічна відпустка:</p>
+  <ul>
+    <li><strong>20 днів</strong> на рік — якщо стаж роботи менше 10 років;</li>
+    <li><strong>26 днів</strong> на рік — якщо стаж роботи не менше 10 років.</li>
+  </ul>
+
+  <p>До стажу роботи зараховується робота в Польщі та за кордоном (за умови документального підтвердження).</p>
+
+  <h2>Лікарняний (L4)</h2>
+
+  <p>Якщо ви захворіли і маєте лікарняний листок (L4), протягом перших <strong>33 днів хвороби на рік</strong> роботодавець виплачує вам 80% зарплати (або 100%, якщо хвороба є наслідком виробничої травми). Якщо хвороба триває довше — виплату перебирає ZUS.</p>
+
+  <h2>Коли роботодавець порушує ваші права?</h2>
+
+  <p>Якщо роботодавець не виплачує зарплату, платить менше мінімальної ставки, змушує до понаднормових без оплати або звільнив вас незаконно — ви можете звернутися до <strong>Державної інспекції праці (PIP)</strong>. Розгляд безкоштовний, скаргу можна подати анонімно.</p>
+
+  <h2>Підсумок</h2>
+
+  <p>Як іноземець, що працює в Польщі, ви маєте ті самі права, що й поляки. Основні правила: мінімальна зарплата 4 666 злотих на місяць (2025), 8 годин роботи на день, 20–26 днів відпустки на рік і захист від незаконного звільнення. Якщо ваші права порушуються — Державна інспекція праці на вашому боці.</p>
+
+  <p>Маєте питання щодо своїх трудових прав? <strong>Зв'яжіться з Nexflow</strong> — ми співпрацюємо лише з роботодавцями, що дотримуються польського трудового законодавства.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "trudovye-prava-polsha-minimalnyy-zarabotok",
+    title: "Трудовые права в Польше для иностранцев — минимальная зарплата, рабочее время и отпуск",
+    description:
+      "Минимальная зарплата 4 666 злотых, рабочее время, отпуск и права по гражданско-правовому договору — полное руководство по трудовым правам иностранцев в Польше (2025).",
+    date: "2028-05-10",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Трудовые права в Польше для иностранцев — минимальная зарплата, рабочее время и отпуск</h1>
+
+  <p>Если вы работаете в Польше как иностранец — неважно, по трудовому договору или по договору гражданско-правового характера — у вас есть определённые права. Польское трудовое законодательство защищает всех работников независимо от гражданства. Это руководство объясняет ключевые правила: каков минимальный заработок, сколько часов вы можете работать, когда положен отпуск и что делать, если работодатель нарушает ваши права.</p>
+
+  <h2>Минимальная заработная плата в Польше (2025)</h2>
+
+  <p>С 1 января 2025 года минимальная заработная плата в Польше составляет <strong>4 666 злотых брутто</strong> в месяц (при полной занятости по трудовому договору). Минимальная почасовая ставка (для гражданско-правовых договоров) — <strong>30,50 злотых брутто</strong> в час.</p>
+
+  <p>Каждый работодатель обязан платить не менее этой ставки. Если вы зарабатываете меньше — даже если подписали такой договор — вы имеете право требовать разницу.</p>
+
+  <h2>Рабочее время</h2>
+
+  <p>При полной занятости норма составляет <strong>8 часов в день и 40 часов в неделю</strong>. Работа сверх этих норм — это <strong>сверхурочные</strong>. За них вам положены:</p>
+  <ul>
+    <li>надбавка 50% за первые 2 сверхурочных часа в день или за ночную работу;</li>
+    <li>надбавка 100% за сверхурочные свыше 2 в день или за работу в воскресенье и праздники;</li>
+    <li>альтернативно: отгул вместо сверхурочных (в равном или — по вашей просьбе — в полуторакратном размере).</li>
+  </ul>
+
+  <h2>Перерывы и отдых</h2>
+
+  <p>При рабочем дне не менее 6 часов вам положен <strong>перерыв не менее 15 минут</strong>, включённый в рабочее время. Между сменами вы имеете право на не менее <strong>11 часов непрерывного отдыха</strong>.</p>
+
+  <h2>Оплачиваемый отпуск</h2>
+
+  <p>По трудовому договору вам положен оплачиваемый ежегодный отпуск:</p>
+  <ul>
+    <li><strong>20 дней</strong> в год — если стаж работы менее 10 лет;</li>
+    <li><strong>26 дней</strong> в год — если стаж работы не менее 10 лет.</li>
+  </ul>
+
+  <p>В стаж работы засчитывается работа в Польше и за рубежом (при наличии документального подтверждения).</p>
+
+  <h2>Больничный (L4)</h2>
+
+  <p>Если вы заболели и имеете больничный лист (L4), в течение первых <strong>33 дней болезни в год</strong> работодатель выплачивает вам 80% зарплаты (или 100%, если болезнь стала следствием производственной травмы). Если болезнь длится дольше — выплату берёт на себя ZUS.</p>
+
+  <h2>Когда работодатель нарушает ваши права?</h2>
+
+  <p>Если работодатель не платит зарплату или платит меньше минимума, заставляет работать сверхурочно без оплаты или уволил вас незаконно — вы можете обратиться в <strong>Государственную инспекцию труда (PIP)</strong>. Рассмотрение бесплатное, жалобу можна подать анонімно.</p>
+
+  <h2>Итог</h2>
+
+  <p>Как иностранец, работающий в Польше, вы имеете те же права, что и поляки. Основные правила: минимальная зарплата 4 666 злотых в месяц (2025), 8 часов работы в день, 20–26 дней отпуска в год и защита от незаконного увольнения. Если ваши права нарушаются — Государственная инспекция труда на вашей стороне.</p>
+
+  <p>Есть вопросы о ваших трудовых правах? <strong>Свяжитесь с Nexflow</strong> — мы сотрудничаем только с работодателями, соблюдающими польское трудовое законодательство.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "workers-rights-poland-minimum-wage-foreign-worker",
+    title: "Workers' Rights in Poland for Foreign Workers — Minimum Wage, Working Hours, and Leave",
+    description:
+      "Minimum wage 4,666 PLN, working hours, annual leave, sick pay, and civil-law contract rights — a complete guide to labour rights for foreign workers in Poland (2025).",
+    date: "2028-05-17",
+    lang: "en",
+    content: `
+<article>
+  <h1>Workers' Rights in Poland for Foreign Workers — Minimum Wage, Working Hours, and Leave</h1>
+
+  <p>Whether you work in Poland under an employment contract (umowa o pracę) or a civil-law contract (umowa zlecenie), you have legal rights. Polish labour law protects all workers regardless of nationality. This guide explains the key rules: minimum pay, working hours limits, holidays, sick leave, and what to do when your rights are violated.</p>
+
+  <h2>Minimum Wage in Poland (2025)</h2>
+
+  <p>From 1 January 2025, the minimum wage in Poland is <strong>4,666 PLN gross</strong> per month (full-time employment contract). The minimum hourly rate for civil-law contracts (umowa zlecenie) is <strong>30.50 PLN gross</strong> per hour.</p>
+
+  <p>Every employer is legally required to pay at least this amount. If you earn less — even if you signed such a contract — you have the right to claim the difference.</p>
+
+  <h2>Working Hours</h2>
+
+  <p>The standard working time is <strong>8 hours per day and 40 hours per week</strong>. Work beyond these limits counts as <strong>overtime</strong>. You are entitled to:</p>
+  <ul>
+    <li>a 50% pay supplement for the first 2 overtime hours per day or for night work;</li>
+    <li>a 100% pay supplement for overtime beyond 2 hours per day or for Sunday and public holiday work;</li>
+    <li>alternatively: time off in lieu — equal to the overtime worked, or (if you request it yourself) 1.5× the time.</li>
+  </ul>
+
+  <p>Total overtime in a year cannot exceed <strong>150 hours</strong> (or more if a collective agreement or your contract allows — up to a maximum of 416).</p>
+
+  <h2>Rest Breaks</h2>
+
+  <p>For shifts of at least 6 hours, you are entitled to <strong>at least a 15-minute paid break</strong> included in working time. Between shifts, you must have at least <strong>11 hours of continuous rest</strong>.</p>
+
+  <h2>Annual Leave</h2>
+
+  <p>Under an employment contract, you have the right to paid annual leave:</p>
+  <ul>
+    <li><strong>20 days</strong> per year if your total work experience is under 10 years;</li>
+    <li><strong>26 days</strong> per year if your total work experience is 10 years or more.</li>
+  </ul>
+
+  <p>Work experience in other countries counts toward this total, provided you can document it. Leave is paid at your normal rate of pay.</p>
+
+  <h2>Sick Leave (L4)</h2>
+
+  <p>If you are ill and have a medical certificate (L4), for the first <strong>33 days of illness per year</strong> your employer pays you 80% of your salary (100% if the illness results from a workplace accident). For illness lasting longer, the ZUS social insurance fund takes over payments.</p>
+
+  <h2>Civil-Law Contract (Umowa Zlecenie) — Key Differences</h2>
+
+  <p>A civil-law contract gives fewer protections than an employment contract:</p>
+  <ul>
+    <li>no statutory limits on working hours or right to annual leave (unless the contract specifies this);</li>
+    <li>the minimum hourly rate (30.50 PLN gross, 2025) still applies;</li>
+    <li>your employer must still pay ZUS contributions (sickness, pension, accident insurance).</li>
+  </ul>
+
+  <h2>When Your Rights Are Violated</h2>
+
+  <p>If your employer fails to pay your salary, pays below the minimum, forces unpaid overtime, refuses to grant leave, or dismisses you unlawfully — report it to the <strong>National Labour Inspectorate (Państwowa Inspekcja Pracy, PIP)</strong>. Inspections are free, and you can file a complaint anonymously.</p>
+
+  <h2>Summary</h2>
+
+  <p>As a foreign worker in Poland, you have the same legal rights as Polish workers. The key rules: minimum salary 4,666 PLN/month (2025), 8-hour workday, 20–26 days of annual leave, and full protection against unlawful dismissal. If your rights are being violated — the National Labour Inspectorate is on your side.</p>
+
+  <p>Have questions about your rights at work? <strong>Contact Nexflow</strong> — we only partner with employers who comply with Polish labour law.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "sprowadzenie-rodziny-do-polski-zezwolenie-na-pobyt",
+    title: "Sprowadzenie rodziny do Polski — jak uzyskać zezwolenie na pobyt dla małżonka i dzieci",
+    description:
+      "Kto może sprowadzić rodzinę do Polski, jakie dokumenty są wymagane i jak przebiega proces łączenia rodziny. Kompletny przewodnik dla cudzoziemców pracujących legalnie w Polsce.",
+    date: "2028-05-24",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Sprowadzenie rodziny do Polski — jak uzyskać zezwolenie na pobyt dla małżonka i dzieci</h1>
+
+  <p>Praca w Polsce to często pierwszy krok — ale wielu pracowników chce, by cała rodzina mogła dołączyć. Polskie prawo umożliwia legalny pobyt małżonkowi i dzieciom cudzoziemca pracującego legalnie w Polsce. Ten poradnik wyjaśnia, kto może złożyć wniosek, co jest potrzebne i jak przebiega cały proces.</p>
+
+  <h2>Kto może sprowadzić rodzinę?</h2>
+
+  <p>Jeśli posiadasz <strong>ważne zezwolenie na pobyt czasowy lub stały</strong> w Polsce (np. kartę czasowego pobytu), masz prawo złożyć wniosek o łączenie rodziny. Dotyczy to:</p>
+  <ul>
+    <li>małżonka (formalnie zaślubionych — związki partnerskie nie są w Polsce prawnie zrównane);</li>
+    <li>małoletnich dzieci (poniżej 18 lat) — zarówno wspólnych, jak i dzieci jednego z małżonków będących pod jego opieką.</li>
+  </ul>
+
+  <p>Warunki, które musisz spełnić jako wnioskodawca:</p>
+  <ul>
+    <li>posiadanie stabilnego i regularnego dochodu wystarczającego na utrzymanie rodziny (co najmniej 776 zł netto na osobę w rodzinie — kryterium dochodowe pomocy społecznej);</li>
+    <li>posiadanie mieszkania (umowa najmu lub własność);</li>
+    <li>ubezpieczenie zdrowotne (NFZ lub prywatne) dla sprowadzanych członków rodziny.</li>
+  </ul>
+
+  <h2>Jakie dokumenty są potrzebne?</h2>
+
+  <p>Dokumenty dla wnioskodawcy (osoby mieszkającej w Polsce):</p>
+  <ul>
+    <li>wniosek o udzielenie zezwolenia na pobyt czasowy (formularz dostępny na stronie urzędu);</li>
+    <li>kopia karty czasowego lub stałego pobytu;</li>
+    <li>dokumenty potwierdzające dochód (umowa o pracę, zaświadczenie o wynagrodzeniu, wyciąg z konta);</li>
+    <li>umowa najmu lub akt własności nieruchomości;</li>
+    <li>potwierdzenie ubezpieczenia zdrowotnego dla sprowadzanych osób.</li>
+  </ul>
+
+  <p>Dokumenty dla sprowadzanego członka rodziny:</p>
+  <ul>
+    <li>ważny paszport (oryginał i kopia);</li>
+    <li>4 zdjęcia paszportowe;</li>
+    <li>akt małżeństwa (dla małżonka) lub akt urodzenia dziecka — przetłumaczone przez tłumacza przysięgłego na język polski;</li>
+    <li>wizę (jeśli pochodzi z kraju wymagającego wizy do wjazdu do Polski).</li>
+  </ul>
+
+  <h2>Jak przebiega proces?</h2>
+
+  <ol>
+    <li><strong>Wjazd do Polski</strong> — członek rodziny przyjeżdża do Polski (na wizie lub bez, jeśli kraj nie wymaga). Wjazd musi być legalny.</li>
+    <li><strong>Złożenie wniosku</strong> — w Urzędzie Wojewódzkim właściwym dla miejsca zamieszkania. Wniosek może złożyć sam cudzoziemiec lub przez pełnomocnika.</li>
+    <li><strong>Pieczątka legalizacyjna</strong> — po złożeniu wniosku urząd wbija do paszportu pieczęć uprawniającą do pobytu w trakcie oczekiwania.</li>
+    <li><strong>Weryfikacja</strong> — urząd sprawdza dokumenty. Może wezwać do uzupełnienia lub na rozmowę.</li>
+    <li><strong>Decyzja i wydanie karty</strong> — przy pozytywnej decyzji każdy sprowadzony członek rodziny otrzymuje własną kartę czasowego pobytu.</li>
+  </ol>
+
+  <p>Czas oczekiwania na decyzję: od 1 do kilku miesięcy (w zależności od urzędu i kompletności dokumentów).</p>
+
+  <h2>Ile trwa i kosztuje zezwolenie?</h2>
+
+  <p>Zezwolenie dla małżonka lub dziecka jest zazwyczaj wydawane na taki sam okres jak zezwolenie głównego wnioskodawcy (ale nie dłużej). Opłata skarbowa wynosi 340 zł za kartę pobytu.</p>
+
+  <h2>Czy sprowadzony małżonek może pracować?</h2>
+
+  <p>Tak — jeśli małżonek otrzyma kartę pobytu w ramach łączenia rodziny, <strong>ma prawo pracować bez odrębnego zezwolenia na pracę</strong>. Wystarczy karta pobytu i ważny paszport.</p>
+
+  <h2>Praktyczne wskazówki</h2>
+
+  <ul>
+    <li><strong>Dokumenty z zagranicy</strong> — muszą być przetłumaczone przez tłumacza przysięgłego. Apostille może być wymagana, zależnie od kraju wystawienia dokumentu.</li>
+    <li><strong>Zamelduj nowego członka rodziny</strong> — po przyjeździe zameldujesz go pod swoim adresem. To ważny krok przed złożeniem wniosku.</li>
+    <li><strong>Ubezpieczenie zdrowotne</strong> — jeśli małżonek nie pracuje, możesz zgłosić go do NFZ jako osobę ubezpieczoną przez Ciebie.</li>
+    <li><strong>Nexflow może pomóc</strong> — skonsultuj się z nami, zanim zaczniesz kompletować dokumenty.</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+
+  <p>Sprowadzenie rodziny do Polski jest możliwe, jeśli legalnie pracujesz i spełniasz wymogi dochodowe oraz lokalowe. Kluczem jest kompletna dokumentacja i złożenie wniosku przez każdego sprowadzanego członka rodziny. Po uzyskaniu karty pobytu Twój małżonek może legalnie pracować bez dodatkowych pozwoleń.</p>
+
+  <p>Szukasz stabilnej pracy w Polsce, by zapewnić rodzinie lepsze życie? <strong>Skontaktuj się z Nexflow</strong> — pomagamy cudzoziemcom legalizować pobyt i znajdujemy sprawdzonych pracodawców.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "voziednannia-simyi-polshcha-dozvil-na-prozhyvannia",
+    title: "Возз'єднання сім'ї в Польщі — як отримати дозвіл на проживання для чоловіка/дружини та дітей",
+    description:
+      "Хто може перевезти сім'ю до Польщі, які документи потрібні та як проходить процес возз'єднання сім'ї. Повний посібник для іноземців, які легально працюють у Польщі.",
+    date: "2028-05-31",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Возз'єднання сім'ї в Польщі — як отримати дозвіл на проживання для чоловіка/дружини та дітей</h1>
+
+  <p>Робота в Польщі — це часто перший крок, але багато працівників хочуть, щоб вся сім'я могла приєднатися. Польське право дозволяє законне перебування чоловіку/дружині та дітям іноземця, який легально працює в Польщі. Цей посібник пояснює, хто може подати заяву, що для цього потрібно і як проходить весь процес.</p>
+
+  <h2>Хто може перевезти сім'ю?</h2>
+
+  <p>Якщо у вас є <strong>дійсний дозвіл на тимчасове або постійне проживання</strong> в Польщі (наприклад, картка тимчасового проживання), ви маєте право подати заяву на возз'єднання сім'ї. Це стосується:</p>
+  <ul>
+    <li>чоловіка/дружини (офіційно одружених — партнерські відносини в Польщі юридично не прирівнюються до шлюбу);</li>
+    <li>неповнолітніх дітей (до 18 років) — як спільних, так і дітей одного з подружжя, що перебувають під його опікою.</li>
+  </ul>
+
+  <p>Умови, які ви повинні виконати як заявник:</p>
+  <ul>
+    <li>стабільний і регулярний дохід, достатній для утримання сім'ї;</li>
+    <li>наявність житла (договір оренди або право власності);</li>
+    <li>медичне страхування (NFZ або приватне) для членів сім'ї, що приїжджають.</li>
+  </ul>
+
+  <h2>Які документи потрібні?</h2>
+
+  <p>Документи заявника (особи, яка проживає в Польщі):</p>
+  <ul>
+    <li>заява про надання дозволу на тимчасове проживання;</li>
+    <li>копія картки тимчасового або постійного проживання;</li>
+    <li>документи, що підтверджують дохід (трудовий договір, довідка про зарплату, виписка з рахунку);</li>
+    <li>договір оренди або документи про право власності на нерухомість;</li>
+    <li>підтвердження медичного страхування для осіб, що приїжджають.</li>
+  </ul>
+
+  <p>Документи для члена сім'ї, що приїжджає:</p>
+  <ul>
+    <li>дійсний паспорт (оригінал і копія);</li>
+    <li>4 паспортних фото;</li>
+    <li>свідоцтво про шлюб (для подружжя) або свідоцтво про народження дитини — перекладені присяжним перекладачем польською мовою;</li>
+    <li>віза (якщо країна вимагає візи для в'їзду до Польщі).</li>
+  </ul>
+
+  <h2>Як проходить процес?</h2>
+
+  <ol>
+    <li><strong>В'їзд до Польщі</strong> — член сім'ї приїжджає до Польщі (з візою або без, якщо не вимагається). В'їзд має бути законним.</li>
+    <li><strong>Подача заяви</strong> — у Воєводському управлінні за місцем проживання.</li>
+    <li><strong>Штамп легалізації</strong> — після подачі заяви управління ставить до паспорта штамп, що дозволяє перебування під час очікування.</li>
+    <li><strong>Перевірка документів</strong> — управління може викликати на співбесіду або попросити доповнити документи.</li>
+    <li><strong>Рішення та видача картки</strong> — при позитивному рішенні кожен член сім'ї отримує власну картку тимчасового проживання.</li>
+  </ol>
+
+  <h2>Чи може чоловік/дружина працювати?</h2>
+
+  <p>Так — якщо чоловік/дружина отримає картку проживання в рамках возз'єднання сім'ї, вона <strong>має право працювати без окремого дозволу на роботу</strong>. Достатньо картки проживання і дійсного паспорта.</p>
+
+  <h2>Практичні поради</h2>
+
+  <ul>
+    <li><strong>Документи з-за кордону</strong> мають бути перекладені присяжним перекладачем. Апостиль може бути потрібен залежно від країни видачі.</li>
+    <li><strong>Зареєструйте нового члена сім'ї</strong> — після приїзду зробіть мелдунек за вашою адресою.</li>
+    <li><strong>Медичне страхування</strong> — якщо чоловік/дружина не працює, ви можете приєднати його/її до NFZ як застраховану особу.</li>
+    <li><strong>Nexflow може допомогти</strong> — проконсультуйтесь з нами перед початком збирання документів.</li>
+  </ul>
+
+  <h2>Підсумок</h2>
+
+  <p>Перевезення сім'ї до Польщі можливе, якщо ви легально працюєте і виконуєте вимоги щодо доходу та житла. Після отримання картки проживання ваш чоловік/дружина може легально працювати без додаткових дозволів.</p>
+
+  <p>Шукаєте стабільну роботу в Польщі для себе або своєї сім'ї? <strong>Зв'яжіться з Nexflow</strong> — ми допомагаємо іноземцям легалізувати перебування та знаходимо перевірених роботодавців.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "vozsoedinenie-semi-polsha-razreshenie-na-prozhivanie",
+    title: "Воссоединение семьи в Польше — как получить разрешение на проживание для супруга и детей",
+    description:
+      "Кто может перевезти семью в Польшу, какие документы нужны и как проходит процесс воссоединения семьи. Полное руководство для иностранцев, легально работающих в Польше.",
+    date: "2028-06-07",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Воссоединение семьи в Польше — как получить разрешение на проживание для супруга и детей</h1>
+
+  <p>Работа в Польше — это часто первый шаг, но многие работники хотят, чтобы вся семья могла приехать. Польское законодательство разрешает законное пребывание супруга и детей иностранца, легально работающего в Польше. Это руководство объясняет, кто может подать заявление, какие документы нужны и как проходит весь процесс.</p>
+
+  <h2>Кто может перевезти семью?</h2>
+
+  <p>Если у вас есть <strong>действительное разрешение на временное или постоянное проживание</strong> в Польше (например, карта временного проживания), вы имеете право подать заявление на воссоединение семьи. Это касается:</p>
+  <ul>
+    <li>супруга/супруги (официально зарегистрированный брак — партнёрские отношения в Польше юридически не приравнены к браку);</li>
+    <li>несовершеннолетних детей (до 18 лет) — как совместных, так и детей одного из супругов, находящихся под его опекой.</li>
+  </ul>
+
+  <p>Условия, которые вы должны соблюсти как заявитель:</p>
+  <ul>
+    <li>стабильный и регулярный доход, достаточный для содержания семьи;</li>
+    <li>наличие жилья (договор аренды или право собственности);</li>
+    <li>медицинское страхование (NFZ или частное) для приезжающих членов семьи.</li>
+  </ul>
+
+  <h2>Какие документы нужны?</h2>
+
+  <p>Документы заявителя (лица, проживающего в Польше):</p>
+  <ul>
+    <li>заявление о предоставлении разрешения на временное проживание;</li>
+    <li>копия карты временного или постоянного проживания;</li>
+    <li>документы, подтверждающие доход (трудовой договор, справка о зарплате, выписка со счёта);</li>
+    <li>договор аренды или документы о праве собственности на недвижимость;</li>
+    <li>подтверждение медицинского страхования для приезжающих лиц.</li>
+  </ul>
+
+  <p>Документы для приезжающего члена семьи:</p>
+  <ul>
+    <li>действительный паспорт (оригинал и копия);</li>
+    <li>4 паспортных фото;</li>
+    <li>свидетельство о браке (для супруга) или свидетельство о рождении ребёнка — переведённые присяжным переводчиком на польский язык;</li>
+    <li>виза (если страна требует визу для въезда в Польшу).</li>
+  </ul>
+
+  <h2>Как проходит процесс?</h2>
+
+  <ol>
+    <li><strong>Въезд в Польшу</strong> — член семьи приезжает в Польшу (с визой или без, если не требуется). Въезд должен быть законным.</li>
+    <li><strong>Подача заявления</strong> — в Воеводском управлении по месту жительства.</li>
+    <li><strong>Легализационный штамп</strong> — после подачи заявления управление ставит в паспорт штамп, подтверждающий законность пребывания на время ожидания.</li>
+    <li><strong>Проверка документов</strong> — управление может вызвать на собеседование или попросить дополнить документы.</li>
+    <li><strong>Решение и выдача карты</strong> — при положительном решении каждый член семьи получает собственную карту временного проживания.</li>
+  </ol>
+
+  <h2>Может ли супруг/супруга работать?</h2>
+
+  <p>Да — если супруг/супруга получит карту проживания в рамках воссоединения семьи, он/она <strong>имеет право работать без отдельного разрешения на работу</strong>. Достаточно карты проживания и действительного паспорта.</p>
+
+  <h2>Практические советы</h2>
+
+  <ul>
+    <li><strong>Документы из-за рубежа</strong> должны быть переведены присяжным переводчиком. Апостиль может потребоваться в зависимости от страны выдачи.</li>
+    <li><strong>Зарегистрируйте нового члена семьи</strong> — после приезда сделайте мельдунек по вашему адресу.</li>
+    <li><strong>Медицинское страхование</strong> — если супруг/супруга не работает, вы можете приписать его/её к NFZ как застрахованное лицо.</li>
+    <li><strong>Nexflow может помочь</strong> — проконсультируйтесь с нами перед началом сбора документов.</li>
+  </ul>
+
+  <h2>Итог</h2>
+
+  <p>Перевезти семью в Польшу возможно, если вы легально работаете и соответствуете требованиям к доходу и жилью. После получения карты проживания ваш супруг/супруга может легально работать без дополнительных разрешений.</p>
+
+  <p>Ищете стабильную работу в Польше для себя или своей семьи? <strong>Свяжитесь с Nexflow</strong> — мы помогаем иностранцам легализовать пребывание и находим проверенных работодателей.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "family-reunification-poland-residence-permit",
+    title: "Family Reunification in Poland — How to Get a Residence Permit for Your Spouse and Children",
+    description:
+      "Who can bring their family to Poland, what documents are required, and how the family reunification process works. A complete guide for foreign workers legally employed in Poland.",
+    date: "2028-06-14",
+    lang: "en",
+    content: `
+<article>
+  <h1>Family Reunification in Poland — How to Get a Residence Permit for Your Spouse and Children</h1>
+
+  <p>Working in Poland is often just the first step — many workers want their whole family to join them. Polish law allows the spouse and minor children of a legally working foreigner to obtain lawful residence in Poland. This guide explains who can apply, what documents you need, and how the process works.</p>
+
+  <h2>Who Can Bring Their Family?</h2>
+
+  <p>If you hold a <strong>valid temporary or permanent residence permit</strong> in Poland (e.g., a karta czasowego pobytu), you have the right to apply for family reunification. This covers:</p>
+  <ul>
+    <li>your spouse (formally married — civil partnerships are not legally equated with marriage in Poland);</li>
+    <li>minor children under 18 — both joint children and children of one spouse under that spouse's custody.</li>
+  </ul>
+
+  <p>As the applicant (the person already living in Poland), you must meet these conditions:</p>
+  <ul>
+    <li>a stable and regular income sufficient to support your family;</li>
+    <li>accommodation (rental agreement or ownership);</li>
+    <li>health insurance (NFZ or private) for the family members coming to join you.</li>
+  </ul>
+
+  <h2>What Documents Do You Need?</h2>
+
+  <p>Documents from the applicant (person living in Poland):</p>
+  <ul>
+    <li>application form for a temporary residence permit (available at the office or its website);</li>
+    <li>copy of your current residence card;</li>
+    <li>proof of income (employment contract, employer's pay statement, bank statement);</li>
+    <li>rental agreement or proof of property ownership;</li>
+    <li>confirmation of health insurance for the family members arriving.</li>
+  </ul>
+
+  <p>Documents for the arriving family member:</p>
+  <ul>
+    <li>valid passport (original + copy);</li>
+    <li>4 passport-size photos;</li>
+    <li>marriage certificate (for spouse) or birth certificate (for children) — translated by a sworn translator into Polish;</li>
+    <li>a visa, if the person's country requires one for entry into Poland.</li>
+  </ul>
+
+  <h2>How Does the Process Work?</h2>
+
+  <ol>
+    <li><strong>Entry into Poland</strong> — the family member travels to Poland legally (with or without a visa, depending on their nationality).</li>
+    <li><strong>Submit the application</strong> — at the Voivodeship (Provincial) Office for your place of residence.</li>
+    <li><strong>Confirmation stamp</strong> — after submitting, the office stamps the passport confirming that the application is pending and that the stay is legal.</li>
+    <li><strong>Document review</strong> — the office may request additional documents or invite you for an interview.</li>
+    <li><strong>Decision and card issuance</strong> — upon a positive decision, each family member receives their own temporary residence card.</li>
+  </ol>
+
+  <p>Expected waiting time: 1 to several months depending on the province and completeness of documents.</p>
+
+  <h2>Can My Spouse Work?</h2>
+
+  <p>Yes — once your spouse receives a residence card through family reunification, they <strong>have the right to work without a separate work permit</strong>. The residence card and a valid passport are sufficient.</p>
+
+  <h2>Practical Tips</h2>
+
+  <ul>
+    <li><strong>Documents from abroad</strong> must be translated by a sworn translator. An apostille stamp may be required depending on the issuing country.</li>
+    <li><strong>Register your family member's address</strong> — complete the zameldowanie (address registration) at your address after they arrive.</li>
+    <li><strong>Health insurance</strong> — if your spouse is not working, you can add them as a dependent under your NFZ cover.</li>
+    <li><strong>Nexflow can help</strong> — consult us before you start gathering documents; we support workers through the legalisation process.</li>
+  </ul>
+
+  <h2>Summary</h2>
+
+  <p>Bringing your family to Poland is possible if you are legally employed and meet the income and housing requirements. Once your family members receive their residence cards, your spouse can work legally without a separate work permit.</p>
+
+  <p>Looking for stable work in Poland so you can build a life for your family? <strong>Contact Nexflow</strong> — we help foreign workers with legalisation and connect you with reliable employers.</p>
+</article>
+    `.trim(),
   }
 ];
 
