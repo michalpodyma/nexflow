@@ -12103,6 +12103,252 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 
 <p><em>Nexflow – working for you in Poland</em></p>
     `.trim(),
+  },
+  {
+    slug: "wypadek-przy-pracy-polska-co-robic",
+    title: "Wypadek przy pracy w Polsce — co zrobić krok po kroku",
+    description:
+      "Miałeś wypadek przy pracy w Polsce? Poznaj swoje prawa i obowiązki: jak zgłosić wypadek, jakie dokumenty zebrać, kiedy przysługuje Ci zasiłek chorobowy z ZUS.",
+    date: "2028-06-29",
+    lang: "pl",
+    content: `
+<p>Wypadek przy pracy może zdarzyć się każdemu — szczególnie osobom dopiero zaczynającym pracę w nowym środowisku. Jako pracownik w Polsce masz konkretne prawa i obowiązki po wypadku. Warto znać procedurę, zanim cokolwiek się stanie.</p>
+
+<h2>Co to jest wypadek przy pracy?</h2>
+<p>Zgodnie z polskim prawem (ustawa o ubezpieczeniu wypadkowym), wypadek przy pracy to zdarzenie nagłe, wywołane przyczyną zewnętrzną, powodujące uraz lub śmierć, które nastąpiło w związku z pracą. Obejmuje to wypadki na terenie zakładu pracy i w drodze do/z pracy (wypadek w drodze — inne świadczenia).</p>
+
+<h2>Krok 1: Natychmiast po wypadku</h2>
+<ul>
+  <li><strong>Nie wróć od razu do pracy</strong> — nawet jeśli ból wydaje się nieduży. Wiele urazów (kręgosłup, stawy) objawia się później.</li>
+  <li><strong>Powiadom przełożonego lub pracodawcę</strong> — obowiązkowo i niezwłocznie. Brak zgłoszenia może utrudnić dochodzenie świadczeń.</li>
+  <li><strong>Wezwij pomoc medyczną</strong> lub jedź na izbę przyjęć (SOR). Poproś o zaświadczenie lekarskie opisujące urazy.</li>
+  <li><strong>Zapamiętaj świadków</strong> — imiona kolegów, którzy widzieli wypadek. Ich zeznania mogą być kluczowe.</li>
+</ul>
+
+<h2>Krok 2: Zgłoszenie wypadku pracodawcy</h2>
+<p>Pracodawca ma obowiązek:</p>
+<ol>
+  <li>Zabezpieczyć miejsce wypadku</li>
+  <li>Powołać zespół powypadkowy (minimum 2 osoby: społeczny inspektor pracy + pracownik służby BHP)</li>
+  <li>Sporządzić <strong>protokół powypadkowy</strong> w ciągu 14 dni od zgłoszenia</li>
+</ol>
+<p>Ty masz prawo:</p>
+<ul>
+  <li>Zapoznać się z protokołem i wnieść zastrzeżenia</li>
+  <li>Nie podpisywać protokołu, jeśli nie zgadzasz się z treścią</li>
+  <li>Złożyć wyjaśnienia do protokołu</li>
+</ul>
+
+<h2>Krok 3: Świadczenia z ZUS</h2>
+<p>Po wypadku przy pracy możesz mieć prawo do:</p>
+<ul>
+  <li><strong>Zasiłek chorobowy z ubezpieczenia wypadkowego</strong> — 100% podstawy wymiaru (nie 80% jak przy chorobie), od pierwszego dnia</li>
+  <li><strong>Świadczenie rehabilitacyjne</strong> — jeśli po 182 dniach zasiłku wciąż nie możesz pracować</li>
+  <li><strong>Jednorazowe odszkodowanie</strong> — za trwały uszczerbek na zdrowiu (wypłacane przez ZUS po zakończeniu leczenia)</li>
+  <li><strong>Renta z tytułu niezdolności do pracy</strong> — przy długotrwałych skutkach wypadku</li>
+</ul>
+<p>Wniosek o zasiłek składa pracodawca do ZUS. Do wypłaty potrzebny jest protokół powypadkowy i dokumentacja medyczna.</p>
+
+<h2>Krok 4: Jeśli pracodawca nie chce zgłosić wypadku</h2>
+<p>To Twoje prawo, a ukrywanie wypadku przez pracodawcę jest nielegalne. Możesz:</p>
+<ul>
+  <li>Zgłosić się samodzielnie do ZUS (oddziału właściwego dla miejsca pracy)</li>
+  <li>Złożyć skargę do <strong>Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatnie, anonimowo</li>
+  <li>Skontaktować się ze związkiem zawodowym lub organizacją wspierającą pracowników migrujących</li>
+</ul>
+
+<h2>Ważne: pracownicy agencji pracy tymczasowej</h2>
+<p>Jako pracownik tymczasowy (zatrudniony przez agencję) Twój pracodawcą jest agencja, ale za bezpieczne warunki pracy odpowiada <strong>pracodawca użytkownik</strong> (firma, w której pracujesz). Wypadek powinien być zgłoszony do obu podmiotów.</p>
+
+<h2>Dokumenty do zebrania</h2>
+<ul>
+  <li>Protokół powypadkowy (kopia dla Ciebie)</li>
+  <li>Dokumentacja medyczna (karty leczenia szpitalnego, wyniki badań)</li>
+  <li>Zwolnienie lekarskie (L4) — od dnia wypadku</li>
+  <li>Zaświadczenie z pogotowia/SOR o udzielonej pomocy</li>
+</ul>
+
+<h2>Nexflow wspiera Cię</h2>
+<p>Jeśli pracujesz przez Nexflow i doszło do wypadku — natychmiast kontaktuj się z koordynatorem Nexflow. Pomożemy w zgłoszeniu, komunikacji z pracodawcą użytkownikiem i procesie dochodzenia świadczeń z ZUS. Nie zostawiamy pracowników samych w trudnych sytuacjach.</p>
+    `.trim(),
+  },
+  {
+    slug: "vypadok-na-roboti-polshcha-sho-robyty",
+    title: "Нещасний випадок на роботі в Польщі: що робити крок за кроком",
+    description:
+      "Отримали травму на роботі в Польщі? Дізнайтеся свої права: як повідомити про нещасний випадок, які документи зібрати та яка допомога належить від ZUS.",
+    date: "2028-07-06",
+    lang: "uk",
+    content: `
+<p>Нещасний випадок на роботі може статися з будь-ким — особливо з тими, хто тільки починає роботу в новому середовищі. Як працівник у Польщі, ви маєте конкретні права та обов'язки після нещасного випадку. Варто знати процедуру заздалегідь.</p>
+
+<h2>Що таке нещасний випадок на роботі?</h2>
+<p>Згідно з польським законодавством, нещасний випадок на роботі — це раптова подія, спричинена зовнішньою причиною, що призвела до травми або смерті та пов'язана з роботою. Це охоплює випадки на робочому місці та по дорозі на роботу/з роботи.</p>
+
+<h2>Крок 1: Відразу після нещасного випадку</h2>
+<ul>
+  <li><strong>Не повертайтеся до роботи одразу</strong> — навіть якщо біль здається незначним. Багато травм (хребет, суглоби) проявляються пізніше.</li>
+  <li><strong>Повідомте керівника або роботодавця</strong> — обов'язково та негайно. Відсутність повідомлення може ускладнити отримання виплат.</li>
+  <li><strong>Викличте медичну допомогу</strong> або їдьте до приймального відділення (SOR). Попросіть медичну довідку з описом травм.</li>
+  <li><strong>Запам'ятайте свідків</strong> — імена колег, які бачили нещасний випадок. Їх свідчення можуть бути вирішальними.</li>
+</ul>
+
+<h2>Крок 2: Повідомлення про нещасний випадок роботодавцю</h2>
+<p>Роботодавець зобов'язаний:</p>
+<ol>
+  <li>Убезпечити місце нещасного випадку</li>
+  <li>Призначити комісію з розслідування (мінімум 2 особи)</li>
+  <li>Скласти <strong>протокол про нещасний випадок</strong> протягом 14 днів від повідомлення</li>
+</ol>
+<p>Ви маєте право:</p>
+<ul>
+  <li>Ознайомитися з протоколом та подати зауваження</li>
+  <li>Не підписувати протокол, якщо не згодні з його змістом</li>
+  <li>Надати пояснення до протоколу</li>
+</ul>
+
+<h2>Крок 3: Виплати від ZUS</h2>
+<p>Після нещасного випадку на роботі ви можете мати право на:</p>
+<ul>
+  <li><strong>Лікарняний з травматичного страхування</strong> — 100% бази нарахування (не 80% як при хворобі), з першого дня</li>
+  <li><strong>Реабілітаційна допомога</strong> — якщо після 182 днів лікарняного ви все ще не можете працювати</li>
+  <li><strong>Одноразове відшкодування</strong> — за стійку втрату здоров'я (виплачується ZUS після завершення лікування)</li>
+  <li><strong>Пенсія по інвалідності</strong> — при тривалих наслідках нещасного випадку</li>
+</ul>
+
+<h2>Крок 4: Якщо роботодавець відмовляється повідомляти про нещасний випадок</h2>
+<p>Це ваше право, і приховування нещасного випадку роботодавцем є незаконним. Ви можете:</p>
+<ul>
+  <li>Самостійно звернутися до ZUS (відділення за місцем роботи)</li>
+  <li>Подати скаргу до <strong>Державної інспекції праці (PIP)</strong> — безкоштовно, анонімно</li>
+  <li>Звернутися до профспілки або організації підтримки трудових мігрантів</li>
+</ul>
+
+<h2>Важливо: працівники агентства тимчасової праці</h2>
+<p>Як тимчасовий працівник (найнятий через агентство), ваш роботодавець — агентство, але за безпечні умови праці відповідає <strong>роботодавець-користувач</strong> (компанія, де ви працюєте). Нещасний випадок слід повідомити обом суб'єктам.</p>
+
+<h2>Nexflow підтримує вас</h2>
+<p>Якщо ви працюєте через Nexflow і стався нещасний випадок — негайно зв'яжіться з координатором Nexflow. Ми допоможемо з повідомленням, комунікацією з роботодавцем-користувачем та процесом отримання виплат від ZUS.</p>
+    `.trim(),
+  },
+  {
+    slug: "neschastnyj-sluchaj-na-rabote-polsha-chto-delat",
+    title: "Несчастный случай на работе в Польше: что делать шаг за шагом",
+    description:
+      "Получили травму на работе в Польше? Узнайте свои права: как сообщить о несчастном случае, какие документы собрать и на какую помощь от ZUS вы имеете право.",
+    date: "2028-07-13",
+    lang: "ru",
+    content: `
+<p>Несчастный случай на работе может произойти с каждым — особенно с теми, кто только начинает работу в новой среде. Как работник в Польше, вы имеете конкретные права и обязанности после несчастного случая. Важно знать процедуру заранее.</p>
+
+<h2>Что такое несчастный случай на работе?</h2>
+<p>Согласно польскому законодательству, несчастный случай на работе — это внезапное событие, вызванное внешней причиной, повлёкшее травму или смерть и связанное с работой. Это охватывает случаи на рабочем месте и по дороге на работу/с работы.</p>
+
+<h2>Шаг 1: Сразу после несчастного случая</h2>
+<ul>
+  <li><strong>Не возвращайтесь к работе сразу</strong> — даже если боль кажется незначительной. Многие травмы (позвоночник, суставы) проявляются позже.</li>
+  <li><strong>Сообщите руководителю или работодателю</strong> — обязательно и немедленно. Отсутствие уведомления может осложнить получение выплат.</li>
+  <li><strong>Вызовите медицинскую помощь</strong> или поезжайте в приёмный покой (SOR). Попросите медицинскую справку с описанием травм.</li>
+  <li><strong>Запомните свидетелей</strong> — имена коллег, которые видели несчастный случай. Их показания могут оказаться решающими.</li>
+</ul>
+
+<h2>Шаг 2: Сообщение о несчастном случае работодателю</h2>
+<p>Работодатель обязан:</p>
+<ol>
+  <li>Обезопасить место несчастного случая</li>
+  <li>Назначить комиссию по расследованию (минимум 2 человека)</li>
+  <li>Составить <strong>протокол о несчастном случае</strong> в течение 14 дней с момента уведомления</li>
+</ol>
+<p>Вы имеете право:</p>
+<ul>
+  <li>Ознакомиться с протоколом и подать замечания</li>
+  <li>Не подписывать протокол, если не согласны с его содержанием</li>
+  <li>Предоставить объяснения к протоколу</li>
+</ul>
+
+<h2>Шаг 3: Выплаты от ZUS</h2>
+<p>После несчастного случая на работе вы можете иметь право на:</p>
+<ul>
+  <li><strong>Больничный по страхованию от несчастных случаев</strong> — 100% базы начисления (не 80% как при болезни), с первого дня</li>
+  <li><strong>Реабилитационное пособие</strong> — если после 182 дней больничного вы всё ещё не можете работать</li>
+  <li><strong>Единовременное возмещение</strong> — за стойкую утрату здоровья (выплачивается ZUS после завершения лечения)</li>
+  <li><strong>Пенсия по инвалидности</strong> — при длительных последствиях несчастного случая</li>
+</ul>
+
+<h2>Шаг 4: Если работодатель отказывается сообщать о несчастном случае</h2>
+<p>Это ваше право, и сокрытие несчастного случая работодателем является незаконным. Вы можете:</p>
+<ul>
+  <li>Самостоятельно обратиться в ZUS (отделение по месту работы)</li>
+  <li>Подать жалобу в <strong>Государственную инспекцию труда (PIP)</strong> — бесплатно, анонимно</li>
+  <li>Обратиться в профсоюз или организацию поддержки трудовых мигрантов</li>
+</ul>
+
+<h2>Важно: работники агентства временного труда</h2>
+<p>Как временный работник (нанятый через агентство), ваш работодатель — агентство, но за безопасные условия труда отвечает <strong>работодатель-пользователь</strong> (компания, где вы работаете). О несчастном случае следует сообщить обоим субъектам.</p>
+
+<h2>Nexflow поддерживает вас</h2>
+<p>Если вы работаете через Nexflow и произошёл несчастный случай — немедленно свяжитесь с координатором Nexflow. Мы поможем с уведомлением, коммуникацией с работодателем-пользователем и процессом получения выплат от ZUS.</p>
+    `.trim(),
+  },
+  {
+    slug: "work-accident-poland-what-to-do",
+    title: "Work Accident in Poland: What to Do Step by Step",
+    description:
+      "Had a work accident in Poland? Know your rights: how to report the accident, what documents to collect, and what ZUS benefits you're entitled to.",
+    date: "2028-07-20",
+    lang: "en",
+    content: `
+<p>A work accident can happen to anyone — especially those starting a new job in an unfamiliar environment. As a worker in Poland, you have specific rights and obligations after an accident. It's important to know the procedure before anything happens.</p>
+
+<h2>What is a Work Accident?</h2>
+<p>Under Polish law (the Act on accident insurance), a work accident is a sudden event caused by an external factor that results in injury or death and is connected to work. This covers accidents at the workplace and on the way to or from work.</p>
+
+<h2>Step 1: Immediately After the Accident</h2>
+<ul>
+  <li><strong>Don't go back to work immediately</strong> — even if the pain seems minor. Many injuries (spine, joints) appear later.</li>
+  <li><strong>Notify your supervisor or employer</strong> — this is mandatory and must be done immediately. Failure to report can complicate accessing benefits.</li>
+  <li><strong>Get medical help</strong> — call an ambulance or go to the emergency room (SOR). Ask for a medical certificate describing the injuries.</li>
+  <li><strong>Remember witnesses</strong> — the names of colleagues who saw the accident. Their testimony may be crucial.</li>
+</ul>
+
+<h2>Step 2: Reporting the Accident to Your Employer</h2>
+<p>Your employer is obligated to:</p>
+<ol>
+  <li>Secure the accident site</li>
+  <li>Appoint an accident investigation team (minimum 2 people)</li>
+  <li>Prepare an <strong>accident report</strong> within 14 days of the notification</li>
+</ol>
+<p>You have the right to:</p>
+<ul>
+  <li>Review the accident report and submit objections</li>
+  <li>Refuse to sign the report if you disagree with its content</li>
+  <li>Provide written explanations to the report</li>
+</ul>
+
+<h2>Step 3: ZUS Benefits After a Work Accident</h2>
+<p>After a work accident you may be entitled to:</p>
+<ul>
+  <li><strong>Sick pay from accident insurance</strong> — 100% of your pay base (not 80% as with illness), from the first day</li>
+  <li><strong>Rehabilitation allowance</strong> — if after 182 days of sick pay you're still unable to work</li>
+  <li><strong>One-time compensation</strong> — for permanent health impairment (paid by ZUS after treatment is completed)</li>
+  <li><strong>Disability pension</strong> — for long-term consequences of the accident</li>
+</ul>
+<p>The sick pay application is submitted to ZUS by your employer. The accident report and medical documentation are required.</p>
+
+<h2>Step 4: If Your Employer Refuses to Report the Accident</h2>
+<p>Concealing a work accident is illegal in Poland. You can:</p>
+<ul>
+  <li>Report it directly to ZUS (the branch for your workplace location)</li>
+  <li>File a complaint with the <strong>State Labour Inspectorate (PIP)</strong> — free, anonymous</li>
+  <li>Contact a trade union or an organisation supporting migrant workers</li>
+</ul>
+
+<h2>Important: Temporary Agency Workers</h2>
+<p>As a temporary worker (employed through an agency), your legal employer is the agency — but the <strong>user employer</strong> (the company where you actually work) is responsible for safe working conditions. Report the accident to both parties.</p>
+
+<h2>Nexflow Supports You</h2>
+<p>If you work through Nexflow and an accident happens — contact your Nexflow coordinator immediately. We will help with the report, communication with the user employer, and the ZUS benefits process. You don't have to navigate this alone.</p>
+    `.trim(),
   }
 ];
 

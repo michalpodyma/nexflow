@@ -792,6 +792,30 @@
       "fb_post_id": "1107760715748033_122127409244808780",
       "published_at": "2026-08-20T10:15:09+0000",
       "sitemap_lastmod": "2028-06-22T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/wypadek-przy-pracy-polska-co-robic",
+      "fb_post_id": null,
+      "published_at": null,
+      "sitemap_lastmod": "2028-06-29T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vypadok-na-roboti-polshcha-sho-robyty",
+      "fb_post_id": null,
+      "published_at": null,
+      "sitemap_lastmod": "2028-07-06T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/neschastnyj-sluchaj-na-rabote-polsha-chto-delat",
+      "fb_post_id": null,
+      "published_at": null,
+      "sitemap_lastmod": "2028-07-13T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/work-accident-poland-what-to-do",
+      "fb_post_id": null,
+      "published_at": null,
+      "sitemap_lastmod": "2028-07-20T00:00:00.000Z"
     }
   ],
   "last_run": "2026-08-20T10:15:09Z",
