@@ -816,8 +816,32 @@
       "fb_post_id": null,
       "published_at": null,
       "sitemap_lastmod": "2028-07-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/prawo-jazdy-ukraina-polska-wymiana",
+      "fb_post_id": "1107760715748033_122127436160808780",
+      "published_at": "2026-08-20T13:51:15+0000",
+      "sitemap_lastmod": "2028-07-27T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vodijske-posvidchennia-ukraina-polshcha-obmin",
+      "fb_post_id": "1107760715748033_122127436190808780",
+      "published_at": "2026-08-20T13:51:15+0000",
+      "sitemap_lastmod": "2028-08-03T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/voditelskoe-udostoverenie-ukraina-polsha-zamena",
+      "fb_post_id": "1107760715748033_122127436226808780",
+      "published_at": "2026-08-20T13:51:15+0000",
+      "sitemap_lastmod": "2028-08-10T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/drivers-license-ukraine-poland-exchange",
+      "fb_post_id": "1107760715748033_122127436304808780",
+      "published_at": "2026-08-20T13:51:15+0000",
+      "sitemap_lastmod": "2028-08-17T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-08-20T10:15:09Z",
+  "last_run": "2026-08-20T13:51:15+0000",
   "pending": []
 }
