@@ -12349,6 +12349,188 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <h2>Nexflow Supports You</h2>
 <p>If you work through Nexflow and an accident happens — contact your Nexflow coordinator immediately. We will help with the report, communication with the user employer, and the ZUS benefits process. You don't have to navigate this alone.</p>
     `.trim(),
+  },
+  {
+    slug: "prawo-jazdy-ukraina-polska-wymiana",
+    title: "Prawo jazdy ukraińskie w Polsce: czy jest ważne i jak je wymienić?",
+    description:
+      "Kompletny poradnik dla obywateli Ukrainy o ważności ukraińskiego prawa jazdy w Polsce oraz procedurze wymiany na polskie — krok po kroku.",
+    date: "2028-07-27",
+    lang: "pl",
+    content: `
+<p>Jeśli jesteś obywatelem Ukrainy pracującym lub mieszkającym w Polsce, prawdopodobnie zastanawiasz się: <strong>czy mogę jeździć samochodem na ukraińskie prawo jazdy?</strong> Kiedy muszę je wymienić? Ile to kosztuje i jak długo trwa? Ten poradnik odpowiada na te pytania krok po kroku.</p>
+
+<h2>Czy ukraińskie prawo jazdy jest ważne w Polsce?</h2>
+<p>Tak — ukraińskie prawo jazdy jest uznawane w Polsce. Czas jego ważności zależy jednak od Twojego statusu pobytowego:</p>
+<ul>
+  <li><strong>Obywatele Ukrainy z tymczasową ochroną (UKR):</strong> mogą używać ukraińskiego prawa jazdy przez cały czas trwania ochrony tymczasowej. Nie masz obowiązku wymieniać prawa jazdy, dopóki Twoja ochrona jest ważna.</li>
+  <li><strong>Obywatele Ukrainy z zezwoleniem na pobyt lub kartą pobytu:</strong> mają prawo używać ukraińskiego prawa jazdy przez <strong>6 miesięcy od daty uzyskania polskiego zameldowania lub karty pobytu</strong>. Po upływie 6 miesięcy konieczna jest wymiana.</li>
+  <li><strong>Krótkoterminowy pobyt / wizyta:</strong> ukraińskie prawo jazdy ważne jest przez 6 miesięcy od wjazdu do Polski.</li>
+</ul>
+
+<blockquote><p><strong>Ważne:</strong> Jazda samochodem po wygaśnięciu okresu ważności ukraińskiego prawa jazdy w Polsce jest wykroczeniem. Grozi za to mandat i możliwość zatrzymania pojazdu.</p></blockquote>
+
+<h2>Które kategorie są uznawane?</h2>
+<p>Polska uznaje <strong>wszystkie standardowe kategorie</strong> ukraińskiego prawa jazdy: A (motocykle), B (samochody osobowe), C (ciężarówki), D (autobusy) oraz kategorie rozszerzone (BE, CE, DE itp.).</p>
+<p>Wyjątek: uprawnienia do kierowania pojazdami specjalnymi (np. wózkami widłowymi) to odrębne zaświadczenia UDT — nie są częścią prawa jazdy.</p>
+
+<h2>Procedura wymiany — krok po kroku</h2>
+
+<h3>Krok 1: Umów wizytę</h3>
+<p>Udaj się do <strong>Wydziału Komunikacji</strong> właściwego Starostwa Powiatowego lub Urzędu Miasta dla miejsca swojego zameldowania. W większych miastach często wymagana jest wcześniejsza rejestracja online lub telefoniczna.</p>
+
+<h3>Krok 2: Przygotuj dokumenty</h3>
+<ul>
+  <li>Wypełniony <strong>wniosek PKK</strong> (Profil Kandydata na Kierowcę; dostępny w urzędzie lub przez Portal Kierowcy kierowca.gov.pl)</li>
+  <li>Oryginał <strong>ukraińskiego prawa jazdy</strong></li>
+  <li><strong>Tłumaczenie prawa jazdy</strong> na język polski przez tłumacza przysięgłego. Koszt: 80–150 zł.</li>
+  <li>Paszport ukraiński lub karta pobytu</li>
+  <li>Dokument potwierdzający zameldowanie</li>
+  <li>Aktualne <strong>zdjęcie</strong> (35×45 mm)</li>
+</ul>
+
+<h3>Krok 3: Opłata</h3>
+<ul>
+  <li><strong>100,50 zł</strong> — opłata komunikacyjna</li>
+  <li><strong>0,50 zł</strong> — opłata ewidencyjna (CEPiK)</li>
+</ul>
+<p>Łącznie: <strong>101 zł</strong>. Przelewem lub w kasie urzędu.</p>
+
+<h3>Krok 4: Czy trzeba zdawać egzamin?</h3>
+<p><strong>Nie</strong> — Polska i Ukraina mają umowę o wzajemnym uznaniu praw jazdy. Wymiana dla kategorii B odbywa się bez żadnego egzaminu. Dla kategorii C i D mogą być wymagane dodatkowe badania lekarskie, ale egzamin praktyczny nie jest konieczny.</p>
+
+<h3>Krok 5: Czas oczekiwania</h3>
+<p>Polskie prawo jazdy gotowe jest zazwyczaj w ciągu <strong>2–4 tygodni</strong>. W czasie oczekiwania urząd wydaje <strong>potwierdzenie złożenia wniosku</strong>, które razem z ukraińskim prawem jazdy uprawnia do prowadzenia pojazdu.</p>
+
+<h2>Praca zawodowa a prawo jazdy</h2>
+<p>Pracujesz lub planujesz pracować w Polsce jako kierowca? Pamiętaj:</p>
+<ul>
+  <li>Pojazdy powyżej 3,5 tony wymagają kategorii C.</li>
+  <li>Kierowcy zawodowi potrzebują ważnych badań lekarskich i psychologicznych.</li>
+  <li>Uprawnienia na wózek widłowy (UDT) to odrębny dokument.</li>
+</ul>
+
+<h2>Przydatne linki</h2>
+<ul>
+  <li>Portal Kierowcy (PKK): <strong>kierowca.gov.pl</strong></li>
+  <li>Lista tłumaczy przysięgłych: <strong>ms.gov.pl → Tłumacze przysięgli</strong></li>
+</ul>
+
+<p>Pracujesz w Polsce przez agencję pracy tymczasowej i masz pytania o dokumenty lub legalizację? <strong>Skontaktuj się z Nexflow</strong> — pomagamy na każdym etapie formalności. Odwiedź: <a href="https://nexflow.work">nexflow.work</a></p>
+    `.trim(),
+  },
+  {
+    slug: "vodijske-posvidchennia-ukraina-polshcha-obmin",
+    title: "Водійське посвідчення України в Польщі: чи дійсне і як обміняти?",
+    description:
+      "Повний посібник для громадян України про дійсність українського водійського посвідчення в Польщі та процедуру обміну на польське — крок за кроком.",
+    date: "2028-08-03",
+    lang: "uk",
+    content: `
+<p>Якщо ви є громадянином України, що працює або проживає в Польщі, ви, напевно, замислюєтесь: чи можу я керувати автомобілем з українським водійським посвідченням? Коли потрібно його обміняти? Цей посібник відповідає на ці питання крок за кроком.</p>
+
+<h2>Чи дійсне українське водійське посвідчення в Польщі?</h2>
+<ul>
+  <li>Тимчасовий захист (UKR): посвідчення дійсне весь термін захисту</li>
+  <li>Карта побуту/зезволення на проживання: дійсне 6 місяців від реєстрації, потім обмін</li>
+  <li>Короткотерміновий візит: дійсне 6 місяців від в'їзду</li>
+</ul>
+
+<h2>Процедура обміну</h2>
+<p>1. Запишіться у Відділ транспорту (Wydział Komunikacji) за місцем реєстрації<br/>2. Документи: заява PKK, оригінал посвідчення, переклад (80-150 зл.), паспорт/карта побуту, фото<br/>3. Оплата: 101 зл. (100,50 + 0,50 зл.)<br/>4. Іспит не потрібен — угода про взаємне визнання PL-UA<br/>5. Готовність: 2-4 тижні</p>
+
+<p>Зверніться до Nexflow — ми допомагаємо на кожному кроці: nexflow.work</p>
+    `.trim(),
+  },
+  {
+    slug: "voditelskoe-udostoverenie-ukraina-polsha-zamena",
+    title: "Водительское удостоверение Украины в Польше: действительно ли оно и как его обменять?",
+    description:
+      "Полный справочник для граждан Украины о действительности украинских прав в Польше и процедуре их обмена на польские — шаг за шагом.",
+    date: "2028-08-10",
+    lang: "ru",
+    content: `
+<p>Если вы гражданин Украины, работающий или проживающий в Польше, вы наверняка задаётесь вопросом: можно ли мне ездить на автомобиле с украинским водительским удостоверением? Когда нужно его обменять? Это руководство отвечает на вопросы шаг за шагом.</p>
+
+<h2>Действительно ли украинское удостоверение в Польше?</h2>
+<ul>
+  <li><strong>Временная защита (UKR):</strong> удостоверение действительно весь срок защиты</li>
+  <li><strong>Вид на жительство / карта побыта:</strong> действительно 6 месяцев от даты регистрации, затем — обмен</li>
+  <li><strong>Краткосрочный визит:</strong> действительно 6 месяцев от въезда</li>
+</ul>
+
+<blockquote><p><strong>Важно:</strong> Вождение после истечения срока — правонарушение. Грозит штраф и задержание авто.</p></blockquote>
+
+<h2>Какие категории признаются?</h2>
+<p>Польша признаёт все стандартные категории: A, B, C, D и расширенные (BE, CE, DE и т.д.). Погрузчики (UDT) — отдельный сертификат, не часть прав.</p>
+
+<h2>Процедура обмена</h2>
+<p><strong>1. Запись:</strong> Отдел транспорта (Wydział Komunikacji) по месту регистрации<br/><strong>2. Документы:</strong> заявление PKK, оригинал прав, перевод присяжного (80–150 зл.), паспорт/карта побыта, фото<br/><strong>3. Оплата:</strong> 101 зл. (100,50 + 0,50 зл.)<br/><strong>4. Экзамен:</strong> не нужен — соглашение о взаимном признании PL-UA<br/><strong>5. Срок:</strong> 2–4 недели. Подтверждение заявки + украинские права = право ездить в период ожидания</p>
+
+<h2>Полезные ресурсы</h2>
+<ul>
+  <li>Портал водителя: <strong>kierowca.gov.pl</strong></li>
+  <li>Присяжные переводчики: <strong>ms.gov.pl</strong></li>
+</ul>
+
+<p>Работаете в Польше через агентство временного труда? Nexflow помогает с документами и легализацией на каждом этапе. Посетите: nexflow.work</p>
+    `.trim(),
+  },
+  {
+    slug: "drivers-license-ukraine-poland-exchange",
+    title: "Ukrainian Driving License in Poland: Is It Valid and How to Exchange It?",
+    description:
+      "Complete guide for Ukrainian nationals on using their driving license in Poland and how to exchange it for a Polish one — step-by-step, documents, costs.",
+    date: "2028-08-17",
+    lang: "en",
+    content: `
+<p>If you are a Ukrainian national working or living in Poland, you may be wondering: can I drive in Poland with my Ukrainian driving license? When do I need to exchange it? How much does it cost? This guide answers these questions step by step.</p>
+
+<h2>Is a Ukrainian Driving License Valid in Poland?</h2>
+<p>Yes — Ukrainian driving licenses are recognized in Poland. How long you can use it depends on your residence status:</p>
+<ul>
+  <li><strong>Ukrainians with temporary protection (UKR):</strong> may use their Ukrainian license for the entire duration of their temporary protection status — no exchange required while protection is active.</li>
+  <li><strong>Ukrainians with a residence permit or residence card (karta pobytu):</strong> may use their Ukrainian license for <strong>6 months from obtaining Polish registration (meldunek) or a residence card</strong>. Exchange is required after that.</li>
+  <li><strong>Short-term stay / tourist visit:</strong> valid for 6 months from entry into Poland.</li>
+</ul>
+
+<blockquote><p><strong>Important:</strong> Driving after the validity period has expired is a violation — may result in a fine and vehicle confiscation.</p></blockquote>
+
+<h2>Which Categories Are Recognized?</h2>
+<p>Poland recognizes all standard categories: A (motorcycles), B (cars), C (trucks), D (buses), and extended categories (BE, CE, DE, etc.). Note: forklift authorizations (UDT) are separate certificates, not part of the driving license.</p>
+
+<h2>Exchange Procedure — Step by Step</h2>
+
+<h3>Step 1: Book an Appointment</h3>
+<p>Go to the <strong>Transport Department (Wydział Komunikacji)</strong> of the district authority where you are registered. Online booking is often required in larger cities.</p>
+
+<h3>Step 2: Gather Your Documents</h3>
+<ul>
+  <li>Completed application (PKK form — via kierowca.gov.pl or at the office)</li>
+  <li>Original Ukrainian driving license</li>
+  <li>Polish translation by a sworn translator (cost: 80–150 PLN), unless the license has English-language fields</li>
+  <li>Ukrainian passport or residence card (karta pobytu)</li>
+  <li>Proof of registration (meldunek)</li>
+  <li>Passport photo (35×45 mm)</li>
+</ul>
+
+<h3>Step 3: Pay the Fee</h3>
+<p>Total: <strong>101 PLN</strong> (100.50 PLN transport fee + 0.50 PLN CEPiK registration fee). Payable by bank transfer or at the office cashier.</p>
+
+<h3>Step 4: No Exam Required</h3>
+<p>Poland and Ukraine have a mutual recognition agreement — <strong>no theoretical or practical exam</strong> is needed for category B. For categories C and D, medical/psychological certificates may be required, but no driving test.</p>
+
+<h3>Step 5: Waiting Time</h3>
+<p>The Polish license is usually ready in <strong>2–4 weeks</strong>. You receive a confirmation of application in the meantime, which — combined with your Ukrainian license — gives you the legal right to drive.</p>
+
+<h2>Useful Resources</h2>
+<ul>
+  <li>Driver's Portal (PKK): <strong>kierowca.gov.pl</strong></li>
+  <li>Sworn translators list: <strong>ms.gov.pl</strong></li>
+</ul>
+
+<p>Working in Poland through a temporary staffing agency? <strong>Nexflow</strong> helps temporary workers with documents and legalization at every step. Visit: <a href="https://nexflow.work">nexflow.work</a></p>
+    `.trim(),
   }
 ];
 
