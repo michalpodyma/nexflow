@@ -11663,6 +11663,446 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
   <p>Looking for stable work in Poland so you can build a life for your family? <strong>Contact Nexflow</strong> — we help foreign workers with legalisation and connect you with reliable employers.</p>
 </article>
     `.trim(),
+  },
+  {
+    slug: "transport-publiczny-polska-cudzoziemiec",
+    title: "Jak korzystać z transportu publicznego w Polsce? Przewodnik dla cudzoziemca",
+    description:
+      "Jak korzystać z transportu publicznego w Polsce jako cudzoziemiec? Autobusy, tramwaje, metro – bilety, aplikacje, kontrola biletów. Przewodnik dla pracowników tymczasowych Nexflow.",
+    date: "2028-06-01",
+    lang: "pl",
+    content: `
+<h2>Jak korzystać z transportu publicznego w Polsce? Przewodnik dla cudzoziemca</h2>
+
+<p>Praca tymczasowa przez Nexflow to często nowe miasto, nowa okolica i nowe trasy dojazdu do pracy. Jeśli dopiero zaczynasz życie w Polsce, transport publiczny może być najwygodniejszym i najtańszym sposobem dotarcia do magazynu, centrum logistycznego czy biura.</p>
+
+<p>W tym przewodniku wyjaśniamy krok po kroku, jak korzystać z autobusów, tramwajów i metra w polskich miastach.</p>
+
+<h3>Jakie rodzaje transportu publicznego znajdziesz w Polsce?</h3>
+
+<p>W polskich miastach funkcjonują:</p>
+
+<ul>
+  <li><strong>Autobus (bus)</strong> – dostępny we wszystkich miastach, podstawowy środek transportu</li>
+  <li><strong>Tramwaj (tram)</strong> – w Warszawie, Wrocławiu, Krakowie, Poznaniu, Łodzi i innych dużych miastach</li>
+  <li><strong>Metro</strong> – wyłącznie w Warszawie (linia M1 i M2)</li>
+  <li><strong>SKM / Kolej miejska</strong> – szybka kolej regionalna łącząca centrum z obrzeżami i okolicami</li>
+</ul>
+
+<p>Każde miasto zarządza własną siecią:</p>
+<ul>
+  <li>Warszawa: ZTM (Zarząd Transportu Miejskiego)</li>
+  <li>Wrocław: MPK Wrocław</li>
+  <li>Kraków: MPK Kraków</li>
+  <li>Poznań: ZTM Poznań</li>
+  <li>Łódź: MPK Łódź</li>
+</ul>
+
+<h3>Jak kupić bilet?</h3>
+
+<p>W Polsce bilet musisz mieć przed wsiadaniem lub kupić od razu po wejściu. Dostępne sposoby:</p>
+
+<p><strong>1. Biletomaty (automaty biletowe)</strong> – na przystankach i stacjach metra. Obsługują karty płatnicze i gotówkę. Wiele biletomatów ma wersję w języku angielskim.</p>
+
+<p><strong>2. Aplikacje mobilne</strong> – najwygodniejsza opcja:</p>
+<ul>
+  <li><strong>Jakdojade</strong> – planowanie trasy i kupno biletu (dostępna w języku angielskim, ukraińskim i rosyjskim)</li>
+  <li><strong>mPay</strong> – zakup biletu przez telefon</li>
+  <li>Aplikacje miejskie (np. WTP Mobile, mKraków)</li>
+</ul>
+
+<p><strong>3. Kioski i sklepy</strong> – bilety papierowe można kupić w kioskach Ruch, Empik i małych sklepach przy przystankach.</p>
+
+<p><strong>4. U kierowcy</strong> – tylko w niektórych miastach i liniach. W Warszawie kupno biletu u kierowcy jest droższe.</p>
+
+<h3>Jak skasować bilet?</h3>
+
+<p>Po wejściu do pojazdu <strong>musisz skasować bilet w kasowniku</strong> – żółtym urządzeniu przy drzwiach. Brak skasowanego biletu = jazda na gapę, nawet jeśli kupiłeś bilet.</p>
+
+<p>Jeśli masz bilet w aplikacji mobilnej, aktywuj go w aplikacji przy wsiadaniu.</p>
+
+<h3>Karty miejskie</h3>
+
+<p>Jeśli pracujesz stale w jednym mieście, warto wyrobić kartę miejską:</p>
+
+<table>
+  <thead><tr><th>Miasto</th><th>Karta</th></tr></thead>
+  <tbody>
+    <tr><td>Warszawa</td><td>Warszawska Karta Miejska (WKM)</td></tr>
+    <tr><td>Wrocław</td><td>Urbancard</td></tr>
+    <tr><td>Kraków</td><td>Krakowska Karta Miejska (KKM)</td></tr>
+    <tr><td>Poznań</td><td>PEKA</td></tr>
+    <tr><td>Łódź</td><td>Łódzka Karta Miejska</td></tr>
+  </tbody>
+</table>
+
+<p>Karta umożliwia zakup biletów miesięcznych, co jest znacznie tańsze niż bilety jednorazowe.</p>
+
+<h3>Kontrola biletów – uważaj!</h3>
+
+<p>W polskim transporcie regularnie odbywają się <strong>kontrole biletów</strong>. Kontrolerzy (w mundurach lub po cywilnemu) sprawdzają bilety. Jazda bez ważnego biletu = <strong>mandat (kara)</strong>.</p>
+
+<p>Wysokość kary:</p>
+<ul>
+  <li>Warszawa: ok. 266 zł</li>
+  <li>Wrocław: ok. 200 zł</li>
+  <li>Kraków: ok. 200 zł</li>
+</ul>
+
+<p>Pamiętaj: <strong>bilet musi być skasowany</strong>, nawet jeśli go masz.</p>
+
+<h3>Przydatne słownictwo</h3>
+
+<table>
+  <thead><tr><th>Polski</th><th>Tłumaczenie</th></tr></thead>
+  <tbody>
+    <tr><td>Przystanek</td><td>Stop/stacja</td></tr>
+    <tr><td>Kasownik</td><td>Kasownik/walidator</td></tr>
+    <tr><td>Bilet</td><td>Ticket/bilet</td></tr>
+    <tr><td>Linia</td><td>Linia (numer autobusu/tramwaju)</td></tr>
+    <tr><td>Kierowca</td><td>Driver/kierowca</td></tr>
+    <tr><td>Kontroler biletów</td><td>Ticket inspector</td></tr>
+    <tr><td>Rozkład jazdy</td><td>Timetable</td></tr>
+    <tr><td>Przesiadka</td><td>Transfer/przesiadka</td></tr>
+  </tbody>
+</table>
+
+<h3>Transport nocny i weekendowy</h3>
+
+<p>Wiele miast ma <strong>linie nocne</strong> (oznaczone literą N lub wysokim numerem linii). Kursują rzadziej – co 30–60 minut. Sprawdź rozkład, jeśli pracujesz na nocnej zmianie.</p>
+
+<h3>Jak sprawdzić trasę?</h3>
+
+<p>Użyj:</p>
+<ul>
+  <li><strong>Google Maps</strong> – obsługuje transport publiczny w całej Polsce</li>
+  <li><strong>Jakdojade</strong> – szczegółowe informacje o polskim transporcie, dostępna po polsku, ukraińsku, rosyjsku i angielsku</li>
+</ul>
+
+<h3>Nexflow pomaga</h3>
+
+<p>Jeśli zaczynasz pracę w nowym mieście i nie wiesz, jak dotrzeć do zakładu pracy, skontaktuj się z koordynatorem Nexflow. Pomożemy Ci zaplanować pierwszą trasę i wyjaśnimy lokalne zasady transportu.</p>
+
+<p><em>Nexflow – pracujemy dla Ciebie w Polsce</em></p>
+    `.trim(),
+  },
+  {
+    slug: "hromadskyi-transport-polshcha-inozemets",
+    title: "Громадський транспорт у Польщі для іноземців: практичний посібник",
+    description:
+      "Як користуватися громадським транспортом у Польщі? Автобуси, трамваї, метро – квитки, додатки, контроль квитків. Посібник для тимчасових працівників Nexflow.",
+    date: "2028-06-08",
+    lang: "uk",
+    content: `
+<h2>Як користуватися громадським транспортом у Польщі?</h2>
+
+<p>Робота через Nexflow часто означає нове місто і нові маршрути до роботи. Громадський транспорт — найзручніший і найдешевший спосіб дістатися до складу чи офісу.</p>
+
+<h3>Які види транспорту є у Польщі?</h3>
+
+<ul>
+  <li><strong>Автобус (autobus)</strong> — є в усіх містах, основний вид транспорту</li>
+  <li><strong>Трамвай (tramwaj)</strong> — у Варшаві, Вроцлаві, Кракові, Познані, Лодзі</li>
+  <li><strong>Метро</strong> — тільки у Варшаві (лінії M1 і M2)</li>
+  <li><strong>SKM / Міська залізниця</strong> — швидка електричка, що з'єднує центр із передмістям</li>
+</ul>
+
+<h3>Як купити квиток?</h3>
+
+<p><strong>1. Білетні автомати (biletomat)</strong> — на зупинках і станціях метро. Приймають картки та готівку. Часто є англійська версія меню.</p>
+
+<p><strong>2. Мобільні додатки:</strong></p>
+<ul>
+  <li><strong>Jakdojade</strong> — планування маршруту та купівля квитка (є українська версія!)</li>
+  <li><strong>mPay</strong> — купівля квитка через телефон</li>
+</ul>
+
+<p><strong>3. Кіоски і магазини</strong> — паперові квитки можна купити в кіосках Ruch, Empik.</p>
+
+<p><strong>4. У водія</strong> — тільки в деяких містах. У Варшаві квиток у водія коштує дорожче.</p>
+
+<h3>Як закомпостувати квиток?</h3>
+
+<p>Після входу в транспорт <strong>обов'язково прокомпостуй квиток у kasowniku</strong> — жовтому пристрої біля дверей. Без компостування — ти вважаєшся «зайцем», навіть якщо квиток є.</p>
+
+<p>Якщо квиток у додатку — активуй його при посадці.</p>
+
+<h3>Міські картки</h3>
+
+<p>Якщо ти постійно працюєш в одному місті — варто оформити картку:</p>
+
+<table>
+  <thead><tr><th>Місто</th><th>Картка</th></tr></thead>
+  <tbody>
+    <tr><td>Варшава</td><td>Warszawska Karta Miejska (WKM)</td></tr>
+    <tr><td>Вроцлав</td><td>Urbancard</td></tr>
+    <tr><td>Краків</td><td>Krakowska Karta Miejska (KKM)</td></tr>
+    <tr><td>Познань</td><td>PEKA</td></tr>
+  </tbody>
+</table>
+
+<p>Картка дозволяє купувати місячні проїзні — значно дешевше, ніж разові квитки.</p>
+
+<h3>Контроль квитків</h3>
+
+<p>У польському транспорті регулярно проводяться <strong>перевірки квитків</strong>. Їзда без дійсного квитка = <strong>штраф (mandat)</strong>.</p>
+
+<p>Розмір штрафу:</p>
+<ul>
+  <li>Варшава: ~266 злотих</li>
+  <li>Вроцлав, Краків: ~200 злотих</li>
+</ul>
+
+<p>Пам'ятай: <strong>квиток має бути закомпостований</strong>, навіть якщо ти його купив.</p>
+
+<h3>Корисний словник</h3>
+
+<table>
+  <thead><tr><th>Польська</th><th>Переклад</th></tr></thead>
+  <tbody>
+    <tr><td>Przystanek</td><td>Зупинка</td></tr>
+    <tr><td>Kasownik</td><td>Компостер/валідатор</td></tr>
+    <tr><td>Bilet</td><td>Квиток</td></tr>
+    <tr><td>Linia</td><td>Маршрут/лінія</td></tr>
+    <tr><td>Kierowca</td><td>Водій</td></tr>
+    <tr><td>Kontroler biletów</td><td>Контролер квитків</td></tr>
+    <tr><td>Rozkład jazdy</td><td>Розклад</td></tr>
+    <tr><td>Przesiadka</td><td>Пересадка</td></tr>
+  </tbody>
+</table>
+
+<h3>Нічний транспорт</h3>
+
+<p>Багато міст мають <strong>нічні маршрути</strong> (позначаються літерою N). Вони ходять рідше — кожні 30–60 хвилин. Перевір розклад, якщо працюєш у нічну зміну.</p>
+
+<h3>Як перевірити маршрут?</h3>
+
+<ul>
+  <li><strong>Google Maps</strong> — підтримує громадський транспорт по всій Польщі</li>
+  <li><strong>Jakdojade</strong> — детальна інформація (є українська версія)</li>
+</ul>
+
+<h3>Nexflow допоможе</h3>
+
+<p>Якщо ти починаєш роботу в новому місті — звернись до координатора Nexflow. Ми допоможемо спланувати перший маршрут.</p>
+
+<p><em>Nexflow – ми працюємо для тебе в Польщі</em></p>
+    `.trim(),
+  },
+  {
+    slug: "obshchestvennyj-transport-polsha-inostranets",
+    title: "Общественный транспорт в Польше для иностранцев: практическое руководство",
+    description:
+      "Как пользоваться общественным транспортом в Польше? Автобусы, трамваи, метро – билеты, приложения, контроль билетов. Руководство для временных работников Nexflow.",
+    date: "2028-06-15",
+    lang: "ru",
+    content: `
+<h2>Как пользоваться общественным транспортом в Польше?</h2>
+
+<p>Работа через Nexflow нередко означает новый город и новые маршруты до места работы. Общественный транспорт — самый удобный и дешёвый способ добраться до склада или офиса.</p>
+
+<h3>Виды общественного транспорта в Польше</h3>
+
+<ul>
+  <li><strong>Автобус (autobus)</strong> — есть во всех городах, основной вид транспорта</li>
+  <li><strong>Трамвай (tramwaj)</strong> — в Варшаве, Вроцлаве, Кракове, Познани, Лодзи</li>
+  <li><strong>Метро</strong> — только в Варшаве (линии M1 и M2)</li>
+  <li><strong>SKM / Городская электричка</strong> — быстрое сообщение между центром и пригородами</li>
+</ul>
+
+<h3>Как купить билет?</h3>
+
+<p><strong>1. Билетные автоматы (biletomat)</strong> — на остановках и станциях метро. Принимают карты и наличные. Часто есть меню на английском языке.</p>
+
+<p><strong>2. Мобильные приложения:</strong></p>
+<ul>
+  <li><strong>Jakdojade</strong> — планирование маршрута и покупка билета (есть русская версия!)</li>
+  <li><strong>mPay</strong> — покупка билета через телефон</li>
+</ul>
+
+<p><strong>3. Киоски и магазины</strong> — бумажные билеты в киосках Ruch, Empik.</p>
+
+<p><strong>4. У водителя</strong> — только в некоторых городах. В Варшаве билет у водителя стоит дороже.</p>
+
+<h3>Как прокомпостировать билет?</h3>
+
+<p>После входа в транспорт <strong>обязательно прокомпостируйте билет в kasowniku</strong> — жёлтом устройстве у дверей. Без компостирования вы считаетесь «зайцем», даже если билет есть.</p>
+
+<p>Если билет в приложении — активируйте его при посадке.</p>
+
+<h3>Городские транспортные карты</h3>
+
+<p>Если вы постоянно работаете в одном городе — стоит оформить карту:</p>
+
+<table>
+  <thead><tr><th>Город</th><th>Карта</th></tr></thead>
+  <tbody>
+    <tr><td>Варшава</td><td>Warszawska Karta Miejska (WKM)</td></tr>
+    <tr><td>Вроцлав</td><td>Urbancard</td></tr>
+    <tr><td>Краков</td><td>Krakowska Karta Miejska (KKM)</td></tr>
+    <tr><td>Познань</td><td>PEKA</td></tr>
+  </tbody>
+</table>
+
+<p>Карта позволяет покупать месячные проездные — значительно дешевле разовых билетов.</p>
+
+<h3>Проверка билетов</h3>
+
+<p>В польском транспорте регулярно проводятся <strong>проверки билетов</strong>. Езда без действительного билета = <strong>штраф (mandat)</strong>.</p>
+
+<p>Размер штрафа:</p>
+<ul>
+  <li>Варшава: ~266 злотых</li>
+  <li>Вроцлав, Краков: ~200 злотых</li>
+</ul>
+
+<p>Помните: <strong>билет должен быть прокомпостирован</strong>, даже если вы его купили.</p>
+
+<h3>Полезный словарь</h3>
+
+<table>
+  <thead><tr><th>Польский</th><th>Перевод</th></tr></thead>
+  <tbody>
+    <tr><td>Przystanek</td><td>Остановка</td></tr>
+    <tr><td>Kasownik</td><td>Компостер/валидатор</td></tr>
+    <tr><td>Bilet</td><td>Билет</td></tr>
+    <tr><td>Linia</td><td>Маршрут/линия</td></tr>
+    <tr><td>Kierowca</td><td>Водитель</td></tr>
+    <tr><td>Kontroler biletów</td><td>Контролёр билетов</td></tr>
+    <tr><td>Rozkład jazdy</td><td>Расписание</td></tr>
+    <tr><td>Przesiadka</td><td>Пересадка</td></tr>
+  </tbody>
+</table>
+
+<h3>Ночной транспорт</h3>
+
+<p>Многие города имеют <strong>ночные маршруты</strong> (обозначаются буквой N). Они ходят реже — каждые 30–60 минут. Проверьте расписание, если работаете в ночную смену.</p>
+
+<h3>Как проверить маршрут?</h3>
+
+<ul>
+  <li><strong>Google Maps</strong> — поддерживает общественный транспорт по всей Польше</li>
+  <li><strong>Jakdojade</strong> — подробная информация (есть русская версия)</li>
+</ul>
+
+<h3>Nexflow поможет</h3>
+
+<p>Если вы начинаете работу в новом городе — обратитесь к координатору Nexflow. Мы поможем спланировать первый маршрут.</p>
+
+<p><em>Nexflow – работаем для вас в Польше</em></p>
+    `.trim(),
+  },
+  {
+    slug: "public-transport-poland-foreign-worker",
+    title: "Public Transport in Poland: A Guide for Foreign Workers",
+    description:
+      "How to use public transport in Poland as a foreign worker? Buses, trams, metro – tickets, apps, inspections. A practical guide for temp workers from Nexflow.",
+    date: "2028-06-22",
+    lang: "en",
+    content: `
+<h2>Public Transport in Poland: A Guide for Foreign Workers</h2>
+
+<p>Starting work through Nexflow often means a new city and new commuting routes. Public transport is the most convenient and affordable way to get to your warehouse, logistics centre, or office.</p>
+
+<h3>Types of Public Transport in Poland</h3>
+
+<ul>
+  <li><strong>Bus (autobus)</strong> — available in all cities, the primary mode of transport</li>
+  <li><strong>Tram (tramwaj)</strong> — in Warsaw, Wrocław, Kraków, Poznań, Łódź and other large cities</li>
+  <li><strong>Metro</strong> — only in Warsaw (lines M1 and M2)</li>
+  <li><strong>SKM / City rail</strong> — fast rail connecting city centres with suburbs</li>
+</ul>
+
+<p>Each city manages its own network:</p>
+<ul>
+  <li>Warsaw: ZTM (Zarząd Transportu Miejskiego)</li>
+  <li>Wrocław: MPK Wrocław</li>
+  <li>Kraków: MPK Kraków</li>
+  <li>Poznań: ZTM Poznań</li>
+</ul>
+
+<h3>How to Buy a Ticket</h3>
+
+<p><strong>1. Ticket machines (biletomat)</strong> — at stops and metro stations. Accept cards and cash. Many have an English language menu.</p>
+
+<p><strong>2. Mobile apps (most convenient):</strong></p>
+<ul>
+  <li><strong>Jakdojade</strong> — route planning and ticket purchase (available in English, Ukrainian, and Russian)</li>
+  <li><strong>mPay</strong> — buy tickets via phone</li>
+  <li>City-specific apps (WTP Mobile, mKraków, etc.)</li>
+</ul>
+
+<p><strong>3. Kiosks and shops</strong> — paper tickets at Ruch and Empik kiosks, and small shops near stops.</p>
+
+<p><strong>4. From the driver</strong> — only on some routes in some cities. In Warsaw, buying from the driver costs more.</p>
+
+<h3>How to Validate Your Ticket</h3>
+
+<p>After boarding, <strong>you must validate your ticket in the kasownik</strong> — the yellow device near the doors. An unvalidated ticket = travelling without a ticket, even if you paid for it.</p>
+
+<p>If you have a ticket in a mobile app, activate it in the app when boarding.</p>
+
+<h3>City Transport Cards</h3>
+
+<p>If you work regularly in one city, it is worth getting a transport card:</p>
+
+<table>
+  <thead><tr><th>City</th><th>Card</th></tr></thead>
+  <tbody>
+    <tr><td>Warsaw</td><td>Warszawska Karta Miejska (WKM)</td></tr>
+    <tr><td>Wrocław</td><td>Urbancard</td></tr>
+    <tr><td>Kraków</td><td>Krakowska Karta Miejska (KKM)</td></tr>
+    <tr><td>Poznań</td><td>PEKA</td></tr>
+  </tbody>
+</table>
+
+<p>A card lets you buy monthly passes — much cheaper than single tickets.</p>
+
+<h3>Ticket Inspections</h3>
+
+<p>Polish public transport has <strong>regular ticket inspections</strong>. Inspectors (uniformed or plainclothes) check tickets. Travelling without a valid ticket = <strong>a fine (mandat)</strong>.</p>
+
+<p>Fines vary by city:</p>
+<ul>
+  <li>Warsaw: ~266 PLN</li>
+  <li>Wrocław, Kraków: ~200 PLN</li>
+</ul>
+
+<p>Remember: <strong>your ticket must be validated</strong>, even if you bought it.</p>
+
+<h3>Useful Vocabulary</h3>
+
+<table>
+  <thead><tr><th>Polish</th><th>English</th></tr></thead>
+  <tbody>
+    <tr><td>Przystanek</td><td>Stop/station</td></tr>
+    <tr><td>Kasownik</td><td>Ticket validator</td></tr>
+    <tr><td>Bilet</td><td>Ticket</td></tr>
+    <tr><td>Linia</td><td>Line (bus/tram number)</td></tr>
+    <tr><td>Kierowca</td><td>Driver</td></tr>
+    <tr><td>Kontroler biletów</td><td>Ticket inspector</td></tr>
+    <tr><td>Rozkład jazdy</td><td>Timetable</td></tr>
+    <tr><td>Przesiadka</td><td>Transfer/change</td></tr>
+  </tbody>
+</table>
+
+<h3>Night and Weekend Transport</h3>
+
+<p>Many cities have <strong>night routes</strong> (marked with N or high route numbers). These run less frequently — every 30–60 minutes. Check the timetable if you work night shifts.</p>
+
+<h3>How to Check Your Route</h3>
+
+<ul>
+  <li><strong>Google Maps</strong> — supports public transport across Poland</li>
+  <li><strong>Jakdojade</strong> — detailed Polish public transport information, available in English, Ukrainian, and Russian</li>
+</ul>
+
+<h3>Nexflow Can Help</h3>
+
+<p>If you are starting work in a new city and do not know how to get to your workplace, contact your Nexflow coordinator. We will help you plan your first route and explain local transport rules.</p>
+
+<p><em>Nexflow – working for you in Poland</em></p>
+    `.trim(),
   }
 ];
 
