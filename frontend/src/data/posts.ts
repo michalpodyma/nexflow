@@ -14563,6 +14563,707 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>mObywatel and Profil Zaufany unlock dozens of Polish government e-services — without leaving home. If you have a PESEL, set up your Profil Zaufany through your bank as soon as possible. It saves time and simplifies life in Poland, especially when the language is still a challenge.</p>
     `.trim(),
   },
+  {
+    slug: "wiza-typ-d-polska-cudzoziemiec",
+    title: "Wiza do pracy w Polsce dla cudzoziemców — jak uzyskać wizę typ D?",
+    description:
+      "Kompletny poradnik dla obywateli spoza UE: rodzaje polskich wiz, wymagane dokumenty i jak złożyć wniosek.",
+    date: "2029-04-05",
+    lang: "pl",
+    content: `
+<p>Jeśli przyjechałeś do Polski spoza Unii Europejskiej i planujesz tutaj pracować dłużej niż 90 dni, potrzebujesz <strong>wizy krajowej typ D</strong>. To podstawowy dokument, który umożliwia legalny pobyt i zatrudnienie w Polsce przez okres powyżej trzech miesięcy. W tym poradniku wyjaśniamy, czym różni się wiza D od wizy Schengen, jakie dokumenty są potrzebne i jak krok po kroku złożyć wniosek.</p>
+
+<h2>Wiza Schengen vs. wiza krajowa typ D — różnica</h2>
+<p>Wiele osób myli dwa rodzaje wiz:</p>
+<ul>
+<li><strong>Wiza Schengen (typ C)</strong> — pozwala na pobyt w strefie Schengen do <strong>90 dni w ciągu 180 dni</strong>. Nie uprawnia do pracy zarobkowej (chyba że wyraźnie to zaznaczono).</li>
+<li><strong>Wiza krajowa typ D</strong> — wydawana przez Polskę, pozwala przebywać w Polsce <strong>do 1 roku</strong> (lub krócej, zależnie od celu). Można na jej podstawie podjąć pracę, jeśli wiza jest wydana w celu wykonywania pracy.</li>
+</ul>
+<p>Jeśli planujesz pracować w Polsce przez dłuższy czas — wiza D jest odpowiednim dokumentem.</p>
+
+<h2>Kto potrzebuje wizy typ D?</h2>
+<p>Wizę typ D do pracy w Polsce potrzebują obywatele krajów spoza Unii Europejskiej i Europejskiego Obszaru Gospodarczego, którzy <strong>nie są zwolnieni z obowiązku wizowego</strong>. Zwolnienie z wiz dotyczy m.in. obywateli Ukrainy (przy posiadaniu dokumentu biometrycznego), Gruzji czy Mołdawii — ale tylko w przypadku pobytu nieprzekraczającego 90 dni i bez prawa do pracy zarobkowej.</p>
+<p>Pracownicy z Ukrainy, Białorusi, Rosji i innych krajów, którzy chcą pracować legalnie w Polsce powyżej 90 dni, powinni ubiegać się o wizę D z celem <strong>"wykonywanie pracy"</strong>.</p>
+
+<h2>Wymagane dokumenty do wizy D na pracę</h2>
+<p>Lista dokumentów może się nieco różnić w zależności od konsulatu, ale standardowo wymagane są:</p>
+<ul>
+<li>Ważny paszport (min. 3 miesiące ważności po dacie wyjazdu z Polski)</li>
+<li>Wypełniony formularz wniosku wizowego</li>
+<li>Zdjęcie biometryczne</li>
+<li><strong>Zezwolenie na pracę</strong> (wydane przez polskiego pracodawcę lub urząd pracy) LUB <strong>oświadczenie o powierzeniu pracy</strong> (dla obywateli wybranych krajów)</li>
+<li>Umowa o pracę lub promesa umowy</li>
+<li>Zaproszenie od pracodawcy lub agencji pracy</li>
+<li>Dokumenty potwierdzające miejsce zamieszkania w Polsce (umowa najmu, list od pracodawcy z adresem zakwaterowania)</li>
+<li>Ubezpieczenie zdrowotne ważne na terenie Polski (wymagane na czas oczekiwania na przystąpienie do ZUS)</li>
+<li>Potwierdzenie opłaty konsularnej</li>
+</ul>
+
+<h2>Gdzie i jak złożyć wniosek?</h2>
+<p>Wniosek o wizę składa się <strong>w konsulacie lub ambasadzie Polski</strong> w kraju zamieszkania. Dla Ukraińców — w placówkach w Kijowie, Lwowie, Charkowie, Odessie lub Winnicy. Dla Białorusinów — m.in. w Mińsku lub na Litwie.</p>
+<ol>
+<li>Sprawdź aktualną listę wymaganych dokumentów na stronie konsulatu</li>
+<li>Umów wizytę online (większość konsulatów wymaga rezerwacji terminu)</li>
+<li>Zgromadź wszystkie dokumenty</li>
+<li>Złóż wniosek osobiście i opłać opłatę konsularną (ok. 80 EUR)</li>
+<li>Oczekuj na decyzję — zazwyczaj 7-14 dni roboczych, ale może dłużej w sezonie</li>
+</ol>
+
+<h2>Co to jest wiza z adnotacją "dostęp do rynku pracy"?</h2>
+<p>Polska wiza D może zawierać adnotację <strong>"dostęp do rynku pracy"</strong>. Oznacza to, że masz prawo pracować w Polsce na jej podstawie — bez konieczności uzyskiwania dodatkowego zezwolenia. Jeśli taka adnotacja jest wpisana w wizie — możesz podjąć zatrudnienie zaraz po przyjeździe.</p>
+
+<h2>Co dalej po przyjeździe do Polski?</h2>
+<p>Po wjeździe do Polski na wizę D powinieneś:</p>
+<ol>
+<li><strong>Zameldować się</strong> w miejscu zamieszkania (zameldowanie)</li>
+<li><strong>Uzyskać PESEL</strong> (numer identyfikacyjny) — potrzebny do wielu spraw urzędowych</li>
+<li><strong>Złożyć wniosek o Kartę Czasowego Pobytu</strong> (jeśli planujesz zostać dłużej niż 12 miesięcy) — wiza D to tylko tymczasowe rozwiązanie</li>
+<li>Upewnić się, że pracodawca zgłosił Cię do ZUS w ciągu 7 dni od zatrudnienia</li>
+</ol>
+
+<h2>Czy Ukraińcy na ochronie tymczasowej potrzebują wizy?</h2>
+<p>Obywatele Ukrainy, którzy przebywają w Polsce na podstawie <strong>ochrony tymczasowej (status UKR)</strong>, mają specjalny status prawny — nie potrzebują wizy ani zezwolenia na pracę. Mogą pracować legalnie na podstawie numeru PESEL i potwierdzenia ochrony tymczasowej.</p>
+
+<h2>Podsumowanie</h2>
+<p>Wiza typ D na pracę w Polsce to kluczowy dokument dla cudzoziemców spoza UE, którzy chcą pracować legalnie przez więcej niż 90 dni. Złóż wniosek z wyprzedzeniem — przynajmniej 3-4 tygodnie przed planowanym przyjazdem. Pamiętaj, że wiza D to dopiero początek procesu legalizacji pobytu — następnym krokiem jest Karta Czasowego Pobytu.</p>
+<p>Jeśli pracujesz przez agencję tymczasową taką jak Nexflow, skontaktuj się z naszym działem HR — pomożemy Ci przejść przez cały proces dokumentacji i legalizacji.</p>
+    `.trim(),
+  },
+  {
+    slug: "viza-tip-d-polshcha-inozemets",
+    title: "Віза для роботи в Польщі для іноземців — як отримати візу типу D?",
+    description:
+      "Повний посібник для громадян не з ЄС: типи польських віз, необхідні документи та як подати заявку.",
+    date: "2029-04-12",
+    lang: "uk",
+    content: `
+<p>Якщо ви приїхали до Польщі з країни поза Євросоюзом і плануєте тут працювати довше ніж 90 днів, вам потрібна <strong>національна віза типу D</strong>. Це основний документ, що дозволяє законно перебувати та працевлаштуватися в Польщі понад три місяці.</p>
+
+<h2>Шенгенська виза vs. національна віза типу D</h2>
+<ul>
+<li><strong>Шенгенська віза (тип C)</strong> — до 90 днів у Шенгені, без права на роботу.</li>
+<li><strong>Національна віза типу D</strong> — до 1 року в Польщі, з правом на роботу.</li>
+</ul>
+
+<h2>Хто потребує візи типу D?</h2>
+<p>Громадяни країн поза ЄС, які хочуть легально працювати в Польщі понад 90 днів. Громадяни України з тимчасовим захистом (статус UKR) не потребують цієї візи — вони можуть працювати на підставі PESEL.</p>
+
+<h2>Необхідні документи</h2>
+<ul>
+<li>Дійсний паспорт (мін. 3 місяці після дати виїзду)</li>
+<li>Заповнена анкета на отримання візи</li>
+<li>Біометричне фото</li>
+<li>Дозвіл на роботу АБО заява про доручення роботи</li>
+<li>Трудовий договір або промеса договору</li>
+<li>Підтвердження місця проживання в Польщі</li>
+<li>Медична страховка, дійсна в Польщі</li>
+<li>Підтвердження оплати консульського збору (бл. 80 EUR)</li>
+</ul>
+
+<h2>Де і як подати заявку?</h2>
+<p>У консульстві або посольстві Польщі в країні проживання. Для українців — у Києві, Львові, Харкові, Одесі або Вінниці.</p>
+<ol>
+<li>Перевірте список документів на сайті консульства</li>
+<li>Запишіться на прийом онлайн</li>
+<li>Подайте заявку особисто та сплатіть збір</li>
+<li>Очікуйте рішення — 7-14 робочих днів</li>
+</ol>
+
+<h2>Що означає позначка «dostęp do rynku pracy»?</h2>
+<p>Якщо у візі є ця позначка — ви маєте право працювати в Польщі без додаткового дозволу.</p>
+
+<h2>Що робити після приїзду?</h2>
+<ol>
+<li>Зареєструватися за місцем проживання</li>
+<li>Отримати PESEL</li>
+<li>Подати заявку на Картку тимчасового проживання</li>
+<li>Переконатися, що роботодавець зареєстрував вас у ZUS</li>
+</ol>
+
+<h2>Підсумок</h2>
+<p>Віза типу D — ключовий документ для легальної роботи в Польщі понад 90 днів. Подавайте заявку за 3-4 тижні до приїзду. Nexflow допоможе вам з усіма документами.</p>
+    `.trim(),
+  },
+  {
+    slug: "viza-tip-d-polsha-inostranets",
+    title: "Виза для работы в Польше для иностранцев — как получить визу типа D?",
+    description:
+      "Полное руководство для граждан не из ЕС: типы польских виз, необходимые документы и как подать заявку.",
+    date: "2029-04-19",
+    lang: "ru",
+    content: `
+<p>Если вы приехали в Польшу из страны за пределами Евросоюза и планируете здесь работать более 90 дней, вам нужна <strong>национальная виза типа D</strong>. Это основной документ, позволяющий законно находиться и трудоустроиться в Польше на срок более трёх месяцев.</p>
+
+<h2>Шенгенская виза vs. национальная виза типа D</h2>
+<ul>
+<li><strong>Шенгенская виза (тип C)</strong> — до 90 дней в Шенгене, без права на работу.</li>
+<li><strong>Национальная виза типа D</strong> — до 1 года в Польше, с правом на работу.</li>
+</ul>
+
+<h2>Кому нужна виза типа D?</h2>
+<p>Гражданам стран за пределами ЕС, которые хотят легально работать в Польше более 90 дней. Граждане Украины со статусом временной защиты (UKR) не нуждаются в этой визе — они могут работать на основании PESEL.</p>
+
+<h2>Необходимые документы</h2>
+<ul>
+<li>Действующий паспорт (мин. 3 месяца после даты выезда)</li>
+<li>Заполненная анкета на получение визы</li>
+<li>Биометрическое фото</li>
+<li>Разрешение на работу ИЛИ заявление о поручении работы</li>
+<li>Трудовой договор или обещание заключить договор</li>
+<li>Подтверждение места жительства в Польше</li>
+<li>Медицинская страховка, действующая в Польше</li>
+<li>Подтверждение оплаты консульского сбора (ок. 80 EUR)</li>
+</ul>
+
+<h2>Где и как подать заявку?</h2>
+<p>В консульстве или посольстве Польши в стране проживания. Для белорусов — в Минске или в посольствах в Литве/Польше.</p>
+<ol>
+<li>Проверьте список документов на сайте консульства</li>
+<li>Запишитесь на приём онлайн</li>
+<li>Подайте заявку лично и оплатите сбор</li>
+<li>Ожидайте решения — 7-14 рабочих дней</li>
+</ol>
+
+<h2>Что означает пометка «dostęp do rynku pracy»?</h2>
+<p>Если в визе есть эта пометка — вы имеете право работать в Польше без дополнительного разрешения.</p>
+
+<h2>Что делать после приезда в Польшу?</h2>
+<ol>
+<li>Зарегистрироваться по месту жительства (zameldowanie)</li>
+<li>Получить PESEL</li>
+<li>Подать заявку на Карту временного проживания</li>
+<li>Убедиться, что работодатель зарегистрировал вас в ZUS</li>
+</ol>
+
+<h2>Итог</h2>
+<p>Виза типа D — ключевой документ для легальной работы в Польше более 90 дней. Подавайте заявку за 3-4 недели до приезда. Nexflow поможет с оформлением документов и легализацией.</p>
+    `.trim(),
+  },
+  {
+    slug: "type-d-work-visa-poland-foreign-worker",
+    title: "Polish Work Visa Type D — How to Apply as a Non-EU Foreign Worker",
+    description:
+      "Complete guide for non-EU nationals: Polish visa types, required documents, and step-by-step application process.",
+    date: "2029-04-26",
+    lang: "en",
+    content: `
+<p>If you come from a country outside the European Union and plan to work in Poland for more than 90 days, you need a <strong>Polish national visa type D</strong>. This is the primary document that allows you to legally stay and work in Poland for longer than three months. This guide explains the difference between a Schengen visa and a type D visa, what documents you need, and how to apply step by step.</p>
+
+<h2>Schengen Visa vs. National Visa Type D — What Is the Difference?</h2>
+<p>Many people confuse these two types of visas:</p>
+<ul>
+<li><strong>Schengen visa (type C)</strong> — allows a stay in the Schengen Area for up to <strong>90 days within any 180-day period</strong>. It does not authorise paid work (unless explicitly stated).</li>
+<li><strong>National visa type D</strong> — issued by Poland, allows a stay of <strong>up to 1 year</strong>. It can authorise work in Poland if the visa is issued for the purpose of employment.</li>
+</ul>
+
+<h2>Who Needs a Type D Visa?</h2>
+<p>Non-EU/EEA nationals who are not exempt from the visa requirement and want to work legally in Poland for more than 90 days. Citizens of Ukraine with biometric passports can enter the Schengen Area without a visa — but only for up to 90 days and without the right to work.</p>
+<p>Workers from Ukraine (without temporary protection status), Belarus, Russia, and other third countries who want to work legally in Poland for longer periods should apply for a type D visa with the purpose <strong>"employment"</strong>.</p>
+
+<h2>Required Documents for a Type D Work Visa</h2>
+<ul>
+<li>Valid passport (min. 3 months validity after the planned departure from Poland)</li>
+<li>Completed visa application form</li>
+<li>Biometric photo</li>
+<li><strong>Work permit</strong> (issued by a Polish employer or labour office) OR <strong>statement of intent to employ</strong> (for citizens of eligible countries)</li>
+<li>Employment contract or promise of employment</li>
+<li>Invitation letter from the employer or staffing agency</li>
+<li>Proof of accommodation in Poland (rental contract or employer's letter)</li>
+<li>Health insurance valid in Poland</li>
+<li>Proof of payment of the consular fee (approx. 80 EUR)</li>
+</ul>
+
+<h2>Where and How to Apply?</h2>
+<p>Submit your application at the <strong>Polish consulate or embassy</strong> in your country of residence.</p>
+<ol>
+<li>Check the current document list on the consulate's website</li>
+<li>Book an appointment online (most consulates require this)</li>
+<li>Gather all required documents</li>
+<li>Submit the application in person and pay the consular fee</li>
+<li>Wait for a decision — usually 7-14 working days, longer in peak season</li>
+</ol>
+
+<h2>What Does the "dostęp do rynku pracy" Annotation Mean?</h2>
+<p>A Polish type D visa may include the annotation <strong>"dostęp do rynku pracy"</strong> (access to the labour market). This means you are authorised to work in Poland on the basis of this visa alone — no additional work permit is needed.</p>
+
+<h2>What About Ukrainian Nationals with Temporary Protection?</h2>
+<p>Ukrainian citizens in Poland under <strong>temporary protection (UKR status)</strong> have a special legal status — they do not need a visa or a work permit. They can work legally based on their PESEL number and proof of temporary protection.</p>
+
+<h2>What to Do After Arriving in Poland?</h2>
+<ol>
+<li>Register your address (zameldowanie — address registration at the municipal office)</li>
+<li>Obtain a PESEL number</li>
+<li>Apply for a Temporary Residence Card (Karta Czasowego Pobytu) if you plan to stay longer than 12 months</li>
+<li>Ensure your employer registers you with ZUS (social insurance) within 7 days</li>
+</ol>
+
+<h2>Summary</h2>
+<p>A type D work visa is the essential document for non-EU nationals who want to work legally in Poland for more than 90 days. Apply at least 3-4 weeks before your planned arrival. If you work through Nexflow staffing agency, our HR team can help you with the full documentation and legalisation process.</p>
+    `.trim(),
+  },
+  {
+    slug: "zaswiadczenie-o-zatrudnieniu-polska-cudzoziemiec",
+    title: "Zaświadczenie o zatrudnieniu w Polsce — kiedy potrzebujesz i jak je uzyskać?",
+    description:
+      "Dowiedz się, kiedy cudzoziemiec potrzebuje zaświadczenia o zatrudnieniu, co powinno zawierać i jak je uzyskać od pracodawcy.",
+    date: "2029-05-03",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce jako obcokrajowiec i dostałeś prośbę o <strong>zaświadczenie o zatrudnieniu</strong>? Albo chcesz otworzyć konto bankowe, wynająć mieszkanie lub złożyć wniosek o przedłużenie wizy i powiedziano Ci, że potrzebujesz takiego dokumentu? W tym poradniku wyjaśniamy, czym jest zaświadczenie o zatrudnieniu, kiedy jest potrzebne i jak je uzyskać.</p>
+
+<h2>Co to jest zaświadczenie o zatrudnieniu?</h2>
+<p>Zaświadczenie o zatrudnieniu (ang. <em>certificate of employment</em> lub <em>employment confirmation letter</em>) to oficjalny dokument wystawiony przez pracodawcę, potwierdzający, że dana osoba jest aktualnie zatrudniona. Nie mylić ze <strong>świadectwem pracy</strong> — które jest dokumentem kończącym stosunek pracy i jest wydawane po jego zakończeniu.</p>
+
+<h2>Kiedy potrzebujesz zaświadczenia o zatrudnieniu?</h2>
+<p>Jako cudzoziemiec pracujący w Polsce zaświadczenie o zatrudnieniu jest potrzebne m.in. w następujących sytuacjach:</p>
+<ul>
+<li><strong>Otwarcie konta bankowego</strong> — wiele polskich banków wymaga zaświadczenia jako dowodu stabilności finansowej</li>
+<li><strong>Wynajem mieszkania</strong> — właściciel lub agencja nieruchomości może prosić o potwierdzenie zatrudnienia</li>
+<li><strong>Przedłużenie wizy lub złożenie wniosku o Kartę Czasowego Pobytu</strong> — urząd do spraw cudzoziemców wymaga aktualnego zaświadczenia</li>
+<li><strong>Złożenie wniosku o kredyt lub pożyczkę</strong></li>
+<li><strong>Wniosek o świadczenie 800+</strong> lub inne świadczenia społeczne</li>
+<li><strong>Rejestracja w przychodni / u lekarza POZ</strong> — jako dowód ubezpieczenia przez ZUS</li>
+<li><strong>Wnioski wizowe do innych krajów</strong> (np. wiza do Niemiec, Wielkiej Brytanii)</li>
+</ul>
+
+<h2>Co powinno zawierać zaświadczenie o zatrudnieniu?</h2>
+<p>Choć nie ma jednego wymaganego prawem formatu, zaświadczenie o zatrudnieniu powinno zazwyczaj zawierać:</p>
+<ul>
+<li>Pełną nazwę i adres pracodawcy</li>
+<li>Imię i nazwisko pracownika</li>
+<li>Datę urodzenia lub numer PESEL/paszportu</li>
+<li>Rodzaj umowy (umowa o pracę / umowa zlecenie)</li>
+<li>Wymiar etatu (pełny / część etatu)</li>
+<li>Datę zatrudnienia (od kiedy pracownik jest zatrudniony)</li>
+<li>Wynagrodzenie (jeśli wymagane przez instytucję)</li>
+<li>Pieczęć firmową i podpis upoważnionej osoby</li>
+<li>Datę wystawienia dokumentu</li>
+</ul>
+
+<h2>Jak poprosić pracodawcę o zaświadczenie?</h2>
+<p>W Polsce pracodawca jest <strong>zobowiązany</strong> do wydania zaświadczenia o zatrudnieniu na wniosek pracownika. Nie może odmówić bez uzasadnionej przyczyny. Oto jak to zrobić:</p>
+<ol>
+<li>Zgłoś się do działu HR lub bezpośredniego przełożonego</li>
+<li>Wyjaśnij, w jakim celu potrzebujesz zaświadczenia (bank, urząd, wynajem)</li>
+<li>Zapytaj, czy wymagana jest konkretna treść lub format (np. z podaniem wynagrodzenia)</li>
+<li>Zaświadczenie powinno być wystawione <strong>w ciągu 7 dni roboczych</strong></li>
+</ol>
+
+<h2>Zaświadczenie dla agencji pracy tymczasowej</h2>
+<p>Jeśli pracujesz przez agencję pracy tymczasowej (tak jak Nexflow), Twoim formalnym pracodawcą jest <strong>agencja</strong>, a nie pracodawca użytkownik (firma, w której pracujesz fizycznie). Dlatego zaświadczenie o zatrudnieniu musisz uzyskać od agencji, a nie od zakładu pracy.</p>
+<p>Pamiętaj też, że przy umowie zlecenia zamiast zaświadczenia o zatrudnieniu czasem wymagane jest <strong>zaświadczenie o wykonywaniu umowy zlecenia</strong> — upewnij się, że wiesz, jakiego dokumentu potrzebuje dana instytucja.</p>
+
+<h2>Zaświadczenie o zatrudnieniu a świadectwo pracy — różnica</h2>
+<table>
+<tr><th>Zaświadczenie o zatrudnieniu</th><th>Świadectwo pracy</th></tr>
+<tr><td>Wydawane w trakcie zatrudnienia</td><td>Wydawane po zakończeniu umowy</td></tr>
+<tr><td>Potwierdza aktualne zatrudnienie</td><td>Potwierdza historię zatrudnienia</td></tr>
+<tr><td>Na wniosek pracownika</td><td>Obowiązkowe przy zakończeniu umowy</td></tr>
+</table>
+
+<h2>Podsumowanie</h2>
+<p>Zaświadczenie o zatrudnieniu to prosty, ale ważny dokument, który może być potrzebny w wielu sytuacjach — od konta bankowego po kartę pobytu. Pamiętaj, że to prawo pracownika, a pracodawca (lub agencja) jest zobowiązany je wystawić na Twój wniosek. Jeśli pracujesz przez Nexflow — skontaktuj się z naszym działem HR, a pomożemy Ci szybko uzyskać potrzebny dokument.</p>
+    `.trim(),
+  },
+  {
+    slug: "dovidka-pro-zaynyatist-polshcha-inozemets",
+    title: "Довідка про зайнятість у Польщі — коли потрібна і як її отримати?",
+    description:
+      "Дізнайтеся, коли іноземцю потрібна довідка про зайнятість, що вона повинна містити і як її отримати від роботодавця.",
+    date: "2029-05-10",
+    lang: "uk",
+    content: `
+<p>Ви працюєте в Польщі та вам попросили <strong>довідку про зайнятість</strong>? Або ви хочете відкрити банківський рахунок, орендувати квартиру чи подовжити візу і вам кажуть, що потрібен такий документ? У цьому посібнику пояснюємо, що таке довідка про зайнятість, коли вона потрібна і як її отримати.</p>
+
+<h2>Що таке довідка про зайнятість?</h2>
+<p>Довідка про зайнятість (по-польськи: <em>zaświadczenie o zatrudnieniu</em>) — це офіційний документ від роботодавця, що підтверджує факт поточного працевлаштування. Не плутайте з <strong>трудовою книжкою/свідоцтвом про роботу</strong> (świadectwo pracy) — яке видається після завершення трудових відносин.</p>
+
+<h2>Коли потрібна довідка про зайнятість?</h2>
+<ul>
+<li><strong>Відкриття банківського рахунку</strong> — більшість польських банків вимагає підтвердження зайнятості</li>
+<li><strong>Оренда квартири</strong> — орендодавець може попросити підтвердження</li>
+<li><strong>Подовження візи або заявка на Картку тимчасового проживання</strong></li>
+<li><strong>Заявка на кредит або позику</strong></li>
+<li><strong>Заявка на виплату 800+</strong> або інші соціальні виплати</li>
+<li><strong>Реєстрація у лікаря</strong> — як підтвердження страхування через ZUS</li>
+<li><strong>Візові заявки до інших країн</strong></li>
+</ul>
+
+<h2>Що повинна містити довідка?</h2>
+<ul>
+<li>Повна назва та адреса роботодавця</li>
+<li>Ім'я та прізвище працівника</li>
+<li>Дата народження або PESEL/номер паспорта</li>
+<li>Тип договору</li>
+<li>Розмір ставки (повна / часткова)</li>
+<li>Дата початку роботи</li>
+<li>Зарплата (якщо вимагається установою)</li>
+<li>Печатка компанії та підпис уповноваженої особи</li>
+<li>Дата видачі</li>
+</ul>
+
+<h2>Як попросити роботодавця про довідку?</h2>
+<ol>
+<li>Зверніться до відділу кадрів або безпосереднього керівника</li>
+<li>Поясніть, з якою метою вам потрібна довідка</li>
+<li>Запитайте, чи потрібен конкретний формат або зміст</li>
+<li>Довідка має бути видана <strong>протягом 7 робочих днів</strong></li>
+</ol>
+
+<h2>Довідка для агенції тимчасової праці</h2>
+<p>Якщо ви працюєте через агенцію тимчасової праці (наприклад, Nexflow), вашим офіційним роботодавцем є <strong>агенція</strong>. Тому довідку про зайнятість потрібно отримати саме від агенції, а не від підприємства, де ви фізично працюєте.</p>
+
+<h2>Підсумок</h2>
+<p>Довідка про зайнятість — простий, але важливий документ у багатьох ситуаціях. Роботодавець (або агенція) зобов'язані її видати на вашу вимогу. Якщо ви працюєте через Nexflow — зверніться до нашого відділу HR, ми допоможемо швидко оформити потрібний документ.</p>
+    `.trim(),
+  },
+  {
+    slug: "spravka-o-trudoustrojstve-polsha-inostranets",
+    title: "Справка о трудоустройстве в Польше — когда нужна и как получить?",
+    description:
+      "Узнайте, когда иностранцу нужна справка о трудоустройстве, что она должна содержать и как её получить от работодателя.",
+    date: "2029-05-17",
+    lang: "ru",
+    content: `
+<p>Вы работаете в Польше и вам попросили <strong>справку о трудоустройстве</strong>? Или вы хотите открыть банковский счёт, снять квартиру или продлить визу и вам говорят, что нужен такой документ? В этом руководстве объясняем, что такое справка о трудоустройстве, когда она нужна и как её получить.</p>
+
+<h2>Что такое справка о трудоустройстве?</h2>
+<p>Справка о трудоустройстве (по-польски: <em>zaświadczenie o zatrudnieniu</em>) — это официальный документ от работодателя, подтверждающий факт текущего трудоустройства. Не путайте с <strong>трудовой книжкой</strong> (świadectwo pracy) — она выдаётся после завершения трудовых отношений.</p>
+
+<h2>Когда нужна справка о трудоустройстве?</h2>
+<ul>
+<li><strong>Открытие банковского счёта</strong> — большинство польских банков требует подтверждения занятости</li>
+<li><strong>Аренда квартиры</strong> — арендодатель может попросить подтверждение</li>
+<li><strong>Продление визы или заявка на Карту временного проживания</strong></li>
+<li><strong>Заявка на кредит или займ</strong></li>
+<li><strong>Заявка на пособие 800+</strong> или другие социальные выплаты</li>
+<li><strong>Регистрация у врача</strong> — как подтверждение страховки через ZUS</li>
+<li><strong>Визовые заявки в другие страны</strong></li>
+</ul>
+
+<h2>Что должна содержать справка?</h2>
+<ul>
+<li>Полное название и адрес работодателя</li>
+<li>Имя и фамилия работника</li>
+<li>Дата рождения или PESEL/номер паспорта</li>
+<li>Тип договора</li>
+<li>Занятость (полная / частичная ставка)</li>
+<li>Дата начала работы</li>
+<li>Зарплата (если требуется учреждением)</li>
+<li>Печать компании и подпись уполномоченного лица</li>
+<li>Дата выдачи</li>
+</ul>
+
+<h2>Как попросить работодателя о справке?</h2>
+<ol>
+<li>Обратитесь в отдел кадров или к непосредственному руководителю</li>
+<li>Объясните, для какой цели нужна справка</li>
+<li>Уточните, нужен ли конкретный формат или содержание</li>
+<li>Справка должна быть выдана <strong>в течение 7 рабочих дней</strong></li>
+</ol>
+
+<h2>Справка при работе через агентство временного труда</h2>
+<p>Если вы работаете через агентство временного труда (например, Nexflow), вашим официальным работодателем является <strong>агентство</strong>. Поэтому справку о трудоустройстве нужно получать именно в агентстве, а не на предприятии, где вы физически работаете.</p>
+
+<h2>Итог</h2>
+<p>Справка о трудоустройстве — простой, но важный документ во многих ситуациях. Работодатель (или агентство) обязаны её выдать по вашему запросу. Если вы работаете через Nexflow — обратитесь в наш отдел кадров, мы поможем быстро оформить нужный документ.</p>
+    `.trim(),
+  },
+  {
+    slug: "employment-certificate-poland-foreign-worker",
+    title: "Employment Certificate in Poland — When You Need It and How to Get One",
+    description:
+      "Find out when foreign workers in Poland need an employment certificate, what it should contain, and how to request one from your employer.",
+    date: "2029-05-24",
+    lang: "en",
+    content: `
+<p>Are you working in Poland and someone has asked you for an <strong>employment certificate</strong>? Or are you trying to open a bank account, rent a flat, or extend your visa, and you have been told you need this document? In this guide we explain what an employment certificate is, when you need one, and how to get it.</p>
+
+<h2>What Is an Employment Certificate?</h2>
+<p>An employment certificate (in Polish: <em>zaświadczenie o zatrudnieniu</em>) is an official document issued by your employer confirming that you are currently employed. Do not confuse it with a <strong>certificate of work history</strong> (świadectwo pracy) — that document is issued when an employment contract ends.</p>
+
+<h2>When Do You Need an Employment Certificate?</h2>
+<p>As a foreign worker in Poland, you may need an employment certificate in the following situations:</p>
+<ul>
+<li><strong>Opening a bank account</strong> — most Polish banks require proof of employment as evidence of financial stability</li>
+<li><strong>Renting a flat</strong> — a landlord or estate agency may ask for confirmation of employment</li>
+<li><strong>Extending a visa or applying for a Temporary Residence Card</strong> — the immigration office requires a current certificate</li>
+<li><strong>Applying for a loan or credit</strong></li>
+<li><strong>Applying for the 800+ child benefit</strong> or other social benefits</li>
+<li><strong>Registering with a doctor (GP)</strong> — as proof of ZUS health insurance coverage</li>
+<li><strong>Visa applications for other countries</strong> (e.g. Germany, UK)</li>
+</ul>
+
+<h2>What Should an Employment Certificate Contain?</h2>
+<p>Although there is no single legally prescribed format, an employment certificate should typically include:</p>
+<ul>
+<li>Full name and address of the employer</li>
+<li>Employee's full name</li>
+<li>Date of birth or PESEL/passport number</li>
+<li>Type of contract (employment contract / civil-law contract)</li>
+<li>Working time (full-time / part-time)</li>
+<li>Employment start date</li>
+<li>Salary (if required by the requesting institution)</li>
+<li>Company stamp and signature of an authorised person</li>
+<li>Date of issue</li>
+</ul>
+
+<h2>How to Request an Employment Certificate</h2>
+<p>In Poland, your employer is <strong>legally obliged</strong> to issue an employment certificate at your request. They cannot refuse without a valid reason. Here is what to do:</p>
+<ol>
+<li>Go to the HR department or your direct supervisor</li>
+<li>Explain why you need the certificate (bank, office, flat rental)</li>
+<li>Ask if a specific format or content is required (e.g. including salary information)</li>
+<li>The certificate should be issued <strong>within 7 working days</strong></li>
+</ol>
+
+<h2>Employment Certificate When Working Through a Staffing Agency</h2>
+<p>If you work through a temporary staffing agency such as Nexflow, your official employer is the <strong>agency</strong>, not the user company where you physically work. This means you need to request the employment certificate from the agency, not from the work site.</p>
+<p>Note: if you work under a civil-law contract (umowa zlecenie), some institutions may require a different certificate confirming you are working under a civil-law contract — check exactly what the institution requires before making your request.</p>
+
+<h2>Employment Certificate vs. Certificate of Work History</h2>
+<table>
+<tr><th>Employment certificate (zaświadczenie o zatrudnieniu)</th><th>Work history certificate (świadectwo pracy)</th></tr>
+<tr><td>Issued during employment</td><td>Issued after the contract ends</td></tr>
+<tr><td>Confirms current employment</td><td>Confirms employment history</td></tr>
+<tr><td>Issued on the employee's request</td><td>Mandatory when the contract ends</td></tr>
+</table>
+
+<h2>Summary</h2>
+<p>An employment certificate is a simple but important document that you may need in many situations — from opening a bank account to obtaining a residence card. Remember: it is your right as an employee, and your employer (or agency) is obliged to issue it on request. If you work through Nexflow, contact our HR team — we can help you get the document you need quickly.</p>
+    `.trim(),
+  },
+  {
+    slug: "dzieci-cudzoziemcow-szkola-polska-zapisy",
+    title: "Dzieci cudzoziemców w polskiej szkole — jak zapisać dziecko i co Ci przysługuje?",
+    description:
+      "Praktyczny poradnik dla rodziców cudzoziemców w Polsce: prawa dzieci do bezpłatnej edukacji, jak zapisać dziecko do szkoły lub przedszkola, jakie dokumenty są potrzebne.",
+    date: "2029-05-31",
+    lang: "pl",
+    content: `
+<p>Jako rodzic pracujący w Polsce masz prawo posłać swoje dzieci do polskiej szkoły publicznej — <strong>bezpłatnie</strong>, niezależnie od statusu prawnego pobytu. Polskie prawo gwarantuje dostęp do edukacji wszystkim dzieciom przebywającym na terytorium Polski. W tym poradniku wyjaśniamy, jak zapisać dziecko do szkoły lub przedszkola, jakie dokumenty są potrzebne i jakie wsparcie mu przysługuje.</p>
+
+<h2>Czy dzieci cudzoziemców mają prawo do nauki w Polsce?</h2>
+<p>Tak — <strong>bezwarunkowo</strong>. Artykuł 165 ustawy Prawo oświatowe gwarantuje, że dzieci cudzoziemców przebywające w Polsce korzystają z warunków do nauki i opieki na zasadach identycznych jak dzieci polskie. Nie ma znaczenia status wizowy rodziców ani czy posiadają oni Kartę Czasowego Pobytu.</p>
+<p>Obowiązek szkolny w Polsce obejmuje dzieci od 7. roku życia (klasa 1 szkoły podstawowej). Dzieci 6-letnie mają obowiązek odbycia rocznego przygotowania przedszkolnego (tzw. zerówki).</p>
+
+<h2>Przedszkole (3-6 lat)</h2>
+<p>Dzieci w wieku 3-5 lat mogą uczęszczać do przedszkola publicznego. Dla dzieci 6-letnich tzw. <strong>zerówka</strong> (roczne przygotowanie przedszkolne) jest obowiązkowa. Aby zapisać dziecko do przedszkola:</p>
+<ol>
+<li>Skontaktuj się z <strong>lokalnym urzędem gminy/miasta</strong> lub bezpośrednio z wybranym przedszkolem</li>
+<li>Zapytaj o nabór (zazwyczaj marzec-kwiecień na kolejny rok szkolny)</li>
+<li>Złóż wniosek o przyjęcie</li>
+</ol>
+<p>Przedszkole publiczne dla dzieci 6-letnich jest bezpłatne. Dla młodszych dzieci opłata za godziny powyżej 5 godzin bezpłatnych wynosi zazwyczaj 1-2 zł/godz.</p>
+
+<h2>Szkoła podstawowa (7-15 lat)</h2>
+<p>Dziecko należy zapisać do szkoły podstawowej w rejonizacji (obwodzie) odpowiadającej miejscu zamieszkania. Oto jak to zrobić:</p>
+<ol>
+<li>Znajdź szkołę rejonową — możesz zapytać w urzędzie gminy lub użyć mapy szkół na stronie organu prowadzącego</li>
+<li>Skontaktuj się bezpośrednio ze szkołą i umów się na spotkanie z sekretariatem</li>
+<li>Złóż wniosek o przyjęcie dziecka</li>
+</ol>
+
+<h2>Jakie dokumenty są potrzebne?</h2>
+<p>Wymagania mogą się różnić w zależności od szkoły i gminy, ale zazwyczaj potrzebne są:</p>
+<ul>
+<li>Akt urodzenia dziecka (i jego tłumaczenie — jeśli w języku innym niż polski)</li>
+<li>Dokumenty tożsamości rodziców (paszport, karta pobytu)</li>
+<li>PESEL dziecka (jeśli je posiada)</li>
+<li>Zaświadczenie o szczepieniach (szczepionki zalecane, nie obowiązkowe)</li>
+<li>Dokumentacja z poprzedniej szkoły (świadectwo, opinia) — jeśli dziecko wcześniej chodziło do szkoły; jeśli brak, szkoła może wyznaczyć rozmowę kwalifikacyjną</li>
+<li>Potwierdzenie miejsca zamieszkania (umowa najmu, zaświadczenie od pracodawcy z adresem)</li>
+</ul>
+
+<h2>Jakie wsparcie językowe przysługuje dziecku?</h2>
+<p>Polskie prawo oświatowe przewiduje, że dzieci cudzoziemców, które nie znają języka polskiego lub znają go słabo, mają prawo do:</p>
+<ul>
+<li><strong>Dodatkowych lekcji języka polskiego</strong> — szkoła jest zobowiązana zapewnić min. 2 godziny tygodniowo bezpłatnego nauczania języka polskiego</li>
+<li><strong>Pomocy asystenta kulturowego</strong> lub nauczyciela wspomagającego (jeśli szkoła ma takie zasoby)</li>
+<li><strong>Wyrównania braków edukacyjnych</strong> — dodatkowych zajęć z przedmiotów szkolnych</li>
+</ul>
+<p>Wiele szkół w dużych miastach (Warszawa, Wrocław, Poznań, Trójmiasto) ma już doświadczenie w pracy z uczniami ukraińskojęzycznymi i posiada nauczycieli wspierających.</p>
+
+<h2>Jak przebiega adaptacja dziecka?</h2>
+<p>Pierwsze tygodnie w nowej szkole mogą być trudne, zwłaszcza jeśli dziecko nie mówi po polsku. Kilka praktycznych wskazówek:</p>
+<ul>
+<li>Porozmawiaj z wychowawcą klasy — wyjaśnij sytuację dziecka</li>
+<li>Zapytaj, czy szkoła organizuje lekcje języka polskiego dla cudzoziemców</li>
+<li>Sprawdź, czy istnieje organizacja NGO lub centrum wolontariatu oferujące korepetycje dla dzieci cudzoziemców w Twojej okolicy</li>
+<li>Zachęcaj dziecko do kontaktów z rówieśnikami — dzieci uczą się języka bardzo szybko w środowisku rówieśniczym</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Polskie szkoły i przedszkola są otwarte dla dzieci cudzoziemców — to prawo, nie przywilej. Zapis jest prosty, a szkoła jest zobowiązana zapewnić wsparcie językowe. Jeśli potrzebujesz pomocy z formalnościami lub tłumaczeniem dokumentów, zapytaj w dziale HR Nexflow — postaramy się pokierować Cię do odpowiednich zasobów w Twojej okolicy.</p>
+    `.trim(),
+  },
+  {
+    slug: "dity-inozemtsiv-polska-shkola-zapys",
+    title: "Діти іноземців у польській школі — як записати дитину і які права вона має?",
+    description:
+      "Практичний посібник для батьків-іноземців у Польщі: права дітей на безкоштовну освіту, як записати дитину до школи або дитсадка.",
+    date: "2029-06-07",
+    lang: "uk",
+    content: `
+<p>Як батько чи мати, що працює в Польщі, ви маєте право віддати своїх дітей до польської державної школи — <strong>безкоштовно</strong>, незалежно від статусу перебування. Польське законодавство гарантує доступ до освіти всім дітям, що перебувають на території Польщі.</p>
+
+<h2>Чи мають право діти іноземців навчатися в Польщі?</h2>
+<p>Так — <strong>беззастережно</strong>. Закон про освіту гарантує, що діти іноземців, які перебувають у Польщі, користуються умовами для навчання на тих же засадах, що і польські діти. Статус візи батьків не має значення.</p>
+<p>Обов'язкова шкільна освіта в Польщі розпочинається з 7 років (1 клас початкової школи). Діти 6 років зобов'язані пройти річну підготовку до школи (так звана «нульовка»/zerówka).</p>
+
+<h2>Дитячий садок (3-6 років)</h2>
+<p>Діти 3-5 років можуть відвідувати державний дитячий садок. Для 6-річних дітей «нульовка» є обов'язковою. Щоб записати дитину до дитсадка:</p>
+<ol>
+<li>Зверніться до місцевого самоврядування або безпосередньо до обраного дитячого садка</li>
+<li>Запитайте про набір (зазвичай березень-квітень на наступний навчальний рік)</li>
+<li>Подайте заяву про прийняття</li>
+</ol>
+
+<h2>Початкова школа (7-15 років)</h2>
+<p>Дитину потрібно записати до школи у своєму районі (obwód szkolny). Як це зробити:</p>
+<ol>
+<li>Знайдіть районну школу — запитайте в місцевому самоврядуванні</li>
+<li>Зверніться безпосередньо до школи та домовтеся про зустріч</li>
+<li>Подайте заяву про прийняття дитини</li>
+</ol>
+
+<h2>Які документи потрібні?</h2>
+<ul>
+<li>Свідоцтво про народження дитини (з перекладом, якщо не польською)</li>
+<li>Документи батьків (паспорт, картка проживання)</li>
+<li>PESEL дитини (якщо є)</li>
+<li>Документи про щеплення</li>
+<li>Документи з попередньої школи (якщо дитина раніше навчалася)</li>
+<li>Підтвердження місця проживання</li>
+</ul>
+
+<h2>Яка мовна підтримка належить дитині?</h2>
+<ul>
+<li><strong>Додаткові уроки польської мови</strong> — школа зобов'язана забезпечити мін. 2 год/тиж безкоштовно</li>
+<li><strong>Допомога культурного асистента</strong> або підтримуючого педагога</li>
+<li><strong>Додаткові заняття для вирівнювання прогалин</strong> у навчанні</li>
+</ul>
+<p>Багато шкіл у великих містах (Варшава, Вроцлав, Познань) вже мають досвід роботи з україномовними учнями.</p>
+
+<h2>Підсумок</h2>
+<p>Польські школи відкриті для дітей іноземців — це право, а не привілей. Запис простий, а школа зобов'язана надати мовну підтримку. Якщо потрібна допомога з документами або перекладом — зверніться до відділу HR Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "deti-inostrantsev-polskaya-shkola-zapys",
+    title: "Дети иностранцев в польской школе — как записать ребёнка и какие права у него есть?",
+    description:
+      "Практическое руководство для родителей-иностранцев в Польше: права детей на бесплатное образование, как записать ребёнка в школу или детский сад.",
+    date: "2029-06-14",
+    lang: "ru",
+    content: `
+<p>Как родитель, работающий в Польше, вы имеете право отдать своих детей в польскую государственную школу — <strong>бесплатно</strong>, независимо от статуса пребывания. Польское законодательство гарантирует доступ к образованию всем детям, находящимся на территории Польши.</p>
+
+<h2>Имеют ли дети иностранцев право учиться в Польше?</h2>
+<p>Да — <strong>безоговорочно</strong>. Закон об образовании гарантирует, что дети иностранцев, находящихся в Польше, имеют право на обучение на тех же условиях, что и польские дети. Визовый статус родителей значения не имеет.</p>
+<p>Обязательное школьное образование в Польше начинается с 7 лет (1-й класс начальной школы). Дети 6 лет обязаны пройти годичную подготовку к школе (так называемая «нулёвка»/zerówka).</p>
+
+<h2>Детский сад (3-6 лет)</h2>
+<p>Дети 3-5 лет могут посещать государственный детский сад. Для 6-летних детей «нулёвка» обязательна. Чтобы записать ребёнка в детский сад:</p>
+<ol>
+<li>Обратитесь в местное самоуправление или непосредственно в выбранный детский сад</li>
+<li>Уточните сроки набора (обычно март-апрель на следующий учебный год)</li>
+<li>Подайте заявление о принятии</li>
+</ol>
+
+<h2>Начальная школа (7-15 лет)</h2>
+<p>Ребёнка нужно записать в школу по месту жительства (обучение по районному принципу). Как это сделать:</p>
+<ol>
+<li>Найдите районную школу — уточните в местном самоуправлении</li>
+<li>Свяжитесь непосредственно со школой и договоритесь о встрече с секретарём</li>
+<li>Подайте заявление о принятии ребёнка</li>
+</ol>
+
+<h2>Какие документы нужны?</h2>
+<ul>
+<li>Свидетельство о рождении ребёнка (с переводом, если не на польском)</li>
+<li>Документы родителей (паспорт, карта проживания)</li>
+<li>PESEL ребёнка (если есть)</li>
+<li>Документы о прививках</li>
+<li>Документы из предыдущей школы (если ребёнок раньше учился)</li>
+<li>Подтверждение места жительства</li>
+</ul>
+
+<h2>Какая языковая поддержка положена ребёнку?</h2>
+<ul>
+<li><strong>Дополнительные уроки польского языка</strong> — школа обязана обеспечить мин. 2 ч/нед бесплатно</li>
+<li><strong>Помощь культурного ассистента</strong> или педагога поддержки</li>
+<li><strong>Дополнительные занятия для ликвидации пробелов</strong> в учёбе</li>
+</ul>
+<p>Многие школы в крупных городах (Варшава, Вроцлав, Познань) уже имеют опыт работы с русско- и украиноязычными учениками.</p>
+
+<h2>Итог</h2>
+<p>Польские школы открыты для детей иностранцев — это право, а не привилегия. Запись проста, а школа обязана обеспечить языковую поддержку. Если нужна помощь с документами или переводом — обратитесь в отдел кадров Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "children-foreign-workers-polish-school-enrollment",
+    title: "Children of Foreign Workers in Polish Schools — How to Enrol and What You Are Entitled To",
+    description:
+      "Practical guide for foreign parents in Poland: children's right to free education, how to enrol in a school or nursery, what documents are needed, and what language support is provided.",
+    date: "2029-06-21",
+    lang: "en",
+    content: `
+<p>As a parent working in Poland, you have the right to send your children to a Polish state school — <strong>free of charge</strong>, regardless of your legal residence status. Polish law guarantees access to education for all children present on Polish territory. In this guide we explain how to enrol your child in a school or nursery, what documents are needed, and what support your child is entitled to.</p>
+
+<h2>Do Children of Foreign Nationals Have the Right to Study in Poland?</h2>
+<p>Yes — <strong>unconditionally</strong>. Article 165 of the Polish Education Law Act guarantees that children of foreign nationals residing in Poland have access to education on the same terms as Polish children. The visa status of the parents is irrelevant.</p>
+<p>Compulsory schooling in Poland begins at age 7 (Year 1 of primary school). Children aged 6 are required to attend a one-year preschool preparation programme (zerówka).</p>
+
+<h2>Nursery and Preschool (Ages 3-6)</h2>
+<p>Children aged 3-5 can attend a state nursery (przedszkole). For 6-year-olds, the preschool preparation year (zerówka) is compulsory. To enrol your child in a nursery:</p>
+<ol>
+<li>Contact your local municipal office (gmina/urząd miejski) or the nursery directly</li>
+<li>Ask about the enrolment period (usually March-April for the next academic year)</li>
+<li>Submit an enrolment application</li>
+</ol>
+<p>The preschool year for 6-year-olds is free. For younger children, there is usually a small fee for hours beyond the 5 free hours per day (approx. 1-2 PLN per hour).</p>
+
+<h2>Primary School (Ages 7-15)</h2>
+<p>Your child should be enrolled in the primary school assigned to your catchment area (obwód szkolny). Here is what to do:</p>
+<ol>
+<li>Find the catchment area school — ask at your local municipal office or check the school map online</li>
+<li>Contact the school directly and arrange a meeting with the school secretary</li>
+<li>Submit an enrolment application</li>
+</ol>
+
+<h2>What Documents Are Required?</h2>
+<p>Requirements may vary by school and municipality, but the following are typically needed:</p>
+<ul>
+<li>Child's birth certificate (with a certified translation if not in Polish)</li>
+<li>Parents' identity documents (passport, residence card)</li>
+<li>Child's PESEL number (if they have one)</li>
+<li>Vaccination records</li>
+<li>School records from the previous school (report card, teacher's assessment) — if the child has previously attended school; if not available, the school may arrange an assessment interview</li>
+<li>Proof of address (rental contract, employer's letter with address)</li>
+</ul>
+
+<h2>What Language Support Is Your Child Entitled To?</h2>
+<p>Polish education law provides that children who do not speak Polish (or speak it only to a limited extent) are entitled to:</p>
+<ul>
+<li><strong>Additional Polish language lessons</strong> — the school is required to provide a minimum of 2 hours per week free of charge</li>
+<li><strong>Support from a cultural assistant</strong> or integration teacher (where available)</li>
+<li><strong>Supplementary lessons</strong> to address gaps in core subjects</li>
+</ul>
+<p>Many schools in major cities (Warsaw, Wrocław, Poznań, the Tri-City) already have experience working with Ukrainian- and Russian-speaking pupils and have dedicated support teachers.</p>
+
+<h2>Tips for a Smooth Start</h2>
+<ul>
+<li>Talk to the class teacher — explain your child's situation</li>
+<li>Ask whether the school has Polish language classes for foreign pupils</li>
+<li>Check whether there are NGOs or volunteer centres offering tutoring for foreign children in your area (e.g. Caritas, Fundacja Ocalenie)</li>
+<li>Encourage your child to interact with classmates — children pick up language very quickly through peer contact</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Polish schools are open to children of foreign nationals — it is a right, not a privilege. Enrolment is straightforward, and the school is obliged to provide language support. If you need help with paperwork or document translation, ask the HR team at Nexflow — we can direct you to the right resources in your area.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
