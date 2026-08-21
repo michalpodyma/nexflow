@@ -12811,7 +12811,7 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
     `.trim(),
   },
   {
-    slug: "employment-certificate-poland-foreign-worker",
+    slug: "swiadectwo-pracy-poland-foreign-worker",
     title: "Polish Employment Certificate (Świadectwo Pracy): What It Is and How to Get It as a Foreign Worker",
     description:
       "Complete guide for foreign workers — what is świadectwo pracy, when must the employer issue it, what does it contain, and what to do if you do not receive it.",
@@ -15098,7 +15098,7 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
     `.trim(),
   },
   {
-    slug: "dity-inozemtsiv-polska-shkola-zapys",
+    slug: "dity-inozemtsiv-polska-szkola-zapys",
     title: "Діти іноземців у польській школі — як записати дитину і які права вона має?",
     description:
       "Практичний посібник для батьків-іноземців у Польщі: права дітей на безкоштовну освіту, як записати дитину до школи або дитсадка.",
