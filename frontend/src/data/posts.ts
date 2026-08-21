@@ -13144,6 +13144,662 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <h2>Summary</h2>
 <p>Umowa zlecenie is a legal, common form of work arrangement in Poland — especially in temp staffing. While it differs from an employment contract, it guarantees minimum pay, health insurance, and — if you opt in — sick pay protection. Read your contract before signing, ask questions, and know your rights.</p>
     `.trim(),
+  },
+  {
+    slug: "zasilek-dla-bezrobotnych-cudzoziemiec-polska",
+    title: "Zasiłek dla bezrobotnych w Polsce — co przysługuje cudzoziemcowi po zakończeniu umowy",
+    description:
+      "Skończyła się umowa z agencją? Dowiedz się, czy przysługuje Ci zasiłek dla bezrobotnych, jak się zarejestrować w Urzędzie Pracy i jakie dokumenty przygotować.",
+    date: "2028-10-19",
+    lang: "pl",
+    content: `
+<p>Kiedy kończy się umowa z agencją pracy tymczasowej, wielu cudzoziemców nie wie, że może mieć prawo do zasiłku dla bezrobotnych. W Polsce zasiłek przysługuje nie tylko obywatelom polskim — mogą z niego skorzystać pracownicy z Ukrainy, Rosji i innych krajów spoza UE, jeśli spełniają warunki.</p>
+
+<h2>Kto ma prawo do zasiłku dla bezrobotnych?</h2>
+<p>Prawo do zasiłku mają osoby, które:</p>
+<ul>
+  <li>Posiadają legalne prawo pobytu i prawo do pracy w Polsce (karta czasowego pobytu, zezwolenie na pracę lub oświadczenie o powierzeniu pracy)</li>
+  <li>Przepracowały co najmniej <strong>365 dni</strong> w ciągu ostatnich 18 miesięcy na umowie, od której odprowadzano składki na <strong>Fundusz Pracy</strong></li>
+  <li>Nie posiadają innego źródła dochodu</li>
+  <li>Zarejestrowały się w Urzędzie Pracy jako bezrobotne</li>
+</ul>
+<p><strong>Czy umowa zlecenie uprawnia do zasiłku?</strong> Tak — jeśli wynagrodzenie wynosiło co najmniej minimalne wynagrodzenie za pracę (w 2026 roku: 4666 zł brutto miesięcznie lub 30,50 zł brutto za godzinę), agencja odprowadzała składki na Fundusz Pracy i takie okresy liczą się do zasiłku.</p>
+
+<h2>Ile wynosi zasiłek dla bezrobotnych w 2026 roku?</h2>
+<ul>
+  <li><strong>Pierwsze 90 dni:</strong> 80% podstawy — ok. 1 602 zł netto miesięcznie</li>
+  <li><strong>Po 90 dniach:</strong> 80% podstawy obniżonej — ok. 1 260 zł netto miesięcznie</li>
+</ul>
+<p>Zasiłek wypłacany jest przez maksymalnie <strong>6 miesięcy</strong> (w powiatach o stopie bezrobocia powyżej 150% średniej krajowej — do 12 miesięcy). Kwoty są waloryzowane raz w roku (od 1 czerwca).</p>
+
+<h2>Jak się zarejestrować w Urzędzie Pracy?</h2>
+<p>Rejestrację bezrobotnego można dokonać na dwa sposoby:</p>
+<ol>
+  <li><strong>Online</strong> — przez portal <a href="https://praca.gov.pl">praca.gov.pl</a> (wymagany Profil Zaufany lub e-dowód)</li>
+  <li><strong>Osobiście</strong> — w Powiatowym Urzędzie Pracy (PUP) właściwym dla miejsca zameldowania lub zamieszkania</li>
+</ol>
+<p><strong>Ważne:</strong> Zarejestruj się w ciągu <strong>7 dni</strong> od zakończenia pracy. Za każdy dzień opóźnienia tracisz prawo do zasiłku za ten dzień.</p>
+
+<h2>Jakie dokumenty zabrać do Urzędu Pracy?</h2>
+<ul>
+  <li>Paszport i karta czasowego pobytu (lub inne zezwolenie)</li>
+  <li><strong>Świadectwo pracy</strong> — obowiązkowy dokument od pracodawcy/agencji potwierdzający okresy zatrudnienia (agencja musi je wydać w dniu zakończenia umowy lub w ciągu 7 dni)</li>
+  <li>Zaświadczenie o wynagrodzeniu (do obliczenia zasiłku)</li>
+  <li>Numer PESEL</li>
+  <li>Numer rachunku bankowego w Polsce</li>
+  <li>Dyplomy/świadectwa wykształcenia (jeśli urząd poprosi)</li>
+</ul>
+
+<h2>Ubezpieczenie zdrowotne podczas bezrobocia</h2>
+<p>Po rejestracji w Urzędzie Pracy automatycznie zostajesz objęty <strong>ubezpieczeniem zdrowotnym NFZ</strong> — urząd zgłasza Cię do ZUS. Masz prawo do bezpłatnej opieki lekarskiej przez cały okres pobierania zasiłku, a nawet przez 30 dni po jego wygaśnięciu.</p>
+
+<h2>Obowiązki bezrobotnego</h2>
+<p>Będąc zarejestrowanym bezrobotnym, musisz:</p>
+<ul>
+  <li>Stawiać się na wyznaczone wizyty w urzędzie (co 30–90 dni, zależnie od urzędu)</li>
+  <li>Aktywnie poszukiwać pracy i reagować na oferty wskazane przez urząd</li>
+  <li>Niezwłocznie informować urząd o podjęciu pracy, wyjździe za granicę lub zmianie sytuacji</li>
+</ul>
+<p>Niestawienie się bez usprawiedliwienia powoduje skreślenie z rejestru i utratę zasiłku.</p>
+
+<h2>Kiedy zasiłek nie przysługuje?</h2>
+<p>Zasiłku nie dostaniesz, jeśli:</p>
+<ul>
+  <li>Umowa została rozwiązana z Twojej winy (zwolnienie dyscyplinarne)</li>
+  <li>Sam rozwiązałeś umowę bez uzasadnionej przyczyny</li>
+  <li>Wynagrodzenie było niższe od minimalnego i nie odprowadzano składek na Fundusz Pracy</li>
+  <li>Nie przepracowałeś 365 dni ze składkami FP w ostatnich 18 miesiącach</li>
+</ul>
+
+<h2>Jak może pomóc Nexflow?</h2>
+<p>Jeśli Twoja umowa z Nexflow dobiegła końca, skontaktuj się z nami — wydamy Ci świadectwo pracy w terminie, wyjaśnimy Twoje uprawnienia i pomożemy przygotować dokumenty do Urzędu Pracy. Rejestracja w urzędzie to Twoje prawo — korzystaj z systemu, do którego przez cały czas pracy odprowadzałeś składki.</p>
+    `.trim(),
+  },
+  {
+    slug: "dopomoga-z-bezrobitnytsya-inozemets-polshcha",
+    title: "Допомога по безробіттю в Польщі — що належить іноземцю після закінчення договору",
+    description:
+      "Закінчився договір з агенцією? Дізнайтеся, чи маєте ви право на допомогу по безробіттю в Польщі, як зареєструватися та які документи підготувати.",
+    date: "2028-10-26",
+    lang: "uk",
+    content: `
+<p>Коли закінчується договір з агенцією тимчасової праці, багато іноземців не знають, що можуть мати право на допомогу по безробіттю. У Польщі допомога надається не лише польським громадянам — нею можуть скористатися працівники з України та інших країн за межами ЄС, якщо вони відповідають певним умовам.</p>
+
+<h2>Хто має право на допомогу по безробіттю?</h2>
+<p>Право на допомогу мають особи, які:</p>
+<ul>
+  <li>Мають законне право перебування та право на роботу в Польщі (карта тимчасового проживання, дозвіл на роботу або заява роботодавця)</li>
+  <li>Пропрацювали щонайменше <strong>365 днів</strong> протягом останніх 18 місяців за договором, з якого сплачувалися внески до <strong>Фонду праці</strong></li>
+  <li>Не мають іншого джерела доходу</li>
+  <li>Зареєструвалися в Центрі зайнятості (Urząd Pracy) як безробітні</li>
+</ul>
+<p><strong>Чи дає умова злєцення право на допомогу?</strong> Так — якщо оплата праці становила щонайменше мінімальну заробітну плату (у 2026 році: 4666 злотих брутто на місяць або 30,50 злотих брутто за годину), агенція сплачувала внески до Фонду праці, і ці періоди зараховуються до стажу для допомоги.</p>
+
+<h2>Який розмір допомоги по безробіттю у 2026 році?</h2>
+<ul>
+  <li><strong>Перші 90 днів:</strong> близько 1 602 злотих нетто на місяць</li>
+  <li><strong>Після 90 днів:</strong> близько 1 260 злотих нетто на місяць</li>
+</ul>
+<p>Допомога виплачується максимум <strong>6 місяців</strong> (у районах з безробіттям понад 150% від середнього по країні — до 12 місяців).</p>
+
+<h2>Як зареєструватися в Центрі зайнятості?</h2>
+<ol>
+  <li><strong>Онлайн</strong> — через портал <a href="https://praca.gov.pl">praca.gov.pl</a> (потрібен Профіль Довіри або е-посвідчення)</li>
+  <li><strong>Особисто</strong> — у районному центрі зайнятості (PUP) за місцем реєстрації або проживання</li>
+</ol>
+<p><strong>Важливо:</strong> Зареєструйтеся протягом <strong>7 днів</strong> після закінчення роботи. За кожен день затримки ви втрачаєте право на допомогу за цей день.</p>
+
+<h2>Які документи потрібні?</h2>
+<ul>
+  <li>Паспорт та карта тимчасового проживання (або інший дозвіл)</li>
+  <li><strong>Свідоцтво про роботу (świadectwo pracy)</strong> — обов'язковий документ від роботодавця/агенції</li>
+  <li>Довідка про заробітну плату (для розрахунку допомоги)</li>
+  <li>Номер PESEL</li>
+  <li>Номер банківського рахунку в Польщі</li>
+</ul>
+
+<h2>Медичне страхування під час безробіття</h2>
+<p>Після реєстрації в Центрі зайнятості ви автоматично отримуєте <strong>медичне страхування NFZ</strong> — центр реєструє вас у ZUS. Ви маєте право на безкоштовну медичну допомогу протягом усього терміну отримання допомоги та ще 30 днів після її закінчення.</p>
+
+<h2>Коли допомога не надається?</h2>
+<ul>
+  <li>Якщо договір було розірвано з вашої вини (дисциплінарне звільнення)</li>
+  <li>Якщо ви самі розірвали договір без поважних причин</li>
+  <li>Якщо не було пропрацьовано 365 днів з внесками до Фонду праці</li>
+</ul>
+
+<h2>Як може допомогти Nexflow?</h2>
+<p>Якщо ваш договір з Nexflow закінчився, зверніться до нас — ми своєчасно видамо свідоцтво про роботу, пояснимо ваші права та допоможемо підготувати документи для Центру зайнятості. Реєстрація — це ваше право, скористайтеся системою, до якої ви весь час сплачували внески.</p>
+    `.trim(),
+  },
+  {
+    slug: "posobie-po-bezrabotitse-inostranets-polsha",
+    title: "Пособие по безработице в Польше — что полагается иностранцу после окончания договора",
+    description:
+      "Закончился договор с агентством? Узнайте, имеете ли вы право на пособие по безработице в Польше, как зарегистрироваться и какие документы подготовить.",
+    date: "2028-11-02",
+    lang: "ru",
+    content: `
+<p>Когда заканчивается договор с агентством временного труда, многие иностранцы не знают, что могут иметь право на пособие по безработице. В Польше пособие предоставляется не только польским гражданам — им могут воспользоваться работники из России, Украины и других стран за пределами ЕС, если они соответствуют определённым условиям.</p>
+
+<h2>Кто имеет право на пособие по безработице?</h2>
+<p>Право на пособие имеют лица, которые:</p>
+<ul>
+  <li>Имеют законное право пребывания и право на работу в Польше (карта временного проживания, разрешение на работу или заявление работодателя)</li>
+  <li>Проработали не менее <strong>365 дней</strong> за последние 18 месяцев по договору, с которого уплачивались взносы в <strong>Фонд труда</strong></li>
+  <li>Не имеют другого источника дохода</li>
+  <li>Зарегистрировались в Центре занятости (Urząd Pracy) в качестве безработных</li>
+</ul>
+<p><strong>Даёт ли умова злецения право на пособие?</strong> Да — если оплата труда составляла не менее минимальной заработной платы (в 2026 году: 4666 злотых брутто в месяц или 30,50 злотых брутто в час), агентство уплачивало взносы в Фонд труда, и такие периоды засчитываются в стаж для пособия.</p>
+
+<h2>Каков размер пособия по безработице в 2026 году?</h2>
+<ul>
+  <li><strong>Первые 90 дней:</strong> около 1 602 злотых нетто в месяц</li>
+  <li><strong>После 90 дней:</strong> около 1 260 злотых нетто в месяц</li>
+</ul>
+<p>Пособие выплачивается максимум <strong>6 месяцев</strong> (в районах с безработицей выше 150% от среднего по стране — до 12 месяцев).</p>
+
+<h2>Как зарегистрироваться в Центре занятости?</h2>
+<ol>
+  <li><strong>Онлайн</strong> — через портал <a href="https://praca.gov.pl">praca.gov.pl</a> (нужен Профиль Доверия или электронное удостоверение)</li>
+  <li><strong>Лично</strong> — в районном центре занятости (PUP) по месту регистрации или проживания</li>
+</ol>
+<p><strong>Важно:</strong> Зарегистрируйтесь в течение <strong>7 дней</strong> после окончания работы. За каждый день опоздания вы теряете право на пособие за этот день.</p>
+
+<h2>Какие документы нужны?</h2>
+<ul>
+  <li>Паспорт и карта временного проживания (или иное разрешение)</li>
+  <li><strong>Свидетельство о работе (świadectwo pracy)</strong> — обязательный документ от работодателя/агентства</li>
+  <li>Справка о заработной плате (для расчёта пособия)</li>
+  <li>Номер PESEL</li>
+  <li>Номер банковского счёта в Польше</li>
+</ul>
+
+<h2>Медицинская страховка в период безработицы</h2>
+<p>После регистрации в Центре занятости вы автоматически получаете <strong>медицинскую страховку NFZ</strong> — центр регистрирует вас в ZUS. Вы имеете право на бесплатную медицинскую помощь в течение всего периода получения пособия и ещё 30 дней после его окончания.</p>
+
+<h2>Когда пособие не предоставляется?</h2>
+<ul>
+  <li>Если договор был расторгнут по вашей вине (дисциплинарное увольнение)</li>
+  <li>Если вы сами расторгли договор без уважительных причин</li>
+  <li>Если не было отработано 365 дней со взносами в Фонд труда</li>
+</ul>
+
+<h2>Как может помочь Nexflow?</h2>
+<p>Если ваш договор с Nexflow закончился, обратитесь к нам — мы своевременно выдадим свидетельство о работе, объясним ваши права и поможем подготовить документы для Центра занятости. Регистрация — это ваше право, воспользуйтесь системой, в которую вы всё время работы платили взносы.</p>
+    `.trim(),
+  },
+  {
+    slug: "unemployment-benefit-foreign-worker-poland",
+    title: "Unemployment Benefit in Poland — What a Foreign Worker Is Entitled to After Contract Ends",
+    description:
+      "Your temp contract just ended? Find out whether you qualify for unemployment benefit in Poland, how to register at the Employment Office, and what documents you need.",
+    date: "2028-11-09",
+    lang: "en",
+    content: `
+<p>When a temporary agency contract ends, many foreign workers don't realise they may be entitled to unemployment benefit. In Poland, this benefit is not reserved for Polish citizens — workers from Ukraine, Russia, and other non-EU countries can claim it too, provided they meet the conditions.</p>
+
+<h2>Who Is Entitled to Unemployment Benefit?</h2>
+<p>You qualify for unemployment benefit if you:</p>
+<ul>
+  <li>Have a legal right to reside and work in Poland (temporary residence card, work permit, or employer's oświadczenie statement)</li>
+  <li>Have worked for at least <strong>365 days</strong> in the last 18 months under a contract from which <strong>Labour Fund (Fundusz Pracy)</strong> contributions were paid</li>
+  <li>Have no other source of income</li>
+  <li>Register at the local Employment Office (Urząd Pracy) as unemployed</li>
+</ul>
+<p><strong>Does an umowa zlecenie count?</strong> Yes — if your pay was at least the minimum wage (in 2026: 4,666 PLN gross/month or 30.50 PLN gross/hour), the agency was paying Labour Fund contributions, and those periods count towards the 365-day requirement.</p>
+
+<h2>How Much Is the Benefit in 2026?</h2>
+<ul>
+  <li><strong>First 90 days:</strong> approx. 1,602 PLN net per month</li>
+  <li><strong>After 90 days:</strong> approx. 1,260 PLN net per month</li>
+</ul>
+<p>The benefit is paid for a maximum of <strong>6 months</strong> (up to 12 months in areas with unemployment above 150% of the national average). Amounts are updated annually every 1 June.</p>
+
+<h2>How to Register at the Employment Office</h2>
+<p>You can register in two ways:</p>
+<ol>
+  <li><strong>Online</strong> — via the portal <a href="https://praca.gov.pl">praca.gov.pl</a> (Profil Zaufany or e-ID required)</li>
+  <li><strong>In person</strong> — at the district Employment Office (PUP) nearest to your place of residence or registered address</li>
+</ol>
+<p><strong>Register within 7 days</strong> of your last working day. Each day of delay means one day of benefit forfeited.</p>
+
+<h2>Documents You Need</h2>
+<ul>
+  <li>Passport and temporary residence card (or other valid permit)</li>
+  <li><strong>Employment certificate (świadectwo pracy)</strong> — mandatory document from your employer or agency, required to prove your work history</li>
+  <li>Wage statement (for benefit calculation)</li>
+  <li>PESEL number</li>
+  <li>Polish bank account number (benefit is paid by transfer)</li>
+</ul>
+
+<h2>Health Insurance While Unemployed</h2>
+<p>Once registered, the Employment Office automatically enrolls you in <strong>NFZ health insurance</strong> — it reports you to ZUS. You have full access to public healthcare throughout the benefit period and for 30 days after it ends, at no extra cost.</p>
+
+<h2>Your Obligations as a Registered Jobseeker</h2>
+<ul>
+  <li>Attend scheduled appointments at the office (every 30–90 days)</li>
+  <li>Actively look for work and respond to job offers the office refers you to</li>
+  <li>Immediately inform the office if you start working, leave Poland, or your situation changes</li>
+</ul>
+<p>Failing to attend without an excuse results in removal from the register and loss of benefit.</p>
+
+<h2>When Is Benefit Not Available?</h2>
+<ul>
+  <li>If your contract was terminated due to your misconduct (disciplinary dismissal)</li>
+  <li>If you resigned without a valid reason</li>
+  <li>If Labour Fund contributions were not paid (e.g. pay was below minimum wage)</li>
+  <li>If you have not accumulated the required 365 days of eligible employment</li>
+</ul>
+
+<h2>How Nexflow Can Help</h2>
+<p>If your Nexflow assignment has ended, contact us — we will issue your świadectwo pracy on time, explain your entitlements, and help you prepare the documents needed to register. Claiming unemployment benefit is your legal right: you have been paying contributions throughout your employment, so make use of the system.</p>
+    `.trim(),
+  },
+  {
+    slug: "inspekcja-pracy-skarga-pracodawca-cudzoziemiec-polska",
+    title: "Państwowa Inspekcja Pracy (PIP) — jak złożyć skargę na pracodawcę w Polsce",
+    description:
+      "Pracodawca łamie Twoje prawa? Dowiedz się, jak złożyć skargę do Państwowej Inspekcji Pracy — anonimowo, bezpłatnie, w języku ukraińskim lub rosyjskim.",
+    date: "2028-11-16",
+    lang: "pl",
+    content: `
+<p>Pracodawca nie wypłacił wynagrodzenia na czas? Zmusza do pracy w niebezpiecznych warunkach? Nie zapewnił odpoczynku między zmianami? Masz prawo złożyć skargę do <strong>Państwowej Inspekcji Pracy (PIP)</strong> — niezależnie od tego, czy jesteś obywatelem polskim, czy pracujesz w Polsce na zezwoleniu lub karcie pobytu.</p>
+
+<h2>Czym jest Państwowa Inspekcja Pracy?</h2>
+<p>PIP to państwowy urząd kontrolny nadzorujący przestrzeganie prawa pracy i przepisów BHP. Inspektorzy PIP mają prawo wejść do każdego zakładu pracy bez zapowiedzi, żądać dokumentów i nakładać kary na pracodawców. Dla pracownika usługi PIP są całkowicie <strong>bezpłatne</strong>.</p>
+
+<h2>W jakich sprawach możesz złożyć skargę?</h2>
+<ul>
+  <li>Brak wypłaty wynagrodzenia lub wypłata niższa niż uzgodniona / minimalna</li>
+  <li>Brak umowy na piśmie lub nieprawidłowe zapisy w umowie</li>
+  <li>Nielegalne zatrudnienie (praca bez umowy, „na czarno")</li>
+  <li>Naruszenie przepisów BHP (brak środków ochrony, niebezpieczne warunki pracy)</li>
+  <li>Nieprawidłowy czas pracy (brak odpoczynku, nadmiar nadgodzin bez zapłaty)</li>
+  <li>Dyskryminacja lub mobbing</li>
+  <li>Brak wydania świadectwa pracy po zakończeniu umowy</li>
+</ul>
+
+<h2>Jak złożyć skargę do PIP?</h2>
+
+<h3>1. Online (najszybciej)</h3>
+<p>Wejdź na stronę <a href="https://www.pip.gov.pl/skargi-i-wnioski" target="_blank">www.pip.gov.pl</a> → zakładka „Skargi i wnioski" → formularz online. Możesz wybrać właściwy Okręgowy Inspektorat Pracy według województwa, w którym pracujesz.</p>
+
+<h3>2. E-mailem lub pocztą</h3>
+<p>Znajdź adres właściwego Okręgowego Inspektoratu Pracy (OIP) na stronie pip.gov.pl. W e-mailu lub piśmie podaj: swoje dane (lub zaznacz, że składasz anonimowo), nazwę i adres pracodawcy, opis naruszeń oraz jeśli masz — kopie dokumentów (np. odcinki płac, harmonogram pracy).</p>
+
+<h3>3. Osobiście lub telefonicznie</h3>
+<p>Możesz odwiedzić dyżur inspektora lub zadzwonić pod numer bezpłatnej infolinii PIP: <strong>800 220 203</strong> (pon.–pt., 9:00–15:00).</p>
+
+<h2>Czy skarga może być anonimowa?</h2>
+<p>Tak. Możesz złożyć skargę anonimową — wówczas inspektor przeprowadzi kontrolę w zakładzie pracy bez ujawniania tożsamości skarżącego. Jednak anonimowa skarga nie pozwala na udzielenie Ci odpowiedzi o wynikach kontroli — jeśli chcesz poznać jej efekty, podaj swoje dane kontaktowe (PIP ma obowiązek zachowania ich w tajemnicy przed pracodawcą).</p>
+
+<h2>Jak przebiega kontrola?</h2>
+<p>Po przyjęciu skargi inspektor PIP:</p>
+<ol>
+  <li>Przeprowadza kontrolę w zakładzie pracy (często bez wcześniejszego zawiadomienia)</li>
+  <li>Może żądać okazania dokumentów, listy płac, harmonogramów, umów</li>
+  <li>W razie stwierdzenia naruszeń — wydaje nakazy, mandaty lub kieruje sprawę do sądu</li>
+  <li>Zawiadamia skarżącego o wynikach kontroli (jeśli nie jest anonimowy)</li>
+</ol>
+
+<h2>Czy możesz stracić pracę za złożenie skargi?</h2>
+<p>Prawo chroni pracowników przed represjami za złożenie skargi do PIP. Zwolnienie pracownika z pracy za złożenie skargi jest niezgodne z prawem — jeśli tak się stanie, masz prawo do odwołania do sądu pracy. Jeśli obawiasz się konsekwencji, złóż skargę anonimowo.</p>
+
+<h2>Inne instytucje, do których możesz się zwrócić</h2>
+<ul>
+  <li><strong>ZUS</strong> — jeśli pracodawca nie odprowadza składek od Twojego wynagrodzenia</li>
+  <li><strong>Urząd Skarbowy</strong> — w sprawach podatkowych</li>
+  <li><strong>Sąd pracy</strong> — w sprawach o wynagrodzenie lub niezgodne z prawem rozwiązanie umowy</li>
+  <li><strong>Rzecznik Praw Obywatelskich</strong> — w sprawach dyskryminacji</li>
+</ul>
+
+<h2>Jak może pomóc Nexflow?</h2>
+<p>Jeśli pracujesz przez Nexflow i masz wątpliwości co do zgodności warunków pracy z przepisami — skontaktuj się z nami. Jeśli problem dotyczy pracodawcy użytkownika (firmy, do której jesteś delegowany), PIP może objąć kontrolą zarówno agencję, jak i pracodawcę użytkownika. Twoje prawa są tak samo chronione jak prawa każdego pracownika w Polsce.</p>
+    `.trim(),
+  },
+  {
+    slug: "inspektsiya-pratsi-skarha-robotodavets-polshcha",
+    title: "Державна інспекція праці (PIP) — як подати скаргу на роботодавця в Польщі",
+    description:
+      "Роботодавець порушує ваші права? Дізнайтеся, як подати скаргу до Державної інспекції праці — анонімно, безкоштовно, будь-якою мовою.",
+    date: "2028-11-23",
+    lang: "uk",
+    content: `
+<p>Роботодавець не виплатив зарплату вчасно? Примушує до роботи в небезпечних умовах? Не видав свідоцтво про роботу після закінчення договору? Ви маєте право подати скаргу до <strong>Державної інспекції праці (PIP)</strong> — незалежно від того, чи ви є громадянином Польщі, чи працюєте за дозволом або картою проживання.</p>
+
+<h2>Що таке Державна інспекція праці?</h2>
+<p>PIP — це державний контрольний орган, який наглядає за дотриманням трудового законодавства та правил охорони праці. Інспектори PIP мають право відвідувати будь-яке підприємство без попередження та накладати штрафи на роботодавців. Для працівника послуги PIP є повністю <strong>безкоштовними</strong>.</p>
+
+<h2>У яких справах можна подати скаргу?</h2>
+<ul>
+  <li>Невиплата або занижена виплата заробітної плати</li>
+  <li>Відсутність письмового договору або неправильні умови договору</li>
+  <li>Нелегальне працевлаштування (робота без договору)</li>
+  <li>Порушення правил охорони праці (небезпечні умови праці)</li>
+  <li>Порушення режиму праці та відпочинку (понаднормова робота без оплати)</li>
+  <li>Дискримінація або мобінг</li>
+  <li>Невидача свідоцтва про роботу після закінчення договору</li>
+</ul>
+
+<h2>Як подати скаргу до PIP?</h2>
+
+<h3>1. Онлайн</h3>
+<p>Зайдіть на сайт <a href="https://www.pip.gov.pl" target="_blank">www.pip.gov.pl</a> → розділ «Skargi i wnioski» → онлайн-форма. Виберіть відповідний районний інспекторат (OIP) за воєводством, де ви працюєте.</p>
+
+<h3>2. Електронною поштою або листом</h3>
+<p>Знайдіть адресу відповідного OIP на сайті pip.gov.pl. У листі вкажіть: ваші дані (або позначте, що подаєте анонімно), назву та адресу роботодавця, опис порушень та копії документів (відривні частини квитанцій про зарплату, графіки роботи).</p>
+
+<h3>3. Особисто або по телефону</h3>
+<p>Ви можете відвідати чергового інспектора або зателефонувати на безкоштовну гарячу лінію PIP: <strong>800 220 203</strong> (пн.–пт., 9:00–15:00).</p>
+
+<h2>Чи може скарга бути анонімною?</h2>
+<p>Так. Ви можете подати анонімну скаргу — інспектор проведе перевірку на підприємстві без розкриття особи скаржника. Однак анонімна скарга не дозволяє отримати відповідь про результати перевірки. Якщо хочете дізнатися про результати, вкажіть свої контактні дані (PIP зобов'язана зберігати їх у таємниці від роботодавця).</p>
+
+<h2>Чи можуть вас звільнити за подачу скарги?</h2>
+<p>Закон захищає працівників від переслідування за подачу скарги до PIP. Звільнення за скаргу є незаконним. Якщо ви боїтеся наслідків — подайте скаргу анонімно.</p>
+
+<h2>Як може допомогти Nexflow?</h2>
+<p>Якщо ви працюєте через Nexflow та маєте сумніви щодо відповідності умов праці законодавству — зверніться до нас. Ваші права однаково захищені, як і права будь-якого працівника в Польщі.</p>
+    `.trim(),
+  },
+  {
+    slug: "inspektsiya-truda-zhaloba-rabotodatel-polsha",
+    title: "Государственная инспекция труда (PIP) — как подать жалобу на работодателя в Польше",
+    description:
+      "Работодатель нарушает ваши права? Узнайте, как подать жалобу в Государственную инспекцию труда — анонимно, бесплатно, на любом языке.",
+    date: "2028-11-30",
+    lang: "ru",
+    content: `
+<p>Работодатель не выплатил зарплату вовремя? Принуждает к работе в опасных условиях? Не выдал свидетельство о работе после окончания договора? Вы имеете право подать жалобу в <strong>Государственную инспекцию труда (PIP)</strong> — независимо от того, являетесь ли вы гражданином Польши или работаете по разрешению или виду на жительство.</p>
+
+<h2>Что такое Государственная инспекция труда?</h2>
+<p>PIP — государственный контрольный орган, надзирающий за соблюдением трудового законодательства и правил охраны труда. Инспекторы PIP вправе посещать любое предприятие без предупреждения и налагать штрафы на работодателей. Услуги PIP для работника полностью <strong>бесплатны</strong>.</p>
+
+<h2>По каким вопросам можно подать жалобу?</h2>
+<ul>
+  <li>Невыплата или занижение заработной платы</li>
+  <li>Отсутствие письменного договора или неверные условия договора</li>
+  <li>Нелегальная занятость (работа без договора)</li>
+  <li>Нарушение правил охраны труда (опасные условия работы)</li>
+  <li>Нарушение режима труда и отдыха (сверхурочная работа без оплаты)</li>
+  <li>Дискриминация или моббинг</li>
+  <li>Невыдача свидетельства о работе после окончания договора</li>
+</ul>
+
+<h2>Как подать жалобу в PIP?</h2>
+
+<h3>1. Онлайн</h3>
+<p>Зайдите на сайт <a href="https://www.pip.gov.pl" target="_blank">www.pip.gov.pl</a> → раздел «Skargi i wnioski» → онлайн-форма. Выберите соответствующую районную инспекцию (OIP) по воеводству, где вы работаете.</p>
+
+<h3>2. По электронной почте или письмом</h3>
+<p>Найдите адрес соответствующего OIP на сайте pip.gov.pl. Укажите: свои данные (или отметьте, что подаёте анонимно), название и адрес работодателя, описание нарушений и копии документов.</p>
+
+<h3>3. Лично или по телефону</h3>
+<p>Вы можете посетить дежурного инспектора или позвонить на бесплатную горячую линию PIP: <strong>800 220 203</strong> (пн.–пт., 9:00–15:00).</p>
+
+<h2>Может ли жалоба быть анонимной?</h2>
+<p>Да. Вы можете подать анонимную жалобу — инспектор проведёт проверку на предприятии, не раскрывая личность заявителя. Анонимная жалоба не позволяет получить ответ о результатах проверки. Если хотите узнать о результатах — укажите свои контактные данные (PIP обязана хранить их в тайне от работодателя).</p>
+
+<h2>Могут ли вас уволить за подачу жалобы?</h2>
+<p>Закон защищает работников от преследования за подачу жалобы в PIP. Увольнение за жалобу незаконно. Если опасаетесь последствий — подайте жалобу анонимно.</p>
+
+<h2>Как может помочь Nexflow?</h2>
+<p>Если вы работаете через Nexflow и сомневаетесь в законности условий труда — обратитесь к нам. Ваши права защищены так же, как и права любого работника в Польше.</p>
+    `.trim(),
+  },
+  {
+    slug: "labour-inspection-complaint-employer-poland",
+    title: "Labour Inspection (PIP) in Poland — How to File a Complaint Against Your Employer",
+    description:
+      "Is your employer breaking the law? Learn how to file a complaint with Poland's Labour Inspectorate — anonymously, free of charge, and in your own language.",
+    date: "2028-12-07",
+    lang: "en",
+    content: `
+<p>Has your employer withheld wages, forced you to work in unsafe conditions, or refused to issue your employment certificate? You have the right to file a complaint with the <strong>State Labour Inspectorate (PIP)</strong> — regardless of whether you are a Polish citizen or a foreign worker with a residence card or work permit.</p>
+
+<h2>What Is the State Labour Inspectorate?</h2>
+<p>PIP is a government body enforcing labour law and occupational safety. Inspectors can visit any workplace without notice and impose penalties. All PIP services are completely <strong>free of charge</strong> for workers.</p>
+
+<h2>What Can You Complain About?</h2>
+<ul>
+  <li>Unpaid or underpaid wages</li>
+  <li>No written contract or incorrect contract terms</li>
+  <li>Illegal employment (working without a contract)</li>
+  <li>Health and safety violations (dangerous conditions, missing protective equipment)</li>
+  <li>Excessive or unpaid overtime, insufficient rest periods</li>
+  <li>Discrimination or workplace harassment (mobbing)</li>
+  <li>Refusal to issue the employment certificate (swiadectwo pracy) after contract ends</li>
+</ul>
+
+<h2>How to File a Complaint</h2>
+<p>You have three options:</p>
+<ol>
+  <li><strong>Online</strong> — go to pip.gov.pl, click "Skargi i wnioski", and fill in the online form for the Regional Labour Inspectorate covering your voivodeship.</li>
+  <li><strong>By email or post</strong> — write to the relevant OIP with: employer name and address, description of violations, supporting documents (pay stubs, schedules, contract).</li>
+  <li><strong>In person or by phone</strong> — visit a duty inspector or call the free PIP helpline: <strong>800 220 203</strong> (Mon-Fri, 9:00-15:00).</li>
+</ol>
+
+<h2>Can You File Anonymously?</h2>
+<p>Yes. An anonymous complaint triggers an inspection without disclosing your identity. You will not receive feedback on the outcome unless you provide contact details — which PIP is legally required to keep confidential from the employer.</p>
+
+<h2>Can You Be Fired for Filing a Complaint?</h2>
+<p>No — retaliation for filing a PIP complaint is unlawful. If dismissed, you can challenge it in a labour court. If concerned, file anonymously.</p>
+
+<h2>Other Bodies That Can Help</h2>
+<ul>
+  <li><strong>ZUS</strong> — if contributions are not being paid</li>
+  <li><strong>Labour court (Sad pracy)</strong> — for unpaid wages or wrongful dismissal</li>
+  <li><strong>Commissioner for Human Rights</strong> — for discrimination</li>
+</ul>
+
+<h2>How Nexflow Can Help</h2>
+<p>If you are placed through Nexflow and have concerns about working conditions — contact us directly. Your rights as a temp worker are fully protected under Polish law.</p>
+    `.trim(),
+  },
+  {
+    slug: "pue-zus-konto-sprawdzenie-ubezpieczenia-cudzoziemiec",
+    title: "Konto PUE ZUS — jak sprawdzić, czy pracodawca płaci Twoje składki",
+    description:
+      "Przez PUE ZUS możesz sprawdzić online, czy agencja rzeczywiście odprowadza za Ciebie składki ZUS. Dowiedz się, jak założyć konto i co na nim znajdziesz.",
+    date: "2028-12-14",
+    lang: "pl",
+    content: `
+<p>Czy wiesz, że możesz w każdej chwili sprawdzić online, ile składek ZUS zostało za Ciebie odprowadzonych? Służy do tego <strong>Platforma Usług Elektronicznych ZUS (PUE ZUS)</strong> — bezpłatny portal dla każdego ubezpieczonego, dostępny także w języku ukraińskim.</p>
+
+<h2>Co możesz sprawdzić na PUE ZUS?</h2>
+<ul>
+  <li>Czy agencja/pracodawca zgłosił Cię do ubezpieczenia (emerytalne, rentowe, chorobowe, wypadkowe)</li>
+  <li>Jakie składki zostały opłacone i za jakie okresy</li>
+  <li>Historia zwolnień lekarskich (L4) i zasiłków</li>
+  <li>Stan Twojego konta emerytalnego</li>
+  <li>Złożenie wniosku o zaświadczenie o niezaleganiu w składkach</li>
+</ul>
+
+<h2>Jak założyć konto PUE ZUS?</h2>
+<p>Istnieje kilka sposobów:</p>
+<ol>
+  <li><strong>Przez Profil Zaufany</strong> (najwygodniej) — wejdź na <a href="https://pue.zus.pl">pue.zus.pl</a> i zaloguj się przez epuap.gov.pl używając swojego Profilu Zaufanego. Jeśli jeszcze nie masz Profilu Zaufanego, przeczytaj nasz poradnik o PESEL i Profilu Zaufanym.</li>
+  <li><strong>Przez e-dowód</strong> — jeśli posiadasz biometryczny dowód osobisty z warstwą elektroniczną.</li>
+  <li><strong>Osobiście w oddziale ZUS</strong> — możesz poprosić o założenie konta i tymczasowe hasło bezpośrednio w placówce.</li>
+  <li><strong>Przez bankowość elektroniczną</strong> — niektóre polskie banki (PKO BP, Pekao, mBank, ING) umożliwiają logowanie do PUE ZUS przez bankowość internetową.</li>
+</ol>
+
+<h2>Jak sprawdzić, czy składki są płacone?</h2>
+<p>Po zalogowaniu do PUE ZUS:</p>
+<ol>
+  <li>Wejdź w zakładkę <strong>„Ubezpieczony"</strong></li>
+  <li>Wybierz <strong>„Informacja o ubezpieczeniu"</strong> — zobaczysz, od kiedy jesteś zgłoszony do poszczególnych ubezpieczeń i przez kogo (agencja będzie widoczna jako płatnik składek)</li>
+  <li>W zakładce <strong>„Konto ubezpieczonego"</strong> możesz zobaczyć historię wpłat</li>
+</ol>
+
+<h2>Co zrobić, jeśli pracodawca nie płaci składek?</h2>
+<p>Jeśli zauważysz, że:</p>
+<ul>
+  <li>Nie jesteś zgłoszony do ZUS mimo że pracujesz już kilka tygodni</li>
+  <li>Składki za dany miesiąc nie zostały opłacone</li>
+  <li>Twój pracodawca widnieje jako wyrejestrowany</li>
+</ul>
+<p>Masz prawo zgłosić to do ZUS lub złożyć skargę do Państwowej Inspekcji Pracy (PIP). Niepłacenie składek to naruszenie prawa — ZUS może wszcząć egzekucję od pracodawcy, a Ty nie tracisz prawa do świadczeń.</p>
+
+<h2>Ważne: składki emerytalne a Twoja przyszłość</h2>
+<p>Każda złotówka odprowadzona do ZUS jest zapisywana na Twoim indywidualnym koncie emerytalnym. Pracownicy z Ukrainy i innych krajów, którzy pracowali w Polsce, mogą liczyć na emeryturę z ZUS po osiągnięciu wieku emerytalnego — pod warunkiem, że pozostaną w Polsce lub skorzystają z umów dwustronnych o zabezpieczeniu społecznym.</p>
+
+<h2>PUE ZUS w języku ukraińskim</h2>
+<p>Portal PUE ZUS oferuje interfejs w języku <strong>ukraińskim</strong> — po zalogowaniu możesz zmienić język w ustawieniach konta. ZUS uruchomił też ukraińskojęzyczną infolinię: <strong>22 560 16 00</strong>.</p>
+
+<h2>Jak może pomóc Nexflow?</h2>
+<p>Nexflow jako agencja pracy tymczasowej jest Twoim formalnym pracodawcą i odpowiada za prawidłowe zgłoszenie Cię do ZUS i opłacanie składek. Jeśli masz pytania o Twój status ubezpieczenia — skontaktuj się z nami, pomożemy wyjaśnić wszelkie wątpliwości.</p>
+    `.trim(),
+  },
+  {
+    slug: "pue-zus-akkaunt-perevirka-strakhuvannya-polshcha",
+    title: "Акаунт PUE ZUS — як перевірити, чи роботодавець сплачує ваші внески",
+    description:
+      "Через PUE ZUS можна перевірити онлайн, чи агенція дійсно перераховує за вас внески ZUS. Дізнайтеся, як зареєструватися та що ви там знайдете.",
+    date: "2028-12-21",
+    lang: "uk",
+    content: `
+<p>Чи знаєте ви, що можете в будь-який момент перевірити онлайн, скільки внесків ZUS було сплачено за вас? Для цього служить <strong>Електронна платформа послуг ZUS (PUE ZUS)</strong> — безкоштовний портал для кожного застрахованого, доступний також українською мовою.</p>
+
+<h2>Що можна перевірити на PUE ZUS?</h2>
+<ul>
+  <li>Чи зареєстрував вас роботодавець/агенція у системі страхування (пенсійне, рентне, лікарняне, від нещасних випадків)</li>
+  <li>Які внески були сплачені та за які періоди</li>
+  <li>Історія лікарняних листів (L4) та допомог</li>
+  <li>Стан вашого пенсійного рахунку</li>
+</ul>
+
+<h2>Як зареєструватися на PUE ZUS?</h2>
+<ol>
+  <li><strong>Через Профіль Довіри</strong> — зайдіть на <a href="https://pue.zus.pl">pue.zus.pl</a> та увійдіть через Профіль Довіри (epuap.gov.pl). Якщо у вас ще немає Профілю Довіри, прочитайте наш посібник.</li>
+  <li><strong>Особисто у відділенні ZUS</strong> — ви можете звернутися до відділення та попросити зареєструвати кабінет особисто.</li>
+  <li><strong>Через інтернет-банкінг</strong> — деякі польські банки дозволяють вхід до PUE ZUS через свої сервіси.</li>
+</ol>
+
+<h2>Як перевірити, чи сплачуються внески?</h2>
+<p>Після входу до PUE ZUS:</p>
+<ol>
+  <li>Перейдіть до розділу <strong>"Ubezpieczony"</strong> (Застрахований)</li>
+  <li>Виберіть <strong>"Informacja o ubezpieczeniu"</strong> — ви побачите, з якого числа ви застраховані та хто є платником внесків</li>
+  <li>В розділі <strong>"Konto ubezpieczonego"</strong> можна побачити історію платежів</li>
+</ol>
+
+<h2>Що робити, якщо роботодавець не сплачує внески?</h2>
+<p>Якщо ви помітили, що:</p>
+<ul>
+  <li>Вас не зареєстровано в ZUS, хоча ви вже кілька тижнів працюєте</li>
+  <li>Внески за певний місяць не було сплачено</li>
+</ul>
+<p>Ви маєте право повідомити про це в ZUS або подати скаргу до Державної інспекції праці (PIP). Несплата внесків — це порушення закону.</p>
+
+<h2>PUE ZUS українською мовою</h2>
+<p>Портал PUE ZUS пропонує інтерфейс <strong>українською мовою</strong> — після входу змініть мову в налаштуваннях акаунту. ZUS також має україномовну гарячу лінію: <strong>22 560 16 00</strong>.</p>
+
+<h2>Як може допомогти Nexflow?</h2>
+<p>Nexflow як агенція тимчасової праці є вашим офіційним роботодавцем і відповідає за правильну реєстрацію у ZUS та сплату внесків. Якщо у вас виникли питання щодо статусу страхування — зверніться до нас.</p>
+    `.trim(),
+  },
+  {
+    slug: "pue-zus-akkaunt-proverka-strakhovaniia-polsha",
+    title: "Аккаунт PUE ZUS — как проверить, платит ли работодатель ваши взносы",
+    description:
+      "Через PUE ZUS можно проверить онлайн, перечисляет ли агентство за вас взносы ZUS. Узнайте, как зарегистрироваться и что вы там найдете.",
+    date: "2028-12-28",
+    lang: "ru",
+    content: `
+<p>Знаете ли вы, что в любой момент можете проверить онлайн, сколько взносов ZUS было уплачено за вас? Для этого служит <strong>Электронная платформа услуг ZUS (PUE ZUS)</strong> — бесплатный портал для каждого застрахованного, доступный в том числе на украинском языке.</p>
+
+<h2>Что можно проверить на PUE ZUS?</h2>
+<ul>
+  <li>Зарегистрировал ли вас работодатель/агентство в системе страхования (пенсионное, рентное, больничное, от несчастных случаев)</li>
+  <li>Какие взносы были уплачены и за какие периоды</li>
+  <li>История больничных листов (L4) и пособий</li>
+  <li>Состояние вашего пенсионного счёта</li>
+</ul>
+
+<h2>Как зарегистрироваться на PUE ZUS?</h2>
+<ol>
+  <li><strong>Через Профиль Доверия</strong> — зайдите на <a href="https://pue.zus.pl">pue.zus.pl</a> и войдите через Профиль Доверия (epuap.gov.pl).</li>
+  <li><strong>Лично в отделении ZUS</strong> — вы можете обратиться в отделение и попросить зарегистрировать кабинет лично.</li>
+  <li><strong>Через интернет-банкинг</strong> — некоторые польские банки позволяют вход в PUE ZUS через свои сервисы.</li>
+</ol>
+
+<h2>Как проверить, платятся ли взносы?</h2>
+<p>После входа в PUE ZUS:</p>
+<ol>
+  <li>Перейдите в раздел <strong>"Ubezpieczony"</strong> (Застрахованный)</li>
+  <li>Выберите <strong>"Informacja o ubezpieczeniu"</strong> — вы увидите, с какой даты вы застрахованы и кто является плательщиком взносов</li>
+  <li>В разделе <strong>"Konto ubezpieczonego"</strong> можно увидеть историю платежей</li>
+</ol>
+
+<h2>Что делать, если работодатель не платит взносы?</h2>
+<p>Если вы заметили, что:</p>
+<ul>
+  <li>Вас не зарегистрировали в ZUS, хотя вы уже несколько недель работаете</li>
+  <li>Взносы за определённый месяц не были уплачены</li>
+</ul>
+<p>Вы вправе сообщить об этом в ZUS или подать жалобу в Государственную инспекцию труда (PIP). Неуплата взносов — это нарушение закона.</p>
+
+<h2>PUE ZUS на украинском языке</h2>
+<p>Портал PUE ZUS доступен <strong>на украинском языке</strong> — после входа измените язык в настройках аккаунта. У ZUS также есть горячая линия на украинском языке: <strong>22 560 16 00</strong>.</p>
+
+<h2>Как может помочь Nexflow?</h2>
+<p>Nexflow как агентство временного труда является вашим официальным работодателем и несёт ответственность за правильную регистрацию в ZUS и уплату взносов. Если у вас возникли вопросы о статусе страхования — обратитесь к нам.</p>
+    `.trim(),
+  },
+  {
+    slug: "pue-zus-account-check-insurance-foreign-worker-poland",
+    title: "PUE ZUS Account — How to Check Whether Your Employer Is Paying Your Social Insurance",
+    description:
+      "Through PUE ZUS you can verify online whether the agency is actually paying your ZUS contributions. Learn how to create an account and what you can find there.",
+    date: "2029-01-04",
+    lang: "en",
+    content: `
+<p>Did you know you can check at any time whether your employer has been paying your ZUS social insurance contributions? The tool for this is the <strong>ZUS Electronic Services Platform (PUE ZUS)</strong> — a free portal available to every insured person, with an interface available in Ukrainian.</p>
+
+<h2>What Can You Check on PUE ZUS?</h2>
+<ul>
+  <li>Whether the agency has registered you for social insurance (pension, disability, sickness, accident)</li>
+  <li>Which contributions have been paid and for which periods</li>
+  <li>Your sick leave (L4) history and any benefits received</li>
+  <li>The balance on your individual pension account</li>
+  <li>Apply for a certificate confirming no arrears in contributions</li>
+</ul>
+
+<h2>How to Create a PUE ZUS Account</h2>
+<ol>
+  <li><strong>Via Profil Zaufany (easiest)</strong> — go to <a href="https://pue.zus.pl">pue.zus.pl</a> and log in using your Profil Zaufany (trusted profile). If you do not yet have one, read our PESEL and Profil Zaufany guide.</li>
+  <li><strong>In person at a ZUS branch</strong> — staff can set up your account and issue a temporary password.</li>
+  <li><strong>Via online banking</strong> — several Polish banks (PKO BP, Pekao, mBank, ING) allow login to PUE ZUS directly through their internet banking portal.</li>
+</ol>
+
+<h2>How to Verify That Contributions Are Being Paid</h2>
+<p>Once logged in:</p>
+<ol>
+  <li>Go to the <strong>"Ubezpieczony"</strong> (Insured person) tab</li>
+  <li>Click <strong>"Informacja o ubezpieczeniu"</strong> — you will see the date from which you are insured and who the contributing payer is (the agency should appear as the payer)</li>
+  <li>Under <strong>"Konto ubezpieczonego"</strong>, you can review the full payment history</li>
+</ol>
+
+<h2>What to Do If the Employer Is Not Paying?</h2>
+<p>If you notice that:</p>
+<ul>
+  <li>You are not registered with ZUS despite having worked for several weeks</li>
+  <li>Contributions for a given month have not been paid</li>
+  <li>The employer appears as deregistered</li>
+</ul>
+<p>You have the right to report this to ZUS directly or file a complaint with the State Labour Inspectorate (PIP). Failure to pay contributions is a legal violation — ZUS can pursue enforcement against the employer, and your entitlement to benefits is not affected.</p>
+
+<h2>Your Pension and Your Future</h2>
+<p>Every contribution paid to ZUS is recorded on your individual pension account. Workers from Ukraine and other countries who have worked in Poland may be entitled to a ZUS pension upon reaching retirement age, or to have their Polish contributions counted under bilateral social security agreements between Poland and their home country.</p>
+
+<h2>PUE ZUS in Ukrainian</h2>
+<p>The PUE ZUS portal offers a full <strong>Ukrainian-language interface</strong> — switch the language in your account settings after logging in. ZUS also runs a Ukrainian-language helpline: <strong>22 560 16 00</strong>.</p>
+
+<h2>How Nexflow Can Help</h2>
+<p>As a temp agency, Nexflow is your official employer of record and is responsible for registering you correctly with ZUS and paying all required contributions. If you have any questions about your insurance status — contact us and we will clarify the situation.</p>
+    `.trim(),
   }
 ];
 
