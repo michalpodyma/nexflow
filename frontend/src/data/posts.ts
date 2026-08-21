@@ -12902,6 +12902,248 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 </ul>
 <p>Do you have questions about your employment documents? Write to us or visit the Nexflow office — we will help you.</p>
     `.trim(),
+  },
+  {
+    slug: "umowa-zlecenie-pracownik-tymczasowy-polska",
+    title: "Umowa zlecenie w Polsce — co musisz wiedzieć jako pracownik agencji tymczasowej",
+    description:
+      "Pracujesz przez agencję pracy tymczasowej w Polsce? Dowiedz się, czym jest umowa zlecenie, jakie prawa ci przysługują: minimalna stawka godzinowa, składki ZUS, L4 i zasady wypowiedzenia.",
+    date: "2028-09-21",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz przez agencję pracy tymczasowej w Polsce, z dużym prawdopodobieństwem masz podpisaną <strong>umowę zlecenie</strong> (inaczej: umowę cywilnoprawną). Wiele osób myli ją z umową o pracę, choć różnią się pod kątem prawnym. W tym artykule wyjaśniamy: czym jest umowa zlecenie, jakie masz prawa i co powinieneś wiedzieć, zanim podpiszesz dokument.</p>
+
+<h2>Czym jest umowa zlecenie?</h2>
+<p>Umowa zlecenie to cywilnoprawna forma współpracy regulowana przez <strong>Kodeks cywilny</strong> (art. 734–751), a nie Kodeks pracy. Oznacza to, że nie obowiązują tu automatycznie wszystkie przepisy prawa pracy — takie jak prawo do urlopu wypoczynkowego czy ochrona przed zwolnieniem — ale zleceniobiorca ma ważne prawa wynikające z ustawy i zawartej umowy.</p>
+<p>W kontekście pracy tymczasowej przez agencję: agencja (np. Nexflow) jest twoim <strong>zleceniodawcą</strong>, a firma, do której cię kieruje, jest <strong>klientem</strong> agencji.</p>
+
+<h2>Wynagrodzenie i stawka minimalna</h2>
+<p>Wynagrodzenie na umowie zlecenie może być:</p>
+<ul>
+  <li><strong>Stawką godzinową</strong> — najczęstsza forma w agencjach pracy</li>
+  <li><strong>Stawką miesięczną</strong> — przy stałym czasie pracy</li>
+</ul>
+<p><strong>Ważne:</strong> Nawet na umowie zlecenie obowiązuje <strong>minimalna stawka godzinowa</strong> ustalana przez rząd. Niezależnie od tego, co mówi umowa — zleceniodawca nie może płacić ci mniej niż wynosi aktualny limit prawny. Zanim podpiszesz, zapytaj o stawkę za godzinę i sprawdź, czy jest zgodna z obowiązującymi przepisami.</p>
+<p>Wynagrodzenie powinno być wypłacane regularnie — zazwyczaj raz w miesiącu, na konto bankowe.</p>
+
+<h2>Składki ZUS — czy są obowiązkowe?</h2>
+<p>Tak — dla większości pracowników agencji. Jeśli umowa zlecenie jest twoim jedynym lub głównym źródłem dochodu, pracodawca (agencja) ma obowiązek odprowadzać za ciebie:</p>
+<ul>
+  <li><strong>Ubezpieczenie emerytalne</strong> (renta/emerytura)</li>
+  <li><strong>Ubezpieczenie rentowe</strong></li>
+  <li><strong>Ubezpieczenie wypadkowe</strong> — w całości pokrywa zleceniodawca</li>
+  <li><strong>Ubezpieczenie zdrowotne</strong> — daje ci dostęp do NFZ</li>
+</ul>
+<p>Ubezpieczenie <strong>chorobowe</strong> (na L4) jest na zleceniu <strong>dobrowolne</strong> — ale zdecydowanie warto je wybrać. Koszt to ok. 2,45% twojego wynagrodzenia brutto, a w zamian masz prawo do zasiłku chorobowego, gdy zachorujesz.</p>
+<p><strong>Wyjątek:</strong> Studenci przed ukończeniem 26. roku życia są zwolnieni z ZUS na zleceniu — ale wtedy nie mają też ubezpieczenia zdrowotnego z tej umowy.</p>
+
+<h2>L4 (zwolnienie lekarskie) — czy przysługuje?</h2>
+<p>Tak — <strong>ale tylko jeśli jesteś objęty ubezpieczeniem chorobowym</strong> (dobrowolnie wybranym). Po 90 dniach odprowadzania tej składki nabywasz prawo do zasiłku chorobowego z ZUS, który wynosi co do zasady <strong>80% podstawy wymiaru</strong> (100% w przypadku wypadku przy pracy od pierwszego dnia).</p>
+<p>Jeśli nie masz tego ubezpieczenia — w razie choroby nie otrzymasz żadnego wynagrodzenia z ZUS.</p>
+
+<h2>Urlop — czy mam prawo do wakacji?</h2>
+<p>Umowa zlecenie <strong>nie daje prawa do urlopu wypoczynkowego</strong> (to przywilej wynikający z Kodeksu pracy, charakterystyczny dla umowy o pracę). Możesz jednak:</p>
+<ul>
+  <li><strong>Wynegocjować z agencją</strong> płatne dni wolne wpisane wprost do umowy</li>
+  <li>Wziąć bezpłatny urlop (po uzgodnieniu ze zleceniodawcą)</li>
+</ul>
+<p>Nexflow stara się oferować elastyczne warunki, które uwzględniają potrzeby pracowników — warto zapytać opiekuna o możliwości.</p>
+
+<h2>Jak wygląda wypowiedzenie umowy?</h2>
+<p>Umowa zlecenie może być co do zasady rozwiązana przez obie strony w każdej chwili (art. 746 Kodeksu cywilnego). W praktyce jednak umowy agencyjne zazwyczaj zawierają zapisy o <strong>terminie wypowiedzenia</strong> (np. 2 tygodnie).</p>
+<p>Przeczytaj dokładnie swój kontrakt — znajdź punkt dotyczący wypowiedzenia i sprawdź, ile czasu musisz uprzedzić agencję, jeśli zdecydujesz się odejść.</p>
+
+<h2>Podatek dochodowy</h2>
+<p>Agencja potrąca i odprowadza za ciebie <strong>zaliczkę na podatek PIT</strong> co miesiąc. Raz w roku (do końca kwietnia) składasz zeznanie podatkowe PIT. Jeśli jesteś cudzoziemcem z Ukrainy, Białorusi lub innego kraju z umową o unikaniu podwójnego opodatkowania z Polską — skontaktuj się z agencją lub doradcą podatkowym.</p>
+
+<h2>Co zapewnia Nexflow?</h2>
+<p>Pracując przez Nexflow, możesz liczyć na:</p>
+<ul>
+  <li><strong>Prawidłowo sporządzoną umowę zlecenie</strong> — zgodną z obowiązującym prawem</li>
+  <li><strong>Terminowe wypłaty</strong> na konto bankowe</li>
+  <li><strong>Pełne zgłoszenie do ZUS</strong> (w tym zdrowotne i chorobowe na życzenie)</li>
+  <li><strong>Pasek wynagrodzenia</strong> z wyszczególnieniem wszystkich składek i potrąceń</li>
+  <li><strong>Opiekuna pracownika</strong> — do kontaktu w razie pytań</li>
+  <li>Wsparcie w legalizacji pobytu i pracy w Polsce</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Umowa zlecenie to legalny i powszechny sposób zatrudnienia w Polsce — zwłaszcza w agencjach pracy tymczasowej. Choć różni się od umowy o pracę, zapewnia ci ważne prawa: minimalną stawkę godzinową, ubezpieczenie zdrowotne i — jeśli się zdecydujesz — prawo do L4. Zanim podpiszesz, przeczytaj dokument i zapytaj opiekuna Nexflow o wszystko, czego nie rozumiesz.</p>
+    `.trim(),
+  },
+  {
+    slug: "uhoda-zlecenia-tymchasovyi-pratsivnyk-polshcha",
+    title: "Договір доручення (умова злєцення) в Польщі — права тимчасового працівника агенції",
+    description:
+      "Працюєте через агенцію тимчасової праці в Польщі? Дізнайтеся про свої права за умовою злєцення: мінімальна погодинна ставка, внески ZUS, лікарняний (L4) та умови розірвання договору.",
+    date: "2028-09-28",
+    lang: "uk",
+    content: `
+<p>Якщо ви працюєте через агенцію тимчасової праці в Польщі, швидше за все ваша угода оформлена як <strong>umowa zlecenie</strong> (договір доручення). Це цивільно-правовий договір, який відрізняється від трудового договору (umowa o pracę), але дає вам важливі права.</p>
+
+<h2>Що таке umowa zlecenie?</h2>
+<p>Umowa zlecenie — це цивільно-правова угода, яка регулюється <strong>Цивільним кодексом Польщі</strong>, а не Трудовим кодексом. У контексті агентської роботи: агентство (наприклад, Nexflow) є <strong>замовником</strong>, а підприємство, на яке вас скеровують, — клієнтом агентства.</p>
+
+<h2>Оплата праці та мінімальна ставка</h2>
+<p>На умові злєцення може бути погодинна або місячна ставка.</p>
+<p><strong>Важливо:</strong> Навіть за умовою злєцення діє <strong>законодавчо встановлена мінімальна погодинна ставка</strong>. Роботодавець не має права платити менше. Зарплата виплачується зазвичай раз на місяць на банківський рахунок.</p>
+
+<h2>Внески ZUS (соціальне страхування)</h2>
+<p>Якщо умова злєцення — ваше основне джерело доходу, агентство зобов'язане відраховувати:</p>
+<ul>
+  <li><strong>Пенсійне страхування</strong></li>
+  <li><strong>Страхування від інвалідності</strong></li>
+  <li><strong>Страхування від нещасних випадків</strong> — повністю за рахунок замовника</li>
+  <li><strong>Медичне страхування</strong> — дає доступ до системи NFZ</li>
+</ul>
+<p>Страхування на випадок хвороби (<strong>ubezpieczenie chorobowe</strong>) є добровільним, але настійно рекомендованим. Вартість — близько 2,45% від вашої зарплати брутто. В обмін ви отримуєте право на лікарняний (L4).</p>
+<p><strong>Виняток:</strong> Студенти до 26 років звільнені від ZUS за умовою злєцення.</p>
+
+<h2>L4 (лікарняний) — чи маю право?</h2>
+<p>Так — <strong>але лише якщо ви підключені до добровільного страхування на випадок хвороби</strong>. Після 90 днів сплати цього внеску ви маєте право на <strong>допомогу по хворобі від ZUS</strong> — зазвичай <strong>80% розрахункової бази</strong> (100% при нещасному випадку на виробництві з першого дня).</p>
+
+<h2>Відпустка</h2>
+<p>Umowa zlecenie <strong>не дає права на оплачувану щорічну відпустку</strong>. Проте ви можете домовитись з агентством про включення оплачуваних вихідних безпосередньо в контракт, або взяти неоплачуваний відпочинок за погодженням.</p>
+
+<h2>Розірвання договору</h2>
+<p>За Цивільним кодексом Польщі договір може бути розірваний будь-якою зі сторін у будь-який час. На практиці зазвичай передбачений <strong>термін попередження</strong> (наприклад, 2 тижні). Уважно прочитайте свою угоду перед підписанням.</p>
+
+<h2>Податок (PIT)</h2>
+<p>Агентство автоматично утримує та перераховує <strong>авансові платежі з ПІТ</strong> щомісяця. Раз на рік до кінця квітня ви подаєте декларацію. За наявності угоди між Польщею та Україною про уникнення подвійного оподаткування — уточніть деталі у координатора.</p>
+
+<h2>Що надає Nexflow?</h2>
+<ul>
+  <li><strong>Законно оформлений договір</strong> з усіма обов'язковими реквізитами</li>
+  <li><strong>Своєчасну виплату</strong> заробітної плати на рахунок</li>
+  <li><strong>Повну реєстрацію в ZUS</strong> (включно з медичним і хворобним за запитом)</li>
+  <li><strong>Розрахунковий листок</strong> (pasek wypłaty) з детальним описом нарахувань</li>
+  <li><strong>Координатора</strong> для вирішення будь-яких питань</li>
+  <li>Допомогу в оформленні дозволів на проживання та роботу в Польщі</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Умова злєцення — законний і поширений формат роботи в Польщі, особливо в агентствах тимчасової праці. Незважаючи на відмінності від трудового договору, вона гарантує мінімальну оплату, медичне страхування та право на лікарняний. Перед підписанням уважно прочитайте документ і запитайте координатора Nexflow про все незрозуміле.</p>
+    `.trim(),
+  },
+  {
+    slug: "dogovor-zlecenie-vremennyj-rabotnik-polsha",
+    title: "Договор поручения (умова злецения) в Польше — права временного работника агентства",
+    description:
+      "Работаете через агентство временного труда в Польше? Узнайте о своих правах по умове злецения: минимальная почасовая ставка, взносы ZUS, больничный L4 и порядок расторжения договора.",
+    date: "2028-10-05",
+    lang: "ru",
+    content: `
+<p>Если вы работаете через агентство временного труда в Польше, скорее всего ваш договор оформлен как <strong>umowa zlecenie</strong> (договор поручения). Это гражданско-правовая форма сотрудничества, которая отличается от трудового договора (umowa o pracę), но даёт вам важные права. Разбираемся по порядку.</p>
+
+<h2>Что такое umowa zlecenie?</h2>
+<p>Umowa zlecenie — это гражданско-правовой договор, регулируемый <strong>Гражданским кодексом Польши</strong>, а не Трудовым кодексом. В контексте агентства: агентство (например, Nexflow) выступает <strong>заказчиком</strong>, а предприятие, на которое вас направляют, — его клиентом.</p>
+
+<h2>Оплата труда и минимальная ставка</h2>
+<p>Оплата по умове злецения может быть почасовой или ежемесячной.</p>
+<p><strong>Важно:</strong> Даже на умове злецения действует <strong>законодательно установленная минимальная почасовая ставка</strong>. Работодатель не вправе платить ниже этого уровня. Зарплата обычно перечисляется раз в месяц на банковский счёт.</p>
+
+<h2>Взносы ZUS (социальное страхование)</h2>
+<p>Если umowa zlecenie — ваш основной источник дохода, агентство обязано отчислять за вас:</p>
+<ul>
+  <li><strong>Пенсионное страхование</strong></li>
+  <li><strong>Страхование по инвалидности</strong></li>
+  <li><strong>Страхование от несчастных случаев</strong> — полностью за счёт работодателя</li>
+  <li><strong>Медицинское страхование</strong> — даёт доступ к системе NFZ</li>
+</ul>
+<p>Страхование на случай болезни (<strong>ubezpieczenie chorobowe</strong>) является добровольным, но его настоятельно рекомендуется подключить. Стоимость — около 2,45% от вашей зарплаты брутто. В обмен вы получаете право на больничный (L4).</p>
+<p><strong>Исключение:</strong> Студенты до 26 лет освобождены от ZUS на умове злецения.</p>
+
+<h2>Больничный L4 — положен ли мне?</h2>
+<p>Да — <strong>если вы подключили добровольное страхование на случай болезни</strong>. После 90 дней уплаты взносов вы приобретаете право на <strong>пособие по болезни от ZUS</strong> — как правило, <strong>80% расчётной базы</strong> (100% при производственной травме с первого дня).</p>
+
+<h2>Отпуск</h2>
+<p>Umowa zlecenie <strong>не предоставляет права на оплачиваемый ежегодный отпуск</strong>. Однако вы можете договориться с агентством о включении оплачиваемых выходных в контракт, или взять отпуск без содержания по согласованию.</p>
+
+<h2>Расторжение договора</h2>
+<p>По Гражданскому кодексу Польши договор может быть расторгнут любой из сторон в любое время. На практике договор обычно содержит <strong>срок уведомления</strong> (например, 2 недели). Внимательно прочитайте контракт.</p>
+
+<h2>Налог (PIT)</h2>
+<p>Агентство автоматически удерживает и перечисляет <strong>авансовые платежи по ПИТ</strong> ежемесячно. Раз в год до конца апреля вы подаёте налоговую декларацию. Если между Польшей и вашей страной есть соглашение об избежании двойного налогообложения — уточните детали у координатора.</p>
+
+<h2>Что обеспечивает Nexflow?</h2>
+<ul>
+  <li><strong>Юридически корректный договор</strong> со всеми обязательными условиями</li>
+  <li><strong>Своевременную выплату</strong> зарплаты на счёт</li>
+  <li><strong>Полную регистрацию в ZUS</strong> (включая медицинское и страхование на случай болезни по запросу)</li>
+  <li><strong>Расчётный листок</strong> (pasek wypłaty) с детализацией всех начислений и удержаний</li>
+  <li><strong>Координатора</strong> для ответов на вопросы</li>
+  <li>Помощь в оформлении разрешений на проживание и работу в Польше</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Umowa zlecenie — законная и распространённая форма занятости в Польше, особенно в агентствах временного труда. Несмотря на отличия от трудового договора, она гарантирует минимальную оплату, медицинское страхование и право на больничный. Перед подписанием внимательно читайте договор и задавайте вопросы координатору Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "civil-contract-zlecenie-temp-worker-poland",
+    title: "Civil Contract (Umowa Zlecenie) in Poland — What Every Temp Agency Worker Must Know",
+    description:
+      "Working through a temp agency in Poland on an umowa zlecenie? Learn your rights: minimum hourly rate, ZUS social insurance, sick leave (L4), and what to check before signing.",
+    date: "2028-10-12",
+    lang: "en",
+    content: `
+<p>If you work through a temporary staffing agency in Poland, your contract is most likely an <strong>umowa zlecenie</strong> — a civil (service) contract. Many workers confuse it with a full employment contract (umowa o pracę), but they work differently. Here is everything you need to know about your rights, pay, insurance, and more.</p>
+
+<h2>What Is Umowa Zlecenie?</h2>
+<p>Umowa zlecenie is a civil-law agreement governed by <strong>Poland's Civil Code</strong> (not the Labour Code). In a temp agency context, the agency (like Nexflow) is your <strong>principal</strong> (zleceniodawca), and the company you are placed with is the agency's client.</p>
+<p>Because it is civil law, some employment protections do not apply automatically — but you still have meaningful rights set by statute.</p>
+
+<h2>Pay and Minimum Rate</h2>
+<p>Your pay on an umowa zlecenie can be:</p>
+<ul>
+  <li><strong>Hourly rate</strong> — the most common in staffing agencies</li>
+  <li><strong>Monthly salary</strong> — for fixed-schedule arrangements</li>
+</ul>
+<p><strong>Key point:</strong> A legally binding <strong>minimum hourly rate</strong> applies to all umowa zlecenie contracts in Poland — your employer cannot pay below this threshold regardless of what the contract says. Before signing, confirm your hourly rate and check that it meets the current legal minimum.</p>
+<p>Pay is typically transferred to your bank account once a month.</p>
+
+<h2>ZUS (Social Insurance) Contributions</h2>
+<p>For most agency workers, ZUS contributions are mandatory. If this is your main contract, the agency must enroll you in:</p>
+<ul>
+  <li><strong>Pension insurance</strong> (emerytalne/rentowe)</li>
+  <li><strong>Accident insurance</strong> — fully paid by the employer</li>
+  <li><strong>Health insurance</strong> — giving you access to the NFZ healthcare system</li>
+</ul>
+<p><strong>Sickness insurance</strong> (ubezpieczenie chorobowe) is <strong>voluntary</strong> under zlecenie — but strongly recommended. It costs roughly 2.45% of your gross pay, and in return you become eligible for sick pay (zasiłek chorobowy) when you are ill.</p>
+<p><strong>Exception:</strong> Students under 26 are exempt from ZUS on a zlecenie, but they also have no health insurance from that contract.</p>
+
+<h2>Sick Leave (L4) — Am I Entitled?</h2>
+<p>Yes — <strong>if you opted into voluntary sickness insurance</strong>. After 90 days of continuous sickness insurance contributions, you are entitled to a <strong>ZUS sickness benefit</strong> at approximately <strong>80% of your calculation base</strong> (100% for a work accident, from day one).</p>
+<p>Without this insurance: if you get sick, you receive no income replacement from ZUS.</p>
+
+<h2>Annual Leave — Do I Get Vacation?</h2>
+<p>Umowa zlecenie <strong>does not automatically entitle you to paid annual leave</strong> — that right comes only with an employment contract (umowa o pracę). However, you can:</p>
+<ul>
+  <li><strong>Negotiate paid time off</strong> directly in your contract</li>
+  <li>Take unpaid leave by agreement with the agency</li>
+</ul>
+<p>Ask your Nexflow coordinator about available options.</p>
+
+<h2>Ending the Contract</h2>
+<p>Under Poland's Civil Code, either party may generally terminate a zlecenie contract at any time. In practice, agency contracts usually include a <strong>notice period</strong> (typically 2 weeks). Read your contract carefully to understand the termination terms before you start.</p>
+
+<h2>Income Tax (PIT)</h2>
+<p>The agency deducts and remits <strong>monthly advance PIT payments</strong> on your behalf. Once a year, by the end of April, you file a PIT tax return. If Poland has a double-taxation treaty with your home country (Ukraine, Belarus, etc.), check with your coordinator or a tax advisor to understand your obligations.</p>
+
+<h2>What Nexflow Provides</h2>
+<p>Working through Nexflow means:</p>
+<ul>
+  <li>A <strong>legally compliant zlecenie contract</strong> that meets all statutory requirements</li>
+  <li><strong>On-time monthly pay</strong> transferred to your account</li>
+  <li><strong>Full ZUS registration</strong>, including health insurance and sickness insurance (on request)</li>
+  <li>A <strong>pay slip (pasek wypłaty)</strong> with a clear breakdown of gross pay, contributions, tax, and net pay</li>
+  <li>A <strong>dedicated coordinator</strong> you can contact with any questions</li>
+  <li>Assistance with residence and work permits in Poland</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Umowa zlecenie is a legal, common form of work arrangement in Poland — especially in temp staffing. While it differs from an employment contract, it guarantees minimum pay, health insurance, and — if you opt in — sick pay protection. Read your contract before signing, ask questions, and know your rights.</p>
+    `.trim(),
   }
 ];
 
