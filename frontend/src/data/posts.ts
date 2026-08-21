@@ -13800,7 +13800,769 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <h2>How Nexflow Can Help</h2>
 <p>As a temp agency, Nexflow is your official employer of record and is responsible for registering you correctly with ZUS and paying all required contributions. If you have any questions about your insurance status — contact us and we will clarify the situation.</p>
     `.trim(),
-  }
+  },
+  {
+    slug: "rozwiazanie-umowy-pracownik-tymczasowy-polska",
+    title: "Rozwiązanie umowy o pracę tymczasową w Polsce — prawa pracownika",
+    description:
+      "Prawa pracownika tymczasowego przy rozwiązaniu umowy w Polsce — okresy wypowiedzenia, świadectwo pracy, odprawa i co zrobić przy naruszeniu praw.",
+    date: "2029-01-11",
+    lang: "pl",
+    content: `
+<p>Kiedy kończy się umowa z agencją pracy tymczasowej, wiele osób nie wie, jakie mają prawa. W Polsce rozwiązanie umowy podlega ścisłym przepisom Kodeksu pracy oraz ustawy o zatrudnianiu pracowników tymczasowych. Ten przewodnik wyjaśnia, czego możesz oczekiwać — niezależnie od tego, czy jesteś z Ukrainy, Rosji czy innego kraju spoza UE.</p>
+
+<h2>Rodzaje zakończenia umowy</h2>
+
+<h3>1. Rozwiązanie z upływem czasu (koniec umowy terminowej)</h3>
+<p>Większość umów w agencjach pracy tymczasowej to umowy na czas określony — np. na 3 miesiące lub na czas trwania projektu. Gdy kończy się wskazany okres, umowa wygasa automatycznie. Nie wymaga wypowiedzenia.</p>
+<p>Co powinieneś wtedy dostać:</p>
+<ul>
+<li><strong>Świadectwo pracy</strong> — dokument obowiązkowy, który pracodawca musi wydać najpóźniej 7 dni po zakończeniu zatrudnienia.</li>
+<li><strong>Rozliczenie urlopu</strong> — jeśli masz niewykorzystany urlop, powinieneś dostać ekwiwalent pieniężny.</li>
+<li><strong>Ostatnią wypłatę</strong> — w terminie wynikającym z umowy (najczęściej do 10. lub ostatniego dnia miesiąca).</li>
+</ul>
+
+<h3>2. Wypowiedzenie przez pracodawcę</h3>
+<p>Pracodawca może wypowiedzieć umowę w trakcie jej trwania. Obowiązują wówczas okresy wypowiedzenia:</p>
+<ul>
+<li><strong>3 dni robocze</strong> — przy umowie trwającej do 2 tygodni</li>
+<li><strong>1 tydzień</strong> — przy umowie powyżej 2 tygodni, do 6 miesięcy</li>
+<li><strong>2 tygodnie</strong> — przy umowie trwającej powyżej 6 miesięcy (na czas określony)</li>
+</ul>
+<p><strong>Ważne:</strong> Pracodawca jest zobowiązany podać przyczynę wypowiedzenia tylko w przypadku umów na czas nieokreślony. Przy umowach terminowych — nie musi.</p>
+
+<h3>3. Wypowiedzenie przez pracownika</h3>
+<p>Masz prawo samodzielnie rozwiązać umowę, zachowując te same okresy wypowiedzenia. Najlepiej zrób to pisemnie, z podpisem i datą. Zachowaj kopię lub potwierdzenie odbioru przez pracodawcę.</p>
+
+<h3>4. Rozwiązanie natychmiastowe z winy pracodawcy</h3>
+<p>Możesz rozwiązać umowę bez wypowiedzenia, jeśli pracodawca poważnie naruszył Twoje prawa pracownicze:</p>
+<ul>
+<li>Brak lub nieterminowa wypłata wynagrodzenia</li>
+<li>Zagrożenie zdrowia lub życia w miejscu pracy</li>
+<li>Mobbing lub dyskryminacja</li>
+</ul>
+<p>W takim przypadku masz prawo do odszkodowania równego wynagrodzeniu za okres wypowiedzenia.</p>
+
+<h2>Czy przysługuje mi odprawa?</h2>
+<p>Odprawa pracownicza przysługuje przy zwolnieniu z przyczyn niedotyczących pracownika (np. redukcja etatów, likwidacja stanowiska):</p>
+<ul>
+<li><strong>1-miesięczne wynagrodzenie</strong> — staż poniżej 2 lat u pracodawcy</li>
+<li><strong>2-miesięczne wynagrodzenie</strong> — staż od 2 do 8 lat</li>
+<li><strong>3-miesięczne wynagrodzenie</strong> — staż powyżej 8 lat</li>
+</ul>
+<p>W agencjach pracy tymczasowej staż liczy się w stosunku do agencji, nie do firmy użytkownika. Przy krótkich kontraktach odprawa jest rzadkością, ale warto o tym wiedzieć.</p>
+
+<h2>Dokumenty przy zakończeniu umowy — checklista</h2>
+<ul>
+<li>✅ Świadectwo pracy (nie później niż 7 dni po zakończeniu)</li>
+<li>✅ Zaświadczenie o zarobkach (do zasiłku dla bezrobotnych)</li>
+<li>✅ PIT-11 (druk podatkowy — do końca lutego za poprzedni rok)</li>
+<li>✅ Rozliczenie nadgodzin i premii</li>
+<li>✅ Potwierdzenie wyrejestrowania z ZUS (druk ZWUA)</li>
+</ul>
+
+<h2>Co zrobić, gdy pracodawca narusza Twoje prawa?</h2>
+<p>Jeśli agencja lub firma użytkownik nie przestrzega przepisów, możesz:</p>
+<ul>
+<li>Złożyć skargę do <strong>Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatnie, możliwe anonimowo</li>
+<li>Wystąpić do <strong>Sądu Pracy</strong> — sprawy pracownicze są zwolnione z opłat sądowych</li>
+<li>Skontaktować się z <strong>Okręgowym Inspektorem Pracy</strong> właściwym dla Twojego województwa</li>
+</ul>
+
+<h2>Po zakończeniu umowy — co dalej?</h2>
+<p>Gdy umowa się kończy, masz kilka opcji:</p>
+<ul>
+<li><strong>Nowa umowa z tą samą agencją</strong> — możesz negocjować nowe warunki</li>
+<li><strong>Rejestracja w Urzędzie Pracy</strong> — sprawdź, czy przysługuje Ci zasiłek dla bezrobotnych (min. 365 dni składek w ciągu 18 miesięcy)</li>
+<li><strong>Aktualizacja zezwolenia na pracę</strong> — jeśli zmieniasz pracodawcę, sprawdź, czy Twoje zezwolenie nadal obowiązuje lub wymaga aktualizacji</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Kończenie umowy o pracę tymczasową nie musi być stresujące. Twoje prawa — jako pracownika w Polsce — są takie same jak obywateli polskich, niezależnie od Twojego obywatelstwa. Zbierz wszystkie dokumenty, sprawdź stan urlopu i nie wahaj się zgłaszać naruszeń do Inspekcji Pracy.</p>
+    `.trim(),
+  },
+  {
+    slug: "rozirvannya-trudovoho-dohovoru-polshcha",
+    title: "Розірвання трудового договору в Польщі — права іноземного працівника",
+    description:
+      "Права тимчасового працівника при розірванні трудового договору в Польщі — строки попередження, документи та що робити при порушенні прав.",
+    date: "2029-01-18",
+    lang: "uk",
+    content: `
+<p>Коли закінчується контракт з агентством тимчасової праці, багато людей не знають своїх прав. У Польщі розірвання трудового договору регулюється Трудовим кодексом та законом про працевлаштування тимчасових працівників. Цей посібник пояснює, чого очікувати — незалежно від того, звідки ви приїхали.</p>
+
+<h2>Види завершення трудового договору</h2>
+
+<h3>1. Закінчення строку (термінова угода)</h3>
+<p>Більшість контрактів в агентствах тимчасової праці — строкові (наприклад, на 3 місяці або на час виконання проекту). Коли вказаний термін закінчується, договір розривається автоматично без попередження.</p>
+<p>Що ви повинні отримати:</p>
+<ul>
+<li><strong>Свідоцтво про роботу (świadectwo pracy)</strong> — обов&apos;язковий документ, який роботодавець зобов&apos;язаний видати не пізніше 7 днів після закінчення трудових відносин.</li>
+<li><strong>Компенсація за невикористану відпустку</strong> — якщо ви не використали всю відпустку, ви маєте право на грошову виплату.</li>
+<li><strong>Останню зарплату</strong> — у терміни, встановлені договором.</li>
+</ul>
+
+<h3>2. Попередження від роботодавця</h3>
+<p>Роботодавець може розірвати контракт протягом терміну його дії. Застосовуються такі строки попередження:</p>
+<ul>
+<li><strong>3 робочих дні</strong> — при контракті тривалістю до 2 тижнів</li>
+<li><strong>1 тиждень</strong> — при контракті понад 2 тижні до 6 місяців</li>
+<li><strong>2 тижні</strong> — при контракті понад 6 місяців (строковий)</li>
+</ul>
+<p><strong>Важливо:</strong> При строкових договорах роботодавець не зобов&apos;язаний пояснювати причину звільнення. При безстрокових — зобов&apos;язаний.</p>
+
+<h3>3. Попередження від працівника</h3>
+<p>Ви маєте право самостійно розірвати договір, дотримуючись тих самих строків попередження. Зробіть це письмово, з підписом та датою. Збережіть копію або підтвердження отримання від роботодавця.</p>
+
+<h3>4. Негайне розірвання з вини роботодавця</h3>
+<p>Ви можете розірвати договір без попередження, якщо роботодавець грубо порушив ваші трудові права:</p>
+<ul>
+<li>Невиплата або затримка зарплати</li>
+<li>Небезпечні умови праці, що загрожують здоров&apos;ю або життю</li>
+<li>Мобінг або дискримінація</li>
+</ul>
+
+<h2>Чи маю я право на вихідну допомогу?</h2>
+<p>Вихідна допомога виплачується при звільненні з причин, що не стосуються працівника (наприклад, скорочення штату):</p>
+<ul>
+<li><strong>1-місячна зарплата</strong> — стаж менше 2 років у роботодавця</li>
+<li><strong>2-місячна зарплата</strong> — стаж від 2 до 8 років</li>
+<li><strong>3-місячна зарплата</strong> — стаж понад 8 років</li>
+</ul>
+<p>В агентствах тимчасової праці стаж рахується відносно агентства, а не компанії-користувача. При коротких контрактах вихідна допомога трапляється рідко, але варто про це знати.</p>
+
+<h2>Документи при закінченні договору — чеклист</h2>
+<ul>
+<li>✅ Świadectwo pracy (свідоцтво про роботу) — не пізніше 7 днів</li>
+<li>✅ Zaświadczenie o zarobkach (довідка про заробіток для центру зайнятості)</li>
+<li>✅ PIT-11 (податкова довідка — до кінця лютого за попередній рік)</li>
+<li>✅ Розрахунок понаднормових та премій</li>
+<li>✅ Підтвердження зняття з обліку ZUS (ZWUA)</li>
+</ul>
+
+<h2>Що робити, якщо роботодавець порушує ваші права?</h2>
+<ul>
+<li>Подати скаргу до <strong>Державної інспекції праці (PIP)</strong> — безкоштовно, анонімно</li>
+<li>Звернутися до <strong>Трудового суду (Sąd Pracy)</strong> — трудові справи звільнені від судових зборів</li>
+</ul>
+
+<h2>Після закінчення договору — що далі?</h2>
+<ul>
+<li><strong>Новий контракт з тим самим агентством</strong> — можна переговорити умови</li>
+<li><strong>Реєстрація в Центрі зайнятості (Urząd Pracy)</strong> — перевірте право на допомогу по безробіттю (мінімум 365 днів внесків за 18 місяців)</li>
+<li><strong>Оновлення дозволу на роботу</strong> — при зміні роботодавця перевірте, чи діє ваш дозвіл</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Завершення тимчасового трудового договору не повинно бути стресовим. Ваші права в Польщі — такі ж, як у польських працівників, незалежно від громадянства. Зберіть всі документи, перевірте залишок відпустки та не соромтеся повідомляти про порушення до Інспекції праці.</p>
+    `.trim(),
+  },
+  {
+    slug: "rastorzhenie-trudovogo-dogovora-polsha",
+    title: "Расторжение трудового договора в Польше — права иностранного работника",
+    description:
+      "Права временного работника при расторжении трудового договора в Польше — сроки уведомления, документы и что делать при нарушении прав.",
+    date: "2029-01-25",
+    lang: "ru",
+    content: `
+<p>Когда заканчивается контракт с агентством временной занятости, многие не знают своих прав. В Польше расторжение трудового договора регулируется Трудовым кодексом и законом о занятости временных работников. Это руководство объясняет, что вас ждёт — независимо от вашего гражданства.</p>
+
+<h2>Виды прекращения трудового договора</h2>
+
+<h3>1. Истечение срока (срочный договор)</h3>
+<p>Большинство контрактов в агентствах временной занятости — срочные (например, на 3 месяца или на время проекта). По истечении указанного срока договор прекращается автоматически без уведомления.</p>
+<p>Что вы должны получить:</p>
+<ul>
+<li><strong>Свидетельство о работе (świadectwo pracy)</strong> — обязательный документ, который работодатель обязан выдать не позднее 7 дней после окончания трудовых отношений.</li>
+<li><strong>Компенсация за неиспользованный отпуск</strong> — если у вас остался неиспользованный отпуск, вы имеете право на денежную выплату.</li>
+<li><strong>Последнюю зарплату</strong> — в сроки, установленные договором.</li>
+</ul>
+
+<h3>2. Уведомление от работодателя</h3>
+<p>Работодатель может расторгнуть контракт в течение срока его действия. Применяются следующие сроки уведомления:</p>
+<ul>
+<li><strong>3 рабочих дня</strong> — при контракте до 2 недель</li>
+<li><strong>1 неделя</strong> — при контракте свыше 2 недель до 6 месяцев</li>
+<li><strong>2 недели</strong> — при контракте свыше 6 месяцев (срочный)</li>
+</ul>
+<p><strong>Важно:</strong> При срочных договорах работодатель не обязан объяснять причину увольнения. При бессрочных — обязан.</p>
+
+<h3>3. Уведомление от работника</h3>
+<p>Вы вправе самостоятельно расторгнуть договор, соблюдая те же сроки уведомления. Сделайте это письменно, с подписью и датой. Сохраните копию или подтверждение получения от работодателя.</p>
+
+<h3>4. Немедленное расторжение по вине работодателя</h3>
+<p>Вы можете расторгнуть договор без уведомления, если работодатель грубо нарушил ваши трудовые права:</p>
+<ul>
+<li>Невыплата или задержка зарплаты</li>
+<li>Опасные условия труда, угрожающие здоровью или жизни</li>
+<li>Мобинг или дискриминация</li>
+</ul>
+
+<h2>Положена ли мне выходное пособие?</h2>
+<p>Выходное пособие выплачивается при увольнении по причинам, не связанным с работником (например, сокращение штата):</p>
+<ul>
+<li><strong>1-месячная зарплата</strong> — стаж менее 2 лет у работодателя</li>
+<li><strong>2-месячная зарплата</strong> — стаж от 2 до 8 лет</li>
+<li><strong>3-месячная зарплата</strong> — стаж свыше 8 лет</li>
+</ul>
+<p>В агентствах временной занятости стаж исчисляется по отношению к агентству, а не к компании-пользователю. При коротких контрактах выходное пособие редкость, но об этом стоит знать.</p>
+
+<h2>Документы при окончании договора — чеклист</h2>
+<ul>
+<li>✅ Świadectwo pracy (свидетельство о работе) — не позднее 7 дней</li>
+<li>✅ Zaświadczenie o zarobkach (справка о заработке для центра занятости)</li>
+<li>✅ PIT-11 (налоговая справка — до конца февраля за предыдущий год)</li>
+<li>✅ Расчёт сверхурочных и премий</li>
+<li>✅ Подтверждение снятия с учёта ZUS (ZWUA)</li>
+</ul>
+
+<h2>Что делать, если работодатель нарушает ваши права?</h2>
+<ul>
+<li>Подать жалобу в <strong>Государственную инспекцию труда (PIP)</strong> — бесплатно, анонимно</li>
+<li>Обратиться в <strong>Трудовой суд (Sąd Pracy)</strong> — трудовые дела освобождены от судебных сборов</li>
+</ul>
+
+<h2>После окончания договора — что дальше?</h2>
+<ul>
+<li><strong>Новый контракт с тем же агентством</strong> — можно договориться об условиях</li>
+<li><strong>Регистрация в Центре занятости (Urząd Pracy)</strong> — проверьте право на пособие по безработице (минимум 365 дней взносов за 18 месяцев)</li>
+<li><strong>Обновление разрешения на работу</strong> — при смене работодателя проверьте, действует ли ваше разрешение</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Завершение срочного трудового договора не должно быть стрессом. Ваши права в Польше — такие же, как у польских работников, независимо от гражданства. Соберите все документы, проверьте остаток отпуска и смело сообщайте о нарушениях в Инспекцию труда.</p>
+    `.trim(),
+  },
+  {
+    slug: "contract-termination-temp-worker-poland",
+    title: "Contract Termination in Poland — What Foreign Temp Workers Need to Know",
+    description:
+      "What temp workers in Poland need to know when a contract ends — notice periods, mandatory documents, severance pay and how to report violations.",
+    date: "2029-02-01",
+    lang: "en",
+    content: `
+<p>When a contract with a temporary employment agency ends, many workers from Ukraine, Russia, or other non-EU countries do not know what rights they have. In Poland, contract termination is governed by the Labour Code and the Temporary Employment Act. This guide explains what to expect when your contract ends.</p>
+
+<h2>Types of Contract Termination</h2>
+
+<h3>1. Expiry of Fixed-Term Contract</h3>
+<p>Most temporary agency contracts are fixed-term — for example, 3 months or for the duration of a project. When the specified period ends, the contract expires automatically without notice required from either side.</p>
+<p>What you should receive:</p>
+<ul>
+<li><strong>Work certificate (swiadectwo pracy)</strong> — a mandatory document the employer must issue within 7 days of the end of employment.</li>
+<li><strong>Holiday pay compensation</strong> — if you have unused vacation days, you are entitled to a cash payment in lieu.</li>
+<li><strong>Final salary</strong> — paid on the schedule set in your contract (usually by the 10th of the following month).</li>
+</ul>
+
+<h3>2. Notice from the Employer</h3>
+<p>An employer may terminate a contract during its term. The following notice periods apply:</p>
+<ul>
+<li><strong>3 working days</strong> — for contracts lasting up to 2 weeks</li>
+<li><strong>1 week</strong> — for contracts lasting more than 2 weeks, up to 6 months</li>
+<li><strong>2 weeks</strong> — for contracts lasting more than 6 months (fixed-term)</li>
+</ul>
+<p><strong>Important:</strong> For fixed-term contracts, the employer does not have to give a reason for dismissal. For open-ended contracts, they must.</p>
+
+<h3>3. Notice from the Employee</h3>
+<p>You have the right to terminate the contract yourself, observing the same notice periods. Always do this in writing, signed and dated. Keep a copy or proof of delivery.</p>
+
+<h3>4. Immediate Termination for Employer Fault</h3>
+<p>You can terminate the contract without notice if the employer seriously breaches your employment rights: non-payment or delayed wages, dangerous working conditions, or workplace mobbing and discrimination. In this case, you are entitled to compensation equal to your salary for the notice period.</p>
+
+<h2>Am I Entitled to Severance Pay?</h2>
+<p>Severance pay is due when you are dismissed for reasons unrelated to the employee (e.g. job cuts, restructuring):</p>
+<ul>
+<li><strong>1 month salary</strong> — less than 2 years with the employer</li>
+<li><strong>2 months salary</strong> — 2 to 8 years with the employer</li>
+<li><strong>3 months salary</strong> — more than 8 years with the employer</li>
+</ul>
+<p>In temporary agencies, your seniority is calculated with the agency, not the client company. For short contracts, severance is rare but worth knowing about.</p>
+
+<h2>End-of-Contract Document Checklist</h2>
+<ul>
+<li>✅ Work certificate (swiadectwo pracy) — within 7 days</li>
+<li>✅ Earnings statement — for unemployment registration</li>
+<li>✅ PIT-11 tax form — by end of February for the previous year</li>
+<li>✅ Overtime and bonus settlement</li>
+<li>✅ ZUS de-registration confirmation (ZWUA form)</li>
+</ul>
+
+<h2>What to Do If Your Employer Breaks the Rules</h2>
+<p>If the agency or client company does not comply with the law, you can: file a complaint with the <strong>State Labour Inspectorate (PIP)</strong> — free of charge, can be anonymous; or take your case to the <strong>Labour Court (Sad Pracy)</strong> — employment cases are exempt from court fees.</p>
+
+<h2>After the Contract — What is Next?</h2>
+<ul>
+<li><strong>New contract with the same agency</strong> — negotiate new terms</li>
+<li><strong>Register with the Job Centre (Urzad Pracy)</strong> — check if you qualify for unemployment benefit (minimum 365 days of contributions in the past 18 months)</li>
+<li><strong>Update your work permit</strong> — if changing employer, verify your permit remains valid</li>
+</ul>
+
+<h2>Summary</h2>
+<p>The end of a temporary employment contract does not have to be stressful. Your rights as a worker in Poland are the same as those of Polish citizens, regardless of your nationality. Collect all your documents, check your holiday balance, and do not hesitate to report violations to the Labour Inspectorate.</p>
+    `.trim(),
+  },
+  {
+    slug: "swiadczenia-rodzinne-800plus-cudzoziemiec-polska",
+    title: "Świadczenia rodzinne 800+ dla cudzoziemców w Polsce",
+    description:
+      "Świadczenie wychowawcze 800+ dla cudzoziemców w Polsce — kto ma prawo, jak złożyć wniosek i jakie dokumenty są potrzebne.",
+    date: "2029-02-08",
+    lang: "pl",
+    content: `
+<p>Wiele osób pracujących w Polsce na podstawie zezwolenia na pobyt lub karty czasowego pobytu nie wie, że może ubiegać się o świadczenie wychowawcze 800+. Program ten — od 2024 roku znany jako 800+, zastępujący 500+ — przysługuje nie tylko obywatelom polskim. Dowiedz się, kto ma prawo do tego świadczenia i jak złożyć wniosek.</p>
+
+<h2>Co to jest 800+ (świadczenie wychowawcze)?</h2>
+<p>Świadczenie wychowawcze to comiesięczna wypłata <strong>800 zł na każde dziecko</strong> w wieku do 18 lat. Pieniądze mają pomóc w pokryciu kosztów wychowania i edukacji dzieci. Od 1 listopada 2023 roku kwota wzrosła ze 500 zł do 800 zł miesięcznie.</p>
+<p>Program jest finansowany przez Zakład Ubezpieczeń Społecznych (ZUS) i zarządzany przez Ministerstwo Rodziny i Polityki Społecznej. Wniosek składa się online przez Portal Informacyjny ZUS (PUE ZUS) lub przez bank.</p>
+
+<h2>Kto może otrzymać 800+?</h2>
+<p>Prawo do świadczenia wychowawczego mają cudzoziemcy, którzy:</p>
+<ul>
+<li>Przebywają w Polsce legalnie na podstawie karty czasowego pobytu (Karta Pobytu), wizy lub innego zezwolenia</li>
+<li>Są zatrudnieni w Polsce lub prowadzą działalność gospodarczą</li>
+<li>Mają dzieci przebywające razem z nimi w Polsce</li>
+</ul>
+<p><strong>Ważne:</strong> Obywatele Ukrainy przebywający w Polsce na podstawie ochrony czasowej (status UKR) mają prawo do 800+ na takich samych zasadach jak obywatele polscy.</p>
+
+<h2>Kto NIE ma prawa do 800+?</h2>
+<ul>
+<li>Osoby przebywające w Polsce wyłącznie na podstawie wizy turystycznej (Schengen)</li>
+<li>Osoby, których dzieci nie mieszkają w Polsce</li>
+<li>Osoby, które nie dopełniły formalności legalizacyjnych (brak dokumentów pobytowych)</li>
+</ul>
+
+<h2>Jak złożyć wniosek o 800+?</h2>
+<p>Wniosek można złożyć na kilka sposobów:</p>
+<ol>
+<li><strong>Online przez PUE ZUS</strong> — po założeniu konta na pue.zus.pl i potwierdzeniu tożsamości (np. przez Profil Zaufany lub bank)</li>
+<li><strong>Przez bankowość elektroniczną</strong> — wiele banków (PKO BP, ING, mBank, Santander) udostępnia formularz wniosku</li>
+<li><strong>Papierowo w ZUS</strong> — wniosek można pobrać na stronie ZUS i złożyć osobiście lub pocztą</li>
+</ol>
+
+<h2>Jakie dokumenty są potrzebne?</h2>
+<ul>
+<li>Dokument potwierdzający legalny pobyt w Polsce (karta pobytu, wiza, poświadczenie rejestracji UKR)</li>
+<li>Numery PESEL dziecka i wnioskodawcy</li>
+<li>Akt urodzenia dziecka (jeśli dziecko urodziło się za granicą — może być wymagane tłumaczenie)</li>
+<li>W przypadku obywateli Ukrainy z ochroną czasową: potwierdzenie statusu UKR</li>
+</ul>
+
+<h2>Ile wynosi 800+ i jak jest wypłacane?</h2>
+<p>Świadczenie wynosi <strong>800 zł miesięcznie na każde dziecko</strong> poniżej 18. roku życia. Kwota jest stała i nie zależy od dochodu rodziny — każda rodzina dostaje tyle samo. Pieniądze trafiają na konto bankowe wskazane we wniosku, zwykle w ciągu 1-2 tygodni od złożenia wniosku.</p>
+
+<h2>Kiedy złożyć wniosek?</h2>
+<ul>
+<li>Wniosek można złożyć od razu po przyjeździe do Polski, gdy uregulujecie pobyt</li>
+<li>Świadczenie jest przyznawane od miesiąca złożenia wniosku (nie ma wyrównania wstecznego)</li>
+<li>Świadczenie trwa 12 miesięcy — po tym czasie należy odnowić wniosek</li>
+</ul>
+
+<h2>Co robić, gdy wniosek zostanie odrzucony?</h2>
+<p>Jeśli ZUS odmówi przyznania świadczenia, masz prawo do odwołania. Możesz skontaktować się z <strong>Centrum Obsługi Telefonicznej ZUS (tel. 22 560 16 00)</strong> lub skorzystać z bezpłatnej porady w punkcie konsultacyjnym ZUS. Wiele organizacji pozarządowych wspierających cudzoziemców (np. Caritas, Fundacja Ocalenie) może pomóc z procesem odwoławczym.</p>
+
+<h2>Podsumowanie</h2>
+<p>Świadczenie 800+ to realne wsparcie finansowe dla rodzin z dziećmi mieszkających w Polsce — w tym dla cudzoziemców pracujących tymczasowo. Jeśli Twoja sytuacja pobytowa jest uregulowana, warto złożyć wniosek jak najszybciej. Nie trać pieniędzy, które Ci przysługują.</p>
+    `.trim(),
+  },
+  {
+    slug: "simejni-vyplaty-800plus-inozemets-polshcha",
+    title: "Сімейні виплати 800+ для іноземців у Польщі",
+    description:
+      "Виплата 800+ для іноземців у Польщі — хто має право, як подати заяву та які документи потрібні.",
+    date: "2029-02-15",
+    lang: "uk",
+    content: `
+<p>Багато людей, які працюють у Польщі на підставі дозволу на проживання або картки часового перебування, не знають, що можуть претендувати на виплату 800+. Ця програма — з 2024 року відома як 800+ (замість 500+) — стосується не лише польських громадян. Дізнайтесь, хто має право на цю допомогу і як подати заяву.</p>
+
+<h2>Що таке 800+ (виплата на дитину)?</h2>
+<p>Виплата на дитину — це щомісячна виплата <strong>800 злотих на кожну дитину</strong> віком до 18 років. З 1 листопада 2023 року сума зросла з 500 до 800 злотих на місяць. Виплата має допомогти покрити витрати на виховання та навчання дітей.</p>
+<p>Програмою керує Управління соціального страхування Польщі (ZUS). Заяву можна подати онлайн через портал PUE ZUS або через банк.</p>
+
+<h2>Хто може отримати 800+?</h2>
+<p>Право на виплату мають іноземці, які:</p>
+<ul>
+<li>Перебувають у Польщі законно (картка поляка, картка тимчасового проживання, дозвіл на проживання або статус UKR)</li>
+<li>Мають дітей, які також проживають у Польщі</li>
+<li>Займаються трудовою діяльністю в Польщі або ведуть підприємницьку діяльність</li>
+</ul>
+<p><strong>Важливо для громадян України:</strong> Особи, які перебувають у Польщі з тимчасовим захистом (статус UKR), мають право на 800+ на тих самих умовах, що й польські громадяни.</p>
+
+<h2>Хто НЕ має права на 800+?</h2>
+<ul>
+<li>Особи, які перебувають у Польщі виключно за туристичною візою</li>
+<li>Особи, чиї діти проживають за кордоном</li>
+<li>Особи без легального статусу проживання</li>
+</ul>
+
+<h2>Як подати заяву на 800+?</h2>
+<ol>
+<li><strong>Онлайн через PUE ZUS</strong> — після створення акаунту на pue.zus.pl і підтвердження особи (через Profil Zaufany або банк)</li>
+<li><strong>Через інтернет-банкінг</strong> — багато банків (PKO BP, ING, mBank) мають форму заяви</li>
+<li><strong>Паперово в ZUS</strong> — бланк можна завантажити з сайту ZUS і подати особисто або поштою</li>
+</ol>
+
+<h2>Які документи потрібні?</h2>
+<ul>
+<li>Документ, що підтверджує законне перебування (картка поляка, підтвердження статусу UKR)</li>
+<li>Номери PESEL дитини та заявника</li>
+<li>Свідоцтво про народження дитини (якщо дитина народилась за кордоном — може знадобитися переклад)</li>
+</ul>
+
+<h2>Розмір та порядок виплат</h2>
+<p>Виплата становить <strong>800 злотих на місяць на кожну дитину</strong> до 18 років. Сума фіксована і не залежить від доходу сім&apos;ї. Гроші зараховуються на банківський рахунок, вказаний у заяві, зазвичай протягом 1-2 тижнів після подання.</p>
+
+<h2>Підсумок</h2>
+<p>Виплата 800+ — це реальна фінансова підтримка для сімей з дітьми, що проживають у Польщі, включно з іноземними тимчасовими працівниками. Якщо ваш статус перебування оформлений, подайте заяву якомога швидше. Не втрачайте гроші, на які маєте право.</p>
+    `.trim(),
+  },
+  {
+    slug: "semejnye-posobiya-800plus-inostranets-polsha",
+    title: "Семейные пособия 800+ для иностранцев в Польше",
+    description:
+      "Пособие 800+ для иностранцев в Польше — кто имеет право, как подать заявление и какие документы нужны.",
+    date: "2029-02-22",
+    lang: "ru",
+    content: `
+<p>Многие люди, работающие в Польше на основании разрешения на проживание или карты временного пребывания, не знают, что могут претендовать на пособие 800+. Эта программа — с 2024 года известная как 800+ (вместо 500+) — распространяется не только на польских граждан. Узнайте, кто имеет право на это пособие и как подать заявление.</p>
+
+<h2>Что такое 800+ (пособие на ребёнка)?</h2>
+<p>Пособие на ребёнка — это ежемесячная выплата <strong>800 злотых на каждого ребёнка</strong> в возрасте до 18 лет. С 1 ноября 2023 года сумма увеличилась с 500 до 800 злотых в месяц. Пособие призвано помочь покрыть расходы на воспитание и обучение детей.</p>
+<p>Программой управляет Управление социального страхования Польши (ZUS). Заявление можно подать онлайн через портал PUE ZUS или через банк.</p>
+
+<h2>Кто может получить 800+?</h2>
+<p>Право на пособие имеют иностранцы, которые:</p>
+<ul>
+<li>Законно находятся в Польше (карта временного проживания, виза, статус UKR)</li>
+<li>Работают в Польше или ведут предпринимательскую деятельность</li>
+<li>Имеют детей, которые также проживают в Польше</li>
+</ul>
+<p><strong>Важно для граждан Украины:</strong> Лица, находящиеся в Польше с временной защитой (статус UKR), имеют право на 800+ на тех же условиях, что и польские граждане.</p>
+
+<h2>Кто НЕ имеет права на 800+?</h2>
+<ul>
+<li>Лица, находящиеся в Польше исключительно по туристической визе</li>
+<li>Лица, чьи дети проживают за рубежом</li>
+<li>Лица без легального статуса проживания</li>
+</ul>
+
+<h2>Как подать заявление на 800+?</h2>
+<ol>
+<li><strong>Онлайн через PUE ZUS</strong> — после создания аккаунта на pue.zus.pl и подтверждения личности (через Profil Zaufany или банк)</li>
+<li><strong>Через интернет-банкинг</strong> — многие банки (PKO BP, ING, mBank) имеют форму заявления</li>
+<li><strong>Бумажно в ZUS</strong> — бланк можно скачать с сайта ZUS и подать лично или по почте</li>
+</ol>
+
+<h2>Какие документы нужны?</h2>
+<ul>
+<li>Документ, подтверждающий законное пребывание (карта проживания, подтверждение статуса UKR)</li>
+<li>Номера PESEL ребёнка и заявителя</li>
+<li>Свидетельство о рождении ребёнка (если ребёнок родился за рубежом — может потребоваться перевод)</li>
+</ul>
+
+<h2>Размер и порядок выплат</h2>
+<p>Пособие составляет <strong>800 злотых в месяц на каждого ребёнка</strong> до 18 лет. Сумма фиксированная и не зависит от дохода семьи. Деньги зачисляются на банковский счёт, указанный в заявлении, обычно в течение 1-2 недель после подачи.</p>
+
+<h2>Итог</h2>
+<p>Пособие 800+ — это реальная финансовая поддержка для семей с детьми, проживающих в Польше, включая иностранных временных работников. Если ваш статус проживания оформлен, подайте заявление как можно скорее. Не теряйте деньги, на которые вы имеете право.</p>
+    `.trim(),
+  },
+  {
+    slug: "family-benefit-800plus-foreign-worker-poland",
+    title: "Family Benefit 800+ for Foreign Workers in Poland",
+    description:
+      "The 800+ child benefit for foreign workers in Poland — who qualifies, how to apply, what documents you need and what to do if rejected.",
+    date: "2029-03-01",
+    lang: "en",
+    content: `
+<p>Many people working in Poland on a temporary residence permit do not know they can apply for the 800+ child benefit. This programme — known since 2024 as 800+ (formerly 500+) — is not limited to Polish citizens. Find out who qualifies and how to apply.</p>
+
+<h2>What is the 800+ Benefit?</h2>
+<p>The 800+ is a monthly payment of <strong>800 PLN per child</strong> aged up to 18. Since November 2023 the amount increased from 500 PLN to 800 PLN per month. The benefit is designed to help cover the costs of raising and educating children.</p>
+<p>The programme is administered by the Polish Social Insurance Institution (ZUS). Applications are submitted online via the PUE ZUS portal or through your bank.</p>
+
+<h2>Who Can Receive 800+?</h2>
+<p>Foreign workers in Poland are eligible if they:</p>
+<ul>
+<li>Are legally residing in Poland (temporary residence card, visa, or UKR protection status)</li>
+<li>Are employed in Poland or running a business</li>
+<li>Have children who also live in Poland</li>
+</ul>
+<p><strong>Important for Ukrainian citizens:</strong> Persons residing in Poland under temporary protection (UKR status) are entitled to 800+ under the same conditions as Polish citizens.</p>
+
+<h2>Who Does NOT Qualify?</h2>
+<ul>
+<li>Persons in Poland solely on a tourist (Schengen) visa</li>
+<li>Persons whose children live abroad</li>
+<li>Persons without valid legal residence status</li>
+</ul>
+
+<h2>How to Apply for 800+</h2>
+<ol>
+<li><strong>Online via PUE ZUS</strong> — after creating an account at pue.zus.pl and verifying your identity (through Profil Zaufany or online banking)</li>
+<li><strong>Through your bank</strong> — many banks (PKO BP, ING, mBank, Santander) provide the application form</li>
+<li><strong>Paper form at a ZUS office</strong> — download from zus.pl and submit in person or by post</li>
+</ol>
+
+<h2>What Documents Do You Need?</h2>
+<ul>
+<li>Proof of legal residence in Poland (residence card, UKR status confirmation)</li>
+<li>PESEL numbers for the child and the applicant</li>
+<li>Child's birth certificate (if born abroad, a certified translation may be required)</li>
+</ul>
+
+<h2>Amount and Payment</h2>
+<p>The benefit is <strong>800 PLN per month per child</strong> under 18. The amount is fixed regardless of family income. Payments go to the bank account provided in the application, usually within 1-2 weeks of submission. The benefit period is 12 months, after which you renew the application.</p>
+
+<h2>What If Your Application Is Rejected?</h2>
+<p>If ZUS rejects your application, you have the right to appeal. Contact the ZUS telephone helpline (22 560 16 00) or visit a ZUS advice point. Many NGOs supporting foreigners (e.g. Caritas, Fundacja Ocalenie) can help with the appeal process.</p>
+
+<h2>Summary</h2>
+<p>The 800+ benefit is real financial support for families with children living in Poland, including foreign temporary workers. If your residence status is in order, apply as soon as possible. Do not miss out on money you are entitled to.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobywatel-epuap-e-uslugi-rzadowe-cudzoziemiec",
+    title: "mObywatel i ePUAP — jak korzystać z e-usług rządowych w Polsce",
+    description:
+      "Jak cudzoziemiec z PESEL może korzystać z mObywatel i Profilu Zaufanego — rejestracja, dostępne usługi i co można załatwić online.",
+    date: "2029-03-08",
+    lang: "pl",
+    content: `
+<p>Coraz więcej spraw urzędowych w Polsce można załatwić online — bez stania w kolejce. Aplikacja mObywatel i portal ePUAP umożliwiają m.in. potwierdzenie tożsamości, złożenie wniosków do urzędów, podpisywanie dokumentów i wiele więcej. Czy cudzoziemcy mogą z nich korzystać? Tak — ale są pewne warunki. Oto wszystko, co powinieneś wiedzieć.</p>
+
+<h2>Co to jest mObywatel?</h2>
+<p>mObywatel to oficjalna polska aplikacja rządowa dostępna na Android i iOS. Pozwala ona m.in. na:</p>
+<ul>
+<li>Posiadanie cyfrowego dowodu tożsamości (mDowód — dla obywateli polskich)</li>
+<li>Potwierdzenie tożsamości w wybranych sytuacjach</li>
+<li>Sprawdzenie punktów karnych, prawa jazdy, danych ubezpieczeniowych</li>
+<li>Odbiór pism urzędowych (mSkrzynka)</li>
+<li>Złożenie wniosków o 800+, zasiłek dla bezrobotnych, kartę parkingową</li>
+</ul>
+<p><strong>Cudzoziemcy z PESEL mogą korzystać z mObywatel</strong> — funkcja mDowód nie jest dostępna (to tylko dla obywateli polskich), ale wiele innych usług tak.</p>
+
+<h2>Co to jest Profil Zaufany (ePUAP)?</h2>
+<p>Profil Zaufany (PZ) to bezpłatne, cyfrowe potwierdzenie tożsamości w polskim internecie rządowym. Jest niezbędny do korzystania z e-usług na stronach rządowych (ePUAP, PUE ZUS, Internetowe Konto Pacjenta i inne).</p>
+<p>Cudzoziemcy <strong>z numerem PESEL</strong> mogą założyć Profil Zaufany przez:</p>
+<ol>
+<li><strong>Bankowość elektroniczną</strong> — jeśli Twój bank (np. PKO BP, ING, mBank, Santander) obsługuje to potwierdzenie. To najszybsza metoda.</li>
+<li><strong>Osobiste potwierdzenie w Urzędzie Gminy</strong> — wypełnij wniosek online na login.gov.pl, a potem potwierdź tożsamość osobiście w urzędzie. Bezpłatne.</li>
+<li><strong>Przez aplikację mObywatel</strong> — jeśli masz już inny sposób potwierdzenia (np. przez bank)</li>
+</ol>
+
+<h2>Jak założyć Profil Zaufany — krok po kroku</h2>
+<ol>
+<li>Wejdź na stronę <strong>login.gov.pl</strong></li>
+<li>Kliknij "Utwórz Profil Zaufany"</li>
+<li>Wybierz metodę potwierdzenia tożsamości (bank lub urząd)</li>
+<li>Uzupełnij dane (PESEL, imię, nazwisko, e-mail)</li>
+<li>Potwierdź tożsamość wybraną metodą</li>
+<li>Gotowe — Profil Zaufany aktywny</li>
+</ol>
+<p><strong>Uwaga:</strong> Cudzoziemcy bez PESEL nie mogą założyć Profilu Zaufanego — najpierw uzyskaj PESEL przez Urząd Gminy (meldunek lub wniosek).</p>
+
+<h2>Co możesz załatwić online z Profilem Zaufanym?</h2>
+<ul>
+<li><strong>ZUS</strong> — wgląd w składki, składanie wniosków (800+, zasiłek, e-ZLA), pobieranie dokumentów</li>
+<li><strong>Urząd Pracy</strong> — rejestracja jako bezrobotny, wnioski o zasiłek</li>
+<li><strong>Urząd Skarbowy (e-Urząd Skarbowy)</strong> — roczne rozliczenie PIT, zaświadczenia</li>
+<li><strong>Urząd Miasta/Gminy</strong> — meldowanie online, wnioski o dokumenty</li>
+<li><strong>NFZ (Internetowe Konto Pacjenta)</strong> — historia leczenia, e-recepty, e-skierowania</li>
+</ul>
+
+<h2>Czy mObywatel/ePUAP jest dostępny po ukraińsku lub rosyjsku?</h2>
+<p>Oficjalne portale rządowe (ePUAP, PUE ZUS) działają wyłącznie w języku polskim. Jednak:</p>
+<ul>
+<li>Portal ZUS pue.zus.pl ma częściowe tłumaczenie na język ukraiński</li>
+<li>Wiele urzędów gmin i miast zatrudnia doradców mówiących po ukraińsku lub rosyjsku</li>
+<li>Organizacje takie jak Caritas czy Fundacja Ocalenie oferują bezpłatną pomoc w korzystaniu z e-usług</li>
+</ul>
+
+<h2>Bezpieczeństwo — na co uważać?</h2>
+<ul>
+<li>Nigdy nie udostępniaj danych logowania do Profilu Zaufanego osobom trzecim</li>
+<li>Oficjalne strony rządowe mają domenę gov.pl — uważaj na fałszywe strony</li>
+<li>mObywatel jest dostępny wyłącznie przez oficjalne sklepy (Google Play, App Store)</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>mObywatel i Profil Zaufany (ePUAP) otwierają dostęp do dziesiątek e-usług rządowych — bez wychodzenia z domu. Jeśli masz PESEL, warto jak najszybciej założyć Profil Zaufany przez swój bank. To oszczędność czasu i wygoda, szczególnie gdy nie znasz jeszcze dobrze języka polskiego.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobywatel-epuap-elektroni-poslugy-polshcha",
+    title: "mObywatel та ePUAP — як користуватись е-послугами уряду Польщі",
+    description:
+      "Як іноземець з PESEL може користуватись mObywatel та Profil Zaufany — реєстрація, доступні послуги та що можна вирішити онлайн.",
+    date: "2029-03-15",
+    lang: "uk",
+    content: `
+<p>Все більше питань у Польщі можна вирішити онлайн — без черг. Додаток mObywatel та портал ePUAP дозволяють підтверджувати особу, подавати заяви до установ, підписувати документи та багато іншого. Чи можуть іноземці ними користуватись? Так — але є певні умови. Ось усе, що потрібно знати.</p>
+
+<h2>Що таке mObywatel?</h2>
+<p>mObywatel — це офіційний польський урядовий додаток для Android та iOS. Він дозволяє:</p>
+<ul>
+<li>Мати цифрове посвідчення особи (лише для польських громадян)</li>
+<li>Підтверджувати особу в окремих ситуаціях</li>
+<li>Перевіряти дані страхування, права та штрафні бали</li>
+<li>Отримувати офіційну кореспонденцію (mSkrzynka)</li>
+<li>Подавати заяви на 800+, допомогу по безробіттю, паркувальні картки</li>
+</ul>
+<p><strong>Іноземці з PESEL можуть користуватись mObywatel</strong> — функція цифрового посвідчення недоступна, але більшість сервісів — так.</p>
+
+<h2>Що таке Profil Zaufany (ePUAP)?</h2>
+<p>Profil Zaufany — це безкоштовне цифрове підтвердження особи для польських державних інтернет-сервісів. Він необхідний для використання е-послуг на сайтах ZUS, Urząd Pracy, e-Urząd Skarbowy та інших.</p>
+<p>Іноземці <strong>з номером PESEL</strong> можуть створити Profil Zaufany через:</p>
+<ol>
+<li><strong>Інтернет-банкінг</strong> — якщо ваш банк (PKO BP, ING, mBank, Santander) підтримує цю функцію. Найшвидший спосіб.</li>
+<li><strong>Особисте підтвердження в органах місцевого самоврядування</strong> — заповніть заяву онлайн на login.gov.pl, потім підтвердіть особу особисто в установі. Безкоштовно.</li>
+</ol>
+
+<h2>Як створити Profil Zaufany — покрокова інструкція</h2>
+<ol>
+<li>Перейдіть на сайт <strong>login.gov.pl</strong></li>
+<li>Натисніть "Utwórz Profil Zaufany" (Створити довірений профіль)</li>
+<li>Оберіть спосіб підтвердження (банк або установа)</li>
+<li>Заповніть дані (PESEL, ім&apos;я, прізвище, e-mail)</li>
+<li>Підтвердіть особу обраним способом</li>
+<li>Готово — Profil Zaufany активний</li>
+</ol>
+<p><strong>Важливо:</strong> Іноземці без PESEL не можуть створити Profil Zaufany — спочатку отримайте PESEL через місцеву адміністрацію (реєстрація за місцем проживання).</p>
+
+<h2>Що можна вирішити онлайн з Profil Zaufany?</h2>
+<ul>
+<li><strong>ZUS</strong> — перевірка внесків, подача заяв (800+, допомога по безробіттю)</li>
+<li><strong>Urząd Pracy</strong> — реєстрація як безробітного, заяви на виплати</li>
+<li><strong>Urząd Skarbowy</strong> — річна декларація PIT, довідки</li>
+<li><strong>Urząd Gminy</strong> — реєстрація за місцем проживання (мельдунок), заяви на документи</li>
+<li><strong>NFZ (Internetowe Konto Pacjenta)</strong> — історія лікування, е-рецепти</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>mObywatel та Profil Zaufany відкривають доступ до десятків е-послуг уряду Польщі — без виходу з дому. Якщо у вас є PESEL, якомога швидше створіть Profil Zaufany через свій банк. Це економія часу та зручність, особливо якщо польська мова ще дається складно.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobywatel-epuap-elektronnye-gosuslugi-polsha",
+    title: "mObywatel и ePUAP — как пользоваться электронными госуслугами Польши",
+    description:
+      "Как иностранец с PESEL может пользоваться mObywatel и Profil Zaufany — регистрация, доступные услуги и что можно решить онлайн.",
+    date: "2029-03-22",
+    lang: "ru",
+    content: `
+<p>Всё больше вопросов в Польше можно решить онлайн — без очередей. Приложение mObywatel и портал ePUAP позволяют подтверждать личность, подавать заявления в госорганы, подписывать документы и многое другое. Могут ли иностранцы ими пользоваться? Да — но есть условия. Вот всё, что нужно знать.</p>
+
+<h2>Что такое mObywatel?</h2>
+<p>mObywatel — официальное польское государственное приложение для Android и iOS. Оно позволяет:</p>
+<ul>
+<li>Иметь цифровое удостоверение личности (только для граждан Польши)</li>
+<li>Подтверждать личность в отдельных ситуациях</li>
+<li>Проверять данные страхования, права и штрафные баллы</li>
+<li>Получать официальную корреспонденцию (mSkrzynka)</li>
+<li>Подавать заявления на 800+, пособие по безработице, парковочные карты</li>
+</ul>
+<p><strong>Иностранцы с PESEL могут пользоваться mObywatel</strong> — функция цифрового удостоверения недоступна, но большинство сервисов — да.</p>
+
+<h2>Что такое Profil Zaufany (ePUAP)?</h2>
+<p>Profil Zaufany — это бесплатное цифровое подтверждение личности для польских государственных интернет-сервисов. Он необходим для использования е-услуг на сайтах ZUS, Urząd Pracy, e-Urząd Skarbowy и других.</p>
+<p>Иностранцы <strong>с номером PESEL</strong> могут создать Profil Zaufany через:</p>
+<ol>
+<li><strong>Интернет-банкинг</strong> — если ваш банк (PKO BP, ING, mBank, Santander) поддерживает эту функцию. Самый быстрый способ.</li>
+<li><strong>Личное подтверждение в органах местного самоуправления</strong> — заполните заявление онлайн на login.gov.pl, затем подтвердите личность лично в учреждении. Бесплатно.</li>
+</ol>
+
+<h2>Как создать Profil Zaufany — пошаговая инструкция</h2>
+<ol>
+<li>Перейдите на сайт <strong>login.gov.pl</strong></li>
+<li>Нажмите "Utwórz Profil Zaufany" (Создать доверенный профиль)</li>
+<li>Выберите способ подтверждения (банк или учреждение)</li>
+<li>Заполните данные (PESEL, имя, фамилия, e-mail)</li>
+<li>Подтвердите личность выбранным способом</li>
+<li>Готово — Profil Zaufany активен</li>
+</ol>
+<p><strong>Важно:</strong> Иностранцы без PESEL не могут создать Profil Zaufany — сначала получите PESEL через местную администрацию (регистрация по месту жительства).</p>
+
+<h2>Что можно решить онлайн с Profil Zaufany?</h2>
+<ul>
+<li><strong>ZUS</strong> — проверка взносов, подача заявлений (800+, пособие по безработице)</li>
+<li><strong>Urząd Pracy</strong> — регистрация как безработного, заявления на выплаты</li>
+<li><strong>Urząd Skarbowy</strong> — годовая декларация PIT, справки</li>
+<li><strong>Urząd Gminy</strong> — регистрация по месту жительства (мельдунок), заявления на документы</li>
+<li><strong>NFZ (Internetowe Konto Pacjenta)</strong> — история лечения, е-рецепты</li>
+</ul>
+
+<h2>Итог</h2>
+<p>mObywatel и Profil Zaufany открывают доступ к десяткам е-услуг польского правительства — не выходя из дома. Если у вас есть PESEL, создайте Profil Zaufany через свой банк как можно скорее. Это экономия времени и удобство, особенно если польский язык ещё даётся с трудом.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobywatel-epuap-digital-government-services-poland",
+    title: "mObywatel and ePUAP — Using Polish Digital Government Services as a Foreign Worker",
+    description:
+      "How foreign workers with a PESEL can use mObywatel and Profil Zaufany — registration, available services and what you can do online.",
+    date: "2029-03-29",
+    lang: "en",
+    content: `
+<p>More and more official matters in Poland can now be handled online, without queuing at offices. The mObywatel app and the ePUAP portal let you confirm your identity, submit applications, sign documents, and much more. Can foreign workers use them? Yes — but there are conditions. Here is everything you need to know.</p>
+
+<h2>What is mObywatel?</h2>
+<p>mObywatel is the official Polish government app available on Android and iOS. It allows users to:</p>
+<ul>
+<li>Hold a digital ID (mDowod — for Polish citizens only)</li>
+<li>Confirm identity in certain situations</li>
+<li>Check insurance data, driving licence status, and penalty points</li>
+<li>Receive official mail (mSkrzynka)</li>
+<li>Submit applications for 800+ child benefit, unemployment benefit, and parking cards</li>
+</ul>
+<p><strong>Foreign nationals with a PESEL number can use mObywatel</strong> — the digital ID function is not available to non-citizens, but most other services are.</p>
+
+<h2>What is Profil Zaufany (ePUAP)?</h2>
+<p>Profil Zaufany (PZ, Trusted Profile) is a free digital identity confirmation system for Polish government online services. It is required to use e-services on ZUS, Urzad Pracy, e-Urzad Skarbowy and other government websites.</p>
+<p>Foreign nationals <strong>with a PESEL number</strong> can set up Profil Zaufany via:</p>
+<ol>
+<li><strong>Online banking</strong> — if your bank (PKO BP, ING, mBank, Santander) supports identity confirmation. This is the fastest method.</li>
+<li><strong>In-person at a municipal office</strong> — fill in the application at login.gov.pl, then confirm your identity in person at the office. Free of charge.</li>
+</ol>
+
+<h2>How to Set Up Profil Zaufany — Step by Step</h2>
+<ol>
+<li>Go to <strong>login.gov.pl</strong></li>
+<li>Click "Utwórz Profil Zaufany" (Create Trusted Profile)</li>
+<li>Choose confirmation method (bank or office)</li>
+<li>Enter your details (PESEL, first name, surname, email)</li>
+<li>Confirm your identity using the chosen method</li>
+<li>Done — Profil Zaufany is now active</li>
+</ol>
+<p><strong>Note:</strong> Foreign nationals without a PESEL cannot set up Profil Zaufany — first obtain a PESEL through your local municipal office (address registration).</p>
+
+<h2>What Can You Handle Online with Profil Zaufany?</h2>
+<ul>
+<li><strong>ZUS</strong> — check contributions, submit applications (800+, unemployment benefit, e-sick leave)</li>
+<li><strong>Urzad Pracy (Job Centre)</strong> — register as unemployed, apply for benefits</li>
+<li><strong>Urzad Skarbowy (Tax Office)</strong> — annual PIT tax return, certificates</li>
+<li><strong>Urzad Gminy (Municipal Office)</strong> — address registration, document applications</li>
+<li><strong>NFZ (Patient Online Account)</strong> — medical history, e-prescriptions, e-referrals</li>
+</ul>
+
+<h2>Is mObywatel or ePUAP Available in Ukrainian or Russian?</h2>
+<p>Official government portals operate in Polish only. However:</p>
+<ul>
+<li>The ZUS portal (pue.zus.pl) has partial Ukrainian translation</li>
+<li>Many municipal offices employ advisors who speak Ukrainian or Russian</li>
+<li>NGOs such as Caritas and Fundacja Ocalenie offer free assistance with e-services</li>
+</ul>
+
+<h2>Security — What to Watch Out For</h2>
+<ul>
+<li>Never share your Profil Zaufany login credentials with anyone</li>
+<li>Official government sites use the gov.pl domain — beware of fake websites</li>
+<li>Only download mObywatel from official stores (Google Play, App Store)</li>
+</ul>
+
+<h2>Summary</h2>
+<p>mObywatel and Profil Zaufany unlock dozens of Polish government e-services — without leaving home. If you have a PESEL, set up your Profil Zaufany through your bank as soon as possible. It saves time and simplifies life in Poland, especially when the language is still a challenge.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
