@@ -15264,6 +15264,350 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>Polish schools are open to children of foreign nationals — it is a right, not a privilege. Enrolment is straightforward, and the school is obliged to provide language support. If you need help with paperwork or document translation, ask the HR team at Nexflow — we can direct you to the right resources in your area.</p>
     `.trim(),
   },
+  {
+    slug: "oswiadczenie-powierzenie-pracy-cudzoziemiec-polska",
+    title: "Oświadczenie o powierzeniu pracy cudzoziemcowi — kompletny przewodnik",
+    description:
+      "Czym jest oświadczenie o powierzeniu pracy? Kto może z niego skorzystać, jak je uzyskać i ile trwa — przewodnik krok po kroku dla pracowników tymczasowych spoza UE pracujących w Polsce.",
+    date: "2029-06-28",
+    lang: "pl",
+    content: `
+<p>Praca w Polsce jako obywatel Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii czy Rosji jest możliwa bez długiego oczekiwania na zezwolenie na pracę. Kluczem jest <strong>oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</strong> — dokument rejestrowany przez pracodawcę w urzędzie pracy, który umożliwia legalne zatrudnienie w ciągu kilku dni.</p>
+
+<h2>Czym jest oświadczenie o powierzeniu pracy?</h2>
+<p>Oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi (potocznie: „oświadczenie") to uproszczona procedura zatrudnienia obywateli wybranych krajów. Pracodawca rejestruje oświadczenie w <strong>Powiatowym Urzędzie Pracy (PUP)</strong> właściwym dla swojej siedziby. Nie trzeba czekać miesiącami na decyzję ani udowadniać braku polskiego kandydata na stanowisko.</p>
+<p>Procedura ta obejmuje wyłącznie obywateli: <strong>Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii i Rosji</strong>.</p>
+
+<h2>Krok po kroku — jak to działa?</h2>
+
+<h3>Krok 1: Pracodawca rejestruje oświadczenie</h3>
+<p>Pracodawca (w przypadku pracowników tymczasowych — Nexflow jako agencja pracy) składa oświadczenie przez portal <strong>praca.gov.pl</strong> lub osobiście w Powiatowym Urzędzie Pracy. W oświadczeniu wskazuje:</p>
+<ul>
+<li>dane pracodawcy i miejsce wykonywania pracy</li>
+<li>dane pracownika (imię, nazwisko, data urodzenia, obywatelstwo, numer paszportu)</li>
+<li>rodzaj umowy (umowa zlecenie lub umowa o pracę)</li>
+<li>stanowisko i wynagrodzenie (minimum tyle, ile wynosi minimalne wynagrodzenie)</li>
+<li>okres, w którym praca ma być wykonywana (max. 24 miesiące)</li>
+</ul>
+<p>Rejestracja jest <strong>bezpłatna</strong> i zajmuje zwykle <strong>1 dzień roboczy</strong>.</p>
+
+<h3>Krok 2: Urząd wpisuje oświadczenie do ewidencji</h3>
+<p>Powiatowy Urząd Pracy wpisuje oświadczenie do ewidencji i wydaje pracodawcy potwierdzenie ze stemplem. Od tej chwili oświadczenie jest ważnym dokumentem potwierdzającym legalność zatrudnienia.</p>
+
+<h3>Krok 3: Pracownik otrzymuje kopię oświadczenia</h3>
+<p>Nexflow przekazuje pracownikowi kopię zarejestrowanego oświadczenia. To kluczowy dokument — będziesz go potrzebować:</p>
+<ul>
+<li>przy ubieganiu się o wizę pracowniczą (jeśli jeszcze jej nie masz)</li>
+<li>przy kontroli legalności zatrudnienia przez Państwową Inspekcję Pracy</li>
+<li>przy ewentualnym przedłużeniu pobytu lub składaniu wniosku o kartę pobytu</li>
+</ul>
+
+<h3>Krok 4: Przyjazd do Polski i podpisanie umowy</h3>
+<p>Z oświadczeniem możesz wjechać do Polski na podstawie:</p>
+<ul>
+<li><strong>wizy krótkoterminowej (C)</strong> — pobyt do 90 dni</li>
+<li><strong>wizy krajowej (D)</strong> — dla pobytu powyżej 90 dni</li>
+<li><strong>ruchu bezwizowego</strong> — dla obywateli Ukrainy, Gruzji, Mołdawii (do 90 dni w strefie Schengen)</li>
+</ul>
+<p>Po przyjeździe podpisujesz umowę z Nexflow i zaczynasz pracę.</p>
+
+<h2>Jak długo można pracować na oświadczeniu?</h2>
+<p>Maksymalnie <strong>24 miesiące</strong> w ciągu kolejnych 36 miesięcy. Jeden pracodawca może zarejestrować dla jednego pracownika kolejne oświadczenie po wygaśnięciu poprzedniego, lub — jeśli współpraca trwa dłużej — przejść na zezwolenie na pracę.</p>
+
+<h2>Twoje prawa pracownicze na oświadczeniu</h2>
+<p>Pracownik zatrudniony na podstawie oświadczenia ma <strong>dokładnie te same prawa</strong> co obywatel Polski:</p>
+<ul>
+<li>minimalne wynagrodzenie (4 666 zł brutto od 1 stycznia 2026)</li>
+<li>urlop wypoczynkowy (20 lub 26 dni, w zależności od stażu pracy)</li>
+<li>ubezpieczenie ZUS i dostęp do świadczeń NFZ</li>
+<li>prawo do L4 (zwolnienia lekarskiego)</li>
+<li>ochrona przed nieuzasadnionym zwolnieniem</li>
+</ul>
+<p>Nexflow jako agencja pracy tymczasowej rejestruje Cię w ZUS od pierwszego dnia zatrudnienia i odprowadza wszystkie składki.</p>
+
+<h2>Jak Nexflow obsługuje oświadczenie za Ciebie?</h2>
+<p>Jako pracownik tymczasowy Nexflow nie musisz samodzielnie martwić się o oświadczenie. Nexflow:</p>
+<ul>
+<li>rejestruje oświadczenie za Ciebie w odpowiednim urzędzie pracy</li>
+<li>przekazuje Ci komplet dokumentów potrzebnych do konsulatu (jeśli ubiegasz się o wizę)</li>
+<li>rejestruje Cię w ZUS od pierwszego dnia pracy</li>
+<li>wyjaśnia Twoje prawa i obowiązki jako pracownika w Polsce</li>
+</ul>
+<p>Masz pytania? Napisz do nas przez WhatsApp lub odwiedź nexflow.work.</p>
+
+<h2>Najczęstsze pytania</h2>
+
+<h3>Czy oświadczenie to to samo co zezwolenie na pracę?</h3>
+<p>Nie. Oświadczenie to uproszczona procedura dla obywateli 6 krajów, bez decyzji administracyjnej — szybka i bezpłatna. Zezwolenie na pracę (typ A, B, itd.) to odrębna, dłuższa procedura wymagająca złożenia wniosku i oczekiwania na decyzję.</p>
+
+<h3>Czy mogę zmienić pracodawcę, gdy mam oświadczenie?</h3>
+<p>Oświadczenie jest przypisane do konkretnego pracodawcy i konkretnego stanowiska. Zmiana pracodawcy wymaga, aby nowy pracodawca zarejestrował dla Ciebie nowe oświadczenie.</p>
+
+<h3>Co się stanie po 24 miesiącach?</h3>
+<p>Pracodawca może zarejestrować nowe oświadczenie. Alternatywnie, jeśli planujesz dłuższy pobyt w Polsce, złóż wniosek o <strong>kartę czasowego pobytu</strong> — najlepiej zanim wygaśnie Twoja wiza lub aktualne uprawnienie do pobytu.</p>
+
+<h2>Podsumowanie</h2>
+<p>Oświadczenie o powierzeniu pracy to najszybsza i najprostsza droga do legalnej pracy w Polsce dla obywateli Ukrainy, Białorusi, Gruzji, Mołdawii, Armenii i Rosji. Nexflow obsługuje cały proces za Ciebie — od rejestracji po ZUS. Skontaktuj się z nami, aby dowiedzieć się więcej.</p>
+    `.trim(),
+  },
+  {
+    slug: "zayava-pro-doruchennia-roboty-inozemtsiu-polshcha",
+    title: "Заява про доручення роботи іноземцю — покрокова інструкція",
+    description:
+      "Що таке заява про доручення роботи і як вона працює в Польщі? Покрокова інструкція для громадян України, Білорусі та Грузії, які хочуть легально працювати в Польщі.",
+    date: "2029-07-05",
+    lang: "uk",
+    content: `
+<p>Якщо ви є громадянином України, Білорусі, Грузії, Молдови, Вірменії або Росії — ви можете легально почати роботу в Польщі без тривалого очікування на дозвіл на роботу. Ключовий документ — <strong>заява про доручення виконання роботи іноземцю</strong> (по-польськи: <em>oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</em>).</p>
+
+<h2>Що таке заява про доручення роботи?</h2>
+<p>Це спрощена процедура працевлаштування громадян шести країн. Роботодавець реєструє заяву в <strong>Повітовому управлінні зайнятості (PUP)</strong> — і все. Не потрібно чекати місяцями, не потрібно доводити відсутність польського кандидата.</p>
+<p>Процедура доступна лише для громадян: <strong>України, Білорусі, Грузії, Молдови, Вірменії та Росії</strong>.</p>
+
+<h2>Покрокова інструкція</h2>
+
+<h3>Крок 1: Роботодавець реєструє заяву</h3>
+<p>Nexflow як агенція тимчасової праці подає заяву через портал <strong>praca.gov.pl</strong> або особисто в PUP. У заяві вказується:</p>
+<ul>
+<li>дані роботодавця та місце роботи</li>
+<li>дані працівника (ім'я, прізвище, дата народження, громадянство, номер паспорта)</li>
+<li>вид договору (цивільно-правовий або трудовий)</li>
+<li>посада та зарплата (не менше мінімальної)</li>
+<li>період роботи (максимум 24 місяці)</li>
+</ul>
+<p>Реєстрація <strong>безкоштовна</strong> і займає <strong>1 робочий день</strong>.</p>
+
+<h3>Крок 2: Управління зайнятості вносить заяву до реєстру</h3>
+<p>Повітове управління зайнятості реєструє заяву та видає роботодавцю підтвердження з печаткою. З цього моменту заява є дійсним документом, що підтверджує законність працевлаштування.</p>
+
+<h3>Крок 3: Ви отримуєте копію заяви</h3>
+<p>Nexflow передає вам копію зареєстрованої заяви. Цей документ знадобиться:</p>
+<ul>
+<li>при отриманні робочої візи (якщо ви ще її не маєте)</li>
+<li>при перевірках законності зайнятості Державною інспекцією праці</li>
+<li>при продовженні перебування або подачі на картку проживання</li>
+</ul>
+
+<h3>Крок 4: Приїзд до Польщі та підписання договору</h3>
+<p>З заявою ви можете в'їхати до Польщі на підставі:</p>
+<ul>
+<li><strong>Короткострокової візи (C)</strong> — перебування до 90 днів</li>
+<li><strong>Національної візи (D)</strong> — для перебування понад 90 днів</li>
+<li><strong>Безвізового режиму</strong> — для громадян України, Грузії, Молдови (до 90 днів у Шенгені)</li>
+</ul>
+<p>Після приїзду ви підписуєте договір з Nexflow та починаєте роботу.</p>
+
+<h2>Скільки можна працювати за заявою?</h2>
+<p>Максимум <strong>24 місяці</strong> впродовж 36 наступних місяців. Після закінчення терміну роботодавець може зареєструвати нову заяву або оформити дозвіл на роботу.</p>
+
+<h2>Ваші трудові права</h2>
+<p>Працівник за заявою має <strong>ті ж права</strong>, що й громадянин Польщі:</p>
+<ul>
+<li>мінімальна зарплата (4 666 злотих брутто з 2026 р.)</li>
+<li>відпустка (20 або 26 днів залежно від стажу)</li>
+<li>страхування ZUS та доступ до NFZ</li>
+<li>право на лікарняний лист (L4)</li>
+<li>захист від незаконного звільнення</li>
+</ul>
+<p>Nexflow реєструє вас у ZUS з першого дня роботи та сплачує всі внески.</p>
+
+<h2>Як Nexflow полегшує весь процес?</h2>
+<p>Nexflow:</p>
+<ul>
+<li>реєструє заяву за вас у відповідному управлінні зайнятості</li>
+<li>надає вам повний комплект документів для консульства (якщо потрібна віза)</li>
+<li>реєструє вас у ZUS з першого дня роботи</li>
+<li>пояснює ваші права та обов'язки як працівника в Польщі</li>
+</ul>
+<p>Маєте запитання? Напишіть нам у WhatsApp або відвідайте nexflow.work.</p>
+
+<h2>Часті запитання</h2>
+
+<h3>Заява — це те саме, що дозвіл на роботу?</h3>
+<p>Ні. Заява — спрощена процедура для громадян 6 країн, без адміністративного рішення — швидка і безкоштовна. Дозвіл на роботу (тип A, B тощо) — окрема, триваліша процедура.</p>
+
+<h3>Чи можна змінити роботодавця?</h3>
+<p>Заява прив'язана до конкретного роботодавця. При зміні — новий роботодавець реєструє нову заяву.</p>
+
+<h3>Що після 24 місяців?</h3>
+<p>Роботодавець реєструє нову заяву, або ви подаєте на <strong>картку тимчасового проживання</strong> з правом на роботу — краще зробити це завчасно, до закінчення терміну перебування.</p>
+
+<h2>Підсумок</h2>
+<p>Заява про доручення роботи — найшвидший і найпростіший шлях до легальної праці в Польщі для громадян України, Білорусі, Грузії, Молдови, Вірменії та Росії. Nexflow займається всім процесом за вас. Зв'яжіться з нами, щоб дізнатися більше.</p>
+    `.trim(),
+  },
+  {
+    slug: "zayavlenie-o-poruchenii-raboty-inostranets-polsha",
+    title: "Заявление о поручении работы иностранному гражданину — пошаговая инструкция",
+    description:
+      "Что такое заявление о поручении работы и как оно работает в Польше? Пошаговая инструкция для граждан Украины, Беларуси и Грузии, которые хотят легально работать в Польше.",
+    date: "2029-07-12",
+    lang: "ru",
+    content: `
+<p>Если вы гражданин Украины, Беларуси, Грузии, Молдовы, Армении или России — вы можете легально начать работу в Польше без длительного ожидания разрешения на работу. Ключевой документ — <strong>заявление о поручении выполнения работы иностранному гражданину</strong> (по-польски: <em>oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</em>).</p>
+
+<h2>Что такое заявление о поручении работы?</h2>
+<p>Это упрощённая процедура трудоустройства граждан шести стран. Работодатель регистрирует заявление в <strong>Районном управлении занятости (PUP)</strong> — и всё. Не нужно ждать месяцами, не нужно доказывать отсутствие польского кандидата.</p>
+<p>Процедура доступна только для граждан: <strong>Украины, Беларуси, Грузии, Молдовы, Армении и России</strong>.</p>
+
+<h2>Пошаговая инструкция</h2>
+
+<h3>Шаг 1: Работодатель регистрирует заявление</h3>
+<p>Nexflow как агентство временного труда подаёт заявление через портал <strong>praca.gov.pl</strong> или лично в PUP. В заявлении указывается:</p>
+<ul>
+<li>данные работодателя и место работы</li>
+<li>данные работника (имя, фамилия, дата рождения, гражданство, номер паспорта)</li>
+<li>вид договора (гражданско-правовой или трудовой)</li>
+<li>должность и зарплата (не ниже минимальной)</li>
+<li>период работы (максимум 24 месяца)</li>
+</ul>
+<p>Регистрация <strong>бесплатная</strong> и занимает <strong>1 рабочий день</strong>.</p>
+
+<h3>Шаг 2: Управление занятости вносит заявление в реестр</h3>
+<p>Районное управление занятости регистрирует заявление и выдаёт работодателю подтверждение с печатью. С этого момента заявление является действительным документом, подтверждающим законность трудоустройства.</p>
+
+<h3>Шаг 3: Вы получаете копию заявления</h3>
+<p>Nexflow передаёт вам копию зарегистрированного заявления. Этот документ понадобится:</p>
+<ul>
+<li>при получении рабочей визы (если у вас её ещё нет)</li>
+<li>при проверках законности занятости Государственной инспекцией труда</li>
+<li>при продлении пребывания или подаче на карту проживания</li>
+</ul>
+
+<h3>Шаг 4: Приезд в Польшу и подписание договора</h3>
+<p>С заявлением вы можете въехать в Польшу на основании:</p>
+<ul>
+<li><strong>Краткосрочной визы (C)</strong> — пребывание до 90 дней</li>
+<li><strong>Национальной визы (D)</strong> — для пребывания свыше 90 дней</li>
+<li><strong>Безвизового режима</strong> — для граждан Украины, Грузии, Молдовы (до 90 дней в Шенгенской зоне)</li>
+</ul>
+<p>После приезда вы подписываете договор с Nexflow и начинаете работу.</p>
+
+<h2>Сколько можно работать по заявлению?</h2>
+<p>Максимум <strong>24 месяца</strong> в течение последующих 36 месяцев. После истечения срока работодатель может зарегистрировать новое заявление или оформить разрешение на работу.</p>
+
+<h2>Ваши трудовые права</h2>
+<p>Работник по заявлению имеет <strong>те же права</strong>, что и гражданин Польши:</p>
+<ul>
+<li>минимальная зарплата (4 666 злотых брутто с 2026 г.)</li>
+<li>отпуск (20 или 26 дней в зависимости от стажа)</li>
+<li>страхование ZUS и доступ к NFZ</li>
+<li>право на больничный лист (L4)</li>
+<li>защита от незаконного увольнения</li>
+</ul>
+<p>Nexflow регистрирует вас в ZUS с первого дня работы и уплачивает все взносы.</p>
+
+<h2>Как Nexflow упрощает весь процесс?</h2>
+<p>Nexflow:</p>
+<ul>
+<li>регистрирует заявление за вас в соответствующем управлении занятости</li>
+<li>предоставляет полный комплект документов для консульства (если нужна виза)</li>
+<li>регистрирует вас в ZUS с первого дня работы</li>
+<li>разъясняет ваши права и обязанности как работника в Польше</li>
+</ul>
+<p>Есть вопросы? Напишите нам в WhatsApp или посетите nexflow.work.</p>
+
+<h2>Часто задаваемые вопросы</h2>
+
+<h3>Заявление — это то же самое, что разрешение на работу?</h3>
+<p>Нет. Заявление — упрощённая процедура для граждан 6 стран, без административного решения — быстрая и бесплатная. Разрешение на работу (тип A, B и др.) — отдельная, более длительная процедура.</p>
+
+<h3>Можно ли сменить работодателя?</h3>
+<p>Заявление привязано к конкретному работодателю. При смене — новый работодатель регистрирует новое заявление.</p>
+
+<h3>Что после 24 месяцев?</h3>
+<p>Работодатель регистрирует новое заявление, или вы подаёте на <strong>карту временного проживания</strong> с правом на работу — лучше сделать это заблаговременно, до истечения срока пребывания.</p>
+
+<h2>Итог</h2>
+<p>Заявление о поручении работы — самый быстрый и простой путь к легальному трудоустройству в Польше для граждан Украины, Беларуси, Грузии, Молдовы, Армении и России. Nexflow берёт на себя весь процесс. Свяжитесь с нами, чтобы узнать подробности.</p>
+    `.trim(),
+  },
+  {
+    slug: "employer-statement-entrusting-work-poland-guide",
+    title: "Employer Statement of Entrusting Work — How to Legally Work in Poland",
+    description:
+      "What is the employer statement of entrusting work and how does it work in Poland? A step-by-step guide for citizens of Ukraine, Belarus, and Georgia who want to work legally in Poland.",
+    date: "2029-07-19",
+    lang: "en",
+    content: `
+<p>If you are a citizen of Ukraine, Belarus, Georgia, Moldova, Armenia, or Russia, you can legally start working in Poland without waiting months for a formal work permit. The key document is the <strong>employer statement of entrusting work to a foreigner</strong> (Polish: <em>oświadczenie o powierzeniu wykonywania pracy cudzoziemcowi</em>).</p>
+
+<h2>What Is the Employer Statement of Entrusting Work?</h2>
+<p>This is a simplified employment procedure available to citizens of six specific countries. The employer registers the statement with the <strong>District Labour Office (PUP)</strong> — that is all. No months of waiting, no need to prove that no Polish candidate was available.</p>
+<p>The procedure is available only to citizens of: <strong>Ukraine, Belarus, Georgia, Moldova, Armenia, and Russia</strong>.</p>
+
+<h2>Step-by-Step: How It Works</h2>
+
+<h3>Step 1: The Employer Registers the Statement</h3>
+<p>Nexflow, as a temporary staffing agency, submits the statement through the <strong>praca.gov.pl</strong> portal or in person at the District Labour Office. The statement includes:</p>
+<ul>
+<li>employer details and workplace location</li>
+<li>worker details (first name, surname, date of birth, nationality, passport number)</li>
+<li>type of contract (civil-law or employment contract)</li>
+<li>job title and salary (at least the minimum wage)</li>
+<li>period of work (maximum 24 months)</li>
+</ul>
+<p>Registration is <strong>free of charge</strong> and takes <strong>1 business day</strong>.</p>
+
+<h3>Step 2: The Labour Office Enters the Statement into the Register</h3>
+<p>The District Labour Office registers the statement and issues the employer a stamped confirmation. From this point on, the statement is a valid document confirming the legality of employment.</p>
+
+<h3>Step 3: You Receive a Copy of the Statement</h3>
+<p>Nexflow provides you with a copy of the registered statement. You will need it:</p>
+<ul>
+<li>when applying for a work visa (if you do not yet have the right to enter Poland)</li>
+<li>during inspections of employment legality by the State Labour Inspectorate (PIP)</li>
+<li>when extending your stay or applying for a residence card</li>
+</ul>
+
+<h3>Step 4: Travel to Poland and Sign the Contract</h3>
+<p>With the statement, you can enter Poland based on:</p>
+<ul>
+<li><strong>Short-stay visa (C)</strong> — stays up to 90 days</li>
+<li><strong>National visa (D)</strong> — for stays exceeding 90 days</li>
+<li><strong>Visa-free travel</strong> — for citizens of Ukraine, Georgia, and Moldova (up to 90 days in the Schengen Area)</li>
+</ul>
+<p>After arriving, you sign the contract with Nexflow and begin work.</p>
+
+<h2>How Long Can You Work Under the Statement?</h2>
+<p>Up to <strong>24 months</strong> within the next 36-month period. After expiry, the employer can register a new statement or apply for a formal work permit on your behalf.</p>
+
+<h2>Your Employment Rights</h2>
+<p>A worker covered by the statement has <strong>exactly the same rights</strong> as a Polish citizen:</p>
+<ul>
+<li>minimum wage (PLN 4,666 gross from 1 January 2026)</li>
+<li>annual leave (20 or 26 days depending on seniority)</li>
+<li>ZUS social insurance and access to NFZ public healthcare</li>
+<li>right to sick leave (L4)</li>
+<li>protection against unlawful dismissal</li>
+</ul>
+<p>Nexflow registers you with ZUS from your very first day of employment and pays all contributions on your behalf.</p>
+
+<h2>How Nexflow Handles Everything for You</h2>
+<p>Nexflow:</p>
+<ul>
+<li>registers the statement on your behalf at the relevant labour office</li>
+<li>provides all documents you need for your visa application</li>
+<li>registers you with ZUS from your first day of work</li>
+<li>explains your rights and obligations as a worker in Poland</li>
+</ul>
+<p>Have questions? Message us on WhatsApp or visit nexflow.work.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is the employer statement the same as a work permit?</h3>
+<p>No. The statement is a fast, simplified procedure for six nationalities — no administrative decision required, no fees. A work permit (type A, B, etc.) is a separate, longer process that requires submitting an application and waiting for a decision.</p>
+
+<h3>Can I change employers?</h3>
+<p>The statement is tied to a specific employer. If you change employers, the new employer must register a new statement for you.</p>
+
+<h3>What happens after 24 months?</h3>
+<p>The employer can register a new statement. Alternatively, if you plan a longer stay in Poland, apply for a <strong>temporary residence card</strong> (karta czasowego pobytu) — ideally before your current visa or permission to stay expires.</p>
+
+<h2>Summary</h2>
+<p>The employer statement of entrusting work is the fastest and simplest route to legal employment in Poland for citizens of Ukraine, Belarus, Georgia, Moldova, Armenia, and Russia. Nexflow handles the entire process on your behalf — from registration to ZUS enrolment. Contact us to find out more.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
