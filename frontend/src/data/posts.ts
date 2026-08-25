@@ -15608,6 +15608,1070 @@ Yes — for a partial month, leave accrues proportionally (rounded up to a full 
 <p>The employer statement of entrusting work is the fastest and simplest route to legal employment in Poland for citizens of Ukraine, Belarus, Georgia, Moldova, Armenia, and Russia. Nexflow handles the entire process on your behalf — from registration to ZUS enrolment. Contact us to find out more.</p>
     `.trim(),
   },
+  {
+    slug: "swieta-ustawowe-pracownik-tymczasowy-polska",
+    title: "Święta ustawowe w Polsce – co musi wiedzieć pracownik tymczasowy",
+    description:
+      "Dowiedz się, ile jest świąt ustawowych w Polsce, czy pracownik tymczasowy ma prawo do wolnego, oraz co należy Ci się za pracę w święto.",
+    date: "2029-07-26",
+    lang: "pl",
+    content: `
+<h2>Święta ustawowe w Polsce – prawa pracownika tymczasowego</h2>
+
+<p>Pracując w Polsce jako obcokrajowiec, masz takie same prawa do dni wolnych w czasie świąt ustawowych jak każdy inny pracownik. Niezależnie od tego, czy jesteś zatrudniony przez agencję pracy tymczasowej, czy bezpośrednio przez pracodawcę – polskie prawo chroni Cię w równym stopniu.</p>
+
+<h3>Czym są święta ustawowe?</h3>
+
+<p>Święta ustawowe to dni wolne od pracy określone przez ustawę o dniach wolnych od pracy. W Polsce obowiązuje <strong>14 świąt ustawowych</strong> w ciągu roku. W te dni pracodawca zasadniczo nie może wymagać od Ciebie pracy, a jeśli to zrobi, przysługują Ci dodatkowe uprawnienia.</p>
+
+<h3>Lista 14 świąt ustawowych w Polsce</h3>
+
+<ul>
+  <li><strong>1 stycznia</strong> – Nowy Rok</li>
+  <li><strong>6 stycznia</strong> – Święto Trzech Króli</li>
+  <li><strong>Niedziela wielkanocna</strong> – zmienna (marzec/kwiecień)</li>
+  <li><strong>Poniedziałek wielkanocny</strong> – dzień po Niedzieli Wielkanocnej</li>
+  <li><strong>1 maja</strong> – Święto Pracy</li>
+  <li><strong>3 maja</strong> – Święto Konstytucji 3 Maja</li>
+  <li><strong>Niedziela Zielonych Świąt</strong> – 7 tygodni po Wielkanocy</li>
+  <li><strong>Boże Ciało</strong> – czwartek 60 dni po Wielkanocy</li>
+  <li><strong>15 sierpnia</strong> – Wniebowzięcie NMP / Święto Wojska Polskiego</li>
+  <li><strong>1 listopada</strong> – Wszystkich Świętych</li>
+  <li><strong>11 listopada</strong> – Narodowe Święto Niepodległości</li>
+  <li><strong>25 grudnia</strong> – Boże Narodzenie (pierwszy dzień)</li>
+  <li><strong>26 grudnia</strong> – Boże Narodzenie (drugi dzień)</li>
+</ul>
+
+<p><em>Uwaga: Wielkanoc obejmuje dwa odrębne dni świąteczne (niedzielę i poniedziałek), stąd łącznie 14 świąt mimo 13 pozycji na liście z datami stałymi.</em></p>
+
+<h3>Twoje prawa jako pracownika tymczasowego</h3>
+
+<h4>1. Wolne z wynagrodzeniem</h4>
+<p>Jeśli święto przypada w dzień tygodnia (poniedziałek–piątek), masz prawo do wolnego z pełnym wynagrodzeniem. Pracodawca (lub agencja pracy tymczasowej) nie może odliczyć tego dnia od Twojego wynagrodzenia.</p>
+
+<h4>2. Praca w święto – co Ci przysługuje</h4>
+<p>Jeśli zostaniesz wezwany do pracy w dniu świątecznym, przysługuje Ci:</p>
+<ul>
+  <li><strong>Normalne wynagrodzenie</strong> za przepracowane godziny, PLUS</li>
+  <li><strong>100% dodatek</strong> (łącznie 200% stawki godzinowej), LUB</li>
+  <li><strong>Inny dzień wolny</strong> w ciągu 6 tygodni od przepracowanego święta</li>
+</ul>
+<p>Pracodawca musi wybrać jedną z tych opcji. Brak zarówno dodatku, jak i dnia wolnego jest naruszeniem Kodeksu pracy.</p>
+
+<h4>3. Święto wypadające w sobotę</h4>
+<p>Gdy święto ustawowe przypada w sobotę, pracownik zatrudniony na pełny etat nabywa prawo do innego dnia wolnego w tym samym roku. Pracodawca wyznacza termin tego dnia.</p>
+
+<h4>4. Święta a urlop wypoczynkowy</h4>
+<p>Święta ustawowe nie są wliczane do wymiaru urlopu wypoczynkowego. Jeśli Twój urlop obejmuje dzień świąteczny, ten dzień nie jest liczony jako dzień urlopu – efektywnie masz o jeden dzień urlopu więcej.</p>
+
+<h3>Pracownicy tymczasowi – szczególne zasady</h3>
+
+<p>Agencja pracy tymczasowej, taka jak Nexflow, jest Twoim formalnym pracodawcą. Oznacza to, że:</p>
+<ul>
+  <li>To agencja jest odpowiedzialna za wypłatę wynagrodzenia za święto, nie firma, w której fizycznie pracujesz (tzw. pracodawca użytkownik).</li>
+  <li>Jeśli pracodawca użytkownik wymaga od Ciebie pracy w święto, agencja musi poinformować Cię o przysługujących uprawnieniach przed przystąpieniem do pracy.</li>
+  <li>Warunki dotyczące pracy w święta powinny być określone w umowie o pracę tymczasową lub regulaminie pracy.</li>
+</ul>
+
+<h3>Praktyczny przykład z magazynu</h3>
+
+<p>Pracujesz w magazynie na nocną zmianę. Twój grafik przewiduje pracę 25 grudnia (Boże Narodzenie). Co Ci przysługuje?</p>
+<ol>
+  <li>Za przepracowane godziny w Boże Narodzenie otrzymujesz 200% normalnej stawki godzinowej.</li>
+  <li>Jeżeli agencja zdecyduje się na wariant dnia wolnego zamiast dodatku, musisz dostać wolny dzień w ciągu 6 tygodni.</li>
+  <li>Jeśli żadne z powyższych nie nastąpi – możesz złożyć skargę do agencji lub do Państwowej Inspekcji Pracy.</li>
+</ol>
+
+<h3>Gdzie szukać pomocy?</h3>
+
+<ul>
+  <li><strong>Nexflow</strong> – skontaktuj się z opiekunem w agencji po każdą pomoc w kwestiach kadrowych.</li>
+  <li><strong>Państwowa Inspekcja Pracy (PIP)</strong> – bezpłatna infolinia: <strong>801 002 006</strong>, strona: www.pip.gov.pl. Skargi mogą być składane anonimowo.</li>
+  <li><strong>Sąd pracy</strong> – w przypadku poważnych naruszeń możesz dochodzić praw sądownie. Koszt pozwu w sprawach pracowniczych jest często zerowy.</li>
+</ul>
+
+<h3>Najczęstsze pytania (FAQ)</h3>
+
+<p><strong>Czy pracownik tymczasowy z Ukrainy ma takie same prawa w święta jak Polak?</strong><br>
+Tak. Kodeks pracy stosuje się do wszystkich pracowników bez względu na obywatelstwo czy rodzaj pozwolenia na pracę.</p>
+
+<p><strong>Co z prawosławną Wielkanocą lub innymi świętami mojego wyznania?</strong><br>
+Polskie prawo nie przyznaje dodatkowych dni wolnych z tytułu wyznania. Możesz jednak złożyć wniosek o urlop wypoczynkowy lub bezpłatny na swoje święto religijne.</p>
+
+<p><strong>Co jeśli 1 i 3 maja wypadają w środku tygodnia – czy mogę wziąć 2 maja jako urlop?</strong><br>
+2 maja to zwykły dzień roboczy. Możesz złożyć wniosek o urlop wypoczynkowy – wielu pracodawców w Polsce umożliwia wzięcie wolnego 2 maja, tworząc długi weekend.</p>
+
+<h3>Podsumowanie</h3>
+
+<p>Jako pracownik tymczasowy w Polsce masz pełne prawo do 14 dni wolnych w roku z tytułu świąt ustawowych. Jeśli Twój grafik przewiduje pracę w taki dzień, należy Ci się 200% wynagrodzenia lub inny dzień wolny. Znaj swoje prawa i nie wahaj się ich dochodzić – jesteśmy tu, by Ci pomóc.</p>
+    `.trim(),
+  },
+  {
+    slug: "svyata-derzhavni-polshcha-tymchasovyi-pratsivnyk",
+    title: "Державні свята в Польщі – права тимчасового працівника",
+    description:
+      "Скільки державних свят у Польщі, чи має тимчасовий працівник право на вихідний день, і що вам належить за роботу в свято.",
+    date: "2029-08-02",
+    lang: "uk",
+    content: `
+<h2>Державні свята в Польщі – права тимчасового працівника</h2>
+
+<p>Працюючи в Польщі як іноземець, ви маєте такі самі права на вихідні в дні державних свят, як і будь-який інший працівник. Незалежно від того, чи ви найняті через агентство тимчасової праці, чи безпосередньо роботодавцем – польське трудове законодавство захищає вас однаково.</p>
+
+<h3>Що таке державні свята у Польщі?</h3>
+
+<p>Державні свята (польською: <em>święta ustawowe</em>) – це нерабочі дні, визначені законом. У Польщі існує <strong>14 державних свят</strong> на рік. У ці дні роботодавець, як правило, не може зобов'язати вас працювати, а якщо може – ви маєте право на додаткові гарантії.</p>
+
+<h3>Перелік 14 державних свят Польщі</h3>
+
+<ul>
+  <li><strong>1 січня</strong> – Новий рік</li>
+  <li><strong>6 січня</strong> – Богоявлення (Три Королі)</li>
+  <li><strong>Великодня неділя</strong> – змінна дата (березень/квітень)</li>
+  <li><strong>Великодній понеділок</strong> – наступний день після Великодньої неділі</li>
+  <li><strong>1 травня</strong> – День праці</li>
+  <li><strong>3 травня</strong> – День Конституції</li>
+  <li><strong>Зелена неділя (П'ятидесятниця)</strong> – через 7 тижнів після Великодня</li>
+  <li><strong>Свято Тіла Господнього</strong> – четвер, 60 днів після Великодня</li>
+  <li><strong>15 серпня</strong> – Успіння Пресвятої Богородиці / День Польського Війська</li>
+  <li><strong>1 листопада</strong> – День Всіх Святих</li>
+  <li><strong>11 листопада</strong> – День Незалежності</li>
+  <li><strong>25 грудня</strong> – Різдво (перший день)</li>
+  <li><strong>26 грудня</strong> – Різдво (другий день)</li>
+</ul>
+
+<p><em>Примітка: Великдень охоплює два окремих свята (неділю і понеділок), тому всього 14 свят.</em></p>
+
+<h3>Ваші права як тимчасового працівника</h3>
+
+<h4>1. Вихідний день зі збереженням зарплати</h4>
+<p>Якщо державне свято припадає на будній день (понеділок–п'ятниця), ви маєте право на вихідний з повною оплатою.</p>
+
+<h4>2. Робота в свято – що вам належить</h4>
+<p>Якщо вас залучають до роботи у святковий день, вам належить:</p>
+<ul>
+  <li><strong>Звичайна зарплата</strong> за відпрацьовані години, ПЛЮС</li>
+  <li><strong>100% надбавка</strong> (разом 200% погодинної ставки), АБО</li>
+  <li><strong>Інший вихідний день</strong> протягом 6 тижнів після відпрацьованого свята</li>
+</ul>
+<p>Роботодавець повинен обрати один із варіантів. Якщо ані надбавки, ані вихідного немає – це порушення Трудового кодексу.</p>
+
+<h4>3. Свято, що припадає на суботу</h4>
+<p>Коли державне свято припадає на суботу, працівник на повній ставці отримує право на додатковий вихідний день у тому ж році.</p>
+
+<h4>4. Свята та щорічна відпустка</h4>
+<p>Державні свята не зараховуються до днів щорічної відпустки. Якщо ваша відпустка включає святковий день, цей день не вираховується з відпустки.</p>
+
+<h3>Тимчасові працівники – особливі правила</h3>
+
+<p>Агентство тимчасової праці Nexflow є вашим офіційним роботодавцем і несе відповідальність за оплату святкового дня, а не підприємство, де ви фізично працюєте.</p>
+
+<h3>Де шукати допомогу?</h3>
+
+<ul>
+  <li><strong>Nexflow</strong> – зверніться до куратора в агентстві.</li>
+  <li><strong>Державна інспекція праці (PIP)</strong> – гаряча лінія: <strong>801 002 006</strong>, www.pip.gov.pl. Скарги можна подавати анонімно.</li>
+  <li><strong>Трудовий суд</strong> – у більшості трудових спорів держмито не стягується.</li>
+</ul>
+
+<h3>Часті запитання</h3>
+
+<p><strong>Чи має тимчасовий працівник з України такі самі права у свята?</strong><br>
+Так. Трудовий кодекс Польщі застосовується до всіх незалежно від громадянства.</p>
+
+<p><strong>А як щодо православного Великодня?</strong><br>
+Польське законодавство не передбачає додаткових вихідних. Але ви можете взяти відпустку в цей день.</p>
+
+<h3>Підсумок</h3>
+
+<p>Як тимчасовий працівник у Польщі ви маєте право на 14 вихідних у дні державних свят. За роботу в свято – 200% зарплати або додатковий вихідний. Знайте свої права і звертайтеся до Nexflow за допомогою.</p>
+    `.trim(),
+  },
+  {
+    slug: "ofitsialnye-prazdniki-polsha-vremennyj-rabotnik",
+    title: "Официальные праздники в Польше – права временного работника",
+    description:
+      "Сколько официальных праздников в Польше, имеет ли временный работник право на выходной, и что полагается за работу в праздник.",
+    date: "2029-08-09",
+    lang: "ru",
+    content: `
+<h2>Официальные праздники в Польше – права временного работника</h2>
+
+<p>Работая в Польше как иностранец, вы имеете те же права на выходные дни в государственные праздники, что и любой другой работник. Независимо от того, трудоустроены ли вы через агентство временного труда или напрямую — польское трудовое законодательство защищает вас в равной степени.</p>
+
+<h3>Что такое официальные праздники в Польше?</h3>
+
+<p>Официальные праздники (<em>święta ustawowe</em>) — это нерабочие дни, установленные законом. В Польше их <strong>14 в год</strong>. В эти дни работодатель, как правило, не вправе обязывать вас работать, а если всё же привлекает — вам полагаются дополнительные гарантии.</p>
+
+<h3>Список 14 официальных праздников Польши</h3>
+
+<ul>
+  <li><strong>1 января</strong> – Новый год</li>
+  <li><strong>6 января</strong> – Крещение (Три Короля)</li>
+  <li><strong>Пасхальное воскресенье</strong> – плавающая дата (март/апрель)</li>
+  <li><strong>Пасхальный понедельник</strong> – следующий день после Пасхи</li>
+  <li><strong>1 мая</strong> – День труда</li>
+  <li><strong>3 мая</strong> – День Конституции</li>
+  <li><strong>Троицкое воскресенье (Зелёные Святки)</strong> – через 7 недель после Пасхи</li>
+  <li><strong>Тело Господне</strong> – четверг, 60 дней после Пасхи</li>
+  <li><strong>15 августа</strong> – Успение Богородицы / День Войска Польского</li>
+  <li><strong>1 ноября</strong> – День всех святых</li>
+  <li><strong>11 ноября</strong> – День независимости</li>
+  <li><strong>25 декабря</strong> – Рождество (первый день)</li>
+  <li><strong>26 декабря</strong> – Рождество (второй день)</li>
+</ul>
+
+<p><em>Примечание: Пасха включает два отдельных праздника (воскресенье и понедельник), поэтому всего 14 праздников.</em></p>
+
+<h3>Ваши права как временного работника</h3>
+
+<h4>1. Выходной с сохранением зарплаты</h4>
+<p>Если праздник выпадает на будний день (понедельник–пятница), вы имеете право на оплачиваемый выходной. Работодатель не может вычесть этот день из зарплаты.</p>
+
+<h4>2. Работа в праздник – что вам положено</h4>
+<p>Если вас привлекают к работе в праздничный день, вам полагается:</p>
+<ul>
+  <li><strong>Обычная зарплата</strong> за отработанные часы, ПЛЮС</li>
+  <li><strong>100% надбавка</strong> (итого 200% часовой ставки), ИЛИ</li>
+  <li><strong>Другой выходной день</strong> в течение 6 недель после отработанного праздника</li>
+</ul>
+<p>Работодатель обязан выбрать один из вариантов. Отсутствие и надбавки, и выходного — нарушение Трудового кодекса.</p>
+
+<h4>3. Праздник, выпадающий на субботу</h4>
+<p>Если официальный праздник совпадает с субботой, работник на полной ставке получает право на дополнительный выходной в том же году.</p>
+
+<h4>4. Праздники и ежегодный отпуск</h4>
+<p>Официальные праздники не входят в дни ежегодного отпуска. Если в период отпуска выпадает праздник, этот день не засчитывается как отпускной.</p>
+
+<h3>Временные работники – особые правила</h3>
+
+<p>Агентство временного труда Nexflow является вашим официальным работодателем и несёт ответственность за оплату праздничного дня — а не предприятие, где вы фактически работаете.</p>
+
+<h3>Где искать помощь?</h3>
+
+<ul>
+  <li><strong>Nexflow</strong> – обратитесь к куратору в агентстве.</li>
+  <li><strong>Государственная инспекция труда (PIP)</strong> – горячая линия: <strong>801 002 006</strong>, www.pip.gov.pl. Жалобы можно подавать анонимно.</li>
+  <li><strong>Трудовой суд</strong> – в большинстве трудовых споров государственная пошлина не взимается.</li>
+</ul>
+
+<h3>Часто задаваемые вопросы</h3>
+
+<p><strong>Имеет ли временный работник из Украины такие же права в праздники?</strong><br>
+Да. Трудовой кодекс Польши применяется ко всем работникам независимо от гражданства.</p>
+
+<p><strong>А как насчёт православной Пасхи или других религиозных праздников?</strong><br>
+Польское законодательство не предусматривает дополнительных выходных по религиозным основаниям. Однако вы можете взять очередной или неоплачиваемый отпуск на свой праздник.</p>
+
+<h3>Итог</h3>
+
+<p>Как временный работник в Польше вы имеете полное право на 14 выходных в год в официальные праздники. За работу в праздник — 200% зарплаты или дополнительный выходной. Знайте свои права и обращайтесь в Nexflow за помощью.</p>
+    `.trim(),
+  },
+  {
+    slug: "public-holidays-poland-temp-worker-rights",
+    title: "Public Holidays in Poland – Rights of Temporary Workers",
+    description:
+      "How many public holidays does Poland have, do temp workers get paid days off, and what are your rights if you work on a holiday?",
+    date: "2029-08-16",
+    lang: "en",
+    content: `
+<h2>Public Holidays in Poland – Rights of Temporary Workers</h2>
+
+<p>Working in Poland as a foreign national, you have the same rights to public holiday leave as any other employee. Whether you are employed through a temporary staffing agency or directly — Polish labour law protects you equally.</p>
+
+<h3>What Are Public Holidays in Poland?</h3>
+
+<p>Public holidays (<em>święta ustawowe</em>) are days off mandated by law. Poland has <strong>14 public holidays</strong> per year. On these days, your employer generally cannot require you to work, and if they do, you are entitled to additional compensation.</p>
+
+<h3>List of Poland's 14 Public Holidays</h3>
+
+<ul>
+  <li><strong>1 January</strong> – New Year's Day</li>
+  <li><strong>6 January</strong> – Epiphany (Three Kings)</li>
+  <li><strong>Easter Sunday</strong> – variable date (March/April)</li>
+  <li><strong>Easter Monday</strong> – the day after Easter Sunday</li>
+  <li><strong>1 May</strong> – Labour Day</li>
+  <li><strong>3 May</strong> – Constitution Day</li>
+  <li><strong>Whit Sunday (Pentecost)</strong> – 7 weeks after Easter</li>
+  <li><strong>Corpus Christi</strong> – Thursday, 60 days after Easter</li>
+  <li><strong>15 August</strong> – Assumption of Mary / Polish Armed Forces Day</li>
+  <li><strong>1 November</strong> – All Saints' Day</li>
+  <li><strong>11 November</strong> – Independence Day</li>
+  <li><strong>25 December</strong> – Christmas Day (first day)</li>
+  <li><strong>26 December</strong> – Christmas Day (second day)</li>
+</ul>
+
+<p><em>Note: Easter covers two separate holidays (Sunday and Monday), making 14 holidays in total.</em></p>
+
+<h3>Your Rights as a Temporary Worker</h3>
+
+<h4>1. Paid Day Off</h4>
+<p>If a public holiday falls on a weekday (Monday–Friday), you are entitled to a paid day off. Your employer (or the staffing agency) cannot deduct this day from your pay.</p>
+
+<h4>2. Working on a Public Holiday – What You Are Owed</h4>
+<p>If you are required to work on a public holiday, you are entitled to:</p>
+<ul>
+  <li><strong>Your regular pay</strong> for the hours worked, PLUS</li>
+  <li><strong>A 100% premium</strong> (totalling 200% of your hourly rate), OR</li>
+  <li><strong>Another day off</strong> within 6 weeks of the holiday worked</li>
+</ul>
+<p>Your employer must choose one of these options. If you receive neither the premium nor the day off, this is a violation of the Labour Code.</p>
+
+<h4>3. Holiday Falling on a Saturday</h4>
+<p>When a public holiday falls on a Saturday, a full-time employee acquires the right to an additional day off during the same year, on a date determined by the employer.</p>
+
+<h4>4. Public Holidays and Annual Leave</h4>
+<p>Public holidays are not counted as annual leave days. If a holiday falls within your scheduled leave period, that day is not deducted from your leave entitlement.</p>
+
+<h3>Special Rules for Temporary Workers</h3>
+
+<p>A temporary staffing agency such as Nexflow is your formal employer. This means:</p>
+<ul>
+  <li>The agency is responsible for paying your holiday entitlement, not the host company where you physically work.</li>
+  <li>If the host company asks you to work on a public holiday, the agency must inform you of your rights before you start work.</li>
+  <li>The terms for working on public holidays should be stated in your temporary employment contract or the workplace rules.</li>
+</ul>
+
+<h3>Practical Example from a Warehouse</h3>
+
+<p>You work a night shift at a warehouse. Your rota shows you are scheduled to work on 25 December (Christmas Day). What are you owed?</p>
+<ol>
+  <li>For the hours worked on Christmas Day, you receive 200% of your normal hourly rate.</li>
+  <li>If the agency opts for a day off instead of the premium, you must receive a free day within 6 weeks.</li>
+  <li>If neither is provided, file a complaint with the agency or the National Labour Inspectorate (PIP).</li>
+</ol>
+
+<h3>Where to Get Help</h3>
+
+<ul>
+  <li><strong>Nexflow</strong> – contact your agency coordinator for any HR questions.</li>
+  <li><strong>National Labour Inspectorate (PIP)</strong> – free helpline: <strong>801 002 006</strong>, website: www.pip.gov.pl. Complaints can be submitted anonymously.</li>
+  <li><strong>Labour court</strong> – for serious violations you can pursue your rights in court. Most labour claims carry no court fee.</li>
+</ul>
+
+<h3>Frequently Asked Questions</h3>
+
+<p><strong>Does a temporary worker from Ukraine have the same holiday rights as a Polish citizen?</strong><br>
+Yes. The Polish Labour Code applies to all workers regardless of citizenship or work permit type.</p>
+
+<p><strong>What about Orthodox Easter or other religious holidays?</strong><br>
+Polish law does not grant extra days off on religious grounds. However, you can apply for annual or unpaid leave on your religious holiday.</p>
+
+<p><strong>If 1 May and 3 May are both holidays, can I take 2 May off too?</strong><br>
+2 May is a normal working day. You can apply for annual leave — many employers in Poland agree to grant the day off, creating a long weekend.</p>
+
+<h3>Summary</h3>
+
+<p>As a temporary worker in Poland you have the full right to 14 paid days off per year on public holidays. If your schedule requires you to work on one of those days, you are owed 200% pay or an additional day off. Know your rights — and contact Nexflow if you need support.</p>
+    `.trim(),
+  },
+  {
+    slug: "jak-znalezc-lekarza-poz-nfz-cudzoziemiec-polska",
+    title: "Jak znaleźć lekarza rodzinnego i korzystać z NFZ w praktyce",
+    description:
+      "Krok po kroku: jak zapisać się do lekarza POZ w Polsce, korzystać z ubezpieczenia NFZ i umawiać wizytę jako pracownik tymczasowy z zagranicy.",
+    date: "2029-08-23",
+    lang: "pl",
+    content: `
+<h2>Jak znaleźć lekarza i korzystać z NFZ – praktyczny poradnik dla cudzoziemca</h2>
+
+<p>Masz ubezpieczenie zdrowotne NFZ poprzez swoją pracę w Polsce – ale co to właściwie oznacza w praktyce? W tym poradniku tłumaczymy krok po kroku, jak znaleźć lekarza, umówić się na wizytę i korzystać z opieki zdrowotnej bez dodatkowych kosztów.</p>
+
+<h3>Czy pracownik tymczasowy ma dostęp do NFZ?</h3>
+
+<p>Tak. Jeśli pracujesz legalnie w Polsce i jesteś zgłoszony do ZUS przez agencję pracy tymczasowej (np. Nexflow), automatycznie jesteś objęty ubezpieczeniem zdrowotnym NFZ. Możesz to sprawdzić logując się do swojego konta na platformie PUE ZUS (zus.pl) lub przez aplikację mZUS.</p>
+
+<h3>Krok 1: Wybierz lekarza POZ (lekarza pierwszego kontaktu)</h3>
+
+<p>W Polsce podstawowa opieka zdrowotna to tzw. <strong>POZ (Podstawowa Opieka Zdrowotna)</strong>. Lekarz POZ to Twój lekarz rodzinny – to on wystawia recepty, skierowania do specjalistów i zaświadczenia lekarskie (L4).</p>
+
+<p><strong>Jak znaleźć lekarza POZ?</strong></p>
+<ol>
+  <li>Wejdź na stronę <strong>nfz.gov.pl</strong> → zakładka „Gdzie się leczyć" → wyszukaj przychodnie w swojej okolicy.</li>
+  <li>Możesz też zapytać sąsiadów, współpracowników lub zadzwonić do pobliskich przychodni.</li>
+  <li>Upewnij się, że przychodnia podpisała umowę z NFZ – tylko wtedy wizyty są bezpłatne.</li>
+</ol>
+
+<h3>Krok 2: Złóż deklarację POZ</h3>
+
+<p>Wybierając lekarza pierwszego kontaktu, musisz złożyć <strong>deklarację POZ</strong>. To jednokartkowy formularz, który informuje NFZ, że wybrałeś/aś tego konkretnego lekarza jako swojego lekarza rodzinnego.</p>
+
+<p><strong>Co potrzebujesz?</strong></p>
+<ul>
+  <li>Dokument tożsamości (paszport lub karta pobytu)</li>
+  <li>Numer PESEL (jeśli go posiadasz)</li>
+  <li>Potwierdzenie ubezpieczenia (np. zaświadczenie z agencji pracy lub wydruk z PUE ZUS)</li>
+</ul>
+
+<p>Deklarację składasz osobiście w przychodni. Możesz to też zrobić przez portal Internetowe Konto Pacjenta (IKP) na pacjent.gov.pl – po zalogowaniu przez Profil Zaufany.</p>
+
+<h3>Krok 3: Umów wizytę</h3>
+
+<p>Po złożeniu deklaracji możesz umówić wizytę u lekarza POZ:</p>
+<ul>
+  <li><strong>Telefonicznie</strong> – zadzwoń bezpośrednio do przychodni.</li>
+  <li><strong>Osobiście</strong> – przyjdź do rejestracji.</li>
+  <li><strong>Online</strong> – przez stronę przychodni lub portal mojewizyty.pl (nie wszystkie przychodnie).</li>
+  <li><strong>Przez IKP</strong> – na pacjent.gov.pl możesz zobaczyć historię swoich wizyt i wyniki badań.</li>
+</ul>
+
+<p><em>Ważne: wizyta u lekarza POZ jest bezpłatna, jeśli lekarz ma podpisaną umowę z NFZ i jesteś ubezpieczony.</em></p>
+
+<h3>Krok 4: Jak przygotować się do wizyty?</h3>
+
+<p>Przychodząc do lekarza POZ po raz pierwszy:</p>
+<ul>
+  <li>Zabierz dokument tożsamości.</li>
+  <li>Lekarz sprawdzi Twoje ubezpieczenie w systemie eWUŚ (elektroniczna weryfikacja uprawnień).</li>
+  <li>Jeśli Twoje ubezpieczenie nie jest widoczne w systemie, możesz okazać zaświadczenie od pracodawcy lub agencji.</li>
+</ul>
+
+<h3>Recepty i leki</h3>
+
+<p>Lekarz POZ może wystawić Ci e-receptę (receptę elektroniczną) na leki. Realizujesz ją w dowolnej aptece – wystarczy podać numer PESEL lub numer recepty. Wiele leków jest częściowo lub całkowicie refundowanych przez NFZ.</p>
+
+<h3>Kiedy iść do specjalisty?</h3>
+
+<p>Do specjalisty (np. kardiologa, ortopedy, dermatologa) w ramach NFZ potrzebujesz <strong>skierowania od lekarza POZ</strong>. Wyjątki: psychiatra, ginekolog, onkolog, okulista i kilka innych specjalizacji – do nich możesz iść bez skierowania.</p>
+
+<h3>Nagłe przypadki – SOR i pogotowie</h3>
+
+<p>W nagłych przypadkach zagrożenia życia:</p>
+<ul>
+  <li><strong>112</strong> – numer alarmowy (działa po polsku i angielsku)</li>
+  <li><strong>999</strong> – pogotowie ratunkowe</li>
+  <li><strong>SOR (Szpitalny Oddział Ratunkowy)</strong> – izba przyjęć szpitala, otwarta całą dobę, bez skierowania</li>
+</ul>
+
+<p>Na SOR możesz przyjść bez ubezpieczenia w nagłym przypadku – zawsze zostaniesz przyjęty/a.</p>
+
+<h3>Nocna i świąteczna opieka medyczna</h3>
+
+<p>Gdy przychodnia jest zamknięta (wieczory, weekendy, święta), możesz skorzystać z <strong>nocnej i świątecznej opieki zdrowotnej (NiŚOZ)</strong>. Punkty NiŚOZ działają zazwyczaj przy szpitalach i są dostępne bezpłatnie dla ubezpieczonych.</p>
+
+<h3>Telemedycyna – wizyta online</h3>
+
+<p>Wiele przychodni oferuje porady telefoniczne lub wideokonsultacje. To wygodna opcja, gdy masz drobną dolegliwość i potrzebujesz recepty lub L4 bez wychodzenia z domu.</p>
+
+<h3>Podsumowanie</h3>
+
+<p>Korzystanie z NFZ w Polsce jest prostsze, niż myślisz. Najważniejszy pierwszy krok to złożenie deklaracji POZ – bez tego nie masz "swojego" lekarza. Po jej złożeniu masz pełny dostęp do bezpłatnej podstawowej opieki zdrowotnej. Masz pytania? Skontaktuj się z Nexflow – pomożemy Ci się połapać w systemie.</p>
+    `.trim(),
+  },
+  {
+    slug: "yak-znayty-simeynoho-likaria-nfz-polshcha-inozemets",
+    title: "Як знайти сімейного лікаря та користуватися NFZ на практиці",
+    description:
+      "Покроково: як зареєструватися у лікаря POZ, скористатися медичним страхуванням NFZ та записатися на прийом як тимчасовий працівник у Польщі.",
+    date: "2029-08-30",
+    lang: "uk",
+    content: `
+<h2>Як знайти лікаря та користуватися NFZ – практичний посібник для іноземця</h2>
+
+<p>Ви маєте медичне страхування NFZ через роботу в Польщі – але що це означає на практиці? У цьому посібнику ми покроково пояснюємо, як знайти лікаря, записатися на прийом і отримати медичну допомогу безкоштовно.</p>
+
+<h3>Чи має тимчасовий працівник доступ до NFZ?</h3>
+
+<p>Так. Якщо ви легально працюєте в Польщі та зареєстровані в ZUS через агентство (наприклад, Nexflow), ви автоматично застраховані в NFZ. Перевірити це можна через платформу PUE ZUS або додаток mZUS.</p>
+
+<h3>Крок 1: Оберіть лікаря POZ (сімейного лікаря)</h3>
+
+<p>Базова медична допомога в Польщі – це <strong>POZ (Podstawowa Opieka Zdrowotna)</strong>, тобто сімейний лікар. Він виписує рецепти, направлення до спеціалістів і лікарняні листки (L4).</p>
+
+<p><strong>Як знайти лікаря POZ?</strong></p>
+<ol>
+  <li>Зайдіть на <strong>nfz.gov.pl</strong> → "Gdzie się leczyć" → знайдіть поліклініку поруч.</li>
+  <li>Запитайте у колег або зателефонуйте до найближчих поліклінік.</li>
+  <li>Переконайтеся, що поліклініка має договір з NFZ – лише тоді прийоми безкоштовні.</li>
+</ol>
+
+<h3>Крок 2: Подайте декларацію POZ</h3>
+
+<p>Обираючи сімейного лікаря, потрібно подати <strong>декларацію POZ</strong> – це одна сторінка, яка повідомляє NFZ про вибір вашого лікаря.</p>
+
+<p><strong>Що потрібно?</strong></p>
+<ul>
+  <li>Документ, що посвідчує особу (паспорт або картка перебування)</li>
+  <li>Номер PESEL (якщо є)</li>
+  <li>Підтвердження страхування (довідка від агентства або роздруківка з PUE ZUS)</li>
+</ul>
+
+<p>Декларацію подають особисто в поліклініці або через портал IKP на pacjent.gov.pl після входу через Профіль Довірений (Profil Zaufany).</p>
+
+<h3>Крок 3: Запишіться на прийом</h3>
+
+<ul>
+  <li><strong>Телефоном</strong> – зателефонуйте безпосередньо до поліклініки.</li>
+  <li><strong>Особисто</strong> – прийдіть до реєстратури.</li>
+  <li><strong>Онлайн</strong> – через сайт поліклініки або портал mojewizyty.pl.</li>
+  <li><strong>Через IKP</strong> – на pacjent.gov.pl доступна історія ваших прийомів і результати аналізів.</li>
+</ul>
+
+<p><em>Важливо: прийом у лікаря POZ безкоштовний, якщо у вас є страхування NFZ і лікар має договір з NFZ.</em></p>
+
+<h3>Крок 4: Підготуйтеся до прийому</h3>
+
+<ul>
+  <li>Візьміть документ, що посвідчує особу.</li>
+  <li>Лікар перевірить страхування в електронній системі eWUŚ.</li>
+  <li>Якщо страхування не відображається – покажіть довідку від роботодавця або агентства.</li>
+</ul>
+
+<h3>Рецепти та ліки</h3>
+
+<p>Лікар POZ може виписати електронний рецепт (e-receptę). Його можна отримати в будь-якій аптеці – достатньо PESEL або номера рецепту. Багато ліків частково або повністю відшкодовуються NFZ.</p>
+
+<h3>Коли звертатися до спеціаліста?</h3>
+
+<p>До більшості спеціалістів у рамках NFZ потрібне <strong>направлення від лікаря POZ</strong>. Винятки: психіатр, гінеколог, онколог, окуліст та деякі інші – до них можна без направлення.</p>
+
+<h3>Швидка допомога – SOR та швидка</h3>
+
+<ul>
+  <li><strong>112</strong> – екстрений виклик (польська та англійська)</li>
+  <li><strong>999</strong> – швидка допомога</li>
+  <li><strong>SOR</strong> – приймальне відділення лікарні, цілодобово, без направлення</li>
+</ul>
+
+<h3>Нічна та святкова медична допомога</h3>
+
+<p>Коли поліклініка зачинена (вечори, вихідні, свята), можна скористатися <strong>нічною та святковою медичною допомогою (NiŚOZ)</strong>. Пункти зазвичай розташовані при лікарнях, безкоштовні для застрахованих.</p>
+
+<h3>Підсумок</h3>
+
+<p>Скористатися NFZ у Польщі простіше, ніж здається. Головне – подати декларацію POZ. Після цього у вас є повний доступ до безкоштовної первинної медичної допомоги. Запитання? Зверніться до Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "kak-najti-semejnogo-vracha-nfz-polsha-inostranets",
+    title: "Как найти семейного врача и пользоваться NFZ на практике",
+    description:
+      "Пошагово: как записаться к врачу POZ, воспользоваться медицинским страхованием NFZ и записаться на приём как временный работник в Польше.",
+    date: "2029-09-06",
+    lang: "ru",
+    content: `
+<h2>Как найти врача и пользоваться NFZ – практическое руководство для иностранца</h2>
+
+<p>У вас есть медицинская страховка NFZ через работу в Польше — но что это означает на практике? В этом руководстве мы пошагово объясняем, как найти врача, записаться на приём и получить медицинскую помощь бесплатно.</p>
+
+<h3>Имеет ли временный работник доступ к NFZ?</h3>
+
+<p>Да. Если вы легально работаете в Польше и зарегистрированы в ZUS через агентство (например, Nexflow), вы автоматически застрахованы в NFZ. Проверить это можно через платформу PUE ZUS или приложение mZUS.</p>
+
+<h3>Шаг 1: Выберите врача POZ (семейного врача)</h3>
+
+<p>Базовая медицинская помощь в Польше — это <strong>POZ (Podstawowa Opieka Zdrowotna)</strong>, то есть семейный врач. Он выписывает рецепты, направления к специалистам и больничные листы (L4).</p>
+
+<p><strong>Как найти врача POZ?</strong></p>
+<ol>
+  <li>Зайдите на <strong>nfz.gov.pl</strong> → «Gdzie się leczyć» → найдите поликлинику поблизости.</li>
+  <li>Спросите у коллег или позвоните в ближайшие поликлиники.</li>
+  <li>Убедитесь, что поликлиника заключила договор с NFZ — только тогда визиты бесплатны.</li>
+</ol>
+
+<h3>Шаг 2: Подайте декларацию POZ</h3>
+
+<p>Выбирая семейного врача, нужно подать <strong>декларацию POZ</strong> — это одна страница, которая сообщает NFZ о выборе вашего врача.</p>
+
+<p><strong>Что нужно?</strong></p>
+<ul>
+  <li>Документ, удостоверяющий личность (паспорт или карта проживания)</li>
+  <li>Номер PESEL (если есть)</li>
+  <li>Подтверждение страховки (справка от агентства или распечатка из PUE ZUS)</li>
+</ul>
+
+<p>Декларацию подают лично в поликлинике или через портал IKP на pacjent.gov.pl после входа через Доверенный профиль (Profil Zaufany).</p>
+
+<h3>Шаг 3: Запишитесь на приём</h3>
+
+<ul>
+  <li><strong>По телефону</strong> – позвоните напрямую в поликлинику.</li>
+  <li><strong>Лично</strong> – подойдите в регистратуру.</li>
+  <li><strong>Онлайн</strong> – через сайт поликлиники или портал mojewizyty.pl.</li>
+  <li><strong>Через IKP</strong> – на pacjent.gov.pl доступна история визитов и результаты анализов.</li>
+</ul>
+
+<p><em>Важно: приём у врача POZ бесплатен, если у вас есть страховка NFZ и врач заключил договор с NFZ.</em></p>
+
+<h3>Шаг 4: Подготовьтесь к приёму</h3>
+
+<ul>
+  <li>Возьмите документ, удостоверяющий личность.</li>
+  <li>Врач проверит страховку в электронной системе eWUŚ.</li>
+  <li>Если страховка не отображается — покажите справку от работодателя или агентства.</li>
+</ul>
+
+<h3>Рецепты и лекарства</h3>
+
+<p>Врач POZ может выписать электронный рецепт (e-receptę). Его можно получить в любой аптеке — достаточно PESEL или номера рецепта. Многие лекарства частично или полностью возмещаются NFZ.</p>
+
+<h3>Когда обращаться к специалисту?</h3>
+
+<p>К большинству специалистов в рамках NFZ нужно <strong>направление от врача POZ</strong>. Исключения: психиатр, гинеколог, онколог, окулист и некоторые другие — к ним можно без направления.</p>
+
+<h3>Скорая помощь — SOR и скорая</h3>
+
+<ul>
+  <li><strong>112</strong> – экстренный вызов (на польском и английском)</li>
+  <li><strong>999</strong> – скорая помощь</li>
+  <li><strong>SOR</strong> – приёмное отделение больницы, круглосуточно, без направления</li>
+</ul>
+
+<h3>Ночная и праздничная медицинская помощь</h3>
+
+<p>Когда поликлиника закрыта (вечера, выходные, праздники), можно воспользоваться <strong>ночной и праздничной медицинской помощью (NiŚOZ)</strong>. Пункты обычно расположены при больницах и бесплатны для застрахованных.</p>
+
+<h3>Итог</h3>
+
+<p>Воспользоваться NFZ в Польше проще, чем кажется. Главное — подать декларацию POZ. После этого у вас есть полный доступ к бесплатной первичной медицинской помощи. Вопросы? Обращайтесь в Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "how-to-find-gp-nfz-poland-foreign-worker-guide",
+    title: "How to Find a GP and Use NFZ Health Insurance in Poland",
+    description:
+      "Step-by-step: how to register with a GP (POZ), use your NFZ health insurance and book appointments as a temporary foreign worker in Poland.",
+    date: "2029-09-13",
+    lang: "en",
+    content: `
+<h2>How to Find a GP and Use NFZ in Poland – A Practical Guide</h2>
+
+<p>You have NFZ health insurance through your work in Poland — but what does that actually mean? This guide walks you through finding a doctor, booking an appointment and getting free healthcare as a foreign worker.</p>
+
+<h3>Does a Temporary Worker Have Access to NFZ?</h3>
+
+<p>Yes. If you work legally in Poland and are registered with ZUS through a staffing agency such as Nexflow, you are automatically covered by NFZ health insurance. You can verify this on the PUE ZUS platform (zus.pl) or via the mZUS app.</p>
+
+<h3>Step 1: Choose a POZ Doctor (GP / Family Doctor)</h3>
+
+<p>Primary healthcare in Poland is called <strong>POZ (Podstawowa Opieka Zdrowotna)</strong>. Your POZ doctor is your GP — they write prescriptions, referrals to specialists, and sick-leave certificates (L4).</p>
+
+<p><strong>How to find a POZ doctor:</strong></p>
+<ol>
+  <li>Visit <strong>nfz.gov.pl</strong> → "Gdzie się leczyć" (Where to get treatment) → search for a clinic near you.</li>
+  <li>Ask colleagues or call nearby clinics directly.</li>
+  <li>Make sure the clinic has a contract with NFZ — only then are visits free of charge.</li>
+</ol>
+
+<h3>Step 2: Submit a POZ Declaration</h3>
+
+<p>Once you choose a GP, you must submit a <strong>POZ declaration</strong> — a single-page form that tells NFZ you have selected this doctor as your GP.</p>
+
+<p><strong>What you need:</strong></p>
+<ul>
+  <li>ID document (passport or residence card)</li>
+  <li>PESEL number (if you have one)</li>
+  <li>Proof of insurance (letter from the agency or a PUE ZUS printout)</li>
+</ul>
+
+<p>Submit the declaration in person at the clinic, or online via the IKP portal at pacjent.gov.pl after logging in with your Trusted Profile (Profil Zaufany).</p>
+
+<h3>Step 3: Book an Appointment</h3>
+
+<ul>
+  <li><strong>By phone</strong> – call the clinic directly.</li>
+  <li><strong>In person</strong> – visit the reception desk.</li>
+  <li><strong>Online</strong> – via the clinic's website or mojewizyty.pl.</li>
+  <li><strong>Via IKP</strong> – at pacjent.gov.pl you can view your appointment history and test results.</li>
+</ul>
+
+<p><em>Important: a visit to your POZ doctor is free if you have NFZ insurance and the doctor holds an NFZ contract.</em></p>
+
+<h3>Step 4: Prepare for Your Visit</h3>
+
+<ul>
+  <li>Bring your ID document.</li>
+  <li>The doctor will verify your insurance in the eWUŚ electronic system.</li>
+  <li>If your insurance is not showing in the system, present a letter from your employer or agency as proof.</li>
+</ul>
+
+<h3>Prescriptions and Medicines</h3>
+
+<p>Your GP can issue an e-prescription (e-recepta). Collect it at any pharmacy using your PESEL or prescription number. Many medicines are partially or fully reimbursed by NFZ.</p>
+
+<h3>When Do You Need a Specialist?</h3>
+
+<p>For most NFZ specialists you need a <strong>referral from your POZ doctor</strong>. Exceptions — you can go directly without a referral to: psychiatrist, gynaecologist, oncologist, ophthalmologist and a few others.</p>
+
+<h3>Emergencies – A&amp;E and Ambulance</h3>
+
+<ul>
+  <li><strong>112</strong> – emergency number (works in Polish and English)</li>
+  <li><strong>999</strong> – ambulance</li>
+  <li><strong>SOR</strong> – hospital A&amp;E department, open 24/7, no referral needed</li>
+</ul>
+
+<p>In a genuine life-threatening emergency you will always be treated at SOR regardless of insurance status.</p>
+
+<h3>Night and Holiday Medical Care</h3>
+
+<p>When your clinic is closed (evenings, weekends, public holidays), use <strong>night and holiday care (NiŚOZ)</strong> — usually based at hospitals, free of charge for insured patients.</p>
+
+<h3>Telemedicine</h3>
+
+<p>Many clinics offer phone or video consultations. This is convenient for minor complaints when you need a prescription or sick note without leaving home.</p>
+
+<h3>Summary</h3>
+
+<p>Using NFZ in Poland is simpler than it looks. The essential first step is submitting your POZ declaration — without it you have no assigned GP. Once done, you have full access to free primary healthcare. Questions? Contact Nexflow — we are here to help.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-sim-telefon-cudzoziemiec-polska-poradnik",
+    title: "Karta SIM i telefon komórkowy w Polsce – poradnik dla cudzoziemca",
+    description:
+      "Jak kupić kartę SIM w Polsce bez PESEL-u, które sieci działają najlepiej i kiedy warto przejść na abonament – praktyczny przewodnik dla pracowników z zagranicy.",
+    date: "2029-09-20",
+    lang: "pl",
+    content: `
+<h2>Karta SIM i telefon komórkowy w Polsce – poradnik dla cudzoziemca</h2>
+
+<p>Jedną z pierwszych rzeczy, którą powinieneś/powinnaś załatwić po przyjeździe do Polski, jest polska karta SIM. Potrzebujesz jej do kontaktu z pracodawcą, rodziną i w sprawach urzędowych. W tym poradniku znajdziesz wszystko, co musisz wiedzieć – od zakupu karty prepaid aż do przejścia na abonament.</p>
+
+<h3>Czy potrzebuję PESEL-u, żeby kupić kartę SIM?</h3>
+
+<p>Nie – do zakupu karty prepaid (na kartę) <strong>wystarczy paszport</strong>. Od 2023 roku rejestracja karty SIM jest obowiązkowa dla każdego – jednak operatorzy akceptują paszport jako dokument tożsamości. Zakup jest szybki i możliwy od razu po przyjeździe.</p>
+
+<h3>Główni operatorzy komórkowi w Polsce</h3>
+
+<p>W Polsce działają cztery główne sieci:</p>
+
+<ul>
+  <li><strong>Play</strong> – najlepsza oferta dla obcokrajowców, popularne wśród Ukraińców; dobry zasięg i tanie pakiety danych.</li>
+  <li><strong>T-Mobile</strong> – szeroka sieć 5G, dobre pakiety roamingowe w UE.</li>
+  <li><strong>Orange</strong> – silna sieć w miastach i wzdłuż autostrad.</li>
+  <li><strong>Plus</strong> – dobry zasięg na terenach wiejskich i w magazynach poza miastem.</li>
+</ul>
+
+<p>Każdy operator oferuje tanie karty prepaid już od kilku złotych w punktach sprzedaży, kioskach, sklepach Żabka lub bezpośrednio w salonach operatora.</p>
+
+<h3>Jak aktywować kartę SIM?</h3>
+
+<ol>
+  <li><strong>Kup kartę SIM</strong> – w salonie operatora, kiosku Ruchu, sklepie Żabka lub supermarkecie.</li>
+  <li><strong>Zarejestruj kartę</strong> – podaj swoje dane (imię, nazwisko, numer paszportu). Możesz to zrobić online na stronie operatora lub w punkcie sprzedaży. Rejestracja jest obowiązkowa z mocy prawa.</li>
+  <li><strong>Doładuj konto</strong> – kup doładowanie (voucher lub przelew online) i aktywuj wybrany pakiet.</li>
+</ol>
+
+<h3>Prepaid czy abonament?</h3>
+
+<h4>Karta prepaid (na kartę)</h4>
+<ul>
+  <li>Nie wymaga PESEL-u ani stałego adresu</li>
+  <li>Idealna zaraz po przyjeździe</li>
+  <li>Wyższy koszt rozmów i danych niż w abonamencie</li>
+  <li>Konieczność regularnego doładowywania</li>
+</ul>
+
+<h4>Abonament (umowa)</h4>
+<ul>
+  <li>Tańszy miesięczny koszt, więcej danych</li>
+  <li>Wymaga PESEL-u i stałego adresu</li>
+  <li>Zazwyczaj konieczna historia kredytowa lub dokument pobytu</li>
+  <li>Podpisanie umowy online lub w salonie</li>
+</ul>
+
+<p><strong>Rekomendacja:</strong> Zacznij od karty prepaid, a gdy dostaniesz PESEL i będziesz miał/a stały adres – przejdź na abonament.</p>
+
+<h3>Popularne pakiety prepaid</h3>
+
+<p>Poniżej przykładowe oferty (ceny orientacyjne, mogą się różnić):</p>
+<ul>
+  <li><strong>Play</strong> – pakiet 20 GB danych + nielimitowane rozmowy w Polsce od ok. 30 zł/miesiąc</li>
+  <li><strong>T-Mobile</strong> – pakiet 15 GB + rozmowy od ok. 25 zł/miesiąc</li>
+  <li><strong>Orange</strong> – pakiet z roamingiem UE od ok. 35 zł/miesiąc</li>
+  <li><strong>Plus</strong> – pakiet rodzinny (multi-SIM) dla kilku kart na jednym koncie</li>
+</ul>
+
+<p>Wszystkie główne pakiety prepaid zawierają obecnie <strong>nielimitowane rozmowy i SMS-y w Polsce</strong> – płacisz głównie za dane internetowe.</p>
+
+<h3>Jak tanio dzwonić za granicę?</h3>
+
+<p>Jeśli regularnie rozmawiasz z rodziną na Ukrainie lub w Rosji:</p>
+<ul>
+  <li><strong>Komunikatory: Viber, WhatsApp, Telegram</strong> – najtańsza opcja przez internet (WiFi lub dane).</li>
+  <li><strong>Roaming w UE</strong> – jeśli wyjeżdżasz do Niemiec lub innych krajów UE, Twoja polska karta SIM działa w roamingu bez dopłat (dotyczy większości pakietów).</li>
+  <li><strong>Specjalne pakiety</strong> – Play i T-Mobile oferują tanie połączenia z Ukrainą.</li>
+</ul>
+
+<h3>Esim – nowoczesna alternatywa</h3>
+
+<p>Jeśli Twój telefon obsługuje eSIM (większość nowych smartfonów), możesz aktywować polską kartę SIM bez wizyty w sklepie. Usługę eSIM oferują m.in. Orange i T-Mobile.</p>
+
+<h3>Co zrobić z telefonem, który jest zablokowany na operatora?</h3>
+
+<p>Jeśli Twój telefon pochodzi z Ukrainy lub innego kraju i jest zablokowany ("locked"), możesz go odblokować (tzw. unlock lub simlock). Można to zrobić:</p>
+<ul>
+  <li>U poprzedniego operatora (zazwyczaj bezpłatnie po zakończeniu umowy)</li>
+  <li>W serwisach telefonicznych w Polsce (ok. 20–50 zł)</li>
+</ul>
+
+<h3>Przydatne numery i informacje</h3>
+
+<ul>
+  <li><strong>112</strong> – numer alarmowy (bezpłatny z każdej karty)</li>
+  <li><strong>116 123</strong> – telefon zaufania</li>
+  <li>Infolinie operatorów: Play 790, T-Mobile 602, Orange 601, Plus 601</li>
+</ul>
+
+<h3>Podsumowanie</h3>
+
+<p>Kupno polskiej karty SIM jest proste i możliwe już w dniu przyjazdu – wystarczy paszport. Zacznij od prepaid, a gdy się urządzisz – rozważ abonament. Masz pytania? Nexflow chętnie pomoże.</p>
+    `.trim(),
+  },
+  {
+    slug: "sim-karta-mobilnyj-telefon-inozemets-polshcha",
+    title: "SIM-карта та мобільний телефон у Польщі – посібник для іноземця",
+    description:
+      "Як купити SIM-карту в Польщі без номера PESEL, які мережі найкращі та коли варто переходити на контракт – практичний посібник для іноземних працівників.",
+    date: "2029-09-27",
+    lang: "uk",
+    content: `
+<h2>SIM-карта та мобільний телефон у Польщі – посібник для іноземця</h2>
+
+<p>Одне з перших, що варто зробити після приїзду до Польщі – отримати польську SIM-карту. Вона потрібна для зв'язку з роботодавцем, родиною та в офіційних справах. У цьому посібнику – все, що потрібно знати: від купівлі передплатної картки до переходу на контракт.</p>
+
+<h3>Чи потрібен PESEL для купівлі SIM-картки?</h3>
+
+<p>Ні – для купівлі передплатної (prepaid) картки <strong>достатньо паспорта</strong>. З 2023 року реєстрація SIM-карти обов'язкова для всіх, але оператори приймають паспорт як документ. Купівля займає кілька хвилин.</p>
+
+<h3>Основні мобільні оператори в Польщі</h3>
+
+<ul>
+  <li><strong>Play</strong> – найпопулярніший серед українців; хороше покриття й дешеві пакети.</li>
+  <li><strong>T-Mobile</strong> – широка мережа 5G, гарний роумінг у ЄС.</li>
+  <li><strong>Orange</strong> – сильна мережа в містах та вздовж автодоріг.</li>
+  <li><strong>Plus</strong> – гарне покриття в сільській місцевості та на складах поза містом.</li>
+</ul>
+
+<p>SIM-карти продаються в салонах операторів, кіосках, магазинах Żabka та супермаркетах.</p>
+
+<h3>Як активувати SIM-картку?</h3>
+
+<ol>
+  <li><strong>Купіть SIM-картку</strong> – в салоні оператора, кіоску Ruchu, Żabka або супермаркеті.</li>
+  <li><strong>Зареєструйте картку</strong> – вкажіть ім'я, прізвище та номер паспорта (онлайн або в точці продажу). Реєстрація обов'язкова за законом.</li>
+  <li><strong>Поповніть рахунок</strong> – купіть ваучер або поповніть онлайн і активуйте пакет.</li>
+</ol>
+
+<h3>Передплата чи контракт?</h3>
+
+<h4>Передплата (prepaid)</h4>
+<ul>
+  <li>Не потрібен PESEL чи постійна адреса</li>
+  <li>Ідеально відразу після приїзду</li>
+  <li>Вищі ціни на дзвінки та Інтернет, ніж у контракті</li>
+</ul>
+
+<h4>Контракт</h4>
+<ul>
+  <li>Нижча місячна вартість, більше даних</li>
+  <li>Потрібен PESEL і постійна адреса</li>
+  <li>Підписання онлайн або в салоні</li>
+</ul>
+
+<p><strong>Рекомендація:</strong> Починайте з передплати, а коли отримаєте PESEL і матимете стабільну адресу – переходьте на контракт.</p>
+
+<h3>Популярні передплатні пакети</h3>
+
+<ul>
+  <li><strong>Play</strong> – 20 ГБ даних + необмежені дзвінки в Польщі від ~30 зл/міс</li>
+  <li><strong>T-Mobile</strong> – 15 ГБ + дзвінки від ~25 зл/міс</li>
+  <li><strong>Orange</strong> – пакет з роумінгом ЄС від ~35 зл/міс</li>
+</ul>
+
+<p>Всі основні пакети включають <strong>необмежені дзвінки та SMS у Польщі</strong>.</p>
+
+<h3>Як дешево дзвонити за кордон?</h3>
+
+<ul>
+  <li><strong>Viber, WhatsApp, Telegram</strong> – найдешевший варіант через Інтернет.</li>
+  <li><strong>Роумінг ЄС</strong> – польська SIM-карта працює в країнах ЄС без додаткової плати.</li>
+  <li><strong>Спеціальні пакети</strong> – Play і T-Mobile пропонують дешеві дзвінки на Україну.</li>
+</ul>
+
+<h3>Що робити з телефоном, заблокованим під оператора?</h3>
+
+<p>Якщо ваш телефон заблокований (locked/simlock), можна розблокувати його у сервісному центрі в Польщі (орієнтовно 20–50 зл) або у попереднього оператора.</p>
+
+<h3>Підсумок</h3>
+
+<p>Купити польську SIM-картку просто і можливо в день приїзду – потрібен лише паспорт. Починайте з передплати, а потім переходьте на контракт. Запитання? Nexflow допоможе.</p>
+    `.trim(),
+  },
+  {
+    slug: "sim-karta-mobilnyj-telefon-inostranets-polsha",
+    title: "SIM-карта и мобильный телефон в Польше – руководство для иностранца",
+    description:
+      "Как купить SIM-карту в Польше без номера PESEL, какие сети лучше и когда стоит переходить на контракт – практическое руководство для иностранных работников.",
+    date: "2029-10-04",
+    lang: "ru",
+    content: `
+<h2>SIM-карта и мобильный телефон в Польше – руководство для иностранца</h2>
+
+<p>Одно из первых дел после приезда в Польшу — получить польскую SIM-карту. Она нужна для связи с работодателем, семьёй и для официальных вопросов. В этом руководстве — всё, что нужно знать: от покупки предоплатной карты до перехода на контракт.</p>
+
+<h3>Нужен ли PESEL для покупки SIM-карты?</h3>
+
+<p>Нет — для покупки предоплатной (prepaid) карты <strong>достаточно паспорта</strong>. С 2023 года регистрация SIM-карты обязательна для всех, но операторы принимают паспорт как документ. Покупка занимает несколько минут.</p>
+
+<h3>Основные мобильные операторы в Польше</h3>
+
+<ul>
+  <li><strong>Play</strong> – самый популярный среди украинцев и иностранцев; хорошее покрытие и дешёвые пакеты.</li>
+  <li><strong>T-Mobile</strong> – широкая сеть 5G, хороший роуминг в ЕС.</li>
+  <li><strong>Orange</strong> – сильная сеть в городах и вдоль трасс.</li>
+  <li><strong>Plus</strong> – хорошее покрытие в сельской местности и на складах за городом.</li>
+</ul>
+
+<p>SIM-карты продаются в салонах операторов, киосках, магазинах Żabka и супермаркетах.</p>
+
+<h3>Как активировать SIM-карту?</h3>
+
+<ol>
+  <li><strong>Купите SIM-карту</strong> – в салоне оператора, киоске Ruchu, Żabka или супермаркете.</li>
+  <li><strong>Зарегистрируйте карту</strong> – укажите имя, фамилию и номер паспорта (онлайн или в точке продажи). Регистрация обязательна по закону.</li>
+  <li><strong>Пополните счёт</strong> – купите ваучер или пополните онлайн и активируйте пакет.</li>
+</ol>
+
+<h3>Предоплата или контракт?</h3>
+
+<h4>Предоплата (prepaid)</h4>
+<ul>
+  <li>Не нужен PESEL или постоянный адрес</li>
+  <li>Идеально сразу после приезда</li>
+  <li>Выше цены на звонки и интернет, чем по контракту</li>
+</ul>
+
+<h4>Контракт</h4>
+<ul>
+  <li>Ниже ежемесячная стоимость, больше данных</li>
+  <li>Нужен PESEL и постоянный адрес</li>
+  <li>Подписание онлайн или в салоне</li>
+</ul>
+
+<p><strong>Рекомендация:</strong> Начните с предоплаты, а когда получите PESEL и стабильный адрес — переходите на контракт.</p>
+
+<h3>Популярные предоплатные пакеты</h3>
+
+<ul>
+  <li><strong>Play</strong> – 20 ГБ данных + безлимитные звонки в Польше от ~30 зл/мес</li>
+  <li><strong>T-Mobile</strong> – 15 ГБ + звонки от ~25 зл/мес</li>
+  <li><strong>Orange</strong> – пакет с роумингом ЕС от ~35 зл/мес</li>
+</ul>
+
+<p>Все основные пакеты включают <strong>безлимитные звонки и SMS в Польше</strong>.</p>
+
+<h3>Как дёшево звонить за границу?</h3>
+
+<ul>
+  <li><strong>Viber, WhatsApp, Telegram</strong> – самый дешёвый вариант через интернет.</li>
+  <li><strong>Роуминг ЕС</strong> – польская SIM-карта работает в странах ЕС без доплаты.</li>
+  <li><strong>Специальные пакеты</strong> – Play и T-Mobile предлагают дешёвые звонки на Украину.</li>
+</ul>
+
+<h3>Что делать с телефоном, заблокированным под оператора?</h3>
+
+<p>Если ваш телефон заблокирован (locked/simlock), его можно разблокировать в сервисном центре в Польше (ориентировочно 20–50 зл) или у прежнего оператора.</p>
+
+<h3>Итог</h3>
+
+<p>Купить польскую SIM-карту просто и можно в день приезда — нужен только паспорт. Начинайте с предоплаты, а затем переходите на контракт. Вопросы? Nexflow поможет.</p>
+    `.trim(),
+  },
+  {
+    slug: "sim-card-mobile-phone-poland-foreign-worker-guide",
+    title: "SIM Card and Mobile Phone in Poland – A Guide for Foreign Workers",
+    description:
+      "How to buy a SIM card in Poland without a PESEL number, which networks are best, and when to switch to a monthly plan — a practical guide for foreign workers.",
+    date: "2029-10-11",
+    lang: "en",
+    content: `
+<h2>SIM Card and Mobile Phone in Poland – A Guide for Foreign Workers</h2>
+
+<p>One of the first things to sort out after arriving in Poland is a local SIM card. You need it to stay in touch with your employer, family and for official purposes. This guide covers everything from buying a prepaid card on day one to switching to a monthly plan.</p>
+
+<h3>Do You Need a PESEL to Buy a SIM Card?</h3>
+
+<p>No — to buy a prepaid SIM card <strong>your passport is enough</strong>. Since 2023, SIM registration is compulsory for everyone, but operators accept a passport as a valid ID document. The process takes a few minutes.</p>
+
+<h3>Main Mobile Networks in Poland</h3>
+
+<ul>
+  <li><strong>Play</strong> – most popular among Ukrainian and foreign workers; good coverage and competitive prepaid packages.</li>
+  <li><strong>T-Mobile</strong> – wide 5G network, good EU roaming.</li>
+  <li><strong>Orange</strong> – strong urban and motorway coverage.</li>
+  <li><strong>Plus</strong> – good rural coverage and strong signal at warehouses outside cities.</li>
+</ul>
+
+<p>SIM cards are sold at operator stores, newsagents, Żabka convenience shops and supermarkets.</p>
+
+<h3>How to Activate a SIM Card</h3>
+
+<ol>
+  <li><strong>Buy a SIM card</strong> – from an operator store, Ruch kiosk, Żabka or a supermarket.</li>
+  <li><strong>Register the card</strong> – provide your name, surname and passport number (online or in-store). Registration is required by law.</li>
+  <li><strong>Top up and activate</strong> – buy a voucher or top up online, then activate your chosen package.</li>
+</ol>
+
+<h3>Prepaid or Contract?</h3>
+
+<h4>Prepaid</h4>
+<ul>
+  <li>No PESEL or fixed address required</li>
+  <li>Ideal immediately after arrival</li>
+  <li>Higher per-unit cost for calls and data than a contract</li>
+  <li>Must be topped up regularly</li>
+</ul>
+
+<h4>Monthly Contract</h4>
+<ul>
+  <li>Lower monthly cost with more data included</li>
+  <li>Requires a PESEL number and a fixed address</li>
+  <li>Sign online or in a store</li>
+</ul>
+
+<p><strong>Recommendation:</strong> Start with prepaid. Once you have your PESEL and a stable address, switch to a monthly contract.</p>
+
+<h3>Popular Prepaid Packages</h3>
+
+<ul>
+  <li><strong>Play</strong> – 20 GB + unlimited calls in Poland from approx. PLN 30/month</li>
+  <li><strong>T-Mobile</strong> – 15 GB + calls from approx. PLN 25/month</li>
+  <li><strong>Orange</strong> – EU roaming package from approx. PLN 35/month</li>
+</ul>
+
+<p>All major prepaid packages include <strong>unlimited calls and SMS within Poland</strong> — you mainly pay for mobile data.</p>
+
+<h3>How to Make Cheap International Calls</h3>
+
+<ul>
+  <li><strong>Viber, WhatsApp, Telegram</strong> – cheapest option over Wi-Fi or mobile data.</li>
+  <li><strong>EU roaming</strong> – your Polish SIM works across the EU without extra charges (on most packages).</li>
+  <li><strong>Special packages</strong> – Play and T-Mobile offer cheap calls to Ukraine.</li>
+</ul>
+
+<h3>What If Your Phone Is Locked to Another Network?</h3>
+
+<p>If your phone is carrier-locked (simlock), you can have it unlocked at a phone repair shop in Poland (roughly PLN 20–50) or by contacting your previous operator.</p>
+
+<h3>eSIM – A Modern Alternative</h3>
+
+<p>If your phone supports eSIM (most new smartphones), you can activate a Polish SIM card without visiting a shop. Orange and T-Mobile both offer eSIM.</p>
+
+<h3>Useful Numbers</h3>
+
+<ul>
+  <li><strong>112</strong> – emergency (free from any phone)</li>
+  <li>Operator helplines: Play 790, T-Mobile 602, Orange 601, Plus 601</li>
+</ul>
+
+<h3>Summary</h3>
+
+<p>Buying a Polish SIM card is straightforward and possible on your first day — all you need is your passport. Start with prepaid, then consider a contract once you're settled. Questions? Nexflow is here to help.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
