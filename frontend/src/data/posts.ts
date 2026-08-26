@@ -21642,6 +21642,1030 @@ Polish law does not grant extra days off on religious grounds. However, you can 
     `.trim(),
   },
 
+
+  {
+    slug: "kredyt-pozyczka-dla-cudzoziemca-polska",
+    title: "Kredyt gotówkowy i pożyczka dla cudzoziemca w Polsce — praktyczny poradnik",
+    description:
+      "Pracujesz w Polsce jako cudzoziemiec i zastanawiasz się, czy możesz wziąć kredyt lub pożyczkę? Dobra wiadomość: tak, jest to możliwe — ale wymaga spełnienia...",
+    date: "2031-03-06",
+    lang: "pl",
+    content: `
+<h1>Kredyt gotówkowy i pożyczka dla cudzoziemca w Polsce — praktyczny poradnik</h1>
+
+<p>Pracujesz w Polsce jako cudzoziemiec i zastanawiasz się, czy możesz wziąć kredyt lub pożyczkę? Dobra wiadomość: tak, jest to możliwe — ale wymaga spełnienia określonych warunków. W tym poradniku wyjaśniamy, jak działają polskie banki wobec obcokrajowców, jakie dokumenty są potrzebne i na co zwrócić uwagę.</p>
+
+<h2>Czy cudzoziemiec może dostać kredyt w Polsce?</h2>
+
+<p>Polskie prawo nie zabrania bankom udzielania kredytów cudzoziemcom. W praktyce każdy bank samodzielnie ustala politykę kredytową wobec obcokrajowców. Część banków jest bardzo otwarta, inne mają ograniczenia lub wymagają dodatkowych dokumentów.</p>
+
+<p>Kluczowe warunki, które musisz spełnić:</p>
+<ul>
+  <li><strong>Legalny pobyt w Polsce</strong> — ważna wiza, karta pobytu lub prawo do pobytu jako obywatel UE</li>
+  <li><strong>Stałe dochody w Polsce</strong> — umowa o pracę, umowa zlecenie lub działalność gospodarcza</li>
+  <li><strong>Konto bankowe w polskim banku</strong> — wymagane przez praktycznie każdy bank</li>
+  <li><strong>PESEL</strong> — numer niezbędny do weryfikacji tożsamości i sprawdzenia historii kredytowej w BIK</li>
+  <li><strong>Pozytywna historia kredytowa</strong> — Biuro Informacji Kredytowej (BIK) sprawdza, czy spłacałeś dotychczasowe zobowiązania</li>
+</ul>
+
+<h2>Jakie dokumenty są potrzebne?</h2>
+
+<p>Lista dokumentów zależy od banku, ale standardowo bank poprosi o:</p>
+<ul>
+  <li>Ważny dokument tożsamości (paszport lub karta pobytu)</li>
+  <li>Dokument potwierdzający legalny pobyt (wiza, karta pobytu, zezwolenie na pobyt)</li>
+  <li>Zaświadczenie o zatrudnieniu lub umowę o pracę</li>
+  <li>Wyciągi z konta bankowego (zwykle ostatnie 3–6 miesięcy)</li>
+  <li>Odcinki wypłat (paski wynagrodzenia)</li>
+  <li>Numer PESEL</li>
+  <li>Numer NIP (przy działalności gospodarczej)</li>
+</ul>
+
+<h2>Które banki są najbardziej otwarte dla cudzoziemców?</h2>
+
+<p>Wśród banków, które tradycyjnie obsługują cudzoziemców bez nadmiernych ograniczeń, wymienić można PKO BP, mBank, ING Bank Śląski oraz Santander. Jednak konkretne warunki zmieniają się, dlatego warto odwiedzić kilka oddziałów lub skonsultować się z doradcą kredytowym.</p>
+
+<p><strong>Pożyczki pozabankowe</strong> (np. Provident, Aasa, Bocian Pożyczki) są dostępniejsze — wymagają zazwyczaj mniej dokumentów — ale mają wyższe oprocentowanie i koszty. Zawsze sprawdzaj RRSO (Rzeczywista Roczna Stopa Oprocentowania) przed podpisaniem umowy.</p>
+
+<h2>Jak działa BIK i historia kredytowa?</h2>
+
+<p>Biuro Informacji Kredytowej (BIK) to polska baza danych, w której gromadzone są informacje o kredytach i pożyczkach. Jeśli nigdy wcześniej nie korzystałeś z kredytu w Polsce, nie masz historii w BIK — co bank może traktować jako czynnik ryzyka.</p>
+
+<p>Jak zbudować historię kredytową w Polsce:</p>
+<ul>
+  <li>Otwórz konto bankowe i regularnie z niego korzystaj</li>
+  <li>Korzystaj z karty kredytowej z niskim limitem i spłacaj ją terminowo</li>
+  <li>Weź pożyczkę ratalną na małą kwotę i spłać ją zgodnie z harmonogramem</li>
+</ul>
+
+<h2>Kredyt a długość pobytu w Polsce</h2>
+
+<p>Banki preferują klientów ze stabilną sytuacją. Im dłużej pracujesz w Polsce i masz ważne dokumenty pobytowe na dłuższy okres, tym lepsza Twoja pozycja negocjacyjna. Karta czasowego pobytu ważna przez 2–3 lata to zdecydowanie lepsza sytuacja niż wiza na kilka miesięcy.</p>
+
+<h2>Pożyczki w SKOK-ach i kasach branżowych</h2>
+
+<p>Spółdzielcze Kasy Oszczędnościowo-Kredytowe (SKOK) to alternatywa dla banków. Warunki członkostwa są różne, ale część SKOK-ów przyjmuje cudzoziemców z legalnym pobytem. Warto sprawdzić kasę branżową związaną z Twoją branżą (np. SKOK dla pracowników przemysłu).</p>
+
+<h2>Na co uważać przy braniu pożyczki?</h2>
+
+<ul>
+  <li><strong>Sprawdzaj RRSO</strong> — to całkowity koszt kredytu w skali roku; niskie raty mogą ukrywać wysokie koszty</li>
+  <li><strong>Czytaj umowę dokładnie</strong> — zwłaszcza warunki wcześniejszej spłaty i opłaty dodatkowe</li>
+  <li><strong>Unikaj chwilówek</strong> — pożyczki krótkoterminowe na bardzo wysokie RRSO mogą prowadzić do spirali zadłużenia</li>
+  <li><strong>Nie podpisuj umów, których nie rozumiesz</strong> — poproś o tłumaczenie lub skonsultuj się z kimś zaufanym</li>
+</ul>
+
+<h2>Prawa konsumenta przy pożyczce</h2>
+
+<p>Jako pożyczkobiorca w Polsce masz prawo do:</p>
+<ul>
+  <li>Bezpłatnego egzemplarza umowy przed podpisaniem</li>
+  <li>Okresu na przemyślenie decyzji (w przypadku umów poza lokalem — 14 dni na odstąpienie)</li>
+  <li>Wcześniejszej spłaty kredytu konsumenckiego bez dodatkowych opłat (w większości przypadków)</li>
+  <li>Złożenia reklamacji do banku lub skargi do Rzecznika Finansowego</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+
+<p>Jako cudzoziemiec możesz wziąć kredyt lub pożyczkę w Polsce — wymaga to posiadania legalnego pobytu, stałych dochodów, konta bankowego i numeru PESEL. Im dłużej pracujesz i mieszkasz w Polsce, tym lepsze warunki możesz uzyskać. Zawsze porównuj oferty kilku instytucji i czytaj umowy ze zrozumieniem.</p>
+
+<p><em>Masz pytania dotyczące warunków zatrudnienia lub praw pracowniczych w Polsce? Nexflow wspiera pracowników tymczasowych na każdym etapie — od zatrudnienia po codzienne sprawy życia w Polsce.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "kredyt-pozychka-dlya-inozemtsya-polshcha",
+    title: "Кредит і позика для іноземця в Польщі — практичний посібник",
+    description:
+      "Ви працюєте в Польщі як іноземець і хочете взяти кредит або позику? Це можливо — але потребує виконання певних умов. У цьому посібнику пояснюємо, як...",
+    date: "2031-03-13",
+    lang: "uk",
+    content: `
+<h1>Кредит і позика для іноземця в Польщі — практичний посібник</h1>
+
+<p>Ви працюєте в Польщі як іноземець і хочете взяти кредит або позику? Це можливо — але потребує виконання певних умов. У цьому посібнику пояснюємо, як польські банки ставляться до іноземців, які документи потрібні і на що звертати увагу.</p>
+
+<h2>Чи може іноземець отримати кредит у Польщі?</h2>
+
+<p>Польське законодавство не забороняє банкам надавати кредити іноземцям. На практиці кожен банк самостійно визначає свою кредитну політику щодо іноземних громадян. Частина банків відкрита до співпраці, інші мають обмеження або вимагають додаткових документів.</p>
+
+<p>Ключові умови, які потрібно виконати:</p>
+<ul>
+  <li><strong>Легальне перебування в Польщі</strong> — чинна віза, картка побуту або право на перебування як громадянин ЄС</li>
+  <li><strong>Постійні доходи в Польщі</strong> — трудовий договір, договір доручення або підприємницька діяльність</li>
+  <li><strong>Банківський рахунок у польському банку</strong> — обов'язковий для практично кожного банку</li>
+  <li><strong>Номер PESEL</strong> — потрібен для перевірки особи та кредитної історії в BIK</li>
+  <li><strong>Позитивна кредитна історія</strong> — Бюро кредитної інформації (BIK) перевіряє, чи вчасно ви погашали попередні зобов'язання</li>
+</ul>
+
+<h2>Які документи потрібні?</h2>
+
+<p>Перелік документів залежить від банку, але зазвичай банк запросить:</p>
+<ul>
+  <li>Дійсний документ, що посвідчує особу (паспорт або картка побуту)</li>
+  <li>Документ, що підтверджує легальне перебування (віза, картка побуту, дозвіл на перебування)</li>
+  <li>Довідку з місця роботи або трудовий договір</li>
+  <li>Виписки з банківського рахунку (як правило, за останні 3–6 місяців)</li>
+  <li>Розрахункові листки (відомості про зарплату)</li>
+  <li>Номер PESEL</li>
+  <li>Номер NIP (при підприємницькій діяльності)</li>
+</ul>
+
+<h2>Які банки найбільш відкриті для іноземців?</h2>
+
+<p>Серед банків, які традиційно обслуговують іноземців без зайвих обмежень, можна виділити PKO BP, mBank, ING Bank Śląski та Santander. Однак конкретні умови змінюються, тому варто відвідати кілька відділень або проконсультуватися з кредитним консультантом.</p>
+
+<p><strong>Небанківські позики</strong> (наприклад, Provident, Aasa, Bocian Pożyczki) є доступнішими — зазвичай вимагають менше документів — але мають вищі відсотки та витрати. Завжди перевіряйте RRSO (Річну реальну відсоткову ставку) перед підписанням договору.</p>
+
+<h2>Як працює BIK і кредитна історія?</h2>
+
+<p>Бюро кредитної інформації (BIK) — це польська база даних з інформацією про кредити та позики. Якщо ви ніколи раніше не користувалися кредитом у Польщі, у вас немає записів у BIK — банк може розглядати це як фактор ризику.</p>
+
+<p>Як побудувати кредитну історію в Польщі:</p>
+<ul>
+  <li>Відкрийте банківський рахунок і регулярно ним користуйтеся</li>
+  <li>Користуйтеся кредитною карткою з невеликим лімітом і своєчасно її погашайте</li>
+  <li>Візьміть невелику розстрочку та сплатіть її за графіком</li>
+</ul>
+
+<h2>Кредит та тривалість перебування в Польщі</h2>
+
+<p>Банки надають перевагу клієнтам зі стабільною ситуацією. Чим довше ви працюєте і живете в Польщі та маєте дійсні документи на тривалий термін, тим краща ваша переговорна позиція. Картка тимчасового перебування, дійсна 2–3 роки, — значно краща ситуація, ніж віза на кілька місяців.</p>
+
+<h2>На що звертати увагу при отриманні позики?</h2>
+
+<ul>
+  <li><strong>Перевіряйте RRSO</strong> — це повна вартість кредиту на рік; низькі внески можуть приховувати високі витрати</li>
+  <li><strong>Уважно читайте договір</strong> — особливо умови дострокового погашення та додаткові збори</li>
+  <li><strong>Уникайте «швидких позик»</strong> — короткострокові позики з дуже високим RRSO можуть призвести до боргової спіралі</li>
+  <li><strong>Не підписуйте договорів, які не розумієте</strong> — попросіть переклад або проконсультуйтеся з довіреною особою</li>
+</ul>
+
+<h2>Права споживача при позиці</h2>
+
+<p>Як позичальник у Польщі ви маєте право на:</p>
+<ul>
+  <li>Безкоштовний примірник договору перед підписанням</li>
+  <li>Час на обдумування рішення (при договорах поза приміщенням — 14 днів на відмову)</li>
+  <li>Дострокове погашення споживчого кредиту без додаткових комісій (у більшості випадків)</li>
+  <li>Подання скарги до банку або до Фінансового омбудсмена</li>
+</ul>
+
+<h2>Підсумок</h2>
+
+<p>Як іноземець ви можете отримати кредит або позику в Польщі — для цього потрібне легальне перебування, постійні доходи, банківський рахунок і номер PESEL. Чим довше ви працюєте і живете в Польщі, тим кращі умови ви можете отримати. Завжди порівнюйте пропозиції кількох установ і читайте договори з розумінням.</p>
+
+<p><em>Маєте питання щодо умов праці або трудових прав у Польщі? Nexflow підтримує тимчасових працівників на кожному етапі — від працевлаштування до повсякденних питань життя в Польщі.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "kredit-zaym-dlya-inostranca-polsha",
+    title: "Кредит и займ для иностранца в Польше — практическое руководство",
+    description:
+      "Вы работаете в Польше как иностранец и хотите взять кредит или займ? Это возможно — но требует выполнения определённых условий. В этом руководстве...",
+    date: "2031-03-20",
+    lang: "ru",
+    content: `
+<h1>Кредит и займ для иностранца в Польше — практическое руководство</h1>
+
+<p>Вы работаете в Польше как иностранец и хотите взять кредит или займ? Это возможно — но требует выполнения определённых условий. В этом руководстве объясняем, как польские банки относятся к иностранцам, какие документы нужны и на что обращать внимание.</p>
+
+<h2>Может ли иностранец получить кредит в Польше?</h2>
+
+<p>Польское законодательство не запрещает банкам выдавать кредиты иностранцам. На практике каждый банк самостоятельно определяет свою кредитную политику в отношении иностранных граждан. Часть банков открыта к сотрудничеству, другие имеют ограничения или требуют дополнительных документов.</p>
+
+<p>Ключевые условия, которые необходимо выполнить:</p>
+<ul>
+  <li><strong>Законное пребывание в Польше</strong> — действующая виза, карта побыта или право на пребывание как гражданин ЕС</li>
+  <li><strong>Постоянные доходы в Польше</strong> — трудовой договор, договор подряда или предпринимательская деятельность</li>
+  <li><strong>Банковский счёт в польском банке</strong> — обязателен для практически каждого банка</li>
+  <li><strong>Номер PESEL</strong> — необходим для проверки личности и кредитной истории в BIK</li>
+  <li><strong>Положительная кредитная история</strong> — Бюро кредитной информации (BIK) проверяет, своевременно ли вы погашали предыдущие обязательства</li>
+</ul>
+
+<h2>Какие документы нужны?</h2>
+
+<p>Перечень документов зависит от банка, но стандартно банк попросит:</p>
+<ul>
+  <li>Действующий документ, удостоверяющий личность (паспорт или карта побыта)</li>
+  <li>Документ, подтверждающий законное пребывание (виза, карта побыта, разрешение на пребывание)</li>
+  <li>Справку с места работы или трудовой договор</li>
+  <li>Выписки с банковского счёта (как правило, за последние 3–6 месяцев)</li>
+  <li>Расчётные листки (документы о зарплате)</li>
+  <li>Номер PESEL</li>
+  <li>Номер NIP (при предпринимательской деятельности)</li>
+</ul>
+
+<h2>Какие банки наиболее открыты для иностранцев?</h2>
+
+<p>Среди банков, которые традиционно обслуживают иностранцев без лишних ограничений, можно выделить PKO BP, mBank, ING Bank Śląski и Santander. Однако конкретные условия меняются, поэтому стоит посетить несколько отделений или проконсультироваться с кредитным консультантом.</p>
+
+<p><strong>Небанковские займы</strong> (например, Provident, Aasa, Bocian Pożyczki) доступнее — обычно требуют меньше документов — но имеют более высокие проценты и расходы. Всегда проверяйте RRSO (годовую реальную процентную ставку) перед подписанием договора.</p>
+
+<h2>Как работает BIK и кредитная история?</h2>
+
+<p>Бюро кредитной информации (BIK) — это польская база данных с информацией о кредитах и займах. Если вы никогда раньше не пользовались кредитом в Польше, у вас нет записей в BIK — что банк может расценивать как фактор риска.</p>
+
+<p>Как создать кредитную историю в Польше:</p>
+<ul>
+  <li>Откройте банковский счёт и регулярно им пользуйтесь</li>
+  <li>Пользуйтесь кредитной картой с небольшим лимитом и своевременно её погашайте</li>
+  <li>Возьмите небольшую рассрочку и выплатите её по графику</li>
+</ul>
+
+<h2>Кредит и продолжительность пребывания в Польше</h2>
+
+<p>Банки предпочитают клиентов со стабильным положением. Чем дольше вы работаете и живёте в Польше и имеете действующие документы на длительный срок, тем лучше ваша переговорная позиция. Карта временного пребывания, действующая 2–3 года, — значительно лучше, чем виза на несколько месяцев.</p>
+
+<h2>На что обращать внимание при получении займа?</h2>
+
+<ul>
+  <li><strong>Проверяйте RRSO</strong> — это полная стоимость кредита в год; низкие взносы могут скрывать высокие расходы</li>
+  <li><strong>Внимательно читайте договор</strong> — особенно условия досрочного погашения и дополнительные сборы</li>
+  <li><strong>Избегайте «быстрых займов»</strong> — краткосрочные займы с очень высоким RRSO могут привести к долговой спирали</li>
+  <li><strong>Не подписывайте договоры, которых не понимаете</strong> — попросите перевод или проконсультируйтесь с доверенным лицом</li>
+</ul>
+
+<h2>Права потребителя при получении займа</h2>
+
+<p>Как заёмщик в Польше вы имеете право на:</p>
+<ul>
+  <li>Бесплатный экземпляр договора перед подписанием</li>
+  <li>Время на обдумывание решения (при договорах вне офиса — 14 дней на отказ)</li>
+  <li>Досрочное погашение потребительского кредита без дополнительных комиссий (в большинстве случаев)</li>
+  <li>Подачу жалобы в банк или Финансовому омбудсмену</li>
+</ul>
+
+<h2>Итог</h2>
+
+<p>Как иностранец вы можете получить кредит или займ в Польше — для этого нужны законное пребывание, постоянные доходы, банковский счёт и номер PESEL. Чем дольше вы работаете и живёте в Польше, тем лучшие условия вы можете получить. Всегда сравнивайте предложения нескольких учреждений и читайте договоры со смыслом.</p>
+
+<p><em>Есть вопросы об условиях труда или трудовых правах в Польше? Nexflow поддерживает временных работников на каждом этапе — от трудоустройства до повседневных вопросов жизни в Польше.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "bank-loan-personal-credit-foreign-worker-poland",
+    title: "Bank Loans and Personal Credit for Foreign Workers in Poland — A Practical Guide",
+    description:
+      "Are you working in Poland as a foreign national and wondering whether you can get a bank loan or personal credit? The good news: yes, it is possible — but...",
+    date: "2031-03-27",
+    lang: "en",
+    content: `
+<h1>Bank Loans and Personal Credit for Foreign Workers in Poland — A Practical Guide</h1>
+
+<p>Are you working in Poland as a foreign national and wondering whether you can get a bank loan or personal credit? The good news: yes, it is possible — but it requires meeting certain conditions. This guide explains how Polish banks approach foreign applicants, what documents you need, and what to watch out for.</p>
+
+<h2>Can a Foreigner Get a Loan in Poland?</h2>
+
+<p>Polish law does not prohibit banks from granting loans to foreigners. In practice, each bank sets its own credit policy for foreign nationals. Some banks are very open, while others have restrictions or require additional documents.</p>
+
+<p>Key conditions you must meet:</p>
+<ul>
+  <li><strong>Legal residency in Poland</strong> — a valid visa, residence card, or right of residence as an EU citizen</li>
+  <li><strong>Stable income in Poland</strong> — an employment contract, a civil law contract (umowa zlecenie), or registered business activity</li>
+  <li><strong>A Polish bank account</strong> — required by virtually every lender</li>
+  <li><strong>A PESEL number</strong> — necessary for identity verification and checking your credit history with BIK</li>
+  <li><strong>A positive credit history</strong> — the Credit Information Bureau (BIK) checks whether you have repaid previous obligations on time</li>
+</ul>
+
+<h2>What Documents Are Required?</h2>
+
+<p>The list varies by bank, but you can typically expect to provide:</p>
+<ul>
+  <li>A valid identity document (passport or residence card)</li>
+  <li>Proof of legal residency (visa, residence card, or permit)</li>
+  <li>An employment certificate or copy of your work contract</li>
+  <li>Bank statements (usually the last 3–6 months)</li>
+  <li>Pay slips (odcinki wypłat)</li>
+  <li>Your PESEL number</li>
+  <li>Your NIP number (if self-employed)</li>
+</ul>
+
+<h2>Which Banks Are Most Open to Foreigners?</h2>
+
+<p>Banks that have traditionally served foreign clients with fewer restrictions include PKO BP, mBank, ING Bank Śląski, and Santander. However, policies change frequently, so it is worth visiting several branches or speaking with a credit adviser.</p>
+
+<p><strong>Non-bank lenders</strong> (such as Provident, Aasa, or Bocian Pożyczki) are more accessible and typically require fewer documents, but they come with higher interest rates and costs. Always check the RRSO (Rzeczywista Roczna Stopa Oprocentowania — the annual percentage rate) before signing anything.</p>
+
+<h2>How BIK and Credit History Work</h2>
+
+<p>The Credit Information Bureau (BIK) is Poland's database of loan and credit information. If you have never used credit in Poland before, you have no BIK history — which a bank may treat as a risk factor.</p>
+
+<p>How to build a credit history in Poland:</p>
+<ul>
+  <li>Open a bank account and use it regularly</li>
+  <li>Get a credit card with a low limit and pay it off in full each month</li>
+  <li>Take out a small instalment loan and repay it on schedule</li>
+</ul>
+
+<h2>Loan Eligibility and Length of Stay</h2>
+
+<p>Banks favour applicants with a stable situation. The longer you have worked and lived in Poland and the longer your valid residence documents, the better your negotiating position. A temporary residence card (karta pobytu) valid for 2–3 years is far better than a short-term visa.</p>
+
+<h2>Credit Unions (SKOK)</h2>
+
+<p>Spółdzielcze Kasy Oszczędnościowo-Kredytowe (SKOK — credit unions) are an alternative to banks. Membership requirements vary, but some SKOKs accept foreigners with legal residency. Check whether there is an industry-specific credit union linked to your sector.</p>
+
+<h2>Things to Watch Out For</h2>
+
+<ul>
+  <li><strong>Check the RRSO (APR)</strong> — it represents the true annual cost of borrowing; low monthly instalments can hide very high total costs</li>
+  <li><strong>Read the contract carefully</strong> — especially early repayment conditions and any additional fees</li>
+  <li><strong>Avoid payday loans</strong> — short-term high-cost loans can lead to a debt spiral</li>
+  <li><strong>Do not sign contracts you do not understand</strong> — ask for a translation or get advice from someone you trust</li>
+</ul>
+
+<h2>Your Consumer Rights</h2>
+
+<p>As a borrower in Poland you have the right to:</p>
+<ul>
+  <li>A free copy of the contract before signing</li>
+  <li>A cooling-off period (for contracts concluded away from business premises — 14 days to withdraw)</li>
+  <li>Early repayment of a consumer credit without additional fees in most cases</li>
+  <li>File a complaint with the bank or with the Financial Ombudsman (Rzecznik Finansowy)</li>
+</ul>
+
+<h2>Summary</h2>
+
+<p>As a foreign worker you can obtain a loan or personal credit in Poland — you need legal residency, stable income, a Polish bank account, and a PESEL number. The longer you work and live in Poland, the better the terms you can access. Always compare offers from several lenders and read contracts carefully.</p>
+
+<p><em>Have questions about employment conditions or workers' rights in Poland? Nexflow supports temporary workers at every step — from finding work to everyday life in Poland.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "praca-nocna-polska-prawa-dodatek-nocny",
+    title: "Praca w nocy w Polsce — prawa pracownicze i dodatek nocny",
+    description:
+      "Pracujesz na nocną zmianę lub zdarza Ci się pracować w godzinach nocnych? Polskie prawo pracy przyznaje pracownikom nocnym specjalną ochronę i dodatkowe...",
+    date: "2031-04-03",
+    lang: "pl",
+    content: `
+<h1>Praca w nocy w Polsce — prawa pracownicze i dodatek nocny</h1>
+
+<p>Pracujesz na nocną zmianę lub zdarza Ci się pracować w godzinach nocnych? Polskie prawo pracy przyznaje pracownikom nocnym specjalną ochronę i dodatkowe wynagrodzenie. W tym poradniku wyjaśniamy, czym są godziny nocne, ile wynosi dodatek nocny i jakie masz prawa jako pracownik tymczasowy.</p>
+
+<h2>Co to są godziny nocne?</h2>
+
+<p>Zgodnie z Kodeksem pracy, pora nocna obejmuje 8 godzin między godziną 21:00 a 7:00. Pracodawca ustala, które konkretnie 8 godzin z tego przedziału stanowi porę nocną w danym zakładzie pracy, i wpisuje to do regulaminu pracy lub umowy o pracę.</p>
+
+<p>Przykłady typowych godzin nocnych w zakładach produkcyjnych i magazynach:</p>
+<ul>
+  <li>22:00 – 6:00</li>
+  <li>23:00 – 7:00</li>
+  <li>21:00 – 5:00</li>
+</ul>
+
+<h2>Ile wynosi dodatek za pracę w nocy?</h2>
+
+<p>Za każdą godzinę przepracowaną w porze nocnej przysługuje Ci <strong>dodatek w wysokości 20% stawki godzinowej wynikającej z minimalnego wynagrodzenia za pracę</strong>.</p>
+
+<p>Jak to obliczyć w 2026 roku:</p>
+<ul>
+  <li>Minimalne wynagrodzenie za pracę w 2026 r. wynosi 4 666 zł brutto miesięcznie</li>
+  <li>Minimalna stawka godzinowa przy pełnym etacie: 4 666 ÷ 168 godzin ≈ 27,77 zł/godz.</li>
+  <li>Dodatek nocny: 20% × 27,77 zł ≈ <strong>5,55 zł za każdą godzinę nocną</strong></li>
+</ul>
+
+<p><strong>Ważne:</strong> Dodatek nocny przysługuje obok podstawowego wynagrodzenia — nie zamiast niego. Jeśli Twoja stawka godzinowa jest wyższa od minimalnej, dodatek nocny nadal liczy się od stawki minimalnej.</p>
+
+<h2>Pracownik nocny — specjalna ochrona</h2>
+
+<p>Pracownik nocny to osoba, której rozkład czasu pracy obejmuje co najmniej 3 godziny nocne w każdej dobie pracowniczej lub co najmniej 1/4 czasu pracy w miesiącu przypada na porę nocną.</p>
+
+<p>Pracownicy nocni mają prawo do:</p>
+<ul>
+  <li><strong>Ograniczenia czasu pracy do 8 godzin na dobę</strong> w czasie nocnym, jeśli wykonują prace szczególnie niebezpieczne lub wymagające dużego wysiłku umysłowego</li>
+  <li><strong>Badań profilaktycznych</strong> na koszt pracodawcy — przed podjęciem pracy nocnej i okresowo później</li>
+  <li><strong>Przeniesienia na stanowisko dzienne</strong> na wniosek lekarza lub w określonych sytuacjach zdrowotnych</li>
+</ul>
+
+<h2>Kto nie może pracować w nocy?</h2>
+
+<p>Polskie prawo chroni określone grupy pracowników przed pracą nocną:</p>
+<ul>
+  <li><strong>Kobiety w ciąży</strong> — pracodawca ma obowiązek przenieść je do pracy dziennej lub zwolnić z obowiązku świadczenia pracy nocnej</li>
+  <li><strong>Pracownicy opiekujący się dziećmi do 4 roku życia</strong> — mogą odmówić pracy nocnej bez konsekwencji (za zgodą pracownika jest to możliwe)</li>
+  <li><strong>Osoby niepełnoletnie</strong> — zakaz pracy nocnej absolutny</li>
+</ul>
+
+<h2>Praca nocna a zdrowie</h2>
+
+<p>Praca w nocy wiąże się z wyższym ryzykiem zdrowotnym. Warto pamiętać o:</p>
+<ul>
+  <li>Regularnych przerwach — Kodeks pracy gwarantuje co najmniej 15-minutową przerwę przy 6-godzinnym dniu pracy</li>
+  <li>Prawie do odpoczynku — minimum 11 godzin nieprzerwanego odpoczynku dobowego</li>
+  <li>Zgłaszaniu problemów zdrowotnych związanych z pracą nocną pracodawcy lub do lekarza medycyny pracy</li>
+</ul>
+
+<h2>Jak sprawdzić, czy dostajesz właściwy dodatek?</h2>
+
+<p>Na Twoim pasku wynagrodzenia (odcinku wypłat) powinny być oddzielnie wymienione:</p>
+<ul>
+  <li>Wynagrodzenie podstawowe</li>
+  <li>Dodatek nocny (osobna pozycja)</li>
+  <li>Ewentualne nadgodziny i inne składniki</li>
+</ul>
+
+<p>Jeśli pracodawca nie wypłaca dodatku nocnego, możesz zgłosić sprawę do Państwowej Inspekcji Pracy (PIP). Skargę możesz złożyć anonimowo przez stronę pip.gov.pl.</p>
+
+<h2>Podsumowanie</h2>
+
+<p>Jeśli pracujesz w godzinach nocnych w Polsce, należy Ci się dodatek nocny — 20% minimalnej stawki godzinowej za każdą przepracowaną godzinę nocną. Jako pracownik nocny masz też prawo do badań profilaktycznych i dodatkowej ochrony. Sprawdzaj swoje paski wynagrodzenia i reaguj, jeśli coś się nie zgadza.</p>
+
+<p><em>Pracujesz na zmianie nocnej i masz pytania o swoje prawa? Nexflow wspiera pracowników tymczasowych — skontaktuj się z nami.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "nichna-robota-polshcha-prava-doplata-za-nich",
+    title: "Нічна робота в Польщі — трудові права та нічна доплата",
+    description:
+      "Ви працюєте в нічну зміну або інколи виходите в нічні години? Польське трудове законодавство надає нічним працівникам особливий захист і додаткову оплату. У...",
+    date: "2031-04-10",
+    lang: "uk",
+    content: `
+<h1>Нічна робота в Польщі — трудові права та нічна доплата</h1>
+
+<p>Ви працюєте в нічну зміну або інколи виходите в нічні години? Польське трудове законодавство надає нічним працівникам особливий захист і додаткову оплату. У цьому посібнику пояснюємо, що таке нічні години, скільки становить нічна доплата і які у вас права як у тимчасового працівника.</p>
+
+<h2>Що таке нічні години?</h2>
+
+<p>Відповідно до Трудового кодексу, нічний час охоплює 8 годин між 21:00 та 7:00. Роботодавець визначає, які саме 8 годин із цього проміжку є нічним часом на конкретному підприємстві, та вносить це до правил внутрішнього трудового розпорядку або трудового договору.</p>
+
+<p>Типові приклади нічних годин на виробничих підприємствах і складах:</p>
+<ul>
+  <li>22:00 – 6:00</li>
+  <li>23:00 – 7:00</li>
+  <li>21:00 – 5:00</li>
+</ul>
+
+<h2>Скільки становить нічна доплата?</h2>
+
+<p>За кожну годину, відпрацьовану в нічний час, ви маєте право на <strong>доплату в розмірі 20% годинної ставки з мінімальної заробітної плати</strong>.</p>
+
+<p>Як це розрахувати у 2026 році:</p>
+<ul>
+  <li>Мінімальна заробітна плата у 2026 р. становить 4 666 злотих брутто на місяць</li>
+  <li>Мінімальна годинна ставка при повній зайнятості: 4 666 ÷ 168 годин ≈ 27,77 злотих/год</li>
+  <li>Нічна доплата: 20% × 27,77 злотих ≈ <strong>5,55 злотих за кожну нічну годину</strong></li>
+</ul>
+
+<p><strong>Важливо:</strong> Нічна доплата нараховується понад основну заробітну плату — а не замість неї. Якщо ваша годинна ставка вища за мінімальну, нічна доплата все одно розраховується від мінімальної ставки.</p>
+
+<h2>Нічний працівник — особливий захист</h2>
+
+<p>Нічний працівник — це особа, розклад роботи якої охоплює щонайменше 3 нічні години в кожній робочій добі або щонайменше 1/4 часу роботи в місяці припадає на нічний час.</p>
+
+<p>Нічні працівники мають право на:</p>
+<ul>
+  <li><strong>Обмеження тривалості роботи до 8 годин на добу</strong> в нічний час, якщо виконують особливо небезпечну роботу або роботу, що потребує значних розумових зусиль</li>
+  <li><strong>Профілактичні медичні огляди</strong> за рахунок роботодавця — перед початком нічної роботи та надалі періодично</li>
+  <li><strong>Переведення на денну посаду</strong> за направленням лікаря або в певних ситуаціях зі здоров'ям</li>
+</ul>
+
+<h2>Хто не може працювати вночі?</h2>
+
+<p>Польське законодавство захищає певні категорії працівників від нічної роботи:</p>
+<ul>
+  <li><strong>Вагітні жінки</strong> — роботодавець зобов'язаний перевести їх на денну роботу або звільнити від нічних змін</li>
+  <li><strong>Працівники, які доглядають дітей до 4 років</strong> — можуть відмовитися від нічної роботи без наслідків (за згодою працівника це можливо)</li>
+  <li><strong>Неповнолітні особи</strong> — абсолютна заборона нічної роботи</li>
+</ul>
+
+<h2>Нічна робота і здоров'я</h2>
+
+<p>Робота вночі пов'язана з підвищеним ризиком для здоров'я. Важливо пам'ятати:</p>
+<ul>
+  <li>Про регулярні перерви — Трудовий кодекс гарантує щонайменше 15-хвилинну перерву при 6-годинному робочому дні</li>
+  <li>Про право на відпочинок — щонайменше 11 годин безперервного добового відпочинку</li>
+  <li>Про необхідність повідомляти роботодавця або лікаря медицини праці про проблеми зі здоров'ям, пов'язані з нічною роботою</li>
+</ul>
+
+<h2>Як перевірити, чи отримуєте ви правильну доплату?</h2>
+
+<p>У вашому розрахунковому листку (паску виплат) мають бути окремо зазначені:</p>
+<ul>
+  <li>Основна заробітна плата</li>
+  <li>Нічна доплата (окрема позиція)</li>
+  <li>Можливі понаднормові та інші складники</li>
+</ul>
+
+<p>Якщо роботодавець не виплачує нічну доплату, ви можете повідомити про це до Державної інспекції праці (PIP). Скаргу можна подати анонімно через сайт pip.gov.pl.</p>
+
+<h2>Підсумок</h2>
+
+<p>Якщо ви працюєте в нічний час у Польщі, ви маєте право на нічну доплату — 20% мінімальної годинної ставки за кожну відпрацьовану нічну годину. Як нічний працівник ви також маєте право на профілактичні огляди та додатковий захист. Перевіряйте свої розрахункові листки і реагуйте, якщо щось не так.</p>
+
+<p><em>Працюєте в нічну зміну і маєте питання про свої права? Nexflow підтримує тимчасових працівників — зверніться до нас.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "nochnaya-rabota-polsha-prava-nochnaya-nadbavka",
+    title: "Ночная работа в Польше — трудовые права и ночная надбавка",
+    description:
+      "Вы работаете в ночную смену или иногда выходите на работу в ночное время? Польское трудовое законодательство предоставляет ночным работникам особую защиту и...",
+    date: "2031-04-17",
+    lang: "ru",
+    content: `
+<h1>Ночная работа в Польше — трудовые права и ночная надбавка</h1>
+
+<p>Вы работаете в ночную смену или иногда выходите на работу в ночное время? Польское трудовое законодательство предоставляет ночным работникам особую защиту и дополнительную оплату. В этом руководстве объясняем, что такое ночные часы, сколько составляет ночная надбавка и какие у вас права как у временного работника.</p>
+
+<h2>Что такое ночные часы?</h2>
+
+<p>Согласно Трудовому кодексу, ночное время охватывает 8 часов между 21:00 и 7:00. Работодатель определяет, какие именно 8 часов из этого промежутка являются ночным временем на конкретном предприятии, и фиксирует это в правилах внутреннего трудового распорядка или трудовом договоре.</p>
+
+<p>Типичные примеры ночных часов на производственных предприятиях и складах:</p>
+<ul>
+  <li>22:00 – 6:00</li>
+  <li>23:00 – 7:00</li>
+  <li>21:00 – 5:00</li>
+</ul>
+
+<h2>Сколько составляет ночная надбавка?</h2>
+
+<p>За каждый час, отработанный в ночное время, вы имеете право на <strong>надбавку в размере 20% часовой ставки, исходя из минимальной заработной платы</strong>.</p>
+
+<p>Как рассчитать в 2026 году:</p>
+<ul>
+  <li>Минимальная заработная плата в 2026 г. составляет 4 666 злотых брутто в месяц</li>
+  <li>Минимальная часовая ставка при полной занятости: 4 666 ÷ 168 часов ≈ 27,77 злотых/час</li>
+  <li>Ночная надбавка: 20% × 27,77 злотых ≈ <strong>5,55 злотых за каждый ночной час</strong></li>
+</ul>
+
+<p><strong>Важно:</strong> Ночная надбавка начисляется сверх основной заработной платы — не вместо неё. Если ваша часовая ставка выше минимальной, ночная надбавка всё равно рассчитывается от минимальной ставки.</p>
+
+<h2>Ночной работник — особая защита</h2>
+
+<p>Ночной работник — это лицо, график работы которого включает не менее 3 ночных часов в каждые рабочие сутки или не менее 1/4 рабочего времени в месяце приходится на ночное время.</p>
+
+<p>Ночные работники имеют право на:</p>
+<ul>
+  <li><strong>Ограничение времени работы до 8 часов в сутки</strong> в ночное время, если выполняют особо опасную работу или работу, требующую значительных умственных усилий</li>
+  <li><strong>Профилактические медицинские осмотры</strong> за счёт работодателя — перед началом ночной работы и впоследствии периодически</li>
+  <li><strong>Перевод на дневную должность</strong> по направлению врача или в определённых ситуациях со здоровьем</li>
+</ul>
+
+<h2>Кто не может работать ночью?</h2>
+
+<p>Польское законодательство защищает определённые категории работников от ночной работы:</p>
+<ul>
+  <li><strong>Беременные женщины</strong> — работодатель обязан перевести их на дневную работу или освободить от ночных смен</li>
+  <li><strong>Работники, ухаживающие за детьми до 4 лет</strong> — могут отказаться от ночной работы без последствий (с согласия работника это возможно)</li>
+  <li><strong>Несовершеннолетние лица</strong> — абсолютный запрет ночной работы</li>
+</ul>
+
+<h2>Ночная работа и здоровье</h2>
+
+<p>Работа ночью связана с повышенным риском для здоровья. Важно помнить:</p>
+<ul>
+  <li>О регулярных перерывах — Трудовой кодекс гарантирует не менее 15-минутного перерыва при 6-часовом рабочем дне</li>
+  <li>О праве на отдых — не менее 11 часов непрерывного суточного отдыха</li>
+  <li>О необходимости сообщать работодателю или врачу медицины труда о проблемах со здоровьем, связанных с ночной работой</li>
+</ul>
+
+<h2>Как проверить, получаете ли вы правильную надбавку?</h2>
+
+<p>В вашем расчётном листке (паске виплат) должны быть отдельно указаны:</p>
+<ul>
+  <li>Основная заработная плата</li>
+  <li>Ночная надбавка (отдельная позиция)</li>
+  <li>Возможные сверхурочные и другие составляющие</li>
+</ul>
+
+<p>Если работодатель не выплачивает ночную надбавку, вы можете сообщить об этом в Государственную инспекцию труда (PIP). Жалобу можно подать анонимно через сайт pip.gov.pl.</p>
+
+<h2>Итог</h2>
+
+<p>Если вы работаете в ночное время в Польше, вы имеете право на ночную надбавку — 20% минимальной часовой ставки за каждый отработанный ночной час. Как ночной работник вы также имеете право на профилактические осмотры и дополнительную защиту. Проверяйте свои расчётные листки и реагируйте, если что-то не так.</p>
+
+<p><em>Работаете в ночную смену и имеете вопросы о своих правах? Nexflow поддерживает временных работников — свяжитесь с нами.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "night-work-poland-rights-night-allowance",
+    title: "Night Work in Poland — Your Rights and the Night Work Allowance",
+    description:
+      "Do you work night shifts or occasionally work during night-time hours? Polish labour law gives night workers special protections and an additional payment...",
+    date: "2031-04-24",
+    lang: "en",
+    content: `
+<h1>Night Work in Poland — Your Rights and the Night Work Allowance</h1>
+
+<p>Do you work night shifts or occasionally work during night-time hours? Polish labour law gives night workers special protections and an additional payment called the night work allowance (dodatek nocny). This guide explains what counts as night-time hours, how much the allowance is, and what rights you have as a temporary worker.</p>
+
+<h2>What Are Night-Time Hours?</h2>
+
+<p>Under the Polish Labour Code, night-time covers any 8-hour period between 21:00 and 07:00. Your employer defines which specific 8 hours within that window count as "night-time" at your workplace, and this must be stated in the workplace regulations or your employment contract.</p>
+
+<p>Common night-shift windows in warehouses and manufacturing facilities:</p>
+<ul>
+  <li>22:00 – 06:00</li>
+  <li>23:00 – 07:00</li>
+  <li>21:00 – 05:00</li>
+</ul>
+
+<h2>How Much Is the Night Work Allowance?</h2>
+
+<p>For every hour worked during night-time, you are entitled to an <strong>additional payment of 20% of the hourly rate derived from the statutory minimum wage</strong>.</p>
+
+<p>How to calculate it in 2026:</p>
+<ul>
+  <li>The minimum wage in 2026 is PLN 4,666 gross per month</li>
+  <li>Minimum hourly rate for full-time work: PLN 4,666 ÷ 168 hours ≈ PLN 27.77/hour</li>
+  <li>Night allowance: 20% × PLN 27.77 ≈ <strong>PLN 5.55 per night-time hour</strong></li>
+</ul>
+
+<p><strong>Important:</strong> The night allowance is paid on top of your regular wage — not instead of it. Even if your hourly rate is higher than the minimum, the allowance is still calculated based on the minimum wage rate.</p>
+
+<h2>Night Worker — Special Protections</h2>
+
+<p>You are classified as a "night worker" if your schedule regularly includes at least 3 night-time hours per working day, or if at least one quarter of your monthly working time falls during night-time hours.</p>
+
+<p>Night workers are entitled to:</p>
+<ul>
+  <li><strong>A daily limit of 8 working hours</strong> during night-time, when performing particularly dangerous work or work requiring significant mental effort</li>
+  <li><strong>Occupational health examinations</strong> paid by the employer — before starting night work and periodically thereafter</li>
+  <li><strong>Transfer to a daytime position</strong> on a doctor's recommendation or for specific health reasons</li>
+</ul>
+
+<h2>Who Cannot Work at Night?</h2>
+
+<p>Polish law protects certain categories of workers from night work:</p>
+<ul>
+  <li><strong>Pregnant women</strong> — the employer must transfer them to a daytime role or exempt them from night shifts</li>
+  <li><strong>Workers caring for children under 4 years old</strong> — they can refuse night work without consequences (they may agree to it voluntarily)</li>
+  <li><strong>Minors (under 18)</strong> — an absolute prohibition on night work</li>
+</ul>
+
+<h2>Night Work and Your Health</h2>
+
+<p>Working nights carries a higher health risk. Key things to keep in mind:</p>
+<ul>
+  <li>Regular breaks — the Labour Code guarantees at least a 15-minute break in a 6-hour working day</li>
+  <li>Daily rest — you are entitled to at least 11 consecutive hours of rest per day</li>
+  <li>Report health problems linked to night work to your employer or the occupational health doctor (lekarz medycyny pracy)</li>
+</ul>
+
+<h2>How to Check If You Are Getting the Right Allowance</h2>
+
+<p>Your pay slip (odcinek wypłat / pasek wynagrodzenia) should list separately:</p>
+<ul>
+  <li>Basic wage</li>
+  <li>Night work allowance (dodatek nocny) — as a separate line item</li>
+  <li>Any overtime pay and other components</li>
+</ul>
+
+<p>If your employer does not pay the night allowance, you can report it to the National Labour Inspectorate (Państwowa Inspekcja Pracy — PIP). Complaints can be submitted anonymously at pip.gov.pl.</p>
+
+<h2>Summary</h2>
+
+<p>If you work during night-time hours in Poland, you are entitled to a night work allowance — 20% of the minimum hourly wage for each night-time hour worked. As a night worker you also have rights to health examinations and additional protections. Check your pay slips and take action if something does not add up.</p>
+
+<p><em>Working night shifts and have questions about your rights? Nexflow supports temporary workers every step of the way — get in touch with us.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "emerytura-zus-cudzoziemiec-polska-wyjazd",
+    title: "ZUS i emerytura — co dzieje się z moimi składkami, gdy wyjadę z Polski?",
+    description:
+      "Pracujesz w Polsce i odprowadzasz składki ZUS — ale zastanawiasz się, co się z nimi stanie, gdy wrócisz do swojego kraju albo wyjedziesz do innego państwa?...",
+    date: "2031-05-01",
+    lang: "pl",
+    content: `
+<h1>ZUS i emerytura — co dzieje się z moimi składkami, gdy wyjadę z Polski?</h1>
+
+<p>Pracujesz w Polsce i odprowadzasz składki ZUS — ale zastanawiasz się, co się z nimi stanie, gdy wrócisz do swojego kraju albo wyjedziesz do innego państwa? To jedno z najczęstszych pytań cudzoziemców pracujących w Polsce. Odpowiedź zależy głównie od Twojego kraju pochodzenia i długości pobytu w Polsce.</p>
+
+<h2>Jak działa system emerytalny ZUS?</h2>
+
+<p>Polska emerytura jest finansowana w systemie repartycyjnym: składki odprowadzane teraz są finansowaniem bieżących emerytur. Jako pracownik odprowadzasz składki do ZUS (Zakład Ubezpieczeń Społecznych), które są zapisywane na Twoim indywidualnym koncie emerytalnym w ZUS.</p>
+
+<p>Twoje konto w ZUS składa się z dwóch subkont:</p>
+<ul>
+  <li><strong>I filar (ZUS)</strong> — główna część składek emerytalnych</li>
+  <li><strong>II filar (OFE lub ZUS)</strong> — opcjonalna część w Otwartych Funduszach Emerytalnych</li>
+</ul>
+
+<p>Stan Twojego konta możesz sprawdzić przez PUE ZUS (portal pue.zus.pl) lub aplikację mZUS.</p>
+
+<h2>Czy odzyskam składki po wyjeździe z Polski?</h2>
+
+<p>W Polsce <strong>nie ma możliwości wypłaty zgromadzonych składek emerytalnych</strong> przed osiągnięciem wieku emerytalnego, niezależnie od tego, czy jesteś Polakiem, czy cudzoziemcem. Składki są „zamrożone" na Twoim koncie do czasu przejścia na emeryturę.</p>
+
+<p>Co więc się dzieje z Twoimi składkami po wyjeździe?</p>
+<ul>
+  <li>Składki pozostają na Twoim koncie w ZUS</li>
+  <li>Narastają o wskaźnik waloryzacji (co roku ZUS przelicza wartość konta)</li>
+  <li>Po osiągnięciu polskiego wieku emerytalnego (60 lat kobiety, 65 lat mężczyźni) możesz ubiegać się o polską emeryturę</li>
+</ul>
+
+<h2>Umowy o zabezpieczeniu społecznym</h2>
+
+<p>Polska podpisała umowy o zabezpieczeniu społecznym z wieloma krajami. Oznacza to, że okresy ubezpieczenia w Polsce mogą być łączone z okresami z innego kraju przy ustalaniu prawa do emerytury.</p>
+
+<p>Kraje, z którymi Polska ma takie umowy (wybrane):</p>
+<ul>
+  <li>Ukraina ✓</li>
+  <li>USA, Kanada, Australia</li>
+  <li>Wszystkie kraje UE (na mocy unijnych rozporządzeń koordynacyjnych)</li>
+  <li>Wiele innych państw — pełna lista na stronie ZUS</li>
+</ul>
+
+<p>Jeśli wróciłeś do Ukrainy i spełniasz tamtejsze warunki emerytalne, ZUS i ukraiński odpowiednik ZUS mogą uwzględnić wzajemnie okresy składkowe z obu krajów.</p>
+
+<h2>Kiedy mogę dostać polską emeryturę, mieszkając za granicą?</h2>
+
+<p>Możesz ubiegać się o emeryturę z ZUS niezależnie od miejsca zamieszkania — możesz mieszkać za granicą. Aby to zrobić:</p>
+<ol>
+  <li>Osiągnij wiek emerytalny (65 lat mężczyźni, 60 lat kobiety)</li>
+  <li>Złóż wniosek do ZUS (możliwe przez zagraniczne instytucje w ramach umów lub bezpośrednio)</li>
+  <li>Emerytura będzie wypłacana na wskazany rachunek bankowy — również zagraniczny</li>
+</ol>
+
+<p>Minimalna emerytura z ZUS — jeśli okres składkowy wynosi co najmniej 20 lat (kobiety) lub 25 lat (mężczyźni) — jest gwarantowana przez państwo.</p>
+
+<h2>Co jeśli pracowałem w Polsce tylko kilka lat?</h2>
+
+<p>Nawet krótki okres pracy w Polsce generuje składki na Twoim koncie. Jeśli nie spełniasz minimalnego okresu składkowego wymaganego do samodzielnej emerytury z ZUS, Twoje konto nie przepada — wciąż możesz skorzystać z umowy koordynacyjnej i zsumować okresy z różnych krajów.</p>
+
+<p>Przykład: pracowałeś 3 lata w Polsce i 22 lata na Ukrainie. Na mocy umowy polsko-ukraińskiej, ZUS może uznać łącznie 25 lat — i wyliczył emeryturę proporcjonalnie do polskiego okresu składkowego.</p>
+
+<h2>Jak sprawdzić swoje składki w ZUS?</h2>
+
+<p>Możesz to zrobić bezpłatnie:</p>
+<ul>
+  <li>Przez PUE ZUS (portal pue.zus.pl) — po założeniu konta z Profilem Zaufanym lub e-Dowodem</li>
+  <li>Przez aplikację mobilną mZUS</li>
+  <li>Osobiście w oddziale ZUS z dokumentem tożsamości</li>
+  <li>Przez infolinię ZUS: 22 560 16 00</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+
+<p>Składki ZUS odprowadzane w czasie pracy w Polsce nie przepadają po Twoim wyjeździe — zostają na koncie i możesz ubiegać się o emeryturę z ZUS po osiągnięciu polskiego wieku emerytalnego, nawet mieszkając za granicą. Jeśli Twój kraj ma umowę z Polską, możliwe jest też sumowanie okresów składkowych z obu krajów. Sprawdzaj stan swojego konta na PUE ZUS.</p>
+
+<p><em>Masz pytania o składki ZUS lub swoje prawa jako pracownik tymczasowy w Polsce? Nexflow pomaga na każdym kroku — skontaktuj się z nami.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "pensiya-zus-inozemets-polshcha-vyizd",
+    title: "ZUS та пенсія — що відбувається з моїми внесками, коли я виїжджаю з Польщі?",
+    description:
+      "Ви працюєте в Польщі та сплачуєте внески до ZUS — але цікавитеся, що з ними станеться, коли ви повернетеся на батьківщину або переїдете до іншої країни? Це...",
+    date: "2031-05-08",
+    lang: "uk",
+    content: `
+<h1>ZUS та пенсія — що відбувається з моїми внесками, коли я виїжджаю з Польщі?</h1>
+
+<p>Ви працюєте в Польщі та сплачуєте внески до ZUS — але цікавитеся, що з ними станеться, коли ви повернетеся на батьківщину або переїдете до іншої країни? Це одне з найпоширеніших питань іноземців, які працюють у Польщі. Відповідь залежить головним чином від вашої країни походження та тривалості перебування в Польщі.</p>
+
+<h2>Як працює пенсійна система ZUS?</h2>
+
+<p>Польська пенсія фінансується за розподільчою системою: внески, які ви сплачуєте зараз, фінансують поточні пенсії. Як працівник ви сплачуєте внески до ZUS (Zakład Ubezpieczeń Społecznych), і вони записуються на вашому індивідуальному пенсійному рахунку в ZUS.</p>
+
+<p>Ваш рахунок у ZUS складається з двох субрахунків:</p>
+<ul>
+  <li><strong>I стовп (ZUS)</strong> — основна частина пенсійних внесків</li>
+  <li><strong>II стовп (OFE або ZUS)</strong> — необов'язкова частина у Відкритих пенсійних фондах</li>
+</ul>
+
+<p>Стан вашого рахунку можна перевірити через PUE ZUS (портал pue.zus.pl) або застосунок mZUS.</p>
+
+<h2>Чи повернуть мені внески після виїзду з Польщі?</h2>
+
+<p>У Польщі <strong>немає можливості отримати назад накопичені пенсійні внески</strong> до досягнення пенсійного віку — незалежно від того, чи є ви поляком або іноземцем. Внески «заморожені» на вашому рахунку до виходу на пенсію.</p>
+
+<p>Що ж відбувається з вашими внесками після виїзду?</p>
+<ul>
+  <li>Внески залишаються на вашому рахунку в ZUS</li>
+  <li>Щороку індексуються (ZUS щорічно перераховує вартість рахунку)</li>
+  <li>Після досягнення польського пенсійного віку (60 років — жінки, 65 років — чоловіки) ви можете подати заяву на польську пенсію</li>
+</ul>
+
+<h2>Договори про соціальне забезпечення</h2>
+
+<p>Польща уклала договори про соціальне забезпечення з багатьма країнами. Це означає, що страхові періоди в Польщі можуть підсумовуватися зі страховими періодами в іншій країні при визначенні права на пенсію.</p>
+
+<p>Країни, з якими Польща має такі договори (вибірково):</p>
+<ul>
+  <li>Україна ✓</li>
+  <li>США, Канада, Австралія</li>
+  <li>Усі країни ЄС (на основі координаційних регламентів ЄС)</li>
+  <li>Багато інших держав — повний список на сайті ZUS</li>
+</ul>
+
+<p>Якщо ви повернулися до України і відповідаєте тамтешнім умовам для пенсії, ZUS та український аналог ZUS можуть взаємно врахувати страхові періоди з обох країн.</p>
+
+<h2>Коли я можу отримати польську пенсію, живучи за кордоном?</h2>
+
+<p>Ви можете подати заяву на пенсію від ZUS незалежно від місця проживання — навіть живучи за кордоном. Для цього:</p>
+<ol>
+  <li>Досягніть пенсійного віку (65 років — чоловіки, 60 років — жінки)</li>
+  <li>Подайте заяву до ZUS (можливо через закордонні установи в рамках договорів або безпосередньо)</li>
+  <li>Пенсія виплачуватиметься на вказаний банківський рахунок — зокрема й закордонний</li>
+</ol>
+
+<p>Мінімальна пенсія від ZUS — якщо страховий стаж становить щонайменше 20 років (жінки) або 25 років (чоловіки) — гарантована державою.</p>
+
+<h2>А якщо я працював у Польщі лише кілька років?</h2>
+
+<p>Навіть короткий період роботи в Польщі генерує внески на вашому рахунку. Якщо ви не виконуєте мінімального страхового стажу, необхідного для самостійної пенсії від ZUS, ваш рахунок не «згорить» — ви все одно можете скористатися координаційним договором і підсумувати стаж з різних країн.</p>
+
+<p>Приклад: ви пропрацювали 3 роки в Польщі та 22 роки в Україні. Відповідно до польсько-українського договору, ZUS може визнати загалом 25 років — і розрахує пенсію пропорційно до польського страхового стажу.</p>
+
+<h2>Як перевірити свої внески в ZUS?</h2>
+
+<p>Це можна зробити безкоштовно:</p>
+<ul>
+  <li>Через PUE ZUS (портал pue.zus.pl) — після реєстрації за допомогою Профілю Довіреного (Profil Zaufany) або е-посвідчення</li>
+  <li>Через мобільний застосунок mZUS</li>
+  <li>Особисто у відділенні ZUS з документом, що посвідчує особу</li>
+  <li>Через інформаційну лінію ZUS: 22 560 16 00</li>
+</ul>
+
+<h2>Підсумок</h2>
+
+<p>Внески до ZUS, сплачені під час роботи в Польщі, не зникають після вашого виїзду — вони залишаються на рахунку, і ви можете звернутися за польською пенсією після досягнення польського пенсійного віку, навіть живучи за кордоном. Якщо ваша країна уклала договір із Польщею, можливе також підсумування страхових стажів з обох країн. Перевіряйте стан свого рахунку на PUE ZUS.</p>
+
+<p><em>Маєте запитання про внески до ZUS або свої права як тимчасовий працівник у Польщі? Nexflow допомагає на кожному кроці — зверніться до нас.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "pensiya-zus-inostranets-polsha-vyezd",
+    title: "ZUS и пенсия — что происходит с моими взносами, когда я уезжаю из Польши?",
+    description:
+      "Вы работаете в Польше и платите взносы в ZUS — но интересуетесь, что с ними произойдёт, когда вы вернётесь на родину или переедете в другую страну? Это один...",
+    date: "2031-05-15",
+    lang: "ru",
+    content: `
+<h1>ZUS и пенсия — что происходит с моими взносами, когда я уезжаю из Польши?</h1>
+
+<p>Вы работаете в Польше и платите взносы в ZUS — но интересуетесь, что с ними произойдёт, когда вы вернётесь на родину или переедете в другую страну? Это один из самых распространённых вопросов иностранцев, работающих в Польше. Ответ зависит главным образом от вашей страны происхождения и продолжительности пребывания в Польше.</p>
+
+<h2>Как работает пенсионная система ZUS?</h2>
+
+<p>Польская пенсия финансируется по распределительной системе: взносы, которые вы платите сейчас, финансируют текущие пенсии. Как работник вы платите взносы в ZUS (Zakład Ubezpieczeń Społecznych), и они записываются на вашем индивидуальном пенсионном счёте в ZUS.</p>
+
+<p>Ваш счёт в ZUS состоит из двух субсчётов:</p>
+<ul>
+  <li><strong>I столп (ZUS)</strong> — основная часть пенсионных взносов</li>
+  <li><strong>II столп (OFE или ZUS)</strong> — необязательная часть в Открытых пенсионных фондах</li>
+</ul>
+
+<p>Состояние вашего счёта можно проверить через PUE ZUS (портал pue.zus.pl) или приложение mZUS.</p>
+
+<h2>Верну ли я взносы после отъезда из Польши?</h2>
+
+<p>В Польше <strong>нет возможности получить обратно накопленные пенсионные взносы</strong> до достижения пенсионного возраста — независимо от того, являетесь ли вы поляком или иностранцем. Взносы «заморожены» на вашем счёте до выхода на пенсию.</p>
+
+<p>Что же происходит с вашими взносами после отъезда?</p>
+<ul>
+  <li>Взносы остаются на вашем счёте в ZUS</li>
+  <li>Ежегодно индексируются (ZUS ежегодно пересчитывает стоимость счёта)</li>
+  <li>По достижении польского пенсионного возраста (60 лет — женщины, 65 лет — мужчины) вы можете подать заявление на польскую пенсию</li>
+</ul>
+
+<h2>Договоры о социальном обеспечении</h2>
+
+<p>Польша заключила договоры о социальном обеспечении со многими странами. Это означает, что страховые периоды в Польше могут суммироваться со страховыми периодами в другой стране при определении права на пенсию.</p>
+
+<p>Страны, с которыми Польша имеет такие договоры (выборочно):</p>
+<ul>
+  <li>Украина ✓</li>
+  <li>США, Канада, Австралия</li>
+  <li>Все страны ЕС (на основании координационных регламентов ЕС)</li>
+  <li>Многие другие государства — полный список на сайте ZUS</li>
+</ul>
+
+<p>Если вы вернулись в Украину и соответствуете тамошним условиям для пенсии, ZUS и украинский аналог ZUS могут взаимно учесть страховые периоды из обеих стран.</p>
+
+<h2>Когда я могу получить польскую пенсию, живя за рубежом?</h2>
+
+<p>Вы можете подать заявление на пенсию от ZUS независимо от места жительства — в том числе живя за рубежом. Для этого:</p>
+<ol>
+  <li>Достигните пенсионного возраста (65 лет — мужчины, 60 лет — женщины)</li>
+  <li>Подайте заявление в ZUS (возможно через зарубежные учреждения в рамках договоров или напрямую)</li>
+  <li>Пенсия будет выплачиваться на указанный банковский счёт — в том числе зарубежный</li>
+</ol>
+
+<p>Минимальная пенсия от ZUS — если страховой стаж составляет не менее 20 лет (женщины) или 25 лет (мужчины) — гарантирована государством.</p>
+
+<h2>А если я работал в Польше только несколько лет?</h2>
+
+<p>Даже короткий период работы в Польше создаёт взносы на вашем счёте. Если вы не выполняете минимального страхового стажа, необходимого для самостоятельной пенсии от ZUS, ваш счёт не «сгорит» — вы всё равно можете воспользоваться координационным договором и суммировать стаж из разных стран.</p>
+
+<p>Пример: вы проработали 3 года в Польше и 22 года в Украине. В соответствии с польско-украинским договором, ZUS может признать в совокупности 25 лет — и рассчитает пенсию пропорционально польскому страховому стажу.</p>
+
+<h2>Как проверить свои взносы в ZUS?</h2>
+
+<p>Это можно сделать бесплатно:</p>
+<ul>
+  <li>Через PUE ZUS (портал pue.zus.pl) — после регистрации с помощью Профиля Доверенного (Profil Zaufany) или э-удостоверения</li>
+  <li>Через мобильное приложение mZUS</li>
+  <li>Лично в отделении ZUS с документом, удостоверяющим личность</li>
+  <li>Через информационную линию ZUS: 22 560 16 00</li>
+</ul>
+
+<h2>Итог</h2>
+
+<p>Взносы в ZUS, уплаченные во время работы в Польше, не исчезают после вашего отъезда — они остаются на счёте, и вы можете обратиться за польской пенсией после достижения польского пенсионного возраста, даже живя за рубежом. Если ваша страна заключила договор с Польшей, возможно также суммирование страховых стажей из обеих стран. Проверяйте состояние своего счёта на PUE ZUS.</p>
+
+<p><em>Есть вопросы о взносах в ZUS или ваших правах как временного работника в Польше? Nexflow помогает на каждом шагу — свяжитесь с нами.</em></p>
+    `.trim(),
+  },
+
+  {
+    slug: "zus-pension-foreign-worker-poland-leaving",
+    title: "ZUS Pension in Poland — What Happens to Your Contributions When You Leave?",
+    description:
+      "You have been working in Poland and paying ZUS contributions — but you are wondering what will happen to them when you return home or move to another...",
+    date: "2031-05-22",
+    lang: "en",
+    content: `
+<h1>ZUS Pension in Poland — What Happens to Your Contributions When You Leave?</h1>
+
+<p>You have been working in Poland and paying ZUS contributions — but you are wondering what will happen to them when you return home or move to another country. This is one of the most common questions among foreign workers in Poland. The answer depends primarily on your country of origin and how long you have lived and worked in Poland.</p>
+
+<h2>How the ZUS Pension System Works</h2>
+
+<p>The Polish pension system is pay-as-you-go: the contributions you pay now finance the current pensions being paid out. As an employee, you pay contributions to ZUS (Zakład Ubezpieczeń Społecznych), and these are recorded on your individual pension account.</p>
+
+<p>Your ZUS account consists of two sub-accounts:</p>
+<ul>
+  <li><strong>Pillar I (ZUS)</strong> — the main part of your pension contributions</li>
+  <li><strong>Pillar II (OFE or ZUS)</strong> — an optional component in Open Pension Funds</li>
+</ul>
+
+<p>You can check the balance of your ZUS account at any time via the PUE ZUS portal (pue.zus.pl) or the mZUS mobile app.</p>
+
+<h2>Can I Get My Contributions Back When I Leave Poland?</h2>
+
+<p>In Poland, <strong>there is no mechanism to withdraw your accumulated pension contributions</strong> before reaching retirement age — regardless of whether you are Polish or a foreign national. Your contributions are effectively "locked" in your account until you retire.</p>
+
+<p>What happens to your contributions after you leave Poland?</p>
+<ul>
+  <li>The contributions remain in your ZUS account</li>
+  <li>They are uprated annually by the valorisation index (ZUS recalculates the account value each year)</li>
+  <li>After reaching Polish retirement age (60 for women, 65 for men), you can claim a Polish pension</li>
+</ul>
+
+<h2>Social Security Agreements</h2>
+
+<p>Poland has concluded social security agreements with many countries. This means that insurance periods accumulated in Poland can be combined with periods from another country when determining pension entitlement.</p>
+
+<p>Countries with which Poland has such agreements (selected):</p>
+<ul>
+  <li>Ukraine ✓</li>
+  <li>USA, Canada, Australia</li>
+  <li>All EU member states (under EU coordination regulations)</li>
+  <li>Many other countries — the full list is available on the ZUS website (zus.pl)</li>
+</ul>
+
+<p>If you return to Ukraine and meet that country's retirement conditions, ZUS and the Ukrainian social security authority can mutually recognise insurance periods from both countries.</p>
+
+<h2>When Can I Claim a Polish Pension While Living Abroad?</h2>
+
+<p>You can apply for a pension from ZUS regardless of where you live — including from abroad. To do so:</p>
+<ol>
+  <li>Reach the Polish retirement age (65 for men, 60 for women)</li>
+  <li>Submit an application to ZUS (this can be done through foreign social security institutions under bilateral agreements, or directly)</li>
+  <li>The pension is paid to the bank account you specify — including a foreign account</li>
+</ol>
+
+<p>A minimum pension from ZUS is guaranteed by the state if your insurance period is at least 20 years (women) or 25 years (men).</p>
+
+<h2>What If I Only Worked in Poland for a Few Years?</h2>
+
+<p>Even a short period of work in Poland generates contributions in your account. If you do not meet the minimum insurance period required for an independent ZUS pension, your account does not simply disappear — you can still benefit from a coordination agreement and combine periods from different countries.</p>
+
+<p>Example: you worked 3 years in Poland and 22 years in Ukraine. Under the Polish-Ukrainian social security agreement, ZUS can recognise a combined total of 25 years — and calculate your pension proportionally to the Polish insurance period.</p>
+
+<h2>How to Check Your ZUS Contributions</h2>
+
+<p>You can do this free of charge:</p>
+<ul>
+  <li>Via PUE ZUS (pue.zus.pl) — after setting up an account with Profil Zaufany or an e-ID card</li>
+  <li>Via the mZUS mobile app</li>
+  <li>In person at any ZUS branch with a valid identity document</li>
+  <li>By calling the ZUS helpline: 22 560 16 00</li>
+</ul>
+
+<h2>Summary</h2>
+
+<p>ZUS contributions paid during your time working in Poland do not disappear after you leave. They stay on your account and you can claim a Polish pension after reaching Polish retirement age, even while living abroad. If your country has a social security agreement with Poland, you may also be able to combine insurance periods from both countries. Keep track of your contributions by logging into PUE ZUS.</p>
+
+<p><em>Have questions about ZUS contributions or your rights as a temporary worker in Poland? Nexflow supports foreign workers at every step — get in touch.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
