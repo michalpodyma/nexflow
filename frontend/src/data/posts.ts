@@ -17499,6 +17499,818 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
     `.trim(),
   },
+  {
+    slug: "zameldowanie-obowiazek-meldunkowy-cudzoziemiec-polska",
+    title: "Zameldowanie w Polsce: obowiązek meldunkowy dla cudzoziemca – krok po kroku",
+    description: "Jak się zameldować w Polsce jako cudzoziemiec? Kiedy jest to obowiązkowe, gdzie złożyć wniosek i jakie dokumenty przygotować.",
+    date: "2030-01-10",
+    lang: "pl",
+    content: `
+<article>
+<h1>Zameldowanie w Polsce: obowiązek meldunkowy dla cudzoziemca</h1>
+
+<p>Przyjechałeś do pracy w Polsce i zamieszkałeś w nowym miejscu? W Polsce obowiązuje <strong>obowiązek meldunkowy</strong> – każda osoba przebywająca w Polsce powyżej 30 dni powinna się zameldować. Sprawdź, jak to zrobić krok po kroku.</p>
+
+<h2>Kto musi się zameldować?</h2>
+<p>Zgodnie z polskim prawem (ustawa o ewidencji ludności), każdy cudzoziemiec przebywający w Polsce <strong>ponad 30 dni</strong> ma obowiązek meldunkowy. Dotyczy to zarówno obywateli UE, jak i spoza Unii.</p>
+
+<h2>Gdzie się zameldować?</h2>
+<p>Meldunku dokonuje się w <strong>Urzędzie Gminy lub Urzędzie Miasta</strong> właściwym dla miejsca zamieszkania. Można to zrobić:</p>
+<ul>
+<li>Osobiście w urzędzie (najczęstszy sposób)</li>
+<li>Przez Internet – przez platformę ePUAP (wymaga Profilu Zaufanego)</li>
+</ul>
+
+<h2>Jakie dokumenty są potrzebne?</h2>
+<ul>
+<li>Dokument tożsamości: paszport lub karta pobytu</li>
+<li>Formularz meldunkowy – dostępny w urzędzie lub online</li>
+<li>Dokument potwierdzający tytuł prawny do lokalu (np. umowa najmu) – podpisany przez właściciela lub zarządcę</li>
+</ul>
+
+<h2>Meldunek tymczasowy vs. stały</h2>
+<p>Cudzoziemcy pracujący sezonowo lub tymczasowo zazwyczaj korzystają z <strong>meldunku tymczasowego</strong> (pobyt czasowy). Jeśli planujesz zostać dłużej (np. starasz się o kartę pobytu), rozważ meldunek stały.</p>
+
+<h2>Czy brak meldunku grozi karą?</h2>
+<p>Technicznie tak – brak meldunku jest wykroczeniem, ale w praktyce sankcje są rzadko stosowane. Niemniej meldunek jest ważny, bo:</p>
+<ul>
+<li>Jest wymagany przy ubieganiu się o kartę pobytu (TRC)</li>
+<li>Ułatwia uzyskanie PESEL</li>
+<li>Jest potrzebny przy otwieraniu konta bankowego</li>
+<li>Może być wymagany przez pracodawcę</li>
+</ul>
+
+<h2>Co jeśli pracodawca zapewnia zakwaterowanie?</h2>
+<p>Jeśli pracodawca lub agencja pracy zapewnia Ci zakwaterowanie w hotelu pracowniczym lub mieszkaniu, poproś o podpisanie formularza meldunkowego. To ich obowiązek.</p>
+
+<h2>Jak długo trwa procedura?</h2>
+<p>Meldunek jest <strong>bezpłatny</strong> i realizowany od ręki. Wizyta w urzędzie trwa zazwyczaj 15–30 minut, pod warunkiem że masz wszystkie dokumenty.</p>
+
+<h2>Potrzebujesz pomocy z formalnościami w Polsce?</h2>
+<p>Nexflow pomaga pracownikom tymczasowym w załatwianiu formalności. Skontaktuj się z nami – nasz zespół odpowie na Twoje pytania.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zameldovaniia-reiestratsiia-prozhyvannia-inozemets-polshcha",
+    title: "Замелдовання в Польщі: обов'язкова реєстрація за місцем проживання для іноземця",
+    description: "Як зареєструватися за місцем проживання в Польщі? Коли це обов'язково, куди звертатися і які документи потрібні.",
+    date: "2030-01-17",
+    lang: "uk",
+    content: `
+<article>
+<h1>Замелдовання в Польщі: реєстрація за місцем проживання для іноземця</h1>
+
+<p>Приїхав до Польщі на роботу та оселився в новому місці? У Польщі існує <strong>обов'язок реєстрації (замелдовання)</strong> – кожен, хто перебуває в Польщі понад 30 днів, зобов'язаний зареєструватися за місцем проживання. Дізнайся, як це зробити крок за кроком.</p>
+
+<h2>Хто зобов'язаний реєструватися?</h2>
+<p>Відповідно до польського законодавства, кожен іноземець, що перебуває в Польщі <strong>понад 30 днів</strong>, має обов'язок реєстрації. Це стосується як громадян ЄС, так і громадян третіх країн.</p>
+
+<h2>Де реєструватися?</h2>
+<p>Реєстрацію здійснюють у <strong>місцевому ратуші (Urząd Gminy або Urząd Miasta)</strong> за місцем проживання. Можна зробити:</p>
+<ul>
+<li>Особисто в установі (найчастіший спосіб)</li>
+<li>Через Інтернет – через платформу ePUAP (потрібен Профіль Зауфани)</li>
+</ul>
+
+<h2>Які документи потрібні?</h2>
+<ul>
+<li>Документ, що посвідчує особу: паспорт або картка перебування</li>
+<li>Бланк реєстрації – доступний в установі або онлайн</li>
+<li>Документ, що підтверджує право на проживання (наприклад, договір оренди) – підписаний власником</li>
+</ul>
+
+<h2>Тимчасова vs. постійна реєстрація</h2>
+<p>Тимчасові та сезонні працівники зазвичай реєструються як <strong>тимчасові мешканці (побит часовий)</strong>. Якщо планується тривале перебування – варто розглянути постійну реєстрацію.</p>
+
+<h2>Чому реєстрація важлива?</h2>
+<ul>
+<li>Потрібна при подачі на карту тимчасового перебування (TRC)</li>
+<li>Допомагає отримати PESEL</li>
+<li>Необхідна при відкритті банківського рахунку</li>
+<li>Може вимагатися роботодавцем</li>
+</ul>
+
+<h2>Якщо роботодавець забезпечує житло</h2>
+<p>Якщо роботодавець або агенція надає гуртожиток чи квартиру, попроси підписати бланк реєстрації. Це їхній обов'язок.</p>
+
+<h2>Скільки часу займає процедура?</h2>
+<p>Реєстрація є <strong>безкоштовною</strong> та відбувається одразу. Візит до установи зазвичай займає 15–30 хвилин.</p>
+
+<h2>Потрібна допомога з формальностями?</h2>
+<p>Nexflow допомагає тимчасовим працівникам у вирішенні формальних питань. Зв'яжіться з нами!</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zameldovanie-registratsiia-prozhivaniia-inostranets-polsha",
+    title: "Замелдование в Польше: регистрация по месту жительства для иностранца",
+    description: "Как зарегистрироваться по месту жительства в Польше? Когда это обязательно, куда обращаться и какие документы нужны.",
+    date: "2030-01-24",
+    lang: "ru",
+    content: `
+<article>
+<h1>Замелдование в Польше: регистрация по месту жительства для иностранца</h1>
+
+<p>Приехал в Польшу на работу и снял жильё? В Польше существует <strong>обязанность регистрации (замелдование)</strong> – каждый, кто находится в Польше более 30 дней, обязан зарегистрироваться по месту проживания. Узнай, как это сделать шаг за шагом.</p>
+
+<h2>Кто обязан регистрироваться?</h2>
+<p>Согласно польскому законодательству, каждый иностранец, пребывающий в Польше <strong>более 30 дней</strong>, обязан пройти регистрацию по месту жительства. Это касается как граждан ЕС, так и граждан третьих стран.</p>
+
+<h2>Где регистрироваться?</h2>
+<p>Регистрация проводится в <strong>местном Ратуше (Urząd Gminy или Urząd Miasta)</strong> по месту проживания. Можно сделать:</p>
+<ul>
+<li>Лично в учреждении (наиболее распространённый способ)</li>
+<li>Через Интернет – через платформу ePUAP (требуется Профиль Зауфаны)</li>
+</ul>
+
+<h2>Какие документы нужны?</h2>
+<ul>
+<li>Документ, удостоверяющий личность: паспорт или вид на жительство</li>
+<li>Бланк регистрации – доступен в учреждении или онлайн</li>
+<li>Документ, подтверждающий право на проживание (например, договор аренды) – подписанный собственником</li>
+</ul>
+
+<h2>Временная vs. постоянная регистрация</h2>
+<p>Временные и сезонные работники обычно регистрируются как <strong>временные жители (pobyt czasowy)</strong>. Если планируется длительное пребывание – стоит рассмотреть постоянную регистрацию.</p>
+
+<h2>Почему регистрация важна?</h2>
+<ul>
+<li>Необходима при подаче на карту временного пребывания (TRC)</li>
+<li>Помогает получить PESEL</li>
+<li>Требуется при открытии банковского счёта</li>
+<li>Может требоваться работодателем</li>
+</ul>
+
+<h2>Если работодатель предоставляет жильё</h2>
+<p>Если работодатель или агентство предоставляет общежитие или квартиру, попроси подписать бланк регистрации. Это их обязанность.</p>
+
+<h2>Сколько времени занимает процедура?</h2>
+<p>Регистрация <strong>бесплатная</strong> и производится сразу. Визит в учреждение обычно занимает 15–30 минут.</p>
+
+<h2>Нужна помощь с формальностями?</h2>
+<p>Nexflow помогает временным работникам решать вопросы с документами. Свяжись с нами!</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "address-registration-zameldowanie-poland-foreign-worker",
+    title: "Address Registration in Poland (Zameldowanie): What Every Foreign Worker Needs to Know",
+    description: "Learn about the zameldowanie obligation in Poland — who must register, where to go, and what documents you need.",
+    date: "2030-01-31",
+    lang: "en",
+    content: `
+<article>
+<h1>Address Registration in Poland (Zameldowanie): A Guide for Foreign Workers</h1>
+
+<p>Arrived in Poland for work and moved into new accommodation? Poland has a <strong>mandatory address registration system (zameldowanie)</strong> — every person staying in Poland for more than 30 days is required by law to register their place of residence. Here is everything you need to know, step by step.</p>
+
+<h2>Who Must Register?</h2>
+<p>Under Polish law (the Population Register Act), every foreign national staying in Poland for <strong>more than 30 consecutive days</strong> is required to register their address. This applies to both EU citizens and third-country nationals (non-EU). There are no exceptions based on employment type or nationality.</p>
+
+<h2>Where to Register</h2>
+<p>Registration is carried out at the <strong>local municipal office (Urząd Gminy or Urząd Miasta)</strong> responsible for your place of residence. There are two options:</p>
+<ul>
+<li>In person at the municipal office — the most common and straightforward method</li>
+<li>Online via the ePUAP government platform — requires a Profil Zaufany (trusted profile), a digital identity used for Polish e-government services</li>
+</ul>
+<p>You must register at the office covering the municipality where you actually live — not your employer's location or agency address.</p>
+
+<h2>Documents You Need</h2>
+<p>Bring the following to the municipal office:</p>
+<ul>
+<li><strong>Identity document:</strong> valid passport or Polish residence card (karta pobytu)</li>
+<li><strong>Registration form (formularz meldunkowy):</strong> available at the office or downloadable from the municipal website</li>
+<li><strong>Proof of the right to occupy the property:</strong> usually a signed rental agreement (umowa najmu) — the form must be confirmed by the property owner or manager</li>
+</ul>
+<p>The property owner or manager must sign the registration form to confirm that you reside at that address. If your employer provides accommodation, ask them to sign the form — it is their legal obligation.</p>
+
+<h2>Temporary vs. Permanent Registration</h2>
+<p>Poland distinguishes between two types of registration:</p>
+<ul>
+<li><strong>Temporary registration (pobyt czasowy):</strong> for stays up to a defined period. This is the most common option for seasonal and temporary workers.</li>
+<li><strong>Permanent registration (pobyt stały):</strong> for those planning to settle long-term in Poland. This is relevant if you are applying for permanent residency.</li>
+</ul>
+<p>As a temporary worker, you will most likely register for a temporary stay. Make sure the duration on your registration matches the length of your employment contract or planned stay.</p>
+
+<h2>Why Registration Matters</h2>
+<p>Although the penalty for failing to register is rarely enforced in practice, zameldowanie is important for several practical reasons:</p>
+<ul>
+<li><strong>Temporary residence card (TRC / karta pobytu):</strong> a registered address is required when applying for a residence card from the voivodeship office</li>
+<li><strong>PESEL number:</strong> registration greatly simplifies obtaining a PESEL — Poland's national identification number, needed for tax, healthcare, and social security</li>
+<li><strong>Bank account:</strong> many Polish banks require a confirmed address when opening an account</li>
+<li><strong>Employer requirements:</strong> some employers and staffing agencies request proof of registration as part of their administrative procedures</li>
+<li><strong>Healthcare access:</strong> registration at an address can be needed when registering with a local GP (lekarz rodzinny) under NFZ public health insurance</li>
+</ul>
+
+<h2>Employer-Provided Accommodation</h2>
+<p>If your employer or staffing agency provides accommodation — such as a workers' hostel or a shared apartment — you are still required to register. The accommodation manager or employer must sign the registration form as the property representative. Do not hesitate to ask for this — it is their legal obligation and a routine part of placing workers in Poland.</p>
+<p>At Nexflow, we assist all temporary workers with this process and can provide the required documentation for registration purposes.</p>
+
+<h2>How Long Does Registration Take?</h2>
+<p>Registration is <strong>free of charge</strong> and processed on the spot. A visit to the municipal office typically takes 15–30 minutes, provided you arrive with all required documents. You do not need to make an appointment in most municipalities, though checking the local office's website in advance is always a good idea.</p>
+
+<h2>Frequently Asked Questions</h2>
+<p><strong>Do I need a Polish language interpreter?</strong> Municipal office staff are required to communicate in Polish. Bring a translated version of your documents if needed, or ask Nexflow for assistance before your visit.</p>
+<p><strong>What if I change address?</strong> You must re-register within 30 days of moving to a new address. The same procedure applies — visit the new municipality's office with updated documentation.</p>
+<p><strong>Can I be fined for not registering?</strong> Technically, failure to register is a minor offence, but enforcement is rare. That said, the practical consequences — delays in obtaining PESEL, TRC, or banking services — make registration a priority upon arrival.</p>
+
+<h2>Need Help with Formalities in Poland?</h2>
+<p>Nexflow supports every temporary worker with the administrative side of working in Poland — from address registration and PESEL applications to residence card guidance. Contact us and our team will walk you through the process in your language.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "rozliczenie-pit-pracownik-tymczasowy-polska-poradnik",
+    title: "Rozliczenie PIT w Polsce: krok po kroku dla cudzoziemca pracującego tymczasowo",
+    description: "Jak złożyć zeznanie podatkowe PIT w Polsce jako cudzoziemiec? Terminy, formularze, ulgi i jak uniknąć najczęstszych błędów.",
+    date: "2030-02-07",
+    lang: "pl",
+    content: `
+<article>
+<h1>Rozliczenie PIT w Polsce: przewodnik dla pracownika tymczasowego</h1>
+
+<p>Pracujesz w Polsce na podstawie umowy zlecenia lub umowy o pracę? Na koniec roku podatkowego czeka Cię złożenie zeznania PIT. Dla wielu cudzoziemców to pierwszy kontakt z polskim systemem podatkowym. Ten przewodnik wyjaśni Ci wszystko krok po kroku.</p>
+
+<h2>Kto musi złożyć PIT w Polsce?</h2>
+<p>Obowiązek złożenia zeznania podatkowego zależy od Twojego statusu podatkowego:</p>
+<ul>
+<li><strong>Rezydent podatkowy:</strong> jeśli przebywasz w Polsce <strong>ponad 183 dni w roku</strong> lub masz tu centrum interesów życiowych (rodzina, stałe miejsce zamieszkania), jesteś polskim rezydentem podatkowym. Rozliczasz wtedy <em>wszystkie</em> dochody – zarówno z Polski, jak i z zagranicy.</li>
+<li><strong>Nierezydent podatkowy:</strong> jeśli przebywasz krócej, płacisz podatek tylko od dochodów uzyskanych w Polsce. Możesz skorzystać z uproszczonego rozliczenia lub umowy o unikaniu podwójnego opodatkowania.</li>
+</ul>
+<p>Większość pracowników tymczasowych pracujących w Polsce przez cały sezon to rezydenci podatkowi i mają obowiązek złożenia zeznania.</p>
+
+<h2>Jakie formularze PIT są dostępne?</h2>
+<ul>
+<li><strong>PIT-37:</strong> najczęściej stosowany formularz dla pracowników, którzy uzyskiwali dochody wyłącznie za pośrednictwem płatnika (pracodawcy). Podstawa dla zdecydowanej większości pracowników tymczasowych.</li>
+<li><strong>PIT-36:</strong> dla osób z dochodami z różnych źródeł, w tym działalności gospodarczej lub zagranicznych.</li>
+<li><strong>PIT-28:</strong> dla osób opodatkowanych ryczałtem ewidencjonowanym (rzadziej stosowany przez pracowników najemnych).</li>
+</ul>
+<p>Jeśli pracowałeś wyłącznie na umowę zlecenia lub umowę o pracę, wybierz PIT-37.</p>
+
+<h2>Skąd wziąć PIT-11?</h2>
+<p>Twój pracodawca (lub agencja pracy) ma obowiązek wystawić Ci <strong>PIT-11</strong> do końca lutego następnego roku. To zaświadczenie o dochodach i pobranych zaliczkach na podatek – podstawa do wypełnienia Twojego zeznania.</p>
+<ul>
+<li>Sprawdź, czy Twój pracodawca wysłał PIT-11 na adres e-mail lub pocztą</li>
+<li>PIT-11 jest też dostępny w systemie e-Urząd Skarbowy, jeśli pracodawca wysłał go elektronicznie</li>
+<li>Jeśli nie otrzymałeś PIT-11, skontaktuj się z działem kadr pracodawcy – masz do niego prawo</li>
+</ul>
+
+<h2>Jak złożyć PIT online?</h2>
+<p>Najwygodniej rozliczyć PIT przez <strong>e-Urząd Skarbowy (e-US)</strong> pod adresem podatki.gov.pl. System automatycznie pobiera dane od pracodawcy i wstępnie uzupełnia formularz.</p>
+<ol>
+<li>Zaloguj się przez Profil Zaufany, mObywatel lub dane z PIT-11</li>
+<li>Wybierz opcję „Twój e-PIT" – system pokaże Twoje zeznanie wstępnie wypełnione</li>
+<li>Sprawdź dane i uzupełnij brakujące informacje (np. ulgi, odliczenia)</li>
+<li>Zaakceptuj i wyślij – gotowe!</li>
+</ol>
+<p>Jeśli nie złożysz zeznania do 30 kwietnia, system automatycznie akceptuje Twój e-PIT (dla PIT-37 i PIT-38) – to wygodne, ale zawsze warto sprawdzić, czy nie przepłacasz podatku.</p>
+
+<h2>Termin składania zeznania</h2>
+<p>Zeznania PIT za poprzedni rok składa się do <strong>30 kwietnia</strong>. Dla dochodów za rok 2029 termin mija 30 kwietnia 2030 roku. Przekroczenie terminu może skutkować odsetkami za zwłokę, jeśli masz niedopłatę podatku.</p>
+
+<h2>Ulga dla młodych (PIT-0)</h2>
+<p>Jeśli masz <strong>mniej niż 26 lat</strong> i pracujesz w Polsce na umowę o pracę, zlecenia lub praktykę absolwencką, przysługuje Ci <strong>ulga dla młodych</strong> – zwolnienie z podatku dochodowego do 85 528 zł rocznie. Pracodawca powinien automatycznie stosować tę ulgę, ale warto to sprawdzić na PIT-11.</p>
+
+<h2>Co jeśli pracowałeś tylko część roku?</h2>
+<p>Jeśli pracowałeś w Polsce tylko przez kilka miesięcy, możesz być uprawniony do zwrotu podatku. Pobrany zaliczkowy podatek może być wyższy niż należny po zsumowaniu całorocznych dochodów. Złożenie zeznania PIT jest więc Twoim prawem i może przynieść Ci realną korzyść finansową.</p>
+
+<h2>Gdzie uzyskać pomoc?</h2>
+<p>Jeśli masz wątpliwości co do rozliczenia:</p>
+<ul>
+<li>Urząd skarbowy właściwy dla Twojego miejsca zamieszkania – bezpłatna pomoc dla podatników</li>
+<li>Krajowa Informacja Skarbowa: tel. 801 055 055 lub +48 22 330 0330</li>
+<li>Nexflow – nasz zespół służy pomocą i może wskazać doradcę podatkowego mówiącego w Twoim języku</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "deklaratsiia-pit-tymchasovyi-pratsivnyk-polshcha",
+    title: "Декларація з податку на доходи (PIT) у Польщі: покрокове керівництво для іноземця",
+    description: "Як подати податкову декларацію PIT у Польщі як іноземець? Терміни, форми, пільги та поширені помилки.",
+    date: "2030-02-14",
+    lang: "uk",
+    content: `
+<article>
+<h1>Декларація PIT у Польщі: посібник для тимчасового працівника</h1>
+
+<p>Працюєш у Польщі за договором доручення (umowa zlecenia) або трудовим договором (umowa o pracę)? Наприкінці податкового року потрібно подати декларацію PIT. Для багатьох іноземців це перше знайомство з польською податковою системою. Цей посібник пояснить усе крок за кроком.</p>
+
+<h2>Хто зобов'язаний подавати PIT у Польщі?</h2>
+<p>Обов'язок подання декларації залежить від твого податкового статусу:</p>
+<ul>
+<li><strong>Податковий резидент:</strong> якщо перебуваєш у Польщі <strong>понад 183 дні на рік</strong> або маєш тут центр життєвих інтересів (сім'я, постійне місце проживання), ти є польським податковим резидентом. У такому разі декларуєш <em>усі</em> доходи — як з Польщі, так і з-за кордону.</li>
+<li><strong>Податковий нерезидент:</strong> якщо перебуваєш у Польщі менше зазначеного терміну, сплачуєш податок лише з доходів, отриманих у Польщі. Можна скористатися угодою про уникнення подвійного оподаткування.</li>
+</ul>
+<p>Більшість сезонних та тимчасових працівників, що працюють у Польщі протягом усього сезону, є податковими резидентами і зобов'язані подавати декларацію.</p>
+
+<h2>Які форми PIT існують?</h2>
+<ul>
+<li><strong>PIT-37:</strong> найпоширеніша форма для найманих працівників, які отримують доходи виключно через роботодавця (платника податків). Підходить для переважної більшості тимчасових працівників.</li>
+<li><strong>PIT-36:</strong> для осіб із доходами з різних джерел, у тому числі з підприємницької діяльності або закордонних джерел.</li>
+</ul>
+<p>Якщо ти працював виключно за договором доручення або трудовим договором — обирай PIT-37.</p>
+
+<h2>Де взяти PIT-11?</h2>
+<p>Твій роботодавець (або кадрове агентство) зобов'язаний надати тобі <strong>PIT-11</strong> до кінця лютого наступного року. Це довідка про доходи та утриманий авансовий податок — підстава для заповнення твоєї декларації.</p>
+<ul>
+<li>Перевір, чи роботодавець надіслав PIT-11 на електронну пошту або поштою</li>
+<li>PIT-11 також доступний у системі e-Urząd Skarbowy, якщо роботодавець передав його електронно</li>
+<li>Якщо не отримав PIT-11, зверніться до відділу кадрів — ти маєш на нього право</li>
+</ul>
+
+<h2>Як подати PIT онлайн?</h2>
+<p>Найзручніше заповнити декларацію через <strong>e-Urząd Skarbowy</strong> на сайті podatki.gov.pl. Система автоматично завантажує дані від роботодавця і попередньо заповнює форму.</p>
+<ol>
+<li>Увійди через Профіль Зауфани (Profil Zaufany), мОбивателя (mObywatel) або дані з PIT-11</li>
+<li>Обери опцію «Twój e-PIT» — система покаже попередньо заповнену декларацію</li>
+<li>Перевір дані та заповни відсутню інформацію (наприклад, пільги)</li>
+<li>Підтверди і надішли — готово!</li>
+</ol>
+<p>Якщо не подаси декларацію до 30 квітня, система автоматично приймає твій e-PIT (для PIT-37 та PIT-38) — але завжди перевіряй, чи не переплатив ти податок.</p>
+
+<h2>Термін подання декларації</h2>
+<p>Декларації PIT за попередній рік подаються до <strong>30 квітня</strong>. За доходи 2029 року — до 30 квітня 2030 року. Перевищення терміну може призвести до штрафних відсотків, якщо є недоплата.</p>
+
+<h2>Пільга для молоді (PIT-0)</h2>
+<p>Якщо тобі <strong>менше 26 років</strong> і ти працюєш у Польщі за трудовим договором або договором доручення, ти маєш право на <strong>пільгу для молоді</strong> — звільнення від прибуткового податку до 85 528 злотих на рік. Роботодавець повинен застосовувати цю пільгу автоматично, але перевір це у своєму PIT-11.</p>
+
+<h2>Що робити, якщо пропрацював лише частину року?</h2>
+<p>Якщо ти працював у Польщі лише кілька місяців, можливо, тобі належить повернення податку. Сплачений авансовий податок може бути більшим, ніж фактично належний після урахування всіх доходів за рік. Тому подання декларації PIT — це не лише обов'язок, але й можливість повернути переплачені кошти.</p>
+
+<h2>Де отримати допомогу?</h2>
+<ul>
+<li>Місцевий податковий орган (urząd skarbowy) — безкоштовна допомога для платників податків</li>
+<li>Krajowa Informacja Skarbowa: тел. 801 055 055 або +48 22 330 0330</li>
+<li>Nexflow — наша команда допоможе та порекомендує податкового консультанта, який говорить вашою мовою</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "deklaratsiia-pit-vremennyj-rabotnik-polsha",
+    title: "Налоговая декларация PIT в Польше: пошаговое руководство для иностранца",
+    description: "Как подать налоговую декларацию PIT в Польше? Сроки, формы, льготы и частые ошибки.",
+    date: "2030-02-21",
+    lang: "ru",
+    content: `
+<article>
+<h1>Декларация PIT в Польше: руководство для временного работника</h1>
+
+<p>Работаешь в Польше по договору поручения (umowa zlecenia) или трудовому договору (umowa o pracę)? В конце налогового года тебе нужно подать декларацию PIT. Для многих иностранцев это первое знакомство с польской налоговой системой. Это руководство объяснит всё шаг за шагом.</p>
+
+<h2>Кто обязан подавать PIT в Польше?</h2>
+<p>Обязанность подачи декларации зависит от твоего налогового статуса:</p>
+<ul>
+<li><strong>Налоговый резидент:</strong> если ты находишься в Польше <strong>более 183 дней в году</strong> или имеешь здесь центр жизненных интересов (семья, постоянное место жительства), ты являешься польским налоговым резидентом. В таком случае декларируешь <em>все</em> доходы — как из Польши, так и из-за рубежа.</li>
+<li><strong>Налоговый нерезидент:</strong> если находишься в Польше менее указанного срока, платишь налог только с доходов, полученных в Польше. Можно воспользоваться соглашением об избежании двойного налогообложения.</li>
+</ul>
+<p>Большинство сезонных и временных работников, работающих в Польше в течение всего сезона, являются налоговыми резидентами и обязаны подавать декларацию.</p>
+
+<h2>Какие формы PIT существуют?</h2>
+<ul>
+<li><strong>PIT-37:</strong> наиболее распространённая форма для наёмных работников, получающих доходы исключительно через работодателя (плательщика налогов). Подходит для подавляющего большинства временных работников.</li>
+<li><strong>PIT-36:</strong> для лиц с доходами из различных источников, в том числе от предпринимательской деятельности или из-за рубежа.</li>
+</ul>
+<p>Если ты работал исключительно по договору поручения или трудовому договору — выбирай PIT-37.</p>
+
+<h2>Где взять PIT-11?</h2>
+<p>Твой работодатель (или кадровое агентство) обязан предоставить тебе <strong>PIT-11</strong> до конца февраля следующего года. Это справка о доходах и удержанном авансовом налоге — основание для заполнения твоей декларации.</p>
+<ul>
+<li>Проверь, отправил ли работодатель PIT-11 на электронную почту или по почте</li>
+<li>PIT-11 также доступен в системе e-Urząd Skarbowy, если работодатель передал его электронно</li>
+<li>Если не получил PIT-11, обратись в отдел кадров — ты имеешь на него право</li>
+</ul>
+
+<h2>Как подать PIT онлайн?</h2>
+<p>Удобнее всего заполнить декларацию через <strong>e-Urząd Skarbowy</strong> на сайте podatki.gov.pl. Система автоматически загружает данные от работодателя и предварительно заполняет форму.</p>
+<ol>
+<li>Войди через Профиль Зауфаны (Profil Zaufany), мОбыватель (mObywatel) или данные из PIT-11</li>
+<li>Выбери опцию «Twój e-PIT» — система покажет предварительно заполненную декларацию</li>
+<li>Проверь данные и заполни недостающую информацию (например, льготы)</li>
+<li>Подтверди и отправь — готово!</li>
+</ol>
+<p>Если не подашь декларацию до 30 апреля, система автоматически принимает твой e-PIT (для PIT-37 и PIT-38) — но всегда проверяй, не переплатил ли ты налог.</p>
+
+<h2>Срок подачи декларации</h2>
+<p>Декларации PIT за прошлый год подаются до <strong>30 апреля</strong>. За доходы 2029 года — до 30 апреля 2030 года. Превышение срока может повлечь штрафные проценты при наличии недоплаты.</p>
+
+<h2>Льгота для молодых (PIT-0)</h2>
+<p>Если тебе <strong>менее 26 лет</strong> и ты работаешь в Польше по трудовому договору или договору поручения, ты имеешь право на <strong>льготу для молодых</strong> — освобождение от подоходного налога до 85 528 злотых в год. Работодатель должен применять эту льготу автоматически, но проверь это в своём PIT-11.</p>
+
+<h2>Что делать, если проработал только часть года?</h2>
+<p>Если ты работал в Польше лишь несколько месяцев, возможно, тебе положен возврат налога. Уплаченный авансовый налог может оказаться больше, чем фактически причитающийся после учёта всех доходов за год. Поэтому подача декларации PIT — это не только обязанность, но и возможность вернуть переплаченные деньги.</p>
+
+<h2>Где получить помощь?</h2>
+<ul>
+<li>Местный налоговый орган (urząd skarbowy) — бесплатная помощь для налогоплательщиков</li>
+<li>Krajowa Informacja Skarbowa: тел. 801 055 055 или +48 22 330 0330</li>
+<li>Nexflow — наша команда поможет и порекомендует налогового консультанта, говорящего на вашем языке</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pit-tax-return-poland-foreign-worker-guide",
+    title: "Polish PIT Tax Return: Step-by-Step Guide for Foreign Temporary Workers",
+    description: "Do you need to file a PIT tax return in Poland? Learn who must file, which form to use, how to do it online, and the key deadlines.",
+    date: "2030-02-28",
+    lang: "en",
+    content: `
+<article>
+<h1>Polish PIT Tax Return: A Guide for Foreign Temporary Workers</h1>
+
+<p>Working in Poland on a zlecenie contract or employment agreement? At the end of the tax year, you may be required to file a PIT tax return with the Polish tax authorities. For many foreign workers, this is their first encounter with the Polish tax system. This guide explains everything step by step.</p>
+
+<h2>Who Must File a PIT Return in Poland?</h2>
+<p>Your obligation to file a tax return depends on your tax residency status:</p>
+<ul>
+<li><strong>Tax resident:</strong> if you spend <strong>more than 183 days in Poland in a calendar year</strong>, or if your centre of vital interests is in Poland (family, permanent home), you are a Polish tax resident. You must declare <em>all</em> your income — from Poland and abroad.</li>
+<li><strong>Non-resident:</strong> if you spend fewer days in Poland, you pay tax only on income earned in Poland. You may benefit from a double taxation treaty between Poland and your home country.</li>
+</ul>
+<p>Most seasonal and temporary workers who spend a full season in Poland qualify as tax residents and must file a return.</p>
+
+<h2>Which PIT Form Do You Need?</h2>
+<ul>
+<li><strong>PIT-37:</strong> the standard form for employees who received income exclusively through an employer (the employer is the tax remitter). This covers the vast majority of temporary workers on zlecenie or employment contracts.</li>
+<li><strong>PIT-36:</strong> for individuals with income from multiple sources, including self-employment or foreign income.</li>
+<li><strong>PIT-28:</strong> for those taxed under the flat-rate lump-sum system (less common for standard employees).</li>
+</ul>
+<p>If you worked solely on a zlecenie or employment contract, PIT-37 is your form.</p>
+
+<h2>Understanding Your PIT-11</h2>
+<p>Your employer (or staffing agency such as Nexflow) is legally required to issue you a <strong>PIT-11 certificate</strong> by the end of February of the following year. This document shows your total earnings and the advance income tax already withheld by your employer throughout the year. It is the key input for completing your annual return.</p>
+<ul>
+<li>Check whether your employer sent the PIT-11 by email or post</li>
+<li>PIT-11 data is also available in the e-Urząd Skarbowy system if your employer submitted it electronically</li>
+<li>If you have not received your PIT-11, contact your employer's HR department — you have a legal right to this document</li>
+</ul>
+
+<h2>Filing Online via e-Urząd Skarbowy</h2>
+<p>The easiest way to file is through <strong>e-Urząd Skarbowy (e-US)</strong> at podatki.gov.pl. The system automatically retrieves employer-submitted data and pre-fills your return:</p>
+<ol>
+<li>Log in using your Profil Zaufany (trusted digital identity), the mObywatel app, or the data from your PIT-11</li>
+<li>Select "Twój e-PIT" — the system will show your pre-completed return</li>
+<li>Review the figures, add any deductions or reliefs you are entitled to</li>
+<li>Confirm and submit — the process takes just a few minutes</li>
+</ol>
+<p>If you do not actively file or reject your e-PIT by April 30, the system automatically accepts the pre-filled return (for PIT-37 and PIT-38). This is convenient, but always review first — you may be entitled to deductions that the pre-filled version does not include.</p>
+
+<h2>Key Deadline: April 30</h2>
+<p>Annual PIT returns for the previous tax year must be submitted by <strong>30 April</strong>. For income earned in 2029, the deadline is 30 April 2030. Missing the deadline when you have a tax liability results in late payment interest. However, if you are due a refund, you can still file late — the refund will arrive within 45 days of submission.</p>
+
+<h2>Youth Relief (Ulga dla Młodych / PIT-0)</h2>
+<p>If you are <strong>under 26 years old</strong> and working in Poland on an employment or zlecenie contract, you may qualify for the <strong>youth relief (zerowy PIT)</strong> — an income tax exemption on earnings up to 85,528 PLN per year. Your employer should apply this relief automatically when calculating payroll. Check your PIT-11 to confirm: if the relief was applied, the advance tax withheld should be zero or reduced.</p>
+
+<h2>Working Only Part of the Year</h2>
+<p>If you worked in Poland for only a few months, you may actually be entitled to a <strong>tax refund</strong>. Here is why: employers withhold advance tax each month calculated on the assumption that your income continues at the same rate all year. If you earned less in total, the tax already withheld may exceed your actual annual liability. Filing a return is the only way to reclaim this overpayment — the refund is typically processed within 45 days of submission.</p>
+
+<h2>Useful Deductions and Reliefs</h2>
+<p>When filing, check whether you qualify for any deductions:</p>
+<ul>
+<li><strong>Standard employee deductible costs (koszty uzyskania przychodu):</strong> 250 PLN/month for local workers, 300 PLN/month if commuting from another locality</li>
+<li><strong>Tax-reducing amount (kwota zmniejszająca podatek):</strong> 3,600 PLN annual reduction in tax for residents earning up to 120,000 PLN</li>
+<li><strong>Internet relief (ulga internetowa):</strong> up to 760 PLN deduction for internet service costs</li>
+<li><strong>Charitable donations:</strong> deductible up to 6% of income for qualifying organisations</li>
+</ul>
+
+<h2>Getting Help</h2>
+<p>If you are unsure about any aspect of filing:</p>
+<ul>
+<li>Visit your local tax office (urząd skarbowy) — they provide free assistance to taxpayers</li>
+<li>Call Krajowa Informacja Skarbowa: 801 055 055 or +48 22 330 0330 (English available)</li>
+<li>Contact Nexflow — our team can point you to a tax adviser who speaks your language</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prawa-najemcy-cudzoziemiec-wynajem-mieszkania-polska",
+    title: "Prawa najemcy w Polsce: co musisz wiedzieć wynajmując mieszkanie jako cudzoziemiec?",
+    description: "Jakie masz prawa jako najemca w Polsce? Umowa najmu, kaucja, obowiązki wynajmującego, wypowiedzenie – kompleksowy przewodnik dla pracownika tymczasowego.",
+    date: "2030-03-07",
+    lang: "pl",
+    content: `
+<article>
+<h1>Prawa najemcy w Polsce: przewodnik dla cudzoziemca wynajmującego mieszkanie</h1>
+
+<p>Wynajmujesz mieszkanie w Polsce jako pracownik tymczasowy? Niezależnie od tego, czy jesteś obywatelem UE, czy spoza Unii, polskie prawo chroni Cię jako najemcę. Warto znać swoje prawa, zanim podpiszesz umowę i zanim pojawi się problem z wynajmującym.</p>
+
+<h2>Co powinna zawierać umowa najmu?</h2>
+<p>Umowa najmu to podstawa Twojej ochrony. Choć ustna umowa jest prawnie wiążąca, zawsze żądaj umowy <strong>w formie pisemnej</strong>. Powinna zawierać:</p>
+<ul>
+<li>Dane obu stron: wynajmującego i najemcy</li>
+<li>Dokładny adres i opis wynajmowanego lokalu</li>
+<li>Wysokość czynszu i terminy płatności</li>
+<li>Zasady dotyczące kaucji (wysokość i warunki zwrotu)</li>
+<li>Czas trwania umowy (czas określony lub nieokreślony)</li>
+<li>Zasady rozwiązania umowy i okresy wypowiedzenia</li>
+<li>Wykaz wyposażenia lokalu (protokół zdawczo-odbiorczy)</li>
+</ul>
+<p>Przed podpisaniem upewnij się, że rozumiesz każdy punkt. Masz prawo poprosić o tłumaczenie lub czas do namysłu.</p>
+
+<h2>Kaucja – ile może wynosić i jak ją odzyskać?</h2>
+<p>Kaucja zabezpiecza wynajmującego przed szkodami lub zaległościami w czynszu. Zgodnie z ustawą o ochronie praw lokatorów:</p>
+<ul>
+<li>Kaucja nie może przekraczać <strong>6-krotności miesięcznego czynszu</strong> (przy umowach na czas nieoznaczony), a w praktyce najczęściej wynosi 1–3 czynsze</li>
+<li>Po zakończeniu umowy wynajmujący ma <strong>30 dni</strong> na zwrot kaucji lub udokumentowane przedstawienie potrąceń</li>
+<li>Potrącenia mogą dotyczyć tylko rzeczywistych szkód ponad normalne zużycie – naturalne zużycie (np. wyblakłe ściany) nie jest podstawą do potrąceń</li>
+</ul>
+<p>Zawsze wykonaj protokół zdawczo-odbiorczy ze zdjęciami przy wprowadzaniu się i wyprowadzaniu. To Twój dowód w razie sporu.</p>
+
+<h2>Prawa najemcy: co Ci przysługuje</h2>
+<ul>
+<li><strong>Prawo do lokalu nadającego się do zamieszkania:</strong> wynajmujący musi zapewnić lokal w dobrym stanie technicznym – sprawna instalacja elektryczna, woda, ogrzewanie</li>
+<li><strong>Prawo do prywatności:</strong> wynajmujący nie może wchodzić do mieszkania bez Twojej zgody (poza nagłymi awariami). Musi zapowiedzieć wizytę z wyprzedzeniem</li>
+<li><strong>Ochrona przed bezprawną eksmisją:</strong> eksmisja wymaga wyroku sądowego – wynajmujący nie może samowolnie wyrzucić Cię z mieszkania ani zmieniać zamków</li>
+<li><strong>Prawo do ciszy nocnej:</strong> hałas przekraczający normy między 22:00 a 6:00 jest wykroczeniem i możesz to zgłosić na policję</li>
+</ul>
+
+<h2>Obowiązki wynajmującego</h2>
+<p>Wynajmujący jest zobowiązany do:</p>
+<ul>
+<li>Przeprowadzania napraw dotyczących struktury budynku, instalacji i głównych elementów wyposażenia (piec, bojler, okna)</li>
+<li>Zapewnienia sprawności instalacji wodno-kanalizacyjnej, gazowej i elektrycznej</li>
+<li>Odpowiedzi na zgłoszenia awarii w rozsądnym czasie</li>
+</ul>
+<p>Drobne naprawy (np. wymiana żarówek, naprawy sprzętów RTV dostarczonych przez najemcę) należą do Twoich obowiązków jako najemcy.</p>
+
+<h2>Co sprawdzić przed podpisaniem umowy?</h2>
+<ul>
+<li>Sprawdź, czy wynajmujący jest właścicielem lub upoważnionym zarządcą – masz prawo poprosić o wypis z księgi wieczystej</li>
+<li>Wykonaj wspólnie protokół zdawczo-odbiorczy z listą usterek i dokumentacją fotograficzną</li>
+<li>Ustal, co wliczone jest w czynsz (media, internet, TV) i co opłacasz osobno</li>
+<li>Sprawdź datę i stan liczników (prąd, woda, gaz) na dzień objęcia lokalu</li>
+</ul>
+
+<h2>Kiedy wynajmujący może wypowiedzieć umowę?</h2>
+<p>Ustawa ściśle określa przyczyny wypowiedzenia przez wynajmującego:</p>
+<ul>
+<li>Zaległości w czynszu przekraczające 3 miesiące (po uprzednim wezwaniu do zapłaty)</li>
+<li>Używanie lokalu niezgodnie z umową lub niszczenie mienia</li>
+<li>Potrzeba zamieszkania przez właściciela lub bliskich (z odpowiednim wyprzedzeniem)</li>
+</ul>
+<p>W każdym przypadku wypowiedzenie musi być złożone <strong>na piśmie</strong>, z zachowaniem ustawowego okresu wypowiedzenia.</p>
+
+<h2>Meldunek przy wynajmie</h2>
+<p>Jeśli przebywasz w Polsce powyżej 30 dni, masz obowiązek zameldowania się pod adresem wynajmowanego mieszkania. Wynajmujący jest zobowiązany podpisać formularz meldunkowy. Meldunek jest bezpłatny i ułatwia uzyskanie PESEL oraz karty pobytu.</p>
+
+<h2>Gdzie szukać pomocy?</h2>
+<p>Jeśli masz problem z wynajmującym lub czujesz, że Twoje prawa są naruszane:</p>
+<ul>
+<li>Miejski Rzecznik Konsumentów w Twoim mieście – bezpłatna pomoc prawna</li>
+<li>Powiatowy Rzecznik Praw Konsumenta</li>
+<li>Nexflow – skontaktuj się z nami, pomożemy Ci znaleźć właściwą pomoc</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prava-orendarya-inozemets-orenda-zhytla-polshcha",
+    title: "Права орендаря в Польщі: що потрібно знати іноземцю, який знімає житло?",
+    description: "Які маєш права як орендар у Польщі? Договір оренди, застава, обов'язки орендодавця, розірвання — повний посібник для тимчасового працівника.",
+    date: "2030-03-14",
+    lang: "uk",
+    content: `
+<article>
+<h1>Права орендаря в Польщі: посібник для іноземця, який знімає житло</h1>
+
+<p>Знімаєш квартиру в Польщі як тимчасовий працівник? Незалежно від того, чи ти громадянин ЄС, чи ні, польське законодавство захищає тебе як орендаря. Варто знати свої права — до підписання договору і до того, як виникне суперечка з орендодавцем.</p>
+
+<h2>Що має містити договір оренди?</h2>
+<p>Договір оренди — основа твого захисту. Хоча усна угода юридично є обов'язковою, завжди вимагай договір <strong>у письмовій формі</strong>. Він має включати:</p>
+<ul>
+<li>Дані обох сторін: орендодавця та орендаря</li>
+<li>Точну адресу та опис орендованого приміщення</li>
+<li>Розмір орендної плати та терміни платежів</li>
+<li>Умови застави (розмір та умови повернення)</li>
+<li>Строк дії договору (визначений або невизначений)</li>
+<li>Порядок розірвання договору та строки повідомлення</li>
+<li>Перелік майна приміщення (акт приймання-передачі)</li>
+</ul>
+<p>Перед підписанням переконайся, що розумієш кожен пункт. Ти маєш право попросити переклад або час для обдумування.</p>
+
+<h2>Застава — скільки може становити і як її повернути?</h2>
+<p>Застава захищає орендодавця від збитків або заборгованості по орендній платі. Відповідно до Закону про захист прав мешканців:</p>
+<ul>
+<li>Застава, як правило, становить <strong>1–3 місячні орендні платежі</strong></li>
+<li>Після закінчення договору орендодавець має <strong>30 днів</strong> на повернення застави або документоване обґрунтування утримань</li>
+<li>Утримання можуть стосуватися лише реальних збитків понад норму звичайного зносу — природний знос (наприклад, вицвілі стіни) не є підставою для утримань</li>
+</ul>
+<p>Завжди складай акт приймання-передачі з фотографіями при заїзді та виїзді. Це твій доказ у разі суперечки.</p>
+
+<h2>Права орендаря: що тобі належить</h2>
+<ul>
+<li><strong>Право на придатне для проживання житло:</strong> орендодавець зобов'язаний забезпечити квартиру в належному технічному стані — справна електрика, водопостачання, опалення</li>
+<li><strong>Право на приватність:</strong> орендодавець не може заходити до квартири без твоєї згоди (крім аварійних ситуацій). Він зобов'язаний попередньо повідомити про візит</li>
+<li><strong>Захист від незаконного виселення:</strong> виселення потребує судового рішення — орендодавець не може самовільно виселити тебе або змінити замки</li>
+<li><strong>Право на тишу:</strong> шум понад норму між 22:00 та 6:00 є правопорушенням і може бути повідомлений до поліції</li>
+</ul>
+
+<h2>Обов'язки орендодавця</h2>
+<p>Орендодавець зобов'язаний:</p>
+<ul>
+<li>Проводити ремонт конструктивних елементів будівлі, інженерних мереж і основного обладнання (котел, бойлер, вікна)</li>
+<li>Забезпечувати справність систем водопостачання, каналізації, газу та електрики</li>
+<li>Реагувати на повідомлення про аварії в розумні строки</li>
+</ul>
+<p>Дрібний ремонт (наприклад, заміна лампочок) є обов'язком орендаря.</p>
+
+<h2>Що перевірити перед підписанням договору?</h2>
+<ul>
+<li>Перевір, що орендодавець є власником або уповноваженим управителем — маєш право попросити виписку з земельного реєстру</li>
+<li>Разом складіть акт приймання-передачі з переліком несправностей і фотодокументацією</li>
+<li>З'ясуй, що включено в орендну плату (комунальні послуги, інтернет) і що оплачуєш окремо</li>
+<li>Зафіксуй показники лічильників (електрика, вода, газ) на день заселення</li>
+</ul>
+
+<h2>Коли орендодавець може розірвати договір?</h2>
+<p>Закон суворо визначає підстави для розірвання з боку орендодавця:</p>
+<ul>
+<li>Заборгованість по орендній платі, що перевищує 3 місяці (після попереднього письмового попередження)</li>
+<li>Використання приміщення не за призначенням або пошкодження майна</li>
+<li>Потреба власника або близьких родичів у проживанні (з відповідним попередженням)</li>
+</ul>
+<p>У будь-якому випадку повідомлення про розірвання має бути <strong>у письмовій формі</strong> з дотриманням законодавчих строків.</p>
+
+<h2>Реєстрація (замелдовання) при оренді</h2>
+<p>Якщо перебуваєш у Польщі понад 30 днів, ти зобов'язаний зареєструватися за адресою орендованого помешкання. Орендодавець зобов'язаний підписати бланк реєстрації. Реєстрація безкоштовна і спрощує отримання PESEL та карти перебування.</p>
+
+<h2>Де отримати допомогу?</h2>
+<ul>
+<li>Міський захисник прав споживачів у твоєму місті — безкоштовна юридична допомога</li>
+<li>Nexflow — зверніться до нас, допоможемо знайти відповідну підтримку</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "prava-arendatora-inostranets-arenda-zhilia-polsha",
+    title: "Права арендатора в Польше: что нужно знать иностранцу, снимающему жильё?",
+    description: "Какие у тебя права как арендатора в Польше? Договор аренды, залог, обязанности арендодателя, расторжение — полное руководство для временного работника.",
+    date: "2030-03-21",
+    lang: "ru",
+    content: `
+<article>
+<h1>Права арендатора в Польше: руководство для иностранца, снимающего жильё</h1>
+
+<p>Снимаешь квартиру в Польше как временный работник? Независимо от того, являешься ли ты гражданином ЕС или нет, польское законодательство защищает тебя как арендатора. Важно знать свои права — до подписания договора и до того, как возникнет спор с арендодателем.</p>
+
+<h2>Что должен содержать договор аренды?</h2>
+<p>Договор аренды — основа твоей защиты. Хотя устная договорённость юридически обязательна, всегда требуй договор <strong>в письменной форме</strong>. Он должен включать:</p>
+<ul>
+<li>Данные обеих сторон: арендодателя и арендатора</li>
+<li>Точный адрес и описание сдаваемого помещения</li>
+<li>Размер арендной платы и сроки платежей</li>
+<li>Условия залога (размер и условия возврата)</li>
+<li>Срок действия договора (определённый или неопределённый)</li>
+<li>Порядок расторжения и сроки уведомления</li>
+<li>Перечень имущества (акт приёма-передачи)</li>
+</ul>
+<p>Перед подписанием убедись, что понимаешь каждый пункт. Ты вправе попросить перевод или время на обдумывание.</p>
+
+<h2>Залог — сколько может составлять и как его вернуть?</h2>
+<p>Залог защищает арендодателя от убытков или задолженности по арендной плате. Согласно Закону о защите прав жильцов:</p>
+<ul>
+<li>Залог, как правило, составляет <strong>1–3 месячных арендных платежа</strong></li>
+<li>После окончания договора арендодатель обязан в течение <strong>30 дней</strong> вернуть залог или документально обосновать удержания</li>
+<li>Удержания могут касаться только реального ущерба сверх нормального износа — естественный износ (например, выцветшие стены) не является основанием для удержаний</li>
+</ul>
+<p>Всегда составляй акт приёма-передачи с фотографиями при заселении и выселении. Это твоё доказательство в случае спора.</p>
+
+<h2>Права арендатора: что тебе полагается</h2>
+<ul>
+<li><strong>Право на пригодное для проживания жильё:</strong> арендодатель обязан обеспечить квартиру в надлежащем техническом состоянии — исправная электрика, водоснабжение, отопление</li>
+<li><strong>Право на частную жизнь:</strong> арендодатель не вправе входить в квартиру без твоего согласия (кроме аварийных ситуаций) и обязан заранее предупреждать о визите</li>
+<li><strong>Защита от незаконного выселения:</strong> выселение требует судебного решения — арендодатель не может самовольно выселить тебя или сменить замки</li>
+<li><strong>Право на тишину:</strong> шум сверх нормы с 22:00 до 6:00 является правонарушением и может быть заявлен в полицию</li>
+</ul>
+
+<h2>Обязанности арендодателя</h2>
+<p>Арендодатель обязан:</p>
+<ul>
+<li>Проводить ремонт конструктивных элементов здания, инженерных сетей и основного оборудования (котёл, бойлер, окна)</li>
+<li>Обеспечивать исправность систем водоснабжения, канализации, газа и электричества</li>
+<li>Реагировать на сообщения об авариях в разумные сроки</li>
+</ul>
+<p>Мелкий ремонт (например, замена лампочек) является обязанностью арендатора.</p>
+
+<h2>Что проверить перед подписанием договора?</h2>
+<ul>
+<li>Проверь, что арендодатель является собственником или уполномоченным управляющим — ты вправе запросить выписку из земельного реестра</li>
+<li>Совместно составьте акт приёма-передачи с перечнем неисправностей и фотодокументацией</li>
+<li>Выясни, что входит в арендную плату (коммунальные услуги, интернет) и что оплачивается отдельно</li>
+<li>Зафиксируй показания счётчиков (электричество, вода, газ) на день заселения</li>
+</ul>
+
+<h2>Когда арендодатель может расторгнуть договор?</h2>
+<p>Закон строго определяет основания для расторжения со стороны арендодателя:</p>
+<ul>
+<li>Задолженность по арендной плате, превышающая 3 месяца (после предварительного письменного предупреждения)</li>
+<li>Использование помещения не по назначению или повреждение имущества</li>
+<li>Необходимость проживания собственника или близких родственников (с надлежащим уведомлением)</li>
+</ul>
+<p>В любом случае уведомление о расторжении должно быть <strong>в письменной форме</strong> с соблюдением законодательных сроков.</p>
+
+<h2>Регистрация (замелдование) при аренде</h2>
+<p>Если находишься в Польше более 30 дней, ты обязан зарегистрироваться по адресу снимаемого жилья. Арендодатель обязан подписать бланк регистрации. Регистрация бесплатна и упрощает получение PESEL и вида на жительство.</p>
+
+<h2>Где получить помощь?</h2>
+<ul>
+<li>Городской защитник прав потребителей в твоём городе — бесплатная юридическая помощь</li>
+<li>Nexflow — обратись к нам, поможем найти нужную поддержку</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "tenant-rights-foreign-worker-renting-poland-guide",
+    title: "Tenant Rights in Poland: What Foreign Workers Need to Know When Renting",
+    description: "Renting accommodation in Poland as a foreign worker? Know your rights — rental contracts, deposits, landlord obligations, and what to do when things go wrong.",
+    date: "2030-03-28",
+    lang: "en",
+    content: `
+<article>
+<h1>Tenant Rights in Poland: A Guide for Foreign Workers Renting Accommodation</h1>
+
+<p>Renting a flat or room in Poland as a temporary worker? Whether you are an EU citizen or from a third country, Polish law protects you as a tenant. Knowing your rights before you sign a contract — and before problems arise — can save you significant stress and money.</p>
+
+<h2>What a Rental Contract Must Include</h2>
+<p>A rental agreement (umowa najmu) is the foundation of your legal protection. While a verbal agreement is technically binding in Poland, always insist on a <strong>written contract</strong>. It should include:</p>
+<ul>
+<li>Full details of both parties: landlord and tenant</li>
+<li>Exact address and description of the rented property</li>
+<li>Monthly rent amount and payment due dates</li>
+<li>Security deposit terms (amount and conditions of return)</li>
+<li>Duration of the tenancy (fixed-term or open-ended)</li>
+<li>Notice periods and conditions for termination</li>
+<li>An inventory of furnishings and fittings (protokół zdawczo-odbiorczy)</li>
+</ul>
+<p>Read every clause before signing. You have the right to take time to review, seek translation, or ask questions. Never sign a contract you do not understand.</p>
+
+<h2>Security Deposit — Rules and How to Get It Back</h2>
+<p>A security deposit (kaucja) is common in Polish rentals. Under the Tenants' Rights Protection Act:</p>
+<ul>
+<li>The deposit is typically <strong>1–3 months' rent</strong></li>
+<li>After the tenancy ends, the landlord has <strong>30 days</strong> to return the deposit or provide documented deductions</li>
+<li>Deductions can only cover actual damage beyond normal wear and tear — faded paint or minor scuffs from normal use are not valid grounds for deductions</li>
+</ul>
+<p>Always complete a check-in inspection form (protokół zdawczo-odbiorczy) with photos when you move in and when you move out. This is your most important evidence in any deposit dispute.</p>
+
+<h2>Your Rights as a Tenant</h2>
+<ul>
+<li><strong>Right to habitable accommodation:</strong> the landlord must maintain the property in a condition suitable for living — functioning electricity, plumbing, and heating</li>
+<li><strong>Right to privacy:</strong> the landlord cannot enter your flat without your prior consent, except in genuine emergencies. Unannounced visits are not permitted</li>
+<li><strong>Protection against unlawful eviction:</strong> eviction in Poland requires a court order — a landlord cannot physically remove you from the property, change the locks, or cut off utilities to force you out</li>
+<li><strong>Right to quiet enjoyment:</strong> noise violations (typically between 22:00 and 06:00) can be reported to the police</li>
+</ul>
+
+<h2>Landlord Obligations</h2>
+<p>Your landlord is responsible for:</p>
+<ul>
+<li>Structural repairs — roof, walls, foundations, windows, and doors</li>
+<li>Maintenance of electrical, plumbing, gas, and heating systems</li>
+<li>Repairing major appliances provided as part of the rental (boiler, oven, washing machine)</li>
+<li>Responding to reported faults within a reasonable timeframe</li>
+</ul>
+<p>As a tenant, you are responsible for minor repairs — replacing light bulbs, minor touch-ups — and for keeping the property clean and undamaged.</p>
+
+<h2>What to Check Before Signing</h2>
+<ul>
+<li>Verify the landlord's ownership — ask for an extract from the Land and Mortgage Register (Księga Wieczysta). This confirms the landlord owns the property and there are no legal encumbrances preventing rental</li>
+<li>Complete a detailed check-in inspection form jointly, noting any existing damage with photos and signatures from both parties</li>
+<li>Clarify exactly what is included in the rent (utilities, internet, building maintenance fees) and what you pay separately</li>
+<li>Record meter readings (electricity, water, gas) on the day you move in</li>
+<li>Confirm the payment method and obtain receipts for every payment made in cash</li>
+</ul>
+
+<h2>Grounds for Termination by the Landlord</h2>
+<p>Polish law strictly limits the reasons a landlord can terminate your tenancy:</p>
+<ul>
+<li>Rent arrears exceeding 3 months — only after issuing a written warning with a deadline to pay</li>
+<li>Using the property contrary to the contract or causing serious damage</li>
+<li>The landlord needing the property for personal or immediate family use — with the required written notice period</li>
+</ul>
+<p>All notices of termination must be in <strong>writing</strong> and must observe the legally required notice period specified in your contract or by statute. Verbal notices have no legal effect.</p>
+
+<h2>Address Registration (Zameldowanie) When Renting</h2>
+<p>If you are staying in Poland for more than 30 days, you are legally required to register your address (zameldowanie) at the local municipal office. When renting, your landlord must sign the registration form confirming you reside at the property — this is their legal obligation. Registration is free of charge and is needed to obtain a PESEL number, apply for a residence card, and open a Polish bank account.</p>
+
+<h2>What to Do When Things Go Wrong</h2>
+<p>If your landlord is not fulfilling their obligations or you are facing an unlawful situation:</p>
+<ul>
+<li>Document everything in writing — send complaints by email or registered letter</li>
+<li>Contact the <strong>Municipal Consumer Ombudsman (Miejski Rzecznik Konsumentów)</strong> in your city — they provide free legal advice</li>
+<li>In cases of unlawful eviction attempts, call the police immediately — this is a criminal matter</li>
+<li>For court matters, Poland has legal aid clinics (nieodpłatna pomoc prawna) available at local district offices</li>
+</ul>
+
+<h2>Nexflow and Your Housing in Poland</h2>
+<p>Nexflow coordinates accommodation for many of our temporary workers. If you have questions about your housing rights, are experiencing problems with a landlord, or need help navigating Polish rental law in your language — contact us. Our team is here to support you throughout your time working in Poland.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
