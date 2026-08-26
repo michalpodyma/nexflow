@@ -18311,6 +18311,715 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "urlop-macierzynski-rodzicielski-cudzoziemiec-polska",
+    title: "Urlop macierzyński i rodzicielski dla cudzoziemca w Polsce — pełny poradnik",
+    description: "Spodziewasz się dziecka w Polsce? Dowiedz się, ile trwa urlop macierzyński, jak ubiegać się o zasiłek i jakie masz prawa jako cudzoziemiec/ka zatrudniony/a legalnie w Polsce.",
+    date: "2030-04-04",
+    lang: "pl",
+    content: `
+<article>
+<h1>Urlop macierzyński i rodzicielski dla cudzoziemca w Polsce — pełny poradnik</h1>
+
+<p>Polska prawo gwarantuje urlop macierzyński i rodzicielski każdemu pracownikowi zatrudnionemu legalnie — niezależnie od obywatelstwa. Jeśli pracujesz w Polsce na umowę o pracę lub umowę zlecenia i opłacasz składki ZUS, przysługują Ci te same prawa co obywatelom polskim.</p>
+
+<h2>Urlop macierzyński — ile trwa?</h2>
+<p>Długość urlopu macierzyńskiego zależy od liczby dzieci urodzonych przy jednym porodzie:</p>
+<ul>
+<li><strong>20 tygodni</strong> — jedno dziecko</li>
+<li><strong>31 tygodni</strong> — bliźnięta</li>
+<li><strong>33 tygodnie</strong> — trojaczki</li>
+<li><strong>35 tygodni</strong> — czworaczki</li>
+<li><strong>37 tygodni</strong> — pięcioraczki i więcej</li>
+</ul>
+<p>Co najmniej <strong>14 tygodni</strong> urlopu macierzyńskiego musi wykorzystać matka. Pozostała część może być przekazana ojcu dziecka.</p>
+
+<h2>Zasiłek macierzyński</h2>
+<p>W trakcie urlopu macierzyńskiego ZUS wypłaca zasiłek macierzyński w wysokości <strong>100% podstawy wymiaru zasiłku</strong>, obliczonej od Twojego wynagrodzenia z ostatnich 12 miesięcy.</p>
+<p>Warunki uzyskania zasiłku:</p>
+<ul>
+<li>Podleganie ubezpieczeniu chorobowemu (obowiązkowym przy umowie o pracę lub dobrowolnym przy umowie zlecenia)</li>
+<li>Brak okresu wyczekiwania — zasiłek przysługuje od pierwszego dnia ubezpieczenia</li>
+</ul>
+
+<h2>Urlop rodzicielski</h2>
+<p>Po urlopie macierzyńskim możesz skorzystać z <strong>urlopu rodzicielskiego</strong>:</p>
+<ul>
+<li><strong>41 tygodni</strong> — jeśli oboje rodzice dzielą urlop (od 2023 roku każdy rodzic ma nieprzenoszalne 9 tygodni)</li>
+<li><strong>32 tygodnie</strong> — jeśli korzysta tylko jeden rodzic</li>
+</ul>
+<p>Zasiłek rodzicielski wynosi <strong>70% podstawy wymiaru zasiłku</strong> za cały okres. Jeśli złożysz wniosek o połączenie urlopu macierzyńskiego i rodzicielskiego przed porodem, otrzymasz <strong>81,5%</strong> za oba okresy łącznie.</p>
+
+<h2>Urlop ojcowski</h2>
+<p>Ojciec dziecka ma prawo do <strong>2 tygodni urlopu ojcowskiego</strong>, niezależnie od urlopu matki. Zasiłek ojcowski wynosi 100% podstawy wymiaru. Urlop ojcowski można wykorzystać do ukończenia przez dziecko <strong>12 miesiąca życia</strong>.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<ol>
+<li>Poinformuj pracodawcę o ciąży i planowanym terminie porodu</li>
+<li>Po narodzinach dziecka dostarcz pracodawcy akt urodzenia</li>
+<li>Złóż wniosek o urlop macierzyński — formularz Z-3 (umowa o pracę) lub Z-3a (umowa zlecenia)</li>
+<li>ZUS wypłaci zasiłek bezpośrednio lub za pośrednictwem pracodawcy</li>
+</ol>
+
+<h2>Ochrona przed zwolnieniem</h2>
+<p>Pracodawca <strong>nie może Cię zwolnić</strong> ani wypowiedzieć umowy o pracę w czasie ciąży ani w trakcie urlopu macierzyńskiego i rodzicielskiego. Zakaz ten obowiązuje niezależnie od Twojego obywatelstwa, pod warunkiem legalnego zatrudnienia.</p>
+
+<h2>Urlop a zezwolenie na pobyt</h2>
+<p>Jeśli Twoja Karta Pobytu wygasa w czasie ciąży lub urlopu macierzyńskiego, złóż wniosek o przedłużenie zezwolenia na pobyt tymczasowy <strong>przed datą ważności</strong>. Wniosek złożony terminowo daje Ci prawo do legalnego pobytu przez cały czas rozpatrywania sprawy, nawet jeśli karta już wygasła.</p>
+
+<h2>Nexflow pomaga</h2>
+<p>Nexflow wspiera cudzoziemskich pracowników tymczasowych na każdym etapie zatrudnienia w Polsce — także w trudnych momentach, takich jak ciąża czy urlop macierzyński. Jeśli masz pytania lub potrzebujesz pomocy w kontakcie z ZUS-em — odezwij się do nas.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-po-vahitnosti-polohiv-inozemets-polshcha",
+    title: "Декретна відпустка та відпустка по догляду за дитиною для іноземців у Польщі — повний посібник",
+    description: "Очікуєте дитину в Польщі? Дізнайтесь, скільки триває декретна відпустка, як отримати допомогу від ZUS і які права ви маєте як іноземний/а працівник/ця.",
+    date: "2030-04-11",
+    lang: "uk",
+    content: `
+<article>
+<h1>Декретна відпустка та відпустка по догляду за дитиною для іноземців у Польщі</h1>
+
+<p>Польське законодавство гарантує декретну відпустку та відпустку по догляду за дитиною кожному працівнику, який легально працює в країні — незалежно від громадянства. Якщо ви офіційно зайняті в Польщі за трудовим договором або договором доручення і сплачуєте внески до ZUS, ви маєте ті самі права, що й польські громадяни.</p>
+
+<h2>Тривалість декретної відпустки</h2>
+<ul>
+<li><strong>20 тижнів</strong> — одна дитина</li>
+<li><strong>31 тиждень</strong> — двійнята</li>
+<li><strong>33 тижні</strong> — трійнята</li>
+<li><strong>35 тижнів</strong> — четвірня</li>
+<li><strong>37 тижнів</strong> — п'ятеро і більше</li>
+</ul>
+<p>Щонайменше <strong>14 тижнів</strong> декретної відпустки повинна використати мати. Решта може бути передана батькові дитини.</p>
+
+<h2>Допомога по вагітності та пологах</h2>
+<p>Під час декретної відпустки ZUS виплачує допомогу в розмірі <strong>100% розрахункової бази</strong>, обчисленої на основі вашого заробітку за останні 12 місяців.</p>
+<p>Умови отримання допомоги:</p>
+<ul>
+<li>Перебування на хворобному страхуванні (обов'язковому при трудовому договорі або добровільному при договорі доручення)</li>
+<li>Відсутність строку очікування — допомога виплачується з першого дня страхування</li>
+</ul>
+
+<h2>Відпустка по догляду за дитиною</h2>
+<p>Після декретної відпустки ви маєте право на <strong>відпустку по догляду за дитиною</strong>:</p>
+<ul>
+<li><strong>41 тиждень</strong> — якщо обоє батьків беруть відпустку (з 2023 року кожен з батьків має 9 тижнів, що не передаються)</li>
+<li><strong>32 тижні</strong> — якщо відпусткою користується лише один з батьків</li>
+</ul>
+<p>Допомога по догляду за дитиною становить <strong>70% розрахункової бази</strong>. Якщо ви подасте заяву на об'єднання декретної відпустки та відпустки по догляду до пологів, отримаєте <strong>81,5%</strong> за обидва періоди.</p>
+
+<h2>Відпустка батька</h2>
+<p>Батько дитини має право на <strong>2 тижні відпустки батька</strong> незалежно від відпустки матері, з виплатою допомоги у розмірі 100%. Відпустку можна взяти до досягнення дитиною <strong>12 місяців</strong>.</p>
+
+<h2>Як подати заяву?</h2>
+<ol>
+<li>Повідомте роботодавця про вагітність і очікувану дату пологів</li>
+<li>Після народження дитини надайте роботодавцю свідоцтво про народження</li>
+<li>Подайте заяву на декретну відпустку — форма Z-3 (трудовий договір) або Z-3a (договір доручення)</li>
+<li>ZUS виплатить допомогу безпосередньо або через роботодавця</li>
+</ol>
+
+<h2>Захист від звільнення</h2>
+<p>Роботодавець <strong>не може звільнити вас</strong> під час вагітності або декретної відпустки. Цей захист діє незалежно від вашого громадянства за умови легального працевлаштування.</p>
+
+<h2>Відпустка та дозвіл на проживання</h2>
+<p>Якщо ваша Картка побуту закінчується під час вагітності або декретної відпустки, подайте заяву на продовження дозволу <strong>до закінчення строку дії</strong>. Своєчасно подана заява дає право на легальне перебування протягом усього часу розгляду справи.</p>
+
+<h2>Nexflow поруч з вами</h2>
+<p>Nexflow підтримує іноземних тимчасових працівників на кожному етапі роботи в Польщі — у тому числі під час вагітності та декретної відпустки. Зверніться до нас з будь-якими питаннями.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dekretnyj-otpusk-inostranets-polsha",
+    title: "Декретный отпуск и отпуск по уходу за ребёнком для иностранцев в Польше — полное руководство",
+    description: "Ожидаете ребёнка в Польше? Узнайте, сколько длится декретный отпуск, как получить пособие от ZUS и какие права вы имеете как иностранный работник.",
+    date: "2030-04-18",
+    lang: "ru",
+    content: `
+<article>
+<h1>Декретный отпуск и отпуск по уходу за ребёнком для иностранцев в Польше</h1>
+
+<p>Польское законодательство гарантирует декретный отпуск и отпуск по уходу за ребёнком каждому работнику, официально трудоустроенному в стране — независимо от гражданства. Если вы легально работаете в Польше по трудовому договору или договору поручения и платите взносы в ZUS, у вас те же права, что и у польских граждан.</p>
+
+<h2>Продолжительность декретного отпуска</h2>
+<ul>
+<li><strong>20 недель</strong> — один ребёнок</li>
+<li><strong>31 неделя</strong> — двойня</li>
+<li><strong>33 недели</strong> — тройня</li>
+<li><strong>35 недель</strong> — четверня</li>
+<li><strong>37 недель</strong> — пятеро и более</li>
+</ul>
+<p>Не менее <strong>14 недель</strong> декретного отпуска должна использовать мать. Оставшаяся часть может быть передана отцу ребёнка.</p>
+
+<h2>Пособие по беременности и родам</h2>
+<p>Во время декретного отпуска ZUS выплачивает пособие в размере <strong>100% расчётной базы</strong>, исчисленной на основе вашего заработка за последние 12 месяцев.</p>
+<p>Условия получения пособия:</p>
+<ul>
+<li>Наличие больничного страхования (обязательного по трудовому договору или добровольного по договору поручения)</li>
+<li>Отсутствие периода ожидания — пособие выплачивается с первого дня страхования</li>
+</ul>
+
+<h2>Отпуск по уходу за ребёнком</h2>
+<p>После декретного отпуска вы вправе воспользоваться <strong>отпуском по уходу за ребёнком</strong>:</p>
+<ul>
+<li><strong>41 неделя</strong> — если оба родителя берут отпуск (с 2023 года каждому родителю полагается 9 недель, которые нельзя передать другому)</li>
+<li><strong>32 недели</strong> — если отпуском пользуется только один родитель</li>
+</ul>
+<p>Пособие по уходу за ребёнком составляет <strong>70% расчётной базы</strong>. Если вы подадите заявление об объединении декретного отпуска и отпуска по уходу до родов, получите <strong>81,5%</strong> за оба периода.</p>
+
+<h2>Отпуск отца</h2>
+<p>Отец ребёнка имеет право на <strong>2 недели отцовского отпуска</strong> независимо от отпуска матери, с выплатой пособия в размере 100%. Отпуск можно взять до достижения ребёнком <strong>12 месяцев</strong>.</p>
+
+<h2>Как подать заявление?</h2>
+<ol>
+<li>Уведомите работодателя о беременности и ожидаемой дате родов</li>
+<li>После рождения ребёнка предоставьте работодателю свидетельство о рождении</li>
+<li>Подайте заявление на декретный отпуск — форма Z-3 (трудовой договор) или Z-3a (договор поручения)</li>
+<li>ZUS выплатит пособие напрямую или через работодателя</li>
+</ol>
+
+<h2>Защита от увольнения</h2>
+<p>Работодатель <strong>не вправе вас уволить</strong> в период беременности или во время декретного отпуска и отпуска по уходу за ребёнком. Эта защита действует независимо от вашего гражданства при условии легального трудоустройства.</p>
+
+<h2>Отпуск и вид на жительство</h2>
+<p>Если ваша Карта побыту истекает в период беременности или декретного отпуска, подайте заявление о продлении разрешения <strong>до окончания срока действия</strong>. Своевременно поданное заявление даёт право на законное пребывание в течение всего срока рассмотрения дела.</p>
+
+<h2>Nexflow рядом с вами</h2>
+<p>Nexflow поддерживает иностранных временных работников на каждом этапе работы в Польше — в том числе в период беременности и декретного отпуска. Обратитесь к нам с любыми вопросами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "maternity-parental-leave-foreign-worker-poland",
+    title: "Maternity and Parental Leave for Foreign Workers in Poland — Complete Guide",
+    description: "Expecting a baby while working in Poland? Learn how long maternity leave lasts, how to claim your ZUS benefit, and what rights you have as a foreign worker.",
+    date: "2030-04-25",
+    lang: "en",
+    content: `
+<article>
+<h1>Maternity and Parental Leave for Foreign Workers in Poland — Complete Guide</h1>
+
+<p>Polish law guarantees maternity and parental leave to every worker legally employed in Poland — regardless of nationality. If you are working under a contract of employment (umowa o pracę) or a civil contract (umowa zlecenia) and paying ZUS contributions, you are entitled to the same rights as Polish citizens.</p>
+
+<h2>How Long Is Maternity Leave?</h2>
+<p>The length of maternity leave depends on how many children are born in one delivery:</p>
+<ul>
+<li><strong>20 weeks</strong> — one child</li>
+<li><strong>31 weeks</strong> — twins</li>
+<li><strong>33 weeks</strong> — triplets</li>
+<li><strong>35 weeks</strong> — quadruplets</li>
+<li><strong>37 weeks</strong> — quintuplets or more</li>
+</ul>
+<p>At least <strong>14 weeks</strong> must be taken by the mother. The remaining weeks may be transferred to the father.</p>
+
+<h2>Maternity Benefit (Zasiłek Macierzyński)</h2>
+<p>During maternity leave, ZUS (Social Insurance Institution) pays maternity benefit equal to <strong>100% of the benefit calculation base</strong>, which is derived from your earnings over the previous 12 months.</p>
+<p>Requirements:</p>
+<ul>
+<li>You must be covered by sickness insurance — compulsory under an employment contract, voluntary under a civil contract (opt-in required)</li>
+<li>No waiting period — the benefit is payable from the first day of insurance</li>
+</ul>
+
+<h2>Parental Leave (Urlop Rodzicielski)</h2>
+<p>After maternity leave ends, you are entitled to <strong>parental leave</strong>:</p>
+<ul>
+<li><strong>41 weeks</strong> — if both parents share the leave (since 2023, each parent has 9 non-transferable weeks)</li>
+<li><strong>32 weeks</strong> — if only one parent takes the leave</li>
+</ul>
+<p>Parental leave benefit is paid at <strong>70% of the calculation base</strong>. If you apply to combine maternity and parental leave before giving birth, you receive <strong>81.5%</strong> for both periods combined.</p>
+
+<h2>Paternity Leave (Urlop Ojcowski)</h2>
+<p>The child's father is entitled to <strong>2 weeks of paternity leave</strong>, independent of the mother's leave, with benefit paid at 100%. This must be taken before the child turns <strong>12 months old</strong>.</p>
+
+<h2>How to Apply</h2>
+<ol>
+<li>Notify your employer of the pregnancy and expected delivery date</li>
+<li>After the birth, provide your employer with the child's birth certificate</li>
+<li>Submit a leave application — form Z-3 (employment contract) or Z-3a (civil contract)</li>
+<li>ZUS will pay the benefit directly to you or via your employer</li>
+</ol>
+
+<h2>Protection Against Dismissal</h2>
+<p>Your employer <strong>cannot dismiss you</strong> during pregnancy or while you are on maternity or parental leave. This protection applies regardless of your nationality, as long as you are legally employed.</p>
+
+<h2>Leave and Your Residence Permit</h2>
+<p>If your Karta Pobytu (residence card) expires during pregnancy or maternity leave, apply to extend your temporary residence permit <strong>before the expiry date</strong>. A timely application entitles you to remain legally in Poland throughout the processing period, even after the card has expired.</p>
+
+<h2>Nexflow Supports You</h2>
+<p>Nexflow supports foreign temporary workers at every stage of their employment in Poland — including during pregnancy and maternity leave. Contact us if you have questions or need help communicating with ZUS.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zezwolenie-na-pobyt-staly-cudzoziemiec-polska",
+    title: "Zezwolenie na pobyt stały w Polsce — krok po kroku dla cudzoziemca",
+    description: "Pracujesz i mieszkasz w Polsce od kilku lat? Dowiedz się, kiedy możesz ubiegać się o pobyt stały, jakie dokumenty są potrzebne i jak przebiega cała procedura.",
+    date: "2030-05-02",
+    lang: "pl",
+    content: `
+<article>
+<h1>Zezwolenie na pobyt stały w Polsce — krok po kroku dla cudzoziemca</h1>
+
+<p>Zezwolenie na pobyt stały (karta pobytu stałego) to dokument, który pozwala na nieograniczony pobyt w Polsce bez konieczności odnawiania zezwolenia co kilka lat. To naturalny kolejny krok dla cudzoziemców, którzy od wielu lat mieszkają i pracują w Polsce legalnie.</p>
+
+<h2>Kto może ubiegać się o pobyt stały?</h2>
+<p>Prawo do ubiegania się o pobyt stały mają m.in.:</p>
+<ul>
+<li>Cudzoziemcy posiadający <strong>Kartę Polaka</strong></li>
+<li>Osoby, które przebywały legalnie w Polsce <strong>przez co najmniej 5 lat</strong> na podstawie zezwolenia na pobyt czasowy (w tym ostatnie 3 lata bezpośrednio przed złożeniem wniosku)</li>
+<li>Małżonkowie obywatela polskiego zamieszkali w Polsce od co najmniej <strong>3 lat</strong></li>
+<li>Dzieci obywatela polskiego urodzone w Polsce</li>
+<li>Osoby z nadanym statusem uchodźcy lub ochroną uzupełniającą</li>
+</ul>
+<p>Dla większości pracowników tymczasowych z Ukrainy, Rosji i innych krajów spoza UE najczęstszy scenariusz to <strong>5 lat legalnego pobytu</strong>, w tym 3 lata bezpośrednio przed wnioskiem.</p>
+
+<h2>Wymagane dokumenty</h2>
+<ul>
+<li>Wypełniony wniosek o udzielenie zezwolenia na pobyt stały (formularz dostępny na stronie urzędu)</li>
+<li>4 fotografie (35 × 45 mm)</li>
+<li>Ważny dokument podróży (paszport) — oryginał i kopia</li>
+<li>Dokumenty potwierdzające ciągłość legalnego pobytu w Polsce (poprzednie karty pobytu, wizy, stemple wjazdowe)</li>
+<li>Zaświadczenie o zameldowaniu lub inny dowód zamieszkania</li>
+<li>Dokumenty potwierdzające źródło utrzymania (np. umowa o pracę, zaświadczenie od pracodawcy, wyciąg z konta)</li>
+<li>Zaświadczenie o niekaralności z kraju pochodzenia (tłumaczenie przysięgłe)</li>
+<li>Potwierdzenie opłacenia składek ZUS i znajomości języka polskiego (poziom A2)</li>
+</ul>
+
+<h2>Egzamin z języka polskiego</h2>
+<p>Cudzoziemcy ubiegający się o pobyt stały na podstawie 5-letniego pobytu muszą wykazać znajomość języka polskiego na <strong>poziomie A2</strong>. Możesz to udokumentować:</p>
+<ul>
+<li>Certyfikatem zdanego egzaminu z języka polskiego (Państwowa Komisja do spraw Poświadczania Znajomości Języka Polskiego jako Obcego)</li>
+<li>Dyplomem ukończenia szkoły lub uczelni z polskim językiem nauczania</li>
+</ul>
+
+<h2>Procedura krok po kroku</h2>
+<ol>
+<li>Złóż wniosek osobiście w <strong>Urzędzie Wojewódzkim</strong> właściwym dla miejsca zamieszkania — najlepiej ok. 3–4 miesiące przed upływem obecnego zezwolenia</li>
+<li>Dołącz komplet dokumentów i opłać opłatę skarbową (340 zł za wydanie karty)</li>
+<li>Zostaniesz wezwany/a do złożenia odcisków palców (przy odbiorze karty)</li>
+<li>Czas oczekiwania na decyzję: <strong>od 3 do 12 miesięcy</strong> (w praktyce często dłużej w dużych miastach)</li>
+<li>Po wydaniu pozytywnej decyzji odbierasz kartę pobytu stałego</li>
+</ol>
+<p>Ważne: złożenie wniosku przed wygaśnięciem obecnej karty uprawnia Cię do legalnego pobytu przez cały czas rozpatrywania sprawy.</p>
+
+<h2>Prawa posiadacza pobytu stałego</h2>
+<ul>
+<li>Nieograniczony pobyt w Polsce bez odnawiania</li>
+<li>Swobodny dostęp do rynku pracy — bez konieczności uzyskiwania zezwolenia na pracę</li>
+<li>Możliwość korzystania ze świadczeń socjalnych na podobnych zasadach co obywatele polscy</li>
+<li>Ułatwiony dostęp do polskiego obywatelstwa po spełnieniu dalszych wymagań</li>
+</ul>
+
+<h2>Nexflow i Twoja przyszłość w Polsce</h2>
+<p>Pobyt stały to potwierdzenie, że Polska jest Twoim domem. Nexflow wspiera cudzoziemskich pracowników w każdym etapie legalizacji pobytu. Skontaktuj się z nami, jeśli potrzebujesz informacji lub pomocy przy kompletowaniu dokumentów.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dozovil-na-postijne-prozhyvannya-inozemets-polshcha",
+    title: "Дозвіл на постійне проживання в Польщі — покроковий посібник для іноземців",
+    description: "Живете і працюєте в Польщі вже кілька років? Дізнайтесь, коли ви можете подати заяву на постійне проживання, які документи потрібні та як відбувається процедура.",
+    date: "2030-05-09",
+    lang: "uk",
+    content: `
+<article>
+<h1>Дозвіл на постійне проживання в Польщі — покроковий посібник для іноземців</h1>
+
+<p>Дозвіл на постійне проживання (картка постійного побуту) — це документ, який надає право на необмежене перебування в Польщі без необхідності регулярно оновлювати дозвіл. Це логічний наступний крок для іноземців, які роками легально живуть і працюють у Польщі.</p>
+
+<h2>Хто може отримати постійне проживання?</h2>
+<ul>
+<li>Власники <strong>Карти поляка</strong></li>
+<li>Особи, які легально перебували в Польщі <strong>щонайменше 5 років</strong> на підставі дозволу на тимчасове проживання, в тому числі останні 3 роки безпосередньо перед поданням заяви</li>
+<li>Чоловіки/дружини польських громадян, які проживають у Польщі <strong>щонайменше 3 роки</strong></li>
+<li>Особи зі статусом біженця або додатковим захистом</li>
+</ul>
+
+<h2>Необхідні документи</h2>
+<ul>
+<li>Заповнена заява на видачу дозволу на постійне проживання</li>
+<li>4 фотографії (35 × 45 мм)</li>
+<li>Дійсний закордонний паспорт — оригінал і копія</li>
+<li>Документи, що підтверджують безперервне законне перебування в Польщі (попередні картки побуту, візи, штампи про в'їзд)</li>
+<li>Довідка про реєстрацію місця проживання</li>
+<li>Документи, що підтверджують джерело доходу (трудовий договір, довідка від роботодавця, виписка з рахунку)</li>
+<li>Довідка про несудимість з країни походження (з нотаріально засвідченим перекладом)</li>
+<li>Підтвердження сплати внесків до ZUS та знання польської мови (рівень A2)</li>
+</ul>
+
+<h2>Іспит з польської мови</h2>
+<p>Необхідно підтвердити знання польської мови на рівні <strong>A2</strong>: сертифікатом державного іспиту або дипломом школи з польською мовою навчання.</p>
+
+<h2>Процедура крок за кроком</h2>
+<ol>
+<li>Подайте заяву особисто у <strong>Воєводському управлінні</strong> за місцем проживання — рекомендовано за 3–4 місяці до закінчення поточного дозволу</li>
+<li>Додайте повний пакет документів і сплатіть збір (340 злотих)</li>
+<li>Вас викличуть для здачі відбитків пальців при отриманні картки</li>
+<li>Термін очікування рішення: <strong>від 3 до 12 місяців</strong></li>
+<li>Після позитивного рішення отримайте картку постійного побуту</li>
+</ol>
+<p>Важливо: подача заяви до закінчення дії поточної картки дає право на законне перебування протягом усього часу розгляду справи.</p>
+
+<h2>Права власника картки постійного побуту</h2>
+<ul>
+<li>Необмежене перебування в Польщі без поновлення</li>
+<li>Вільний доступ до ринку праці без необхідності отримання дозволу на роботу</li>
+<li>Доступ до соціальних виплат на рівних умовах з польськими громадянами</li>
+<li>Спрощений шлях до польського громадянства</li>
+</ul>
+
+<h2>Nexflow з вами</h2>
+<p>Nexflow підтримує іноземних працівників на кожному етапі легалізації в Польщі. Зверніться до нас, якщо потребуєте допомоги з документами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "razreshenie-na-postoyannoe-prozhivanie-inostranets-polsha",
+    title: "Разрешение на постоянное проживание в Польше — пошаговое руководство для иностранцев",
+    description: "Живёте и работаете в Польше уже несколько лет? Узнайте, когда вы можете подать заявление на постоянный вид на жительство, какие документы нужны и как проходит процедура.",
+    date: "2030-05-16",
+    lang: "ru",
+    content: `
+<article>
+<h1>Разрешение на постоянное проживание в Польше — пошаговое руководство для иностранцев</h1>
+
+<p>Разрешение на постоянное проживание (карта постоянного побыта) — это документ, предоставляющий право на неограниченное пребывание в Польше без необходимости периодически продлевать разрешение. Это логичный следующий шаг для иностранцев, которые годами легально живут и работают в Польше.</p>
+
+<h2>Кто может получить постоянное проживание?</h2>
+<ul>
+<li>Владельцы <strong>Карты поляка</strong></li>
+<li>Лица, законно проживавшие в Польше <strong>не менее 5 лет</strong> на основании разрешения на временное проживание, в том числе последние 3 года непосредственно перед подачей заявления</li>
+<li>Супруги польских граждан, проживающие в Польше <strong>не менее 3 лет</strong></li>
+<li>Лица со статусом беженца или дополнительной защитой</li>
+</ul>
+
+<h2>Необходимые документы</h2>
+<ul>
+<li>Заполненное заявление на выдачу разрешения на постоянное проживание</li>
+<li>4 фотографии (35 × 45 мм)</li>
+<li>Действующий заграничный паспорт — оригинал и копия</li>
+<li>Документы, подтверждающие непрерывное законное пребывание в Польше (предыдущие карты побыта, визы, въездные штампы)</li>
+<li>Справка о регистрации места жительства</li>
+<li>Документы, подтверждающие источник дохода (трудовой договор, справка от работодателя, выписка со счёта)</li>
+<li>Справка о несудимости из страны происхождения (с нотариально заверенным переводом)</li>
+<li>Подтверждение уплаты взносов в ZUS и знания польского языка (уровень A2)</li>
+</ul>
+
+<h2>Экзамен по польскому языку</h2>
+<p>Необходимо подтвердить знание польского языка на уровне <strong>A2</strong>: государственным сертификатом или дипломом учебного заведения с польским языком обучения.</p>
+
+<h2>Процедура шаг за шагом</h2>
+<ol>
+<li>Подайте заявление лично в <strong>Воеводское управление</strong> по месту жительства — желательно за 3–4 месяца до окончания действия текущего разрешения</li>
+<li>Приложите полный пакет документов и оплатите пошлину (340 злотых)</li>
+<li>Вас вызовут для сдачи отпечатков пальцев при получении карты</li>
+<li>Срок ожидания решения: <strong>от 3 до 12 месяцев</strong></li>
+<li>После положительного решения получите карту постоянного побыта</li>
+</ol>
+<p>Важно: подача заявления до истечения срока действия текущей карты даёт право на законное пребывание в течение всего времени рассмотрения дела.</p>
+
+<h2>Права владельца карты постоянного побыта</h2>
+<ul>
+<li>Неограниченное пребывание в Польше без продления</li>
+<li>Свободный доступ к рынку труда без разрешения на работу</li>
+<li>Доступ к социальным выплатам наравне с польскими гражданами</li>
+<li>Упрощённый путь к польскому гражданству</li>
+</ul>
+
+<h2>Nexflow рядом с вами</h2>
+<p>Nexflow поддерживает иностранных работников на каждом этапе легализации в Польше. Обратитесь к нам, если вам нужна помощь с документами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "permanent-residence-permit-foreign-worker-poland",
+    title: "Permanent Residence Permit in Poland — Step-by-Step Guide for Foreign Workers",
+    description: "Living and working in Poland for several years? Find out when you can apply for permanent residence, what documents you need, and how the whole process works.",
+    date: "2030-05-23",
+    lang: "en",
+    content: `
+<article>
+<h1>Permanent Residence Permit in Poland — Step-by-Step Guide for Foreign Workers</h1>
+
+<p>A permanent residence permit (karta pobytu stałego) entitles you to live in Poland indefinitely without needing to renew your permit every few years. For foreign workers who have been legally living and working in Poland for a number of years, it is the natural progression from a temporary residence card.</p>
+
+<h2>Who Can Apply?</h2>
+<ul>
+<li>Holders of a <strong>Karta Polaka</strong> (Polish ancestry card)</li>
+<li>Foreign nationals who have legally resided in Poland for <strong>at least 5 years</strong> under a temporary residence permit, including the <strong>last 3 years consecutively</strong> immediately before applying</li>
+<li>Spouses of Polish citizens who have lived in Poland for at least <strong>3 years</strong></li>
+<li>Recognised refugees and persons with subsidiary protection</li>
+</ul>
+<p>For most non-EU temporary workers from Ukraine, Russia, Belarus, and other countries, the most common path is <strong>5 years of legal residence</strong> including the 3 years immediately before the application.</p>
+
+<h2>Required Documents</h2>
+<ul>
+<li>Completed application form for a permanent residence permit</li>
+<li>4 passport photographs (35 × 45 mm)</li>
+<li>Valid travel document (passport) — original and copy</li>
+<li>Documents proving continuous legal residence in Poland (previous residence cards, visas, entry stamps)</li>
+<li>Proof of registered address (zameldowanie)</li>
+<li>Proof of financial means (employment contract, employer's letter, bank statement)</li>
+<li>Certificate of no criminal record from your home country (with certified Polish translation)</li>
+<li>Confirmation of ZUS contributions and Polish language certificate (level A2)</li>
+</ul>
+
+<h2>Polish Language Requirement</h2>
+<p>Applicants on the 5-year residence path must demonstrate Polish language proficiency at <strong>A2 level</strong>. Acceptable evidence includes a state-recognised Polish language certificate or a diploma from a school with Polish as the language of instruction.</p>
+
+<h2>Step-by-Step Process</h2>
+<ol>
+<li>Submit your application in person at the <strong>Voivodeship Office</strong> (Urząd Wojewódzki) responsible for your place of residence — ideally 3–4 months before your current permit expires</li>
+<li>Attach all required documents and pay the stamp duty (340 PLN for the card)</li>
+<li>You will be called in to provide fingerprints when collecting the card</li>
+<li>Processing time: <strong>3 to 12 months</strong> (often longer in major cities)</li>
+<li>Once a positive decision is issued, collect your permanent residence card</li>
+</ol>
+<p>Key point: submitting your application before your current card expires entitles you to remain legally in Poland for the entire processing period, even if the card has already expired.</p>
+
+<h2>Rights of Permanent Residence Card Holders</h2>
+<ul>
+<li>Indefinite right to live in Poland — no renewals required</li>
+<li>Unrestricted access to the Polish labour market — no work permit needed</li>
+<li>Access to social benefits on similar terms to Polish citizens</li>
+<li>A simplified path to Polish citizenship for those who wish to pursue it</li>
+</ul>
+
+<h2>Nexflow Supports Your Future in Poland</h2>
+<p>Permanent residence is a recognition that Poland is your home. Nexflow supports foreign workers at every stage of their legal status in Poland. Contact us if you need information or help gathering documents for your application.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dyskryminacja-w-pracy-cudzoziemiec-polska-prawa",
+    title: "Dyskryminacja w pracy w Polsce — prawa cudzoziemca i jak je egzekwować",
+    description: "Jesteś cudzoziemcem i czujesz się dyskryminowany/a w pracy? Dowiedz się, jakie masz prawa, czego pracodawca nie może robić i jak zgłosić naruszenia.",
+    date: "2030-05-30",
+    lang: "pl",
+    content: `
+<article>
+<h1>Dyskryminacja w pracy w Polsce — prawa cudzoziemca i jak je egzekwować</h1>
+
+<p>Polskie prawo pracy zakazuje dyskryminacji ze względu na narodowość, rasę, pochodzenie etniczne i język — tak samo jak ze względu na płeć, wiek czy religię. Jako cudzoziemiec zatrudniony legalnie w Polsce masz pełną ochronę antydyskryminacyjną i prawo do skutecznego dochodzenia swoich roszczeń.</p>
+
+<h2>Co to jest dyskryminacja w pracy?</h2>
+<p>Dyskryminacja w zatrudnieniu to traktowanie pracownika gorzej od innych <strong>ze względu na cechę chronioną prawem</strong>. Dla cudzoziemców najważniejsze zakazy dotyczą:</p>
+<ul>
+<li>Nierównego wynagrodzenia za taką samą pracę</li>
+<li>Odmawiania awansu, szkoleń lub premii z powodu narodowości</li>
+<li>Gorzej traktowanego urlopu lub warunków pracy</li>
+<li>Mobbingu lub mowy nienawiści ze strony pracodawcy lub współpracowników</li>
+<li>Zwolnienia lub nieodnowienia umowy z powodu narodowości</li>
+</ul>
+
+<h2>Czego pracodawca nie może robić?</h2>
+<ul>
+<li>Płacić Ci mniej niż polskim pracownikom wykonującym taką samą pracę</li>
+<li>Odmawiać Ci prawa do urlopu, nadgodzin czy premii, których nie odmawia innym</li>
+<li>Zmuszać Cię do pracy w warunkach, których nie stosuje wobec innych pracowników</li>
+<li>Zwalniać Cię lub nie przedłużać umowy z powodu Twojej narodowości, języka czy koloru skóry</li>
+<li>Tolerować mobbingu, wyzywania czy poniżania ze względu na Twoje pochodzenie</li>
+</ul>
+
+<h2>Równa płaca za równą pracę</h2>
+<p>Zasada równego wynagrodzenia jest jednym z najważniejszych praw pracowniczych. Jeśli wykonujesz taką samą pracę jak Twoi polscy współpracownicy, masz prawo do takiego samego wynagrodzenia. Wszelkie różnice muszą wynikać z obiektywnych kryteriów — stażu pracy, kwalifikacji czy zakresu obowiązków — a nie z narodowości.</p>
+
+<h2>Mobbing a dyskryminacja — różnica</h2>
+<p><strong>Dyskryminacja</strong> to jednorazowe lub powtarzające się gorsze traktowanie z powodu cechy chronionej. <strong>Mobbing</strong> to długotrwałe, systematyczne nękanie lub zastraszanie, które narusza godność pracownika i wywołuje u niego strach, poczucie niskiej wartości lub izolację. Oba są zakazane i podlegają odpowiedzialności pracodawcy.</p>
+
+<h2>Jak zgłosić dyskryminację?</h2>
+<ol>
+<li><strong>Dokumentuj wszystko</strong> — zapisuj daty, treść rozmów i imiona świadków; przechowuj e-maile, SMS-y i inne dowody</li>
+<li><strong>Zgłoś wewnętrznie</strong> — jeśli firma ma dział HR lub reprezentację związkową, możesz zgłosić problem tam jako pierwszy krok</li>
+<li><strong>Państwowa Inspekcja Pracy (PIP)</strong> — inspekcja przyjmuje skargi na naruszenia prawa pracy; możesz złożyć skargę anonimowo lub imiennie; nie trzeba znać polskiego — inspekcja ma obowiązek korzystać z tłumacza</li>
+<li><strong>Sąd pracy</strong> — jeśli Twoje prawa zostały naruszone, możesz dochodzić odszkodowania przed sądem pracy; ciężar dowodu jest odwrócony — pracodawca musi udowodnić, że nie dyskryminował</li>
+<li><strong>Rzecznik Praw Obywatelskich (RPO)</strong> — możesz skierować skargę do biura RPO, które bezpłatnie udziela porad i może interweniować</li>
+</ol>
+
+<h2>Gdzie szukać bezpłatnej pomocy?</h2>
+<ul>
+<li><strong>Nieodpłatna pomoc prawna</strong> — punkty w każdym powiecie, bezpłatna porada dla osób fizycznych</li>
+<li><strong>Stowarzyszenia migranckie</strong> — organizacje ukraińskie, rosyjskie i inne aktywne w Polsce często oferują pomoc prawną w językach obcych</li>
+<li><strong>Związki zawodowe</strong> — możesz przystąpić do związku zawodowego niezależnie od obywatelstwa</li>
+</ul>
+
+<h2>Ochrona przed odwetem</h2>
+<p>Pracodawca nie może Cię zwolnić, ukarać ani w żaden sposób skrzywdzić za to, że zgłosiłeś/aś dyskryminację lub złożyłeś/aś skargę. Odwet jest osobnym naruszeniem prawa i podlega dodatkowej odpowiedzialności.</p>
+
+<h2>Nexflow stoi po Twojej stronie</h2>
+<p>Nexflow traktuje wszystkich pracowników tymczasowych z szacunkiem, niezależnie od ich narodowości. Jeśli spotkałeś/aś się z dyskryminacją w miejscu pracy — skontaktuj się z nami. Pomożemy Ci znaleźć właściwą pomoc.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dyskryminatsiya-na-roboti-inozemets-polshcha-prava",
+    title: "Дискримінація на роботі в Польщі — права іноземця та як їх захистити",
+    description: "Ви іноземець і відчуваєте дискримінацію на роботі в Польщі? Дізнайтесь, які у вас права, що забороняється роботодавцю і куди звертатися.",
+    date: "2030-06-06",
+    lang: "uk",
+    content: `
+<article>
+<h1>Дискримінація на роботі в Польщі — права іноземця та як їх захистити</h1>
+
+<p>Польське трудове законодавство забороняє дискримінацію за ознакою національності, раси, етнічного походження та мови — так само, як за статтю, віком чи релігією. Як іноземець, офіційно працевлаштований у Польщі, ви маєте повний захист від дискримінації і право на ефективне відстоювання своїх прав.</p>
+
+<h2>Що таке дискримінація на роботі?</h2>
+<p>Дискримінація — це гірше ставлення до працівника порівняно з іншими <strong>через захищену ознаку</strong>. Для іноземців це передусім:</p>
+<ul>
+<li>Нерівна оплата за однакову роботу</li>
+<li>Відмова в підвищенні, навчанні або преміях через національність</li>
+<li>Гірші умови відпустки або праці</li>
+<li>Мобінг або мова ненависті з боку роботодавця чи колег</li>
+<li>Звільнення або неподовження контракту через національність</li>
+</ul>
+
+<h2>Що заборонено роботодавцю?</h2>
+<ul>
+<li>Платити вам менше, ніж польським працівникам за однакову роботу</li>
+<li>Відмовляти у відпустці, надурочних або преміях без об'єктивних підстав</li>
+<li>Звільняти або не продовжувати контракт через вашу національність чи мову</li>
+<li>Терпіти мобінг, образи або приниження через ваше походження</li>
+</ul>
+
+<h2>Як захистити свої права?</h2>
+<ol>
+<li><strong>Фіксуйте все</strong> — дати, зміст розмов, імена свідків; зберігайте е-листи та повідомлення</li>
+<li><strong>Державна інспекція праці (PIP)</strong> — приймає скарги на порушення трудового права; скаргу можна подати анонімно; інспекція зобов'язана надати перекладача</li>
+<li><strong>Трудовий суд</strong> — можна вимагати відшкодування; тягар доведення покладено на роботодавця</li>
+<li><strong>Уповноважений з прав людини (RPO)</strong> — безкоштовні консультації та можливість втручання</li>
+</ol>
+
+<h2>Безкоштовна правова допомога</h2>
+<ul>
+<li>Пункти безоплатної правової допомоги — у кожному повіті</li>
+<li>Українські та інші мігрантські організації — допомога мовою</li>
+<li>Профспілки — доступні для іноземних працівників</li>
+</ul>
+
+<h2>Захист від помсти</h2>
+<p>Роботодавець не може вас звільнити або покарати за те, що ви повідомили про дискримінацію. Помста є окремим порушенням закону.</p>
+
+<h2>Nexflow на вашому боці</h2>
+<p>Nexflow поважає всіх тимчасових працівників незалежно від їхнього походження. Якщо ви стикнулися з дискримінацією — зверніться до нас, і ми допоможемо знайти допомогу.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "diskriminatsiya-na-rabote-inostranets-polsha-prava",
+    title: "Дискриминация на работе в Польше — права иностранца и как их защитить",
+    description: "Вы иностранец и столкнулись с дискриминацией на работе в Польше? Узнайте, какие у вас права, что запрещено работодателю и куда обращаться.",
+    date: "2030-06-13",
+    lang: "ru",
+    content: `
+<article>
+<h1>Дискриминация на работе в Польше — права иностранца и как их защитить</h1>
+
+<p>Польское трудовое законодательство запрещает дискриминацию по признаку национальности, расы, этнического происхождения и языка — так же, как и по признаку пола, возраста или религии. Как иностранец, официально трудоустроенный в Польше, вы имеете полную антидискриминационную защиту и право эффективно отстаивать свои интересы.</p>
+
+<h2>Что такое дискриминация на работе?</h2>
+<p>Дискриминация — это ухудшенное по сравнению с другими отношение к работнику <strong>по защищённому признаку</strong>. Для иностранцев это прежде всего:</p>
+<ul>
+<li>Неравная оплата за одинаковую работу</li>
+<li>Отказ в повышении, обучении или премии из-за национальности</li>
+<li>Худшие условия отпуска или труда</li>
+<li>Моббинг или язык ненависти со стороны работодателя или коллег</li>
+<li>Увольнение или непродление контракта из-за национальности</li>
+</ul>
+
+<h2>Что запрещено работодателю?</h2>
+<ul>
+<li>Платить вам меньше, чем польским работникам за одинаковую работу</li>
+<li>Отказывать в отпуске, сверхурочных или премии без объективных оснований</li>
+<li>Увольнять или не продлевать контракт из-за вашей национальности</li>
+<li>Терпеть моббинг, оскорбления или унижения по признаку происхождения</li>
+</ul>
+
+<h2>Как защитить свои права?</h2>
+<ol>
+<li><strong>Документируйте всё</strong> — даты, содержание разговоров, имена свидетелей; сохраняйте электронные письма и сообщения</li>
+<li><strong>Государственная инспекция труда (PIP)</strong> — принимает жалобы на нарушения трудового права; жалобу можно подать анонімно; инспекция обязана предоставить переводчика</li>
+<li><strong>Трудовой суд</strong> — можно требовать возмещения ущерба; бремя доказательства лежит на работодателе</li>
+<li><strong>Уполномоченный по правам человека (RPO)</strong> — бесплатные консультации и возможность вмешательства</li>
+</ol>
+
+<h2>Бесплатная правовая помощь</h2>
+<ul>
+<li>Пункты бесплатной правовой помощи — в каждом повете</li>
+<li>Мигрантские организации — помощь на родном языке</li>
+<li>Профсоюзы — доступны для иностранных работников</li>
+</ul>
+
+<h2>Защита от мести</h2>
+<p>Работодатель не может уволить или наказать вас за то, что вы сообщили о дискриминации. Месть является отдельным нарушением закона.</p>
+
+<h2>Nexflow на вашей стороне</h2>
+<p>Nexflow уважает всех временных работников независимо от их происхождения. Если вы столкнулись с дискриминацией — обратитесь к нам, и мы поможем найти нужную помощь.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "workplace-discrimination-foreign-worker-poland-rights",
+    title: "Workplace Discrimination in Poland — Rights and Remedies for Foreign Workers",
+    description: "Experiencing discrimination at work in Poland because of your nationality or language? Know your rights, what your employer cannot do, and where to report violations.",
+    date: "2030-06-20",
+    lang: "en",
+    content: `
+<article>
+<h1>Workplace Discrimination in Poland — Rights and Remedies for Foreign Workers</h1>
+
+<p>Polish labour law prohibits discrimination on grounds of nationality, race, ethnic origin, and language — just as it does on grounds of sex, age, or religion. As a foreign worker legally employed in Poland, you have full anti-discrimination protection and the right to enforce your rights effectively.</p>
+
+<h2>What Is Workplace Discrimination?</h2>
+<p>Discrimination means treating an employee worse than others <strong>because of a protected characteristic</strong>. For foreign workers, the most relevant situations include:</p>
+<ul>
+<li>Unequal pay for the same work</li>
+<li>Denial of promotion, training, or bonuses on grounds of nationality</li>
+<li>Worse holiday entitlement or working conditions without objective justification</li>
+<li>Mobbing (workplace harassment) or hate speech from an employer or colleagues</li>
+<li>Dismissal or non-renewal of a contract because of nationality or language</li>
+</ul>
+
+<h2>What Is Your Employer Forbidden to Do?</h2>
+<ul>
+<li>Pay you less than Polish workers doing the same job</li>
+<li>Refuse you leave, overtime pay, or bonuses they grant to others</li>
+<li>Dismiss or refuse to renew your contract because of your nationality or language</li>
+<li>Tolerate mobbing, insults, or humiliation directed at you because of your origin</li>
+</ul>
+
+<h2>Equal Pay for Equal Work</h2>
+<p>The equal pay principle is one of your most important employment rights. If you perform the same work as your Polish colleagues, you are entitled to the same pay. Any differences must be based on objective criteria — seniority, qualifications, or the scope of duties — not on nationality.</p>
+
+<h2>Mobbing vs. Discrimination — What Is the Difference?</h2>
+<p><strong>Discrimination</strong> is one-time or repeated worse treatment due to a protected characteristic. <strong>Mobbing</strong> is prolonged, systematic harassment or intimidation that undermines a worker's dignity and causes fear, low self-esteem, or isolation. Both are prohibited and the employer is liable for both.</p>
+
+<h2>How to Report Discrimination</h2>
+<ol>
+<li><strong>Document everything</strong> — record dates, the content of conversations, and names of witnesses; save emails, text messages, and other evidence</li>
+<li><strong>Report internally</strong> — if your company has an HR department or trade union representation, you may raise the issue there as a first step</li>
+<li><strong>National Labour Inspectorate (PIP)</strong> — accepts complaints about labour law violations; complaints can be filed anonymously; the inspectorate is obliged to provide an interpreter</li>
+<li><strong>Labour court</strong> — you can claim compensation before a labour court; the burden of proof is reversed — your employer must prove they did not discriminate</li>
+<li><strong>Commissioner for Human Rights (RPO)</strong> — free advice and the possibility of intervention</li>
+</ol>
+
+<h2>Free Legal Help</h2>
+<ul>
+<li><strong>Free legal aid points</strong> — available in every county (powiat) in Poland</li>
+<li><strong>Migrant organisations</strong> — Ukrainian, Russian, and other migrant associations active in Poland often provide legal assistance in foreign languages</li>
+<li><strong>Trade unions</strong> — you can join a union regardless of your citizenship</li>
+</ul>
+
+<h2>Protection from Retaliation</h2>
+<p>Your employer cannot dismiss, penalise, or harm you in any way for reporting discrimination or filing a complaint. Retaliation is a separate violation of law and exposes the employer to additional liability.</p>
+
+<h2>Nexflow Stands by You</h2>
+<p>Nexflow treats all temporary workers with respect, regardless of nationality. If you have experienced workplace discrimination, contact us. We will help you find the right support.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
