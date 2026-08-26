@@ -16672,6 +16672,833 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Buying a Polish SIM card is straightforward and possible on your first day — all you need is your passport. Start with prepaid, then consider a contract once you're settled. Questions? Nexflow is here to help.</p>
     `.trim(),
   },
+  {
+    slug: "apteka-e-recepta-cudzoziemiec-polska",
+    title: "Apteka i e-recepta w Polsce: przewodnik dla cudzoziemca",
+    description:
+      "Jak kupić leki w polskiej aptece jako cudzoziemiec — e-recepta, refundacja NFZ i apteki dyżurne. Przewodnik dla pracownika tymczasowego.",
+    date: "2029-10-18",
+    lang: "pl",
+    content: `
+<h2>Apteka w Polsce — jak kupić leki jako cudzoziemiec</h2>
+<p>Apteka (pharmacy) to miejsce, które odwiedzisz wcześniej czy później podczas pracy w Polsce. Niezależnie od tego, czy szukasz leku na ból głowy, czy potrzebujesz antybiotyku na receptę, warto znać podstawowe zasady funkcjonowania polskiego systemu aptecznego i e-recept.</p>
+
+<h3>Rodzaje leków dostępnych w polskich aptekach</h3>
+<p>W Polsce leki dzielą się na kilka kategorii:</p>
+<ul>
+  <li><strong>Leki OTC (bez recepty, over-the-counter)</strong> — możesz je kupić samodzielnie, bez dokumentów. To m.in. leki przeciwbólowe (ibuprofen, paracetamol), leki na przeziębienie i kaszel, witaminy, środki na niestrawność.</li>
+  <li><strong>Leki Rp (na receptę)</strong> — wymagają recepty wystawionej przez lekarza. Dotyczy to antybiotyków, leków na choroby przewlekłe, leków psychotropowych i wielu innych.</li>
+  <li><strong>Leki refundowane</strong> — ich część kosztów pokrywa NFZ (Narodowy Fundusz Zdrowia). Refundacja przysługuje osobom ubezpieczonym — czyli pracownikom tymczasowym zatrudnionym legalnie w Polsce.</li>
+</ul>
+
+<h3>System e-recepty — jak to działa?</h3>
+<p>Od 2020 roku Polska przeszła na pełny system e-recepty (elektroniczna recepta). Lekarz nie wystawia już papierowego dokumentu — recepta jest zapisywana cyfrowo w centralnym rejestrze i jest dostępna w każdej aptece w Polsce.</p>
+<p>Aby odebrać leki na e-receptę, podaj farmaceucie jedno z poniższych:</p>
+<ul>
+  <li><strong>Numer PESEL</strong> — jeśli go posiadasz (i lekarz powiązał receptę z Twoim numerem PESEL),</li>
+  <li><strong>Czterocyfrowy kod PIN</strong> — wysyłany SMS-em lub e-mailem w trakcie wizyty lekarskiej,</li>
+  <li><strong>Numer e-recepty</strong> — 20-cyfrowy kod podawany przez lekarza.</li>
+</ul>
+<p><strong>Ważne:</strong> Jeśli nie masz PESEL, koniecznie zapytaj lekarza o kod PIN podczas wizyty. Bez kodu PIN lub numeru e-recepty nie możesz odebrać leków.</p>
+
+<h3>Jak uzyskać receptę jako pracownik cudzoziemiec?</h3>
+<p>Receptę możesz uzyskać od lekarza POZ (lekarza pierwszego kontaktu) lub specjalisty na NFZ. Jako pracownik tymczasowy ubezpieczony w NFZ masz do tego prawo od pierwszego dnia pracy.</p>
+<p>Możesz też skorzystać z wizyty prywatnej (koszt: ok. 100–200 zł), ale leki przepisane przez lekarza prywatnego mogą być refundowane przez NFZ, jeśli jesteś ubezpieczony.</p>
+
+<h3>Teleporada — wizyta lekarska online lub przez telefon</h3>
+<p>Wiele przychodni i platform medycznych oferuje teleporady — wizyty lekarskie przez telefon lub video. Jest to wygodna opcja, gdy nie możesz wyjść z pracy lub gdy potrzebujesz przedłużenia recepty na stałe leki. Po teleporadzie lekarz może wystawić e-receptę, którą zrealizujesz w dowolnej aptece.</p>
+<p>Popularne platformy telemedyczne w Polsce to m.in.: LekarzeBezKolejki.pl, DocPlanner, Telemedi, Medeor. Część z nich oferuje usługi w języku angielskim lub ukraińskim.</p>
+
+<h3>Czy recepta zagraniczna jest honorowana w Polsce?</h3>
+<p>Apteki w Polsce mogą zrealizować recepty wystawione przez lekarzy z innych krajów Unii Europejskiej lub EOG. Jednak farmaceuta ma prawo odmówić, jeśli nie jest w stanie zweryfikować autentyczności dokumentu. Recepty spoza UE/EOG zasadniczo nie są honorowane w polskich aptekach.</p>
+
+<h3>Jak sprawdzić, czy lek jest refundowany?</h3>
+<p>Zanim zapłacisz pełną cenę za lek, możesz sprawdzić refundację:</p>
+<ul>
+  <li>Na stronie Ministerstwa Zdrowia: <em>mz.gov.pl</em> (zakładka: wykaz leków refundowanych),</li>
+  <li>W aplikacji <strong>mObywatel</strong> (sekcja e-Zdrowie),</li>
+  <li>Bezpośrednio w aptece — farmaceuta sprawdzi refundację po wpisaniu numeru PESEL.</li>
+</ul>
+
+<h3>Apteka dyżurna — co zrobić w nocy lub w święto?</h3>
+<p>W Polsce zawsze jedna apteka w danym rejonie pełni dyżur — jest otwarta całą dobę lub do późnych godzin nocnych, również w niedziele i święta. Godziny dyżurów sprawdzisz:</p>
+<ul>
+  <li>Na drzwiach najbliższej apteki (obowiązkowo podają adres apteki dyżurnej),</li>
+  <li>Na stronie Naczelnej Izby Aptekarskiej: <em>nia.org.pl</em>,</li>
+  <li>W aplikacjach mapowych — wpisz „apteka dyżurna" + nazwa miejscowości.</li>
+</ul>
+
+<h3>Przydatne zwroty w aptece</h3>
+<ul>
+  <li><em>Mam e-receptę</em> — I have an e-prescription</li>
+  <li><em>Mój PESEL to...</em> — My PESEL is...</li>
+  <li><em>Czy ten lek jest bez recepty?</em> — Is this medication OTC?</li>
+  <li><em>Czy jest refundacja?</em> — Is there reimbursement?</li>
+  <li><em>Ile razy dziennie?</em> — How many times a day?</li>
+  <li><em>Czy są skutki uboczne?</em> — Are there side effects?</li>
+</ul>
+
+<h3>Nexflow a Twoje ubezpieczenie zdrowotne</h3>
+<p>Jako pracownik tymczasowy zatrudniony przez Nexflow jesteś objęty ubezpieczeniem zdrowotnym NFZ od pierwszego dnia pracy. Oznacza to prawo do refundowanych leków i wizyt lekarskich. W razie pytań o dostęp do opieki medycznej skontaktuj się ze swoim opiekunem Nexflow — pomożemy Ci zarejestrować się u lekarza POZ i wyjaśnimy, jak korzystać z e-recept.</p>
+
+<h3>Podsumowanie — apteka w Polsce krok po kroku</h3>
+<ul>
+  <li>Leki bez recepty (OTC) kupisz w każdej aptece bez dokumentów.</li>
+  <li>E-recepta zastąpiła papierową — odbierzesz ją przez PESEL, kod PIN lub numer e-recepty.</li>
+  <li>Jako pracownik NFZ masz prawo do refundacji leków — pytaj w aptece.</li>
+  <li>Teleporada umożliwia uzyskanie e-recepty bez wychodzenia z domu.</li>
+  <li>W nocy i w święta szukaj apteki dyżurnej w swojej okolicy.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "apteka-e-retsept-inozemets-polshcha",
+    title: "Аптека та е-рецепт у Польщі: посібник для іноземця",
+    description:
+      "Як купити ліки в польській аптеці як іноземець — е-рецепт, відшкодування NFZ та чергові аптеки. Посібник для тимчасового працівника.",
+    date: "2029-10-25",
+    lang: "uk",
+    content: `
+<h2>Аптека у Польщі — як купити ліки іноземцю</h2>
+<p>Аптека (apteka) — місце, де рано чи пізно ви побуваєте під час роботи у Польщі. Чи то потрібен засіб від болю голови, чи антибіотик за рецептом — варто знати основні правила польської системи аптек та е-рецептів.</p>
+
+<h3>Які ліки можна купити в польській аптеці</h3>
+<ul>
+  <li><strong>Ліки ОТС (без рецепту)</strong> — купуються самостійно без документів: знеболювальні (ібупрофен, парацетамол), засоби від застуди, вітаміни.</li>
+  <li><strong>Ліки Rp (за рецептом)</strong> — потребують рецепта від лікаря: антибіотики, ліки від хронічних хвороб тощо.</li>
+  <li><strong>Ліки з відшкодуванням (refundowane)</strong> — частину вартості оплачує NFZ. Право на відшкодування мають застраховані працівники.</li>
+</ul>
+
+<h3>Система е-рецептів — як це працює?</h3>
+<p>З 2020 року Польща перейшла на електронну рецепту (e-recepta). Лікар не видає паперового документа — рецепт зберігається в цифровій системі і доступний у будь-якій аптеці країни.</p>
+<p>Щоб отримати ліки за е-рецептом, назвіть фармацевту:</p>
+<ul>
+  <li><strong>Номер PESEL</strong> — якщо він у вас є,</li>
+  <li><strong>Чотиризначний PIN-код</strong> — надсилається SMS або e-mail під час візиту до лікаря,</li>
+  <li><strong>Номер е-рецепту</strong> — 20-значний код від лікаря.</li>
+</ul>
+<p><strong>Важливо:</strong> Якщо у вас немає PESEL — обов'язково попросіть лікаря надати PIN-код під час прийому. Без нього або номера е-рецепту ліки не видадуть.</p>
+
+<h3>Як отримати рецепт іноземцю-працівнику?</h3>
+<p>Рецепт можна отримати у лікаря POZ (сімейного лікаря) або спеціаліста за направленням NFZ. Як тимчасовий працівник, застрахований у NFZ, ви маєте на це право з першого дня роботи.</p>
+<p>Можна також відвідати приватного лікаря (орієнтовна вартість: 100–200 злотих). Ліки, виписані приватним лікарем, можуть бути відшкодовані NFZ, якщо ви застраховані.</p>
+
+<h3>Телепорада — онлайн-прийом лікаря</h3>
+<p>Багато клінік та медичних платформ пропонують телепоради — консультацію лікаря телефоном або по відео. Після телепоради лікар може виписати е-рецепт, який можна реалізувати в будь-якій аптеці. Деякі платформи пропонують послуги українською або англійською мовою.</p>
+
+<h3>Як перевірити відшкодування ліків?</h3>
+<ul>
+  <li>На сайті Міністерства охорони здоров'я Польщі: <em>mz.gov.pl</em></li>
+  <li>В додатку <strong>mObywatel</strong> (розділ e-Zdrowie)</li>
+  <li>Безпосередньо в аптеці — фармацевт перевірить по PESEL</li>
+</ul>
+
+<h3>Нічна аптека — що робити вночі або у свято?</h3>
+<p>У Польщі завжди чергує щонайменше одна аптека у кожному районі — вона працює цілодобово або до пізньої ночі, у тому числі у свята та неділі. Адресу чергової аптеки можна дізнатися:</p>
+<ul>
+  <li>На дверях найближчої аптеки (обов'язкове оголошення),</li>
+  <li>На сайті Naczelna Izba Aptekarska: <em>nia.org.pl</em>,</li>
+  <li>Через пошук на картах: «apteka dyżurna» + назва міста.</li>
+</ul>
+
+<h3>Корисні фрази в аптеці</h3>
+<ul>
+  <li><em>Mam e-receptę</em> — У мене е-рецепт</li>
+  <li><em>Mój PESEL to...</em> — Мій PESEL...</li>
+  <li><em>Czy ten lek jest bez recepty?</em> — Цей препарат без рецепту?</li>
+  <li><em>Czy jest refundacja?</em> — Є відшкодування?</li>
+  <li><em>Ile razy dziennie?</em> — Скільки разів на день?</li>
+</ul>
+
+<h3>Nexflow та ваше медичне страхування</h3>
+<p>Як тимчасовий працівник Nexflow ви застраховані в NFZ з першого дня роботи. Це означає право на відшкодування ліків та медичних послуг. Якщо виникнуть питання щодо доступу до лікаря або аптеки — звертайтеся до вашого куратора Nexflow.</p>
+
+<h3>Підсумок</h3>
+<ul>
+  <li>Ліки без рецепту купуйте в будь-якій аптеці самостійно.</li>
+  <li>Е-рецепт: отримайте за PESEL, PIN-кодом або номером рецепту.</li>
+  <li>Як застрахований у NFZ — маєте право на відшкодування.</li>
+  <li>Вночі та у свята шукайте чергову аптеку (apteka dyżurna).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "apteka-e-retsept-inostranets-polsha",
+    title: "Аптека и е-рецепт в Польше: руководство для иностранца",
+    description:
+      "Как купить лекарства в польской аптеке иностранцу — е-рецепт, возмещение NFZ и дежурные аптеки. Руководство для временного работника.",
+    date: "2029-11-01",
+    lang: "ru",
+    content: `
+<h2>Аптека в Польше — как купить лекарства иностранцу</h2>
+<p>Польская аптека (apteka) — место, которое вы непременно посетите во время работы в Польше. Независимо от того, нужно ли вам обезболивающее или антибиотик по рецепту, важно знать основные правила польской аптечной системы и электронных рецептов.</p>
+
+<h3>Какие лекарства можно купить в польской аптеке</h3>
+<ul>
+  <li><strong>Лекарства OTC (без рецепта)</strong> — продаются без каких-либо документов: обезболивающие (ибупрофен, парацетамол), средства от простуды, витамины.</li>
+  <li><strong>Лекарства Rp (по рецепту)</strong> — требуют рецепта врача: антибиотики, препараты от хронических заболеваний и т.д.</li>
+  <li><strong>Препараты с возмещением (refundowane)</strong> — часть стоимости оплачивает NFZ. Право на возмещение имеют застрахованные работники.</li>
+</ul>
+
+<h3>Система е-рецептов — как это работает?</h3>
+<p>С 2020 года Польша полностью перешла на электронный рецепт (e-recepta). Врач не выписывает бумажный документ — рецепт хранится в цифровой системе и доступен в любой аптеке страны.</p>
+<p>Чтобы получить лекарства по е-рецепту, сообщите фармацевту:</p>
+<ul>
+  <li><strong>Номер PESEL</strong> — если он у вас есть,</li>
+  <li><strong>Четырёхзначный PIN-код</strong> — отправляется SMS или e-mail во время приёма у врача,</li>
+  <li><strong>Номер е-рецепта</strong> — 20-значный код, предоставляемый врачом.</li>
+</ul>
+<p><strong>Важно:</strong> Если у вас нет PESEL — обязательно попросите врача сообщить PIN-код во время визита. Без него или номера е-рецепта лекарства не выдадут.</p>
+
+<h3>Как получить рецепт иностранному работнику?</h3>
+<p>Рецепт можно получить у врача POZ (семейного врача) или специалиста по направлению от NFZ. Как временный работник, застрахованный в NFZ, вы имеете на это право с первого дня работы.</p>
+<p>Можно также обратиться к частному врачу (ориентировочная стоимость: 100–200 злотых). Лекарства, выписанные частным врачом, могут быть возмещены NFZ при наличии страховки.</p>
+
+<h3>Телепорада — онлайн-консультация врача</h3>
+<p>Многие клиники и медицинские платформы предлагают телепорады — консультацию врача по телефону или видеосвязи. После телепорады врач может выписать е-рецепт, который реализуется в любой аптеке. Ряд платформ предлагает услуги на русском или английском языке.</p>
+
+<h3>Как проверить возмещение лекарств?</h3>
+<ul>
+  <li>На сайте Министерства здравоохранения Польши: <em>mz.gov.pl</em></li>
+  <li>В приложении <strong>mObywatel</strong> (раздел e-Zdrowie)</li>
+  <li>Непосредственно в аптеке — фармацевт проверит по PESEL</li>
+</ul>
+
+<h3>Дежурная аптека — что делать ночью или в праздник?</h3>
+<p>В Польше в каждом районе всегда дежурит хотя бы одна аптека — она работает круглосуточно или до позднего вечера, в том числе в праздники и воскресенья. Адрес дежурной аптеки можна узнать:</p>
+<ul>
+  <li>На двери ближайшей аптеки (обязательное объявление),</li>
+  <li>На сайте Naczelna Izba Aptekarska: <em>nia.org.pl</em>,</li>
+  <li>Через поиск на картах: «apteka dyżurna» + название города.</li>
+</ul>
+
+<h3>Полезные фразы в аптеке</h3>
+<ul>
+  <li><em>Mam e-receptę</em> — У меня е-рецепт</li>
+  <li><em>Mój PESEL to...</em> — Мой PESEL...</li>
+  <li><em>Czy ten lek jest bez recepty?</em> — Этот препарат без рецепта?</li>
+  <li><em>Czy jest refundacja?</em> — Есть возмещение?</li>
+  <li><em>Ile razy dziennie?</em> — Сколько раз в день?</li>
+</ul>
+
+<h3>Nexflow и ваша медицинская страховка</h3>
+<p>Как временный работник Nexflow вы застрахованы в NFZ с первого дня работы. Это означает право на возмещение стоимости лекарств и медицинских услуг. Если возникнуть вопросы по доступу к врачу или аптеке — обращайтесь к куратору Nexflow.</p>
+
+<h3>Итог</h3>
+<ul>
+  <li>Лекарства без рецепта покупайте в любой аптеке без документов.</li>
+  <li>Е-рецепт: получите по PESEL, PIN-коду или номеру рецепта.</li>
+  <li>Как застрахованный в NFZ — вы имеете право на возмещение.</li>
+  <li>Ночью и в праздники ищите дежурную аптеку (apteka dyżurna).</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "pharmacy-e-prescription-foreign-worker-poland",
+    title: "Pharmacy and e-Prescription in Poland: A Guide for Foreign Workers",
+    description:
+      "How to buy medicines in a Polish pharmacy as a foreign worker — e-prescription, NFZ reimbursement and duty pharmacies explained.",
+    date: "2029-11-08",
+    lang: "en",
+    content: `
+<h2>Pharmacy in Poland — How to Get Medicines as a Foreign Worker</h2>
+<p>Whether you need a painkiller or a prescription antibiotic, knowing how Polish pharmacies work will save you time and money. This guide covers everything a non-EU temporary worker needs to know about getting medicines in Poland.</p>
+
+<h3>Types of Medicines in Polish Pharmacies</h3>
+<ul>
+  <li><strong>OTC medicines (bez recepty)</strong> — Available without a prescription: painkillers (ibuprofen, paracetamol), cold and flu remedies, vitamins, antacids.</li>
+  <li><strong>Prescription medicines (Rp)</strong> — Require a prescription (recepta) from a doctor: antibiotics, medicines for chronic conditions, etc.</li>
+  <li><strong>Reimbursed medicines (refundowane)</strong> — Part of the cost is covered by NFZ (National Health Fund). You must be insured (employed legally in Poland) to access reimbursement.</li>
+</ul>
+
+<h3>The e-Prescription System — How It Works</h3>
+<p>Since 2020, Poland has operated a fully digital e-prescription system (e-recepta). Your doctor does not issue a paper prescription — it is stored digitally in the central national system and can be dispensed at any pharmacy in Poland.</p>
+<p>To collect your medicines at the pharmacy, provide the pharmacist with one of:</p>
+<ul>
+  <li><strong>Your PESEL number</strong> — if you have one and the doctor linked the prescription to it,</li>
+  <li><strong>A four-digit PIN code</strong> — sent to you by SMS or email during the appointment,</li>
+  <li><strong>The e-prescription number</strong> — a 20-digit code given by your doctor.</li>
+</ul>
+<p><strong>Important:</strong> If you do not have a PESEL number, always ask your doctor for the PIN code during your appointment. Without it or the prescription number, you cannot collect your medicines.</p>
+
+<h3>How to Get a Prescription as a Foreign Worker</h3>
+<p>You can get a prescription from your POZ doctor (primary care / family doctor) or a specialist on referral, all through the NFZ system. As a temporary worker insured with NFZ, you have this right from your first day of employment.</p>
+<p>You can also see a private doctor (typically 100–200 PLN), and medicines prescribed privately can still be reimbursed by NFZ if you are insured.</p>
+
+<h3>Telemedicine — Online or Phone Consultations</h3>
+<p>Many clinics and medical platforms offer telemedicine consultations (teleporada) — a doctor's appointment by phone or video call. After a teleconsultation, the doctor can issue an e-prescription that you collect from any pharmacy. Several platforms operate in English or Ukrainian.</p>
+
+<h3>How to Check Whether a Medicine Is Reimbursed</h3>
+<ul>
+  <li>On the Polish Ministry of Health website: <em>mz.gov.pl</em> (reimbursement list),</li>
+  <li>In the <strong>mObywatel</strong> app (e-Zdrowie / e-Health section),</li>
+  <li>At the pharmacy counter — the pharmacist can check by entering your PESEL.</li>
+</ul>
+
+<h3>24/7 Duty Pharmacy — What to Do at Night or on Public Holidays</h3>
+<p>In Poland, at least one pharmacy in each area is designated as a duty pharmacy (apteka dyżurna) — open 24 hours or until late at night, including Sundays and public holidays. To find one:</p>
+<ul>
+  <li>Check the notice on the door of any closed pharmacy (they must display the duty pharmacy address),</li>
+  <li>Visit Naczelna Izba Aptekarska: <em>nia.org.pl</em>,</li>
+  <li>Search on any map app: "apteka dyżurna" + your city name.</li>
+</ul>
+
+<h3>Useful Phrases at the Pharmacy</h3>
+<ul>
+  <li><em>Mam e-receptę</em> — I have an e-prescription</li>
+  <li><em>Mój PESEL to...</em> — My PESEL is...</li>
+  <li><em>Czy ten lek jest bez recepty?</em> — Is this medicine available without a prescription?</li>
+  <li><em>Czy jest refundacja?</em> — Is it reimbursed?</li>
+  <li><em>Ile razy dziennie?</em> — How many times a day?</li>
+  <li><em>Jakie skutki uboczne?</em> — What are the side effects?</li>
+</ul>
+
+<h3>Nexflow and Your Health Insurance</h3>
+<p>As a Nexflow temporary worker, you are covered by NFZ health insurance from your first day of employment. This gives you the right to reimbursed medicines and medical services on the same terms as Polish employees. If you have any questions about accessing healthcare or pharmacies, contact your Nexflow coordinator — we are here to help.</p>
+
+<h3>Key Takeaways</h3>
+<ul>
+  <li>OTC medicines: walk in and buy — no prescription or documents needed.</li>
+  <li>E-prescription: provide your PESEL, PIN code, or prescription number at the pharmacy.</li>
+  <li>NFZ insurance = right to reimbursed medicines — ask the pharmacist to check.</li>
+  <li>Telemedicine: get a prescription without leaving home.</li>
+  <li>Night or holiday: look for the duty pharmacy (apteka dyżurna) near you.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "kurs-jezyka-polskiego-cudzoziemiec-bezplatny",
+    title: "Bezpłatne kursy języka polskiego dla cudzoziemców: gdzie i jak zacząć?",
+    description:
+      "Bezpłatne i tanie kursy języka polskiego dla cudzoziemców w Polsce — opcje stacjonarne, aplikacje i metody nauki przy pracy.",
+    date: "2029-11-15",
+    lang: "pl",
+    content: `
+<h2>Nauka polskiego jako cudzoziemiec — gdzie zacząć bezpłatnie?</h2>
+<p>Znajomość języka polskiego to jeden z najważniejszych kluczy do lepszego życia i pracy w Polsce. Nawet podstawowe frazy pomagają w codziennych sytuacjach — w sklepie, w urzędzie, u lekarza czy w miejscu pracy. Dobra wiadomość: istnieje wiele bezpłatnych lub bardzo tanich opcji nauki polskiego dla cudzoziemców.</p>
+
+<h3>Dlaczego warto uczyć się polskiego?</h3>
+<ul>
+  <li>Łatwiejsza komunikacja z pracodawcą i współpracownikami.</li>
+  <li>Samodzielność w urzędach i przy wypełnianiu dokumentów.</li>
+  <li>Bezpieczniejsza obsługa e-recept, wizyt lekarskich i rozmów z NFZ.</li>
+  <li>Szansa na awans zawodowy i lepiej płatne stanowisko.</li>
+  <li>Lepszy kontakt z lokalną społecznością.</li>
+</ul>
+
+<h3>Bezpłatne kursy języka polskiego — opcje stacjonarne</h3>
+<h4>Kursy finansowane przez urzędy pracy</h4>
+<p>Powiatowe Urzędy Pracy (PUP) organizują lub finansują kursy polskiego dla cudzoziemców, w tym dla pracowników tymczasowych. Warto zapytać w lokalnym urzędzie pracy o aktualne oferty — kursy są zazwyczaj bezpłatne lub dofinansowane.</p>
+
+<h4>Centra integracji i organizacje pozarządowe</h4>
+<p>W wielu miastach działają bezpłatne kursy polskiego organizowane przez:</p>
+<ul>
+  <li><strong>Caritas Polska</strong> — kursy językowe dla cudzoziemców w kilkudziesięciu miastach,</li>
+  <li><strong>Polska Akcja Humanitarna (PAH)</strong> — wsparcie językowe szczególnie dla Ukraińców,</li>
+  <li><strong>Fundacja Ocalenie</strong> — Warszawa i inne miasta, kursy dla uchodźców i migrantów,</li>
+  <li><strong>Lokalne domy kultury i biblioteki</strong> — bezpłatne warsztaty językowe w ramach programów integracyjnych.</li>
+</ul>
+
+<h4>Kursy na uczelniach i w szkołach językowych</h4>
+<p>Wiele uczelni wyższych organizuje tanie lub bezpłatne kursy polskiego dla obcokrajowców w ramach programów społecznych. Szkoły językowe często mają kursy grupowe już od 100–200 zł miesięcznie.</p>
+
+<h3>Nauka polskiego online — aplikacje i platformy</h3>
+<h4>Duolingo</h4>
+<p>Popularna bezpłatna aplikacja dostępna w języku ukraińskim i angielskim. Duolingo uczy polskiego przez krótkie, grywalizowane lekcje idealne do nauki w drodze lub podczas przerwy w pracy. Opcja: kurs „Ukraiński → Polski" lub „Angielski → Polski".</p>
+
+<h4>Clozemaster i Anki</h4>
+<p>Bardziej zaawansowane narzędzia do nauki słownictwa przez fiszki i przykładowe zdania. Doskonałe po opanowaniu podstaw.</p>
+
+<h4>YouTube — darmowe kanały</h4>
+<p>Na YouTube dostępne są kursy polskiego prowadzone po ukraińsku, rosyjsku i angielsku. Wyszukaj: „Polish with Dorota", „Polski dla Ukraińców", „Learn Polish" lub „польська для початківців".</p>
+
+<h4>Polska dla Ukraińców — platformy dedykowane</h4>
+<p>Po 2022 roku powstało wiele bezpłatnych zasobów dedykowanych Ukraińcom uczącym się polskiego:</p>
+<ul>
+  <li><strong>Mova.Institute</strong> — kursy polskiego po ukraińsku,</li>
+  <li><strong>Wiedza z Polski</strong> (Centrum Języka Polskiego i Kultury Polskiej dla Cudzoziemców POLONICUM) — zasoby Uniwersytetu Warszawskiego,</li>
+  <li><strong>E-polish.eu</strong> — płatne, ale jedno z najlepszych ustrukturyzowanych kursów online.</li>
+</ul>
+
+<h3>Aplikacje do nauki wymowy i słuchania</h3>
+<ul>
+  <li><strong>Pimsleur</strong> — nauka polskiego przez audio (pierwsza lekcja bezpłatna),</li>
+  <li><strong>Glossika</strong> — zaawansowane ćwiczenia wymowy,</li>
+  <li><strong>Tandem / HelloTalk</strong> — nauka przez rozmowę z native speakerami (wymiana językowa).</li>
+</ul>
+
+<h3>Jak efektywnie uczyć się polskiego przy pracy?</h3>
+<ul>
+  <li><strong>15 minut dziennie</strong> — regularność ważniejsza niż intensywność. Codzienne 15 minut w Duolingo daje szybkie rezultaty.</li>
+  <li><strong>Ucz się słownictwa z pracy</strong> — zapamiętaj 5–10 słów, które słyszysz codziennie w miejscu pracy.</li>
+  <li><strong>Słuchaj polskiego radia lub podcastów</strong> — Radio ZET, RMF FM w tle pomagają oswoić rytm języka.</li>
+  <li><strong>Rozmawiaj z Polakami</strong> — nie bój się błędów. Polacy doceniają każdą próbę.</li>
+  <li><strong>Używaj aplikacji z tłumaczem</strong> — Google Tłumacz z funkcją rozmowy pozwala porozumieć się natychmiast.</li>
+</ul>
+
+<h3>Nexflow wspiera naukę języka polskiego</h3>
+<p>Jako pracownik Nexflow możesz zapytać swojego opiekuna o lokalne możliwości kursów językowych w Twoim mieście. Dobra znajomość polskiego to inwestycja, która procentuje — lepsze warunki pracy, wyższe zarobki i większa niezależność.</p>
+
+<h3>Podsumowanie</h3>
+<ul>
+  <li>Bezpłatne kursy stacjonarne: urzędy pracy, Caritas, PAH, biblioteki.</li>
+  <li>Online: Duolingo (ukraiński/angielski), YouTube, Mova.Institute.</li>
+  <li>15 minut dziennie wystarczy na szybki postęp.</li>
+  <li>Nie bój się mówić — błędy są częścią nauki.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "kurs-polskoyi-movy-inozemets-bezkoshtovnyj",
+    title: "Безкоштовні курси польської мови для іноземців: де і як почати?",
+    description:
+      "Безкоштовні та недорогі курси польської мови для іноземців у Польщі — очні варіанти, додатки та методи навчання під час роботи.",
+    date: "2029-11-22",
+    lang: "uk",
+    content: `
+<h2>Вивчення польської мови як іноземець — де почати безкоштовно?</h2>
+<p>Знання польської мови — один із найважливіших ключів до кращого життя та роботи в Польщі. Навіть базові фрази допомагають у повсякденних ситуаціях: у магазині, в установі, у лікаря чи на роботі. Хороша новина: існує багато безкоштовних або дуже дешевих варіантів для вивчення польської мови іноземцями.</p>
+
+<h3>Чому варто вчити польську?</h3>
+<ul>
+  <li>Легше спілкування з роботодавцем і колегами.</li>
+  <li>Самостійність у державних установах та при оформленні документів.</li>
+  <li>Безпечніша робота з е-рецептами, візитами до лікаря та NFZ.</li>
+  <li>Можливість кар'єрного зростання та вищої зарплати.</li>
+  <li>Кращий контакт з місцевою громадою.</li>
+</ul>
+
+<h3>Безкоштовні курси польської мови — очні варіанти</h3>
+<h4>Курси, що фінансуються центрами зайнятості</h4>
+<p>Районні центри зайнятості (Powiatowy Urząd Pracy) організовують або фінансують курси польської мови для іноземців, у тому числі для тимчасових працівників. Варто звернутися до місцевого центру зайнятості щодо актуальних пропозицій — курси зазвичай безкоштовні або субсидовані.</p>
+
+<h4>Центри інтеграції та громадські організації</h4>
+<p>У багатьох містах діють безкоштовні курси польської мови, що організовуються:</p>
+<ul>
+  <li><strong>Caritas Polska</strong> — мовні курси для іноземців у десятках міст,</li>
+  <li><strong>Polska Akcja Humanitarna (PAH)</strong> — мовна підтримка, особливо для українців,</li>
+  <li><strong>Fundacja Ocalenie</strong> — Варшава та інші міста, курси для біженців і мігрантів,</li>
+  <li><strong>Місцеві будинки культури та бібліотеки</strong> — безкоштовні мовні семінари в рамках інтеграційних програм.</li>
+</ul>
+
+<h3>Вивчення польської онлайн — додатки та платформи</h3>
+<h4>Duolingo</h4>
+<p>Популярний безкоштовний додаток, доступний українською та англійською мовами. Duolingo навчає польської через короткі гейміфіковані уроки — ідеально для навчання в дорозі або під час перерви на роботі. Обирайте курс «Українська → Польська».</p>
+
+<h4>Mova.Institute</h4>
+<p>Безкоштовна платформа для українців, які вчать польську. Структуровані уроки з поясненнями українською — один із найкращих ресурсів для початківців.</p>
+
+<h4>YouTube — безкоштовні канали</h4>
+<p>На YouTube є курси польської мови з поясненнями українською або польською. Пошук: «польська для початківців», «Ukrainian to Polish», «Polish with Dorota».</p>
+
+<h4>Tandem / HelloTalk</h4>
+<p>Додатки для мовного обміну — ви вчите польську з носіями мови, а вони навчаються від вас. Безкоштовно й ефективно для розвитку розмовних навичок.</p>
+
+<h3>Як ефективно вчити польську під час роботи?</h3>
+<ul>
+  <li><strong>15 хвилин щодня</strong> — регулярність важливіша за інтенсивність. Щоденні 15 хвилин у Duolingo дають швидкий результат.</li>
+  <li><strong>Вчіть слова з роботи</strong> — запам'ятайте 5–10 слів, які чуєте щодня на виробництві.</li>
+  <li><strong>Слухайте польське радіо</strong> — Radio ZET, RMF FM у фоновому режимі допомагають звикнути до ритму мови.</li>
+  <li><strong>Розмовляйте з поляками</strong> — не бійтеся помилок. Поляки цінують кожну спробу.</li>
+  <li><strong>Використовуйте перекладач із функцією розмови</strong> — Google Перекладач дозволяє спілкуватися миттєво.</li>
+</ul>
+
+<h3>Nexflow підтримує вивчення польської мови</h3>
+<p>Як працівник Nexflow, ви можете запитати у свого куратора про місцеві можливості мовних курсів у вашому місті. Гарне знання польської — це інвестиція, яка окупається: кращі умови праці, вища зарплата та більша незалежність.</p>
+
+<h3>Підсумок</h3>
+<ul>
+  <li>Безкоштовні очні курси: центри зайнятості, Caritas, PAH, бібліотеки.</li>
+  <li>Онлайн: Duolingo (українська→польська), Mova.Institute, YouTube.</li>
+  <li>15 хвилин на день — достатньо для швидкого прогресу.</li>
+  <li>Не бійтеся говорити — помилки є частиною навчання.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "kurs-polskogo-yazyka-inostranets-besplatnyj",
+    title: "Бесплатные курсы польского языка для иностранцев: где и как начать?",
+    description:
+      "Бесплатные и недорогие курсы польского языка для иностранцев в Польше — очные варианты, приложения и методы обучения во время работы.",
+    date: "2029-11-29",
+    lang: "ru",
+    content: `
+<h2>Изучение польского языка как иностранец — где начать бесплатно?</h2>
+<p>Знание польского языка — один из важнейших ключей к лучшей жизни и работе в Польше. Даже базовые фразы помогут в повседневных ситуациях: в магазине, в учреждении, у врача или на работе. Хорошая новость: существует множество бесплатных или очень дешёвых вариантов изучения польского для иностранцев.</p>
+
+<h3>Почему стоит учить польский?</h3>
+<ul>
+  <li>Более лёгкое общение с работодателем и коллегами.</li>
+  <li>Самостоятельность в государственных учреждениях и при оформлении документов.</li>
+  <li>Безопасное взаимодействие с е-рецептами, врачами и NFZ.</li>
+  <li>Возможность карьерного роста и более высокой зарплаты.</li>
+  <li>Лучший контакт с местным сообществом.</li>
+</ul>
+
+<h3>Бесплатные курсы польского языка — очные варианты</h3>
+<p>Районные центры занятости (Powiatowy Urząd Pracy) организуют или финансируют курсы польского для иностранцев. Обратитесь в местный центр занятости — курсы, как правило, бесплатные или субсидируемые.</p>
+<p>Во многих городах работают бесплатные курсы от НКО: Caritas Polska, Polska Akcja Humanitarna (PAH), Fundacja Ocalenie (Варшава и другие города), а также местные библиотеки и дома культуры.</p>
+
+<h3>Изучение польского онлайн — приложения и платформы</h3>
+<p><strong>Duolingo</strong> — бесплатное приложение, курс «Украинский/Русский → Польский». Короткие геймифицированные уроки — идеально для учёбы в дороге.</p>
+<p><strong>YouTube</strong> — каналы с объяснениями на русском и украинском: «польский для начинающих», «Polish with Dorota», «Learn Polish».</p>
+<p><strong>Tandem / HelloTalk</strong> — языковой обмен с носителями польского, бесплатно.</p>
+<p><strong>Mova.Institute</strong> — структурированные курсы польского для украинцев, бесплатно.</p>
+
+<h3>Как эффективно учить польский во время работы?</h3>
+<ul>
+  <li>15 минут ежедневно в Duolingo дают быстрый результат.</li>
+  <li>Учите 5–10 слов, которые слышите каждый день на работе.</li>
+  <li>Слушайте польское радио (Radio ZET, RMF FM) в фоновом режиме.</li>
+  <li>Разговаривайте с поляками — они ценят каждую попытку.</li>
+  <li>Используйте Google Переводчик с функцией разговора для мгновенного общения.</li>
+</ul>
+
+<h3>Nexflow поддерживает изучение польского</h3>
+<p>Как работник Nexflow, спросите у куратора о местных курсах в вашем городе. Знание польского — это инвестиция в лучшие условия труда и более высокую зарплату.</p>
+
+<h3>Итог</h3>
+<ul>
+  <li>Бесплатные очные курсы: центры занятости, Caritas, PAH, библиотеки.</li>
+  <li>Онлайн: Duolingo, YouTube, Mova.Institute.</li>
+  <li>15 минут в день — достаточно для быстрого прогресса.</li>
+  <li>Не бойтесь говорить — ошибки это часть обучения.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "free-polish-language-course-foreign-worker-poland",
+    title: "Free Polish Language Courses for Foreign Workers: Where and How to Start?",
+    description:
+      "Free and affordable Polish language courses for foreign workers in Poland — in-person options, apps and tips for learning while working.",
+    date: "2029-12-06",
+    lang: "en",
+    content: `
+<h2>Learning Polish as a Foreign Worker — Where to Start for Free?</h2>
+<p>Polish is the key that unlocks your full potential while working in Poland. Even basic phrases help in everyday situations — at the shop, the doctor's surgery, government offices, or your workplace. The good news is there are many free or very affordable ways for non-EU workers to learn Polish.</p>
+
+<h3>Why Learn Polish?</h3>
+<ul>
+  <li>Easier communication with your employer and colleagues.</li>
+  <li>Independence in government offices and when filling in documents.</li>
+  <li>Safer use of e-prescriptions, doctor visits, and NFZ services.</li>
+  <li>Better career opportunities and higher earnings.</li>
+  <li>Integration with the local community.</li>
+</ul>
+
+<h3>Free Polish Courses — In-Person Options</h3>
+<h4>Job Centre Funded Courses</h4>
+<p>Powiatowy Urząd Pracy (District Labour Office / PUP) organises or funds Polish language courses for foreigners, including temporary workers. Ask your local labour office about current offerings — courses are usually free or subsidised.</p>
+
+<h4>Integration Centres and NGOs</h4>
+<p>Many cities offer free Polish courses from organisations such as:</p>
+<ul>
+  <li><strong>Caritas Polska</strong> — language courses for foreigners in dozens of cities,</li>
+  <li><strong>Polska Akcja Humanitarna (PAH)</strong> — language support, especially for Ukrainians,</li>
+  <li><strong>Fundacja Ocalenie</strong> — Warsaw and other cities, courses for refugees and migrants,</li>
+  <li><strong>Local community centres and libraries</strong> — free language workshops as part of integration programmes.</li>
+</ul>
+
+<h3>Online Polish Learning — Apps and Platforms</h3>
+<h4>Duolingo</h4>
+<p>The most popular free language learning app. Choose the course "English → Polish" or use the Ukrainian/Russian interface. Short, gamified daily lessons — perfect during your commute or work break.</p>
+
+<h4>YouTube — Free Channels</h4>
+<p>Dozens of Polish language YouTube channels offer lessons in English, Ukrainian, and Russian. Search: "Learn Polish", "Polish with Dorota", "Polish for beginners", or in Ukrainian/Russian.</p>
+
+<h4>Tandem / HelloTalk</h4>
+<p>Language exchange apps — practise Polish with native speakers who want to learn your language. Free and great for building conversational skills.</p>
+
+<h4>Mova.Institute and E-polish.eu</h4>
+<p>Mova.Institute: free structured Polish courses for Ukrainian speakers. E-polish.eu: one of the best online paid platforms if you want structured learning with certificates.</p>
+
+<h3>How to Learn Polish Effectively While Working</h3>
+<ul>
+  <li><strong>15 minutes a day</strong> — consistency beats intensity. Daily practice in Duolingo shows results within weeks.</li>
+  <li><strong>Learn workplace vocabulary</strong> — memorise 5–10 words you hear every day at work.</li>
+  <li><strong>Listen to Polish radio</strong> — Radio ZET and RMF FM in the background helps you absorb the rhythm of the language.</li>
+  <li><strong>Talk to Polish colleagues</strong> — don't be afraid of mistakes. Polish people appreciate every attempt.</li>
+  <li><strong>Use Google Translate's conversation mode</strong> for instant communication while you are still learning.</li>
+</ul>
+
+<h3>Nexflow Supports Your Language Learning</h3>
+<p>As a Nexflow temporary worker, ask your coordinator about local Polish language courses in your city. Good Polish language skills are an investment — better working conditions, higher earnings, and greater independence.</p>
+
+<h3>Key Takeaways</h3>
+<ul>
+  <li>Free in-person courses: labour offices, Caritas, PAH, libraries.</li>
+  <li>Online: Duolingo (English/Ukrainian → Polish), YouTube, Mova.Institute.</li>
+  <li>15 minutes a day is enough to make rapid progress.</li>
+  <li>Don't be afraid to speak — mistakes are part of learning.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "szkolenie-bhp-wstepne-pracownik-polska",
+    title: "Szkolenie BHP wstępne w Polsce: co musisz wiedzieć jako pracownik tymczasowy?",
+    description:
+      "Obowiązkowe szkolenie BHP wstępne dla pracownika tymczasowego w Polsce — co obejmuje, kiedy się odbywa i jakie masz prawa.",
+    date: "2029-12-13",
+    lang: "pl",
+    content: `
+<h2>Szkolenie BHP wstępne — obowiązek pracodawcy, prawo pracownika</h2>
+<p>Zanim zaczniesz pracę na nowym stanowisku w Polsce, pracodawca jest zobowiązany przeprowadzić szkolenie z zakresu bezpieczeństwa i higieny pracy (BHP). Dotyczy to każdego pracownika — niezależnie od obywatelstwa, rodzaju umowy i długości zatrudnienia. Jako pracownik tymczasowy z Nexflow masz pełne prawo do tego szkolenia i nie możesz zrezygnować z jego odbycia.</p>
+
+<h3>Co to jest szkolenie BHP wstępne?</h3>
+<p>Szkolenie BHP wstępne (zwane też szkoleniem wstępnym ogólnym lub stanowiskowym) to obowiązkowe szkolenie, które musi odbyć każdy nowy pracownik przed przystąpieniem do pracy. Jego celem jest zapoznanie Cię z:</p>
+<ul>
+  <li>zagrożeniami na Twoim stanowisku pracy,</li>
+  <li>zasadami bezpiecznego wykonywania pracy,</li>
+  <li>procedurami w razie wypadku lub zagrożenia,</li>
+  <li>obowiązkami pracownika i pracodawcy w zakresie BHP,</li>
+  <li>pierwszą pomocą i sposobami ewakuacji.</li>
+</ul>
+
+<h3>Dwa rodzaje szkolenia wstępnego BHP</h3>
+<h4>1. Szkolenie ogólne (instruktaż ogólny)</h4>
+<p>Przeprowadzane przez pracownika służby BHP lub osobę wyznaczoną przez pracodawcę. Obejmuje ogólne zasady BHP obowiązujące w zakładzie pracy — regulamin, drogi ewakuacyjne, pierwsza pomoc, zasady korzystania z odzieży ochronnej.</p>
+<p>Trwa minimum 3 godziny dydaktyczne (1 godzina = 45 minut).</p>
+
+<h4>2. Instruktaż stanowiskowy</h4>
+<p>Prowadzony przez bezpośredniego przełożonego lub wyznaczonego pracownika. Dotyczy konkretnego stanowiska pracy — omawia zagrożenia, metody pracy, obsługę maszyn i narzędzi oraz środki ochrony indywidualnej (np. rękawice, kask, kamizelka).</p>
+<p>Trwa minimum 8 godzin dla stanowisk przy maszynach i urządzeniach stwarzających zagrożenia (np. wózki widłowe, linie produkcyjne).</p>
+
+<h3>Kiedy odbywa się szkolenie BHP wstępne?</h3>
+<p>Szkolenie musi być przeprowadzone <strong>przed dopuszczeniem do pracy</strong> — jeszcze przed pierwszą zmianą roboczą lub w trakcie pierwszego dnia pracy, ale przed faktycznym rozpoczęciem wykonywania obowiązków. Pracodawca nie może dopuścić Cię do pracy bez jego odbycia.</p>
+
+<h3>Karta szkolenia wstępnego BHP</h3>
+<p>Po odbyciu szkolenia BHP wstępnego pracodawca wystawia <strong>kartę szkolenia wstępnego BHP</strong>. Jest to dokument potwierdzający, że odbyłeś szkolenie. Karta zawiera:</p>
+<ul>
+  <li>Twoje imię i nazwisko,</li>
+  <li>stanowisko pracy,</li>
+  <li>datę szkolenia,</li>
+  <li>Twój podpis i podpis osoby prowadzącej szkolenie.</li>
+</ul>
+<p>Karta jest przechowywana w Twoich aktach osobowych. Masz prawo poprosić o kopię.</p>
+
+<h3>Szkolenia BHP online — czy są dopuszczalne?</h3>
+<p>Od 2023 roku część szkoleń BHP (w tym ogólne szkolenie wstępne) może być przeprowadzana w formie e-learningowej (zdalnej). Jednak instruktaż stanowiskowy — szkolenie dotyczące konkretnego stanowiska pracy — nadal musi odbywać się stacjonarnie, w miejscu pracy, z przełożonym.</p>
+
+<h3>Odzież ochronna i środki ochrony indywidualnej (ŚOI)</h3>
+<p>Jako część szkolenia BHP wstępnego pracodawca jest zobowiązany poinformować Cię o środkach ochrony indywidualnej (ŚOI), które są wymagane na Twoim stanowisku. Może to być:</p>
+<ul>
+  <li>hełm ochronny (kask),</li>
+  <li>rękawice ochronne,</li>
+  <li>obuwie bezpieczne (trzewiki z stalową nasadką),</li>
+  <li>kamizelka odblaskowa,</li>
+  <li>ochronniki słuchu (na hałaśliwych stanowiskach),</li>
+  <li>maska przeciwpyłowa lub ochrona oddechowa.</li>
+</ul>
+<p>Pracodawca ma obowiązek nieodpłatnie dostarczyć Ci ŚOI w odpowiednim rozmiarze. Możesz odmówić pracy, jeśli nie zostały Ci dostarczone wymagane środki ochrony.</p>
+
+<h3>Co zrobić w razie wypadku przy pracy?</h3>
+<ol>
+  <li>Niezwłocznie poinformuj przełożonego lub pracodawcę.</li>
+  <li>Zadzwoń po pogotowie ratunkowe: <strong>112</strong> (ogólny numer alarmowy) lub <strong>999</strong> (pogotowie).</li>
+  <li>Nie ruszaj miejsca wypadku bez zgody przełożonego — ważne dla procedury powypadkowej.</li>
+  <li>Pracodawca jest zobowiązany sporządzić protokół powypadkowy, który daje Ci prawo do świadczeń z ZUS.</li>
+</ol>
+
+<h3>Nexflow i Twoje bezpieczeństwo w pracy</h3>
+<p>Nexflow zapewnia, że każdy pracownik tymczasowy jest kierowany na obowiązkowe szkolenie BHP wstępne przed podjęciem pracy u pracodawcy użytkownika. W razie wątpliwości dotyczących bezpieczeństwa w miejscu pracy lub naruszenia przepisów BHP — zgłoś to opiekunowi Nexflow. Możesz też złożyć anonimową skargę do Państwowej Inspekcji Pracy (PIP).</p>
+
+<h3>Podsumowanie</h3>
+<ul>
+  <li>Szkolenie BHP wstępne jest obowiązkowe dla każdego nowego pracownika.</li>
+  <li>Składa się z dwóch części: instruktaż ogólny i instruktaż stanowiskowy.</li>
+  <li>Odbywa się przed pierwszym dniem pracy lub na samym początku.</li>
+  <li>Po szkoleniu otrzymujesz kartę szkolenia BHP — zachowaj jej kopię.</li>
+  <li>Pracodawca dostarcza Ci środki ochrony indywidualnej bezpłatnie.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "navchannia-okhorona-pratsi-pratsivnyk-polshcha",
+    title: "Вступний інструктаж з охорони праці в Польщі: що потрібно знати тимчасовому працівнику?",
+    description:
+      "Обов'язковий вступний інструктаж з охорони праці для тимчасових працівників у Польщі — що включає, коли проводиться та ваші права.",
+    date: "2029-12-20",
+    lang: "uk",
+    content: `
+<h2>Вступний інструктаж з охорони праці — обов'язок роботодавця, право працівника</h2>
+<p>Перш ніж розпочати роботу на новому місці в Польщі, роботодавець зобов'язаний провести інструктаж з безпеки та гігієни праці (BHP — bezpieczeństwo i higiena pracy). Це стосується кожного працівника — незалежно від громадянства, виду договору та тривалості зайнятості. Як тимчасовий працівник через Nexflow ви маєте повне право на цей інструктаж.</p>
+
+<h3>Що таке вступний інструктаж з охорони праці?</h3>
+<p>Вступний інструктаж (szkolenie BHP wstępne) — обов'язкове навчання, яке кожен новий працівник проходить до початку роботи. Його мета — ознайомити вас із:</p>
+<ul>
+  <li>небезпеками на вашому робочому місці,</li>
+  <li>правилами безпечного виконання роботи,</li>
+  <li>процедурами в разі нещасного випадку або надзвичайної ситуації,</li>
+  <li>обов'язками працівника та роботодавця у сфері охорони праці,</li>
+  <li>першою допомогою та евакуацією.</li>
+</ul>
+
+<h3>Два види вступного інструктажу</h3>
+<h4>1. Загальний інструктаж (instruktaż ogólny)</h4>
+<p>Проводиться спеціалістом з охорони праці або призначеною особою. Охоплює загальні правила BHP на підприємстві: внутрішній розпорядок, шляхи евакуації, перша допомога, правила носіння захисного одягу. Мінімальна тривалість — 3 навчальні години.</p>
+
+<h4>2. Інструктаж на робочому місці (instruktaż stanowiskowy)</h4>
+<p>Проводиться безпосереднім керівником. Стосується конкретного робочого місця: небезпеки, методи роботи, обслуговування машин і засоби індивідуального захисту. Мінімум 8 годин для небезпечних робочих місць (вилочні навантажувачі, виробничі лінії).</p>
+
+<h3>Коли проводиться інструктаж?</h3>
+<p>Інструктаж повинен відбутися <strong>до допуску до роботи</strong> — до або на початку першого робочого дня, але до фактичного початку виконання обов'язків. Роботодавець не має права допустити вас до роботи без проведення інструктажу.</p>
+
+<h3>Картка вступного інструктажу (karta szkolenia wstępnego BHP)</h3>
+<p>Після проходження інструктажу роботодавець видає картку вступного інструктажу BHP — документ, що підтверджує факт навчання. Картка зберігається у вашій особовій справі. Ви маєте право попросити копію.</p>
+
+<h3>Засоби індивідуального захисту (ЗІЗ)</h3>
+<p>Роботодавець зобов'язаний безкоштовно забезпечити вас засобами індивідуального захисту (ŚOI): каска, захисні рукавиці, захисне взуття (зі сталевим носком), світловідбиваючий жилет, засоби захисту органів слуху, респіратор тощо. Ви можете відмовитися від роботи, якщо необхідні ЗІЗ не надані.</p>
+
+<h3>Що робити у разі нещасного випадку на роботі?</h3>
+<ol>
+  <li>Негайно повідомте керівника або роботодавця.</li>
+  <li>Телефонуйте на швидку допомогу: <strong>112</strong> (загальний номер) або <strong>999</strong> (швидка допомога).</li>
+  <li>Не чіпайте місце нещасного випадку без дозволу керівника.</li>
+  <li>Роботодавець зобов'язаний скласти протокол нещасного випадку — це дає вам право на виплати від ZUS.</li>
+</ol>
+
+<h3>Nexflow і ваша безпека на роботі</h3>
+<p>Nexflow забезпечує направлення кожного тимчасового працівника на обов'язковий вступний інструктаж BHP перед початком роботи. Якщо у вас є сумніви щодо безпеки праці або порушень — повідомте свого куратора Nexflow або зверніться до Державної інспекції праці (PIP).</p>
+
+<h3>Підсумок</h3>
+<ul>
+  <li>Вступний інструктаж BHP є обов'язковим для кожного нового працівника.</li>
+  <li>Складається з двох частин: загальний та на робочому місці.</li>
+  <li>Проводиться до початку роботи або в перший день.</li>
+  <li>Після інструктажу отримуєте картку BHP — збережіть її копію.</li>
+  <li>Роботодавець безкоштовно надає засоби індивідуального захисту.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "obuchenie-okhrana-truda-rabotnik-polsha",
+    title: "Вводный инструктаж по охране труда в Польше: что нужно знать временному работнику?",
+    description:
+      "Обязательный вводный инструктаж по охране труда для временных работников в Польше — что включает, когда проводится и ваши права.",
+    date: "2029-12-27",
+    lang: "ru",
+    content: `
+<h2>Вводный инструктаж по охране труда — обязанность работодателя, право работника</h2>
+<p>Прежде чем приступить к работе на новом месте в Польше, работодатель обязан провести инструктаж по безопасности и гигиене труда (BHP — bezpieczeństwo i higiena pracy). Это касается каждого работника — независимо от гражданства, вида договора и срока занятости. Как временный работник через Nexflow вы имеете полное право на этот инструктаж.</p>
+
+<h3>Что такое вводный инструктаж по охране труда?</h3>
+<p>Вводный инструктаж (szkolenie BHP wstępne) — обязательное обучение, которое каждый новый работник проходит до начала работы. Его цель — ознакомить вас с:</p>
+<ul>
+  <li>опасностями на вашем рабочем месте,</li>
+  <li>правилами безопасного выполнения работы,</li>
+  <li>процедурами при несчастном случае или чрезвычайной ситуации,</li>
+  <li>обязанностями работника и работодателя в области охраны труда,</li>
+  <li>первой помощью и эвакуацией.</li>
+</ul>
+
+<h3>Два вида вводного инструктажа</h3>
+<h4>1. Общий инструктаж (instruktaż ogólny)</h4>
+<p>Проводится специалистом по охране труда или назначенным лицом. Охватывает общие правила BHP на предприятии: внутренний распорядок, пути эвакуации, первая помощь, правила использования защитной одежды. Минимальная продолжительность — 3 учебных часа.</p>
+
+<h4>2. Инструктаж на рабочем месте (instruktaż stanowiskowy)</h4>
+<p>Проводится непосредственным руководителем. Касается конкретного рабочего места: опасности, методы работы, обслуживание оборудования и средства индивидуальной защиты. Минимум 8 часов для опасных рабочих мест (погрузчики, производственные линии).</p>
+
+<h3>Когда проводится инструктаж?</h3>
+<p>Инструктаж должен состояться <strong>до допуска к работе</strong> — до или в начале первого рабочего дня, но до фактического начала выполнения обязанностей. Работодатель не вправе допустить вас к работе без проведения инструктажа.</p>
+
+<h3>Карточка вводного инструктажа (karta szkolenia wstępnego BHP)</h3>
+<p>После прохождения инструктажа работодатель выдаёт карточку вводного инструктажа BHP — документ, подтверждающий факт обучения. Карточка хранится в вашем личном деле. Вы вправе попросить копию.</p>
+
+<h3>Средства индивидуальной защиты (СИЗ)</h3>
+<p>Работодатель обязан бесплатно обеспечить вас СИЗ (ŚOI): каска, защитные перчатки, защитная обувь (со стальным носком), светоотражающий жилет, средства защиты органов слуха, респиратор и т.д. Вы вправе отказаться от работы, если требуемые СИЗ не предоставлены.</p>
+
+<h3>Что делать при несчастном случае на производстве?</h3>
+<ol>
+  <li>Немедленно сообщите руководителю или работодателю.</li>
+  <li>Вызовите скорую помощь: <strong>112</strong> (общий номер) или <strong>999</strong> (скорая).</li>
+  <li>Не трогайте место несчастного случая без разрешения руководителя.</li>
+  <li>Работодатель обязан составить акт о несчастном случае — это даёт право на выплаты от ZUS.</li>
+</ol>
+
+<h3>Nexflow и ваша безопасность на работе</h3>
+<p>Nexflow обеспечивает направление каждого временного работника на обязательный вводный инструктаж BHP до начала работы. Если есть сомнения в безопасности труда или нарушениях — сообщите куратору Nexflow или обратитесь в Государственную инспекцию труда (PIP).</p>
+
+<h3>Итог</h3>
+<ul>
+  <li>Вводный инструктаж BHP обязателен для каждого нового работника.</li>
+  <li>Состоит из двух частей: общий и на рабочем месте.</li>
+  <li>Проводится до начала работы или в первый рабочий день.</li>
+  <li>После инструктажа получаете карточку BHP — сохраните копию.</li>
+  <li>Работодатель бесплатно предоставляет средства индивидуальной защиты.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "health-safety-induction-training-employee-poland",
+    title: "Mandatory H&S Induction Training in Poland: What Every Temporary Worker Must Know",
+    description:
+      "Mandatory health and safety induction training for temporary workers in Poland — what it covers, when it happens and your rights as an employee.",
+    date: "2030-01-03",
+    lang: "en",
+    content: `
+<h2>Health and Safety Induction — Your Employer's Obligation, Your Right</h2>
+<p>Before you start work at a new workplace in Poland, your employer is legally required to conduct a health and safety induction (szkolenie BHP wstępne). This applies to every worker — regardless of nationality, contract type, or length of employment. As a Nexflow temporary worker, you have the full right to this training and it cannot be waived.</p>
+
+<h3>What Is the H&S Induction (Szkolenie BHP Wstępne)?</h3>
+<p>The szkolenie BHP wstępne (mandatory initial H&S training) is compulsory for every new employee before starting work. Its purpose is to familiarise you with:</p>
+<ul>
+  <li>hazards specific to your workstation,</li>
+  <li>rules for performing work safely,</li>
+  <li>procedures in the event of an accident or emergency,</li>
+  <li>the responsibilities of both employee and employer under Polish H&amp;S law,</li>
+  <li>first aid and evacuation routes.</li>
+</ul>
+
+<h3>Two Parts of the H&S Induction</h3>
+<h4>1. General Instruction (Instruktaż Ogólny)</h4>
+<p>Conducted by the H&S officer or a designated company representative. Covers company-wide safety rules: workplace regulations, evacuation routes, first aid procedures, and use of protective clothing. Minimum duration: 3 teaching hours (1 hour = 45 minutes).</p>
+
+<h4>2. On-the-Job Instruction (Instruktaż Stanowiskowy)</h4>
+<p>Conducted by your direct supervisor or a qualified colleague. Covers your specific workstation — hazards, working methods, machine operation, and personal protective equipment (PPE). Minimum 8 hours for high-risk workstations (forklifts, production lines, machinery).</p>
+
+<h3>When Does the Induction Take Place?</h3>
+<p>The induction must take place <strong>before you are allowed to start work</strong> — at the very beginning of your first working day, before any actual duties begin. Your employer cannot legally permit you to work without completing it.</p>
+
+<h3>The H&S Induction Card (Karta Szkolenia Wstępnego BHP)</h3>
+<p>After completing the induction, your employer issues an H&S induction card (karta szkolenia wstępnego BHP) — a document confirming that you have received the training. This card is kept in your personnel file. You are entitled to ask for a copy.</p>
+
+<h3>Personal Protective Equipment (PPE / ŚOI)</h3>
+<p>As part of H&S induction, your employer must inform you about and provide any required PPE at no cost. This may include:</p>
+<ul>
+  <li>safety helmet (kask),</li>
+  <li>protective gloves (rękawice),</li>
+  <li>safety footwear with steel toecaps (buty z noskiem),</li>
+  <li>high-visibility vest (kamizelka odblaskowa),</li>
+  <li>hearing protection (ochronniki słuchu) for noisy environments,</li>
+  <li>dust mask or respiratory protection.</li>
+</ul>
+<p>You may refuse to work if required PPE has not been provided.</p>
+
+<h3>What to Do If a Workplace Accident Happens</h3>
+<ol>
+  <li>Immediately inform your supervisor or employer.</li>
+  <li>Call emergency services: <strong>112</strong> (general emergency) or <strong>999</strong> (ambulance).</li>
+  <li>Do not disturb the accident scene without your supervisor's authorisation — this is essential for the accident report procedure.</li>
+  <li>Your employer must prepare an accident report (protokół powypadkowy), which gives you the right to ZUS compensation benefits.</li>
+</ol>
+
+<h3>Can H&S Induction Be Done Online?</h3>
+<p>Since 2023, the general instruction part of the induction (instruktaż ogólny) may be conducted via e-learning. However, the on-the-job instruction (instruktaż stanowiskowy) must always be conducted in person at your workstation.</p>
+
+<h3>Nexflow and Your Safety at Work</h3>
+<p>Nexflow ensures that every temporary worker is directed to the mandatory H&S induction before starting work at a client company. If you have any concerns about safety at work or believe H&S rules are being violated, report it to your Nexflow coordinator. You can also file an anonymous complaint with the National Labour Inspectorate (Państwowa Inspekcja Pracy — PIP).</p>
+
+<h3>Key Takeaways</h3>
+<ul>
+  <li>H&S induction is mandatory for every new employee — no exceptions.</li>
+  <li>Two parts: general instruction + on-the-job instruction at your workstation.</li>
+  <li>Must be completed before you start any duties on your first day.</li>
+  <li>You receive an H&S induction card — keep a copy.</li>
+  <li>PPE must be provided by your employer at no cost to you.</li>
+  <li>If safety rules are violated, report it to Nexflow or PIP.</li>
+</ul>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
