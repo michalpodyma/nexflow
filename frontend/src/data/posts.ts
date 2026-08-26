@@ -19020,6 +19020,701 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "numer-alarmowy-112-polska-jak-dzwonic",
+    title: "Numer alarmowy 112 w Polsce — jak dzwonić, co mówić i kiedy wzywać pomoc",
+    description: "Wiesz, jak zadzwonić pod 112 w Polsce? Dowiedz się, kiedy używać numeru alarmowego, co powiedzieć dyspozytorowi i jakie inne numery ratunkowe obowiązują w Polsce.",
+    date: "2030-07-25",
+    lang: "pl",
+    content: `
+<article>
+<h1>Numer alarmowy 112 w Polsce — jak dzwonić, co mówić i kiedy wzywać pomoc</h1>
+
+<p>W Polsce obowiązuje europejski numer alarmowy <strong>112</strong>, który działa bezpłatnie z każdego telefonu — komórkowego lub stacjonarnego — przez całą dobę, 7 dni w tygodniu. Połączenie możesz wykonać nawet bez karty SIM lub gdy Twój telefon jest zablokowany.</p>
+
+<h2>Kiedy dzwonić pod 112?</h2>
+<p>Numer 112 jest przeznaczony wyłącznie do sytuacji zagrożenia życia lub zdrowia oraz poważnych przestępstw:</p>
+<ul>
+<li>Wypadek drogowy z rannymi</li>
+<li>Nagłe zasłabnięcie, utrata przytomności, zawał serca</li>
+<li>Pożar lub eksplozja</li>
+<li>Zagrożenie życia spowodowane przestępstwem</li>
+<li>Utonięcie lub inne bezpośrednie zagrożenie życia</li>
+</ul>
+<p>Nie dzwoń pod 112 w sprawach, które nie są nagłe — to blokuje linie dla osób rzeczywiście potrzebujących pomocy.</p>
+
+<h2>Co powiedzieć dyspozytorowi?</h2>
+<p>Dyspozytor zada Ci kilka pytań. Zachowaj spokój i odpowiedz jasno:</p>
+<ol>
+<li><strong>Co się stało?</strong> — opisz zdarzenie w kilku słowach</li>
+<li><strong>Gdzie?</strong> — podaj dokładny adres lub opis miejsca (miasto, ulica, numer domu, pobliskie charakterystyczne obiekty)</li>
+<li><strong>Ile osób potrzebuje pomocy?</strong></li>
+<li><strong>Jaki jest stan poszkodowanych?</strong> — czy są przytomni, czy oddychają</li>
+<li><strong>Twoje imię i numer telefonu</strong> — dyspozytor może oddzwonić</li>
+</ol>
+<p><strong>Nie rozłączaj się</strong> do momentu, gdy dyspozytor poinformuje Cię, że pomoc jest w drodze.</p>
+
+<h2>Inne numery alarmowe w Polsce</h2>
+<ul>
+<li><strong>997</strong> — Policja</li>
+<li><strong>998</strong> — Straż Pożarna</li>
+<li><strong>999</strong> — Pogotowie Ratunkowe</li>
+<li><strong>986</strong> — Straż Miejska / Gminna</li>
+<li><strong>984</strong> — Pogotowie Wodne (WOPR)</li>
+<li><strong>985</strong> — Górskie Ochotnicze Pogotowie Ratunkowe (GOPR/TOPR)</li>
+</ul>
+<p>Wszystkie powyższe numery działają bezpłatnie. Jeśli nie wiesz, który numer wybrać — zawsze możesz zadzwonić pod 112, a dyspozytor przekieruje Twoje zgłoszenie.</p>
+
+<h2>Dzwonisz po polsku? Nie musisz!</h2>
+<p>Dyspozytorzy w największych miastach mogą pomóc w języku angielskim. Jeśli nie mówisz po polsku, powiedz spokojnie: <em>„I don't speak Polish"</em> lub <em>„Я не говорю по-польськи"</em> — dyspozytor znajdzie pomoc tłumacza.</p>
+
+<h2>Fałszywe alarmy — konsekwencje</h2>
+<p>Fałszywy alarm to wykroczenie lub przestępstwo. Za celowe wprowadzenie służb w błąd grozi kara grzywny, a nawet pozbawienia wolności.</p>
+
+<h2>Nexflow dba o Twoje bezpieczeństwo</h2>
+<p>Nexflow zapewnia pracownikom tymczasowym bezpieczne warunki pracy i informuje ich o podstawowych zasadach bezpieczeństwa w Polsce. Masz pytania dotyczące bezpieczeństwa lub praw w Polsce? Skontaktuj się z nami.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekstreni-sluzhby-polshcha-112-yak-vyklykaty",
+    title: "Екстрені служби в Польщі — як дзвонити на 112 і що говорити диспетчеру",
+    description: "Потрібна термінова допомога в Польщі? Дізнайтесь, як правильно зателефонувати на 112, що сказати диспетчеру та які є інші екстрені номери.",
+    date: "2030-08-01",
+    lang: "uk",
+    content: `
+<article>
+<h1>Екстрені служби в Польщі — як дзвонити на 112 і що говорити диспетчеру</h1>
+
+<p>У Польщі діє загальноєвропейський номер екстреної допомоги <strong>112</strong>, який працює безкоштовно з будь-якого телефону — мобільного чи стаціонарного — цілодобово, 7 днів на тиждень. Зателефонувати можна навіть без SIM-карти або якщо телефон заблокований.</p>
+
+<h2>Коли дзвонити на 112?</h2>
+<p>Номер 112 призначений виключно для ситуацій загрози життю або здоров'ю, а також серйозних злочинів:</p>
+<ul>
+<li>Дорожня аварія з постраждалими</li>
+<li>Раптова непритомність, зупинка серця</li>
+<li>Пожежа або вибух</li>
+<li>Загроза життю через злочин</li>
+<li>Утоплення або інша безпосередня загроза життю</li>
+</ul>
+<p>Не телефонуйте на 112 у неекстрених ситуаціях — це заблоковує лінію для тих, хто справді потребує допомоги.</p>
+
+<h2>Що сказати диспетчеру?</h2>
+<p>Диспетчер поставить кілька запитань. Зберігайте спокій і відповідайте чітко:</p>
+<ol>
+<li><strong>Що сталося?</strong> — коротко опишіть подію</li>
+<li><strong>Де?</strong> — точна адреса або опис місця (місто, вулиця, номер будинку, орієнтири поблизу)</li>
+<li><strong>Скільки осіб потребують допомоги?</strong></li>
+<li><strong>Який стан постраждалих?</strong> — чи при свідомості, чи дихають</li>
+<li><strong>Ваше ім'я та номер телефону</strong> — диспетчер може передзвонити</li>
+</ol>
+<p><strong>Не кладіть трубку</strong>, поки диспетчер не підтвердить, що допомога вже в дорозі.</p>
+
+<h2>Інші екстрені номери в Польщі</h2>
+<ul>
+<li><strong>997</strong> — Поліція</li>
+<li><strong>998</strong> — Пожежна охорона</li>
+<li><strong>999</strong> — Швидка допомога</li>
+<li><strong>986</strong> — Муніципальна варта</li>
+<li><strong>984</strong> — Водна рятувальна служба (WOPR)</li>
+<li><strong>985</strong> — Гірська рятувальна служба (GOPR/TOPR)</li>
+</ul>
+<p>Усі ці номери безкоштовні. Якщо не знаєте, який номер набрати — завжди можна зателефонувати на 112, і диспетчер переадресує виклик.</p>
+
+<h2>Не знаєте польської? Не страшно!</h2>
+<p>Диспетчери у великих містах можуть допомогти англійською. Якщо ви не говорите польською, спокійно скажіть: <em>«Я не говорю по-польськи»</em> або <em>«I don't speak Polish»</em> — диспетчер знайде перекладача або переведе виклик.</p>
+
+<h2>Nexflow дбає про вашу безпеку</h2>
+<p>Nexflow інформує тимчасових працівників про основні правила безпеки в Польщі. Маєте запитання? Зверніться до нас.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekstrennye-sluzhby-polsha-112-kak-vyzyvat",
+    title: "Экстренные службы в Польше — как звонить на 112 и что говорить диспетчеру",
+    description: "Нужна срочная помощь в Польше? Узнайте, как правильно позвонить на 112, что сказать диспетчеру и какие ещё экстренные номера действуют в стране.",
+    date: "2030-08-08",
+    lang: "ru",
+    content: `
+<article>
+<h1>Экстренные службы в Польше — как звонить на 112 и что говорить диспетчеру</h1>
+
+<p>В Польше действует общеевропейский номер экстренной помощи <strong>112</strong>, который работает бесплатно с любого телефона — мобильного или стационарного — круглосуточно, 7 дней в неделю. Позвонить можно даже без SIM-карты или если телефон заблокирован.</p>
+
+<h2>Когда звонить на 112?</h2>
+<p>Номер 112 предназначен исключительно для ситуаций угрозы жизни или здоровью, а также серьёзных преступлений:</p>
+<ul>
+<li>Дорожно-транспортное происшествие с пострадавшими</li>
+<li>Внезапная потеря сознания, остановка сердца</li>
+<li>Пожар или взрыв</li>
+<li>Угроза жизни вследствие преступления</li>
+<li>Утопление или иная прямая угроза жизни</li>
+</ul>
+<p>Не звоните на 112 в неэкстренных ситуациях — это блокирует линию для тех, кто действительно нуждается в помощи.</p>
+
+<h2>Что сказать диспетчеру?</h2>
+<p>Диспетчер задаст несколько вопросов. Сохраняйте спокойствие и отвечайте чётко:</p>
+<ol>
+<li><strong>Что произошло?</strong> — кратко опишите ситуацию</li>
+<li><strong>Где?</strong> — точный адрес или описание места (город, улица, номер дома, ориентиры рядом)</li>
+<li><strong>Сколько человек нуждаются в помощи?</strong></li>
+<li><strong>Каково состояние пострадавших?</strong> — в сознании ли они, дышат ли</li>
+<li><strong>Ваше имя и номер телефона</strong> — диспетчер может перезвонить</li>
+</ol>
+<p><strong>Не кладите трубку</strong>, пока диспетчер не подтвердит, что помощь уже в пути.</p>
+
+<h2>Другие экстренные номера в Польше</h2>
+<ul>
+<li><strong>997</strong> — Полиция</li>
+<li><strong>998</strong> — Пожарная охрана</li>
+<li><strong>999</strong> — Скорая помощь</li>
+<li><strong>986</strong> — Городская стража</li>
+<li><strong>984</strong> — Водная спасательная служба (WOPR)</li>
+<li><strong>985</strong> — Горная спасательная служба (GOPR/TOPR)</li>
+</ul>
+<p>Все перечисленные номера бесплатны. Если вы не знаете, какой номер набрать — всегда можно позвонить на 112, и диспетчер перенаправит вызов.</p>
+
+<h2>Не говорите по-польски? Не проблема!</h2>
+<p>Диспетчеры в крупных городах могут помочь на английском языке. Если вы не говорите по-польски, спокойно скажите: <em>«Я не говорю по-польски»</em> или <em>«I don't speak Polish»</em> — диспетчер найдёт переводчика или переключит вызов.</p>
+
+<h2>Nexflow заботится о вашей безопасности</h2>
+<p>Nexflow информирует временных работников об основных правилах безопасности в Польше. Есть вопросы? Обратитесь к нам.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "emergency-number-112-poland-how-to-call",
+    title: "Emergency Number 112 in Poland — How to Call, What to Say, and When to Use It",
+    description: "Do you know how to call for emergency help in Poland? Learn when and how to use 112, what information to give the dispatcher, and other emergency numbers to know.",
+    date: "2030-08-15",
+    lang: "en",
+    content: `
+<article>
+<h1>Emergency Number 112 in Poland — How to Call, What to Say, and When to Use It</h1>
+
+<p>Poland uses the pan-European emergency number <strong>112</strong>, which is free to call from any phone — mobile or landline — 24 hours a day, 7 days a week. You can call even without a SIM card or when your phone is locked.</p>
+
+<h2>When to Call 112</h2>
+<p>Use 112 only for genuine emergencies — situations that threaten life or safety, and serious crimes in progress:</p>
+<ul>
+<li>Road accident with injured people</li>
+<li>Sudden loss of consciousness, cardiac arrest</li>
+<li>Fire or explosion</li>
+<li>Life-threatening crime in progress</li>
+<li>Drowning or other immediate threat to life</li>
+</ul>
+<p>Do not call 112 for non-urgent matters — doing so blocks the line for people in genuine danger.</p>
+
+<h2>What to Tell the Dispatcher</h2>
+<p>The dispatcher will ask you a series of questions. Stay calm and answer clearly:</p>
+<ol>
+<li><strong>What happened?</strong> — describe the incident briefly</li>
+<li><strong>Where are you?</strong> — give the exact address or location (city, street, house number, nearby landmarks)</li>
+<li><strong>How many people need help?</strong></li>
+<li><strong>What is the condition of the casualties?</strong> — are they conscious, are they breathing?</li>
+<li><strong>Your name and phone number</strong> — the dispatcher may call you back</li>
+</ol>
+<p><strong>Do not hang up</strong> until the dispatcher tells you help is on the way.</p>
+
+<h2>Other Emergency Numbers in Poland</h2>
+<ul>
+<li><strong>997</strong> — Police</li>
+<li><strong>998</strong> — Fire Brigade</li>
+<li><strong>999</strong> — Ambulance</li>
+<li><strong>986</strong> — City/Municipal Guard</li>
+<li><strong>984</strong> — Water Rescue (WOPR)</li>
+<li><strong>985</strong> — Mountain Rescue (GOPR/TOPR)</li>
+</ul>
+<p>All of the above numbers are free. If you are unsure which number to call, always dial 112 — the dispatcher will redirect your call to the right service.</p>
+
+<h2>Don't Speak Polish? No Problem</h2>
+<p>Dispatchers in larger cities can assist in English. If you do not speak Polish, say calmly: <em>"I don't speak Polish"</em> — the dispatcher will find an interpreter or transfer your call.</p>
+
+<h2>False Alarms — Consequences</h2>
+<p>Making a false emergency call is an offence in Poland. Deliberate false alarms can result in a fine or, in serious cases, a custodial sentence.</p>
+
+<h2>Nexflow Cares About Your Safety</h2>
+<p>Nexflow keeps its temporary workers informed about safety and their rights in Poland. If you have any questions — contact us.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zlobek-polska-jak-zapisac-dziecko-dofinansowanie",
+    title: "Żłobek w Polsce — jak zapisać dziecko, ile kosztuje i czy przysługuje dofinansowanie",
+    description: "Szukasz żłobka w Polsce dla swojego dziecka? Dowiedz się, jak zapisać maluszka do żłobka, jakie są opłaty i czy jako pracownik obcokrajowiec możesz ubiegać się o dofinansowanie.",
+    date: "2030-08-22",
+    lang: "pl",
+    content: `
+<article>
+<h1>Żłobek w Polsce — jak zapisać dziecko, ile kosztuje i czy przysługuje dofinansowanie</h1>
+
+<p>Żłobek to placówka opieki nad dziećmi do 3. roku życia. Jako pracownik legalnie zatrudniony w Polsce możesz skorzystać z dofinansowania do żłobka, nawet jeśli nie jesteś obywatelem polskim — liczy się jedynie to, że jesteś tu ubezpieczony i rozliczasz podatki.</p>
+
+<h2>Kto może korzystać z żłobka?</h2>
+<ul>
+<li>Dzieci od 20. tygodnia życia do ukończenia roku, w którym kończą 3 lata (wyjątkowo do 4 lat, gdy nie ma miejsca w przedszkolu)</li>
+<li>Dzieci rodziców lub opiekunów prawnych zamieszkałych i pracujących w danej gminie</li>
+</ul>
+
+<h2>Dofinansowanie — program „Aktywny rodzic"</h2>
+<p>Od 2024 roku w Polsce obowiązuje program <strong>„Aktywny rodzic"</strong>, który obejmuje trzy świadczenia:</p>
+<ul>
+<li><strong>Aktywni rodzice w pracy</strong> — 1500 zł miesięcznie (3000 zł na dziecko z niepełnosprawnością) dopłaty do żłobka lub niani, gdy oboje rodzice pracują lub się uczą</li>
+<li><strong>Aktywnie w żłobku</strong> — dofinansowanie opłaty za żłobek publiczny lub niepubliczny objęty programem; ZUS wypłaca kwotę bezpośrednio do placówki</li>
+<li><strong>Aktywnie w domu</strong> — 500 zł miesięcznie, gdy dziecko nie uczęszcza do żłobka</li>
+</ul>
+<p>Aby skorzystać z dofinansowania, oboje rodzice (lub samotny rodzic) muszą pracować, uczyć się lub odbywać staż.</p>
+
+<h2>Jak zapisać dziecko do żłobka?</h2>
+<ol>
+<li>Sprawdź dostępność miejsc w żłobkach publicznych i niepublicznych na stronie gminy lub portalu rejestru żłobków (<strong>rejestr.zlobki.mrpips.gov.pl</strong>)</li>
+<li>Złóż wniosek rekrutacyjny — zazwyczaj przez system elektroniczny gminy lub osobiście w placówce</li>
+<li>Poczekaj na wyniki rekrutacji — żłobki publiczne przeprowadzają ją zazwyczaj wiosną (marzec–kwiecień) na rok szkolny od września</li>
+<li>Podpisz umowę z żłobkiem i złóż wniosek o dofinansowanie w ZUS przez portal <strong>PUE ZUS</strong> lub aplikację <strong>mZUS</strong></li>
+</ol>
+
+<h2>Ile kosztuje żłobek?</h2>
+<ul>
+<li><strong>Żłobek publiczny:</strong> 200–600 zł miesięcznie + wyżywienie (ok. 10–15 zł/dzień)</li>
+<li><strong>Żłobek niepubliczny:</strong> 800–2000 zł miesięcznie</li>
+</ul>
+<p>Dofinansowanie z programu „Aktywni rodzice w pracy" (1500 zł) znacząco obniża koszt żłobka niepublicznego.</p>
+
+<h2>Żłobek dla dzieci obcokrajowców</h2>
+<p>Dzieci cudzoziemców mają takie same prawa do żłobka jak dzieci polskich obywateli, pod warunkiem legalnego pobytu w Polsce. Do rekrutacji może być potrzebne:</p>
+<ul>
+<li>Akt urodzenia dziecka (przetłumaczony przez tłumacza przysięgłego, jeśli wymagany)</li>
+<li>Dokument potwierdzający legalny pobyt rodzica (karta pobytu, wiza, zezwolenie na pobyt)</li>
+<li>Numer PESEL dziecka (lub wniosek o jego nadanie)</li>
+</ul>
+
+<h2>Nexflow wspiera Twoją rodzinę</h2>
+<p>Nexflow zapewnia legalną pracę i wspiera pracowników w korzystaniu z przysługujących im świadczeń społecznych. Masz pytania dotyczące żłobka lub dofinansowania? Skontaktuj się z nami.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "yasla-polshcha-yak-zapysaty-dytyny-subsidiya",
+    title: "Ясла у Польщі — як записати дитину, скільки коштує і чи є допомога для іноземців",
+    description: "Шукаєте ясла в Польщі для вашої дитини? Дізнайтесь, як записати малюка до яслей, скільки це коштує і чи можна отримати субсидію як іноземець.",
+    date: "2030-08-29",
+    lang: "uk",
+    content: `
+<article>
+<h1>Ясла у Польщі — як записати дитину, скільки коштує і чи є допомога для іноземців</h1>
+
+<p>Ясла (żłobek) — це заклад догляду за дітьми до 3 років. Як офіційно працевлаштований у Польщі та застрахований, ви маєте право на субсидію до яслей незалежно від громадянства.</p>
+
+<h2>Хто може відвідувати ясла?</h2>
+<ul>
+<li>Діти від 20 тижнів до 3 років (до 4 років, якщо немає місця в дитячому садку)</li>
+<li>Діти батьків або опікунів, які проживають і працюють у відповідній гміні</li>
+</ul>
+
+<h2>Субсидія — програма «Aktywny rodzic»</h2>
+<p>З 2024 року в Польщі діє програма <strong>«Aktywny rodzic»</strong> («Активний батько/мати»), яка включає три виплати:</p>
+<ul>
+<li><strong>Aktywni rodzice w pracy</strong> — 1500 злотих на місяць (3000 злотих для дитини з інвалідністю) на оплату яслей або няні, якщо обоє батьків працюють або навчаються</li>
+<li><strong>Aktywnie w żłobku</strong> — доплата за місце в публічних чи приватних яслях, що беруть участь у програмі; ZUS перераховує кошти напряму до закладу</li>
+<li><strong>Aktywnie w domu</strong> — 500 злотих на місяць, якщо дитина не відвідує ясла</li>
+</ul>
+<p>Для отримання субсидії обоє батьків (або одинокий батько/мати) повинні працювати, навчатися або проходити стажування.</p>
+
+<h2>Як записати дитину до яслей?</h2>
+<ol>
+<li>Перевірте наявність місць у публічних та приватних яслях на сайті гміни або порталі реєстру яслей (<strong>rejestr.zlobki.mrpips.gov.pl</strong>)</li>
+<li>Подайте заявку на зарахування — зазвичай через електронну систему гміни або особисто в закладі</li>
+<li>Дочекайтеся результатів набору — публічні ясла зазвичай проводять його навесні (березень–квітень) на навчальний рік із вересня</li>
+<li>Підпишіть договір з яслями та подайте заяву на субсидію в ZUS через портал <strong>PUE ZUS</strong> або застосунок <strong>mZUS</strong></li>
+</ol>
+
+<h2>Скільки коштують ясла?</h2>
+<ul>
+<li><strong>Публічні ясла:</strong> 200–600 злотих на місяць + харчування (близько 10–15 злотих/день)</li>
+<li><strong>Приватні ясла:</strong> 800–2000 злотих на місяць</li>
+</ul>
+<p>Субсидія в рамках «Aktywni rodzice w pracy» (1500 злотих) суттєво знижує вартість приватних яслей.</p>
+
+<h2>Ясла для дітей іноземців</h2>
+<p>Діти іноземців мають однакові права на відвідування яслей, якщо батьки перебувають у Польщі легально. Для зарахування може знадобитися:</p>
+<ul>
+<li>Свідоцтво про народження дитини (з нотаріально завіреним перекладом, якщо потрібно)</li>
+<li>Документ, що підтверджує легальне перебування батька/матері (картка побуту, віза)</li>
+<li>Номер PESEL дитини (або заява про його присвоєння)</li>
+</ul>
+
+<h2>Nexflow підтримує вашу сім'ю</h2>
+<p>Nexflow забезпечує офіційну роботу та допомагає працівникам скористатися належними соціальними виплатами. Є запитання щодо яслей або субсидій? Зверніться до нас.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "yasli-polsha-kak-zapisat-rebenka-subsidiya",
+    title: "Ясли в Польше — как записать ребёнка, сколько стоит и есть ли субсидия для иностранцев",
+    description: "Ищете ясли в Польше для вашего ребёнка? Узнайте, как записать малыша, какова стоимость и можете ли вы как иностранный работник получить финансирование.",
+    date: "2030-09-05",
+    lang: "ru",
+    content: `
+<article>
+<h1>Ясли в Польше — как записать ребёнка, сколько стоит и есть ли субсидия для иностранцев</h1>
+
+<p>Ясли (żłobek) — это учреждение по уходу за детьми до 3 лет. Как официально трудоустроенный и застрахованный в Польше, вы имеете право на субсидию по яслям независимо от гражданства.</p>
+
+<h2>Кто может посещать ясли?</h2>
+<ul>
+<li>Дети от 20 недель до 3 лет (до 4 лет, если нет места в детском саду)</li>
+<li>Дети родителей или законных опекунов, проживающих и работающих в данной гмине</li>
+</ul>
+
+<h2>Субсидия — программа «Aktywny rodzic»</h2>
+<p>С 2024 года в Польше действует программа <strong>«Aktywny rodzic»</strong> («Активный родитель»), которая включает три вида выплат:</p>
+<ul>
+<li><strong>Aktywni rodzice w pracy</strong> — 1500 злотых в месяц (3000 злотых на ребёнка с инвалидностью) на оплату яслей или няни, если оба родителя работают или учатся</li>
+<li><strong>Aktywnie w żłobku</strong> — доплата за место в государственных или частных яслях, участвующих в программе; ZUS перечисляет средства напрямую в учреждение</li>
+<li><strong>Aktywnie w domu</strong> — 500 злотых в месяц, если ребёнок не посещает ясли</li>
+</ul>
+<p>Для получения субсидии оба родителя (или одинокий родитель) должны работать, учиться или проходить стажировку.</p>
+
+<h2>Как записать ребёнка в ясли?</h2>
+<ol>
+<li>Проверьте наличие мест в государственных и частных яслях на сайте гмины или на портале реестра яслей (<strong>rejestr.zlobki.mrpips.gov.pl</strong>)</li>
+<li>Подайте заявку на зачисление — как правило, через электронную систему гмины или лично в учреждении</li>
+<li>Дождитесь результатов набора — государственные ясли обычно проводят его весной (март–апрель) на учебный год с сентября</li>
+<li>Подпишите договор с яслями и подайте заявление на субсидию в ZUS через портал <strong>PUE ZUS</strong> или приложение <strong>mZUS</strong></li>
+</ol>
+
+<h2>Сколько стоят ясли?</h2>
+<ul>
+<li><strong>Государственные ясли:</strong> 200–600 злотых в месяц + питание (около 10–15 злотых/день)</li>
+<li><strong>Частные ясли:</strong> 800–2000 злотых в месяц</li>
+</ul>
+<p>Субсидия по программе «Aktywni rodzice w pracy» (1500 злотых) существенно снижает стоимость частных яслей.</p>
+
+<h2>Ясли для детей иностранцев</h2>
+<p>Дети иностранцев имеют одинаковые права на посещение яслей при условии законного пребывания родителей в Польше. Для зачисления может потребоваться:</p>
+<ul>
+<li>Свидетельство о рождении ребёнка (с нотариально заверенным переводом, если требуется)</li>
+<li>Документ, подтверждающий законное пребывание родителя (карта побыту, виза)</li>
+<li>Номер PESEL ребёнка (или заявление о его присвоении)</li>
+</ul>
+
+<h2>Nexflow поддерживает вашу семью</h2>
+<p>Nexflow обеспечивает официальную занятость и помогает работникам воспользоваться положенными им социальными выплатами. Есть вопросы по яслям или субсидиям? Обратитесь к нам.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nursery-zlobek-poland-enrol-costs-subsidies-foreign-worker",
+    title: "Nursery (Żłobek) in Poland — How to Enrol Your Child, Costs, and Subsidies for Foreign Workers",
+    description: "Looking for a nursery in Poland for your child? Find out how to enrol, what monthly fees to expect, and whether you qualify for government subsidies as a foreign worker.",
+    date: "2030-09-12",
+    lang: "en",
+    content: `
+<article>
+<h1>Nursery (Żłobek) in Poland — How to Enrol Your Child, Costs, and Subsidies for Foreign Workers</h1>
+
+<p>A żłobek is a childcare facility for children up to 3 years of age. If you are legally employed and insured in Poland, you are entitled to a nursery subsidy regardless of your nationality. What matters is that you work and pay social insurance contributions here.</p>
+
+<h2>Who Can Use a Żłobek?</h2>
+<ul>
+<li>Children from 20 weeks old up to the age of 3 (exceptionally 4 if there is no preschool place available)</li>
+<li>Children of parents or legal guardians who live and work in the relevant municipality (gmina)</li>
+</ul>
+
+<h2>Subsidy — The "Aktywny Rodzic" Programme</h2>
+<p>Since 2024, Poland has had the <strong>"Aktywny Rodzic" (Active Parent)</strong> programme, which offers three benefits:</p>
+<ul>
+<li><strong>Aktywni rodzice w pracy (Active parents at work)</strong> — PLN 1,500 per month (PLN 3,000 for a child with a disability) towards nursery or nanny costs, provided both parents work or study</li>
+<li><strong>Aktywnie w żłobku (Active in the nursery)</strong> — a subsidy paid directly to the nursery by ZUS on behalf of eligible families</li>
+<li><strong>Aktywnie w domu (Active at home)</strong> — PLN 500 per month when the child does not attend a nursery</li>
+</ul>
+<p>To qualify for the work-linked benefits, both parents (or a single parent) must be working, studying, or in an internship.</p>
+
+<h2>How to Enrol Your Child</h2>
+<ol>
+<li>Check availability at public and private nurseries on the municipality's website or the national nursery registry (<strong>rejestr.zlobki.mrpips.gov.pl</strong>)</li>
+<li>Submit an enrolment application — usually online through the municipal system or in person at the nursery</li>
+<li>Wait for the results — public nurseries typically run their annual recruitment in spring (March–April) for the school year starting in September</li>
+<li>Sign a contract with the nursery and apply for the subsidy via ZUS on the <strong>PUE ZUS</strong> portal or the <strong>mZUS</strong> app</li>
+</ol>
+
+<h2>How Much Does a Żłobek Cost?</h2>
+<ul>
+<li><strong>Public nursery:</strong> PLN 200–600 per month + meals (approx. PLN 10–15 per day)</li>
+<li><strong>Private nursery:</strong> PLN 800–2,000 per month</li>
+</ul>
+<p>The PLN 1,500 "Aktywni rodzice w pracy" subsidy significantly reduces the cost of a private nursery.</p>
+
+<h2>Nurseries for Children of Foreign Workers</h2>
+<p>Children of foreign nationals have the same right to a nursery place as Polish children, provided the parents are in Poland legally. For enrolment you may need:</p>
+<ul>
+<li>The child's birth certificate (with a certified translation if required)</li>
+<li>A document confirming the parent's legal stay (residence permit card, visa)</li>
+<li>The child's PESEL number (or an application for one)</li>
+</ul>
+
+<h2>Nexflow Supports Your Family</h2>
+<p>Nexflow provides legal employment and helps its workers access the social benefits they are entitled to. If you have questions about nurseries or the Aktywny Rodzic subsidy — contact us.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "stomatolog-polska-bezplatny-dentysta-nfz",
+    title: "Stomatolog w Polsce — jak znaleźć dentystę na NFZ i umówić wizytę",
+    description: "Pracujesz w Polsce i potrzebujesz dentysty? Dowiedz się, jak korzystać z bezpłatnej opieki stomatologicznej na NFZ i co zrobić w nagłym przypadku.",
+    date: "2030-06-27",
+    lang: "pl",
+    content: `
+<article>
+<h1>Stomatolog w Polsce — jak znaleźć dentystę na NFZ i umówić wizytę</h1>
+
+<p>Jako pracownik zatrudniony legalnie w Polsce i opłacający składki ZUS masz prawo do bezpłatnej opieki stomatologicznej w ramach Narodowego Funduszu Zdrowia (NFZ). Z tego prawa możesz korzystać niezależnie od swojego obywatelstwa — liczy się wyłącznie to, że jesteś ubezpieczony.</p>
+
+<h2>Komu przysługuje darmowy dentysta z NFZ?</h2>
+<ul>
+<li>Osobom zatrudnionym na umowę o pracę lub umowę zlecenia z odprowadzanymi składkami zdrowotnymi</li>
+<li>Osobom zarejestrowanym w urzędzie pracy jako bezrobotne</li>
+<li>Dzieciom do 18. roku życia</li>
+<li>Kobietom w ciąży</li>
+</ul>
+<p>Jeśli Twój pracodawca odprowadza za Ciebie składkę zdrowotną, masz pełne ubezpieczenie dentystyczne.</p>
+
+<h2>Jak znaleźć dentystę z NFZ?</h2>
+<ol>
+<li>Wejdź na stronę <strong>nfz.gov.pl</strong> → „Znajdź świadczeniodawcę" → wybierz „Stomatologia"</li>
+<li>Wpisz swoją miejscowość lub kod pocztowy</li>
+<li>Filtruj po NFZ (checkbox „Umowa z NFZ")</li>
+<li>Zadzwoń do gabinetu i zapytaj o wolny termin — powiedz, że chcesz wizytę <em>na NFZ</em></li>
+</ol>
+<p>Alternatywnie możesz skorzystać z aplikacji <strong>mojeIKP</strong> (Internetowe Konto Pacjenta), gdzie po zalogowaniu znajdziesz listę gabinetów z kontraktem.</p>
+
+<h2>Co jest bezpłatne na NFZ?</h2>
+<ul>
+<li>Badanie i konsultacja</li>
+<li>Plombowanie (wypełnienia amalgamatowe i kompozytowe w zębach bocznych)</li>
+<li>Usuwanie zębów (ekstrakcja)</li>
+<li>Leczenie kanałowe (w ograniczonym zakresie)</li>
+<li>Zdjęcia rentgenowskie</li>
+<li>Lakowanie zębów u dzieci</li>
+</ul>
+<p><strong>Uwaga:</strong> Protezy, implanty, wybielanie i ortodoncja nie są finansowane przez NFZ — za te usługi płaci się prywatnie.</p>
+
+<h2>Nagły ból zęba — co robić?</h2>
+<p>W pilnych przypadkach (silny ból, opuchlizna, uraz) masz prawo do wizyty interwencyjnej nawet bez skierowania. Możesz:</p>
+<ul>
+<li>Zadzwonić do dowolnej przychodni stomatologicznej z umową NFZ i poprosić o <strong>wizytę w trybie nagłym</strong></li>
+<li>Skorzystać z nocnej i świątecznej opieki stomatologicznej w pobliskim szpitalu (dyżur stomatologiczny)</li>
+<li>W przypadku urazu twarzy lub trudności z oddychaniem — zadzwonić na 112 lub pojechać na SOR</li>
+</ul>
+
+<h2>Jak umówić pierwszą wizytę?</h2>
+<ol>
+<li>Zadzwoń lub wejdź osobiście do gabinetu z kontraktem NFZ</li>
+<li>Podaj swoje imię, nazwisko i numer PESEL (lub paszport, jeśli nie masz PESELu)</li>
+<li>Wskaż, że chcesz wizytę <em>na NFZ</em> — masz do tego prawo jako ubezpieczony</li>
+<li>Na pierwszą wizytę zabierz: dokument tożsamości oraz zaświadczenie od pracodawcy lub wydruk z systemu ZUS potwierdzający ubezpieczenie</li>
+</ol>
+
+<h2>Prywatny dentysta — orientacyjne ceny</h2>
+<p>Jeśli terminy na NFZ są długie, prywatna wizyta w Polsce jest zazwyczaj znacznie tańsza niż w Europie Zachodniej:</p>
+<ul>
+<li>Przegląd i konsultacja: 50–100 zł</li>
+<li>Plomba kompozytowa: 150–350 zł</li>
+<li>Ekstrakcja: 100–250 zł</li>
+<li>Leczenie kanałowe: 400–800 zł (zależnie od zęba)</li>
+</ul>
+
+<h2>Nexflow dba o Ciebie</h2>
+<p>Nexflow zapewnia legalną pracę i pełne ubezpieczenie zdrowotne, które obejmuje opiekę stomatologiczną. Jeśli masz pytania dotyczące swoich uprawnień zdrowotnych — skontaktuj się z nami.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "stomatolog-polshcha-bezkoshtovnyy-zubar-nfz",
+    title: "Стоматолог у Польщі — як знайти зубного лікаря на NFZ та записатися на прийом",
+    description: "Працюєте в Польщі та потребуєте допомоги стоматолога? Дізнайтесь, як скористатися безкоштовним лікуванням зубів за NFZ і що робити в екстреній ситуації.",
+    date: "2030-07-04",
+    lang: "uk",
+    content: `
+<article>
+<h1>Стоматолог у Польщі — як знайти зубного лікаря на NFZ та записатися на прийом</h1>
+
+<p>Якщо ви офіційно працюєте в Польщі та сплачуєте внески до ZUS, ви маєте право на безкоштовну стоматологічну допомогу в рамках Національного фонду здоров'я (NFZ). Це право поширюється на всіх застрахованих — незалежно від громадянства.</p>
+
+<h2>Хто має право на безкоштовного стоматолога?</h2>
+<ul>
+<li>Особи, зайняті за трудовим договором або договором доручення з відрахуванням страхових внесків</li>
+<li>Зареєстровані безробітні</li>
+<li>Діти до 18 років</li>
+<li>Вагітні жінки</li>
+</ul>
+<p>Якщо ваш роботодавець сплачує за вас медичний страховий внесок, ви маєте повне стоматологічне страхування.</p>
+
+<h2>Як знайти стоматолога на NFZ?</h2>
+<ol>
+<li>Зайдіть на <strong>nfz.gov.pl</strong> → «Знайти надавача послуг» → оберіть «Стоматологія»</li>
+<li>Введіть своє місто або поштовий індекс</li>
+<li>Відфільтруйте за NFZ (прапорець «Umowa z NFZ»)</li>
+<li>Зателефонуйте до кабінету та попросіть талон — скажіть, що хочете прийом <em>на NFZ</em></li>
+</ol>
+<p>Також можна скористатися застосунком <strong>mojeIKP</strong> (Інтернет-кабінет пацієнта), де після авторизації є список кабінетів із контрактом NFZ.</p>
+
+<h2>Що безкоштовно на NFZ?</h2>
+<ul>
+<li>Огляд і консультація</li>
+<li>Пломбування (амальгамові та композитні пломби на бокових зубах)</li>
+<li>Видалення зубів (екстракція)</li>
+<li>Ендодонтичне лікування (в обмеженому обсязі)</li>
+<li>Рентгенівські знімки</li>
+<li>Герметизація зубів у дітей</li>
+</ul>
+<p><strong>Увага:</strong> Протези, імпланти, відбілювання та ортодонтія NFZ не фінансує — за ці послуги платять приватно.</p>
+
+<h2>Гострий зубний біль — що робити?</h2>
+<p>У невідкладних випадках (сильний біль, набряк, травма) ви маєте право на термінову допомогу без направлення. Можна:</p>
+<ul>
+<li>Зателефонувати до будь-якого кабінету з контрактом NFZ і попросити <strong>термінового прийому</strong></li>
+<li>Скористатися нічною та святковою стоматологічною допомогою в лікарні (dyżur stomatologiczny)</li>
+<li>При травмі обличчя або труднощах із диханням — зателефонувати на 112 або звернутися до СЕД (відділення невідкладної допомоги)</li>
+</ul>
+
+<h2>Як записатися на перший прийом?</h2>
+<ol>
+<li>Зателефонуйте або зайдіть особисто до кабінету з контрактом NFZ</li>
+<li>Назвіть своє прізвище, ім'я та номер PESEL (або паспорт, якщо PESEL ще немає)</li>
+<li>Вкажіть, що хочете прийом <em>на NFZ</em> — ви маєте на це право як застрахована особа</li>
+<li>На перший прийом візьміть: документ, що посвідчує особу, та довідку від роботодавця або виписку із системи ZUS</li>
+</ol>
+
+<h2>Nexflow піклується про вас</h2>
+<p>Nexflow забезпечує офіційне працевлаштування та повне медичне страхування, яке охоплює стоматологічну допомогу. Якщо у вас є запитання щодо медичних прав — зверніться до нас.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "stomatolog-polsha-besplatnyy-zubnoy-vrach-nfz",
+    title: "Стоматолог в Польше — как найти зубного врача по NFZ и записаться на приём",
+    description: "Работаете в Польше и нужен стоматолог? Узнайте, как получить бесплатную стоматологическую помощь по NFZ и что делать в экстренной ситуации.",
+    date: "2030-07-11",
+    lang: "ru",
+    content: `
+<article>
+<h1>Стоматолог в Польше — как найти зубного врача по NFZ и записаться на приём</h1>
+
+<p>Если вы официально работаете в Польше и уплачиваете взносы в ZUS, вы имеете право на бесплатную стоматологическую помощь в рамках Национального фонда здравоохранения (NFZ). Это право распространяется на всех застрахованных — независимо от гражданства.</p>
+
+<h2>Кто имеет право на бесплатного стоматолога?</h2>
+<ul>
+<li>Лица, работающие по трудовому договору или договору поручения с уплатой страховых взносов</li>
+<li>Зарегистрированные безработные</li>
+<li>Дети до 18 лет</li>
+<li>Беременные женщины</li>
+</ul>
+<p>Если ваш работодатель перечисляет за вас медицинский страховой взнос, вы полностью застрахованы стоматологически.</p>
+
+<h2>Как найти стоматолога по NFZ?</h2>
+<ol>
+<li>Зайдите на <strong>nfz.gov.pl</strong> → «Найти поставщика услуг» → выберите «Стоматология»</li>
+<li>Введите свой город или почтовый индекс</li>
+<li>Отфильтруйте по NFZ (галочка «Umowa z NFZ»)</li>
+<li>Позвоните в кабинет и попросите запись — скажите, что хотите приём <em>по NFZ</em></li>
+</ol>
+<p>Также можно воспользоваться приложением <strong>mojeIKP</strong> (Интернет-кабинет пациента), где после авторизации есть список кабинетов с контрактом NFZ.</p>
+
+<h2>Что бесплатно по NFZ?</h2>
+<ul>
+<li>Осмотр и консультация</li>
+<li>Пломбирование (амальгамовые и композитные пломбы на боковых зубах)</li>
+<li>Удаление зубов (экстракция)</li>
+<li>Эндодонтическое лечение (в ограниченном объёме)</li>
+<li>Рентгеновские снимки</li>
+<li>Герметизация зубов у детей</li>
+</ul>
+<p><strong>Важно:</strong> Протезы, импланты, отбеливание и ортодонтия NFZ не финансирует — за эти услуги платят частным образом.</p>
+
+<h2>Острая зубная боль — что делать?</h2>
+<p>В неотложных случаях (сильная боль, отёк, травма) вы имеете право на экстренную помощь без направления. Можно:</p>
+<ul>
+<li>Позвонить в любой кабинет с контрактом NFZ и попросить <strong>экстренный приём</strong></li>
+<li>Воспользоваться ночной и праздничной стоматологической помощью в ближайшей больнице (dyżur stomatologiczny)</li>
+<li>При травме лица или затруднённом дыхании — позвонить по 112 или обратиться в SOR (отделение скорой помощи)</li>
+</ul>
+
+<h2>Как записаться на первый приём?</h2>
+<ol>
+<li>Позвоните или лично зайдите в кабинет с контрактом NFZ</li>
+<li>Назовите фамилию, имя и номер PESEL (или паспорт, если PESEL ещё нет)</li>
+<li>Укажите, что хотите приём <em>по NFZ</em> — вы имеете на это право как застрахованный</li>
+<li>На первый приём возьмите: документ, удостоверяющий личность, и справку от работодателя или распечатку из ZUS</li>
+</ol>
+
+<h2>Nexflow заботится о вас</h2>
+<p>Nexflow обеспечивает официальное трудоустройство и полную медицинскую страховку, включающую стоматологическую помощь. Если у вас есть вопросы о ваших медицинских правах — обратитесь к нам.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dentist-poland-nfz-free-dental-care-foreign-worker",
+    title: "Dentist in Poland — How to Find an NFZ Dentist and Book an Appointment",
+    description: "Need a dentist in Poland? Learn how to access free dental care under NFZ, how to book an appointment, and what to do in a dental emergency as a foreign worker.",
+    date: "2030-07-18",
+    lang: "en",
+    content: `
+<article>
+<h1>Dentist in Poland — How to Find an NFZ Dentist and Book an Appointment</h1>
+
+<p>If you are legally employed in Poland and paying ZUS contributions, you are entitled to free dental care under the National Health Fund (NFZ). This right applies to all insured persons — regardless of nationality. Your citizenship does not matter; your insurance status does.</p>
+
+<h2>Who Is Entitled to Free Dental Care?</h2>
+<ul>
+<li>Employees working under a contract of employment or civil contract (umowa zlecenia) with health insurance contributions deducted</li>
+<li>Registered unemployed persons</li>
+<li>Children under the age of 18</li>
+<li>Pregnant women</li>
+</ul>
+<p>If your employer pays your health insurance contribution to ZUS, you are fully covered for dental treatment on NFZ.</p>
+
+<h2>How to Find an NFZ Dentist</h2>
+<ol>
+<li>Go to <strong>nfz.gov.pl</strong> → "Find a provider" → select "Stomatologia" (dentistry)</li>
+<li>Enter your city or postcode</li>
+<li>Filter by NFZ (tick "Umowa z NFZ")</li>
+<li>Call the practice and ask for an appointment — say you want a visit <em>na NFZ</em> (on NFZ)</li>
+</ol>
+<p>You can also use the <strong>mojeIKP</strong> app (Patient Internet Account), where you can find a list of practices with an NFZ contract after logging in.</p>
+
+<h2>What Is Covered for Free on NFZ?</h2>
+<ul>
+<li>Check-up and consultation</li>
+<li>Fillings (amalgam and composite fillings on back teeth)</li>
+<li>Tooth extraction</li>
+<li>Root canal treatment (in limited scope)</li>
+<li>X-rays</li>
+<li>Dental sealants for children</li>
+</ul>
+<p><strong>Note:</strong> Dentures, implants, teeth whitening, and orthodontics are not covered by NFZ — these are paid privately.</p>
+
+<h2>Dental Emergency — What to Do</h2>
+<p>In urgent situations (severe pain, swelling, injury) you are entitled to emergency care without a referral. You can:</p>
+<ul>
+<li>Call any NFZ dental practice and ask for an <strong>emergency appointment</strong></li>
+<li>Use the night and holiday dental service at a nearby hospital (dyżur stomatologiczny)</li>
+<li>In case of facial injury or breathing difficulties — call 112 or go to the emergency department (SOR)</li>
+</ul>
+
+<h2>Booking Your First Appointment</h2>
+<ol>
+<li>Call or visit in person any dental practice with an NFZ contract</li>
+<li>Give your name and PESEL number (or passport if you do not yet have a PESEL)</li>
+<li>State that you want an appointment <em>na NFZ</em> — you have this right as an insured person</li>
+<li>For your first visit, bring a photo ID and a letter from your employer or a ZUS printout confirming your insurance</li>
+</ol>
+
+<h2>Nexflow Takes Care of You</h2>
+<p>Nexflow provides legal employment and full health insurance, which includes dental care. If you have any questions about your healthcare rights in Poland — contact us.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
