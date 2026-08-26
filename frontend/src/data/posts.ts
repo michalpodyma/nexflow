@@ -19715,6 +19715,1054 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "podatek-rezydent-nierezydent-cudzoziemiec-polska",
+    title: "Podatek dochodowy pracownika cudzoziemca w Polsce — rezydent czy nierezydent?",
+    description: "Jak obliczany jest podatek dochodowy obcokrajowca pracującego w Polsce? Wyjaśniamy różnicę między rezydentem a nierezydentem podatkowym, stawki PIT i co wpisać pracodawcy.",
+    date: "2030-09-19",
+    lang: "pl",
+    content: `
+<article>
+<h1>Podatek dochodowy pracownika cudzoziemca w Polsce — rezydent czy nierezydent?</h1>
+
+<p>Jednym z najczęściej niejasnych tematów dla cudzoziemców pracujących w Polsce jest opodatkowanie dochodów. Ile podatku potrąca pracodawca? Dlaczego kwota na pasqu wyplaty bywa inna niż u polskiego kolegi? Odpowiedź zależy od jednego kluczowego pytania: czy jesteś polskim <strong>rezydentem podatkowym</strong>, czy nie?</p>
+
+<h2>Kim jest rezydent podatkowy w Polsce?</h2>
+<p>Rezydent podatkowy w Polsce to osoba, która spełnia przynajmniej jeden z dwóch warunków:</p>
+<ul>
+  <li><strong>Centrum interesów życiowych w Polsce</strong> — czyli mieszkasz tu z rodziną, wynajmujesz mieszkanie, prowadzisz tu swoje główne życie codzienne</li>
+  <li><strong>Pobyt powyżej 183 dni w roku podatkowym</strong> — jeśli w ciągu roku kalendarzowego (1 stycznia – 31 grudnia) spędzisz w Polsce więcej niż 183 dni, automatycznie stajesz się polskim rezydentem podatkowym</li>
+</ul>
+<p>Rezydenci podatkowi płacą w Polsce podatek od <strong>wszystkich dochodów</strong> — zarówno z Polski, jak i z zagranicy (tzw. nieograniczony obowiązek podatkowy).</p>
+
+<h2>Nierezydent podatkowy — kto to i jakie stawki?</h2>
+<p>Jeśli nie spełniasz żadnego z powyższych warunków — na przykład przyjechałeś do pracy na kilka miesięcy i mieszkasz na stałe w swoim kraju — jesteś <strong>nierezydentem podatkowym</strong> w Polsce.</p>
+<p>Nierezydenci płacą podatek wyłącznie od dochodów uzyskanych w Polsce (ograniczony obowiązek podatkowy). Standardowa stawka wynosi <strong>20%</strong> (artykuł 29 ustawy o PIT), ale może być zmieniona przez umowę o unikaniu podwójnego opodatkowania między Polską a Twoim krajem.</p>
+
+<h3>Umowy o unikaniu podwójnego opodatkowania</h3>
+<p>Polska podpisała takie umowy z wieloma krajami, m.in. z Ukrainą i Gruzją. Na ich podstawie pracownicy z tych krajów mogą podlegać innym zasadom opodatkowania — np. tylko w kraju zamieszkania lub ze zmniejszoną stawką. Aby skorzystać z tych uprawnień, zazwyczaj trzeba dostarczyć pracodawcy <strong>certyfikat rezydencji podatkowej</strong> wystawiony przez urząd skarbowy w swoim kraju.</p>
+
+<h2>Stawki PIT dla rezydentów podatkowych w Polsce</h2>
+<p>Rezydenci podatkowi rozliczają się według skali podatkowej:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Dochód w roku (PLN)</th>
+      <th>Stawka podatku</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Do 30 000 PLN</td>
+      <td>0% (kwota wolna od podatku)</td>
+    </tr>
+    <tr>
+      <td>30 001 – 120 000 PLN</td>
+      <td>12%</td>
+    </tr>
+    <tr>
+      <td>Powyżej 120 000 PLN</td>
+      <td>32%</td>
+    </tr>
+  </tbody>
+</table>
+<p>Kwota wolna od podatku (30 000 PLN rocznie = 2 500 PLN miesięcznie) oznacza, że przy wynagrodzeniu brutto zbliżonym do płacy minimalnej podatek dochodowy jest bardzo niski lub zerowy.</p>
+
+<h2>Jak pracodawca ustala, czy jesteś rezydentem?</h2>
+<p>Na początku zatrudnienia pracodawca powinien zapytać Cię o status podatkowy. Możesz:</p>
+<ul>
+  <li><strong>Złożyć formularz PIT-2</strong> — deklaracja, że masz centrum interesów życiowych w Polsce. Dzięki temu pracodawca zastosuje kwotę wolną od podatku przy naliczaniu zaliczek na PIT. To korzystne, jeśli planujesz zostać w Polsce dłużej.</li>
+  <li><strong>Nie składać PIT-2</strong> — pracodawca może zastosować stawkę 20% (dla nierezydentów) lub stawkę 12% bez uwzględnienia kwoty wolnej.</li>
+</ul>
+<p><strong>Ważne:</strong> Jeśli złożysz PIT-2, a okaże się, że jesteś nierezydentem (spędziłeś w Polsce mniej niż 183 dni i Twoje centrum życia jest za granicą), będziesz musiał dopłacić podatek w rocznym zeznaniu podatkowym.</p>
+
+<h2>Co to oznacza w praktyce — przykład</h2>
+<p>Artem pracuje w Polsce od maja. W grudniu jego łączny pobyt w Polsce wynosi 220 dni — staje się rezydentem podatkowym. Płaci podatek według skali (12%/32%), ma prawo do kwoty wolnej.</p>
+<p>Olena przyjechała do pracy w październiku na umowę do końca roku — łącznie 70 dni w Polsce. Jest nierezydentem. Pracodawca potrąca 20% podatku od jej dochodów z pracy w Polsce.</p>
+
+<h2>Roczne zeznanie podatkowe</h2>
+<p>Rezydenci podatkowi składają zeznanie PIT-37 lub PIT-36 do 30 kwietnia za rok poprzedni. Nierezydenci — jeśli chcą odzyskać nadpłatę lub są do tego zobowiązani — składają PIT-36 lub korzystają z zasad wynikających z umowy o unikaniu podwójnego opodatkowania.</p>
+<p>Jeśli pracujesz przez Nexflow, nasz dział kadr pomoże Ci ustalić Twój status podatkowy i prawidłowo wypełnić dokumenty.</p>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Rezydent podatkowy = centrum życia w Polsce LUB pobyt &gt;183 dni → skala podatkowa (0%/12%/32%), kwota wolna 30 000 PLN</li>
+  <li>Nierezydent = stawka 20% od dochodów z Polski (lub mniej, jeśli obowiązuje umowa o unikaniu podwójnego opodatkowania)</li>
+  <li>Złóż PIT-2 pracodawcy jeśli mieszkasz w Polsce na stałe — zaoszczędzisz na zaliczkach</li>
+  <li>Skonsultuj się z Nexflow lub doradcą podatkowym, jeśli masz wątpliwości co do swojego statusu</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "podatok-rezydent-nerezydent-inozemets-polshcha",
+    title: "Податок з доходів іноземного працівника в Польщі — резидент чи нерезидент?",
+    description: "Як розраховується податок на доходи іноземця, який працює в Польщі? Пояснюємо різницю між резидентом та нерезидентом, ставки PIT і що повідомити роботодавцю.",
+    date: "2030-09-26",
+    lang: "uk",
+    content: `
+<article>
+<h1>Податок з доходів іноземного працівника в Польщі — резидент чи нерезидент?</h1>
+
+<p>Одна з найбільш заплутаних тем для іноземців, які працюють у Польщі, — це оподаткування доходів. Скільки податку утримує роботодавець? Чому сума в расчетному листку іноді відрізняється від польського колеги? Відповідь залежить від одного ключового питання: чи є ви польським <strong>податковим резидентом</strong>?</p>
+
+<h2>Хто такий податковий резидент у Польщі?</h2>
+<p>Податковий резидент Польщі — особа, яка відповідає хоча б одній з двох умов:</p>
+<ul>
+  <li><strong>Центр життєвих інтересів у Польщі</strong> — ви тут живете з сім'єю, орендуєте житло, ведете основне повсякденне життя</li>
+  <li><strong>Перебування понад 183 днів на рік</strong> — якщо протягом календарного року (1 січня – 31 грудня) ви провели в Польщі більше 183 днів, ви автоматично стаєте польським податковим резидентом</li>
+</ul>
+<p>Податкові резиденти сплачують у Польщі податок з <strong>усіх доходів</strong> — як польських, так і закордонних (необмежений податковий обов'язок).</p>
+
+<h2>Податковий нерезидент — хто це і які ставки?</h2>
+<p>Якщо ви не відповідаєте жодній з умов — наприклад, приїхали працювати на кілька місяців і постійно проживаєте у своїй країні — ви є <strong>податковим нерезидентом</strong> у Польщі.</p>
+<p>Нерезиденти сплачують податок лише з доходів, отриманих у Польщі (обмежений податковий обов'язок). Стандартна ставка становить <strong>20%</strong> (стаття 29 Закону про PIT), але вона може бути змінена угодою про уникнення подвійного оподаткування між Польщею і вашою країною.</p>
+
+<h3>Угоди про уникнення подвійного оподаткування</h3>
+<p>Польща уклала такі угоди з багатьма країнами, зокрема з Україною. Відповідно до них працівники можуть підлягати іншим правилам оподаткування — наприклад, тільки у країні проживання або зі зниженою ставкою. Щоб скористатися цими правами, зазвичай потрібно надати роботодавцю <strong>сертифікат податкового резидентства</strong>, виданий податковим органом вашої країни.</p>
+
+<h2>Ставки PIT для податкових резидентів Польщі</h2>
+<p>Резиденти розраховуються за податковою шкалою:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Дохід за рік (PLN)</th>
+      <th>Ставка податку</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>До 30 000 PLN</td>
+      <td>0% (неоподатковуваний мінімум)</td>
+    </tr>
+    <tr>
+      <td>30 001 – 120 000 PLN</td>
+      <td>12%</td>
+    </tr>
+    <tr>
+      <td>Понад 120 000 PLN</td>
+      <td>32%</td>
+    </tr>
+  </tbody>
+</table>
+<p>Неоподатковуваний мінімум (30 000 PLN на рік = 2 500 PLN на місяць) означає, що при зарплаті близькій до мінімальної податок на доходи є дуже низьким або нульовим.</p>
+
+<h2>Як роботодавець визначає, чи є ви резидентом?</h2>
+<p>На початку роботи роботодавець повинен запитати про ваш податковий статус. Ви можете:</p>
+<ul>
+  <li><strong>Подати форму PIT-2</strong> — декларація про те, що центр ваших життєвих інтересів знаходиться в Польщі. Завдяки цьому роботодавець застосує неоподатковуваний мінімум при розрахунку авансів з PIT. Це вигідно, якщо ви плануєте залишитися в Польщі надовго.</li>
+  <li><strong>Не подавати PIT-2</strong> — роботодавець може застосувати ставку 20% (для нерезидентів) або 12% без урахування неоподатковуваного мінімуму.</li>
+</ul>
+<p><strong>Важливо:</strong> Якщо ви подали PIT-2, але виявилося, що ви нерезидент (провели в Польщі менше 183 днів і ваш центр життя — за кордоном), вам доведеться доплатити податок у річній декларації.</p>
+
+<h2>Практичний приклад</h2>
+<p>Артем працює в Польщі з травня. У грудні він провів тут загалом 220 днів — стає податковим резидентом. Сплачує податок за шкалою (12%/32%), має право на неоподатковуваний мінімум.</p>
+<p>Олена приїхала працювати у жовтні на контракт до кінця року — загалом 70 днів у Польщі. Вона є нерезидентом. Роботодавець утримує 20% податку з її доходів від роботи в Польщі.</p>
+
+<h2>Річна декларація</h2>
+<p>Податкові резиденти подають декларацію PIT-37 або PIT-36 до 30 квітня за попередній рік. Нерезиденти — якщо хочуть повернути переплату або зобов'язані подавати декларацію — подають PIT-36 або застосовують норми угоди про уникнення подвійного оподаткування.</p>
+<p>Якщо ви працюєте через Nexflow, наш відділ кадрів допоможе визначити ваш податковий статус і правильно оформити документи.</p>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Податковий резидент = центр життя в Польщі АБО перебування &gt;183 днів → податкова шкала (0%/12%/32%), неоподатковуваний мінімум 30 000 PLN</li>
+  <li>Нерезидент = ставка 20% з доходів у Польщі (або менше за угодою про уникнення подвійного оподаткування)</li>
+  <li>Подайте PIT-2 роботодавцю, якщо постійно проживаєте в Польщі — заощадите на авансах</li>
+  <li>Зверніться до Nexflow або податкового консультанта, якщо маєте сумніви щодо свого статусу</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nalog-rezident-nerezident-inostranets-polsha",
+    title: "Налог на доходы иностранного работника в Польше — резидент или нерезидент?",
+    description: "Как рассчитывается налог на доходы иностранца, работающего в Польше? Объясняем разницу между резидентом и нерезидентом, ставки PIT и что сообщить работодателю.",
+    date: "2030-10-03",
+    lang: "ru",
+    content: `
+<article>
+<h1>Налог на доходы иностранного работника в Польше — резидент или нерезидент?</h1>
+
+<p>Одна из наиболее запутанных тем для иностранцев, работающих в Польше, — налогообложение доходов. Сколько налога удерживает работодатель? Почему сумма в расчётном листке иногда отличается от суммы польского коллеги? Ответ зависит от одного ключевого вопроса: являетесь ли вы польским <strong>налоговым резидентом</strong>?</p>
+
+<h2>Кто такой налоговый резидент в Польше?</h2>
+<p>Налоговый резидент Польши — лицо, отвечающее хотя бы одному из двух условий:</p>
+<ul>
+  <li><strong>Центр жизненных интересов в Польше</strong> — вы живёте здесь с семьёй, арендуете жильё, ведёте здесь основную повседневную жизнь</li>
+  <li><strong>Пребывание более 183 дней в году</strong> — если в течение календарного года (1 января – 31 декабря) вы провели в Польше более 183 дней, вы автоматически становитесь польским налоговым резидентом</li>
+</ul>
+<p>Налоговые резиденты платят в Польше налог со <strong>всех доходов</strong> — как польских, так и зарубежных (неограниченная налоговая обязанность).</p>
+
+<h2>Налоговый нерезидент — кто это и какие ставки?</h2>
+<p>Если вы не отвечаете ни одному из условий — например, приехали работать на несколько месяцев и постоянно проживаете в своей стране — вы являетесь <strong>налоговым нерезидентом</strong> в Польше.</p>
+<p>Нерезиденты платят налог только с доходов, полученных в Польше (ограниченная налоговая обязанность). Стандартная ставка составляет <strong>20%</strong> (статья 29 Закона о PIT), но она может быть изменена соглашением об избежании двойного налогообложения между Польшей и вашей страной.</p>
+
+<h3>Соглашения об избежании двойного налогообложения</h3>
+<p>Польша заключила такие соглашения со многими странами. Согласно им работники могут подпадать под иные правила налогообложения — например, только в стране проживания или по сниженной ставке. Чтобы воспользоваться этими правами, как правило, нужно предоставить работодателю <strong>сертификат налогового резидентства</strong>, выданный налоговым органом вашей страны.</p>
+
+<h2>Ставки PIT для налоговых резидентов Польши</h2>
+<p>Резиденты рассчитываются по налоговой шкале:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Доход в год (PLN)</th>
+      <th>Ставка налога</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>До 30 000 PLN</td>
+      <td>0% (необлагаемый минимум)</td>
+    </tr>
+    <tr>
+      <td>30 001 – 120 000 PLN</td>
+      <td>12%</td>
+    </tr>
+    <tr>
+      <td>Свыше 120 000 PLN</td>
+      <td>32%</td>
+    </tr>
+  </tbody>
+</table>
+<p>Необлагаемый минимум (30 000 PLN в год = 2 500 PLN в месяц) означает, что при зарплате, близкой к минимальной, налог на доходы очень низкий или нулевой.</p>
+
+<h2>Как работодатель определяет, являетесь ли вы резидентом?</h2>
+<p>В начале трудоустройства работодатель должен спросить о вашем налоговом статусе. Вы можете:</p>
+<ul>
+  <li><strong>Подать форму PIT-2</strong> — декларация о том, что центр ваших жизненных интересов находится в Польше. Благодаря этому работодатель применит необлагаемый минимум при расчёте авансов по PIT. Это выгодно, если вы планируете остаться в Польше надолго.</li>
+  <li><strong>Не подавать PIT-2</strong> — работодатель может применить ставку 20% (для нерезидентов) или 12% без учёта необлагаемого минимума.</li>
+</ul>
+<p><strong>Важно:</strong> Если вы подали PIT-2, а оказалось, что вы нерезидент (провели в Польше менее 183 дней и ваш жизненный центр — за рубежом), вам придётся доплатить налог в годовой декларации.</p>
+
+<h2>Практический пример</h2>
+<p>Артём работает в Польше с мая. В декабре он провёл здесь в общей сложности 220 дней — становится налоговым резидентом. Платит налог по шкале (12%/32%), имеет право на необлагаемый минимум.</p>
+<p>Алёна приехала работать в октябре по контракту до конца года — всего 70 дней в Польше. Она является нерезидентом. Работодатель удерживает 20% налога с её доходов от работы в Польше.</p>
+
+<h2>Годовая декларация</h2>
+<p>Налоговые резиденты подают декларацию PIT-37 или PIT-36 до 30 апреля за предыдущий год. Нерезиденты — если хотят вернуть переплату или обязаны подавать декларацию — подают PIT-36 или применяют нормы соглашения об избежании двойного налогообложения.</p>
+<p>Если вы работаете через Nexflow, наш отдел кадров поможет определить ваш налоговый статус и правильно оформить документы.</p>
+
+<h2>Итог</h2>
+<ul>
+  <li>Налоговый резидент = центр жизни в Польше ИЛИ пребывание &gt;183 дней → налоговая шкала (0%/12%/32%), необлагаемый минимум 30 000 PLN</li>
+  <li>Нерезидент = ставка 20% с доходов в Польше (или меньше по соглашению об избежании двойного налогообложения)</li>
+  <li>Подайте PIT-2 работодателю, если постоянно проживаете в Польше — сэкономите на авансах</li>
+  <li>Обратитесь в Nexflow или к налоговому консультанту, если сомневаетесь в своём статусе</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "income-tax-resident-nonresident-foreign-worker-poland",
+    title: "Income Tax for Foreign Workers in Poland — Tax Resident or Non-Resident?",
+    description: "How is income tax calculated for a foreigner working in Poland? We explain the difference between tax resident and non-resident status, PIT rates, and what to tell your employer.",
+    date: "2030-10-10",
+    lang: "en",
+    content: `
+<article>
+<h1>Income Tax for Foreign Workers in Poland — Tax Resident or Non-Resident?</h1>
+
+<p>One of the most confusing topics for foreigners working in Poland is income taxation. How much tax does your employer deduct? Why might your payslip show a different amount than your Polish colleague's? The answer depends on one key question: are you a Polish <strong>tax resident</strong> or not?</p>
+
+<h2>Who Is a Tax Resident in Poland?</h2>
+<p>A tax resident of Poland is a person who meets at least one of two conditions:</p>
+<ul>
+  <li><strong>Centre of vital interests in Poland</strong> — you live here with your family, rent an apartment, and your main everyday life is here</li>
+  <li><strong>Stay of more than 183 days per year</strong> — if during the calendar year (1 January – 31 December) you spend more than 183 days in Poland, you automatically become a Polish tax resident</li>
+</ul>
+<p>Tax residents pay tax in Poland on <strong>all income</strong> — both Polish and foreign sources (unlimited tax liability).</p>
+
+<h2>Tax Non-Resident — Who Is This and What Are the Rates?</h2>
+<p>If you do not meet either condition — for example, you came to work for a few months and permanently reside in your home country — you are a <strong>tax non-resident</strong> in Poland.</p>
+<p>Non-residents pay tax only on income earned in Poland (limited tax liability). The standard rate is <strong>20%</strong> (Article 29 of the PIT Act), but it may be reduced by a double taxation treaty between Poland and your country.</p>
+
+<h3>Double Taxation Treaties</h3>
+<p>Poland has signed such treaties with many countries. Under them, workers may be subject to different tax rules — for example, taxed only in their country of residence or at a reduced rate. To benefit from these rights, you generally need to provide your employer with a <strong>tax residence certificate</strong> issued by the tax authority in your home country.</p>
+
+<h2>PIT Rates for Polish Tax Residents</h2>
+<p>Residents are taxed on a progressive scale:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Annual income (PLN)</th>
+      <th>Tax rate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Up to 30,000 PLN</td>
+      <td>0% (tax-free allowance)</td>
+    </tr>
+    <tr>
+      <td>30,001 – 120,000 PLN</td>
+      <td>12%</td>
+    </tr>
+    <tr>
+      <td>Above 120,000 PLN</td>
+      <td>32%</td>
+    </tr>
+  </tbody>
+</table>
+<p>The tax-free allowance (30,000 PLN per year = 2,500 PLN per month) means that at wages close to the minimum wage, income tax is very low or zero.</p>
+
+<h2>How Does Your Employer Determine Your Residency Status?</h2>
+<p>At the start of employment, your employer should ask about your tax status. You can:</p>
+<ul>
+  <li><strong>Submit form PIT-2</strong> — a declaration that your centre of vital interests is in Poland. This allows your employer to apply the tax-free allowance when calculating PIT advance payments. This is beneficial if you plan to stay in Poland long-term.</li>
+  <li><strong>Not submit PIT-2</strong> — the employer may apply the 20% rate (for non-residents) or 12% without the tax-free allowance.</li>
+</ul>
+<p><strong>Important:</strong> If you submitted PIT-2 but it turns out you are a non-resident (you spent fewer than 183 days in Poland and your life centre is abroad), you will need to pay additional tax in your annual return.</p>
+
+<h2>Practical Example</h2>
+<p>Artem has been working in Poland since May. By December his total stay in Poland is 220 days — he becomes a tax resident. He pays tax on the progressive scale (12%/32%) and is entitled to the tax-free allowance.</p>
+<p>Olena came to work in October on a contract until year-end — 70 days total in Poland. She is a non-resident. Her employer withholds 20% tax from her Polish-source income.</p>
+
+<h2>Annual Tax Return</h2>
+<p>Tax residents file a PIT-37 or PIT-36 return by 30 April for the previous year. Non-residents — if they want to claim a refund or are required to file — submit PIT-36 or apply the rules of the applicable double taxation treaty.</p>
+<p>If you work through Nexflow, our HR department will help you determine your tax status and complete the paperwork correctly.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Tax resident = centre of life in Poland OR stay &gt;183 days → progressive scale (0%/12%/32%), tax-free allowance of 30,000 PLN</li>
+  <li>Non-resident = flat 20% on Polish-source income (or less under a double taxation treaty)</li>
+  <li>Submit PIT-2 to your employer if you permanently reside in Poland — you'll save on advance payments</li>
+  <li>Contact Nexflow or a tax advisor if you're unsure about your status</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nadgodziny-polska-prawa-limity-wynagrodzenie",
+    title: "Praca w nadgodzinach w Polsce — prawa, limity i dodatkowe wynagrodzenie",
+    description: "Ile zarabia pracownik za nadgodziny w Polsce? Jakie są limity nadgodzin i kiedy przysługuje 50%, a kiedy 100% dodatek? Praktyczny poradnik dla cudzoziemca.",
+    date: "2030-10-17",
+    lang: "pl",
+    content: `
+<article>
+<h1>Praca w nadgodzinach w Polsce — prawa, limity i dodatkowe wynagrodzenie</h1>
+
+<p>Praca w nadgodzinach jest w Polsce dozwolona, ale ściśle regulowana przez Kodeks pracy. Wielu cudzoziemców pracujących w magazynach i na liniach produkcyjnych nie zna swoich praw dotyczących nadgodzin — i przez to nie otrzymuje należnych pieniędzy. Ten poradnik wyjaśnia wszystko, co musisz wiedzieć.</p>
+
+<h2>Kiedy mamy do czynienia z nadgodzinami?</h2>
+<p>Nadgodziny to praca wykonywana powyżej obowiązującego wymiaru czasu pracy. Standardowo w Polsce obowiązuje:</p>
+<ul>
+  <li><strong>8 godzin dziennie</strong></li>
+  <li><strong>40 godzin tygodniowo</strong> (przy 5-dniowym tygodniu pracy)</li>
+</ul>
+<p>Jeśli pracujesz dłużej niż wynika z harmonogramu, nadprogramowe godziny to nadgodziny.</p>
+
+<h2>Ile przysługuje dodatku za nadgodziny?</h2>
+<p>Zgodnie z art. 151¹ Kodeksu pracy, za nadgodziny przysługuje <strong>normalne wynagrodzenie plus dodatek</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Rodzaj nadgodzin</th>
+      <th>Dodatek</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nadgodziny w dni powszednie (do 2h dziennie)</td>
+      <td>50% stawki godzinowej</td>
+    </tr>
+    <tr>
+      <td>Nadgodziny w nocy (22:00 – 06:00)</td>
+      <td>100% stawki godzinowej</td>
+    </tr>
+    <tr>
+      <td>Nadgodziny w niedziele i święta</td>
+      <td>100% stawki godzinowej</td>
+    </tr>
+    <tr>
+      <td>Nadgodziny w dzień wolny udzielony za pracę w niedzielę/święto</td>
+      <td>100% stawki godzinowej</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Przykład:</strong> Jeśli Twoja stawka godzinowa wynosi 30 PLN brutto, za godzinę nadliczbową w dzień powszedni otrzymasz 30 + 15 = <strong>45 PLN brutto</strong>. Za nadgodziny nocne lub w niedzielę: 30 + 30 = <strong>60 PLN brutto</strong>.</p>
+
+<h2>Zamiast pieniędzy — czas wolny</h2>
+<p>Zamiast dodatku pieniężnego pracownik może otrzymać <strong>czas wolny od pracy</strong>:</p>
+<ul>
+  <li>Jeśli to <strong>pracownik złoży wniosek</strong>: godzina za godzinę (1:1)</li>
+  <li>Jeśli to <strong>pracodawca udziela czasu wolnego bez wniosku pracownika</strong>: 1,5 godziny wolnego za każdą godzinę nadliczbową</li>
+</ul>
+<p>Czas wolny należy udzielić w tym samym lub następnym okresie rozliczeniowym.</p>
+
+<h2>Limity nadgodzin</h2>
+<p>Pracodawca nie może zlecać nieograniczonej liczby nadgodzin. Kodeks pracy określa:</p>
+<ul>
+  <li>Maksymalnie <strong>3 godziny nadliczbowe dziennie</strong></li>
+  <li>Maksymalnie <strong>150 godzin nadliczbowych rocznie</strong> (limit ustawowy, choć układ zbiorowy lub umowa może go podwyższyć — max do 416h)</li>
+  <li>Prawo do <strong>11-godzinnego odpoczynku dobowego</strong> — nawet po nadgodzinach</li>
+  <li>Prawo do <strong>35-godzinnego odpoczynku tygodniowego</strong></li>
+</ul>
+
+<h2>Praca w niedzielę i święta</h2>
+<p>Co do zasady praca w niedzielę i święta jest w Polsce zakazana, ale w magazynach i logistyce pracodawcy często korzystają z wyjątków (praca zmianowa, praca w obiektach handlowych itp.). Jeśli pracujesz w niedzielę:</p>
+<ul>
+  <li>Masz prawo do <strong>innej niedzieli wolnej</strong> w ciągu 6 tygodni</li>
+  <li>Lub do <strong>dodatkowego dnia wolnego</strong> w tygodniu</li>
+  <li>I do <strong>100% dodatku</strong>, jeśli dzień wolny nie zostanie udzielony</li>
+</ul>
+
+<h2>Co zrobić, jeśli pracodawca nie płaci za nadgodziny?</h2>
+<p>Masz prawo do wynagrodzenia za każdą przepracowaną godzinę. Jeśli pracodawca nie wypłaca należnych pieniędzy:</p>
+<ol>
+  <li>Zgłoś sprawę do działu kadr (możesz poprosić Nexflow o pomoc)</li>
+  <li>Złóż skargę do <strong>Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatnie i anonimowo</li>
+  <li>Skonsultuj się z prawnikiem lub związkiem zawodowym</li>
+</ol>
+<p>Zachowaj dokumenty: kartę pracy, harmonogramy, potwierdzenia godzin pracy — są kluczowym dowodem.</p>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Nadgodziny w dzień powszedni = +50% do stawki godzinowej</li>
+  <li>Nadgodziny w nocy, niedzielę lub święta = +100%</li>
+  <li>Limit roczny: 150 godzin (lub więcej, jeśli tak stanowi umowa/układ)</li>
+  <li>Zamiast pieniędzy możesz wziąć czas wolny</li>
+  <li>Pracodawca musi zapewnić minimum 11h odpoczynku dobowego</li>
+  <li>W razie problemów — Nexflow i PIP służą pomocą</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nadurochova-robota-polshcha-prava-limy-oplata",
+    title: "Понаднормова робота в Польщі — права, ліміти та додаткова оплата",
+    description: "Скільки платять за понаднормові години в Польщі? Які ліміти існують і коли належить надбавка 50%, а коли 100%? Практичний посібник для іноземного працівника.",
+    date: "2030-10-24",
+    lang: "uk",
+    content: `
+<article>
+<h1>Понаднормова робота в Польщі — права, ліміти та додаткова оплата</h1>
+
+<p>Понаднормова робота в Польщі дозволена, але суворо регулюється Трудовим кодексом. Багато іноземців, які працюють на складах і виробничих лініях, не знають своїх прав щодо понаднормових — і тому не отримують належних грошей. Цей посібник пояснює все, що вам потрібно знати.</p>
+
+<h2>Коли виникає понаднормова робота?</h2>
+<p>Понаднормова робота — це робота, що виконується понад встановлену норму робочого часу. У Польщі стандартно діє:</p>
+<ul>
+  <li><strong>8 годин на день</strong></li>
+  <li><strong>40 годин на тиждень</strong> (при 5-денному робочому тижні)</li>
+</ul>
+<p>Якщо ви працюєте більше, ніж передбачено графіком, додаткові години є понаднормовими.</p>
+
+<h2>Яка надбавка за понаднормові?</h2>
+<p>Відповідно до ст. 151¹ Трудового кодексу, за понаднормові години належить <strong>звичайна зарплата плюс надбавка</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Вид понаднормової роботи</th>
+      <th>Надбавка</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Понаднормові у будні (до 2 год на день)</td>
+      <td>50% годинної ставки</td>
+    </tr>
+    <tr>
+      <td>Нічна понаднормова (22:00 – 06:00)</td>
+      <td>100% годинної ставки</td>
+    </tr>
+    <tr>
+      <td>Понаднормові в неділю та свята</td>
+      <td>100% годинної ставки</td>
+    </tr>
+    <tr>
+      <td>Понаднормові у вихідний день, наданий за роботу в неділю/свято</td>
+      <td>100% годинної ставки</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Приклад:</strong> Якщо ваша годинна ставка становить 30 PLN брутто, за одну понаднормову годину у будній день ви отримаєте 30 + 15 = <strong>45 PLN брутто</strong>. За нічні або недільні понаднормові: 30 + 30 = <strong>60 PLN брутто</strong>.</p>
+
+<h2>Замість грошей — вільний час</h2>
+<p>Замість грошової надбавки працівник може отримати <strong>вільний від роботи час</strong>:</p>
+<ul>
+  <li>Якщо <strong>сам працівник подає заяву</strong>: година за годину (1:1)</li>
+  <li>Якщо <strong>роботодавець надає вільний час без заяви</strong>: 1,5 години вільного за кожну понаднормову годину</li>
+</ul>
+<p>Вільний час має бути наданий у цьому або наступному розрахунковому періоді.</p>
+
+<h2>Ліміти понаднормових</h2>
+<p>Роботодавець не може призначати необмежену кількість понаднормових. Трудовий кодекс встановлює:</p>
+<ul>
+  <li>Максимум <strong>3 понаднормові години на день</strong></li>
+  <li>Максимум <strong>150 понаднормових годин на рік</strong> (законний ліміт, хоча колективний договір або трудовий договір можуть його збільшити — до 416 год)</li>
+  <li>Право на <strong>11-годинний щоденний відпочинок</strong> — навіть після понаднормових</li>
+  <li>Право на <strong>35-годинний тижневий відпочинок</strong></li>
+</ul>
+
+<h2>Робота в неділю та свята</h2>
+<p>Як правило, робота в неділю та свята в Польщі заборонена, але у складах і логістиці роботодавці часто користуються винятками (змінна робота, торгові об'єкти тощо). Якщо ви працюєте в неділю:</p>
+<ul>
+  <li>Маєте право на <strong>іншу вільну неділю</strong> протягом 6 тижнів</li>
+  <li>Або на <strong>додатковий вихідний день</strong> протягом тижня</li>
+  <li>І на <strong>надбавку 100%</strong>, якщо вихідний не буде наданий</li>
+</ul>
+
+<h2>Що робити, якщо роботодавець не платить за понаднормові?</h2>
+<p>Ви маєте право на оплату за кожну відпрацьовану годину. Якщо роботодавець не виплачує належних грошей:</p>
+<ol>
+  <li>Повідомте відділ кадрів (можете звернутися по допомогу до Nexflow)</li>
+  <li>Подайте скаргу до <strong>Державної інспекції праці (PIP)</strong> — безплатно та анонімно</li>
+  <li>Проконсультуйтеся з юристом або профспілкою</li>
+</ol>
+<p>Зберігайте документи: табель обліку робочого часу, графіки, підтвердження відпрацьованих годин — це ключові докази.</p>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Понаднормові у будні = +50% до годинної ставки</li>
+  <li>Нічні, недільні або святкові понаднормові = +100%</li>
+  <li>Річний ліміт: 150 годин (або більше за умовами договору)</li>
+  <li>Замість грошей можна взяти вільний час</li>
+  <li>Роботодавець зобов'язаний забезпечити мінімум 11 год щоденного відпочинку</li>
+  <li>У разі проблем — Nexflow та PIP готові допомогти</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "sveurochnyj-trud-polsha-prava-limity-oplata",
+    title: "Сверхурочная работа в Польше — права, лимиты и дополнительная оплата",
+    description: "Сколько платят за сверхурочные часы в Польше? Какие установлены лимиты и когда положена надбавка 50%, а когда 100%? Практическое руководство для иностранного работника.",
+    date: "2030-10-31",
+    lang: "ru",
+    content: `
+<article>
+<h1>Сверхурочная работа в Польше — права, лимиты и дополнительная оплата</h1>
+
+<p>Сверхурочная работа в Польше разрешена, но строго регулируется Трудовым кодексом. Многие иностранцы, работающие на складах и производственных линиях, не знают своих прав относительно сверхурочных — и поэтому не получают причитающихся денег. Это руководство объясняет всё, что вам нужно знать.</p>
+
+<h2>Когда возникает сверхурочная работа?</h2>
+<p>Сверхурочная работа — это работа, выполняемая сверх установленной нормы рабочего времени. В Польше стандартно действует:</p>
+<ul>
+  <li><strong>8 часов в день</strong></li>
+  <li><strong>40 часов в неделю</strong> (при 5-дневной рабочей неделе)</li>
+</ul>
+<p>Если вы работаете больше, чем предусмотрено графиком, дополнительные часы являются сверхурочными.</p>
+
+<h2>Какая надбавка за сверхурочные?</h2>
+<p>В соответствии со ст. 151¹ Трудового кодекса, за сверхурочные часы положена <strong>обычная зарплата плюс надбавка</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Вид сверхурочной работы</th>
+      <th>Надбавка</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Сверхурочные в будни (до 2 ч в день)</td>
+      <td>50% часовой ставки</td>
+    </tr>
+    <tr>
+      <td>Ночные сверхурочные (22:00 – 06:00)</td>
+      <td>100% часовой ставки</td>
+    </tr>
+    <tr>
+      <td>Сверхурочные в воскресенье и праздники</td>
+      <td>100% часовой ставки</td>
+    </tr>
+    <tr>
+      <td>Сверхурочные в выходной день, предоставленный за работу в воскресенье/праздник</td>
+      <td>100% часовой ставки</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Пример:</strong> Если ваша часовая ставка составляет 30 PLN брутто, за один сверхурочный час в будний день вы получите 30 + 15 = <strong>45 PLN брутто</strong>. За ночные или воскресные сверхурочные: 30 + 30 = <strong>60 PLN брутто</strong>.</p>
+
+<h2>Вместо денег — отгул</h2>
+<p>Вместо денежной надбавки работник может получить <strong>свободное от работы время</strong>:</p>
+<ul>
+  <li>Если <strong>сам работник подаёт заявление</strong>: час за час (1:1)</li>
+  <li>Если <strong>работодатель предоставляет отгул без заявления работника</strong>: 1,5 часа за каждый сверхурочный час</li>
+</ul>
+<p>Отгул должен быть предоставлен в этом или следующем расчётном периоде.</p>
+
+<h2>Лимиты сверхурочных</h2>
+<p>Работодатель не может назначать неограниченное количество сверхурочных. Трудовой кодекс устанавливает:</p>
+<ul>
+  <li>Максимум <strong>3 сверхурочных часа в день</strong></li>
+  <li>Максимум <strong>150 сверхурочных часов в год</strong> (законный лимит, хотя коллективный договор или трудовой договор могут его увеличить — до 416 ч)</li>
+  <li>Право на <strong>11-часовой ежедневный отдых</strong> — даже после сверхурочных</li>
+  <li>Право на <strong>35-часовой еженедельный отдых</strong></li>
+</ul>
+
+<h2>Работа в воскресенье и праздники</h2>
+<p>Как правило, работа в воскресенье и праздники в Польше запрещена, но на складах и в логистике работодатели часто пользуются исключениями (сменная работа, торговые объекты и т.д.). Если вы работаете в воскресенье:</p>
+<ul>
+  <li>Имеете право на <strong>другое свободное воскресенье</strong> в течение 6 недель</li>
+  <li>Или на <strong>дополнительный выходной день</strong> в течение недели</li>
+  <li>И на <strong>надбавку 100%</strong>, если выходной не будет предоставлен</li>
+</ul>
+
+<h2>Что делать, если работодатель не платит за сверхурочные?</h2>
+<p>Вы имеете право на оплату за каждый отработанный час. Если работодатель не выплачивает причитающиеся деньги:</p>
+<ol>
+  <li>Сообщите в отдел кадров (можно обратиться за помощью в Nexflow)</li>
+  <li>Подайте жалобу в <strong>Государственную инспекцию труда (PIP)</strong> — бесплатно и анонимно</li>
+  <li>Проконсультируйтесь с юристом или профсоюзом</li>
+</ol>
+<p>Сохраняйте документы: табель учёта рабочего времени, графики, подтверждения отработанных часов — это ключевые доказательства.</p>
+
+<h2>Итог</h2>
+<ul>
+  <li>Сверхурочные в будни = +50% к часовой ставке</li>
+  <li>Ночные, воскресные или праздничные сверхурочные = +100%</li>
+  <li>Годовой лимит: 150 часов (или больше по условиям договора)</li>
+  <li>Вместо денег можно взять отгул</li>
+  <li>Работодатель обязан обеспечить минимум 11 ч ежедневного отдыха</li>
+  <li>В случае проблем — Nexflow и PIP готовы помочь</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "overtime-work-poland-rights-limits-pay",
+    title: "Overtime Work in Poland — Rights, Limits and Additional Pay for Foreign Workers",
+    description: "How much are you paid for overtime in Poland? What are the legal limits and when do you get 50% vs 100% supplement? A practical guide for foreign workers.",
+    date: "2030-11-07",
+    lang: "en",
+    content: `
+<article>
+<h1>Overtime Work in Poland — Rights, Limits and Additional Pay for Foreign Workers</h1>
+
+<p>Overtime work in Poland is permitted but strictly regulated by the Labour Code. Many foreign workers in warehouses and on production lines don't know their overtime rights — and as a result don't receive the money they're owed. This guide explains everything you need to know.</p>
+
+<h2>When Is It Overtime?</h2>
+<p>Overtime is work performed beyond the standard working time. In Poland, standard hours are:</p>
+<ul>
+  <li><strong>8 hours per day</strong></li>
+  <li><strong>40 hours per week</strong> (with a 5-day working week)</li>
+</ul>
+<p>If you work more than your scheduled hours, the additional hours are overtime.</p>
+
+<h2>How Much Is the Overtime Supplement?</h2>
+<p>Under Article 151¹ of the Labour Code, overtime entitles you to <strong>your normal pay plus a supplement</strong>:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Type of overtime</th>
+      <th>Supplement</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Overtime on weekdays (up to 2h/day)</td>
+      <td>50% of hourly rate</td>
+    </tr>
+    <tr>
+      <td>Night overtime (22:00 – 06:00)</td>
+      <td>100% of hourly rate</td>
+    </tr>
+    <tr>
+      <td>Overtime on Sundays and public holidays</td>
+      <td>100% of hourly rate</td>
+    </tr>
+    <tr>
+      <td>Overtime on a day off given in lieu of Sunday/holiday work</td>
+      <td>100% of hourly rate</td>
+    </tr>
+  </tbody>
+</table>
+<p><strong>Example:</strong> If your hourly rate is 30 PLN gross, one overtime hour on a weekday earns you 30 + 15 = <strong>45 PLN gross</strong>. Night or Sunday overtime: 30 + 30 = <strong>60 PLN gross</strong>.</p>
+
+<h2>Time Off Instead of Pay</h2>
+<p>Instead of a cash supplement, a worker may receive <strong>time off in lieu</strong>:</p>
+<ul>
+  <li>If <strong>the worker requests it</strong>: hour for hour (1:1)</li>
+  <li>If <strong>the employer grants time off without a request</strong>: 1.5 hours off per overtime hour worked</li>
+</ul>
+<p>Time off must be granted within the same or the following settlement period.</p>
+
+<h2>Overtime Limits</h2>
+<p>Your employer cannot require unlimited overtime. The Labour Code sets:</p>
+<ul>
+  <li>Maximum <strong>3 overtime hours per day</strong></li>
+  <li>Maximum <strong>150 overtime hours per year</strong> (statutory limit; a collective agreement or individual contract may raise it — up to 416 h)</li>
+  <li>Right to <strong>11 hours of daily rest</strong> — even after overtime</li>
+  <li>Right to <strong>35 hours of weekly rest</strong></li>
+</ul>
+
+<h2>Work on Sundays and Public Holidays</h2>
+<p>In principle, Sunday and public holiday work is prohibited in Poland, but warehouses and logistics operations often use legal exceptions (shift work, retail facilities, etc.). If you work on a Sunday:</p>
+<ul>
+  <li>You are entitled to <strong>another free Sunday</strong> within 6 weeks</li>
+  <li>Or to an <strong>extra weekday off</strong></li>
+  <li>And to a <strong>100% supplement</strong> if no day off is granted</li>
+</ul>
+
+<h2>What If Your Employer Doesn't Pay Overtime?</h2>
+<p>You have the right to payment for every hour worked. If your employer fails to pay:</p>
+<ol>
+  <li>Report it to HR (Nexflow can help you)</li>
+  <li>File a complaint with the <strong>State Labour Inspectorate (PIP)</strong> — free and anonymous</li>
+  <li>Consult a lawyer or trade union</li>
+</ol>
+<p>Keep records: timesheets, schedules, any confirmation of hours worked — these are key evidence.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Weekday overtime = +50% on top of your hourly rate</li>
+  <li>Night, Sunday or public holiday overtime = +100%</li>
+  <li>Annual limit: 150 hours (or more if your contract allows)</li>
+  <li>You can take time off instead of cash</li>
+  <li>Your employer must provide at least 11 h of daily rest</li>
+  <li>Problems? Nexflow and PIP are there to help</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "urlop-na-zadanie-polska-4-dni",
+    title: "Urlop na żądanie w Polsce — 4 dni wolne bez podania powodu. Co musi wiedzieć cudzoziemiec?",
+    description: "Urlop na żądanie to specjalne prawo do 4 dni wolnych bez uzasadnienia. Wyjaśniamy, jak go zgłosić, kiedy pracodawca może odmówić i co z tym prawem mają cudzoziemcy.",
+    date: "2030-11-14",
+    lang: "pl",
+    content: `
+<article>
+<h1>Urlop na żądanie w Polsce — 4 dni wolne bez podania powodu. Co musi wiedzieć cudzoziemiec?</h1>
+
+<p>Wiele osób pracujących w Polsce — w tym cudzoziemcy — nie wie, że Kodeks pracy daje im prawo do 4 dni urlopu w roku, które można wziąć praktycznie z dnia na dzień, bez podawania powodu. To tzw. <strong>urlop na żądanie</strong>. Wiedza o tym prawie może uchronić Cię przed problemami w sytuacjach awaryjnych.</p>
+
+<h2>Co to jest urlop na żądanie?</h2>
+<p>Urlop na żądanie (art. 167² Kodeksu pracy) to część przysługującego Ci urlopu wypoczynkowego, którą możesz wykorzystać w trybie nagłym — bez wcześniejszego planowania. Masz prawo do <strong>4 takich dni w roku kalendarzowym</strong>, niezależnie od tego, ile masz łącznie urlopu.</p>
+<p>Te 4 dni są <strong>wliczone w Twój roczny wymiar urlopu</strong> — nie są dodatkowym urlopem ponad pulę, lecz wydzieloną częścią, którą możesz wziąć w specjalnym trybie.</p>
+
+<h2>Jak zgłosić urlop na żądanie?</h2>
+<p>Zgłoszenie urlopu na żądanie powinno nastąpić <strong>przed rozpoczęciem pracy w danym dniu</strong> — czyli przed godziną rozpoczęcia zmiany. Możesz to zrobić:</p>
+<ul>
+  <li>Telefonicznie (zadzwoń do przełożonego lub kadr)</li>
+  <li>SMS-em lub przez aplikację zakładową</li>
+  <li>Mailowo — jeśli zdążysz przed rozpoczęciem zmiany</li>
+</ul>
+<p>Nie musisz podawać powodu. Nie musisz też wypełniać wniosku urlopowego z wyprzedzeniem — wystarczy zgłoszenie tego samego dnia rano.</p>
+
+<h2>Czy pracodawca może odmówić urlopu na żądanie?</h2>
+<p>Co do zasady — <strong>nie</strong>. Pracodawca ma obowiązek udzielić urlopu na żądanie. Jednak Sąd Najwyższy dopuścił wyjątki — pracodawca może odmówić, jeśli Twoja nieobecność spowodowałaby poważne zakłócenie procesu pracy (np. jedyny operator maszyny kluczowej dla produkcji).</p>
+<p>W praktyce takie sytuacje są rzadkie. Jeśli pracodawca bez uzasadnienia odmawia urlopu na żądanie, narusza prawo. Możesz wtedy złożyć skargę do Państwowej Inspekcji Pracy.</p>
+
+<h2>Urlop na żądanie a praca tymczasowa</h2>
+<p>Jeśli jesteś pracownikiem tymczasowym (zatrudnionym przez agencję, np. Nexflow), prawo do urlopu na żądanie też Ci przysługuje — na takich samych zasadach jak pracownikom stałym, proporcjonalnie do okresu zatrudnienia.</p>
+<p>Pamiętaj jednak, że jeśli Twoja umowa trwa krótko (np. 3 miesiące), Twój roczny wymiar urlopu jest odpowiednio niższy, a 4 dni na żądanie nie mogą przekroczyć Twojego całkowitego urlopu.</p>
+
+<h2>Kiedy warto skorzystać z urlopu na żądanie?</h2>
+<p>Urlop na żądanie jest szczególnie przydatny w sytuacjach, które nie pozwalają na wcześniejsze zaplanowanie:</p>
+<ul>
+  <li>Choroba dziecka lub innego członka rodziny (gdy nie masz prawa do zasiłku opiekuńczego)</li>
+  <li>Nagła sprawa urzędowa lub osobista</li>
+  <li>Awaria w domu</li>
+  <li>Ważna sprawa rodzinna lub wizyta u specjalisty, której termin nie był znany z wyprzedzeniem</li>
+</ul>
+
+<h2>Różnica między urlopem na żądanie a zwykłym urlopem</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Cecha</th>
+      <th>Urlop zwykły</th>
+      <th>Urlop na żądanie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Zgłoszenie</td>
+      <td>Z wyprzedzeniem (plan urlopowy)</td>
+      <td>W dniu nieobecności, przed zmianą</td>
+    </tr>
+    <tr>
+      <td>Podanie powodu</td>
+      <td>Nie jest wymagane, ale zwyczajowo</td>
+      <td>Nigdy nie jest wymagane</td>
+    </tr>
+    <tr>
+      <td>Prawo pracodawcy do odmowy</td>
+      <td>Tak, z uzasadnieniem</td>
+      <td>Tylko wyjątkowo (poważne zakłócenie)</td>
+    </tr>
+    <tr>
+      <td>Liczba dni w roku</td>
+      <td>Cały wymiar (20 lub 26 dni)</td>
+      <td>4 dni (wliczone w pełny wymiar)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Masz prawo do 4 dni urlopu na żądanie rocznie — bez podawania powodu</li>
+  <li>Zgłoś go przed godziną rozpoczęcia pracy tego samego dnia</li>
+  <li>Pracodawca może odmówić jedynie wyjątkowo</li>
+  <li>Urlop na żądanie jest częścią Twojego urlopu wypoczynkowego, nie dodatkiem</li>
+  <li>Dotyczy też pracowników tymczasowych (proporcjonalnie)</li>
+  <li>W razie odmowy — Nexflow i PIP służą pomocą</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-na-vymoh-polshcha-4-dni",
+    title: "Відпустка на вимогу в Польщі — 4 дні без зазначення причини. Що повинен знати іноземець?",
+    description: "Відпустка на вимогу — це особливе право на 4 вихідних дні без пояснення причин. Пояснюємо, як її оформити, коли роботодавець може відмовити і що це означає для іноземних працівників.",
+    date: "2030-11-21",
+    lang: "uk",
+    content: `
+<article>
+<h1>Відпустка на вимогу в Польщі — 4 дні без зазначення причини. Що повинен знати іноземець?</h1>
+
+<p>Багато людей, які працюють у Польщі — в тому числі іноземці — не знають, що Трудовий кодекс надає їм право на 4 дні відпустки на рік, які можна взяти практично в будь-який день без пояснення причин. Це так звана <strong>відпустка на вимогу</strong>. Знання цього права може захистити вас у надзвичайних ситуаціях.</p>
+
+<h2>Що таке відпустка на вимогу?</h2>
+<p>Відпустка на вимогу (ст. 167² Трудового кодексу) — це частина вашої щорічної оплачуваної відпустки, яку ви можете використати у терміновому порядку — без попереднього планування. Ви маєте право на <strong>4 такі дні в календарному році</strong>, незалежно від загальної кількості днів відпустки.</p>
+<p>Ці 4 дні <strong>включені у ваш річний ліміт відпустки</strong> — це не додаткова відпустка понад ліміт, а виділена частина, яку можна взяти в особливому порядку.</p>
+
+<h2>Як оформити відпустку на вимогу?</h2>
+<p>Заяву на відпустку на вимогу потрібно подати <strong>до початку роботи в даний день</strong> — тобто до початку зміни. Це можна зробити:</p>
+<ul>
+  <li>Телефоном (зателефонуйте керівнику або до відділу кадрів)</li>
+  <li>СМС або через корпоративний додаток</li>
+  <li>Електронною поштою — якщо встигнете до початку зміни</li>
+</ul>
+<p>Вам не потрібно вказувати причину. Вам також не потрібно заздалегідь заповнювати заяву — достатньо повідомлення того ж ранку.</p>
+
+<h2>Чи може роботодавець відмовити у відпустці на вимогу?</h2>
+<p>Загалом — <strong>ні</strong>. Роботодавець зобов'язаний надати відпустку на вимогу. Однак Верховний суд допустив виключення — роботодавець може відмовити, якщо ваша відсутність спричинить серйозне порушення виробничого процесу (наприклад, ви єдиний оператор ключової машини).</p>
+<p>На практиці такі ситуації рідкісні. Якщо роботодавець безпідставно відмовляє у відпустці на вимогу, він порушує закон. Ви можете подати скаргу до Державної інспекції праці.</p>
+
+<h2>Відпустка на вимогу та тимчасова праця</h2>
+<p>Якщо ви є тимчасовим працівником (найнятим через агентство, наприклад Nexflow), право на відпустку на вимогу також поширюється на вас — на тих самих умовах, що й для постійних працівників, пропорційно до терміну зайнятості.</p>
+<p>Пам'ятайте, однак, що якщо ваш контракт короткий (наприклад, 3 місяці), ваш річний ліміт відпустки відповідно менший, і 4 дні на вимогу не можуть перевищувати загальний ліміт відпустки.</p>
+
+<h2>Коли варто скористатися відпусткою на вимогу?</h2>
+<p>Відпустка на вимогу особливо корисна у ситуаціях, які не дозволяють планувати заздалегідь:</p>
+<ul>
+  <li>Хвороба дитини або іншого члена сім'ї</li>
+  <li>Термінова адміністративна або особиста справа</li>
+  <li>Аварія вдома</li>
+  <li>Важлива сімейна справа або візит до фахівця, дата якого стала відома несподівано</li>
+</ul>
+
+<h2>Різниця між звичайною та відпусткою на вимогу</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Характеристика</th>
+      <th>Звичайна відпустка</th>
+      <th>Відпустка на вимогу</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Подача заяви</td>
+      <td>Заздалегідь (план відпусток)</td>
+      <td>В день відсутності, до початку зміни</td>
+    </tr>
+    <tr>
+      <td>Зазначення причини</td>
+      <td>Не обов'язково, але зазвичай</td>
+      <td>Ніколи не вимагається</td>
+    </tr>
+    <tr>
+      <td>Право роботодавця на відмову</td>
+      <td>Так, з обґрунтуванням</td>
+      <td>Лише у виняткових випадках</td>
+    </tr>
+    <tr>
+      <td>Кількість днів на рік</td>
+      <td>Весь ліміт (20 або 26 днів)</td>
+      <td>4 дні (включені у повний ліміт)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Ви маєте право на 4 дні відпустки на вимогу на рік — без зазначення причини</li>
+  <li>Повідомте до початку робочого часу того ж дня</li>
+  <li>Роботодавець може відмовити лише у виняткових випадках</li>
+  <li>Відпустка на вимогу є частиною вашої щорічної відпустки, а не додатком до неї</li>
+  <li>Поширюється також на тимчасових працівників (пропорційно)</li>
+  <li>У разі відмови — Nexflow та PIP готові допомогти</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-po-trebovaniyu-polsha-4-dnya",
+    title: "Отпуск по требованию в Польше — 4 дня без указания причины. Что должен знать иностранный работник?",
+    description: "Отпуск по требованию — это особое право на 4 выходных дня без объяснения причин. Объясняем, как его оформить, когда работодатель может отказать и что это означает для иностранных работников.",
+    date: "2030-11-28",
+    lang: "ru",
+    content: `
+<article>
+<h1>Отпуск по требованию в Польше — 4 дня без указания причины. Что должен знать иностранный работник?</h1>
+
+<p>Многие люди, работающие в Польше — в том числе иностранцы — не знают, что Трудовой кодекс даёт им право на 4 дня отпуска в год, которые можно взять практически в любой день без объяснения причин. Это так называемый <strong>отпуск по требованию</strong>. Знание этого права может защитить вас в чрезвычайных ситуациях.</p>
+
+<h2>Что такое отпуск по требованию?</h2>
+<p>Отпуск по требованию (ст. 167² Трудового кодекса) — это часть вашего ежегодного оплачиваемого отпуска, которую вы можете использовать в срочном порядке — без предварительного планирования. Вы имеете право на <strong>4 таких дня в календарном году</strong>, независимо от общего количества дней отпуска.</p>
+<p>Эти 4 дня <strong>включены в ваш годовой лимит отпуска</strong> — это не дополнительный отпуск сверх лимита, а выделенная часть, которую можно взять в особом порядке.</p>
+
+<h2>Как оформить отпуск по требованию?</h2>
+<p>Уведомление об отпуске по требованию должно поступить <strong>до начала работы в данный день</strong> — то есть до начала смены. Это можно сделать:</p>
+<ul>
+  <li>По телефону (позвоните руководителю или в отдел кадров)</li>
+  <li>По СМС или через корпоративное приложение</li>
+  <li>По электронной почте — если успеете до начала смены</li>
+</ul>
+<p>Вам не нужно указывать причину. Вам также не нужно заранее заполнять заявление — достаточно уведомления утром того же дня.</p>
+
+<h2>Может ли работодатель отказать в отпуске по требованию?</h2>
+<p>В принципе — <strong>нет</strong>. Работодатель обязан предоставить отпуск по требованию. Однако Верховный суд допустил исключения — работодатель может отказать, если ваше отсутствие вызовет серьёзное нарушение производственного процесса (например, вы единственный оператор ключевого оборудования).</p>
+<p>На практике такие ситуации редки. Если работодатель без оснований отказывает в отпуске по требованию, он нарушает закон. Вы можете подать жалобу в Государственную инспекцию труда.</p>
+
+<h2>Отпуск по требованию и временная занятость</h2>
+<p>Если вы являетесь временным работником (нанятым через агентство, например Nexflow), право на отпуск по требованию также распространяется на вас — на тех же условиях, что и для постоянных работников, пропорционально периоду занятости.</p>
+<p>Помните, однако, что если ваш контракт короткий (например, 3 месяца), ваш годовой лимит отпуска соответственно меньше, и 4 дня по требованию не могут превышать общий лимит отпуска.</p>
+
+<h2>Когда стоит воспользоваться отпуском по требованию?</h2>
+<p>Отпуск по требованию особенно полезен в ситуациях, которые не позволяют планировать заранее:</p>
+<ul>
+  <li>Болезнь ребёнка или другого члена семьи</li>
+  <li>Срочное административное или личное дело</li>
+  <li>Авария дома</li>
+  <li>Важное семейное дело или визит к специалисту, о котором стало известно неожиданно</li>
+</ul>
+
+<h2>Разница между обычным и отпуском по требованию</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Характеристика</th>
+      <th>Обычный отпуск</th>
+      <th>Отпуск по требованию</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Подача заявления</td>
+      <td>Заранее (план отпусков)</td>
+      <td>В день отсутствия, до начала смены</td>
+    </tr>
+    <tr>
+      <td>Указание причины</td>
+      <td>Не обязательно, но принято</td>
+      <td>Никогда не требуется</td>
+    </tr>
+    <tr>
+      <td>Право работодателя отказать</td>
+      <td>Да, с обоснованием</td>
+      <td>Только в исключительных случаях</td>
+    </tr>
+    <tr>
+      <td>Количество дней в год</td>
+      <td>Весь лимит (20 или 26 дней)</td>
+      <td>4 дня (включены в полный лимит)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Итог</h2>
+<ul>
+  <li>Вы имеете право на 4 дня отпуска по требованию в год — без указания причины</li>
+  <li>Уведомите до начала рабочего времени в тот же день</li>
+  <li>Работодатель может отказать только в исключительных случаях</li>
+  <li>Отпуск по требованию является частью вашего ежегодного отпуска, а не дополнением к нему</li>
+  <li>Распространяется также на временных работников (пропорционально)</li>
+  <li>В случае отказа — Nexflow и PIP готовы помочь</li>
+</ul>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "leave-on-demand-poland-4-days-no-reason",
+    title: "Leave on Demand in Poland — 4 Days Off Without Giving a Reason. What Foreign Workers Need to Know",
+    description: "Leave on demand is a special right to 4 days off without any explanation. We explain how to apply, when an employer can refuse, and what it means for foreign workers.",
+    date: "2030-12-05",
+    lang: "en",
+    content: `
+<article>
+<h1>Leave on Demand in Poland — 4 Days Off Without Giving a Reason. What Foreign Workers Need to Know</h1>
+
+<p>Many people working in Poland — including foreigners — don't know that the Labour Code gives them the right to take 4 days of leave per year with practically no notice and no reason required. This is called <strong>leave on demand</strong> (urlop na żądanie). Knowing this right can protect you in emergency situations.</p>
+
+<h2>What Is Leave on Demand?</h2>
+<p>Leave on demand (Article 167² of the Labour Code) is a portion of your annual paid holiday that you can use urgently — without advance planning. You are entitled to <strong>4 such days per calendar year</strong>, regardless of your total annual leave entitlement.</p>
+<p>These 4 days are <strong>included within your annual leave total</strong> — they are not extra days on top of your allowance, but a designated portion that can be taken in a special urgent way.</p>
+
+<h2>How to Apply for Leave on Demand</h2>
+<p>You must notify your employer <strong>before the start of work on the day</strong> — i.e., before your shift begins. You can do this by:</p>
+<ul>
+  <li>Phone call (call your supervisor or HR)</li>
+  <li>Text message or company app</li>
+  <li>Email — if you can send it before your shift starts</li>
+</ul>
+<p>You do not need to give a reason. You also don't need to fill in a leave form in advance — a same-day morning notification is sufficient.</p>
+
+<h2>Can Your Employer Refuse Leave on Demand?</h2>
+<p>In principle — <strong>no</strong>. Your employer is obliged to grant leave on demand. However, the Supreme Court has allowed exceptions — an employer may refuse if your absence would cause a serious disruption to operations (for example, you are the only operator of a critical machine).</p>
+<p>In practice, such situations are rare. If your employer refuses without justification, they are breaking the law. You can file a complaint with the State Labour Inspectorate (PIP).</p>
+
+<h2>Leave on Demand and Temporary Work</h2>
+<p>If you are a temporary worker (employed through an agency such as Nexflow), the right to leave on demand applies to you too — on the same terms as permanent employees, proportional to your period of employment.</p>
+<p>Keep in mind that if your contract is short (e.g. 3 months), your annual leave entitlement is proportionally smaller, and the 4 days on demand cannot exceed your total leave balance.</p>
+
+<h2>When Is Leave on Demand Most Useful?</h2>
+<p>Leave on demand is particularly valuable in situations that don't allow for advance planning:</p>
+<ul>
+  <li>Illness of a child or other family member</li>
+  <li>An urgent administrative or personal matter</li>
+  <li>A home emergency</li>
+  <li>An important family matter or specialist appointment that came up unexpectedly</li>
+</ul>
+
+<h2>Difference Between Regular and On-Demand Leave</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Feature</th>
+      <th>Regular leave</th>
+      <th>Leave on demand</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Application</td>
+      <td>In advance (leave plan)</td>
+      <td>On the day, before shift starts</td>
+    </tr>
+    <tr>
+      <td>Reason required</td>
+      <td>Not required, but usual</td>
+      <td>Never required</td>
+    </tr>
+    <tr>
+      <td>Employer's right to refuse</td>
+      <td>Yes, with justification</td>
+      <td>Only in exceptional circumstances</td>
+    </tr>
+    <tr>
+      <td>Days per year</td>
+      <td>Full entitlement (20 or 26 days)</td>
+      <td>4 days (counted within full entitlement)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Summary</h2>
+<ul>
+  <li>You have the right to 4 days of leave on demand per year — no reason needed</li>
+  <li>Notify your employer before your shift starts on the day</li>
+  <li>Your employer can only refuse in exceptional circumstances</li>
+  <li>Leave on demand is part of your annual holiday allowance, not extra</li>
+  <li>It applies to temporary workers too (proportionally)</li>
+  <li>If refused — Nexflow and PIP are there to help</li>
+</ul>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
