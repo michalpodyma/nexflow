@@ -20763,6 +20763,885 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "apostille-nostryfikacja-dokumenty-cudzoziemiec-polska",
+    title: "Apostille i nostryfikacja dokumentów w Polsce — przewodnik dla cudzoziemca",
+    description:
+      "Przyjechałeś do Polski z Ukrainy, Białorusi lub innego kraju? Prawdopodobnie prędzej czy później będziesz potrzebować legalizacji swoich dokumentów — aktu urodzenia, dyplomu lub świadectwa małżeńst...",
+    date: "2030-12-12",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Apostille i nostryfikacja dokumentów w Polsce — przewodnik dla cudzoziemca</h1>
+  <p class="lead">Przyjechałeś do Polski z Ukrainy, Białorusi lub innego kraju? Prawdopodobnie prędzej czy później będziesz potrzebować legalizacji swoich dokumentów — aktu urodzenia, dyplomu lub świadectwa małżeństwa. Dowiedz się, czym jest apostille, kiedy jej potrzebujesz i jak sprawnie przejść przez ten proces.</p>
+
+  <h2>Czym jest apostille?</h2>
+  <p>Apostille to specjalna pieczęć lub naklejka, która potwierdza autentyczność dokumentu wydanego w innym kraju. Polska i Ukraina są stronami <strong>Konwencji haskiej z 1961 roku</strong>, co oznacza, że ukraińskie dokumenty z apostille są uznawane w Polsce bez dodatkowej legalizacji w ambasadzie.</p>
+  <p>Apostille nie tłumaczy dokumentu — jedynie poświadcza, że podpisy i pieczęcie na dokumencie są autentyczne. Przed użyciem dokumentu w Polsce musisz go jeszcze przetłumaczyć przez tłumacza przysięgłego.</p>
+
+  <h2>Kiedy potrzebujesz apostille?</h2>
+  <p>Apostille będzie Ci potrzebna, gdy chcesz użyć ukraińskiego dokumentu w Polsce w sprawach urzędowych lub prawnych. Oto najczęstsze sytuacje:</p>
+  <ul>
+    <li><strong>Akt urodzenia dziecka</strong> — wymagany przy zapisaniu dziecka do szkoły, rejestracji w urzędzie, ubieganiu się o świadczenie 800+</li>
+    <li><strong>Akt małżeństwa</strong> — przy rejestracji meldunkowej jako małżeństwo, łączeniu rodziny, wnioskach pobytowych</li>
+    <li><strong>Dyplom uczelni lub świadectwo szkoły</strong> — gdy ubiegasz się o pracę w zawodzie regulowanym (lekarz, nauczyciel, prawnik) lub kontynuujesz edukację</li>
+    <li><strong>Zaświadczenie o niekaralności</strong> — wymagane przez niektórych pracodawców lub przy wnioskach o zezwolenie na pobyt stały</li>
+  </ul>
+  <p><strong>Ważne:</strong> Pracownicy tymczasowi w logistyce i magazynach zwykle <em>nie potrzebują</em> apostille na dyplom, aby podjąć pracę. Apostille jest konieczna głównie do spraw urzędowych i w zawodach regulowanych.</p>
+
+  <h2>Jak uzyskać apostille na dokument ukraiński?</h2>
+  <h3>Opcja 1: W Ukrainie przed przyjazdem do Polski</h3>
+  <p>Apostille w Ukrainie wydaje <strong>Ministerstwo Sprawiedliwości Ukrainy</strong> oraz jego regionalne oddziały. Możesz złożyć wniosek:</p>
+  <ul>
+    <li><strong>Przez aplikację Diia</strong> — dla wielu dokumentów możliwa jest wersja cyfrowa apostille, akceptowana w Polsce</li>
+    <li><strong>Osobiście w oddziale MinSporz</strong> — wymagany oryginał dokumentu lub jego notarialnie poświadczona kopia</li>
+    <li><strong>Przez centrum administracyjne CNAP</strong> — centra obsługi administracyjnej w większych ukraińskich miastach</li>
+  </ul>
+  <p>Koszt apostille w Ukrainie wynosi zwykle 200–500 hrywien (ok. 20–50 zł), a czas oczekiwania to 3–7 dni roboczych (ekspresowo — 1 dzień).</p>
+
+  <h3>Opcja 2: Przez konsulat ukraiński w Polsce</h3>
+  <p>Jeśli jesteś już w Polsce i nie masz apostille na dokumentach, możesz skontaktować się z <strong>Konsulatem Generalnym Ukrainy</strong> — w Warszawie, Krakowie, Gdańsku, Wrocławiu lub Lublinie. Konsulat może pomóc w uzyskaniu apostille na niektóre dokumenty lub wystawić duplikat z apostille.</p>
+  <p>Uwaga: terminy w konsulatach bywają odległe. Rejestruj się z wyprzedzeniem przez stronę internetową konsulatu.</p>
+
+  <h2>Tłumaczenie przysięgłe — obowiązkowy krok po apostille</h2>
+  <p>Sama apostille nie wystarczy — dokument ukraiński musi być przetłumaczony na język polski przez <strong>tłumacza przysięgłego</strong>. Tłumacz przysięgły jest wpisany na listę prowadzoną przez Ministerstwo Sprawiedliwości RP.</p>
+  <p>Jak znaleźć tłumacza przysięgłego języka ukraińskiego:</p>
+  <ul>
+    <li>Wyszukaj na stronie <strong>ms.gov.pl</strong> w rejestrze tłumaczy przysięgłych</li>
+    <li>Zapytaj w urzędzie, który wymaga dokumentu — często polecają sprawdzonych tłumaczy</li>
+    <li>Skontaktuj się z organizacjami pomocowymi dla Ukraińców (Caritas, Fundacja Ocalenie, lokalne NGO)</li>
+  </ul>
+  <p>Koszt tłumaczenia przysięgłego: ok. 30–80 zł za stronę, w zależności od miasta i tłumacza. Akt urodzenia to zwykle 1–2 strony.</p>
+
+  <h2>Nostryfikacja dyplomu — uznanie wykształcenia zagranicznego</h2>
+  <p>Nostryfikacja to oficjalne uznanie zagranicznego dyplomu jako równoważnego polskiemu. Jest wymagana przede wszystkim w <strong>zawodach regulowanych</strong>: lekarze, dentyści, prawnicy, architekci, nauczyciele, inżynierowie budowlani.</p>
+  <p>Jeśli pracujesz w magazynie lub logistyce, nostryfikacja <strong>nie jest wymagana</strong>. Pracodawca może poprosić o tłumaczenie dyplomu, ale nie o jego nostryfikację.</p>
+  <h3>Jak przebiega nostryfikacja?</h3>
+  <ol>
+    <li>Złóż wniosek do odpowiedniej uczelni lub ministerstwa (zależy od kierunku studiów)</li>
+    <li>Dostarcz dyplom z apostille + tłumaczenie przysięgłe</li>
+    <li>Uczelnia ocenia program studiów i może wymagać zdania egzaminów uzupełniających</li>
+    <li>Otrzymujesz zaświadczenie o nostryfikacji</li>
+  </ol>
+  <p>Czas: 3–6 miesięcy. Koszt: ok. 200–500 zł opłaty administracyjnej.</p>
+
+  <h2>Praktyczne przykłady — co i kiedy złożyć</h2>
+  <table>
+    <thead><tr><th>Sytuacja</th><th>Potrzebny dokument</th><th>Wymagania</th></tr></thead>
+    <tbody>
+      <tr><td>Świadczenie 800+ na dziecko</td><td>Akt urodzenia dziecka</td><td>Apostille + tłumaczenie przysięgłe</td></tr>
+      <tr><td>Zapis dziecka do szkoły</td><td>Świadectwo szkolne</td><td>Tłumaczenie (apostille opcjonalnie)</td></tr>
+      <tr><td>Wniosek o kartę pobytu</td><td>Akt urodzenia, ewentualnie akt małżeństwa</td><td>Apostille + tłumaczenie przysięgłe</td></tr>
+      <tr><td>Praca w zawodzie regulowanym</td><td>Dyplom uczelni</td><td>Apostille + tłumaczenie + nostryfikacja</td></tr>
+      <tr><td>Praca w magazynie/logistyce</td><td>Dyplom (opcjonalnie)</td><td>Tłumaczenie wystarczy, apostille zbędna</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Podsumowanie — krok po kroku</h2>
+  <ol>
+    <li><strong>Sprawdź, czy dokument pochodzi z Ukrainy</strong> → Ukraina jest w Konwencji haskiej → apostille wystarczy (nie potrzebujesz legalizacji konsularnej)</li>
+    <li><strong>Uzyskaj apostille</strong> → przez Diia, CNAP lub konsulat ukraiński w Polsce</li>
+    <li><strong>Przetłumacz dokument</strong> → przez tłumacza przysięgłego języka ukraińskiego zarejestrowanego w Polsce</li>
+    <li><strong>Złóż w urzędzie</strong> → razem: oryginał, apostille, tłumaczenie przysięgłe</li>
+    <li><strong>Nostryfikacja dyplomu</strong> → tylko jeśli pracujesz w zawodzie regulowanym — skontaktuj się z właściwą uczelnią lub ministerstwem</li>
+  </ol>
+  <p>Potrzebujesz pomocy z formalnościami przy zatrudnieniu w Polsce? Nexflow zajmuje się kompleksowym wsparciem pracowników tymczasowych — skontaktuj się z nami.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "apostil-nostryfikatsiya-dokumenty-inozemets-polshcha",
+    title: "Апостиль та нострифікація документів у Польщі — практичний посібник для іноземця",
+    description:
+      "Приїхали до Польщі з України? Рано чи пізно вам знадобиться легалізувати документи — свідоцтво про народження, диплом або свідоцтво про шлюб. Дізнайтесь, що таке апостиль, коли він потрібен і як шв...",
+    date: "2030-12-19",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Апостиль та нострифікація документів у Польщі — практичний посібник для іноземця</h1>
+  <p class="lead">Приїхали до Польщі з України? Рано чи пізно вам знадобиться легалізувати документи — свідоцтво про народження, диплом або свідоцтво про шлюб. Дізнайтесь, що таке апостиль, коли він потрібен і як швидко пройти цю процедуру.</p>
+
+  <h2>Що таке апостиль?</h2>
+  <p>Апостиль — це спеціальний штамп або наклейка, яка підтверджує справжність документа, виданого в іншій країні. Польща та Україна є учасниками <strong>Гаазької конвенції 1961 року</strong>, тому українські документи з апостилем визнаються у Польщі без додаткової легалізації в посольстві.</p>
+  <p>Апостиль не перекладає документ — він лише засвідчує справжність підписів і печаток. Перед використанням документа в Польщі потрібно його перекласти через <strong>присяжного перекладача</strong>.</p>
+
+  <h2>Коли потрібен апостиль?</h2>
+  <ul>
+    <li><strong>Свідоцтво про народження дитини</strong> — при записі дитини до школи, реєстрації в органах влади, отриманні допомоги 800+</li>
+    <li><strong>Свідоцтво про шлюб</strong> — при реєстрації місця проживання як подружжя, возз'єднанні сім'ї, оформленні дозволу на проживання</li>
+    <li><strong>Диплом вишу або атестат</strong> — при роботі у регульованій професії (лікар, вчитель, юрист) або продовженні навчання</li>
+    <li><strong>Довідка про несудимість</strong> — деякі роботодавці або органи влади вимагають її при оформленні постійного проживання</li>
+  </ul>
+  <p><strong>Важливо:</strong> Тимчасовим працівникам у логістиці та складах зазвичай <em>не потрібен</em> апостиль на диплом для прийому на роботу. Апостиль потрібний переважно для офіційних справ і регульованих професій.</p>
+
+  <h2>Як отримати апостиль на українські документи?</h2>
+  <h3>Варіант 1: В Україні до приїзду до Польщі</h3>
+  <p>Апостиль в Україні видає <strong>Міністерство юстиції України</strong> та його регіональні відділи. Подати заяву можна:</p>
+  <ul>
+    <li><strong>Через застосунок Дія</strong> — для багатьох документів доступна цифрова версія апостиля, яка приймається у Польщі</li>
+    <li><strong>Особисто у відділенні Мін'юсту</strong> — потрібен оригінал документа або нотаріально завірена копія</li>
+    <li><strong>Через Центр надання адміністративних послуг (ЦНАП)</strong></li>
+  </ul>
+  <p>Вартість апостиля в Україні — зазвичай 200–500 гривень, термін — 3–7 робочих днів (терміново — 1 день).</p>
+
+  <h3>Варіант 2: Через консульство України у Польщі</h3>
+  <p>Якщо ви вже у Польщі, зверніться до <strong>Генерального консульства України</strong> — у Варшаві, Кракові, Гданську, Вроцлаві або Любліні. Консульство може допомогти з апостилем або видати дублікат документа з апостилем.</p>
+  <p>Увага: терміни в консульствах бувають тривалими. Реєструйтесь заздалегідь через сайт консульства.</p>
+
+  <h2>Присяжний переклад — обов'язковий крок після апостиля</h2>
+  <p>Самого апостиля недостатньо — документ потрібно перекласти польською мовою через <strong>присяжного перекладача</strong> (tłumacz przysięgły), внесеного до реєстру Міністерства юстиції Польщі.</p>
+  <p>Як знайти присяжного перекладача з української мови:</p>
+  <ul>
+    <li>Пошук на сайті <strong>ms.gov.pl</strong> у реєстрі присяжних перекладачів</li>
+    <li>Запитайте в органі, якому потрібен документ — часто рекомендують перевірених перекладачів</li>
+    <li>Зверніться до організацій допомоги українцям (Caritas, Fundacja Ocalenie та інших НКО)</li>
+  </ul>
+  <p>Вартість присяжного перекладу: близько 30–80 злотих за сторінку. Свідоцтво про народження — зазвичай 1–2 сторінки.</p>
+
+  <h2>Нострифікація диплому — визнання іноземної освіти</h2>
+  <p>Нострифікація — це офіційне визнання іноземного диплому як еквівалентного польському. Вона потрібна насамперед у <strong>регульованих професіях</strong>: лікарі, стоматологи, юристи, архітектори, вчителі, будівельні інженери.</p>
+  <p>Якщо ви працюєте на складі або в логістиці, нострифікація <strong>не потрібна</strong>. Роботодавець може попросити переклад диплому, але не його нострифікацію.</p>
+  <h3>Як відбувається нострифікація?</h3>
+  <ol>
+    <li>Подайте заяву до відповідного вишу або міністерства (залежно від спеціальності)</li>
+    <li>Надайте диплом з апостилем + присяжний переклад</li>
+    <li>Виш оцінює навчальну програму і може вимагати складання додаткових іспитів</li>
+    <li>Отримайте довідку про нострифікацію</li>
+  </ol>
+  <p>Термін: 3–6 місяців. Вартість: близько 200–500 злотих адміністративного збору.</p>
+
+  <h2>Практичні приклади — що і коли подавати</h2>
+  <table>
+    <thead><tr><th>Ситуація</th><th>Потрібний документ</th><th>Вимоги</th></tr></thead>
+    <tbody>
+      <tr><td>Допомога 800+ на дитину</td><td>Свідоцтво про народження</td><td>Апостиль + присяжний переклад</td></tr>
+      <tr><td>Запис дитини до школи</td><td>Шкільний атестат</td><td>Переклад (апостиль необов'язковий)</td></tr>
+      <tr><td>Заява на картку проживання</td><td>Свідоцтво про народження, шлюб</td><td>Апостиль + присяжний переклад</td></tr>
+      <tr><td>Робота у регульованій професії</td><td>Диплом вишу</td><td>Апостиль + переклад + нострифікація</td></tr>
+      <tr><td>Робота на складі/в логістиці</td><td>Диплом (необов'язково)</td><td>Перекладу достатньо, апостиль зайвий</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Підсумок — крок за кроком</h2>
+  <ol>
+    <li><strong>Перевірте, звідки документ</strong> → Україна є учасником Гаазької конвенції → апостиль достатній</li>
+    <li><strong>Отримайте апостиль</strong> → через Дію, ЦНАП або консульство України у Польщі</li>
+    <li><strong>Перекладіть документ</strong> → через присяжного перекладача з украïнської, зареєстрованого в Польщі</li>
+    <li><strong>Подайте до органу влади</strong> → оригінал + апостиль + присяжний переклад</li>
+    <li><strong>Нострифікація диплому</strong> → тільки для регульованих професій</li>
+  </ol>
+  <p>Потребуєте допомоги з оформленням документів при працевлаштуванні в Польщі? Nexflow забезпечує комплексну підтримку тимчасових працівників — зв'яжіться з нами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "apostil-nostrifikatsiya-dokumenty-inostranets-polsha",
+    title: "Апостиль и нострификация документов в Польше — практическое руководство для иностранца",
+    description:
+      "Приехали в Польшу из Украины? Рано или поздно вам понадобится легализовать документы — свидетельство о рождении, диплом или свидетельство о браке. Узнайте, что такое апостиль, когда он нужен и как ...",
+    date: "2030-12-26",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Апостиль и нострификация документов в Польше — практическое руководство для иностранца</h1>
+  <p class="lead">Приехали в Польшу из Украины? Рано или поздно вам понадобится легализовать документы — свидетельство о рождении, диплом или свидетельство о браке. Узнайте, что такое апостиль, когда он нужен и как быстро пройти эту процедуру.</p>
+
+  <h2>Что такое апостиль?</h2>
+  <p>Апостиль — это специальный штамп или наклейка, подтверждающая подлинность документа, выданного в другой стране. Польша и Украина являются участниками <strong>Гаагской конвенции 1961 года</strong>, поэтому украинские документы с апостилем признаются в Польше без дополнительной консульской легализации.</p>
+  <p>Апостиль не переводит документ — он лишь удостоверяет подлинность подписей и печатей. Перед использованием документа в Польше его нужно перевести через <strong>присяжного переводчика</strong>.</p>
+
+  <h2>Когда нужен апостиль?</h2>
+  <ul>
+    <li><strong>Свидетельство о рождении ребёнка</strong> — при записи в школу, регистрации в органах власти, получении пособия 800+</li>
+    <li><strong>Свидетельство о браке</strong> — при регистрации места жительства как супругов, воссоединении семьи, оформлении вида на жительство</li>
+    <li><strong>Диплом вуза или школьный аттестат</strong> — при работе в регулируемой профессии (врач, учитель, юрист) или продолжении учёбы</li>
+    <li><strong>Справка о несудимости</strong> — некоторые работодатели или органы требуют её при оформлении постоянного проживания</li>
+  </ul>
+  <p><strong>Важно:</strong> Временным работникам в логистике и на складах апостиль на диплом для трудоустройства обычно <em>не нужен</em>. Апостиль требуется главным образом для официальных дел и регулируемых профессий.</p>
+
+  <h2>Как получить апостиль на украинские документы?</h2>
+  <h3>Вариант 1: На Украине до приезда в Польшу</h3>
+  <p>Апостиль в Украине выдаёт <strong>Министерство юстиции Украины</strong> и его региональные отделы. Подать заявку можно:</p>
+  <ul>
+    <li><strong>Через приложение Дія</strong> — для многих документов доступна цифровая версия апостиля, принимаемая в Польше</li>
+    <li><strong>Лично в отделе Минюста</strong> — необходим оригинал документа или нотариально заверенная копия</li>
+    <li><strong>Через Центр предоставления административных услуг (ЦНАП)</strong></li>
+  </ul>
+  <p>Стоимость апостиля в Украине — обычно 200–500 гривен, срок — 3–7 рабочих дней (срочно — 1 день).</p>
+
+  <h3>Вариант 2: Через консульство Украины в Польше</h3>
+  <p>Если вы уже в Польше, обратитесь в <strong>Генеральное консульство Украины</strong> — в Варшаве, Кракове, Гданьске, Вроцлаве или Люблине. Консульство может помочь с апостилем или выдать дубликат с апостилем.</p>
+  <p>Обратите внимание: сроки записи в консульствах бывают длительными. Регистрируйтесь заранее через сайт консульства.</p>
+
+  <h2>Присяжный перевод — обязательный шаг после апостиля</h2>
+  <p>Одного апостиля недостаточно — документ нужно перевести на польский язык через <strong>присяжного переводчика</strong> (tłumacz przysięgły), внесённого в реестр Министерства юстиции Польши.</p>
+  <p>Как найти присяжного переводчика с украинского языка:</p>
+  <ul>
+    <li>Поиск на сайте <strong>ms.gov.pl</strong> в реестре присяжных переводчиков</li>
+    <li>Спросите в органе, которому нужен документ — часто рекомендуют проверенных переводчиков</li>
+    <li>Обратитесь в организации помощи украинцам (Caritas, Fundacja Ocalenie и другие НКО)</li>
+  </ul>
+  <p>Стоимость присяжного перевода: около 30–80 злотых за страницу. Свидетельство о рождении — обычно 1–2 страницы.</p>
+
+  <h2>Нострификация диплома — признание иностранного образования</h2>
+  <p>Нострификация — это официальное признание иностранного диплома как эквивалентного польскому. Она требуется прежде всего в <strong>регулируемых профессиях</strong>: врачи, стоматологи, юристы, архитекторы, учителя, инженеры-строители.</p>
+  <p>Если вы работаете на складе или в логистике, нострификация <strong>не нужна</strong>. Работодатель может попросить перевод диплома, но не его нострификацию.</p>
+  <h3>Как проходит нострификация?</h3>
+  <ol>
+    <li>Подайте заявление в соответствующий вуз или министерство (зависит от специальности)</li>
+    <li>Предоставьте диплом с апостилем + присяжный перевод</li>
+    <li>Вуз оценивает учебную программу и может потребовать сдачи дополнительных экзаменов</li>
+    <li>Получите справку о нострификации</li>
+  </ol>
+  <p>Срок: 3–6 месяцев. Стоимость: около 200–500 злотых административного сбора.</p>
+
+  <h2>Практические примеры — что и когда подавать</h2>
+  <table>
+    <thead><tr><th>Ситуация</th><th>Нужный документ</th><th>Требования</th></tr></thead>
+    <tbody>
+      <tr><td>Пособие 800+ на ребёнка</td><td>Свидетельство о рождении</td><td>Апостиль + присяжный перевод</td></tr>
+      <tr><td>Запись ребёнка в школу</td><td>Школьный аттестат</td><td>Перевод (апостиль необязателен)</td></tr>
+      <tr><td>Заявление на карту проживания</td><td>Свидетельство о рождении, о браке</td><td>Апостиль + присяжный перевод</td></tr>
+      <tr><td>Работа в регулируемой профессии</td><td>Диплом вуза</td><td>Апостиль + перевод + нострификация</td></tr>
+      <tr><td>Работа на складе/в логистике</td><td>Диплом (необязательно)</td><td>Перевода достаточно, апостиль лишний</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Итог — шаг за шагом</h2>
+  <ol>
+    <li><strong>Проверьте, откуда документ</strong> → Украина участвует в Гаагской конвенции → апостиля достаточно</li>
+    <li><strong>Получите апостиль</strong> → через Дію, ЦНАП или консульство Украины в Польше</li>
+    <li><strong>Переведите документ</strong> → через присяжного переводчика с украинского, зарегистрированного в Польше</li>
+    <li><strong>Подайте в орган власти</strong> → оригинал + апостиль + присяжный перевод</li>
+    <li><strong>Нострификация диплома</strong> → только для регулируемых профессий</li>
+  </ol>
+  <p>Нужна помощь с оформлением документов при трудоустройстве в Польше? Nexflow обеспечивает комплексную поддержку временных работников — свяжитесь с нами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "apostille-document-legalisation-foreign-worker-poland",
+    title: "Apostille & Document Legalisation in Poland — A Practical Guide for Foreign Workers",
+    description:
+      "Moved to Poland from Ukraine or another country? At some point you'll likely need to legalise your documents — a birth certificate, diploma, or marriage certificate. Here's everything you need to k...",
+    date: "2031-01-02",
+    lang: "en",
+    content: `
+<article>
+  <h1>Apostille &amp; Document Legalisation in Poland — A Practical Guide for Foreign Workers</h1>
+  <p class="lead">Moved to Poland from Ukraine or another country? At some point you'll likely need to legalise your documents — a birth certificate, diploma, or marriage certificate. Here's everything you need to know about apostilles, certified translations, and diploma recognition (nostrification) in Poland.</p>
+
+  <h2>What Is an Apostille?</h2>
+  <p>An apostille is a special stamp or sticker that certifies the authenticity of a document issued in another country. Both Poland and Ukraine are signatories to the <strong>Hague Convention of 1961</strong>, which means Ukrainian documents bearing an apostille are accepted in Poland without additional consular legalisation.</p>
+  <p>An apostille does <em>not</em> translate your document — it only verifies that the signatures and seals on it are genuine. You will still need to have the document translated by a <strong>certified (sworn) translator</strong> before using it in Poland.</p>
+
+  <h2>When Do You Need an Apostille?</h2>
+  <ul>
+    <li><strong>Child's birth certificate</strong> — for school enrolment, registering with authorities, or applying for the 800+ child benefit</li>
+    <li><strong>Marriage certificate</strong> — for residency registration as a couple, family reunification, or residence permit applications</li>
+    <li><strong>University diploma or school leaving certificate</strong> — for working in a regulated profession (doctor, teacher, lawyer) or continuing education</li>
+    <li><strong>Certificate of no criminal record</strong> — required by some employers or when applying for permanent residence</li>
+  </ul>
+  <p><strong>Good news for warehouse and logistics workers:</strong> You generally <em>do not</em> need an apostille on your diploma to get a job. Apostilles are mainly required for official matters and regulated professions.</p>
+
+  <h2>How to Get an Apostille on a Ukrainian Document</h2>
+  <h3>Option 1: In Ukraine Before Coming to Poland</h3>
+  <p>In Ukraine, apostilles are issued by the <strong>Ministry of Justice of Ukraine</strong> and its regional offices. You can apply:</p>
+  <ul>
+    <li><strong>Via the Diia app</strong> — a digital apostille is available for many documents and is accepted in Poland</li>
+    <li><strong>In person at a Ministry of Justice branch</strong> — you need the original document or a notarised copy</li>
+    <li><strong>At a CNAP administrative services centre</strong></li>
+  </ul>
+  <p>Cost in Ukraine: typically 200–500 hryvnias. Processing time: 3–7 business days (express: 1 day).</p>
+
+  <h3>Option 2: Through the Ukrainian Consulate in Poland</h3>
+  <p>If you are already in Poland, contact the <strong>Ukrainian General Consulate</strong> — in Warsaw, Kraków, Gdańsk, Wrocław, or Lublin. The consulate can assist with apostilles or issue a duplicate document with an apostille.</p>
+  <p>Note: appointment slots at consulates can be scarce. Book as far in advance as possible through the consulate's website.</p>
+
+  <h2>Certified Translation — A Mandatory Step After the Apostille</h2>
+  <p>The apostille is not enough on its own — your document must be translated into Polish by a <strong>sworn translator</strong> (tłumacz przysięgły) registered with the Polish Ministry of Justice.</p>
+  <p>How to find a sworn translator for Ukrainian:</p>
+  <ul>
+    <li>Search the sworn translator register at <strong>ms.gov.pl</strong></li>
+    <li>Ask the authority requesting your document — they often recommend translators they trust</li>
+    <li>Contact Ukrainian aid organisations in Poland (Caritas, Fundacja Ocalenie, local NGOs)</li>
+  </ul>
+  <p>Cost: approximately 30–80 PLN per page. A birth certificate is typically 1–2 pages.</p>
+
+  <h2>Nostrification — Recognition of Foreign Qualifications</h2>
+  <p>Nostrification is the formal process of recognising a foreign diploma as equivalent to a Polish degree. It is required primarily in <strong>regulated professions</strong>: doctors, dentists, lawyers, architects, teachers, and construction engineers.</p>
+  <p>If you work in a warehouse or logistics, nostrification is <strong>not required</strong>. Your employer may ask for a translated copy of your diploma, but not for nostrification.</p>
+  <h3>How Nostrification Works</h3>
+  <ol>
+    <li>Submit an application to the appropriate Polish university or ministry (depending on your field)</li>
+    <li>Provide your diploma with apostille + sworn translation</li>
+    <li>The university evaluates your curriculum and may require supplementary exams</li>
+    <li>You receive a nostrification certificate</li>
+  </ol>
+  <p>Timeline: 3–6 months. Administrative fee: approximately 200–500 PLN.</p>
+
+  <h2>Quick Reference — What to Submit and When</h2>
+  <table>
+    <thead><tr><th>Situation</th><th>Document needed</th><th>Requirements</th></tr></thead>
+    <tbody>
+      <tr><td>800+ child benefit claim</td><td>Child's birth certificate</td><td>Apostille + sworn translation</td></tr>
+      <tr><td>Enrolling a child in school</td><td>School report/certificate</td><td>Translation (apostille optional)</td></tr>
+      <tr><td>Residence permit application</td><td>Birth/marriage certificate</td><td>Apostille + sworn translation</td></tr>
+      <tr><td>Working in a regulated profession</td><td>University diploma</td><td>Apostille + translation + nostrification</td></tr>
+      <tr><td>Warehouse/logistics work</td><td>Diploma (optional)</td><td>Translation is sufficient; no apostille needed</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Step-by-Step Summary</h2>
+  <ol>
+    <li><strong>Check the document's origin</strong> → Ukraine is a Hague Convention country → apostille is sufficient (no consular legalisation needed)</li>
+    <li><strong>Get the apostille</strong> → via Diia, a CNAP centre, or the Ukrainian Consulate in Poland</li>
+    <li><strong>Get a sworn translation</strong> → from a Ukrainian sworn translator registered in Poland</li>
+    <li><strong>Submit to the authority</strong> → original + apostille + sworn translation</li>
+    <li><strong>Nostrify your diploma</strong> → only if you work or plan to work in a regulated profession</li>
+  </ol>
+  <p>Need help with paperwork when starting work in Poland? Nexflow provides full support for temporary workers — get in touch with us.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-opiekunczy-cudzoziemiec-polska",
+    title: "Zasiłek opiekuńczy w Polsce — prawa cudzoziemca przy chorobie dziecka lub bliskiego",
+    description:
+      "Twoje dziecko zachorowało i nie może pójść do szkoły lub żłobka? A może opiekujesz się chorym współmałżonkiem? Jako pracownik tymczasowy w Polsce masz prawo do zasiłku opiekuńczego — płatnego zwoln...",
+    date: "2031-01-09",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Zasiłek opiekuńczy w Polsce — prawa cudzoziemca przy chorobie dziecka lub bliskiego</h1>
+  <p class="lead">Twoje dziecko zachorowało i nie może pójść do szkoły lub żłobka? A może opiekujesz się chorym współmałżonkiem? Jako pracownik tymczasowy w Polsce masz prawo do <strong>zasiłku opiekuńczego</strong> — płatnego zwolnienia z pracy, aby zaopiekować się bliską osobą. Sprawdź, jak z niego skorzystać.</p>
+
+  <h2>Czym jest zasiłek opiekuńczy?</h2>
+  <p>Zasiłek opiekuńczy to świadczenie z ZUS wypłacane pracownikowi, który musi zostać w domu, aby zaopiekować się chorym dzieckiem lub innym członkiem rodziny. Zasiłek wynosi <strong>80% podstawy wymiaru zasiłku</strong> (czyli w przybliżeniu 80% wynagrodzenia) za każdy dzień opieki.</p>
+  <p>Zasiłek opiekuńczy różni się od L4 (zasiłku chorobowego) — L4 dotyczy Twojej choroby, zasiłek opiekuńczy dotyczy choroby bliskiej osoby.</p>
+
+  <h2>Kto ma prawo do zasiłku opiekuńczego?</h2>
+  <p>Prawo do zasiłku opiekuńczego mają pracownicy objęci ubezpieczeniem chorobowym w ZUS. Jako pracownik tymczasowy zatrudniony przez agencję pracy (np. Nexflow) na umowę o pracę lub umowę zlecenia z ubezpieczeniem chorobowym spełniasz ten warunek.</p>
+  <p>Ważne: przy umowie o pracę ubezpieczenie chorobowe jest obowiązkowe. Przy umowie zlecenia — można się ubezpieczyć dobrowolnie (warto to sprawdzić ze swoim pracodawcą).</p>
+
+  <h2>W jakich sytuacjach przysługuje zasiłek opiekuńczy?</h2>
+  <p>Zasiłek opiekuńczy przysługuje, gdy opiekujesz się:</p>
+  <ul>
+    <li><strong>Chorym dzieckiem do 14 lat</strong> — jest to najczęstsza sytuacja; nie musi to być choroba ciężka — wystarczy zwykłe przeziębienie</li>
+    <li><strong>Chorym dzieckiem powyżej 14 lat lub dorosłym niepełnosprawnym dzieckiem</strong> — pod warunkiem że zamieszkuje z Tobą</li>
+    <li><strong>Chorym małżonkiem, rodzicem, teściem lub innym członkiem rodziny</strong> — jeśli mieszka z Tobą i wymaga opieki</li>
+    <li><strong>Zdrowym dzieckiem do 8 lat</strong> — gdy żłobek/szkoła są zamknięte (np. z powodu choroby nauczyciela, strajku, epidemii)</li>
+  </ul>
+
+  <h2>Ile dni zasiłku opiekuńczego przysługuje?</h2>
+  <p>Liczba dni jest ograniczona w ciągu roku kalendarzowego:</p>
+  <ul>
+    <li><strong>60 dni</strong> — na opiekę nad dziećmi do 14 lat</li>
+    <li><strong>14 dni</strong> — na opiekę nad starszymi dziećmi i innymi członkami rodziny</li>
+    <li>Łącznie nie więcej niż <strong>60 dni w roku</strong> na wszystkich uprawnionych</li>
+  </ul>
+  <p>Dni się kumulują — jeśli w tym roku masz już 30 dni opieki nad dzieckiem do 14 lat, pozostało Ci jeszcze 30 dni.</p>
+
+  <h2>Jak uzyskać zasiłek opiekuńczy — krok po kroku</h2>
+  <ol>
+    <li><strong>Poinformuj pracodawcę</strong> — zadzwoń lub napisz SMS/e-mail w dniu nieobecności lub wcześniej</li>
+    <li><strong>Uzyskaj zaświadczenie lekarskie (ZUS ZLA)</strong> — lekarz wystawia elektroniczne zwolnienie bezpośrednio do ZUS przez system e-ZLA; Ty i pracodawca dostajecie powiadomienie</li>
+    <li><strong>Wypełnij wniosek ZUS Z-15A</strong> (opieka nad dzieckiem) lub <strong>Z-15B</strong> (opieka nad innym członkiem rodziny) — druki dostępne w ZUS lub online na zus.pl</li>
+    <li><strong>Złóż wniosek pracodawcy</strong> — pracodawca przekazuje dokumenty do ZUS i wypłaca zasiłek</li>
+  </ol>
+  <p>Przy małych firmach (do 20 pracowników) zasiłek wypłaca bezpośrednio ZUS. Przy większych — wypłaca pracodawca, a potem ZUS mu zwraca.</p>
+
+  <h2>Czy cudzoziemiec może skorzystać z zasiłku opiekuńczego?</h2>
+  <p>Tak — zasiłek opiekuńczy przysługuje każdemu, kto jest objęty ubezpieczeniem chorobowym w Polsce, niezależnie od narodowości. Dotyczy to Ukraińców, Białorusinów i obywateli innych krajów pracujących legalnie w Polsce.</p>
+  <p>Warunek: musisz posiadać ważne zezwolenie na pracę lub pracować na podstawie oświadczenia o powierzeniu pracy i być zgłoszony do ZUS przez pracodawcę.</p>
+
+  <h2>Zasiłek opiekuńczy a umowa zlecenie</h2>
+  <p>Przy umowie zlecenia ubezpieczenie chorobowe jest <strong>dobrowolne</strong>. Jeśli nie jesteś ubezpieczony chorobowo, nie masz prawa do zasiłku opiekuńczego ani L4. Sprawdź w swoim ZUS czy w dziale kadr agencji, czy jesteś ubezpieczony — warto to wiedzieć z wyprzedzeniem.</p>
+
+  <h2>Podsumowanie</h2>
+  <ul>
+    <li>Zasiłek opiekuńczy = 80% wynagrodzenia za czas opieki nad chorym dzieckiem lub bliskim</li>
+    <li>Przysługuje pracownikom z ubezpieczeniem chorobowym w ZUS</li>
+    <li>Maksymalnie 60 dni rocznie na dzieci do 14 lat, 14 dni na pozostałych bliskich</li>
+    <li>Potrzebujesz: zwolnienia lekarskiego (ZUS ZLA) + wniosku Z-15A/B</li>
+    <li>Dotyczy cudzoziemców tak samo jak obywateli polskich</li>
+  </ul>
+  <p>Masz pytania dotyczące swoich praw pracowniczych w Polsce? Skontaktuj się z Nexflow — pomagamy naszym pracownikom na każdym etapie zatrudnienia.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dopomoha-po-dohlyadу-khvora-dytyna-inozemets-polshcha",
+    title: "Допомога по догляду за хворою дитиною або родичем у Польщі — права іноземного працівника",
+    description:
+      "Ваша дитина захворіла і не може піти до школи чи ясел? Або ви доглядаєте за хворим чоловіком/дружиною? Як тимчасовий працівник у Польщі ви маєте право на допомогу по догляду (zasiłek opiekuńczy) — ...",
+    date: "2031-01-16",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Допомога по догляду за хворою дитиною або родичем у Польщі — права іноземного працівника</h1>
+  <p class="lead">Ваша дитина захворіла і не може піти до школи чи ясел? Або ви доглядаєте за хворим чоловіком/дружиною? Як тимчасовий працівник у Польщі ви маєте право на <strong>допомогу по догляду (zasiłek opiekuńczy)</strong> — оплачувану відпустку для догляду за близькою людиною. Дізнайтесь, як нею скористатися.</p>
+
+  <h2>Що таке допомога по догляду?</h2>
+  <p>Допомога по догляду (zasiłek opiekuńczy) — це виплата від ZUS (польської системи соціального страхування) для працівника, який змушений залишитися вдома, щоб доглядати за хворою дитиною або іншим членом сім'ї. Розмір допомоги становить <strong>80% від бази нарахування</strong> (приблизно 80% зарплати) за кожен день догляду.</p>
+  <p>Допомога по догляду відрізняється від L4 (лікарняного листа) — L4 стосується вашої хвороби, а допомога по догляду — хвороби близької людини.</p>
+
+  <h2>Хто має право на допомогу по догляду?</h2>
+  <p>Право на допомогу по догляду мають працівники, застраховані на випадок хвороби в ZUS. Якщо ви тимчасовий працівник, найнятий агентством праці (наприклад, Nexflow) за трудовим договором або договором-дорученням із хворобливим страхуванням, ви відповідаєте цій умові.</p>
+  <p>Важливо: при трудовому договорі страхування на випадок хвороби є обов'язковим. При договорі-дорученні — добровільним. Уточніть у свого роботодавця.</p>
+
+  <h2>У яких випадках надається допомога по догляду?</h2>
+  <ul>
+    <li><strong>Хвора дитина до 14 років</strong> — найпоширеніша ситуація; не обов'язково серйозна хвороба — достатньо звичайної застуди</li>
+    <li><strong>Хвора дитина старше 14 років або доросла дитина з інвалідністю</strong> — за умови спільного проживання</li>
+    <li><strong>Хворий чоловік/дружина, батьки, свекор/свекруха або інший родич</strong> — якщо живе разом з вами та потребує догляду</li>
+    <li><strong>Здорова дитина до 8 років</strong> — коли ясла/школа зачинені (через хворобу вчителя, страйк, епідемію)</li>
+  </ul>
+
+  <h2>Скільки днів допомоги по догляду надається?</h2>
+  <ul>
+    <li><strong>60 днів</strong> — для догляду за дітьми до 14 років</li>
+    <li><strong>14 днів</strong> — для догляду за старшими дітьми та іншими родичами</li>
+    <li>Загалом не більше <strong>60 днів на рік</strong> по всіх підставах</li>
+  </ul>
+
+  <h2>Як отримати допомогу по догляду — крок за кроком</h2>
+  <ol>
+    <li><strong>Повідомте роботодавця</strong> — зателефонуйте або напишіть SMS/email у день відсутності або заздалегідь</li>
+    <li><strong>Отримайте лікарняний листок (ZUS ZLA)</strong> — лікар видає електронний листок безпосередньо до ZUS через систему e-ZLA</li>
+    <li><strong>Заповніть заяву ZUS Z-15A</strong> (догляд за дитиною) або <strong>Z-15B</strong> (догляд за іншим родичем)</li>
+    <li><strong>Подайте заяву роботодавцеві</strong> — він передає документи до ZUS та виплачує допомогу</li>
+  </ol>
+
+  <h2>Чи може іноземець скористатися допомогою по догляду?</h2>
+  <p>Так — допомога по догляду надається кожному, хто застрахований на випадок хвороби в Польщі, незалежно від громадянства. Це стосується українців та громадян інших країн, які легально працюють у Польщі.</p>
+
+  <h2>Підсумок</h2>
+  <ul>
+    <li>Допомога по догляду = 80% зарплати за дні догляду за хворою дитиною або родичем</li>
+    <li>Надається працівникам із хворобливим страхуванням у ZUS</li>
+    <li>Максимум 60 днів на рік для дітей до 14 років, 14 днів — для решти</li>
+    <li>Потрібні: лікарняний листок (ZUS ZLA) + заява Z-15A або Z-15B</li>
+    <li>Стосується іноземців так само, як і громадян Польщі</li>
+  </ul>
+  <p>Маєте запитання щодо своїх прав як працівника в Польщі? Зв'яжіться з Nexflow — ми підтримуємо наших працівників на кожному етапі.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "posobie-po-ukhodu-bolnoj-rebenok-inostranets-polsha",
+    title: "Пособие по уходу за больным ребёнком или родственником в Польше — права иностранного работника",
+    description:
+      "Ваш ребёнок заболел и не может пойти в школу или ясли? Или вы ухаживаете за больным супругом? Как временный работник в Польше вы имеете право на пособие по уходу (zasiłek opiekuńczy) — оплачиваемый...",
+    date: "2031-01-23",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Пособие по уходу за больным ребёнком или родственником в Польше — права иностранного работника</h1>
+  <p class="lead">Ваш ребёнок заболел и не может пойти в школу или ясли? Или вы ухаживаете за больным супругом? Как временный работник в Польше вы имеете право на <strong>пособие по уходу (zasiłek opiekuńczy)</strong> — оплачиваемый отгул для ухода за близким человеком. Узнайте, как им воспользоваться.</p>
+
+  <h2>Что такое пособие по уходу?</h2>
+  <p>Пособие по уходу (zasiłek opiekuńczy) — это выплата от ZUS (польской системы социального страхования) для работника, вынужденного остаться дома для ухода за больным ребёнком или другим членом семьи. Размер пособия составляет <strong>80% от базы начисления</strong> (приблизительно 80% зарплаты) за каждый день ухода.</p>
+  <p>Пособие по уходу отличается от L4 (больничного листа) — L4 касается вашей болезни, а пособие по уходу — болезни близкого человека.</p>
+
+  <h2>Кто имеет право на пособие по уходу?</h2>
+  <p>Право на пособие по уходу имеют работники, застрахованные на случай болезни в ZUS. Если вы временный работник, нанятый агентством труда (например, Nexflow) по трудовому договору или договору-поручению с больничным страхованием, вы соответствуете этому условию.</p>
+  <p>Важно: при трудовом договоре страхование на случай болезни обязательно. При договоре-поручении — добровольно. Уточните у своего работодателя.</p>
+
+  <h2>В каких случаях предоставляется пособие по уходу?</h2>
+  <ul>
+    <li><strong>Больной ребёнок до 14 лет</strong> — самый распространённый случай; не обязательно тяжёлая болезнь — достаточно обычной простуды</li>
+    <li><strong>Больной ребёнок старше 14 лет или взрослый ребёнок-инвалид</strong> — при условии совместного проживания</li>
+    <li><strong>Больной супруг/супруга, родители, свёкор/свекровь или другой родственник</strong> — если живёт вместе с вами и нуждается в уходе</li>
+    <li><strong>Здоровый ребёнок до 8 лет</strong> — когда ясли/школа закрыты (из-за болезни учителя, забастовки, эпидемии)</li>
+  </ul>
+
+  <h2>Сколько дней пособия по уходу предоставляется?</h2>
+  <ul>
+    <li><strong>60 дней</strong> — для ухода за детьми до 14 лет</li>
+    <li><strong>14 дней</strong> — для ухода за старшими детьми и другими родственниками</li>
+    <li>В общей сложности не более <strong>60 дней в году</strong> по всем основаниям</li>
+  </ul>
+
+  <h2>Как получить пособие по уходу — шаг за шагом</h2>
+  <ol>
+    <li><strong>Сообщите работодателю</strong> — позвоните или напишите SMS/email в день отсутствия или заранее</li>
+    <li><strong>Получите больничный лист (ZUS ZLA)</strong> — врач выдаёт электронный листок напрямую в ZUS через систему e-ZLA</li>
+    <li><strong>Заполните заявление ZUS Z-15A</strong> (уход за ребёнком) или <strong>Z-15B</strong> (уход за другим родственником)</li>
+    <li><strong>Подайте заявление работодателю</strong> — он передаёт документы в ZUS и выплачивает пособие</li>
+  </ol>
+
+  <h2>Может ли иностранец воспользоваться пособием по уходу?</h2>
+  <p>Да — пособие по уходу предоставляется каждому, кто застрахован на случай болезни в Польше, независимо от гражданства. Это касается украинцев и граждан других стран, легально работающих в Польше.</p>
+
+  <h2>Итог</h2>
+  <ul>
+    <li>Пособие по уходу = 80% зарплаты за дни ухода за больным ребёнком или родственником</li>
+    <li>Предоставляется работникам с больничным страхованием в ZUS</li>
+    <li>Максимум 60 дней в году для детей до 14 лет, 14 дней — для остальных</li>
+    <li>Нужны: больничный лист (ZUS ZLA) + заявление Z-15A или Z-15B</li>
+    <li>Касается иностранцев так же, как и граждан Польши</li>
+  </ul>
+  <p>Есть вопросы по своим трудовым правам в Польше? Свяжитесь с Nexflow — мы поддерживаем наших работников на каждом этапе трудоустройства.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "care-allowance-sick-child-foreign-worker-poland",
+    title: "Care Allowance for a Sick Child or Family Member in Poland — Rights of Foreign Workers",
+    description:
+      "Your child is ill and can't go to school or nursery? Or you're caring for a sick spouse? As a temporary worker in Poland you have the right to a care allowance (zasiłek opiekuńczy) — paid time off ...",
+    date: "2031-01-30",
+    lang: "en",
+    content: `
+<article>
+  <h1>Care Allowance for a Sick Child or Family Member in Poland — Rights of Foreign Workers</h1>
+  <p class="lead">Your child is ill and can't go to school or nursery? Or you're caring for a sick spouse? As a temporary worker in Poland you have the right to a <strong>care allowance (zasiłek opiekuńczy)</strong> — paid time off to look after a family member. Here's everything you need to know.</p>
+
+  <h2>What Is the Care Allowance?</h2>
+  <p>The care allowance (zasiłek opiekuńczy) is a benefit paid by ZUS (the Polish social insurance system) to a worker who has to stay at home to care for a sick child or another family member. The allowance equals <strong>80% of the benefit calculation base</strong> (roughly 80% of your salary) for each day of care.</p>
+  <p>The care allowance is different from sick leave (L4) — L4 covers your own illness, while the care allowance covers illness in a family member.</p>
+
+  <h2>Who Is Eligible?</h2>
+  <p>Workers covered by sickness insurance at ZUS are eligible. As a temporary worker employed by a staffing agency (such as Nexflow) under an employment contract or a civil contract with sickness insurance, you meet this requirement.</p>
+  <p>Note: sickness insurance is compulsory under an employment contract (umowa o pracę). Under a civil contract (umowa zlecenie), enrolment is voluntary — check with your employer whether you are covered.</p>
+
+  <h2>When Can You Claim the Care Allowance?</h2>
+  <p>The allowance is payable when you care for:</p>
+  <ul>
+    <li><strong>A sick child under 14</strong> — the most common case; the illness need not be serious — a common cold qualifies</li>
+    <li><strong>A sick child aged 14+ or an adult child with a disability</strong> — provided they live with you</li>
+    <li><strong>A sick spouse, parent, parent-in-law, or other close family member</strong> — if they live with you and need care</li>
+    <li><strong>A healthy child under 8</strong> — when the nursery or school is closed (due to a teacher's illness, strike, or epidemic)</li>
+  </ul>
+
+  <h2>How Many Days Are You Entitled To?</h2>
+  <ul>
+    <li><strong>60 days per calendar year</strong> — for caring for children under 14</li>
+    <li><strong>14 days per calendar year</strong> — for caring for older children and other family members</li>
+    <li>A combined maximum of <strong>60 days per year</strong> across all entitlements</li>
+  </ul>
+
+  <h2>How to Claim — Step by Step</h2>
+  <ol>
+    <li><strong>Notify your employer</strong> — call or send an SMS/email on the first day of absence (or before, if possible)</li>
+    <li><strong>Get a medical certificate (ZUS ZLA)</strong> — the doctor issues an electronic certificate directly to ZUS via the e-ZLA system; you and your employer both receive a notification</li>
+    <li><strong>Complete form ZUS Z-15A</strong> (care for a child) or <strong>ZUS Z-15B</strong> (care for another family member) — available at any ZUS office or at zus.pl</li>
+    <li><strong>Submit the form to your employer</strong> — they pass the documents to ZUS and pay out the allowance</li>
+  </ol>
+  <p>At companies with fewer than 20 employees, ZUS pays the allowance directly. At larger companies, the employer pays first and is reimbursed by ZUS.</p>
+
+  <h2>Does This Apply to Foreign Workers?</h2>
+  <p>Yes — the care allowance is available to anyone insured for sickness at ZUS, regardless of nationality. This includes Ukrainian and other non-EU workers employed legally in Poland.</p>
+  <p>Condition: you must have a valid work permit (or be working under an employer's declaration) and be registered with ZUS by your employer.</p>
+
+  <h2>Care Allowance Under a Civil Contract (umowa zlecenie)</h2>
+  <p>Under a civil contract, sickness insurance is <strong>voluntary</strong>. If you are not enrolled, you are not entitled to the care allowance or sick leave (L4). Check with ZUS or your agency's payroll department whether you are covered — it is worth knowing in advance.</p>
+
+  <h2>Summary</h2>
+  <ul>
+    <li>Care allowance = 80% of salary for days spent caring for a sick child or family member</li>
+    <li>Available to workers with ZUS sickness insurance</li>
+    <li>Maximum 60 days per year for children under 14; 14 days for others</li>
+    <li>You need: a medical certificate (ZUS ZLA) + form Z-15A or Z-15B</li>
+    <li>Applies to foreign workers on the same terms as Polish citizens</li>
+  </ul>
+  <p>Questions about your employment rights in Poland? Contact Nexflow — we support our workers at every stage of their employment.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "odnowienie-paszportu-ukrainskiego-w-polsce",
+    title: "Jak odnowić ukraiński paszport w Polsce — krok po kroku",
+    description:
+      "Twój ukraiński paszport traci ważność lub już wygasł? Nie musisz wracać do Ukrainy, żeby go odnowić. Możesz złożyć wniosek o nowy paszport biometryczny bezpośrednio w Konsulacie Generalnym Ukrainy ...",
+    date: "2031-02-06",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Jak odnowić ukraiński paszport w Polsce — krok po kroku</h1>
+  <p class="lead">Twój ukraiński paszport traci ważność lub już wygasł? Nie musisz wracać do Ukrainy, żeby go odnowić. Możesz złożyć wniosek o nowy paszport biometryczny bezpośrednio w Konsulacie Generalnym Ukrainy w Polsce. Sprawdź, jak to zrobić i czego się spodziewać.</p>
+
+  <h2>Gdzie odnowić paszport ukraiński w Polsce?</h2>
+  <p>Ukraina posiada <strong>5 konsulatów generalnych</strong> na terenie Polski:</p>
+  <ul>
+    <li><strong>Warszawa</strong> — Konsulat Generalny Ukrainy, ul. Szturmowa 1/3</li>
+    <li><strong>Kraków</strong> — ul. Staszica 7</li>
+    <li><strong>Gdańsk</strong> — ul. Tkacka 7/8</li>
+    <li><strong>Wrocław</strong> — ul. Jedności Narodowej 63</li>
+    <li><strong>Lublin</strong> — ul. Lipowa 11</li>
+  </ul>
+  <p>Wybierz konsulat najbliższy miejsca zamieszkania. Ze względu na duże obłożenie, terminy często są odległe — zarezerwuj wizytę jak najwcześniej.</p>
+
+  <h2>Jak umówić wizytę w konsulacie?</h2>
+  <p>Konsulat ukraiński w Polsce umożliwia rejestrację wizyt przez internet. Kroki:</p>
+  <ol>
+    <li>Wejdź na stronę odpowiedniego konsulatu lub system rezerwacji (czekaj na aktualny link — strony konsularne mogą się zmieniać)</li>
+    <li>Wybierz usługę: „Paszport biometryczny" lub „Paszport zagraniczny"</li>
+    <li>Wybierz dostępny termin i wypełnij formularz rejestracyjny</li>
+    <li>Otrzymasz potwierdzenie wizyty na e-mail lub SMS</li>
+  </ol>
+  <p><strong>Ważna wskazówka:</strong> Dostępność terminów bywa bardzo ograniczona, szczególnie w Warszawie. Sprawdzaj stronę regularnie — wolne terminy pojawiają się po anulowaniach.</p>
+
+  <h2>Jakie dokumenty są potrzebne?</h2>
+  <p>Standardowy zestaw dokumentów do odnowienia paszportu ukraińskiego:</p>
+  <ul>
+    <li><strong>Stary paszport</strong> (nawet wygasły) — oryginał</li>
+    <li><strong>Wypełniony wniosek paszportowy</strong> — formularz dostępny w konsulacie lub do pobrania ze strony</li>
+    <li><strong>Zdjęcie biometryczne</strong> — wymiary 3,5 × 4,5 cm, białe tło, twarz bez nakrycia głowy; zdjęcie może być wykonane w konsulacie za dodatkową opłatą</li>
+    <li><strong>Dowód opłaty konsularnej</strong> — zwykle płatność kartą w konsulacie lub przelewem przed wizytą (sprawdź aktualną wysokość opłaty na stronie konsulatu)</li>
+    <li><strong>Dokument potwierdzający pobyt w Polsce</strong> — np. karta pobytu tymczasowego, wiza, lub zaświadczenie o zarejestrowaniu pobytu</li>
+  </ul>
+  <p>W przypadku zmiany danych (np. zmiana nazwiska po ślubie) lub braku starego paszportu — wymagane są dodatkowe dokumenty. Sprawdź aktualne wymagania na stronie konsulatu przed wizytą.</p>
+
+  <h2>Ile kosztuje odnowienie paszportu?</h2>
+  <p>Opłata konsularna za paszport biometryczny wynosi zwykle <strong>100–200 zł</strong> (równowartość w hrywniach lub euro — zależy od konsulatu). Sprawdź aktualną cenę na stronie konsulatu przed wizytą, ponieważ opłaty mogą się zmieniać.</p>
+
+  <h2>Jak długo czeka się na paszport?</h2>
+  <p>Czas oczekiwania zależy od obłożenia konsulatu i aktualnej sytuacji. Orientacyjne terminy:</p>
+  <ul>
+    <li><strong>Standardowy tryb:</strong> 30–60 dni roboczych (ok. 2–3 miesiące)</li>
+    <li><strong>Tryb przyspieszony:</strong> 10–20 dni roboczych — zazwyczaj dostępny za wyższą opłatą, ale nie zawsze</li>
+  </ul>
+  <p>W przypadku pilnej potrzeby (np. wygaśnięcie karty pobytu powiązanej z paszportem) poinformuj o tym konsula podczas wizyty — mogą przyspieszyć sprawę.</p>
+
+  <h2>Co z kartą pobytu, gdy paszport wygasa?</h2>
+  <p>Twoja polska karta pobytu tymczasowego (karta czasowego pobytu) jest ważna niezależnie od ważności paszportu — karty te nie są ze sobą powiązane. Jednak do podróży za granicę i weryfikacji tożsamości zwykle wymagany jest ważny paszport.</p>
+  <p>Jeśli paszport wygasł, a starasz się o przedłużenie karty pobytu — złóż wniosek o paszport jak najszybciej i poinformuj urząd ds. cudzoziemców o sytuacji.</p>
+
+  <h2>Co zrobić, gdy paszport jest zagubiony lub skradziony?</h2>
+  <p>Jeśli zgubiłeś paszport lub został skradziony:</p>
+  <ol>
+    <li>Zgłoś kradzież/zgubienie na najbliższym komisariacie policji — uzyskasz zaświadczenie (protokół), które będzie potrzebne w konsulacie</li>
+    <li>Skontaktuj się z konsulatem ukraińskim — poinformuj o zdarzeniu i umów wizytę w trybie pilnym</li>
+    <li>Konsulat może wystawić <strong>tymczasowy dokument podróżny</strong> (laissez-passer) do powrotu na Ukrainę, jeśli pilnie potrzebujesz wyjechać</li>
+  </ol>
+
+  <h2>Podsumowanie — krok po kroku</h2>
+  <ol>
+    <li><strong>Zarezerwuj wizytę</strong> w najbliższym konsulacie ukraińskim jak najwcześniej</li>
+    <li><strong>Przygotuj dokumenty</strong> — stary paszport, zdjęcie, wniosek, dowód opłaty</li>
+    <li><strong>Przyjedź na wizytę</strong> — konsul pobierze odciski palców i zdjęcie biometryczne</li>
+    <li><strong>Poczekaj</strong> na gotowość paszportu (30–60 dni w trybie standardowym)</li>
+    <li><strong>Odbierz paszport</strong> osobiście lub przez upoważnioną osobę</li>
+  </ol>
+  <p>Pracujesz w Polsce i masz pytania o formalności? Nexflow wspiera swoich pracowników — skontaktuj się z nami.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ponovlennia-ukrainskoho-pasportu-v-polshchi",
+    title: "Як поновити украïнський паспорт у Польщі — крок за кроком",
+    description:
+      "Ваш украïнський паспорт закінчується або вже прострочений? Не потрібно повертатися в Україну, щоб його поновити. Ви можете подати заяву на новий біометричний паспорт безпосередньо в Генеральному ко...",
+    date: "2031-02-13",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Як поновити украïнський паспорт у Польщі — крок за кроком</h1>
+  <p class="lead">Ваш украïнський паспорт закінчується або вже прострочений? Не потрібно повертатися в Україну, щоб його поновити. Ви можете подати заяву на новий біометричний паспорт безпосередньо в Генеральному консульстві України в Польщі. Дізнайтесь, як це зробити.</p>
+
+  <h2>Де поновити украïнський паспорт у Польщі?</h2>
+  <p>В Польщі діють <strong>5 генеральних консульств Украïни</strong>:</p>
+  <ul>
+    <li><strong>Варшава</strong> — вул. Штурмова 1/3</li>
+    <li><strong>Краків</strong> — вул. Сташица 7</li>
+    <li><strong>Гданськ</strong> — вул. Ткацька 7/8</li>
+    <li><strong>Вроцлав</strong> — вул. Єдності Народовеï 63</li>
+    <li><strong>Люблін</strong> — вул. Ліпова 11</li>
+  </ul>
+  <p>Оберіть консульство, найближче до місця проживання. Через велике навантаження, терміни запису часто бувають далекими — реєструйтесь якомога раніше.</p>
+
+  <h2>Як записатися на прийом до консульства?</h2>
+  <ol>
+    <li>Перейдіть на сайт відповідного консульства або системи запису</li>
+    <li>Оберіть послугу: «Біометричний паспорт» або «Закордонний паспорт»</li>
+    <li>Оберіть доступний термін і заповніть реєстраційну форму</li>
+    <li>Отримайте підтвердження запису на email або SMS</li>
+  </ol>
+  <p><strong>Важлива порада:</strong> Доступність термінів буває дуже обмеженою, особливо у Варшаві. Перевіряйте сайт регулярно — вільні місця з'являються після скасувань.</p>
+
+  <h2>Які документи потрібні?</h2>
+  <ul>
+    <li><strong>Старий паспорт</strong> (навіть прострочений) — оригінал</li>
+    <li><strong>Заповнена заява на паспорт</strong> — бланк доступний у консульстві або для завантаження</li>
+    <li><strong>Біометричне фото</strong> — розмір 3,5 × 4,5 см, біле тло, обличчя без головного убору</li>
+    <li><strong>Підтвердження консульського збору</strong> — зазвичай оплата карткою в консульстві або переказом до візиту</li>
+    <li><strong>Документ, що підтверджує перебування в Польщі</strong> — наприклад, картка тимчасового проживання, віза або довідка про реєстрацію</li>
+  </ul>
+
+  <h2>Скільки коштує поновлення паспорта?</h2>
+  <p>Консульський збір за біометричний паспорт зазвичай становить <strong>100–200 зл</strong> (або еквівалент у гривнях/євро — залежно від консульства). Перевірте актуальну ціну на сайті консульства перед візитом.</p>
+
+  <h2>Як довго чекати на паспорт?</h2>
+  <ul>
+    <li><strong>Стандартний режим:</strong> 30–60 робочих днів (близько 2–3 місяців)</li>
+    <li><strong>Прискорений режим:</strong> 10–20 робочих днів — зазвичай доступний за вищим збором</li>
+  </ul>
+
+  <h2>Що робити, якщо паспорт загублено або вкрадено?</h2>
+  <ol>
+    <li>Повідомте про крадіжку/втрату у найближчому відділенні поліції — отримаєте протокол для консульства</li>
+    <li>Зв'яжіться з консульством Украïни — повідомте про подію та запишіться на терміновий прийом</li>
+    <li>Консульство може видати <strong>тимчасовий проïзний документ</strong> (laissez-passer) для повернення в Украïну у разі нагальної потреби</li>
+  </ol>
+
+  <h2>Підсумок — крок за кроком</h2>
+  <ol>
+    <li><strong>Запишіться</strong> до найближчого консульства Украïни якомога раніше</li>
+    <li><strong>Підготуйте документи</strong> — старий паспорт, фото, заява, підтвердження оплати</li>
+    <li><strong>Приїдьте на прийом</strong> — консул зніме відбитки пальців та біометричне фото</li>
+    <li><strong>Зачекайте</strong> на готовність паспорта (30–60 днів у стандартному режимі)</li>
+    <li><strong>Отримайте паспорт</strong> особисто або через уповноважену особу</li>
+  </ol>
+  <p>Працюєте в Польщі і маєте запитання щодо оформлення документів? Nexflow підтримує своïх працівників — зв'яжіться з нами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "obnovlenie-ukrainskogo-pasporta-v-polshe",
+    title: "Как обновить украинский паспорт в Польше — шаг за шагом",
+    description:
+      "Ваш украинский паспорт заканчивается или уже просрочен? Не нужно возвращаться на Украину, чтобы его обновить. Вы можете подать заявление на новый биометрический паспорт непосредственно в Генерально...",
+    date: "2031-02-20",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Как обновить украинский паспорт в Польше — шаг за шагом</h1>
+  <p class="lead">Ваш украинский паспорт заканчивается или уже просрочен? Не нужно возвращаться на Украину, чтобы его обновить. Вы можете подать заявление на новый биометрический паспорт непосредственно в Генеральном консульстве Украины в Польше. Узнайте, как это сделать.</p>
+
+  <h2>Где обновить украинский паспорт в Польше?</h2>
+  <p>В Польше действуют <strong>5 генеральных консульств Украины</strong>:</p>
+  <ul>
+    <li><strong>Варшава</strong> — ул. Штурмова 1/3</li>
+    <li><strong>Краков</strong> — ул. Сташица 7</li>
+    <li><strong>Гданьск</strong> — ул. Ткацкая 7/8</li>
+    <li><strong>Вроцлав</strong> — ул. Едности Народовей 63</li>
+    <li><strong>Люблин</strong> — ул. Липова 11</li>
+  </ul>
+  <p>Выберите ближайшее консульство. Из-за большой загруженности записи часто занимают много времени — регистрируйтесь как можно раньше.</p>
+
+  <h2>Как записаться на приём в консульство?</h2>
+  <ol>
+    <li>Зайдите на сайт соответствующего консульства или системы записи</li>
+    <li>Выберите услугу: «Биометрический паспорт» или «Заграничный паспорт»</li>
+    <li>Выберите доступную дату и заполните регистрационную форму</li>
+    <li>Получите подтверждение записи на email или SMS</li>
+  </ol>
+  <p><strong>Важный совет:</strong> Доступность дат бывает очень ограниченной, особенно в Варшаве. Регулярно проверяйте сайт — свободные места появляются после отмен записей.</p>
+
+  <h2>Какие документы нужны?</h2>
+  <ul>
+    <li><strong>Старый паспорт</strong> (даже просроченный) — оригинал</li>
+    <li><strong>Заполненное заявление</strong> — бланк доступен в консульстве или для скачивания</li>
+    <li><strong>Биометрическое фото</strong> — 3,5 × 4,5 см, белый фон, лицо без головного убора</li>
+    <li><strong>Подтверждение консульского сбора</strong> — обычно оплата картой в консульстве или переводом до визита</li>
+    <li><strong>Документ, подтверждающий пребывание в Польше</strong> — карта временного проживания, виза или справка о регистрации</li>
+  </ul>
+
+  <h2>Сколько стоит обновление паспорта?</h2>
+  <p>Консульский сбор за биометрический паспорт обычно составляет <strong>100–200 зл</strong> (или эквивалент в гривнах/евро — зависит от консульства). Проверьте актуальную стоимость на сайте консульства перед визитом.</p>
+
+  <h2>Как долго ждать паспорт?</h2>
+  <ul>
+    <li><strong>Стандартный режим:</strong> 30–60 рабочих дней (около 2–3 месяцев)</li>
+    <li><strong>Ускоренный режим:</strong> 10–20 рабочих дней — обычно доступен за повышенный сбор</li>
+  </ul>
+
+  <h2>Что делать, если паспорт утерян или украден?</h2>
+  <ol>
+    <li>Сообщите об утере/краже в ближайший комиссариат полиции — получите протокол для консульства</li>
+    <li>Свяжитесь с консульством Украины — сообщите о ситуации и запишитесь на срочный приём</li>
+    <li>Консульство может выдать <strong>временный проездной документ</strong> (laissez-passer) для возвращения на Украину в экстренном случае</li>
+  </ol>
+
+  <h2>Итог — шаг за шагом</h2>
+  <ol>
+    <li><strong>Запишитесь</strong> в ближайшее консульство Украины как можно раньше</li>
+    <li><strong>Подготовьте документы</strong> — старый паспорт, фото, заявление, подтверждение оплаты</li>
+    <li><strong>Придите на приём</strong> — консул снимет отпечатки пальцев и биометрическое фото</li>
+    <li><strong>Дождитесь</strong> готовности паспорта (30–60 дней в стандартном режиме)</li>
+    <li><strong>Получите паспорт</strong> лично или через уполномоченное лицо</li>
+  </ol>
+  <p>Работаете в Польше и есть вопросы по оформлению документов? Nexflow поддерживает своих работников — свяжитесь с нами.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "renewing-ukrainian-passport-while-in-poland",
+    title: "Renewing Your Ukrainian Passport While Living in Poland — A Step-by-Step Guide",
+    description:
+      "Your Ukrainian passport is about to expire — or has already expired? You don't have to travel back to Ukraine to renew it. You can apply for a new biometric passport at any Ukrainian General Consul...",
+    date: "2031-02-27",
+    lang: "en",
+    content: `
+<article>
+  <h1>Renewing Your Ukrainian Passport While Living in Poland — A Step-by-Step Guide</h1>
+  <p class="lead">Your Ukrainian passport is about to expire — or has already expired? You don't have to travel back to Ukraine to renew it. You can apply for a new biometric passport at any Ukrainian General Consulate in Poland. Here's how.</p>
+
+  <h2>Where Can You Renew Your Ukrainian Passport in Poland?</h2>
+  <p>Ukraine has <strong>five General Consulates</strong> in Poland:</p>
+  <ul>
+    <li><strong>Warsaw</strong> — ul. Szturmowa 1/3</li>
+    <li><strong>Kraków</strong> — ul. Staszica 7</li>
+    <li><strong>Gdańsk</strong> — ul. Tkacka 7/8</li>
+    <li><strong>Wrocław</strong> — ul. Jedności Narodowej 63</li>
+    <li><strong>Lublin</strong> — ul. Lipowa 11</li>
+  </ul>
+  <p>Choose the consulate closest to where you live. Due to high demand, appointment slots are often booked up weeks or months in advance — register as early as possible.</p>
+
+  <h2>How to Book an Appointment</h2>
+  <ol>
+    <li>Visit the relevant consulate's website or booking portal</li>
+    <li>Select the service: "Biometric passport" or "Foreign passport"</li>
+    <li>Choose an available date and fill in the registration form</li>
+    <li>You will receive a confirmation by email or SMS</li>
+  </ol>
+  <p><strong>Tip:</strong> Availability can be very limited, especially in Warsaw. Check the website regularly — slots appear when other applicants cancel.</p>
+
+  <h2>What Documents Do You Need?</h2>
+  <ul>
+    <li><strong>Your old passport</strong> (even if expired) — original</li>
+    <li><strong>Completed passport application form</strong> — available at the consulate or for download from its website</li>
+    <li><strong>Biometric photo</strong> — 3.5 × 4.5 cm, white background, no head covering; the consulate can take the photo for an additional fee</li>
+    <li><strong>Proof of consular fee payment</strong> — usually card payment at the consulate or a bank transfer before the appointment</li>
+    <li><strong>Document proving your stay in Poland</strong> — e.g. temporary residence card, visa, or residence registration certificate</li>
+  </ul>
+  <p>If your personal data has changed (e.g. name change after marriage) or you have lost your old passport, additional documents are required. Check the current requirements on the consulate's website before your visit.</p>
+
+  <h2>How Much Does It Cost?</h2>
+  <p>The consular fee for a biometric passport is usually <strong>100–200 PLN</strong> (or the equivalent in hryvnias or euros — depending on the consulate). Check the current fee on the consulate's website before your appointment, as fees can change.</p>
+
+  <h2>How Long Does It Take?</h2>
+  <ul>
+    <li><strong>Standard processing:</strong> 30–60 business days (approximately 2–3 months)</li>
+    <li><strong>Expedited processing:</strong> 10–20 business days — usually available for a higher fee, but not always offered</li>
+  </ul>
+  <p>If you have an urgent need (for example, your residence card is tied to a passport that is expiring), mention this to the consular officer at your appointment — they may be able to expedite your application.</p>
+
+  <h2>Does My Polish Residence Card Stay Valid If My Passport Expires?</h2>
+  <p>Yes — your Polish temporary residence card (karta czasowego pobytu) remains valid independently of your passport's expiry date. However, you will typically need a valid passport for international travel and identity verification. If your passport has expired while you are waiting for your residence permit extension, inform the immigration office (Urząd ds. Cudzoziemców) about the situation.</p>
+
+  <h2>What If My Passport Is Lost or Stolen?</h2>
+  <ol>
+    <li>Report the loss or theft at the nearest police station and obtain a written report (protokół) — you will need it at the consulate</li>
+    <li>Contact the Ukrainian Consulate and book an urgent appointment</li>
+    <li>The consulate can issue a <strong>temporary travel document</strong> (laissez-passer) to travel back to Ukraine if urgently needed</li>
+  </ol>
+
+  <h2>Step-by-Step Summary</h2>
+  <ol>
+    <li><strong>Book an appointment</strong> at the nearest Ukrainian Consulate as early as possible</li>
+    <li><strong>Prepare your documents</strong> — old passport, photo, application form, proof of fee payment</li>
+    <li><strong>Attend your appointment</strong> — the consular officer will take your fingerprints and biometric photo</li>
+    <li><strong>Wait</strong> for your passport to be ready (30–60 business days for standard processing)</li>
+    <li><strong>Collect your passport</strong> in person or through an authorised representative</li>
+  </ol>
+  <p>Working in Poland and have questions about your documents or rights? Nexflow supports its workers every step of the way — get in touch with us.</p>
+</article>
+    `.trim(),
+  },
+
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
