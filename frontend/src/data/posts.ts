@@ -22666,6 +22666,362 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p><em>Have questions about ZUS contributions or your rights as a temporary worker in Poland? Nexflow supports foreign workers at every step — get in touch.</em></p>
     `.trim(),
   },
+  {
+    slug: "praca-tymczasowa-przez-agencje-polska-jak-dziala",
+    title: "Jak działa praca tymczasowa przez agencję w Polsce?",
+    description:
+      "Dowiedz się, kim jest agencja pracy, pracodawca użytkownik i Ty jako pracownik tymczasowy. Poznaj swoje prawa i obowiązki wynikające z umowy zlecenia przez agencję.",
+    date: "2026-09-06",
+    lang: "pl",
+    content: `
+<h1>Jak działa praca tymczasowa przez agencję w Polsce?</h1>
+
+<p>Jeśli pracujesz w Polsce za pośrednictwem agencji pracy tymczasowej, jak Nexflow, Twoja sytuacja prawna jest nieco inna niż zwykłego pracownika zatrudnionego bezpośrednio przez firmę. Warto wiedzieć, jak działa ten system, jakie masz prawa i co reguluje Twoje zatrudnienie.</p>
+
+<h2>Trójstronny stosunek pracy</h2>
+
+<p>Praca tymczasowa w Polsce opiera się na trójstronnej relacji między trzema podmiotami:</p>
+
+<ul>
+  <li><strong>Agencja pracy tymczasowej (np. Nexflow)</strong> — to Twój formalny pracodawca. Podpisujesz z nią umowę, agencja wypłaca Ci wynagrodzenie, zgłasza Cię do ZUS i odprowadza podatki.</li>
+  <li><strong>Pracodawca użytkownik</strong> — to firma, w której fizycznie pracujesz (magazyn, fabryka, centrum logistyczne). Kieruje Twoją pracą na co dzień, wyznacza zadania, ustala godziny.</li>
+  <li><strong>Ty jako pracownik tymczasowy</strong> — wykonujesz pracę u pracodawcy użytkownika, ale jesteś zatrudniony przez agencję.</li>
+</ul>
+
+<p>Podstawa prawna: <em>Ustawa z dnia 9 lipca 2003 r. o zatrudnianiu pracowników tymczasowych</em> (Dz.U. 2003 nr 166 poz. 1608 ze zm.).</p>
+
+<h2>Co reguluje Twoje zatrudnienie?</h2>
+
+<p>Twoja umowa (najczęściej <strong>umowa zlecenia</strong> lub <strong>umowa o pracę tymczasową</strong>) zawierana jest z agencją pracy. Powinna określać:</p>
+
+<ul>
+  <li>pracodawcę użytkownika (firmę, u której pracujesz),</li>
+  <li>rodzaj pracy i miejsce jej wykonywania,</li>
+  <li>datę rozpoczęcia i planowany czas trwania,</li>
+  <li>wysokość wynagrodzenia,</li>
+  <li>wymiar czasu pracy.</li>
+</ul>
+
+<h2>Maksymalny czas pracy tymczasowej</h2>
+
+<p>U jednego pracodawcy użytkownika możesz pracować jako pracownik tymczasowy przez <strong>maksymalnie 18 miesięcy w ciągu 36 miesięcy</strong>. Po przekroczeniu tego limitu pracodawca użytkownik jest zobowiązany zaoferować Ci zatrudnienie bezpośrednie lub rozstać się z Tobą.</p>
+
+<h2>Twoje prawa jako pracownika tymczasowego</h2>
+
+<p>Pracownicy tymczasowi mają te same podstawowe prawa co inni pracownicy:</p>
+
+<ul>
+  <li>minimalne wynagrodzenie (w 2025 roku: 4666 zł brutto/miesiąc),</li>
+  <li>prawo do wynagrodzenia za pracę w godzinach nadliczbowych,</li>
+  <li>prawo do urlopu wypoczynkowego (2 dni za każdy przepracowany miesiąc),</li>
+  <li>objęcie ubezpieczeniami społecznymi (ZUS) i zdrowotnym (NFZ),</li>
+  <li>prawo do L4 (zwolnienia lekarskiego),</li>
+  <li>ochrona przed dyskryminacją i mobbingiem.</li>
+</ul>
+
+<h2>Kto jest odpowiedzialny za co?</h2>
+
+<table>
+  <thead>
+    <tr><th>Zadanie</th><th>Agencja (Nexflow)</th><th>Pracodawca użytkownik</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Podpisanie umowy</td><td>✓</td><td>—</td></tr>
+    <tr><td>Wypłata wynagrodzenia</td><td>✓</td><td>—</td></tr>
+    <tr><td>Zgłoszenie do ZUS/NFZ</td><td>✓</td><td>—</td></tr>
+    <tr><td>Szkolenia BHP</td><td>✓ (wstępne)</td><td>✓ (stanowiskowe)</td></tr>
+    <tr><td>Organizacja pracy</td><td>—</td><td>✓</td></tr>
+    <tr><td>Badania lekarskie</td><td>✓</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h2>Jak Nexflow Cię wspiera?</h2>
+
+<p>Jako Twój pracodawca, Nexflow dba o:</p>
+<ul>
+  <li>legalne zgłoszenie do ubezpieczeń od pierwszego dnia pracy,</li>
+  <li>terminową wypłatę wynagrodzenia,</li>
+  <li>wymagane badania lekarskie i szkolenia BHP,</li>
+  <li>pomoc w formalnościach związanych z pobytem i pracą w Polsce,</li>
+  <li>wsparcie w przypadku problemów z pracodawcą użytkownikiem.</li>
+</ul>
+
+<h2>Co zrobić, jeśli masz problem?</h2>
+
+<p>Jeśli masz konflikt z pracodawcą użytkownikiem (np. bezprawne polecenia, nieodpowiednie warunki), zgłoś się do <strong>Nexflow</strong> — jako agencja jesteśmy pośrednikiem i możemy interweniować. Możesz też złożyć skargę do <strong>Państwowej Inspekcji Pracy (PIP)</strong>.</p>
+
+<h2>Podsumowanie</h2>
+
+<p>Praca tymczasowa przez agencję to legalna i popularna forma zatrudnienia w Polsce. Znając swoje prawa i wiedzą, kto za co odpowiada, możesz spokojnie pracować i egzekwować swoje uprawnienia. W razie pytań — Nexflow jest zawsze do Twojej dyspozycji.</p>
+    `.trim(),
+  },
+  {
+    slug: "pratsya-tymchasova-cherez-ahentsiyu-polshcha-yak-pratsiuie",
+    title: "Як працює тимчасова праця через агенцію в Польщі?",
+    description:
+      "Дізнайтесь, хто такі агенція праці, роботодавець-користувач і ви як тимчасовий працівник. Ваші права та обов'язки при роботі через агенцію в Польщі.",
+    date: "2026-09-06",
+    lang: "uk",
+    content: `
+<h1>Як працює тимчасова праця через агенцію в Польщі?</h1>
+
+<p>Якщо ви працюєте в Польщі через агенцію тимчасової праці, наприклад Nexflow, ваше правове становище дещо відрізняється від звичайного працівника, якого наймає безпосередньо підприємство. Важливо розуміти, як функціонує ця система, які ви маєте права та що регулює ваше працевлаштування.</p>
+
+<h2>Тристороння трудова система</h2>
+
+<p>Тимчасова праця в Польщі ґрунтується на тристоронніх відносинах між трьома суб'єктами:</p>
+
+<ul>
+  <li><strong>Агенція тимчасової праці (наприклад, Nexflow)</strong> — ваш офіційний роботодавець. Саме з нею ви підписуєте договір, вона виплачує вам зарплату, реєструє вас у ZUS і відраховує податки.</li>
+  <li><strong>Роботодавець-користувач</strong> — компанія, де ви фізично працюєте (склад, фабрика, логістичний центр). Вона керує вашою роботою щодня, ставить завдання й визначає робочий графік.</li>
+  <li><strong>Ви як тимчасовий працівник</strong> — виконуєте роботу у роботодавця-користувача, проте офіційно найняті агенцією.</li>
+</ul>
+
+<p>Правова основа: <em>Закон від 9 липня 2003 р. про найм тимчасових працівників</em> (Ustawa o zatrudnianiu pracownikow tymczasowych).</p>
+
+<h2>Що регулює ваше працевлаштування?</h2>
+
+<p>Ваш договір (найчастіше <strong>договір підряду</strong> або <strong>договір про тимчасову роботу</strong>) укладається з агенцією. Він повинен містити:</p>
+
+<ul>
+  <li>назву роботодавця-користувача (де ви будете працювати),</li>
+  <li>вид роботи та місце її виконання,</li>
+  <li>дату початку та орієнтовний термін,</li>
+  <li>розмір винагороди,</li>
+  <li>режим робочого часу.</li>
+</ul>
+
+<h2>Максимальний термін тимчасової роботи</h2>
+
+<p>В одного роботодавця-користувача ви можете працювати як тимчасовий працівник щонайбільше <strong>18 місяців протягом 36 місяців</strong>. Після перевищення цього ліміту роботодавець-користувач зобов'язаний запропонувати вам пряме працевлаштування або розлучитися з вами.</p>
+
+<h2>Ваші права як тимчасового працівника</h2>
+
+<p>Тимчасові працівники мають ті самі основні права, що й інші працівники:</p>
+
+<ul>
+  <li>мінімальна заробітна плата (у 2025 р.: 4 666 зл. брутто на місяць),</li>
+  <li>право на оплату понаднормової праці,</li>
+  <li>право на щорічну відпустку (2 дні за кожен відпрацьований місяць),</li>
+  <li>соціальне (ZUS) і медичне (NFZ) страхування,</li>
+  <li>право на L4 (лікарняний лист),</li>
+  <li>захист від дискримінації та мобінгу.</li>
+</ul>
+
+<h2>Хто за що відповідає?</h2>
+
+<table>
+  <thead>
+    <tr><th>Завдання</th><th>Агенція (Nexflow)</th><th>Роботодавець-користувач</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Підписання договору</td><td>TAK</td><td>—</td></tr>
+    <tr><td>Виплата зарплати</td><td>TAK</td><td>—</td></tr>
+    <tr><td>Реєстрація в ZUS/NFZ</td><td>TAK</td><td>—</td></tr>
+    <tr><td>Навчання з охорони праці</td><td>TAK (вступне)</td><td>TAK (на місці)</td></tr>
+    <tr><td>Організація праці</td><td>—</td><td>TAK</td></tr>
+    <tr><td>Медичні огляди</td><td>TAK</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h2>Як Nexflow підтримує вас?</h2>
+
+<p>Як ваш роботодавець, Nexflow дбає про:</p>
+<ul>
+  <li>законну реєстрацію у системі страхування з першого дня роботи,</li>
+  <li>своєчасну виплату заробітної плати,</li>
+  <li>необхідні медичні огляди та навчання з охорони праці,</li>
+  <li>допомогу з оформленням документів, пов'язаних із перебуванням і роботою в Польщі,</li>
+  <li>підтримку у разі проблем із роботодавцем-користувачем.</li>
+</ul>
+
+<h2>Що робити, якщо виникла проблема?</h2>
+
+<p>Якщо у вас конфлікт із роботодавцем-користувачем (незаконні вказівки, неналежні умови), зверніться до <strong>Nexflow</strong> — ми є посередником і можемо втрутитися. Також ви маєте право подати скаргу до <strong>Державної інспекції праці (PIP)</strong>.</p>
+
+<h2>Підсумок</h2>
+
+<p>Тимчасова робота через агенцію — це законна й поширена форма зайнятості в Польщі. Знаючи свої права і розуміючи, хто за що відповідає, ви можете спокійно працювати й відстоювати свої інтереси. Якщо є питання — Nexflow завжди до ваших послуг.</p>
+    `.trim(),
+  },
+  {
+    slug: "rabota-cherez-agentstvo-polsha-kak-rabotaet-vremennyj-trud",
+    title: "Как работает временная занятость через агентство в Польше?",
+    description:
+      "Узнайте, кто такие агентство труда, работодатель-пользователь и вы как временный работник. Ваши права и обязанности при работе через агентство в Польше.",
+    date: "2026-09-06",
+    lang: "ru",
+    content: `
+<h1>Как работает временная занятость через агентство в Польше?</h1>
+
+<p>Если вы работаете в Польше через агентство временного труда, например Nexflow, ваше правовое положение несколько отличается от обычного работника, нанятого напрямую предприятием. Важно понимать, как устроена эта система, какие у вас права и что регулирует ваше трудоустройство.</p>
+
+<h2>Трёхсторонняя трудовая система</h2>
+
+<p>Временный труд в Польше основан на трёхсторонних отношениях между тремя субъектами:</p>
+
+<ul>
+  <li><strong>Агентство временного труда (например, Nexflow)</strong> — ваш официальный работодатель. Именно с ним вы подписываете договор, оно выплачивает вам зарплату, регистрирует вас в ZUS и перечисляет налоги.</li>
+  <li><strong>Работодатель-пользователь</strong> — компания, где вы физически работаете (склад, завод, логистический центр). Он управляет вашей работой ежедневно, ставит задачи и определяет рабочий график.</li>
+  <li><strong>Вы как временный работник</strong> — выполняете работу у работодателя-пользователя, но официально наняты агентством.</li>
+</ul>
+
+<p>Правовая основа: <em>Закон от 9 июля 2003 г. о найме временных работников</em> (Ustawa o zatrudnianiu pracownikow tymczasowych).</p>
+
+<h2>Что регулирует ваше трудоустройство?</h2>
+
+<p>Ваш договор (чаще всего <strong>договор подряда</strong> или <strong>договор о временной работе</strong>) заключается с агентством. В нём должны быть указаны:</p>
+
+<ul>
+  <li>наименование работодателя-пользователя (где вы будете работать),</li>
+  <li>вид работы и место её выполнения,</li>
+  <li>дата начала и ориентировочный срок,</li>
+  <li>размер вознаграждения,</li>
+  <li>режим рабочего времени.</li>
+</ul>
+
+<h2>Максимальный срок временной работы</h2>
+
+<p>У одного работодателя-пользователя вы можете работать как временный работник не более <strong>18 месяцев в течение 36 месяцев</strong>. При превышении этого лимита работодатель-пользователь обязан предложить вам прямое трудоустройство или расстаться с вами.</p>
+
+<h2>Ваши права как временного работника</h2>
+
+<p>Временные работники имеют те же основные права, что и другие работники:</p>
+
+<ul>
+  <li>минимальная заработная плата (в 2025 г.: 4 666 злотых брутто в месяц),</li>
+  <li>право на оплату сверхурочной работы,</li>
+  <li>право на ежегодный отпуск (2 дня за каждый отработанный месяц),</li>
+  <li>социальное (ZUS) и медицинское (NFZ) страхование,</li>
+  <li>право на L4 (больничный лист),</li>
+  <li>защита от дискриминации и моббинга.</li>
+</ul>
+
+<h2>Кто за что отвечает?</h2>
+
+<table>
+  <thead>
+    <tr><th>Задача</th><th>Агентство (Nexflow)</th><th>Работодатель-пользователь</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Подписание договора</td><td>ДА</td><td>—</td></tr>
+    <tr><td>Выплата зарплаты</td><td>ДА</td><td>—</td></tr>
+    <tr><td>Регистрация в ZUS/NFZ</td><td>ДА</td><td>—</td></tr>
+    <tr><td>Инструктаж по охране труда</td><td>ДА (вводный)</td><td>ДА (на рабочем месте)</td></tr>
+    <tr><td>Организация труда</td><td>—</td><td>ДА</td></tr>
+    <tr><td>Медицинские осмотры</td><td>ДА</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h2>Как Nexflow поддерживает вас?</h2>
+
+<p>Как ваш работодатель, Nexflow заботится о:</p>
+<ul>
+  <li>законной регистрации в системе страхования с первого дня работы,</li>
+  <li>своевременной выплате заработной платы,</li>
+  <li>необходимых медицинских осмотрах и инструктажах по охране труда,</li>
+  <li>помощи в оформлении документов, связанных с пребыванием и работой в Польше,</li>
+  <li>поддержке при возникновении проблем с работодателем-пользователем.</li>
+</ul>
+
+<h2>Что делать, если возникла проблема?</h2>
+
+<p>Если у вас конфликт с работодателем-пользователем (незаконные указания, ненадлежащие условия), обратитесь в <strong>Nexflow</strong> — мы являемся посредником и можем вмешаться. Вы также вправе подать жалобу в <strong>Государственную инспекцию труда (PIP)</strong>.</p>
+
+<h2>Итог</h2>
+
+<p>Временная работа через агентство — это законная и распространённая форма занятости в Польше. Зная свои права и понимая, кто за что отвечает, вы можете спокойно работать и отстаивать свои интересы. Если есть вопросы — Nexflow всегда к вашим услугам.</p>
+    `.trim(),
+  },
+  {
+    slug: "temp-staffing-agency-work-poland-how-it-works",
+    title: "How Temp Staffing Through an Agency Works in Poland",
+    description:
+      "Learn who the staffing agency, user employer, and you as a temp worker are. Understand the tripartite employment relationship, your rights, and responsibilities when working through a temp agency in Poland.",
+    date: "2026-09-06",
+    lang: "en",
+    content: `
+<h1>How Temp Staffing Through an Agency Works in Poland</h1>
+
+<p>If you work in Poland through a temporary staffing agency like Nexflow, your legal situation is somewhat different from a regular employee hired directly by a company. Understanding how this system works, what rights you have, and what governs your employment is essential for working with confidence.</p>
+
+<h2>The Tripartite Employment Relationship</h2>
+
+<p>Temporary staffing in Poland is based on a three-way relationship between three parties:</p>
+
+<ul>
+  <li><strong>The temporary staffing agency (e.g., Nexflow)</strong> — your official employer. You sign the contract with the agency, which pays your wages, registers you with ZUS (social insurance), and withholds your taxes.</li>
+  <li><strong>The user employer</strong> — the company where you physically work (warehouse, factory, logistics centre). They direct your day-to-day work, assign tasks, and set your schedule.</li>
+  <li><strong>You as a temporary worker</strong> — you carry out work at the user employer's premises, but you are officially employed by the agency.</li>
+</ul>
+
+<p>Legal basis: <em>Act of 9 July 2003 on the Employment of Temporary Workers</em> (Ustawa o zatrudnianiu pracownikow tymczasowych).</p>
+
+<h2>What Governs Your Employment?</h2>
+
+<p>Your contract (most often a <strong>civil-law contract</strong> or a <strong>temporary employment contract</strong>) is concluded with the agency. It must specify:</p>
+
+<ul>
+  <li>the user employer (the company where you will work),</li>
+  <li>the type of work and place of performance,</li>
+  <li>the start date and expected duration,</li>
+  <li>the remuneration amount,</li>
+  <li>working time arrangements.</li>
+</ul>
+
+<h2>Maximum Duration of Temporary Work</h2>
+
+<p>You may work as a temporary employee for the same user employer for a maximum of <strong>18 months within any 36-month period</strong>. Once this limit is reached, the user employer must either offer you direct employment or end the engagement.</p>
+
+<h2>Your Rights as a Temporary Worker</h2>
+
+<p>Temporary workers have the same fundamental rights as other employees:</p>
+
+<ul>
+  <li>minimum wage (in 2025: PLN 4,666 gross per month),</li>
+  <li>right to overtime pay,</li>
+  <li>right to annual leave (2 days for each full month worked),</li>
+  <li>social (ZUS) and health (NFZ) insurance coverage,</li>
+  <li>right to sick leave (L4),</li>
+  <li>protection against discrimination and workplace harassment.</li>
+</ul>
+
+<h2>Who Is Responsible for What?</h2>
+
+<table>
+  <thead>
+    <tr><th>Responsibility</th><th>Agency (Nexflow)</th><th>User Employer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Signing the contract</td><td>YES</td><td>—</td></tr>
+    <tr><td>Paying wages</td><td>YES</td><td>—</td></tr>
+    <tr><td>ZUS/NFZ registration</td><td>YES</td><td>—</td></tr>
+    <tr><td>Health &amp; safety training</td><td>YES (induction)</td><td>YES (on-site)</td></tr>
+    <tr><td>Organising daily work</td><td>—</td><td>YES</td></tr>
+    <tr><td>Medical examinations</td><td>YES</td><td>—</td></tr>
+  </tbody>
+</table>
+
+<h2>How Nexflow Supports You</h2>
+
+<p>As your employer, Nexflow takes care of:</p>
+<ul>
+  <li>legal registration in the social insurance system from your first day of work,</li>
+  <li>timely payment of wages,</li>
+  <li>required medical examinations and health &amp; safety training,</li>
+  <li>assistance with paperwork related to your residence and work in Poland,</li>
+  <li>support if problems arise with the user employer.</li>
+</ul>
+
+<h2>What to Do If a Problem Arises</h2>
+
+<p>If you have a conflict with the user employer (unlawful instructions, improper conditions), contact <strong>Nexflow</strong> — as the agency, we act as an intermediary and can intervene. You may also file a complaint with the <strong>National Labour Inspectorate (PIP — Panstwowa Inspekcja Pracy)</strong>.</p>
+
+<h2>Summary</h2>
+
+<p>Working through a staffing agency is a legal and common form of employment in Poland. Knowing your rights and understanding who is responsible for what lets you work with confidence and assert your entitlements. If you have any questions — Nexflow is always here to help.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
