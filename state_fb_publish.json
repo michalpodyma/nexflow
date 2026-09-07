@@ -1752,8 +1752,32 @@
       "fb_post_id": "1107760715748033_122129896826808780",
       "published_at": "2026-09-07T07:03:26+0000",
       "sitemap_lastmod": "2031-06-05T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/pip-panstwowa-inspekcja-pracy-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122129899130808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/derzhavna-inspektsiya-pratsi-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122129899172808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/gosudarstvennaya-inspektsiya-truda-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122129899190808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/labour-inspectorate-pip-foreign-worker-complaint-poland",
+      "fb_post_id": "1107760715748033_122129899226808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
     }
   ],
-  "last_run": "2026-09-07T07:03:26+0000",
+  "last_run": "2026-09-07T08:30:00+0000",
   "pending": []
 }
