@@ -23555,6 +23555,721 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Your nationality does not reduce your rights. Polish labour law applies equally to all workers, regardless of where they come from.</p>
     `.trim(),
   },
+
+  {
+    slug: "ppk-pracownicze-plany-kapitalowe-cudzoziemiec-polska",
+    title: "PPK – co to jest i co zrobić jako cudzoziemiec w Polsce",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – jak działa program oszczędności emerytalnych, czy warto pozostać, jak zrezygnować i co dzieje się ze środkami po wyjeździe z Polski.",
+    date: "2031-07-10",
+    lang: "pl",
+    content: `
+<p>Na pierwszym odcinku wypłaty widzisz potrącenie „PPK 2%" i zastanawiasz się, co to jest. Pracownicze Plany Kapitałowe (PPK) to program wspólnego oszczędzania na emeryturę prowadzony przez pracodawcę, pracownika i państwo. Poniżej wyjaśniamy, jak działa, ile kosztuje i co możesz z tym zrobić.</p>
+
+<h2>Czym są Pracownicze Plany Kapitałowe?</h2>
+<p>PPK to dobrowolny (ale z automatycznym zapisem) program długoterminowego oszczędzania, wprowadzony w Polsce w 2019 r. Twoje składki trafiają na indywidualne konto i są Twoją własnością — niezależnie od pracodawcy czy miejsca zamieszkania.</p>
+
+<h2>Kto jest automatycznie zapisywany do PPK?</h2>
+<ul>
+  <li>Pracownicy na umowę o pracę (w tym tymczasowi) po <strong>3 miesiącach stażu</strong> u danego pracodawcy.</li>
+  <li>Pracodawca zapisuje Cię automatycznie — bez Twojego wniosku.</li>
+  <li>Możesz zrezygnować w każdej chwili, składając pisemny wniosek do działu kadr.</li>
+</ul>
+
+<h2>Ile wynoszą składki PPK?</h2>
+<p>Składki liczone od wynagrodzenia brutto:</p>
+<ul>
+  <li><strong>Pracownik (Ty):</strong> 2% (możesz dobrowolnie zwiększyć do 4%)</li>
+  <li><strong>Pracodawca:</strong> 1,5% (może dodatkowo dopłacić do 2,5%)</li>
+  <li><strong>Państwo – jednorazowo:</strong> 250 zł na start</li>
+  <li><strong>Państwo – co rok:</strong> 240 zł dopłaty rocznej</li>
+</ul>
+<p><strong>Przykład:</strong> zarabiasz 4 000 zł brutto → Twoja składka = 80 zł, pracodawca dokłada 60 zł. Na konto PPK wpływa 140 zł miesięcznie plus roczna dopłata państwa.</p>
+
+<h2>Czy PPK jest opłacalne dla cudzoziemca?</h2>
+<p>Dla większości pracowników: <strong>tak</strong>. Składka pracodawcy (1,5%) to darmowy bonus — rezygnując z PPK, tracisz te pieniądze bezpowrotnie. Dla cudzoziemców planujących wyjazd: pieniądze <strong>nie przepadają</strong>. Możesz wypłacić je zdalnie lub zostawić do 60. roku życia.</p>
+
+<h2>Kiedy i jak można wypłacić środki?</h2>
+<ul>
+  <li><strong>Po 60. roku życia:</strong> 25% jednorazowo bez podatku, reszta w 120 ratach — brak podatku od zysku.</li>
+  <li><strong>Wcześniejsza wypłata (w każdej chwili):</strong> możliwa, ale tracisz dopłaty państwa i płacisz 19% podatek od zysku inwestycyjnego.</li>
+  <li><strong>Poważna choroba / zakup mieszkania:</strong> specjalne zasady — częściowa wypłata bez pełnych kar.</li>
+</ul>
+
+<h2>Jak zrezygnować z PPK?</h2>
+<ol>
+  <li>Pobierz formularz rezygnacji w dziale kadr lub ze strony swojej instytucji PPK.</li>
+  <li>Złóż go pisemnie u pracodawcy.</li>
+  <li>Rezygnacja obowiązuje 4 lata — po tym czasie pracodawca ponownie automatycznie Cię zapisze (możesz ponownie zrezygnować).</li>
+</ol>
+
+<h2>Co się dzieje z PPK po wyjeździe z Polski?</h2>
+<p>Twoje konto PPK pozostaje aktywne. Możesz je zarządzać zdalnie przez aplikację swojej instytucji finansowej (np. PFR Portal PPK) i wypłacić środki nawet mieszkając za granicą.</p>
+
+<h2>Pytania? Skontaktuj się z Nexflow</h2>
+<p>Twój koordynator wyjaśni szczegóły PPK w kontekście Twojej konkretnej umowy. Napisz do nas na WhatsApp lub przez aplikację Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-pratsiuiuchi-plany-kapitalovi-inozemets-polshcha",
+    title: "PPK – що це таке і що робити як іноземцю в Польщі",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – як працює програма пенсійних заощаджень, чи варто залишатися, як відмовитися та що відбувається з коштами після виїзду з Польщі.",
+    date: "2031-07-17",
+    lang: "uk",
+    content: `
+<p>На першому розрахунковому листку бачиш утримання «PPK 2%» і не розумієш, що це таке. PPK (Pracownicze Plany Kapitałowe — Трудові Плани Капіталу) — це програма спільного пенсійного накопичення, яку фінансують роботодавець, працівник і держава. Нижче пояснюємо, як вона працює і що ти можеш зробити.</p>
+
+<h2>Що таке PPK?</h2>
+<p>PPK — це добровільна (але з автоматичним записом) програма довгострокових заощаджень, запроваджена в Польщі у 2019 році. Твої внески надходять на індивідуальний рахунок і є твоєю власністю — незалежно від роботодавця чи місця проживання.</p>
+
+<h2>Хто автоматично записується до PPK?</h2>
+<ul>
+  <li>Працівники за трудовим договором (у т.ч. тимчасові) після <strong>3 місяців стажу</strong> у цього роботодавця.</li>
+  <li>Роботодавець записує тебе автоматично — без твоєї заяви.</li>
+  <li>Ти можеш відмовитися в будь-який момент, подавши письмову заяву до відділу кадрів.</li>
+</ul>
+
+<h2>Які розміри внесків PPK?</h2>
+<p>Внески розраховуються від брутто-зарплати:</p>
+<ul>
+  <li><strong>Працівник (ти):</strong> 2% (можеш добровільно збільшити до 4%)</li>
+  <li><strong>Роботодавець:</strong> 1,5% (може доплатити до 2,5% додатково)</li>
+  <li><strong>Держава – одноразово:</strong> 250 зл на старт</li>
+  <li><strong>Держава – щороку:</strong> 240 зл річної доплати</li>
+</ul>
+<p><strong>Приклад:</strong> заробляєш 4 000 зл брутто → твій внесок = 80 зл, роботодавець додає 60 зл. На рахунок PPK щомісяця надходить 140 зл плюс річна доплата держави.</p>
+
+<h2>Чи вигідне PPK для іноземця?</h2>
+<p>Для більшості працівників: <strong>так</strong>. Внесок роботодавця (1,5%) — це безкоштовний бонус. Відмовляючись від PPK, ти втрачаєш ці гроші назавжди. Для іноземців, які планують виїзд: гроші <strong>не зникають</strong>. Ти можеш вивести їх дистанційно або залишити до 60 років.</p>
+
+<h2>Коли і як можна вивести кошти?</h2>
+<ul>
+  <li><strong>Після 60 років:</strong> 25% одноразово без податку, решта — 120 траншами без податку на прибуток.</li>
+  <li><strong>Дострокове виведення (у будь-який момент):</strong> можливе, але ти втрачаєш державні доплати та сплачуєш 19% податок на інвестиційний прибуток.</li>
+  <li><strong>Важка хвороба / купівля житла:</strong> спеціальні умови — часткове виведення без повних штрафів.</li>
+</ul>
+
+<h2>Як відмовитися від PPK?</h2>
+<ol>
+  <li>Отримай бланк відмови у відділі кадрів або на сайті своєї фінансової установи PPK.</li>
+  <li>Подай його письмово роботодавцю.</li>
+  <li>Відмова діє 4 роки — після цього роботодавець знову автоматично запише тебе (можна відмовитися знову).</li>
+</ol>
+
+<h2>Що відбувається з PPK після виїзду з Польщі?</h2>
+<p>Твій рахунок PPK залишається активним. Ти можеш керувати ним дистанційно через застосунок своєї фінансової установи (наприклад, PFR Portal PPK) і виводити кошти, навіть проживаючи за кордоном.</p>
+
+<h2>Питання? Зв'яжися з Nexflow</h2>
+<p>Твій координатор у Nexflow пояснить деталі PPK стосовно твого конкретного договору. Напиши нам у WhatsApp або через застосунок Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-kapitalnye-plany-inostranets-polsha",
+    title: "PPK – что это такое и что делать иностранцу в Польше",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – как работает программа пенсионных накоплений, стоит ли оставаться, как отказаться и что происходит с деньгами после отъезда из Польши.",
+    date: "2031-07-24",
+    lang: "ru",
+    content: `
+<p>В первом расчётном листке ты видишь удержание «PPK 2%» и не понимаешь, что это. PPK (Pracownicze Plany Kapitałowe — Трудовые Планы Капитала) — программа совместного пенсионного накопления, финансируемая работодателем, работником и государством. Ниже объясняем, как она устроена и что с ней делать.</p>
+
+<h2>Что такое PPK?</h2>
+<p>PPK — добровольная (но с автоматическим включением) программа долгосрочных сбережений, введённая в Польше в 2019 г. Твои взносы поступают на индивидуальный счёт и остаются твоей собственностью — независимо от работодателя и страны проживания.</p>
+
+<h2>Кто автоматически включается в PPK?</h2>
+<ul>
+  <li>Работники по трудовому договору (в т.ч. временные) после <strong>3 месяцев стажа</strong> у данного работодателя.</li>
+  <li>Работодатель включает тебя автоматически — без твоего заявления.</li>
+  <li>Ты можешь отказаться в любой момент, подав письменное заявление в отдел кадров.</li>
+</ul>
+
+<h2>Каков размер взносов PPK?</h2>
+<p>Взносы считаются от зарплаты-брутто:</p>
+<ul>
+  <li><strong>Работник (ты):</strong> 2% (можно добровольно увеличить до 4%)</li>
+  <li><strong>Работодатель:</strong> 1,5% (может доплачивать до 2,5% дополнительно)</li>
+  <li><strong>Государство – единовременно:</strong> 250 зл на старт</li>
+  <li><strong>Государство – ежегодно:</strong> 240 зл в год</li>
+</ul>
+<p><strong>Пример:</strong> зарплата 4 000 зл брутто → твой взнос = 80 зл, работодатель добавляет 60 зл. На счёт PPK ежемесячно поступает 140 зл плюс ежегодная доплата государства.</p>
+
+<h2>Выгодно ли PPK для иностранца?</h2>
+<p>Для большинства работников: <strong>да</strong>. Взнос работодателя (1,5%) — это бесплатный бонус к зарплате. Отказываясь от PPK, ты безвозвратно теряешь эти деньги. Для иностранцев, планирующих отъезд: деньги <strong>не пропадают</strong>. Их можно вывести дистанционно или оставить до 60 лет.</p>
+
+<h2>Когда и как можно вывести средства?</h2>
+<ul>
+  <li><strong>После 60 лет:</strong> 25% единовременно без налога, остаток — 120 частями без налога на прирост капитала.</li>
+  <li><strong>Досрочный вывод (в любой момент):</strong> возможен, но теряешь государственные доплаты и платишь 19% налог на инвестиционный доход.</li>
+  <li><strong>Тяжёлая болезнь / покупка жилья:</strong> особые условия — частичный вывод без полных штрафов.</li>
+</ul>
+
+<h2>Как отказаться от PPK?</h2>
+<ol>
+  <li>Получи бланк отказа в отделе кадров или на сайте своей финансовой организации PPK.</li>
+  <li>Подай его письменно работодателю.</li>
+  <li>Отказ действует 4 года — после этого работодатель снова автоматически включит тебя (можно отказаться повторно).</li>
+</ol>
+
+<h2>Что происходит с PPK после отъезда из Польши?</h2>
+<p>Счёт PPK остаётся активным. Ты можешь управлять им дистанционно через приложение своей финансовой организации (например, PFR Portal PPK) и выводить деньги, даже живя за рубежом.</p>
+
+<h2>Вопросы? Свяжись с Nexflow</h2>
+<p>Твой координатор в Nexflow объяснит детали PPK применительно к твоему договору. Напиши нам в WhatsApp или через приложение Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-employee-capital-plans-foreign-worker-poland",
+    title: "PPK Employee Capital Plans – What Foreign Workers in Poland Need to Know",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) is Poland's employer-run retirement savings programme. This guide explains how it works, whether to stay enrolled, how to opt out, and what happens to your savings if you leave Poland.",
+    date: "2031-07-31",
+    lang: "en",
+    content: `
+<p>You just received your first Polish payslip and noticed a deduction labelled "PPK 2%". What is PPK, and should you stay enrolled? This guide explains everything you need to know about Poland's Employee Capital Plans as a foreign temporary worker.</p>
+
+<h2>What Is PPK?</h2>
+<p>PPK (Pracownicze Plany Kapitałowe — Employee Capital Plans) is Poland's voluntary but auto-enrollment retirement savings programme, launched in 2019. Contributions from you, your employer, and the Polish state are invested in a fund managed by a licensed financial institution. The savings belong to you personally — they don't disappear if you change employers or leave Poland.</p>
+
+<h2>Who Gets Enrolled Automatically?</h2>
+<ul>
+  <li>Employees on a labour contract (including temporary workers) after <strong>3 months of service</strong> with the same employer.</li>
+  <li>Enrolment is automatic — your employer signs you up without any action needed on your part.</li>
+  <li>You can opt out at any time by submitting a written declaration to HR.</li>
+</ul>
+
+<h2>How Much Are the Contributions?</h2>
+<p>Contributions are calculated as a percentage of your gross salary:</p>
+<ul>
+  <li><strong>You (the employee):</strong> 2% (you may voluntarily increase this to 4%)</li>
+  <li><strong>Your employer:</strong> 1.5% (may voluntarily add up to 2.5% more)</li>
+  <li><strong>Polish state – one-time welcome bonus:</strong> PLN 250 when you join</li>
+  <li><strong>Polish state – annual top-up:</strong> PLN 240 per year you remain enrolled</li>
+</ul>
+<p><strong>Example:</strong> gross salary of PLN 4,000 → your contribution = PLN 80, employer adds PLN 60. Total PPK credit per month: PLN 140, plus the annual state top-up.</p>
+
+<h2>Is PPK Worth It for a Foreign Worker?</h2>
+<p>For most workers: <strong>yes</strong>. The employer's 1.5% contribution is effectively free money on top of your wages — opt out and you simply lose it. For foreign workers planning to leave Poland: the savings do <strong>not</strong> disappear. You can withdraw them remotely, or leave them invested until age 60.</p>
+
+<h2>When and How Can You Withdraw Your PPK Savings?</h2>
+<ul>
+  <li><strong>At age 60+:</strong> 25% lump sum tax-free, the rest paid in 120 instalments with no capital gains tax.</li>
+  <li><strong>Early withdrawal (any time):</strong> allowed, but you repay all state contributions and pay 19% tax on investment gains.</li>
+  <li><strong>Serious illness / first home purchase:</strong> special rules allow partial withdrawal without full penalties.</li>
+</ul>
+
+<h2>How to Opt Out of PPK</h2>
+<ol>
+  <li>Obtain the opt-out declaration form from HR or your PPK financial institution's website.</li>
+  <li>Submit it in writing to your employer.</li>
+  <li>The opt-out is valid for 4 years — after that your employer will automatically re-enrol you (you can opt out again).</li>
+</ol>
+
+<h2>What Happens to Your PPK After You Leave Poland?</h2>
+<p>Your PPK account stays active. You can manage it remotely through your financial institution's app (e.g. PFR Portal PPK) and request a withdrawal even while living abroad. No Polish residency is required to access the funds.</p>
+
+<h2>Questions? Contact Nexflow</h2>
+<p>Your Nexflow coordinator can explain how PPK applies to your specific contract. Reach us via WhatsApp or the Nexflow app.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobbing-molestowanie-praca-polska-cudzoziemiec",
+    title: "Mobbing w pracy w Polsce – prawa cudzoziemca i jak się bronić",
+    description:
+      "Co to jest mobbing według polskiego prawa, jak go odróżnić od trudnego przełożonego, jak dokumentować i gdzie zgłosić — praktyczny przewodnik dla cudzoziemców pracujących w Polsce.",
+    date: "2031-08-07",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce i czujesz, że jesteś systematycznie poniżany, zastraszany lub izolowany przez przełożonego albo współpracowników? Polskie prawo pracy chroni Cię przed mobbingiem. Poniżej wyjaśniamy, czym jest mobbing, jak go udowodnić i co możesz zrobić.</p>
+
+<h2>Co to jest mobbing według polskiego prawa?</h2>
+<p>Definicja z art. 94³ Kodeksu pracy: mobbing to działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi, polegające na <strong>uporczywym i długotrwałym nękaniu lub zastraszaniu</strong>, wywołujące u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub wyeliminowanie z zespołu.</p>
+<p>Kluczowe cechy: zachowanie musi być <strong>powtarzające się</strong> i trwać przez dłuższy czas (zazwyczaj minimum kilka tygodni–miesięcy). Pojedynczy incydent nie jest mobbingiem.</p>
+
+<h2>Przykłady zachowań mogących być mobbingiem</h2>
+<ul>
+  <li>Systematyczne obrażanie, wyzywanie, ośmieszanie przed innymi</li>
+  <li>Celowe utrudnianie wykonywania pracy (brak narzędzi, sprzeczne polecenia)</li>
+  <li>Ignorowanie pracownika, wykluczanie z komunikacji zespołowej</li>
+  <li>Nieuzasadnione lub nadmierne krytykowanie każdego działania</li>
+  <li>Groźby dotyczące zwolnienia lub niekorzystnych warunków</li>
+  <li>Dyskryminacja ze względu na narodowość lub język</li>
+</ul>
+
+<h2>Co NIE jest mobbingiem</h2>
+<ul>
+  <li>Jednokrotna kłótnia z przełożonym</li>
+  <li>Normalna ocena pracy i konstruktywna krytyka</li>
+  <li>Polecenia służbowe, z którymi się nie zgadzasz</li>
+  <li>Trudny, wymagający styl zarządzania (bez systematycznego nękania)</li>
+</ul>
+
+<h2>Jak dokumentować mobbing?</h2>
+<p>Dokumentacja jest kluczowa dla udowodnienia sprawy:</p>
+<ul>
+  <li>Prowadź <strong>dziennik zdarzeń</strong> — każdy incydent z datą, godziną, miejscem i świadkami.</li>
+  <li>Zachowuj wszystkie wiadomości (SMS, e-mail, WhatsApp), w których dochodzi do nękania.</li>
+  <li>Notuj nazwy świadków gotowych potwierdzić obserwacje.</li>
+  <li>Zachowaj wszelkie dokumenty pisemne — notatki, upomnienia.</li>
+</ul>
+
+<h2>Pracodawca odpowiada za mobbing</h2>
+<p>Polskie prawo nakłada na pracodawcę <strong>obowiązek zapobiegania mobbingowi</strong>. Jeśli do niego doszło, pracodawca ponosi odpowiedzialność — nawet jeśli mobbingiem zajmował się inny pracownik lub kierownik.</p>
+
+<h2>Co możesz zrobić?</h2>
+<ul>
+  <li><strong>Zgłoś pracodawcy</strong> (pisemnie do HR lub zarządu) — daje to pracodawcy szansę interwencji i tworzy ślad dokumentacyjny.</li>
+  <li><strong>Zgłoś do Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatna kontrola, można zachować anonimowość (pip.gov.pl).</li>
+  <li><strong>Roszczenie do sądu pracy</strong> — masz prawo żądać:<br>
+    – odszkodowania za doznaną krzywdę (minimum równowartość minimalnego wynagrodzenia),<br>
+    – lub rozwiązania umowy z winy pracodawcy i odszkodowania.</li>
+</ul>
+
+<h2>Ochrona przed zwolnieniem za zgłoszenie</h2>
+<p>Pracodawca nie może Cię zwolnić za złożenie skargi na mobbing. Takie działanie byłoby odwetem (dyskryminacją) i uprawniałoby Cię do dodatkowego odszkodowania.</p>
+
+<h2>Potrzebujesz wsparcia?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> skontaktuj się z koordynatorem — agencja stoi po stronie pracownika.</li>
+  <li><strong>Stowarzyszenie Interwencji Prawnej (SIP):</strong> bezpłatna pomoc prawna dla cudzoziemców.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — skarga online, dostępna 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobing-tskyuvannya-robota-polshcha-inozemets",
+    title: "Мобінг на роботі в Польщі – права іноземця і як захиститися",
+    description:
+      "Що таке мобінг за польським законодавством, як відрізнити його від суворого керівника, як документувати та куди звернутися — практичний посібник для іноземців, що працюють у Польщі.",
+    date: "2031-08-14",
+    lang: "uk",
+    content: `
+<p>Ти працюєш у Польщі і відчуваєш, що тебе систематично принижують, залякують або ізолюють — з боку керівника або колег? Польське трудове законодавство захищає тебе від мобінгу. Нижче пояснюємо, що таке мобінг, як його довести і що ти можеш зробити.</p>
+
+<h2>Що таке мобінг за польським правом?</h2>
+<p>Визначення зі ст. 94³ Трудового кодексу Польщі: мобінг — це дії або поведінка щодо працівника, що полягають у <strong>наполегливому і тривалому цькуванні або залякуванні</strong>, які призводять до заниженої оцінки його професійної придатності, принижують або висміюють його, ізолюють або усувають із колективу.</p>
+<p>Ключова умова: поведінка має бути <strong>повторюваною</strong> і тривати тижні або місяці. Один інцидент — це не мобінг.</p>
+
+<h2>Приклади поведінки, яка може бути мобінгом</h2>
+<ul>
+  <li>Систематичні образи, приниження перед іншими</li>
+  <li>Навмисне створення перешкод для роботи (відсутність інструментів, суперечливі накази)</li>
+  <li>Ігнорування, виключення з командної комунікації</li>
+  <li>Безпідставна або надмірна критика кожної дії</li>
+  <li>Погрози звільненням або погіршенням умов праці</li>
+  <li>Дискримінація за національністю або мовою</li>
+</ul>
+
+<h2>Що НЕ є мобінгом</h2>
+<ul>
+  <li>Одноразова сварка з керівником</li>
+  <li>Звичайна оцінка роботи та конструктивна критика</li>
+  <li>Робочі доручення, з якими ти не погоджуєшся</li>
+  <li>Вимогливий стиль управління (без систематичного цькування)</li>
+</ul>
+
+<h2>Як документувати мобінг?</h2>
+<ul>
+  <li>Веди <strong>щоденник подій</strong> — кожен інцидент з датою, часом, місцем і свідками.</li>
+  <li>Зберігай усі повідомлення (SMS, e-mail, WhatsApp), в яких відбувається цькування.</li>
+  <li>Записуй імена свідків, готових підтвердити те, що бачили.</li>
+  <li>Зберігай усі письмові документи — записки, доганы.</li>
+</ul>
+
+<h2>Роботодавець відповідає за мобінг</h2>
+<p>Польське право зобов'язує роботодавця <strong>запобігати мобінгу</strong>. Якщо він стався, роботодавець несе відповідальність — навіть якщо мобінг чинила інша особа.</p>
+
+<h2>Що ти можеш зробити?</h2>
+<ul>
+  <li><strong>Повідом роботодавця</strong> (письмово до відділу кадрів або керівництва) — це дає роботодавцю можливість втрутитися і створює документальний слід.</li>
+  <li><strong>Звернися до PIP (Державна інспекція праці)</strong> — безкоштовна перевірка, анонімність збережена (pip.gov.pl).</li>
+  <li><strong>Позов до трудового суду</strong> — ти маєш право вимагати:<br>
+    – відшкодування шкоди (мінімум розмір мінімальної заробітної плати),<br>
+    – або розірвання договору з вини роботодавця і виплати компенсації.</li>
+</ul>
+
+<h2>Захист від звільнення за скаргу</h2>
+<p>Роботодавець не може звільнити тебе за скаргу на мобінг. Таке звільнення було б відплатою (дискримінацією) і давало б тебе право на додаткову компенсацію.</p>
+
+<h2>Потрібна допомога? Зв'яжися з Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> зверніться до свого координатора — агентство на стороні працівника.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> безкоштовна юридична допомога для іноземців.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — скарга онлайн, доступна 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobing-travlya-rabota-polsha-inostranets",
+    title: "Мобинг на работе в Польше – права иностранца и как защититься",
+    description:
+      "Что такое мобинг по польскому законодательству, как отличить его от строгого руководителя, как документировать и куда обратиться — практическое руководство для иностранцев, работающих в Польше.",
+    date: "2031-08-21",
+    lang: "ru",
+    content: `
+<p>Ты работаешь в Польше и чувствуешь, что тебя систематически унижают, запугивают или изолируют — со стороны руководства или коллег? Польское трудовое законодательство защищает тебя от мобинга. Ниже объясняем, что такое мобинг, как его доказать и что ты можешь сделать.</p>
+
+<h2>Что такое мобинг по польскому праву?</h2>
+<p>Определение из ст. 94³ Трудового кодекса Польши: мобинг — это действия или поведение в отношении работника, состоящие в <strong>упорном и длительном преследовании или запугивании</strong>, которые приводят к занижённой оценке его профессиональной пригодности, унижают или высмеивают его, изолируют или устраняют из коллектива.</p>
+<p>Ключевое условие: поведение должно быть <strong>повторяющимся</strong> и длиться недели или месяцы. Единственный инцидент — это не мобинг.</p>
+
+<h2>Примеры поведения, которое может быть мобингом</h2>
+<ul>
+  <li>Систематические оскорбления, унижения перед другими</li>
+  <li>Намеренное создание препятствий для работы (отсутствие инструментов, противоречивые приказы)</li>
+  <li>Игнорирование, исключение из командного общения</li>
+  <li>Беспричинная или чрезмерная критика каждого действия</li>
+  <li>Угрозы увольнением или ухудшением условий труда</li>
+  <li>Дискриминация по национальности или языку</li>
+</ul>
+
+<h2>Что НЕ является мобингом</h2>
+<ul>
+  <li>Единичная ссора с руководителем</li>
+  <li>Обычная оценка работы и конструктивная критика</li>
+  <li>Рабочие поручения, с которыми ты не согласен</li>
+  <li>Требовательный стиль руководства (без систематической травли)</li>
+</ul>
+
+<h2>Как документировать мобинг?</h2>
+<ul>
+  <li>Веди <strong>дневник событий</strong> — каждый инцидент с датой, временем, местом и свидетелями.</li>
+  <li>Сохраняй все сообщения (SMS, e-mail, WhatsApp), в которых происходит преследование.</li>
+  <li>Записывай имена свидетелей, готовых подтвердить произошедшее.</li>
+  <li>Сохраняй все письменные документы — записки, выговоры.</li>
+</ul>
+
+<h2>Работодатель отвечает за мобинг</h2>
+<p>Польское право обязывает работодателя <strong>предотвращать мобинг</strong>. Если он произошёл, работодатель несёт ответственность — даже если мобинг устраивал другой человек.</p>
+
+<h2>Что ты можешь сделать?</h2>
+<ul>
+  <li><strong>Сообщи работодателю</strong> (письменно в отдел кадров или руководству) — это даёт работодателю возможность вмешаться и создаёт документальный след.</li>
+  <li><strong>Обратись в PIP (Государственная инспекция труда)</strong> — бесплатная проверка, анонимность сохраняется (pip.gov.pl).</li>
+  <li><strong>Иск в трудовой суд</strong> — ты вправе требовать:<br>
+    – возмещения ущерба (минимум размер минимальной заработной платы),<br>
+    – или расторжения договора по вине работодателя и выплаты компенсации.</li>
+</ul>
+
+<h2>Защита от увольнения за жалобу</h2>
+<p>Работодатель не может уволить тебя за жалобу на мобинг. Такое увольнение являлось бы местью (дискриминацией) и давало бы тебе право на дополнительную компенсацию.</p>
+
+<h2>Нужна помощь? Свяжись с Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> обратись к своему координатору — агентство на стороне работника.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> бесплатная юридическая помощь для иностранцев.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — жалоба онлайн, доступна 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobbing-workplace-harassment-poland-foreign-worker",
+    title: "Mobbing and Workplace Harassment in Poland – A Guide for Foreign Workers",
+    description:
+      "What counts as mobbing under Polish law, how to tell it apart from tough management, how to document it, and where to report it — a practical guide for foreign workers in Poland.",
+    date: "2031-08-28",
+    lang: "en",
+    content: `
+<p>Are you being systematically belittled, intimidated, or excluded at work in Poland? Polish labour law protects every worker — including foreign temporary workers — from mobbing (workplace harassment). This guide explains what mobbing is, how to prove it, and what you can do.</p>
+
+<h2>What Is Mobbing Under Polish Law?</h2>
+<p>Article 94³ of the Polish Labour Code defines mobbing as actions or conduct directed at an employee that involve <strong>persistent and prolonged harassment or intimidation</strong>, resulting in a lowered professional self-assessment, and aimed at humiliating, ridiculing, isolating, or eliminating the employee from the team.</p>
+<p>The key element: the behaviour must be <strong>repeated and ongoing</strong> — typically over a period of weeks or months. A single difficult interaction does not constitute mobbing.</p>
+
+<h2>Examples of Behaviour That May Constitute Mobbing</h2>
+<ul>
+  <li>Systematic insults or humiliation in front of colleagues</li>
+  <li>Deliberately obstructing your work (withholding tools, contradictory orders)</li>
+  <li>Being ignored, excluded from team communication, or socially isolated</li>
+  <li>Unjustified or disproportionate criticism of every action you take</li>
+  <li>Threats of dismissal or worsened working conditions</li>
+  <li>Discrimination based on nationality or language</li>
+</ul>
+
+<h2>What Is NOT Mobbing</h2>
+<ul>
+  <li>A one-off argument with your supervisor</li>
+  <li>Normal performance reviews and constructive criticism</li>
+  <li>Work instructions you disagree with</li>
+  <li>A demanding management style that does not involve systematic harassment</li>
+</ul>
+
+<h2>How to Document Mobbing</h2>
+<p>Documentation is essential for proving a mobbing claim:</p>
+<ul>
+  <li>Keep a <strong>written log of incidents</strong> — record the date, time, location, and any witnesses for each event.</li>
+  <li>Save all relevant messages (SMS, email, WhatsApp) where the harassment occurs.</li>
+  <li>Note the names of colleagues willing to corroborate what they witnessed.</li>
+  <li>Keep any written documents — notes, written warnings, performance reviews.</li>
+</ul>
+
+<h2>The Employer Is Liable for Mobbing</h2>
+<p>Polish law places a <strong>strict obligation on employers to prevent mobbing</strong>. If mobbing occurs, the employer is liable — even if the harasser is another employee or manager, not the employer directly.</p>
+
+<h2>What Can You Do?</h2>
+<ul>
+  <li><strong>Report it to your employer</strong> (in writing to HR or management) — this gives the employer a chance to intervene and creates a paper trail.</li>
+  <li><strong>File a complaint with PIP (State Labour Inspectorate)</strong> — free, confidential inspection (pip.gov.pl).</li>
+  <li><strong>Take the case to a labour court</strong> — you are entitled to claim:<br>
+    – compensation for harm suffered (minimum: one month's minimum wage),<br>
+    – or termination of employment contract for the employer's fault, plus severance.</li>
+</ul>
+
+<h2>Protection Against Retaliation</h2>
+<p>Your employer cannot dismiss you for filing a mobbing complaint. Retaliatory dismissal is itself discrimination and entitles you to additional compensation under Polish law.</p>
+
+<h2>Need Help? Contact Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> contact your coordinator — we stand with the worker.</li>
+  <li><strong>SIP (Association for Legal Intervention):</strong> free legal aid for foreigners in Poland.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — file online, available 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "odziez-robocza-srodki-ochrony-bhp-prawa-pracownika-polska",
+    title: "Odzież robocza i środki ochrony BHP w Polsce – prawa pracownika tymczasowego",
+    description:
+      "Kto zapewnia odzież ochronną i środki BHP w Polsce, czy możesz odmówić pracy bez właściwego wyposażenia i co zrobić gdy pracodawca nie wypełnia obowiązków — praktyczny przewodnik dla cudzoziemców.",
+    date: "2031-09-04",
+    lang: "pl",
+    content: `
+<p>Wchodzisz na hale magazynową i pytasz o kask, kamizelkę odblaskową lub rękawice — i słyszysz, że musisz kupić je sam. Czy to legalne? Nie. W Polsce pracodawca ma bezwzględny obowiązek zapewnić odzież roboczą i środki ochrony indywidualnej (ŚOI) <strong>bezpłatnie</strong>. Poniżej wyjaśniamy, co Ci się należy i jak egzekwować swoje prawa.</p>
+
+<h2>Czym są środki ochrony indywidualnej (ŚOI)?</h2>
+<p>ŚOI to wszelkie wyposażenie noszone lub trzymane przez pracownika w celu ochrony przed zagrożeniami. Przykłady:</p>
+<ul>
+  <li>Kask ochronny</li>
+  <li>Kamizelka odblaskowa / ochronna</li>
+  <li>Obuwie z ochroną palców (buty z noskiem stalowym)</li>
+  <li>Rękawice robocze i ochronne</li>
+  <li>Okulary lub gogle ochronne</li>
+  <li>Ochronniki słuchu (zatyczki, nauszniki)</li>
+  <li>Maska przeciwpyłowa lub respirator</li>
+  <li>Uprząż przy pracy na wysokości</li>
+</ul>
+
+<h2>Kto ma obowiązek zapewnić ŚOI?</h2>
+<p>Zgodnie z Kodeksem pracy i przepisami BHP: <strong>pracodawca</strong> (w przypadku pracowników tymczasowych — firma użytkownik, czyli miejsce, gdzie faktycznie pracujesz) zapewnia ŚOI bezpłatnie. Nie możesz być obciążony kosztami zakupu, dzierżawy ani prania odzieży ochronnej.</p>
+
+<h2>Odzież robocza — kiedy przysługuje?</h2>
+<p>Pracodawca ma obowiązek zapewnić odzież roboczą (kombinezon, fartuch itp.), gdy:</p>
+<ul>
+  <li>praca grozi zabrudzeniem lub uszkodzeniem własnej odzieży pracownika, lub</li>
+  <li>wymaga tego technologia produkcji (np. strefy czyste, zakłady spożywcze).</li>
+</ul>
+<p>Pracodawca musi też zapewnić <strong>pranie i konserwację</strong> odzieży roboczej na swój koszt.</p>
+
+<h2>Twoje prawa jako pracownika tymczasowego</h2>
+<ul>
+  <li><strong>Odmowa wykonania pracy bez ŚOI:</strong> masz prawo odmówić niebezpiecznej pracy, jeśli pracodawca nie zapewnił wymaganych środków ochrony. Odmowa jest legalna i chroni Cię przed zarzutem niewykonania polecenia służbowego.</li>
+  <li><strong>Żadnych potrąceń za ŚOI:</strong> pracodawca nie może potrącać kosztu ŚOI z Twojego wynagrodzenia.</li>
+  <li><strong>Wymiana zużytego wyposażenia:</strong> gdy ŚOI się zużyją lub uszkodzą (nie z Twojej winy), pracodawca ma obowiązek je wymienić.</li>
+</ul>
+
+<h2>Co jeśli pracodawca odmawia zapewnienia ŚOI?</h2>
+<ol>
+  <li><strong>Zgłoś to pisemnie</strong> swojemu kierownikowi lub HR (e-mail wystarczy — zostaje ślad).</li>
+  <li><strong>Poinformuj Nexflow</strong> — twój koordynator interweniuje u firmy użytkownika.</li>
+  <li><strong>Złóż skargę do PIP (Państwowa Inspekcja Pracy)</strong> — inspektorzy BHP mogą natychmiast nakazać pracodawcy dostarczenie wyposażenia i nałożyć na niego mandat.</li>
+</ol>
+
+<h2>Szkolenie BHP — Twój obowiązek i prawo</h2>
+<p>Przed dopuszczeniem do pracy pracodawca musi przeprowadzić szkolenie BHP (instruktaż stanowiskowy). Nie możesz być skierowany do pracy bez tego szkolenia — jest to niezgodne z prawem.</p>
+
+<h2>Pamiętaj</h2>
+<p>Bezpieczeństwo w pracy to obowiązek pracodawcy, a nie Twoja osobista odpowiedzialność finansowa. Jeśli czujesz się zmuszany do zakupu ŚOI z własnej kieszeni lub pracujesz bez wymaganego wyposażenia — skontaktuj się z Nexflow lub PIP.</p>
+
+<h2>Potrzebujesz pomocy?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> koordynator pomoże wyegzekwować Twoje prawa od firmy użytkownika.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — zgłoszenie online, anonimowe.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "robochyi-odiah-zasoby-okhorony-bhp-prava-pratsivnyk-polshcha",
+    title: "Робочий одяг і засоби індивідуального захисту в Польщі – права тимчасового працівника",
+    description:
+      "Хто забезпечує захисний одяг і засоби BHP у Польщі, чи можеш відмовитися від роботи без належного спорядження і що робити, якщо роботодавець не виконує зобов'язань.",
+    date: "2031-09-11",
+    lang: "uk",
+    content: `
+<p>Ти заходиш на склад і питаєш про каску, світловідбивний жилет або рукавиці — і чуєш, що маєш купити їх самостійно. Чи це законно? Ні. У Польщі роботодавець зобов'язаний забезпечити робочий одяг і засоби індивідуального захисту (ЗІЗ) <strong>безкоштовно</strong>. Нижче пояснюємо, що тобі належить і як відстояти свої права.</p>
+
+<h2>Що таке засоби індивідуального захисту (ЗІЗ)?</h2>
+<p>ЗІЗ — будь-яке спорядження, що носить або тримає працівник для захисту від небезпеки. Приклади:</p>
+<ul>
+  <li>Захисна каска</li>
+  <li>Світловідбивний / захисний жилет</li>
+  <li>Взуття з захистом пальців (черевики зі сталевим носком)</li>
+  <li>Робочі та захисні рукавиці</li>
+  <li>Захисні окуляри або щиток</li>
+  <li>Беруші або захисні навушники</li>
+  <li>Пилозахисна маска або респіратор</li>
+  <li>Страхувальна система при роботі на висоті</li>
+</ul>
+
+<h2>Хто зобов'язаний забезпечити ЗІЗ?</h2>
+<p>Відповідно до Трудового кодексу та правил BHP: <strong>роботодавець</strong> (для тимчасових працівників — фірма-користувач, тобто місце, де ти фактично працюєш) забезпечує ЗІЗ безкоштовно. З тебе не можуть стягувати витрати на купівлю, оренду або прання захисного одягу.</p>
+
+<h2>Робочий одяг — коли він належить?</h2>
+<p>Роботодавець зобов'язаний надати робочий одяг (комбінезон, фартух тощо), якщо:</p>
+<ul>
+  <li>робота загрожує забрудненням або пошкодженням власного одягу, або</li>
+  <li>цього вимагає технологія виробництва (напр., чисті зони, харчові підприємства).</li>
+</ul>
+<p>Роботодавець також зобов'язаний забезпечити <strong>прання та технічне обслуговування</strong> робочого одягу за свій рахунок.</p>
+
+<h2>Твої права як тимчасового працівника</h2>
+<ul>
+  <li><strong>Право відмовитися від роботи без ЗІЗ:</strong> ти маєш право відмовитися від небезпечної роботи, якщо роботодавець не надав необхідних засобів захисту. Така відмова законна і захищає тебе від звинувачення у невиконанні наказу.</li>
+  <li><strong>Без утримань за ЗІЗ:</strong> роботодавець не може утримувати вартість ЗІЗ з твоєї зарплати.</li>
+  <li><strong>Заміна зношеного спорядження:</strong> якщо ЗІЗ зношуються або пошкоджуються не з твоєї вини, роботодавець зобов'язаний їх замінити.</li>
+</ul>
+
+<h2>Що робити, якщо роботодавець відмовляє у видачі ЗІЗ?</h2>
+<ol>
+  <li><strong>Повідом письмово</strong> свого керівника або HR (email достатньо — залишається слід).</li>
+  <li><strong>Зверніться до Nexflow</strong> — твій координатор втрутиться у стосунки з фірмою-користувачем.</li>
+  <li><strong>Подай скаргу до PIP (Державна інспекція праці)</strong> — інспектори BHP можуть негайно зобов'язати роботодавця надати спорядження та виписати штраф.</li>
+</ol>
+
+<h2>Навчання з BHP — твій обов'язок і право</h2>
+<p>До початку роботи роботодавець зобов'язаний провести інструктаж з BHP на робочому місці. Тебе не можуть допустити до роботи без цього інструктажу — це незаконно.</p>
+
+<h2>Пам'ятай</h2>
+<p>Безпека праці — обов'язок роботодавця, а не твоя особиста фінансова відповідальність. Якщо тебе змушують купувати ЗІЗ за власний рахунок або ти працюєш без необхідного спорядження — зв'яжися з Nexflow або PIP.</p>
+
+<h2>Потрібна допомога?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> координатор допоможе відстояти твої права перед фірмою-користувачем.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — анонімна скарга онлайн.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "rabochaya-odezhda-sredstva-zashchity-bhp-prava-rabotnik-polsha",
+    title: "Рабочая одежда и средства индивидуальной защиты в Польше – права временного работника",
+    description:
+      "Кто обеспечивает защитную одежду и СИЗ в Польше, можешь ли отказаться работать без необходимого снаряжения и что делать, если работодатель не выполняет обязательства.",
+    date: "2031-09-18",
+    lang: "ru",
+    content: `
+<p>Ты приходишь на склад и спрашиваешь каску, светоотражающий жилет или перчатки — и слышишь, что должен купить их сам. Законно ли это? Нет. В Польше работодатель обязан обеспечить рабочую одежду и средства индивидуальной защиты (СИЗ) <strong>бесплатно</strong>. Ниже объясняем, что тебе положено и как отстоять свои права.</p>
+
+<h2>Что такое средства индивидуальной защиты (СИЗ)?</h2>
+<p>СИЗ — любое снаряжение, которое работник носит или держит для защиты от опасности. Примеры:</p>
+<ul>
+  <li>Защитная каска</li>
+  <li>Светоотражающий / защитный жилет</li>
+  <li>Обувь с защитой пальцев (ботинки со стальным носком)</li>
+  <li>Рабочие и защитные перчатки</li>
+  <li>Защитные очки или щиток</li>
+  <li>Беруши или защитные наушники</li>
+  <li>Противопылевая маска или респиратор</li>
+  <li>Страховочная система при работе на высоте</li>
+</ul>
+
+<h2>Кто обязан обеспечить СИЗ?</h2>
+<p>Согласно Трудовому кодексу и правилам BHP: <strong>работодатель</strong> (для временных работников — компания-пользователь, т.е. место, где ты фактически работаешь) обеспечивает СИЗ бесплатно. С тебя не могут взимать плату за покупку, аренду или стирку защитной одежды.</p>
+
+<h2>Рабочая одежда — когда она положена?</h2>
+<p>Работодатель обязан предоставить рабочую одежду (комбинезон, фартук и т.п.), если:</p>
+<ul>
+  <li>работа угрожает загрязнением или повреждением собственной одежды работника, или</li>
+  <li>этого требует технология производства (напр., чистые зоны, пищевые предприятия).</li>
+</ul>
+<p>Работодатель также обязан обеспечить <strong>стирку и техническое обслуживание</strong> рабочей одежды за свой счёт.</p>
+
+<h2>Твои права как временного работника</h2>
+<ul>
+  <li><strong>Право отказаться работать без СИЗ:</strong> ты вправе отказаться от опасной работы, если работодатель не предоставил требуемые средства защиты. Такой отказ законен и защищает тебя от обвинения в невыполнении приказа.</li>
+  <li><strong>Без удержаний за СИЗ:</strong> работодатель не вправе удерживать стоимость СИЗ из твоей зарплаты.</li>
+  <li><strong>Замена изношенного снаряжения:</strong> если СИЗ изнашиваются или повреждаются не по твоей вине, работодатель обязан их заменить.</li>
+</ul>
+
+<h2>Что делать, если работодатель отказывает в выдаче СИЗ?</h2>
+<ol>
+  <li><strong>Сообщи письменно</strong> своему руководителю или в HR (электронное письмо подойдёт — остаётся след).</li>
+  <li><strong>Обратись в Nexflow</strong> — твой координатор вмешается в отношения с компанией-пользователем.</li>
+  <li><strong>Подай жалобу в PIP (Государственная инспекция труда)</strong> — инспекторы по BHP могут немедленно обязать работодателя предоставить снаряжение и выписать штраф.</li>
+</ol>
+
+<h2>Инструктаж по BHP — твоя обязанность и право</h2>
+<p>Перед допуском к работе работодатель обязан провести инструктаж по BHP на рабочем месте. Допускать тебя к работе без этого инструктажа — незаконно.</p>
+
+<h2>Помни</h2>
+<p>Безопасность труда — обязанность работодателя, а не твоя личная финансовая ответственность. Если тебя вынуждают покупать СИЗ за собственный счёт или ты работаешь без необходимого снаряжения — обратись в Nexflow или PIP.</p>
+
+<h2>Нужна помощь?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> координатор поможет отстоять твои права перед компанией-пользователем.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — анонимная жалоба онлайн.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "work-clothing-ppe-safety-equipment-rights-poland-temp-worker",
+    title: "Work Clothing and PPE in Poland – What Temporary Workers Are Entitled To",
+    description:
+      "Who must provide protective clothing and safety equipment in Poland, can you refuse work without proper gear, and what to do if the employer fails to comply — a practical guide for foreign temporary workers.",
+    date: "2031-09-25",
+    lang: "en",
+    content: `
+<p>You arrive at the warehouse and ask for a hard hat, high-vis vest, or gloves — and you're told to buy them yourself. Is that legal? No. In Poland your employer is legally required to provide work clothing and personal protective equipment (PPE) <strong>at no cost to you</strong>. This guide explains what you're entitled to and how to enforce your rights.</p>
+
+<h2>What Is Personal Protective Equipment (PPE)?</h2>
+<p>PPE is any equipment worn or carried by a worker to protect against hazards. In a warehouse or logistics setting this typically includes:</p>
+<ul>
+  <li>Safety helmet / hard hat</li>
+  <li>High-visibility vest or jacket</li>
+  <li>Safety footwear with toe protection (steel-toed boots)</li>
+  <li>Work and protective gloves</li>
+  <li>Safety glasses or face shield</li>
+  <li>Hearing protection (earplugs or earmuffs)</li>
+  <li>Dust mask or respirator</li>
+  <li>Harness for work at height</li>
+</ul>
+
+<h2>Who Must Provide PPE?</h2>
+<p>Under the Polish Labour Code and OHS regulations: <strong>the employer</strong> — for temporary workers, this is the <em>user company</em> (the actual workplace where you are deployed, not the staffing agency) — must provide all required PPE free of charge. You cannot be charged for purchasing, renting, or laundering protective equipment.</p>
+
+<h2>When Is Work Clothing Required?</h2>
+<p>The employer must provide work clothing (overalls, aprons, etc.) when:</p>
+<ul>
+  <li>the work poses a risk of soiling or damaging your own clothing, or</li>
+  <li>the production process requires it (e.g. clean rooms, food-processing facilities).</li>
+</ul>
+<p>The employer is also responsible for <strong>laundering and maintaining</strong> work clothing at their own expense.</p>
+
+<h2>Your Rights as a Temporary Worker</h2>
+<ul>
+  <li><strong>Right to refuse unsafe work:</strong> if the required PPE is not provided, you have the legal right to refuse to perform hazardous work. This refusal is protected by law and cannot be treated as insubordination.</li>
+  <li><strong>No deductions for PPE:</strong> the employer may not deduct the cost of PPE from your wages.</li>
+  <li><strong>Replacement of worn equipment:</strong> if PPE wears out or is damaged through normal use (not your fault), the employer must replace it.</li>
+</ul>
+
+<h2>What to Do If the Employer Refuses to Provide PPE</h2>
+<ol>
+  <li><strong>Report it in writing</strong> to your supervisor or HR (an email is sufficient — it creates a paper trail).</li>
+  <li><strong>Contact Nexflow</strong> — your coordinator will intervene with the user company on your behalf.</li>
+  <li><strong>File a complaint with PIP (State Labour Inspectorate)</strong> — OHS inspectors can immediately order the employer to provide the equipment and issue a fine (pip.gov.pl).</li>
+</ol>
+
+<h2>OHS Induction Training</h2>
+<p>Before you start any job, your employer must carry out an OHS induction at your specific workstation. Allowing you to start work without this training is illegal in Poland.</p>
+
+<h2>Remember</h2>
+<p>Workplace safety is the employer's legal responsibility — not your personal expense. If you are being pressured to buy safety equipment yourself, or if you are working without the required PPE, contact Nexflow or PIP immediately.</p>
+
+<h2>Need Help?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> your coordinator will help enforce your rights with the user company.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — anonymous online complaint, available 24/7.</li>
+</ul>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
