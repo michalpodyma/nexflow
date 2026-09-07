@@ -23351,6 +23351,210 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p><em>Nexflow — your staffing agency. We are on your side.</em></p>
     `.trim(),
   },
+  {
+    slug: "pip-panstwowa-inspekcja-pracy-cudzoziemiec-polska",
+    title: "Państwowa Inspekcja Pracy – jak zgłosić naruszenie praw jako cudzoziemiec w Polsce",
+    description:
+      "Jak złożyć skargę do PIP jako cudzoziemiec w Polsce — co kontroluje inspekcja, jakie naruszenia zgłaszać i jak chronić się przed zwolnieniem.",
+    date: "2031-06-12",
+    lang: "pl",
+    content: `
+<p>Jesteś cudzoziemcem pracującym w Polsce i uważasz, że Twój pracodawca lub agencja pracy narusza Twoje prawa? Masz do dyspozycji bezpłatne, publiczne narzędzie: Państwowa Inspekcja Pracy (PIP). W tym artykule wyjaśniamy, czym jest PIP, co kontroluje, jak złożyć skargę i czego się spodziewać.</p>
+
+<h2>Czym jest Państwowa Inspekcja Pracy?</h2>
+<p>PIP to państwowy urząd nadzorujący przestrzeganie prawa pracy w Polsce. Inspektorzy PIP mogą:</p>
+<ul>
+  <li>przeprowadzać kontrole w zakładach pracy bez uprzedzenia,</li>
+  <li>nakazywać wypłatę zaległego wynagrodzenia,</li>
+  <li>nakładać mandaty i kierować wnioski o ukaranie do sądów,</li>
+  <li>nakazywać poprawę warunków BHP.</li>
+</ul>
+<p>PIP działa niezależnie od pracodawcy – Twoje zgłoszenie jest bezpłatne i możesz zachować anonimowość.</p>
+
+<h2>Jakie naruszenia możesz zgłosić?</h2>
+<ul>
+  <li>Niezapłacone lub zaniżone wynagrodzenie</li>
+  <li>Praca bez umowy lub z umową niezgodną z ustaleniami</li>
+  <li>Brak odprowadzania składek ZUS</li>
+  <li>Nielegalne godziny pracy, brak przerw</li>
+  <li>Brak szkolenia BHP</li>
+  <li>Dyskryminacja ze względu na narodowość</li>
+  <li>Nieodpowiednie warunki zakwaterowania zapewnianego przez pracodawcę</li>
+</ul>
+
+<h2>Jak złożyć skargę do PIP?</h2>
+<p><strong>Krok 1 – Zbierz dokumenty.</strong> Zachowaj: umowę, paski wynagrodzeń, wiadomości SMS/e-mail, zdjęcia warunków pracy.</p>
+<p><strong>Krok 2 – Znajdź właściwy Okręgowy Inspektorat Pracy.</strong> PIP posiada 16 inspektoratów (po jednym w każdym województwie) – adresy na pip.gov.pl.</p>
+<p><strong>Krok 3 – Złóż skargę online, pocztą lub osobiście.</strong> Formularz elektroniczny dostępny na pip.gov.pl → „Złóż skargę".</p>
+<p><strong>Krok 4 – Poczekaj na odpowiedź.</strong> PIP musi pisemnie odpowiedzieć na skargę. Twoja tożsamość pozostaje poufna.</p>
+
+<h2>Ochrona przed zwolnieniem</h2>
+<p>Polskie prawo chroni pracowników przed represjami za złożenie skargi. Jeżeli pracodawca Cię zwolni lub szykanuje, możesz odwołać się do sądu pracy i żądać odszkodowania.</p>
+
+<h2>Potrzebujesz wsparcia?</h2>
+<ul>
+  <li>Nexflow: skontaktuj się ze swoim koordynatorem – jesteśmy po Twojej stronie.</li>
+  <li>Stowarzyszenie Interwencji Prawnej (SIP): bezpłatna pomoc prawna dla cudzoziemców.</li>
+  <li>pip.gov.pl: złóż skargę online, dostępne 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "derzhavna-inspektsiya-pratsi-inozemets-polshcha",
+    title: "Державна інспекція праці – як захистити свої права як іноземець у Польщі",
+    description:
+      "Як подати скаргу до PIP як іноземець у Польщі — що перевіряє інспекція, які порушення оскаржувати та як захиститися від звільнення.",
+    date: "2031-06-19",
+    lang: "uk",
+    content: `
+<p>Ви іноземець, що працює в Польщі, і вважаєте, що ваш роботодавець або агентство порушують ваші права? Державна інспекція праці (PIP) – безкоштовний державний орган, який захищає вас.</p>
+
+<h2>Що таке PIP?</h2>
+<p>PIP контролює дотримання трудового законодавства Польщі. Інспектори мають право:</p>
+<ul>
+  <li>проводити перевірки на підприємствах без попередження,</li>
+  <li>вимагати виплати заборгованої заробітної плати,</li>
+  <li>накладати штрафи на роботодавців,</li>
+  <li>вимагати покращення умов охорони праці.</li>
+</ul>
+<p>Ваше звернення є конфіденційним — роботодавець не дізнається, що саме ви подали скаргу.</p>
+
+<h2>Які порушення можна оскаржити?</h2>
+<ul>
+  <li>Невиплата або заниження заробітної плати</li>
+  <li>Робота без договору або з договором, що не відповідає домовленостям</li>
+  <li>Ненарахування внесків ZUS</li>
+  <li>Незаконний режим роботи, відсутність перерв</li>
+  <li>Відсутність інструктажу з охорони праці (BHP)</li>
+  <li>Дискримінація за національністю</li>
+  <li>Неналежні умови проживання від роботодавця</li>
+</ul>
+
+<h2>Як подати скаргу?</h2>
+<ol>
+  <li><strong>Збережіть документи:</strong> договір, розрахункові листки, SMS/e-mail, фотографії.</li>
+  <li><strong>Знайдіть Окружний інспекторат праці (OIP)</strong> на pip.gov.pl — розділ Kontakty.</li>
+  <li><strong>Подайте скаргу:</strong> онлайн на pip.gov.pl → «Złóż skargę», поштою або особисто.</li>
+  <li><strong>Очікуйте письмової відповіді</strong> від PIP.</li>
+</ol>
+
+<h2>Захист від звільнення</h2>
+<p>Польське законодавство захищає вас від переслідування за подачу скарги. Якщо вас звільнять у відповідь на скаргу — ви маєте право на компенсацію через суд з трудових спорів.</p>
+
+<h2>Де отримати допомогу?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> зверніться до свого координатора — ми на вашому боці.</li>
+  <li><strong>SIP:</strong> безкоштовна юридична допомога для іноземців у Польщі.</li>
+  <li><strong>pip.gov.pl:</strong> подайте скаргу онлайн цілодобово.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "gosudarstvennaya-inspektsiya-truda-inostranets-polsha",
+    title: "Государственная инспекция труда – как защитить свои права как иностранец в Польше",
+    description:
+      "Как подать жалобу в PIP как иностранец в Польше — что проверяет инспекция, какие нарушения оспаривать и как защититься от увольнения.",
+    date: "2031-06-26",
+    lang: "ru",
+    content: `
+<p>Вы иностранец, работающий в Польше, и считаете, что ваш работодатель или агентство нарушают ваши права? Государственная инспекция труда (Państwowa Inspekcja Pracy, PIP) — это бесплатный государственный орган, который встанет на вашу защиту.</p>
+
+<h2>Что такое PIP?</h2>
+<p>PIP контролирует соблюдение трудового законодательства Польши. Инспекторы вправе:</p>
+<ul>
+  <li>проводить проверки на предприятиях без предупреждения,</li>
+  <li>требовать выплаты задолженной заработной платы,</li>
+  <li>назначать штрафы работодателям,</li>
+  <li>требовать улучшения условий охраны труда.</li>
+</ul>
+<p>Ваше обращение конфиденциально — работодатель не узнает, что именно вы подали жалобу.</p>
+
+<h2>Какие нарушения можно оспорить?</h2>
+<ul>
+  <li>Невыплата или занижение заработной платы</li>
+  <li>Работа без договора или с договором, не соответствующим договорённостям</li>
+  <li>Неперечисление взносов ZUS</li>
+  <li>Незаконный режим труда, отсутствие перерывов</li>
+  <li>Отсутствие инструктажа по охране труда (BHP)</li>
+  <li>Дискриминация по национальному признаку</li>
+  <li>Ненадлежащие условия проживания, предоставленного работодателем</li>
+</ul>
+
+<h2>Как подать жалобу?</h2>
+<ol>
+  <li><strong>Соберите документы:</strong> договор, расчётные листки, SMS/e-mail, фотографии.</li>
+  <li><strong>Найдите ближайший окружной инспекторат труда (OIP)</strong> на pip.gov.pl → раздел Kontakty.</li>
+  <li><strong>Подайте жалобу:</strong> онлайн на pip.gov.pl → «Złóż skargę», почтой или лично.</li>
+  <li><strong>Ожидайте письменного ответа</strong> от PIP.</li>
+</ol>
+
+<h2>Защита от увольнения</h2>
+<p>Польское законодательство защищает работников от преследования за подачу жалобы. Если работодатель уволит вас в ответ на жалобу — вы вправе обратиться в суд по трудовым спорам и потребовать компенсации.</p>
+
+<h2>Где получить помощь?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> свяжитесь с вашим координатором — мы на вашей стороне.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> бесплатная юридическая помощь для иностранцев в Польше.</li>
+  <li><strong>pip.gov.pl:</strong> подайте жалобу онлайн — доступно круглосуточно.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "labour-inspectorate-pip-foreign-worker-complaint-poland",
+    title: "Poland's Labour Inspectorate (PIP) – How to Protect Your Rights as a Foreign Worker",
+    description:
+      "How to file a complaint with PIP as a foreign worker in Poland — what the inspectorate covers, what violations to report, and how dismissal protection works.",
+    date: "2031-07-03",
+    lang: "en",
+    content: `
+<p>Are you a foreign worker in Poland who believes your employer or staffing agency is violating your rights? The National Labour Inspectorate (Państwowa Inspekcja Pracy, PIP) is a free, state-run body that exists to protect you.</p>
+
+<h2>What is PIP?</h2>
+<p>PIP oversees compliance with Polish labour law. Inspectors have the authority to:</p>
+<ul>
+  <li>conduct unannounced workplace inspections,</li>
+  <li>order payment of outstanding wages,</li>
+  <li>impose fines on employers,</li>
+  <li>require improvements to health and safety conditions.</li>
+</ul>
+<p>Your complaint is confidential — your employer will not know it was you who filed it.</p>
+
+<h2>What Violations Can You Report?</h2>
+<ul>
+  <li>Unpaid or underpaid wages</li>
+  <li>Working without a contract or with a contract that differs from what was agreed</li>
+  <li>Failure to pay ZUS social insurance contributions</li>
+  <li>Illegal working hours or lack of required breaks</li>
+  <li>No mandatory BHP (health &amp; safety) training</li>
+  <li>Discrimination based on nationality</li>
+  <li>Substandard employer-provided accommodation</li>
+</ul>
+
+<h2>How to File a Complaint</h2>
+<p><strong>Step 1 – Gather evidence.</strong> Keep your contract, pay slips, text messages, emails, and photos of working or living conditions.</p>
+<p><strong>Step 2 – Find your regional Labour Inspectorate (OIP).</strong> PIP has 16 regional offices — one in each voivodeship. Find addresses at pip.gov.pl → Contacts.</p>
+<p><strong>Step 3 – Submit your complaint.</strong> Options:</p>
+<ul>
+  <li>Online form at pip.gov.pl → "Złóż skargę" (File a complaint), available 24/7</li>
+  <li>By post to the appropriate OIP</li>
+  <li>In person at the inspectorate office</li>
+  <li>By phone for urgent matters</li>
+</ul>
+<p><strong>Step 4 – Await a written response.</strong> PIP is legally required to respond. If an inspection is conducted, you will be informed of the outcome.</p>
+
+<h2>Protection Against Dismissal</h2>
+<p>Polish law protects workers from retaliation for filing a complaint with PIP. If your employer dismisses you or takes other punitive action as a result, you have the right to challenge the dismissal in a labour court and claim compensation.</p>
+
+<h2>Where to Get Help</h2>
+<ul>
+  <li><strong>Nexflow:</strong> contact your coordinator — we are on your side.</li>
+  <li><strong>SIP (Association for Legal Intervention):</strong> free legal assistance for foreigners in Poland (interwencjaprawna.pl).</li>
+  <li><strong>RPO (Ombudsman):</strong> rpo.gov.pl — handles discrimination cases.</li>
+  <li><strong>pip.gov.pl:</strong> submit your complaint online, 24/7.</li>
+</ul>
+<p>Your nationality does not reduce your rights. Polish labour law applies equally to all workers, regardless of where they come from.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
