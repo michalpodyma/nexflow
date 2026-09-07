@@ -24270,6 +24270,707 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
     `.trim(),
   },
+  {
+    slug: "urlop-bezplatny-cudzoziemiec-polska",
+    title: "Urlop bezpłatny w Polsce – prawa cudzoziemca i wpływ na TRC oraz ubezpieczenie",
+    description: "Jak wziąć urlop bezpłatny jako cudzoziemiec w Polsce, co się dzieje z ZUS, NFZ i zezwoleniem na pobyt podczas nieobecności oraz kiedy pracodawca może odmówić.",
+    date: "2031-10-02",
+    lang: "pl",
+    content: `
+<p>Planujesz dłuższy wyjazd do rodziny, leczenie lub po prostu przerwę od pracy? Jako cudzoziemiec w Polsce masz prawo do urlopu bezpłatnego — jednak warto wiedzieć, jak ta decyzja wpłynie na Twoje ubezpieczenie zdrowotne, składki ZUS i status pobytowy.</p>
+
+<h2>Czym jest urlop bezpłatny?</h2>
+<p>Urlop bezpłatny to przerwa w wykonywaniu pracy, na którą pracodawca wyraził pisemną zgodę. W odróżnieniu od urlopu wypoczynkowego:</p>
+<ul>
+  <li>Nie przysługuje Ci wynagrodzenie za ten okres.</li>
+  <li>Pracodawca <strong>nie musi</strong> się zgodzić — udziela go wyłącznie na Twój pisemny wniosek.</li>
+  <li>Umowa o pracę trwa (nie jesteś zwolniony), ale stosunek pracy ulega zawieszeniu.</li>
+</ul>
+
+<h2>Jak złożyć wniosek o urlop bezpłatny?</h2>
+<ol>
+  <li>Napisz pisemny wniosek z podaniem: daty rozpoczęcia i zakończenia, liczby dni oraz powodu (opcjonalnie).</li>
+  <li>Złóż wniosek w dziale kadr lub bezpośrednio do pracodawcy.</li>
+  <li>Poczekaj na pisemną zgodę — ustna nie wystarczy.</li>
+  <li>Zachowaj kopię podpisanego porozumienia.</li>
+</ol>
+<p>Nie ma ustawowego maksimum urlopu bezpłatnego — zależy od porozumienia z pracodawcą. W praktyce najczęściej udziela się od kilku dni do 3 miesięcy.</p>
+
+<h2>Co się dzieje z ubezpieczeniem ZUS i NFZ?</h2>
+<p>To najważniejszy punkt dla cudzoziemca. Podczas urlopu bezpłatnego:</p>
+<ul>
+  <li><strong>Pracodawca przestaje opłacać składki ZUS</strong> (emerytalne, rentowe, chorobowe, wypadkowe) — nie nabywa się więc stażu emerytalnego za ten okres.</li>
+  <li><strong>Ubezpieczenie zdrowotne (NFZ) wygasa po 30 dniach</strong> od zakończenia opłacania składek przez pracodawcę. Oznacza to, że po miesiącu urlopu bezpłatnego tracisz prawo do bezpłatnej opieki medycznej w Polsce.</li>
+  <li>Możesz dobrowolnie przystąpić do ubezpieczenia zdrowotnego ZUS jako osoba nieubezpieczona — składka wynosi ok. 600 zł miesięcznie (2026). Zgłoś się do ZUS z formularzem ZZA.</li>
+</ul>
+
+<h2>Wpływ na kartę czasowego pobytu (TRC) i zezwolenie na pracę</h2>
+<p>To kluczowe zagadnienie dla cudzoziemców spoza UE:</p>
+<ul>
+  <li><strong>Zezwolenie na pracę</strong> jest związane z konkretnym pracodawcą i stanowiskiem. Urlop bezpłatny udzielony przez tego samego pracodawcę nie unieważnia zezwolenia — wracasz do pracy na tych samych warunkach.</li>
+  <li><strong>Karta czasowego pobytu (TRC)</strong> — jeśli masz TRC z tytułu pracy, wymagany jest aktywny stosunek pracy. Urlop bezpłatny do <strong>3 miesięcy</strong> jest zazwyczaj akceptowany przez Urząd ds. Cudzoziemców jako przerwa, nie naruszając warunków pobytu. Dłuższy urlop może być problematyczny przy przedłużeniu TRC.</li>
+  <li>Jeśli wyjeżdżasz za granicę na czas urlopu bezpłatnego, pamiętaj: wyjazd powyżej <strong>6 miesięcy z obszaru Schengen</strong> może być podstawą do odmowy wjazdu lub cofnięcia karty pobytu.</li>
+</ul>
+
+<h2>Urlop bezpłatny a umowa zlecenie</h2>
+<p>Jeśli pracujesz na umowie zlecenie, a nie umowie o pracę, przepisy Kodeksu pracy o urlopie bezpłatnym nie mają zastosowania. Możesz jednak poprosić zleceniodawcę o zawieszenie zlecenia lub jego rozwiązanie na czas nieobecności i ponowne zawarcie po powrocie.</p>
+
+<h2>Kiedy pracodawca może odmówić?</h2>
+<p>Urlop bezpłatny zawsze wymaga zgody pracodawcy. Może odmówić bez podania przyczyny. Wyjątek: urlop bezpłatny udzielony na wniosek związku zawodowego lub w przypadkach określonych w odrębnych przepisach (np. do 2 lat na opiekę nad dzieckiem do lat 4).</p>
+
+<h2>Praktyczne porady dla cudzoziemca</h2>
+<ul>
+  <li>Przed wyjazdem upewnij się, że masz ważny paszport i dokument pobytowy na cały okres nieobecności.</li>
+  <li>Jeśli wyjeżdżasz do kraju spoza Schengen, sprawdź, czy Twoja polska karta pobytu pozwala Ci wrócić bez wizy.</li>
+  <li>Zachowaj kopię porozumienia o urlopie bezpłatnym — może być potrzebna przy powrocie na granicy lub przy przedłużeniu TRC.</li>
+  <li>Poinformuj agencję pracy (jeśli jesteś pracownikiem tymczasowym) o planowanej nieobecności z odpowiednim wyprzedzeniem.</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Urlop bezpłatny jest dostępny dla cudzoziemców na tych samych zasadach co dla Polaków, ale niesie dodatkowe konsekwencje: przerwę w ubezpieczeniu zdrowotnym i potencjalny wpływ na status pobytowy przy dłuższej nieobecności. Planuj z wyprzedzeniem i w razie wątpliwości konsultuj się z agencją pracy lub prawnikiem ds. imigracyjnych.</p>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-bez-oplaty-inozemets-polshcha",
+    title: "Відпустка без збереження зарплати в Польщі – права іноземця та вплив на картку побуту",
+    description: "Як взяти відпустку без збереження зарплати як іноземець у Польщі, що відбувається з ZUS, NFZ та дозволом на перебування і коли роботодавець може відмовити.",
+    date: "2031-10-09",
+    lang: "uk",
+    content: `
+<p>Плануєте довшу поїздку до родини, лікування чи просто перерву від роботи? Як іноземець у Польщі ви маєте право на відпустку без збереження заробітної плати — але важливо знати, як це рішення вплине на ваше медичне страхування, внески ZUS та статус перебування.</p>
+
+<h2>Що таке відпустка без збереження зарплати?</h2>
+<p>Відпустка без збереження зарплати — це перерва у виконанні роботи, на яку роботодавець надав письмову згоду. На відміну від оплачуваної відпустки:</p>
+<ul>
+  <li>За цей період вам <strong>не нараховується заробітна плата</strong>.</li>
+  <li>Роботодавець <strong>не зобов'язаний</strong> погоджуватися — він надає відпустку лише за вашим письмовим проханням.</li>
+  <li>Трудовий договір діє (вас не звільняють), але трудові відносини призупиняються.</li>
+</ul>
+
+<h2>Як подати заяву на відпустку без збереження зарплати?</h2>
+<ol>
+  <li>Напишіть письмову заяву із зазначенням: дати початку та закінчення, кількості днів і причини (необов'язково).</li>
+  <li>Подайте заяву до відділу кадрів або безпосередньо роботодавцю.</li>
+  <li>Дочекайтеся письмової згоди — усна недостатня.</li>
+  <li>Зберігайте копію підписаної угоди.</li>
+</ol>
+<p>Законодавством не встановлено максимального терміну відпустки без збереження зарплати — все залежить від домовленості з роботодавцем. Зазвичай надається від кількох днів до 3 місяців.</p>
+
+<h2>Що відбувається із страхуванням ZUS та NFZ?</h2>
+<p>Це найважливіший момент для іноземця. Під час відпустки без збереження зарплати:</p>
+<ul>
+  <li><strong>Роботодавець припиняє сплачувати внески ZUS</strong> (пенсійні, рентні, лікарняні, від нещасних випадків) — отже, за цей період не накопичується пенсійний стаж.</li>
+  <li><strong>Медичне страхування (NFZ) припиняється після 30 днів</strong> з моменту, коли роботодавець перестає сплачувати внески. Це означає, що після місяця відпустки без збереження зарплати ви втрачаєте право на безоплатну медичну допомогу в Польщі.</li>
+  <li>Ви можете добровільно застрахуватися у ZUS як незастрахована особа — внесок становить близько 600 злотих на місяць (2026). Зверніться до ZUS із формуляром ZZA.</li>
+</ul>
+
+<h2>Вплив на картку тимчасового перебування (TRC) та дозвіл на роботу</h2>
+<ul>
+  <li><strong>Дозвіл на роботу</strong> прив'язаний до конкретного роботодавця та посади. Відпустка без збереження зарплати, надана тим самим роботодавцем, не скасовує дозволу — ви повертаєтеся до роботи на тих самих умовах.</li>
+  <li><strong>Картка тимчасового перебування (TRC)</strong> — якщо ваша TRC видана на підставі роботи, обов'язковою умовою є активні трудові відносини. Відпустка до <strong>3 місяців</strong> зазвичай приймається Управлінням у справах іноземців як перерва, яка не порушує умов перебування. Довша відпустка може ускладнити продовження TRC.</li>
+  <li>Якщо під час відпустки ви виїжджаєте за кордон: виїзд понад <strong>6 місяців за межі Шенгенської зони</strong> може бути підставою для відмови у в'їзді або анулювання картки перебування.</li>
+</ul>
+
+<h2>Відпустка без збереження зарплати та договір підряду (умова злецення)</h2>
+<p>Якщо ви працюєте за договором підряду, а не трудовим договором, норми Трудового кодексу про відпустку без збереження зарплати не застосовуються. Проте ви можете попросити замовника призупинити або розірвати договір на час відсутності та укласти новий після повернення.</p>
+
+<h2>Практичні поради для іноземця</h2>
+<ul>
+  <li>Перед від'їздом переконайтеся, що у вас є дійсний паспорт і документ про перебування на весь період відсутності.</li>
+  <li>Якщо ви виїжджаєте до країни поза Шенгенською зоною, перевірте, чи польська картка перебування дозволяє вам повернутися без візи.</li>
+  <li>Зберігайте копію угоди про відпустку — вона може знадобитися при поверненні на кордоні або при продовженні TRC.</li>
+  <li>Заздалегідь повідомте агентство праці (якщо ви тимчасовий працівник) про заплановану відсутність.</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Відпустка без збереження зарплати доступна іноземцям на тих самих умовах, що й громадянам Польщі, але має додаткові наслідки: перерву у медичному страхуванні та потенційний вплив на статус перебування при тривалішій відсутності. Плануйте заздалегідь і за потреби консультуйтеся з агентством праці або імміграційним юристом.</p>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-bez-sohraneniya-zarplaty-inostranets-polsha",
+    title: "Отпуск без сохранения зарплаты в Польше – права иностранца и влияние на карту пребывания",
+    description: "Как взять отпуск без сохранения зарплаты иностранцу в Польше, что происходит с ZUS, NFZ и разрешением на пребывание и когда работодатель может отказать.",
+    date: "2031-10-16",
+    lang: "ru",
+    content: `
+<p>Планируете длительный визит к семье, лечение или просто перерыв от работы? Как иностранец в Польше вы имеете право на отпуск без сохранения заработной платы — однако важно знать, как это решение повлияет на ваше медицинское страхование, взносы ZUS и статус пребывания.</p>
+
+<h2>Что такое отпуск без сохранения зарплаты?</h2>
+<p>Отпуск без сохранения зарплаты — это перерыв в выполнении работы, на который работодатель дал письменное согласие. В отличие от оплачиваемого отпуска:</p>
+<ul>
+  <li>За этот период вам <strong>не начисляется заработная плата</strong>.</li>
+  <li>Работодатель <strong>не обязан</strong> соглашаться — он предоставляет отпуск только по вашему письменному заявлению.</li>
+  <li>Трудовой договор действует (вас не увольняют), но трудовые отношения приостанавливаются.</li>
+</ul>
+
+<h2>Как подать заявление на отпуск без сохранения зарплаты?</h2>
+<ol>
+  <li>Напишите письменное заявление с указанием: даты начала и окончания, количества дней и причины (необязательно).</li>
+  <li>Подайте заявление в отдел кадров или непосредственно работодателю.</li>
+  <li>Дождитесь письменного согласия — устного недостаточно.</li>
+  <li>Сохраните копию подписанного соглашения.</li>
+</ol>
+<p>Законодательством не установлен максимальный срок отпуска без сохранения зарплаты — всё зависит от договорённости с работодателем. Как правило, предоставляется от нескольких дней до 3 месяцев.</p>
+
+<h2>Что происходит со страхованием ZUS и NFZ?</h2>
+<ul>
+  <li><strong>Работодатель прекращает уплачивать взносы ZUS</strong> (пенсионные, рентные, больничные, от несчастных случаев) — за этот период пенсионный стаж не накапливается.</li>
+  <li><strong>Медицинское страхование (NFZ) прекращается через 30 дней</strong> после того, как работодатель перестаёт платить взносы. Это означает, что после месяца отпуска без зарплаты вы теряете право на бесплатную медицинскую помощь в Польше.</li>
+  <li>Вы можете добровольно застраховаться в ZUS как незастрахованное лицо — взнос составляет около 600 злотых в месяц (2026). Обратитесь в ZUS с формой ZZA.</li>
+</ul>
+
+<h2>Влияние на карту временного пребывания (TRC) и разрешение на работу</h2>
+<ul>
+  <li><strong>Разрешение на работу</strong> привязано к конкретному работодателю и должности. Отпуск без сохранения зарплаты у того же работодателя не аннулирует разрешение — вы возвращаетесь к работе на прежних условиях.</li>
+  <li><strong>Карта временного пребывания (TRC)</strong> — если ваша TRC выдана на основании работы, обязательным условием является активное трудовое отношение. Отпуск до <strong>3 месяцев</strong> обычно принимается Управлением по делам иностранцев как перерыв, не нарушающий условий пребывания. Более длительный отпуск может осложнить продление TRC.</li>
+  <li>Если во время отпуска вы выезжаете за границу: выезд более чем на <strong>6 месяцев за пределы Шенгенской зоны</strong> может стать основанием для отказа во въезде или аннулирования карты пребывания.</li>
+</ul>
+
+<h2>Практические советы для иностранца</h2>
+<ul>
+  <li>Перед отъездом убедитесь, что у вас есть действующий паспорт и документ о пребывании на весь период отсутствия.</li>
+  <li>Если вы выезжаете в страну за пределами Шенгенской зоны, проверьте, позволяет ли польская карта пребывания вернуться без визы.</li>
+  <li>Сохраняйте копию соглашения об отпуске — она может понадобиться при возвращении на границе или при продлении TRC.</li>
+  <li>Заблаговременно уведомите агентство труда (если вы временный работник) о планируемом отсутствии.</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Отпуск без сохранения зарплаты доступен иностранцам на тех же условиях, что и гражданам Польши, но имеет дополнительные последствия: перерыв в медицинском страховании и потенциальное влияние на статус пребывания при длительном отсутствии. Планируйте заранее и при необходимости консультируйтесь с агентством труда или иммиграционным юристом.</p>
+    `.trim(),
+  },
+  {
+    slug: "unpaid-leave-foreign-worker-poland-trc-insurance",
+    title: "Unpaid Leave in Poland – What Foreign Workers Need to Know About TRC and Health Insurance",
+    description: "How to take unpaid leave as a foreign worker in Poland, what happens to ZUS, NFZ health coverage, and your residence permit status, and when your employer can refuse.",
+    date: "2031-10-23",
+    lang: "en",
+    content: `
+<p>Planning an extended trip home, medical treatment, or simply a break from work? As a foreign worker in Poland you have the right to apply for unpaid leave — but it's important to understand how this decision affects your health insurance, ZUS contributions, and residence permit status.</p>
+
+<h2>What Is Unpaid Leave?</h2>
+<p>Unpaid leave (urlop bezpłatny) is a suspension of work agreed in writing between you and your employer. Unlike paid annual leave:</p>
+<ul>
+  <li>You receive <strong>no salary</strong> during this period.</li>
+  <li>Your employer is <strong>not required</strong> to agree — they grant it solely on your written request.</li>
+  <li>Your employment contract remains active (you are not dismissed), but the employment relationship is suspended.</li>
+</ul>
+
+<h2>How to Apply for Unpaid Leave</h2>
+<ol>
+  <li>Write a formal written request specifying: start date, end date, number of days, and reason (optional).</li>
+  <li>Submit the request to HR or directly to your employer.</li>
+  <li>Wait for written approval — verbal agreement is not sufficient.</li>
+  <li>Keep a copy of the signed agreement.</li>
+</ol>
+<p>There is no statutory maximum duration for unpaid leave in Poland — it depends on what you and your employer agree. In practice, leave typically ranges from a few days to 3 months.</p>
+
+<h2>What Happens to Your ZUS and NFZ Health Insurance?</h2>
+<p>This is the most critical point for foreign workers. During unpaid leave:</p>
+<ul>
+  <li><strong>Your employer stops paying ZUS contributions</strong> (pension, disability, sick pay, accident insurance) — you do not accumulate pension entitlements for this period.</li>
+  <li><strong>NFZ health insurance lapses after 30 days</strong> from when employer contributions stop. After one month of unpaid leave, you lose the right to free medical care in Poland.</li>
+  <li>You can voluntarily enrol in ZUS health insurance as an uninsured individual — the premium is approximately 600 PLN/month (2026). Visit a ZUS office and submit form ZZA.</li>
+</ul>
+
+<h2>Impact on Your Temporary Residence Card (TRC) and Work Permit</h2>
+<ul>
+  <li><strong>Work permit</strong> — your permit is tied to a specific employer and position. Unpaid leave granted by the same employer does not invalidate your work permit; you return to work under the same terms.</li>
+  <li><strong>Temporary Residence Card (TRC)</strong> — if your TRC is based on employment, an active employment relationship is a condition. Unpaid leave of up to <strong>3 months</strong> is generally accepted by the Office for Foreigners as a temporary gap that does not breach residence conditions. Longer leave may complicate TRC renewal.</li>
+  <li>If you leave Poland during unpaid leave: absence from the Schengen Area for more than <strong>6 months</strong> may be grounds for re-entry refusal or revocation of your residence card.</li>
+</ul>
+
+<h2>Unpaid Leave on a Zlecenie (Civil) Contract</h2>
+<p>If you work under a civil contract (umowa zlecenie) rather than an employment contract, the Labour Code provisions on unpaid leave do not apply. However, you can ask your contracting party to suspend or terminate the agreement during your absence and renew it upon your return.</p>
+
+<h2>Practical Tips for Foreign Workers</h2>
+<ul>
+  <li>Before travelling, ensure your passport and residence document are valid for the entire period of absence.</li>
+  <li>If travelling outside Schengen, check whether your Polish residence card allows re-entry without a separate visa.</li>
+  <li>Keep a copy of your unpaid leave agreement — it may be required at the border on return or when renewing your TRC.</li>
+  <li>Notify your staffing agency (if you are a temp worker) about your planned absence well in advance.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Unpaid leave is available to foreign workers on the same legal basis as Polish nationals, but it carries additional implications: a gap in health insurance coverage and potential impact on residence status for longer absences. Plan ahead and consult your staffing agency or an immigration lawyer if you have any doubts.</p>
+    `.trim(),
+  },
+  {
+    slug: "podroze-schengen-karta-pobytu-cudzoziemiec-polska",
+    title: "Podróże po Europie z polską kartą pobytu – co musisz wiedzieć jako cudzoziemiec",
+    description: "Czy polska karta czasowego pobytu pozwala na wjazd do Niemiec i innych krajów Schengen bez wizy? Zasada 90/180 dni, wymagane dokumenty i co zrobić gdy TRC jest w trakcie wydania.",
+    date: "2031-10-30",
+    lang: "pl",
+    content: `
+<p>Masz polską kartę czasowego pobytu i chcesz pojechać na weekend do Niemiec, odwiedzić rodzinę w innym kraju UE lub po prostu podróżować po Europie? Dobrze trafiłeś. Polska karta pobytu daje cudzoziemcom spoza UE ważne uprawnienia podróżnicze w strefie Schengen — ale obowiązują konkretne zasady.</p>
+
+<h2>Czy polską kartą pobytu można wjeżdżać do innych krajów Schengen?</h2>
+<p>Tak. Ważna polska karta czasowego pobytu (TRC) wydana cudzoziemcowi spoza UE uprawnia do poruszania się po całym obszarze Schengen <strong>bez dodatkowej wizy</strong>, na podstawie art. 21 Konwencji Wykonawczej do Układu z Schengen.</p>
+
+<p>Kraje Schengen, do których możesz wjechać (m.in.): Austria, Belgia, Czechy, Dania, Estonia, Finlandia, Francja, Grecja, Hiszpania, Holandia, Litwa, Łotwa, Niemcy, Norwegia, Portugalia, Słowacja, Słowenia, Szwajcaria, Szwecja, Węgry, Włochy.</p>
+
+<h2>Zasada 90/180 — ile dni możesz spędzić poza Polską?</h2>
+<p>Kluczowa zasada: jako posiadacz polskiej karty pobytu możesz przebywać w innych krajach Schengen (nie w Polsce) przez <strong>maksymalnie 90 dni w każdym 180-dniowym okresie</strong>. Polskie dni pobytu <em>nie wliczają się</em> do tego limitu.</p>
+<ul>
+  <li>Np. możesz być w Niemczech 30 dni, następnie we Francji 30 dni i w Austrii 30 dni — łącznie 90 dni poza Polską w ciągu 180 dni. To jest dozwolone.</li>
+  <li>Przekroczenie limitu 90/180 może skutkować odmową wjazdu, grzywną lub wpisem do systemu SIS jako osoba niepożądana.</li>
+</ul>
+
+<h2>Dokumenty potrzebne przy przekraczaniu granicy</h2>
+<p>Przy wjeździe do innego kraju Schengen z polską kartą pobytu musisz okazać:</p>
+<ol>
+  <li><strong>Ważny paszport</strong> (musi być ważny przez cały czas pobytu).</li>
+  <li><strong>Polska karta czasowego pobytu</strong> — oryginał, musi być ważna w dniu wjazdu.</li>
+  <li><strong>Dokumenty potwierdzające cel podróży</strong> (zalecane): rezerwacja hotelu, bilet powrotny, zaproszenie, środki finansowe (ok. 100 EUR/dzień). Choć formalnie Schengen nie wymaga ich od posiadaczy kart pobytu, w praktyce straż graniczna może o nie poprosić.</li>
+</ol>
+
+<h2>Co jeśli moja TRC jest w trakcie wydania (pobyt na stemplu)?</h2>
+<p>Jeśli złożyłeś wniosek o TRC i masz w paszporcie <strong>stempel urzędu ds. cudzoziemców</strong> potwierdzający złożenie wniosku, sytuacja jest inna:</p>
+<ul>
+  <li>Stempel potwierdza legalny pobyt w Polsce, ale <strong>nie uprawnia do wjazdu do innych krajów Schengen</strong>.</li>
+  <li>Musisz poczekać na wydanie fizycznej karty lub wystąpić o wizę w ambasadzie kraju docelowego.</li>
+  <li>Wyjątkiem jest wyjazd do kraju, którego obywatelstwo posiadasz lub do którego nie potrzebujesz wizy (np. Ukraińcy mogą wjechać bezwizowo do wielu krajów UE na podstawie paszportu biometrycznego).</li>
+</ul>
+
+<h2>Specyfika dla Ukraińców: ochrona tymczasowa (Diia.pl)</h2>
+<p>Ukraińcy objęci ochroną tymczasową w Polsce (zaświadczenie UKR/Diia.pl) mają odrębne zasady:</p>
+<ul>
+  <li>Ochrona tymczasowa uprawnia do pobytu w Polsce, ale <strong>nie jest kartą pobytu Schengen</strong>.</li>
+  <li>Ukraińcy z biometrycznym paszportem mogą wjechać bezwizowo do krajów Schengen na do 90 dni/180 dni — na tych samych zasadach co bezwizowo.</li>
+  <li>Jeśli chcesz pracować w innym kraju Schengen, potrzebujesz odpowiedniego zezwolenia tego kraju.</li>
+</ul>
+
+<h2>Uwaga: praca w innym kraju Schengen</h2>
+<p>Polska karta pobytu uprawnia do <strong>pobytu turystycznego</strong> w innych krajach Schengen, ale <strong>nie do podjęcia pracy</strong> w tych krajach. Praca za granicą wymaga odrębnego zezwolenia danego państwa.</p>
+
+<h2>Praktyczne porady</h2>
+<ul>
+  <li>Zawsze wieź ze sobą oryginał karty pobytu — kopia nie wystarczy.</li>
+  <li>Sprawdź ważność karty przed podróżą — karta musi być ważna w całym okresie pobytu za granicą.</li>
+  <li>Zapisz datę wjazdu do krajów Schengen i liczone dni poza Polską — możesz użyć kalkulatora 90/180 dostępnego na stronie Schengen Visa Info.</li>
+  <li>W razie awarii dokumentów za granicą, zgłoś się do polskiego konsulatu.</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Polska karta czasowego pobytu to potężny dokument podróżniczy — daje Ci dostęp do całej strefy Schengen bez wizy, do 90 dni co 180 dni poza Polską. Pamiętaj: ważny paszport + ważna karta pobytu + limit 90/180 = swoboda podróżowania po Europie.</p>
+    `.trim(),
+  },
+  {
+    slug: "podorozhi-shengen-karta-pobytu-inozemets-polshcha",
+    title: "Подорожі по Шенгену з польською карткою побуту – що потрібно знати іноземцю",
+    description: "Чи дозволяє польська картка тимчасового перебування в'їзд до Німеччини та інших країн Шенгену без візи? Правило 90/180 днів, необхідні документи і що робити, коли TRC ще не видана.",
+    date: "2031-11-06",
+    lang: "uk",
+    content: `
+<p>У вас є польська картка тимчасового перебування і ви хочете поїхати на вихідні до Німеччини, відвідати родину в іншій країні ЄС або просто подорожувати Європою? Тоді ця стаття для вас. Польська картка побуту надає громадянам третіх країн важливі права для подорожей у Шенгенській зоні — але існують конкретні правила.</p>
+
+<h2>Чи можна в'їжджати до інших країн Шенгену з польською карткою побуту?</h2>
+<p>Так. Дійсна польська картка тимчасового перебування (TRC), видана громадянину третьої країни, дає право пересуватися по всій Шенгенській зоні <strong>без додаткової візи</strong> на підставі статті 21 Конвенції про виконання Шенгенської угоди.</p>
+<p>Країни Шенгену, до яких можна в'їздити (зокрема): Австрія, Бельгія, Чехія, Данія, Естонія, Фінляндія, Франція, Греція, Іспанія, Нідерланди, Литва, Латвія, Німеччина, Норвегія, Португалія, Словаччина, Словенія, Швейцарія, Швеція, Угорщина, Італія.</p>
+
+<h2>Правило 90/180 — скільки днів можна перебувати поза Польщею?</h2>
+<p>Ключове правило: як власник польської картки побуту ви можете перебувати в інших країнах Шенгену (не в Польщі) <strong>не більше 90 днів у кожному 180-денному періоді</strong>. Дні перебування в Польщі до цього ліміту <em>не зараховуються</em>.</p>
+<ul>
+  <li>Наприклад: 30 днів у Німеччині + 30 днів у Франції + 30 днів в Австрії = 90 днів поза Польщею за 180 днів. Це дозволено.</li>
+  <li>Перевищення ліміту 90/180 може призвести до відмови у в'їзді, штрафу або внесення до системи SIS.</li>
+</ul>
+
+<h2>Документи, необхідні при перетині кордону</h2>
+<ol>
+  <li><strong>Дійсний паспорт</strong> (має бути дійсним протягом усього терміну перебування).</li>
+  <li><strong>Польська картка тимчасового перебування</strong> — оригінал, має бути дійсною на день в'їзду.</li>
+  <li><strong>Документи, що підтверджують мету подорожі</strong> (рекомендується): бронювання готелю, зворотний квиток, запрошення, наявність коштів (бл. 100 EUR/день).</li>
+</ol>
+
+<h2>Що робити, якщо TRC ще не видана (перебування на штампі)?</h2>
+<ul>
+  <li>Штамп підтверджує законне перебування в Польщі, але <strong>не дає права в'їжджати до інших країн Шенгену</strong>.</li>
+  <li>Потрібно дочекатися видачі фізичної картки або отримати візу в посольстві країни призначення.</li>
+  <li>Виняток: виїзд до країни, громадянином якої ви є, або до якої не потрібна віза (наприклад, українці можуть в'їжджати без візи до багатьох країн ЄС на підставі біометричного паспорта).</li>
+</ul>
+
+<h2>Особливості для громадян України: тимчасовий захист</h2>
+<ul>
+  <li>Тимчасовий захист в Польщі (посвідчення UKR/Diia.pl) дає право перебувати в Польщі, але <strong>не є карткою побуту Шенгену</strong>.</li>
+  <li>Українці з біометричним паспортом можуть в'їжджати без візи до країн Шенгену на термін до 90 днів/180 днів.</li>
+  <li>Якщо ви хочете працювати в іншій країні Шенгену, вам потрібен відповідний дозвіл цієї країни.</li>
+</ul>
+
+<h2>Увага: робота в іншій країні Шенгену</h2>
+<p>Польська картка побуту дає право на <strong>туристичне перебування</strong> в інших країнах Шенгену, але <strong>не на роботу</strong> в цих країнах. Для роботи за кордоном потрібен окремий дозвіл відповідної держави.</p>
+
+<h2>Практичні поради</h2>
+<ul>
+  <li>Завжди беріть оригінал картки побуту — копія не підходить.</li>
+  <li>Перевірте термін дії картки перед подорожжю — вона має бути дійсною протягом усього перебування за кордоном.</li>
+  <li>Фіксуйте дати в'їзду до країн Шенгену та кількість днів поза Польщею — для цього можна використовувати калькулятор 90/180 на сайті Schengen Visa Info.</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Польська картка тимчасового перебування — це потужний документ для подорожей: він дає вам доступ до всієї Шенгенської зони без візи, до 90 днів кожні 180 днів поза Польщею. Запам'ятайте: дійсний паспорт + дійсна картка побуту + ліміт 90/180 = свобода подорожувати Європою.</p>
+    `.trim(),
+  },
+  {
+    slug: "puteshestviya-shengen-karta-pobytu-inostranets-polsha",
+    title: "Путешествия по Шенгену с польской картой пребывания – что нужно знать иностранцу",
+    description: "Позволяет ли польская карта временного пребывания въезжать в Германию и другие страны Шенгена без визы? Правило 90/180 дней, необходимые документы и что делать, если TRC ещё не получена.",
+    date: "2031-11-13",
+    lang: "ru",
+    content: `
+<p>У вас есть польская карта временного пребывания и вы хотите поехать на выходные в Германию, навестить родственников в другой стране ЕС или просто путешествовать по Европе? Польская карта пребывания предоставляет гражданам третьих стран важные права для передвижения по Шенгенской зоне — но существуют конкретные правила, о которых нужно знать.</p>
+
+<h2>Можно ли въезжать в другие страны Шенгена с польской картой пребывания?</h2>
+<p>Да. Действующая польская карта временного пребывания (TRC), выданная гражданину третьей страны, даёт право перемещаться по всей Шенгенской зоне <strong>без дополнительной визы</strong> на основании статьи 21 Конвенции о выполнении Шенгенского соглашения.</p>
+<p>Страны Шенгена, в которые можно въезжать (в том числе): Австрия, Бельгия, Чехия, Дания, Эстония, Финляндия, Франция, Греция, Испания, Нидерланды, Литва, Латвия, Германия, Норвегия, Португалия, Словакия, Словения, Швейцария, Швеция, Венгрия, Италия.</p>
+
+<h2>Правило 90/180 — сколько дней можно находиться за пределами Польши?</h2>
+<p>Ключевое правило: как владелец польской карты пребывания вы можете находиться в других странах Шенгена (не в Польше) <strong>не более 90 дней в каждом 180-дневном периоде</strong>. Дни пребывания в Польше в этот лимит <em>не входят</em>.</p>
+<ul>
+  <li>Например: 30 дней в Германии + 30 дней во Франции + 30 дней в Австрии = 90 дней за пределами Польши за 180 дней. Это разрешено.</li>
+  <li>Превышение лимита 90/180 может привести к отказу во въезде, штрафу или внесению в систему SIS.</li>
+</ul>
+
+<h2>Документы, необходимые при пересечении границы</h2>
+<ol>
+  <li><strong>Действующий паспорт</strong> (должен быть действителен в течение всего пребывания).</li>
+  <li><strong>Польская карта временного пребывания</strong> — оригинал, должна быть действительна на день въезда.</li>
+  <li><strong>Документы, подтверждающие цель поездки</strong> (рекомендуется): бронирование отеля, обратный билет, приглашение, наличие средств (ок. 100 EUR/день).</li>
+</ol>
+
+<h2>Что делать, если TRC ещё не выдана (пребывание по штампу)?</h2>
+<ul>
+  <li>Штамп подтверждает законное пребывание в Польше, но <strong>не даёт права въезжать в другие страны Шенгена</strong>.</li>
+  <li>Нужно дождаться выдачи физической карты или получить визу в посольстве страны назначения.</li>
+  <li>Исключение: выезд в страну, гражданином которой вы являетесь, или в которую вам не нужна виза.</li>
+</ul>
+
+<h2>Важно: работа в другой стране Шенгена</h2>
+<p>Польская карта пребывания даёт право на <strong>туристическое пребывание</strong> в других странах Шенгена, но <strong>не на работу</strong> в этих странах. Для работы за рубежом требуется отдельное разрешение соответствующего государства.</p>
+
+<h2>Практические советы</h2>
+<ul>
+  <li>Всегда берите с собой оригинал карты пребывания — копии недостаточно.</li>
+  <li>Проверьте срок действия карты перед поездкой — она должна быть действительна в течение всего пребывания за рубежом.</li>
+  <li>Фиксируйте даты въезда в страны Шенгена и количество дней за пределами Польши — можно использовать калькулятор 90/180 на сайте Schengen Visa Info.</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Польская карта временного пребывания — это важный документ для путешествий: она открывает вам доступ ко всей Шенгенской зоне без визы, на срок до 90 дней в каждом 180-дневном периоде за пределами Польши. Запомните: действующий паспорт + действующая карта пребывания + лимит 90/180 = свобода путешествовать по Европе.</p>
+    `.trim(),
+  },
+  {
+    slug: "schengen-travel-polish-residence-card-foreign-worker",
+    title: "Travelling Europe with a Polish Residence Card – What Foreign Workers Need to Know",
+    description: "Does a Polish temporary residence card allow visa-free entry to Germany and other Schengen countries? The 90/180-day rule, required documents, and what to do if your TRC is still being processed.",
+    date: "2031-11-20",
+    lang: "en",
+    content: `
+<p>You have a Polish temporary residence card and want to visit Germany for the weekend, see family in another EU country, or simply travel around Europe? Great news — your Polish residence card gives you important travel rights across the Schengen Area. Here is everything you need to know before you go.</p>
+
+<h2>Can You Enter Other Schengen Countries with a Polish Residence Card?</h2>
+<p>Yes. A valid Polish temporary residence card (TRC) issued to a third-country national entitles you to travel throughout the entire Schengen Area <strong>without an additional visa</strong>, under Article 21 of the Convention Implementing the Schengen Agreement.</p>
+<p>Countries you can enter (among others): Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Italy, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland.</p>
+
+<h2>The 90/180 Rule – How Long Can You Stay Outside Poland?</h2>
+<p>The key rule: as a Polish residence card holder you may spend a maximum of <strong>90 days in any 180-day period</strong> in other Schengen countries (i.e. outside Poland). Days spent in Poland do <em>not</em> count towards this limit.</p>
+<ul>
+  <li>For example: 30 days in Germany + 30 days in France + 30 days in Austria = 90 days outside Poland in 180 days. This is permitted.</li>
+  <li>Exceeding the 90/180 limit can result in entry refusal, a fine, or registration in the SIS database as an unwanted person.</li>
+</ul>
+
+<h2>Documents Required at the Border</h2>
+<ol>
+  <li><strong>Valid passport</strong> (must be valid throughout the entire stay).</li>
+  <li><strong>Original Polish temporary residence card</strong> — must be valid on the date of entry.</li>
+  <li><strong>Supporting documents (recommended)</strong>: hotel booking, return ticket, invitation letter, proof of funds (approx. 100 EUR/day). While not formally required for residence card holders, border authorities may ask for them in practice.</li>
+</ol>
+
+<h2>What If My TRC Is Still Being Processed (Residence by Stamp)?</h2>
+<ul>
+  <li>The date stamp in your passport confirms lawful residence in Poland but does <strong>not entitle you to enter other Schengen countries</strong>.</li>
+  <li>You must wait for the physical card or apply for a visa at the embassy of your destination country.</li>
+  <li>Exception: travel to your home country (Ukraine, for example) or a country for which you do not need a visa — Ukrainian nationals with a biometric passport can enter most EU countries visa-free.</li>
+</ul>
+
+<h2>Special Note for Ukrainian Nationals Under Temporary Protection</h2>
+<ul>
+  <li>Temporary protection status in Poland (UKR/Diia.pl certificate) authorises residence in Poland but is <strong>not a Schengen residence card</strong>.</li>
+  <li>Ukrainians with a biometric passport can enter Schengen countries visa-free for up to 90 days/180 days on the standard visa-waiver basis.</li>
+  <li>Working in another Schengen country requires a separate work permit issued by that country.</li>
+</ul>
+
+<h2>Important: Working in Other Schengen Countries</h2>
+<p>Your Polish residence card permits <strong>short-stay tourism</strong> in other Schengen countries, but does <strong>not authorise you to work</strong> there. Working abroad requires a separate work permit from that country.</p>
+
+<h2>Practical Tips</h2>
+<ul>
+  <li>Always carry the original residence card — a photocopy is not accepted.</li>
+  <li>Check your card's expiry date before travelling — it must be valid for the entire stay abroad.</li>
+  <li>Track your entry dates and days spent outside Poland — use the Schengen Visa Info 90/180-day calculator online.</li>
+  <li>If your documents are lost or stolen abroad, contact the nearest Polish consulate immediately.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Your Polish temporary residence card is a powerful travel document — it gives you visa-free access to the entire Schengen Area for up to 90 days out of every 180, with Poland days not counting against the limit. Remember the formula: valid passport + valid residence card + 90/180 rule = freedom to travel Europe.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polaka-uprawnienia-jak-zlozyc-wniosek-cudzoziemiec",
+    title: "Karta Polaka – co daje i jak się starać? Przewodnik dla cudzoziemców",
+    description: "Karta Polaka pozwala Ukraińcom, Białorusinom i innym osobom polskiego pochodzenia na podjęcie pracy bez zezwolenia w Polsce. Sprawdź, kto może się starać, jakie dokumenty są potrzebne i jak złożyć wniosek.",
+    date: "2031-11-27",
+    lang: "pl",
+    content: `
+<p>Jeśli Twoja rodzina ma polskie korzenie — dziadkowie urodzeni w Polsce, nazwisko polskie lub rodzic polskiej narodowości — możesz być uprawniony do Karty Polaka. To dokument, który daje realne prawa w Polsce, w tym możliwość podjęcia pracy bez zezwolenia.</p>
+
+<h2>Czym jest Karta Polaka?</h2>
+<p>Karta Polaka to dokument potwierdzający przynależność do Narodu Polskiego. Wydawana jest obywatelom określonych krajów postsowieckich (m.in. Ukrainy, Białorusi, Rosji, Mołdawii, Gruzji, Azerbejdżanu, Armenii, Kazachstanu, Uzbekistanu, Tadżykistanu, Turkmenistanu, Kirgistanu).</p>
+<p>Ważne: Karta Polaka <strong>nie jest dokumentem pobytowym</strong> — nie zastępuje wizy ani zezwolenia na pobyt. Nie daje prawa do zamieszkania w Polsce. Daje jednak szereg ważnych uprawnień.</p>
+
+<h2>Co daje Karta Polaka?</h2>
+<ul>
+  <li><strong>Praca w Polsce bez zezwolenia</strong> — posiadacz Karty Polaka może podjąć legalną pracę w Polsce bez konieczności uzyskiwania zezwolenia na pracę (oświadczenia lub zezwolenia).</li>
+  <li><strong>Bezpłatne wizy wjazdowe do Polski</strong> (dla krajów, które wymagają wizy).</li>
+  <li><strong>Bezpłatny wstęp do muzeów</strong> państwowych i zniżki na przejazdy kolejowe PKP (50% zniżki na bilety do 5 osób).</li>
+  <li><strong>Nauka języka polskiego</strong> i dostęp do kursów kultury finansowanych przez polskie instytucje.</li>
+  <li><strong>Priorytetowe rozpatrywanie wniosków</strong> o stały pobyt i obywatelstwo polskie.</li>
+  <li><strong>Ulgi na leczenie</strong> w Polsce w ramach NFZ (dotyczy Białorusinów i Ukraińców w szczególnych sytuacjach).</li>
+</ul>
+
+<h2>Kto może złożyć wniosek?</h2>
+<p>Możesz starać się o Kartę Polaka, jeżeli:</p>
+<ol>
+  <li>Jesteś obywatelem jednego z krajów uprawnionych (lista powyżej).</li>
+  <li><strong>Masz polskie korzenie</strong> — możesz wykazać polską narodowość lub obywatelstwo co najmniej jednego z rodziców, dziadków lub pradziadków, albo potwierdzić swoje związki z Polskością.</li>
+  <li><strong>Znasz język polski</strong> przynajmniej w stopniu podstawowym i posługujesz się nim w rozmowie.</li>
+  <li>Wyrażasz związek z polską kulturą, historią i tradycją.</li>
+</ol>
+<p>Uwaga: obywatele Ukrainy objęci ochroną tymczasową mogą starać się o Kartę Polaka, jeśli spełniają warunki polskiego pochodzenia.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<ol>
+  <li><strong>Konsulat polski</strong> — wniosek składa się w polskim konsulacie właściwym dla Twojego miejsca zamieszkania za granicą. Jeśli mieszkasz w Polsce, wniosek można złożyć do konsulatu właściwego dla kraju Twojego obywatelstwa.</li>
+  <li><strong>Wymagane dokumenty:</strong>
+    <ul>
+      <li>Ważny paszport lub dowód osobisty.</li>
+      <li>Dokumenty potwierdzające polskie pochodzenie: metryki urodzenia, ślubu lub zgonu przodków; świadectwa chrztu; dokumenty szkolne; stare dokumenty tożsamości z wpisem narodowości polskiej.</li>
+      <li>Oświadczenie o przynależności do Narodu Polskiego.</li>
+      <li>Zdjęcie biometryczne.</li>
+    </ul>
+  </li>
+  <li><strong>Rozmowa kwalifikacyjna</strong> — konsul przeprowadza rozmowę w języku polskim weryfikującą znajomość języka i związek z polskością.</li>
+  <li><strong>Termin oczekiwania:</strong> od kilku tygodni do kilku miesięcy, w zależności od konsulatów.</li>
+</ol>
+
+<h2>Karta Polaka a praca w Polsce — jak z niej skorzystać?</h2>
+<p>Jeśli masz Kartę Polaka i chcesz podjąć pracę w Polsce:</p>
+<ul>
+  <li>Nie musisz uzyskiwać odrębnego zezwolenia na pracę ani składać oświadczenia o powierzeniu pracy — pracodawca może Cię zatrudnić od razu.</li>
+  <li>Nadal potrzebujesz legalnego pobytu w Polsce (wizy, zezwolenia na pobyt lub innego tytułu pobytowego).</li>
+  <li>Karta Polaka znacznie upraszcza i przyspiesza proces zatrudnienia.</li>
+</ul>
+
+<h2>Czego Karta Polaka NIE daje</h2>
+<ul>
+  <li>Nie jest dokumentem pobytowym — nie zastępuje zezwolenia na pobyt.</li>
+  <li>Nie daje automatycznie prawa do polskiego obywatelstwa.</li>
+  <li>Nie zwalnia z obowiązku posiadania wizy wjazdowej do strefy Schengen (dla obywateli krajów, które wymagają wizy — np. Białorusi).</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Karta Polaka to ważny dokument dla osób polskiego pochodzenia z byłego ZSRR. Umożliwia legalną pracę w Polsce bez zezwolenia, dostęp do wielu ulg i priorytetowe ścieżki do stałego pobytu. Jeśli masz polskie korzenie, warto sprawdzić, czy spełniasz warunki — szczególnie jeśli planujesz długoterminowe życie i pracę w Polsce.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polyaka-prava-yak-podaty-zayavu-inozemets",
+    title: "Карта Поляка – що вона дає і як її отримати? Путівник для іноземців",
+    description: "Карта Поляка дозволяє українцям, білорусам та іншим особам польського походження влаштовуватися на роботу в Польщі без дозволу. Дізнайтеся, хто може подати заявку, які документи потрібні і як пройти процедуру.",
+    date: "2031-12-04",
+    lang: "uk",
+    content: `
+<p>Якщо ваша родина має польське коріння — дідусі або бабусі народилися в Польщі, у вас польське прізвище або один із батьків є поляком — ви можете претендувати на Карту Поляка. Це документ, який надає реальні права в Польщі, зокрема можливість працювати без дозволу.</p>
+
+<h2>Що таке Карта Поляка?</h2>
+<p>Карта Поляка — це документ, що підтверджує належність до польського народу. Вона видається громадянам певних пострадянських країн (зокрема України, Білорусі, Росії, Молдови, Грузії, Азербайджану, Вірменії, Казахстану, Узбекистану, Таджикистану, Туркменістану, Киргизстану).</p>
+<p>Важливо: Карта Поляка <strong>не є документом про перебування</strong> — вона не замінює візу або дозвіл на перебування та не дає права на проживання в Польщі. Але вона надає низку важливих привілеїв.</p>
+
+<h2>Що дає Карта Поляка?</h2>
+<ul>
+  <li><strong>Робота в Польщі без дозволу</strong> — власник Карти Поляка може влаштуватися на законну роботу в Польщі без отримання дозволу на роботу (oświadczenie або zezwolenie).</li>
+  <li><strong>Безкоштовні в'їзні візи до Польщі</strong> (для країн, де вімагається віза).</li>
+  <li><strong>Безкоштовний вхід до державних музеїв</strong> і знижки на залізничні квитки PKP (50% знижки, до 5 осіб).</li>
+  <li><strong>Вивчення польської мови</strong> та доступ до культурних програм, що фінансуються польськими інститутами.</li>
+  <li><strong>Пріоритетний розгляд заяв</strong> на постійне перебування та польське громадянство.</li>
+</ul>
+
+<h2>Хто може подати заявку?</h2>
+<ol>
+  <li>Ви є громадянином однієї з країн, що мають право на Карту Поляка (список вище).</li>
+  <li><strong>Ви маєте польське коріння</strong> — можете підтвердити польську національність або громадянство щонайменше одного з батьків, дідусів/бабусь або прадідусів/прабабусь.</li>
+  <li><strong>Ви знаєте польську мову</strong> принаймні на базовому рівні та можете розмовляти нею.</li>
+  <li>Ви підтверджуєте свій зв'язок з польською культурою, історією та традиціями.</li>
+</ol>
+<p>Примітка: громадяни України, які перебувають під тимчасовим захистом, можуть подати заявку на Карту Поляка, якщо відповідають умовам польського походження.</p>
+
+<h2>Як подати заявку?</h2>
+<ol>
+  <li><strong>Польське консульство</strong> — заявку подають до польського консульства, що обслуговує місце вашого проживання за кордоном. Якщо ви проживаєте в Польщі, зверніться до консульства, що обслуговує країну вашого громадянства.</li>
+  <li><strong>Необхідні документи:</strong>
+    <ul>
+      <li>Дійсний паспорт або посвідчення особи.</li>
+      <li>Документи, що підтверджують польське походження: свідоцтва про народження, шлюб або смерть предків; свідоцтва про хрещення; шкільні документи; старі посвідчення особи із записом про польську національність.</li>
+      <li>Заява про належність до польського народу.</li>
+      <li>Біометрична фотографія.</li>
+    </ul>
+  </li>
+  <li><strong>Співбесіда</strong> — консул проводить співбесіду польською мовою для перевірки знання мови та зв'язку з польськістю.</li>
+  <li><strong>Термін очікування:</strong> від кількох тижнів до кількох місяців залежно від консульства.</li>
+</ol>
+
+<h2>Карта Поляка і робота в Польщі</h2>
+<ul>
+  <li>Вам не потрібно отримувати окремий дозвіл на роботу — роботодавець може найняти вас одразу.</li>
+  <li>Вам усе одно потрібно законне перебування в Польщі (віза, дозвіл на перебування або інший документ).</li>
+  <li>Карта Поляка значно спрощує та прискорює процес працевлаштування.</li>
+</ul>
+
+<h2>Чого Карта Поляка НЕ дає</h2>
+<ul>
+  <li>Не є документом про перебування — не замінює дозвіл на перебування.</li>
+  <li>Не надає автоматично права на польське громадянство.</li>
+  <li>Не звільняє від обов'язку мати в'їзну візу до Шенгену (для громадян країн, де вимагається віза).</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Карта Поляка — важливий документ для осіб польського походження з колишнього СРСР. Вона дозволяє легально працювати в Польщі без дозволу, надає доступ до численних пільг і пріоритетний шлях до постійного перебування. Якщо у вас є польське коріння — перевірте, чи відповідаєте ви умовам, особливо якщо плануєте довгостроково жити та працювати в Польщі.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polyaka-prava-kak-podat-zayavlenie-inostranets",
+    title: "Карта Поляка – что она даёт и как её получить? Руководство для иностранцев",
+    description: "Карта Поляка позволяет украинцам, белорусам и другим лицам польского происхождения работать в Польше без разрешения. Узнайте, кто может подать заявку, какие документы нужны и как пройти процедуру.",
+    date: "2031-12-11",
+    lang: "ru",
+    content: `
+<p>Если ваша семья имеет польские корни — бабушки или дедушки родились в Польше, у вас польская фамилия или один из родителей польского происхождения — вы можете иметь право на Карту Поляка. Это документ, дающий реальные права в Польше, в том числе возможность работать без разрешения.</p>
+
+<h2>Что такое Карта Поляка?</h2>
+<p>Карта Поляка — это документ, подтверждающий принадлежность к польскому народу. Она выдаётся гражданам ряда постсоветских стран (в том числе Украины, Белоруссии, России, Молдовы, Грузии, Азербайджана, Армении, Казахстана, Узбекистана, Таджикистана, Туркменистана, Кыргызстана).</p>
+<p>Важно: Карта Поляка <strong>не является документом о пребывании</strong> — она не заменяет визу или разрешение на пребывание и не даёт права на проживание в Польше. Однако она предоставляет ряд важных привилегий.</p>
+
+<h2>Что даёт Карта Поляка?</h2>
+<ul>
+  <li><strong>Работа в Польше без разрешения</strong> — владелец Карты Поляка может легально работать в Польше без оформления разрешения на работу (oświadczenie или zezwolenie).</li>
+  <li><strong>Бесплатные въездные визы в Польшу</strong> (для стран, где требуется виза).</li>
+  <li><strong>Бесплатный вход в государственные музеи</strong> и скидки на железнодорожные билеты PKP (50% скидки, до 5 человек).</li>
+  <li><strong>Изучение польского языка</strong> и доступ к культурным программам, финансируемым польскими институтами.</li>
+  <li><strong>Приоритетное рассмотрение заявлений</strong> на постоянное пребывание и польское гражданство.</li>
+</ul>
+
+<h2>Кто может подать заявку?</h2>
+<ol>
+  <li>Вы являетесь гражданином одной из стран, имеющих право на Карту Поляка (список выше).</li>
+  <li><strong>У вас есть польские корни</strong> — вы можете подтвердить польскую национальность или гражданство хотя бы одного из родителей, дедушек/бабушек или прадедушек/прабабушек.</li>
+  <li><strong>Вы знаете польский язык</strong> хотя бы на базовом уровне и можете общаться на нём.</li>
+  <li>Вы подтверждаете свою связь с польской культурой, историей и традициями.</li>
+</ol>
+
+<h2>Как подать заявку?</h2>
+<ol>
+  <li><strong>Польское консульство</strong> — заявку подают в польское консульство, обслуживающее место вашего проживания за рубежом. Если вы проживаете в Польше, обратитесь в консульство, обслуживающее вашу страну гражданства.</li>
+  <li><strong>Необходимые документы:</strong>
+    <ul>
+      <li>Действующий паспорт или удостоверение личности.</li>
+      <li>Документы, подтверждающие польское происхождение: свидетельства о рождении, браке или смерти предков; свидетельства о крещении; школьные документы; старые удостоверения личности с записью о польской национальности.</li>
+      <li>Заявление о принадлежности к польскому народу.</li>
+      <li>Биометрическая фотография.</li>
+    </ul>
+  </li>
+  <li><strong>Собеседование</strong> — консул проводит собеседование на польском языке для проверки знания языка и связи с польскостью.</li>
+  <li><strong>Срок ожидания:</strong> от нескольких недель до нескольких месяцев в зависимости от консульства.</li>
+</ol>
+
+<h2>Карта Поляка и работа в Польше</h2>
+<ul>
+  <li>Вам не нужно получать отдельное разрешение на работу — работодатель может нанять вас сразу.</li>
+  <li>Вам по-прежнему нужно законное основание для пребывания в Польше (виза, разрешение на пребывание или иной документ).</li>
+  <li>Карта Поляка значительно упрощает и ускоряет процесс трудоустройства.</li>
+</ul>
+
+<h2>Чего Карта Поляка НЕ даёт</h2>
+<ul>
+  <li>Не является документом о пребывании — не заменяет разрешение на пребывание.</li>
+  <li>Не предоставляет автоматически права на польское гражданство.</li>
+  <li>Не освобождает от обязанности иметь въездную визу в Шенгенскую зону (для граждан стран, где требуется виза).</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Карта Поляка — важный документ для лиц польского происхождения из бывшего СССР. Она позволяет легально работать в Польше без разрешения, даёт доступ ко многим льготам и приоритетный путь к постоянному пребыванию. Если у вас есть польские корни — проверьте, соответствуете ли вы требованиям, особенно если планируете долгосрочную жизнь и работу в Польше.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polaka-polish-heritage-card-foreign-worker-guide",
+    title: "Karta Polaka (Polish Heritage Card) – What It Gives You and How to Apply",
+    description: "The Karta Polaka lets Ukrainians, Belarusians, and others of Polish descent work in Poland without a work permit. Find out who qualifies, what documents are needed, and how to apply.",
+    date: "2031-12-18",
+    lang: "en",
+    content: `
+<p>Do you have Polish roots — grandparents born in Poland, a Polish surname, or a parent of Polish nationality? You may qualify for the Karta Polaka (Polish Heritage Card). It is a document that gives you real rights in Poland, including the ability to work legally without a work permit.</p>
+
+<h2>What Is the Karta Polaka?</h2>
+<p>The Karta Polaka (literally "Polish Card") is a document confirming belonging to the Polish Nation. It is issued to citizens of certain post-Soviet countries, including: Ukraine, Belarus, Russia, Moldova, Georgia, Azerbaijan, Armenia, Kazakhstan, Uzbekistan, Tajikistan, Turkmenistan, and Kyrgyzstan.</p>
+<p>Important: the Karta Polaka is <strong>not a residence document</strong> — it does not replace a visa or residence permit and does not give the right to live in Poland. However, it confers a number of valuable privileges.</p>
+
+<h2>What Does the Karta Polaka Give You?</h2>
+<ul>
+  <li><strong>Work in Poland without a work permit</strong> — holders can take up legal employment in Poland without needing a work permit (oświadczenie or zezwolenie).</li>
+  <li><strong>Free Polish entry visas</strong> (for countries that require a visa to enter Poland).</li>
+  <li><strong>Free entry to state museums</strong> and 50% discounts on PKP rail tickets (for up to 5 people).</li>
+  <li><strong>Access to Polish language courses</strong> and cultural programmes funded by Polish institutions (e.g. Polish Institute).</li>
+  <li><strong>Priority processing</strong> of applications for permanent residence and Polish citizenship.</li>
+</ul>
+
+<h2>Who Can Apply?</h2>
+<ol>
+  <li>You are a citizen of one of the eligible countries (list above).</li>
+  <li><strong>You have Polish roots</strong> — you can demonstrate Polish nationality or citizenship of at least one parent, grandparent, or great-grandparent, or confirm your connection to Polish identity.</li>
+  <li><strong>You speak basic Polish</strong> and can hold a simple conversation in the language.</li>
+  <li>You affirm a connection to Polish culture, history, and traditions.</li>
+</ol>
+<p>Note: Ukrainian nationals under temporary protection in Poland may apply for a Karta Polaka if they meet the Polish descent requirements.</p>
+
+<h2>How to Apply</h2>
+<ol>
+  <li><strong>Polish consulate</strong> — apply at the Polish consulate serving your country of residence abroad. If you already live in Poland, apply at the consulate serving your country of citizenship.</li>
+  <li><strong>Required documents:</strong>
+    <ul>
+      <li>Valid passport or national ID.</li>
+      <li>Documents proving Polish descent: birth, marriage, or death certificates of ancestors; baptism records; school documents; old identity documents showing Polish nationality.</li>
+      <li>Declaration of belonging to the Polish Nation.</li>
+      <li>Biometric photograph.</li>
+    </ul>
+  </li>
+  <li><strong>Interview</strong> — the consul conducts an interview in Polish to verify language skills and connection to Polish identity.</li>
+  <li><strong>Processing time:</strong> several weeks to several months, depending on the consulate.</li>
+</ol>
+
+<h2>Karta Polaka and Employment in Poland</h2>
+<ul>
+  <li>You do not need a separate work permit — your employer can hire you directly.</li>
+  <li>You still need a lawful basis for residing in Poland (visa, residence permit, or other document).</li>
+  <li>The Karta Polaka significantly simplifies and accelerates the hiring process.</li>
+</ul>
+
+<h2>What the Karta Polaka Does NOT Give You</h2>
+<ul>
+  <li>It is not a residence document — it does not replace a residence permit.</li>
+  <li>It does not automatically confer Polish citizenship.</li>
+  <li>It does not exempt you from needing a Schengen entry visa (for citizens of countries that require one — e.g. Belarus).</li>
+</ul>
+
+<h2>Summary</h2>
+<p>The Karta Polaka is a valuable document for people of Polish descent from the former Soviet Union. It enables legal work in Poland without a work permit, provides access to numerous discounts and cultural programmes, and opens a priority route to permanent residence. If you have Polish roots — check whether you qualify, especially if you are planning to live and work in Poland long-term.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
