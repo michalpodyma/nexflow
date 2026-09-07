@@ -23022,6 +23022,335 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Working through a staffing agency is a legal and common form of employment in Poland. Knowing your rights and understanding who is responsible for what lets you work with confidence and assert your entitlements. If you have any questions — Nexflow is always here to help.</p>
     `.trim(),
   },
+  {
+    slug: "pracodawca-nie-wyplacil-wynagrodzenia-co-robic-cudzoziemiec",
+    title:
+      "Co zrobić, gdy pracodawca nie wypłacił wynagrodzenia? Poradnik dla cudzoziemców",
+    description:
+      "Pracodawca nie zapłacił w terminie? Dowiedz się, co możesz zrobić krok po kroku — od kontaktu z pracodawcą po skargę do PIP i sądu.",
+    date: "2031-06-05",
+    lang: "pl",
+    content: `
+<h1>Co zrobić, gdy pracodawca nie wypłacił wynagrodzenia?</h1>
+
+<p>Termin wypłaty minął, a pieniędzy na koncie nie ma. To bardzo stresująca sytuacja — szczególnie gdy pracujesz za granicą i nie znasz dobrze polskich przepisów. Ten poradnik tłumaczy, co możesz zrobić krok po kroku.</p>
+
+<h2>Kiedy pracodawca musi wypłacić wynagrodzenie?</h2>
+
+<p>Polskie prawo pracy (art. 85 Kodeksu pracy) wymaga, aby wynagrodzenie było wypłacane co najmniej raz w miesiącu, w terminie z góry ustalonym — zwykle do 10. dnia następnego miesiąca. Dokładny termin powinien być podany w Twojej umowie lub regulaminie wynagradzania zakładu pracy.</p>
+
+<p><strong>Jeśli pracujesz przez agencję pracy (np. Nexflow):</strong> Twój oficjalny pracodawca to agencja, nie firma, w której pracujesz. Agencja jest prawnie zobowiązana do wypłaty wynagrodzenia niezależnie od tego, czy sama otrzymała zapłatę od klienta. Twoje prawa są chronione.</p>
+
+<h2>Krok 1 — Sprawdź i skontaktuj się</h2>
+
+<p>Zanim podejmiesz formalny krok, sprawdź:</p>
+<ul>
+  <li>Czy termin rzeczywiście minął (sprawdź umowę lub regulamin)?</li>
+  <li>Czy wynagrodzenie nie trafiło na inne konto lub nie wystąpiła techniczna pomyłka bankowa?</li>
+</ul>
+
+<p>Jeśli tak — <strong>skontaktuj się pisemnie z pracodawcą lub agencją</strong> (e-mail lub wiadomość). Poproś o potwierdzenie daty przelewu. Zachowaj wiadomości — mogą być potrzebne później.</p>
+
+<h2>Krok 2 — Złóż pisemne wezwanie do zapłaty</h2>
+
+<p>Jeśli pracodawca nie reaguje, wyślij <strong>pisemne wezwanie do zapłaty</strong> (możesz to zrobić e-mailem z potwierdzeniem dostarczenia lub listem poleconym). W wezwaniu napisz:</p>
+<ul>
+  <li>Swoje imię i nazwisko</li>
+  <li>Kwotę zaległości</li>
+  <li>Okres, za który wynagrodzenie nie zostało wypłacone</li>
+  <li>Termin, do którego oczekujesz przelewu (np. 5 dni roboczych)</li>
+  <li>Informację, że w przypadku braku odpowiedzi złożysz skargę do Państwowej Inspekcji Pracy</li>
+</ul>
+
+<h2>Krok 3 — Złóż skargę do Państwowej Inspekcji Pracy (PIP)</h2>
+
+<p>Państwowa Inspekcja Pracy (PIP) to organ kontrolujący przestrzeganie prawa pracy w Polsce. Działa bezpłatnie, a skargę możesz złożyć:</p>
+<ul>
+  <li><strong>Online:</strong> pip.gov.pl (formularz elektroniczny)</li>
+  <li><strong>Osobiście:</strong> w okręgowym inspektoracie pracy w swoim mieście</li>
+  <li><strong>Telefonicznie:</strong> informacja ogólna: 22 391 82 00</li>
+</ul>
+
+<p>Inspektorzy mają prawo nakazać pracodawcy natychmiastową wypłatę. Możesz złożyć skargę anonimowo.</p>
+
+<p><strong>Ważne dla cudzoziemców:</strong> PIP przyjmuje skargi niezależnie od Twojego statusu pobytowego i nie przekazuje danych imigracyjnych służbom. Składanie skargi jest bezpieczne.</p>
+
+<h2>Krok 4 — Pozew w e-sądzie (uproszczone postępowanie)</h2>
+
+<p>Jeśli kwota zaległości nie przekracza 20 000 zł, możesz złożyć <strong>pozew przez internet w e-sądzie</strong> (epuap.gov.pl lub e-sad.gov.pl). Postępowanie upominawcze jest szybkie i niedrogie (opłata: 5% wartości roszczenia, min. 30 zł). Sąd wydaje nakaz zapłaty, a jeśli pracodawca nie wniesie sprzeciwu — nakaz staje się prawomocny i komornik może egzekwować należność.</p>
+
+<p>Możesz skorzystać z pomocy prawnika lub <strong>nieodpłatnej pomocy prawnej</strong> dostępnej w punktach w urzędach gminy.</p>
+
+<h2>Krok 5 — FGŚP w razie upadłości pracodawcy</h2>
+
+<p>Jeśli Twój pracodawca ogłosił upadłość lub jest w stanie jej zagrożenia, możesz uzyskać wypłatę z <strong>Funduszu Gwarantowanych Świadczeń Pracowniczych (FGŚP)</strong>. Wniosek składa syndyk lub sam pracownik — w urzędzie marszałkowskim województwa lub przez internet.</p>
+
+<h2>Podsumowanie — co możesz zrobić</h2>
+
+<table>
+  <thead>
+    <tr><th>Sytuacja</th><th>Działanie</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Opóźnienie kilku dni</td><td>Skontaktuj się z pracodawcą/agencją</td></tr>
+    <tr><td>Brak odpowiedzi po kontakcie</td><td>Wyślij pisemne wezwanie do zapłaty</td></tr>
+    <tr><td>Pracodawca odmawia</td><td>Złóż skargę do PIP (pip.gov.pl)</td></tr>
+    <tr><td>Sprawa sądowa</td><td>Pozew przez e-sąd (roszczenia do 20 000 zł)</td></tr>
+    <tr><td>Pracodawca w upadłości</td><td>Wniosek do FGŚP</td></tr>
+  </tbody>
+</table>
+
+<h2>Pamiętaj</h2>
+
+<p>Twoje wynagrodzenie jest chronione polskim prawem niezależnie od narodowości i statusu pobytu. Jeśli pracujesz przez Nexflow — agencja jest Twoim oficjalnym pracodawcą i odpowiada za terminową wypłatę. Masz wątpliwości? Skontaktuj się z nami na nexflow.work.</p>
+
+<p><em>Nexflow — Twoja agencja pracy. Jesteśmy po Twojej stronie.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "robotodavets-ne-vyplatyv-zarplatu-shcho-robyty-chuzhozemets",
+    title:
+      "Що робити, якщо роботодавець не виплатив зарплату? Порадник для іноземців у Польщі",
+    description:
+      "Роботодавець не заплатив вчасно? Дізнайтесь, що робити крок за кроком — від контакту з роботодавцем до скарги в ДІП та суду.",
+    date: "2031-06-05",
+    lang: "uk",
+    content: `
+<h1>Що робити, якщо роботодавець не виплатив зарплату?</h1>
+
+<p>Термін виплати минув, а грошей на рахунку немає. Це дуже стресова ситуація — особливо якщо ви працюєте в чужій країні і не дуже знаєте місцеве законодавство. Цей порадник пояснює, що ви можете зробити крок за кроком.</p>
+
+<h2>Коли роботодавець повинен виплатити зарплату?</h2>
+
+<p>Польське трудове право (ст. 85 Кодексу праці) вимагає виплачувати зарплату не рідше одного разу на місяць — зазвичай до 10-го числа наступного місяця. Точний термін повинен бути вказаний у вашому договорі або положенні про оплату праці.</p>
+
+<p><strong>Якщо ви працюєте через агенцію праці (наприклад, Nexflow):</strong> ваш офіційний роботодавець — це агенція, а не компанія, де ви фізично працюєте. Агенція юридично зобов'язана виплачувати зарплату незалежно від того, чи отримала вона оплату від клієнта. Ваші права захищені.</p>
+
+<h2>Крок 1 — Перевірте та зв'яжіться</h2>
+
+<p>Перш ніж робити офіційні кроки, перевірте:</p>
+<ul>
+  <li>Чи дійсно термін минув (перевірте договір)?</li>
+  <li>Чи не надійшли кошти на інший рахунок або не була технічна помилка банку?</li>
+</ul>
+
+<p>Якщо так — <strong>зв'яжіться письмово з роботодавцем або агенцією</strong> (e-mail або повідомлення). Попросіть підтвердження дати переказу. Збережіть переписку.</p>
+
+<h2>Крок 2 — Надішліть письмову вимогу виплати</h2>
+
+<p>Якщо роботодавець не реагує, надішліть <strong>письмову вимогу виплати</strong> (e-mail з підтвердженням або рекомендований лист). Вкажіть:</p>
+<ul>
+  <li>Ваше ім'я та прізвище</li>
+  <li>Суму заборгованості</li>
+  <li>Період, за який зарплата не виплачена</li>
+  <li>Термін, до якого очікуєте переказу (наприклад, 5 робочих днів)</li>
+  <li>Інформацію, що в разі відсутності відповіді ви подасте скаргу до Державної інспекції праці</li>
+</ul>
+
+<h2>Крок 3 — Подайте скаргу до Державної інспекції праці (ДІП / PIP)</h2>
+
+<p>Державна інспекція праці (PIP) безкоштовно перевіряє дотримання трудового законодавства. Скаргу можна подати:</p>
+<ul>
+  <li><strong>Онлайн:</strong> pip.gov.pl (електронна форма)</li>
+  <li><strong>Особисто:</strong> у районному інспекторіаті праці вашого міста</li>
+  <li><strong>Телефоном:</strong> 22 391 82 00</li>
+</ul>
+
+<p>Інспектори мають право зобов'язати роботодавця негайно виплатити зарплату. Скаргу можна подати анонімно.</p>
+
+<p><strong>Важливо для іноземців:</strong> PIP приймає скарги незалежно від вашого статусу перебування і не передає дані імміграційним службам. Подавати скаргу безпечно.</p>
+
+<h2>Крок 4 — Позов через е-суд</h2>
+
+<p>Якщо сума заборгованості не перевищує 20 000 злотих, ви можете подати <strong>позов через інтернет в е-суді</strong> (e-sad.gov.pl). Процедура швидка і недорога (мито: 5% від суми, мін. 30 злотих). Суд видає судовий наказ, і якщо роботодавець не заперечує — виконавець може стягнути борг.</p>
+
+<h2>Крок 5 — FGŚP при банкрутстві роботодавця</h2>
+
+<p>Якщо роботодавець оголосив банкрутство, ви можете отримати виплату з <strong>Фонду гарантованих трудових виплат (FGŚP)</strong>. Заяву подає синдик або сам працівник — у маршалківському управлінні або онлайн.</p>
+
+<h2>Підсумок</h2>
+
+<table>
+  <thead>
+    <tr><th>Ситуація</th><th>Дія</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Затримка кількох днів</td><td>Зв'яжіться з роботодавцем/агенцією</td></tr>
+    <tr><td>Немає відповіді</td><td>Надішліть письмову вимогу виплати</td></tr>
+    <tr><td>Роботодавець відмовляє</td><td>Подайте скаргу до ДІП (pip.gov.pl)</td></tr>
+    <tr><td>Судова справа</td><td>Позов через е-суд (до 20 000 зл.)</td></tr>
+    <tr><td>Роботодавець банкрот</td><td>Заява до FGŚP</td></tr>
+  </tbody>
+</table>
+
+<p>Ваша зарплата захищена польським законом незалежно від вашої національності та статусу перебування. Якщо ви працюєте через Nexflow — агенція є вашим офіційним роботодавцем і відповідає за своєчасну виплату. Маєте запитання? Зв'яжіться з нами на nexflow.work.</p>
+
+<p><em>Nexflow — ваша агенція праці. Ми на вашому боці.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "rabotodatel-ne-vyplatil-zarplatu-chto-delat-inostranets-polsha",
+    title:
+      "Что делать, если работодатель не выплатил зарплату? Руководство для иностранцев в Польше",
+    description:
+      "Работодатель не заплатил вовремя? Узнайте, что делать шаг за шагом — от контакта с работодателем до жалобы в ГИТ и суда.",
+    date: "2031-06-05",
+    lang: "ru",
+    content: `
+<h1>Что делать, если работодатель не выплатил зарплату?</h1>
+
+<p>Срок выплаты прошёл, а деньги на счёт не поступили. Это очень стрессовая ситуация — особенно когда вы работаете в чужой стране и не очень хорошо знаете местное законодательство. Это руководство объясняет, что вы можете сделать шаг за шагом.</p>
+
+<h2>Когда работодатель обязан выплатить зарплату?</h2>
+
+<p>Польское трудовое законодательство (ст. 85 Трудового кодекса) требует выплачивать зарплату не реже одного раза в месяц — обычно до 10-го числа следующего месяца. Точный срок должен быть указан в вашем договоре или положении об оплате труда.</p>
+
+<p><strong>Если вы работаете через кадровое агентство (например, Nexflow):</strong> ваш официальный работодатель — агентство, а не компания, где вы физически работаете. Агентство юридически обязано выплачивать зарплату независимо от того, получило ли оно оплату от клиента. Ваши права защищены.</p>
+
+<h2>Шаг 1 — Проверьте и свяжитесь</h2>
+
+<p>Прежде чем предпринимать официальные действия, проверьте:</p>
+<ul>
+  <li>Действительно ли срок прошёл (проверьте договор)?</li>
+  <li>Не поступили ли деньги на другой счёт или не произошла ли техническая ошибка банка?</li>
+</ul>
+
+<p>Если да — <strong>свяжитесь письменно с работодателем или агентством</strong> (по электронной почте или в мессенджере). Попросите подтверждение даты перевода. Сохраните переписку.</p>
+
+<h2>Шаг 2 — Направьте письменное требование об оплате</h2>
+
+<p>Если работодатель не реагирует, направьте <strong>письменное требование об оплате</strong> (e-mail с подтверждением доставки или заказное письмо). Укажите:</p>
+<ul>
+  <li>Ваше имя и фамилию</li>
+  <li>Сумму задолженности</li>
+  <li>Период, за который зарплата не выплачена</li>
+  <li>Срок, до которого ожидаете перевода (например, 5 рабочих дней)</li>
+  <li>Что в случае отсутствия ответа вы подадите жалобу в Государственную инспекцию труда</li>
+</ul>
+
+<h2>Шаг 3 — Подайте жалобу в Государственную инспекцию труда (ГИТ / PIP)</h2>
+
+<p>Государственная инспекция труда (PIP) бесплатно проверяет соблюдение трудового законодательства. Жалобу можно подать:</p>
+<ul>
+  <li><strong>Онлайн:</strong> pip.gov.pl (электронная форма)</li>
+  <li><strong>Лично:</strong> в окружной инспекции труда вашего города</li>
+  <li><strong>По телефону:</strong> 22 391 82 00</li>
+</ul>
+
+<p>Инспекторы вправе обязать работодателя немедленно выплатить зарплату. Жалобу можно подать анонимно.</p>
+
+<p><strong>Важно для иностранцев:</strong> PIP принимает жалобы независимо от вашего иммиграционного статуса и не передаёт данные в миграционные органы. Подавать жалобу безопасно.</p>
+
+<h2>Шаг 4 — Исковое заявление через э-суд</h2>
+
+<p>Если сумма задолженности не превышает 20 000 злотых, вы можете подать <strong>иск через интернет в э-суде</strong> (e-sad.gov.pl). Процедура быстрая и недорогая (госпошлина: 5% от суммы, мин. 30 злотых). Суд выдаёт судебный приказ, и если работодатель не возражает — судебный пристав может взыскать долг.</p>
+
+<h2>Шаг 5 — FGŚP при банкротстве работодателя</h2>
+
+<p>Если работодатель объявил о банкротстве, вы можете получить выплату из <strong>Фонда гарантированных трудовых выплат (FGŚP)</strong>. Заявление подаёт управляющий по делам о несостоятельности или сам работник — в маршальском управлении или онлайн.</p>
+
+<h2>Итог</h2>
+
+<table>
+  <thead>
+    <tr><th>Ситуация</th><th>Действие</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Задержка несколько дней</td><td>Свяжитесь с работодателем/агентством</td></tr>
+    <tr><td>Нет ответа</td><td>Направьте письменное требование</td></tr>
+    <tr><td>Работодатель отказывает</td><td>Жалоба в ГИТ (pip.gov.pl)</td></tr>
+    <tr><td>Судебное дело</td><td>Иск через э-суд (до 20 000 зл.)</td></tr>
+    <tr><td>Работодатель банкрот</td><td>Заявление в FGŚP</td></tr>
+  </tbody>
+</table>
+
+<p>Ваша зарплата защищена польским законом независимо от вашей национальности и статуса пребывания. Если вы работаете через Nexflow — агентство является вашим официальным работодателем и несёт ответственность за своевременную выплату. Есть вопросы? Свяжитесь с нами на nexflow.work.</p>
+
+<p><em>Nexflow — ваше кадровое агентство. Мы на вашей стороне.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "employer-hasnt-paid-wages-what-to-do-foreign-worker-poland",
+    title: "What to Do If Your Employer Hasn't Paid Your Wages in Poland",
+    description:
+      "Employer missed a pay date? Learn what to do step by step — from contacting the employer to filing a complaint with the Labour Inspectorate and taking legal action.",
+    date: "2031-06-05",
+    lang: "en",
+    content: `
+<h1>What to Do If Your Employer Hasn't Paid Your Wages in Poland</h1>
+
+<p>The pay date has passed and the money has not arrived in your account. This is a stressful situation — especially when you are working abroad and are not fully familiar with local law. This guide explains what you can do, step by step.</p>
+
+<h2>When Must an Employer Pay Wages?</h2>
+
+<p>Polish labour law (Article 85 of the Labour Code) requires wages to be paid at least once a month, on a date agreed in advance — usually by the 10th of the following month. The exact date must be stated in your employment contract or company pay regulations.</p>
+
+<p><strong>If you work through a staffing agency (e.g. Nexflow):</strong> your official employer is the agency, not the company where you physically work. The agency is legally obliged to pay your wages regardless of whether it has received payment from the client company. Your rights are protected.</p>
+
+<h2>Step 1 — Check and Contact</h2>
+
+<p>Before taking formal steps, verify:</p>
+<ul>
+  <li>Has the payment deadline actually passed (check your contract)?</li>
+  <li>Could the money have gone to a different account, or was there a bank transfer error?</li>
+</ul>
+
+<p>If the deadline has passed — <strong>contact your employer or agency in writing</strong> (by email or message). Ask them to confirm the payment transfer date. Keep all correspondence — you may need it later.</p>
+
+<h2>Step 2 — Send a Written Payment Demand</h2>
+
+<p>If the employer does not respond, send a <strong>written payment demand</strong> (email with read receipt, or registered post). Include:</p>
+<ul>
+  <li>Your full name</li>
+  <li>The amount owed</li>
+  <li>The pay period for which wages were not paid</li>
+  <li>A deadline by which you expect payment (e.g. 5 business days)</li>
+  <li>A note that if there is no response, you will file a complaint with the National Labour Inspectorate (PIP)</li>
+</ul>
+
+<h2>Step 3 — File a Complaint with the National Labour Inspectorate (PIP)</h2>
+
+<p>The National Labour Inspectorate (Państwowa Inspekcja Pracy — PIP) enforces labour law in Poland, free of charge. You can file a complaint:</p>
+<ul>
+  <li><strong>Online:</strong> pip.gov.pl (electronic form)</li>
+  <li><strong>In person:</strong> at the regional labour inspectorate office in your city</li>
+  <li><strong>By phone:</strong> 22 391 82 00</li>
+</ul>
+
+<p>Inspectors have the authority to order your employer to pay immediately. You can file anonymously.</p>
+
+<p><strong>Important for foreign workers:</strong> PIP accepts complaints regardless of your immigration status and does not share information with immigration authorities. Filing a complaint is safe.</p>
+
+<h2>Step 4 — File a Claim Through the e-Court</h2>
+
+<p>If the amount owed is up to 20,000 PLN, you can file a <strong>claim online through the e-court</strong> (e-sad.gov.pl). The payment order procedure (postępowanie upominawcze) is fast and inexpensive (court fee: 5% of the claim, minimum 30 PLN). The court issues an order, and if the employer does not object — a bailiff can enforce payment.</p>
+
+<p>You can also access <strong>free legal aid</strong> at points in local government offices (urzędy gminy) if you need help with the process.</p>
+
+<h2>Step 5 — FGŚP in Case of Employer Insolvency</h2>
+
+<p>If your employer has declared bankruptcy, you may be able to claim wages from the <strong>Employee Capital Guarantee Fund (FGŚP)</strong>. Applications are submitted by the insolvency administrator or by the employee directly — at the regional Marshal's Office (urząd marszałkowski) or online.</p>
+
+<h2>Summary</h2>
+
+<table>
+  <thead>
+    <tr><th>Situation</th><th>Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A few days late</td><td>Contact the employer or agency</td></tr>
+    <tr><td>No response</td><td>Send a written payment demand</td></tr>
+    <tr><td>Employer refuses</td><td>File a complaint with PIP (pip.gov.pl)</td></tr>
+    <tr><td>Legal claim</td><td>E-court filing (claims up to 20,000 PLN)</td></tr>
+    <tr><td>Employer bankrupt</td><td>Application to FGŚP</td></tr>
+  </tbody>
+</table>
+
+<p>Your wages are protected by Polish law regardless of your nationality or immigration status. If you work through Nexflow — the agency is your official employer and is responsible for on-time payment. Questions? Contact us at nexflow.work.</p>
+
+<p><em>Nexflow — your staffing agency. We are on your side.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
