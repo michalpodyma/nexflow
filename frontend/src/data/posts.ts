@@ -24971,6 +24971,338 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>The Karta Polaka is a valuable document for people of Polish descent from the former Soviet Union. It enables legal work in Poland without a work permit, provides access to numerous discounts and cultural programmes, and opens a priority route to permanent residence. If you have Polish roots — check whether you qualify, especially if you are planning to live and work in Poland long-term.</p>
     `.trim(),
   },
+  {
+    slug: "minimalna-stawka-godzinowa-umowa-zlecenie-polska-2026",
+    title: "Minimalna stawka godzinowa przy umowie zlecenie w Polsce — przewodnik dla pracownika tymczasowego",
+    description:
+      "Minimalna stawka godzinowa przy umowie zlecenie 2026 — ile wynosi, kto podlega, obowiązki pracodawcy i co zrobić, gdy płacą za mało.",
+    date: "2031-12-25",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Polsce na podstawie umowy zlecenie, przysługuje ci <strong>minimalna stawka godzinowa</strong>. To obowiązkowa ochrona ustawowa — pracodawca nie może ci zapłacić mniej, nawet jeśli z własnej woli podpisałeś niższą stawkę.</p>
+
+<h2>Co to jest minimalna stawka godzinowa?</h2>
+<p>Minimalna stawka godzinowa to najniższe wynagrodzenie za każdą godzinę pracy, jakie przysługuje osobom wykonującym pracę na podstawie umowy zlecenie lub umowy o świadczenie usług. Obowiązuje od 1 stycznia 2017 roku i jest corocznie aktualizowana przez rząd.</p>
+<p>Chodzi o realną ochronę: nawet jeśli jesteś cudzoziemcem, masz umowę cywilnoprawną, a nie umowę o pracę — i tak masz prawo do wynagrodzenia co najmniej na poziomie minimalnej stawki godzinowej.</p>
+
+<h2>Ile wynosi minimalna stawka godzinowa w 2026 roku?</h2>
+<p>Od <strong>1 stycznia 2026 roku</strong> minimalna stawka godzinowa wynosi <strong>30,50 zł brutto</strong> za godzinę (aktualizacja wynika z rozporządzenia Rady Ministrów — sprawdź aktualną stawkę na gov.pl).</p>
+<p>To kwota <strong>brutto</strong> — przed odliczeniem podatku i składek ZUS. Kwota "na rękę" będzie niższa.</p>
+
+<h2>Kto podlega minimalnej stawce godzinowej?</h2>
+<p>Minimalna stawka godzinowa dotyczy:</p>
+<ul>
+  <li><strong>Umowy zlecenie</strong> (art. 734 Kodeksu cywilnego)</li>
+  <li><strong>Umów o świadczenie usług</strong>, do których stosuje się przepisy o zleceniu</li>
+</ul>
+<p>Obowiązuje zarówno Polaków, jak i <strong>cudzoziemców</strong> pracujących legalnie w Polsce — ukraińskich, białoruskich, rosyjskich i innych.</p>
+<p><strong>Nie dotyczy</strong> osób prowadzących działalność gospodarczą (jednoosobowych firm).</p>
+
+<h2>Obowiązki pracodawcy / zleceniodawcy</h2>
+<p>Pracodawca musi:</p>
+<ol>
+  <li><strong>Płacić co najmniej minimalną stawkę godzinową</strong> — niezależnie od tego, co jest w umowie</li>
+  <li><strong>Prowadzić ewidencję czasu pracy</strong> — liczba godzin musi być dokumentowana</li>
+  <li><strong>Udostępnić ewidencję na żądanie pracownika</strong> — masz prawo sprawdzić, ile godzin zostało zarejestrowane</li>
+  <li><strong>Wypłacać wynagrodzenie co najmniej raz w miesiącu</strong> (lub zgodnie z harmonogramem z umowy, ale nie rzadziej)</li>
+</ol>
+
+<h2>Twoje prawa — co możesz zrobić, jeśli płacą za mało?</h2>
+<ol>
+  <li><strong>Poproś o ewidencję godzin</strong> — pracownik ma prawo wglądu w dokumenty dotyczące czasu pracy</li>
+  <li><strong>Sprawdź swój pasek wypłat</strong> — podziel wypłaconą kwotę brutto przez liczbę przepracowanych godzin</li>
+  <li><strong>Złóż skargę do Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatnie, anonimowo, bez ryzyka deportacji (patrz: nasz artykuł o PIP)</li>
+  <li><strong>Skieruj sprawę do sądu pracy</strong> — możesz dochodzić zaległego wynagrodzenia przez 3 lata wstecz</li>
+</ol>
+<p>Informacja: www.pip.gov.pl | Bezpłatna infolinia PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Minimalna stawka godzinowa vs. minimalne wynagrodzenie — różnica</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Umowa o pracę (UoP)</th>
+      <th>Umowa zlecenie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rodzaj ochrony</td>
+      <td>Minimalne wynagrodzenie miesięczne</td>
+      <td>Minimalna stawka godzinowa</td>
+    </tr>
+    <tr>
+      <td>W 2026 roku</td>
+      <td>~4800 zł/miesiąc (pełny etat)</td>
+      <td>~30,50 zł/godz. brutto</td>
+    </tr>
+    <tr>
+      <td>Ewidencja</td>
+      <td>Wymagana</td>
+      <td>Wymagana</td>
+    </tr>
+    <tr>
+      <td>Zgłaszanie naruszeń</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow i minimalna stawka godzinowa</h2>
+<p>Jako pracownik agencji tymczasowej Nexflow otrzymujesz wynagrodzenie zgodne z obowiązującymi przepisami. Twoja umowa zlecenie zawiera informację o stawce godzinowej. Jeśli masz pytania dotyczące liczby godzin lub wysokości wypłaty — skontaktuj się bezpośrednio ze swoim opiekunem w Nexflow.</p>
+<p><em>Nexflow pomaga pracownikom tymczasowym rozumieć swoje prawa. Regularnie publikujemy praktyczne poradniki — obserwuj nas na Facebooku.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimalna-stavka-godzinova-umova-zlecennya-polshcha-2026",
+    title: "Мінімальна годинна ставка за договором-дорученням у Польщі — посібник для тимчасового працівника",
+    description:
+      "Мінімальна годинна ставка за договором-дорученням 2026 — скільки становить, на кого поширюється, обов'язки роботодавця та що робити, якщо платять замало.",
+    date: "2032-01-01",
+    lang: "uk",
+    content: `
+<p>Якщо ти працюєш у Польщі на підставі договору-доручення (umowa zlecenie), ти маєш право на <strong>мінімальну годинну ставку</strong>. Це обов'язковий законодавчий захист — роботодавець не може платити тобі менше, навіть якщо ти сам підписав нижчу ставку.</p>
+
+<h2>Що таке мінімальна годинна ставка?</h2>
+<p>Мінімальна годинна ставка — це найнижча оплата за кожну годину роботи, яка належить особам, що виконують роботу на підставі договору-доручення або договору про надання послуг. Діє з 1 січня 2017 року і щороку оновлюється урядом.</p>
+<p>Йдеться про реальний захист: навіть якщо ти іноземець, маєш цивільно-правовий договір, а не трудовий — ти все одно маєш право на оплату не нижче мінімальної годинної ставки.</p>
+
+<h2>Скільки становить мінімальна годинна ставка у 2026 році?</h2>
+<p>З <strong>1 січня 2026 року</strong> мінімальна годинна ставка становить <strong>30,50 злотих брутто</strong> за годину (відповідно до постанови Ради Міністрів — перевіряй актуальну ставку на gov.pl).</p>
+<p>Це сума <strong>брутто</strong> — до вирахування податку та внесків ZUS. Сума «на руки» буде нижчою.</p>
+
+<h2>На кого поширюється мінімальна годинна ставка?</h2>
+<p>Мінімальна годинна ставка стосується:</p>
+<ul>
+  <li><strong>Договорів-доручень</strong> (ст. 734 Цивільного кодексу)</li>
+  <li><strong>Договорів про надання послуг</strong>, до яких застосовуються положення про доручення</li>
+</ul>
+<p>Поширюється як на поляків, так і на <strong>іноземців</strong>, які легально працюють у Польщі — українців, білорусів, росіян та інших.</p>
+<p><strong>Не стосується</strong> осіб, які ведуть господарську діяльність (ФОП).</p>
+
+<h2>Обов'язки роботодавця / замовника</h2>
+<p>Роботодавець зобов'язаний:</p>
+<ol>
+  <li><strong>Платити не менше мінімальної годинної ставки</strong> — незалежно від того, що написано в договорі</li>
+  <li><strong>Вести облік робочого часу</strong> — кількість годин має бути задокументована</li>
+  <li><strong>Надавати облік на вимогу працівника</strong> — ти маєш право перевірити, скільки годин було зареєстровано</li>
+  <li><strong>Виплачувати зарплату не рідше одного разу на місяць</strong> (або відповідно до графіка в договорі)</li>
+</ol>
+
+<h2>Твої права — ��о робити, якщо платять замало?</h2>
+<ol>
+  <li><strong>Попроси облік годин</strong> — працівник має право на доступ до документів про робочий час</li>
+  <li><strong>Перевір свій розрахунковий листок</strong> — поділи виплачену суму брутто на кількість відпрацьованих годин</li>
+  <li><strong>Подай скаргу до Державної інспекції праці (PIP)</strong> — безкоштовно, анонімно, без ризику депортаці�� (дивись: наша стаття про PIP)</li>
+  <li><strong>Зверни справу до трудового суду</strong> — можеш вимагати заборгованої зарплати за 3 роки назад</li>
+</ol>
+<p>Інформація: www.pip.gov.pl | Безкоштовна гаряча лінія PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Мінімальна годинна ставка vs. мінімальна зарплата — різниця</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Трудовий договір (UoP)</th>
+      <th>Договір-доручення</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Вид захисту</td>
+      <td>Мінімальна місячна зарплата</td>
+      <td>Мінімальна годинна ставка</td>
+    </tr>
+    <tr>
+      <td>У 2026 році</td>
+      <td>~4800 злотих/місяць (повна ставка)</td>
+      <td>~30,50 злотих/год. брутто</td>
+    </tr>
+    <tr>
+      <td>Облік</td>
+      <td>Обов'язковий</td>
+      <td>Обов'язковий</td>
+    </tr>
+    <tr>
+      <td>Повідомлення про порушення</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow і мінімальна годинна ставка</h2>
+<p>Як працівник кадрового агентства Nexflow ти отримуєш зарплату відповідно до чинного законодавства. Твій договір-доручення містить інформацію про годинну ставку. Якщо маєш питання щодо кількості годин або розміру виплати — зв'яжися безпосередньо зі своїм куратором у Nexflow.</p>
+<p><em>Nexflow допомагає тимчасовим працівникам розуміти свої права. Ми регулярно публікуємо практичні посібники — стеж за нами у Facebook.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimalnaya-chasovaya-stavka-dogovor-porucheniya-polsha-2026",
+    title: "Минимальная часовая ставка по договору поручения в Польше — руководство для временного работника",
+    description:
+      "Минимальная часовая ставка по договору поручения 2026 — сколько составляет, на кого распространяется, обязанности работодателя и что делать, если платят мало.",
+    date: "2032-01-08",
+    lang: "ru",
+    content: `
+<p>Если ты работаешь в Польше по договору поручения (umowa zlecenie), тебе полагается <strong>минимальная часовая ставка</strong>. Это обязательная законодательная защита — работодатель не может платить тебе меньше, даже если ты сам подписал более низкую ставку.</p>
+
+<h2>Что такое минимальная часовая ставка?</h2>
+<p>Минимальная часовая ставка — это наименьшая оплата за каждый час работы, которая полагается лицам, выполняющим работу по договору поручения или договору об оказании услуг. Действует с 1 января 2017 года и ежегодно обновляется правительством.</p>
+<p>Речь идёт о реальной защите: даже если ты иностранец, у тебя гражданско-правовой договор, а не трудовой — ты всё равно имеешь право на оплату не ниже минимальной часовой ставки.</p>
+
+<h2>Сколько составляет минимальная часовая ставка в 2026 году?</h2>
+<p>С <strong>1 января 2026 года</strong> минимальная часовая ставка составляет <strong>30,50 злотых брутто</strong> в час (в соответствии с постановлением Совета министров — проверяй актуальную ставку на gov.pl).</p>
+<p>Это сумма <strong>брутто</strong> — до вычета налога и взносов ZUS. Сумма «на руки» будет ниже.</p>
+
+<h2>На кого распространяется минимальная часовая ставка?</h2>
+<p>Минимальная часовая ставка распространяется на:</p>
+<ul>
+  <li><strong>Договоры поручения</strong> (ст. 734 Гражданского кодекса)</li>
+  <li><strong>Договоры об оказании услуг</strong>, к которым применяются положения о поручении</li>
+</ul>
+<p>Распространяется как на поляков, так и на <strong>иностранцев</strong>, законно работающих в Польше — украинцев, белорусов, русских и других.</p>
+<p><strong>Не распространяется</strong> на лиц, ведущих предпринимательскую деятельность (ИП).</p>
+
+<h2>Обязанности работодателя / заказчика</h2>
+<p>Работодатель обязан:</p>
+<ol>
+  <li><strong>Платить не менее минимальной часовой ставки</strong> — независимо от того, что написано в договоре</li>
+  <li><strong>Вести учёт рабочего времени</strong> — количество часов должно быть задокументировано</li>
+  <li><strong>Предоставлять учёт по требованию работника</strong> — ты имеешь право проверить, сколько часов было зарегистрировано</li>
+  <li><strong>Выплачивать зарплату не реже одного раза в месяц</strong> (или согласно графику в договоре)</li>
+</ol>
+
+<h2>Твои права — что делать, если платят мало?</h2>
+<ol>
+  <li><strong>Попроси учёт часов</strong> — работник имеет право на доступ к документам о рабочем времени</li>
+  <li><strong>Проверь свой расчётный листок</strong> — раздели выплаченную сумму брутто на количество отработанных часов</li>
+  <li><strong>Подай жалобу в Государственную инспекцию труда (PIP)</strong> — бесплатно, анонимно, без риска депортации (см.: наша статья о PIP)</li>
+  <li><strong>Обратись в трудовой суд</strong> — можешь требовать задолженность по зарплате за 3 года назад</li>
+</ol>
+<p>Информация: www.pip.gov.pl | Бесплатная горячая линия PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Минимальная часовая ставка vs. минимальная зарплата — разница</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Трудовой договор (UoP)</th>
+      <th>Договор поручения</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Вид защиты</td>
+      <td>Минимальная месячная зарплата</td>
+      <td>Минимальная часовая ставка</td>
+    </tr>
+    <tr>
+      <td>В 2026 году</td>
+      <td>~4800 злотых/месяц (полная ставка)</td>
+      <td>~30,50 злотых/ч. брутто</td>
+    </tr>
+    <tr>
+      <td>Учёт</td>
+      <td>Обязателен</td>
+      <td>Обязателен</td>
+    </tr>
+    <tr>
+      <td>Сообщение о нарушениях</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow и минимальная часовая ставка</h2>
+<p>Как работник кадрового агентства Nexflow ты получаешь зарплату в соответствии с действующим законодательством. Твой договор поручения содержит информацию о часовой ставке. Если у тебя есть вопросы по количеству часов или размеру выплаты — обратись напрямую к своему куратору в Nexflow.</p>
+<p><em>Nexflow помогает временным работникам понимать свои права. Мы регулярно публикуем практические руководства — следи за нами в Facebook.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimum-hourly-rate-civil-law-contract-poland-2026",
+    title: "Minimum Hourly Rate Under a Civil Law Contract in Poland 2026 — A Guide for Temporary Workers",
+    description:
+      "Minimum hourly rate for a contract of mandate in Poland 2026 — how much it is, who is covered, employer obligations, and what to do if you are underpaid.",
+    date: "2032-01-15",
+    lang: "en",
+    content: `
+<p>If you work in Poland under a civil law contract (umowa zlecenie), you are entitled to the <strong>minimum hourly rate</strong>. This is a mandatory legal protection — your employer cannot pay you less, even if you voluntarily signed a lower rate.</p>
+
+<h2>What Is the Minimum Hourly Rate?</h2>
+<p>The minimum hourly rate is the lowest remuneration for each hour of work to which persons working under a contract of mandate (umowa zlecenie) or service contract are entitled. It has been in force since 1 January 2017 and is updated annually by the government.</p>
+<p>This is real protection: even if you are a foreigner with a civil law contract rather than an employment contract — you still have the right to pay no lower than the minimum hourly rate.</p>
+
+<h2>How Much Is the Minimum Hourly Rate in 2026?</h2>
+<p>From <strong>1 January 2026</strong>, the minimum hourly rate is <strong>PLN 30.50 gross</strong> per hour (pursuant to the Council of Ministers Regulation — check the current rate at gov.pl).</p>
+<p>This is a <strong>gross</strong> amount — before income tax and ZUS social insurance contributions are deducted. Your net ("take-home") amount will be lower.</p>
+
+<h2>Who Is Covered by the Minimum Hourly Rate?</h2>
+<p>The minimum hourly rate applies to:</p>
+<ul>
+  <li><strong>Contracts of mandate</strong> (Article 734 of the Civil Code)</li>
+  <li><strong>Service contracts</strong> to which the provisions on mandate apply</li>
+</ul>
+<p>It applies to both Polish nationals and <strong>foreign nationals</strong> legally working in Poland — Ukrainian, Belarusian, Russian, and others.</p>
+<p><strong>It does not apply</strong> to persons conducting sole-trader business activity.</p>
+
+<h2>Employer Obligations</h2>
+<p>The employer must:</p>
+<ol>
+  <li><strong>Pay at least the minimum hourly rate</strong> — regardless of what is written in the contract</li>
+  <li><strong>Keep a record of working hours</strong> — the number of hours must be documented</li>
+  <li><strong>Provide the record on the worker's request</strong> — you have the right to check how many hours were registered</li>
+  <li><strong>Pay remuneration at least once a month</strong> (or in accordance with the schedule stated in the contract)</li>
+</ol>
+
+<h2>Your Rights — What Can You Do If You Are Underpaid?</h2>
+<ol>
+  <li><strong>Request your working-hours record</strong> — a worker has the right to access documents concerning working time</li>
+  <li><strong>Check your payslip</strong> — divide the gross amount paid by the number of hours worked</li>
+  <li><strong>File a complaint with the National Labour Inspectorate (PIP)</strong> — free of charge, anonymously, with no risk of deportation (see: our article on PIP)</li>
+  <li><strong>Take the case to the labour court</strong> — you can claim unpaid wages going back 3 years</li>
+</ol>
+<p>Information: www.pip.gov.pl | PIP free helpline: <strong>0 801 002 006</strong></p>
+
+<h2>Minimum Hourly Rate vs. Minimum Wage — The Difference</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Employment contract (UoP)</th>
+      <th>Contract of mandate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Type of protection</td>
+      <td>Minimum monthly wage</td>
+      <td>Minimum hourly rate</td>
+    </tr>
+    <tr>
+      <td>In 2026</td>
+      <td>~PLN 4,800/month (full-time)</td>
+      <td>~PLN 30.50/hr gross</td>
+    </tr>
+    <tr>
+      <td>Record-keeping</td>
+      <td>Required</td>
+      <td>Required</td>
+    </tr>
+    <tr>
+      <td>Reporting violations</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow and the Minimum Hourly Rate</h2>
+<p>As a temporary worker placed by Nexflow, you receive remuneration in accordance with applicable regulations. Your contract of mandate states the hourly rate. If you have any questions about the hours recorded or the amount of your pay — contact your Nexflow coordinator directly.</p>
+<p><em>Nexflow helps temporary workers understand their rights. We regularly publish practical guides — follow us on Facebook.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
