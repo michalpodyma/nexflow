@@ -25303,6 +25303,339 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p><em>Nexflow helps temporary workers understand their rights. We regularly publish practical guides — follow us on Facebook.</em></p>
     `.trim(),
   },
+  {
+    slug: "urlop-okolicznosciowy-pracownik-cudzoziemiec-polska",
+    title: "Urlop okolicznościowy w Polsce — co przysługuje pracownikowi cudzoziemcowi?",
+    description:
+      "Urlop okolicznościowy w Polsce — kiedy i ile płatnych dni wolnych przysługuje pracownikowi cudzoziemcowi z okazji ślubu, narodzin dziecka czy pogrzebu. Przewodnik po Kodeksie pracy.",
+    date: "2032-01-22",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Polsce na umowie o pracę, masz prawo do <strong>urlopu okolicznościowego</strong> — płatnych dni wolnych z okazji ważnych wydarzeń rodzinnych. Wielu cudzoziemców nie wie o tym prawie. Ten przewodnik wyjaśnia, kiedy i ile dni wolnego Ci przysługuje.</p>
+
+<h2>Co to jest urlop okolicznościowy?</h2>
+<p>Urlop okolicznościowy to płatne dni wolne od pracy przysługujące pracownikowi w związku z ważnymi wydarzeniami w jego życiu osobistym lub rodzinnym. Jest to prawo zagwarantowane przez <strong>Kodeks pracy</strong> (art. 173 i Rozporządzenie Ministra Pracy i Polityki Socjalnej z 15 maja 1996 r.).</p>
+
+<h2>Kiedy przysługuje urlop okolicznościowy?</h2>
+
+<h3>2 dni płatnego urlopu:</h3>
+<ul>
+  <li>Ślub pracownika</li>
+  <li>Narodziny dziecka pracownika</li>
+  <li>Śmierć i pogrzeb: małżonka, dziecka, ojca, matki, ojczyma lub macochy</li>
+</ul>
+
+<h3>1 dzień płatnego urlopu:</h3>
+<ul>
+  <li>Ślub dziecka pracownika</li>
+  <li>Śmierć i pogrzeb: siostry, brata, teściowej, teścia, babci, dziadka lub innej osoby pozostającej na utrzymaniu pracownika albo pod jego bezpośrednią opieką</li>
+</ul>
+
+<h2>Czy urlop okolicznościowy przysługuje na umowie zlecenie?</h2>
+<p>Kodeks pracy dotyczy przede wszystkim <strong>umów o pracę</strong>. Osoby pracujące na <strong>umowie zlecenie</strong> nie mają automatycznie prawa do urlopu okolicznościowego — chyba że umowa lub regulamin firmy to przewiduje.</p>
+<p>W Nexflow możesz zapytać koordynatora, jakie zasady dotyczą Twojej umowy.</p>
+
+<h2>Jak wziąć urlop okolicznościowy?</h2>
+<ol>
+  <li>Poinformuj pracodawcę lub koordynatora tak szybko, jak to możliwe</li>
+  <li>Złóż wniosek urlopowy (pisemnie lub przez system firmy)</li>
+  <li>Dostarcz dokument potwierdzający zdarzenie (np. akt urodzenia dziecka, akt ślubu, zaświadczenie o zgonie)</li>
+</ol>
+
+<h2>Czy urlop okolicznościowy jest płatny?</h2>
+<p>Tak. Za czas urlopu okolicznościowego pracownik otrzymuje <strong>wynagrodzenie jak za urlop wypoczynkowy</strong> — czyli normalne wynagrodzenie obliczone zgodnie z przepisami.</p>
+
+<h2>Ważne informacje dla cudzoziemców</h2>
+<ul>
+  <li>Twoja narodowość nie ma znaczenia — prawo dotyczy wszystkich pracowników zatrudnionych na umowie o pracę w Polsce</li>
+  <li>Zdarzenie może dotyczyć rodziny za granicą (np. na Ukrainie)</li>
+  <li>Zagraniczna metryka urodzenia lub akt zgonu może wymagać tłumaczenia przysięgłego, ale wiele firm akceptuje skan dokumentu jako wstępne potwierdzenie</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Zdarzenie</th>
+      <th>Liczba dni</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ślub pracownika</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Narodziny dziecka</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Śmierć małżonka / dziecka / rodzica</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Ślub dziecka pracownika</td>
+      <td>1 dzień</td>
+    </tr>
+    <tr>
+      <td>Śmierć siostry / brata / teściów / dziadków</td>
+      <td>1 dzień</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow dba o to, by każdy pracownik znał swoje prawa. Masz pytania? Skontaktuj się ze swoim koordynatorem Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-za-osobystymy-obstavynamy-inozemets-polshcha",
+    title: "Відпустка за особистими обставинами в Польщі — що належить іноземному працівнику?",
+    description:
+      "Відпустка за особистими обставинами у Польщі — коли і скільки оплачуваних вихідних належить іноземному працівнику з нагоди весілля, народження дитини або похорону. Посібник з Трудового кодексу.",
+    date: "2032-01-29",
+    lang: "uk",
+    content: `
+<p>Якщо ти працюєш у Польщі за трудовим договором (umowa o pracę), ти маєш право на <strong>відпустку за особистими обставинами</strong> — оплачувані вихідні дні з приводу важливих сімейних подій. Багато іноземців не знають про це право. Цей посібник пояснює, коли і скільки вихідних днів тобі належить.</p>
+
+<h2>Що таке відпустка за особистими обставинами?</h2>
+<p>Це оплачувані дні відпочинку від роботи, які надаються працівнику у зв'язку з важливими подіями в його особистому або сімейному житті. Це право гарантоване <strong>Трудовим кодексом Польщі</strong> (стаття 173 та Постанова Міністерства праці від 15 травня 1996 р.).</p>
+
+<h2>Коли надається відпустка?</h2>
+
+<h3>2 оплачувані дні:</h3>
+<ul>
+  <li>Одруження працівника</li>
+  <li>Народження дитини працівника</li>
+  <li>Смерть і похорон: чоловіка/дружини, дитини, батька, матері, вітчима або мачухи</li>
+</ul>
+
+<h3>1 оплачуваний день:</h3>
+<ul>
+  <li>Одруження дитини працівника</li>
+  <li>Смерть і похорон: сестри, брата, свекрухи, свекра, бабусі, дідуся або іншої особи, що перебуває на утриманні чи під безпосередньою опікою працівника</li>
+</ul>
+
+<h2>Чи належить відпустка за цивільним договором (umowa zlecenie)?</h2>
+<p>Трудовий кодекс стосується насамперед <strong>трудових договорів (umowa o pracę)</strong>. Особи, які працюють за <strong>цивільним договором (umowa zlecenie)</strong>, не мають автоматичного права на цей вид відпустки — якщо тільки це не передбачено договором або внутрішніми правилами компанії.</p>
+<p>Якщо ти працюєш через Nexflow, запитай у координатора, які правила стосуються твого договору.</p>
+
+<h2>Як взяти відпустку?</h2>
+<ol>
+  <li>Повідом роботодавця або координатора якомога швидше</li>
+  <li>Подай заяву на відпустку (письмово або через систему компанії)</li>
+  <li>Надай документ, що підтверджує подію (наприклад, свідоцтво про народження, свідоцтво про шлюб, свідоцтво про смерть)</li>
+</ol>
+
+<h2>Чи оплачується відпустка?</h2>
+<p>Так. За час відпустки за особистими обставинами працівник отримує <strong>звичайну заробітну плату</strong> — так само, як і за щорічну відпустку.</p>
+
+<h2>Важливо для іноземців</h2>
+<ul>
+  <li>Твоє громадянство не має значення — право стосується всіх, хто офіційно працює в Польщі за трудовим договором</li>
+  <li>Подія може стосуватися родини в рідній країні (наприклад, в Україні або Білорусі)</li>
+  <li>Іноземний документ може потребувати нотаріально завіреного перекладу, але багато компаній тимчасово приймають скан</li>
+</ul>
+
+<h2>Підсумок</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Подія</th>
+      <th>Кількість днів</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Одруження працівника</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Народження дитини</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Смерть чоловіка/дружини / дитини / батьків</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Одруження дитини</td>
+      <td>1 день</td>
+    </tr>
+    <tr>
+      <td>Смерть сестри / брата / свекрухи / свекра / бабусі / дідуся</td>
+      <td>1 день</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow піклується про те, щоб кожен працівник знав свої права. Є питання? Зв'яжись зі своїм координатором Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-po-semejnym-obstoyatelstvam-inostranets-polsha",
+    title: "Отпуск по семейным обстоятельствам в Польше — что полагается иностранному работнику?",
+    description:
+      "Отпуск по семейным обстоятельствам в Польше — когда и сколько оплачиваемых дней положено иностранному работнику по случаю свадьбы, рождения ребёнка или похорон. Руководство по Трудовому кодексу.",
+    date: "2032-02-05",
+    lang: "ru",
+    content: `
+<p>Если ты работаешь в Польше по трудовому договору (umowa o pracę), тебе полагается <strong>отпуск по семейным обстоятельствам</strong> — оплачиваемые выходные дни по поводу важных семейных событий. Многие иностранцы не знают об этом праве. Это руководство объясняет, когда и сколько дней тебе положено.</p>
+
+<h2>Что такое отпуск по семейным обстоятельствам?</h2>
+<p>Это оплачиваемые дни отдыха от работы, предоставляемые работнику в связи с важными событиями в его личной или семейной жизни. Это право гарантировано <strong>Трудовым кодексом Польши</strong> (статья 173 и Постановление Министерства труда от 15 мая 1996 г.).</p>
+
+<h2>Когда предоставляется отпуск?</h2>
+
+<h3>2 оплачиваемых дня:</h3>
+<ul>
+  <li>Свадьба работника</li>
+  <li>Рождение ребёнка работника</li>
+  <li>Смерть и похороны: супруга/супруги, ребёнка, отца, матери, отчима или мачехи</li>
+</ul>
+
+<h3>1 оплачиваемый день:</h3>
+<ul>
+  <li>Свадьба ребёнка работника</li>
+  <li>Смерть и похороны: сестры, брата, свекрови, свёкра, бабушки, дедушки или другого лица, находящегося на иждивении работника либо под его непосредственной опекой</li>
+</ul>
+
+<h2>Распространяется ли отпуск на гражданский договор (umowa zlecenie)?</h2>
+<p>Трудовой кодекс распространяется прежде всего на <strong>трудовые договоры (umowa o pracę)</strong>. Лица, работающие по <strong>гражданскому договору (umowa zlecenie)</strong>, не имеют автоматического права на этот вид отпуска — если только это не предусмотрено договором или внутренними правилами компании.</p>
+<p>Если ты работаешь через Nexflow, спроси у координатора, какие правила применяются к твоему договору.</p>
+
+<h2>Как взять отпуск?</h2>
+<ol>
+  <li>Сообщи работодателю или координатору как можно скорее</li>
+  <li>Подай заявление на отпуск (письменно или через систему компании)</li>
+  <li>Предоставь документ, подтверждающий событие (напр., свидетельство о рождении, свидетельство о браке, свидетельство о смерти)</li>
+</ol>
+
+<h2>Оплачивается ли отпуск?</h2>
+<p>Да. За время отпуска по семейным обстоятельствам работник получает <strong>обычную заработную плату</strong> — так же, как за ежегодный отпуск.</p>
+
+<h2>Важно для иностранцев</h2>
+<ul>
+  <li>Твоё гражданство не имеет значения — право распространяется на всех официально работающих в Польше по трудовому договору</li>
+  <li>Событие может касаться семьи в родной стране (напр., в Украине или Беларуси)</li>
+  <li>Иностранный документ может потребовать нотариально заверенного перевода, но многие компании временно принимают скан</li>
+</ul>
+
+<h2>Итог</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Событие</th>
+      <th>Количество дней</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Свадьба работника</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Рождение ребёнка</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Смерть супруга/ребёнка/родителей</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Свадьба ребёнка</td>
+      <td>1 день</td>
+    </tr>
+    <tr>
+      <td>Смерть сестры/брата/свёкра/свекрови/дедушки/бабушки</td>
+      <td>1 день</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow заботится о том, чтобы каждый работник знал свои права. Есть вопросы? Свяжись со своим координатором Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "occasional-leave-foreign-worker-poland",
+    title: "Occasional Leave for Foreign Workers in Poland — What Are You Entitled To?",
+    description:
+      "Occasional leave in Poland — when and how many paid days off are foreign workers entitled to for weddings, births, or funerals. A practical guide under the Polish Labour Code.",
+    date: "2032-02-12",
+    lang: "en",
+    content: `
+<p>If you work in Poland under an employment contract (umowa o pracę), you are entitled to <strong>occasional leave</strong> (urlop okolicznościowy) — paid days off for important personal and family events. Many foreign workers are unaware of this right. This guide explains when and how many days you can take.</p>
+
+<h2>What Is Occasional Leave?</h2>
+<p>Occasional leave is paid time off from work granted to an employee in connection with significant personal or family events. It is a statutory right guaranteed by the <strong>Polish Labour Code</strong> (Kodeks pracy, Article 173 and the Ministerial Regulation of 15 May 1996).</p>
+<p>This is a real protection: even as a foreign worker, if you are employed under an employment contract in Poland, you have this right regardless of your nationality.</p>
+
+<h2>When Is Occasional Leave Granted?</h2>
+
+<h3>2 paid days:</h3>
+<ul>
+  <li>Employee's own wedding</li>
+  <li>Birth of the employee's child</li>
+  <li>Death and funeral of: spouse, child, father, mother, stepfather or stepmother</li>
+</ul>
+
+<h3>1 paid day:</h3>
+<ul>
+  <li>Wedding of the employee's child</li>
+  <li>Death and funeral of: sister, brother, mother-in-law, father-in-law, grandmother, grandfather, or another person remaining in the employee's household or under their direct care</li>
+</ul>
+
+<h2>Does Occasional Leave Apply to Civil Law Contracts (umowa zlecenie)?</h2>
+<p>The Labour Code applies primarily to <strong>employment contracts (umowa o pracę)</strong>. Workers on <strong>civil law contracts (umowa zlecenie)</strong> do not automatically have the right to occasional leave — unless the contract or company regulations provide for it.</p>
+<p>If you're working through Nexflow, ask your coordinator about the rules that apply to your specific contract.</p>
+
+<h2>How to Take Occasional Leave</h2>
+<ol>
+  <li>Inform your employer or coordinator as soon as possible</li>
+  <li>Submit a leave request in writing or through your company's system</li>
+  <li>Provide a document confirming the event (e.g., birth certificate, marriage certificate, death certificate)</li>
+</ol>
+
+<h2>Is Occasional Leave Paid?</h2>
+<p>Yes. During occasional leave, you receive your <strong>normal salary</strong> — calculated the same way as for annual holiday leave. Your employer cannot deduct these days from your annual leave allowance.</p>
+
+<h2>Important for Foreign Workers</h2>
+<ul>
+  <li>Your nationality does not matter — this right applies to all employees legally employed in Poland under an employment contract</li>
+  <li>The event may involve family in your home country (e.g., Ukraine or Belarus)</li>
+  <li>Foreign documents may require a certified translation, but many companies temporarily accept a scan as initial confirmation</li>
+</ul>
+
+<h2>Summary Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Days</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Employee's wedding</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Birth of employee's child</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Death of spouse / child / parent</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Wedding of employee's child</td>
+      <td>1 day</td>
+    </tr>
+    <tr>
+      <td>Death of sibling / in-laws / grandparent</td>
+      <td>1 day</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow is committed to making sure every worker knows their rights. Questions about your entitlements? Contact your Nexflow coordinator — we're here to help.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
