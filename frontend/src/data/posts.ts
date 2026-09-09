@@ -25636,6 +25636,311 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Nexflow is committed to making sure every worker knows their rights. Questions about your entitlements? Contact your Nexflow coordinator — we're here to help.</p>
     `.trim(),
   },
+  {
+    slug: "zasilek-chorobowy-jak-zus-placi-ile-wynosi-polska",
+    title: "Zasiłek chorobowy w Polsce: ile płaci ZUS i jak obliczyć świadczenie?",
+    description:
+      "Zasiłek chorobowy dla pracowników tymczasowych i cudzoziemców — kto płaci, ile wynosi 80% podstawy, jak ZUS oblicza świadczenie za L4. Przewodnik krok po kroku.",
+    date: "2032-01-22",
+    lang: "pl",
+    content: `
+<h1>Zasiłek chorobowy w Polsce: ile płaci ZUS i jak obliczyć świadczenie?</h1>
+
+<p>Jeśli jesteś pracownikiem tymczasowym lub cudzoziemcem pracującym w Polsce i zachorujesz, przysługuje Ci <strong>zasiłek chorobowy</strong> — świadczenie pieniężne na czas nieobecności w pracy z powodu choroby. Wiele osób myli go z wynagrodzeniem za czas choroby lub ze zwolnieniem lekarskim (L4). W tym artykule wyjaśniamy, kto płaci, ile i jak obliczyć swoje świadczenie.</p>
+
+<h2>Kto jest uprawniony do zasiłku chorobowego?</h2>
+<p>Zasiłek chorobowy przysługuje każdemu pracownikowi zatrudnionemu na umowę o pracę lub umowę zlecenie, który jest objęty <strong>ubezpieczeniem chorobowym</strong> w ZUS. W przypadku umowy o pracę — ubezpieczenie jest obowiązkowe i odprowadzane przez pracodawcę od pierwszego dnia zatrudnienia. W przypadku umowy zlecenie — ubezpieczenie chorobowe jest <em>dobrowolne</em>, ale musisz przystąpić do niego, aby móc skorzystać ze świadczenia.</p>
+
+<p>Ważna zasada: zasiłek chorobowy przysługuje po upływie <strong>30-dniowego okresu wyczekiwania</strong> — czyli dopiero po 30 dniach nieprzerwanego ubezpieczenia chorobowego. Wyjątek: absolwenci szkół i uczelni objęci ubezpieczeniem w ciągu 90 dni od ukończenia nauki nie mają okresu wyczekiwania.</p>
+
+<h2>Kto płaci: pracodawca czy ZUS?</h2>
+<p>To zależy od długości Twojej choroby w danym roku kalendarzowym:</p>
+<ul>
+  <li><strong>Pierwsze 33 dni</strong> choroby w roku — płaci <strong>pracodawca</strong> (w formie wynagrodzenia za czas choroby)</li>
+  <li>Pracownicy, którzy ukończyli <strong>50 lat</strong> — pracodawca płaci tylko przez pierwsze <strong>14 dni</strong></li>
+  <li>Od <strong>34. dnia</strong> (lub od 15. dnia dla osób 50+) — przejmuje <strong>ZUS</strong> i wypłaca zasiłek chorobowy</li>
+</ul>
+<p>Ważne: liczba 33 (lub 14) dni odnosi się do <em>łącznej</em> liczby dni choroby w danym roku — nawet jeśli masz kilka krótkich zwolnień.</p>
+
+<h2>Ile wynosi zasiłek chorobowy?</h2>
+<p>Standardowa wysokość zasiłku to <strong>80% podstawy wymiaru zasiłku</strong>. Jednak w pewnych sytuacjach zasiłek jest wyższy lub niższy:</p>
+<ul>
+  <li><strong>80%</strong> podstawy — standardowa choroba</li>
+  <li><strong>70%</strong> podstawy — pobyt w szpitalu (hospitalizacja)</li>
+  <li><strong>100%</strong> podstawy — choroba zawodowa, wypadek przy pracy lub w drodze do/z pracy, choroba w czasie ciąży</li>
+</ul>
+
+<h2>Jak obliczyć podstawę wymiaru?</h2>
+<p>Podstawa wymiaru zasiłku to <strong>przeciętne miesięczne wynagrodzenie brutto</strong> z ostatnich 12 miesięcy (lub z całego okresu zatrudnienia, jeśli był krótszy). Następnie od tej kwoty odejmuje się składki na ubezpieczenia społeczne (łącznie ok. 13,71%).</p>
+
+<p><strong>Przykład (uproszczony):</strong></p>
+<ul>
+  <li>Średnie wynagrodzenie brutto: 5 000 zł</li>
+  <li>Po odjęciu składek: 5 000 × (1 − 0,1371) ≈ 4 315 zł</li>
+  <li>Stawka dzienna: 4 315 ÷ 30 ≈ 143,83 zł</li>
+  <li>Zasiłek dzienny (80%): 143,83 × 0,80 ≈ 115,07 zł</li>
+  <li>Zasiłek za 10 dni choroby: 10 × 115,07 ≈ 1 150 zł</li>
+</ul>
+
+<h2>Jak długo można pobierać zasiłek?</h2>
+<p>Zasiłek chorobowy przysługuje przez <strong>maksymalnie 182 dni</strong> w roku. W przypadku gruźlicy lub choroby w czasie ciąży — okres ten wydłuża się do <strong>270 dni</strong>. Po wyczerpaniu zasiłku chorobowego możesz ubiegać się o <strong>świadczenie rehabilitacyjne</strong> z ZUS (do 12 miesięcy).</p>
+
+<h2>Procedura — jak dostać zasiłek krok po kroku</h2>
+<ol>
+  <li>Idź do lekarza i poproś o zwolnienie lekarskie — w Polsce wystawiane jest elektronicznie jako <strong>e-ZLA</strong></li>
+  <li>Lekarz automatycznie przesyła e-ZLA do ZUS i do Twojego pracodawcy — nie musisz nic dostarczać osobiście</li>
+  <li>Poinformuj pracodawcę o nieobecności (telefonicznie, SMS-em lub według zasad obowiązujących w firmie)</li>
+  <li>Za pierwsze 33 dni pracodawca wypłaca <strong>wynagrodzenie chorobowe</strong> razem z regularną wypłatą</li>
+  <li>Od 34. dnia ZUS wypłaca zasiłek — bezpośrednio na Twoje konto (jeśli ZUS jest bezpośrednim płatnikiem) lub przez pracodawcę</li>
+</ol>
+
+<h2>Zasiłek dla cudzoziemców — na co uważać</h2>
+<p>Jako cudzoziemiec masz takie same prawa do zasiłku chorobowego jak obywatel Polski — pod warunkiem że jesteś ubezpieczony w ZUS. Kilka ważnych kwestii:</p>
+<ul>
+  <li>Upewnij się, że pracodawca faktycznie odprowadza za Ciebie <strong>składkę chorobową</strong> — możesz to sprawdzić na koncie PUE ZUS</li>
+  <li>Jeśli pracujesz na <strong>umowę zlecenie</strong>, zapytaj pracodawcę, czy jesteś objęty dobrowolnym ubezpieczeniem chorobowym — to warunek konieczny</li>
+  <li>Jeśli Twoje dane w ZUS są nieprawidłowe (np. błędy w PESEL-u), zasiłek może nie zostać wypłacony — sprawdź konto PUE ZUS zawczasu</li>
+  <li>Leczenie w ramach NFZ jest bezpłatne przy aktywnym ubezpieczeniu zdrowotnym — L4 wystawia lekarz NFZ</li>
+</ul>
+
+<h2>Kluczowe rozróżnienie: L4, wynagrodzenie chorobowe, zasiłek</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — elektroniczne zwolnienie lekarskie, dokument stwierdzający niezdolność do pracy</li>
+  <li><strong>Wynagrodzenie za czas choroby</strong> — płacone przez pracodawcę przez pierwsze 33 (lub 14) dni, ok. 80% wynagrodzenia</li>
+  <li><strong>Zasiłek chorobowy</strong> — płacony przez ZUS od 34. (lub 15.) dnia, też ok. 80% podstawy</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Zasiłek chorobowy to świadczenie, które chroni Twój dochód podczas choroby. Jako pracownik w Polsce — niezależnie od narodowości — masz do niego prawo, jeśli jesteś ubezpieczony w ZUS. Sprawdź na <strong>pue.zus.pl</strong>, że Twoje ubezpieczenie jest aktywne i że pracodawca odprowadza za Ciebie składkę chorobową. Dzięki temu, gdy zachorujesz, nie stracisz całego dochodu.</p>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-chorobovy-yak-rozrakhovuietsia-polshcha",
+    title: "Лікарняна допомога в Польщі: скільки платить ZUS і як розрахувати виплату?",
+    description:
+      "Лікарняна допомога для тимчасових і іноземних працівників у Польщі — хто платить, скільки становить 80% розрахункової бази, як ZUS нараховує виплату за L4.",
+    date: "2032-01-29",
+    lang: "uk",
+    content: `
+<h1>Лікарняна допомога в Польщі: скільки платить ZUS і як розрахувати виплату?</h1>
+
+<p>Якщо ти є тимчасовим або іноземним працівником у Польщі та захворів, тобі належить <strong>лікарняна допомога (zasiłek chorobowy)</strong> — грошова виплата на час відсутності на роботі через хворобу. У цій статті пояснюємо, хто платить, скільки і як розрахувати своє нарахування.</p>
+
+<h2>Хто має право на лікарняну допомогу?</h2>
+<p>Лікарняна допомога належить кожному працівнику, який застрахований у ZUS (<strong>страхування по хворобі — ubezpieczenie chorobowe</strong>). При трудовому договорі (umowa o pracę) — страхування є обов'язковим із першого дня. При договорі-дорученні (umowa zlecenie) — страхування по хворобі є <em>добровільним</em>, але без нього виплата не буде нарахована.</p>
+
+<p>Важливо: лікарняна допомога виплачується лише після <strong>30-денного терміну очікування</strong> — тобто після 30 днів безперервного страхування. Виняток: випускники шкіл і вузів, застраховані протягом 90 днів після закінчення навчання, звільняються від цього терміну.</p>
+
+<h2>Хто платить: роботодавець чи ZUS?</h2>
+<ul>
+  <li><strong>Перші 33 дні</strong> хвороби на рік — платить <strong>роботодавець</strong> (у вигляді зарплати за час хвороби)</li>
+  <li>Працівники старше <strong>50 років</strong> — роботодавець платить лише перші <strong>14 днів</strong></li>
+  <li>З <strong>34-го дня</strong> (або з 15-го для осіб 50+) — виплати бере на себе <strong>ZUS</strong></li>
+</ul>
+<p>Зверни увагу: лічильник 33 (або 14) днів є <em>сумарним</em> за рік — навіть якщо у тебе кілька коротких лікарняних.</p>
+
+<h2>Розмір лікарняної допомоги</h2>
+<ul>
+  <li><strong>80%</strong> розрахункової бази — стандартна хвороба</li>
+  <li><strong>70%</strong> — лікування в стаціонарі (госпіталізація)</li>
+  <li><strong>100%</strong> — виробнича травма, нещасний випадок по дорозі на роботу/з роботи, хвороба під час вагітності</li>
+</ul>
+
+<h2>Як розрахувати базу нарахування?</h2>
+<p>Розрахункова база — це <strong>середньомісячна брутто-зарплата</strong> за останні 12 місяців (або за весь час роботи, якщо він коротший). Від цієї суми відраховують внески на соціальне страхування (приблизно 13,71%).</p>
+
+<p><strong>Приклад:</strong></p>
+<ul>
+  <li>Середня брутто-зарплата: 5 000 зл</li>
+  <li>Після відрахування внесків: 5 000 × (1 − 0,1371) ≈ 4 315 зл</li>
+  <li>Денна ставка: 4 315 ÷ 30 ≈ 143,83 зл</li>
+  <li>Денна допомога (80%): 143,83 × 0,80 ≈ 115,07 зл</li>
+  <li>Допомога за 10 днів хвороби: ≈ 1 150 зл</li>
+</ul>
+
+<h2>Як довго виплачується допомога?</h2>
+<p>Лікарняна допомога виплачується максимум <strong>182 дні</strong> на рік. При туберкульозі або хворобі під час вагітності — до <strong>270 днів</strong>. Після вичерпання цього терміну можна звернутися по <strong>реабілітаційне свідоцтво (świadczenie rehabilitacyjne)</strong> — до 12 місяців.</p>
+
+<h2>Покрокова процедура</h2>
+<ol>
+  <li>Звернись до лікаря — він виписує електронний лікарняний лист <strong>e-ZLA</strong></li>
+  <li>Лікар автоматично надсилає e-ZLA до ZUS та роботодавця — тобі нічого нести не потрібно</li>
+  <li>Повідом роботодавця про відсутність (за правилами компанії)</li>
+  <li>За перші 33 дні роботодавець виплачує зарплату за час хвороби разом зі звичайною виплатою</li>
+  <li>З 34-го дня ZUS перераховує допомогу — безпосередньо на твій рахунок або через роботодавця</li>
+</ol>
+
+<h2>Для іноземних працівників — на що звернути увагу</h2>
+<ul>
+  <li>Перевір на порталі <strong>pue.zus.pl</strong>, що твоє страхування по хворобі є активним</li>
+  <li>Якщо маєш <strong>umowa zlecenie</strong> — уточни у роботодавця, чи ти охоплений добровільним страхуванням по хворобі</li>
+  <li>Якщо твої дані в ZUS неправильні (наприклад, помилка в PESEL), виплату може бути заблоковано</li>
+  <li>Лікування в рамках NFZ безкоштовне при активному медичному страхуванні</li>
+</ul>
+
+<h2>Ключові відмінності: L4, зарплата за час хвороби, лікарняна допомога</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — електронний лікарняний лист від лікаря, підтверджує непрацездатність</li>
+  <li><strong>Зарплата за час хвороби</strong> — платить роботодавець перші 33 (або 14) дні, ≈80% зарплати</li>
+  <li><strong>Лікарняна допомога (zasiłek chorobowy)</strong> — платить ZUS з 34-го (або 15-го) дня, ≈80% розрахункової бази</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Лікарняна допомога захищає твій дохід під час хвороби. Незалежно від національності, як працівник у Польщі ти маєш на неї право — за умови наявності страхування у ZUS. Перевір заздалегідь на <strong>pue.zus.pl</strong>, що страхування активне і роботодавець сплачує внески. Тоді в разі хвороби ти не залишишся без виплати.</p>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-chorobowy-kak-rasschityvaetsya-polsha",
+    title: "Больничные в Польше: сколько платит ZUS за L4 и как рассчитать пособие?",
+    description:
+      "Пособие по временной нетрудоспособности для временных и иностранных работников в Польше — кто платит, каков размер 80% расчётной базы, как ZUS начисляет выплату за L4.",
+    date: "2032-02-05",
+    lang: "ru",
+    content: `
+<h1>Больничные в Польше: сколько платит ZUS за L4 и как рассчитать пособие?</h1>
+
+<p>Если ты временный или иностранный работник в Польше и заболел, тебе положено <strong>пособие по временной нетрудоспособности (zasiłek chorobowy)</strong> — денежная выплата на время болезни. В этой статье объясняем, кто платит, сколько и как рассчитать своё пособие.</p>
+
+<h2>Кто имеет право на пособие?</h2>
+<p>Пособие полагается каждому работнику, застрахованному в ZUS по риску <strong>болезни (ubezpieczenie chorobowe)</strong>. По трудовому договору (umowa o pracę) — страхование обязательное с первого дня. По гражданско-правовому договору (umowa zlecenie) — страхование по болезни <em>добровольное</em>: без него выплата не будет начислена.</p>
+
+<p>Важно: пособие выплачивается только после <strong>30-дневного периода ожидания</strong> — то есть спустя 30 дней непрерывного страхования. Исключение: выпускники, застрахованные в течение 90 дней после окончания учёбы, освобождены от этого срока.</p>
+
+<h2>Кто платит: работодатель или ZUS?</h2>
+<ul>
+  <li><strong>Первые 33 дня</strong> болезни в году — платит <strong>работодатель</strong> (в виде зарплаты за время болезни)</li>
+  <li>Работники старше <strong>50 лет</strong> — работодатель платит только первые <strong>14 дней</strong></li>
+  <li>С <strong>34-го дня</strong> (или с 15-го для лиц 50+) — выплату берёт на себя <strong>ZUS</strong></li>
+</ul>
+<p>Важно: 33 (или 14) дней — это <em>суммарный</em> счётчик за год, даже если у тебя несколько коротких больничных.</p>
+
+<h2>Размер пособия по временной нетрудоспособности</h2>
+<ul>
+  <li><strong>80%</strong> расчётной базы — обычная болезнь</li>
+  <li><strong>70%</strong> — стационарное лечение (госпитализация)</li>
+  <li><strong>100%</strong> — производственная травма, несчастный случай по дороге на работу или с работы, болезнь во время беременности</li>
+</ul>
+
+<h2>Как рассчитать расчётную базу?</h2>
+<p>Расчётная база — это <strong>среднемесячная брутто-зарплата</strong> за последние 12 месяцев (или за весь период работы, если он короче). Из этой суммы вычитаются взносы на социальное страхование (около 13,71%).</p>
+
+<p><strong>Пример:</strong></p>
+<ul>
+  <li>Средняя брутто-зарплата: 5 000 зл</li>
+  <li>После вычета взносов: 5 000 × (1 − 0,1371) ≈ 4 315 зл</li>
+  <li>Дневная ставка: 4 315 ÷ 30 ≈ 143,83 зл</li>
+  <li>Дневное пособие (80%): 143,83 × 0,80 ≈ 115,07 зл</li>
+  <li>Пособие за 10 дней болезни: ≈ 1 150 зл</li>
+</ul>
+
+<h2>Как долго выплачивается пособие?</h2>
+<p>Пособие по временной нетрудоспособности выплачивается максимум <strong>182 дня</strong> в год. При туберкулёзе или болезни во время беременности — до <strong>270 дней</strong>. После исчерпания этого срока можно обратиться за <strong>реабилитационным пособием (świadczenie rehabilitacyjne)</strong> — сроком до 12 месяцев.</p>
+
+<h2>Пошаговая процедура</h2>
+<ol>
+  <li>Обратись к врачу — он выдаёт электронный больничный лист <strong>e-ZLA</strong></li>
+  <li>Врач автоматически отправляет e-ZLA в ZUS и работодателю — ничего нести не нужно</li>
+  <li>Сообщи работодателю об отсутствии (по правилам компании)</li>
+  <li>За первые 33 дня работодатель выплачивает зарплату за время болезни вместе с обычной выплатой</li>
+  <li>С 34-го дня ZUS перечисляет пособие — напрямую на твой счёт или через работодателя</li>
+</ol>
+
+<h2>Для иностранных работников — на что обратить внимание</h2>
+<ul>
+  <li>Проверь на портале <strong>pue.zus.pl</strong>, что твоё страхование по болезни активно</li>
+  <li>Если у тебя <strong>umowa zlecenie</strong> — уточни у работодателя, подключено ли добровольное страхование по болезни</li>
+  <li>Если твои данные в ZUS неверны (например, ошибка в PESEL), выплата может быть заблокирована — проверь заранее</li>
+  <li>Лечение в рамках NFZ бесплатно при активном медицинском страховании</li>
+</ul>
+
+<h2>Ключевые различия: L4, зарплата за время болезни, пособие</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — электронный больничный лист от врача, подтверждает нетрудоспособность</li>
+  <li><strong>Зарплата за время болезни</strong> — платит работодатель первые 33 (или 14) дней, ≈80% зарплаты</li>
+  <li><strong>Пособие по нетрудоспособности (zasiłek chorobowy)</strong> — платит ZUS с 34-го (или 15-го) дня, ≈80% расчётной базы</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Пособие по временной нетрудоспособности защищает твой доход во время болезни. Независимо от гражданства, как работник в Польше ты имеешь на него право — при наличии страхования в ZUS. Заранее проверь на <strong>pue.zus.pl</strong>, что страхование активно и работодатель перечисляет взносы. Тогда в случае болезни ты не останешься без дохода.</p>
+    `.trim(),
+  },
+  {
+    slug: "sick-pay-zus-l4-benefit-calculation-poland",
+    title: "Sick Pay in Poland: How ZUS Calculates Your L4 Benefit",
+    description:
+      "Sick pay (zasiłek chorobowy) for temporary and foreign workers in Poland — who pays, how ZUS calculates the L4 benefit, what 80% of the base means, and step-by-step claiming guide.",
+    date: "2032-02-12",
+    lang: "en",
+    content: `
+<h1>Sick Pay in Poland: How ZUS Calculates Your L4 Benefit</h1>
+
+<p>If you're a temporary or foreign worker in Poland and fall ill, you're entitled to <strong>sick pay (zasiłek chorobowy)</strong> — a cash benefit that replaces your income during illness. Many workers confuse it with the sick-leave certificate (L4) or with their regular sick-day salary. This guide explains who pays, how much, and how to calculate your benefit.</p>
+
+<h2>Who Is Eligible?</h2>
+<p>Sick pay is available to any worker insured under the <strong>sickness insurance scheme (ubezpieczenie chorobowe)</strong> at ZUS (Poland's Social Insurance Institution). For employees on a standard employment contract (umowa o pracę), this insurance is <strong>mandatory</strong> from day one. For workers on a civil-law contract (umowa zlecenie), sickness insurance is <em>voluntary</em> — your employer must enrol you, or you must opt in yourself.</p>
+
+<p>There is also a <strong>30-day waiting period</strong>: sick pay only kicks in after 30 consecutive days of sickness insurance coverage. Exception: recent graduates covered within 90 days of finishing school or university have no waiting period.</p>
+
+<h2>Who Pays — Employer or ZUS?</h2>
+<p>It depends on how long you've been ill during the calendar year:</p>
+<ul>
+  <li><strong>First 33 days</strong> of illness per year — your <strong>employer</strong> pays (as sick-day salary)</li>
+  <li>Workers aged <strong>50 or over</strong> — employer pays only the first <strong>14 days</strong></li>
+  <li>From <strong>day 34</strong> (or day 15 for workers 50+) — <strong>ZUS</strong> takes over and pays sick benefit directly</li>
+</ul>
+<p>Note: the 33 (or 14) day count is <em>cumulative</em> across the year — even if you have several short illness periods.</p>
+
+<h2>How Much Will You Receive?</h2>
+<p>The standard sick benefit rate is <strong>80% of your calculation base</strong>. There are exceptions:</p>
+<ul>
+  <li><strong>80%</strong> — standard illness</li>
+  <li><strong>70%</strong> — hospitalisation (in-patient treatment)</li>
+  <li><strong>100%</strong> — occupational disease, accident at work or on the way to/from work, illness during pregnancy</li>
+</ul>
+
+<h2>How to Calculate the Benefit</h2>
+<p>The <strong>calculation base</strong> is your average gross monthly salary over the last 12 months (or the full employment period if shorter). Social insurance contributions (~13.71%) are then deducted from this figure.</p>
+
+<p><strong>Example:</strong></p>
+<ul>
+  <li>Average gross salary: PLN 5,000</li>
+  <li>After deducting contributions: 5,000 × (1 − 0.1371) ≈ PLN 4,315</li>
+  <li>Daily rate: 4,315 ÷ 30 ≈ PLN 143.83</li>
+  <li>Daily sick benefit (80%): 143.83 × 0.80 ≈ PLN 115.07</li>
+  <li>10 days off sick: ≈ PLN 1,150</li>
+</ul>
+
+<h2>How Long Does the Benefit Last?</h2>
+<p>Sick benefit is paid for a maximum of <strong>182 days</strong> per year. For tuberculosis or illness during pregnancy the limit is <strong>270 days</strong>. Once exhausted, you can apply for <strong>rehabilitation benefit (świadczenie rehabilitacyjne)</strong> — for up to 12 months.</p>
+
+<h2>Step-by-Step: How to Claim</h2>
+<ol>
+  <li>See a doctor — they issue an electronic sick note called <strong>e-ZLA</strong></li>
+  <li>The doctor sends e-ZLA automatically to ZUS and your employer — you don't need to deliver anything yourself</li>
+  <li>Notify your employer of your absence (by phone, SMS, or however your company requires)</li>
+  <li>For the first 33 days, your employer pays sick-day salary with your regular payslip</li>
+  <li>From day 34, ZUS pays the benefit — either directly to your bank account or via your employer</li>
+</ol>
+
+<h2>Foreign Workers — What to Watch Out For</h2>
+<ul>
+  <li>Check on the <strong>pue.zus.pl</strong> portal that your sickness insurance is active and your employer is paying contributions</li>
+  <li>If you're on a <strong>umowa zlecenie</strong>, confirm with your employer whether voluntary sickness insurance has been arranged — without it, you'll receive nothing from ZUS during illness</li>
+  <li>Incorrect data in ZUS (e.g. a wrong PESEL number) can block your payment — verify your records in advance</li>
+  <li>NHS-equivalent treatment (NFZ) is free when your health insurance is active — the same doctor issues your sick note</li>
+</ul>
+
+<h2>Key Distinctions: L4, Sick-Day Salary, Sick Benefit</h2>
+<ul>
+  <li><strong>L4 / e-ZLA</strong> — the doctor's electronic sick note confirming incapacity for work</li>
+  <li><strong>Sick-day salary (wynagrodzenie chorobowe)</strong> — paid by your employer for the first 33 (or 14) days, at ≈80% of normal pay</li>
+  <li><strong>Sick benefit (zasiłek chorobowy)</strong> — paid by ZUS from day 34 (or 15), also at ≈80% of the calculation base</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Sick pay in Poland protects your income during illness. As a worker in Poland — regardless of nationality — you're entitled to it as long as you're covered by ZUS sickness insurance. Check <strong>pue.zus.pl</strong> before you need it to confirm your insurance is active and your employer is paying contributions. That way, if you fall ill, your income won't fall to zero.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
