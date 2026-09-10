@@ -1992,21 +1992,32 @@
       "fb_post_id": "1107760715748033_122130346592808780",
       "published_at": "2026-09-10T08:43:01.288547+0000",
       "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/nfz-ubezpieczenie-zdrowotne-cudzoziemiec-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122130421772808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/nfz-strakhuvannya-zdorovya-inozemets-pratsivnyk-tymchasovyi-polshcha",
+      "fb_post_id": "1107760715748033_122130422462808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/nfz-strakhovaniye-zdorovya-inostranets-vremennyy-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122130422486808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nfz-health-insurance-foreign-worker-temp-agency-poland",
+      "fb_post_id": "1107760715748033_122130422516808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
     }
   ],
-  "last_run": "2026-09-10T08:43:01.288547+0000",
-  "pending": [
-    {
-      "url": "https://nexflow.work/blog/nfz-ubezpieczenie-zdrowotne-cudzoziemiec-pracownik-tymczasowy-polska"
-    },
-    {
-      "url": "https://nexflow.work/uk/blog/nfz-strakhuvannya-zdorovya-inozemets-pratsivnyk-tymchasovyi-polshcha"
-    },
-    {
-      "url": "https://nexflow.work/ru/blog/nfz-strakhovaniye-zdorovya-inostranets-vremennyy-rabotnik-polsha"
-    },
-    {
-      "url": "https://nexflow.work/en/blog/nfz-health-insurance-foreign-worker-temp-agency-poland"
-    }
-  ]
+  "last_run": "2026-09-10T22:24:07.090124+0000",
+  "pending": []
 }
