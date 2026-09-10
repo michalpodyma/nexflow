@@ -1944,33 +1944,56 @@
       "fb_post_id": "1107760715748033_122130155192808780",
       "published_at": "2026-09-09T07:06:52.752910+0000",
       "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/zasilek-chorobowy-jak-zus-placi-ile-wynosi-polska",
+      "fb_post_id": "1107760715748033_122130345980808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/zasilek-chorobovy-yak-rozrakhovuietsia-polshcha",
+      "fb_post_id": "1107760715748033_122130345992808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/zasilek-chorobowy-kak-rasschityvaetsya-polsha",
+      "fb_post_id": "1107760715748033_122130346130808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sick-pay-zus-l4-benefit-calculation-poland",
+      "fb_post_id": "1107760715748033_122130345926808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/urlop-okolicznosciowy-pracownik-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122130346196808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vidpustka-za-osobystymy-obstavynamy-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122130346208808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/otpusk-po-semejnym-obstoyatelstvam-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122130346268808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/occasional-leave-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122130346592808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
     }
   ],
-  "last_run": "2026-09-09T07:06:52.752910+0000",
-  "pending": [
-    {
-      "url": "https://nexflow.work/blog/zasilek-chorobowy-jak-zus-placi-ile-wynosi-polska"
-    },
-    {
-      "url": "https://nexflow.work/uk/blog/zasilek-chorobovy-yak-rozrakhovuietsia-polshcha"
-    },
-    {
-      "url": "https://nexflow.work/ru/blog/zasilek-chorobowy-kak-rasschityvaetsya-polsha"
-    },
-    {
-      "url": "https://nexflow.work/en/blog/sick-pay-zus-l4-benefit-calculation-poland"
-    },
-    {
-      "url": "https://nexflow.work/blog/urlop-okolicznosciowy-pracownik-cudzoziemiec-polska"
-    },
-    {
-      "url": "https://nexflow.work/uk/blog/vidpustka-za-osobystymy-obstavynamy-inozemets-polshcha"
-    },
-    {
-      "url": "https://nexflow.work/ru/blog/otpusk-po-semejnym-obstoyatelstvam-inostranets-polsha"
-    },
-    {
-      "url": "https://nexflow.work/en/blog/occasional-leave-foreign-worker-poland"
-    }
-  ]
+  "last_run": "2026-09-10T08:43:01.288547+0000",
+  "pending": []
 }
