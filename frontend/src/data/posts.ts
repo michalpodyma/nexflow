@@ -25941,6 +25941,222 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Sick pay in Poland protects your income during illness. As a worker in Poland — regardless of nationality — you're entitled to it as long as you're covered by ZUS sickness insurance. Check <strong>pue.zus.pl</strong> before you need it to confirm your insurance is active and your employer is paying contributions. That way, if you fall ill, your income won't fall to zero.</p>
     `.trim(),
   },
+  {
+    slug: "nfz-ubezpieczenie-zdrowotne-cudzoziemiec-pracownik-tymczasowy-polska",
+    title: "NFZ dla cudzoziemca — jak działa ubezpieczenie zdrowotne pracownika tymczasowego w Polsce",
+    description: "Pracujesz tymczasowo w Polsce przez agencję? Dowiedz się, jak działa NFZ, kiedy masz prawo do bezpłatnej opieki medycznej i co zrobić, gdy potrzebujesz lekarza.",
+    date: "2026-09-10",
+    lang: "pl",
+    content: `
+<article>
+  <h1>NFZ dla cudzoziemca — jak działa ubezpieczenie zdrowotne pracownika tymczasowego w Polsce</h1>
+
+  <p>Jeśli pracujesz w Polsce przez agencję pracy tymczasowej, taką jak Nexflow, masz prawo do bezpłatnej opieki medycznej w ramach Narodowego Funduszu Zdrowia (NFZ). Ten przewodnik wyjaśnia, jak to działa w praktyce.</p>
+
+  <h2>Czym jest NFZ?</h2>
+  <p>NFZ (Narodowy Fundusz Zdrowia) to polska publiczna instytucja ubezpieczeń zdrowotnych. Finansuje wizyty u lekarzy, leczenie szpitalne, leki na receptę i wiele innych świadczeń medycznych — bezpłatnie dla ubezpieczonych.</p>
+
+  <h2>Czy jako pracownik tymczasowy jestem ubezpieczony?</h2>
+  <p>Tak. Jeśli pracujesz legalnie w Polsce na podstawie umowy zlecenia lub umowy o pracę tymczasową, agencja (Nexflow) zgłasza Cię do ZUS jako pracodawca. Automatycznie obejmuje to ubezpieczenie zdrowotne w NFZ. Obowiązek rejestracji spoczywa na agencji — nie musisz nic robić samodzielnie.</p>
+
+  <h2>Od kiedy mam dostęp do NFZ?</h2>
+  <p>Ubezpieczenie zdrowotne obowiązuje od pierwszego dnia zgłoszenia do ZUS przez agencję. Zgłoszenie powinno nastąpić nie później niż 7 dni od daty rozpoczęcia umowy.</p>
+
+  <h2>Jak sprawdzić, czy jestem ubezpieczony?</h2>
+  <p>Możesz to sprawdzić na dwa sposoby:</p>
+  <ul>
+    <li><strong>Portal pacjenta (pacjent.gov.pl)</strong> — zaloguj się Profilem Zaufanym lub e-dowodem. Zakładka „Ubezpieczenie" pokaże aktualny status.</li>
+    <li><strong>eWUŚ w przychodni</strong> — kasjer/rejestracja może sprawdzić Twój status na podstawie numeru PESEL.</li>
+  </ul>
+
+  <h2>Do jakiego lekarza mogę pójść?</h2>
+  <p>W ramach NFZ możesz korzystać z:</p>
+  <ul>
+    <li><strong>Lekarz podstawowej opieki zdrowotnej (POZ)</strong> — lekarz rodzinny, do którego możesz się zapisać w dowolnej przychodni z kontraktem NFZ. Wizyta bezpłatna.</li>
+    <li><strong>Specjalista</strong> — z skierowaniem od lekarza POZ (większość specjalistów). Stomatolog: podstawowe usługi są refundowane, ale kolejki bywają długie.</li>
+    <li><strong>SOR (szpitalny oddział ratunkowy)</strong> — w nagłych przypadkach, bez skierowania.</li>
+    <li><strong>Pogotowie ratunkowe (112 lub 999)</strong> — w stanach zagrożenia życia.</li>
+  </ul>
+
+  <h2>Co z lekami?</h2>
+  <p>Leki przepisane przez lekarza NFZ są częściowo refundowane. Zapłacisz mniej niż pełną cenę — poziom dopłaty zależy od leku (0%, 30%, 50% lub pełna cena). Recepta wystawiona przez lekarza NFZ daje prawo do refundacji.</p>
+
+  <h2>Co jeśli stracę pracę lub umowa skończy się?</h2>
+  <p>Po zakończeniu umowy ubezpieczenie zdrowotne jest ważne przez 30 dni od daty wyrejestrowania z ZUS. Jeśli w tym czasie zaczniesz nową umowę przez Nexflow lub inną agencję, jesteś ponownie automatycznie ubezpieczony.</p>
+
+  <h2>Czy moja rodzina jest objęta ubezpieczeniem?</h2>
+  <p>Tak — możesz zgłosić do ubezpieczenia małżonka/małżonkę i dzieci, które nie mają własnego tytułu do ubezpieczenia (np. nie pracują). Zgłoszenia dokonujesz przez ZUS (formularz ZUS ZCNA) lub przez agencję Nexflow — zapytaj swojego opiekuna.</p>
+
+  <h2>Co zrobić w nagłej sytuacji zdrowotnej, gdy nie znam języka polskiego?</h2>
+  <p>W nagłym przypadku idź na SOR (szpitalny oddział ratunkowy) — personel jest zobowiązany udzielić pomocy bez względu na barierę językową. Możesz skorzystać z tłumacza Google lub poprosić pracodawcę o pomoc. Nexflow pomaga swoim pracownikom w kontakcie z placówkami medycznymi.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Pracując legalnie przez Nexflow w Polsce, masz pełny dostęp do systemu opieki zdrowotnej NFZ od pierwszego dnia pracy. Twoje ubezpieczenie jest automatyczne — agencja zgłasza Cię do ZUS, a NFZ zapewnia bezpłatne wizyty lekarskie, leczenie szpitalne i refundowane leki. Jeśli masz pytania dotyczące Twojego ubezpieczenia, skontaktuj się z opiekunem w Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-strakhuvannya-zdorovya-inozemets-pratsivnyk-tymchasovyi-polshcha",
+    title: "НФЗ для іноземця — як працює медичне страхування тимчасового працівника в Польщі",
+    description: "Працюєш тимчасово в Польщі через агентство? Дізнайся, як працює НФЗ, коли маєш право на безкоштовну медичну допомогу і що робити, якщо потрібен лікар.",
+    date: "2026-09-10",
+    lang: "uk",
+    content: `
+<article>
+  <h1>НФЗ для іноземця — як працює медичне страхування тимчасового працівника в Польщі</h1>
+
+  <p>Якщо ти працюєш у Польщі через агентство тимчасової праці, як-от Nexflow, ти маєш право на безкоштовну медичну допомогу в рамках Narodowy Fundusz Zdrowia (НФЗ). Цей посібник пояснює, як це працює на практиці.</p>
+
+  <h2>Що таке НФЗ?</h2>
+  <p>НФЗ (Narodowy Fundusz Zdrowia — Національний фонд здоров'я) — це польська державна установа медичного страхування. Вона фінансує відвідування лікарів, стаціонарне лікування, рецептурні ліки та багато інших медичних послуг — безкоштовно для застрахованих.</p>
+
+  <h2>Чи застрахований я як тимчасовий працівник?</h2>
+  <p>Так. Якщо ти легально працюєш у Польщі за договором доручення (umowa zlecenia) або договором тимчасової праці (umowa o pracę tymczasową), агентство (Nexflow) реєструє тебе в ZUS як роботодавець. Це автоматично включає медичне страхування в НФЗ. Обов'язок реєстрації покладається на агентство — тобі нічого не потрібно робити самостійно.</p>
+
+  <h2>З якого моменту я маю доступ до НФЗ?</h2>
+  <p>Медичне страхування діє з першого дня реєстрації в ZUS агентством. Реєстрація має відбутися не пізніше ніж через 7 днів від дати початку договору.</p>
+
+  <h2>Як перевірити, чи я застрахований?</h2>
+  <p>Є два способи:</p>
+  <ul>
+    <li><strong>Портал пацієнта (pacjent.gov.pl)</strong> — увійди через Profil Zaufany або e-dowód. Вкладка «Ubezpieczenie» покаже поточний статус.</li>
+    <li><strong>eWUŚ в поліклініці</strong> — реєстратор може перевірити твій статус за номером PESEL.</li>
+  </ul>
+
+  <h2>До якого лікаря я можу звернутися?</h2>
+  <p>В рамках НФЗ ти можеш скористатися:</p>
+  <ul>
+    <li><strong>Лікар первинної допомоги (POZ)</strong> — сімейний лікар, до якого можна записатися в будь-якій поліклініці з контрактом НФЗ. Візит безкоштовний.</li>
+    <li><strong>Спеціаліст</strong> — за направленням від лікаря POZ (більшість спеціалістів). Стоматолог: базові послуги відшкодовуються, але черги можуть бути довгими.</li>
+    <li><strong>SOR (лікарняне приймальне відділення)</strong> — у невідкладних випадках, без направлення.</li>
+    <li><strong>Швидка допомога (112 або 999)</strong> — при загрозі для життя.</li>
+  </ul>
+
+  <h2>Що щодо ліків?</h2>
+  <p>Ліки, виписані лікарем НФЗ, частково відшкодовуються. Ти заплатиш менше повної ціни — рівень доплати залежить від ліків (0%, 30%, 50% або повна ціна). Рецепт від лікаря НФЗ дає право на відшкодування.</p>
+
+  <h2>Що відбувається, якщо я втрачу роботу або закінчиться договір?</h2>
+  <p>Після закінчення договору медичне страхування діє ще 30 днів з дати зняття з обліку в ZUS. Якщо за цей час ти починаєш новий договір через Nexflow або інше агентство, ти знову автоматично застрахований.</p>
+
+  <h2>Чи поширюється страхування на мою родину?</h2>
+  <p>Так — ти можеш зареєструвати чоловіка/дружину та дітей, які не мають власного страхування (наприклад, не працюють). Реєстрація здійснюється через ZUS (форма ZUS ZCNA) або через агентство Nexflow — запитай у свого куратора.</p>
+
+  <h2>Що робити в невідкладній медичній ситуації, якщо я не знаю польської?</h2>
+  <p>У невідкладному випадку йди в SOR (лікарняне приймальне відділення) — персонал зобов'язаний надати допомогу незалежно від мовного бар'єру. Можна скористатися Google Перекладачем або попросити роботодавця про допомогу. Nexflow допомагає своїм працівникам у контакті з медичними закладами.</p>
+
+  <h2>Підсумок</h2>
+  <p>Легально працюючи через Nexflow в Польщі, ти маєш повний доступ до системи охорони здоров'я НФЗ з першого дня роботи. Твоє страхування автоматичне — агентство реєструє тебе в ZUS, а НФЗ забезпечує безкоштовні візити до лікаря, стаціонарне лікування та пільгові ліки. Якщо є питання щодо страхування, зверніться до куратора в Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-strakhovaniye-zdorovya-inostranets-vremennyy-rabotnik-polsha",
+    title: "НФЗ для иностранца — как работает медицинское страхование временного работника в Польше",
+    description: "Работаешь временно в Польше через агентство? Узнай, как работает НФЗ, когда ты имеешь право на бесплатную медицинскую помощь и что делать, если нужен врач.",
+    date: "2026-09-10",
+    lang: "ru",
+    content: `
+<article>
+  <h1>НФЗ для иностранца — как работает медицинское страхование временного работника в Польше</h1>
+
+  <p>Если ты работаешь в Польше через агентство временного труда, например Nexflow, ты имеешь право на бесплатную медицинскую помощь в рамках Narodowy Fundusz Zdrowia (НФЗ). Этот гид объясняет, как это работает на практике.</p>
+
+  <h2>Что такое НФЗ?</h2>
+  <p>НФЗ (Narodowy Fundusz Zdrowia — Национальный фонд здоровья) — это польское государственное учреждение медицинского страхования. Оно финансирует визиты к врачам, стационарное лечение, рецептурные лекарства и многие другие медицинские услуги — бесплатно для застрахованных.</p>
+
+  <h2>Застрахован ли я как временный работник?</h2>
+  <p>Да. Если ты легально работаешь в Польше по договору поручения (umowa zlecenia) или договору временного труда, агентство (Nexflow) регистрирует тебя в ZUS как работодатель. Это автоматически включает медицинское страхование в НФЗ. Обязанность регистрации лежит на агентстве — тебе ничего не нужно делать самостоятельно.</p>
+
+  <h2>С какого момента у меня есть доступ к НФЗ?</h2>
+  <p>Медицинское страхование действует с первого дня регистрации в ZUS агентством. Регистрация должна произойти не позднее 7 дней с даты начала договора.</p>
+
+  <h2>Как проверить, застрахован ли я?</h2>
+  <p>Есть два способа:</p>
+  <ul>
+    <li><strong>Портал пациента (pacjent.gov.pl)</strong> — войди через Profil Zaufany или e-dowód. Вкладка «Ubezpieczenie» покажет текущий статус.</li>
+    <li><strong>eWUŚ в поликлинике</strong> — регистратор может проверить твой статус по номеру PESEL.</li>
+  </ul>
+
+  <h2>К какому врачу я могу обратиться?</h2>
+  <p>В рамках НФЗ ты можешь воспользоваться:</p>
+  <ul>
+    <li><strong>Врач первичной помощи (POZ)</strong> — семейный врач, к которому можно записаться в любой поликлинике с контрактом НФЗ. Визит бесплатный.</li>
+    <li><strong>Специалист</strong> — по направлению от врача POZ (большинство специалистов). Стоматолог: базовые услуги компенсируются, но очереди могут быть долгими.</li>
+    <li><strong>SOR (больничное приёмное отделение)</strong> — в экстренных случаях, без направления.</li>
+    <li><strong>Скорая помощь (112 или 999)</strong> — при угрозе жизни.</li>
+  </ul>
+
+  <h2>Что насчёт лекарств?</h2>
+  <p>Лекарства, выписанные врачом НФЗ, частично компенсируются. Ты заплатишь меньше полной цены — уровень доплаты зависит от лекарства (0%, 30%, 50% или полная цена). Рецепт от врача НФЗ даёт право на компенсацию.</p>
+
+  <h2>Что происходит, если я потеряю работу или закончится договор?</h2>
+  <p>После окончания договора медицинское страхование действует ещё 30 дней с даты снятия с учёта в ZUS. Если за это время ты начинаешь новый договор через Nexflow или другое агентство, ты снова автоматически застрахован.</p>
+
+  <h2>Распространяется ли страхование на мою семью?</h2>
+  <p>Да — ты можешь зарегистрировать супруга/супругу и детей, которые не имеют собственного страхования (например, не работают). Регистрация осуществляется через ZUS (форма ZUS ZCNA) или через агентство Nexflow — спроси у своего куратора.</p>
+
+  <h2>Что делать в экстренной медицинской ситуации, если я не знаю польского?</h2>
+  <p>В экстренном случае иди в SOR (больничное приёмное отделение) — персонал обязан оказать помощь независимо от языкового барьера. Можно воспользоваться Google Переводчиком или попросить работодателя о помощи. Nexflow помогает своим работникам в контакте с медицинскими учреждениями.</p>
+
+  <h2>Итог</h2>
+  <p>Легально работая через Nexflow в Польше, ты имеешь полный доступ к системе здравоохранения НФЗ с первого дня работы. Твоё страхование автоматическое — агентство регистрирует тебя в ZUS, а НФЗ обеспечивает бесплатные визиты к врачу, стационарное лечение и льготные лекарства. Если есть вопросы по страхованию, обратись к куратору в Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-health-insurance-foreign-worker-temp-agency-poland",
+    title: "NFZ Health Insurance in Poland — A Guide for Foreign Temp Workers",
+    description: "Working in Poland through a temp agency? Learn how NFZ public health insurance works, when you're entitled to free medical care, and what to do when you need a doctor.",
+    date: "2026-09-10",
+    lang: "en",
+    content: `
+<article>
+  <h1>NFZ Health Insurance in Poland — A Guide for Foreign Temp Workers</h1>
+
+  <p>If you work in Poland through a temporary employment agency like Nexflow, you are entitled to free medical care under Poland's public health insurance system — the Narodowy Fundusz Zdrowia (NFZ). This guide explains how it works in practice.</p>
+
+  <h2>What is NFZ?</h2>
+  <p>NFZ (Narodowy Fundusz Zdrowia — National Health Fund) is Poland's public health insurance institution. It funds GP visits, hospital treatment, prescription medications, and many other medical services — free of charge for insured individuals.</p>
+
+  <h2>Am I insured as a temp worker?</h2>
+  <p>Yes. If you work legally in Poland under a civil-law contract (umowa zlecenia) or a temporary employment contract (umowa o pracę tymczasową), the agency (Nexflow) registers you with ZUS (Poland's social insurance institution) as your employer. This automatically includes health insurance in NFZ. The registration obligation rests entirely with the agency — you don't need to do anything yourself.</p>
+
+  <h2>When does my NFZ coverage start?</h2>
+  <p>Health insurance is active from the first day of your registration with ZUS by the agency. Registration must happen no later than 7 days from your contract start date.</p>
+
+  <h2>How can I check if I'm insured?</h2>
+  <p>There are two ways:</p>
+  <ul>
+    <li><strong>Patient Portal (pacjent.gov.pl)</strong> — log in with your Profil Zaufany (Trusted Profile) or e-dowód. The "Ubezpieczenie" (Insurance) tab shows your current status.</li>
+    <li><strong>eWUŚ system at the clinic</strong> — the reception staff can verify your coverage status using your PESEL number.</li>
+  </ul>
+
+  <h2>Which doctors can I see?</h2>
+  <p>Under NFZ, you have access to:</p>
+  <ul>
+    <li><strong>Primary care doctor (POZ — Podstawowa Opieka Zdrowotna)</strong> — your family doctor. You can register at any clinic with an NFZ contract. Visits are free.</li>
+    <li><strong>Specialist</strong> — requires a referral from your POZ doctor (for most specialties). Dental: basic services are covered, but waiting times can be long.</li>
+    <li><strong>SOR (hospital emergency department)</strong> — for urgent cases, no referral needed.</li>
+    <li><strong>Ambulance (112 or 999)</strong> — for life-threatening emergencies.</li>
+  </ul>
+
+  <h2>What about medications?</h2>
+  <p>Medications prescribed by an NFZ doctor are partially reimbursed. You will pay less than the full retail price — the co-payment level depends on the medication (0%, 30%, 50%, or full price). An NFZ prescription gives you the right to the subsidy at the pharmacy.</p>
+
+  <h2>What happens if I lose my job or my contract ends?</h2>
+  <p>After your contract ends, health insurance remains valid for 30 days from the date you are deregistered from ZUS. If you start a new contract through Nexflow or another agency within that period, you are again automatically covered.</p>
+
+  <h2>Can my family be covered too?</h2>
+  <p>Yes — you can register a spouse/partner and children who don't have their own insurance coverage (e.g., they are not working). Registration is done through ZUS (form ZUS ZCNA) or through Nexflow — ask your coordinator.</p>
+
+  <h2>What if I need urgent help but don't speak Polish?</h2>
+  <p>In an emergency, go to the nearest SOR (hospital emergency department) — staff are obligated to provide care regardless of language barriers. You can use Google Translate or ask your employer for assistance. Nexflow supports its workers in communicating with medical facilities.</p>
+
+  <h2>Summary</h2>
+  <p>Working legally through Nexflow in Poland gives you full access to the NFZ public health system from day one. Your insurance is automatic — the agency registers you with ZUS, and NFZ covers GP visits, hospital treatment, and subsidised medications. If you have any questions about your insurance coverage, contact your Nexflow coordinator.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
