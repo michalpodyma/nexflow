@@ -26457,6 +26457,266 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "zakwaterowanie-pracownicze-polska-pracownik-tymczasowy",
+    title: "Zakwaterowanie pracownicze w Polsce — co musisz wiedzieć jako pracownik tymczasowy?",
+    description: "Pracujesz przez agencję i mieszkasz w zakwaterowaniu pracowniczym? Sprawdź, jakie prawa przysługują Ci jako pracownik, co może być potrącane z wynagrodzenia i jak zgłosić problemy z warunkami.",
+    date: "2026-09-11",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Zakwaterowanie pracownicze w Polsce — co musisz wiedzieć jako pracownik tymczasowy?</h1>
+
+  <p>Wielu pracowników tymczasowych przyjeżdżających do Polski — zwłaszcza z Ukrainy, Białorusi lub innych krajów — korzysta z zakwaterowania organizowanego przez agencję pracy lub pracodawcę użytkownika. To wygodne rozwiązanie, szczególnie na początku, ale warto znać swoje prawa i wiedzieć, co może być potrącane z wynagrodzenia.</p>
+
+  <h2>Co to jest zakwaterowanie pracownicze?</h2>
+  <p>Zakwaterowanie pracownicze (ang. worker accommodation lub company housing) to mieszkanie lub pokój udostępniany przez pracodawcę lub agencję pracy pracownikowi jako element warunków zatrudnienia. W przypadku pracowników tymczasowych jest to częsta praktyka — agencja pracy może zapewnić lokum zbiorowe (hostel, dom pracowniczy) lub prywatne mieszkanie.</p>
+
+  <h2>Jakie dokumenty powinieneś/powinnaś otrzymać?</h2>
+  <ul>
+    <li><strong>Umowa najmu lub użyczenia</strong> — powinieneś/powinnaś podpisać pisemną umowę dotyczącą zakwaterowania, oddzielną od umowy o pracę</li>
+    <li><strong>Regulamin lokum</strong> — zasady korzystania ze wspólnych przestrzeni, godziny ciszy nocnej itp.</li>
+    <li><strong>Informacja o opłatach</strong> — jasno określone, ile będzie potrącane z wynagrodzenia lub płacone osobno</li>
+  </ul>
+  <p>Jeśli nie otrzymałeś/łaś żadnego dokumentu, poproś o pisemne potwierdzenie warunków zakwaterowania.</p>
+
+  <h2>Co może być potrącane z wynagrodzenia?</h2>
+  <p>Pracodawca lub agencja może potrącić koszty zakwaterowania z Twojego wynagrodzenia, ale tylko pod warunkiem, że:</p>
+  <ul>
+    <li>Wyraziłeś/łaś na to pisemną zgodę</li>
+    <li>Potrącenie nie obniży Twojego wynagrodzenia poniżej minimalnego wynagrodzenia (od 2026 r. — 4 666 zł brutto miesięcznie)</li>
+    <li>Wysokość potrącenia jest z góry ustalona i jasno wpisana w dokumentach</li>
+  </ul>
+  <p>Typowy koszt miejsca w hostelu pracowniczym wynosi od 300 do 800 zł miesięcznie, w zależności od lokalizacji i standardu.</p>
+
+  <h2>Twoje prawa jako mieszkaniec zakwaterowania pracowniczego</h2>
+  <ul>
+    <li><strong>Prawo do godnych warunków</strong> — lokal musi być sprawny technicznie, ogrzewany zimą i posiadać dostęp do bieżącej wody</li>
+    <li><strong>Prawo do prywatności</strong> — pracodawca nie może wchodzić do Twojego pokoju bez uprzedzenia (wyjątek: awaria, zagrożenie)</li>
+    <li><strong>Zakaz uzależnienia zatrudnienia od zakwaterowania</strong> — pracodawca nie może uzależnić przyznania pracy od zamieszkania w podanym miejscu, chyba że wynika to z warunków geograficznych</li>
+    <li><strong>Prawo do wypowiedzenia</strong> — jeśli chcesz zrezygnować z zakwaterowania, obowiązuje zazwyczaj 1-miesięczny okres wypowiedzenia</li>
+  </ul>
+
+  <h2>Co zrobić, gdy warunki są nieodpowiednie?</h2>
+  <ol>
+    <li>Zgłoś problem koordynatorowi w agencji pracy lub bezpośredniemu przełożonemu (pisemnie, np. SMS lub e-mail)</li>
+    <li>Jeśli problem nie zostanie rozwiązany — złóż skargę do Państwowej Inspekcji Pracy (PIP): pip.gov.pl</li>
+    <li>W sprawach sanitarnych (grzyb, wilgoć, brak ogrzewania) możesz zgłosić się do Sanepidu</li>
+    <li>Jeśli warunki są zagrożeniem zdrowotnym — możesz opuścić lokal i zakończyć umowę zakwaterowania ze skutkiem natychmiastowym</li>
+  </ol>
+
+  <h2>Zakwaterowanie a adres do celów meldunkowych i pobytowych</h2>
+  <p>Adres zakwaterowania pracowniczego możesz zgłosić jako adres zameldowania (meldunek tymczasowy) w urzędzie gminy. Jest to ważne, ponieważ:</p>
+  <ul>
+    <li>Adres zameldowania jest potrzebny do uzyskania numeru PESEL</li>
+    <li>Jest potrzebny przy wniosku o kartę czasowego pobytu</li>
+    <li>Ułatwia korespondencję urzędową</li>
+  </ul>
+  <p>Pracodawca/agencja ma obowiązek udzielić Ci informacji o adresie lokalu, abyś mógł/mogła się zameldować.</p>
+
+  <h2>Co zapewnia Nexflow?</h2>
+  <p>Nexflow pomaga nowym pracownikom znaleźć odpowiednie zakwaterowanie w pobliżu miejsca pracy. Jeśli masz pytania dotyczące warunków zakwaterowania lub chcesz zgłosić problem, skontaktuj się z koordynatorem Nexflow — jesteśmy po Twojej stronie.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Zakwaterowanie pracownicze jest wygodnym rozwiązaniem na start, ale warto wiedzieć, co Ci przysługuje. Pamiętaj: kosztów zakwaterowania nie można potrącać bez Twojej pisemnej zgody i nie mogą one obniżyć Twojej pensji poniżej ustawowego minimum. W razie problemów — nie czekaj, zgłoś je koordynatorowi lub do PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pratsivnyche-zhytlo-polshcha-tymchasovyi-pratsivnyk",
+    title: "Службове житло в Польщі — що треба знати тимчасовому працівнику?",
+    description: "Працюєш через агентство і живеш у службовому житлі? Дізнайся, які права ти маєш як працівник, що може утримуватися з твоєї зарплати і як повідомити про проблеми з умовами.",
+    date: "2026-09-11",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Службове житло в Польщі — що треба знати тимчасовому працівнику?</h1>
+
+  <p>Багато тимчасових працівників, які приїжджають до Польщі — зокрема з України, Білорусі та інших країн — користуються житлом, яке надає агентство праці або роботодавець. Це зручно, особливо на початку, але важливо знати свої права і розуміти, що може утримуватися з вашої зарплати.</p>
+
+  <h2>Що таке службове житло?</h2>
+  <p>Службове житло (пол. zakwaterowanie pracownicze) — це квартира або кімната, яку надає роботодавець або агентство праці працівнику як частину умов зайнятості. Для тимчасових працівників це поширена практика — агентство може забезпечити гуртожиток (хостел, робітниче гуртожиток) або окреме житло.</p>
+
+  <h2>Які документи ви повинні отримати?</h2>
+  <ul>
+    <li><strong>Договір найму або позички</strong> — ви повинні підписати письмовий договір про житло, окремий від трудового договору</li>
+    <li><strong>Правила проживання</strong> — порядок користування спільними просторами, години тиші тощо</li>
+    <li><strong>Інформація про плату</strong> — чітко визначена сума, що утримується з зарплати або сплачується окремо</li>
+  </ul>
+  <p>Якщо ви не отримали жодного документа — попросіть письмове підтвердження умов проживання.</p>
+
+  <h2>Що може утримуватися з зарплати?</h2>
+  <p>Роботодавець або агентство може утримувати вартість житла з вашої зарплати, але тільки за умови:</p>
+  <ul>
+    <li>Ви надали письмову згоду на це</li>
+    <li>Утримання не знизить вашу зарплату нижче мінімальної (з 2026 р. — 4 666 зл. брутто на місяць)</li>
+    <li>Розмір утримання заздалегідь узгоджений і зазначений у документах</li>
+  </ul>
+  <p>Типова вартість місця у робітничому гуртожитку становить від 300 до 800 зл. на місяць залежно від міста та стандарту житла.</p>
+
+  <h2>Ваші права як мешканця службового житла</h2>
+  <ul>
+    <li><strong>Право на гідні умови</strong> — приміщення повинне бути технічно справним, опалюватися взимку і мати доступ до проточної води</li>
+    <li><strong>Право на приватність</strong> — роботодавець не може входити до вашої кімнати без попередження (виняток: аварія, загроза безпеці)</li>
+    <li><strong>Заборона пов'язувати роботу з житлом</strong> — роботодавець не може обумовлювати надання роботи обов'язковим проживанням у вказаному місці</li>
+    <li><strong>Право на розірвання</strong> — якщо ви хочете відмовитися від житла, зазвичай діє 1-місячний термін повідомлення</li>
+  </ul>
+
+  <h2>Що робити, якщо умови не відповідають нормам?</h2>
+  <ol>
+    <li>Повідомте проблему координатору агентства або безпосередньому керівнику (письмово — СМС або email)</li>
+    <li>Якщо проблему не вирішено — подайте скаргу до Державної інспекції праці (PIP): pip.gov.pl</li>
+    <li>У санітарних питаннях (цвіль, вологість, відсутність опалення) можна звернутися до Санепіду</li>
+    <li>Якщо умови становлять загрозу здоров'ю — ви можете негайно покинути приміщення і розірвати договір про житло</li>
+  </ol>
+
+  <h2>Службова адреса для реєстрації</h2>
+  <p>Адресу службового житла ви можете вказати як адресу тимчасової реєстрації (мельдунку) в міському управлінні. Це важливо, тому що:</p>
+  <ul>
+    <li>Адреса реєстрації потрібна для отримання номера PESEL</li>
+    <li>Вона необхідна при подачі заяви на карту тимчасового проживання (TRC)</li>
+    <li>Спрощує офіційне листування</li>
+  </ul>
+  <p>Роботодавець/агентство зобов'язані надати вам адресу приміщення, щоб ви могли зареєструватися.</p>
+
+  <h2>Що забезпечує Nexflow?</h2>
+  <p>Nexflow допомагає новим працівникам знайти підходяще житло поблизу місця роботи. Якщо у вас є запитання щодо умов проживання або ви хочете повідомити про проблему — зверніться до координатора Nexflow. Ми на вашому боці.</p>
+
+  <h2>Підсумок</h2>
+  <p>Службове житло — зручне рішення на початку, але важливо знати свої права. Пам'ятайте: вартість житла не може утримуватися без вашої письмової згоди і не може знизити зарплату нижче законного мінімуму. У разі проблем — не чекайте, повідомте координатора або зверніться до PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "rabochee-zhilye-polsha-vremennyy-rabotnik",
+    title: "Рабочее жильё в Польше — что нужно знать временному работнику?",
+    description: "Работаешь через агентство и живёшь в рабочем общежитии? Узнай, какие права у тебя как работника, что может удерживаться из твоей зарплаты и как сообщить о проблемах с условиями.",
+    date: "2026-09-11",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Рабочее жильё в Польше — что нужно знать временному работнику?</h1>
+
+  <p>Многие временные работники, приезжающие в Польшу — особенно с Украины, Беларуси и других стран — пользуются жильём, которое предоставляет кадровое агентство или работодатель. Это удобно, особенно в начале, но важно знать свои права и понимать, что может удерживаться из вашей зарплаты.</p>
+
+  <h2>Что такое рабочее жильё?</h2>
+  <p>Рабочее жильё (пол. zakwaterowanie pracownicze) — это квартира или комната, которую предоставляет работодатель или кадровое агентство работнику как часть условий занятости. Для временных работников это распространённая практика — агентство может обеспечить общежитие (хостел, рабочее общежитие) или отдельное жильё.</p>
+
+  <h2>Какие документы вы должны получить?</h2>
+  <ul>
+    <li><strong>Договор аренды или ссуды</strong> — вы должны подписать письменный договор о жилье, отдельный от трудового договора</li>
+    <li><strong>Правила проживания</strong> — порядок пользования общими помещениями, часы тишины и т.д.</li>
+    <li><strong>Информация об оплате</strong> — чётко определённая сумма, удерживаемая из зарплаты или оплачиваемая отдельно</li>
+  </ul>
+  <p>Если вы не получили никакого документа — попросите письменное подтверждение условий проживания.</p>
+
+  <h2>Что может удерживаться из зарплаты?</h2>
+  <p>Работодатель или агентство может удерживать стоимость жилья из вашей зарплаты, но только при условии:</p>
+  <ul>
+    <li>Вы дали письменное согласие на это</li>
+    <li>Удержание не снизит вашу зарплату ниже минимальной (с 2026 г. — 4 666 зл. брутто в месяц)</li>
+    <li>Размер удержания заранее согласован и указан в документах</li>
+  </ul>
+  <p>Типичная стоимость места в рабочем общежитии составляет от 300 до 800 зл. в месяц в зависимости от города и стандарта жилья.</p>
+
+  <h2>Ваши права как жильца рабочего жилья</h2>
+  <ul>
+    <li><strong>Право на достойные условия</strong> — помещение должно быть технически исправным, отапливаться зимой и иметь доступ к проточной воде</li>
+    <li><strong>Право на приватность</strong> — работодатель не может входить в вашу комнату без предупреждения (исключение: авария, угроза безопасности)</li>
+    <li><strong>Запрет связывать работу с жильём</strong> — работодатель не может обусловливать предоставление работы обязательным проживанием в указанном месте</li>
+    <li><strong>Право на расторжение</strong> — если вы хотите отказаться от жилья, как правило действует 1-месячный срок уведомления</li>
+  </ul>
+
+  <h2>Что делать, если условия не соответствуют нормам?</h2>
+  <ol>
+    <li>Сообщите о проблеме координатору агентства или непосредственному руководителю (письменно — SMS или email)</li>
+    <li>Если проблема не решена — подайте жалобу в Государственную инспекцию труда (PIP): pip.gov.pl</li>
+    <li>По санитарным вопросам (плесень, влажность, отсутствие отопления) можно обратиться в Санэпид</li>
+    <li>Если условия угрожают здоровью — вы можете немедленно покинуть помещение и расторгнуть договор о жилье</li>
+  </ol>
+
+  <h2>Рабочий адрес для регистрации</h2>
+  <p>Адрес рабочего жилья вы можете указать как адрес временной регистрации (мельдунку) в городском управлении. Это важно, потому что:</p>
+  <ul>
+    <li>Адрес регистрации нужен для получения номера PESEL</li>
+    <li>Он необходим при подаче заявления на карту временного проживания (TRC)</li>
+    <li>Упрощает официальную переписку</li>
+  </ul>
+  <p>Работодатель/агентство обязаны предоставить вам адрес помещения, чтобы вы могли зарегистрироваться.</p>
+
+  <h2>Что обеспечивает Nexflow?</h2>
+  <p>Nexflow помогает новым работникам найти подходящее жильё рядом с местом работы. Если у вас есть вопросы об условиях проживания или вы хотите сообщить о проблеме — обратитесь к координатору Nexflow. Мы на вашей стороне.</p>
+
+  <h2>Итог</h2>
+  <p>Рабочее жильё — удобное решение на старте, но важно знать свои права. Помните: стоимость жилья не может удерживаться без вашего письменного согласия и не может снизить зарплату ниже законного минимума. При возникновении проблем — не ждите, сообщите координатору или обратитесь в PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "employer-provided-accommodation-poland-temp-worker",
+    title: "Employer-Provided Accommodation in Poland — What Temp Workers Need to Know",
+    description: "Working through a staffing agency in Poland and living in employer-arranged accommodation? Find out your rights as a worker, what can be deducted from your salary, and how to report problems.",
+    date: "2026-09-11",
+    lang: "en",
+    content: `
+<article>
+  <h1>Employer-Provided Accommodation in Poland — What Temp Workers Need to Know</h1>
+
+  <p>Many temporary workers arriving in Poland — especially from Ukraine, Belarus, and other countries — use accommodation arranged by the staffing agency or employer. This is convenient, especially at first, but it's important to know your rights and understand what can be deducted from your salary.</p>
+
+  <h2>What is employer-provided accommodation?</h2>
+  <p>Employer-provided accommodation (Polish: zakwaterowanie pracownicze) is a flat or room provided by the employer or staffing agency to a worker as part of their employment terms. For temp workers, this is a common arrangement — the agency may provide shared accommodation (hostel, workers' dormitory) or a private flat.</p>
+
+  <h2>What documents should you receive?</h2>
+  <ul>
+    <li><strong>Rental or loan agreement</strong> — you should sign a written accommodation agreement, separate from your employment contract</li>
+    <li><strong>House rules</strong> — rules for shared spaces, quiet hours, etc.</li>
+    <li><strong>Information about charges</strong> — a clearly stated amount to be deducted from your salary or paid separately</li>
+  </ul>
+  <p>If you haven't received any document — ask for written confirmation of the accommodation terms.</p>
+
+  <h2>What can be deducted from your salary?</h2>
+  <p>The employer or agency can deduct accommodation costs from your salary, but only if:</p>
+  <ul>
+    <li>You have given written consent to this</li>
+    <li>The deduction will not reduce your salary below the legal minimum (from 2026 — PLN 4,666 gross per month)</li>
+    <li>The deduction amount is agreed in advance and clearly stated in the documents</li>
+  </ul>
+  <p>A typical cost for a place in a workers' hostel is PLN 300–800 per month, depending on location and standard.</p>
+
+  <h2>Your rights as a resident of employer accommodation</h2>
+  <ul>
+    <li><strong>Right to decent conditions</strong> — the premises must be in working order, heated in winter, and have running water</li>
+    <li><strong>Right to privacy</strong> — the employer cannot enter your room without notice (exception: emergency, safety threat)</li>
+    <li><strong>Ban on tying employment to accommodation</strong> — the employer cannot make your job conditional on living in their accommodation</li>
+    <li><strong>Right to terminate</strong> — if you want to leave the accommodation, a 1-month notice period usually applies</li>
+  </ul>
+
+  <h2>What to do if conditions are inadequate?</h2>
+  <ol>
+    <li>Report the problem to your agency coordinator or direct supervisor (in writing — SMS or email)</li>
+    <li>If the problem is not resolved — file a complaint with the State Labour Inspectorate (PIP): pip.gov.pl</li>
+    <li>For sanitary issues (mould, damp, no heating) you can also contact the Sanitary-Epidemiological Station (Sanepid)</li>
+    <li>If conditions are a health hazard — you may immediately vacate and terminate the accommodation agreement</li>
+  </ol>
+
+  <h2>Using the address for registration purposes</h2>
+  <p>You can register your accommodation address as a temporary address (meldunek) at the local municipal office. This matters because:</p>
+  <ul>
+    <li>A registered address is needed to obtain a PESEL number</li>
+    <li>It is required when applying for a Temporary Residence Card (TRC)</li>
+    <li>It simplifies official correspondence</li>
+  </ul>
+  <p>Your employer/agency is obliged to provide you with the full address so you can register.</p>
+
+  <h2>What does Nexflow provide?</h2>
+  <p>Nexflow helps new workers find suitable accommodation close to the workplace. If you have questions about your accommodation or want to report a problem, contact your Nexflow coordinator — we are on your side.</p>
+
+  <h2>Summary</h2>
+  <p>Employer accommodation is a convenient solution when you start, but it's important to know your rights. Remember: accommodation costs cannot be deducted without your written consent and cannot reduce your salary below the legal minimum. If problems arise — don't wait, report them to your coordinator or contact PIP.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
