@@ -26717,6 +26717,242 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "potracenia-z-wynagrodzenia-polska-legalne-nielegalne-cudzoziemiec",
+    title: "Co może być potrącone z Twojego wynagrodzenia w Polsce — legalne i nielegalne potrącenia",
+    description: "Jakie kwoty pracodawca lub agencja pracy może legalnie potrącić z Twojego wynagrodzenia w Polsce? Przewodnik po obowiązkowych składkach, legalnych potrąceniach za zgodą pracownika i absolutnie nielegalnych opłatach.",
+    date: "2026-09-12",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Co może być potrącone z Twojego wynagrodzenia w Polsce — legalne i nielegalne potrącenia</h1>
+
+  <p>Wielu pracowników tymczasowych z Ukrainy, Białorusi i innych krajów jest zaskoczonych kwotą netto, którą otrzymują na konto. Część potrąceń jest obowiązkowa i wynika z polskiego prawa, inne wymagają Twojej pisemnej zgody — a jeszcze inne są <strong>całkowicie nielegalne</strong>. Ten poradnik wyjaśnia, co może, a czego nie może potrącić pracodawca lub agencja pracy.</p>
+
+  <h2>1. Obowiązkowe potrącenia — zawsze na liście płac</h2>
+  <p>Te kwoty są potrącane przez każdego pracodawcę w Polsce, niezależnie od stanowiska czy umowy:</p>
+  <ul>
+    <li><strong>Składki ZUS pracownika</strong> — emerytalna (9,76%), rentowa (1,5%), chorobowa (2,45%) — łącznie ok. 13,71% wynagrodzenia brutto</li>
+    <li><strong>Zaliczka na podatek dochodowy (PIT)</strong> — 12% od dochodu po odliczeniu składek i kwoty wolnej</li>
+  </ul>
+  <p>Te potrącenia <em>nie</em> są decyzją pracodawcy — wynikają z polskiego prawa podatkowego i ubezpieczeniowego. Dzięki składkom ZUS masz prawo do chorobowego (L4), emerytury i renty.</p>
+
+  <h2>2. Legalne potrącenia za Twoją pisemną zgodą</h2>
+  <p>Poza obowiązkowymi składkami, pracodawca może potrącić z wynagrodzenia inne kwoty, ale <strong>tylko jeśli wyraziłeś/-aś pisemną zgodę</strong>. Przykłady:</p>
+  <ul>
+    <li><strong>Zakwaterowanie pracownicze</strong> — jeśli agencja zapewnia Ci mieszkanie lub pokój, koszt pobytu może być potrącany z wypłaty. Kwota musi być ustalona z góry w umowie najmu.</li>
+    <li><strong>Zaliczka wzięta od pracodawcy</strong> — jeśli pożyczyłeś/-aś pieniądze od pracodawcy lub z zakładowego funduszu socjalnego, spłata może być potrącana w uzgodnionych ratach.</li>
+    <li><strong>Wyżywienie/posiłki</strong> — jeśli pracodawca zapewnia posiłki i umówiłeś/-aś się na potrącenie ich kosztu.</li>
+  </ul>
+  <p><strong>Ważne:</strong> Po wszystkich potrąceniach (poza obowiązkowymi) Twoje wynagrodzenie netto nie może spaść poniżej kwoty minimalnego wynagrodzenia (od 2026 r. — 4 666 zł brutto / ok. 3 400 zł netto). Pracodawca musi zostawić Ci wystarczającą kwotę na utrzymanie.</p>
+
+  <h2>3. Potrącenia na podstawie nakazu komorniczego</h2>
+  <p>Jeśli masz długi i komornik sądowy wydał nakaz zajęcia wynagrodzenia, pracodawca jest zobowiązany przelać odpowiednią część Twoich zarobków bezpośrednio do komornika. Jest to wyjątek od zasady pisemnej zgody — pracodawca działa tu na mocy decyzji sądu.</p>
+
+  <h2>4. Nielegalne potrącenia — pracodawca nie ma prawa ich dokonywać</h2>
+  <p>Następujące opłaty i potrącenia są <strong>niezgodne z polskim prawem</strong> i nie mogą być pobierane od pracowników:</p>
+  <ul>
+    <li><strong>Opłata za pośrednictwo pracy</strong> — agencja pracy tymczasowej nie może pobierać żadnych opłat za znalezienie zatrudnienia. Jest to wprost zakazane przez ustawę o promocji zatrudnienia (art. 85 ust. 2).</li>
+    <li><strong>Odzież robocza i środki ochrony indywidualnej (PPE)</strong> — pracodawca jest zobowiązany zapewnić Ci odzież roboczą i sprzęt BHP bezpłatnie. Nie może ich kosztów potrącać z wynagrodzenia.</li>
+    <li><strong>Badania lekarskie wstępne i okresowe</strong> — koszt tych badań ponosi pracodawca. Nie wolno ich potrącać z Twojego wynagrodzenia.</li>
+    <li><strong>Szkolenia wymagane przez pracodawcę</strong> — szkolenie BHP i inne szkolenia wstępne wymagane przepisami muszą być bezpłatne i odbywać się w godzinach pracy.</li>
+    <li><strong>Opłata administracyjna za zatrudnienie</strong> — wszelkie opłaty za sporządzenie umowy, przerejestrowanie, założenie akt personalnych itp. są nielegalne.</li>
+    <li><strong>Kary pieniężne powyżej ustawowego limitu</strong> — nawet kary porządkowe (za spóźnienie, naruszenie regulaminu) są ograniczone do 1-dniowego wynagrodzenia za jedno przewinienie i nie mogą przekroczyć 10% wynagrodzenia miesięcznie łącznie.</li>
+  </ul>
+
+  <h2>5. Co zrobić, gdy podejrzewasz nielegalne potrącenia?</h2>
+  <ol>
+    <li><strong>Sprawdź odcinek wypłaty</strong> — poproś pracodawcę o pisemny odcinek (pasek wynagrodzeń) z wyszczególnieniem wszystkich potrąceń.</li>
+    <li><strong>Zażądaj pisemnego uzasadnienia</strong> — jeśli widzisz nieznane potrącenie, masz prawo wiedzieć, czego dotyczy i czy wyraziłeś/-aś na nie zgodę.</li>
+    <li><strong>Skontaktuj się z koordynatorem Nexflow</strong> — wyjaśnimy Ci każdą pozycję na liście płac i zainterweniujemy, jeśli coś jest nieprawidłowe.</li>
+    <li><strong>Złóż skargę do Państwowej Inspekcji Pracy (PIP)</strong> — jeśli problem nie zostanie rozwiązany, możesz złożyć skargę na pip.gov.pl lub osobiście w oddziale PIP. Inspekcja ma prawo nakazać pracodawcy zwrot nielegalnie potrąconych kwot.</li>
+  </ol>
+
+  <h2>Co zapewnia Nexflow?</h2>
+  <p>Nexflow jako agencja pracy tymczasowej nigdy nie pobiera opłat za pośrednictwo pracy. Wszystkie potrącenia (np. za zakwaterowanie) są jasno określone w umowie i wymagają Twojej pisemnej zgody przed podpisaniem dokumentów. Masz prawo poprosić o pełne zestawienie każdej pozycji na swojej liście płac.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Obowiązkowe składki ZUS i podatek to jedyne potrącenia, na które nie potrzebujesz zgody. Potrącenie za zakwaterowanie, zaliczkę czy wyżywienie wymaga Twojego pisemnego podpisu — a po wszystkich potrąceniach Twoja wypłata nie może spaść poniżej minimalnego wynagrodzenia. Opłata za pośrednictwo pracy, odzież BHP czy badania lekarskie nie mogą być potrącane z wynagrodzenia pod żadnym pozorem.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "utrymannya-iz-zarplaty-polshcha-zakonni-nezakonni-inozemets",
+    title: "Що може бути утримано з Вашої зарплати в Польщі — законні та незаконні утримання",
+    description: "Які суми роботодавець або агентство праці може законно утримати із Вашої зарплати в Польщі? Посібник з обов'язкових внесків, законних утримань за згодою працівника та абсолютно незаконних стягнень.",
+    date: "2026-09-12",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Що може бути утримано з Вашої зарплати в Польщі — законні та незаконні утримання</h1>
+
+  <p>Багато тимчасових працівників з України, Білорусі та інших країн дивуються, чому сума на рахунку менша, ніж очікувалась. Частина утримань є обов'язковою за польським законодавством, інші вимагають Вашої письмової згоди — а деякі є <strong>повністю незаконними</strong>. Цей посібник пояснює, що може, а чого не може утримувати роботодавець або агентство праці.</p>
+
+  <h2>1. Обов'язкові утримання — завжди у розрахунковому листку</h2>
+  <p>Ці суми утримує кожен роботодавець у Польщі незалежно від посади або типу договору:</p>
+  <ul>
+    <li><strong>Внески ZUS від працівника</strong> — пенсійний (9,76%), рентний (1,5%), лікарняний (2,45%) — загалом близько 13,71% від валової зарплати</li>
+    <li><strong>Аванс на прибутковий податок (PIT)</strong> — 12% від доходу після вирахування внесків і неоподатковуваного мінімуму</li>
+  </ul>
+  <p>Ці утримання <em>не є</em> рішенням роботодавця — вони випливають із польського податкового та страхового законодавства. Завдяки внескам ZUS Ви маєте право на лікарняний (L4), пенсію та ренту.</p>
+
+  <h2>2. Законні утримання за Вашою письмовою згодою</h2>
+  <p>Крім обов'язкових внесків, роботодавець може утримувати інші суми, але <strong>лише якщо Ви надали письмову згоду</strong>. Приклади:</p>
+  <ul>
+    <li><strong>Трудове житло</strong> — якщо агентство забезпечує Вам квартиру або кімнату, вартість проживання може утримуватись із зарплати. Сума має бути заздалегідь узгоджена в договорі найму.</li>
+    <li><strong>Аванс від роботодавця</strong> — якщо Ви брали позику від роботодавця або з соціального фонду, погашення може утримуватись узгодженими частинами.</li>
+    <li><strong>Харчування/їжа</strong> — якщо роботодавець надає харчування і Ви погодились на утримання його вартості.</li>
+  </ul>
+  <p><strong>Важливо:</strong> Після всіх утримань (крім обов'язкових) Ваша чиста зарплата не може впасти нижче мінімальної заробітної плати (з 2026 р. — 4 666 зл брутто / близько 3 400 зл нетто). Роботодавець зобов'язаний залишити Вам достатню суму для утримання.</p>
+
+  <h2>3. Утримання на підставі судового виконавця</h2>
+  <p>Якщо у Вас є борги і судовий виконавець (komornik) видав наказ про стягнення з зарплати, роботодавець зобов'язаний перерахувати відповідну частину Вашого заробітку безпосередньо до виконавця. Це виняток із правила письмової згоди — роботодавець діє на підставі судового рішення.</p>
+
+  <h2>4. Незаконні утримання — роботодавець не має права їх робити</h2>
+  <p>Такі стягнення та утримання є <strong>незаконними за польським правом</strong> і не можуть бути зняті з працівників:</p>
+  <ul>
+    <li><strong>Плата за посередництво при працевлаштуванні</strong> — агентство тимчасової праці не може стягувати жодних зборів за пошук роботи. Це прямо заборонено законом про сприяння зайнятості (ст. 85 ч. 2).</li>
+    <li><strong>Робочий одяг та засоби індивідуального захисту (ЗІЗ)</strong> — роботодавець зобов'язаний безкоштовно забезпечити Вас робочим одягом і засобами захисту. Їх вартість не може утримуватись із зарплати.</li>
+    <li><strong>Обов'язкові медичні огляди</strong> — вартість первинних та періодичних медоглядів несе роботодавець. Їх не можна утримувати з Вашої зарплати.</li>
+    <li><strong>Навчання, яке вимагає роботодавець</strong> — інструктаж з охорони праці та інші обов'язкові навчання мають бути безкоштовними і проводитись у робочий час.</li>
+    <li><strong>Адміністративний збір за оформлення</strong> — будь-які збори за складання договору, реєстрацію, ведення особової справи тощо є незаконними.</li>
+    <li><strong>Штрафи понад встановлений законом ліміт</strong> — навіть дисциплінарні стягнення (за запізнення, порушення правил) обмежені розміром одноденного заробітку за одне порушення і не можуть перевищувати 10% місячної зарплати сумарно.</li>
+  </ul>
+
+  <h2>5. Що робити, якщо Ви підозрюєте незаконні утримання?</h2>
+  <ol>
+    <li><strong>Перевірте розрахунковий листок</strong> — попросіть роботодавця надати письмовий розрахунковий листок з переліком усіх утримань.</li>
+    <li><strong>Вимагайте письмового пояснення</strong> — якщо Ви бачите незнайоме утримання, Ви маєте право знати, чого воно стосується і чи давали Ви на нього згоду.</li>
+    <li><strong>Зверніться до координатора Nexflow</strong> — ми пояснимо кожну позицію у Вашому розрахунковому листку та втрутимось, якщо щось є неправомірним.</li>
+    <li><strong>Подайте скаргу до Державної інспекції праці (PIP)</strong> — якщо проблема не вирішується, Ви можете подати скаргу на pip.gov.pl або особисто у відділенні PIP. Інспекція має право зобов'язати роботодавця повернути незаконно утримані кошти.</li>
+  </ol>
+
+  <h2>Що забезпечує Nexflow?</h2>
+  <p>Nexflow як агентство тимчасової праці ніколи не стягує плату за посередництво. Всі утримання (наприклад, за проживання) чітко прописані в договорі та вимагають Вашого підпису до оформлення документів. Ви маєте право попросити повний розрахунок кожної позиції у своєму розрахунковому листку.</p>
+
+  <h2>Підсумок</h2>
+  <p>Обов'язкові внески ZUS і податок — єдині утримання, на які Вам не потрібна згода. Утримання за проживання, аванс чи харчування вимагають Вашого письмового підпису — а після всіх утримань Ваша зарплата не може впасти нижче мінімальної заробітної плати. Плата за посередництво, робочий одяг та медогляди не можуть утримуватись із зарплати ні за яких умов.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "uderzhaniya-iz-zarplaty-polsha-zakonnye-nezakonnye-inostranets",
+    title: "Что может быть удержано из Вашей зарплаты в Польше — законные и незаконные удержания",
+    description: "Какие суммы работодатель или кадровое агентство может законно удержать из Вашей зарплаты в Польше? Руководство по обязательным взносам, законным удержаниям с согласия работника и абсолютно незаконным сборам.",
+    date: "2026-09-12",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Что может быть удержано из Вашей зарплаты в Польше — законные и незаконные удержания</h1>
+
+  <p>Многие временные работники из Украины, Беларуси и других стран удивляются, почему сумма на счёте меньше ожидаемой. Часть удержаний является обязательной по польскому законодательству, другие требуют Вашего письменного согласия — а некоторые являются <strong>полностью незаконными</strong>. Это руководство объясняет, что может, а чего не может удерживать работодатель или кадровое агентство.</p>
+
+  <h2>1. Обязательные удержания — всегда в расчётном листке</h2>
+  <p>Эти суммы удерживает каждый работодатель в Польше независимо от должности или вида договора:</p>
+  <ul>
+    <li><strong>Взносы ZUS от работника</strong> — пенсионный (9,76%), рентный (1,5%), больничный (2,45%) — итого около 13,71% от валовой зарплаты</li>
+    <li><strong>Аванс на подоходный налог (PIT)</strong> — 12% от дохода после вычета взносов и необлагаемого минимума</li>
+  </ul>
+  <p>Эти удержания <em>не являются</em> решением работодателя — они вытекают из польского налогового и страхового законодательства. Благодаря взносам ZUS Вы имеете право на больничный (L4), пенсию и ренту по инвалидности.</p>
+
+  <h2>2. Законные удержания с Вашего письменного согласия</h2>
+  <p>Помимо обязательных взносов, работодатель может удерживать другие суммы, но <strong>только если Вы дали письменное согласие</strong>. Примеры:</p>
+  <ul>
+    <li><strong>Трудовое жильё</strong> — если агентство предоставляет Вам квартиру или комнату, стоимость проживания может удерживаться из зарплаты. Сумма должна быть заранее согласована в договоре найма.</li>
+    <li><strong>Аванс от работодателя</strong> — если Вы брали займ у работодателя или из социального фонду, погашение может удерживаться согласованными частями.</li>
+    <li><strong>Питание/еда</strong> — если работодатель предоставляет питание и Вы согласились на удержание его стоимости.</li>
+  </ul>
+  <p><strong>Важно:</strong> После всех удержаний (кроме обязательных) Ваша чистая зарплата не может упасть ниже минимальной заработной платы (с 2026 г. — 4 666 злотых брутто / около 3 400 злотых нетто). Работодатель обязан оставить Вам достаточную сумму для содержания.</p>
+
+  <h2>3. Удержания на основании судебного исполнителя</h2>
+  <p>Если у Вас есть долги и судебный исполнитель (komornik) выдал приказ об обращении взыскания на зарплату, работодатель обязан перечислить соответствующую часть Вашего заработка непосредственно исполнителю. Это исключение из правила письменного согласия — работодатель действует на основании судебного решения.</p>
+
+  <h2>4. Незаконные удержания — работодатель не вправе их производить</h2>
+  <p>Следующие сборы и удержания являются <strong>незаконными по польскому праву</strong> и не могут взиматься с работников:</p>
+  <ul>
+    <li><strong>Плата за посредничество при трудоустройстве</strong> — агентство временного труда не может взимать никаких сборов за поиск работы. Это прямо запрещено законом о содействии занятости (ст. 85 ч. 2).</li>
+    <li><strong>Рабочая одежда и средства индивидуальной защиты (СИЗ)</strong> — работодатель обязан бесплатно обеспечить Вас рабочей одеждой и средствами защиты. Их стоимость не может удерживаться из зарплаты.</li>
+    <li><strong>Обязательные медицинские осмотры</strong> — стоимость вступительных и периодических медосмотров несёт работодатель. Их нельзя удерживать из Вашей зарплаты.</li>
+    <li><strong>Обучение, требуемое работодателем</strong> — инструктаж по охране труда и другие обязательные тренинги должны быть бесплатными и проводиться в рабочее время.</li>
+    <li><strong>Административный сбор за оформление</strong> — любые сборы за составление договора, регистрацию, ведение личного дела и т.п. являются незаконными.</li>
+    <li><strong>Штрафы сверх установленного законом лимита</strong> — даже дисциплинарные взыскания (за опоздание, нарушение правил) ограничены размером однодневного заработка за одно нарушение и не могут превышать 10% месячной зарплаты суммарно.</li>
+  </ul>
+
+  <h2>5. Что делать, если Вы подозреваете незаконные удержания?</h2>
+  <ol>
+    <li><strong>Проверьте расчётный листок</strong> — попросите работодателя предоставить письменный расчётный листок с перечнем всех удержаний.</li>
+    <li><strong>Потребуйте письменного объяснения</strong> — если Вы видите незнакомое удержание, Вы имеете право знать, чего оно касается и давали ли Вы на него согласие.</li>
+    <li><strong>Обратитесь к координатору Nexflow</strong> — мы объясним каждую позицию в Вашем расчётном листке и вмешаемся, если что-то является нарушением.</li>
+    <li><strong>Подайте жалобу в Государственную инспекцию труда (PIP)</strong> — если проблема не решается, Вы можете подать жалобу на pip.gov.pl или лично в отделении PIP. Инспекция вправе обязать работодателя вернуть незаконно удержанные средства.</li>
+  </ol>
+
+  <h2>Что обеспечивает Nexflow?</h2>
+  <p>Nexflow как агентство временного труда никогда не взимает плату за посредничество. Все удержания (например, за проживание) чётко прописаны в договоре и требуют Вашей подписи до оформления документов. Вы вправе запросить полный расчёт каждой позиции в своём расчётном листке.</p>
+
+  <h2>Итог</h2>
+  <p>Обязательные взносы ZUS и налог — единственные удержания, на которые Вам не нужно согласие. Удержание за жильё, аванс или питание требует Вашей письменной подписи — а после всех удержаний Ваша зарплата не может опуститься ниже минимальной заработной платы. Плата за посредничество, рабочая одежда и медосмотры не могут удерживаться из зарплаты ни при каких обстоятельствах.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "salary-deductions-poland-legal-illegal-foreign-worker",
+    title: "What Can Be Deducted From Your Salary in Poland — Legal and Illegal Deductions Explained",
+    description: "Which deductions from your salary are legal in Poland, and which break the law? A complete guide for temporary workers from Ukraine and other countries, covering mandatory contributions, permitted deductions, and what your employer is never allowed to take.",
+    date: "2026-09-12",
+    lang: "en",
+    content: `
+<article>
+  <h1>What Can Be Deducted From Your Salary in Poland — Legal and Illegal Deductions Explained</h1>
+
+  <p>Many temporary workers from Ukraine, Belarus, and other countries are surprised to find that the amount in their bank account is lower than expected. Some deductions are mandatory under Polish law, others require your written consent — and some are completely illegal. This guide explains what your employer or staffing agency can and cannot take from your pay.</p>
+
+  <h2>1. Mandatory deductions — always on your payslip</h2>
+  <p>These amounts are deducted by every employer in Poland, regardless of position or contract type:</p>
+  <ul>
+    <li>Employee ZUS contributions — pension (9.76%), disability (1.5%), sickness (2.45%) — totalling approximately 13.71% of gross salary</li>
+    <li>Advance income tax (PIT) — 12% of income after deducting contributions and the tax-free allowance</li>
+  </ul>
+  <p>These deductions are not a decision made by your employer — they are required by Polish tax and social insurance law. Thanks to ZUS contributions, you are entitled to sick pay (L4), retirement pension, and disability benefit.</p>
+
+  <h2>2. Legal deductions with your written consent</h2>
+  <p>Beyond mandatory contributions, an employer may deduct other amounts, but only if you have given written consent. Examples include:</p>
+  <ul>
+    <li>Employer-provided accommodation — if the agency arranges a flat or room for you, the cost of accommodation may be deducted from your pay. The amount must be agreed in advance in a rental agreement.</li>
+    <li>Advance loan from the employer — if you borrowed money from your employer or the company social fund, repayment may be deducted in agreed instalments.</li>
+    <li>Meals provided by the employer — if the employer provides meals and you have agreed that the cost can be deducted.</li>
+  </ul>
+  <p>Important: After all deductions (except mandatory ones), your net pay must not fall below the statutory minimum wage (from 2026 — PLN 4,666 gross / approximately PLN 3,400 net). Your employer must leave you enough to live on.</p>
+
+  <h2>3. Deductions based on a court bailiff order</h2>
+  <p>If you have debts and a court bailiff (komornik) has issued a wage garnishment order, your employer is legally required to transfer the relevant portion of your earnings directly to the bailiff. This is an exception to the written-consent rule — the employer is acting on a court decision.</p>
+
+  <h2>4. Illegal deductions — your employer has no right to take these</h2>
+  <p>The following charges and deductions are illegal under Polish law and cannot be taken from workers:</p>
+  <ul>
+    <li>Recruitment or placement fee — a temporary staffing agency is not permitted to charge any fee for finding you a job. This is explicitly prohibited by the Law on Employment Promotion (Article 85(2)).</li>
+    <li>Work clothing and personal protective equipment (PPE) — the employer is required to provide workwear and safety equipment free of charge. The cost cannot be deducted from your salary.</li>
+    <li>Mandatory medical examinations — the cost of pre-employment and periodic medical checks is borne by the employer. These cannot be deducted from your pay.</li>
+    <li>Training required by the employer — occupational health and safety induction and other mandatory training must be free of charge and conducted during working hours.</li>
+    <li>Administrative processing fee — any charges for drafting your contract, registration, maintaining your personnel file, etc. are illegal.</li>
+    <li>Fines exceeding the statutory limit — even disciplinary penalties (for lateness, breach of workplace rules) are capped at one day's pay per offence and may not exceed 10% of monthly pay in total.</li>
+  </ul>
+
+  <h2>5. What to do if you suspect illegal deductions</h2>
+  <ol>
+    <li>Check your payslip — ask your employer for a written payslip showing an itemised breakdown of all deductions.</li>
+    <li>Ask for written justification — if you see an unfamiliar deduction, you have the right to know what it relates to and whether you consented to it.</li>
+    <li>Contact your Nexflow coordinator — we will explain every line on your payslip and step in if anything is irregular.</li>
+    <li>File a complaint with the State Labour Inspectorate (PIP) — if the issue is not resolved, you can report it at pip.gov.pl or in person at your nearest PIP branch. The Inspectorate can order the employer to refund illegally deducted amounts.</li>
+  </ol>
+
+  <h2>What does Nexflow provide?</h2>
+  <p>As a temporary staffing agency, Nexflow never charges placement or recruitment fees. All deductions (such as for accommodation) are clearly stated in your contract and require your signature before any documents are signed. You are always entitled to ask for a full breakdown of every item on your payslip.</p>
+
+  <h2>Summary</h2>
+  <p>Mandatory ZUS contributions and income tax are the only deductions that do not require your consent. Deductions for accommodation, advance loans, or meals require your written signature — and after all deductions, your take-home pay must not fall below the minimum wage. Placement fees, work clothing, and medical examination costs can never be deducted from your salary under any circumstances.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
