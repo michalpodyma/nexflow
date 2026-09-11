@@ -26157,6 +26157,306 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "konto-bankowe-w-polsce-cudzoziemiec-pracownik-tymczasowy",
+    title: "Konto bankowe w Polsce dla cudzoziemca — jak otworzyć rachunek jako pracownik tymczasowy?",
+    description: "Pracujesz tymczasowo w Polsce i chcesz otworzyć konto bankowe? Sprawdź, jakie dokumenty są potrzebne, które banki są przyjazne cudzoziemcom i jak założyć rachunek krok po kroku.",
+    date: "2026-09-11",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Konto bankowe w Polsce dla cudzoziemca — jak otworzyć rachunek jako pracownik tymczasowy?</h1>
+
+  <p>Jako pracownik tymczasowy w Polsce — niezależnie od tego, czy masz PESEL, czy dopiero go wyrabiasz — otwarcie konta bankowego jest jednym z pierwszych praktycznych kroków po przyjeździe. Wynagrodzenie z Nexflow jest wypłacane przelewem, a bez konta w polskim banku mogą pojawić się opóźnienia. Ten przewodnik wyjaśnia, co potrzebujesz i jak to zrobić krok po kroku.</p>
+
+  <h2>Dlaczego warto mieć polskie konto bankowe?</h2>
+  <ul>
+    <li>Wynagrodzenie jest wypłacane przelewem bezpośrednio na konto — bez konta możesz czekać na przelew zagraniczny lub odbiór gotówki</li>
+    <li>Możesz opłacać czynsz, rachunki i zakupy kartą bez dodatkowych prowizji</li>
+    <li>Ułatwia korzystanie z usług publicznych (NFZ, ZUS) i aplikacji mobilnych</li>
+    <li>Konieczne do ustawienia przelewów zagranicznych do rodziny</li>
+  </ul>
+
+  <h2>Jakie dokumenty są potrzebne?</h2>
+  <p>Wymagania różnią się w zależności od banku, ale standardowo potrzebujesz:</p>
+  <ul>
+    <li><strong>Ważny paszport lub karta pobytu</strong> — główny dokument tożsamości</li>
+    <li><strong>Numer PESEL</strong> — wymagany przez większość banków; jeśli jeszcze go nie masz, niektóre banki pozwalają otworzyć konto na podstawie paszportu i adresu zamieszkania</li>
+    <li><strong>Adres zamieszkania w Polsce</strong> — adres miejsca pobytu (nie musi być zameldowanie)</li>
+    <li><strong>Zezwolenie na pobyt lub wiza</strong> — w zależności od Twojego statusu (np. karta czasowego pobytu, wiza pracownicza)</li>
+  </ul>
+  <p><strong>Uwaga:</strong> Obywatele Ukrainy na podstawie ochrony tymczasowej (UKR) mogą otworzyć konto w większości polskich banków z samym dokumentem ukraińskim i numerem PESEL nadanym przez urząd gminy.</p>
+
+  <h2>Które banki są przyjazne cudzoziemcom?</h2>
+  <p>Następujące banki mają doświadczenie z klientami zagranicznymi i często oferują obsługę w języku angielskim lub ukraińskim:</p>
+  <ul>
+    <li><strong>mBank</strong> — w pełni online, można otworzyć konto przez aplikację bez wizyty w oddziale; angielska wersja aplikacji</li>
+    <li><strong>PKO BP</strong> — największy bank w Polsce, wiele oddziałów; konto iPKO można otworzyć online z e-dowodem lub przez oddział</li>
+    <li><strong>ING Bank Śląski</strong> — aplikacja mobilna Moje ING dostępna w języku angielskim; konto Mobi można otworzyć online</li>
+    <li><strong>Santander Bank Polska</strong> — aplikacja w języku angielskim; konto online lub w oddziale</li>
+    <li><strong>Alior Bank</strong> — obsługa w oddziale, przystępne dla cudzoziemców z PESEL</li>
+  </ul>
+
+  <h2>Jak otworzyć konto — krok po kroku</h2>
+  <h3>Opcja 1: Online (najwygodniejsza)</h3>
+  <ol>
+    <li>Wejdź na stronę wybranego banku (np. mbank.pl, ing.pl)</li>
+    <li>Wybierz opcję otwarcia konta online (ROR — Rachunek Oszczędnościowo-Rozliczeniowy)</li>
+    <li>Wprowadź dane z paszportu i numer PESEL</li>
+    <li>Potwierdź tożsamość przez przelew weryfikacyjny 1 gr z innego konta lub przez wideo-weryfikację</li>
+    <li>Pobierz aplikację mobilną i aktywuj kartę debetową wysłaną na adres</li>
+  </ol>
+  <h3>Opcja 2: W oddziale</h3>
+  <ol>
+    <li>Znajdź najbliższy oddział banku (na stronie internetowej lub w aplikacji Google Maps)</li>
+    <li>Przyjdź z paszportem i numerem PESEL</li>
+    <li>Pracownik banku przeprowadzi Cię przez formularz i otworzy konto w ciągu 30–60 minut</li>
+    <li>Karta debetowa zostanie wydana od razu lub dostarczona pocztą w ciągu kilku dni</li>
+  </ol>
+
+  <h2>Co jeśli nie mam jeszcze numeru PESEL?</h2>
+  <p>PESEL możesz otrzymać w urzędzie gminy (wystarczy wniosek i paszport). Jeśli pracujesz przez Nexflow, agencja może pomóc Ci złożyć wniosek. Bez PESEL niektóre banki nadal otworzą konto — mBank i ING akceptują w określonych przypadkach numer paszportu — ale z ograniczonymi funkcjami.</p>
+
+  <h2>Jakie konto wybrać?</h2>
+  <p>Dla pracownika tymczasowego najlepsza jest podstawowa opcja:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — standardowe konto z kartą debetową, bezpłatne lub bardzo tanie przy regularnych wpływach wynagrodzenia</li>
+    <li>Unikaj kont z opłatą miesięczną, jeśli nie spełniasz warunków zwolnienia (np. minimalne wpływy lub liczba transakcji)</li>
+  </ul>
+
+  <h2>Powiadom Nexflow o numerze konta</h2>
+  <p>Po otwarciu konta podaj numer IBAN swojemu koordynatorowi w Nexflow lub wpisz go w systemie pracowniczym. Wynagrodzenie zostanie przekierowane na nowe konto od najbliższego cyklu wypłat.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Otwarcie konta bankowego w Polsce jest prostsze, niż się wydaje. Z paszportem i numerem PESEL możesz to zrobić w kilkanaście minut online lub w oddziale banku. Najlepiej zrobić to w pierwszym tygodniu pobytu w Polsce — przyspiesza to wypłatę wynagrodzenia i ułatwia codzienne życie. Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się z koordynatorem Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bankivskyy-rakhunok-u-polshchi-inozemets-pratsivnyk-tymchasovyi",
+    title: "Банківський рахунок у Польщі для іноземця — як відкрити рахунок як тимчасовий працівник?",
+    description: "Працюєш тимчасово в Польщі і хочеш відкрити банківський рахунок? Дізнайся, які документи потрібні, які банки зручні для іноземців і як відкрити рахунок крок за кроком.",
+    date: "2026-09-11",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Банківський рахунок у Польщі для іноземця — як відкрити рахунок як тимчасовий працівник?</h1>
+
+  <p>Як тимчасовий працівник у Польщі — незалежно від того, чи є у тебе PESEL, чи ти тільки його оформлюєш — відкриття банківського рахунку є одним з перших практичних кроків після приїзду. Зарплата від Nexflow виплачується банківським переказом, і без польського рахунку можуть виникнути затримки. Цей посібник пояснює, що потрібно і як зробити це крок за кроком.</p>
+
+  <h2>Навіщо потрібен польський банківський рахунок?</h2>
+  <ul>
+    <li>Зарплата виплачується переказом безпосередньо на рахунок — без рахунку можливі затримки або виплата готівкою</li>
+    <li>Можна оплачувати оренду, комунальні послуги та покупки картою без додаткових комісій</li>
+    <li>Полегшує користування держпослугами (NFZ, ZUS) та мобільними додатками</li>
+    <li>Необхідний для міжнародних переказів родині</li>
+  </ul>
+
+  <h2>Які документи потрібні?</h2>
+  <p>Вимоги різняться залежно від банку, але стандартно потрібно:</p>
+  <ul>
+    <li><strong>Дійсний паспорт або посвідка на проживання</strong> — основний документ, що посвідчує особу</li>
+    <li><strong>Номер PESEL</strong> — потрібен більшості банків; якщо його ще немає, деякі банки дозволяють відкрити рахунок на основі паспорта та адреси проживання</li>
+    <li><strong>Адреса проживання в Польщі</strong> — фактична адреса перебування (реєстрація не обов'язкова)</li>
+    <li><strong>Дозвіл на проживання або віза</strong> — залежно від статусу (наприклад, картка тимчасового проживання, робоча віза)</li>
+  </ul>
+  <p><strong>Увага:</strong> Громадяни України з тимчасовим захистом (UKR) можуть відкрити рахунок у більшості польських банків за умови наявності українського паспорта та PESEL, отриманого від органу місцевої влади.</p>
+
+  <h2>Які банки зручні для іноземців?</h2>
+  <p>Наступні банки мають досвід роботи з іноземними клієнтами і часто пропонують обслуговування англійською або українською мовою:</p>
+  <ul>
+    <li><strong>mBank</strong> — повністю онлайн, можна відкрити рахунок через додаток без відвідування відділення; є англомовний додаток</li>
+    <li><strong>PKO BP</strong> — найбільший банк Польщі, багато відділень; рахунок iPKO можна відкрити онлайн або у відділенні</li>
+    <li><strong>ING Bank Śląski</strong> — мобільний додаток Moje ING доступний англійською; рахунок Mobi можна відкрити онлайн</li>
+    <li><strong>Santander Bank Polska</strong> — додаток англійською; рахунок онлайн або у відділенні</li>
+    <li><strong>Alior Bank</strong> — обслуговування у відділенні, зручний для іноземців з PESEL</li>
+  </ul>
+
+  <h2>Як відкрити рахунок — крок за кроком</h2>
+  <h3>Варіант 1: Онлайн (найзручніший)</h3>
+  <ol>
+    <li>Зайди на сайт обраного банку (наприклад, mbank.pl, ing.pl)</li>
+    <li>Вибери опцію відкриття рахунку онлайн (ROR — розрахунково-ощадний рахунок)</li>
+    <li>Введи дані з паспорта та номер PESEL</li>
+    <li>Підтверди особу через тестовий переказ 1 гр з іншого рахунку або відеоверифікацію</li>
+    <li>Завантаж мобільний додаток і активуй дебетову картку, надіслану на адресу</li>
+  </ol>
+  <h3>Варіант 2: У відділенні</h3>
+  <ol>
+    <li>Знайди найближче відділення банку (на сайті або в Google Maps)</li>
+    <li>Прийди з паспортом і номером PESEL</li>
+    <li>Співробітник банку допоможе заповнити форму і відкриє рахунок протягом 30–60 хвилин</li>
+    <li>Дебетова картка буде видана одразу або доставлена поштою за кілька днів</li>
+  </ol>
+
+  <h2>Що якщо PESEL ще немає?</h2>
+  <p>PESEL можна отримати в органі місцевої влади (достатньо заяви та паспорта). Якщо ти працюєш через Nexflow, агенція може допомогти із заявою. Без PESEL деякі банки все одно відкриють рахунок — mBank і ING у певних випадках приймають номер паспорта — але з обмеженим функціоналом.</p>
+
+  <h2>Який рахунок обрати?</h2>
+  <p>Для тимчасового працівника найкращим є базовий варіант:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — стандартний розрахунковий рахунок з дебетовою карткою, безкоштовний або дуже дешевий при регулярних надходженнях зарплати</li>
+    <li>Уникай рахунків з місячною платою, якщо не виконуєш умов звільнення (наприклад, мінімальний оборот або кількість транзакцій)</li>
+  </ul>
+
+  <h2>Повідом Nexflow про номер рахунку</h2>
+  <p>Після відкриття рахунку надай номер IBAN своєму координатору в Nexflow або введи його в систему для працівників. Зарплата буде переведена на новий рахунок з наступного платіжного циклу.</p>
+
+  <h2>Підсумок</h2>
+  <p>Відкрити банківський рахунок у Польщі простіше, ніж здається. З паспортом і номером PESEL це можна зробити за кілька хвилин онлайн або у відділенні банку. Найкраще зробити це в перший тиждень перебування в Польщі — це прискорить виплату зарплати і полегшить повсякденне життя. Якщо є питання або потрібна допомога, зв'яжися з координатором Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bankovskiy-schet-v-polshe-inostranets-vremennyy-rabotnik",
+    title: "Банковский счёт в Польше для иностранца — как открыть счёт как временный работник?",
+    description: "Работаешь временно в Польше и хочешь открыть банковский счёт? Узнай, какие документы нужны, какие банки удобны для иностранцев и как открыть счёт шаг за шагом.",
+    date: "2026-09-11",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Банковский счёт в Польше для иностранца — как открыть счёт как временный работник?</h1>
+
+  <p>Как временный работник в Польше — независимо от того, есть ли у тебя PESEL или ты только его оформляешь — открытие банковского счёта является одним из первых практических шагов после приезда. Зарплата от Nexflow выплачивается банковским переводом, и без польского счёта могут возникнуть задержки. Это руководство объясняет, что нужно и как сделать это шаг за шагом.</p>
+
+  <h2>Зачем нужен польский банковский счёт?</h2>
+  <ul>
+    <li>Зарплата выплачивается переводом непосредственно на счёт — без счёта возможны задержки или выплата наличными</li>
+    <li>Можно оплачивать аренду, коммунальные услуги и покупки картой без дополнительных комиссий</li>
+    <li>Упрощает пользование государственными услугами (NFZ, ZUS) и мобильными приложениями</li>
+    <li>Необходим для международных переводов семье</li>
+  </ul>
+
+  <h2>Какие документы нужны?</h2>
+  <p>Требования различаются в зависимости от банка, но стандартно необходимо:</p>
+  <ul>
+    <li><strong>Действующий паспорт или карта проживания</strong> — основной документ, удостоверяющий личность</li>
+    <li><strong>Номер PESEL</strong> — требуется большинством банков; если его ещё нет, некоторые банки позволяют открыть счёт на основании паспорта и адреса проживания</li>
+    <li><strong>Адрес проживания в Польше</strong> — фактический адрес пребывания (регистрация не обязательна)</li>
+    <li><strong>Разрешение на проживание или виза</strong> — в зависимости от статуса (например, карта временного проживания, рабочая виза)</li>
+  </ul>
+  <p><strong>Внимание:</strong> Граждане Украины с временной защитой (UKR) могут открыть счёт в большинстве польских банков при наличии украинского паспорта и PESEL, полученного от органа местного самоуправления.</p>
+
+  <h2>Какие банки удобны для иностранцев?</h2>
+  <p>Следующие банки имеют опыт работы с иностранными клиентами и часто предлагают обслуживание на английском или украинском языке:</p>
+  <ul>
+    <li><strong>mBank</strong> — полностью онлайн, можно открыть счёт через приложение без визита в отделение; приложение на английском языке</li>
+    <li><strong>PKO BP</strong> — крупнейший банк Польши, множество отделений; счёт iPKO можно открыть онлайн или в отделении</li>
+    <li><strong>ING Bank Śląski</strong> — мобильное приложение Moje ING доступно на английском; счёт Mobi можно открыть онлайн</li>
+    <li><strong>Santander Bank Polska</strong> — приложение на английском; счёт онлайн или в отделении</li>
+    <li><strong>Alior Bank</strong> — обслуживание в отделении, удобен для иностранцев с PESEL</li>
+  </ul>
+
+  <h2>Как открыть счёт — шаг за шагом</h2>
+  <h3>Вариант 1: Онлайн (наиболее удобный)</h3>
+  <ol>
+    <li>Зайди на сайт выбранного банка (например, mbank.pl, ing.pl)</li>
+    <li>Выбери опцию открытия счёта онлайн (ROR — расчётно-сберегательный счёт)</li>
+    <li>Введи данные из паспорта и номер PESEL</li>
+    <li>Подтверди личность через тестовый перевод 1 гр с другого счёта или видеоверификацию</li>
+    <li>Загрузи мобильное приложение и активируй дебетовую карту, отправленную на адрес</li>
+  </ol>
+  <h3>Вариант 2: В отделении</h3>
+  <ol>
+    <li>Найди ближайшее отделение банка (на сайте или в Google Maps)</li>
+    <li>Приди с паспортом и номером PESEL</li>
+    <li>Сотрудник банка поможет заполнить форму и откроет счёт в течение 30–60 минут</li>
+    <li>Дебетовая карта будет выдана сразу или доставлена почтой в течение нескольких дней</li>
+  </ol>
+
+  <h2>Что если PESEL ещё нет?</h2>
+  <p>PESEL можно получить в органе местного самоуправления (достаточно заявления и паспорта). Если ты работаешь через Nexflow, агентство может помочь с заявлением. Без PESEL некоторые банки всё равно откроют счёт — mBank и ING в определённых случаях принимают номер паспорта — но с ограниченным функционалом.</p>
+
+  <h2>Какой счёт выбрать?</h2>
+  <p>Для временного работника лучшим является базовый вариант:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — стандартный расчётный счёт с дебетовой картой, бесплатный или очень дешёвый при регулярных поступлениях зарплаты</li>
+    <li>Избегай счётов с ежемесячной платой, если не выполняешь условия освобождения (например, минимальный оборот или количество транзакций)</li>
+  </ul>
+
+  <h2>Сообщи Nexflow номер счёта</h2>
+  <p>После открытия счёта сообщи номер IBAN своему координатору в Nexflow или введи его в систему для работников. Зарплата будет переведена на новый счёт с ближайшего платёжного цикла.</p>
+
+  <h2>Итог</h2>
+  <p>Открыть банковский счёт в Польше проще, чем кажется. С паспортом и номером PESEL это можна зробити за кілька хвилин онлайн или в отделении банка. Лучше всего сделать это в первую неделю пребывания в Польше — это ускорит выплату зарплаты и упростит повседневную жизнь. Если есть вопросы или нужна помощь, свяжись с координатором Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bank-account-poland-foreign-worker-guide",
+    title: "How to Open a Bank Account in Poland as a Foreign Temp Worker",
+    description: "Working in Poland through a temp agency and need a bank account? Find out which documents you need, which banks are foreigner-friendly, and how to open an account step by step.",
+    date: "2026-09-11",
+    lang: "en",
+    content: `
+<article>
+  <h1>How to Open a Bank Account in Poland as a Foreign Temp Worker</h1>
+
+  <p>As a temporary worker in Poland — whether you already have a PESEL number or are still getting one — opening a Polish bank account is one of the first practical steps after arriving. Salary payments from Nexflow are made by bank transfer, and without a Polish account you may experience delays. This guide explains what you need and how to do it step by step.</p>
+
+  <h2>Why do you need a Polish bank account?</h2>
+  <ul>
+    <li>Your salary is paid directly by bank transfer — without a Polish account, payments may be delayed or require a costly international transfer</li>
+    <li>Pay rent, utilities, and purchases by card without extra foreign transaction fees</li>
+    <li>Makes it easier to use public services (NFZ, ZUS) and mobile apps</li>
+    <li>Required for sending money home to your family</li>
+  </ul>
+
+  <h2>What documents do you need?</h2>
+  <p>Requirements vary by bank, but typically you will need:</p>
+  <ul>
+    <li><strong>Valid passport or residence card</strong> — primary identity document</li>
+    <li><strong>PESEL number</strong> — required by most banks; if you don't have one yet, some banks will open an account based on your passport and address</li>
+    <li><strong>Address in Poland</strong> — your place of residence (formal registration is not always required)</li>
+    <li><strong>Residence permit or visa</strong> — depending on your status (e.g., temporary residence card, work visa)</li>
+  </ul>
+  <p><strong>Note:</strong> Ukrainian nationals with temporary protection (UKR status) can open an account at most Polish banks with a Ukrainian passport and a PESEL number issued by the local municipality.</p>
+
+  <h2>Which banks are foreigner-friendly?</h2>
+  <p>The following banks have experience with foreign clients and often offer service in English or Ukrainian:</p>
+  <ul>
+    <li><strong>mBank</strong> — fully online; you can open an account through the app without visiting a branch; English-language app available</li>
+    <li><strong>PKO BP</strong> — Poland's largest bank, many branches; iPKO account can be opened online or in branch</li>
+    <li><strong>ING Bank Śląski</strong> — Moje ING mobile app available in English; Mobi account can be opened online</li>
+    <li><strong>Santander Bank Polska</strong> — English-language app; account online or in branch</li>
+    <li><strong>Alior Bank</strong> — in-branch service, accessible for foreigners with PESEL</li>
+  </ul>
+
+  <h2>How to open an account — step by step</h2>
+  <h3>Option 1: Online (most convenient)</h3>
+  <ol>
+    <li>Go to the chosen bank's website (e.g., mbank.pl, ing.pl)</li>
+    <li>Select the option to open an account online (ROR — standard current account)</li>
+    <li>Enter your passport details and PESEL number</li>
+    <li>Verify your identity via a 1 gr (penny) test transfer from another account, or through video verification</li>
+    <li>Download the mobile app and activate your debit card once it arrives by post</li>
+  </ol>
+  <h3>Option 2: In a branch</h3>
+  <ol>
+    <li>Find the nearest branch (on the bank's website or Google Maps)</li>
+    <li>Bring your passport and PESEL number</li>
+    <li>A bank employee will guide you through the form and open your account in 30–60 minutes</li>
+    <li>Your debit card will be issued immediately or mailed within a few days</li>
+  </ol>
+
+  <h2>What if you don't have a PESEL yet?</h2>
+  <p>You can get a PESEL number at the local municipal office (gmina) — you only need an application and your passport. If you work through Nexflow, the agency can help you with the application. Without a PESEL, some banks will still open a limited account — mBank and ING accept a passport number in certain cases — but with restricted functionality.</p>
+
+  <h2>Which type of account should you choose?</h2>
+  <p>For a temporary worker, the best option is a basic account:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — a standard current account with a debit card, free or very cheap when your salary is paid in regularly</li>
+    <li>Avoid accounts with monthly fees if you don't meet the waiver conditions (e.g., minimum turnover or number of transactions)</li>
+  </ul>
+
+  <h2>Tell Nexflow your account number</h2>
+  <p>Once your account is open, give your IBAN number to your Nexflow coordinator or enter it in the employee system. Your salary will be redirected to the new account from the next pay cycle.</p>
+
+  <h2>Summary</h2>
+  <p>Opening a bank account in Poland is simpler than it sounds. With a passport and a PESEL number, you can do it in minutes online or in a bank branch. Ideally, do this in your first week in Poland — it speeds up salary payments and makes everyday life much easier. If you have questions or need help, contact your Nexflow coordinator.</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
