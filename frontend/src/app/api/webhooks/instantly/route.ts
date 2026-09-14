@@ -158,7 +158,11 @@ function detectArtifacts(text: string): ArtifactViolation[] {
     /\b(Dear|Hi |Hello |Best regards|Kind regards|Sincerely|Thank you for)\b/i.test(
       text,
     );
-  if (hasPolish && hasEnglishSalutation) {
+  const hasEnglishClosing =
+    /\b(Best|All the best|Regards|Kind regards|Cheers|Sincerely)\s*[,\n]/i.test(
+      text,
+    );
+  if (hasPolish && (hasEnglishSalutation || hasEnglishClosing)) {
     violations.push({
       type: "mixed_language",
       description: "Mixed Polish characters with English salutations/closings",

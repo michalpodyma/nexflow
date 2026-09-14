@@ -91,6 +91,7 @@ export const GERMAN_COMPANY_DOMAINS = new Set([
  */
 export function isGermanCompanyDomain(email: string): boolean {
   const domain = email.split("@")[1]?.toLowerCase() ?? "";
+  if (domain.endsWith(".de")) return true;
   return GERMAN_COMPANY_DOMAINS.has(domain);
 }
 
@@ -117,5 +118,10 @@ export function looksNonGermanForGermanLead(body: string): boolean {
     /\b(Sehr geehrte[rn]?|Mit freundlichen Grüßen|Freundliche Grüße|Hochachtungsvoll|Guten Tag|Hallo |Liebe[rs]? |vielen Dank|Bitte|Herzliche Grüße)\b/i.test(
       body,
     );
+  const hasEnglishClosing =
+    /\b(Best|All the best|Regards|Kind regards|Cheers|Sincerely)\s*[,\n]/i.test(
+      body,
+    );
+  if (hasEnglishClosing) return true;
   return !hasGermanMarker;
 }
