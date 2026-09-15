@@ -26953,6 +26953,297 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "ekwiwalent-za-urlop-pracownik-tymczasowy-polska",
+    title: "Ekwiwalent za urlop — co przysługuje pracownikowi tymczasowemu w Polsce",
+    description:
+      "Czym jest ekwiwalent za urlop i jak jest obliczany? Przewodnik dla pracowników tymczasowych — kiedy przysługuje wypłata za niewykorzystane dni urlopu, jak zgłosić odmowę i co mówi polskie prawo pracy.",
+    date: "2026-09-20",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Ekwiwalent za urlop — co przysługuje pracownikowi tymczasowemu w Polsce</h1>
+
+  <p>Jeśli kończysz umowę i masz niewykorzystane dni urlopu, masz prawo do ekwiwalentu za urlop. To gotówka zamiast wolnych dni — i dotyczy zarówno umów o pracę, jak i umów o pracę tymczasową.</p>
+
+  <h2>Czym jest ekwiwalent za urlop?</h2>
+  <p>Ekwiwalent za urlop to świadczenie pieniężne, które pracodawca musi wypłacić, gdy:</p>
+  <ul>
+    <li>stosunek pracy wygasa (umowa kończy się lub zostaje rozwiązana)</li>
+    <li>pracownik ma <strong>niewykorzystane dni urlopu wypoczynkowego</strong></li>
+  </ul>
+  <p>Nie możesz „zamiast urlopu" po prostu nie brać wolnego i dostać więcej pieniędzy — ekwiwalent wypłacany jest <strong>wyłącznie przy rozwiązaniu umowy</strong>.</p>
+
+  <h2>Jak się oblicza ekwiwalent?</h2>
+  <p>Ekwiwalent oblicza się na podstawie:</p>
+  <ol>
+    <li><strong>Współczynnika ekwiwalentu</strong> — ustalany raz w roku (na 2026 r. wynosi 20,83 dla pracownika pełnoetatowego)</li>
+    <li><strong>Wynagrodzenia zasadniczego</strong> + stałych składników wynagrodzenia</li>
+    <li><strong>Liczby niewykorzystanych dni urlopu</strong></li>
+  </ol>
+  <p><strong>Wzór:</strong> Wynagrodzenie miesięczne ÷ 20,83 = stawka za 1 dzień urlopu</p>
+  <p>Przykład: jeśli zarabiasz 4800 zł brutto i masz 5 dni urlopu do rozliczenia:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = <strong>230,44 zł za 1 dzień</strong></li>
+    <li>5 × 230,44 = <strong>1 152,20 zł ekwiwalentu brutto</strong></li>
+  </ul>
+
+  <h2>Pracownicy tymczasowi — co warto wiedzieć?</h2>
+  <p>Przy pracy tymczasowej agencja pracy (np. Nexflow) jest Twoim oficjalnym pracodawcą. To agencja:</p>
+  <ul>
+    <li>nalicza Twój urlop wypoczynkowy (20 lub 26 dni/rok)</li>
+    <li>jest zobowiązana wypłacić ekwiwalent przy zakończeniu każdej umowy, jeśli nie wykorzystałeś urlopu</li>
+  </ul>
+  <p><strong>Uwaga:</strong> możesz też wziąć urlop w naturze (fizycznie odpocząć) przed końcem umowy — to zawsze korzystniejsze niż ekwiwalent, bo w trakcie urlopu zarabiasz normalnie, bez potrąceń.</p>
+
+  <h2>Kiedy pracodawca może odmówić?</h2>
+  <p>Pracodawca <strong>nie może</strong> odmówić ekwiwalentu, jeśli spełnione są warunki. Odmowa to naruszenie prawa pracy. Możesz zgłosić sprawę do:</p>
+  <ul>
+    <li><strong>Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatna interwencja</li>
+    <li><strong>Sądu Pracy</strong> — roszczenie ekwiwalentowe nie przedawnia się przez 3 lata</li>
+  </ul>
+
+  <h2>Kiedy ekwiwalent NIE przysługuje?</h2>
+  <ul>
+    <li>Gdy umowa jest <strong>kontynuowana</strong> (np. podpiszesz kolejny kontrakt z tą samą agencją) — urlop przechodzi na następny okres</li>
+    <li>Gdy próbujesz wziąć pieniądze zamiast urlopu w trakcie trwania umowy — jest to nielegalne</li>
+  </ul>
+
+  <h2>Ekwiwalent a podatek i składki ZUS</h2>
+  <p>Ekwiwalent za urlop:</p>
+  <ul>
+    <li><strong>podlega opodatkowaniu</strong> (PIT) tak jak normalne wynagrodzenie</li>
+    <li><strong>podlega składkom ZUS</strong> — odprowadzane przez pracodawcę</li>
+    <li>pojawi się na Twoim <strong>pasku wypłaty</strong> jako osobna pozycja</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+  <table>
+    <thead>
+      <tr><th>Sytuacja</th><th>Ekwiwalent?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Umowa zakończona, są niewykorzystane dni urlopu</td><td>✅ Tak</td></tr>
+      <tr><td>Umowa trwa, chcę pieniędzy zamiast urlopu</td><td>❌ Nie</td></tr>
+      <tr><td>Kolejna umowa z tą samą agencją</td><td>❌ Urlop przechodzi</td></tr>
+      <tr><td>Zwolnienie bez wypowiedzenia</td><td>✅ Tak</td></tr>
+    </tbody>
+  </table>
+  <p>Nie zapomnij sprawdzić przy rozliczeniu końcowym, ile dni urlopu Ci przysługiwało i czy ekwiwalent został naliczony poprawnie. W razie wątpliwości zwróć się do Nexflow lub PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekvivalent-za-vidpustku-tymchasovyi-pratsivnyk-polshcha",
+    title: "Еквівалент за відпустку — права тимчасового працівника в Польщі",
+    description:
+      "Що таке еквівалент за відпустку і як він розраховується? Права тимчасового працівника в Польщі: коли виплачується грошова компенсація за невикористані дні відпустки, що робити при відмові.",
+    date: "2026-09-20",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Еквівалент за відпустку — права тимчасового працівника в Польщі</h1>
+
+  <p>Якщо твій контракт закінчується і ти не використав усі дні відпустки — ти маєш право на <strong>грошовий еквівалент за відпустку</strong>. Роботодавець зобов'язаний виплатити цю суму при звільненні.</p>
+
+  <h2>Що таке еквівалент за відпустку?</h2>
+  <p>Еквівалент за відпустку (ekwiwalent za urlop) — це грошова виплата замість невикористаних днів відпустки. Виплачується <strong>лише при розірванні трудового договору</strong>.</p>
+  <p>Важливо: взяти гроші замість відпустки під час дії контракту — неможливо і незаконно.</p>
+
+  <h2>Як розраховується?</h2>
+  <p><strong>Формула:</strong> Місячна зарплата ÷ 20,83 = вартість 1 дня відпустки</p>
+  <p>Приклад: зарплата 4800 злотих брутто, 5 невикористаних днів:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = 230,44 злотих за день</li>
+    <li>5 × 230,44 = <strong>1 152,20 злотих брутто</strong></li>
+  </ul>
+  <p>Коефіцієнт 20,83 встановлюється урядовим положенням на кожен рік.</p>
+
+  <h2>Тимчасові працівники: хто платить?</h2>
+  <p>При тимчасовій роботі через агентство твій офіційний роботодавець — агентство (наприклад, Nexflow). Агентство:</p>
+  <ul>
+    <li>нараховує тобі відпустку (20 або 26 днів на рік)</li>
+    <li>зобов'язане виплатити еквівалент при завершенні кожного контракту, якщо є невикористані дні</li>
+  </ul>
+  <p><strong>Порада:</strong> краще взяти відпустку «в натурі» (реальний відпочинок) до кінця контракту — це вигідніше, ніж отримати еквівалент.</p>
+
+  <h2>Що робити, якщо роботодавець відмовляє?</h2>
+  <p>Відмова виплатити еквівалент — порушення трудового права. Звернись до:</p>
+  <ul>
+    <li><strong>Державної інспекції праці (PIP)</strong> — безкоштовно</li>
+    <li><strong>Трудового суду</strong> — строк позовної давності 3 роки</li>
+  </ul>
+
+  <h2>Оподаткування та внески ZUS</h2>
+  <p>Еквівалент за відпустку:</p>
+  <ul>
+    <li>оподатковується <strong>PIT</strong> як звичайна зарплата</li>
+    <li>підлягає <strong>внескам ZUS</strong></li>
+    <li>відображається в розрахунковому листку (pasek wypłaty) окремим рядком</li>
+  </ul>
+
+  <h2>Коли еквівалент не виплачується?</h2>
+  <ul>
+    <li>Якщо контракт <strong>продовжується</strong> з тим самим агентством — дні відпустки переходять на наступний період</li>
+    <li>Не можна взяти гроші замість відпустки під час роботи — це незаконно</li>
+  </ul>
+
+  <h2>Підсумок</h2>
+  <table>
+    <thead>
+      <tr><th>Ситуація</th><th>Еквівалент?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Контракт закінчився, є невикористані дні</td><td>✅ Так</td></tr>
+      <tr><td>Контракт діє, хочу гроші замість відпустки</td><td>❌ Ні</td></tr>
+      <tr><td>Новий контракт з тим самим агентством</td><td>❌ Дні переходять</td></tr>
+      <tr><td>Звільнення без попередження</td><td>✅ Так</td></tr>
+    </tbody>
+  </table>
+  <p>Перевір при фінальному розрахунку, скільки днів відпустки тобі нараховано і чи правильно розраховано еквівалент. У разі сумнівів — звернись до Nexflow або PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekvivalent-za-otpusk-vremennyy-rabotnik-polsha",
+    title: "Компенсация за неиспользованный отпуск в Польше — права временного работника",
+    description:
+      "Что такое денежная компенсация за неиспользованный отпуск (ekwiwalent za urlop) в Польше? Права временного работника: как рассчитывается выплата, когда полагается и что делать при отказе.",
+    date: "2026-09-20",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Компенсация за неиспользованный отпуск в Польше — права временного работника</h1>
+
+  <p>Если твой контракт закончился, а ты не использовал все дни отпуска — работодатель обязан выплатить <strong>денежную компенсацию за неиспользованный отпуск</strong> (ekwiwalent za urlop). Это твоё законное право.</p>
+
+  <h2>Что такое ekwiwalent za urlop?</h2>
+  <p>Это денежная выплата вместо невостребованных дней отпуска. Выплачивается <strong>только при увольнении или окончании договора</strong>. Получить деньги вместо отпуска в ходе работы — незаконно в Польше.</p>
+
+  <h2>Как рассчитывается?</h2>
+  <p><strong>Формула:</strong> Месячная зарплата ÷ 20,83 = стоимость 1 дня отпуска</p>
+  <p>Пример: зарплата 4800 злотых брутто, 5 неиспользованных дней:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = 230,44 злотых за день</li>
+    <li>5 × 230,44 = <strong>1 152,20 злотых брутто</strong></li>
+  </ul>
+  <p>Коэффициент 20,83 устанавливается нормативным актом правительства на каждый год.</p>
+
+  <h2>Для временных работников: кто платит?</h2>
+  <p>При работе через агентство (например, Nexflow) именно агентство — твой официальный работодатель. Агентство:</p>
+  <ul>
+    <li>начисляет тебе отпуск (20 или 26 дней в год в зависимости от стажа)</li>
+    <li>обязано выплатить компенсацию при завершении контракта, если есть неиспользованные дни</li>
+  </ul>
+  <p><strong>Совет:</strong> лучше взять отпуск «в натуре» до конца договора — это выгоднее, чем получить компенсацию деньгами.</p>
+
+  <h2>Что делать при отказе?</h2>
+  <p>Отказ от выплаты — нарушение трудового права. Обратись в:</p>
+  <ul>
+    <li><strong>Государственную инспекцию труда (PIP)</strong> — бесплатно</li>
+    <li><strong>Трудовой суд</strong> — срок исковой давности 3 года</li>
+  </ul>
+
+  <h2>Налоги и взносы ZUS</h2>
+  <p>Компенсация за отпуск:</p>
+  <ul>
+    <li>облагается <strong>налогом PIT</strong> — так же, как обычная зарплата</li>
+    <li>подлежит <strong>взносам ZUS</strong></li>
+    <li>отражается в расчётном листке (pasek wypłaty) отдельной строкой</li>
+  </ul>
+
+  <h2>Когда компенсация не выплачивается?</h2>
+  <ul>
+    <li>Если контракт <strong>продолжается</strong> с тем же агентством — дни отпуска переходят на следующий период</li>
+    <li>Нельзя брать деньги вместо отпуска в ходе работы — это незаконно</li>
+  </ul>
+
+  <h2>Итоговая таблица</h2>
+  <table>
+    <thead>
+      <tr><th>Ситуация</th><th>Компенсация?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Контракт закончился, есть неиспользованные дни</td><td>✅ Да</td></tr>
+      <tr><td>Контракт действует, хочу деньги вместо отпуска</td><td>❌ Нет</td></tr>
+      <tr><td>Новый договор с тем же агентством</td><td>❌ Дни переходят</td></tr>
+      <tr><td>Увольнение без предупреждения</td><td>✅ Да</td></tr>
+    </tbody>
+  </table>
+  <p>При окончательном расчёте проверь, сколько дней отпуска тебе причиталось и правильно ли рассчитана компенсация. При сомнениях — обратись в Nexflow или PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "holiday-pay-payout-temp-worker-poland",
+    title: "Holiday Pay Cash-Out When Your Contract Ends in Poland — Temp Workers' Guide",
+    description:
+      "What is ekwiwalent za urlop and when must your employer pay it? A practical guide for temp workers on holiday pay cash-out at contract end in Poland — calculation formula, legal rights, and what to do if refused.",
+    date: "2026-09-20",
+    lang: "en",
+    content: `
+<article>
+  <h1>Holiday Pay Cash-Out When Your Contract Ends in Poland — Temp Workers' Guide</h1>
+
+  <p>When your employment contract ends in Poland and you have unused holiday days, your employer must pay you a <strong>cash equivalent for unused annual leave</strong> (ekwiwalent za urlop). This is a legal right — and many temp workers do not know to claim it.</p>
+
+  <h2>What is ekwiwalent za urlop?</h2>
+  <p>It is a cash payment for unused annual leave days, paid out <strong>only when your employment contract ends</strong> (by either party). You cannot ask for cash instead of holiday while still employed — that is illegal in Poland.</p>
+
+  <h2>How is it calculated?</h2>
+  <p><strong>Formula:</strong> Monthly gross salary ÷ 20.83 = value of 1 holiday day</p>
+  <p>Example: gross salary 4,800 PLN, 5 unused holiday days:</p>
+  <ul>
+    <li>4,800 ÷ 20.83 = 230.44 PLN per day</li>
+    <li>5 × 230.44 = <strong>1,152.20 PLN gross payout</strong></li>
+  </ul>
+  <p>The divisor 20.83 is set annually by government regulation (2026 figure for full-time employees).</p>
+
+  <h2>Temp workers: who pays?</h2>
+  <p>When you work through a staffing agency like Nexflow, the agency is your official employer. The agency:</p>
+  <ul>
+    <li>accrues your annual leave entitlement (20 or 26 days/year depending on your total work experience)</li>
+    <li>must pay the holiday cash equivalent at the end of each contract if you have unused days</li>
+  </ul>
+  <p><strong>Tip:</strong> Taking actual time off before your contract ends is more beneficial than a cash payout — you earn your full salary during holiday, with no deductions beyond standard ones.</p>
+
+  <h2>What if the employer refuses?</h2>
+  <p>Refusal to pay the equivalent is a breach of Polish labour law. You can:</p>
+  <ul>
+    <li>Report to the <strong>State Labour Inspectorate (PIP)</strong> — free enforcement, no lawyer needed</li>
+    <li>File a claim with the <strong>Labour Court</strong> — 3-year statute of limitations on holiday pay claims</li>
+  </ul>
+
+  <h2>Tax and social contributions</h2>
+  <p>The payout is subject to:</p>
+  <ul>
+    <li><strong>PIT income tax</strong> — same rate as regular salary</li>
+    <li><strong>ZUS social insurance contributions</strong></li>
+  </ul>
+  <p>It should appear as a separate line item on your final payslip (pasek wypłaty). Check it carefully.</p>
+
+  <h2>When is the equivalent NOT paid?</h2>
+  <ul>
+    <li>If your contract is <strong>renewed or continued</strong> with the same agency — unused days roll over to the next contract period</li>
+    <li>You cannot request cash instead of holiday during active employment — this would be illegal</li>
+  </ul>
+
+  <h2>Summary table</h2>
+  <table>
+    <thead>
+      <tr><th>Situation</th><th>Cash equivalent?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Contract ended, unused holiday days remain</td><td>✅ Yes</td></tr>
+      <tr><td>Contract active, want cash instead of holiday</td><td>❌ No</td></tr>
+      <tr><td>New contract with same agency signed</td><td>❌ Days carry over</td></tr>
+      <tr><td>Dismissed without notice</td><td>✅ Yes</td></tr>
+    </tbody>
+  </table>
+  <p>At final settlement, verify how many holiday days you accrued and whether the equivalent was correctly calculated. If in doubt, contact Nexflow HR or the State Labour Inspectorate (PIP).</p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
