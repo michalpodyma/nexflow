@@ -27244,6 +27244,355 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "jednolite-zezwolenie-na-pobyt-i-prace-cudzoziemiec-polska",
+    title: "Jednolite zezwolenie na pobyt i pracę w Polsce — kompletny poradnik dla cudzoziemca",
+    description:
+      "Jednolite zezwolenie na pobyt i pracę zastępuje kartę pobytu i zezwolenie na pracę — kompletny poradnik dla cudzoziemców pracujących w Polsce przez agencję pracy tymczasowej.",
+    date: "2026-09-23",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Jednolite zezwolenie na pobyt i pracę w Polsce — kompletny poradnik dla cudzoziemca</h1>
+
+  <p>Jeśli pracujesz w Polsce jako obcokrajowiec i chcesz uregulować swój pobyt oraz pracę za pomocą jednego dokumentu — <strong>jednolite zezwolenie na pobyt i pracę</strong> jest właśnie tym, czego szukasz. To jedno z najważniejszych zezwoleń dla cudzoziemców pracujących w Polsce, w tym pracowników tymczasowych zatrudnionych przez agencje takie jak Nexflow.</p>
+
+  <h2>Czym jest jednolite zezwolenie na pobyt i pracę?</h2>
+  <p>Jednolite zezwolenie na pobyt i pracę (zwane też „zezwoleniem jednolitym") to karta pobytu, która jednocześnie uprawnia do:</p>
+  <ul>
+    <li><strong>legalnego pobytu w Polsce</strong> — zazwyczaj na okres do 3 lat,</li>
+    <li><strong>wykonywania pracy</strong> u konkretnego pracodawcy, na konkretnym stanowisku i za określonym wynagrodzeniem.</li>
+  </ul>
+  <p>Podstawę prawną stanowi <strong>art. 114 Ustawy o cudzoziemcach</strong>. Jedno zezwolenie zastępuje dwa odrębne dokumenty: zezwolenie na pracę i kartę pobytu. To ogromne uproszczenie dla pracowników, którzy chcą zostać w Polsce dłużej.</p>
+
+  <h2>Kto może się ubiegać?</h2>
+  <p>Jednolite zezwolenie mogą uzyskać cudzoziemcy spoza UE/EOG/Szwajcarii, którzy:</p>
+  <ul>
+    <li>przebywają legalnie w Polsce (np. na podstawie wizy, oświadczenia lub poprzedniej karty pobytu),</li>
+    <li>mają zawartą umowę z pracodawcą (lub agencją pracy tymczasowej),</li>
+    <li>pracodawca wyraża gotowość zatrudnienia ich na określonych warunkach.</li>
+  </ul>
+  <p><strong>Uwaga dla pracowników Nexflow:</strong> Ponieważ Nexflow jest agencją pracy tymczasowej, zezwolenie wydawane jest na Nexflow jako pracodawcę. W treści zezwolenia wskazane są jednak warunki pracy, w tym wynagrodzenie i rodzaj stanowiska. Jeśli zmienisz zakład pracy w ramach Nexflow, konieczne może być uaktualnienie zezwolenia lub złożenie nowego wniosku.</p>
+
+  <h2>Jak złożyć wniosek?</h2>
+  <p><strong>Krok 1: Pracodawca lub ty składa wniosek</strong><br />
+  Wniosek składa się osobiście w <strong>Urzędzie Wojewódzkim</strong> właściwym ze względu na miejsce zamieszkania cudzoziemca. Nexflow może pomóc w przygotowaniu dokumentów po stronie pracodawcy.</p>
+
+  <p><strong>Krok 2: Wymagane dokumenty</strong></p>
+  <ul>
+    <li>wypełniony formularz wniosku,</li>
+    <li>ważny paszport (oryginał + kopia),</li>
+    <li>2 fotografie (35×45 mm),</li>
+    <li>dokumenty potwierdzające zatrudnienie (umowa, oświadczenie pracodawcy),</li>
+    <li>potwierdzenie zamieszkania (umowa najmu lub zaświadczenie od pracodawcy),</li>
+    <li>potwierdzenie opłacenia składek ZUS lub zarobków (opcjonalnie),</li>
+    <li>dowód uiszczenia opłaty skarbowej (ok. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Krok 3: Oczekiwanie na decyzję</strong><br />
+  Czas oczekiwania: od 1 do 6 miesięcy (zależy od urzędu). Przez ten czas możesz legalnie przebywać i pracować w Polsce, jeśli złożyłeś wniosek <strong>przed upływem poprzedniego zezwolenia lub wizy</strong>.</p>
+
+  <p><strong>Krok 4: Odbiór karty pobytu</strong><br />
+  Po pozytywnej decyzji odbierasz fizyczną kartę pobytu z wbudowanym chipem. Karta ma postać biometryczną i jest honorowana w całej strefie Schengen (jako dokument podróżny w połączeniu z paszportem).</p>
+
+  <h2>Co daje jednolite zezwolenie?</h2>
+  <ul>
+    <li><strong>Legalny pobyt i praca</strong> — jeden dokument zamiast dwóch.</li>
+    <li><strong>Swoboda poruszania w Schengen</strong> — możesz podróżować do innych krajów strefy Schengen przez maksymalnie 90 dni w ciągu 180 dni.</li>
+    <li><strong>Ścieżka do stałego pobytu</strong> — po 5 latach legalnego pobytu możesz ubiegać się o zezwolenie na pobyt stały.</li>
+    <li><strong>Dostęp do usług publicznych</strong> — NFZ, szkoła dla dzieci, numer PESEL itp.</li>
+  </ul>
+
+  <h2>Częste pytania</h2>
+  <p><strong>Co jeśli mój wniosek jest w toku i wiza wygasła?</strong><br />
+  Jeśli złożyłeś wniosek przed upływem wizy lub poprzedniej karty pobytu, masz tzw. „stempel" potwierdzający legalizację pobytu do momentu wydania decyzji. Poproś urząd o stempel w paszporcie lub zaświadczenie.</p>
+
+  <p><strong>Czy mogę pracować u innego pracodawcy?</strong><br />
+  Nie bez zmiany zezwolenia. Jednolite zezwolenie wydawane jest na konkretnego pracodawcę. Zmiana pracodawcy wymaga złożenia nowego wniosku lub zmiany decyzji.</p>
+
+  <p><strong>Czy Nexflow pomaga w procesie?</strong><br />
+  Nexflow, jako agencja pracy tymczasowej, jest stroną w procesie ubiegania się o zezwolenie i pomaga przygotować dokumenty pracodawcy. Skontaktuj się z koordynatorem Nexflow, aby dowiedzieć się więcej.</p>
+
+  <h2>Ważne terminy</h2>
+  <table>
+    <thead>
+      <tr><th>Termin</th><th>Czas</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Złożenie wniosku</td><td>Przed wygaśnięciem aktualnego dokumentu</td></tr>
+      <tr><td>Oczekiwanie na decyzję</td><td>1–6 miesięcy</td></tr>
+      <tr><td>Ważność karty pobytu</td><td>Do 3 lat (możliwość przedłużenia)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Podsumowanie</h2>
+  <p>Jednolite zezwolenie na pobyt i pracę to najwygodniejszy dokument dla cudzoziemca pracującego w Polsce długoterminowo. Pozwala legalnie mieszkać i pracować, korzystać z NFZ, otwierać konta bankowe i budować swoją przyszłość w Polsce. Jeśli planujesz zostać w Polsce dłużej — zacznij starania o jednolite zezwolenie jak najwcześniej.</p>
+  <p><strong>Potrzebujesz pomocy? Skontaktuj się z koordynatorem Nexflow — pomożemy Ci zebrać dokumenty i wyjaśnimy każdy krok.</strong></p>
+  <p><em>Nexflow — Twój partner w pracy i w życiu w Polsce.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "iedynyy-dozvil-na-prozhyvannia-i-robotu-polshcha",
+    title: "Єдиний дозвіл на проживання і роботу в Польщі — повний посібник для іноземця",
+    description:
+      "Єдиний дозвіл на проживання і роботу — один документ замість двох. Повний посібник для іноземців, що працюють у Польщі через агентство тимчасової праці.",
+    date: "2026-09-23",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Єдиний дозвіл на проживання і роботу в Польщі — повний посібник для іноземця</h1>
+
+  <p>Якщо ти працюєш у Польщі як іноземець і хочеш врегулювати своє перебування та роботу одним документом — <strong>єдиний дозвіл на проживання і роботу</strong> (польськ. <em>jednolite zezwolenie na pobyt i pracę</em>) саме те, що тобі потрібно. Це один з найважливіших дозволів для іноземців у Польщі, зокрема для тимчасових працівників, що працюють через агентства, такі як Nexflow.</p>
+
+  <h2>Що таке єдиний дозвіл на проживання і роботу?</h2>
+  <p>Єдиний дозвіл — це <strong>картка побуту</strong>, яка одночасно дає право на:</p>
+  <ul>
+    <li><strong>законне проживання в Польщі</strong> — як правило, до 3 років,</li>
+    <li><strong>виконання роботи</strong> у конкретного роботодавця, на конкретній посаді і з визначеною заробітною платою.</li>
+  </ul>
+  <p>Правова підстава — <strong>ст. 114 Закону про іноземців</strong> (<em>Ustawa o cudzoziemcach</em>). Один дозвіл замінює два окремі документи: дозвіл на роботу і картку побуту.</p>
+
+  <h2>Хто може подати заяву?</h2>
+  <p>Єдиний дозвіл можуть отримати громадяни країн, що не входять до ЄС/ЄЕП/Швейцарії, які:</p>
+  <ul>
+    <li>законно перебувають у Польщі (на основі візи, заяви роботодавця або попередньої картки побуту),</li>
+    <li>мають укладений договір з роботодавцем (або агентством тимчасової праці),</li>
+    <li>роботодавець готовий офіційно підтвердити умови роботи.</li>
+  </ul>
+  <p><strong>Увага для працівників Nexflow:</strong> Оскільки Nexflow є агентством тимчасової праці, дозвіл видається на Nexflow як роботодавця. В документі вказуються умови праці: посада та зарплата. Якщо ти змінюєш підприємство-користувача в межах Nexflow, може знадобитися оновлення дозволу або нова заявка.</p>
+
+  <h2>Як подати заяву?</h2>
+  <p><strong>Крок 1: Роботодавець або ти особисто подає заяву</strong><br />
+  Заяву подають особисто у <strong>Воєводській адміністрації</strong> (Urząd Wojewódzki) за місцем проживання іноземця. Nexflow допоможе підготувати документи з боку роботодавця.</p>
+
+  <p><strong>Крок 2: Необхідні документи</strong></p>
+  <ul>
+    <li>заповнений бланк заяви,</li>
+    <li>чинний паспорт (оригінал + копія),</li>
+    <li>2 фотографії (35×45 мм),</li>
+    <li>документи, що підтверджують роботу (договір, оголошення роботодавця),</li>
+    <li>підтвердження місця проживання (договір оренди або довідка від роботодавця),</li>
+    <li>квитанція про сплату мита (прибл. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Крок 3: Очікування на рішення</strong><br />
+  Строк розгляду: від 1 до 6 місяців. Впродовж цього часу ти можеш законно перебувати і працювати у Польщі, якщо подав заяву <strong>до закінчення терміну дії попереднього документа</strong>.</p>
+
+  <p><strong>Крок 4: Отримання картки побуту</strong><br />
+  Після позитивного рішення ти отримуєш фізичну картку побуту з чіпом. Картка є біометричним документом, що визнається по всій Шенгенській зоні.</p>
+
+  <h2>Що дає єдиний дозвіл?</h2>
+  <ul>
+    <li><strong>Законне проживання і робота</strong> — один документ замість двох.</li>
+    <li><strong>Свобода пересування по Шенгену</strong> — подорожі до інших країн зони Шенген (до 90 днів у межах 180 днів).</li>
+    <li><strong>Шлях до постійного проживання</strong> — після 5 років законного перебування ти можеш подати на постійне місце проживання.</li>
+    <li><strong>Доступ до публічних послуг</strong> — NFZ, школа для дітей, номер PESEL тощо.</li>
+  </ul>
+
+  <h2>Поширені запитання</h2>
+  <p><strong>Що, якщо моя заявка ще розглядається, а віза закінчилась?</strong><br />
+  Якщо ти подав заяву до закінчення терміну дії візи або попередньої картки побуту, ти маєш право на так зване «легальне перебування» до вирішення справи. Попроси урядовця поставити спеціальний штамп у паспорт.</p>
+
+  <p><strong>Чи можу я працювати в іншого роботодавця?</strong><br />
+  Ні, без змін до дозволу. Єдиний дозвіл видається на конкретного роботодавця. Зміна роботодавця вимагає нової заяви.</p>
+
+  <p><strong>Чи Nexflow допомагає в цьому процесі?</strong><br />
+  Так. Nexflow як агентство тимчасової праці є стороною в процесі отримання дозволу і допомагає підготувати документи. Зв'яжись зі своїм координатором Nexflow для отримання детальної інформації.</p>
+
+  <h2>Важливі терміни</h2>
+  <table>
+    <thead>
+      <tr><th>Термін</th><th>Строк</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Подання заяви</td><td>До закінчення дії поточного документа</td></tr>
+      <tr><td>Очікування рішення</td><td>1–6 місяців</td></tr>
+      <tr><td>Дійсність картки побуту</td><td>До 3 років (можливе продовження)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Підсумок</h2>
+  <p>Єдиний дозвіл на проживання і роботу — найзручніший документ для іноземця, який планує довгостроково жити і працювати в Польщі. Він дає право на законне проживання, роботу, доступ до NFZ та можливість побудувати своє майбутнє в Польщі. Якщо плануєш залишитися в Польщі надовго — починай клопотати якнайраніше.</p>
+  <p><strong>Потрібна допомога? Зв'яжись зі своїм координатором Nexflow — допоможемо зібрати документи та пояснимо кожен крок.</strong></p>
+  <p><em>Nexflow — твій партнер у роботі і житті в Польщі.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "edinoe-razreshenie-na-prozhivanie-i-rabotu-polsha",
+    title: "Единое разрешение на проживание и работу в Польше — полное руководство для иностранца",
+    description:
+      "Единое разрешение на проживание и работу заменяет карту пребывания и разрешение на работу — полное руководство для иностранных работников, занятых через агентство временного труда в Польше.",
+    date: "2026-09-23",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Единое разрешение на проживание и работу в Польше — полное руководство для иностранца</h1>
+
+  <p>Если вы работаете в Польше как иностранец и хотите урегулировать своё пребывание и работу одним документом — <strong>единое разрешение на проживание и работу</strong> (польск. <em>jednolite zezwolenie na pobyt i pracę</em>) именно то, что вам нужно. Это один из важнейших документов для иностранных работников в Польше, в том числе для временных сотрудников, работающих через агентства занятости, такие как Nexflow.</p>
+
+  <h2>Что такое единое разрешение на проживание и работу?</h2>
+  <p>Единое разрешение — это <strong>карта пребывания</strong>, которая одновременно даёт право на:</p>
+  <ul>
+    <li><strong>законное проживание в Польше</strong> — как правило, на срок до 3 лет,</li>
+    <li><strong>осуществление трудовой деятельности</strong> у конкретного работодателя, на конкретной должности и с оговорённой зарплатой.</li>
+  </ul>
+  <p>Правовая основа — <strong>ст. 114 Закона об иностранцах</strong> (<em>Ustawa o cudzoziemcach</em>). Одно разрешение заменяет два отдельных документа: разрешение на работу и карту пребывания.</p>
+
+  <h2>Кто может подать заявление?</h2>
+  <p>Единое разрешение могут получить граждане стран, не входящих в ЕС/ЕЭЗ/Швейцарию, которые:</p>
+  <ul>
+    <li>законно находятся в Польше (на основании визы, заявления работодателя или предыдущей карты пребывания),</li>
+    <li>имеют заключённый договор с работодателем (или агентством временного труда),</li>
+    <li>работодатель готов официально подтвердить условия трудоустройства.</li>
+  </ul>
+  <p><strong>Внимание для работников Nexflow:</strong> Поскольку Nexflow является агентством временного труда, разрешение выдаётся на Nexflow как работодателя. В документе прописываются условия труда: должность и зарплата. При смене предприятия-пользователя в рамках Nexflow может потребоваться обновление разрешения или подача нового заявления.</p>
+
+  <h2>Как подать заявление?</h2>
+  <p><strong>Шаг 1: Работодатель или вы лично подаёте заявление</strong><br />
+  Заявление подаётся лично в <strong>Воеводском управлении</strong> (Urząd Wojewódzki) по месту проживания иностранца. Nexflow поможет подготовить документы со стороны работодателя.</p>
+
+  <p><strong>Шаг 2: Необходимые документы</strong></p>
+  <ul>
+    <li>заполненный бланк заявления,</li>
+    <li>действующий паспорт (оригинал + копия),</li>
+    <li>2 фотографии (35×45 мм),</li>
+    <li>документы, подтверждающие трудоустройство (договор, декларация работодателя),</li>
+    <li>подтверждение места проживания (договор аренды или справка от работодателя),</li>
+    <li>квитанция об уплате государственной пошлины (около 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Шаг 3: Ожидание решения</strong><br />
+  Срок рассмотрения: от 1 до 6 месяцев. В течение этого времени вы можете законно находиться и работать в Польше, если подали заявление <strong>до истечения срока действия предыдущего документа</strong>.</p>
+
+  <p><strong>Шаг 4: Получение карты пребывания</strong><br />
+  После положительного решения вы получаете физическую карту пребывания с чипом. Карта является биометрическим документом, признаваемым во всей Шенгенской зоне.</p>
+
+  <h2>Что даёт единое разрешение?</h2>
+  <ul>
+    <li><strong>Законное проживание и работа</strong> — один документ вместо двух.</li>
+    <li><strong>Свобода передвижения по Шенгену</strong> — поездки в другие страны Шенгенской зоны (до 90 дней в пределах 180 дней).</li>
+    <li><strong>Путь к постоянному проживанию</strong> — через 5 лет законного пребывания можно подать на постоянный вид на жительство.</li>
+    <li><strong>Доступ к государственным услугам</strong> — NFZ, школа для детей, номер PESEL и т.д.</li>
+  </ul>
+
+  <h2>Частые вопросы</h2>
+  <p><strong>Что если моё заявление рассматривается, а виза истекла?</strong><br />
+  Если вы подали заявление до истечения срока визы или предыдущей карты пребывания, вы имеете право на так называемое «законное пребывание» до вынесения решения. Попросите сотрудника поставить специальный штамп в паспорт.</p>
+
+  <p><strong>Могу ли я работать у другого работодателя?</strong><br />
+  Нет, без изменений в разрешении. Единое разрешение выдаётся на конкретного работодателя. Смена работодателя требует нового заявления.</p>
+
+  <p><strong>Помогает ли Nexflow в этом процессе?</strong><br />
+  Да. Nexflow как агентство временного труда является стороной в процессе получения разрешения и помогает подготовить документы. Свяжитесь со своим координатором Nexflow для получения подробной информации.</p>
+
+  <h2>Важные сроки</h2>
+  <table>
+    <thead>
+      <tr><th>Этап</th><th>Сроки</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Подача заявления</td><td>До истечения действующего документа</td></tr>
+      <tr><td>Ожидание решения</td><td>1–6 месяцев</td></tr>
+      <tr><td>Срок действия карты пребывания</td><td>До 3 лет (возможно продление)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Итог</h2>
+  <p>Единое разрешение на проживание и работу — наиболее удобный документ для иностранца, планирующего долгосрочно жить и работать в Польше. Оно обеспечивает законное пребывание, трудоустройство, доступ к NFZ и позволяет строить своё будущее в Польше. Если вы планируете остаться в Польше надолго — начинайте оформление как можно раньше.</p>
+  <p><strong>Нужна помощь? Свяжитесь со своим координатором Nexflow — мы поможем собрать документы и объясним каждый шаг.</strong></p>
+  <p><em>Nexflow — ваш партнёр в работе и жизни в Польше.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "single-permit-residence-work-poland-foreign-worker",
+    title: "Single Permit for Residence and Work in Poland — Complete Guide for Foreign Workers",
+    description:
+      "The single permit for residence and work combines a Polish residence card and work permit into one document — a complete guide for non-EU workers employed through staffing agencies like Nexflow.",
+    date: "2026-09-23",
+    lang: "en",
+    content: `
+<article>
+  <h1>Single Permit for Residence and Work in Poland — Complete Guide for Foreign Workers</h1>
+
+  <p>If you work in Poland as a non-EU citizen and want to regularise both your stay and employment with a single document, the <strong>single permit for residence and work</strong> (Polish: <em>jednolite zezwolenie na pobyt i pracę</em>) is exactly what you need. It is one of the most important permits for foreign workers in Poland, including temporary employees working through staffing agencies such as Nexflow.</p>
+
+  <h2>What is the single permit for residence and work?</h2>
+  <p>The single permit is a <strong>residence card</strong> that simultaneously grants the right to:</p>
+  <ul>
+    <li><strong>legally reside in Poland</strong> — typically for up to 3 years,</li>
+    <li><strong>perform work</strong> for a specific employer, in a specific position, and for a stated salary.</li>
+  </ul>
+  <p>The legal basis is <strong>Article 114 of the Law on Foreigners</strong> (<em>Ustawa o cudzoziemcach</em>). One permit replaces two separate documents: a work permit and a residence card.</p>
+
+  <h2>Who can apply?</h2>
+  <p>Non-EU/EEA/Swiss nationals can obtain the single permit if they:</p>
+  <ul>
+    <li>are legally present in Poland (on a visa, employer's declaration, or previous residence card),</li>
+    <li>have a contract with an employer (or a temporary employment agency),</li>
+    <li>the employer is willing to formally confirm the employment conditions.</li>
+  </ul>
+  <p><strong>Note for Nexflow workers:</strong> Since Nexflow is a temporary employment agency, the permit is issued with Nexflow as the employer of record. The permit document specifies the terms of work, including position and salary. If you change the user company within Nexflow's assignments, you may need to update or reapply for your permit.</p>
+
+  <h2>How to apply?</h2>
+  <p><strong>Step 1: Submit the application</strong><br />
+  The application is submitted in person at the <strong>Voivodeship Office</strong> (Urząd Wojewódzki) in the region where you live. Nexflow can help prepare the employer-side documents.</p>
+
+  <p><strong>Step 2: Required documents</strong></p>
+  <ul>
+    <li>completed application form,</li>
+    <li>valid passport (original + copy),</li>
+    <li>2 photographs (35×45 mm),</li>
+    <li>documents confirming employment (contract, employer's declaration),</li>
+    <li>proof of accommodation (lease agreement or employer's statement),</li>
+    <li>proof of payment of the administrative fee (approx. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Step 3: Wait for a decision</strong><br />
+  Processing time: 1 to 6 months (varies by voivodeship office). During this period you can legally stay and work in Poland, provided you submitted the application <strong>before your previous document expired</strong>.</p>
+
+  <p><strong>Step 4: Collect your residence card</strong><br />
+  After a positive decision, you receive a physical biometric residence card with an embedded chip. The card is recognised throughout the Schengen Area.</p>
+
+  <h2>What does the single permit give you?</h2>
+  <ul>
+    <li><strong>Legal residence and work</strong> — one document instead of two.</li>
+    <li><strong>Freedom of movement in Schengen</strong> — travel to other Schengen countries for up to 90 days within a 180-day period.</li>
+    <li><strong>A path to permanent residence</strong> — after 5 years of legal stay, you can apply for a permanent residence permit.</li>
+    <li><strong>Access to public services</strong> — NFZ health insurance, schooling for children, PESEL number, etc.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <p><strong>What if my application is pending and my visa has expired?</strong><br />
+  If you submitted the application before your visa or previous residence card expired, you are entitled to a "pending stay" status until the decision is issued. Ask the office to stamp your passport with this confirmation.</p>
+
+  <p><strong>Can I work for a different employer?</strong><br />
+  Not without amending the permit. The single permit is issued for a specific employer. Changing employers requires a new application.</p>
+
+  <p><strong>Does Nexflow help with this process?</strong><br />
+  Yes. As a temporary employment agency, Nexflow is a party to the permit process and helps prepare the employer-side documentation. Contact your Nexflow coordinator for detailed guidance.</p>
+
+  <h2>Key timelines</h2>
+  <table>
+    <thead>
+      <tr><th>Stage</th><th>Timeframe</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Submit application</td><td>Before current document expires</td></tr>
+      <tr><td>Wait for decision</td><td>1–6 months</td></tr>
+      <tr><td>Residence card validity</td><td>Up to 3 years (renewable)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Summary</h2>
+  <p>The single permit for residence and work is the most convenient document for a foreign worker planning to live and work in Poland long-term. It provides legal residence, employment authorisation, access to NFZ, and lets you build your future in Poland. If you plan to stay in Poland for the long haul — start the process as early as possible.</p>
+  <p><strong>Need help? Contact your Nexflow coordinator — we'll help you gather the documents and walk you through every step.</strong></p>
+  <p><em>Nexflow — your partner in work and life in Poland.</em></p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
