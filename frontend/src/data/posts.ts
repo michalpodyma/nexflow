@@ -27593,6 +27593,432 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "kara-porzadkowa-praca-polska-pracownik-tymczasowy",
+    title: "Kara porządkowa w pracy w Polsce — upomnienie i nagana dla pracownika tymczasowego",
+    description:
+      "Czym jest kara porządkowa w Polsce? Upomnienie i nagana — kiedy pracodawca może ukarać pracownika tymczasowego, jak się odwołać i jakie masz prawa zgodnie z Kodeksem pracy.",
+    date: "2026-09-18",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Kara porządkowa w pracy w Polsce — upomnienie i nagana dla pracownika tymczasowego</h1>
+
+  <p>Czy pracodawca może Cię ukarać za spóźnienie, nieobecność lub naruszenie regulaminu pracy? Tak — w Polsce istnieje system kar porządkowych przewidziany przez Kodeks pracy. Jeśli pracujesz w Polsce jako pracownik tymczasowy, masz dokładnie te same prawa co inni pracownicy. Dowiedz się, jakie kary może nałożyć pracodawca, kiedy są bezskuteczne i jak się bronić.</p>
+
+  <h2>Czym jest kara porządkowa?</h2>
+  <p>Kara porządkowa to formalna sankcja, jaką pracodawca może nałożyć na pracownika za naruszenie obowiązków pracowniczych. Podstawę prawną stanowi art. 108–113 Kodeksu pracy.</p>
+  <p><strong>Rodzaje kar porządkowych:</strong></p>
+  <ul>
+    <li><strong>Upomnienie</strong> — łagodniejsza forma, zwykle przy pierwszym przewinieniu</li>
+    <li><strong>Nagana</strong> — poważniejsza forma, przy poważniejszych lub powtarzających się naruszeniach</li>
+  </ul>
+  <p>Za naruszenia związane z bhp lub ochroną mienia pracodawca może dodatkowo nałożyć karę pieniężną (art. 108 § 2 KP) — jest to oddzielna kategoria.</p>
+
+  <h2>Za co pracodawca może ukarać?</h2>
+  <p>Zgodnie z art. 108 Kodeksu pracy, pracodawca może nałożyć karę porządkową za:</p>
+  <ul>
+    <li><strong>Nieprzestrzeganie ustalonego czasu pracy</strong> — spóźnienia, samowolne opuszczenie stanowiska pracy</li>
+    <li><strong>Nieprzestrzeganie regulaminu pracy</strong> — naruszenie zasad obowiązujących w zakładzie</li>
+    <li><strong>Nieprzestrzeganie przepisów bhp i ppoż.</strong> — brak kasku na budowie, palenie w niedozwolonych miejscach</li>
+    <li><strong>Nieodpowiednie zachowanie</strong> — agresja wobec współpracowników, alkohol w pracy</li>
+    <li><strong>Nieusprawiedliwiona nieobecność</strong> — nieinformowanie pracodawcy o chorobie lub nieobecności</li>
+  </ul>
+
+  <h2>Czego pracodawca NIE może zrobić?</h2>
+  <p>Pracodawca <strong>nie może</strong> nałożyć kary porządkowej za:</p>
+  <ul>
+    <li>Niezawinione błędy wynikające z nieznajomości języka polskiego</li>
+    <li>Wykonywanie uprawnień pracowniczych (np. skarga do PIP, odmowa wykonania nielegalnego polecenia)</li>
+    <li>Uczestnictwo w legalnym strajku</li>
+  </ul>
+
+  <h2>Procedura nałożenia kary — Twoje prawa</h2>
+  <p>Pracodawca musi przestrzegać określonej procedury. Jeśli jej nie przestrzega, kara jest bezskuteczna.</p>
+
+  <h3>1. Termin nałożenia kary (art. 109 § 1 KP)</h3>
+  <p>Kara może zostać nałożona <strong>wyłącznie</strong>:</p>
+  <ul>
+    <li>Nie później niż <strong>2 tygodnie</strong> od dnia, w którym pracodawca dowiedział się o naruszeniu, ORAZ</li>
+    <li>Nie później niż <strong>3 miesiące</strong> od dnia naruszenia</li>
+  </ul>
+  <p>Jeśli upłynął któryś z tych terminów — kara jest bezskuteczna.</p>
+
+  <h3>2. Prawo do wysłuchania (art. 109 § 2 KP)</h3>
+  <p>Przed nałożeniem kary <strong>pracodawca ma obowiązek wysłuchać pracownika</strong>. Możesz wyjaśnić swoją wersję wydarzeń. Pominięcie tego kroku czyni karę wadliwą proceduralnie.</p>
+
+  <h3>3. Pisemne zawiadomienie (art. 110 KP)</h3>
+  <p>Pracodawca musi doręczyć Ci <strong>pisemne zawiadomienie</strong> zawierające:</p>
+  <ul>
+    <li>Rodzaj naruszenia i jego datę</li>
+    <li>Informację o prawie do złożenia sprzeciwu</li>
+  </ul>
+  <p>Kara nałożona wyłącznie ustnie jest nieprawidłowa — musi być na piśmie!</p>
+
+  <h2>Jak się odwołać od kary?</h2>
+  <p>Masz <strong>7 dni</strong> od dnia zawiadomienia na wniesienie <strong>sprzeciwu</strong> do pracodawcy (art. 112 KP).</p>
+  <p>Jak napisać sprzeciw:</p>
+  <ul>
+    <li>Sporządź pismo (poproś koordynatora Nexflow o pomoc)</li>
+    <li>Wskaż, że nie zgadzasz się z karą i podaj powód</li>
+    <li>Złóż na piśmie pracodawcy — zachowaj kopię z potwierdzeniem odbioru</li>
+  </ul>
+  <p>Pracodawca ma <strong>14 dni</strong> na rozpatrzenie sprzeciwu. Brak odpowiedzi oznacza odrzucenie sprzeciwu.</p>
+  <p>Po odrzuceniu sprzeciwu masz <strong>14 dni</strong> na złożenie pozwu do <strong>sądu pracy</strong> o uchylenie kary porządkowej.</p>
+
+  <h2>Jak długo kara widnieje w aktach?</h2>
+  <p>Po <strong>roku nienagannej pracy</strong> kara porządkowa jest automatycznie <strong>wymazywana z akt pracowniczych</strong> (art. 113 KP). Pracodawca może też usunąć karę wcześniej, jeśli uzna to za uzasadnione.</p>
+
+  <h2>Pracownicy tymczasowi — szczególna sytuacja</h2>
+  <p>Jako pracownik tymczasowy jesteś formalnie zatrudniony przez <strong>agencję pracy</strong> (Nexflow), a nie przez pracodawcę użytkownika. Dlatego:</p>
+  <ul>
+    <li>Pracodawca użytkownik może zgłosić naruszenie do agencji</li>
+    <li><strong>Agencja przeprowadza procedurę</strong> i nakłada ewentualną karę</li>
+    <li>Masz takie same prawa do sprzeciwu jak pracownik bezpośredni</li>
+  </ul>
+  <p>Jeśli otrzymasz karę porządkową, natychmiast skontaktuj się z koordynatorem Nexflow.</p>
+
+  <h2>Praktyczne porady</h2>
+  <ul>
+    <li><strong>Zawsze wymagaj pisemnego zawiadomienia</strong> — nie przyjmuj kar ustnie</li>
+    <li><strong>Zachowaj kopie wszystkich dokumentów</strong> — korespondencja z pracodawcą i agencją</li>
+    <li><strong>Złóż sprzeciw w terminie</strong> — masz tylko 7 dni, termin jest nieprzekraczalny</li>
+    <li><strong>Skontaktuj się z PIP</strong> (Państwową Inspekcją Pracy), jeśli procedura była nieprawidłowa</li>
+    <li><strong>Bariera językowa to nie Twoja wina</strong> — jeśli nie rozumiałeś polecenia z powodu języka, zaznacz to wyraźnie w sprzeciwie</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+  <table>
+    <thead>
+      <tr><th>Zagadnienie</th><th>Szczegóły</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Rodzaje kar</td><td>Upomnienie, nagana</td></tr>
+      <tr><td>Termin nałożenia</td><td>Max 2 tyg. od dowiedzenia się; max 3 mies. od naruszenia</td></tr>
+      <tr><td>Prawo do wysłuchania</td><td>Tak — obowiązkowe przed nałożeniem kary</td></tr>
+      <tr><td>Termin sprzeciwu</td><td>7 dni od zawiadomienia</td></tr>
+      <tr><td>Wymazanie z akt</td><td>Po 1 roku nienagannej pracy</td></tr>
+    </tbody>
+  </table>
+  <p>Pracując przez Nexflow w Polsce, masz pełną ochronę prawa pracy. Masz pytania o karę porządkową lub potrzebujesz pomocy ze sprzeciwem? Skontaktuj się z koordynatorem Nexflow.</p>
+  <p><em>Nexflow — Twój partner w pracy i życiu w Polsce.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dystsyplinarne-styahnennya-robota-polshcha-pratsivnyk",
+    title: "Дисциплінарне стягнення на роботі в Польщі — попередження та догана для тимчасового працівника",
+    description:
+      "Дисциплінарне стягнення в Польщі: попередження і догана — коли роботодавець може покарати тимчасового працівника, як оскаржити рішення і які у вас права за польським трудовим кодексом.",
+    date: "2026-09-18",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Дисциплінарне стягнення на роботі в Польщі — попередження та догана для тимчасового працівника</h1>
+
+  <p>Чи може роботодавець покарати вас за запізнення, відсутність або порушення правил трудового розпорядку? Так — в Польщі існує система дисциплінарних стягнень, передбачена Трудовим кодексом. Як тимчасовий працівник ви маєте точно такі ж права, як й інші працівники. Дізнайтеся, як захистити себе.</p>
+
+  <h2>Що таке дисциплінарне стягнення?</h2>
+  <p>Дисциплінарне стягнення (kara porządkowa) — це офіційна санкція, яку роботодавець може накласти за порушення трудових обов'язків. Правова основа — ст. 108–113 Трудового кодексу Польщі.</p>
+  <p><strong>Види стягнень:</strong></p>
+  <ul>
+    <li><strong>Упомінання (upomnienie)</strong> — легша форма, зазвичай при першому порушенні</li>
+    <li><strong>Догана (nagana)</strong> — серйозніша форма, за повторні або грубіші порушення</li>
+  </ul>
+
+  <h2>За що можна отримати стягнення?</h2>
+  <p>Роботодавець може накласти стягнення за:</p>
+  <ul>
+    <li><strong>Порушення режиму робочого часу</strong> — запізнення, самовільне залишення робочого місця</li>
+    <li><strong>Недотримання правил трудового розпорядку</strong> — порушення внутрішніх правил підприємства</li>
+    <li><strong>Порушення правил охорони праці та пожежної безпеки</strong> — відсутність каски, паління в заборонених місцях</li>
+    <li><strong>Неналежна поведінка</strong> — агресія щодо колег, алкоголь на роботі</li>
+    <li><strong>Неповажна відсутність</strong> — неповідомлення роботодавця про хворобу або відсутність</li>
+  </ul>
+
+  <h2>Чого роботодавець НЕ може зробити?</h2>
+  <p>Роботодавець <strong>не може</strong> накладати стягнення за:</p>
+  <ul>
+    <li>Ненавмисні помилки через незнання польської мови</li>
+    <li>Реалізацію трудових прав (скарга до PIP, відмова від незаконного доручення)</li>
+    <li>Участь у законному страйку</li>
+  </ul>
+
+  <h2>Процедура накладення стягнення — ваші права</h2>
+
+  <h3>1. Строки накладення (ст. 109 § 1 КП)</h3>
+  <p>Стягнення може бути накладено <strong>лише</strong>:</p>
+  <ul>
+    <li>Не пізніше <strong>2 тижнів</strong> з дня, коли роботодавець дізнався про порушення, І</li>
+    <li>Не пізніше <strong>3 місяців</strong> з дня самого порушення</li>
+  </ul>
+  <p>Якщо строк минув — стягнення є недійсним.</p>
+
+  <h3>2. Право бути почутим (ст. 109 § 2 КП)</h3>
+  <p>Перед накладенням стягнення <strong>роботодавець зобов'язаний вислухати вас</strong>. Ви маєте право пояснити свою версію подій.</p>
+
+  <h3>3. Письмове повідомлення (ст. 110 КП)</h3>
+  <p>Роботодавець зобов'язаний вручити вам <strong>письмове повідомлення</strong> із зазначенням:</p>
+  <ul>
+    <li>Виду та дати порушення</li>
+    <li>Інформації про право на заперечення</li>
+  </ul>
+  <p>Усне стягнення є незаконним — воно має бути лише в письмовій формі!</p>
+
+  <h2>Як оскаржити стягнення?</h2>
+  <p>У вас є <strong>7 днів</strong> з дня отримання повідомлення для подання <strong>заперечення (sprzeciw)</strong> роботодавцю (ст. 112 КП).</p>
+  <p>Роботодавець має <strong>14 днів</strong> на розгляд. Відсутність відповіді означає відхилення заперечення.</p>
+  <p>Якщо заперечення відхилено — у вас є <strong>14 днів</strong> для звернення до <strong>трудового суду</strong> з позовом про скасування стягнення.</p>
+
+  <h2>Скільки часу зберігається стягнення?</h2>
+  <p>Після <strong>1 року бездоганної роботи</strong> стягнення автоматично <strong>анулюється</strong> (ст. 113 КП). Роботодавець може також видалити його раніше.</p>
+
+  <h2>Тимчасові працівники — особлива ситуація</h2>
+  <p>Як тимчасовий працівник, ваш формальний роботодавець — агентство (Nexflow), а не підприємство-користувач. Тому:</p>
+  <ul>
+    <li>Підприємство може повідомити агентство про порушення</li>
+    <li><strong>Агентство проводить процедуру</strong> і накладає стягнення</li>
+    <li>Ви маєте ті ж права на заперечення, що й прямий працівник</li>
+  </ul>
+  <p>Отримали стягнення? Негайно зверніться до координатора Nexflow.</p>
+
+  <h2>Практичні поради</h2>
+  <ul>
+    <li><strong>Завжди вимагайте письмового повідомлення</strong> — не приймайте стягнень усно</li>
+    <li><strong>Зберігайте копії всіх документів</strong> — листування з роботодавцем та агентством</li>
+    <li><strong>Подайте заперечення вчасно</strong> — у вас лише 7 днів, строк непорушний</li>
+    <li><strong>Зверніться до PIP</strong> (Державної інспекції праці), якщо процедура порушена</li>
+    <li><strong>Мовний бар'єр — не ваша провина</strong> — вкажіть це в запереченні, якщо не розуміли завдання</li>
+  </ul>
+
+  <h2>Короткий підсумок</h2>
+  <table>
+    <thead>
+      <tr><th>Питання</th><th>Деталі</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Стягнення</td><td>Попередження (upomnienie), догана (nagana)</td></tr>
+      <tr><td>Строк накладення</td><td>Макс. 2 тижні від дізнання; макс. 3 місяці від порушення</td></tr>
+      <tr><td>Право бути почутим</td><td>Так — обов'язково перед стягненням</td></tr>
+      <tr><td>Строк заперечення</td><td>7 днів з повідомлення</td></tr>
+      <tr><td>Анулювання</td><td>Після 1 року бездоганної роботи</td></tr>
+    </tbody>
+  </table>
+  <p>Працюючи через Nexflow у Польщі, ви під повним захистом польського трудового права. Маєте питання — зверніться до координатора Nexflow.</p>
+  <p><em>Nexflow — ваш партнер у роботі та житті в Польщі.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "distsiplinarnoe-vzyskanie-rabota-polsha-rabotnik",
+    title: "Дисциплинарное взыскание на работе в Польше — предупреждение и выговор для временного работника",
+    description:
+      "Дисциплинарное взыскание в Польше: предупреждение и выговор — когда работодатель может наказать временного работника, как обжаловать и каковы ваши права по польскому трудовому кодексу.",
+    date: "2026-09-18",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Дисциплинарное взыскание на работе в Польше — предупреждение и выговор для временного работника</h1>
+
+  <p>Может ли работодатель наказать вас за опоздание, отсутствие или нарушение правил трудового распорядка? Да — в Польше существует система дисциплинарных взысканий, предусмотренная Трудовым кодексом. Как временный работник вы имеете точно такие же права, как и все остальные работники.</p>
+
+  <h2>Что такое дисциплинарное взыскание?</h2>
+  <p>Дисциплинарное взыскание (kara porządkowa) — это официальная санкция, которую работодатель может наложить за нарушение трудовых обязанностей. Правовая основа — ст. 108–113 Трудового кодекса Польши.</p>
+  <p><strong>Виды взысканий:</strong></p>
+  <ul>
+    <li><strong>Предупреждение (upomnienie)</strong> — более мягкая форма, как правило при первом нарушении</li>
+    <li><strong>Выговор (nagana)</strong> — более серьёзная форма, при повторных или более грубых нарушениях</li>
+  </ul>
+
+  <h2>За что можно получить взыскание?</h2>
+  <p>Работодатель может наложить взыскание за:</p>
+  <ul>
+    <li><strong>Нарушение режима рабочего времени</strong> — опоздания, самовольное оставление рабочего места</li>
+    <li><strong>Несоблюдение правил внутреннего распорядка</strong> — нарушение внутренних правил предприятия</li>
+    <li><strong>Нарушение правил охраны труда и пожарной безопасности</strong> — отсутствие каски, курение в неположенных местах</li>
+    <li><strong>Ненадлежащее поведение</strong> — агрессия по отношению к коллегам, алкоголь на работе</li>
+    <li><strong>Неуважительное отсутствие</strong> — неизвещение работодателя о болезни или отсутствии</li>
+  </ul>
+
+  <h2>Чего работодатель НЕ может сделать?</h2>
+  <p>Работодатель <strong>не может</strong> накладывать взыскание за:</p>
+  <ul>
+    <li>Непреднамеренные ошибки из-за незнания польского языка</li>
+    <li>Реализацию трудовых прав (жалоба в PIP, отказ от незаконного поручения)</li>
+    <li>Участие в законной забастовке</li>
+  </ul>
+
+  <h2>Процедура наложения взыскания — ваши права</h2>
+
+  <h3>1. Сроки наложения (ст. 109 § 1 КП)</h3>
+  <p>Взыскание может быть наложено <strong>только</strong>:</p>
+  <ul>
+    <li>Не позднее <strong>2 недель</strong> со дня, когда работодатель узнал о нарушении, И</li>
+    <li>Не позднее <strong>3 месяцев</strong> со дня самого нарушения</li>
+  </ul>
+  <p>Если срок истёк — взыскание является недействительным.</p>
+
+  <h3>2. Право быть выслушанным (ст. 109 § 2 КП)</h3>
+  <p>Перед наложением взыскания <strong>работодатель обязан выслушать вас</strong>. Вы имеете право объяснить свою версию событий.</p>
+
+  <h3>3. Письменное уведомление (ст. 110 КП)</h3>
+  <p>Работодатель обязан вручить вам <strong>письменное уведомление</strong> с указанием:</p>
+  <ul>
+    <li>Вида и даты нарушения</li>
+    <li>Информации о праве на возражение</li>
+  </ul>
+  <p>Устное взыскание является незаконным — оно должно быть только в письменной форме!</p>
+
+  <h2>Как обжаловать взыскание?</h2>
+  <p>У вас есть <strong>7 дней</strong> с даты получения уведомления для подачи <strong>возражения (sprzeciw)</strong> работодателю (ст. 112 КП).</p>
+  <p>Работодатель имеет <strong>14 дней</strong> на рассмотрение. Отсутствие ответа означает отклонение возражения.</p>
+  <p>Если возражение отклонено — у вас есть <strong>14 дней</strong> для обращения в <strong>трудовой суд</strong> с иском об отмене взыскания.</p>
+
+  <h2>Как долго взыскание хранится в личном деле?</h2>
+  <p>После <strong>1 года безупречной работы</strong> взыскание автоматически <strong>аннулируется</strong> (ст. 113 КП). Работодатель может также удалить его раньше.</p>
+
+  <h2>Временные работники — особая ситуация</h2>
+  <p>Как временный работник, ваш формальный работодатель — агентство (Nexflow), а не работодатель-пользователь. Поэтому:</p>
+  <ul>
+    <li>Предприятие может сообщить о нарушении агентству</li>
+    <li><strong>Агентство проводит процедуру</strong> и налагает взыскание</li>
+    <li>Вы имеете те же права на возражение, что и прямой работник</li>
+  </ul>
+  <p>Получили взыскание? Немедленно обратитесь к координатору Nexflow.</p>
+
+  <h2>Практические советы</h2>
+  <ul>
+    <li><strong>Всегда требуйте письменного уведомления</strong> — не принимайте взыскания в устной форме</li>
+    <li><strong>Сохраняйте копии всех документов</strong> — переписка с работодателем и агентством</li>
+    <li><strong>Подайте возражение вовремя</strong> — только 7 дней, срок жёсткий</li>
+    <li><strong>Обратитесь в PIP</strong> (Государственную инспекцию труда), если процедура была нарушена</li>
+    <li><strong>Языковой барьер — не ваша вина</strong> — укажите это в возражении, если не понимали задание</li>
+  </ul>
+
+  <h2>Краткий итог</h2>
+  <table>
+    <thead>
+      <tr><th>Вопрос</th><th>Детали</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Виды взысканий</td><td>Предупреждение (upomnienie), выговор (nagana)</td></tr>
+      <tr><td>Срок наложения</td><td>Макс. 2 недели от извещения; макс. 3 месяца от нарушения</td></tr>
+      <tr><td>Право быть выслушанным</td><td>Да — обязательно перед взысканием</td></tr>
+      <tr><td>Срок возражения</td><td>7 дней с уведомления</td></tr>
+      <tr><td>Аннулирование</td><td>После 1 года безупречной работы</td></tr>
+    </tbody>
+  </table>
+  <p>Работая через Nexflow в Польше, вы находитесь под полной защитой польского трудового законодательства. Есть вопросы — обратитесь к координатору Nexflow.</p>
+  <p><em>Nexflow — ваш партнёр в работе и жизни в Польше.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "disciplinary-action-work-poland-temp-worker",
+    title: "Disciplinary Action at Work in Poland — Warning and Reprimand for Temp Workers",
+    description:
+      "Disciplinary action in Poland: warning (upomnienie) and reprimand (nagana) — when can an employer discipline a temp worker, how to appeal, and what are your rights under Polish labour law.",
+    date: "2026-09-18",
+    lang: "en",
+    content: `
+<article>
+  <h1>Disciplinary Action at Work in Poland — Warning and Reprimand for Temp Workers</h1>
+
+  <p>Can your employer punish you for being late, absent, or violating workplace rules? Yes — Poland has a formal system of disciplinary penalties under the Labour Code. As a temporary worker, you have exactly the same rights as all other employees. Here is what you need to know about warnings, reprimands, and how to appeal.</p>
+
+  <h2>What Is a Disciplinary Penalty?</h2>
+  <p>A disciplinary penalty (kara porządkowa) is a formal sanction an employer may impose for breaching work duties. The legal basis is Art. 108–113 of the Polish Labour Code (Kodeks pracy).</p>
+  <p><strong>Types of disciplinary penalties:</strong></p>
+  <ul>
+    <li><strong>Warning (upomnienie)</strong> — a milder form, typically for a first offence</li>
+    <li><strong>Reprimand (nagana)</strong> — a more serious form, for repeated or more serious breaches</li>
+  </ul>
+  <p>For breaches related to health and safety or property protection, employers may also impose a financial penalty under Art. 108 § 2 LC — this is a separate category that applies in specific circumstances.</p>
+
+  <h2>What Can You Be Disciplined For?</h2>
+  <p>Under Art. 108 of the Labour Code, an employer may impose a disciplinary penalty for:</p>
+  <ul>
+    <li><strong>Violating working time rules</strong> — lateness, leaving your post without permission</li>
+    <li><strong>Breaching workplace regulations</strong> — violating internal rules of the workplace</li>
+    <li><strong>Breaching health and safety or fire safety regulations</strong> — not wearing a hard hat, smoking in prohibited areas</li>
+    <li><strong>Inappropriate behaviour</strong> — aggression towards colleagues, drinking alcohol at work</li>
+    <li><strong>Unjustified absence</strong> — failing to notify the employer of illness or absence</li>
+  </ul>
+
+  <h2>What Employers Cannot Do</h2>
+  <p>An employer <strong>cannot</strong> impose a disciplinary penalty for:</p>
+  <ul>
+    <li>Unintentional mistakes caused by a genuine language barrier</li>
+    <li>Exercising legitimate employee rights (e.g. filing a complaint with the Labour Inspectorate, refusing an unlawful order)</li>
+    <li>Participating in a lawful strike</li>
+  </ul>
+
+  <h2>The Procedure — Your Rights</h2>
+  <p>Employers must follow a strict procedure. If they fail to do so, the penalty is void.</p>
+
+  <h3>1. Time Limits (Art. 109 § 1 LC)</h3>
+  <p>A penalty can only be imposed:</p>
+  <ul>
+    <li>No later than <strong>2 weeks</strong> after the employer learned of the breach, AND</li>
+    <li>No later than <strong>3 months</strong> after the breach occurred</li>
+  </ul>
+  <p>If either deadline has passed, the penalty is unenforceable.</p>
+
+  <h3>2. Right to Be Heard (Art. 109 § 2 LC)</h3>
+  <p>Before imposing a penalty, <strong>the employer must hear the employee's version of events</strong>. You have the right to explain what happened. Skipping this step makes the penalty procedurally defective.</p>
+
+  <h3>3. Written Notice (Art. 110 LC)</h3>
+  <p>The employer must give you a <strong>written notice</strong> specifying:</p>
+  <ul>
+    <li>The type and date of the breach</li>
+    <li>Information about your right to object</li>
+  </ul>
+  <p>An oral penalty is illegal — it must always be in writing.</p>
+
+  <h2>How to Appeal a Disciplinary Penalty</h2>
+  <p>You have <strong>7 days</strong> from receiving the notice to file an <strong>objection (sprzeciw)</strong> with the employer (Art. 112 LC).</p>
+  <p>The employer has <strong>14 days</strong> to respond. If they do not reply, the objection is deemed rejected.</p>
+  <p>If your objection is rejected, you have <strong>14 days</strong> to take the case to the <strong>Labour Court (Sąd Pracy)</strong> to have the penalty overturned.</p>
+
+  <h2>How Long Does It Stay on Your Record?</h2>
+  <p>After <strong>1 year of clean conduct</strong>, the disciplinary penalty is automatically <strong>removed from your personnel file</strong> (Art. 113 LC). The employer may also remove it earlier if they consider it justified.</p>
+
+  <h2>Temp Workers — Your Special Situation</h2>
+  <p>As a temp worker, your formal employer is the <strong>staffing agency</strong> (Nexflow), not the client company where you work day to day. This means:</p>
+  <ul>
+    <li>The client company can report a breach to the agency</li>
+    <li>The <strong>agency conducts the disciplinary procedure</strong> and imposes any penalty</li>
+    <li>You have the same objection and appeal rights as a direct employee</li>
+  </ul>
+  <p>If you receive any form of disciplinary notice, contact your Nexflow coordinator immediately.</p>
+
+  <h2>Practical Tips</h2>
+  <ul>
+    <li><strong>Always ask for written documentation</strong> — never accept an oral penalty</li>
+    <li><strong>Keep copies of all documents</strong> — correspondence with the employer and agency</li>
+    <li><strong>File your objection within 7 days</strong> — the deadline is strict and cannot be extended</li>
+    <li><strong>Contact PIP</strong> (National Labour Inspectorate) if the procedure was irregular</li>
+    <li><strong>Language barrier is not your fault</strong> — if you did not understand an instruction due to language, state this clearly in your objection</li>
+  </ul>
+
+  <h2>Summary</h2>
+  <table>
+    <thead>
+      <tr><th>Topic</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Types of penalty</td><td>Warning (upomnienie), Reprimand (nagana)</td></tr>
+      <tr><td>Time limits</td><td>Max 2 weeks from employer learning; max 3 months from breach</td></tr>
+      <tr><td>Right to be heard</td><td>Yes — mandatory before any penalty</td></tr>
+      <tr><td>Objection deadline</td><td>7 days from written notice</td></tr>
+      <tr><td>Expiry from record</td><td>After 1 year of clean conduct</td></tr>
+    </tbody>
+  </table>
+  <p>Working through Nexflow in Poland, you have full protection under Polish labour law. If you receive a disciplinary notice and need help with your objection, contact your Nexflow coordinator — we are here to support you.</p>
+  <p><em>Nexflow — your partner in work and life in Poland.</em></p>
+</article>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
