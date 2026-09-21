@@ -28019,6 +28019,250 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </article>
     `.trim(),
   },
+  {
+    slug: "18-miesiecy-praca-tymczasowa-polska-limit-prawa",
+    title: "18 miesięcy pracy tymczasowej w Polsce — limit, Twoje prawa i co dalej",
+    description:
+      "Ustawa o zatrudnieniu pracowników tymczasowych ogranicza pracę u jednego pracodawcy użytkownika do 18 miesięcy w ciągu 36. Dowiedz się, jak liczyć ten limit, co się dzieje po jego wyczerpaniu i jak Nexflow pomaga w planowaniu dalszej kariery.",
+    date: "2026-09-21",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Polsce przez agencję pracy tymczasowej, musisz wiedzieć o ważnym ograniczeniu wynikającym z polskiego prawa. <strong>Ustawa o zatrudnieniu pracowników tymczasowych (z dnia 9 lipca 2003 r.)</strong> stanowi, że możesz pracować u tego samego pracodawcy użytkownika przez <strong>maksymalnie 18 miesięcy w ciągu kolejnych 36 miesięcy</strong>. Dowiedz się, co to oznacza w praktyce i jakie masz prawa.</p>
+
+<h2>Czym jest limit 18 miesięcy?</h2>
+<p>Zgodnie z art. 20 ustawy o zatrudnieniu pracowników tymczasowych, agencja pracy tymczasowej (np. Nexflow) <strong>nie może skierować Cię do wykonywania pracy</strong> u tego samego pracodawcy użytkownika (czyli firmy, w której faktycznie pracujesz) przez okres <strong>dłuższy niż 18 miesięcy łącznie w ciągu 36 kolejnych miesięcy</strong>.</p>
+<p>Ważne: limit dotyczy konkretnego pracodawcy użytkownika — <strong>nie agencji</strong>. Oznacza to, że:</p>
+<ul>
+  <li>Możesz pracować przez agencję Nexflow bez ograniczenia czasowego.</li>
+  <li>Ograniczenie dotyczy konkretnej firmy (magazynu, zakładu), do której zostajesz skierowany.</li>
+  <li>Jeśli pracujesz dla kilku różnych firm klientów, każda liczy osobno.</li>
+</ul>
+
+<h2>Jak liczyć te 18 miesięcy?</h2>
+<p>Czas pracy jest liczony łącznie — niezależnie od tego, czy pracowałeś przez jeden, czy kilka oddzielnych kontraktów. Przerwy krótsze niż 36 miesięcy nie "zerują" licznika.</p>
+<p><strong>Przykład:</strong> Pracujesz w magazynie X przez agencję Nexflow:</p>
+<ul>
+  <li>Styczeń 2026 – Grudzień 2026 = 12 miesięcy (przez Nexflow)</li>
+  <li>Luty 2027 – Lipiec 2027 = 6 miesięcy (przez inną agencję)</li>
+  <li>Łącznie: 18 miesięcy u magazynu X w ciągu 36 miesięcy → <strong>limit osiągnięty</strong></li>
+</ul>
+
+<h2>Co się dzieje po przekroczeniu limitu?</h2>
+<p>Jeśli limit 18 miesięcy zostanie wyczerpany, masz następujące opcje:</p>
+<ol>
+  <li><strong>Przerwa:</strong> Nie możesz pracować u tego pracodawcy użytkownika przez kolejny czas, aż "okno 36 miesięcy" przesunie się wystarczająco.</li>
+  <li><strong>Przejście do innej firmy:</strong> Agencja Nexflow może skierować Cię do innego pracodawcy użytkownika — co jest najczęstszym rozwiązaniem.</li>
+  <li><strong>Zatrudnienie bezpośrednie:</strong> Pracodawca użytkownik może zdecydować się zatrudnić Cię bezpośrednio (umowa o pracę), co pozwala kontynuować pracę w tym samym miejscu bez ograniczeń agencyjnych.</li>
+</ol>
+
+<h2>Co z pozwoleniem na pracę?</h2>
+<p>Jako cudzoziemiec musisz pamiętać, że:</p>
+<ul>
+  <li>Twoje <strong>zezwolenie na pracę lub oświadczenie o powierzeniu pracy</strong> jest wystawione przez <strong>agencję</strong> (Nexflow) jako pracodawcę — nie przez pracodawcę użytkownika.</li>
+  <li>Jeśli zostaniesz skierowany do innej firmy przez Nexflow, może być konieczne <strong>nowe oświadczenie lub aneks</strong> do zezwolenia.</li>
+  <li>Nexflow zajmuje się formalnościami — poinformuj swojego opiekuna w agencji z <strong>co najmniej 4-tygodniowym wyprzedzeniem</strong> przed zbliżającym się limitem.</li>
+</ul>
+
+<h2>Jak Nexflow monitoruje ten limit?</h2>
+<p>Agencja Nexflow śledzi czas pracy każdego pracownika u każdego pracodawcy użytkownika. Gdy zbliżasz się do limitu 18 miesięcy, koordynator w agencji skontaktuje się z Tobą, aby:</p>
+<ul>
+  <li>Omówić możliwości kontynuacji u innego klienta.</li>
+  <li>Wyjaśnić kolejne kroki formalne.</li>
+  <li>Zaproponować alternatywne miejsca pracy w Twoim regionie.</li>
+</ul>
+
+<h2>Podsumowanie — kluczowe punkty</h2>
+<p>✅ Maksymalnie <strong>18 miesięcy</strong> u tego samego pracodawcy użytkownika w ciągu 36 miesięcy.<br>
+✅ Limit dotyczy firmy, <strong>nie agencji</strong> — z Nexflow możesz pracować dłużej.<br>
+✅ Po wyczerpaniu limitu: zmiana miejsca pracy lub przerwa.<br>
+✅ Agencja (Nexflow) obsługuje formalności związane z pozwoleniami na pracę.<br>
+✅ Poinformuj agencję z wyprzedzeniem — nie czekaj do ostatniego dnia.</p>
+<p>Masz pytania? Skontaktuj się ze swoim koordynatorem w Nexflow — pomożemy Ci zaplanować dalszą karierę w Polsce.</p>
+    `.trim(),
+  },
+  {
+    slug: "18-misyatsiv-tymchasova-robota-polshcha-limit-prava",
+    title: "18 місяців тимчасової роботи в Польщі через агентство — ліміт, права та що далі",
+    description:
+      "Польський закон обмежує роботу у того самого роботодавця-користувача до 18 місяців протягом 36. Дізнайтеся, як рахувати цей ліміт, що відбувається після його вичерпання і як Nexflow допомагає у плануванні подальшої кар'єри.",
+    date: "2026-09-21",
+    lang: "uk",
+    content: `
+<p>Якщо ви працюєте в Польщі через агентство тимчасової праці, вам потрібно знати про важливе обмеження польського законодавства. <strong>Закон про зайнятість тимчасових працівників (від 9 липня 2003 р.)</strong> встановлює, що ви можете працювати у того самого роботодавця-користувача <strong>не більше 18 місяців протягом будь-яких 36 послідовних місяців</strong>. Дізнайтеся, що це означає на практиці.</p>
+
+<h2>Що таке ліміт 18 місяців?</h2>
+<p>Відповідно до ст. 20 Закону, агентство тимчасової праці (наприклад, Nexflow) <strong>не може направляти вас</strong> до того самого роботодавця-користувача (тобто компанії, де ви фактично працюєте) на строк <strong>понад 18 місяців сумарно протягом 36 послідовних місяців</strong>.</p>
+<p>Важливо: ліміт стосується конкретного роботодавця-користувача — <strong>не агентства</strong>:</p>
+<ul>
+  <li>Ви можете працювати через Nexflow без обмежень за часом.</li>
+  <li>Обмеження стосується конкретного підприємства (складу, заводу).</li>
+  <li>Якщо ви працюєте в кількох різних компаніях, кожна рахується окремо.</li>
+</ul>
+
+<h2>Як рахувати ці 18 місяців?</h2>
+<p>Час роботи підраховується сумарно — незалежно від кількості окремих договорів. Перерви менші за 36 місяців не "обнуляють" лічильник.</p>
+<p><strong>Приклад:</strong> Ви працюєте на складі X через Nexflow:</p>
+<ul>
+  <li>Січень 2026 – Грудень 2026 = 12 місяців (через Nexflow)</li>
+  <li>Лютий 2027 – Липень 2027 = 6 місяців (через інше агентство)</li>
+  <li>Разом: 18 місяців у складі X за 36 місяців → <strong>ліміт вичерпано</strong></li>
+</ul>
+
+<h2>Що відбувається після досягнення ліміту?</h2>
+<p>Після вичерпання 18 місяців у вас є кілька варіантів:</p>
+<ol>
+  <li><strong>Перерва:</strong> Поки "вікно 36 місяців" не зміститься, ви не можете повернутися до того самого роботодавця-користувача.</li>
+  <li><strong>Переведення до іншої компанії:</strong> Nexflow може направити вас до іншого роботодавця-користувача — це найпоширеніше рішення.</li>
+  <li><strong>Пряме працевлаштування:</strong> Роботодавець-користувач може найняти вас безпосередньо (трудовий договір), що дозволяє продовжити роботу на тому самому місці без агентських обмежень.</li>
+</ol>
+
+<h2>Що з дозволом на роботу?</h2>
+<p>Як іноземець пам'ятайте:</p>
+<ul>
+  <li>Ваш <strong>дозвіл на роботу або заява про доручення роботи (oświadczenie)</strong> виданий агентством (Nexflow) як роботодавцем — не роботодавцем-користувачем.</li>
+  <li>Якщо вас переведуть до іншої компанії через Nexflow, може знадобитися <strong>новий дозвіл або додаток</strong>.</li>
+  <li>Nexflow займається оформленням документів — повідомте свого координатора <strong>не менш ніж за 4 тижні</strong> до досягнення ліміту.</li>
+</ul>
+
+<h2>Як Nexflow відстежує цей ліміт?</h2>
+<p>Nexflow стежить за часом роботи кожного працівника у кожного роботодавця-користувача. Коли ви наближаєтеся до 18 місяців, координатор зв'яжеться з вами, щоб:</p>
+<ul>
+  <li>Обговорити варіанти продовження у іншого клієнта.</li>
+  <li>Пояснити наступні кроки.</li>
+  <li>Запропонувати альтернативні місця роботи у вашому регіоні.</li>
+</ul>
+
+<h2>Підсумок — ключові моменти</h2>
+<p>✅ Максимум <strong>18 місяців</strong> у того самого роботодавця-користувача протягом 36 місяців.<br>
+✅ Ліміт стосується компанії, <strong>не агентства</strong> — з Nexflow ви можете працювати довше.<br>
+✅ Після вичерпання ліміту: зміна місця роботи або перерва.<br>
+✅ Nexflow займається документацією щодо дозволів на роботу.<br>
+✅ Повідомте агентство заздалегідь — не чекайте до останнього дня.</p>
+<p>Маєте питання? Зверніться до свого координатора в Nexflow — ми допоможемо вам спланувати подальшу кар'єру в Польщі.</p>
+    `.trim(),
+  },
+  {
+    slug: "18-mesyatsev-vremennaya-rabota-polsha-limit-prava",
+    title: "18 месяцев временной работы в Польше через агентство — лимит, права и что дальше",
+    description:
+      "Польский закон ограничивает работу у одного работодателя-пользователя 18 месяцами в течение 36. Узнайте, как считать этот лимит, что происходит после его исчерпания и как Nexflow помогает в планировании дальнейшей карьеры.",
+    date: "2026-09-21",
+    lang: "ru",
+    content: `
+<p>Если вы работаете в Польше через агентство временного труда, вам необходимо знать о важном ограничении польского законодательства. <strong>Закон о занятости временных работников (от 9 июля 2003 г.)</strong> устанавливает, что вы можете работать у одного и того же работодателя-пользователя <strong>не более 18 месяцев в течение любых 36 последовательных месяцев</strong>. Узнайте, что это означает на практике.</p>
+
+<h2>Что такое лимит 18 месяцев?</h2>
+<p>Согласно ст. 20 Закона, агентство временного труда (например, Nexflow) <strong>не может направлять вас</strong> к тому же работодателю-пользователю (то есть компании, где вы фактически работаете) на срок <strong>более 18 месяцев суммарно в течение 36 последовательных месяцев</strong>.</p>
+<p>Важно: лимит касается конкретного работодателя-пользователя — <strong>не агентства</strong>:</p>
+<ul>
+  <li>Вы можете работать через Nexflow без временных ограничений.</li>
+  <li>Ограничение касается конкретного предприятия (склада, завода).</li>
+  <li>Если вы работаете в нескольких разных компаниях, каждая считается отдельно.</li>
+</ul>
+
+<h2>Как считать эти 18 месяцев?</h2>
+<p>Время работы подсчитывается суммарно — независимо от количества отдельных договоров. Перерывы менее 36 месяцев не "обнуляют" счётчик.</p>
+<p><strong>Пример:</strong> Вы работаете на складе X через Nexflow:</p>
+<ul>
+  <li>Январь 2026 – Декабрь 2026 = 12 месяцев (через Nexflow)</li>
+  <li>Февраль 2027 – Июль 2027 = 6 месяцев (через другое агентство)</li>
+  <li>Итого: 18 месяцев на складе X за 36 месяцев → <strong>лимит исчерпан</strong></li>
+</ul>
+
+<h2>Что происходит после достижения лимита?</h2>
+<p>После исчерпания 18 месяцев у вас есть несколько вариантов:</p>
+<ol>
+  <li><strong>Перерыв:</strong> Пока "окно 36 месяцев" не сдвинется, вы не можете вернуться к тому же работодателю-пользователю.</li>
+  <li><strong>Перевод в другую компанию:</strong> Nexflow может направить вас к другому работодателю-пользователю — это наиболее распространённое решение.</li>
+  <li><strong>Прямое трудоустройство:</strong> Работодатель-пользователь может принять вас напрямую (трудовой договор), что позволяет продолжить работу на том же месте без агентских ограничений.</li>
+</ol>
+
+<h2>Что с разрешением на работу?</h2>
+<p>Как иностранцу вам нужно помнить:</p>
+<ul>
+  <li>Ваше <strong>разрешение на работу или заявление о поручении работы (oświadczenie)</strong> выдано агентством (Nexflow) как работодателем — не работодателем-пользователем.</li>
+  <li>Если вас переведут в другую компанию через Nexflow, может потребоваться <strong>новое разрешение или дополнение</strong>.</li>
+  <li>Nexflow занимается оформлением документов — сообщите своему координатору <strong>не менее чем за 4 недели</strong> до достижения лимита.</li>
+</ul>
+
+<h2>Как Nexflow отслеживает этот лимит?</h2>
+<p>Nexflow следит за временем работы каждого сотрудника у каждого работодателя-пользователя. Когда вы приближаетесь к 18 месяцам, координатор свяжется с вами, чтобы:</p>
+<ul>
+  <li>Обсудить варианты продолжения у другого клиента.</li>
+  <li>Объяснить следующие шаги.</li>
+  <li>Предложить альтернативные места работы в вашем регионе.</li>
+</ul>
+
+<h2>Резюме — ключевые моменты</h2>
+<p>✅ Максимум <strong>18 месяцев</strong> у одного работодателя-пользователя за 36 месяцев.<br>
+✅ Лимит касается компании, <strong>не агентства</strong> — с Nexflow вы можете работать дольше.<br>
+✅ После исчерпания лимита: смена места работы или перерыв.<br>
+✅ Nexflow занимается документацией по разрешениям на работу.<br>
+✅ Сообщите агентству заранее — не ждите последнего дня.</p>
+<p>Есть вопросы? Обратитесь к своему координатору в Nexflow — мы поможем вам спланировать дальнейшую карьеру в Польше.</p>
+    `.trim(),
+  },
+  {
+    slug: "18-months-temp-work-agency-poland-limit-rights",
+    title: "18 Months of Temp Work Through an Agency in Poland — The Limit, Your Rights, and What Comes Next",
+    description:
+      "Polish law limits temporary agency assignments at the same user enterprise to 18 months within any 36-month period. Learn how the clock is counted, what happens when the limit is reached, and how Nexflow supports your next steps.",
+    date: "2026-09-21",
+    lang: "en",
+    content: `
+<p>If you work in Poland through a temporary employment agency, there is an important legal limit you should understand. The <strong>Polish Temporary Employment Act (July 9, 2003)</strong> limits how long you can be assigned to the same user enterprise: <strong>a maximum of 18 months within any rolling 36-month period</strong>. Here is what this means for you in practice.</p>
+
+<h2>What Is the 18-Month Limit?</h2>
+<p>Under Article 20 of the Act, a temporary employment agency (such as Nexflow) <strong>may not assign you</strong> to the same user enterprise (the company where you actually carry out your work) for more than <strong>18 months in total within any 36 consecutive months</strong>.</p>
+<p>Key clarification: the limit applies to the <strong>user enterprise — not the agency</strong>:</p>
+<ul>
+  <li>You can work through Nexflow agency indefinitely.</li>
+  <li>The restriction applies to a specific company (warehouse, plant, factory).</li>
+  <li>If you work at several different companies, each one has its own separate counter.</li>
+</ul>
+
+<h2>How to Count the 18 Months</h2>
+<p>The time is counted cumulatively — regardless of how many separate contracts you have had. Short breaks under 36 months do <strong>not</strong> reset the clock.</p>
+<p><strong>Example:</strong> You work at warehouse X through Nexflow:</p>
+<ul>
+  <li>January 2026 – December 2026 = 12 months (via Nexflow)</li>
+  <li>February 2027 – July 2027 = 6 months (via a different agency)</li>
+  <li>Total: 18 months at warehouse X within 36 months → <strong>limit reached</strong></li>
+</ul>
+
+<h2>What Happens When the Limit Is Reached?</h2>
+<p>Once the 18-month limit is exhausted, you have several options:</p>
+<ol>
+  <li><strong>A break:</strong> Until the 36-month window shifts sufficiently, you cannot return to the same user enterprise.</li>
+  <li><strong>Transfer to a different company:</strong> Nexflow can assign you to a different client — this is the most common outcome.</li>
+  <li><strong>Direct employment:</strong> The user enterprise may choose to hire you directly (employment contract), which removes the agency-related limit entirely and lets you stay in the same workplace.</li>
+</ol>
+
+<h2>What About Your Work Permit?</h2>
+<p>As a foreign national, keep in mind:</p>
+<ul>
+  <li>Your <strong>work permit or employer declaration (oświadczenie)</strong> is issued by the <strong>agency</strong> (Nexflow) as your formal employer — not by the user enterprise.</li>
+  <li>If you are transferred to a different client company through Nexflow, a <strong>new permit or amendment</strong> may be required.</li>
+  <li>Nexflow handles the paperwork — inform your coordinator <strong>at least 4 weeks before</strong> your 18-month limit is reached.</li>
+</ul>
+
+<h2>How Nexflow Monitors This Limit</h2>
+<p>Nexflow tracks each worker's accumulated time at each user enterprise. As you approach the 18-month mark, your coordinator will contact you to:</p>
+<ul>
+  <li>Discuss your options for continuing with a different client.</li>
+  <li>Explain the next administrative steps.</li>
+  <li>Propose alternative work locations in your area.</li>
+</ul>
+
+<h2>Summary — Key Takeaways</h2>
+<p>✅ Maximum <strong>18 months</strong> at the same user enterprise within any 36-month period.<br>
+✅ The limit applies to the <strong>company, not the agency</strong> — you can keep working through Nexflow.<br>
+✅ After the limit: transfer to a new workplace or take a qualifying break.<br>
+✅ Nexflow handles work permit documentation for any transfer.<br>
+✅ Inform your agency coordinator in advance — do not wait until the last day.</p>
+<p>Questions? Reach out to your Nexflow coordinator — we will help you plan the next step in your career in Poland.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
