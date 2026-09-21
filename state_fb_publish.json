@@ -1592,7 +1592,7 @@
       "published_at": "2026-08-27T00:00:00+0000"
     },
     {
-      "url": "https://nexflow.work/uk/blog/dopomoha-po-dohlyad\u0443-khvora-dytyna-inozemets-polshcha",
+      "url": "https://nexflow.work/uk/blog/dopomoha-po-dohlyadу-khvora-dytyna-inozemets-polshcha",
       "sitemap_lastmod": "2031-01-16T00:00:00.000Z",
       "fb_post_id": "1107760715748033_122128412972808780",
       "published_at": "2026-08-27T00:00:00+0000"
@@ -2064,15 +2064,39 @@
       "fb_post_id": "1107760715748033_122130456416808780",
       "published_at": "2026-09-11T05:49:57.492637+00:00",
       "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/kara-porzadkowa-praca-polska-pracownik-tymczasowy",
+      "fb_post_id": "1107760715748033_122131881782808780",
+      "published_at": "2026-09-21T08:16:31+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/dystsyplinarne-styahnennya-robota-polshcha-pratsivnyk",
+      "fb_post_id": "1107760715748033_122131881812808780",
+      "published_at": "2026-09-21T08:16:44+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/distsiplinarnoe-vzyskanie-rabota-polsha-rabotnik",
+      "fb_post_id": "1107760715748033_122131881848808780",
+      "published_at": "2026-09-21T08:16:55+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/disciplinary-action-work-poland-temp-worker",
+      "fb_post_id": "1107760715748033_122131881884808780",
+      "published_at": "2026-09-21T08:17:04+0000",
+      "sitemap_lastmod": null
     }
   ],
-  "last_run": "2026-09-18T07:26:17.200886+00:00",
+  "last_run": "2026-09-21T08:17:10+00:00",
   "last_run_result": {
-    "date": "2026-09-18",
-    "new_posts": 0,
-    "sitemap_count": 332,
-    "published_count": 344,
-    "note": "Sitemap fully published \u2014 no new posts to publish"
+    "date": "2026-09-21",
+    "new_posts": 4,
+    "sitemap_count": "N/A (nexflow.work unreachable — used git diff for new post detection)",
+    "published_count": 348,
+    "note": "Published 4 disciplinary-action blog posts (PL/UA/RU/EN) — EUR-3479"
   },
   "pending": []
 }
