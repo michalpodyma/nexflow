@@ -28263,6 +28263,226 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Questions? Reach out to your Nexflow coordinator — we will help you plan the next step in your career in Poland.</p>
     `.trim(),
   },
+  {
+    slug: "ekuz-europejska-karta-ubezpieczenia-zdrowotnego-cudzoziemiec-polska",
+    title: "EKUZ – Europejska Karta Ubezpieczenia Zdrowotnego dla cudzoziemca pracującego w Polsce",
+    description:
+      "Pracownicy tymczasowi w Polsce — w tym cudzoziemcy z Ukrainy i Białorusi — mają prawo do bezpłatnej karty EKUZ. Dowiedz się, jak złożyć wniosek przez ZUS, na jak długo ją wydają i kiedy używać jej za granicą.",
+    date: "2026-09-28",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce jako pracownik tymczasowy i odprowadzasz składki ZUS? Masz prawo do bezpłatnej Europejskiej Karty Ubezpieczenia Zdrowotnego (EKUZ). Karta umożliwia korzystanie z niezbędnej opieki medycznej w innych krajach Unii Europejskiej, Europejskiego Obszaru Gospodarczego (EOG) oraz w Szwajcarii – na tych samych warunkach, co obywatele danego kraju.</p>
+
+<h2>Co to jest EKUZ?</h2>
+<p>EKUZ to bezpłatna karta wydawana przez ZUS (Zakład Ubezpieczeń Społecznych), potwierdzająca prawo do świadczeń zdrowotnych w ramach publicznego systemu ochrony zdrowia innego kraju UE/EOG. Nie jest to ubezpieczenie turystyczne – pokrywa wyłącznie leczenie niezbędne (nagłe zachorowania, wypadki), a nie planowe zabiegi czy wizyty.</p>
+
+<h2>Kto może się o nią ubiegać?</h2>
+<p>Każda osoba ubezpieczona zdrowotnie w Polsce – a więc taka, za którą pracodawca odprowadza składki zdrowotne do ZUS (lub która płaci je samodzielnie). Prawo to dotyczy również cudzoziemców: pracowników tymczasowych z Ukrainy, Białorusi i innych krajów spoza UE, zatrudnionych legalnie w Polsce.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<p>Wniosek o EKUZ jest bezpłatny i możesz go złożyć na kilka sposobów:</p>
+<ol>
+  <li><strong>Online</strong> – przez portal PUE ZUS (ekuz.zus.pl lub pue.zus.pl) po zalogowaniu</li>
+  <li><strong>Osobiście lub pocztą</strong> – w dowolnym oddziale ZUS</li>
+  <li><strong>Telefonicznie</strong> – pod numerem 22 560 16 00</li>
+</ol>
+<p>Karta jest zazwyczaj wydawana w ciągu 5–10 dni roboczych od złożenia wniosku.</p>
+
+<h2>Na jaki okres wystawiają kartę?</h2>
+<ul>
+  <li><strong>Pracownicy na umowie o pracę</strong> (w tym zlecenie): zazwyczaj na 12 miesięcy lub do końca okresu ubezpieczenia</li>
+  <li><strong>Pracownicy tymczasowi</strong>: do ostatniego dnia obowiązującej umowy z agencją</li>
+</ul>
+<p>Po zmianie pracodawcy lub przedłużeniu umowy należy złożyć nowy wniosek.</p>
+
+<h2>Kiedy i gdzie używać EKUZ?</h2>
+<p>Kartę EKUZ należy okazywać:</p>
+<ul>
+  <li>podczas nagłej choroby lub wypadku w innym kraju UE/EOG lub Szwajcarii</li>
+  <li>przy wizycie u lekarza przyjmującego w ramach publicznego systemu ochrony zdrowia za granicą</li>
+  <li>przy pobycie w szpitalu publicznym za granicą</li>
+</ul>
+<p>Karta obowiązuje we wszystkich 27 krajach UE, a także w Norwegii, Islandii, Liechtensteinie i Szwajcarii.</p>
+
+<h2>Ważne ograniczenia</h2>
+<ul>
+  <li>EKUZ <strong>nie</strong> pokrywa kosztów planowego leczenia, które możesz przeprowadzić w Polsce</li>
+  <li>Nie zastępuje prywatnego ubezpieczenia podróżnego (nie pokrywa np. repatriacji)</li>
+  <li>EKUZ <strong>nie</strong> działa na Ukrainie, Białorusi ani w Rosji</li>
+  <li>W razie leczenia prywatnego za granicą EKUZ nie zostanie honorowany</li>
+</ul>
+
+<h2>Co to oznacza dla pracownika Nexflow?</h2>
+<p>Nexflow zgłasza wszystkich pracowników do ZUS od pierwszego dnia pracy, zgodnie z polskim prawem. Oznacza to, że od momentu objęcia ubezpieczeniem zdrowotnym możesz złożyć wniosek o EKUZ – nawet jeśli dopiero co zacząłeś pracę.</p>
+<p>Jeśli planujesz wyjazd do innego kraju UE (np. odwiedziny rodziny, podróż) i chcesz mieć pewność dostępu do opieki medycznej, złóż wniosek z wyprzedzeniem. Karta jest bezpłatna i łatwa do uzyskania przez internet.</p>
+<p>W razie pytań dotyczących ubezpieczenia lub EKUZ, skontaktuj się z działem HR Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-yevropeyska-karta-strakhuvannya-inozemets-polshcha",
+    title: "ЄКУЗ – Європейська карта медичного страхування для іноземця, який працює в Польщі",
+    description:
+      "Тимчасові працівники в Польщі — у тому числі іноземці з України та Білорусі — мають право на безкоштовну картку ЄКУЗ. Дізнайтеся, як подати заяву через ZUS, на який строк видають картку та коли її використовувати за кордоном.",
+    date: "2026-09-28",
+    lang: "uk",
+    content: `
+<p>Якщо ви працюєте в Польщі як тимчасовий працівник та сплачуєте внески до ZUS, ви маєте право на безкоштовну Європейську карту медичного страхування (ЄКУЗ / EKUZ). Ця картка дозволяє отримувати необхідну медичну допомогу в інших країнах Євросоюзу, ЄЕЗ та Швейцарії — на тих самих умовах, що й громадяни відповідної країни.</p>
+
+<h2>Що таке ЄКУЗ?</h2>
+<p>ЄКУЗ — це безкоштовна картка, яку видає ZUS (Управління соціального страхування Польщі). Вона підтверджує право на медичні послуги в рамках державної системи охорони здоров'я іншої країни ЄС/ЄЕЗ. Це <strong>НЕ</strong> туристична страховка — вона покриває лише невідкладну допомогу (раптова хвороба, нещасний випадок), а не планове лікування.</p>
+
+<h2>Хто має право на ЄКУЗ?</h2>
+<p>Кожна особа, застрахована в Польщі — тобто та, за яку роботодавець сплачує медичні внески до ZUS (або яка платить їх самостійно). Це стосується й іноземців: тимчасових працівників з України, Білорусі та інших країн, легально працевлаштованих у Польщі.</p>
+
+<h2>Як подати заяву?</h2>
+<p>Заява на ЄКУЗ є безкоштовною і може бути подана кількома способами:</p>
+<ol>
+  <li><strong>Онлайн</strong> — через портал PUE ZUS (ekuz.zus.pl або pue.zus.pl) після авторизації</li>
+  <li><strong>Особисто або поштою</strong> — у будь-якому відділенні ZUS</li>
+  <li><strong>По телефону</strong> — за номером 22 560 16 00</li>
+</ol>
+<p>Картку зазвичай видають протягом 5–10 робочих днів після подачі заяви.</p>
+
+<h2>На який термін видається картка?</h2>
+<ul>
+  <li><strong>Штатні працівники</strong> (в т.ч. за договором zlecenie): зазвичай на 12 місяців або до кінця страхового покриття</li>
+  <li><strong>Тимчасові працівники</strong>: до останнього дня чинного договору з агентством</li>
+</ul>
+<p>Після зміни роботодавця або продовження договору потрібно подати нову заяву.</p>
+
+<h2>Коли і де використовувати ЄКУЗ?</h2>
+<p>Картку ЄКУЗ потрібно пред'являти:</p>
+<ul>
+  <li>при раптовій хворобі або нещасному випадку в іншій країні ЄС/ЄЕЗ або Швейцарії</li>
+  <li>при зверненні до лікаря державної системи охорони здоров'я за кордоном</li>
+  <li>при госпіталізації в державну лікарню за кордоном</li>
+</ul>
+<p>Картка діє в усіх 27 країнах ЄС, а також у Норвегії, Ісландії, Ліхтенштейні та Швейцарії.</p>
+
+<h2>Важливі обмеження</h2>
+<ul>
+  <li>ЄКУЗ <strong>не</strong> покриває планове лікування, яке можна пройти в Польщі</li>
+  <li>Не замінює приватну туристичну страховку (наприклад, не покриває репатріацію)</li>
+  <li>ЄКУЗ <strong>не</strong> діє в Україні, Білорусі та Росії</li>
+  <li>У разі лікування у приватній клініці за кордоном ЄКУЗ не буде прийнята</li>
+</ul>
+
+<h2>Що це означає для працівника Nexflow?</h2>
+<p>Nexflow реєструє всіх працівників у ZUS з першого робочого дня відповідно до польського законодавства. Це означає, що з моменту виникнення права на медичне страхування ви можете подати заяву на ЄКУЗ — навіть якщо тільки-но розпочали роботу.</p>
+<p>Якщо ви плануєте поїздку до іншої країни ЄС (наприклад, навідати рідних або подорожувати) і хочете мати доступ до медичної допомоги, подайте заяву заздалегідь. Картка безкоштовна й легко оформлюється онлайн.</p>
+<p>З будь-якими питаннями щодо страхування або ЄКУЗ звертайтеся до HR-відділу Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-evropeyskaya-karta-strakhovaniia-inostranets-polsha",
+    title: "ЕКУЗ – Европейская карта медицинского страхования для иностранца, работающего в Польше",
+    description:
+      "Временные работники в Польше — в том числе иностранцы из Украины и Беларуси — имеют право на бесплатную карту ЕКУЗ. Узнайте, как подать заявление через ZUS, на какой срок выдаётся карта и когда её использовать за рубежом.",
+    date: "2026-09-28",
+    lang: "ru",
+    content: `
+<p>Если вы работаете в Польше как временный работник и уплачиваете взносы в ZUS, вы имеете право на бесплатную Европейскую карту медицинского страхования (ЕКУЗ / EKUZ). Эта карта позволяет получать необходимую медицинскую помощь в других странах Европейского союза, ЕЭЗ и Швейцарии — на тех же условиях, что и граждане соответствующей страны.</p>
+
+<h2>Что такое ЕКУЗ?</h2>
+<p>ЕКУЗ — это бесплатная карта, выдаваемая ZUS (Управлением социального страхования Польши). Она подтверждает право на медицинские услуги в системе государственного здравоохранения другой страны ЕС/ЕЭЗ. Это <strong>НЕ</strong> туристическая страховка — карта покрывает только экстренную помощь (внезапная болезнь, несчастный случай), но не плановое лечение.</p>
+
+<h2>Кто имеет право на ЕКУЗ?</h2>
+<p>Каждый, кто застрахован в Польше, — то есть тот, за кого работодатель уплачивает взносы на медицинское страхование в ZUS (или кто платит их самостоятельно). Это распространяется и на иностранцев: временных работников из Украины, Беларуси и других стран, легально трудоустроенных в Польше.</p>
+
+<h2>Как подать заявление?</h2>
+<p>Заявление на ЕКУЗ бесплатное и может быть подано несколькими способами:</p>
+<ol>
+  <li><strong>Онлайн</strong> — через портал PUE ZUS (ekuz.zus.pl или pue.zus.pl) после авторизации</li>
+  <li><strong>Лично или по почте</strong> — в любом отделении ZUS</li>
+  <li><strong>По телефону</strong> — 22 560 16 00</li>
+</ol>
+<p>Карта обычно выдаётся в течение 5–10 рабочих дней после подачи заявления.</p>
+
+<h2>На какой срок выдаётся карта?</h2>
+<ul>
+  <li><strong>Штатные работники</strong> (в т.ч. по договору zlecenie): как правило, на 12 месяцев или до конца страхового периода</li>
+  <li><strong>Временные работники</strong>: до последнего дня действующего договора с агентством</li>
+</ul>
+<p>После смены работодателя или продления договора необходимо подать новое заявление.</p>
+
+<h2>Когда и где использовать ЕКУЗ?</h2>
+<p>Карту ЕКУЗ следует предъявлять:</p>
+<ul>
+  <li>при внезапной болезни или несчастном случае в другой стране ЕС/ЕЭЗ или Швейцарии</li>
+  <li>при обращении к врачу государственной системы здравоохранения за рубежом</li>
+  <li>при госпитализации в государственную больницу за рубежом</li>
+</ul>
+<p>Карта действует во всех 27 странах ЕС, а также в Норвегии, Исландии, Лихтенштейне и Швейцарии.</p>
+
+<h2>Важные ограничения</h2>
+<ul>
+  <li>ЕКУЗ <strong>не</strong> покрывает плановое лечение, которое можно пройти в Польше</li>
+  <li>Не заменяет частное туристическое страхование (например, не покрывает репатриацию)</li>
+  <li>ЕКУЗ <strong>не</strong> действует на Украине, в Беларуси и России</li>
+  <li>При лечении в частной клинике за рубежом ЕКУЗ принята не будет</li>
+</ul>
+
+<h2>Что это означает для работника Nexflow?</h2>
+<p>Nexflow регистрирует всех работников в ZUS с первого рабочего дня в соответствии с польским законодательством. Это означает, что с момента возникновения права на медицинское страхование вы можете подать заявку на ЕКУЗ — даже если только недавно приступили к работе.</p>
+<p>Если вы планируете поездку в другую страну ЕС (например, навестить родных или путешествовать) и хотите иметь доступ к медицинской помощи, подайте заявку заранее. Карта бесплатная и легко оформляется онлайн.</p>
+<p>По любым вопросам, связанным со страхованием или ЕКУЗ, обращайтесь в отдел кадров Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-european-health-insurance-card-foreign-worker-poland",
+    title: "EKUZ – European Health Insurance Card for Foreign Workers in Poland",
+    description:
+      "Temporary workers in Poland — including foreign nationals from Ukraine and Belarus — are entitled to a free EKUZ card. Learn how to apply through ZUS, how long the card is valid, and when to use it abroad.",
+    date: "2026-09-28",
+    lang: "en",
+    content: `
+<p>If you work in Poland as a temporary employee and your employer pays ZUS contributions on your behalf, you are entitled to a free European Health Insurance Card (EKUZ in Polish). This card lets you access necessary healthcare in other EU/EEA countries and Switzerland under the same conditions as local citizens — at no extra cost.</p>
+
+<h2>What is EKUZ?</h2>
+<p>EKUZ is a free card issued by ZUS (the Polish Social Insurance Institution). It proves your right to receive state-provided healthcare during a temporary stay in another EU/EEA country or Switzerland. It is <strong>not</strong> travel insurance — it covers only necessary medical treatment (sudden illness, accidents), not planned procedures you could have done in Poland.</p>
+
+<h2>Who is eligible?</h2>
+<p>Anyone who is health-insured in Poland — meaning your employer pays your health insurance contributions to ZUS (or you pay them yourself). This fully includes foreign workers: Ukrainians, Belarusians, and other non-EU nationals who are legally employed in Poland through a temporary staffing agency like Nexflow.</p>
+
+<h2>How to apply</h2>
+<p>The EKUZ application is free of charge. You can apply in several ways:</p>
+<ol>
+  <li><strong>Online</strong> — via the PUE ZUS portal (ekuz.zus.pl or pue.zus.pl) after logging in</li>
+  <li><strong>In person or by post</strong> — at any ZUS branch office</li>
+  <li><strong>By phone</strong> — 22 560 16 00</li>
+</ol>
+<p>The card is typically issued within 5–10 business days of the application.</p>
+
+<h2>How long is the card valid?</h2>
+<ul>
+  <li><strong>Permanent employees</strong> (including those on civil contracts / zlecenie): usually 12 months, or until the end of your insurance period</li>
+  <li><strong>Temporary workers</strong>: until the last day of your current employment contract with the agency</li>
+</ul>
+<p>After changing employers or renewing your contract, you will need to apply again.</p>
+
+<h2>When and where to use EKUZ</h2>
+<p>Present your EKUZ card:</p>
+<ul>
+  <li>When you suffer a sudden illness or accident in another EU/EEA country or Switzerland</li>
+  <li>When visiting a GP or specialist within the public healthcare system abroad</li>
+  <li>When admitted to a public hospital abroad</li>
+</ul>
+<p>The card is valid in all 27 EU countries, plus Norway, Iceland, Liechtenstein, and Switzerland.</p>
+
+<h2>Key limitations</h2>
+<ul>
+  <li>EKUZ does <strong>not</strong> cover planned treatment that you could receive in Poland</li>
+  <li>It does not replace private travel insurance (e.g., it does not cover repatriation costs)</li>
+  <li>It is <strong>not</strong> valid in Ukraine, Belarus, or Russia</li>
+  <li>If you receive treatment at a private clinic abroad, EKUZ will not be accepted</li>
+</ul>
+
+<h2>What this means for Nexflow workers</h2>
+<p>Nexflow registers all employees with ZUS from day one of employment, in compliance with Polish law. This means that as soon as your health insurance coverage begins, you can apply for your EKUZ card — even if you have just started working.</p>
+<p>If you are planning a trip to another EU country (visiting family, travelling) and want to ensure access to healthcare, apply in advance. The card is free and easy to obtain online through PUE ZUS.</p>
+<p>Contact the Nexflow HR team if you have any questions about your insurance status or how to apply for EKUZ.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
