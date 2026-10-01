@@ -29007,6 +29007,206 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p><em>Questions about a commuting accident? Contact your Nexflow coordinator — we'll guide you through the whole process.</em></p>
     `.trim(),
   },
+  {
+    slug: "wypowiedzenie-umowy-pracownik-tymczasowy-polska",
+    title: "Wypowiedzenie umowy pracownika tymczasowego — okresy i prawa w Polsce",
+    description:
+      "Jak legalnie zakończyć pracę tymczasową w Polsce? Okresy wypowiedzenia, świadectwo pracy, wyrejestrowanie z ZUS — praktyczny przewodnik dla pracowników zagranicznych.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<p>Pracujesz tymczasowo przez agencję pracy i zastanawiasz się, jak zakończyć zatrudnienie? Bez względu na to, czy chcesz zmienić pracę, wrócić do domu, czy po prostu zakończyć kontrakt — masz prawo do tego w jasno określony sposób. Ten przewodnik tłumaczy, ile czasu musisz odczekać i co powinieneś zrobić krok po kroku.</p>
+
+<h2>Umowa o pracę tymczasową — okresy wypowiedzenia</h2>
+<p>Jeśli pracujesz na umowę o pracę tymczasową zawartą z agencją pracy (np. Nexflow), obowiązują Cię przepisy <strong>ustawy z 9 lipca 2003 r. o zatrudnianiu pracowników tymczasowych</strong>. Okresy wypowiedzenia są krótsze niż przy zwykłym stosunku pracy:</p>
+<ul>
+  <li><strong>Umowa do 2 tygodni</strong> — 3 dni robocze wypowiedzenia</li>
+  <li><strong>Umowa od 2 tygodni do 3 miesięcy</strong> — 1 tydzień wypowiedzenia</li>
+  <li><strong>Umowa powyżej 3 miesięcy</strong> — 2 tygodnie wypowiedzenia</li>
+</ul>
+<p>Wypowiedzenie można złożyć zarówno przez pracownika, jak i przez agencję. Zawsze rób to <strong>na piśmie</strong> — zachowaj kopię z potwierdzeniem odbioru.</p>
+
+<h2>Umowa zlecenie — czy trzeba zachować okres wypowiedzenia?</h2>
+<p>Jeśli pracujesz na umowie zlecenie (nie umowie o pracę), sytuacja jest inna. Zgodnie z art. 746 § 2 Kodeksu cywilnego, możesz wypowiedzieć umowę zlecenie <strong>w każdym czasie</strong>. Jednak:</p>
+<ul>
+  <li>Jeśli zlecenie jest odpłatne i wypowiadasz je bez ważnego powodu, możesz być zobowiązany do naprawienia szkody wyrządzonej zleceniodawcy</li>
+  <li>Sprawdź treść swojej umowy — mogą w niej być zapisy o terminie wypowiedzenia</li>
+</ul>
+
+<h2>Jak złożyć wypowiedzenie?</h2>
+<ol>
+  <li>Napisz wypowiedzenie na piśmie (możesz skorzystać ze wzoru dostępnego w agencji)</li>
+  <li>Podaj datę i swój podpis</li>
+  <li>Złóż je osobiście w agencji lub wyślij listem poleconym za potwierdzeniem odbioru</li>
+  <li>Zapytaj o potwierdzenie przyjęcia dokumentu</li>
+</ol>
+<p>Nie ma prawnego wymogu uzasadniania wypowiedzenia przez pracownika przy umowie o pracę tymczasową.</p>
+
+<h2>Co dzieje się po zakończeniu pracy?</h2>
+<ul>
+  <li><strong>Świadectwo pracy</strong> — agencja ma obowiązek wystawić świadectwo pracy bez Twojego wniosku (w ciągu 7 dni od zakończenia stosunku pracy)</li>
+  <li><strong>ZUS</strong> — agencja zgłosi Twoje wyrejestrowanie (formularz ZWUA). Masz jeszcze 30 dni na bezpłatne korzystanie ze świadczeń NFZ po zakończeniu umowy.</li>
+  <li><strong>Urlop</strong> — jeśli nie wykorzystałeś urlopu wypoczynkowego, należy Ci się ekwiwalent pieniężny</li>
+  <li><strong>Ostatnia wypłata</strong> — wynagrodzenie za przepracowany okres powinno być wypłacone w normalnym terminie wypłat</li>
+</ul>
+
+<h2>Co jeśli to agencja wypowiada umowę?</h2>
+<p>Agencja pracy może zakończyć Twoją umowę z zachowaniem tych samych okresów wypowiedzenia. Jeśli pracodawca użytkownik (firma, do której jesteś skierowany) rezygnuje z Twoich usług przed upływem uzgodnionego okresu, agencja powinna starać się zapewnić Ci inne skierowanie lub wypłacić wynagrodzenie za pozostały czas umowy.</p>
+
+<h2>Jak pomaga Nexflow?</h2>
+<p>W Nexflow dbamy o to, by każdy pracownik rozumiał swoje prawa. Jeśli chcesz zakończyć pracę lub masz pytania dotyczące umowy — skontaktuj się z nami bezpośrednio. Pomożemy Ci załatwić wszystkie formalności zgodnie z prawem.</p>
+    `.trim(),
+  },
+  {
+    slug: "rozirvannya-dohovoru-tymchasovyi-pratsivnyk-polshcha",
+    title: "Розірвання договору тимчасового працівника в Польщі — строки та права",
+    description:
+      "Як правильно звільнитися з тимчасової роботи в Польщі? Строки попередження, трудова книжка, зняття з обліку в ZUS — практичний посібник для іноземних працівників.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<p>Ви працюєте тимчасово через агентство зайнятості і думаєте, як завершити роботу? Незалежно від того, чи хочете змінити роботу, повернутися додому або просто закінчити контракт — ви маєте право зробити це у законно визначений спосіб. Цей посібник пояснює, скільки часу потрібно відпрацювати і що зробити крок за кроком.</p>
+
+<h2>Договір про тимчасову роботу — строки попередження</h2>
+<p>Якщо ви працюєте за договором про тимчасову роботу (umowa o pracę tymczasową) з агентством праці (наприклад, Nexflow), на вас поширюється дія <strong>Закону Польщі від 9 липня 2003 р. про зайнятість тимчасових працівників</strong>. Строки попередження коротші, ніж при звичайному трудовому договорі:</p>
+<ul>
+  <li><strong>Договір до 2 тижнів</strong> — 3 робочі дні попередження</li>
+  <li><strong>Договір від 2 тижнів до 3 місяців</strong> — 1 тиждень попередження</li>
+  <li><strong>Договір понад 3 місяці</strong> — 2 тижні попередження</li>
+</ul>
+<p>Попередження може подати як працівник, так і агентство. Завжди робіть це <strong>письмово</strong> — збережіть копію з підтвердженням отримання.</p>
+
+<h2>Договір-доручення (zlecenie) — чи потрібне попередження?</h2>
+<p>Якщо ви працюєте за цивільно-правовим договором (umowa zlecenie), ситуація інша. Відповідно до ст. 746 § 2 Цивільного кодексу Польщі, ви можете розірвати договір <strong>у будь-який час</strong>. Однак:</p>
+<ul>
+  <li>Якщо договір є платним і ви розриваєте його без поважної причини, вас можуть зобов'язати відшкодувати збитки</li>
+  <li>Перевірте текст договору — в ньому можуть бути прописані строки попередження</li>
+</ul>
+
+<h2>Як подати попередження про звільнення?</h2>
+<ol>
+  <li>Напишіть заяву про звільнення письмово (у агентстві є зразки)</li>
+  <li>Вкажіть дату і підпишіть документ</li>
+  <li>Подайте особисто в агентство або надішліть рекомендованим листом з повідомленням</li>
+  <li>Попросіть підтвердження отримання</li>
+</ol>
+<p>Закон не вимагає від працівника обґрунтовувати причини звільнення при тимчасовому договорі.</p>
+
+<h2>Що відбувається після завершення роботи?</h2>
+<ul>
+  <li><strong>Свідоцтво про роботу (świadectwo pracy)</strong> — агентство зобов'язане видати його без вашого запиту протягом 7 днів після закінчення трудового договору</li>
+  <li><strong>ZUS</strong> — агентство подасть заяву про зняття вас з обліку (форма ZWUA). Ви маєте ще 30 днів для безплатного використання медичних послуг NFZ</li>
+  <li><strong>Відпустка</strong> — якщо ви не використали щорічну відпустку, вам належить грошова компенсація</li>
+  <li><strong>Остання виплата</strong> — зарплата за відпрацьований період має бути сплачена у звичайний термін</li>
+</ul>
+
+<h2>Що, якщо агентство розриває договір?</h2>
+<p>Агентство може розірвати ваш договір з дотриманням тих самих строків попередження. Якщо роботодавець-користувач (підприємство, до якого вас направили) відмовляється від ваших послуг до закінчення погодженого строку, агентство повинно намагатися знайти вам інше направлення або виплатити зарплату за час, що залишився.</p>
+
+<h2>Як допомагає Nexflow?</h2>
+<p>У Nexflow ми дбаємо про те, щоб кожен працівник розумів свої права. Якщо ви хочете завершити роботу або маєте запитання щодо договору — зверніться до нас. Ми допоможемо вам оформити всі документи відповідно до закону.</p>
+    `.trim(),
+  },
+  {
+    slug: "rastorzheniye-dogovora-vremennyy-rabotnik-polsha",
+    title: "Расторжение договора временного работника в Польше — сроки и права",
+    description:
+      "Как правильно уволиться с временной работы в Польше? Сроки уведомления, трудовое свидетельство, снятие с учёта в ZUS — практическое руководство для иностранных работников.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<p>Вы работаете временно через кадровое агентство и думаете о том, как завершить трудовые отношения? Хотите ли вы сменить работу, вернуться домой или просто закончить контракт — вы имеете право сделать это чётко установленным законом способом. Это руководство объясняет сроки и шаги, которые нужно предпринять.</p>
+
+<h2>Договор о временной работе — сроки предупреждения</h2>
+<p>Если вы работаете по договору о временной работе (umowa o pracę tymczasową) с агентством занятости (например, Nexflow), на вас распространяется <strong>Закон Польши от 9 июля 2003 г. о занятости временных работников</strong>. Сроки предупреждения об увольнении короче, чем при обычном трудовом договоре:</p>
+<ul>
+  <li><strong>Договор до 2 недель</strong> — 3 рабочих дня предупреждения</li>
+  <li><strong>Договор от 2 недель до 3 месяцев</strong> — 1 неделя предупреждения</li>
+  <li><strong>Договор свыше 3 месяцев</strong> — 2 недели предупреждения</li>
+</ul>
+<p>Уведомление может подать как работник, так и агентство. Всегда делайте это <strong>в письменной форме</strong> — сохраните копию с подтверждением получения.</p>
+
+<h2>Договор-поручение (zlecenie) — нужно ли соблюдать срок предупреждения?</h2>
+<p>Если вы работаете по гражданско-правовому договору (umowa zlecenie), ситуация иная. Согласно ст. 746 § 2 Гражданского кодекса Польши, вы можете расторгнуть договор <strong>в любое время</strong>. Однако:</p>
+<ul>
+  <li>Если договор является возмездным и вы расторгаете его без уважительной причины, вас могут обязать возместить убытки</li>
+  <li>Проверьте текст договора — в нём могут быть прописаны сроки уведомления</li>
+</ul>
+
+<h2>Как правильно подать уведомление об увольнении?</h2>
+<ol>
+  <li>Напишите заявление об увольнении в письменной форме (в агентстве есть образцы)</li>
+  <li>Укажите дату и подпишите документ</li>
+  <li>Подайте лично в агентство или отправьте заказным письмом с уведомлением</li>
+  <li>Попросите подтверждение о получении</li>
+</ol>
+<p>Закон не требует от работника обосновывать причины увольнения при временном трудовом договоре.</p>
+
+<h2>Что происходит после окончания работы?</h2>
+<ul>
+  <li><strong>Свидетельство о работе (świadectwo pracy)</strong> — агентство обязано выдать его без вашего заявления в течение 7 дней после прекращения трудового договора</li>
+  <li><strong>ZUS</strong> — агентство подаст заявление о снятии вас с учёта (форма ZWUA). У вас ещё есть 30 дней на бесплатное использование медицинских услуг NFZ</li>
+  <li><strong>Отпуск</strong> — если вы не использовали ежегодный отпуск, вам положена денежная компенсация</li>
+  <li><strong>Последняя выплата</strong> — зарплата за отработанный период должна быть выплачена в обычный срок</li>
+</ul>
+
+<h2>Что если агентство расторгает договор?</h2>
+<p>Агентство может расторгнуть ваш договор с соблюдением тех же сроков предупреждения. Если работодатель-пользователь (предприятие, куда вас направили) отказывается от ваших услуг до истечения согласованного срока, агентство должно постараться обеспечить вам другое направление или выплатить зарплату за оставшееся время.</p>
+
+<h2>Как помогает Nexflow?</h2>
+<p>В Nexflow мы заботимся о том, чтобы каждый работник понимал свои права. Если вы хотите завершить работу или у вас есть вопросы по договору — свяжитесь с нами. Мы поможем вам оформить все документы в соответствии с законом.</p>
+    `.trim(),
+  },
+  {
+    slug: "terminating-temp-work-contract-notice-period-poland",
+    title: "Terminating a temp work contract in Poland — notice periods and rights",
+    description:
+      "How to legally end a temporary work contract in Poland? Notice periods, employment certificate, ZUS deregistration — a practical guide for foreign workers.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<p>Working temporarily through a staffing agency in Poland and wondering how to end your employment? Whether you want to change jobs, return home, or simply finish your contract — you have the right to do so in a clearly defined way. This guide explains how much notice you need to give and what steps to follow.</p>
+
+<h2>Temporary employment contract (umowa o pracę tymczasową) — notice periods</h2>
+<p>If you work under a temporary employment contract (umowa o pracę tymczasową) with a staffing agency such as Nexflow, the <strong>Polish Temporary Employment Act of 9 July 2003</strong> applies. Notice periods are shorter than for regular employment:</p>
+<ul>
+  <li><strong>Contract up to 2 weeks</strong> — 3 working days notice</li>
+  <li><strong>Contract from 2 weeks to 3 months</strong> — 1 week notice</li>
+  <li><strong>Contract over 3 months</strong> — 2 weeks notice</li>
+</ul>
+<p>Either the worker or the agency can give notice. Always do so <strong>in writing</strong> — keep a copy with proof of delivery.</p>
+
+<h2>Civil law contract (umowa zlecenie) — is notice required?</h2>
+<p>If you work under a civil law contract (umowa zlecenie), the situation is different. Under Article 746 § 2 of the Polish Civil Code, you may terminate the contract <strong>at any time</strong>. However:</p>
+<ul>
+  <li>If the contract is paid and you terminate it without good reason, you may be liable to compensate the agency for losses incurred</li>
+  <li>Check your contract — it may include specific notice terms</li>
+</ul>
+
+<h2>How to give notice</h2>
+<ol>
+  <li>Write a resignation notice in writing (the agency can provide a template)</li>
+  <li>Include the date and your signature</li>
+  <li>Submit it in person at the agency or send by registered post with delivery confirmation</li>
+  <li>Ask for written acknowledgement of receipt</li>
+</ol>
+<p>You are not legally required to give a reason for resigning from a temporary employment contract.</p>
+
+<h2>What happens after the contract ends?</h2>
+<ul>
+  <li><strong>Employment certificate (świadectwo pracy)</strong> — the agency must issue this without you requesting it, within 7 days of the contract ending</li>
+  <li><strong>ZUS deregistration</strong> — the agency will submit a deregistration form (ZWUA). You still have 30 days of free access to NFZ healthcare after the contract ends</li>
+  <li><strong>Unused holiday</strong> — if you have unused annual leave, you are entitled to a cash payment (ekwiwalent) instead</li>
+  <li><strong>Final pay</strong> — wages for all hours worked must be paid by the normal payday</li>
+</ul>
+
+<h2>What if the agency terminates your contract?</h2>
+<p>The agency can terminate your contract by giving the same notice periods. If the user employer (the company you are assigned to) ends the assignment before the agreed end date, the agency should try to find you another assignment or pay your wages for the remaining period.</p>
+
+<h2>How Nexflow helps</h2>
+<p>At Nexflow, we make sure every worker understands their rights. If you want to end your assignment or have questions about your contract — contact us directly. We will help you handle all the formalities correctly and in compliance with Polish law.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
