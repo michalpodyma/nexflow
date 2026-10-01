@@ -29269,7 +29269,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
     `.trim(),
   },
   {
-    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    slug: "tymchasovyi-zakhyst-ukraina-polshcha-prava-protsedury",
     title: "Тимчасовий захист у Польщі: права та процедури для громадян України",
     description:
       "Що таке тимчасовий захист, хто ним охоплений і які права він надає українським працівникам у Польщі — легальна робота, NFZ, PESEL UKR та соціальні виплати.",
@@ -29330,7 +29330,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
     `.trim(),
   },
   {
-    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    slug: "vremennaya-zashchita-ukraina-polsha-prava-protsedury",
     title: "Временная защита в Польше: права и процедуры для граждан Украины",
     description:
       "Что такое временная защита, кто ею охвачён и какие права она даёт украинским работникам в Польше — легальная работа, NFZ, PESEL UKR и социальные выплаты.",
@@ -29391,7 +29391,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
     `.trim(),
   },
   {
-    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    slug: "temporary-protection-ukraine-poland-rights-procedures",
     title: "Temporary Protection in Poland: Rights and Procedures for Ukrainian Citizens",
     description:
       "What is temporary protection, who is covered, and what rights does it give Ukrainian workers in Poland — legal work, NFZ, PESEL UKR, and social benefits.",
