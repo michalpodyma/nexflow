@@ -29207,6 +29207,250 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>At Nexflow, we make sure every worker understands their rights. If you want to end your assignment or have questions about your contract — contact us directly. We will help you handle all the formalities correctly and in compliance with Polish law.</p>
     `.trim(),
   },
+  {
+    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    title: "Ochrona tymczasowa w Polsce: prawa i procedury dla obywateli Ukrainy",
+    description:
+      "Czym jest ochrona tymczasowa, kto jest nią objęty i jakie prawa daje ukraińskim pracownikom w Polsce — legalna praca, NFZ, PESEL UKR i świadczenia socjalne.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<h1>Ochrona tymczasowa w Polsce: prawa i procedury dla obywateli Ukrainy</h1>
+
+<p>Od 24 lutego 2022 roku Polska przyjęła ponad milion Ukraińców objętych <strong>ochroną tymczasową</strong>. Czym jest ten status i co Ci daje?</p>
+
+<h2>Co to jest ochrona tymczasowa?</h2>
+<p>Ochrona tymczasowa to specjalny status nadawany <strong>zbiorowo</strong> obywatelom Ukrainy, którzy opuścili kraj po 24 lutego 2022 r. Reguluje go polska ustawa z 12 marca 2022 r. oraz dyrektywa UE 2001/55/WE. Nie musisz składać wniosku azylowego — status jest przyznawany automatycznie.</p>
+
+<h2>Kto jest objęty?</h2>
+<ul>
+  <li>Obywatele Ukrainy, którzy wyjechali po 24.02.2022 r.</li>
+  <li>Bezpaństwowcy i obywatele państw trzecich legalnie przebywający na Ukrainie</li>
+  <li>Członkowie ich rodzin (małżonkowie, dzieci, rodzice)</li>
+</ul>
+
+<h2>Jakie prawa daje ochrona tymczasowa?</h2>
+
+<h3>1. Legalna praca bez zezwolenia</h3>
+<p>Możesz pracować u <strong>dowolnego pracodawcy</strong> bez osobnego zezwolenia. Pracodawca powiadamia powiatowy urząd pracy w ciągu 14 dni od zatrudnienia.</p>
+
+<h3>2. Dostęp do NFZ</h3>
+<p>Pracując na umowę o pracę lub zlecenie, jesteś ubezpieczony w NFZ — tak samo jak pracownicy polscy.</p>
+
+<h3>3. Edukacja dla dzieci</h3>
+<p>Dzieci objęte ochroną uczą się w polskich szkołach publicznych na takich samych zasadach jak dzieci polskie.</p>
+
+<h3>4. PESEL UKR i Profil Zaufany</h3>
+<p>Po rejestracji w gminie otrzymasz numer PESEL z oznaczeniem „UKR", który daje dostęp do Profilu Zaufanego i usług bankowych.</p>
+
+<h3>5. Świadczenia socjalne</h3>
+<p>Możesz mieć prawo do programu 800+, jednorazowego świadczenia 300 zł i innych form wsparcia.</p>
+
+<h2>Jak długo trwa ten status?</h2>
+<p>Ochrona tymczasowa była kilkakrotnie przedłużana. Obowiązuje do <strong>30 września 2026 r.</strong> (stan na dzień publikacji). Śledź aktualne informacje na udsc.gov.pl.</p>
+
+<h2>Jak udokumentować pobyt?</h2>
+<ol>
+  <li>Zarejestruj się w gminie → uzyskaj PESEL UKR</li>
+  <li>Złóż wniosek o pobyt czasowy przez gov.pl lub Urząd Wojewódzki</li>
+  <li>Otrzymasz zaświadczenie potwierdzające legalność pobytu</li>
+</ol>
+
+<h2>Co zrobić, gdy status wygasa?</h2>
+<p>Nie czekaj do ostatniej chwili. Opcje po wygaśnięciu:</p>
+<ul>
+  <li>Zezwolenie na pobyt czasowy ze względu na pracę</li>
+  <li>Wniosek o ochronę międzynarodową (azyl)</li>
+  <li>Karta Polaka (jeśli masz polskie korzenie)</li>
+</ul>
+
+<h2>Nexflow pomaga Ci znaleźć legalną pracę</h2>
+<p>Nexflow specjalizuje się w zatrudnianiu obywateli Ukrainy w Polsce. Pomagamy dopełnić wszystkie formalności. Skontaktuj się: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    title: "Тимчасовий захист у Польщі: права та процедури для громадян України",
+    description:
+      "Що таке тимчасовий захист, хто ним охоплений і які права він надає українським працівникам у Польщі — легальна робота, NFZ, PESEL UKR та соціальні виплати.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<h1>Тимчасовий захист у Польщі: права та процедури для громадян України</h1>
+
+<p>З 24 лютого 2022 року Польща прийняла понад мільйон українців, які перебувають під <strong>тимчасовим захистом</strong>. Що це за статус і які права він надає?</p>
+
+<h2>Що таке тимчасовий захист?</h2>
+<p>Тимчасовий захист — це спеціальний статус, що надається <strong>колективно</strong> громадянам України, які покинули країну після 24 лютого 2022 р. Він регулюється польським законом від 12 березня 2022 р. та директивою ЄС 2001/55/ЄС. Подавати заяву на отримання притулку не потрібно — статус надається автоматично.</p>
+
+<h2>Хто підпадає під захист?</h2>
+<ul>
+  <li>Громадяни України, які виїхали після 24.02.2022 р.</li>
+  <li>Особи без громадянства та громадяни третіх країн, які законно перебували в Україні</li>
+  <li>Члени їхніх сімей (подружжя, діти, батьки)</li>
+</ul>
+
+<h2>Які права надає тимчасовий захист?</h2>
+
+<h3>1. Легальна робота без дозволу</h3>
+<p>Ви можете працювати у <strong>будь-якого роботодавця</strong> без окремого дозволу на роботу. Роботодавець повідомляє районний центр зайнятості протягом 14 днів від прийняття на роботу.</p>
+
+<h3>2. Доступ до NFZ</h3>
+<p>Працюючи за трудовим договором або договором-дорученням, ви застраховані в NFZ — так само, як польські працівники.</p>
+
+<h3>3. Освіта для дітей</h3>
+<p>Діти під тимчасовим захистом навчаються в польських державних школах на тих самих умовах, що й польські діти.</p>
+
+<h3>4. PESEL UKR та Профіль Довіри</h3>
+<p>Після реєстрації в гміні ви отримаєте номер PESEL з позначкою «UKR», що відкриває доступ до Профілю Довіри та банківських послуг.</p>
+
+<h3>5. Соціальні виплати</h3>
+<p>Ви можете мати право на програму 800+, одноразову допомогу 300 злотих та інші форми підтримки.</p>
+
+<h2>Скільки триває цей статус?</h2>
+<p>Тимчасовий захист неодноразово продовжувався. Він діє до <strong>30 вересня 2026 р.</strong> (на дату публікації). Слідкуйте за актуальною інформацією на udsc.gov.pl.</p>
+
+<h2>Як підтвердити легальність перебування?</h2>
+<ol>
+  <li>Зареєструйтеся в гміні → отримайте PESEL UKR</li>
+  <li>Подайте заяву на тимчасовий вид на проживання через gov.pl або Воєводське управління</li>
+  <li>Отримаєте довідку, що підтверджує легальність перебування</li>
+</ol>
+
+<h2>Що робити, коли статус закінчується?</h2>
+<p>Не чекайте до останнього. Варіанти після закінчення:</p>
+<ul>
+  <li>Дозвіл на тимчасове проживання з метою роботи</li>
+  <li>Заява на міжнародний захист (притулок)</li>
+  <li>Карта поляка (якщо маєте польське коріння)</li>
+</ul>
+
+<h2>Nexflow допомагає знайти легальну роботу</h2>
+<p>Nexflow спеціалізується на працевлаштуванні громадян України в Польщі. Ми допомагаємо оформити всі необхідні документи. Зв'яжіться з нами: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    title: "Временная защита в Польше: права и процедуры для граждан Украины",
+    description:
+      "Что такое временная защита, кто ею охвачён и какие права она даёт украинским работникам в Польше — легальная работа, NFZ, PESEL UKR и социальные выплаты.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<h1>Временная защита в Польше: права и процедуры для граждан Украины</h1>
+
+<p>С 24 февраля 2022 года Польша приняла более миллиона украинцев, находящихся под <strong>временной защитой</strong>. Что это за статус и какие права он даёт?</p>
+
+<h2>Что такое временная защита?</h2>
+<p>Временная защита — это специальный статус, предоставляемый <strong>коллективно</strong> гражданам Украины, покинувшим страну после 24 февраля 2022 г. Он регулируется польским законом от 12 марта 2022 г. и директивой ЕС 2001/55/ЕС. Подавать заявление на убежище не нужно — статус предоставляется автоматически.</p>
+
+<h2>Кто подпадает под защиту?</h2>
+<ul>
+  <li>Граждане Украины, выехавшие после 24.02.2022 г.</li>
+  <li>Лица без гражданства и граждане третьих стран, законно находившиеся в Украине</li>
+  <li>Члены их семей (супруги, дети, родители)</li>
+</ul>
+
+<h2>Какие права даёт временная защита?</h2>
+
+<h3>1. Легальная работа без разрешения</h3>
+<p>Вы можете работать у <strong>любого работодателя</strong> без отдельного разрешения на работу. Работодатель уведомляет районный центр занятости в течение 14 дней с момента трудоустройства.</p>
+
+<h3>2. Доступ к NFZ</h3>
+<p>Работая по трудовому договору или договору-поручению (umowa zlecenie), вы застрахованы в NFZ — так же, как польские работники.</p>
+
+<h3>3. Образование для детей</h3>
+<p>Дети под временной защитой учатся в польских государственных школах на тех же условиях, что и польские дети.</p>
+
+<h3>4. PESEL UKR и Профиль Доверия</h3>
+<p>После регистрации в гмине вы получите номер PESEL с отметкой «UKR», который открывает доступ к Профилю Доверия (Profil Zaufany) и банковским услугам.</p>
+
+<h3>5. Социальные выплаты</h3>
+<p>Вы можете иметь право на программу 800+, единовременное пособие 300 злотых и другие формы поддержки.</p>
+
+<h2>Как долго действует этот статус?</h2>
+<p>Временная защита неоднократно продлевалась. Она действует до <strong>30 сентября 2026 г.</strong> (по состоянию на дату публикации). Следите за актуальной информацией на udsc.gov.pl.</p>
+
+<h2>Как подтвердить законность пребывания?</h2>
+<ol>
+  <li>Зарегистрируйтесь в гмине → получите PESEL UKR</li>
+  <li>Подайте заявление на временный вид на жительство через gov.pl или Воеводское управление</li>
+  <li>Получите справку, подтверждающую законность пребывания</li>
+</ol>
+
+<h2>Что делать, когда статус истекает?</h2>
+<p>Не ждите до последнего момента. Варианты после окончания:</p>
+<ul>
+  <li>Разрешение на временное проживание в целях работы</li>
+  <li>Заявление на международную защиту (убежище)</li>
+  <li>Карта поляка (если есть польские корни)</li>
+</ul>
+
+<h2>Nexflow помогает найти легальную работу</h2>
+<p>Nexflow специализируется на трудоустройстве граждан Украины в Польше. Мы помогаем оформить все необходимые документы. Свяжитесь с нами: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    title: "Temporary Protection in Poland: Rights and Procedures for Ukrainian Citizens",
+    description:
+      "What is temporary protection, who is covered, and what rights does it give Ukrainian workers in Poland — legal work, NFZ, PESEL UKR, and social benefits.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<h1>Temporary Protection in Poland: Rights and Procedures for Ukrainian Citizens</h1>
+
+<p>Since February 24, 2022, Poland has taken in over one million Ukrainians covered by <strong>temporary protection</strong>. What is this status and what rights does it give you?</p>
+
+<h2>What is temporary protection?</h2>
+<p>Temporary protection is a special status granted <strong>collectively</strong> to Ukrainian citizens who left the country after February 24, 2022. It is governed by the Polish Act of March 12, 2022, and EU Directive 2001/55/EC. You do not need to apply for asylum — the status is granted automatically.</p>
+
+<h2>Who is covered?</h2>
+<ul>
+  <li>Ukrainian citizens who left after February 24, 2022</li>
+  <li>Stateless persons and third-country nationals who were legally residing in Ukraine</li>
+  <li>Their family members (spouses, children, parents)</li>
+</ul>
+
+<h2>What rights does temporary protection give you?</h2>
+
+<h3>1. Legal work without a permit</h3>
+<p>You can work for <strong>any employer</strong> without a separate work permit. The employer must notify the district labour office (powiatowy urząd pracy) within 14 days of hiring you.</p>
+
+<h3>2. Access to NFZ (National Health Fund)</h3>
+<p>When working under an employment contract or a civil-law contract (umowa zlecenie), you are insured with NFZ — just like Polish employees.</p>
+
+<h3>3. Education for children</h3>
+<p>Children under temporary protection attend Polish public schools on the same terms as Polish children.</p>
+
+<h3>4. PESEL UKR and Trusted Profile</h3>
+<p>After registering at your local gmina office, you will receive a PESEL number marked "UKR", which gives you access to the Trusted Profile (Profil Zaufany) and banking services.</p>
+
+<h3>5. Social benefits</h3>
+<p>You may be eligible for the 800+ child benefit programme, a one-time 300 PLN payment, and other forms of support.</p>
+
+<h2>How long does this status last?</h2>
+<p>Temporary protection has been extended several times. It is valid until <strong>September 30, 2026</strong> (as of the date of publication). Check udsc.gov.pl for current information.</p>
+
+<h2>How to document your legal stay</h2>
+<ol>
+  <li>Register at your local gmina office → receive your PESEL UKR</li>
+  <li>Apply for a temporary residence permit via gov.pl or your Regional Voivodeship Office</li>
+  <li>You will receive a certificate confirming the legality of your stay</li>
+</ol>
+
+<h2>What to do when the status expires</h2>
+<p>Do not wait until the last moment. Options after expiry:</p>
+<ul>
+  <li>Temporary residence permit for work purposes (zezwolenie na pobyt czasowy)</li>
+  <li>Application for international protection (asylum)</li>
+  <li>Polish Card (Karta Polaka) if you have Polish roots</li>
+</ul>
+
+<h2>Nexflow helps you find legal work</h2>
+<p>Nexflow specialises in employing Ukrainian citizens in Poland. We help with all the necessary paperwork. Contact us: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
