@@ -28483,6 +28483,530 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Contact the Nexflow HR team if you have any questions about your insurance status or how to apply for EKUZ.</p>
     `.trim(),
   },
+  {
+    slug: "wypadek-w-drodze-do-pracy-polska-prawa-pracownika",
+    title: "Wypadek w drodze do pracy lub z pracy w Polsce – prawa pracownika tymczasowego",
+    description:
+      "Wypadek w drodze do pracy lub z pracy daje pracownikowi prawo do zasiłku chorobowego w wysokości 100% od pierwszego dnia. Dowiedz się, jakie prawa masz jako pracownik tymczasowy w Polsce.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<p>Jeśli uległeś wypadkowi w drodze do pracy lub w drodze powrotnej do domu, masz w Polsce szczególne prawa — inne niż przy zwykłym zwolnieniu lekarskim. Ten artykuł wyjaśnia, co to jest wypadek w drodze do pracy, jakie świadczenia ci przysługują i co musisz zrobić krok po kroku.</p>
+
+<h2>Czym jest wypadek w drodze do pracy?</h2>
+
+<p>Wypadek w drodze do pracy lub z pracy (tzw. <strong>wypadek komunikacyjny przy zatrudnieniu</strong>) to zdarzenie, które nastąpiło:</p>
+
+<ul>
+  <li>w drodze z domu do miejsca pracy lub z pracy do domu,</li>
+  <li>na bezpośredniej i najkrótszej trasie,</li>
+  <li>i spowodowało uszkodzenie ciała lub śmierć.</li>
+</ul>
+
+<p>Podstawa prawna: <strong>ustawa z dnia 25 czerwca 1999 r. o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa</strong> (Dz.U. art. 57b) oraz art. 3 ust. 3–4 ustawy o ubezpieczeniu społecznym z tytułu wypadków przy pracy.</p>
+
+<p><strong>Ważne:</strong> Wypadek w drodze do pracy to <strong>nie to samo</strong> co wypadek przy pracy. Obejmuje zdarzenia poza zakładem pracy, ale w związku z drogą do niej lub z niej.</p>
+
+<h2>Kogo dotyczy?</h2>
+
+<p>Przepisy dotyczą <strong>wszystkich pracowników</strong>, w tym pracowników tymczasowych zatrudnionych przez agencję pracy (taką jak Nexflow). Nie ma znaczenia, czy jesteś obywatelem polskim, ukraińskim, białoruskim ani innym cudzoziemcem — jeśli jesteś legalnie zatrudniony w Polsce, masz te same prawa.</p>
+
+<h2>Co się liczy jako wypadek w drodze do pracy?</h2>
+
+<p><strong>Obejmuje:</strong></p>
+
+<ul>
+  <li>Wypadek samochodowy, gdy jedziesz do pracy lub z pracy</li>
+  <li>Wypadek w autobusie, tramwaju, metrze, pociągu</li>
+  <li>Upadek na chodniku lub drodze (np. na lodzie) w drodze do/z pracy</li>
+  <li>Wypadek podczas jazdy rowerem do pracy</li>
+  <li>Wypadek w drodze do żłobka lub szkoły, jeśli jest to stała trasa w związku z pracą (szczególne przypadki)</li>
+</ul>
+
+<p><strong>Nie obejmuje:</strong></p>
+
+<ul>
+  <li>Wypadku podczas znacznego odchylenia od bezpośredniej trasy (np. wstąpienie na zakupy na boczną ulicę)</li>
+  <li>Wypadku w czasie przerwy, gdy wyszedłeś daleko poza zakład</li>
+  <li>Wypadku pod wpływem alkoholu lub środków odurzających</li>
+</ul>
+
+<h2>Jakie świadczenia ci przysługują?</h2>
+
+<p>To kluczowa różnica w stosunku do zwykłego zwolnienia lekarskiego (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sytuacja</th>
+      <th>Zwykłe L4</th>
+      <th>Wypadek w drodze do pracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wysokość zasiłku chorobowego</td>
+      <td>80% podstawy wymiaru</td>
+      <td><strong>100% podstawy wymiaru</strong></td>
+    </tr>
+    <tr>
+      <td>Od kiedy płaci ZUS</td>
+      <td>od 34. dnia niezdolności</td>
+      <td><strong>od 1. dnia niezdolności</strong></td>
+    </tr>
+    <tr>
+      <td>Okres zasiłkowy</td>
+      <td>do 182 dni (270 przy gruźlicy)</td>
+      <td>do 182 dni</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Oznacza to, że od <strong>pierwszego dnia</strong> choroby/urazu przysługuje ci zasiłek w wysokości <strong>100%</strong> wynagrodzenia — bez czekania.</p>
+
+<p>Jeśli niezdolność do pracy trwa dłużej, ZUS może przyznać <strong>świadczenie rehabilitacyjne</strong> (do 12 miesięcy).</p>
+
+<h2>Co zrobić krok po kroku?</h2>
+
+<h3>1. Zadbaj o bezpieczeństwo i wezwij pomoc</h3>
+
+<p>Zadzwoń pod numer 112 (pogotowie, policja). Zabezpiecz dowody — zrób zdjęcia.</p>
+
+<h3>2. Poproś o dokumentację</h3>
+
+<ul>
+  <li>Jeśli był wypadek drogowy: poproś policję o <strong>protokół z wypadku</strong> lub notatkę służbową.</li>
+  <li>W szpitalu/przychodni: zadbaj, aby lekarz wystawił <strong>e-ZLA</strong> (zwolnienie lekarskie) z kodem „W" (wypadek w drodze).</li>
+</ul>
+
+<h3>3. Poinformuj pracodawcę jak najszybciej</h3>
+
+<p>Masz obowiązek zgłosić wypadek <strong>pracodawcy (agencji pracy)</strong> niezwłocznie — najlepiej tego samego dnia lub następnego. W przypadku Nexflow: zadzwoń bezpośrednio do swojego opiekuna.</p>
+
+<h3>4. Pracodawca wypełnia Kartę wypadku</h3>
+
+<p>Pracodawca (agencja pracy) jest zobowiązany sporządzić <strong>Kartę wypadku w drodze do pracy lub z pracy</strong> w ciągu 14 dni od zgłoszenia. Karta jest podstawą do wypłaty zasiłku przez ZUS.</p>
+
+<h3>5. ZUS wypłaca świadczenie</h3>
+
+<p>Na podstawie karty wypadku i zwolnienia lekarskiego ZUS wypłaca zasiłek chorobowy w wysokości <strong>100% podstawy wymiaru</strong>.</p>
+
+<h2>Często zadawane pytania</h2>
+
+<p><strong>Czy muszę mieć świadka wypadku?</strong> Nie jest to obowiązkowe, ale świadkowie lub zdjęcia z miejsca zdarzenia znacznie ułatwiają postępowanie. Notatka policyjna to silny dowód.</p>
+
+<p><strong>Czy ZUS może odmówić uznania wypadku?</strong> Tak, jeśli trasa nie była bezpośrednia lub zdarzenie nastąpiło z winy umyślnej pracownika. Od decyzji ZUS można się odwołać.</p>
+
+<p><strong>Co jeśli pracuję przez agencję (Nexflow)?</strong> To agencja pracy (pracodawca formalny) jest zobowiązana do sporządzenia karty wypadku. Pracownik tymczasowy ma dokładnie takie same prawa jak każdy inny pracownik.</p>
+
+<p><strong>Czy mogę złożyć też roszczenie wobec sprawcy wypadku?</strong> Tak. Świadczenia ZUS nie wykluczają dochodzenia odszkodowania od sprawcy (np. przez ubezpieczenie OC pojazdu).</p>
+
+<h2>Podsumowanie – najważniejsze punkty</h2>
+
+<ul>
+  <li>Wypadek w drodze do pracy daje prawo do <strong>100% zasiłku od 1. dnia</strong></li>
+  <li>Dotyczy każdego legalnie zatrudnionego — niezależnie od narodowości</li>
+  <li>Zgłoś wypadek pracodawcy (agencji) jak najszybciej</li>
+  <li>Zadbaj o dokumentację: e-ZLA z kodem „W" + protokół policji/pogotowia</li>
+  <li>Agencja pracy sporządza kartę wypadku — to jej obowiązek, nie twój</li>
+</ul>
+
+<p><em>Masz pytania dotyczące wypadku w drodze do pracy? Skontaktuj się ze swoim opiekunem w Nexflow — pomożemy Ci przejść przez cały proces.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "vypadok-po-dorozi-na-robotu-polshcha-prava-pratsivnyka",
+    title: "Нещасний випадок по дорозі на роботу або з роботи в Польщі – права працівника",
+    description:
+      "Нещасний випадок по дорозі на роботу або з роботи дає право на допомогу у розмірі 100% із першого дня. Дізнайся, які права має тимчасовий працівник у Польщі.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<p>Якщо ти отримав травму по дорозі на роботу або додому після роботи, польське законодавство надає тобі особливі права. Ця стаття пояснює, що таке нещасний випадок по дорозі на роботу, які виплати тобі належать і що робити крок за кроком.</p>
+
+<h2>Що таке нещасний випадок по дорозі на роботу?</h2>
+
+<p>Нещасний випадок по дорозі на роботу або з роботи (<strong>wypadek w drodze do pracy lub z pracy</strong>) — це подія, що сталася:</p>
+
+<ul>
+  <li>по дорозі з дому до місця роботи або назад,</li>
+  <li>на прямому та найкоротшому маршруті,</li>
+  <li>і призвела до тілесного ушкодження або смерті.</li>
+</ul>
+
+<p>Правова основа: <strong>Закон від 25 червня 1999 р. про грошові виплати із соціального страхування у зв'язку з хворобою та материнством</strong> (ст. 57b), а також ст. 3 ч. 3–4 Закону про соціальне страхування від нещасних випадків на виробництві.</p>
+
+<p><strong>Важливо:</strong> Нещасний випадок по дорозі на роботу — це <strong>не те саме</strong>, що нещасний випадок на виробництві. Він охоплює події за межами підприємства, але пов'язані з дорогою до нього або від нього.</p>
+
+<h2>Кого це стосується?</h2>
+
+<p>Положення стосуються <strong>всіх працівників</strong>, зокрема тимчасових, найнятих через агентство (наприклад, Nexflow). Не має значення, чи ти громадянин Польщі, України, Білорусі або іншої країни — якщо ти легально працюєш у Польщі, у тебе ті самі права.</p>
+
+<h2>Що вважається нещасним випадком по дорозі на роботу?</h2>
+
+<p><strong>Підпадає під визначення:</strong></p>
+
+<ul>
+  <li>Автомобільна аварія по дорозі на роботу або з роботи</li>
+  <li>Аварія в автобусі, трамваї, метро, поїзді</li>
+  <li>Падіння на тротуарі (наприклад, на льоду) по дорозі до/з роботи</li>
+  <li>Аварія під час їзди на велосипеді на роботу</li>
+  <li>Нещасний випадок по дорозі до дитячого садка чи школи (у певних випадках, якщо це постійний маршрут у зв'язку з роботою)</li>
+</ul>
+
+<p><strong>Не підпадає:</strong></p>
+
+<ul>
+  <li>Нещасний випадок під час значного відхилення від прямого маршруту (наприклад, заїзд у магазин за кілька кілометрів)</li>
+  <li>Нещасний випадок під час перерви за межами підприємства</li>
+  <li>Нещасний випадок у стані алкогольного або наркотичного сп'яніння</li>
+</ul>
+
+<h2>Які виплати тобі належать?</h2>
+
+<p>Це ключова відмінність від звичайного лікарняного листа (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ситуація</th>
+      <th>Звичайний L4</th>
+      <th>Нещасний випадок по дорозі</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Розмір допомоги по хворобі</td>
+      <td>80% розрахункової бази</td>
+      <td><strong>100% розрахункової бази</strong></td>
+    </tr>
+    <tr>
+      <td>З якого дня платить ZUS</td>
+      <td>з 34-го дня</td>
+      <td><strong>з 1-го дня</strong></td>
+    </tr>
+    <tr>
+      <td>Тривалість виплати</td>
+      <td>до 182 днів</td>
+      <td>до 182 днів</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Це означає, що <strong>від першого дня</strong> непрацездатності тобі виплачуватиметься допомога у розмірі <strong>100%</strong> заробітку — без очікування.</p>
+
+<p>Якщо непрацездатність триває довше, ZUS може призначити <strong>реабілітаційну допомогу</strong> (до 12 місяців).</p>
+
+<h2>Що робити крок за кроком?</h2>
+
+<h3>1. Подбай про безпеку та виклич допомогу</h3>
+
+<p>Зателефонуй за номером 112 (швидка допомога, поліція). Зафіксуй докази — зроби фотографії.</p>
+
+<h3>2. Отримай документи</h3>
+
+<ul>
+  <li>Якщо ДТП: попроси поліцію про <strong>протокол</strong> або службову нотатку.</li>
+  <li>У лікарні/поліклініці: переконайся, що лікар видав <strong>e-ZLA</strong> (лікарняний лист) з кодом «W» (wypadek w drodze — нещасний випадок по дорозі).</li>
+</ul>
+
+<h3>3. Повідом роботодавця якомога швидше</h3>
+
+<p>Ти зобов'язаний повідомити про нещасний випадок <strong>роботодавцю (агентству)</strong> без зволікань — краще того самого або наступного дня. Для працівників Nexflow: зателефонуй безпосередньо своєму куратору.</p>
+
+<h3>4. Роботодавець складає Картку нещасного випадку</h3>
+
+<p>Роботодавець (агентство) зобов'язаний скласти <strong>Картку нещасного випадку по дорозі на роботу або з роботи (Karta wypadku w drodze do pracy)</strong> протягом 14 днів після повідомлення. Картка є підставою для виплати допомоги ZUS.</p>
+
+<h3>5. ZUS виплачує допомогу</h3>
+
+<p>На підставі картки нещасного випадку та лікарняного листа ZUS виплачує допомогу по хворобі у розмірі <strong>100% розрахункової бази</strong>.</p>
+
+<h2>Часті запитання</h2>
+
+<p><strong>Чи потрібні свідки нещасного випадку?</strong> Це не обов'язково, але свідки або фотографії з місця події значно спрощують процедуру. Поліцейський протокол — сильний доказ.</p>
+
+<p><strong>Чи може ZUS відмовити у визнанні нещасного випадку?</strong> Так, якщо маршрут не був прямим або подія сталася з умисної вини працівника. Рішення ZUS можна оскаржити.</p>
+
+<p><strong>Якщо я працюю через агентство (Nexflow)?</strong> Саме агентство (офіційний роботодавець) зобов'язане скласти картку нещасного випадку. Тимчасовий працівник має рівно ті самі права, що і будь-який інший.</p>
+
+<p><strong>Чи можу я також пред'явити претензії до винуватця аварії?</strong> Так. Виплати ZUS не виключають отримання відшкодування від винуватця (наприклад, через страхування OC транспортного засобу).</p>
+
+<h2>Підсумок – найважливіше</h2>
+
+<ul>
+  <li>Нещасний випадок по дорозі дає право на <strong>100% виплату від 1-го дня</strong></li>
+  <li>Стосується кожного легально зайнятого — незалежно від громадянства</li>
+  <li>Повідом роботодавця (агентство) якнайшвидше</li>
+  <li>Подбай про документи: e-ZLA з кодом «W» + протокол поліції/швидкої</li>
+  <li>Агентство складає картку нещасного випадку — це їхній обов'язок, а не твій</li>
+</ul>
+
+<p><em>Маєш запитання про нещасний випадок по дорозі на роботу? Зв'яжися зі своїм куратором у Nexflow — допоможемо пройти весь процес.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "neschastny-sluchay-po-doroge-na-rabotu-polsha-prava",
+    title: "Несчастный случай по дороге на работу или с работы в Польше – права работника",
+    description:
+      "Несчастный случай по дороге на работу или с работы даёт право на пособие в размере 100% с первого дня. Узнай, какие права имеет временный работник в Польше.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<p>Если ты получил травму по дороге на работу или возвращаясь домой после работы, польское законодательство предоставляет тебе особые права. Эта статья объясняет, что такое несчастный случай по дороге на работу, какие выплаты тебе положены и что делать шаг за шагом.</p>
+
+<h2>Что такое несчастный случай по дороге на работу?</h2>
+
+<p>Несчастный случай по дороге на работу или с работы (<strong>wypadek w drodze do pracy lub z pracy</strong>) — это событие, которое произошло:</p>
+
+<ul>
+  <li>по дороге из дома на работу или обратно,</li>
+  <li>по прямому и кратчайшему маршруту,</li>
+  <li>и повлекло телесные повреждения или смерть.</li>
+</ul>
+
+<p>Правовая основа: <strong>Закон от 25 июня 1999 г. о денежных пособиях из социального страхования в связи с болезнью и материнством</strong> (ст. 57b), а также ст. 3 ч. 3–4 Закона о социальном страховании от несчастных случаев на производстве.</p>
+
+<p><strong>Важно:</strong> Несчастный случай по дороге на работу — это <strong>не то же самое</strong>, что несчастный случай на производстве. Он охватывает события за пределами предприятия, но связанные с дорогой к нему или от него.</p>
+
+<h2>Кого это касается?</h2>
+
+<p>Положения распространяются на <strong>всех работников</strong>, в том числе временных, нанятых через агентство (например, Nexflow). Не имеет значения, гражданин ли ты Польши, Украины, Беларуси или другой страны — если ты легально работаешь в Польше, у тебя те же права.</p>
+
+<h2>Что считается несчастным случаем по дороге на работу?</h2>
+
+<p><strong>Подпадает под определение:</strong></p>
+
+<ul>
+  <li>ДТП по дороге на работу или с работы</li>
+  <li>Авария в автобусе, трамвае, метро, поезде</li>
+  <li>Падение на тротуаре (например, на льду) по дороге на работу/с работы</li>
+  <li>Авария при езде на велосипеде на работу</li>
+  <li>Несчастный случай по дороге в детский сад или школу (в определённых случаях, если это постоянный маршрут в связи с работой)</li>
+</ul>
+
+<p><strong>Не подпадает:</strong></p>
+
+<ul>
+  <li>Несчастный случай при значительном отклонении от прямого маршрута (например, заезд в магазин за несколько километров в сторону)</li>
+  <li>Несчастный случай во время перерыва за пределами предприятия</li>
+  <li>Несчастный случай в состоянии алкогольного или наркотического опьянения</li>
+</ul>
+
+<h2>Какие выплаты тебе положены?</h2>
+
+<p>Это ключевое отличие от обычного листа нетрудоспособности (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ситуация</th>
+      <th>Обычный L4</th>
+      <th>Несчастный случай по дороге</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Размер пособия по болезни</td>
+      <td>80% расчётной базы</td>
+      <td><strong>100% расчётной базы</strong></td>
+    </tr>
+    <tr>
+      <td>С какого дня платит ZUS</td>
+      <td>с 34-го дня</td>
+      <td><strong>с 1-го дня</strong></td>
+    </tr>
+    <tr>
+      <td>Продолжительность выплаты</td>
+      <td>до 182 дней</td>
+      <td>до 182 дней</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Это означает, что <strong>с первого дня</strong> нетрудоспособности тебе будет выплачиваться пособие в размере <strong>100%</strong> заработка — без ожидания.</p>
+
+<p>Если нетрудоспособность длится дольше, ZUS может назначить <strong>реабилитационное пособие</strong> (до 12 месяцев).</p>
+
+<h2>Что делать шаг за шагом?</h2>
+
+<h3>1. Обеспечь безопасность и вызови помощь</h3>
+
+<p>Позвони по номеру 112 (скорая помощь, полиция). Зафиксируй доказательства — сделай фотографии.</p>
+
+<h3>2. Получи документы</h3>
+
+<ul>
+  <li>Если ДТП: попроси полицию о <strong>протоколе</strong> или служебной записке.</li>
+  <li>В больнице/поликлинике: убедись, что врач выдал <strong>e-ZLA</strong> (листок нетрудоспособности) с кодом «W» (wypadek w drodze — несчастный случай по дороге).</li>
+</ul>
+
+<h3>3. Сообщи работодателю как можно быстрее</h3>
+
+<p>Ты обязан уведомить о несчастном случае <strong>работодателя (агентство)</strong> незамедлительно — лучше в тот же или на следующий день. Для работников Nexflow: позвони напрямую своему куратору.</p>
+
+<h3>4. Работодатель составляет Карточку несчастного случая</h3>
+
+<p>Работодатель (агентство) обязан составить <strong>Карточку несчастного случая по дороге на работу или с работы (Karta wypadku w drodze do pracy)</strong> в течение 14 дней после уведомления. Карточка является основанием для выплаты пособия ZUS.</p>
+
+<h3>5. ZUS выплачивает пособие</h3>
+
+<p>На основании карточки несчастного случая и листка нетрудоспособности ZUS выплачивает пособие по болезни в размере <strong>100% расчётной базы</strong>.</p>
+
+<h2>Часто задаваемые вопросы</h2>
+
+<p><strong>Нужны ли свидетели несчастного случая?</strong> Это не обязательно, но свидетели или фотографии с места события значительно упрощают процедуру. Полицейский протокол — весомое доказательство.</p>
+
+<p><strong>Может ли ZUS отказать в признании несчастного случая?</strong> Да, если маршрут не был прямым или событие произошло по умышленной вине работника. Решение ZUS можно обжаловать.</p>
+
+<p><strong>Если я работаю через агентство (Nexflow)?</strong> Именно агентство (официальный работодатель) обязано составить карточку несчастного случая. Временный работник имеет ровно те же права, что и любой другой.</p>
+
+<p><strong>Могу ли я также предъявить претензии к виновнику аварии?</strong> Да. Выплаты ZUS не исключают получения возмещения от виновника (например, через страхование OC транспортного средства).</p>
+
+<h2>Итог – самое важное</h2>
+
+<ul>
+  <li>Несчастный случай по дороге даёт право на <strong>100% пособие с 1-го дня</strong></li>
+  <li>Распространяется на каждого легально занятого — независимо от гражданства</li>
+  <li>Сообщи работодателю (агентству) как можно скорее</li>
+  <li>Позаботься о документах: e-ZLA с кодом «W» + протокол полиции/скорой</li>
+  <li>Агентство составляет карточку несчастного случая — это их обязанность, а не твоя</li>
+</ul>
+
+<p><em>Есть вопросы о несчастном случае по дороге на работу? Свяжись со своим куратором в Nexflow — поможем пройти весь процесс.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "commuting-accident-work-poland-temp-worker-rights",
+    title: "Commuting Accident in Poland – Rights of a Temp Worker",
+    description:
+      "A commuting accident in Poland entitles you to 100% sick benefit from day one. Learn what rights a temporary worker has and what to do step by step.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<p>If you were injured on your way to work or on your way home after work, Polish law gives you specific rights — different from ordinary sick leave. This article explains what a commuting accident is, what benefits you're entitled to, and what to do step by step.</p>
+
+<h2>What Is a Commuting Accident in Poland?</h2>
+
+<p>A commuting accident (<strong>wypadek w drodze do pracy lub z pracy</strong> in Polish) is an event that:</p>
+
+<ul>
+  <li>occurred on the direct route from home to work or from work to home,</li>
+  <li>happened on the shortest and most direct path,</li>
+  <li>and resulted in personal injury or death.</li>
+</ul>
+
+<p>Legal basis: <strong>Act of 25 June 1999 on cash benefits from social insurance in case of illness and maternity</strong> (Art. 57b), and Art. 3(3–4) of the Act on Social Insurance Against Accidents at Work.</p>
+
+<p><strong>Key distinction:</strong> A commuting accident is <strong>not the same</strong> as a workplace accident. It covers events that happen outside the workplace, but on the way to or from it.</p>
+
+<h2>Who Does This Apply To?</h2>
+
+<p>The rules apply to <strong>all employees</strong>, including temporary workers hired through a staffing agency (such as Nexflow). It doesn't matter whether you are Polish, Ukrainian, Belarusian, or of any other nationality — if you are legally employed in Poland, you have the same rights.</p>
+
+<h2>What Counts as a Commuting Accident?</h2>
+
+<p><strong>Qualifies:</strong></p>
+
+<ul>
+  <li>A car accident on the way to or from work</li>
+  <li>An accident on a bus, tram, subway, or train</li>
+  <li>A fall on a pavement or road (e.g. on ice) while commuting</li>
+  <li>A cycling accident on the way to work</li>
+  <li>An accident on the way to a nursery or school (in certain cases, if this is a regular route related to work)</li>
+</ul>
+
+<p><strong>Does not qualify:</strong></p>
+
+<ul>
+  <li>An accident during a significant detour from the direct route (e.g. going well out of the way to a supermarket)</li>
+  <li>An accident during a break taken away from the workplace</li>
+  <li>An accident while under the influence of alcohol or drugs</li>
+</ul>
+
+<h2>What Benefits Are You Entitled To?</h2>
+
+<p>This is the key difference compared to ordinary sick leave (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>Regular L4</th>
+      <th>Commuting Accident</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sick benefit amount</td>
+      <td>80% of calculation base</td>
+      <td><strong>100% of calculation base</strong></td>
+    </tr>
+    <tr>
+      <td>ZUS pays from</td>
+      <td>day 34</td>
+      <td><strong>day 1</strong></td>
+    </tr>
+    <tr>
+      <td>Maximum payment period</td>
+      <td>up to 182 days</td>
+      <td>up to 182 days</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This means that from <strong>day one</strong> of incapacity to work, you receive a benefit equal to <strong>100%</strong> of your salary — with no waiting period.</p>
+
+<p>If incapacity lasts longer, ZUS may grant a <strong>rehabilitation benefit</strong> (for up to 12 months).</p>
+
+<h2>What to Do Step by Step</h2>
+
+<h3>1. Ensure Safety and Call for Help</h3>
+
+<p>Call 112 (emergency services, police). Secure evidence — take photographs of the scene.</p>
+
+<h3>2. Obtain Documentation</h3>
+
+<ul>
+  <li>If a traffic accident: ask the police for an <strong>accident report</strong> or an official note.</li>
+  <li>At the hospital/clinic: make sure the doctor issues an <strong>e-ZLA</strong> (sick leave certificate) with the code "W" (wypadek w drodze — commuting accident).</li>
+</ul>
+
+<h3>3. Notify Your Employer as Soon as Possible</h3>
+
+<p>You are required to report the accident to your <strong>employer (staffing agency)</strong> immediately — ideally the same day or the next. For Nexflow workers: call your assigned coordinator directly.</p>
+
+<h3>4. Your Employer Fills Out the Accident Card</h3>
+
+<p>The employer (staffing agency) is required to prepare a <strong>Commuting Accident Card (Karta wypadku w drodze do pracy)</strong> within 14 days of the report. This card is the basis for ZUS benefit payment.</p>
+
+<h3>5. ZUS Pays Your Benefit</h3>
+
+<p>Based on the accident card and sick leave certificate, ZUS pays sick benefit at <strong>100% of your calculation base</strong>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Do I need witnesses?</strong> It's not required, but witnesses or photographs from the scene make the procedure much easier. A police report is strong evidence.</p>
+
+<p><strong>Can ZUS refuse to recognise the accident?</strong> Yes, if the route was not direct or the event was the result of the worker's deliberate fault. You can appeal against a ZUS decision.</p>
+
+<p><strong>What if I work through an agency (Nexflow)?</strong> The agency (your formal employer) is responsible for completing the accident card. Temporary workers have exactly the same rights as any other employee.</p>
+
+<p><strong>Can I also claim against the person who caused the accident?</strong> Yes. ZUS benefits do not exclude seeking compensation from the responsible party (e.g. through their vehicle liability insurance — OC).</p>
+
+<h2>Summary – Key Points</h2>
+
+<ul>
+  <li>A commuting accident gives you the right to a <strong>100% benefit from day 1</strong></li>
+  <li>Applies to every legally employed person — regardless of nationality</li>
+  <li>Notify your employer (agency) as soon as possible</li>
+  <li>Secure documentation: e-ZLA with code "W" + police/ambulance report</li>
+  <li>The staffing agency fills out the accident card — that is their obligation, not yours</li>
+</ul>
+
+<p><em>Questions about a commuting accident? Contact your Nexflow coordinator — we'll guide you through the whole process.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
