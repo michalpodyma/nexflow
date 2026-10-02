@@ -2370,15 +2370,27 @@
       "fb_post_id": "1107760715748033_122133560774808780",
       "published_at": "2026-10-01T08:23:29+0000",
       "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/wypowiedzenie-umowy-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122133720038808780",
+      "published_at": "2026-10-02T07:04:44+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+      "fb_post_id": "1107760715748033_122133720062808780",
+      "published_at": "2026-10-02T07:04:53+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-10-01T08:23:29+0000",
+  "last_run": "2026-10-02T07:04:53+0000",
   "last_run_result": {
-    "date": "2026-10-01",
-    "new_posts": 16,
-    "sitemap_count": "438 URLs (nexflow.work reachable)",
-    "published_count": 395,
-    "note": "EUR-3396 recovery run after EUR-3364 PAT rotation unblock: published 16 posts — salary deductions (EUR-3368), holiday-pay equivalent, single permit, commuting accident (EUR-3739), each in PL/UA/RU/EN"
+    "date": "2026-10-02",
+    "new_posts": 2,
+    "sitemap_count": "122 blog URLs (nexflow.work reachable)",
+    "published_count": 397,
+    "note": "EUR-3768: published 2 new posts — wypowiedzenie-umowy-pracownik-tymczasowy-polska, ochrona-tymczasowa-ukraina-polska-prawa-procedury"
   },
   "pending": []
 }
