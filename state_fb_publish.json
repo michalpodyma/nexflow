@@ -2384,49 +2384,49 @@
       "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
     },
     {
-      "url": "https://nexflow.work/en/blog/temporary-protection-ukraine-poland-rights-procedures",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:00:00+0000",
-      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
-    },
-    {
-      "url": "https://nexflow.work/en/blog/terminating-temp-work-contract-notice-period-poland",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:05:00+0000",
-      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
-    },
-    {
-      "url": "https://nexflow.work/uk/blog/tymchasovyi-zakhyst-ukraina-polshcha-prava-protsedury",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:10:00+0000",
-      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
-    },
-    {
       "url": "https://nexflow.work/uk/blog/rozirvannya-dohovoru-tymchasovyi-pratsivnyk-polshcha",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:15:00+0000",
-      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
-    },
-    {
-      "url": "https://nexflow.work/ru/blog/vremennaya-zashchita-ukraina-polsha-prava-protsedury",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:20:00+0000",
+      "fb_post_id": "1107760715748033_122133723092808780",
+      "published_at": "2026-10-02T07:33:17+0000",
       "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/rastorzheniye-dogovora-vremennyy-rabotnik-polsha",
-      "fb_post_id": null,
-      "published_at": "2026-10-05T07:25:00+0000",
+      "fb_post_id": "1107760715748033_122133723122808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/terminating-temp-work-contract-notice-period-poland",
+      "fb_post_id": "1107760715748033_122133723140808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/tymchasovyi-zakhyst-ukraina-polshcha-prava-protsedury",
+      "fb_post_id": "1107760715748033_122133723158808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/vremennaya-zashchita-ukraina-polsha-prava-protsedury",
+      "fb_post_id": "1107760715748033_122133723182808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/temporary-protection-ukraine-poland-rights-procedures",
+      "fb_post_id": "1107760715748033_122133723212808780",
+      "published_at": "2026-10-02T07:33:17+0000",
       "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-10-05T07:25:00+0000",
+  "last_run": "2026-10-02T07:33:17+0000",
   "last_run_result": {
-    "date": "2026-10-05",
+    "date": "2026-10-02",
     "new_posts": 6,
-    "sitemap_count": "380 blog URLs (nexflow.work reachable)",
+    "sitemap_count": "380 blog URLs",
     "published_count": 403,
-    "note": "EUR-3732: published 6 new posts — EN/UK/RU versions of temporary-protection-ukraine and terminating-temp-work-contract"
+    "note": "EUR-3769: published 6 remaining posts — rozirvannya/rastorzheniye/terminating (UK/RU/EN) and tymchasovyi-zakhyst/vremennaya-zashchita/temporary-protection (UK/RU/EN)"
   },
   "pending": []
 }
