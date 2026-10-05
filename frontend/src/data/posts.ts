@@ -29451,6 +29451,365 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Nexflow specialises in employing Ukrainian citizens in Poland. We help with all the necessary paperwork. Contact us: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
     `.trim(),
   },
+  {
+    slug: "tlumaczenie-przysigle-dokumenty-cudzoziemiec-polska",
+    title: "Tłumaczenie Przysięgłe w Polsce — Kiedy Jest Potrzebne i Jak Je Uzyskać",
+    description:
+      "Kiedy cudzoziemiec pracujący w Polsce potrzebuje tłumaczenia przysięgłego? Jak znaleźć tłumacza, ile kosztuje i jakie dokumenty należy przetłumaczyć.",
+    date: "2026-10-05",
+    lang: "pl",
+    content: `
+<p>Jeśli jesteś cudzoziemcem pracującym lub mieszkającym w Polsce, prędzej czy później będziesz potrzebować tłumaczenia przysięgłego. Dowiedz się, czym dokładnie ono jest, kiedy jest wymagane i jak je uzyskać.</p>
+
+<h2>Czym jest tłumaczenie przysięgłe?</h2>
+<p>Tłumaczenie przysięgłe (zwane też tłumaczeniem uwierzytelnionym) to przekład dokumentu wykonany przez tłumacza przysięgłego — osobę wpisaną na listę tłumaczy przysięgłych Ministerstwa Sprawiedliwości RP. Tłumaczenie takie ma charakter urzędowy i jest uznawane przez wszystkie polskie instytucje.</p>
+<p>W odróżnieniu od zwykłego tłumaczenia, tłumaczenie przysięgłe jest opieczętowane pieczęcią tłumacza i zawiera jego podpis oraz numer wpisu na listę MS.</p>
+
+<h2>Kiedy cudzoziemiec potrzebuje tłumaczenia przysięgłego?</h2>
+<p>Tłumaczenie przysięgłe jest obowiązkowe w wielu sytuacjach:</p>
+<ul>
+  <li><strong>Karta pobytu / TRC</strong> — wniosek o kartę czasowego lub stałego pobytu wymaga tłumaczenia paszportu, aktu urodzenia, świadectwa pracy i innych dokumentów</li>
+  <li><strong>Zezwolenie na pracę</strong> — zagraniczne dokumenty potwierdzające kwalifikacje mogą wymagać tłumaczenia</li>
+  <li><strong>Nostryfikacja dyplomu</strong> — uznanie zagranicznego wykształcenia w Polsce zawsze wymaga tłumaczenia przysięgłego</li>
+  <li><strong>Wymiana prawa jazdy</strong> — zagraniczne prawo jazdy musi być przetłumaczone przed wymianą</li>
+  <li><strong>Sprawy sądowe</strong> — dokumenty obcojęzyczne prezentowane w sądzie wymagają tłumaczenia przysięgłego</li>
+  <li><strong>Akt ślubu / urodzenia dziecka</strong> — rejestracja stanu cywilnego wymaga przetłumaczenia zagranicznych aktów</li>
+  <li><strong>Rejestracja do szkoły</strong> — zagraniczne świadectwa szkolne mogą wymagać tłumaczenia</li>
+</ul>
+
+<h2>Jakie dokumenty najczęściej tłumaczą cudzoziemcy?</h2>
+<ul>
+  <li>Paszport (strony z danymi, wizą, stemplami wjazdowymi)</li>
+  <li>Akt urodzenia</li>
+  <li>Akt małżeństwa / rozwodu</li>
+  <li>Świadectwo pracy / umowa o pracę</li>
+  <li>Dyplom ukończenia szkoły lub studiów</li>
+  <li>Zaświadczenie o niekaralności</li>
+  <li>Prawo jazdy</li>
+  <li>Zaświadczenie lekarskie</li>
+</ul>
+
+<h2>Jak znaleźć tłumacza przysięgłego?</h2>
+<p>Listę tłumaczy przysięgłych prowadzi Ministerstwo Sprawiedliwości. Wyszukaj tłumacza według języka (ukraiński, rosyjski, białoruski itd.) na stronie: <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Sprawdź, czy tłumacz ma status „wpisany" (aktywny).</p>
+<p>Możesz też skorzystać z:</p>
+<ul>
+  <li>Biur tłumaczeń w Twoim mieście (wiele z nich współpracuje z tłumaczami przysięgłymi)</li>
+  <li>Platform internetowych z dostawą PDF lub kurierską</li>
+</ul>
+
+<h2>Ile kosztuje tłumaczenie przysięgłe?</h2>
+<p>Ceny nie są regulowane przepisami. Orientacyjnie:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Język</th>
+      <th>Cena za stronę rozliczeniową</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ukraiński / Rosyjski → Polski</td>
+      <td>40–70 zł</td>
+    </tr>
+    <tr>
+      <td>Angielski → Polski</td>
+      <td>50–80 zł</td>
+    </tr>
+    <tr>
+      <td>Białoruski → Polski</td>
+      <td>60–90 zł</td>
+    </tr>
+  </tbody>
+</table>
+<p>Jedna strona rozliczeniowa = 1 125 znaków tekstu docelowego (ze spacjami).</p>
+
+<h2>Jak długo czeka się na tłumaczenie?</h2>
+<ul>
+  <li>Standardowo: <strong>2–5 dni roboczych</strong></li>
+  <li>Ekspresowo: <strong>tego samego dnia lub 24 godziny</strong> (dopłata 50–100%)</li>
+  <li>Online: PDF tego samego dnia, oryginał kurierem w 1–2 dni</li>
+</ul>
+
+<h2>Ważne wskazówki</h2>
+<ol>
+  <li>Zawsze proś o <strong>oryginalny egzemplarz</strong> z pieczęcią — urzędy nie przyjmują kopii kserograficznych</li>
+  <li>Weryfikuj tłumacza na liście MS — nielegalnie działający "tłumacze przysięgli" to realne zagrożenie</li>
+  <li>Agencja Nexflow może skierować Cię do zaufanego biura tłumaczeń</li>
+</ol>
+
+<h2>Podsumowanie</h2>
+<p>Tłumaczenie przysięgłe jest nieodłącznym elementem legalizacji pobytu i pracy w Polsce. Zaplanuj je z wyprzedzeniem — szczególnie jeśli składasz wniosek o kartę pobytu lub wymieniasz prawo jazdy. Tłumacze przysięgli są dostępni w każdym większym mieście i przez Internet.</p>
+    `.trim(),
+  },
+  {
+    slug: "prysiazhnyi-pereklad-dokumentiv-inozemets-polshcha",
+    title: "Присяжний переклад документів у Польщі — коли потрібний і як отримати",
+    description:
+      "Коли іноземному працівнику в Польщі потрібен присяжний переклад? Як знайти перекладача, скільки коштує та які документи потрібно перекладати.",
+    date: "2026-10-05",
+    lang: "uk",
+    content: `
+<p>Якщо ти іноземець, який живе або працює в Польщі, рано чи пізно тобі знадобиться присяжний переклад документів. Дізнайся, що це таке, коли він обов'язковий і де його отримати.</p>
+
+<h2>Що таке присяжний переклад?</h2>
+<p>Присяжний переклад (tłumaczenie przysięgłe або tłumaczenie uwierzytelnione) — це офіційний переклад документа, виконаний перекладачем, внесеним до реєстру Міністерства юстиції Польщі. Такий переклад має юридичну силу і визнається всіма польськими органами влади.</p>
+<p>На відміну від звичайного перекладу, присяжний переклад містить печатку і підпис присяжного перекладача та його реєстраційний номер.</p>
+
+<h2>Коли іноземцю потрібен присяжний переклад?</h2>
+<ul>
+  <li><strong>Карта тимчасового перебування (TRC)</strong> — заява вимагає перекладу паспорта, свідоцтва про народження, трудових документів тощо</li>
+  <li><strong>Дозвіл на роботу</strong> — іноземні документи про кваліфікацію можуть вимагати перекладу</li>
+  <li><strong>Нострифікація диплому</strong> — визнання іноземної освіти в Польщі завжди потребує присяжного перекладу</li>
+  <li><strong>Обмін водійського посвідчення</strong> — іноземні водійські права потрібно перекласти перед обміном</li>
+  <li><strong>Судові справи</strong> — документи іноземною мовою в суді потребують присяжного перекладу</li>
+  <li><strong>Реєстрація актів цивільного стану</strong> — реєстрація іноземного свідоцтва про народження або шлюбу</li>
+  <li><strong>Запис дитини до школи</strong> — іноземні шкільні документи можуть потребувати перекладу</li>
+</ul>
+
+<h2>Які документи найчастіше перекладають?</h2>
+<ul>
+  <li>Паспорт (сторінки з даними, візою, штампами в'їзду)</li>
+  <li>Свідоцтво про народження</li>
+  <li>Свідоцтво про шлюб / розлучення</li>
+  <li>Трудова книжка / довідка з роботи</li>
+  <li>Диплом школи або університету</li>
+  <li>Довідка про несудимість</li>
+  <li>Водійське посвідчення</li>
+  <li>Медичні довідки</li>
+</ul>
+
+<h2>Як знайти присяжного перекладача?</h2>
+<p>Список присяжних перекладачів веде Міністерство юстиції Польщі. Шукай за мовою (ukraiński, rosyjski тощо): <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Перевір, чи статус перекладача — «wpisany» (активний).</p>
+<p>Також можна:</p>
+<ul>
+  <li>Звернутися до бюро перекладів у своєму місті</li>
+  <li>Скористатися онлайн-платформами з доставкою PDF або кур'єром</li>
+</ul>
+
+<h2>Скільки коштує присяжний переклад?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Мова</th>
+      <th>Ціна за сторінку</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Українська / Російська → Польська</td>
+      <td>40–70 зл</td>
+    </tr>
+    <tr>
+      <td>Англійська → Польська</td>
+      <td>50–80 зл</td>
+    </tr>
+    <tr>
+      <td>Білоруська → Польська</td>
+      <td>60–90 зл</td>
+    </tr>
+  </tbody>
+</table>
+<p>Одна «розрахункова сторінка» = 1 125 знаків (з пробілами) кінцевого тексту.</p>
+
+<h2>Скільки часу займає переклад?</h2>
+<ul>
+  <li>Стандартно: <strong>2–5 робочих днів</strong></li>
+  <li>Терміново: <strong>того ж дня або 24 год</strong> (доплата 50–100%)</li>
+  <li>Онлайн: PDF того ж дня, оригінал кур'єром за 1–2 дні</li>
+</ul>
+
+<h2>Важливі поради</h2>
+<ol>
+  <li>Завжди проси <strong>оригінальний примірник</strong> з печаткою — ксерокопії органи не приймають</li>
+  <li>Перевіряй перекладача на офіційному списку MS — шахраї реально існують</li>
+  <li>Агентство Nexflow може направити тебе до надійного бюро перекладів</li>
+</ol>
+
+<h2>Підсумок</h2>
+<p>Присяжний переклад — обов'язкова частина легалізації в Польщі. Плануй його заздалегідь, особливо якщо подаєш заяву на карту перебування або обмінюєш водійські права.</p>
+    `.trim(),
+  },
+  {
+    slug: "prisyazhnyj-perevod-dokumentov-inostranets-polsha",
+    title: "Присяжный перевод документов в Польше — когда нужен и как получить",
+    description:
+      "Когда иностранному работнику в Польше нужен присяжный перевод? Как найти переводчика, сколько стоит и какие документы нужно переводить.",
+    date: "2026-10-05",
+    lang: "ru",
+    content: `
+<p>Если ты иностранец, живущий или работающий в Польше, рано или поздно тебе понадобится присяжный перевод документов. Узнай, что это такое, когда он обязателен и как его получить.</p>
+
+<h2>Что такое присяжный перевод?</h2>
+<p>Присяжный перевод (tłumaczenie przysięgłe или tłumaczenie uwierzytelnione) — это официальный перевод документа, выполненный переводчиком, включённым в реестр Министерства юстиции Польши. Такой перевод имеет юридическую силу и признаётся всеми польскими государственными органами.</p>
+<p>В отличие от обычного перевода, присяжный перевод содержит печать и подпись присяжного переводчика с его регистрационным номером.</p>
+
+<h2>Когда иностранцу нужен присяжный перевод?</h2>
+<ul>
+  <li><strong>Карта временного пребывания (TRC)</strong> — заявление требует перевода паспорта, свидетельства о рождении, трудовых документов и пр.</li>
+  <li><strong>Разрешение на работу</strong> — иностранные документы о квалификации могут потребовать перевода</li>
+  <li><strong>Нострификация диплома</strong> — признание иностранного образования в Польше всегда требует присяжного перевода</li>
+  <li><strong>Обмен водительского удостоверения</strong> — иностранные права нужно перевести перед обменом</li>
+  <li><strong>Судебные дела</strong> — иноязычные документы в суде требуют присяжного перевода</li>
+  <li><strong>Регистрация актов гражданского состояния</strong> — регистрация иностранного свидетельства о рождении или браке</li>
+  <li><strong>Зачисление ребёнка в школу</strong> — иностранные школьные документы могут потребовать перевода</li>
+</ul>
+
+<h2>Какие документы чаще всего переводят?</h2>
+<ul>
+  <li>Паспорт (страницы с данными, визой, въездными штампами)</li>
+  <li>Свидетельство о рождении</li>
+  <li>Свидетельство о браке / разводе</li>
+  <li>Трудовая книжка / справка с работы</li>
+  <li>Диплом школы или университета</li>
+  <li>Справка о несудимости</li>
+  <li>Водительское удостоверение</li>
+  <li>Медицинские справки</li>
+</ul>
+
+<h2>Как найти присяжного переводчика?</h2>
+<p>Список присяжных переводчиков ведёт Министерство юстиции Польши. Поиск по языку (ukraiński, rosyjski и др.): <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Убедись, что статус переводчика — «wpisany» (активный).</p>
+<p>Также можно:</p>
+<ul>
+  <li>Обратиться в бюро переводов в своём городе</li>
+  <li>Воспользоваться онлайн-платформами с доставкой PDF или курьером</li>
+</ul>
+
+<h2>Сколько стоит присяжный перевод?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Язык</th>
+      <th>Цена за страницу</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Украинский / Русский → Польский</td>
+      <td>40–70 злотых</td>
+    </tr>
+    <tr>
+      <td>Английский → Польский</td>
+      <td>50–80 злотых</td>
+    </tr>
+    <tr>
+      <td>Белорусский → Польский</td>
+      <td>60–90 злотых</td>
+    </tr>
+  </tbody>
+</table>
+<p>Одна «расчётная страница» = 1 125 знаков (с пробелами) итогового текста.</p>
+
+<h2>Сколько времени занимает перевод?</h2>
+<ul>
+  <li>Стандартно: <strong>2–5 рабочих дней</strong></li>
+  <li>Срочно: <strong>в тот же день или 24 часа</strong> (доплата 50–100%)</li>
+  <li>Онлайн: PDF в тот же день, оригинал курьером за 1–2 дня</li>
+</ul>
+
+<h2>Важные советы</h2>
+<ol>
+  <li>Всегда требуй <strong>оригинальный экземпляр</strong> с печатью — ксерокопии органы не принимают</li>
+  <li>Проверяй переводчика по официальному списку MS — мошенники существуют</li>
+  <li>Агентство Nexflow может направить тебя в надёжное бюро переводов</li>
+</ol>
+
+<h2>Итог</h2>
+<p>Присяжный перевод — обязательная часть легализации в Польше. Планируй его заранее, особенно если подаёшь заявление на карту пребывания или обмениваешь водительское удостоверение.</p>
+    `.trim(),
+  },
+  {
+    slug: "sworn-translation-documents-foreign-worker-poland",
+    title: "Sworn Translation of Documents in Poland — A Guide for Foreign Workers",
+    description:
+      "Do you need a sworn translation of your documents in Poland? Find out when it's required, how to find a certified translator, what it costs, and how long it takes.",
+    date: "2026-10-05",
+    lang: "en",
+    content: `
+<p>If you're a foreign national living or working in Poland, you'll almost certainly need a sworn (certified) translation of your documents at some point. Here's everything you need to know.</p>
+
+<h2>What is a sworn translation in Poland?</h2>
+<p>A sworn translation (tłumaczenie przysięgłe or tłumaczenie uwierzytelnione) is an officially certified translation of a document, carried out by a sworn translator registered on the list maintained by Poland's Ministry of Justice (Ministerstwo Sprawiedliwości). This type of translation is legally valid and accepted by all Polish authorities, courts, and public institutions.</p>
+<p>Unlike a regular translation, a sworn translation bears the translator's official stamp, handwritten signature, and registration number.</p>
+
+<h2>When does a foreign worker need a sworn translation?</h2>
+<ul>
+  <li><strong>Temporary Residence Card (TRC / karta pobytu)</strong> — the application requires translated copies of your passport, birth certificate, employment documents, and other supporting materials</li>
+  <li><strong>Work permit application</strong> — foreign qualification certificates may need to be translated</li>
+  <li><strong>Diploma recognition (nostryfikacja)</strong> — recognising foreign educational credentials in Poland always requires a sworn translation</li>
+  <li><strong>Driver's licence exchange</strong> — a foreign driving licence must be translated before it can be exchanged for a Polish one</li>
+  <li><strong>Court proceedings</strong> — any foreign-language documents submitted to a Polish court must be translated by a sworn translator</li>
+  <li><strong>Marriage / civil registration</strong> — registering a foreign birth or marriage certificate at a Polish Registry Office (USC) requires a sworn translation</li>
+  <li><strong>School enrolment for children</strong> — foreign school certificates may need translation</li>
+</ul>
+
+<h2>Which documents are most commonly translated?</h2>
+<ul>
+  <li>Passport (personal data pages, visa pages, entry stamps)</li>
+  <li>Birth certificate</li>
+  <li>Marriage certificate / divorce decree</li>
+  <li>Employment record / work reference letter</li>
+  <li>School or university diploma</li>
+  <li>Criminal record check (certificate of no criminal record)</li>
+  <li>Driver's licence</li>
+  <li>Medical certificates</li>
+</ul>
+
+<h2>How to find a sworn translator in Poland</h2>
+<p>The Ministry of Justice maintains the official list of sworn translators. You can search by language (e.g., Ukrainian, Russian, Belarusian) at: <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Make sure the translator's status shows as "wpisany" (registered and active).</p>
+<p>You can also:</p>
+<ul>
+  <li>Visit a translation agency in your city (many work with certified sworn translators)</li>
+  <li>Use online translation platforms that offer delivery by PDF or courier</li>
+</ul>
+
+<h2>How much does a sworn translation cost?</h2>
+<p>Sworn translation fees are not regulated by law, but typical prices are:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Language pair</th>
+      <th>Price per page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ukrainian / Russian → Polish</td>
+      <td>PLN 40–70</td>
+    </tr>
+    <tr>
+      <td>English → Polish</td>
+      <td>PLN 50–80</td>
+    </tr>
+    <tr>
+      <td>Belarusian → Polish</td>
+      <td>PLN 60–90</td>
+    </tr>
+  </tbody>
+</table>
+<p>One "billing page" = 1,125 characters (including spaces) of the target-language text.</p>
+
+<h2>How long does it take?</h2>
+<ul>
+  <li>Standard: <strong>2–5 working days</strong></li>
+  <li>Express: <strong>same day or 24 hours</strong> (with a 50–100% surcharge)</li>
+  <li>Online: PDF delivered same day, physical original by courier within 1–2 days</li>
+</ul>
+
+<h2>Key tips for foreign workers</h2>
+<ol>
+  <li>Always ask for the <strong>original copy</strong> with the translator's stamp — Polish authorities do not accept photocopies of sworn translations</li>
+  <li>Verify the translator on the official MS list to avoid fraud</li>
+  <li>Nexflow can refer you to a trusted translation office in your area</li>
+</ol>
+
+<h2>Summary</h2>
+<p>Sworn translation is a routine but essential step in the legalisation process in Poland. Plan ahead — especially if you're applying for a residence card, exchanging your driver's licence, or registering family documents.</p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
