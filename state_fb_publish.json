@@ -2418,9 +2418,41 @@
       "fb_post_id": "1107760715748033_122133723212808780",
       "published_at": "2026-10-02T07:33:17+0000",
       "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/tlumaczenie-przysigle-dokumenty-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122134657610808780",
+      "published_at": "2026-10-07T07:04:05+0000",
+      "verified_at": "2026-10-07T07:04:05+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657610808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/prysiazhnyi-pereklad-dokumentiv-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122134657640808780",
+      "published_at": "2026-10-07T07:04:13+0000",
+      "verified_at": "2026-10-07T07:04:13+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657640808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/prisyazhnyj-perevod-dokumentov-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122134657670808780",
+      "published_at": "2026-10-07T07:04:22+0000",
+      "verified_at": "2026-10-07T07:04:22+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657670808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sworn-translation-documents-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122134657712808780",
+      "published_at": "2026-10-07T07:04:30+0000",
+      "verified_at": "2026-10-07T07:04:30+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657712808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
     }
   ],
-  "last_run": "2026-10-02T07:33:17+0000",
+  "last_run": "2026-10-07T07:04:30+0000",
   "last_run_result": {
     "date": "2026-10-02",
     "new_posts": 6,
