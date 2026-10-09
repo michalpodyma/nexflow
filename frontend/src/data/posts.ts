@@ -23639,6 +23639,574 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p><em>Nexflow Sp. z o.o. | Temporary Employment Agency | nexflow.work</em></p>
     `.trim(),
   },
+  {
+    slug: "blik-platnosci-mobilne-polska-cudzoziemiec-poradnik",
+    title: "BLIK i płatności mobilne w Polsce — poradnik dla cudzoziemca",
+    description:
+      "Jak używać BLIK-a w Polsce? Poradnik dla pracowników tymczasowych z Ukrainy i Białorusi — płatności w sklepach, wypłaty z bankomatu i przelewy na telefon.",
+    date: "2026-10-09",
+    lang: "pl",
+    content: `
+<p>Masz już konto bankowe w Polsce? Teraz czas nauczyć się, jak płacić wygodnie i bezpiecznie — bez noszenia gotówki przy sobie. W Polsce działa jeden z najbardziej zaawansowanych systemów płatności mobilnych w Europie: <strong>BLIK</strong>.</p>
+
+<h2>Co to jest BLIK?</h2>
+
+<p>BLIK to bezpłatna polska usługa płatnicza dostępna w aplikacji mobilnej Twojego banku. Działa za pomocą 6-cyfrowego kodu ważnego przez 2 minuty.</p>
+
+<p>Dzięki BLIK możesz:</p>
+<ul>
+  <li><strong>płacić w sklepach</strong> stacjonarnych (w kasie lub na terminalu samoobsługowym)</li>
+  <li><strong>płacić w internecie</strong> (sklepy, Allegro, serwisy streamingowe)</li>
+  <li><strong>wypłacać gotówkę z bankomatu</strong> — bez karty płatniczej</li>
+  <li><strong>wysyłać pieniądze</strong> znajomym na numer telefonu</li>
+</ul>
+
+<h2>W jakim banku mam BLIK?</h2>
+
+<p>BLIK jest dostępny w aplikacjach mobilnych wszystkich głównych banków w Polsce:</p>
+<ul>
+  <li><strong>PKO BP</strong> → aplikacja IKO</li>
+  <li><strong>Santander</strong> → aplikacja Santander Mobile</li>
+  <li><strong>mBank</strong> → aplikacja mBank</li>
+  <li><strong>Pekao</strong> → aplikacja PeoPay</li>
+  <li><strong>Alior Bank</strong> → aplikacja Alior Mobile</li>
+  <li><strong>Millennium</strong> → aplikacja Millennium</li>
+</ul>
+
+<p>Wystarczy zainstalować aplikację swojego banku i aktywować BLIK w ustawieniach.</p>
+
+<h2>Jak zapłacić BLIK-iem w sklepie?</h2>
+
+<ol>
+  <li>Otwórz aplikację bankową na telefonie</li>
+  <li>Wejdź w zakładkę <strong>BLIK</strong> lub <strong>Płatności</strong></li>
+  <li>Wyświetli się <strong>6-cyfrowy kod</strong> — zapamiętaj go (ważny przez 2 minuty)</li>
+  <li>Na terminalu w kasie wybierz opcję <strong>BLIK</strong> (lub powiedz kasjerce)</li>
+  <li>Wpisz kod na terminalu</li>
+  <li>Zatwierdź płatność w aplikacji bankowej (przyciskiem lub PIN-em)</li>
+</ol>
+
+<p>✅ Gotowe! Płatność jest natychmiastowa.</p>
+
+<h2>Jak wypłacić gotówkę z bankomatu BLIK-iem (bez karty)?</h2>
+
+<p>Wiele bankomatów w Polsce obsługuje BLIK — szukaj napisu „Wypłata BLIK" lub ikony BLIK na ekranie.</p>
+
+<ol>
+  <li>Na ekranie bankomatu wybierz <strong>Wypłata BLIK</strong></li>
+  <li>Wpisz kwotę</li>
+  <li>Wygeneruj kod w aplikacji bankowej</li>
+  <li>Wpisz kod na bankomacie</li>
+  <li>Potwierdź w aplikacji</li>
+</ol>
+
+<p>Sieć Euronet i Planet Cash to najczęstsze bankomaty z opcją BLIK w Polsce.</p>
+
+<h2>Jak przesłać pieniądze BLIK-iem na numer telefonu?</h2>
+
+<p>Możesz wysłać pieniądze znajomemu bez znajomości numeru konta:</p>
+
+<ol>
+  <li>W aplikacji bankowej wybierz <strong>Przelew BLIK</strong> lub <strong>Przelew na telefon</strong></li>
+  <li>Wpisz numer telefonu odbiorcy (musi mieć BLIK aktywny w swoim banku)</li>
+  <li>Wpisz kwotę i zatwierdź</li>
+  <li>Odbiorca otrzymuje powiadomienie i musi przyjąć przelew w ciągu 2 minut</li>
+</ol>
+
+<p><strong>Limit:</strong> zwykle do 500 zł za jedną transakcję BLIK na numer telefonu.</p>
+
+<h2>Inne metody płatności w Polsce</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Metoda</th>
+      <th>Gdzie</th>
+      <th>Opłata</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BLIK</td>
+      <td>Sklepy, internet, bankomaty, przelew</td>
+      <td>Bezpłatna</td>
+    </tr>
+    <tr>
+      <td>Karta Visa / Mastercard</td>
+      <td>Sklepy, internet</td>
+      <td>Bezpłatna</td>
+    </tr>
+    <tr>
+      <td>Google Pay / Apple Pay</td>
+      <td>Sklepy z NFC</td>
+      <td>Bezpłatna</td>
+    </tr>
+    <tr>
+      <td>Przelew bankowy (Elixir)</td>
+      <td>Internet (np. ZUS, czynsz)</td>
+      <td>Bezpłatny</td>
+    </tr>
+    <tr>
+      <td>Gotówka PLN</td>
+      <td>Wszędzie</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Bezpieczeństwo — ważne zasady</h2>
+
+<p>🔐 <strong>Nigdy nie podawaj kodu BLIK przez telefon, SMS ani komunikator.</strong> To popularne oszustwo — dzwoni „znajomy" lub „bank" i prosi o kod. Prawdziwy bank nigdy nie prosi o BLIK.</p>
+
+<p>✅ Włącz powiadomienia push w aplikacji bankowej — dostaniesz alert o każdej transakcji.</p>
+
+<p>✅ Ustaw silny PIN lub biometrię (odcisk palca) do aplikacji.</p>
+
+<p>✅ W razie zgubienia telefonu — zablokuj dostęp do aplikacji w banku (przez infolinię lub drugą przeglądarkę).</p>
+
+<h2>Kody QR i płatności zbliżeniowe</h2>
+
+<p>W Polsce coraz popularniejsze są też:</p>
+<ul>
+  <li><strong>Płatności zbliżeniowe kartą</strong> (przyłóż kartę do terminala) — do 100 zł bez PIN-u</li>
+  <li><strong>Google Pay / Apple Pay</strong> (iPhone/Android) — dodaj kartę do telefonu i płać zbliżeniowo</li>
+</ul>
+
+<h2>Gdzie szukać pomocy z płatnościami?</h2>
+
+<ul>
+  <li><strong>Infolinia banku</strong> — numer na odwrocie karty lub w aplikacji (dostępna 24/7)</li>
+  <li><strong>Oddział banku</strong> — pracownicy często mówią w języku ukraińskim lub angielskim</li>
+  <li><strong>Nexflow HR</strong> — pomożemy z tłumaczeniem przy wizytach w banku</li>
+</ul>
+
+<p>BLIK to wygodne i całkowicie bezpłatne narzędzie codziennych płatności w Polsce. Po jednorazowej konfiguracji w aplikacji bankowej będziesz mógł płacić za zakupy, wypłacać gotówkę bez karty i wysyłać pieniądze znajomym — wszystko z telefonu, w kilka sekund.</p>
+
+<p>➡️ Nie masz jeszcze konta bankowego w Polsce? Przeczytaj: <a href="/blog/konto-bankowe-cudzoziemiec-polska">Jak otworzyć konto bankowe w Polsce dla cudzoziemca</a></p>
+    `.trim(),
+  },
+  {
+    slug: "blik-mobilni-platezhi-polshcha-inozemets-poradnyk",
+    title: "BLIK та мобільні платежі в Польщі — посібник для іноземних працівників",
+    description:
+      "Як користуватись BLIK у Польщі? Посібник для тимчасових працівників з України та Білорусі — оплата в магазинах, зняття готівки та перекази на номер телефону.",
+    date: "2026-10-09",
+    lang: "uk",
+    content: `
+<p>Вже маєш банківський рахунок у Польщі? Тепер час навчитися платити зручно і безпечно — без готівки в кишені. У Польщі діє одна з найрозвиненіших систем мобільних платежів у Європі: <strong>BLIK</strong>.</p>
+
+<h2>Що таке BLIK?</h2>
+
+<p>BLIK — це безкоштовний польський сервіс мобільних платежів, доступний у мобільному додатку твого банку. Він працює через 6-значний код, дійсний протягом 2 хвилин.</p>
+
+<p>Завдяки BLIK ти можеш:</p>
+<ul>
+  <li><strong>платити в магазинах</strong> (на касі або терміналі самообслуговування)</li>
+  <li><strong>платити в інтернеті</strong> (магазини, Allegro, стрімінгові сервіси)</li>
+  <li><strong>знімати готівку в банкоматі</strong> — без банківської картки</li>
+  <li><strong>надсилати гроші</strong> знайомим на номер телефону</li>
+</ul>
+
+<h2>У якому банку є BLIK?</h2>
+
+<p>BLIK доступний у мобільних додатках усіх основних банків Польщі:</p>
+<ul>
+  <li><strong>PKO BP</strong> → додаток IKO</li>
+  <li><strong>Santander</strong> → Santander Mobile</li>
+  <li><strong>mBank</strong> → mBank Mobile</li>
+  <li><strong>Pekao</strong> → PeoPay</li>
+  <li><strong>Alior Bank</strong> → Alior Mobile</li>
+  <li><strong>Millennium</strong> → Millennium Mobile</li>
+</ul>
+
+<p>Достатньо встановити додаток свого банку і активувати BLIK у налаштуваннях.</p>
+
+<h2>Як платити BLIK у магазині?</h2>
+
+<ol>
+  <li>Відкрий банківський додаток на телефоні</li>
+  <li>Перейди до розділу <strong>BLIK</strong> або <strong>Платежі</strong></li>
+  <li>З'явиться <strong>6-значний код</strong> — запам'ятай його (дійсний 2 хвилини)</li>
+  <li>На терміналі вибери опцію <strong>BLIK</strong> (або скажи касиру)</li>
+  <li>Введи код на терміналі</li>
+  <li>Підтвердь платіж у банківському додатку (кнопкою або PIN-кодом)</li>
+</ol>
+
+<p>✅ Готово! Платіж здійснюється миттєво.</p>
+
+<h2>Як знімати готівку в банкоматі через BLIK (без картки)?</h2>
+
+<p>Шукай напис «Wypłata BLIK» або іконку BLIK на екрані банкомата.</p>
+
+<ol>
+  <li>На екрані банкомата вибери <strong>Wypłata BLIK</strong></li>
+  <li>Введи суму</li>
+  <li>Згенеруй код у банківському додатку</li>
+  <li>Введи код у банкоматі</li>
+  <li>Підтвердь у додатку</li>
+</ol>
+
+<p>Мережі Euronet та Planet Cash — найпоширеніші банкомати з підтримкою BLIK.</p>
+
+<h2>Як надіслати гроші через BLIK на номер телефону?</h2>
+
+<p>Можна переказати кошти другу без знання номера рахунку:</p>
+
+<ol>
+  <li>У банківському додатку вибери <strong>Переказ BLIK</strong> або <strong>Переказ на телефон</strong></li>
+  <li>Введи номер телефону отримувача (у нього має бути активований BLIK)</li>
+  <li>Введи суму та підтвердь</li>
+  <li>Отримувач отримує сповіщення і повинен прийняти переказ протягом 2 хвилин</li>
+</ol>
+
+<p><strong>Ліміт:</strong> зазвичай до 500 злотих за одну транзакцію.</p>
+
+<h2>Інші способи оплати в Польщі</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Спосіб</th>
+      <th>Де</th>
+      <th>Комісія</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BLIK</td>
+      <td>Магазини, інтернет, банкомати, переказ</td>
+      <td>Безкоштовно</td>
+    </tr>
+    <tr>
+      <td>Картка Visa / Mastercard</td>
+      <td>Магазини, інтернет</td>
+      <td>Безкоштовно</td>
+    </tr>
+    <tr>
+      <td>Google Pay / Apple Pay</td>
+      <td>Магазини з NFC</td>
+      <td>Безкоштовно</td>
+    </tr>
+    <tr>
+      <td>Банківський переказ</td>
+      <td>Інтернет (ZUS, оренда)</td>
+      <td>Безкоштовно</td>
+    </tr>
+    <tr>
+      <td>Готівка PLN</td>
+      <td>Скрізь</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Безпека — важливі правила</h2>
+
+<p>🔐 <strong>Ніколи не давай код BLIK по телефону, SMS або в месенджері.</strong> Це поширене шахрайство — «друг» або «банк» дзвонить і просить код. Справжній банк ніколи не просить BLIK.</p>
+
+<p>✅ Увімкни push-сповіщення у банківському додатку.</p>
+
+<p>✅ Встанови надійний PIN або біометрію (відбиток пальця) для входу в додаток.</p>
+
+<p>✅ Якщо загубив телефон — заблокуй доступ до додатку через гарячу лінію банку.</p>
+
+<h2>Де отримати допомогу?</h2>
+
+<ul>
+  <li><strong>Гаряча лінія банку</strong> — номер на картці або в додатку (цілодобово)</li>
+  <li><strong>Відділення банку</strong> — є співробітники, що говорять українською або англійською</li>
+  <li><strong>HR Nexflow</strong> — допоможемо з перекладом при відвідуванні банку</li>
+</ul>
+
+<p>BLIK — зручний і повністю безкоштовний інструмент для щоденних платежів у Польщі. Після одноразового налаштування у банківському додатку ти зможеш платити за покупки, знімати готівку без картки та надсилати гроші знайомим — все з телефону, за кілька секунд.</p>
+
+<p>➡️ Ще немає банківського рахунку в Польщі? Читай: <a href="/uk/blog/vidkryttia-rakhunku-inozemets-polshcha">Як відкрити банківський рахунок у Польщі для іноземця</a></p>
+    `.trim(),
+  },
+  {
+    slug: "blik-mobilnye-platezhi-polsha-inostranets-rukovodstvo",
+    title: "BLIK и мобильные платежи в Польше — руководство для иностранных работников",
+    description:
+      "Как пользоваться BLIK в Польше? Руководство для временных работников из Украины и Беларуси — оплата в магазинах, снятие наличных и переводы на номер телефона.",
+    date: "2026-10-09",
+    lang: "ru",
+    content: `
+<p>Уже есть банковский счёт в Польше? Пора научиться платить удобно и безопасно — без наличных в кармане. В Польше действует одна из самых развитых систем мобильных платежей в Европе: <strong>BLIK</strong>.</p>
+
+<h2>Что такое BLIK?</h2>
+
+<p>BLIK — бесплатный польский сервис мобильных платежей, доступный в мобильном приложении твоего банка. Он работает с помощью 6-значного кода, действительного в течение 2 минут.</p>
+
+<p>Благодаря BLIK ты можешь:</p>
+<ul>
+  <li><strong>оплачивать покупки в магазинах</strong> (у кассы или на терминале самообслуживания)</li>
+  <li><strong>платить в интернете</strong> (магазины, Allegro, стриминговые сервисы)</li>
+  <li><strong>снимать наличные в банкомате</strong> — без банковской карты</li>
+  <li><strong>переводить деньги</strong> знакомым на номер телефона</li>
+</ul>
+
+<h2>В каком банке есть BLIK?</h2>
+
+<p>BLIK доступен в мобильных приложениях всех крупных банков Польши:</p>
+<ul>
+  <li><strong>PKO BP</strong> → приложение IKO</li>
+  <li><strong>Santander</strong> → Santander Mobile</li>
+  <li><strong>mBank</strong> → mBank Mobile</li>
+  <li><strong>Pekao</strong> → PeoPay</li>
+  <li><strong>Alior Bank</strong> → Alior Mobile</li>
+  <li><strong>Millennium</strong> → Millennium Mobile</li>
+</ul>
+
+<p>Достаточно установить приложение своего банка и активировать BLIK в настройках.</p>
+
+<h2>Как оплатить BLIK в магазине?</h2>
+
+<ol>
+  <li>Открой банковское приложение на телефоне</li>
+  <li>Перейди в раздел <strong>BLIK</strong> или <strong>Платежи</strong></li>
+  <li>Появится <strong>6-значный код</strong> — запомни его (действителен 2 минуты)</li>
+  <li>На терминале выбери опцию <strong>BLIK</strong> (или скажи кассиру)</li>
+  <li>Введи код на терминале</li>
+  <li>Подтверди платёж в приложении (кнопкой или PIN-кодом)</li>
+</ol>
+
+<p>✅ Готово! Платёж происходит мгновенно.</p>
+
+<h2>Как снять наличные в банкомате через BLIK (без карты)?</h2>
+
+<p>Ищи надпись «Wypłata BLIK» или иконку BLIK на экране банкомата.</p>
+
+<ol>
+  <li>На экране банкомата выбери <strong>Wypłata BLIK</strong></li>
+  <li>Введи сумму</li>
+  <li>Сгенерируй код в банковском приложении</li>
+  <li>Введи код в банкомате</li>
+  <li>Подтверди в приложении</li>
+</ol>
+
+<p>Сети Euronet и Planet Cash — самые распространённые банкоматы с поддержкой BLIK.</p>
+
+<h2>Как перевести деньги через BLIK на номер телефона?</h2>
+
+<p>Можно отправить деньги другу, не зная номера счёта:</p>
+
+<ol>
+  <li>В банковском приложении выбери <strong>Перевод BLIK</strong> или <strong>Перевод на телефон</strong></li>
+  <li>Введи номер телефона получателя (у него должен быть активирован BLIK)</li>
+  <li>Введи сумму и подтверди</li>
+  <li>Получатель получает уведомление и должен принять перевод в течение 2 минут</li>
+</ol>
+
+<p><strong>Лимит:</strong> обычно до 500 злотых за одну транзакцию.</p>
+
+<h2>Другие способы оплаты в Польше</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Способ</th>
+      <th>Где</th>
+      <th>Комиссия</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BLIK</td>
+      <td>Магазины, интернет, банкоматы, перевод</td>
+      <td>Бесплатно</td>
+    </tr>
+    <tr>
+      <td>Карта Visa / Mastercard</td>
+      <td>Магазины, интернет</td>
+      <td>Бесплатно</td>
+    </tr>
+    <tr>
+      <td>Google Pay / Apple Pay</td>
+      <td>Магазины с NFC</td>
+      <td>Бесплатно</td>
+    </tr>
+    <tr>
+      <td>Банковский перевод</td>
+      <td>Интернет (ZUS, аренда)</td>
+      <td>Бесплатно</td>
+    </tr>
+    <tr>
+      <td>Наличные PLN</td>
+      <td>Везде</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Безопасность — важные правила</h2>
+
+<p>🔐 <strong>Никогда не сообщай код BLIK по телефону, SMS или в мессенджере.</strong> Это популярное мошенничество — звонит «друг» или «банк» и просит код. Настоящий банк никогда не просит BLIK.</p>
+
+<p>✅ Включи push-уведомления в банковском приложении.</p>
+
+<p>✅ Установи надёжный PIN или биометрию (отпечаток пальца) для входа в приложение.</p>
+
+<p>✅ Если потерял телефон — заблокируй доступ к приложению через горячую линию банка.</p>
+
+<h2>Где получить помощь?</h2>
+
+<ul>
+  <li><strong>Горячая линия банка</strong> — номер на карте или в приложении (работает круглосуточно)</li>
+  <li><strong>Отделение банка</strong> — есть сотрудники, говорящие по-украински или по-английски</li>
+  <li><strong>HR Nexflow</strong> — поможем с переводом при посещении банка</li>
+</ul>
+
+<p>BLIK — удобный и полностью бесплатный инструмент для ежедневных платежей в Польше. После однократной настройки в банковском приложении ты сможешь оплачивать покупки, снимать наличные без карты и переводить деньги знакомым — всё с телефона, за несколько секунд.</p>
+
+<p>➡️ Ещё нет банковского счёта в Польше? Читай: <a href="/ru/blog/otkrytie-scheta-inostranets-polsha">Как открыть банковский счёт в Польше для иностранца</a></p>
+    `.trim(),
+  },
+  {
+    slug: "blik-mobile-payments-poland-foreign-worker-guide",
+    title: "BLIK and Mobile Payments in Poland — A Guide for Foreign Workers",
+    description:
+      "How to use BLIK in Poland? A practical guide for temporary workers from Ukraine and Belarus — paying in stores, withdrawing cash, and sending money by phone number.",
+    date: "2026-10-09",
+    lang: "en",
+    content: `
+<p>Already have a Polish bank account? Now it's time to learn how to pay conveniently and safely — without carrying cash. Poland has one of the most advanced mobile payment systems in Europe: <strong>BLIK</strong>.</p>
+
+<h2>What is BLIK?</h2>
+
+<p>BLIK is a free Polish mobile payment service available in your bank's mobile app. It works through a 6-digit code valid for 2 minutes.</p>
+
+<p>With BLIK you can:</p>
+<ul>
+  <li><strong>Pay in physical stores</strong> (at the checkout counter or self-service terminal)</li>
+  <li><strong>Pay online</strong> (e-commerce stores, Allegro, streaming services)</li>
+  <li><strong>Withdraw cash from ATMs</strong> — without a bank card</li>
+  <li><strong>Send money to friends</strong> using their phone number</li>
+</ul>
+
+<h2>Which banks support BLIK?</h2>
+
+<p>BLIK is available in the mobile apps of all major Polish banks:</p>
+<ul>
+  <li><strong>PKO BP</strong> → IKO app</li>
+  <li><strong>Santander</strong> → Santander Mobile</li>
+  <li><strong>mBank</strong> → mBank Mobile</li>
+  <li><strong>Pekao</strong> → PeoPay</li>
+  <li><strong>Alior Bank</strong> → Alior Mobile</li>
+  <li><strong>Millennium</strong> → Millennium Mobile</li>
+</ul>
+
+<p>Simply install your bank's app and activate BLIK in the settings.</p>
+
+<h2>How to pay with BLIK in a store?</h2>
+
+<ol>
+  <li>Open your bank's mobile app</li>
+  <li>Go to the <strong>BLIK</strong> or <strong>Payments</strong> section</li>
+  <li>A <strong>6-digit code</strong> will appear — memorise it (valid for 2 minutes)</li>
+  <li>At the checkout terminal, select <strong>BLIK</strong> (or tell the cashier)</li>
+  <li>Enter the code on the terminal</li>
+  <li>Confirm the payment in your banking app (button or PIN)</li>
+</ol>
+
+<p>✅ Done! The payment is instant.</p>
+
+<h2>How to withdraw cash at an ATM with BLIK (no card needed)?</h2>
+
+<p>Look for the «Wypłata BLIK» label or BLIK icon on the ATM screen.</p>
+
+<ol>
+  <li>Select <strong>Wypłata BLIK</strong> on the ATM screen</li>
+  <li>Enter the amount</li>
+  <li>Generate a code in your banking app</li>
+  <li>Enter the code at the ATM</li>
+  <li>Confirm in the app</li>
+</ol>
+
+<p>Euronet and Planet Cash networks have the most BLIK-enabled ATMs across Poland.</p>
+
+<h2>How to send money via BLIK to a phone number?</h2>
+
+<p>You can send money to a friend without knowing their account number:</p>
+
+<ol>
+  <li>In your banking app, select <strong>BLIK Transfer</strong> or <strong>Transfer to phone</strong></li>
+  <li>Enter the recipient's phone number (they must have BLIK activated)</li>
+  <li>Enter the amount and confirm</li>
+  <li>The recipient gets a notification and must accept the transfer within 2 minutes</li>
+</ol>
+
+<p><strong>Limit:</strong> usually up to 500 PLN per BLIK phone transfer.</p>
+
+<h2>Other payment methods in Poland</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Method</th>
+      <th>Where</th>
+      <th>Fee</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BLIK</td>
+      <td>Stores, internet, ATMs, transfers</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Visa / Mastercard card</td>
+      <td>Stores, internet</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Google Pay / Apple Pay</td>
+      <td>NFC-enabled stores</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Bank transfer</td>
+      <td>Internet (ZUS, rent)</td>
+      <td>Free</td>
+    </tr>
+    <tr>
+      <td>Cash (PLN)</td>
+      <td>Everywhere</td>
+      <td>—</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Security — important rules</h2>
+
+<p>🔐 <strong>Never share your BLIK code over the phone, SMS, or messenger.</strong> This is a common scam — someone calls pretending to be a friend or bank and asks for the code. A real bank will never ask for your BLIK code.</p>
+
+<p>✅ Enable push notifications in your banking app to get alerts for every transaction.</p>
+
+<p>✅ Set a strong PIN or biometrics (fingerprint) to protect your banking app.</p>
+
+<p>✅ If you lose your phone — block your app access by calling the bank hotline immediately.</p>
+
+<h2>Contactless payments and QR codes</h2>
+
+<p>Other popular cashless methods in Poland:</p>
+<ul>
+  <li><strong>Contactless card payment</strong> (tap your card to the terminal) — under 100 PLN requires no PIN</li>
+  <li><strong>Google Pay / Apple Pay</strong> — add your card to your phone and pay by tapping</li>
+</ul>
+
+<h2>Where to get help?</h2>
+
+<ul>
+  <li><strong>Bank hotline</strong> — number on the back of your card or in the app (available 24/7)</li>
+  <li><strong>Bank branch</strong> — staff often speak Ukrainian or English</li>
+  <li><strong>Nexflow HR</strong> — we can help with translation for bank visits</li>
+</ul>
+
+<p>BLIK is a convenient and completely free tool for everyday payments in Poland. After a one-time setup in your banking app, you'll be able to pay for purchases, withdraw cash without a card, and send money to friends — all from your phone in a matter of seconds.</p>
+
+<p>➡️ Don't have a Polish bank account yet? Read: <a href="/en/blog/bank-account-foreign-worker-poland">How to open a bank account in Poland as a foreign worker</a></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
