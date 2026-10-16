@@ -2452,13 +2452,13 @@
       "note": "EUR-3854 auto-publish 2026-10-07"
     }
   ],
-  "last_run": "2026-10-07T07:04:30+0000",
+  "last_run": "2026-10-16T07:00:00+0000",
   "last_run_result": {
-    "date": "2026-10-02",
-    "new_posts": 6,
-    "sitemap_count": "380 blog URLs",
-    "published_count": 403,
-    "note": "EUR-3769: published 6 remaining posts — rozirvannya/rastorzheniye/terminating (UK/RU/EN) and tymchasovyi-zakhyst/vremennaya-zashchita/temporary-protection (UK/RU/EN)"
+    "date": "2026-10-16",
+    "new_posts": 0,
+    "sitemap_count": "384 blog URLs",
+    "published_count": 407,
+    "note": "EUR-3884: no new posts detected — all 384 sitemap blog URLs already published; last publish was EUR-3854 on 2026-10-07 (sworn translation posts PL/UK/RU/EN)"
   },
   "pending": []
 }
