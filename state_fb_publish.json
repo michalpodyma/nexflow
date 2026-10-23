@@ -2820,5 +2820,34 @@
     "published_count": 467,
     "note": "EUR-3891: no new posts detected — all 384 sitemap blog URLs already published; last publish was EUR-3885 on 2026-10-16 (60 EN blog posts)"
   },
-  "pending": []
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/praca-w-weekend-sobota-niedziela-polska-prawa",
+      "lang": "pl",
+      "fb_text": "📅 Pracujesz w weekendy w Polsce? Sprawdź, co Ci przysługuje!\n\nW branży logistycznej i magazynowej praca w sobotę i niedzielę jest na porządku dziennym. Ale czy wiesz, jakie masz prawa?\n\n✅ Sobota — nie jest specjalnie chroniona przez Kodeks pracy. Może być normalną zmianą lub nadgodzinami — zależy od Twojego grafiku.\n\n✅ Niedziela — generalnie objęta zakazem pracy, ale logistyka i transport mają wyjątek ze względu na system zmianowy.\n\n💰 Za pracę w niedzielę należy Ci się:\n→ Dzień wolny w zamian (w ciągu 6 tygodni), LUB\n→ 100% dodatku do stawki godzinowej\n\n⏰ Pamiętaj też o 35 godzinach nieprzerwanego odpoczynku tygodniowo — to Twoje prawo!\n\nSprawdź pasek wypłaty. Masz pytania? Napisz do nas lub przeczytaj pełny poradnik na naszym blogu.\n\n👇 Nexflow — praca zgodna z prawem, zawsze po Twojej stronie.",
+      "source_comment_id": "1bbdef3c-50cd-4611-9ec3-1daa2a190345",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robota-u-vykidni-subota-nedilya-polshcha-prava",
+      "lang": "uk",
+      "fb_text": "📅 Ти працюєш у вихідні в Польщі? Дізнайся, які у тебе права!\n\nУ логістиці та на складах робота в суботу і неділю — звична справа. Але чи знаєш ти, що тобі належить?\n\n✅ Субота — не має особливого захисту в Трудовому кодексі. Може бути звичайною зміною або понаднормовою — залежить від твого графіка.\n\n✅ Неділя — загалом заборонена, але логістика та транспорт мають виняток завдяки змінному графіку.\n\n💰 За роботу в неділю тобі належить:\n→ Вихідний день замість (протягом 6 тижнів), АБО\n→ 100% надбавка до погодинної ставки\n\n⏰ Пам'ятай також про 35 годин безперервного відпочинку на тиждень — це твоє право!\n\nПеревір свій розрахунковий лист. Є питання? Напиши нам або читай повний посібник на нашому блозі.\n\n👇 Nexflow — робота відповідно до закону, завжди на твоєму боці.",
+      "source_comment_id": "b9d03a94-23aa-49e7-b4de-cdc8213ff274",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabota-v-vykhodnye-subbota-voskresenye-polsha-prava",
+      "lang": "ru",
+      "fb_text": "📅 Вы работаете в выходные в Польше? Узнайте свои права!\n\nВ логистике и на складах работа в субботу и воскресенье — обычная практика. Но знаете ли вы, что вам полагается?\n\n✅ Суббота — не имеет особой защиты в Трудовом кодексе. Может быть обычной сменой или сверхурочной — зависит от вашего графика.\n\n✅ Воскресенье — как правило запрещено, но логистика и транспорт имеют исключение благодаря сменному графику.\n\n💰 За работу в воскресенье вам полагается:\n→ Выходной день взамен (в течение 6 недель), ИЛИ\n→ Доплата 100% к почасовой ставке\n\n⏰ Помните также о 35 часах непрерывного отдыха в неделю — это ваше право!\n\nПроверьте расчётный лист. Есть вопросы? Напишите нам или читайте полный гид в нашем блоге.\n\n👇 Nexflow — работа по закону, всегда на вашей стороне.",
+      "source_comment_id": "80c12c4f-e731-4c13-ac8f-a477d2adf76b",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/working-weekends-saturday-sunday-poland-rights-pay",
+      "lang": "en",
+      "fb_text": "📅 Do you work weekends in Poland? Here's what you're entitled to!\n\nIn logistics and warehousing, weekend shifts are common. But do you know your rights?\n\n✅ Saturday — not specially protected by the Labour Code. It can be a planned shift or overtime, depending on your schedule.\n\n✅ Sunday — generally restricted, but logistics and transport are exempt due to shift work systems.\n\n💰 For working on Sunday you are entitled to:\n→ A day off in lieu (within 6 weeks), OR\n→ 100% pay supplement on your hourly rate\n\n⏰ Also remember: you are guaranteed at least 35 hours of uninterrupted weekly rest — it's your right!\n\nCheck your payslip. Have questions? Write to us or read the full guide on our blog.\n\n👇 Nexflow — work by the rules, always on your side.",
+      "source_comment_id": "8540f210-0d03-4be9-9bd2-076450f2849a",
+      "issue": "EUR-3902"
+    }
+  ]
 }

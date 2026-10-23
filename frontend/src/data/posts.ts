@@ -29810,6 +29810,210 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>Sworn translation is a routine but essential step in the legalisation process in Poland. Plan ahead — especially if you're applying for a residence card, exchanging your driver's licence, or registering family documents.</p>
     `.trim(),
   },
+  {
+    slug: "praca-w-weekend-sobota-niedziela-polska-prawa",
+    title:
+      "Praca w sobotę i niedzielę w Polsce — prawa i wynagrodzenie dla pracownika tymczasowego",
+    description:
+      "Pracujesz w weekend w Polsce? Dowiedz się, co mówi prawo o pracy w sobotę i niedzielę, jakie przysługują Ci dodatki i kiedy należy Ci się dzień wolny.",
+    date: "2026-10-23",
+    lang: "pl",
+    content: `
+<p>Wiele osób pracujących w magazynach i logistyce w Polsce pracuje regularnie w weekendy. Czy to jest legalne? Ile powinieneś zarobić za pracę w sobotę lub niedzielę? Jakie masz prawa jako pracownik tymczasowy? Ten poradnik odpowiada na najważniejsze pytania.</p>
+
+<h2>Praca w sobotę — co mówi prawo?</h2>
+<p>Sobota <strong>nie jest objęta specjalną ochroną</strong> w Kodeksie pracy tak jak niedziela. Nie istnieje przepis zakazujący pracy w sobotę. Jednak większość pracowników ma rozkład czasu pracy obejmujący 5 dni roboczych (zwykle poniedziałek–piątek). Jeśli Twój grafik przewiduje pracę od poniedziałku do piątku, praca w sobotę może być kwalifikowana jako <strong>praca w godzinach nadliczbowych</strong> lub jako planowana praca zmianowa.</p>
+<p><strong>Praca zmianowa:</strong> Jeśli pracujesz w systemie zmianowym (rotacyjnym), sobota może być Twoim normalnym dniem pracy wynikającym z grafiku. W takim przypadku nie jest to praca nadliczbowa. System zmianowy jest powszechny w logistyce i magazynowaniu — jest w pełni legalny.</p>
+
+<h2>Praca w niedzielę — czy jest dozwolona?</h2>
+<p>Artykuł 151⁹ Kodeksu pracy <strong>zasadniczo zakazuje pracy w niedzielę</strong>. Jednak artykuł 151¹⁰ przewiduje szereg wyjątków. Praca w niedzielę jest dozwolona m.in. w:</p>
+<ul>
+  <li>pracy ciągłej (np. produkcja, której nie można przerywać)</li>
+  <li>systemie zmianowym, gdy wynika to z organizacji pracy</li>
+  <li>transporcie i komunikacji</li>
+  <li>gastronomii i hotelarstwie</li>
+  <li>placówkach ochrony zdrowia</li>
+  <li>dozorze i ochronie mienia</li>
+</ul>
+<p><strong>Branża logistyczna i magazynowa:</strong> Centra logistyczne najczęściej kwalifikują się do wyjątku ze względu na <strong>system zmianowy</strong> lub pracę ciągłą. Jako pracownik tymczasowy Nexflow możesz zostać skierowany do pracy w niedzielę, jeśli firma użytkownik spełnia warunki ustawowego wyjątku.</p>
+
+<h2>Wynagrodzenie za pracę w niedzielę</h2>
+<p>Za pracę w niedzielę przysługuje Ci jedno z dwóch świadczeń (Art. 151¹¹–151¹² KP):</p>
+<ol>
+  <li><strong>Dzień wolny w zamian</strong> — pracodawca powinien udzielić Ci wolnego dnia <strong>w ciągu 6 tygodni po przepracowanej niedzieli</strong> (najlepiej w tygodniu bezpośrednio przed lub po).</li>
+  <li><strong>Jeśli nie dostaniesz dnia wolnego</strong> — przysługuje Ci <strong>dodatek w wysokości 100%</strong> stawki godzinowej za każdą godzinę pracy w niedzielę.</li>
+</ol>
+<p>Oba uprawnienia nie wykluczają się wzajemnie z prawem do nadgodzin — jeśli w niedzielę przekroczysz normalny wymiar czasu pracy, masz prawo do <strong>dnia wolnego/dodatku za niedzielę ORAZ wynagrodzenia za nadgodziny</strong>.</p>
+
+<h2>Tygodniowy czas odpoczynku</h2>
+<p>Polskie prawo gwarantuje każdemu pracownikowi <strong>minimum 35 godzin nieprzerwanego odpoczynku tygodniowo</strong> (Art. 133 KP), który co do zasady powinien obejmować niedzielę. Dla pracowników zmianowych minimalny czas odpoczynku może wynosić 24 godziny nieprzerwanego odpoczynku tygodniowego, jednak pracodawca ma obowiązek „odkompensowania" skróconego odpoczynku.</p>
+
+<h2>Sprawdź swój pasek wypłaty</h2>
+<p>Praca w niedzielę i ewentualne nadgodziny powinny być wyraźnie widoczne na Twoim pasku wypłaty (odcinku wynagrodzenia). Jeśli pracowałeś w niedzielę i nie widzisz stosownego dodatku ani zaznaczonego dnia wolnego, <strong>skontaktuj się z agencją Nexflow</strong> — nasi doradcy sprawdzą Twoje rozliczenie.</p>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Praca w sobotę jest ogólnie dozwolona; może być pracą zmianową lub nadliczbową zależnie od Twojego grafiku.</li>
+  <li>Praca w niedzielę wymaga spełnienia warunków z Kodeksu pracy, ale w logistyce jest powszechnie dozwolona.</li>
+  <li>Za niedzielę przysługuje Ci dzień wolny w zamian lub 100% dodatku do stawki.</li>
+  <li>Tygodniowy nieprzerwany czas odpoczynku wynosi co najmniej 35 godzin.</li>
+</ul>
+<p><em>Nexflow zapewnia Ci pracę zgodną z polskim prawem. Masz pytania dotyczące harmonogramu lub wynagrodzenia? Napisz do nas — jesteśmy tu, żeby pomóc.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "robota-u-vykidni-subota-nedilya-polshcha-prava",
+    title:
+      "Робота у суботу та неділю в Польщі — права та оплата тимчасового працівника",
+    description:
+      "Працюєш у вихідні в Польщі? Дізнайся, що каже Трудовий кодекс про роботу в суботу та неділю, яка надбавка тобі належить і коли ти маєш право на вихідний день.",
+    date: "2026-10-23",
+    lang: "uk",
+    content: `
+<p>Багато людей, які працюють на складах і в логістиці в Польщі, регулярно виходять на роботу у вихідні. Чи законно це? Скільки ти маєш заробити за роботу в суботу або неділю? Які твої права як тимчасового працівника? Цей посібник відповідає на найважливіші питання.</p>
+
+<h2>Робота в суботу — що каже закон?</h2>
+<p>Субота <strong>не має особливого захисту</strong> в Трудовому кодексі Польщі (Kodeks pracy), на відміну від неділі. Не існує заборони на роботу в суботу. Однак більшість працівників мають 5-денний робочий тиждень (зазвичай понеділок–п'ятниця). Якщо твій графік передбачає роботу з понеділка по п'ятницю, то робота в суботу може кваліфікуватися як <strong>понаднормова робота</strong> або як планова зміна в рамках змінного графіка.</p>
+<p><strong>Змінний графік:</strong> Якщо ти працюєш у змінному (ротаційному) режимі, субота може бути твоїм звичайним робочим днем за графіком. У такому разі це не понаднормова робота. Змінний графік дуже поширений у логістиці та на складах — і цілком законний.</p>
+
+<h2>Робота в неділю — чи дозволена?</h2>
+<p>Стаття 151⁹ Трудового кодексу Польщі <strong>загалом забороняє роботу в неділю</strong>. Проте стаття 151¹⁰ передбачає низку винятків. Робота в неділю дозволена, зокрема:</p>
+<ul>
+  <li>у безперервному виробництві (наприклад, заводи, що не можуть зупинятися)</li>
+  <li>при змінному графіку, якщо це передбачено організацією праці</li>
+  <li>у транспорті та зв'язку</li>
+  <li>у готельному та ресторанному бізнесі</li>
+  <li>у закладах охорони здоров'я</li>
+  <li>у службах охорони</li>
+</ul>
+<p><strong>Логістика та склади:</strong> Логістичні центри здебільшого підпадають під виняток через <strong>змінний графік</strong> або безперервне виробництво. Як тимчасовий працівник Nexflow ти можеш бути направлений на роботу в неділю, якщо підприємство-користувач відповідає законним умовам.</p>
+
+<h2>Оплата за роботу в неділю</h2>
+<p>За роботу в неділю тобі належить одне з двох (ст. 151¹¹–151¹² ТК Польщі):</p>
+<ol>
+  <li><strong>Вихідний день замість</strong> — роботодавець повинен надати тобі вільний день <strong>протягом 6 тижнів після відпрацьованої неділі</strong> (бажано в тижні безпосередньо до або після).</li>
+  <li><strong>Якщо вихідний не надано</strong> — тобі належить <strong>надбавка у розмірі 100%</strong> погодинної ставки за кожну годину роботи в неділю.</li>
+</ol>
+<p>Ці права не виключають права на понаднормову оплату — якщо в неділю ти перевищив звичайну тривалість робочого часу, маєш право на <strong>вихідний/надбавку за неділю І оплату за понаднормову роботу</strong>.</p>
+
+<h2>Тижневий відпочинок</h2>
+<p>Польське право гарантує кожному працівнику <strong>щонайменше 35 годин безперервного відпочинку на тиждень</strong> (ст. 133 ТК), що повинні охоплювати неділю. Для змінних працівників мінімальний тижневий відпочинок може становити 24 години, але роботодавець зобов'язаний «компенсувати» скорочений відпочинок.</p>
+
+<h2>Перевір свій розрахунковий лист</h2>
+<p>Робота в неділю та можливі понаднормові години мають бути чітко відображені в розрахунковому листі (pasek wypłaty). Якщо ти працював у неділю і не бачиш відповідної надбавки чи зазначеного вихідного дня, <strong>зв'яжись з агентством Nexflow</strong> — наші консультанти перевірять твій розрахунок.</p>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Робота в суботу загалом дозволена; залежно від твого графіка вона може бути плановою зміною або понаднормовою.</li>
+  <li>Робота в неділю потребує відповідності умовам Трудового кодексу, але в логістиці зазвичай дозволена.</li>
+  <li>За неділю тобі належить вихідний день замість або 100% надбавка до ставки.</li>
+  <li>Тижневий безперервний відпочинок — щонайменше 35 годин.</li>
+</ul>
+<p><em>Nexflow забезпечує роботу відповідно до польського законодавства. Маєш питання щодо графіка або зарплати? Напиши нам — ми завжди готові допомогти.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "rabota-v-vykhodnye-subbota-voskresenye-polsha-prava",
+    title:
+      "Работа в выходные в Польше — суббота и воскресенье: права и оплата временного работника",
+    description:
+      "Работаете в выходные в Польше? Узнайте, что говорит Трудовой кодекс о работе в субботу и воскресенье, какая доплата вам положена и когда вы имеете право на выходной.",
+    date: "2026-10-23",
+    lang: "ru",
+    content: `
+<p>Многие работники складов и логистики в Польше регулярно работают в выходные. Законно ли это? Сколько должны платить за работу в субботу или воскресенье? Какие права у временного работника? Этот гид отвечает на самые важные вопросы.</p>
+
+<h2>Работа в субботу — что говорит закон?</h2>
+<p>Суббота <strong>не имеет особой защиты</strong> в Трудовом кодексе Польши (Kodeks pracy), в отличие от воскресенья. Закон не запрещает работу в субботу. Однако у большинства работников рабочая неделя состоит из 5 дней (обычно с понедельника по пятницу). Если ваш график предусматривает работу с понедельника по пятницу, работа в субботу может квалифицироваться как <strong>сверхурочная</strong> или как плановая смена в рамках сменного графика.</p>
+<p><strong>Сменный график:</strong> Если вы работаете по сменному (ротационному) графику, суббота может быть вашим обычным рабочим днём по расписанию. В таком случае это не сверхурочная работа. Сменный режим широко распространён в логистике и складском деле — и полностью законен.</p>
+
+<h2>Работа в воскресенье — разрешена ли?</h2>
+<p>Статья 151⁹ Трудового кодекса Польши <strong>в целом запрещает работу в воскресенье</strong>. Однако статья 151¹⁰ предусматривает ряд исключений. Работа в воскресенье разрешена, в том числе:</p>
+<ul>
+  <li>в непрерывном производстве (например, заводы, которые нельзя останавливать)</li>
+  <li>при сменном графике, если это предусмотрено организацией труда</li>
+  <li>на транспорте и в связи</li>
+  <li>в гостиничном и ресторанном бизнесе</li>
+  <li>в медицинских учреждениях</li>
+  <li>в охране и обеспечении безопасности</li>
+</ul>
+<p><strong>Логистика и склады:</strong> Логистические центры чаще всего подпадают под исключение в связи со <strong>сменным графиком</strong> или непрерывным производством. Как временный работник Nexflow вы можете быть направлены на работу в воскресенье, если предприятие-пользователь соответствует законным условиям.</p>
+
+<h2>Оплата за работу в воскресенье</h2>
+<p>За работу в воскресенье вам полагается одно из двух (ст. 151¹¹–151¹² ТК Польши):</p>
+<ol>
+  <li><strong>Выходной день взамен</strong> — работодатель обязан предоставить вам свободный день <strong>в течение 6 недель после отработанного воскресенья</strong> (желательно на неделе непосредственно до или после).</li>
+  <li><strong>Если выходной не предоставлен</strong> — вам полагается <strong>доплата в размере 100%</strong> почасовой ставки за каждый час работы в воскресенье.</li>
+</ol>
+<p>Эти права не исключают права на сверхурочную оплату — если в воскресенье вы превысили нормальную продолжительность рабочего времени, вы имеете право на <strong>выходной/доплату за воскресенье И оплату сверхурочных</strong>.</p>
+
+<h2>Еженедельный отдых</h2>
+<p>Польское законодательство гарантирует каждому работнику <strong>не менее 35 часов непрерывного отдыха в неделю</strong> (ст. 133 ТК), который должен включать воскресенье. Для работников по сменному графику минимальный еженедельный отдых может составлять 24 часа, однако работодатель обязан «компенсировать» сокращённый отдых.</p>
+
+<h2>Проверьте расчётный лист</h2>
+<p>Работа в воскресенье и возможные сверхурочные часы должны быть чётко отражены в расчётном листе (pasek wypłaty). Если вы работали в воскресенье и не видите соответствующей надбавки или указанного выходного, <strong>свяжитесь с агентством Nexflow</strong> — наши консультанты проверят ваш расчёт.</p>
+
+<h2>Итог</h2>
+<ul>
+  <li>Работа в субботу в целом разрешена; в зависимости от вашего графика она может быть плановой сменой или сверхурочной.</li>
+  <li>Работа в воскресенье требует соответствия условиям Трудового кодекса, но в логистике обычно разрешена.</li>
+  <li>За воскресенье вам полагается выходной взамен или доплата 100% к ставке.</li>
+  <li>Еженедельный непрерывный отдых — не менее 35 часов.</li>
+</ul>
+<p><em>Nexflow обеспечивает работу в соответствии с польским законодательством. Есть вопросы по графику или оплате? Напишите нам — мы всегда готовы помочь.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "working-weekends-saturday-sunday-poland-rights-pay",
+    title:
+      "Working Weekends in Poland: Your Rights on Saturdays and Sundays as a Temp Worker",
+    description:
+      "Do you work weekends in Poland? Find out what the Polish Labour Code says about Saturday and Sunday work, what pay you're entitled to, and when you must get a day off.",
+    date: "2026-10-23",
+    lang: "en",
+    content: `
+<p>Many people working in warehouses and logistics in Poland regularly work weekends. Is it legal? How much should you earn for Saturday or Sunday work? What rights do you have as a temporary worker? This guide answers the key questions.</p>
+
+<h2>Working on Saturdays — What Does the Law Say?</h2>
+<p>Saturday <strong>has no special legal protection</strong> in the Polish Labour Code (Kodeks pracy), unlike Sunday. There is no law that prohibits working on Saturdays. However, most employees have a 5-day working week (typically Monday–Friday). If your schedule runs Monday to Friday, Saturday work may be classified as <strong>overtime</strong> or as a planned shift within a rotating schedule.</p>
+<p><strong>Shift work:</strong> If you work on a shift (rotating) schedule, Saturday can be a normal working day under your rota. In that case, it is not overtime. Shift-based work is common in logistics and warehousing — and is fully legal.</p>
+
+<h2>Working on Sundays — Is It Allowed?</h2>
+<p>Article 151⁹ of the Polish Labour Code <strong>generally prohibits Sunday work</strong>. However, Article 151¹⁰ provides a list of exceptions. Sunday work is permitted in, among others:</p>
+<ul>
+  <li>Continuous production (e.g. factories that cannot be shut down)</li>
+  <li>Shift work systems, where the organisation of work requires it</li>
+  <li>Transport and communications</li>
+  <li>Hospitality (hotels and restaurants)</li>
+  <li>Healthcare facilities</li>
+  <li>Security and property protection</li>
+</ul>
+<p><strong>Logistics and warehousing:</strong> Logistics centres most commonly qualify for the exception due to <strong>shift work</strong> or continuous operations. As a Nexflow temporary worker, you may be assigned to Sunday work if the client employer meets the legal conditions — and in warehouse/logistics this is almost always the case.</p>
+
+<h2>Pay for Sunday Work</h2>
+<p>For working on Sunday, you are entitled to one of two things (Articles 151¹¹–151¹² of the Labour Code):</p>
+<ol>
+  <li><strong>A day off in lieu</strong> — the employer must give you a free day <strong>within 6 weeks after the Sunday worked</strong> (preferably in the week immediately before or after it).</li>
+  <li><strong>If no day off is given</strong> — you are entitled to <strong>an allowance of 100%</strong> of your hourly rate for each hour worked on Sunday.</li>
+</ol>
+<p>These rights do not cancel out overtime rights. If you exceeded your normal working hours on Sunday, you are entitled to <strong>the Sunday allowance/day off AND overtime pay</strong> simultaneously.</p>
+
+<h2>Weekly Rest Period</h2>
+<p>Polish law guarantees every worker <strong>at least 35 consecutive hours of rest per week</strong> (Article 133 of the Labour Code), which should generally include Sunday. For shift workers, the minimum weekly rest may be 24 consecutive hours, but the employer must "compensate" for the reduced rest period.</p>
+
+<h2>Check Your Payslip</h2>
+<p>Sunday work and any overtime hours should be clearly shown on your payslip (pasek wypłaty). If you worked on Sunday and do not see a corresponding allowance or a recorded day off, <strong>contact Nexflow</strong> — our advisers will check your calculation.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Saturday work is generally permitted; depending on your schedule it may be a planned shift or overtime.</li>
+  <li>Sunday work requires meeting the conditions of the Labour Code, but in logistics it is routinely permitted.</li>
+  <li>For Sunday work you are entitled to a day off in lieu or a 100% pay supplement.</li>
+  <li>Weekly uninterrupted rest must be at least 35 hours.</li>
+</ul>
+<p><em>Nexflow ensures that all temporary workers are employed in compliance with Polish law. Questions about your schedule or pay? Write to us — we are here to help.</em></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
