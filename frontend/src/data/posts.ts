@@ -23352,19 +23352,4685 @@ Polish law does not grant extra days off on religious grounds. However, you can 
     `.trim(),
   },
   {
+    slug: "pip-panstwowa-inspekcja-pracy-cudzoziemiec-polska",
+    title: "Państwowa Inspekcja Pracy – jak zgłosić naruszenie praw jako cudzoziemiec w Polsce",
+    description:
+      "Jak złożyć skargę do PIP jako cudzoziemiec w Polsce — co kontroluje inspekcja, jakie naruszenia zgłaszać i jak chronić się przed zwolnieniem.",
+    date: "2031-06-12",
+    lang: "pl",
+    content: `
+<p>Jesteś cudzoziemcem pracującym w Polsce i uważasz, że Twój pracodawca lub agencja pracy narusza Twoje prawa? Masz do dyspozycji bezpłatne, publiczne narzędzie: Państwowa Inspekcja Pracy (PIP). W tym artykule wyjaśniamy, czym jest PIP, co kontroluje, jak złożyć skargę i czego się spodziewać.</p>
+
+<h2>Czym jest Państwowa Inspekcja Pracy?</h2>
+<p>PIP to państwowy urząd nadzorujący przestrzeganie prawa pracy w Polsce. Inspektorzy PIP mogą:</p>
+<ul>
+  <li>przeprowadzać kontrole w zakładach pracy bez uprzedzenia,</li>
+  <li>nakazywać wypłatę zaległego wynagrodzenia,</li>
+  <li>nakładać mandaty i kierować wnioski o ukaranie do sądów,</li>
+  <li>nakazywać poprawę warunków BHP.</li>
+</ul>
+<p>PIP działa niezależnie od pracodawcy – Twoje zgłoszenie jest bezpłatne i możesz zachować anonimowość.</p>
+
+<h2>Jakie naruszenia możesz zgłosić?</h2>
+<ul>
+  <li>Niezapłacone lub zaniżone wynagrodzenie</li>
+  <li>Praca bez umowy lub z umową niezgodną z ustaleniami</li>
+  <li>Brak odprowadzania składek ZUS</li>
+  <li>Nielegalne godziny pracy, brak przerw</li>
+  <li>Brak szkolenia BHP</li>
+  <li>Dyskryminacja ze względu na narodowość</li>
+  <li>Nieodpowiednie warunki zakwaterowania zapewnianego przez pracodawcę</li>
+</ul>
+
+<h2>Jak złożyć skargę do PIP?</h2>
+<p><strong>Krok 1 – Zbierz dokumenty.</strong> Zachowaj: umowę, paski wynagrodzeń, wiadomości SMS/e-mail, zdjęcia warunków pracy.</p>
+<p><strong>Krok 2 – Znajdź właściwy Okręgowy Inspektorat Pracy.</strong> PIP posiada 16 inspektoratów (po jednym w każdym województwie) – adresy na pip.gov.pl.</p>
+<p><strong>Krok 3 – Złóż skargę online, pocztą lub osobiście.</strong> Formularz elektroniczny dostępny na pip.gov.pl → „Złóż skargę".</p>
+<p><strong>Krok 4 – Poczekaj na odpowiedź.</strong> PIP musi pisemnie odpowiedzieć na skargę. Twoja tożsamość pozostaje poufna.</p>
+
+<h2>Ochrona przed zwolnieniem</h2>
+<p>Polskie prawo chroni pracowników przed represjami za złożenie skargi. Jeżeli pracodawca Cię zwolni lub szykanuje, możesz odwołać się do sądu pracy i żądać odszkodowania.</p>
+
+<h2>Potrzebujesz wsparcia?</h2>
+<ul>
+  <li>Nexflow: skontaktuj się ze swoim koordynatorem – jesteśmy po Twojej stronie.</li>
+  <li>Stowarzyszenie Interwencji Prawnej (SIP): bezpłatna pomoc prawna dla cudzoziemców.</li>
+  <li>pip.gov.pl: złóż skargę online, dostępne 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "derzhavna-inspektsiya-pratsi-inozemets-polshcha",
+    title: "Державна інспекція праці – як захистити свої права як іноземець у Польщі",
+    description:
+      "Як подати скаргу до PIP як іноземець у Польщі — що перевіряє інспекція, які порушення оскаржувати та як захиститися від звільнення.",
+    date: "2031-06-19",
+    lang: "uk",
+    content: `
+<p>Ви іноземець, що працює в Польщі, і вважаєте, що ваш роботодавець або агентство порушують ваші права? Державна інспекція праці (PIP) – безкоштовний державний орган, який захищає вас.</p>
+
+<h2>Що таке PIP?</h2>
+<p>PIP контролює дотримання трудового законодавства Польщі. Інспектори мають право:</p>
+<ul>
+  <li>проводити перевірки на підприємствах без попередження,</li>
+  <li>вимагати виплати заборгованої заробітної плати,</li>
+  <li>накладати штрафи на роботодавців,</li>
+  <li>вимагати покращення умов охорони праці.</li>
+</ul>
+<p>Ваше звернення є конфіденційним — роботодавець не дізнається, що саме ви подали скаргу.</p>
+
+<h2>Які порушення можна оскаржити?</h2>
+<ul>
+  <li>Невиплата або заниження заробітної плати</li>
+  <li>Робота без договору або з договором, що не відповідає домовленостям</li>
+  <li>Ненарахування внесків ZUS</li>
+  <li>Незаконний режим роботи, відсутність перерв</li>
+  <li>Відсутність інструктажу з охорони праці (BHP)</li>
+  <li>Дискримінація за національністю</li>
+  <li>Неналежні умови проживання від роботодавця</li>
+</ul>
+
+<h2>Як подати скаргу?</h2>
+<ol>
+  <li><strong>Збережіть документи:</strong> договір, розрахункові листки, SMS/e-mail, фотографії.</li>
+  <li><strong>Знайдіть Окружний інспекторат праці (OIP)</strong> на pip.gov.pl — розділ Kontakty.</li>
+  <li><strong>Подайте скаргу:</strong> онлайн на pip.gov.pl → «Złóż skargę», поштою або особисто.</li>
+  <li><strong>Очікуйте письмової відповіді</strong> від PIP.</li>
+</ol>
+
+<h2>Захист від звільнення</h2>
+<p>Польське законодавство захищає вас від переслідування за подачу скарги. Якщо вас звільнять у відповідь на скаргу — ви маєте право на компенсацію через суд з трудових спорів.</p>
+
+<h2>Де отримати допомогу?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> зверніться до свого координатора — ми на вашому боці.</li>
+  <li><strong>SIP:</strong> безкоштовна юридична допомога для іноземців у Польщі.</li>
+  <li><strong>pip.gov.pl:</strong> подайте скаргу онлайн цілодобово.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "gosudarstvennaya-inspektsiya-truda-inostranets-polsha",
+    title: "Государственная инспекция труда – как защитить свои права как иностранец в Польше",
+    description:
+      "Как подать жалобу в PIP как иностранец в Польше — что проверяет инспекция, какие нарушения оспаривать и как защититься от увольнения.",
+    date: "2031-06-26",
+    lang: "ru",
+    content: `
+<p>Вы иностранец, работающий в Польше, и считаете, что ваш работодатель или агентство нарушают ваши права? Государственная инспекция труда (Państwowa Inspekcja Pracy, PIP) — это бесплатный государственный орган, который встанет на вашу защиту.</p>
+
+<h2>Что такое PIP?</h2>
+<p>PIP контролирует соблюдение трудового законодательства Польши. Инспекторы вправе:</p>
+<ul>
+  <li>проводить проверки на предприятиях без предупреждения,</li>
+  <li>требовать выплаты задолженной заработной платы,</li>
+  <li>назначать штрафы работодателям,</li>
+  <li>требовать улучшения условий охраны труда.</li>
+</ul>
+<p>Ваше обращение конфиденциально — работодатель не узнает, что именно вы подали жалобу.</p>
+
+<h2>Какие нарушения можно оспорить?</h2>
+<ul>
+  <li>Невыплата или занижение заработной платы</li>
+  <li>Работа без договора или с договором, не соответствующим договорённостям</li>
+  <li>Неперечисление взносов ZUS</li>
+  <li>Незаконный режим труда, отсутствие перерывов</li>
+  <li>Отсутствие инструктажа по охране труда (BHP)</li>
+  <li>Дискриминация по национальному признаку</li>
+  <li>Ненадлежащие условия проживания, предоставленного работодателем</li>
+</ul>
+
+<h2>Как подать жалобу?</h2>
+<ol>
+  <li><strong>Соберите документы:</strong> договор, расчётные листки, SMS/e-mail, фотографии.</li>
+  <li><strong>Найдите ближайший окружной инспекторат труда (OIP)</strong> на pip.gov.pl → раздел Kontakty.</li>
+  <li><strong>Подайте жалобу:</strong> онлайн на pip.gov.pl → «Złóż skargę», почтой или лично.</li>
+  <li><strong>Ожидайте письменного ответа</strong> от PIP.</li>
+</ol>
+
+<h2>Защита от увольнения</h2>
+<p>Польское законодательство защищает работников от преследования за подачу жалобы. Если работодатель уволит вас в ответ на жалобу — вы вправе обратиться в суд по трудовым спорам и потребовать компенсации.</p>
+
+<h2>Где получить помощь?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> свяжитесь с вашим координатором — мы на вашей стороне.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> бесплатная юридическая помощь для иностранцев в Польше.</li>
+  <li><strong>pip.gov.pl:</strong> подайте жалобу онлайн — доступно круглосуточно.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "labour-inspectorate-pip-foreign-worker-complaint-poland",
+    title: "Poland's Labour Inspectorate (PIP) – How to Protect Your Rights as a Foreign Worker",
+    description:
+      "How to file a complaint with PIP as a foreign worker in Poland — what the inspectorate covers, what violations to report, and how dismissal protection works.",
+    date: "2031-07-03",
+    lang: "en",
+    content: `
+<p>Are you a foreign worker in Poland who believes your employer or staffing agency is violating your rights? The National Labour Inspectorate (Państwowa Inspekcja Pracy, PIP) is a free, state-run body that exists to protect you.</p>
+
+<h2>What is PIP?</h2>
+<p>PIP oversees compliance with Polish labour law. Inspectors have the authority to:</p>
+<ul>
+  <li>conduct unannounced workplace inspections,</li>
+  <li>order payment of outstanding wages,</li>
+  <li>impose fines on employers,</li>
+  <li>require improvements to health and safety conditions.</li>
+</ul>
+<p>Your complaint is confidential — your employer will not know it was you who filed it.</p>
+
+<h2>What Violations Can You Report?</h2>
+<ul>
+  <li>Unpaid or underpaid wages</li>
+  <li>Working without a contract or with a contract that differs from what was agreed</li>
+  <li>Failure to pay ZUS social insurance contributions</li>
+  <li>Illegal working hours or lack of required breaks</li>
+  <li>No mandatory BHP (health &amp; safety) training</li>
+  <li>Discrimination based on nationality</li>
+  <li>Substandard employer-provided accommodation</li>
+</ul>
+
+<h2>How to File a Complaint</h2>
+<p><strong>Step 1 – Gather evidence.</strong> Keep your contract, pay slips, text messages, emails, and photos of working or living conditions.</p>
+<p><strong>Step 2 – Find your regional Labour Inspectorate (OIP).</strong> PIP has 16 regional offices — one in each voivodeship. Find addresses at pip.gov.pl → Contacts.</p>
+<p><strong>Step 3 – Submit your complaint.</strong> Options:</p>
+<ul>
+  <li>Online form at pip.gov.pl → "Złóż skargę" (File a complaint), available 24/7</li>
+  <li>By post to the appropriate OIP</li>
+  <li>In person at the inspectorate office</li>
+  <li>By phone for urgent matters</li>
+</ul>
+<p><strong>Step 4 – Await a written response.</strong> PIP is legally required to respond. If an inspection is conducted, you will be informed of the outcome.</p>
+
+<h2>Protection Against Dismissal</h2>
+<p>Polish law protects workers from retaliation for filing a complaint with PIP. If your employer dismisses you or takes other punitive action as a result, you have the right to challenge the dismissal in a labour court and claim compensation.</p>
+
+<h2>Where to Get Help</h2>
+<ul>
+  <li><strong>Nexflow:</strong> contact your coordinator — we are on your side.</li>
+  <li><strong>SIP (Association for Legal Intervention):</strong> free legal assistance for foreigners in Poland (interwencjaprawna.pl).</li>
+  <li><strong>RPO (Ombudsman):</strong> rpo.gov.pl — handles discrimination cases.</li>
+  <li><strong>pip.gov.pl:</strong> submit your complaint online, 24/7.</li>
+</ul>
+<p>Your nationality does not reduce your rights. Polish labour law applies equally to all workers, regardless of where they come from.</p>
+    `.trim(),
+  },
+
+  {
+    slug: "ppk-pracownicze-plany-kapitalowe-cudzoziemiec-polska",
+    title: "PPK – co to jest i co zrobić jako cudzoziemiec w Polsce",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – jak działa program oszczędności emerytalnych, czy warto pozostać, jak zrezygnować i co dzieje się ze środkami po wyjeździe z Polski.",
+    date: "2031-07-10",
+    lang: "pl",
+    content: `
+<p>Na pierwszym odcinku wypłaty widzisz potrącenie „PPK 2%" i zastanawiasz się, co to jest. Pracownicze Plany Kapitałowe (PPK) to program wspólnego oszczędzania na emeryturę prowadzony przez pracodawcę, pracownika i państwo. Poniżej wyjaśniamy, jak działa, ile kosztuje i co możesz z tym zrobić.</p>
+
+<h2>Czym są Pracownicze Plany Kapitałowe?</h2>
+<p>PPK to dobrowolny (ale z automatycznym zapisem) program długoterminowego oszczędzania, wprowadzony w Polsce w 2019 r. Twoje składki trafiają na indywidualne konto i są Twoją własnością — niezależnie od pracodawcy czy miejsca zamieszkania.</p>
+
+<h2>Kto jest automatycznie zapisywany do PPK?</h2>
+<ul>
+  <li>Pracownicy na umowę o pracę (w tym tymczasowi) po <strong>3 miesiącach stażu</strong> u danego pracodawcy.</li>
+  <li>Pracodawca zapisuje Cię automatycznie — bez Twojego wniosku.</li>
+  <li>Możesz zrezygnować w każdej chwili, składając pisemny wniosek do działu kadr.</li>
+</ul>
+
+<h2>Ile wynoszą składki PPK?</h2>
+<p>Składki liczone od wynagrodzenia brutto:</p>
+<ul>
+  <li><strong>Pracownik (Ty):</strong> 2% (możesz dobrowolnie zwiększyć do 4%)</li>
+  <li><strong>Pracodawca:</strong> 1,5% (może dodatkowo dopłacić do 2,5%)</li>
+  <li><strong>Państwo – jednorazowo:</strong> 250 zł na start</li>
+  <li><strong>Państwo – co rok:</strong> 240 zł dopłaty rocznej</li>
+</ul>
+<p><strong>Przykład:</strong> zarabiasz 4 000 zł brutto → Twoja składka = 80 zł, pracodawca dokłada 60 zł. Na konto PPK wpływa 140 zł miesięcznie plus roczna dopłata państwa.</p>
+
+<h2>Czy PPK jest opłacalne dla cudzoziemca?</h2>
+<p>Dla większości pracowników: <strong>tak</strong>. Składka pracodawcy (1,5%) to darmowy bonus — rezygnując z PPK, tracisz te pieniądze bezpowrotnie. Dla cudzoziemców planujących wyjazd: pieniądze <strong>nie przepadają</strong>. Możesz wypłacić je zdalnie lub zostawić do 60. roku życia.</p>
+
+<h2>Kiedy i jak można wypłacić środki?</h2>
+<ul>
+  <li><strong>Po 60. roku życia:</strong> 25% jednorazowo bez podatku, reszta w 120 ratach — brak podatku od zysku.</li>
+  <li><strong>Wcześniejsza wypłata (w każdej chwili):</strong> możliwa, ale tracisz dopłaty państwa i płacisz 19% podatek od zysku inwestycyjnego.</li>
+  <li><strong>Poważna choroba / zakup mieszkania:</strong> specjalne zasady — częściowa wypłata bez pełnych kar.</li>
+</ul>
+
+<h2>Jak zrezygnować z PPK?</h2>
+<ol>
+  <li>Pobierz formularz rezygnacji w dziale kadr lub ze strony swojej instytucji PPK.</li>
+  <li>Złóż go pisemnie u pracodawcy.</li>
+  <li>Rezygnacja obowiązuje 4 lata — po tym czasie pracodawca ponownie automatycznie Cię zapisze (możesz ponownie zrezygnować).</li>
+</ol>
+
+<h2>Co się dzieje z PPK po wyjeździe z Polski?</h2>
+<p>Twoje konto PPK pozostaje aktywne. Możesz je zarządzać zdalnie przez aplikację swojej instytucji finansowej (np. PFR Portal PPK) i wypłacić środki nawet mieszkając za granicą.</p>
+
+<h2>Pytania? Skontaktuj się z Nexflow</h2>
+<p>Twój koordynator wyjaśni szczegóły PPK w kontekście Twojej konkretnej umowy. Napisz do nas na WhatsApp lub przez aplikację Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-pratsiuiuchi-plany-kapitalovi-inozemets-polshcha",
+    title: "PPK – що це таке і що робити як іноземцю в Польщі",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – як працює програма пенсійних заощаджень, чи варто залишатися, як відмовитися та що відбувається з коштами після виїзду з Польщі.",
+    date: "2031-07-17",
+    lang: "uk",
+    content: `
+<p>На першому розрахунковому листку бачиш утримання «PPK 2%» і не розумієш, що це таке. PPK (Pracownicze Plany Kapitałowe — Трудові Плани Капіталу) — це програма спільного пенсійного накопичення, яку фінансують роботодавець, працівник і держава. Нижче пояснюємо, як вона працює і що ти можеш зробити.</p>
+
+<h2>Що таке PPK?</h2>
+<p>PPK — це добровільна (але з автоматичним записом) програма довгострокових заощаджень, запроваджена в Польщі у 2019 році. Твої внески надходять на індивідуальний рахунок і є твоєю власністю — незалежно від роботодавця чи місця проживання.</p>
+
+<h2>Хто автоматично записується до PPK?</h2>
+<ul>
+  <li>Працівники за трудовим договором (у т.ч. тимчасові) після <strong>3 місяців стажу</strong> у цього роботодавця.</li>
+  <li>Роботодавець записує тебе автоматично — без твоєї заяви.</li>
+  <li>Ти можеш відмовитися в будь-який момент, подавши письмову заяву до відділу кадрів.</li>
+</ul>
+
+<h2>Які розміри внесків PPK?</h2>
+<p>Внески розраховуються від брутто-зарплати:</p>
+<ul>
+  <li><strong>Працівник (ти):</strong> 2% (можеш добровільно збільшити до 4%)</li>
+  <li><strong>Роботодавець:</strong> 1,5% (може доплатити до 2,5% додатково)</li>
+  <li><strong>Держава – одноразово:</strong> 250 зл на старт</li>
+  <li><strong>Держава – щороку:</strong> 240 зл річної доплати</li>
+</ul>
+<p><strong>Приклад:</strong> заробляєш 4 000 зл брутто → твій внесок = 80 зл, роботодавець додає 60 зл. На рахунок PPK щомісяця надходить 140 зл плюс річна доплата держави.</p>
+
+<h2>Чи вигідне PPK для іноземця?</h2>
+<p>Для більшості працівників: <strong>так</strong>. Внесок роботодавця (1,5%) — це безкоштовний бонус. Відмовляючись від PPK, ти втрачаєш ці гроші назавжди. Для іноземців, які планують виїзд: гроші <strong>не зникають</strong>. Ти можеш вивести їх дистанційно або залишити до 60 років.</p>
+
+<h2>Коли і як можна вивести кошти?</h2>
+<ul>
+  <li><strong>Після 60 років:</strong> 25% одноразово без податку, решта — 120 траншами без податку на прибуток.</li>
+  <li><strong>Дострокове виведення (у будь-який момент):</strong> можливе, але ти втрачаєш державні доплати та сплачуєш 19% податок на інвестиційний прибуток.</li>
+  <li><strong>Важка хвороба / купівля житла:</strong> спеціальні умови — часткове виведення без повних штрафів.</li>
+</ul>
+
+<h2>Як відмовитися від PPK?</h2>
+<ol>
+  <li>Отримай бланк відмови у відділі кадрів або на сайті своєї фінансової установи PPK.</li>
+  <li>Подай його письмово роботодавцю.</li>
+  <li>Відмова діє 4 роки — після цього роботодавець знову автоматично запише тебе (можна відмовитися знову).</li>
+</ol>
+
+<h2>Що відбувається з PPK після виїзду з Польщі?</h2>
+<p>Твій рахунок PPK залишається активним. Ти можеш керувати ним дистанційно через застосунок своєї фінансової установи (наприклад, PFR Portal PPK) і виводити кошти, навіть проживаючи за кордоном.</p>
+
+<h2>Питання? Зв'яжися з Nexflow</h2>
+<p>Твій координатор у Nexflow пояснить деталі PPK стосовно твого конкретного договору. Напиши нам у WhatsApp або через застосунок Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-kapitalnye-plany-inostranets-polsha",
+    title: "PPK – что это такое и что делать иностранцу в Польше",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) – как работает программа пенсионных накоплений, стоит ли оставаться, как отказаться и что происходит с деньгами после отъезда из Польши.",
+    date: "2031-07-24",
+    lang: "ru",
+    content: `
+<p>В первом расчётном листке ты видишь удержание «PPK 2%» и не понимаешь, что это. PPK (Pracownicze Plany Kapitałowe — Трудовые Планы Капитала) — программа совместного пенсионного накопления, финансируемая работодателем, работником и государством. Ниже объясняем, как она устроена и что с ней делать.</p>
+
+<h2>Что такое PPK?</h2>
+<p>PPK — добровольная (но с автоматическим включением) программа долгосрочных сбережений, введённая в Польше в 2019 г. Твои взносы поступают на индивидуальный счёт и остаются твоей собственностью — независимо от работодателя и страны проживания.</p>
+
+<h2>Кто автоматически включается в PPK?</h2>
+<ul>
+  <li>Работники по трудовому договору (в т.ч. временные) после <strong>3 месяцев стажа</strong> у данного работодателя.</li>
+  <li>Работодатель включает тебя автоматически — без твоего заявления.</li>
+  <li>Ты можешь отказаться в любой момент, подав письменное заявление в отдел кадров.</li>
+</ul>
+
+<h2>Каков размер взносов PPK?</h2>
+<p>Взносы считаются от зарплаты-брутто:</p>
+<ul>
+  <li><strong>Работник (ты):</strong> 2% (можно добровольно увеличить до 4%)</li>
+  <li><strong>Работодатель:</strong> 1,5% (может доплачивать до 2,5% дополнительно)</li>
+  <li><strong>Государство – единовременно:</strong> 250 зл на старт</li>
+  <li><strong>Государство – ежегодно:</strong> 240 зл в год</li>
+</ul>
+<p><strong>Пример:</strong> зарплата 4 000 зл брутто → твой взнос = 80 зл, работодатель добавляет 60 зл. На счёт PPK ежемесячно поступает 140 зл плюс ежегодная доплата государства.</p>
+
+<h2>Выгодно ли PPK для иностранца?</h2>
+<p>Для большинства работников: <strong>да</strong>. Взнос работодателя (1,5%) — это бесплатный бонус к зарплате. Отказываясь от PPK, ты безвозвратно теряешь эти деньги. Для иностранцев, планирующих отъезд: деньги <strong>не пропадают</strong>. Их можно вывести дистанционно или оставить до 60 лет.</p>
+
+<h2>Когда и как можно вывести средства?</h2>
+<ul>
+  <li><strong>После 60 лет:</strong> 25% единовременно без налога, остаток — 120 частями без налога на прирост капитала.</li>
+  <li><strong>Досрочный вывод (в любой момент):</strong> возможен, но теряешь государственные доплаты и платишь 19% налог на инвестиционный доход.</li>
+  <li><strong>Тяжёлая болезнь / покупка жилья:</strong> особые условия — частичный вывод без полных штрафов.</li>
+</ul>
+
+<h2>Как отказаться от PPK?</h2>
+<ol>
+  <li>Получи бланк отказа в отделе кадров или на сайте своей финансовой организации PPK.</li>
+  <li>Подай его письменно работодателю.</li>
+  <li>Отказ действует 4 года — после этого работодатель снова автоматически включит тебя (можно отказаться повторно).</li>
+</ol>
+
+<h2>Что происходит с PPK после отъезда из Польши?</h2>
+<p>Счёт PPK остаётся активным. Ты можешь управлять им дистанционно через приложение своей финансовой организации (например, PFR Portal PPK) и выводить деньги, даже живя за рубежом.</p>
+
+<h2>Вопросы? Свяжись с Nexflow</h2>
+<p>Твой координатор в Nexflow объяснит детали PPK применительно к твоему договору. Напиши нам в WhatsApp или через приложение Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ppk-employee-capital-plans-foreign-worker-poland",
+    title: "PPK Employee Capital Plans – What Foreign Workers in Poland Need to Know",
+    description:
+      "PPK (Pracownicze Plany Kapitałowe) is Poland's employer-run retirement savings programme. This guide explains how it works, whether to stay enrolled, how to opt out, and what happens to your savings if you leave Poland.",
+    date: "2031-07-31",
+    lang: "en",
+    content: `
+<p>You just received your first Polish payslip and noticed a deduction labelled "PPK 2%". What is PPK, and should you stay enrolled? This guide explains everything you need to know about Poland's Employee Capital Plans as a foreign temporary worker.</p>
+
+<h2>What Is PPK?</h2>
+<p>PPK (Pracownicze Plany Kapitałowe — Employee Capital Plans) is Poland's voluntary but auto-enrollment retirement savings programme, launched in 2019. Contributions from you, your employer, and the Polish state are invested in a fund managed by a licensed financial institution. The savings belong to you personally — they don't disappear if you change employers or leave Poland.</p>
+
+<h2>Who Gets Enrolled Automatically?</h2>
+<ul>
+  <li>Employees on a labour contract (including temporary workers) after <strong>3 months of service</strong> with the same employer.</li>
+  <li>Enrolment is automatic — your employer signs you up without any action needed on your part.</li>
+  <li>You can opt out at any time by submitting a written declaration to HR.</li>
+</ul>
+
+<h2>How Much Are the Contributions?</h2>
+<p>Contributions are calculated as a percentage of your gross salary:</p>
+<ul>
+  <li><strong>You (the employee):</strong> 2% (you may voluntarily increase this to 4%)</li>
+  <li><strong>Your employer:</strong> 1.5% (may voluntarily add up to 2.5% more)</li>
+  <li><strong>Polish state – one-time welcome bonus:</strong> PLN 250 when you join</li>
+  <li><strong>Polish state – annual top-up:</strong> PLN 240 per year you remain enrolled</li>
+</ul>
+<p><strong>Example:</strong> gross salary of PLN 4,000 → your contribution = PLN 80, employer adds PLN 60. Total PPK credit per month: PLN 140, plus the annual state top-up.</p>
+
+<h2>Is PPK Worth It for a Foreign Worker?</h2>
+<p>For most workers: <strong>yes</strong>. The employer's 1.5% contribution is effectively free money on top of your wages — opt out and you simply lose it. For foreign workers planning to leave Poland: the savings do <strong>not</strong> disappear. You can withdraw them remotely, or leave them invested until age 60.</p>
+
+<h2>When and How Can You Withdraw Your PPK Savings?</h2>
+<ul>
+  <li><strong>At age 60+:</strong> 25% lump sum tax-free, the rest paid in 120 instalments with no capital gains tax.</li>
+  <li><strong>Early withdrawal (any time):</strong> allowed, but you repay all state contributions and pay 19% tax on investment gains.</li>
+  <li><strong>Serious illness / first home purchase:</strong> special rules allow partial withdrawal without full penalties.</li>
+</ul>
+
+<h2>How to Opt Out of PPK</h2>
+<ol>
+  <li>Obtain the opt-out declaration form from HR or your PPK financial institution's website.</li>
+  <li>Submit it in writing to your employer.</li>
+  <li>The opt-out is valid for 4 years — after that your employer will automatically re-enrol you (you can opt out again).</li>
+</ol>
+
+<h2>What Happens to Your PPK After You Leave Poland?</h2>
+<p>Your PPK account stays active. You can manage it remotely through your financial institution's app (e.g. PFR Portal PPK) and request a withdrawal even while living abroad. No Polish residency is required to access the funds.</p>
+
+<h2>Questions? Contact Nexflow</h2>
+<p>Your Nexflow coordinator can explain how PPK applies to your specific contract. Reach us via WhatsApp or the Nexflow app.</p>
+    `.trim(),
+  },
+  {
+    slug: "mobbing-molestowanie-praca-polska-cudzoziemiec",
+    title: "Mobbing w pracy w Polsce – prawa cudzoziemca i jak się bronić",
+    description:
+      "Co to jest mobbing według polskiego prawa, jak go odróżnić od trudnego przełożonego, jak dokumentować i gdzie zgłosić — praktyczny przewodnik dla cudzoziemców pracujących w Polsce.",
+    date: "2031-08-07",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce i czujesz, że jesteś systematycznie poniżany, zastraszany lub izolowany przez przełożonego albo współpracowników? Polskie prawo pracy chroni Cię przed mobbingiem. Poniżej wyjaśniamy, czym jest mobbing, jak go udowodnić i co możesz zrobić.</p>
+
+<h2>Co to jest mobbing według polskiego prawa?</h2>
+<p>Definicja z art. 94³ Kodeksu pracy: mobbing to działania lub zachowania dotyczące pracownika lub skierowane przeciwko pracownikowi, polegające na <strong>uporczywym i długotrwałym nękaniu lub zastraszaniu</strong>, wywołujące u niego zaniżoną ocenę przydatności zawodowej, powodujące lub mające na celu poniżenie lub ośmieszenie pracownika, izolowanie go lub wyeliminowanie z zespołu.</p>
+<p>Kluczowe cechy: zachowanie musi być <strong>powtarzające się</strong> i trwać przez dłuższy czas (zazwyczaj minimum kilka tygodni–miesięcy). Pojedynczy incydent nie jest mobbingiem.</p>
+
+<h2>Przykłady zachowań mogących być mobbingiem</h2>
+<ul>
+  <li>Systematyczne obrażanie, wyzywanie, ośmieszanie przed innymi</li>
+  <li>Celowe utrudnianie wykonywania pracy (brak narzędzi, sprzeczne polecenia)</li>
+  <li>Ignorowanie pracownika, wykluczanie z komunikacji zespołowej</li>
+  <li>Nieuzasadnione lub nadmierne krytykowanie każdego działania</li>
+  <li>Groźby dotyczące zwolnienia lub niekorzystnych warunków</li>
+  <li>Dyskryminacja ze względu na narodowość lub język</li>
+</ul>
+
+<h2>Co NIE jest mobbingiem</h2>
+<ul>
+  <li>Jednokrotna kłótnia z przełożonym</li>
+  <li>Normalna ocena pracy i konstruktywna krytyka</li>
+  <li>Polecenia służbowe, z którymi się nie zgadzasz</li>
+  <li>Trudny, wymagający styl zarządzania (bez systematycznego nękania)</li>
+</ul>
+
+<h2>Jak dokumentować mobbing?</h2>
+<p>Dokumentacja jest kluczowa dla udowodnienia sprawy:</p>
+<ul>
+  <li>Prowadź <strong>dziennik zdarzeń</strong> — każdy incydent z datą, godziną, miejscem i świadkami.</li>
+  <li>Zachowuj wszystkie wiadomości (SMS, e-mail, WhatsApp), w których dochodzi do nękania.</li>
+  <li>Notuj nazwy świadków gotowych potwierdzić obserwacje.</li>
+  <li>Zachowaj wszelkie dokumenty pisemne — notatki, upomnienia.</li>
+</ul>
+
+<h2>Pracodawca odpowiada za mobbing</h2>
+<p>Polskie prawo nakłada na pracodawcę <strong>obowiązek zapobiegania mobbingowi</strong>. Jeśli do niego doszło, pracodawca ponosi odpowiedzialność — nawet jeśli mobbingiem zajmował się inny pracownik lub kierownik.</p>
+
+<h2>Co możesz zrobić?</h2>
+<ul>
+  <li><strong>Zgłoś pracodawcy</strong> (pisemnie do HR lub zarządu) — daje to pracodawcy szansę interwencji i tworzy ślad dokumentacyjny.</li>
+  <li><strong>Zgłoś do Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatna kontrola, można zachować anonimowość (pip.gov.pl).</li>
+  <li><strong>Roszczenie do sądu pracy</strong> — masz prawo żądać:<br>
+    – odszkodowania za doznaną krzywdę (minimum równowartość minimalnego wynagrodzenia),<br>
+    – lub rozwiązania umowy z winy pracodawcy i odszkodowania.</li>
+</ul>
+
+<h2>Ochrona przed zwolnieniem za zgłoszenie</h2>
+<p>Pracodawca nie może Cię zwolnić za złożenie skargi na mobbing. Takie działanie byłoby odwetem (dyskryminacją) i uprawniałoby Cię do dodatkowego odszkodowania.</p>
+
+<h2>Potrzebujesz wsparcia?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> skontaktuj się z koordynatorem — agencja stoi po stronie pracownika.</li>
+  <li><strong>Stowarzyszenie Interwencji Prawnej (SIP):</strong> bezpłatna pomoc prawna dla cudzoziemców.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — skarga online, dostępna 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobing-tskyuvannya-robota-polshcha-inozemets",
+    title: "Мобінг на роботі в Польщі – права іноземця і як захиститися",
+    description:
+      "Що таке мобінг за польським законодавством, як відрізнити його від суворого керівника, як документувати та куди звернутися — практичний посібник для іноземців, що працюють у Польщі.",
+    date: "2031-08-14",
+    lang: "uk",
+    content: `
+<p>Ти працюєш у Польщі і відчуваєш, що тебе систематично принижують, залякують або ізолюють — з боку керівника або колег? Польське трудове законодавство захищає тебе від мобінгу. Нижче пояснюємо, що таке мобінг, як його довести і що ти можеш зробити.</p>
+
+<h2>Що таке мобінг за польським правом?</h2>
+<p>Визначення зі ст. 94³ Трудового кодексу Польщі: мобінг — це дії або поведінка щодо працівника, що полягають у <strong>наполегливому і тривалому цькуванні або залякуванні</strong>, які призводять до заниженої оцінки його професійної придатності, принижують або висміюють його, ізолюють або усувають із колективу.</p>
+<p>Ключова умова: поведінка має бути <strong>повторюваною</strong> і тривати тижні або місяці. Один інцидент — це не мобінг.</p>
+
+<h2>Приклади поведінки, яка може бути мобінгом</h2>
+<ul>
+  <li>Систематичні образи, приниження перед іншими</li>
+  <li>Навмисне створення перешкод для роботи (відсутність інструментів, суперечливі накази)</li>
+  <li>Ігнорування, виключення з командної комунікації</li>
+  <li>Безпідставна або надмірна критика кожної дії</li>
+  <li>Погрози звільненням або погіршенням умов праці</li>
+  <li>Дискримінація за національністю або мовою</li>
+</ul>
+
+<h2>Що НЕ є мобінгом</h2>
+<ul>
+  <li>Одноразова сварка з керівником</li>
+  <li>Звичайна оцінка роботи та конструктивна критика</li>
+  <li>Робочі доручення, з якими ти не погоджуєшся</li>
+  <li>Вимогливий стиль управління (без систематичного цькування)</li>
+</ul>
+
+<h2>Як документувати мобінг?</h2>
+<ul>
+  <li>Веди <strong>щоденник подій</strong> — кожен інцидент з датою, часом, місцем і свідками.</li>
+  <li>Зберігай усі повідомлення (SMS, e-mail, WhatsApp), в яких відбувається цькування.</li>
+  <li>Записуй імена свідків, готових підтвердити те, що бачили.</li>
+  <li>Зберігай усі письмові документи — записки, доганы.</li>
+</ul>
+
+<h2>Роботодавець відповідає за мобінг</h2>
+<p>Польське право зобов'язує роботодавця <strong>запобігати мобінгу</strong>. Якщо він стався, роботодавець несе відповідальність — навіть якщо мобінг чинила інша особа.</p>
+
+<h2>Що ти можеш зробити?</h2>
+<ul>
+  <li><strong>Повідом роботодавця</strong> (письмово до відділу кадрів або керівництва) — це дає роботодавцю можливість втрутитися і створює документальний слід.</li>
+  <li><strong>Звернися до PIP (Державна інспекція праці)</strong> — безкоштовна перевірка, анонімність збережена (pip.gov.pl).</li>
+  <li><strong>Позов до трудового суду</strong> — ти маєш право вимагати:<br>
+    – відшкодування шкоди (мінімум розмір мінімальної заробітної плати),<br>
+    – або розірвання договору з вини роботодавця і виплати компенсації.</li>
+</ul>
+
+<h2>Захист від звільнення за скаргу</h2>
+<p>Роботодавець не може звільнити тебе за скаргу на мобінг. Таке звільнення було б відплатою (дискримінацією) і давало б тебе право на додаткову компенсацію.</p>
+
+<h2>Потрібна допомога? Зв'яжися з Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> зверніться до свого координатора — агентство на стороні працівника.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> безкоштовна юридична допомога для іноземців.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — скарга онлайн, доступна 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobing-travlya-rabota-polsha-inostranets",
+    title: "Мобинг на работе в Польше – права иностранца и как защититься",
+    description:
+      "Что такое мобинг по польскому законодательству, как отличить его от строгого руководителя, как документировать и куда обратиться — практическое руководство для иностранцев, работающих в Польше.",
+    date: "2031-08-21",
+    lang: "ru",
+    content: `
+<p>Ты работаешь в Польше и чувствуешь, что тебя систематически унижают, запугивают или изолируют — со стороны руководства или коллег? Польское трудовое законодательство защищает тебя от мобинга. Ниже объясняем, что такое мобинг, как его доказать и что ты можешь сделать.</p>
+
+<h2>Что такое мобинг по польскому праву?</h2>
+<p>Определение из ст. 94³ Трудового кодекса Польши: мобинг — это действия или поведение в отношении работника, состоящие в <strong>упорном и длительном преследовании или запугивании</strong>, которые приводят к занижённой оценке его профессиональной пригодности, унижают или высмеивают его, изолируют или устраняют из коллектива.</p>
+<p>Ключевое условие: поведение должно быть <strong>повторяющимся</strong> и длиться недели или месяцы. Единственный инцидент — это не мобинг.</p>
+
+<h2>Примеры поведения, которое может быть мобингом</h2>
+<ul>
+  <li>Систематические оскорбления, унижения перед другими</li>
+  <li>Намеренное создание препятствий для работы (отсутствие инструментов, противоречивые приказы)</li>
+  <li>Игнорирование, исключение из командного общения</li>
+  <li>Беспричинная или чрезмерная критика каждого действия</li>
+  <li>Угрозы увольнением или ухудшением условий труда</li>
+  <li>Дискриминация по национальности или языку</li>
+</ul>
+
+<h2>Что НЕ является мобингом</h2>
+<ul>
+  <li>Единичная ссора с руководителем</li>
+  <li>Обычная оценка работы и конструктивная критика</li>
+  <li>Рабочие поручения, с которыми ты не согласен</li>
+  <li>Требовательный стиль руководства (без систематической травли)</li>
+</ul>
+
+<h2>Как документировать мобинг?</h2>
+<ul>
+  <li>Веди <strong>дневник событий</strong> — каждый инцидент с датой, временем, местом и свидетелями.</li>
+  <li>Сохраняй все сообщения (SMS, e-mail, WhatsApp), в которых происходит преследование.</li>
+  <li>Записывай имена свидетелей, готовых подтвердить произошедшее.</li>
+  <li>Сохраняй все письменные документы — записки, выговоры.</li>
+</ul>
+
+<h2>Работодатель отвечает за мобинг</h2>
+<p>Польское право обязывает работодателя <strong>предотвращать мобинг</strong>. Если он произошёл, работодатель несёт ответственность — даже если мобинг устраивал другой человек.</p>
+
+<h2>Что ты можешь сделать?</h2>
+<ul>
+  <li><strong>Сообщи работодателю</strong> (письменно в отдел кадров или руководству) — это даёт работодателю возможность вмешаться и создаёт документальный след.</li>
+  <li><strong>Обратись в PIP (Государственная инспекция труда)</strong> — бесплатная проверка, анонимность сохраняется (pip.gov.pl).</li>
+  <li><strong>Иск в трудовой суд</strong> — ты вправе требовать:<br>
+    – возмещения ущерба (минимум размер минимальной заработной платы),<br>
+    – или расторжения договора по вине работодателя и выплаты компенсации.</li>
+</ul>
+
+<h2>Защита от увольнения за жалобу</h2>
+<p>Работодатель не может уволить тебя за жалобу на мобинг. Такое увольнение являлось бы местью (дискриминацией) и давало бы тебе право на дополнительную компенсацию.</p>
+
+<h2>Нужна помощь? Свяжись с Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> обратись к своему координатору — агентство на стороне работника.</li>
+  <li><strong>SIP (Stowarzyszenie Interwencji Prawnej):</strong> бесплатная юридическая помощь для иностранцев.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — жалоба онлайн, доступна 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "mobbing-workplace-harassment-poland-foreign-worker",
+    title: "Mobbing and Workplace Harassment in Poland – A Guide for Foreign Workers",
+    description:
+      "What counts as mobbing under Polish law, how to tell it apart from tough management, how to document it, and where to report it — a practical guide for foreign workers in Poland.",
+    date: "2031-08-28",
+    lang: "en",
+    content: `
+<p>Are you being systematically belittled, intimidated, or excluded at work in Poland? Polish labour law protects every worker — including foreign temporary workers — from mobbing (workplace harassment). This guide explains what mobbing is, how to prove it, and what you can do.</p>
+
+<h2>What Is Mobbing Under Polish Law?</h2>
+<p>Article 94³ of the Polish Labour Code defines mobbing as actions or conduct directed at an employee that involve <strong>persistent and prolonged harassment or intimidation</strong>, resulting in a lowered professional self-assessment, and aimed at humiliating, ridiculing, isolating, or eliminating the employee from the team.</p>
+<p>The key element: the behaviour must be <strong>repeated and ongoing</strong> — typically over a period of weeks or months. A single difficult interaction does not constitute mobbing.</p>
+
+<h2>Examples of Behaviour That May Constitute Mobbing</h2>
+<ul>
+  <li>Systematic insults or humiliation in front of colleagues</li>
+  <li>Deliberately obstructing your work (withholding tools, contradictory orders)</li>
+  <li>Being ignored, excluded from team communication, or socially isolated</li>
+  <li>Unjustified or disproportionate criticism of every action you take</li>
+  <li>Threats of dismissal or worsened working conditions</li>
+  <li>Discrimination based on nationality or language</li>
+</ul>
+
+<h2>What Is NOT Mobbing</h2>
+<ul>
+  <li>A one-off argument with your supervisor</li>
+  <li>Normal performance reviews and constructive criticism</li>
+  <li>Work instructions you disagree with</li>
+  <li>A demanding management style that does not involve systematic harassment</li>
+</ul>
+
+<h2>How to Document Mobbing</h2>
+<p>Documentation is essential for proving a mobbing claim:</p>
+<ul>
+  <li>Keep a <strong>written log of incidents</strong> — record the date, time, location, and any witnesses for each event.</li>
+  <li>Save all relevant messages (SMS, email, WhatsApp) where the harassment occurs.</li>
+  <li>Note the names of colleagues willing to corroborate what they witnessed.</li>
+  <li>Keep any written documents — notes, written warnings, performance reviews.</li>
+</ul>
+
+<h2>The Employer Is Liable for Mobbing</h2>
+<p>Polish law places a <strong>strict obligation on employers to prevent mobbing</strong>. If mobbing occurs, the employer is liable — even if the harasser is another employee or manager, not the employer directly.</p>
+
+<h2>What Can You Do?</h2>
+<ul>
+  <li><strong>Report it to your employer</strong> (in writing to HR or management) — this gives the employer a chance to intervene and creates a paper trail.</li>
+  <li><strong>File a complaint with PIP (State Labour Inspectorate)</strong> — free, confidential inspection (pip.gov.pl).</li>
+  <li><strong>Take the case to a labour court</strong> — you are entitled to claim:<br>
+    – compensation for harm suffered (minimum: one month's minimum wage),<br>
+    – or termination of employment contract for the employer's fault, plus severance.</li>
+</ul>
+
+<h2>Protection Against Retaliation</h2>
+<p>Your employer cannot dismiss you for filing a mobbing complaint. Retaliatory dismissal is itself discrimination and entitles you to additional compensation under Polish law.</p>
+
+<h2>Need Help? Contact Nexflow</h2>
+<ul>
+  <li><strong>Nexflow:</strong> contact your coordinator — we stand with the worker.</li>
+  <li><strong>SIP (Association for Legal Intervention):</strong> free legal aid for foreigners in Poland.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — file online, available 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "odziez-robocza-srodki-ochrony-bhp-prawa-pracownika-polska",
+    title: "Odzież robocza i środki ochrony BHP w Polsce – prawa pracownika tymczasowego",
+    description:
+      "Kto zapewnia odzież ochronną i środki BHP w Polsce, czy możesz odmówić pracy bez właściwego wyposażenia i co zrobić gdy pracodawca nie wypełnia obowiązków — praktyczny przewodnik dla cudzoziemców.",
+    date: "2031-09-04",
+    lang: "pl",
+    content: `
+<p>Wchodzisz na hale magazynową i pytasz o kask, kamizelkę odblaskową lub rękawice — i słyszysz, że musisz kupić je sam. Czy to legalne? Nie. W Polsce pracodawca ma bezwzględny obowiązek zapewnić odzież roboczą i środki ochrony indywidualnej (ŚOI) <strong>bezpłatnie</strong>. Poniżej wyjaśniamy, co Ci się należy i jak egzekwować swoje prawa.</p>
+
+<h2>Czym są środki ochrony indywidualnej (ŚOI)?</h2>
+<p>ŚOI to wszelkie wyposażenie noszone lub trzymane przez pracownika w celu ochrony przed zagrożeniami. Przykłady:</p>
+<ul>
+  <li>Kask ochronny</li>
+  <li>Kamizelka odblaskowa / ochronna</li>
+  <li>Obuwie z ochroną palców (buty z noskiem stalowym)</li>
+  <li>Rękawice robocze i ochronne</li>
+  <li>Okulary lub gogle ochronne</li>
+  <li>Ochronniki słuchu (zatyczki, nauszniki)</li>
+  <li>Maska przeciwpyłowa lub respirator</li>
+  <li>Uprząż przy pracy na wysokości</li>
+</ul>
+
+<h2>Kto ma obowiązek zapewnić ŚOI?</h2>
+<p>Zgodnie z Kodeksem pracy i przepisami BHP: <strong>pracodawca</strong> (w przypadku pracowników tymczasowych — firma użytkownik, czyli miejsce, gdzie faktycznie pracujesz) zapewnia ŚOI bezpłatnie. Nie możesz być obciążony kosztami zakupu, dzierżawy ani prania odzieży ochronnej.</p>
+
+<h2>Odzież robocza — kiedy przysługuje?</h2>
+<p>Pracodawca ma obowiązek zapewnić odzież roboczą (kombinezon, fartuch itp.), gdy:</p>
+<ul>
+  <li>praca grozi zabrudzeniem lub uszkodzeniem własnej odzieży pracownika, lub</li>
+  <li>wymaga tego technologia produkcji (np. strefy czyste, zakłady spożywcze).</li>
+</ul>
+<p>Pracodawca musi też zapewnić <strong>pranie i konserwację</strong> odzieży roboczej na swój koszt.</p>
+
+<h2>Twoje prawa jako pracownika tymczasowego</h2>
+<ul>
+  <li><strong>Odmowa wykonania pracy bez ŚOI:</strong> masz prawo odmówić niebezpiecznej pracy, jeśli pracodawca nie zapewnił wymaganych środków ochrony. Odmowa jest legalna i chroni Cię przed zarzutem niewykonania polecenia służbowego.</li>
+  <li><strong>Żadnych potrąceń za ŚOI:</strong> pracodawca nie może potrącać kosztu ŚOI z Twojego wynagrodzenia.</li>
+  <li><strong>Wymiana zużytego wyposażenia:</strong> gdy ŚOI się zużyją lub uszkodzą (nie z Twojej winy), pracodawca ma obowiązek je wymienić.</li>
+</ul>
+
+<h2>Co jeśli pracodawca odmawia zapewnienia ŚOI?</h2>
+<ol>
+  <li><strong>Zgłoś to pisemnie</strong> swojemu kierownikowi lub HR (e-mail wystarczy — zostaje ślad).</li>
+  <li><strong>Poinformuj Nexflow</strong> — twój koordynator interweniuje u firmy użytkownika.</li>
+  <li><strong>Złóż skargę do PIP (Państwowa Inspekcja Pracy)</strong> — inspektorzy BHP mogą natychmiast nakazać pracodawcy dostarczenie wyposażenia i nałożyć na niego mandat.</li>
+</ol>
+
+<h2>Szkolenie BHP — Twój obowiązek i prawo</h2>
+<p>Przed dopuszczeniem do pracy pracodawca musi przeprowadzić szkolenie BHP (instruktaż stanowiskowy). Nie możesz być skierowany do pracy bez tego szkolenia — jest to niezgodne z prawem.</p>
+
+<h2>Pamiętaj</h2>
+<p>Bezpieczeństwo w pracy to obowiązek pracodawcy, a nie Twoja osobista odpowiedzialność finansowa. Jeśli czujesz się zmuszany do zakupu ŚOI z własnej kieszeni lub pracujesz bez wymaganego wyposażenia — skontaktuj się z Nexflow lub PIP.</p>
+
+<h2>Potrzebujesz pomocy?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> koordynator pomoże wyegzekwować Twoje prawa od firmy użytkownika.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — zgłoszenie online, anonimowe.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "robochyi-odiah-zasoby-okhorony-bhp-prava-pratsivnyk-polshcha",
+    title: "Робочий одяг і засоби індивідуального захисту в Польщі – права тимчасового працівника",
+    description:
+      "Хто забезпечує захисний одяг і засоби BHP у Польщі, чи можеш відмовитися від роботи без належного спорядження і що робити, якщо роботодавець не виконує зобов'язань.",
+    date: "2031-09-11",
+    lang: "uk",
+    content: `
+<p>Ти заходиш на склад і питаєш про каску, світловідбивний жилет або рукавиці — і чуєш, що маєш купити їх самостійно. Чи це законно? Ні. У Польщі роботодавець зобов'язаний забезпечити робочий одяг і засоби індивідуального захисту (ЗІЗ) <strong>безкоштовно</strong>. Нижче пояснюємо, що тобі належить і як відстояти свої права.</p>
+
+<h2>Що таке засоби індивідуального захисту (ЗІЗ)?</h2>
+<p>ЗІЗ — будь-яке спорядження, що носить або тримає працівник для захисту від небезпеки. Приклади:</p>
+<ul>
+  <li>Захисна каска</li>
+  <li>Світловідбивний / захисний жилет</li>
+  <li>Взуття з захистом пальців (черевики зі сталевим носком)</li>
+  <li>Робочі та захисні рукавиці</li>
+  <li>Захисні окуляри або щиток</li>
+  <li>Беруші або захисні навушники</li>
+  <li>Пилозахисна маска або респіратор</li>
+  <li>Страхувальна система при роботі на висоті</li>
+</ul>
+
+<h2>Хто зобов'язаний забезпечити ЗІЗ?</h2>
+<p>Відповідно до Трудового кодексу та правил BHP: <strong>роботодавець</strong> (для тимчасових працівників — фірма-користувач, тобто місце, де ти фактично працюєш) забезпечує ЗІЗ безкоштовно. З тебе не можуть стягувати витрати на купівлю, оренду або прання захисного одягу.</p>
+
+<h2>Робочий одяг — коли він належить?</h2>
+<p>Роботодавець зобов'язаний надати робочий одяг (комбінезон, фартух тощо), якщо:</p>
+<ul>
+  <li>робота загрожує забрудненням або пошкодженням власного одягу, або</li>
+  <li>цього вимагає технологія виробництва (напр., чисті зони, харчові підприємства).</li>
+</ul>
+<p>Роботодавець також зобов'язаний забезпечити <strong>прання та технічне обслуговування</strong> робочого одягу за свій рахунок.</p>
+
+<h2>Твої права як тимчасового працівника</h2>
+<ul>
+  <li><strong>Право відмовитися від роботи без ЗІЗ:</strong> ти маєш право відмовитися від небезпечної роботи, якщо роботодавець не надав необхідних засобів захисту. Така відмова законна і захищає тебе від звинувачення у невиконанні наказу.</li>
+  <li><strong>Без утримань за ЗІЗ:</strong> роботодавець не може утримувати вартість ЗІЗ з твоєї зарплати.</li>
+  <li><strong>Заміна зношеного спорядження:</strong> якщо ЗІЗ зношуються або пошкоджуються не з твоєї вини, роботодавець зобов'язаний їх замінити.</li>
+</ul>
+
+<h2>Що робити, якщо роботодавець відмовляє у видачі ЗІЗ?</h2>
+<ol>
+  <li><strong>Повідом письмово</strong> свого керівника або HR (email достатньо — залишається слід).</li>
+  <li><strong>Зверніться до Nexflow</strong> — твій координатор втрутиться у стосунки з фірмою-користувачем.</li>
+  <li><strong>Подай скаргу до PIP (Державна інспекція праці)</strong> — інспектори BHP можуть негайно зобов'язати роботодавця надати спорядження та виписати штраф.</li>
+</ol>
+
+<h2>Навчання з BHP — твій обов'язок і право</h2>
+<p>До початку роботи роботодавець зобов'язаний провести інструктаж з BHP на робочому місці. Тебе не можуть допустити до роботи без цього інструктажу — це незаконно.</p>
+
+<h2>Пам'ятай</h2>
+<p>Безпека праці — обов'язок роботодавця, а не твоя особиста фінансова відповідальність. Якщо тебе змушують купувати ЗІЗ за власний рахунок або ти працюєш без необхідного спорядження — зв'яжися з Nexflow або PIP.</p>
+
+<h2>Потрібна допомога?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> координатор допоможе відстояти твої права перед фірмою-користувачем.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — анонімна скарга онлайн.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "rabochaya-odezhda-sredstva-zashchity-bhp-prava-rabotnik-polsha",
+    title: "Рабочая одежда и средства индивидуальной защиты в Польше – права временного работника",
+    description:
+      "Кто обеспечивает защитную одежду и СИЗ в Польше, можешь ли отказаться работать без необходимого снаряжения и что делать, если работодатель не выполняет обязательства.",
+    date: "2031-09-18",
+    lang: "ru",
+    content: `
+<p>Ты приходишь на склад и спрашиваешь каску, светоотражающий жилет или перчатки — и слышишь, что должен купить их сам. Законно ли это? Нет. В Польше работодатель обязан обеспечить рабочую одежду и средства индивидуальной защиты (СИЗ) <strong>бесплатно</strong>. Ниже объясняем, что тебе положено и как отстоять свои права.</p>
+
+<h2>Что такое средства индивидуальной защиты (СИЗ)?</h2>
+<p>СИЗ — любое снаряжение, которое работник носит или держит для защиты от опасности. Примеры:</p>
+<ul>
+  <li>Защитная каска</li>
+  <li>Светоотражающий / защитный жилет</li>
+  <li>Обувь с защитой пальцев (ботинки со стальным носком)</li>
+  <li>Рабочие и защитные перчатки</li>
+  <li>Защитные очки или щиток</li>
+  <li>Беруши или защитные наушники</li>
+  <li>Противопылевая маска или респиратор</li>
+  <li>Страховочная система при работе на высоте</li>
+</ul>
+
+<h2>Кто обязан обеспечить СИЗ?</h2>
+<p>Согласно Трудовому кодексу и правилам BHP: <strong>работодатель</strong> (для временных работников — компания-пользователь, т.е. место, где ты фактически работаешь) обеспечивает СИЗ бесплатно. С тебя не могут взимать плату за покупку, аренду или стирку защитной одежды.</p>
+
+<h2>Рабочая одежда — когда она положена?</h2>
+<p>Работодатель обязан предоставить рабочую одежду (комбинезон, фартук и т.п.), если:</p>
+<ul>
+  <li>работа угрожает загрязнением или повреждением собственной одежды работника, или</li>
+  <li>этого требует технология производства (напр., чистые зоны, пищевые предприятия).</li>
+</ul>
+<p>Работодатель также обязан обеспечить <strong>стирку и техническое обслуживание</strong> рабочей одежды за свой счёт.</p>
+
+<h2>Твои права как временного работника</h2>
+<ul>
+  <li><strong>Право отказаться работать без СИЗ:</strong> ты вправе отказаться от опасной работы, если работодатель не предоставил требуемые средства защиты. Такой отказ законен и защищает тебя от обвинения в невыполнении приказа.</li>
+  <li><strong>Без удержаний за СИЗ:</strong> работодатель не вправе удерживать стоимость СИЗ из твоей зарплаты.</li>
+  <li><strong>Замена изношенного снаряжения:</strong> если СИЗ изнашиваются или повреждаются не по твоей вине, работодатель обязан их заменить.</li>
+</ul>
+
+<h2>Что делать, если работодатель отказывает в выдаче СИЗ?</h2>
+<ol>
+  <li><strong>Сообщи письменно</strong> своему руководителю или в HR (электронное письмо подойдёт — остаётся след).</li>
+  <li><strong>Обратись в Nexflow</strong> — твой координатор вмешается в отношения с компанией-пользователем.</li>
+  <li><strong>Подай жалобу в PIP (Государственная инспекция труда)</strong> — инспекторы по BHP могут немедленно обязать работодателя предоставить снаряжение и выписать штраф.</li>
+</ol>
+
+<h2>Инструктаж по BHP — твоя обязанность и право</h2>
+<p>Перед допуском к работе работодатель обязан провести инструктаж по BHP на рабочем месте. Допускать тебя к работе без этого инструктажа — незаконно.</p>
+
+<h2>Помни</h2>
+<p>Безопасность труда — обязанность работодателя, а не твоя личная финансовая ответственность. Если тебя вынуждают покупать СИЗ за собственный счёт или ты работаешь без необходимого снаряжения — обратись в Nexflow или PIP.</p>
+
+<h2>Нужна помощь?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> координатор поможет отстоять твои права перед компанией-пользователем.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — анонимная жалоба онлайн.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "work-clothing-ppe-safety-equipment-rights-poland-temp-worker",
+    title: "Work Clothing and PPE in Poland – What Temporary Workers Are Entitled To",
+    description:
+      "Who must provide protective clothing and safety equipment in Poland, can you refuse work without proper gear, and what to do if the employer fails to comply — a practical guide for foreign temporary workers.",
+    date: "2031-09-25",
+    lang: "en",
+    content: `
+<p>You arrive at the warehouse and ask for a hard hat, high-vis vest, or gloves — and you're told to buy them yourself. Is that legal? No. In Poland your employer is legally required to provide work clothing and personal protective equipment (PPE) <strong>at no cost to you</strong>. This guide explains what you're entitled to and how to enforce your rights.</p>
+
+<h2>What Is Personal Protective Equipment (PPE)?</h2>
+<p>PPE is any equipment worn or carried by a worker to protect against hazards. In a warehouse or logistics setting this typically includes:</p>
+<ul>
+  <li>Safety helmet / hard hat</li>
+  <li>High-visibility vest or jacket</li>
+  <li>Safety footwear with toe protection (steel-toed boots)</li>
+  <li>Work and protective gloves</li>
+  <li>Safety glasses or face shield</li>
+  <li>Hearing protection (earplugs or earmuffs)</li>
+  <li>Dust mask or respirator</li>
+  <li>Harness for work at height</li>
+</ul>
+
+<h2>Who Must Provide PPE?</h2>
+<p>Under the Polish Labour Code and OHS regulations: <strong>the employer</strong> — for temporary workers, this is the <em>user company</em> (the actual workplace where you are deployed, not the staffing agency) — must provide all required PPE free of charge. You cannot be charged for purchasing, renting, or laundering protective equipment.</p>
+
+<h2>When Is Work Clothing Required?</h2>
+<p>The employer must provide work clothing (overalls, aprons, etc.) when:</p>
+<ul>
+  <li>the work poses a risk of soiling or damaging your own clothing, or</li>
+  <li>the production process requires it (e.g. clean rooms, food-processing facilities).</li>
+</ul>
+<p>The employer is also responsible for <strong>laundering and maintaining</strong> work clothing at their own expense.</p>
+
+<h2>Your Rights as a Temporary Worker</h2>
+<ul>
+  <li><strong>Right to refuse unsafe work:</strong> if the required PPE is not provided, you have the legal right to refuse to perform hazardous work. This refusal is protected by law and cannot be treated as insubordination.</li>
+  <li><strong>No deductions for PPE:</strong> the employer may not deduct the cost of PPE from your wages.</li>
+  <li><strong>Replacement of worn equipment:</strong> if PPE wears out or is damaged through normal use (not your fault), the employer must replace it.</li>
+</ul>
+
+<h2>What to Do If the Employer Refuses to Provide PPE</h2>
+<ol>
+  <li><strong>Report it in writing</strong> to your supervisor or HR (an email is sufficient — it creates a paper trail).</li>
+  <li><strong>Contact Nexflow</strong> — your coordinator will intervene with the user company on your behalf.</li>
+  <li><strong>File a complaint with PIP (State Labour Inspectorate)</strong> — OHS inspectors can immediately order the employer to provide the equipment and issue a fine (pip.gov.pl).</li>
+</ol>
+
+<h2>OHS Induction Training</h2>
+<p>Before you start any job, your employer must carry out an OHS induction at your specific workstation. Allowing you to start work without this training is illegal in Poland.</p>
+
+<h2>Remember</h2>
+<p>Workplace safety is the employer's legal responsibility — not your personal expense. If you are being pressured to buy safety equipment yourself, or if you are working without the required PPE, contact Nexflow or PIP immediately.</p>
+
+<h2>Need Help?</h2>
+<ul>
+  <li><strong>Nexflow:</strong> your coordinator will help enforce your rights with the user company.</li>
+  <li><strong>PIP:</strong> pip.gov.pl — anonymous online complaint, available 24/7.</li>
+</ul>
+    `.trim(),
+  },
+  {
+    slug: "urlop-bezplatny-cudzoziemiec-polska",
+    title: "Urlop bezpłatny w Polsce – prawa cudzoziemca i wpływ na TRC oraz ubezpieczenie",
+    description: "Jak wziąć urlop bezpłatny jako cudzoziemiec w Polsce, co się dzieje z ZUS, NFZ i zezwoleniem na pobyt podczas nieobecności oraz kiedy pracodawca może odmówić.",
+    date: "2031-10-02",
+    lang: "pl",
+    content: `
+<p>Planujesz dłuższy wyjazd do rodziny, leczenie lub po prostu przerwę od pracy? Jako cudzoziemiec w Polsce masz prawo do urlopu bezpłatnego — jednak warto wiedzieć, jak ta decyzja wpłynie na Twoje ubezpieczenie zdrowotne, składki ZUS i status pobytowy.</p>
+
+<h2>Czym jest urlop bezpłatny?</h2>
+<p>Urlop bezpłatny to przerwa w wykonywaniu pracy, na którą pracodawca wyraził pisemną zgodę. W odróżnieniu od urlopu wypoczynkowego:</p>
+<ul>
+  <li>Nie przysługuje Ci wynagrodzenie za ten okres.</li>
+  <li>Pracodawca <strong>nie musi</strong> się zgodzić — udziela go wyłącznie na Twój pisemny wniosek.</li>
+  <li>Umowa o pracę trwa (nie jesteś zwolniony), ale stosunek pracy ulega zawieszeniu.</li>
+</ul>
+
+<h2>Jak złożyć wniosek o urlop bezpłatny?</h2>
+<ol>
+  <li>Napisz pisemny wniosek z podaniem: daty rozpoczęcia i zakończenia, liczby dni oraz powodu (opcjonalnie).</li>
+  <li>Złóż wniosek w dziale kadr lub bezpośrednio do pracodawcy.</li>
+  <li>Poczekaj na pisemną zgodę — ustna nie wystarczy.</li>
+  <li>Zachowaj kopię podpisanego porozumienia.</li>
+</ol>
+<p>Nie ma ustawowego maksimum urlopu bezpłatnego — zależy od porozumienia z pracodawcą. W praktyce najczęściej udziela się od kilku dni do 3 miesięcy.</p>
+
+<h2>Co się dzieje z ubezpieczeniem ZUS i NFZ?</h2>
+<p>To najważniejszy punkt dla cudzoziemca. Podczas urlopu bezpłatnego:</p>
+<ul>
+  <li><strong>Pracodawca przestaje opłacać składki ZUS</strong> (emerytalne, rentowe, chorobowe, wypadkowe) — nie nabywa się więc stażu emerytalnego za ten okres.</li>
+  <li><strong>Ubezpieczenie zdrowotne (NFZ) wygasa po 30 dniach</strong> od zakończenia opłacania składek przez pracodawcę. Oznacza to, że po miesiącu urlopu bezpłatnego tracisz prawo do bezpłatnej opieki medycznej w Polsce.</li>
+  <li>Możesz dobrowolnie przystąpić do ubezpieczenia zdrowotnego ZUS jako osoba nieubezpieczona — składka wynosi ok. 600 zł miesięcznie (2026). Zgłoś się do ZUS z formularzem ZZA.</li>
+</ul>
+
+<h2>Wpływ na kartę czasowego pobytu (TRC) i zezwolenie na pracę</h2>
+<p>To kluczowe zagadnienie dla cudzoziemców spoza UE:</p>
+<ul>
+  <li><strong>Zezwolenie na pracę</strong> jest związane z konkretnym pracodawcą i stanowiskiem. Urlop bezpłatny udzielony przez tego samego pracodawcę nie unieważnia zezwolenia — wracasz do pracy na tych samych warunkach.</li>
+  <li><strong>Karta czasowego pobytu (TRC)</strong> — jeśli masz TRC z tytułu pracy, wymagany jest aktywny stosunek pracy. Urlop bezpłatny do <strong>3 miesięcy</strong> jest zazwyczaj akceptowany przez Urząd ds. Cudzoziemców jako przerwa, nie naruszając warunków pobytu. Dłuższy urlop może być problematyczny przy przedłużeniu TRC.</li>
+  <li>Jeśli wyjeżdżasz za granicę na czas urlopu bezpłatnego, pamiętaj: wyjazd powyżej <strong>6 miesięcy z obszaru Schengen</strong> może być podstawą do odmowy wjazdu lub cofnięcia karty pobytu.</li>
+</ul>
+
+<h2>Urlop bezpłatny a umowa zlecenie</h2>
+<p>Jeśli pracujesz na umowie zlecenie, a nie umowie o pracę, przepisy Kodeksu pracy o urlopie bezpłatnym nie mają zastosowania. Możesz jednak poprosić zleceniodawcę o zawieszenie zlecenia lub jego rozwiązanie na czas nieobecności i ponowne zawarcie po powrocie.</p>
+
+<h2>Kiedy pracodawca może odmówić?</h2>
+<p>Urlop bezpłatny zawsze wymaga zgody pracodawcy. Może odmówić bez podania przyczyny. Wyjątek: urlop bezpłatny udzielony na wniosek związku zawodowego lub w przypadkach określonych w odrębnych przepisach (np. do 2 lat na opiekę nad dzieckiem do lat 4).</p>
+
+<h2>Praktyczne porady dla cudzoziemca</h2>
+<ul>
+  <li>Przed wyjazdem upewnij się, że masz ważny paszport i dokument pobytowy na cały okres nieobecności.</li>
+  <li>Jeśli wyjeżdżasz do kraju spoza Schengen, sprawdź, czy Twoja polska karta pobytu pozwala Ci wrócić bez wizy.</li>
+  <li>Zachowaj kopię porozumienia o urlopie bezpłatnym — może być potrzebna przy powrocie na granicy lub przy przedłużeniu TRC.</li>
+  <li>Poinformuj agencję pracy (jeśli jesteś pracownikiem tymczasowym) o planowanej nieobecności z odpowiednim wyprzedzeniem.</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Urlop bezpłatny jest dostępny dla cudzoziemców na tych samych zasadach co dla Polaków, ale niesie dodatkowe konsekwencje: przerwę w ubezpieczeniu zdrowotnym i potencjalny wpływ na status pobytowy przy dłuższej nieobecności. Planuj z wyprzedzeniem i w razie wątpliwości konsultuj się z agencją pracy lub prawnikiem ds. imigracyjnych.</p>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-bez-oplaty-inozemets-polshcha",
+    title: "Відпустка без збереження зарплати в Польщі – права іноземця та вплив на картку побуту",
+    description: "Як взяти відпустку без збереження зарплати як іноземець у Польщі, що відбувається з ZUS, NFZ та дозволом на перебування і коли роботодавець може відмовити.",
+    date: "2031-10-09",
+    lang: "uk",
+    content: `
+<p>Плануєте довшу поїздку до родини, лікування чи просто перерву від роботи? Як іноземець у Польщі ви маєте право на відпустку без збереження заробітної плати — але важливо знати, як це рішення вплине на ваше медичне страхування, внески ZUS та статус перебування.</p>
+
+<h2>Що таке відпустка без збереження зарплати?</h2>
+<p>Відпустка без збереження зарплати — це перерва у виконанні роботи, на яку роботодавець надав письмову згоду. На відміну від оплачуваної відпустки:</p>
+<ul>
+  <li>За цей період вам <strong>не нараховується заробітна плата</strong>.</li>
+  <li>Роботодавець <strong>не зобов'язаний</strong> погоджуватися — він надає відпустку лише за вашим письмовим проханням.</li>
+  <li>Трудовий договір діє (вас не звільняють), але трудові відносини призупиняються.</li>
+</ul>
+
+<h2>Як подати заяву на відпустку без збереження зарплати?</h2>
+<ol>
+  <li>Напишіть письмову заяву із зазначенням: дати початку та закінчення, кількості днів і причини (необов'язково).</li>
+  <li>Подайте заяву до відділу кадрів або безпосередньо роботодавцю.</li>
+  <li>Дочекайтеся письмової згоди — усна недостатня.</li>
+  <li>Зберігайте копію підписаної угоди.</li>
+</ol>
+<p>Законодавством не встановлено максимального терміну відпустки без збереження зарплати — все залежить від домовленості з роботодавцем. Зазвичай надається від кількох днів до 3 місяців.</p>
+
+<h2>Що відбувається із страхуванням ZUS та NFZ?</h2>
+<p>Це найважливіший момент для іноземця. Під час відпустки без збереження зарплати:</p>
+<ul>
+  <li><strong>Роботодавець припиняє сплачувати внески ZUS</strong> (пенсійні, рентні, лікарняні, від нещасних випадків) — отже, за цей період не накопичується пенсійний стаж.</li>
+  <li><strong>Медичне страхування (NFZ) припиняється після 30 днів</strong> з моменту, коли роботодавець перестає сплачувати внески. Це означає, що після місяця відпустки без збереження зарплати ви втрачаєте право на безоплатну медичну допомогу в Польщі.</li>
+  <li>Ви можете добровільно застрахуватися у ZUS як незастрахована особа — внесок становить близько 600 злотих на місяць (2026). Зверніться до ZUS із формуляром ZZA.</li>
+</ul>
+
+<h2>Вплив на картку тимчасового перебування (TRC) та дозвіл на роботу</h2>
+<ul>
+  <li><strong>Дозвіл на роботу</strong> прив'язаний до конкретного роботодавця та посади. Відпустка без збереження зарплати, надана тим самим роботодавцем, не скасовує дозволу — ви повертаєтеся до роботи на тих самих умовах.</li>
+  <li><strong>Картка тимчасового перебування (TRC)</strong> — якщо ваша TRC видана на підставі роботи, обов'язковою умовою є активні трудові відносини. Відпустка до <strong>3 місяців</strong> зазвичай приймається Управлінням у справах іноземців як перерва, яка не порушує умов перебування. Довша відпустка може ускладнити продовження TRC.</li>
+  <li>Якщо під час відпустки ви виїжджаєте за кордон: виїзд понад <strong>6 місяців за межі Шенгенської зони</strong> може бути підставою для відмови у в'їзді або анулювання картки перебування.</li>
+</ul>
+
+<h2>Відпустка без збереження зарплати та договір підряду (умова злецення)</h2>
+<p>Якщо ви працюєте за договором підряду, а не трудовим договором, норми Трудового кодексу про відпустку без збереження зарплати не застосовуються. Проте ви можете попросити замовника призупинити або розірвати договір на час відсутності та укласти новий після повернення.</p>
+
+<h2>Практичні поради для іноземця</h2>
+<ul>
+  <li>Перед від'їздом переконайтеся, що у вас є дійсний паспорт і документ про перебування на весь період відсутності.</li>
+  <li>Якщо ви виїжджаєте до країни поза Шенгенською зоною, перевірте, чи польська картка перебування дозволяє вам повернутися без візи.</li>
+  <li>Зберігайте копію угоди про відпустку — вона може знадобитися при поверненні на кордоні або при продовженні TRC.</li>
+  <li>Заздалегідь повідомте агентство праці (якщо ви тимчасовий працівник) про заплановану відсутність.</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Відпустка без збереження зарплати доступна іноземцям на тих самих умовах, що й громадянам Польщі, але має додаткові наслідки: перерву у медичному страхуванні та потенційний вплив на статус перебування при тривалішій відсутності. Плануйте заздалегідь і за потреби консультуйтеся з агентством праці або імміграційним юристом.</p>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-bez-sohraneniya-zarplaty-inostranets-polsha",
+    title: "Отпуск без сохранения зарплаты в Польше – права иностранца и влияние на карту пребывания",
+    description: "Как взять отпуск без сохранения зарплаты иностранцу в Польше, что происходит с ZUS, NFZ и разрешением на пребывание и когда работодатель может отказать.",
+    date: "2031-10-16",
+    lang: "ru",
+    content: `
+<p>Планируете длительный визит к семье, лечение или просто перерыв от работы? Как иностранец в Польше вы имеете право на отпуск без сохранения заработной платы — однако важно знать, как это решение повлияет на ваше медицинское страхование, взносы ZUS и статус пребывания.</p>
+
+<h2>Что такое отпуск без сохранения зарплаты?</h2>
+<p>Отпуск без сохранения зарплаты — это перерыв в выполнении работы, на который работодатель дал письменное согласие. В отличие от оплачиваемого отпуска:</p>
+<ul>
+  <li>За этот период вам <strong>не начисляется заработная плата</strong>.</li>
+  <li>Работодатель <strong>не обязан</strong> соглашаться — он предоставляет отпуск только по вашему письменному заявлению.</li>
+  <li>Трудовой договор действует (вас не увольняют), но трудовые отношения приостанавливаются.</li>
+</ul>
+
+<h2>Как подать заявление на отпуск без сохранения зарплаты?</h2>
+<ol>
+  <li>Напишите письменное заявление с указанием: даты начала и окончания, количества дней и причины (необязательно).</li>
+  <li>Подайте заявление в отдел кадров или непосредственно работодателю.</li>
+  <li>Дождитесь письменного согласия — устного недостаточно.</li>
+  <li>Сохраните копию подписанного соглашения.</li>
+</ol>
+<p>Законодательством не установлен максимальный срок отпуска без сохранения зарплаты — всё зависит от договорённости с работодателем. Как правило, предоставляется от нескольких дней до 3 месяцев.</p>
+
+<h2>Что происходит со страхованием ZUS и NFZ?</h2>
+<ul>
+  <li><strong>Работодатель прекращает уплачивать взносы ZUS</strong> (пенсионные, рентные, больничные, от несчастных случаев) — за этот период пенсионный стаж не накапливается.</li>
+  <li><strong>Медицинское страхование (NFZ) прекращается через 30 дней</strong> после того, как работодатель перестаёт платить взносы. Это означает, что после месяца отпуска без зарплаты вы теряете право на бесплатную медицинскую помощь в Польше.</li>
+  <li>Вы можете добровольно застраховаться в ZUS как незастрахованное лицо — взнос составляет около 600 злотых в месяц (2026). Обратитесь в ZUS с формой ZZA.</li>
+</ul>
+
+<h2>Влияние на карту временного пребывания (TRC) и разрешение на работу</h2>
+<ul>
+  <li><strong>Разрешение на работу</strong> привязано к конкретному работодателю и должности. Отпуск без сохранения зарплаты у того же работодателя не аннулирует разрешение — вы возвращаетесь к работе на прежних условиях.</li>
+  <li><strong>Карта временного пребывания (TRC)</strong> — если ваша TRC выдана на основании работы, обязательным условием является активное трудовое отношение. Отпуск до <strong>3 месяцев</strong> обычно принимается Управлением по делам иностранцев как перерыв, не нарушающий условий пребывания. Более длительный отпуск может осложнить продление TRC.</li>
+  <li>Если во время отпуска вы выезжаете за границу: выезд более чем на <strong>6 месяцев за пределы Шенгенской зоны</strong> может стать основанием для отказа во въезде или аннулирования карты пребывания.</li>
+</ul>
+
+<h2>Практические советы для иностранца</h2>
+<ul>
+  <li>Перед отъездом убедитесь, что у вас есть действующий паспорт и документ о пребывании на весь период отсутствия.</li>
+  <li>Если вы выезжаете в страну за пределами Шенгенской зоны, проверьте, позволяет ли польская карта пребывания вернуться без визы.</li>
+  <li>Сохраняйте копию соглашения об отпуске — она может понадобиться при возвращении на границе или при продлении TRC.</li>
+  <li>Заблаговременно уведомите агентство труда (если вы временный работник) о планируемом отсутствии.</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Отпуск без сохранения зарплаты доступен иностранцам на тех же условиях, что и гражданам Польши, но имеет дополнительные последствия: перерыв в медицинском страховании и потенциальное влияние на статус пребывания при длительном отсутствии. Планируйте заранее и при необходимости консультируйтесь с агентством труда или иммиграционным юристом.</p>
+    `.trim(),
+  },
+  {
+    slug: "unpaid-leave-foreign-worker-poland-trc-insurance",
+    title: "Unpaid Leave in Poland – What Foreign Workers Need to Know About TRC and Health Insurance",
+    description: "How to take unpaid leave as a foreign worker in Poland, what happens to ZUS, NFZ health coverage, and your residence permit status, and when your employer can refuse.",
+    date: "2031-10-23",
+    lang: "en",
+    content: `
+<p>Planning an extended trip home, medical treatment, or simply a break from work? As a foreign worker in Poland you have the right to apply for unpaid leave — but it's important to understand how this decision affects your health insurance, ZUS contributions, and residence permit status.</p>
+
+<h2>What Is Unpaid Leave?</h2>
+<p>Unpaid leave (urlop bezpłatny) is a suspension of work agreed in writing between you and your employer. Unlike paid annual leave:</p>
+<ul>
+  <li>You receive <strong>no salary</strong> during this period.</li>
+  <li>Your employer is <strong>not required</strong> to agree — they grant it solely on your written request.</li>
+  <li>Your employment contract remains active (you are not dismissed), but the employment relationship is suspended.</li>
+</ul>
+
+<h2>How to Apply for Unpaid Leave</h2>
+<ol>
+  <li>Write a formal written request specifying: start date, end date, number of days, and reason (optional).</li>
+  <li>Submit the request to HR or directly to your employer.</li>
+  <li>Wait for written approval — verbal agreement is not sufficient.</li>
+  <li>Keep a copy of the signed agreement.</li>
+</ol>
+<p>There is no statutory maximum duration for unpaid leave in Poland — it depends on what you and your employer agree. In practice, leave typically ranges from a few days to 3 months.</p>
+
+<h2>What Happens to Your ZUS and NFZ Health Insurance?</h2>
+<p>This is the most critical point for foreign workers. During unpaid leave:</p>
+<ul>
+  <li><strong>Your employer stops paying ZUS contributions</strong> (pension, disability, sick pay, accident insurance) — you do not accumulate pension entitlements for this period.</li>
+  <li><strong>NFZ health insurance lapses after 30 days</strong> from when employer contributions stop. After one month of unpaid leave, you lose the right to free medical care in Poland.</li>
+  <li>You can voluntarily enrol in ZUS health insurance as an uninsured individual — the premium is approximately 600 PLN/month (2026). Visit a ZUS office and submit form ZZA.</li>
+</ul>
+
+<h2>Impact on Your Temporary Residence Card (TRC) and Work Permit</h2>
+<ul>
+  <li><strong>Work permit</strong> — your permit is tied to a specific employer and position. Unpaid leave granted by the same employer does not invalidate your work permit; you return to work under the same terms.</li>
+  <li><strong>Temporary Residence Card (TRC)</strong> — if your TRC is based on employment, an active employment relationship is a condition. Unpaid leave of up to <strong>3 months</strong> is generally accepted by the Office for Foreigners as a temporary gap that does not breach residence conditions. Longer leave may complicate TRC renewal.</li>
+  <li>If you leave Poland during unpaid leave: absence from the Schengen Area for more than <strong>6 months</strong> may be grounds for re-entry refusal or revocation of your residence card.</li>
+</ul>
+
+<h2>Unpaid Leave on a Zlecenie (Civil) Contract</h2>
+<p>If you work under a civil contract (umowa zlecenie) rather than an employment contract, the Labour Code provisions on unpaid leave do not apply. However, you can ask your contracting party to suspend or terminate the agreement during your absence and renew it upon your return.</p>
+
+<h2>Practical Tips for Foreign Workers</h2>
+<ul>
+  <li>Before travelling, ensure your passport and residence document are valid for the entire period of absence.</li>
+  <li>If travelling outside Schengen, check whether your Polish residence card allows re-entry without a separate visa.</li>
+  <li>Keep a copy of your unpaid leave agreement — it may be required at the border on return or when renewing your TRC.</li>
+  <li>Notify your staffing agency (if you are a temp worker) about your planned absence well in advance.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Unpaid leave is available to foreign workers on the same legal basis as Polish nationals, but it carries additional implications: a gap in health insurance coverage and potential impact on residence status for longer absences. Plan ahead and consult your staffing agency or an immigration lawyer if you have any doubts.</p>
+    `.trim(),
+  },
+  {
+    slug: "podroze-schengen-karta-pobytu-cudzoziemiec-polska",
+    title: "Podróże po Europie z polską kartą pobytu – co musisz wiedzieć jako cudzoziemiec",
+    description: "Czy polska karta czasowego pobytu pozwala na wjazd do Niemiec i innych krajów Schengen bez wizy? Zasada 90/180 dni, wymagane dokumenty i co zrobić gdy TRC jest w trakcie wydania.",
+    date: "2031-10-30",
+    lang: "pl",
+    content: `
+<p>Masz polską kartę czasowego pobytu i chcesz pojechać na weekend do Niemiec, odwiedzić rodzinę w innym kraju UE lub po prostu podróżować po Europie? Dobrze trafiłeś. Polska karta pobytu daje cudzoziemcom spoza UE ważne uprawnienia podróżnicze w strefie Schengen — ale obowiązują konkretne zasady.</p>
+
+<h2>Czy polską kartą pobytu można wjeżdżać do innych krajów Schengen?</h2>
+<p>Tak. Ważna polska karta czasowego pobytu (TRC) wydana cudzoziemcowi spoza UE uprawnia do poruszania się po całym obszarze Schengen <strong>bez dodatkowej wizy</strong>, na podstawie art. 21 Konwencji Wykonawczej do Układu z Schengen.</p>
+
+<p>Kraje Schengen, do których możesz wjechać (m.in.): Austria, Belgia, Czechy, Dania, Estonia, Finlandia, Francja, Grecja, Hiszpania, Holandia, Litwa, Łotwa, Niemcy, Norwegia, Portugalia, Słowacja, Słowenia, Szwajcaria, Szwecja, Węgry, Włochy.</p>
+
+<h2>Zasada 90/180 — ile dni możesz spędzić poza Polską?</h2>
+<p>Kluczowa zasada: jako posiadacz polskiej karty pobytu możesz przebywać w innych krajach Schengen (nie w Polsce) przez <strong>maksymalnie 90 dni w każdym 180-dniowym okresie</strong>. Polskie dni pobytu <em>nie wliczają się</em> do tego limitu.</p>
+<ul>
+  <li>Np. możesz być w Niemczech 30 dni, następnie we Francji 30 dni i w Austrii 30 dni — łącznie 90 dni poza Polską w ciągu 180 dni. To jest dozwolone.</li>
+  <li>Przekroczenie limitu 90/180 może skutkować odmową wjazdu, grzywną lub wpisem do systemu SIS jako osoba niepożądana.</li>
+</ul>
+
+<h2>Dokumenty potrzebne przy przekraczaniu granicy</h2>
+<p>Przy wjeździe do innego kraju Schengen z polską kartą pobytu musisz okazać:</p>
+<ol>
+  <li><strong>Ważny paszport</strong> (musi być ważny przez cały czas pobytu).</li>
+  <li><strong>Polska karta czasowego pobytu</strong> — oryginał, musi być ważna w dniu wjazdu.</li>
+  <li><strong>Dokumenty potwierdzające cel podróży</strong> (zalecane): rezerwacja hotelu, bilet powrotny, zaproszenie, środki finansowe (ok. 100 EUR/dzień). Choć formalnie Schengen nie wymaga ich od posiadaczy kart pobytu, w praktyce straż graniczna może o nie poprosić.</li>
+</ol>
+
+<h2>Co jeśli moja TRC jest w trakcie wydania (pobyt na stemplu)?</h2>
+<p>Jeśli złożyłeś wniosek o TRC i masz w paszporcie <strong>stempel urzędu ds. cudzoziemców</strong> potwierdzający złożenie wniosku, sytuacja jest inna:</p>
+<ul>
+  <li>Stempel potwierdza legalny pobyt w Polsce, ale <strong>nie uprawnia do wjazdu do innych krajów Schengen</strong>.</li>
+  <li>Musisz poczekać na wydanie fizycznej karty lub wystąpić o wizę w ambasadzie kraju docelowego.</li>
+  <li>Wyjątkiem jest wyjazd do kraju, którego obywatelstwo posiadasz lub do którego nie potrzebujesz wizy (np. Ukraińcy mogą wjechać bezwizowo do wielu krajów UE na podstawie paszportu biometrycznego).</li>
+</ul>
+
+<h2>Specyfika dla Ukraińców: ochrona tymczasowa (Diia.pl)</h2>
+<p>Ukraińcy objęci ochroną tymczasową w Polsce (zaświadczenie UKR/Diia.pl) mają odrębne zasady:</p>
+<ul>
+  <li>Ochrona tymczasowa uprawnia do pobytu w Polsce, ale <strong>nie jest kartą pobytu Schengen</strong>.</li>
+  <li>Ukraińcy z biometrycznym paszportem mogą wjechać bezwizowo do krajów Schengen na do 90 dni/180 dni — na tych samych zasadach co bezwizowo.</li>
+  <li>Jeśli chcesz pracować w innym kraju Schengen, potrzebujesz odpowiedniego zezwolenia tego kraju.</li>
+</ul>
+
+<h2>Uwaga: praca w innym kraju Schengen</h2>
+<p>Polska karta pobytu uprawnia do <strong>pobytu turystycznego</strong> w innych krajach Schengen, ale <strong>nie do podjęcia pracy</strong> w tych krajach. Praca za granicą wymaga odrębnego zezwolenia danego państwa.</p>
+
+<h2>Praktyczne porady</h2>
+<ul>
+  <li>Zawsze wieź ze sobą oryginał karty pobytu — kopia nie wystarczy.</li>
+  <li>Sprawdź ważność karty przed podróżą — karta musi być ważna w całym okresie pobytu za granicą.</li>
+  <li>Zapisz datę wjazdu do krajów Schengen i liczone dni poza Polską — możesz użyć kalkulatora 90/180 dostępnego na stronie Schengen Visa Info.</li>
+  <li>W razie awarii dokumentów za granicą, zgłoś się do polskiego konsulatu.</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Polska karta czasowego pobytu to potężny dokument podróżniczy — daje Ci dostęp do całej strefy Schengen bez wizy, do 90 dni co 180 dni poza Polską. Pamiętaj: ważny paszport + ważna karta pobytu + limit 90/180 = swoboda podróżowania po Europie.</p>
+    `.trim(),
+  },
+  {
+    slug: "podorozhi-shengen-karta-pobytu-inozemets-polshcha",
+    title: "Подорожі по Шенгену з польською карткою побуту – що потрібно знати іноземцю",
+    description: "Чи дозволяє польська картка тимчасового перебування в'їзд до Німеччини та інших країн Шенгену без візи? Правило 90/180 днів, необхідні документи і що робити, коли TRC ще не видана.",
+    date: "2031-11-06",
+    lang: "uk",
+    content: `
+<p>У вас є польська картка тимчасового перебування і ви хочете поїхати на вихідні до Німеччини, відвідати родину в іншій країні ЄС або просто подорожувати Європою? Тоді ця стаття для вас. Польська картка побуту надає громадянам третіх країн важливі права для подорожей у Шенгенській зоні — але існують конкретні правила.</p>
+
+<h2>Чи можна в'їжджати до інших країн Шенгену з польською карткою побуту?</h2>
+<p>Так. Дійсна польська картка тимчасового перебування (TRC), видана громадянину третьої країни, дає право пересуватися по всій Шенгенській зоні <strong>без додаткової візи</strong> на підставі статті 21 Конвенції про виконання Шенгенської угоди.</p>
+<p>Країни Шенгену, до яких можна в'їздити (зокрема): Австрія, Бельгія, Чехія, Данія, Естонія, Фінляндія, Франція, Греція, Іспанія, Нідерланди, Литва, Латвія, Німеччина, Норвегія, Португалія, Словаччина, Словенія, Швейцарія, Швеція, Угорщина, Італія.</p>
+
+<h2>Правило 90/180 — скільки днів можна перебувати поза Польщею?</h2>
+<p>Ключове правило: як власник польської картки побуту ви можете перебувати в інших країнах Шенгену (не в Польщі) <strong>не більше 90 днів у кожному 180-денному періоді</strong>. Дні перебування в Польщі до цього ліміту <em>не зараховуються</em>.</p>
+<ul>
+  <li>Наприклад: 30 днів у Німеччині + 30 днів у Франції + 30 днів в Австрії = 90 днів поза Польщею за 180 днів. Це дозволено.</li>
+  <li>Перевищення ліміту 90/180 може призвести до відмови у в'їзді, штрафу або внесення до системи SIS.</li>
+</ul>
+
+<h2>Документи, необхідні при перетині кордону</h2>
+<ol>
+  <li><strong>Дійсний паспорт</strong> (має бути дійсним протягом усього терміну перебування).</li>
+  <li><strong>Польська картка тимчасового перебування</strong> — оригінал, має бути дійсною на день в'їзду.</li>
+  <li><strong>Документи, що підтверджують мету подорожі</strong> (рекомендується): бронювання готелю, зворотний квиток, запрошення, наявність коштів (бл. 100 EUR/день).</li>
+</ol>
+
+<h2>Що робити, якщо TRC ще не видана (перебування на штампі)?</h2>
+<ul>
+  <li>Штамп підтверджує законне перебування в Польщі, але <strong>не дає права в'їжджати до інших країн Шенгену</strong>.</li>
+  <li>Потрібно дочекатися видачі фізичної картки або отримати візу в посольстві країни призначення.</li>
+  <li>Виняток: виїзд до країни, громадянином якої ви є, або до якої не потрібна віза (наприклад, українці можуть в'їжджати без візи до багатьох країн ЄС на підставі біометричного паспорта).</li>
+</ul>
+
+<h2>Особливості для громадян України: тимчасовий захист</h2>
+<ul>
+  <li>Тимчасовий захист в Польщі (посвідчення UKR/Diia.pl) дає право перебувати в Польщі, але <strong>не є карткою побуту Шенгену</strong>.</li>
+  <li>Українці з біометричним паспортом можуть в'їжджати без візи до країн Шенгену на термін до 90 днів/180 днів.</li>
+  <li>Якщо ви хочете працювати в іншій країні Шенгену, вам потрібен відповідний дозвіл цієї країни.</li>
+</ul>
+
+<h2>Увага: робота в іншій країні Шенгену</h2>
+<p>Польська картка побуту дає право на <strong>туристичне перебування</strong> в інших країнах Шенгену, але <strong>не на роботу</strong> в цих країнах. Для роботи за кордоном потрібен окремий дозвіл відповідної держави.</p>
+
+<h2>Практичні поради</h2>
+<ul>
+  <li>Завжди беріть оригінал картки побуту — копія не підходить.</li>
+  <li>Перевірте термін дії картки перед подорожжю — вона має бути дійсною протягом усього перебування за кордоном.</li>
+  <li>Фіксуйте дати в'їзду до країн Шенгену та кількість днів поза Польщею — для цього можна використовувати калькулятор 90/180 на сайті Schengen Visa Info.</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Польська картка тимчасового перебування — це потужний документ для подорожей: він дає вам доступ до всієї Шенгенської зони без візи, до 90 днів кожні 180 днів поза Польщею. Запам'ятайте: дійсний паспорт + дійсна картка побуту + ліміт 90/180 = свобода подорожувати Європою.</p>
+    `.trim(),
+  },
+  {
+    slug: "puteshestviya-shengen-karta-pobytu-inostranets-polsha",
+    title: "Путешествия по Шенгену с польской картой пребывания – что нужно знать иностранцу",
+    description: "Позволяет ли польская карта временного пребывания въезжать в Германию и другие страны Шенгена без визы? Правило 90/180 дней, необходимые документы и что делать, если TRC ещё не получена.",
+    date: "2031-11-13",
+    lang: "ru",
+    content: `
+<p>У вас есть польская карта временного пребывания и вы хотите поехать на выходные в Германию, навестить родственников в другой стране ЕС или просто путешествовать по Европе? Польская карта пребывания предоставляет гражданам третьих стран важные права для передвижения по Шенгенской зоне — но существуют конкретные правила, о которых нужно знать.</p>
+
+<h2>Можно ли въезжать в другие страны Шенгена с польской картой пребывания?</h2>
+<p>Да. Действующая польская карта временного пребывания (TRC), выданная гражданину третьей страны, даёт право перемещаться по всей Шенгенской зоне <strong>без дополнительной визы</strong> на основании статьи 21 Конвенции о выполнении Шенгенского соглашения.</p>
+<p>Страны Шенгена, в которые можно въезжать (в том числе): Австрия, Бельгия, Чехия, Дания, Эстония, Финляндия, Франция, Греция, Испания, Нидерланды, Литва, Латвия, Германия, Норвегия, Португалия, Словакия, Словения, Швейцария, Швеция, Венгрия, Италия.</p>
+
+<h2>Правило 90/180 — сколько дней можно находиться за пределами Польши?</h2>
+<p>Ключевое правило: как владелец польской карты пребывания вы можете находиться в других странах Шенгена (не в Польше) <strong>не более 90 дней в каждом 180-дневном периоде</strong>. Дни пребывания в Польше в этот лимит <em>не входят</em>.</p>
+<ul>
+  <li>Например: 30 дней в Германии + 30 дней во Франции + 30 дней в Австрии = 90 дней за пределами Польши за 180 дней. Это разрешено.</li>
+  <li>Превышение лимита 90/180 может привести к отказу во въезде, штрафу или внесению в систему SIS.</li>
+</ul>
+
+<h2>Документы, необходимые при пересечении границы</h2>
+<ol>
+  <li><strong>Действующий паспорт</strong> (должен быть действителен в течение всего пребывания).</li>
+  <li><strong>Польская карта временного пребывания</strong> — оригинал, должна быть действительна на день въезда.</li>
+  <li><strong>Документы, подтверждающие цель поездки</strong> (рекомендуется): бронирование отеля, обратный билет, приглашение, наличие средств (ок. 100 EUR/день).</li>
+</ol>
+
+<h2>Что делать, если TRC ещё не выдана (пребывание по штампу)?</h2>
+<ul>
+  <li>Штамп подтверждает законное пребывание в Польше, но <strong>не даёт права въезжать в другие страны Шенгена</strong>.</li>
+  <li>Нужно дождаться выдачи физической карты или получить визу в посольстве страны назначения.</li>
+  <li>Исключение: выезд в страну, гражданином которой вы являетесь, или в которую вам не нужна виза.</li>
+</ul>
+
+<h2>Важно: работа в другой стране Шенгена</h2>
+<p>Польская карта пребывания даёт право на <strong>туристическое пребывание</strong> в других странах Шенгена, но <strong>не на работу</strong> в этих странах. Для работы за рубежом требуется отдельное разрешение соответствующего государства.</p>
+
+<h2>Практические советы</h2>
+<ul>
+  <li>Всегда берите с собой оригинал карты пребывания — копии недостаточно.</li>
+  <li>Проверьте срок действия карты перед поездкой — она должна быть действительна в течение всего пребывания за рубежом.</li>
+  <li>Фиксируйте даты въезда в страны Шенгена и количество дней за пределами Польши — можно использовать калькулятор 90/180 на сайте Schengen Visa Info.</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Польская карта временного пребывания — это важный документ для путешествий: она открывает вам доступ ко всей Шенгенской зоне без визы, на срок до 90 дней в каждом 180-дневном периоде за пределами Польши. Запомните: действующий паспорт + действующая карта пребывания + лимит 90/180 = свобода путешествовать по Европе.</p>
+    `.trim(),
+  },
+  {
+    slug: "schengen-travel-polish-residence-card-foreign-worker",
+    title: "Travelling Europe with a Polish Residence Card – What Foreign Workers Need to Know",
+    description: "Does a Polish temporary residence card allow visa-free entry to Germany and other Schengen countries? The 90/180-day rule, required documents, and what to do if your TRC is still being processed.",
+    date: "2031-11-20",
+    lang: "en",
+    content: `
+<p>You have a Polish temporary residence card and want to visit Germany for the weekend, see family in another EU country, or simply travel around Europe? Great news — your Polish residence card gives you important travel rights across the Schengen Area. Here is everything you need to know before you go.</p>
+
+<h2>Can You Enter Other Schengen Countries with a Polish Residence Card?</h2>
+<p>Yes. A valid Polish temporary residence card (TRC) issued to a third-country national entitles you to travel throughout the entire Schengen Area <strong>without an additional visa</strong>, under Article 21 of the Convention Implementing the Schengen Agreement.</p>
+<p>Countries you can enter (among others): Austria, Belgium, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Italy, Latvia, Lithuania, Netherlands, Norway, Portugal, Slovakia, Slovenia, Spain, Sweden, Switzerland.</p>
+
+<h2>The 90/180 Rule – How Long Can You Stay Outside Poland?</h2>
+<p>The key rule: as a Polish residence card holder you may spend a maximum of <strong>90 days in any 180-day period</strong> in other Schengen countries (i.e. outside Poland). Days spent in Poland do <em>not</em> count towards this limit.</p>
+<ul>
+  <li>For example: 30 days in Germany + 30 days in France + 30 days in Austria = 90 days outside Poland in 180 days. This is permitted.</li>
+  <li>Exceeding the 90/180 limit can result in entry refusal, a fine, or registration in the SIS database as an unwanted person.</li>
+</ul>
+
+<h2>Documents Required at the Border</h2>
+<ol>
+  <li><strong>Valid passport</strong> (must be valid throughout the entire stay).</li>
+  <li><strong>Original Polish temporary residence card</strong> — must be valid on the date of entry.</li>
+  <li><strong>Supporting documents (recommended)</strong>: hotel booking, return ticket, invitation letter, proof of funds (approx. 100 EUR/day). While not formally required for residence card holders, border authorities may ask for them in practice.</li>
+</ol>
+
+<h2>What If My TRC Is Still Being Processed (Residence by Stamp)?</h2>
+<ul>
+  <li>The date stamp in your passport confirms lawful residence in Poland but does <strong>not entitle you to enter other Schengen countries</strong>.</li>
+  <li>You must wait for the physical card or apply for a visa at the embassy of your destination country.</li>
+  <li>Exception: travel to your home country (Ukraine, for example) or a country for which you do not need a visa — Ukrainian nationals with a biometric passport can enter most EU countries visa-free.</li>
+</ul>
+
+<h2>Special Note for Ukrainian Nationals Under Temporary Protection</h2>
+<ul>
+  <li>Temporary protection status in Poland (UKR/Diia.pl certificate) authorises residence in Poland but is <strong>not a Schengen residence card</strong>.</li>
+  <li>Ukrainians with a biometric passport can enter Schengen countries visa-free for up to 90 days/180 days on the standard visa-waiver basis.</li>
+  <li>Working in another Schengen country requires a separate work permit issued by that country.</li>
+</ul>
+
+<h2>Important: Working in Other Schengen Countries</h2>
+<p>Your Polish residence card permits <strong>short-stay tourism</strong> in other Schengen countries, but does <strong>not authorise you to work</strong> there. Working abroad requires a separate work permit from that country.</p>
+
+<h2>Practical Tips</h2>
+<ul>
+  <li>Always carry the original residence card — a photocopy is not accepted.</li>
+  <li>Check your card's expiry date before travelling — it must be valid for the entire stay abroad.</li>
+  <li>Track your entry dates and days spent outside Poland — use the Schengen Visa Info 90/180-day calculator online.</li>
+  <li>If your documents are lost or stolen abroad, contact the nearest Polish consulate immediately.</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Your Polish temporary residence card is a powerful travel document — it gives you visa-free access to the entire Schengen Area for up to 90 days out of every 180, with Poland days not counting against the limit. Remember the formula: valid passport + valid residence card + 90/180 rule = freedom to travel Europe.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polaka-uprawnienia-jak-zlozyc-wniosek-cudzoziemiec",
+    title: "Karta Polaka – co daje i jak się starać? Przewodnik dla cudzoziemców",
+    description: "Karta Polaka pozwala Ukraińcom, Białorusinom i innym osobom polskiego pochodzenia na podjęcie pracy bez zezwolenia w Polsce. Sprawdź, kto może się starać, jakie dokumenty są potrzebne i jak złożyć wniosek.",
+    date: "2031-11-27",
+    lang: "pl",
+    content: `
+<p>Jeśli Twoja rodzina ma polskie korzenie — dziadkowie urodzeni w Polsce, nazwisko polskie lub rodzic polskiej narodowości — możesz być uprawniony do Karty Polaka. To dokument, który daje realne prawa w Polsce, w tym możliwość podjęcia pracy bez zezwolenia.</p>
+
+<h2>Czym jest Karta Polaka?</h2>
+<p>Karta Polaka to dokument potwierdzający przynależność do Narodu Polskiego. Wydawana jest obywatelom określonych krajów postsowieckich (m.in. Ukrainy, Białorusi, Rosji, Mołdawii, Gruzji, Azerbejdżanu, Armenii, Kazachstanu, Uzbekistanu, Tadżykistanu, Turkmenistanu, Kirgistanu).</p>
+<p>Ważne: Karta Polaka <strong>nie jest dokumentem pobytowym</strong> — nie zastępuje wizy ani zezwolenia na pobyt. Nie daje prawa do zamieszkania w Polsce. Daje jednak szereg ważnych uprawnień.</p>
+
+<h2>Co daje Karta Polaka?</h2>
+<ul>
+  <li><strong>Praca w Polsce bez zezwolenia</strong> — posiadacz Karty Polaka może podjąć legalną pracę w Polsce bez konieczności uzyskiwania zezwolenia na pracę (oświadczenia lub zezwolenia).</li>
+  <li><strong>Bezpłatne wizy wjazdowe do Polski</strong> (dla krajów, które wymagają wizy).</li>
+  <li><strong>Bezpłatny wstęp do muzeów</strong> państwowych i zniżki na przejazdy kolejowe PKP (50% zniżki na bilety do 5 osób).</li>
+  <li><strong>Nauka języka polskiego</strong> i dostęp do kursów kultury finansowanych przez polskie instytucje.</li>
+  <li><strong>Priorytetowe rozpatrywanie wniosków</strong> o stały pobyt i obywatelstwo polskie.</li>
+  <li><strong>Ulgi na leczenie</strong> w Polsce w ramach NFZ (dotyczy Białorusinów i Ukraińców w szczególnych sytuacjach).</li>
+</ul>
+
+<h2>Kto może złożyć wniosek?</h2>
+<p>Możesz starać się o Kartę Polaka, jeżeli:</p>
+<ol>
+  <li>Jesteś obywatelem jednego z krajów uprawnionych (lista powyżej).</li>
+  <li><strong>Masz polskie korzenie</strong> — możesz wykazać polską narodowość lub obywatelstwo co najmniej jednego z rodziców, dziadków lub pradziadków, albo potwierdzić swoje związki z Polskością.</li>
+  <li><strong>Znasz język polski</strong> przynajmniej w stopniu podstawowym i posługujesz się nim w rozmowie.</li>
+  <li>Wyrażasz związek z polską kulturą, historią i tradycją.</li>
+</ol>
+<p>Uwaga: obywatele Ukrainy objęci ochroną tymczasową mogą starać się o Kartę Polaka, jeśli spełniają warunki polskiego pochodzenia.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<ol>
+  <li><strong>Konsulat polski</strong> — wniosek składa się w polskim konsulacie właściwym dla Twojego miejsca zamieszkania za granicą. Jeśli mieszkasz w Polsce, wniosek można złożyć do konsulatu właściwego dla kraju Twojego obywatelstwa.</li>
+  <li><strong>Wymagane dokumenty:</strong>
+    <ul>
+      <li>Ważny paszport lub dowód osobisty.</li>
+      <li>Dokumenty potwierdzające polskie pochodzenie: metryki urodzenia, ślubu lub zgonu przodków; świadectwa chrztu; dokumenty szkolne; stare dokumenty tożsamości z wpisem narodowości polskiej.</li>
+      <li>Oświadczenie o przynależności do Narodu Polskiego.</li>
+      <li>Zdjęcie biometryczne.</li>
+    </ul>
+  </li>
+  <li><strong>Rozmowa kwalifikacyjna</strong> — konsul przeprowadza rozmowę w języku polskim weryfikującą znajomość języka i związek z polskością.</li>
+  <li><strong>Termin oczekiwania:</strong> od kilku tygodni do kilku miesięcy, w zależności od konsulatów.</li>
+</ol>
+
+<h2>Karta Polaka a praca w Polsce — jak z niej skorzystać?</h2>
+<p>Jeśli masz Kartę Polaka i chcesz podjąć pracę w Polsce:</p>
+<ul>
+  <li>Nie musisz uzyskiwać odrębnego zezwolenia na pracę ani składać oświadczenia o powierzeniu pracy — pracodawca może Cię zatrudnić od razu.</li>
+  <li>Nadal potrzebujesz legalnego pobytu w Polsce (wizy, zezwolenia na pobyt lub innego tytułu pobytowego).</li>
+  <li>Karta Polaka znacznie upraszcza i przyspiesza proces zatrudnienia.</li>
+</ul>
+
+<h2>Czego Karta Polaka NIE daje</h2>
+<ul>
+  <li>Nie jest dokumentem pobytowym — nie zastępuje zezwolenia na pobyt.</li>
+  <li>Nie daje automatycznie prawa do polskiego obywatelstwa.</li>
+  <li>Nie zwalnia z obowiązku posiadania wizy wjazdowej do strefy Schengen (dla obywateli krajów, które wymagają wizy — np. Białorusi).</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Karta Polaka to ważny dokument dla osób polskiego pochodzenia z byłego ZSRR. Umożliwia legalną pracę w Polsce bez zezwolenia, dostęp do wielu ulg i priorytetowe ścieżki do stałego pobytu. Jeśli masz polskie korzenie, warto sprawdzić, czy spełniasz warunki — szczególnie jeśli planujesz długoterminowe życie i pracę w Polsce.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polyaka-prava-yak-podaty-zayavu-inozemets",
+    title: "Карта Поляка – що вона дає і як її отримати? Путівник для іноземців",
+    description: "Карта Поляка дозволяє українцям, білорусам та іншим особам польського походження влаштовуватися на роботу в Польщі без дозволу. Дізнайтеся, хто може подати заявку, які документи потрібні і як пройти процедуру.",
+    date: "2031-12-04",
+    lang: "uk",
+    content: `
+<p>Якщо ваша родина має польське коріння — дідусі або бабусі народилися в Польщі, у вас польське прізвище або один із батьків є поляком — ви можете претендувати на Карту Поляка. Це документ, який надає реальні права в Польщі, зокрема можливість працювати без дозволу.</p>
+
+<h2>Що таке Карта Поляка?</h2>
+<p>Карта Поляка — це документ, що підтверджує належність до польського народу. Вона видається громадянам певних пострадянських країн (зокрема України, Білорусі, Росії, Молдови, Грузії, Азербайджану, Вірменії, Казахстану, Узбекистану, Таджикистану, Туркменістану, Киргизстану).</p>
+<p>Важливо: Карта Поляка <strong>не є документом про перебування</strong> — вона не замінює візу або дозвіл на перебування та не дає права на проживання в Польщі. Але вона надає низку важливих привілеїв.</p>
+
+<h2>Що дає Карта Поляка?</h2>
+<ul>
+  <li><strong>Робота в Польщі без дозволу</strong> — власник Карти Поляка може влаштуватися на законну роботу в Польщі без отримання дозволу на роботу (oświadczenie або zezwolenie).</li>
+  <li><strong>Безкоштовні в'їзні візи до Польщі</strong> (для країн, де вімагається віза).</li>
+  <li><strong>Безкоштовний вхід до державних музеїв</strong> і знижки на залізничні квитки PKP (50% знижки, до 5 осіб).</li>
+  <li><strong>Вивчення польської мови</strong> та доступ до культурних програм, що фінансуються польськими інститутами.</li>
+  <li><strong>Пріоритетний розгляд заяв</strong> на постійне перебування та польське громадянство.</li>
+</ul>
+
+<h2>Хто може подати заявку?</h2>
+<ol>
+  <li>Ви є громадянином однієї з країн, що мають право на Карту Поляка (список вище).</li>
+  <li><strong>Ви маєте польське коріння</strong> — можете підтвердити польську національність або громадянство щонайменше одного з батьків, дідусів/бабусь або прадідусів/прабабусь.</li>
+  <li><strong>Ви знаєте польську мову</strong> принаймні на базовому рівні та можете розмовляти нею.</li>
+  <li>Ви підтверджуєте свій зв'язок з польською культурою, історією та традиціями.</li>
+</ol>
+<p>Примітка: громадяни України, які перебувають під тимчасовим захистом, можуть подати заявку на Карту Поляка, якщо відповідають умовам польського походження.</p>
+
+<h2>Як подати заявку?</h2>
+<ol>
+  <li><strong>Польське консульство</strong> — заявку подають до польського консульства, що обслуговує місце вашого проживання за кордоном. Якщо ви проживаєте в Польщі, зверніться до консульства, що обслуговує країну вашого громадянства.</li>
+  <li><strong>Необхідні документи:</strong>
+    <ul>
+      <li>Дійсний паспорт або посвідчення особи.</li>
+      <li>Документи, що підтверджують польське походження: свідоцтва про народження, шлюб або смерть предків; свідоцтва про хрещення; шкільні документи; старі посвідчення особи із записом про польську національність.</li>
+      <li>Заява про належність до польського народу.</li>
+      <li>Біометрична фотографія.</li>
+    </ul>
+  </li>
+  <li><strong>Співбесіда</strong> — консул проводить співбесіду польською мовою для перевірки знання мови та зв'язку з польськістю.</li>
+  <li><strong>Термін очікування:</strong> від кількох тижнів до кількох місяців залежно від консульства.</li>
+</ol>
+
+<h2>Карта Поляка і робота в Польщі</h2>
+<ul>
+  <li>Вам не потрібно отримувати окремий дозвіл на роботу — роботодавець може найняти вас одразу.</li>
+  <li>Вам усе одно потрібно законне перебування в Польщі (віза, дозвіл на перебування або інший документ).</li>
+  <li>Карта Поляка значно спрощує та прискорює процес працевлаштування.</li>
+</ul>
+
+<h2>Чого Карта Поляка НЕ дає</h2>
+<ul>
+  <li>Не є документом про перебування — не замінює дозвіл на перебування.</li>
+  <li>Не надає автоматично права на польське громадянство.</li>
+  <li>Не звільняє від обов'язку мати в'їзну візу до Шенгену (для громадян країн, де вимагається віза).</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Карта Поляка — важливий документ для осіб польського походження з колишнього СРСР. Вона дозволяє легально працювати в Польщі без дозволу, надає доступ до численних пільг і пріоритетний шлях до постійного перебування. Якщо у вас є польське коріння — перевірте, чи відповідаєте ви умовам, особливо якщо плануєте довгостроково жити та працювати в Польщі.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polyaka-prava-kak-podat-zayavlenie-inostranets",
+    title: "Карта Поляка – что она даёт и как её получить? Руководство для иностранцев",
+    description: "Карта Поляка позволяет украинцам, белорусам и другим лицам польского происхождения работать в Польше без разрешения. Узнайте, кто может подать заявку, какие документы нужны и как пройти процедуру.",
+    date: "2031-12-11",
+    lang: "ru",
+    content: `
+<p>Если ваша семья имеет польские корни — бабушки или дедушки родились в Польше, у вас польская фамилия или один из родителей польского происхождения — вы можете иметь право на Карту Поляка. Это документ, дающий реальные права в Польше, в том числе возможность работать без разрешения.</p>
+
+<h2>Что такое Карта Поляка?</h2>
+<p>Карта Поляка — это документ, подтверждающий принадлежность к польскому народу. Она выдаётся гражданам ряда постсоветских стран (в том числе Украины, Белоруссии, России, Молдовы, Грузии, Азербайджана, Армении, Казахстана, Узбекистана, Таджикистана, Туркменистана, Кыргызстана).</p>
+<p>Важно: Карта Поляка <strong>не является документом о пребывании</strong> — она не заменяет визу или разрешение на пребывание и не даёт права на проживание в Польше. Однако она предоставляет ряд важных привилегий.</p>
+
+<h2>Что даёт Карта Поляка?</h2>
+<ul>
+  <li><strong>Работа в Польше без разрешения</strong> — владелец Карты Поляка может легально работать в Польше без оформления разрешения на работу (oświadczenie или zezwolenie).</li>
+  <li><strong>Бесплатные въездные визы в Польшу</strong> (для стран, где требуется виза).</li>
+  <li><strong>Бесплатный вход в государственные музеи</strong> и скидки на железнодорожные билеты PKP (50% скидки, до 5 человек).</li>
+  <li><strong>Изучение польского языка</strong> и доступ к культурным программам, финансируемым польскими институтами.</li>
+  <li><strong>Приоритетное рассмотрение заявлений</strong> на постоянное пребывание и польское гражданство.</li>
+</ul>
+
+<h2>Кто может подать заявку?</h2>
+<ol>
+  <li>Вы являетесь гражданином одной из стран, имеющих право на Карту Поляка (список выше).</li>
+  <li><strong>У вас есть польские корни</strong> — вы можете подтвердить польскую национальность или гражданство хотя бы одного из родителей, дедушек/бабушек или прадедушек/прабабушек.</li>
+  <li><strong>Вы знаете польский язык</strong> хотя бы на базовом уровне и можете общаться на нём.</li>
+  <li>Вы подтверждаете свою связь с польской культурой, историей и традициями.</li>
+</ol>
+
+<h2>Как подать заявку?</h2>
+<ol>
+  <li><strong>Польское консульство</strong> — заявку подают в польское консульство, обслуживающее место вашего проживания за рубежом. Если вы проживаете в Польше, обратитесь в консульство, обслуживающее вашу страну гражданства.</li>
+  <li><strong>Необходимые документы:</strong>
+    <ul>
+      <li>Действующий паспорт или удостоверение личности.</li>
+      <li>Документы, подтверждающие польское происхождение: свидетельства о рождении, браке или смерти предков; свидетельства о крещении; школьные документы; старые удостоверения личности с записью о польской национальности.</li>
+      <li>Заявление о принадлежности к польскому народу.</li>
+      <li>Биометрическая фотография.</li>
+    </ul>
+  </li>
+  <li><strong>Собеседование</strong> — консул проводит собеседование на польском языке для проверки знания языка и связи с польскостью.</li>
+  <li><strong>Срок ожидания:</strong> от нескольких недель до нескольких месяцев в зависимости от консульства.</li>
+</ol>
+
+<h2>Карта Поляка и работа в Польше</h2>
+<ul>
+  <li>Вам не нужно получать отдельное разрешение на работу — работодатель может нанять вас сразу.</li>
+  <li>Вам по-прежнему нужно законное основание для пребывания в Польше (виза, разрешение на пребывание или иной документ).</li>
+  <li>Карта Поляка значительно упрощает и ускоряет процесс трудоустройства.</li>
+</ul>
+
+<h2>Чего Карта Поляка НЕ даёт</h2>
+<ul>
+  <li>Не является документом о пребывании — не заменяет разрешение на пребывание.</li>
+  <li>Не предоставляет автоматически права на польское гражданство.</li>
+  <li>Не освобождает от обязанности иметь въездную визу в Шенгенскую зону (для граждан стран, где требуется виза).</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Карта Поляка — важный документ для лиц польского происхождения из бывшего СССР. Она позволяет легально работать в Польше без разрешения, даёт доступ ко многим льготам и приоритетный путь к постоянному пребыванию. Если у вас есть польские корни — проверьте, соответствуете ли вы требованиям, особенно если планируете долгосрочную жизнь и работу в Польше.</p>
+    `.trim(),
+  },
+  {
+    slug: "karta-polaka-polish-heritage-card-foreign-worker-guide",
+    title: "Karta Polaka (Polish Heritage Card) – What It Gives You and How to Apply",
+    description: "The Karta Polaka lets Ukrainians, Belarusians, and others of Polish descent work in Poland without a work permit. Find out who qualifies, what documents are needed, and how to apply.",
+    date: "2031-12-18",
+    lang: "en",
+    content: `
+<p>Do you have Polish roots — grandparents born in Poland, a Polish surname, or a parent of Polish nationality? You may qualify for the Karta Polaka (Polish Heritage Card). It is a document that gives you real rights in Poland, including the ability to work legally without a work permit.</p>
+
+<h2>What Is the Karta Polaka?</h2>
+<p>The Karta Polaka (literally "Polish Card") is a document confirming belonging to the Polish Nation. It is issued to citizens of certain post-Soviet countries, including: Ukraine, Belarus, Russia, Moldova, Georgia, Azerbaijan, Armenia, Kazakhstan, Uzbekistan, Tajikistan, Turkmenistan, and Kyrgyzstan.</p>
+<p>Important: the Karta Polaka is <strong>not a residence document</strong> — it does not replace a visa or residence permit and does not give the right to live in Poland. However, it confers a number of valuable privileges.</p>
+
+<h2>What Does the Karta Polaka Give You?</h2>
+<ul>
+  <li><strong>Work in Poland without a work permit</strong> — holders can take up legal employment in Poland without needing a work permit (oświadczenie or zezwolenie).</li>
+  <li><strong>Free Polish entry visas</strong> (for countries that require a visa to enter Poland).</li>
+  <li><strong>Free entry to state museums</strong> and 50% discounts on PKP rail tickets (for up to 5 people).</li>
+  <li><strong>Access to Polish language courses</strong> and cultural programmes funded by Polish institutions (e.g. Polish Institute).</li>
+  <li><strong>Priority processing</strong> of applications for permanent residence and Polish citizenship.</li>
+</ul>
+
+<h2>Who Can Apply?</h2>
+<ol>
+  <li>You are a citizen of one of the eligible countries (list above).</li>
+  <li><strong>You have Polish roots</strong> — you can demonstrate Polish nationality or citizenship of at least one parent, grandparent, or great-grandparent, or confirm your connection to Polish identity.</li>
+  <li><strong>You speak basic Polish</strong> and can hold a simple conversation in the language.</li>
+  <li>You affirm a connection to Polish culture, history, and traditions.</li>
+</ol>
+<p>Note: Ukrainian nationals under temporary protection in Poland may apply for a Karta Polaka if they meet the Polish descent requirements.</p>
+
+<h2>How to Apply</h2>
+<ol>
+  <li><strong>Polish consulate</strong> — apply at the Polish consulate serving your country of residence abroad. If you already live in Poland, apply at the consulate serving your country of citizenship.</li>
+  <li><strong>Required documents:</strong>
+    <ul>
+      <li>Valid passport or national ID.</li>
+      <li>Documents proving Polish descent: birth, marriage, or death certificates of ancestors; baptism records; school documents; old identity documents showing Polish nationality.</li>
+      <li>Declaration of belonging to the Polish Nation.</li>
+      <li>Biometric photograph.</li>
+    </ul>
+  </li>
+  <li><strong>Interview</strong> — the consul conducts an interview in Polish to verify language skills and connection to Polish identity.</li>
+  <li><strong>Processing time:</strong> several weeks to several months, depending on the consulate.</li>
+</ol>
+
+<h2>Karta Polaka and Employment in Poland</h2>
+<ul>
+  <li>You do not need a separate work permit — your employer can hire you directly.</li>
+  <li>You still need a lawful basis for residing in Poland (visa, residence permit, or other document).</li>
+  <li>The Karta Polaka significantly simplifies and accelerates the hiring process.</li>
+</ul>
+
+<h2>What the Karta Polaka Does NOT Give You</h2>
+<ul>
+  <li>It is not a residence document — it does not replace a residence permit.</li>
+  <li>It does not automatically confer Polish citizenship.</li>
+  <li>It does not exempt you from needing a Schengen entry visa (for citizens of countries that require one — e.g. Belarus).</li>
+</ul>
+
+<h2>Summary</h2>
+<p>The Karta Polaka is a valuable document for people of Polish descent from the former Soviet Union. It enables legal work in Poland without a work permit, provides access to numerous discounts and cultural programmes, and opens a priority route to permanent residence. If you have Polish roots — check whether you qualify, especially if you are planning to live and work in Poland long-term.</p>
+    `.trim(),
+  },
+  {
+    slug: "minimalna-stawka-godzinowa-umowa-zlecenie-polska-2026",
+    title: "Minimalna stawka godzinowa przy umowie zlecenie w Polsce — przewodnik dla pracownika tymczasowego",
+    description:
+      "Minimalna stawka godzinowa przy umowie zlecenie 2026 — ile wynosi, kto podlega, obowiązki pracodawcy i co zrobić, gdy płacą za mało.",
+    date: "2031-12-25",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Polsce na podstawie umowy zlecenie, przysługuje ci <strong>minimalna stawka godzinowa</strong>. To obowiązkowa ochrona ustawowa — pracodawca nie może ci zapłacić mniej, nawet jeśli z własnej woli podpisałeś niższą stawkę.</p>
+
+<h2>Co to jest minimalna stawka godzinowa?</h2>
+<p>Minimalna stawka godzinowa to najniższe wynagrodzenie za każdą godzinę pracy, jakie przysługuje osobom wykonującym pracę na podstawie umowy zlecenie lub umowy o świadczenie usług. Obowiązuje od 1 stycznia 2017 roku i jest corocznie aktualizowana przez rząd.</p>
+<p>Chodzi o realną ochronę: nawet jeśli jesteś cudzoziemcem, masz umowę cywilnoprawną, a nie umowę o pracę — i tak masz prawo do wynagrodzenia co najmniej na poziomie minimalnej stawki godzinowej.</p>
+
+<h2>Ile wynosi minimalna stawka godzinowa w 2026 roku?</h2>
+<p>Od <strong>1 stycznia 2026 roku</strong> minimalna stawka godzinowa wynosi <strong>30,50 zł brutto</strong> za godzinę (aktualizacja wynika z rozporządzenia Rady Ministrów — sprawdź aktualną stawkę na gov.pl).</p>
+<p>To kwota <strong>brutto</strong> — przed odliczeniem podatku i składek ZUS. Kwota "na rękę" będzie niższa.</p>
+
+<h2>Kto podlega minimalnej stawce godzinowej?</h2>
+<p>Minimalna stawka godzinowa dotyczy:</p>
+<ul>
+  <li><strong>Umowy zlecenie</strong> (art. 734 Kodeksu cywilnego)</li>
+  <li><strong>Umów o świadczenie usług</strong>, do których stosuje się przepisy o zleceniu</li>
+</ul>
+<p>Obowiązuje zarówno Polaków, jak i <strong>cudzoziemców</strong> pracujących legalnie w Polsce — ukraińskich, białoruskich, rosyjskich i innych.</p>
+<p><strong>Nie dotyczy</strong> osób prowadzących działalność gospodarczą (jednoosobowych firm).</p>
+
+<h2>Obowiązki pracodawcy / zleceniodawcy</h2>
+<p>Pracodawca musi:</p>
+<ol>
+  <li><strong>Płacić co najmniej minimalną stawkę godzinową</strong> — niezależnie od tego, co jest w umowie</li>
+  <li><strong>Prowadzić ewidencję czasu pracy</strong> — liczba godzin musi być dokumentowana</li>
+  <li><strong>Udostępnić ewidencję na żądanie pracownika</strong> — masz prawo sprawdzić, ile godzin zostało zarejestrowane</li>
+  <li><strong>Wypłacać wynagrodzenie co najmniej raz w miesiącu</strong> (lub zgodnie z harmonogramem z umowy, ale nie rzadziej)</li>
+</ol>
+
+<h2>Twoje prawa — co możesz zrobić, jeśli płacą za mało?</h2>
+<ol>
+  <li><strong>Poproś o ewidencję godzin</strong> — pracownik ma prawo wglądu w dokumenty dotyczące czasu pracy</li>
+  <li><strong>Sprawdź swój pasek wypłat</strong> — podziel wypłaconą kwotę brutto przez liczbę przepracowanych godzin</li>
+  <li><strong>Złóż skargę do Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatnie, anonimowo, bez ryzyka deportacji (patrz: nasz artykuł o PIP)</li>
+  <li><strong>Skieruj sprawę do sądu pracy</strong> — możesz dochodzić zaległego wynagrodzenia przez 3 lata wstecz</li>
+</ol>
+<p>Informacja: www.pip.gov.pl | Bezpłatna infolinia PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Minimalna stawka godzinowa vs. minimalne wynagrodzenie — różnica</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Umowa o pracę (UoP)</th>
+      <th>Umowa zlecenie</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Rodzaj ochrony</td>
+      <td>Minimalne wynagrodzenie miesięczne</td>
+      <td>Minimalna stawka godzinowa</td>
+    </tr>
+    <tr>
+      <td>W 2026 roku</td>
+      <td>~4800 zł/miesiąc (pełny etat)</td>
+      <td>~30,50 zł/godz. brutto</td>
+    </tr>
+    <tr>
+      <td>Ewidencja</td>
+      <td>Wymagana</td>
+      <td>Wymagana</td>
+    </tr>
+    <tr>
+      <td>Zgłaszanie naruszeń</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow i minimalna stawka godzinowa</h2>
+<p>Jako pracownik agencji tymczasowej Nexflow otrzymujesz wynagrodzenie zgodne z obowiązującymi przepisami. Twoja umowa zlecenie zawiera informację o stawce godzinowej. Jeśli masz pytania dotyczące liczby godzin lub wysokości wypłaty — skontaktuj się bezpośrednio ze swoim opiekunem w Nexflow.</p>
+<p><em>Nexflow pomaga pracownikom tymczasowym rozumieć swoje prawa. Regularnie publikujemy praktyczne poradniki — obserwuj nas na Facebooku.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimalna-stavka-godzinova-umova-zlecennya-polshcha-2026",
+    title: "Мінімальна годинна ставка за договором-дорученням у Польщі — посібник для тимчасового працівника",
+    description:
+      "Мінімальна годинна ставка за договором-дорученням 2026 — скільки становить, на кого поширюється, обов'язки роботодавця та що робити, якщо платять замало.",
+    date: "2032-01-01",
+    lang: "uk",
+    content: `
+<p>Якщо ти працюєш у Польщі на підставі договору-доручення (umowa zlecenie), ти маєш право на <strong>мінімальну годинну ставку</strong>. Це обов'язковий законодавчий захист — роботодавець не може платити тобі менше, навіть якщо ти сам підписав нижчу ставку.</p>
+
+<h2>Що таке мінімальна годинна ставка?</h2>
+<p>Мінімальна годинна ставка — це найнижча оплата за кожну годину роботи, яка належить особам, що виконують роботу на підставі договору-доручення або договору про надання послуг. Діє з 1 січня 2017 року і щороку оновлюється урядом.</p>
+<p>Йдеться про реальний захист: навіть якщо ти іноземець, маєш цивільно-правовий договір, а не трудовий — ти все одно маєш право на оплату не нижче мінімальної годинної ставки.</p>
+
+<h2>Скільки становить мінімальна годинна ставка у 2026 році?</h2>
+<p>З <strong>1 січня 2026 року</strong> мінімальна годинна ставка становить <strong>30,50 злотих брутто</strong> за годину (відповідно до постанови Ради Міністрів — перевіряй актуальну ставку на gov.pl).</p>
+<p>Це сума <strong>брутто</strong> — до вирахування податку та внесків ZUS. Сума «на руки» буде нижчою.</p>
+
+<h2>На кого поширюється мінімальна годинна ставка?</h2>
+<p>Мінімальна годинна ставка стосується:</p>
+<ul>
+  <li><strong>Договорів-доручень</strong> (ст. 734 Цивільного кодексу)</li>
+  <li><strong>Договорів про надання послуг</strong>, до яких застосовуються положення про доручення</li>
+</ul>
+<p>Поширюється як на поляків, так і на <strong>іноземців</strong>, які легально працюють у Польщі — українців, білорусів, росіян та інших.</p>
+<p><strong>Не стосується</strong> осіб, які ведуть господарську діяльність (ФОП).</p>
+
+<h2>Обов'язки роботодавця / замовника</h2>
+<p>Роботодавець зобов'язаний:</p>
+<ol>
+  <li><strong>Платити не менше мінімальної годинної ставки</strong> — незалежно від того, що написано в договорі</li>
+  <li><strong>Вести облік робочого часу</strong> — кількість годин має бути задокументована</li>
+  <li><strong>Надавати облік на вимогу працівника</strong> — ти маєш право перевірити, скільки годин було зареєстровано</li>
+  <li><strong>Виплачувати зарплату не рідше одного разу на місяць</strong> (або відповідно до графіка в договорі)</li>
+</ol>
+
+<h2>Твої права — ��о робити, якщо платять замало?</h2>
+<ol>
+  <li><strong>Попроси облік годин</strong> — працівник має право на доступ до документів про робочий час</li>
+  <li><strong>Перевір свій розрахунковий листок</strong> — поділи виплачену суму брутто на кількість відпрацьованих годин</li>
+  <li><strong>Подай скаргу до Державної інспекції праці (PIP)</strong> — безкоштовно, анонімно, без ризику депортаці�� (дивись: наша стаття про PIP)</li>
+  <li><strong>Зверни справу до трудового суду</strong> — можеш вимагати заборгованої зарплати за 3 роки назад</li>
+</ol>
+<p>Інформація: www.pip.gov.pl | Безкоштовна гаряча лінія PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Мінімальна годинна ставка vs. мінімальна зарплата — різниця</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Трудовий договір (UoP)</th>
+      <th>Договір-доручення</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Вид захисту</td>
+      <td>Мінімальна місячна зарплата</td>
+      <td>Мінімальна годинна ставка</td>
+    </tr>
+    <tr>
+      <td>У 2026 році</td>
+      <td>~4800 злотих/місяць (повна ставка)</td>
+      <td>~30,50 злотих/год. брутто</td>
+    </tr>
+    <tr>
+      <td>Облік</td>
+      <td>Обов'язковий</td>
+      <td>Обов'язковий</td>
+    </tr>
+    <tr>
+      <td>Повідомлення про порушення</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow і мінімальна годинна ставка</h2>
+<p>Як працівник кадрового агентства Nexflow ти отримуєш зарплату відповідно до чинного законодавства. Твій договір-доручення містить інформацію про годинну ставку. Якщо маєш питання щодо кількості годин або розміру виплати — зв'яжися безпосередньо зі своїм куратором у Nexflow.</p>
+<p><em>Nexflow допомагає тимчасовим працівникам розуміти свої права. Ми регулярно публікуємо практичні посібники — стеж за нами у Facebook.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimalnaya-chasovaya-stavka-dogovor-porucheniya-polsha-2026",
+    title: "Минимальная часовая ставка по договору поручения в Польше — руководство для временного работника",
+    description:
+      "Минимальная часовая ставка по договору поручения 2026 — сколько составляет, на кого распространяется, обязанности работодателя и что делать, если платят мало.",
+    date: "2032-01-08",
+    lang: "ru",
+    content: `
+<p>Если ты работаешь в Польше по договору поручения (umowa zlecenie), тебе полагается <strong>минимальная часовая ставка</strong>. Это обязательная законодательная защита — работодатель не может платить тебе меньше, даже если ты сам подписал более низкую ставку.</p>
+
+<h2>Что такое минимальная часовая ставка?</h2>
+<p>Минимальная часовая ставка — это наименьшая оплата за каждый час работы, которая полагается лицам, выполняющим работу по договору поручения или договору об оказании услуг. Действует с 1 января 2017 года и ежегодно обновляется правительством.</p>
+<p>Речь идёт о реальной защите: даже если ты иностранец, у тебя гражданско-правовой договор, а не трудовой — ты всё равно имеешь право на оплату не ниже минимальной часовой ставки.</p>
+
+<h2>Сколько составляет минимальная часовая ставка в 2026 году?</h2>
+<p>С <strong>1 января 2026 года</strong> минимальная часовая ставка составляет <strong>30,50 злотых брутто</strong> в час (в соответствии с постановлением Совета министров — проверяй актуальную ставку на gov.pl).</p>
+<p>Это сумма <strong>брутто</strong> — до вычета налога и взносов ZUS. Сумма «на руки» будет ниже.</p>
+
+<h2>На кого распространяется минимальная часовая ставка?</h2>
+<p>Минимальная часовая ставка распространяется на:</p>
+<ul>
+  <li><strong>Договоры поручения</strong> (ст. 734 Гражданского кодекса)</li>
+  <li><strong>Договоры об оказании услуг</strong>, к которым применяются положения о поручении</li>
+</ul>
+<p>Распространяется как на поляков, так и на <strong>иностранцев</strong>, законно работающих в Польше — украинцев, белорусов, русских и других.</p>
+<p><strong>Не распространяется</strong> на лиц, ведущих предпринимательскую деятельность (ИП).</p>
+
+<h2>Обязанности работодателя / заказчика</h2>
+<p>Работодатель обязан:</p>
+<ol>
+  <li><strong>Платить не менее минимальной часовой ставки</strong> — независимо от того, что написано в договоре</li>
+  <li><strong>Вести учёт рабочего времени</strong> — количество часов должно быть задокументировано</li>
+  <li><strong>Предоставлять учёт по требованию работника</strong> — ты имеешь право проверить, сколько часов было зарегистрировано</li>
+  <li><strong>Выплачивать зарплату не реже одного раза в месяц</strong> (или согласно графику в договоре)</li>
+</ol>
+
+<h2>Твои права — что делать, если платят мало?</h2>
+<ol>
+  <li><strong>Попроси учёт часов</strong> — работник имеет право на доступ к документам о рабочем времени</li>
+  <li><strong>Проверь свой расчётный листок</strong> — раздели выплаченную сумму брутто на количество отработанных часов</li>
+  <li><strong>Подай жалобу в Государственную инспекцию труда (PIP)</strong> — бесплатно, анонимно, без риска депортации (см.: наша статья о PIP)</li>
+  <li><strong>Обратись в трудовой суд</strong> — можешь требовать задолженность по зарплате за 3 года назад</li>
+</ol>
+<p>Информация: www.pip.gov.pl | Бесплатная горячая линия PIP: <strong>0 801 002 006</strong></p>
+
+<h2>Минимальная часовая ставка vs. минимальная зарплата — разница</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Трудовой договор (UoP)</th>
+      <th>Договор поручения</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Вид защиты</td>
+      <td>Минимальная месячная зарплата</td>
+      <td>Минимальная часовая ставка</td>
+    </tr>
+    <tr>
+      <td>В 2026 году</td>
+      <td>~4800 злотых/месяц (полная ставка)</td>
+      <td>~30,50 злотых/ч. брутто</td>
+    </tr>
+    <tr>
+      <td>Учёт</td>
+      <td>Обязателен</td>
+      <td>Обязателен</td>
+    </tr>
+    <tr>
+      <td>Сообщение о нарушениях</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow и минимальная часовая ставка</h2>
+<p>Как работник кадрового агентства Nexflow ты получаешь зарплату в соответствии с действующим законодательством. Твой договор поручения содержит информацию о часовой ставке. Если у тебя есть вопросы по количеству часов или размеру выплаты — обратись напрямую к своему куратору в Nexflow.</p>
+<p><em>Nexflow помогает временным работникам понимать свои права. Мы регулярно публикуем практические руководства — следи за нами в Facebook.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "minimum-hourly-rate-civil-law-contract-poland-2026",
+    title: "Minimum Hourly Rate Under a Civil Law Contract in Poland 2026 — A Guide for Temporary Workers",
+    description:
+      "Minimum hourly rate for a contract of mandate in Poland 2026 — how much it is, who is covered, employer obligations, and what to do if you are underpaid.",
+    date: "2032-01-15",
+    lang: "en",
+    content: `
+<p>If you work in Poland under a civil law contract (umowa zlecenie), you are entitled to the <strong>minimum hourly rate</strong>. This is a mandatory legal protection — your employer cannot pay you less, even if you voluntarily signed a lower rate.</p>
+
+<h2>What Is the Minimum Hourly Rate?</h2>
+<p>The minimum hourly rate is the lowest remuneration for each hour of work to which persons working under a contract of mandate (umowa zlecenie) or service contract are entitled. It has been in force since 1 January 2017 and is updated annually by the government.</p>
+<p>This is real protection: even if you are a foreigner with a civil law contract rather than an employment contract — you still have the right to pay no lower than the minimum hourly rate.</p>
+
+<h2>How Much Is the Minimum Hourly Rate in 2026?</h2>
+<p>From <strong>1 January 2026</strong>, the minimum hourly rate is <strong>PLN 30.50 gross</strong> per hour (pursuant to the Council of Ministers Regulation — check the current rate at gov.pl).</p>
+<p>This is a <strong>gross</strong> amount — before income tax and ZUS social insurance contributions are deducted. Your net ("take-home") amount will be lower.</p>
+
+<h2>Who Is Covered by the Minimum Hourly Rate?</h2>
+<p>The minimum hourly rate applies to:</p>
+<ul>
+  <li><strong>Contracts of mandate</strong> (Article 734 of the Civil Code)</li>
+  <li><strong>Service contracts</strong> to which the provisions on mandate apply</li>
+</ul>
+<p>It applies to both Polish nationals and <strong>foreign nationals</strong> legally working in Poland — Ukrainian, Belarusian, Russian, and others.</p>
+<p><strong>It does not apply</strong> to persons conducting sole-trader business activity.</p>
+
+<h2>Employer Obligations</h2>
+<p>The employer must:</p>
+<ol>
+  <li><strong>Pay at least the minimum hourly rate</strong> — regardless of what is written in the contract</li>
+  <li><strong>Keep a record of working hours</strong> — the number of hours must be documented</li>
+  <li><strong>Provide the record on the worker's request</strong> — you have the right to check how many hours were registered</li>
+  <li><strong>Pay remuneration at least once a month</strong> (or in accordance with the schedule stated in the contract)</li>
+</ol>
+
+<h2>Your Rights — What Can You Do If You Are Underpaid?</h2>
+<ol>
+  <li><strong>Request your working-hours record</strong> — a worker has the right to access documents concerning working time</li>
+  <li><strong>Check your payslip</strong> — divide the gross amount paid by the number of hours worked</li>
+  <li><strong>File a complaint with the National Labour Inspectorate (PIP)</strong> — free of charge, anonymously, with no risk of deportation (see: our article on PIP)</li>
+  <li><strong>Take the case to the labour court</strong> — you can claim unpaid wages going back 3 years</li>
+</ol>
+<p>Information: www.pip.gov.pl | PIP free helpline: <strong>0 801 002 006</strong></p>
+
+<h2>Minimum Hourly Rate vs. Minimum Wage — The Difference</h2>
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Employment contract (UoP)</th>
+      <th>Contract of mandate</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Type of protection</td>
+      <td>Minimum monthly wage</td>
+      <td>Minimum hourly rate</td>
+    </tr>
+    <tr>
+      <td>In 2026</td>
+      <td>~PLN 4,800/month (full-time)</td>
+      <td>~PLN 30.50/hr gross</td>
+    </tr>
+    <tr>
+      <td>Record-keeping</td>
+      <td>Required</td>
+      <td>Required</td>
+    </tr>
+    <tr>
+      <td>Reporting violations</td>
+      <td>PIP</td>
+      <td>PIP</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>Nexflow and the Minimum Hourly Rate</h2>
+<p>As a temporary worker placed by Nexflow, you receive remuneration in accordance with applicable regulations. Your contract of mandate states the hourly rate. If you have any questions about the hours recorded or the amount of your pay — contact your Nexflow coordinator directly.</p>
+<p><em>Nexflow helps temporary workers understand their rights. We regularly publish practical guides — follow us on Facebook.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "urlop-okolicznosciowy-pracownik-cudzoziemiec-polska",
+    title: "Urlop okolicznościowy w Polsce — co przysługuje pracownikowi cudzoziemcowi?",
+    description:
+      "Urlop okolicznościowy w Polsce — kiedy i ile płatnych dni wolnych przysługuje pracownikowi cudzoziemcowi z okazji ślubu, narodzin dziecka czy pogrzebu. Przewodnik po Kodeksie pracy.",
+    date: "2032-01-22",
+    lang: "pl",
+    content: `
+<p>Jeśli pracujesz w Polsce na umowie o pracę, masz prawo do <strong>urlopu okolicznościowego</strong> — płatnych dni wolnych z okazji ważnych wydarzeń rodzinnych. Wielu cudzoziemców nie wie o tym prawie. Ten przewodnik wyjaśnia, kiedy i ile dni wolnego Ci przysługuje.</p>
+
+<h2>Co to jest urlop okolicznościowy?</h2>
+<p>Urlop okolicznościowy to płatne dni wolne od pracy przysługujące pracownikowi w związku z ważnymi wydarzeniami w jego życiu osobistym lub rodzinnym. Jest to prawo zagwarantowane przez <strong>Kodeks pracy</strong> (art. 173 i Rozporządzenie Ministra Pracy i Polityki Socjalnej z 15 maja 1996 r.).</p>
+
+<h2>Kiedy przysługuje urlop okolicznościowy?</h2>
+
+<h3>2 dni płatnego urlopu:</h3>
+<ul>
+  <li>Ślub pracownika</li>
+  <li>Narodziny dziecka pracownika</li>
+  <li>Śmierć i pogrzeb: małżonka, dziecka, ojca, matki, ojczyma lub macochy</li>
+</ul>
+
+<h3>1 dzień płatnego urlopu:</h3>
+<ul>
+  <li>Ślub dziecka pracownika</li>
+  <li>Śmierć i pogrzeb: siostry, brata, teściowej, teścia, babci, dziadka lub innej osoby pozostającej na utrzymaniu pracownika albo pod jego bezpośrednią opieką</li>
+</ul>
+
+<h2>Czy urlop okolicznościowy przysługuje na umowie zlecenie?</h2>
+<p>Kodeks pracy dotyczy przede wszystkim <strong>umów o pracę</strong>. Osoby pracujące na <strong>umowie zlecenie</strong> nie mają automatycznie prawa do urlopu okolicznościowego — chyba że umowa lub regulamin firmy to przewiduje.</p>
+<p>W Nexflow możesz zapytać koordynatora, jakie zasady dotyczą Twojej umowy.</p>
+
+<h2>Jak wziąć urlop okolicznościowy?</h2>
+<ol>
+  <li>Poinformuj pracodawcę lub koordynatora tak szybko, jak to możliwe</li>
+  <li>Złóż wniosek urlopowy (pisemnie lub przez system firmy)</li>
+  <li>Dostarcz dokument potwierdzający zdarzenie (np. akt urodzenia dziecka, akt ślubu, zaświadczenie o zgonie)</li>
+</ol>
+
+<h2>Czy urlop okolicznościowy jest płatny?</h2>
+<p>Tak. Za czas urlopu okolicznościowego pracownik otrzymuje <strong>wynagrodzenie jak za urlop wypoczynkowy</strong> — czyli normalne wynagrodzenie obliczone zgodnie z przepisami.</p>
+
+<h2>Ważne informacje dla cudzoziemców</h2>
+<ul>
+  <li>Twoja narodowość nie ma znaczenia — prawo dotyczy wszystkich pracowników zatrudnionych na umowie o pracę w Polsce</li>
+  <li>Zdarzenie może dotyczyć rodziny za granicą (np. na Ukrainie)</li>
+  <li>Zagraniczna metryka urodzenia lub akt zgonu może wymagać tłumaczenia przysięgłego, ale wiele firm akceptuje skan dokumentu jako wstępne potwierdzenie</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Zdarzenie</th>
+      <th>Liczba dni</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ślub pracownika</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Narodziny dziecka</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Śmierć małżonka / dziecka / rodzica</td>
+      <td>2 dni</td>
+    </tr>
+    <tr>
+      <td>Ślub dziecka pracownika</td>
+      <td>1 dzień</td>
+    </tr>
+    <tr>
+      <td>Śmierć siostry / brata / teściów / dziadków</td>
+      <td>1 dzień</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow dba o to, by każdy pracownik znał swoje prawa. Masz pytania? Skontaktuj się ze swoim koordynatorem Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "vidpustka-za-osobystymy-obstavynamy-inozemets-polshcha",
+    title: "Відпустка за особистими обставинами в Польщі — що належить іноземному працівнику?",
+    description:
+      "Відпустка за особистими обставинами у Польщі — коли і скільки оплачуваних вихідних належить іноземному працівнику з нагоди весілля, народження дитини або похорону. Посібник з Трудового кодексу.",
+    date: "2032-01-29",
+    lang: "uk",
+    content: `
+<p>Якщо ти працюєш у Польщі за трудовим договором (umowa o pracę), ти маєш право на <strong>відпустку за особистими обставинами</strong> — оплачувані вихідні дні з приводу важливих сімейних подій. Багато іноземців не знають про це право. Цей посібник пояснює, коли і скільки вихідних днів тобі належить.</p>
+
+<h2>Що таке відпустка за особистими обставинами?</h2>
+<p>Це оплачувані дні відпочинку від роботи, які надаються працівнику у зв'язку з важливими подіями в його особистому або сімейному житті. Це право гарантоване <strong>Трудовим кодексом Польщі</strong> (стаття 173 та Постанова Міністерства праці від 15 травня 1996 р.).</p>
+
+<h2>Коли надається відпустка?</h2>
+
+<h3>2 оплачувані дні:</h3>
+<ul>
+  <li>Одруження працівника</li>
+  <li>Народження дитини працівника</li>
+  <li>Смерть і похорон: чоловіка/дружини, дитини, батька, матері, вітчима або мачухи</li>
+</ul>
+
+<h3>1 оплачуваний день:</h3>
+<ul>
+  <li>Одруження дитини працівника</li>
+  <li>Смерть і похорон: сестри, брата, свекрухи, свекра, бабусі, дідуся або іншої особи, що перебуває на утриманні чи під безпосередньою опікою працівника</li>
+</ul>
+
+<h2>Чи належить відпустка за цивільним договором (umowa zlecenie)?</h2>
+<p>Трудовий кодекс стосується насамперед <strong>трудових договорів (umowa o pracę)</strong>. Особи, які працюють за <strong>цивільним договором (umowa zlecenie)</strong>, не мають автоматичного права на цей вид відпустки — якщо тільки це не передбачено договором або внутрішніми правилами компанії.</p>
+<p>Якщо ти працюєш через Nexflow, запитай у координатора, які правила стосуються твого договору.</p>
+
+<h2>Як взяти відпустку?</h2>
+<ol>
+  <li>Повідом роботодавця або координатора якомога швидше</li>
+  <li>Подай заяву на відпустку (письмово або через систему компанії)</li>
+  <li>Надай документ, що підтверджує подію (наприклад, свідоцтво про народження, свідоцтво про шлюб, свідоцтво про смерть)</li>
+</ol>
+
+<h2>Чи оплачується відпустка?</h2>
+<p>Так. За час відпустки за особистими обставинами працівник отримує <strong>звичайну заробітну плату</strong> — так само, як і за щорічну відпустку.</p>
+
+<h2>Важливо для іноземців</h2>
+<ul>
+  <li>Твоє громадянство не має значення — право стосується всіх, хто офіційно працює в Польщі за трудовим договором</li>
+  <li>Подія може стосуватися родини в рідній країні (наприклад, в Україні або Білорусі)</li>
+  <li>Іноземний документ може потребувати нотаріально завіреного перекладу, але багато компаній тимчасово приймають скан</li>
+</ul>
+
+<h2>Підсумок</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Подія</th>
+      <th>Кількість днів</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Одруження працівника</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Народження дитини</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Смерть чоловіка/дружини / дитини / батьків</td>
+      <td>2 дні</td>
+    </tr>
+    <tr>
+      <td>Одруження дитини</td>
+      <td>1 день</td>
+    </tr>
+    <tr>
+      <td>Смерть сестри / брата / свекрухи / свекра / бабусі / дідуся</td>
+      <td>1 день</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow піклується про те, щоб кожен працівник знав свої права. Є питання? Зв'яжись зі своїм координатором Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "otpusk-po-semejnym-obstoyatelstvam-inostranets-polsha",
+    title: "Отпуск по семейным обстоятельствам в Польше — что полагается иностранному работнику?",
+    description:
+      "Отпуск по семейным обстоятельствам в Польше — когда и сколько оплачиваемых дней положено иностранному работнику по случаю свадьбы, рождения ребёнка или похорон. Руководство по Трудовому кодексу.",
+    date: "2032-02-05",
+    lang: "ru",
+    content: `
+<p>Если ты работаешь в Польше по трудовому договору (umowa o pracę), тебе полагается <strong>отпуск по семейным обстоятельствам</strong> — оплачиваемые выходные дни по поводу важных семейных событий. Многие иностранцы не знают об этом праве. Это руководство объясняет, когда и сколько дней тебе положено.</p>
+
+<h2>Что такое отпуск по семейным обстоятельствам?</h2>
+<p>Это оплачиваемые дни отдыха от работы, предоставляемые работнику в связи с важными событиями в его личной или семейной жизни. Это право гарантировано <strong>Трудовым кодексом Польши</strong> (статья 173 и Постановление Министерства труда от 15 мая 1996 г.).</p>
+
+<h2>Когда предоставляется отпуск?</h2>
+
+<h3>2 оплачиваемых дня:</h3>
+<ul>
+  <li>Свадьба работника</li>
+  <li>Рождение ребёнка работника</li>
+  <li>Смерть и похороны: супруга/супруги, ребёнка, отца, матери, отчима или мачехи</li>
+</ul>
+
+<h3>1 оплачиваемый день:</h3>
+<ul>
+  <li>Свадьба ребёнка работника</li>
+  <li>Смерть и похороны: сестры, брата, свекрови, свёкра, бабушки, дедушки или другого лица, находящегося на иждивении работника либо под его непосредственной опекой</li>
+</ul>
+
+<h2>Распространяется ли отпуск на гражданский договор (umowa zlecenie)?</h2>
+<p>Трудовой кодекс распространяется прежде всего на <strong>трудовые договоры (umowa o pracę)</strong>. Лица, работающие по <strong>гражданскому договору (umowa zlecenie)</strong>, не имеют автоматического права на этот вид отпуска — если только это не предусмотрено договором или внутренними правилами компании.</p>
+<p>Если ты работаешь через Nexflow, спроси у координатора, какие правила применяются к твоему договору.</p>
+
+<h2>Как взять отпуск?</h2>
+<ol>
+  <li>Сообщи работодателю или координатору как можно скорее</li>
+  <li>Подай заявление на отпуск (письменно или через систему компании)</li>
+  <li>Предоставь документ, подтверждающий событие (напр., свидетельство о рождении, свидетельство о браке, свидетельство о смерти)</li>
+</ol>
+
+<h2>Оплачивается ли отпуск?</h2>
+<p>Да. За время отпуска по семейным обстоятельствам работник получает <strong>обычную заработную плату</strong> — так же, как за ежегодный отпуск.</p>
+
+<h2>Важно для иностранцев</h2>
+<ul>
+  <li>Твоё гражданство не имеет значения — право распространяется на всех официально работающих в Польше по трудовому договору</li>
+  <li>Событие может касаться семьи в родной стране (напр., в Украине или Беларуси)</li>
+  <li>Иностранный документ может потребовать нотариально заверенного перевода, но многие компании временно принимают скан</li>
+</ul>
+
+<h2>Итог</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Событие</th>
+      <th>Количество дней</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Свадьба работника</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Рождение ребёнка</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Смерть супруга/ребёнка/родителей</td>
+      <td>2 дня</td>
+    </tr>
+    <tr>
+      <td>Свадьба ребёнка</td>
+      <td>1 день</td>
+    </tr>
+    <tr>
+      <td>Смерть сестры/брата/свёкра/свекрови/дедушки/бабушки</td>
+      <td>1 день</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow заботится о том, чтобы каждый работник знал свои права. Есть вопросы? Свяжись со своим координатором Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "occasional-leave-foreign-worker-poland",
+    title: "Occasional Leave for Foreign Workers in Poland — What Are You Entitled To?",
+    description:
+      "Occasional leave in Poland — when and how many paid days off are foreign workers entitled to for weddings, births, or funerals. A practical guide under the Polish Labour Code.",
+    date: "2032-02-12",
+    lang: "en",
+    content: `
+<p>If you work in Poland under an employment contract (umowa o pracę), you are entitled to <strong>occasional leave</strong> (urlop okolicznościowy) — paid days off for important personal and family events. Many foreign workers are unaware of this right. This guide explains when and how many days you can take.</p>
+
+<h2>What Is Occasional Leave?</h2>
+<p>Occasional leave is paid time off from work granted to an employee in connection with significant personal or family events. It is a statutory right guaranteed by the <strong>Polish Labour Code</strong> (Kodeks pracy, Article 173 and the Ministerial Regulation of 15 May 1996).</p>
+<p>This is a real protection: even as a foreign worker, if you are employed under an employment contract in Poland, you have this right regardless of your nationality.</p>
+
+<h2>When Is Occasional Leave Granted?</h2>
+
+<h3>2 paid days:</h3>
+<ul>
+  <li>Employee's own wedding</li>
+  <li>Birth of the employee's child</li>
+  <li>Death and funeral of: spouse, child, father, mother, stepfather or stepmother</li>
+</ul>
+
+<h3>1 paid day:</h3>
+<ul>
+  <li>Wedding of the employee's child</li>
+  <li>Death and funeral of: sister, brother, mother-in-law, father-in-law, grandmother, grandfather, or another person remaining in the employee's household or under their direct care</li>
+</ul>
+
+<h2>Does Occasional Leave Apply to Civil Law Contracts (umowa zlecenie)?</h2>
+<p>The Labour Code applies primarily to <strong>employment contracts (umowa o pracę)</strong>. Workers on <strong>civil law contracts (umowa zlecenie)</strong> do not automatically have the right to occasional leave — unless the contract or company regulations provide for it.</p>
+<p>If you're working through Nexflow, ask your coordinator about the rules that apply to your specific contract.</p>
+
+<h2>How to Take Occasional Leave</h2>
+<ol>
+  <li>Inform your employer or coordinator as soon as possible</li>
+  <li>Submit a leave request in writing or through your company's system</li>
+  <li>Provide a document confirming the event (e.g., birth certificate, marriage certificate, death certificate)</li>
+</ol>
+
+<h2>Is Occasional Leave Paid?</h2>
+<p>Yes. During occasional leave, you receive your <strong>normal salary</strong> — calculated the same way as for annual holiday leave. Your employer cannot deduct these days from your annual leave allowance.</p>
+
+<h2>Important for Foreign Workers</h2>
+<ul>
+  <li>Your nationality does not matter — this right applies to all employees legally employed in Poland under an employment contract</li>
+  <li>The event may involve family in your home country (e.g., Ukraine or Belarus)</li>
+  <li>Foreign documents may require a certified translation, but many companies temporarily accept a scan as initial confirmation</li>
+</ul>
+
+<h2>Summary Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Event</th>
+      <th>Days</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Employee's wedding</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Birth of employee's child</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Death of spouse / child / parent</td>
+      <td>2 days</td>
+    </tr>
+    <tr>
+      <td>Wedding of employee's child</td>
+      <td>1 day</td>
+    </tr>
+    <tr>
+      <td>Death of sibling / in-laws / grandparent</td>
+      <td>1 day</td>
+    </tr>
+  </tbody>
+</table>
+<p>Nexflow is committed to making sure every worker knows their rights. Questions about your entitlements? Contact your Nexflow coordinator — we're here to help.</p>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-chorobowy-jak-zus-placi-ile-wynosi-polska",
+    title: "Zasiłek chorobowy w Polsce: ile płaci ZUS i jak obliczyć świadczenie?",
+    description:
+      "Zasiłek chorobowy dla pracowników tymczasowych i cudzoziemców — kto płaci, ile wynosi 80% podstawy, jak ZUS oblicza świadczenie za L4. Przewodnik krok po kroku.",
+    date: "2032-01-22",
+    lang: "pl",
+    content: `
+<h1>Zasiłek chorobowy w Polsce: ile płaci ZUS i jak obliczyć świadczenie?</h1>
+
+<p>Jeśli jesteś pracownikiem tymczasowym lub cudzoziemcem pracującym w Polsce i zachorujesz, przysługuje Ci <strong>zasiłek chorobowy</strong> — świadczenie pieniężne na czas nieobecności w pracy z powodu choroby. Wiele osób myli go z wynagrodzeniem za czas choroby lub ze zwolnieniem lekarskim (L4). W tym artykule wyjaśniamy, kto płaci, ile i jak obliczyć swoje świadczenie.</p>
+
+<h2>Kto jest uprawniony do zasiłku chorobowego?</h2>
+<p>Zasiłek chorobowy przysługuje każdemu pracownikowi zatrudnionemu na umowę o pracę lub umowę zlecenie, który jest objęty <strong>ubezpieczeniem chorobowym</strong> w ZUS. W przypadku umowy o pracę — ubezpieczenie jest obowiązkowe i odprowadzane przez pracodawcę od pierwszego dnia zatrudnienia. W przypadku umowy zlecenie — ubezpieczenie chorobowe jest <em>dobrowolne</em>, ale musisz przystąpić do niego, aby móc skorzystać ze świadczenia.</p>
+
+<p>Ważna zasada: zasiłek chorobowy przysługuje po upływie <strong>30-dniowego okresu wyczekiwania</strong> — czyli dopiero po 30 dniach nieprzerwanego ubezpieczenia chorobowego. Wyjątek: absolwenci szkół i uczelni objęci ubezpieczeniem w ciągu 90 dni od ukończenia nauki nie mają okresu wyczekiwania.</p>
+
+<h2>Kto płaci: pracodawca czy ZUS?</h2>
+<p>To zależy od długości Twojej choroby w danym roku kalendarzowym:</p>
+<ul>
+  <li><strong>Pierwsze 33 dni</strong> choroby w roku — płaci <strong>pracodawca</strong> (w formie wynagrodzenia za czas choroby)</li>
+  <li>Pracownicy, którzy ukończyli <strong>50 lat</strong> — pracodawca płaci tylko przez pierwsze <strong>14 dni</strong></li>
+  <li>Od <strong>34. dnia</strong> (lub od 15. dnia dla osób 50+) — przejmuje <strong>ZUS</strong> i wypłaca zasiłek chorobowy</li>
+</ul>
+<p>Ważne: liczba 33 (lub 14) dni odnosi się do <em>łącznej</em> liczby dni choroby w danym roku — nawet jeśli masz kilka krótkich zwolnień.</p>
+
+<h2>Ile wynosi zasiłek chorobowy?</h2>
+<p>Standardowa wysokość zasiłku to <strong>80% podstawy wymiaru zasiłku</strong>. Jednak w pewnych sytuacjach zasiłek jest wyższy lub niższy:</p>
+<ul>
+  <li><strong>80%</strong> podstawy — standardowa choroba</li>
+  <li><strong>70%</strong> podstawy — pobyt w szpitalu (hospitalizacja)</li>
+  <li><strong>100%</strong> podstawy — choroba zawodowa, wypadek przy pracy lub w drodze do/z pracy, choroba w czasie ciąży</li>
+</ul>
+
+<h2>Jak obliczyć podstawę wymiaru?</h2>
+<p>Podstawa wymiaru zasiłku to <strong>przeciętne miesięczne wynagrodzenie brutto</strong> z ostatnich 12 miesięcy (lub z całego okresu zatrudnienia, jeśli był krótszy). Następnie od tej kwoty odejmuje się składki na ubezpieczenia społeczne (łącznie ok. 13,71%).</p>
+
+<p><strong>Przykład (uproszczony):</strong></p>
+<ul>
+  <li>Średnie wynagrodzenie brutto: 5 000 zł</li>
+  <li>Po odjęciu składek: 5 000 × (1 − 0,1371) ≈ 4 315 zł</li>
+  <li>Stawka dzienna: 4 315 ÷ 30 ≈ 143,83 zł</li>
+  <li>Zasiłek dzienny (80%): 143,83 × 0,80 ≈ 115,07 zł</li>
+  <li>Zasiłek za 10 dni choroby: 10 × 115,07 ≈ 1 150 zł</li>
+</ul>
+
+<h2>Jak długo można pobierać zasiłek?</h2>
+<p>Zasiłek chorobowy przysługuje przez <strong>maksymalnie 182 dni</strong> w roku. W przypadku gruźlicy lub choroby w czasie ciąży — okres ten wydłuża się do <strong>270 dni</strong>. Po wyczerpaniu zasiłku chorobowego możesz ubiegać się o <strong>świadczenie rehabilitacyjne</strong> z ZUS (do 12 miesięcy).</p>
+
+<h2>Procedura — jak dostać zasiłek krok po kroku</h2>
+<ol>
+  <li>Idź do lekarza i poproś o zwolnienie lekarskie — w Polsce wystawiane jest elektronicznie jako <strong>e-ZLA</strong></li>
+  <li>Lekarz automatycznie przesyła e-ZLA do ZUS i do Twojego pracodawcy — nie musisz nic dostarczać osobiście</li>
+  <li>Poinformuj pracodawcę o nieobecności (telefonicznie, SMS-em lub według zasad obowiązujących w firmie)</li>
+  <li>Za pierwsze 33 dni pracodawca wypłaca <strong>wynagrodzenie chorobowe</strong> razem z regularną wypłatą</li>
+  <li>Od 34. dnia ZUS wypłaca zasiłek — bezpośrednio na Twoje konto (jeśli ZUS jest bezpośrednim płatnikiem) lub przez pracodawcę</li>
+</ol>
+
+<h2>Zasiłek dla cudzoziemców — na co uważać</h2>
+<p>Jako cudzoziemiec masz takie same prawa do zasiłku chorobowego jak obywatel Polski — pod warunkiem że jesteś ubezpieczony w ZUS. Kilka ważnych kwestii:</p>
+<ul>
+  <li>Upewnij się, że pracodawca faktycznie odprowadza za Ciebie <strong>składkę chorobową</strong> — możesz to sprawdzić na koncie PUE ZUS</li>
+  <li>Jeśli pracujesz na <strong>umowę zlecenie</strong>, zapytaj pracodawcę, czy jesteś objęty dobrowolnym ubezpieczeniem chorobowym — to warunek konieczny</li>
+  <li>Jeśli Twoje dane w ZUS są nieprawidłowe (np. błędy w PESEL-u), zasiłek może nie zostać wypłacony — sprawdź konto PUE ZUS zawczasu</li>
+  <li>Leczenie w ramach NFZ jest bezpłatne przy aktywnym ubezpieczeniu zdrowotnym — L4 wystawia lekarz NFZ</li>
+</ul>
+
+<h2>Kluczowe rozróżnienie: L4, wynagrodzenie chorobowe, zasiłek</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — elektroniczne zwolnienie lekarskie, dokument stwierdzający niezdolność do pracy</li>
+  <li><strong>Wynagrodzenie za czas choroby</strong> — płacone przez pracodawcę przez pierwsze 33 (lub 14) dni, ok. 80% wynagrodzenia</li>
+  <li><strong>Zasiłek chorobowy</strong> — płacony przez ZUS od 34. (lub 15.) dnia, też ok. 80% podstawy</li>
+</ul>
+
+<h2>Podsumowanie</h2>
+<p>Zasiłek chorobowy to świadczenie, które chroni Twój dochód podczas choroby. Jako pracownik w Polsce — niezależnie od narodowości — masz do niego prawo, jeśli jesteś ubezpieczony w ZUS. Sprawdź na <strong>pue.zus.pl</strong>, że Twoje ubezpieczenie jest aktywne i że pracodawca odprowadza za Ciebie składkę chorobową. Dzięki temu, gdy zachorujesz, nie stracisz całego dochodu.</p>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-chorobovy-yak-rozrakhovuietsia-polshcha",
+    title: "Лікарняна допомога в Польщі: скільки платить ZUS і як розрахувати виплату?",
+    description:
+      "Лікарняна допомога для тимчасових і іноземних працівників у Польщі — хто платить, скільки становить 80% розрахункової бази, як ZUS нараховує виплату за L4.",
+    date: "2032-01-29",
+    lang: "uk",
+    content: `
+<h1>Лікарняна допомога в Польщі: скільки платить ZUS і як розрахувати виплату?</h1>
+
+<p>Якщо ти є тимчасовим або іноземним працівником у Польщі та захворів, тобі належить <strong>лікарняна допомога (zasiłek chorobowy)</strong> — грошова виплата на час відсутності на роботі через хворобу. У цій статті пояснюємо, хто платить, скільки і як розрахувати своє нарахування.</p>
+
+<h2>Хто має право на лікарняну допомогу?</h2>
+<p>Лікарняна допомога належить кожному працівнику, який застрахований у ZUS (<strong>страхування по хворобі — ubezpieczenie chorobowe</strong>). При трудовому договорі (umowa o pracę) — страхування є обов'язковим із першого дня. При договорі-дорученні (umowa zlecenie) — страхування по хворобі є <em>добровільним</em>, але без нього виплата не буде нарахована.</p>
+
+<p>Важливо: лікарняна допомога виплачується лише після <strong>30-денного терміну очікування</strong> — тобто після 30 днів безперервного страхування. Виняток: випускники шкіл і вузів, застраховані протягом 90 днів після закінчення навчання, звільняються від цього терміну.</p>
+
+<h2>Хто платить: роботодавець чи ZUS?</h2>
+<ul>
+  <li><strong>Перші 33 дні</strong> хвороби на рік — платить <strong>роботодавець</strong> (у вигляді зарплати за час хвороби)</li>
+  <li>Працівники старше <strong>50 років</strong> — роботодавець платить лише перші <strong>14 днів</strong></li>
+  <li>З <strong>34-го дня</strong> (або з 15-го для осіб 50+) — виплати бере на себе <strong>ZUS</strong></li>
+</ul>
+<p>Зверни увагу: лічильник 33 (або 14) днів є <em>сумарним</em> за рік — навіть якщо у тебе кілька коротких лікарняних.</p>
+
+<h2>Розмір лікарняної допомоги</h2>
+<ul>
+  <li><strong>80%</strong> розрахункової бази — стандартна хвороба</li>
+  <li><strong>70%</strong> — лікування в стаціонарі (госпіталізація)</li>
+  <li><strong>100%</strong> — виробнича травма, нещасний випадок по дорозі на роботу/з роботи, хвороба під час вагітності</li>
+</ul>
+
+<h2>Як розрахувати базу нарахування?</h2>
+<p>Розрахункова база — це <strong>середньомісячна брутто-зарплата</strong> за останні 12 місяців (або за весь час роботи, якщо він коротший). Від цієї суми відраховують внески на соціальне страхування (приблизно 13,71%).</p>
+
+<p><strong>Приклад:</strong></p>
+<ul>
+  <li>Середня брутто-зарплата: 5 000 зл</li>
+  <li>Після відрахування внесків: 5 000 × (1 − 0,1371) ≈ 4 315 зл</li>
+  <li>Денна ставка: 4 315 ÷ 30 ≈ 143,83 зл</li>
+  <li>Денна допомога (80%): 143,83 × 0,80 ≈ 115,07 зл</li>
+  <li>Допомога за 10 днів хвороби: ≈ 1 150 зл</li>
+</ul>
+
+<h2>Як довго виплачується допомога?</h2>
+<p>Лікарняна допомога виплачується максимум <strong>182 дні</strong> на рік. При туберкульозі або хворобі під час вагітності — до <strong>270 днів</strong>. Після вичерпання цього терміну можна звернутися по <strong>реабілітаційне свідоцтво (świadczenie rehabilitacyjne)</strong> — до 12 місяців.</p>
+
+<h2>Покрокова процедура</h2>
+<ol>
+  <li>Звернись до лікаря — він виписує електронний лікарняний лист <strong>e-ZLA</strong></li>
+  <li>Лікар автоматично надсилає e-ZLA до ZUS та роботодавця — тобі нічого нести не потрібно</li>
+  <li>Повідом роботодавця про відсутність (за правилами компанії)</li>
+  <li>За перші 33 дні роботодавець виплачує зарплату за час хвороби разом зі звичайною виплатою</li>
+  <li>З 34-го дня ZUS перераховує допомогу — безпосередньо на твій рахунок або через роботодавця</li>
+</ol>
+
+<h2>Для іноземних працівників — на що звернути увагу</h2>
+<ul>
+  <li>Перевір на порталі <strong>pue.zus.pl</strong>, що твоє страхування по хворобі є активним</li>
+  <li>Якщо маєш <strong>umowa zlecenie</strong> — уточни у роботодавця, чи ти охоплений добровільним страхуванням по хворобі</li>
+  <li>Якщо твої дані в ZUS неправильні (наприклад, помилка в PESEL), виплату може бути заблоковано</li>
+  <li>Лікування в рамках NFZ безкоштовне при активному медичному страхуванні</li>
+</ul>
+
+<h2>Ключові відмінності: L4, зарплата за час хвороби, лікарняна допомога</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — електронний лікарняний лист від лікаря, підтверджує непрацездатність</li>
+  <li><strong>Зарплата за час хвороби</strong> — платить роботодавець перші 33 (або 14) дні, ≈80% зарплати</li>
+  <li><strong>Лікарняна допомога (zasiłek chorobowy)</strong> — платить ZUS з 34-го (або 15-го) дня, ≈80% розрахункової бази</li>
+</ul>
+
+<h2>Підсумок</h2>
+<p>Лікарняна допомога захищає твій дохід під час хвороби. Незалежно від національності, як працівник у Польщі ти маєш на неї право — за умови наявності страхування у ZUS. Перевір заздалегідь на <strong>pue.zus.pl</strong>, що страхування активне і роботодавець сплачує внески. Тоді в разі хвороби ти не залишишся без виплати.</p>
+    `.trim(),
+  },
+  {
+    slug: "zasilek-chorobowy-kak-rasschityvaetsya-polsha",
+    title: "Больничные в Польше: сколько платит ZUS за L4 и как рассчитать пособие?",
+    description:
+      "Пособие по временной нетрудоспособности для временных и иностранных работников в Польше — кто платит, каков размер 80% расчётной базы, как ZUS начисляет выплату за L4.",
+    date: "2032-02-05",
+    lang: "ru",
+    content: `
+<h1>Больничные в Польше: сколько платит ZUS за L4 и как рассчитать пособие?</h1>
+
+<p>Если ты временный или иностранный работник в Польше и заболел, тебе положено <strong>пособие по временной нетрудоспособности (zasiłek chorobowy)</strong> — денежная выплата на время болезни. В этой статье объясняем, кто платит, сколько и как рассчитать своё пособие.</p>
+
+<h2>Кто имеет право на пособие?</h2>
+<p>Пособие полагается каждому работнику, застрахованному в ZUS по риску <strong>болезни (ubezpieczenie chorobowe)</strong>. По трудовому договору (umowa o pracę) — страхование обязательное с первого дня. По гражданско-правовому договору (umowa zlecenie) — страхование по болезни <em>добровольное</em>: без него выплата не будет начислена.</p>
+
+<p>Важно: пособие выплачивается только после <strong>30-дневного периода ожидания</strong> — то есть спустя 30 дней непрерывного страхования. Исключение: выпускники, застрахованные в течение 90 дней после окончания учёбы, освобождены от этого срока.</p>
+
+<h2>Кто платит: работодатель или ZUS?</h2>
+<ul>
+  <li><strong>Первые 33 дня</strong> болезни в году — платит <strong>работодатель</strong> (в виде зарплаты за время болезни)</li>
+  <li>Работники старше <strong>50 лет</strong> — работодатель платит только первые <strong>14 дней</strong></li>
+  <li>С <strong>34-го дня</strong> (или с 15-го для лиц 50+) — выплату берёт на себя <strong>ZUS</strong></li>
+</ul>
+<p>Важно: 33 (или 14) дней — это <em>суммарный</em> счётчик за год, даже если у тебя несколько коротких больничных.</p>
+
+<h2>Размер пособия по временной нетрудоспособности</h2>
+<ul>
+  <li><strong>80%</strong> расчётной базы — обычная болезнь</li>
+  <li><strong>70%</strong> — стационарное лечение (госпитализация)</li>
+  <li><strong>100%</strong> — производственная травма, несчастный случай по дороге на работу или с работы, болезнь во время беременности</li>
+</ul>
+
+<h2>Как рассчитать расчётную базу?</h2>
+<p>Расчётная база — это <strong>среднемесячная брутто-зарплата</strong> за последние 12 месяцев (или за весь период работы, если он короче). Из этой суммы вычитаются взносы на социальное страхование (около 13,71%).</p>
+
+<p><strong>Пример:</strong></p>
+<ul>
+  <li>Средняя брутто-зарплата: 5 000 зл</li>
+  <li>После вычета взносов: 5 000 × (1 − 0,1371) ≈ 4 315 зл</li>
+  <li>Дневная ставка: 4 315 ÷ 30 ≈ 143,83 зл</li>
+  <li>Дневное пособие (80%): 143,83 × 0,80 ≈ 115,07 зл</li>
+  <li>Пособие за 10 дней болезни: ≈ 1 150 зл</li>
+</ul>
+
+<h2>Как долго выплачивается пособие?</h2>
+<p>Пособие по временной нетрудоспособности выплачивается максимум <strong>182 дня</strong> в год. При туберкулёзе или болезни во время беременности — до <strong>270 дней</strong>. После исчерпания этого срока можно обратиться за <strong>реабилитационным пособием (świadczenie rehabilitacyjne)</strong> — сроком до 12 месяцев.</p>
+
+<h2>Пошаговая процедура</h2>
+<ol>
+  <li>Обратись к врачу — он выдаёт электронный больничный лист <strong>e-ZLA</strong></li>
+  <li>Врач автоматически отправляет e-ZLA в ZUS и работодателю — ничего нести не нужно</li>
+  <li>Сообщи работодателю об отсутствии (по правилам компании)</li>
+  <li>За первые 33 дня работодатель выплачивает зарплату за время болезни вместе с обычной выплатой</li>
+  <li>С 34-го дня ZUS перечисляет пособие — напрямую на твой счёт или через работодателя</li>
+</ol>
+
+<h2>Для иностранных работников — на что обратить внимание</h2>
+<ul>
+  <li>Проверь на портале <strong>pue.zus.pl</strong>, что твоё страхование по болезни активно</li>
+  <li>Если у тебя <strong>umowa zlecenie</strong> — уточни у работодателя, подключено ли добровольное страхование по болезни</li>
+  <li>Если твои данные в ZUS неверны (например, ошибка в PESEL), выплата может быть заблокирована — проверь заранее</li>
+  <li>Лечение в рамках NFZ бесплатно при активном медицинском страховании</li>
+</ul>
+
+<h2>Ключевые различия: L4, зарплата за время болезни, пособие</h2>
+<ul>
+  <li><strong>L4 (e-ZLA)</strong> — электронный больничный лист от врача, подтверждает нетрудоспособность</li>
+  <li><strong>Зарплата за время болезни</strong> — платит работодатель первые 33 (или 14) дней, ≈80% зарплаты</li>
+  <li><strong>Пособие по нетрудоспособности (zasiłek chorobowy)</strong> — платит ZUS с 34-го (или 15-го) дня, ≈80% расчётной базы</li>
+</ul>
+
+<h2>Итог</h2>
+<p>Пособие по временной нетрудоспособности защищает твой доход во время болезни. Независимо от гражданства, как работник в Польше ты имеешь на него право — при наличии страхования в ZUS. Заранее проверь на <strong>pue.zus.pl</strong>, что страхование активно и работодатель перечисляет взносы. Тогда в случае болезни ты не останешься без дохода.</p>
+    `.trim(),
+  },
+  {
+    slug: "sick-pay-zus-l4-benefit-calculation-poland",
+    title: "Sick Pay in Poland: How ZUS Calculates Your L4 Benefit",
+    description:
+      "Sick pay (zasiłek chorobowy) for temporary and foreign workers in Poland — who pays, how ZUS calculates the L4 benefit, what 80% of the base means, and step-by-step claiming guide.",
+    date: "2032-02-12",
+    lang: "en",
+    content: `
+<h1>Sick Pay in Poland: How ZUS Calculates Your L4 Benefit</h1>
+
+<p>If you're a temporary or foreign worker in Poland and fall ill, you're entitled to <strong>sick pay (zasiłek chorobowy)</strong> — a cash benefit that replaces your income during illness. Many workers confuse it with the sick-leave certificate (L4) or with their regular sick-day salary. This guide explains who pays, how much, and how to calculate your benefit.</p>
+
+<h2>Who Is Eligible?</h2>
+<p>Sick pay is available to any worker insured under the <strong>sickness insurance scheme (ubezpieczenie chorobowe)</strong> at ZUS (Poland's Social Insurance Institution). For employees on a standard employment contract (umowa o pracę), this insurance is <strong>mandatory</strong> from day one. For workers on a civil-law contract (umowa zlecenie), sickness insurance is <em>voluntary</em> — your employer must enrol you, or you must opt in yourself.</p>
+
+<p>There is also a <strong>30-day waiting period</strong>: sick pay only kicks in after 30 consecutive days of sickness insurance coverage. Exception: recent graduates covered within 90 days of finishing school or university have no waiting period.</p>
+
+<h2>Who Pays — Employer or ZUS?</h2>
+<p>It depends on how long you've been ill during the calendar year:</p>
+<ul>
+  <li><strong>First 33 days</strong> of illness per year — your <strong>employer</strong> pays (as sick-day salary)</li>
+  <li>Workers aged <strong>50 or over</strong> — employer pays only the first <strong>14 days</strong></li>
+  <li>From <strong>day 34</strong> (or day 15 for workers 50+) — <strong>ZUS</strong> takes over and pays sick benefit directly</li>
+</ul>
+<p>Note: the 33 (or 14) day count is <em>cumulative</em> across the year — even if you have several short illness periods.</p>
+
+<h2>How Much Will You Receive?</h2>
+<p>The standard sick benefit rate is <strong>80% of your calculation base</strong>. There are exceptions:</p>
+<ul>
+  <li><strong>80%</strong> — standard illness</li>
+  <li><strong>70%</strong> — hospitalisation (in-patient treatment)</li>
+  <li><strong>100%</strong> — occupational disease, accident at work or on the way to/from work, illness during pregnancy</li>
+</ul>
+
+<h2>How to Calculate the Benefit</h2>
+<p>The <strong>calculation base</strong> is your average gross monthly salary over the last 12 months (or the full employment period if shorter). Social insurance contributions (~13.71%) are then deducted from this figure.</p>
+
+<p><strong>Example:</strong></p>
+<ul>
+  <li>Average gross salary: PLN 5,000</li>
+  <li>After deducting contributions: 5,000 × (1 − 0.1371) ≈ PLN 4,315</li>
+  <li>Daily rate: 4,315 ÷ 30 ≈ PLN 143.83</li>
+  <li>Daily sick benefit (80%): 143.83 × 0.80 ≈ PLN 115.07</li>
+  <li>10 days off sick: ≈ PLN 1,150</li>
+</ul>
+
+<h2>How Long Does the Benefit Last?</h2>
+<p>Sick benefit is paid for a maximum of <strong>182 days</strong> per year. For tuberculosis or illness during pregnancy the limit is <strong>270 days</strong>. Once exhausted, you can apply for <strong>rehabilitation benefit (świadczenie rehabilitacyjne)</strong> — for up to 12 months.</p>
+
+<h2>Step-by-Step: How to Claim</h2>
+<ol>
+  <li>See a doctor — they issue an electronic sick note called <strong>e-ZLA</strong></li>
+  <li>The doctor sends e-ZLA automatically to ZUS and your employer — you don't need to deliver anything yourself</li>
+  <li>Notify your employer of your absence (by phone, SMS, or however your company requires)</li>
+  <li>For the first 33 days, your employer pays sick-day salary with your regular payslip</li>
+  <li>From day 34, ZUS pays the benefit — either directly to your bank account or via your employer</li>
+</ol>
+
+<h2>Foreign Workers — What to Watch Out For</h2>
+<ul>
+  <li>Check on the <strong>pue.zus.pl</strong> portal that your sickness insurance is active and your employer is paying contributions</li>
+  <li>If you're on a <strong>umowa zlecenie</strong>, confirm with your employer whether voluntary sickness insurance has been arranged — without it, you'll receive nothing from ZUS during illness</li>
+  <li>Incorrect data in ZUS (e.g. a wrong PESEL number) can block your payment — verify your records in advance</li>
+  <li>NHS-equivalent treatment (NFZ) is free when your health insurance is active — the same doctor issues your sick note</li>
+</ul>
+
+<h2>Key Distinctions: L4, Sick-Day Salary, Sick Benefit</h2>
+<ul>
+  <li><strong>L4 / e-ZLA</strong> — the doctor's electronic sick note confirming incapacity for work</li>
+  <li><strong>Sick-day salary (wynagrodzenie chorobowe)</strong> — paid by your employer for the first 33 (or 14) days, at ≈80% of normal pay</li>
+  <li><strong>Sick benefit (zasiłek chorobowy)</strong> — paid by ZUS from day 34 (or 15), also at ≈80% of the calculation base</li>
+</ul>
+
+<h2>Summary</h2>
+<p>Sick pay in Poland protects your income during illness. As a worker in Poland — regardless of nationality — you're entitled to it as long as you're covered by ZUS sickness insurance. Check <strong>pue.zus.pl</strong> before you need it to confirm your insurance is active and your employer is paying contributions. That way, if you fall ill, your income won't fall to zero.</p>
+    `.trim(),
+  },
+  {
+    slug: "nfz-ubezpieczenie-zdrowotne-cudzoziemiec-pracownik-tymczasowy-polska",
+    title: "NFZ dla cudzoziemca — jak działa ubezpieczenie zdrowotne pracownika tymczasowego w Polsce",
+    description: "Pracujesz tymczasowo w Polsce przez agencję? Dowiedz się, jak działa NFZ, kiedy masz prawo do bezpłatnej opieki medycznej i co zrobić, gdy potrzebujesz lekarza.",
+    date: "2026-09-10",
+    lang: "pl",
+    content: `
+<article>
+  <h1>NFZ dla cudzoziemca — jak działa ubezpieczenie zdrowotne pracownika tymczasowego w Polsce</h1>
+
+  <p>Jeśli pracujesz w Polsce przez agencję pracy tymczasowej, taką jak Nexflow, masz prawo do bezpłatnej opieki medycznej w ramach Narodowego Funduszu Zdrowia (NFZ). Ten przewodnik wyjaśnia, jak to działa w praktyce.</p>
+
+  <h2>Czym jest NFZ?</h2>
+  <p>NFZ (Narodowy Fundusz Zdrowia) to polska publiczna instytucja ubezpieczeń zdrowotnych. Finansuje wizyty u lekarzy, leczenie szpitalne, leki na receptę i wiele innych świadczeń medycznych — bezpłatnie dla ubezpieczonych.</p>
+
+  <h2>Czy jako pracownik tymczasowy jestem ubezpieczony?</h2>
+  <p>Tak. Jeśli pracujesz legalnie w Polsce na podstawie umowy zlecenia lub umowy o pracę tymczasową, agencja (Nexflow) zgłasza Cię do ZUS jako pracodawca. Automatycznie obejmuje to ubezpieczenie zdrowotne w NFZ. Obowiązek rejestracji spoczywa na agencji — nie musisz nic robić samodzielnie.</p>
+
+  <h2>Od kiedy mam dostęp do NFZ?</h2>
+  <p>Ubezpieczenie zdrowotne obowiązuje od pierwszego dnia zgłoszenia do ZUS przez agencję. Zgłoszenie powinno nastąpić nie później niż 7 dni od daty rozpoczęcia umowy.</p>
+
+  <h2>Jak sprawdzić, czy jestem ubezpieczony?</h2>
+  <p>Możesz to sprawdzić na dwa sposoby:</p>
+  <ul>
+    <li><strong>Portal pacjenta (pacjent.gov.pl)</strong> — zaloguj się Profilem Zaufanym lub e-dowodem. Zakładka „Ubezpieczenie" pokaże aktualny status.</li>
+    <li><strong>eWUŚ w przychodni</strong> — kasjer/rejestracja może sprawdzić Twój status na podstawie numeru PESEL.</li>
+  </ul>
+
+  <h2>Do jakiego lekarza mogę pójść?</h2>
+  <p>W ramach NFZ możesz korzystać z:</p>
+  <ul>
+    <li><strong>Lekarz podstawowej opieki zdrowotnej (POZ)</strong> — lekarz rodzinny, do którego możesz się zapisać w dowolnej przychodni z kontraktem NFZ. Wizyta bezpłatna.</li>
+    <li><strong>Specjalista</strong> — z skierowaniem od lekarza POZ (większość specjalistów). Stomatolog: podstawowe usługi są refundowane, ale kolejki bywają długie.</li>
+    <li><strong>SOR (szpitalny oddział ratunkowy)</strong> — w nagłych przypadkach, bez skierowania.</li>
+    <li><strong>Pogotowie ratunkowe (112 lub 999)</strong> — w stanach zagrożenia życia.</li>
+  </ul>
+
+  <h2>Co z lekami?</h2>
+  <p>Leki przepisane przez lekarza NFZ są częściowo refundowane. Zapłacisz mniej niż pełną cenę — poziom dopłaty zależy od leku (0%, 30%, 50% lub pełna cena). Recepta wystawiona przez lekarza NFZ daje prawo do refundacji.</p>
+
+  <h2>Co jeśli stracę pracę lub umowa skończy się?</h2>
+  <p>Po zakończeniu umowy ubezpieczenie zdrowotne jest ważne przez 30 dni od daty wyrejestrowania z ZUS. Jeśli w tym czasie zaczniesz nową umowę przez Nexflow lub inną agencję, jesteś ponownie automatycznie ubezpieczony.</p>
+
+  <h2>Czy moja rodzina jest objęta ubezpieczeniem?</h2>
+  <p>Tak — możesz zgłosić do ubezpieczenia małżonka/małżonkę i dzieci, które nie mają własnego tytułu do ubezpieczenia (np. nie pracują). Zgłoszenia dokonujesz przez ZUS (formularz ZUS ZCNA) lub przez agencję Nexflow — zapytaj swojego opiekuna.</p>
+
+  <h2>Co zrobić w nagłej sytuacji zdrowotnej, gdy nie znam języka polskiego?</h2>
+  <p>W nagłym przypadku idź na SOR (szpitalny oddział ratunkowy) — personel jest zobowiązany udzielić pomocy bez względu na barierę językową. Możesz skorzystać z tłumacza Google lub poprosić pracodawcę o pomoc. Nexflow pomaga swoim pracownikom w kontakcie z placówkami medycznymi.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Pracując legalnie przez Nexflow w Polsce, masz pełny dostęp do systemu opieki zdrowotnej NFZ od pierwszego dnia pracy. Twoje ubezpieczenie jest automatyczne — agencja zgłasza Cię do ZUS, a NFZ zapewnia bezpłatne wizyty lekarskie, leczenie szpitalne i refundowane leki. Jeśli masz pytania dotyczące Twojego ubezpieczenia, skontaktuj się z opiekunem w Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-strakhuvannya-zdorovya-inozemets-pratsivnyk-tymchasovyi-polshcha",
+    title: "НФЗ для іноземця — як працює медичне страхування тимчасового працівника в Польщі",
+    description: "Працюєш тимчасово в Польщі через агентство? Дізнайся, як працює НФЗ, коли маєш право на безкоштовну медичну допомогу і що робити, якщо потрібен лікар.",
+    date: "2026-09-10",
+    lang: "uk",
+    content: `
+<article>
+  <h1>НФЗ для іноземця — як працює медичне страхування тимчасового працівника в Польщі</h1>
+
+  <p>Якщо ти працюєш у Польщі через агентство тимчасової праці, як-от Nexflow, ти маєш право на безкоштовну медичну допомогу в рамках Narodowy Fundusz Zdrowia (НФЗ). Цей посібник пояснює, як це працює на практиці.</p>
+
+  <h2>Що таке НФЗ?</h2>
+  <p>НФЗ (Narodowy Fundusz Zdrowia — Національний фонд здоров'я) — це польська державна установа медичного страхування. Вона фінансує відвідування лікарів, стаціонарне лікування, рецептурні ліки та багато інших медичних послуг — безкоштовно для застрахованих.</p>
+
+  <h2>Чи застрахований я як тимчасовий працівник?</h2>
+  <p>Так. Якщо ти легально працюєш у Польщі за договором доручення (umowa zlecenia) або договором тимчасової праці (umowa o pracę tymczasową), агентство (Nexflow) реєструє тебе в ZUS як роботодавець. Це автоматично включає медичне страхування в НФЗ. Обов'язок реєстрації покладається на агентство — тобі нічого не потрібно робити самостійно.</p>
+
+  <h2>З якого моменту я маю доступ до НФЗ?</h2>
+  <p>Медичне страхування діє з першого дня реєстрації в ZUS агентством. Реєстрація має відбутися не пізніше ніж через 7 днів від дати початку договору.</p>
+
+  <h2>Як перевірити, чи я застрахований?</h2>
+  <p>Є два способи:</p>
+  <ul>
+    <li><strong>Портал пацієнта (pacjent.gov.pl)</strong> — увійди через Profil Zaufany або e-dowód. Вкладка «Ubezpieczenie» покаже поточний статус.</li>
+    <li><strong>eWUŚ в поліклініці</strong> — реєстратор може перевірити твій статус за номером PESEL.</li>
+  </ul>
+
+  <h2>До якого лікаря я можу звернутися?</h2>
+  <p>В рамках НФЗ ти можеш скористатися:</p>
+  <ul>
+    <li><strong>Лікар первинної допомоги (POZ)</strong> — сімейний лікар, до якого можна записатися в будь-якій поліклініці з контрактом НФЗ. Візит безкоштовний.</li>
+    <li><strong>Спеціаліст</strong> — за направленням від лікаря POZ (більшість спеціалістів). Стоматолог: базові послуги відшкодовуються, але черги можуть бути довгими.</li>
+    <li><strong>SOR (лікарняне приймальне відділення)</strong> — у невідкладних випадках, без направлення.</li>
+    <li><strong>Швидка допомога (112 або 999)</strong> — при загрозі для життя.</li>
+  </ul>
+
+  <h2>Що щодо ліків?</h2>
+  <p>Ліки, виписані лікарем НФЗ, частково відшкодовуються. Ти заплатиш менше повної ціни — рівень доплати залежить від ліків (0%, 30%, 50% або повна ціна). Рецепт від лікаря НФЗ дає право на відшкодування.</p>
+
+  <h2>Що відбувається, якщо я втрачу роботу або закінчиться договір?</h2>
+  <p>Після закінчення договору медичне страхування діє ще 30 днів з дати зняття з обліку в ZUS. Якщо за цей час ти починаєш новий договір через Nexflow або інше агентство, ти знову автоматично застрахований.</p>
+
+  <h2>Чи поширюється страхування на мою родину?</h2>
+  <p>Так — ти можеш зареєструвати чоловіка/дружину та дітей, які не мають власного страхування (наприклад, не працюють). Реєстрація здійснюється через ZUS (форма ZUS ZCNA) або через агентство Nexflow — запитай у свого куратора.</p>
+
+  <h2>Що робити в невідкладній медичній ситуації, якщо я не знаю польської?</h2>
+  <p>У невідкладному випадку йди в SOR (лікарняне приймальне відділення) — персонал зобов'язаний надати допомогу незалежно від мовного бар'єру. Можна скористатися Google Перекладачем або попросити роботодавця про допомогу. Nexflow допомагає своїм працівникам у контакті з медичними закладами.</p>
+
+  <h2>Підсумок</h2>
+  <p>Легально працюючи через Nexflow в Польщі, ти маєш повний доступ до системи охорони здоров'я НФЗ з першого дня роботи. Твоє страхування автоматичне — агентство реєструє тебе в ZUS, а НФЗ забезпечує безкоштовні візити до лікаря, стаціонарне лікування та пільгові ліки. Якщо є питання щодо страхування, зверніться до куратора в Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-strakhovaniye-zdorovya-inostranets-vremennyy-rabotnik-polsha",
+    title: "НФЗ для иностранца — как работает медицинское страхование временного работника в Польше",
+    description: "Работаешь временно в Польше через агентство? Узнай, как работает НФЗ, когда ты имеешь право на бесплатную медицинскую помощь и что делать, если нужен врач.",
+    date: "2026-09-10",
+    lang: "ru",
+    content: `
+<article>
+  <h1>НФЗ для иностранца — как работает медицинское страхование временного работника в Польше</h1>
+
+  <p>Если ты работаешь в Польше через агентство временного труда, например Nexflow, ты имеешь право на бесплатную медицинскую помощь в рамках Narodowy Fundusz Zdrowia (НФЗ). Этот гид объясняет, как это работает на практике.</p>
+
+  <h2>Что такое НФЗ?</h2>
+  <p>НФЗ (Narodowy Fundusz Zdrowia — Национальный фонд здоровья) — это польское государственное учреждение медицинского страхования. Оно финансирует визиты к врачам, стационарное лечение, рецептурные лекарства и многие другие медицинские услуги — бесплатно для застрахованных.</p>
+
+  <h2>Застрахован ли я как временный работник?</h2>
+  <p>Да. Если ты легально работаешь в Польше по договору поручения (umowa zlecenia) или договору временного труда, агентство (Nexflow) регистрирует тебя в ZUS как работодатель. Это автоматически включает медицинское страхование в НФЗ. Обязанность регистрации лежит на агентстве — тебе ничего не нужно делать самостоятельно.</p>
+
+  <h2>С какого момента у меня есть доступ к НФЗ?</h2>
+  <p>Медицинское страхование действует с первого дня регистрации в ZUS агентством. Регистрация должна произойти не позднее 7 дней с даты начала договора.</p>
+
+  <h2>Как проверить, застрахован ли я?</h2>
+  <p>Есть два способа:</p>
+  <ul>
+    <li><strong>Портал пациента (pacjent.gov.pl)</strong> — войди через Profil Zaufany или e-dowód. Вкладка «Ubezpieczenie» покажет текущий статус.</li>
+    <li><strong>eWUŚ в поликлинике</strong> — регистратор может проверить твой статус по номеру PESEL.</li>
+  </ul>
+
+  <h2>К какому врачу я могу обратиться?</h2>
+  <p>В рамках НФЗ ты можешь воспользоваться:</p>
+  <ul>
+    <li><strong>Врач первичной помощи (POZ)</strong> — семейный врач, к которому можно записаться в любой поликлинике с контрактом НФЗ. Визит бесплатный.</li>
+    <li><strong>Специалист</strong> — по направлению от врача POZ (большинство специалистов). Стоматолог: базовые услуги компенсируются, но очереди могут быть долгими.</li>
+    <li><strong>SOR (больничное приёмное отделение)</strong> — в экстренных случаях, без направления.</li>
+    <li><strong>Скорая помощь (112 или 999)</strong> — при угрозе жизни.</li>
+  </ul>
+
+  <h2>Что насчёт лекарств?</h2>
+  <p>Лекарства, выписанные врачом НФЗ, частично компенсируются. Ты заплатишь меньше полной цены — уровень доплаты зависит от лекарства (0%, 30%, 50% или полная цена). Рецепт от врача НФЗ даёт право на компенсацию.</p>
+
+  <h2>Что происходит, если я потеряю работу или закончится договор?</h2>
+  <p>После окончания договора медицинское страхование действует ещё 30 дней с даты снятия с учёта в ZUS. Если за это время ты начинаешь новый договор через Nexflow или другое агентство, ты снова автоматически застрахован.</p>
+
+  <h2>Распространяется ли страхование на мою семью?</h2>
+  <p>Да — ты можешь зарегистрировать супруга/супругу и детей, которые не имеют собственного страхования (например, не работают). Регистрация осуществляется через ZUS (форма ZUS ZCNA) или через агентство Nexflow — спроси у своего куратора.</p>
+
+  <h2>Что делать в экстренной медицинской ситуации, если я не знаю польского?</h2>
+  <p>В экстренном случае иди в SOR (больничное приёмное отделение) — персонал обязан оказать помощь независимо от языкового барьера. Можно воспользоваться Google Переводчиком или попросить работодателя о помощи. Nexflow помогает своим работникам в контакте с медицинскими учреждениями.</p>
+
+  <h2>Итог</h2>
+  <p>Легально работая через Nexflow в Польше, ты имеешь полный доступ к системе здравоохранения НФЗ с первого дня работы. Твоё страхование автоматическое — агентство регистрирует тебя в ZUS, а НФЗ обеспечивает бесплатные визиты к врачу, стационарное лечение и льготные лекарства. Если есть вопросы по страхованию, обратись к куратору в Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "nfz-health-insurance-foreign-worker-temp-agency-poland",
+    title: "NFZ Health Insurance in Poland — A Guide for Foreign Temp Workers",
+    description: "Working in Poland through a temp agency? Learn how NFZ public health insurance works, when you're entitled to free medical care, and what to do when you need a doctor.",
+    date: "2026-09-10",
+    lang: "en",
+    content: `
+<article>
+  <h1>NFZ Health Insurance in Poland — A Guide for Foreign Temp Workers</h1>
+
+  <p>If you work in Poland through a temporary employment agency like Nexflow, you are entitled to free medical care under Poland's public health insurance system — the Narodowy Fundusz Zdrowia (NFZ). This guide explains how it works in practice.</p>
+
+  <h2>What is NFZ?</h2>
+  <p>NFZ (Narodowy Fundusz Zdrowia — National Health Fund) is Poland's public health insurance institution. It funds GP visits, hospital treatment, prescription medications, and many other medical services — free of charge for insured individuals.</p>
+
+  <h2>Am I insured as a temp worker?</h2>
+  <p>Yes. If you work legally in Poland under a civil-law contract (umowa zlecenia) or a temporary employment contract (umowa o pracę tymczasową), the agency (Nexflow) registers you with ZUS (Poland's social insurance institution) as your employer. This automatically includes health insurance in NFZ. The registration obligation rests entirely with the agency — you don't need to do anything yourself.</p>
+
+  <h2>When does my NFZ coverage start?</h2>
+  <p>Health insurance is active from the first day of your registration with ZUS by the agency. Registration must happen no later than 7 days from your contract start date.</p>
+
+  <h2>How can I check if I'm insured?</h2>
+  <p>There are two ways:</p>
+  <ul>
+    <li><strong>Patient Portal (pacjent.gov.pl)</strong> — log in with your Profil Zaufany (Trusted Profile) or e-dowód. The "Ubezpieczenie" (Insurance) tab shows your current status.</li>
+    <li><strong>eWUŚ system at the clinic</strong> — the reception staff can verify your coverage status using your PESEL number.</li>
+  </ul>
+
+  <h2>Which doctors can I see?</h2>
+  <p>Under NFZ, you have access to:</p>
+  <ul>
+    <li><strong>Primary care doctor (POZ — Podstawowa Opieka Zdrowotna)</strong> — your family doctor. You can register at any clinic with an NFZ contract. Visits are free.</li>
+    <li><strong>Specialist</strong> — requires a referral from your POZ doctor (for most specialties). Dental: basic services are covered, but waiting times can be long.</li>
+    <li><strong>SOR (hospital emergency department)</strong> — for urgent cases, no referral needed.</li>
+    <li><strong>Ambulance (112 or 999)</strong> — for life-threatening emergencies.</li>
+  </ul>
+
+  <h2>What about medications?</h2>
+  <p>Medications prescribed by an NFZ doctor are partially reimbursed. You will pay less than the full retail price — the co-payment level depends on the medication (0%, 30%, 50%, or full price). An NFZ prescription gives you the right to the subsidy at the pharmacy.</p>
+
+  <h2>What happens if I lose my job or my contract ends?</h2>
+  <p>After your contract ends, health insurance remains valid for 30 days from the date you are deregistered from ZUS. If you start a new contract through Nexflow or another agency within that period, you are again automatically covered.</p>
+
+  <h2>Can my family be covered too?</h2>
+  <p>Yes — you can register a spouse/partner and children who don't have their own insurance coverage (e.g., they are not working). Registration is done through ZUS (form ZUS ZCNA) or through Nexflow — ask your coordinator.</p>
+
+  <h2>What if I need urgent help but don't speak Polish?</h2>
+  <p>In an emergency, go to the nearest SOR (hospital emergency department) — staff are obligated to provide care regardless of language barriers. You can use Google Translate or ask your employer for assistance. Nexflow supports its workers in communicating with medical facilities.</p>
+
+  <h2>Summary</h2>
+  <p>Working legally through Nexflow in Poland gives you full access to the NFZ public health system from day one. Your insurance is automatic — the agency registers you with ZUS, and NFZ covers GP visits, hospital treatment, and subsidised medications. If you have any questions about your insurance coverage, contact your Nexflow coordinator.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "konto-bankowe-w-polsce-cudzoziemiec-pracownik-tymczasowy",
+    title: "Konto bankowe w Polsce dla cudzoziemca — jak otworzyć rachunek jako pracownik tymczasowy?",
+    description: "Pracujesz tymczasowo w Polsce i chcesz otworzyć konto bankowe? Sprawdź, jakie dokumenty są potrzebne, które banki są przyjazne cudzoziemcom i jak założyć rachunek krok po kroku.",
+    date: "2026-09-11",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Konto bankowe w Polsce dla cudzoziemca — jak otworzyć rachunek jako pracownik tymczasowy?</h1>
+
+  <p>Jako pracownik tymczasowy w Polsce — niezależnie od tego, czy masz PESEL, czy dopiero go wyrabiasz — otwarcie konta bankowego jest jednym z pierwszych praktycznych kroków po przyjeździe. Wynagrodzenie z Nexflow jest wypłacane przelewem, a bez konta w polskim banku mogą pojawić się opóźnienia. Ten przewodnik wyjaśnia, co potrzebujesz i jak to zrobić krok po kroku.</p>
+
+  <h2>Dlaczego warto mieć polskie konto bankowe?</h2>
+  <ul>
+    <li>Wynagrodzenie jest wypłacane przelewem bezpośrednio na konto — bez konta możesz czekać na przelew zagraniczny lub odbiór gotówki</li>
+    <li>Możesz opłacać czynsz, rachunki i zakupy kartą bez dodatkowych prowizji</li>
+    <li>Ułatwia korzystanie z usług publicznych (NFZ, ZUS) i aplikacji mobilnych</li>
+    <li>Konieczne do ustawienia przelewów zagranicznych do rodziny</li>
+  </ul>
+
+  <h2>Jakie dokumenty są potrzebne?</h2>
+  <p>Wymagania różnią się w zależności od banku, ale standardowo potrzebujesz:</p>
+  <ul>
+    <li><strong>Ważny paszport lub karta pobytu</strong> — główny dokument tożsamości</li>
+    <li><strong>Numer PESEL</strong> — wymagany przez większość banków; jeśli jeszcze go nie masz, niektóre banki pozwalają otworzyć konto na podstawie paszportu i adresu zamieszkania</li>
+    <li><strong>Adres zamieszkania w Polsce</strong> — adres miejsca pobytu (nie musi być zameldowanie)</li>
+    <li><strong>Zezwolenie na pobyt lub wiza</strong> — w zależności od Twojego statusu (np. karta czasowego pobytu, wiza pracownicza)</li>
+  </ul>
+  <p><strong>Uwaga:</strong> Obywatele Ukrainy na podstawie ochrony tymczasowej (UKR) mogą otworzyć konto w większości polskich banków z samym dokumentem ukraińskim i numerem PESEL nadanym przez urząd gminy.</p>
+
+  <h2>Które banki są przyjazne cudzoziemcom?</h2>
+  <p>Następujące banki mają doświadczenie z klientami zagranicznymi i często oferują obsługę w języku angielskim lub ukraińskim:</p>
+  <ul>
+    <li><strong>mBank</strong> — w pełni online, można otworzyć konto przez aplikację bez wizyty w oddziale; angielska wersja aplikacji</li>
+    <li><strong>PKO BP</strong> — największy bank w Polsce, wiele oddziałów; konto iPKO można otworzyć online z e-dowodem lub przez oddział</li>
+    <li><strong>ING Bank Śląski</strong> — aplikacja mobilna Moje ING dostępna w języku angielskim; konto Mobi można otworzyć online</li>
+    <li><strong>Santander Bank Polska</strong> — aplikacja w języku angielskim; konto online lub w oddziale</li>
+    <li><strong>Alior Bank</strong> — obsługa w oddziale, przystępne dla cudzoziemców z PESEL</li>
+  </ul>
+
+  <h2>Jak otworzyć konto — krok po kroku</h2>
+  <h3>Opcja 1: Online (najwygodniejsza)</h3>
+  <ol>
+    <li>Wejdź na stronę wybranego banku (np. mbank.pl, ing.pl)</li>
+    <li>Wybierz opcję otwarcia konta online (ROR — Rachunek Oszczędnościowo-Rozliczeniowy)</li>
+    <li>Wprowadź dane z paszportu i numer PESEL</li>
+    <li>Potwierdź tożsamość przez przelew weryfikacyjny 1 gr z innego konta lub przez wideo-weryfikację</li>
+    <li>Pobierz aplikację mobilną i aktywuj kartę debetową wysłaną na adres</li>
+  </ol>
+  <h3>Opcja 2: W oddziale</h3>
+  <ol>
+    <li>Znajdź najbliższy oddział banku (na stronie internetowej lub w aplikacji Google Maps)</li>
+    <li>Przyjdź z paszportem i numerem PESEL</li>
+    <li>Pracownik banku przeprowadzi Cię przez formularz i otworzy konto w ciągu 30–60 minut</li>
+    <li>Karta debetowa zostanie wydana od razu lub dostarczona pocztą w ciągu kilku dni</li>
+  </ol>
+
+  <h2>Co jeśli nie mam jeszcze numeru PESEL?</h2>
+  <p>PESEL możesz otrzymać w urzędzie gminy (wystarczy wniosek i paszport). Jeśli pracujesz przez Nexflow, agencja może pomóc Ci złożyć wniosek. Bez PESEL niektóre banki nadal otworzą konto — mBank i ING akceptują w określonych przypadkach numer paszportu — ale z ograniczonymi funkcjami.</p>
+
+  <h2>Jakie konto wybrać?</h2>
+  <p>Dla pracownika tymczasowego najlepsza jest podstawowa opcja:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — standardowe konto z kartą debetową, bezpłatne lub bardzo tanie przy regularnych wpływach wynagrodzenia</li>
+    <li>Unikaj kont z opłatą miesięczną, jeśli nie spełniasz warunków zwolnienia (np. minimalne wpływy lub liczba transakcji)</li>
+  </ul>
+
+  <h2>Powiadom Nexflow o numerze konta</h2>
+  <p>Po otwarciu konta podaj numer IBAN swojemu koordynatorowi w Nexflow lub wpisz go w systemie pracowniczym. Wynagrodzenie zostanie przekierowane na nowe konto od najbliższego cyklu wypłat.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Otwarcie konta bankowego w Polsce jest prostsze, niż się wydaje. Z paszportem i numerem PESEL możesz to zrobić w kilkanaście minut online lub w oddziale banku. Najlepiej zrobić to w pierwszym tygodniu pobytu w Polsce — przyspiesza to wypłatę wynagrodzenia i ułatwia codzienne życie. Jeśli masz pytania lub potrzebujesz pomocy, skontaktuj się z koordynatorem Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bankivskyy-rakhunok-u-polshchi-inozemets-pratsivnyk-tymchasovyi",
+    title: "Банківський рахунок у Польщі для іноземця — як відкрити рахунок як тимчасовий працівник?",
+    description: "Працюєш тимчасово в Польщі і хочеш відкрити банківський рахунок? Дізнайся, які документи потрібні, які банки зручні для іноземців і як відкрити рахунок крок за кроком.",
+    date: "2026-09-11",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Банківський рахунок у Польщі для іноземця — як відкрити рахунок як тимчасовий працівник?</h1>
+
+  <p>Як тимчасовий працівник у Польщі — незалежно від того, чи є у тебе PESEL, чи ти тільки його оформлюєш — відкриття банківського рахунку є одним з перших практичних кроків після приїзду. Зарплата від Nexflow виплачується банківським переказом, і без польського рахунку можуть виникнути затримки. Цей посібник пояснює, що потрібно і як зробити це крок за кроком.</p>
+
+  <h2>Навіщо потрібен польський банківський рахунок?</h2>
+  <ul>
+    <li>Зарплата виплачується переказом безпосередньо на рахунок — без рахунку можливі затримки або виплата готівкою</li>
+    <li>Можна оплачувати оренду, комунальні послуги та покупки картою без додаткових комісій</li>
+    <li>Полегшує користування держпослугами (NFZ, ZUS) та мобільними додатками</li>
+    <li>Необхідний для міжнародних переказів родині</li>
+  </ul>
+
+  <h2>Які документи потрібні?</h2>
+  <p>Вимоги різняться залежно від банку, але стандартно потрібно:</p>
+  <ul>
+    <li><strong>Дійсний паспорт або посвідка на проживання</strong> — основний документ, що посвідчує особу</li>
+    <li><strong>Номер PESEL</strong> — потрібен більшості банків; якщо його ще немає, деякі банки дозволяють відкрити рахунок на основі паспорта та адреси проживання</li>
+    <li><strong>Адреса проживання в Польщі</strong> — фактична адреса перебування (реєстрація не обов'язкова)</li>
+    <li><strong>Дозвіл на проживання або віза</strong> — залежно від статусу (наприклад, картка тимчасового проживання, робоча віза)</li>
+  </ul>
+  <p><strong>Увага:</strong> Громадяни України з тимчасовим захистом (UKR) можуть відкрити рахунок у більшості польських банків за умови наявності українського паспорта та PESEL, отриманого від органу місцевої влади.</p>
+
+  <h2>Які банки зручні для іноземців?</h2>
+  <p>Наступні банки мають досвід роботи з іноземними клієнтами і часто пропонують обслуговування англійською або українською мовою:</p>
+  <ul>
+    <li><strong>mBank</strong> — повністю онлайн, можна відкрити рахунок через додаток без відвідування відділення; є англомовний додаток</li>
+    <li><strong>PKO BP</strong> — найбільший банк Польщі, багато відділень; рахунок iPKO можна відкрити онлайн або у відділенні</li>
+    <li><strong>ING Bank Śląski</strong> — мобільний додаток Moje ING доступний англійською; рахунок Mobi можна відкрити онлайн</li>
+    <li><strong>Santander Bank Polska</strong> — додаток англійською; рахунок онлайн або у відділенні</li>
+    <li><strong>Alior Bank</strong> — обслуговування у відділенні, зручний для іноземців з PESEL</li>
+  </ul>
+
+  <h2>Як відкрити рахунок — крок за кроком</h2>
+  <h3>Варіант 1: Онлайн (найзручніший)</h3>
+  <ol>
+    <li>Зайди на сайт обраного банку (наприклад, mbank.pl, ing.pl)</li>
+    <li>Вибери опцію відкриття рахунку онлайн (ROR — розрахунково-ощадний рахунок)</li>
+    <li>Введи дані з паспорта та номер PESEL</li>
+    <li>Підтверди особу через тестовий переказ 1 гр з іншого рахунку або відеоверифікацію</li>
+    <li>Завантаж мобільний додаток і активуй дебетову картку, надіслану на адресу</li>
+  </ol>
+  <h3>Варіант 2: У відділенні</h3>
+  <ol>
+    <li>Знайди найближче відділення банку (на сайті або в Google Maps)</li>
+    <li>Прийди з паспортом і номером PESEL</li>
+    <li>Співробітник банку допоможе заповнити форму і відкриє рахунок протягом 30–60 хвилин</li>
+    <li>Дебетова картка буде видана одразу або доставлена поштою за кілька днів</li>
+  </ol>
+
+  <h2>Що якщо PESEL ще немає?</h2>
+  <p>PESEL можна отримати в органі місцевої влади (достатньо заяви та паспорта). Якщо ти працюєш через Nexflow, агенція може допомогти із заявою. Без PESEL деякі банки все одно відкриють рахунок — mBank і ING у певних випадках приймають номер паспорта — але з обмеженим функціоналом.</p>
+
+  <h2>Який рахунок обрати?</h2>
+  <p>Для тимчасового працівника найкращим є базовий варіант:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — стандартний розрахунковий рахунок з дебетовою карткою, безкоштовний або дуже дешевий при регулярних надходженнях зарплати</li>
+    <li>Уникай рахунків з місячною платою, якщо не виконуєш умов звільнення (наприклад, мінімальний оборот або кількість транзакцій)</li>
+  </ul>
+
+  <h2>Повідом Nexflow про номер рахунку</h2>
+  <p>Після відкриття рахунку надай номер IBAN своєму координатору в Nexflow або введи його в систему для працівників. Зарплата буде переведена на новий рахунок з наступного платіжного циклу.</p>
+
+  <h2>Підсумок</h2>
+  <p>Відкрити банківський рахунок у Польщі простіше, ніж здається. З паспортом і номером PESEL це можна зробити за кілька хвилин онлайн або у відділенні банку. Найкраще зробити це в перший тиждень перебування в Польщі — це прискорить виплату зарплати і полегшить повсякденне життя. Якщо є питання або потрібна допомога, зв'яжися з координатором Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bankovskiy-schet-v-polshe-inostranets-vremennyy-rabotnik",
+    title: "Банковский счёт в Польше для иностранца — как открыть счёт как временный работник?",
+    description: "Работаешь временно в Польше и хочешь открыть банковский счёт? Узнай, какие документы нужны, какие банки удобны для иностранцев и как открыть счёт шаг за шагом.",
+    date: "2026-09-11",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Банковский счёт в Польше для иностранца — как открыть счёт как временный работник?</h1>
+
+  <p>Как временный работник в Польше — независимо от того, есть ли у тебя PESEL или ты только его оформляешь — открытие банковского счёта является одним из первых практических шагов после приезда. Зарплата от Nexflow выплачивается банковским переводом, и без польского счёта могут возникнуть задержки. Это руководство объясняет, что нужно и как сделать это шаг за шагом.</p>
+
+  <h2>Зачем нужен польский банковский счёт?</h2>
+  <ul>
+    <li>Зарплата выплачивается переводом непосредственно на счёт — без счёта возможны задержки или выплата наличными</li>
+    <li>Можно оплачивать аренду, коммунальные услуги и покупки картой без дополнительных комиссий</li>
+    <li>Упрощает пользование государственными услугами (NFZ, ZUS) и мобильными приложениями</li>
+    <li>Необходим для международных переводов семье</li>
+  </ul>
+
+  <h2>Какие документы нужны?</h2>
+  <p>Требования различаются в зависимости от банка, но стандартно необходимо:</p>
+  <ul>
+    <li><strong>Действующий паспорт или карта проживания</strong> — основной документ, удостоверяющий личность</li>
+    <li><strong>Номер PESEL</strong> — требуется большинством банков; если его ещё нет, некоторые банки позволяют открыть счёт на основании паспорта и адреса проживания</li>
+    <li><strong>Адрес проживания в Польше</strong> — фактический адрес пребывания (регистрация не обязательна)</li>
+    <li><strong>Разрешение на проживание или виза</strong> — в зависимости от статуса (например, карта временного проживания, рабочая виза)</li>
+  </ul>
+  <p><strong>Внимание:</strong> Граждане Украины с временной защитой (UKR) могут открыть счёт в большинстве польских банков при наличии украинского паспорта и PESEL, полученного от органа местного самоуправления.</p>
+
+  <h2>Какие банки удобны для иностранцев?</h2>
+  <p>Следующие банки имеют опыт работы с иностранными клиентами и часто предлагают обслуживание на английском или украинском языке:</p>
+  <ul>
+    <li><strong>mBank</strong> — полностью онлайн, можно открыть счёт через приложение без визита в отделение; приложение на английском языке</li>
+    <li><strong>PKO BP</strong> — крупнейший банк Польши, множество отделений; счёт iPKO можно открыть онлайн или в отделении</li>
+    <li><strong>ING Bank Śląski</strong> — мобильное приложение Moje ING доступно на английском; счёт Mobi можно открыть онлайн</li>
+    <li><strong>Santander Bank Polska</strong> — приложение на английском; счёт онлайн или в отделении</li>
+    <li><strong>Alior Bank</strong> — обслуживание в отделении, удобен для иностранцев с PESEL</li>
+  </ul>
+
+  <h2>Как открыть счёт — шаг за шагом</h2>
+  <h3>Вариант 1: Онлайн (наиболее удобный)</h3>
+  <ol>
+    <li>Зайди на сайт выбранного банка (например, mbank.pl, ing.pl)</li>
+    <li>Выбери опцию открытия счёта онлайн (ROR — расчётно-сберегательный счёт)</li>
+    <li>Введи данные из паспорта и номер PESEL</li>
+    <li>Подтверди личность через тестовый перевод 1 гр с другого счёта или видеоверификацию</li>
+    <li>Загрузи мобильное приложение и активируй дебетовую карту, отправленную на адрес</li>
+  </ol>
+  <h3>Вариант 2: В отделении</h3>
+  <ol>
+    <li>Найди ближайшее отделение банка (на сайте или в Google Maps)</li>
+    <li>Приди с паспортом и номером PESEL</li>
+    <li>Сотрудник банка поможет заполнить форму и откроет счёт в течение 30–60 минут</li>
+    <li>Дебетовая карта будет выдана сразу или доставлена почтой в течение нескольких дней</li>
+  </ol>
+
+  <h2>Что если PESEL ещё нет?</h2>
+  <p>PESEL можно получить в органе местного самоуправления (достаточно заявления и паспорта). Если ты работаешь через Nexflow, агентство может помочь с заявлением. Без PESEL некоторые банки всё равно откроют счёт — mBank и ING в определённых случаях принимают номер паспорта — но с ограниченным функционалом.</p>
+
+  <h2>Какой счёт выбрать?</h2>
+  <p>Для временного работника лучшим является базовый вариант:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — стандартный расчётный счёт с дебетовой картой, бесплатный или очень дешёвый при регулярных поступлениях зарплаты</li>
+    <li>Избегай счётов с ежемесячной платой, если не выполняешь условия освобождения (например, минимальный оборот или количество транзакций)</li>
+  </ul>
+
+  <h2>Сообщи Nexflow номер счёта</h2>
+  <p>После открытия счёта сообщи номер IBAN своему координатору в Nexflow или введи его в систему для работников. Зарплата будет переведена на новый счёт с ближайшего платёжного цикла.</p>
+
+  <h2>Итог</h2>
+  <p>Открыть банковский счёт в Польше проще, чем кажется. С паспортом и номером PESEL это можна зробити за кілька хвилин онлайн или в отделении банка. Лучше всего сделать это в первую неделю пребывания в Польше — это ускорит выплату зарплаты и упростит повседневную жизнь. Если есть вопросы или нужна помощь, свяжись с координатором Nexflow.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "bank-account-poland-foreign-worker-guide",
+    title: "How to Open a Bank Account in Poland as a Foreign Temp Worker",
+    description: "Working in Poland through a temp agency and need a bank account? Find out which documents you need, which banks are foreigner-friendly, and how to open an account step by step.",
+    date: "2026-09-11",
+    lang: "en",
+    content: `
+<article>
+  <h1>How to Open a Bank Account in Poland as a Foreign Temp Worker</h1>
+
+  <p>As a temporary worker in Poland — whether you already have a PESEL number or are still getting one — opening a Polish bank account is one of the first practical steps after arriving. Salary payments from Nexflow are made by bank transfer, and without a Polish account you may experience delays. This guide explains what you need and how to do it step by step.</p>
+
+  <h2>Why do you need a Polish bank account?</h2>
+  <ul>
+    <li>Your salary is paid directly by bank transfer — without a Polish account, payments may be delayed or require a costly international transfer</li>
+    <li>Pay rent, utilities, and purchases by card without extra foreign transaction fees</li>
+    <li>Makes it easier to use public services (NFZ, ZUS) and mobile apps</li>
+    <li>Required for sending money home to your family</li>
+  </ul>
+
+  <h2>What documents do you need?</h2>
+  <p>Requirements vary by bank, but typically you will need:</p>
+  <ul>
+    <li><strong>Valid passport or residence card</strong> — primary identity document</li>
+    <li><strong>PESEL number</strong> — required by most banks; if you don't have one yet, some banks will open an account based on your passport and address</li>
+    <li><strong>Address in Poland</strong> — your place of residence (formal registration is not always required)</li>
+    <li><strong>Residence permit or visa</strong> — depending on your status (e.g., temporary residence card, work visa)</li>
+  </ul>
+  <p><strong>Note:</strong> Ukrainian nationals with temporary protection (UKR status) can open an account at most Polish banks with a Ukrainian passport and a PESEL number issued by the local municipality.</p>
+
+  <h2>Which banks are foreigner-friendly?</h2>
+  <p>The following banks have experience with foreign clients and often offer service in English or Ukrainian:</p>
+  <ul>
+    <li><strong>mBank</strong> — fully online; you can open an account through the app without visiting a branch; English-language app available</li>
+    <li><strong>PKO BP</strong> — Poland's largest bank, many branches; iPKO account can be opened online or in branch</li>
+    <li><strong>ING Bank Śląski</strong> — Moje ING mobile app available in English; Mobi account can be opened online</li>
+    <li><strong>Santander Bank Polska</strong> — English-language app; account online or in branch</li>
+    <li><strong>Alior Bank</strong> — in-branch service, accessible for foreigners with PESEL</li>
+  </ul>
+
+  <h2>How to open an account — step by step</h2>
+  <h3>Option 1: Online (most convenient)</h3>
+  <ol>
+    <li>Go to the chosen bank's website (e.g., mbank.pl, ing.pl)</li>
+    <li>Select the option to open an account online (ROR — standard current account)</li>
+    <li>Enter your passport details and PESEL number</li>
+    <li>Verify your identity via a 1 gr (penny) test transfer from another account, or through video verification</li>
+    <li>Download the mobile app and activate your debit card once it arrives by post</li>
+  </ol>
+  <h3>Option 2: In a branch</h3>
+  <ol>
+    <li>Find the nearest branch (on the bank's website or Google Maps)</li>
+    <li>Bring your passport and PESEL number</li>
+    <li>A bank employee will guide you through the form and open your account in 30–60 minutes</li>
+    <li>Your debit card will be issued immediately or mailed within a few days</li>
+  </ol>
+
+  <h2>What if you don't have a PESEL yet?</h2>
+  <p>You can get a PESEL number at the local municipal office (gmina) — you only need an application and your passport. If you work through Nexflow, the agency can help you with the application. Without a PESEL, some banks will still open a limited account — mBank and ING accept a passport number in certain cases — but with restricted functionality.</p>
+
+  <h2>Which type of account should you choose?</h2>
+  <p>For a temporary worker, the best option is a basic account:</p>
+  <ul>
+    <li><strong>ROR (Rachunek Oszczędnościowo-Rozliczeniowy)</strong> — a standard current account with a debit card, free or very cheap when your salary is paid in regularly</li>
+    <li>Avoid accounts with monthly fees if you don't meet the waiver conditions (e.g., minimum turnover or number of transactions)</li>
+  </ul>
+
+  <h2>Tell Nexflow your account number</h2>
+  <p>Once your account is open, give your IBAN number to your Nexflow coordinator or enter it in the employee system. Your salary will be redirected to the new account from the next pay cycle.</p>
+
+  <h2>Summary</h2>
+  <p>Opening a bank account in Poland is simpler than it sounds. With a passport and a PESEL number, you can do it in minutes online or in a bank branch. Ideally, do this in your first week in Poland — it speeds up salary payments and makes everyday life much easier. If you have questions or need help, contact your Nexflow coordinator.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "zakwaterowanie-pracownicze-polska-pracownik-tymczasowy",
+    title: "Zakwaterowanie pracownicze w Polsce — co musisz wiedzieć jako pracownik tymczasowy?",
+    description: "Pracujesz przez agencję i mieszkasz w zakwaterowaniu pracowniczym? Sprawdź, jakie prawa przysługują Ci jako pracownik, co może być potrącane z wynagrodzenia i jak zgłosić problemy z warunkami.",
+    date: "2026-09-11",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Zakwaterowanie pracownicze w Polsce — co musisz wiedzieć jako pracownik tymczasowy?</h1>
+
+  <p>Wielu pracowników tymczasowych przyjeżdżających do Polski — zwłaszcza z Ukrainy, Białorusi lub innych krajów — korzysta z zakwaterowania organizowanego przez agencję pracy lub pracodawcę użytkownika. To wygodne rozwiązanie, szczególnie na początku, ale warto znać swoje prawa i wiedzieć, co może być potrącane z wynagrodzenia.</p>
+
+  <h2>Co to jest zakwaterowanie pracownicze?</h2>
+  <p>Zakwaterowanie pracownicze (ang. worker accommodation lub company housing) to mieszkanie lub pokój udostępniany przez pracodawcę lub agencję pracy pracownikowi jako element warunków zatrudnienia. W przypadku pracowników tymczasowych jest to częsta praktyka — agencja pracy może zapewnić lokum zbiorowe (hostel, dom pracowniczy) lub prywatne mieszkanie.</p>
+
+  <h2>Jakie dokumenty powinieneś/powinnaś otrzymać?</h2>
+  <ul>
+    <li><strong>Umowa najmu lub użyczenia</strong> — powinieneś/powinnaś podpisać pisemną umowę dotyczącą zakwaterowania, oddzielną od umowy o pracę</li>
+    <li><strong>Regulamin lokum</strong> — zasady korzystania ze wspólnych przestrzeni, godziny ciszy nocnej itp.</li>
+    <li><strong>Informacja o opłatach</strong> — jasno określone, ile będzie potrącane z wynagrodzenia lub płacone osobno</li>
+  </ul>
+  <p>Jeśli nie otrzymałeś/łaś żadnego dokumentu, poproś o pisemne potwierdzenie warunków zakwaterowania.</p>
+
+  <h2>Co może być potrącane z wynagrodzenia?</h2>
+  <p>Pracodawca lub agencja może potrącić koszty zakwaterowania z Twojego wynagrodzenia, ale tylko pod warunkiem, że:</p>
+  <ul>
+    <li>Wyraziłeś/łaś na to pisemną zgodę</li>
+    <li>Potrącenie nie obniży Twojego wynagrodzenia poniżej minimalnego wynagrodzenia (od 2026 r. — 4 666 zł brutto miesięcznie)</li>
+    <li>Wysokość potrącenia jest z góry ustalona i jasno wpisana w dokumentach</li>
+  </ul>
+  <p>Typowy koszt miejsca w hostelu pracowniczym wynosi od 300 do 800 zł miesięcznie, w zależności od lokalizacji i standardu.</p>
+
+  <h2>Twoje prawa jako mieszkaniec zakwaterowania pracowniczego</h2>
+  <ul>
+    <li><strong>Prawo do godnych warunków</strong> — lokal musi być sprawny technicznie, ogrzewany zimą i posiadać dostęp do bieżącej wody</li>
+    <li><strong>Prawo do prywatności</strong> — pracodawca nie może wchodzić do Twojego pokoju bez uprzedzenia (wyjątek: awaria, zagrożenie)</li>
+    <li><strong>Zakaz uzależnienia zatrudnienia od zakwaterowania</strong> — pracodawca nie może uzależnić przyznania pracy od zamieszkania w podanym miejscu, chyba że wynika to z warunków geograficznych</li>
+    <li><strong>Prawo do wypowiedzenia</strong> — jeśli chcesz zrezygnować z zakwaterowania, obowiązuje zazwyczaj 1-miesięczny okres wypowiedzenia</li>
+  </ul>
+
+  <h2>Co zrobić, gdy warunki są nieodpowiednie?</h2>
+  <ol>
+    <li>Zgłoś problem koordynatorowi w agencji pracy lub bezpośredniemu przełożonemu (pisemnie, np. SMS lub e-mail)</li>
+    <li>Jeśli problem nie zostanie rozwiązany — złóż skargę do Państwowej Inspekcji Pracy (PIP): pip.gov.pl</li>
+    <li>W sprawach sanitarnych (grzyb, wilgoć, brak ogrzewania) możesz zgłosić się do Sanepidu</li>
+    <li>Jeśli warunki są zagrożeniem zdrowotnym — możesz opuścić lokal i zakończyć umowę zakwaterowania ze skutkiem natychmiastowym</li>
+  </ol>
+
+  <h2>Zakwaterowanie a adres do celów meldunkowych i pobytowych</h2>
+  <p>Adres zakwaterowania pracowniczego możesz zgłosić jako adres zameldowania (meldunek tymczasowy) w urzędzie gminy. Jest to ważne, ponieważ:</p>
+  <ul>
+    <li>Adres zameldowania jest potrzebny do uzyskania numeru PESEL</li>
+    <li>Jest potrzebny przy wniosku o kartę czasowego pobytu</li>
+    <li>Ułatwia korespondencję urzędową</li>
+  </ul>
+  <p>Pracodawca/agencja ma obowiązek udzielić Ci informacji o adresie lokalu, abyś mógł/mogła się zameldować.</p>
+
+  <h2>Co zapewnia Nexflow?</h2>
+  <p>Nexflow pomaga nowym pracownikom znaleźć odpowiednie zakwaterowanie w pobliżu miejsca pracy. Jeśli masz pytania dotyczące warunków zakwaterowania lub chcesz zgłosić problem, skontaktuj się z koordynatorem Nexflow — jesteśmy po Twojej stronie.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Zakwaterowanie pracownicze jest wygodnym rozwiązaniem na start, ale warto wiedzieć, co Ci przysługuje. Pamiętaj: kosztów zakwaterowania nie można potrącać bez Twojej pisemnej zgody i nie mogą one obniżyć Twojej pensji poniżej ustawowego minimum. W razie problemów — nie czekaj, zgłoś je koordynatorowi lub do PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "pratsivnyche-zhytlo-polshcha-tymchasovyi-pratsivnyk",
+    title: "Службове житло в Польщі — що треба знати тимчасовому працівнику?",
+    description: "Працюєш через агентство і живеш у службовому житлі? Дізнайся, які права ти маєш як працівник, що може утримуватися з твоєї зарплати і як повідомити про проблеми з умовами.",
+    date: "2026-09-11",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Службове житло в Польщі — що треба знати тимчасовому працівнику?</h1>
+
+  <p>Багато тимчасових працівників, які приїжджають до Польщі — зокрема з України, Білорусі та інших країн — користуються житлом, яке надає агентство праці або роботодавець. Це зручно, особливо на початку, але важливо знати свої права і розуміти, що може утримуватися з вашої зарплати.</p>
+
+  <h2>Що таке службове житло?</h2>
+  <p>Службове житло (пол. zakwaterowanie pracownicze) — це квартира або кімната, яку надає роботодавець або агентство праці працівнику як частину умов зайнятості. Для тимчасових працівників це поширена практика — агентство може забезпечити гуртожиток (хостел, робітниче гуртожиток) або окреме житло.</p>
+
+  <h2>Які документи ви повинні отримати?</h2>
+  <ul>
+    <li><strong>Договір найму або позички</strong> — ви повинні підписати письмовий договір про житло, окремий від трудового договору</li>
+    <li><strong>Правила проживання</strong> — порядок користування спільними просторами, години тиші тощо</li>
+    <li><strong>Інформація про плату</strong> — чітко визначена сума, що утримується з зарплати або сплачується окремо</li>
+  </ul>
+  <p>Якщо ви не отримали жодного документа — попросіть письмове підтвердження умов проживання.</p>
+
+  <h2>Що може утримуватися з зарплати?</h2>
+  <p>Роботодавець або агентство може утримувати вартість житла з вашої зарплати, але тільки за умови:</p>
+  <ul>
+    <li>Ви надали письмову згоду на це</li>
+    <li>Утримання не знизить вашу зарплату нижче мінімальної (з 2026 р. — 4 666 зл. брутто на місяць)</li>
+    <li>Розмір утримання заздалегідь узгоджений і зазначений у документах</li>
+  </ul>
+  <p>Типова вартість місця у робітничому гуртожитку становить від 300 до 800 зл. на місяць залежно від міста та стандарту житла.</p>
+
+  <h2>Ваші права як мешканця службового житла</h2>
+  <ul>
+    <li><strong>Право на гідні умови</strong> — приміщення повинне бути технічно справним, опалюватися взимку і мати доступ до проточної води</li>
+    <li><strong>Право на приватність</strong> — роботодавець не може входити до вашої кімнати без попередження (виняток: аварія, загроза безпеці)</li>
+    <li><strong>Заборона пов'язувати роботу з житлом</strong> — роботодавець не може обумовлювати надання роботи обов'язковим проживанням у вказаному місці</li>
+    <li><strong>Право на розірвання</strong> — якщо ви хочете відмовитися від житла, зазвичай діє 1-місячний термін повідомлення</li>
+  </ul>
+
+  <h2>Що робити, якщо умови не відповідають нормам?</h2>
+  <ol>
+    <li>Повідомте проблему координатору агентства або безпосередньому керівнику (письмово — СМС або email)</li>
+    <li>Якщо проблему не вирішено — подайте скаргу до Державної інспекції праці (PIP): pip.gov.pl</li>
+    <li>У санітарних питаннях (цвіль, вологість, відсутність опалення) можна звернутися до Санепіду</li>
+    <li>Якщо умови становлять загрозу здоров'ю — ви можете негайно покинути приміщення і розірвати договір про житло</li>
+  </ol>
+
+  <h2>Службова адреса для реєстрації</h2>
+  <p>Адресу службового житла ви можете вказати як адресу тимчасової реєстрації (мельдунку) в міському управлінні. Це важливо, тому що:</p>
+  <ul>
+    <li>Адреса реєстрації потрібна для отримання номера PESEL</li>
+    <li>Вона необхідна при подачі заяви на карту тимчасового проживання (TRC)</li>
+    <li>Спрощує офіційне листування</li>
+  </ul>
+  <p>Роботодавець/агентство зобов'язані надати вам адресу приміщення, щоб ви могли зареєструватися.</p>
+
+  <h2>Що забезпечує Nexflow?</h2>
+  <p>Nexflow допомагає новим працівникам знайти підходяще житло поблизу місця роботи. Якщо у вас є запитання щодо умов проживання або ви хочете повідомити про проблему — зверніться до координатора Nexflow. Ми на вашому боці.</p>
+
+  <h2>Підсумок</h2>
+  <p>Службове житло — зручне рішення на початку, але важливо знати свої права. Пам'ятайте: вартість житла не може утримуватися без вашої письмової згоди і не може знизити зарплату нижче законного мінімуму. У разі проблем — не чекайте, повідомте координатора або зверніться до PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "rabochee-zhilye-polsha-vremennyy-rabotnik",
+    title: "Рабочее жильё в Польше — что нужно знать временному работнику?",
+    description: "Работаешь через агентство и живёшь в рабочем общежитии? Узнай, какие права у тебя как работника, что может удерживаться из твоей зарплаты и как сообщить о проблемах с условиями.",
+    date: "2026-09-11",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Рабочее жильё в Польше — что нужно знать временному работнику?</h1>
+
+  <p>Многие временные работники, приезжающие в Польшу — особенно с Украины, Беларуси и других стран — пользуются жильём, которое предоставляет кадровое агентство или работодатель. Это удобно, особенно в начале, но важно знать свои права и понимать, что может удерживаться из вашей зарплаты.</p>
+
+  <h2>Что такое рабочее жильё?</h2>
+  <p>Рабочее жильё (пол. zakwaterowanie pracownicze) — это квартира или комната, которую предоставляет работодатель или кадровое агентство работнику как часть условий занятости. Для временных работников это распространённая практика — агентство может обеспечить общежитие (хостел, рабочее общежитие) или отдельное жильё.</p>
+
+  <h2>Какие документы вы должны получить?</h2>
+  <ul>
+    <li><strong>Договор аренды или ссуды</strong> — вы должны подписать письменный договор о жилье, отдельный от трудового договора</li>
+    <li><strong>Правила проживания</strong> — порядок пользования общими помещениями, часы тишины и т.д.</li>
+    <li><strong>Информация об оплате</strong> — чётко определённая сумма, удерживаемая из зарплаты или оплачиваемая отдельно</li>
+  </ul>
+  <p>Если вы не получили никакого документа — попросите письменное подтверждение условий проживания.</p>
+
+  <h2>Что может удерживаться из зарплаты?</h2>
+  <p>Работодатель или агентство может удерживать стоимость жилья из вашей зарплаты, но только при условии:</p>
+  <ul>
+    <li>Вы дали письменное согласие на это</li>
+    <li>Удержание не снизит вашу зарплату ниже минимальной (с 2026 г. — 4 666 зл. брутто в месяц)</li>
+    <li>Размер удержания заранее согласован и указан в документах</li>
+  </ul>
+  <p>Типичная стоимость места в рабочем общежитии составляет от 300 до 800 зл. в месяц в зависимости от города и стандарта жилья.</p>
+
+  <h2>Ваши права как жильца рабочего жилья</h2>
+  <ul>
+    <li><strong>Право на достойные условия</strong> — помещение должно быть технически исправным, отапливаться зимой и иметь доступ к проточной воде</li>
+    <li><strong>Право на приватность</strong> — работодатель не может входить в вашу комнату без предупреждения (исключение: авария, угроза безопасности)</li>
+    <li><strong>Запрет связывать работу с жильём</strong> — работодатель не может обусловливать предоставление работы обязательным проживанием в указанном месте</li>
+    <li><strong>Право на расторжение</strong> — если вы хотите отказаться от жилья, как правило действует 1-месячный срок уведомления</li>
+  </ul>
+
+  <h2>Что делать, если условия не соответствуют нормам?</h2>
+  <ol>
+    <li>Сообщите о проблеме координатору агентства или непосредственному руководителю (письменно — SMS или email)</li>
+    <li>Если проблема не решена — подайте жалобу в Государственную инспекцию труда (PIP): pip.gov.pl</li>
+    <li>По санитарным вопросам (плесень, влажность, отсутствие отопления) можно обратиться в Санэпид</li>
+    <li>Если условия угрожают здоровью — вы можете немедленно покинуть помещение и расторгнуть договор о жилье</li>
+  </ol>
+
+  <h2>Рабочий адрес для регистрации</h2>
+  <p>Адрес рабочего жилья вы можете указать как адрес временной регистрации (мельдунку) в городском управлении. Это важно, потому что:</p>
+  <ul>
+    <li>Адрес регистрации нужен для получения номера PESEL</li>
+    <li>Он необходим при подаче заявления на карту временного проживания (TRC)</li>
+    <li>Упрощает официальную переписку</li>
+  </ul>
+  <p>Работодатель/агентство обязаны предоставить вам адрес помещения, чтобы вы могли зарегистрироваться.</p>
+
+  <h2>Что обеспечивает Nexflow?</h2>
+  <p>Nexflow помогает новым работникам найти подходящее жильё рядом с местом работы. Если у вас есть вопросы об условиях проживания или вы хотите сообщить о проблеме — обратитесь к координатору Nexflow. Мы на вашей стороне.</p>
+
+  <h2>Итог</h2>
+  <p>Рабочее жильё — удобное решение на старте, но важно знать свои права. Помните: стоимость жилья не может удерживаться без вашего письменного согласия и не может снизить зарплату ниже законного минимума. При возникновении проблем — не ждите, сообщите координатору или обратитесь в PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "employer-provided-accommodation-poland-temp-worker",
+    title: "Employer-Provided Accommodation in Poland — What Temp Workers Need to Know",
+    description: "Working through a staffing agency in Poland and living in employer-arranged accommodation? Find out your rights as a worker, what can be deducted from your salary, and how to report problems.",
+    date: "2026-09-11",
+    lang: "en",
+    content: `
+<article>
+  <h1>Employer-Provided Accommodation in Poland — What Temp Workers Need to Know</h1>
+
+  <p>Many temporary workers arriving in Poland — especially from Ukraine, Belarus, and other countries — use accommodation arranged by the staffing agency or employer. This is convenient, especially at first, but it's important to know your rights and understand what can be deducted from your salary.</p>
+
+  <h2>What is employer-provided accommodation?</h2>
+  <p>Employer-provided accommodation (Polish: zakwaterowanie pracownicze) is a flat or room provided by the employer or staffing agency to a worker as part of their employment terms. For temp workers, this is a common arrangement — the agency may provide shared accommodation (hostel, workers' dormitory) or a private flat.</p>
+
+  <h2>What documents should you receive?</h2>
+  <ul>
+    <li><strong>Rental or loan agreement</strong> — you should sign a written accommodation agreement, separate from your employment contract</li>
+    <li><strong>House rules</strong> — rules for shared spaces, quiet hours, etc.</li>
+    <li><strong>Information about charges</strong> — a clearly stated amount to be deducted from your salary or paid separately</li>
+  </ul>
+  <p>If you haven't received any document — ask for written confirmation of the accommodation terms.</p>
+
+  <h2>What can be deducted from your salary?</h2>
+  <p>The employer or agency can deduct accommodation costs from your salary, but only if:</p>
+  <ul>
+    <li>You have given written consent to this</li>
+    <li>The deduction will not reduce your salary below the legal minimum (from 2026 — PLN 4,666 gross per month)</li>
+    <li>The deduction amount is agreed in advance and clearly stated in the documents</li>
+  </ul>
+  <p>A typical cost for a place in a workers' hostel is PLN 300–800 per month, depending on location and standard.</p>
+
+  <h2>Your rights as a resident of employer accommodation</h2>
+  <ul>
+    <li><strong>Right to decent conditions</strong> — the premises must be in working order, heated in winter, and have running water</li>
+    <li><strong>Right to privacy</strong> — the employer cannot enter your room without notice (exception: emergency, safety threat)</li>
+    <li><strong>Ban on tying employment to accommodation</strong> — the employer cannot make your job conditional on living in their accommodation</li>
+    <li><strong>Right to terminate</strong> — if you want to leave the accommodation, a 1-month notice period usually applies</li>
+  </ul>
+
+  <h2>What to do if conditions are inadequate?</h2>
+  <ol>
+    <li>Report the problem to your agency coordinator or direct supervisor (in writing — SMS or email)</li>
+    <li>If the problem is not resolved — file a complaint with the State Labour Inspectorate (PIP): pip.gov.pl</li>
+    <li>For sanitary issues (mould, damp, no heating) you can also contact the Sanitary-Epidemiological Station (Sanepid)</li>
+    <li>If conditions are a health hazard — you may immediately vacate and terminate the accommodation agreement</li>
+  </ol>
+
+  <h2>Using the address for registration purposes</h2>
+  <p>You can register your accommodation address as a temporary address (meldunek) at the local municipal office. This matters because:</p>
+  <ul>
+    <li>A registered address is needed to obtain a PESEL number</li>
+    <li>It is required when applying for a Temporary Residence Card (TRC)</li>
+    <li>It simplifies official correspondence</li>
+  </ul>
+  <p>Your employer/agency is obliged to provide you with the full address so you can register.</p>
+
+  <h2>What does Nexflow provide?</h2>
+  <p>Nexflow helps new workers find suitable accommodation close to the workplace. If you have questions about your accommodation or want to report a problem, contact your Nexflow coordinator — we are on your side.</p>
+
+  <h2>Summary</h2>
+  <p>Employer accommodation is a convenient solution when you start, but it's important to know your rights. Remember: accommodation costs cannot be deducted without your written consent and cannot reduce your salary below the legal minimum. If problems arise — don't wait, report them to your coordinator or contact PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "potracenia-z-wynagrodzenia-polska-legalne-nielegalne-cudzoziemiec",
+    title: "Co może być potrącone z Twojego wynagrodzenia w Polsce — legalne i nielegalne potrącenia",
+    description: "Jakie kwoty pracodawca lub agencja pracy może legalnie potrącić z Twojego wynagrodzenia w Polsce? Przewodnik po obowiązkowych składkach, legalnych potrąceniach za zgodą pracownika i absolutnie nielegalnych opłatach.",
+    date: "2026-09-12",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Co może być potrącone z Twojego wynagrodzenia w Polsce — legalne i nielegalne potrącenia</h1>
+
+  <p>Wielu pracowników tymczasowych z Ukrainy, Białorusi i innych krajów jest zaskoczonych kwotą netto, którą otrzymują na konto. Część potrąceń jest obowiązkowa i wynika z polskiego prawa, inne wymagają Twojej pisemnej zgody — a jeszcze inne są <strong>całkowicie nielegalne</strong>. Ten poradnik wyjaśnia, co może, a czego nie może potrącić pracodawca lub agencja pracy.</p>
+
+  <h2>1. Obowiązkowe potrącenia — zawsze na liście płac</h2>
+  <p>Te kwoty są potrącane przez każdego pracodawcę w Polsce, niezależnie od stanowiska czy umowy:</p>
+  <ul>
+    <li><strong>Składki ZUS pracownika</strong> — emerytalna (9,76%), rentowa (1,5%), chorobowa (2,45%) — łącznie ok. 13,71% wynagrodzenia brutto</li>
+    <li><strong>Zaliczka na podatek dochodowy (PIT)</strong> — 12% od dochodu po odliczeniu składek i kwoty wolnej</li>
+  </ul>
+  <p>Te potrącenia <em>nie</em> są decyzją pracodawcy — wynikają z polskiego prawa podatkowego i ubezpieczeniowego. Dzięki składkom ZUS masz prawo do chorobowego (L4), emerytury i renty.</p>
+
+  <h2>2. Legalne potrącenia za Twoją pisemną zgodą</h2>
+  <p>Poza obowiązkowymi składkami, pracodawca może potrącić z wynagrodzenia inne kwoty, ale <strong>tylko jeśli wyraziłeś/-aś pisemną zgodę</strong>. Przykłady:</p>
+  <ul>
+    <li><strong>Zakwaterowanie pracownicze</strong> — jeśli agencja zapewnia Ci mieszkanie lub pokój, koszt pobytu może być potrącany z wypłaty. Kwota musi być ustalona z góry w umowie najmu.</li>
+    <li><strong>Zaliczka wzięta od pracodawcy</strong> — jeśli pożyczyłeś/-aś pieniądze od pracodawcy lub z zakładowego funduszu socjalnego, spłata może być potrącana w uzgodnionych ratach.</li>
+    <li><strong>Wyżywienie/posiłki</strong> — jeśli pracodawca zapewnia posiłki i umówiłeś/-aś się na potrącenie ich kosztu.</li>
+  </ul>
+  <p><strong>Ważne:</strong> Po wszystkich potrąceniach (poza obowiązkowymi) Twoje wynagrodzenie netto nie może spaść poniżej kwoty minimalnego wynagrodzenia (od 2026 r. — 4 666 zł brutto / ok. 3 400 zł netto). Pracodawca musi zostawić Ci wystarczającą kwotę na utrzymanie.</p>
+
+  <h2>3. Potrącenia na podstawie nakazu komorniczego</h2>
+  <p>Jeśli masz długi i komornik sądowy wydał nakaz zajęcia wynagrodzenia, pracodawca jest zobowiązany przelać odpowiednią część Twoich zarobków bezpośrednio do komornika. Jest to wyjątek od zasady pisemnej zgody — pracodawca działa tu na mocy decyzji sądu.</p>
+
+  <h2>4. Nielegalne potrącenia — pracodawca nie ma prawa ich dokonywać</h2>
+  <p>Następujące opłaty i potrącenia są <strong>niezgodne z polskim prawem</strong> i nie mogą być pobierane od pracowników:</p>
+  <ul>
+    <li><strong>Opłata za pośrednictwo pracy</strong> — agencja pracy tymczasowej nie może pobierać żadnych opłat za znalezienie zatrudnienia. Jest to wprost zakazane przez ustawę o promocji zatrudnienia (art. 85 ust. 2).</li>
+    <li><strong>Odzież robocza i środki ochrony indywidualnej (PPE)</strong> — pracodawca jest zobowiązany zapewnić Ci odzież roboczą i sprzęt BHP bezpłatnie. Nie może ich kosztów potrącać z wynagrodzenia.</li>
+    <li><strong>Badania lekarskie wstępne i okresowe</strong> — koszt tych badań ponosi pracodawca. Nie wolno ich potrącać z Twojego wynagrodzenia.</li>
+    <li><strong>Szkolenia wymagane przez pracodawcę</strong> — szkolenie BHP i inne szkolenia wstępne wymagane przepisami muszą być bezpłatne i odbywać się w godzinach pracy.</li>
+    <li><strong>Opłata administracyjna za zatrudnienie</strong> — wszelkie opłaty za sporządzenie umowy, przerejestrowanie, założenie akt personalnych itp. są nielegalne.</li>
+    <li><strong>Kary pieniężne powyżej ustawowego limitu</strong> — nawet kary porządkowe (za spóźnienie, naruszenie regulaminu) są ograniczone do 1-dniowego wynagrodzenia za jedno przewinienie i nie mogą przekroczyć 10% wynagrodzenia miesięcznie łącznie.</li>
+  </ul>
+
+  <h2>5. Co zrobić, gdy podejrzewasz nielegalne potrącenia?</h2>
+  <ol>
+    <li><strong>Sprawdź odcinek wypłaty</strong> — poproś pracodawcę o pisemny odcinek (pasek wynagrodzeń) z wyszczególnieniem wszystkich potrąceń.</li>
+    <li><strong>Zażądaj pisemnego uzasadnienia</strong> — jeśli widzisz nieznane potrącenie, masz prawo wiedzieć, czego dotyczy i czy wyraziłeś/-aś na nie zgodę.</li>
+    <li><strong>Skontaktuj się z koordynatorem Nexflow</strong> — wyjaśnimy Ci każdą pozycję na liście płac i zainterweniujemy, jeśli coś jest nieprawidłowe.</li>
+    <li><strong>Złóż skargę do Państwowej Inspekcji Pracy (PIP)</strong> — jeśli problem nie zostanie rozwiązany, możesz złożyć skargę na pip.gov.pl lub osobiście w oddziale PIP. Inspekcja ma prawo nakazać pracodawcy zwrot nielegalnie potrąconych kwot.</li>
+  </ol>
+
+  <h2>Co zapewnia Nexflow?</h2>
+  <p>Nexflow jako agencja pracy tymczasowej nigdy nie pobiera opłat za pośrednictwo pracy. Wszystkie potrącenia (np. za zakwaterowanie) są jasno określone w umowie i wymagają Twojej pisemnej zgody przed podpisaniem dokumentów. Masz prawo poprosić o pełne zestawienie każdej pozycji na swojej liście płac.</p>
+
+  <h2>Podsumowanie</h2>
+  <p>Obowiązkowe składki ZUS i podatek to jedyne potrącenia, na które nie potrzebujesz zgody. Potrącenie za zakwaterowanie, zaliczkę czy wyżywienie wymaga Twojego pisemnego podpisu — a po wszystkich potrąceniach Twoja wypłata nie może spaść poniżej minimalnego wynagrodzenia. Opłata za pośrednictwo pracy, odzież BHP czy badania lekarskie nie mogą być potrącane z wynagrodzenia pod żadnym pozorem.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "utrymannya-iz-zarplaty-polshcha-zakonni-nezakonni-inozemets",
+    title: "Що може бути утримано з Вашої зарплати в Польщі — законні та незаконні утримання",
+    description: "Які суми роботодавець або агентство праці може законно утримати із Вашої зарплати в Польщі? Посібник з обов'язкових внесків, законних утримань за згодою працівника та абсолютно незаконних стягнень.",
+    date: "2026-09-12",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Що може бути утримано з Вашої зарплати в Польщі — законні та незаконні утримання</h1>
+
+  <p>Багато тимчасових працівників з України, Білорусі та інших країн дивуються, чому сума на рахунку менша, ніж очікувалась. Частина утримань є обов'язковою за польським законодавством, інші вимагають Вашої письмової згоди — а деякі є <strong>повністю незаконними</strong>. Цей посібник пояснює, що може, а чого не може утримувати роботодавець або агентство праці.</p>
+
+  <h2>1. Обов'язкові утримання — завжди у розрахунковому листку</h2>
+  <p>Ці суми утримує кожен роботодавець у Польщі незалежно від посади або типу договору:</p>
+  <ul>
+    <li><strong>Внески ZUS від працівника</strong> — пенсійний (9,76%), рентний (1,5%), лікарняний (2,45%) — загалом близько 13,71% від валової зарплати</li>
+    <li><strong>Аванс на прибутковий податок (PIT)</strong> — 12% від доходу після вирахування внесків і неоподатковуваного мінімуму</li>
+  </ul>
+  <p>Ці утримання <em>не є</em> рішенням роботодавця — вони випливають із польського податкового та страхового законодавства. Завдяки внескам ZUS Ви маєте право на лікарняний (L4), пенсію та ренту.</p>
+
+  <h2>2. Законні утримання за Вашою письмовою згодою</h2>
+  <p>Крім обов'язкових внесків, роботодавець може утримувати інші суми, але <strong>лише якщо Ви надали письмову згоду</strong>. Приклади:</p>
+  <ul>
+    <li><strong>Трудове житло</strong> — якщо агентство забезпечує Вам квартиру або кімнату, вартість проживання може утримуватись із зарплати. Сума має бути заздалегідь узгоджена в договорі найму.</li>
+    <li><strong>Аванс від роботодавця</strong> — якщо Ви брали позику від роботодавця або з соціального фонду, погашення може утримуватись узгодженими частинами.</li>
+    <li><strong>Харчування/їжа</strong> — якщо роботодавець надає харчування і Ви погодились на утримання його вартості.</li>
+  </ul>
+  <p><strong>Важливо:</strong> Після всіх утримань (крім обов'язкових) Ваша чиста зарплата не може впасти нижче мінімальної заробітної плати (з 2026 р. — 4 666 зл брутто / близько 3 400 зл нетто). Роботодавець зобов'язаний залишити Вам достатню суму для утримання.</p>
+
+  <h2>3. Утримання на підставі судового виконавця</h2>
+  <p>Якщо у Вас є борги і судовий виконавець (komornik) видав наказ про стягнення з зарплати, роботодавець зобов'язаний перерахувати відповідну частину Вашого заробітку безпосередньо до виконавця. Це виняток із правила письмової згоди — роботодавець діє на підставі судового рішення.</p>
+
+  <h2>4. Незаконні утримання — роботодавець не має права їх робити</h2>
+  <p>Такі стягнення та утримання є <strong>незаконними за польським правом</strong> і не можуть бути зняті з працівників:</p>
+  <ul>
+    <li><strong>Плата за посередництво при працевлаштуванні</strong> — агентство тимчасової праці не може стягувати жодних зборів за пошук роботи. Це прямо заборонено законом про сприяння зайнятості (ст. 85 ч. 2).</li>
+    <li><strong>Робочий одяг та засоби індивідуального захисту (ЗІЗ)</strong> — роботодавець зобов'язаний безкоштовно забезпечити Вас робочим одягом і засобами захисту. Їх вартість не може утримуватись із зарплати.</li>
+    <li><strong>Обов'язкові медичні огляди</strong> — вартість первинних та періодичних медоглядів несе роботодавець. Їх не можна утримувати з Вашої зарплати.</li>
+    <li><strong>Навчання, яке вимагає роботодавець</strong> — інструктаж з охорони праці та інші обов'язкові навчання мають бути безкоштовними і проводитись у робочий час.</li>
+    <li><strong>Адміністративний збір за оформлення</strong> — будь-які збори за складання договору, реєстрацію, ведення особової справи тощо є незаконними.</li>
+    <li><strong>Штрафи понад встановлений законом ліміт</strong> — навіть дисциплінарні стягнення (за запізнення, порушення правил) обмежені розміром одноденного заробітку за одне порушення і не можуть перевищувати 10% місячної зарплати сумарно.</li>
+  </ul>
+
+  <h2>5. Що робити, якщо Ви підозрюєте незаконні утримання?</h2>
+  <ol>
+    <li><strong>Перевірте розрахунковий листок</strong> — попросіть роботодавця надати письмовий розрахунковий листок з переліком усіх утримань.</li>
+    <li><strong>Вимагайте письмового пояснення</strong> — якщо Ви бачите незнайоме утримання, Ви маєте право знати, чого воно стосується і чи давали Ви на нього згоду.</li>
+    <li><strong>Зверніться до координатора Nexflow</strong> — ми пояснимо кожну позицію у Вашому розрахунковому листку та втрутимось, якщо щось є неправомірним.</li>
+    <li><strong>Подайте скаргу до Державної інспекції праці (PIP)</strong> — якщо проблема не вирішується, Ви можете подати скаргу на pip.gov.pl або особисто у відділенні PIP. Інспекція має право зобов'язати роботодавця повернути незаконно утримані кошти.</li>
+  </ol>
+
+  <h2>Що забезпечує Nexflow?</h2>
+  <p>Nexflow як агентство тимчасової праці ніколи не стягує плату за посередництво. Всі утримання (наприклад, за проживання) чітко прописані в договорі та вимагають Вашого підпису до оформлення документів. Ви маєте право попросити повний розрахунок кожної позиції у своєму розрахунковому листку.</p>
+
+  <h2>Підсумок</h2>
+  <p>Обов'язкові внески ZUS і податок — єдині утримання, на які Вам не потрібна згода. Утримання за проживання, аванс чи харчування вимагають Вашого письмового підпису — а після всіх утримань Ваша зарплата не може впасти нижче мінімальної заробітної плати. Плата за посередництво, робочий одяг та медогляди не можуть утримуватись із зарплати ні за яких умов.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "uderzhaniya-iz-zarplaty-polsha-zakonnye-nezakonnye-inostranets",
+    title: "Что может быть удержано из Вашей зарплаты в Польше — законные и незаконные удержания",
+    description: "Какие суммы работодатель или кадровое агентство может законно удержать из Вашей зарплаты в Польше? Руководство по обязательным взносам, законным удержаниям с согласия работника и абсолютно незаконным сборам.",
+    date: "2026-09-12",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Что может быть удержано из Вашей зарплаты в Польше — законные и незаконные удержания</h1>
+
+  <p>Многие временные работники из Украины, Беларуси и других стран удивляются, почему сумма на счёте меньше ожидаемой. Часть удержаний является обязательной по польскому законодательству, другие требуют Вашего письменного согласия — а некоторые являются <strong>полностью незаконными</strong>. Это руководство объясняет, что может, а чего не может удерживать работодатель или кадровое агентство.</p>
+
+  <h2>1. Обязательные удержания — всегда в расчётном листке</h2>
+  <p>Эти суммы удерживает каждый работодатель в Польше независимо от должности или вида договора:</p>
+  <ul>
+    <li><strong>Взносы ZUS от работника</strong> — пенсионный (9,76%), рентный (1,5%), больничный (2,45%) — итого около 13,71% от валовой зарплаты</li>
+    <li><strong>Аванс на подоходный налог (PIT)</strong> — 12% от дохода после вычета взносов и необлагаемого минимума</li>
+  </ul>
+  <p>Эти удержания <em>не являются</em> решением работодателя — они вытекают из польского налогового и страхового законодательства. Благодаря взносам ZUS Вы имеете право на больничный (L4), пенсию и ренту по инвалидности.</p>
+
+  <h2>2. Законные удержания с Вашего письменного согласия</h2>
+  <p>Помимо обязательных взносов, работодатель может удерживать другие суммы, но <strong>только если Вы дали письменное согласие</strong>. Примеры:</p>
+  <ul>
+    <li><strong>Трудовое жильё</strong> — если агентство предоставляет Вам квартиру или комнату, стоимость проживания может удерживаться из зарплаты. Сумма должна быть заранее согласована в договоре найма.</li>
+    <li><strong>Аванс от работодателя</strong> — если Вы брали займ у работодателя или из социального фонду, погашение может удерживаться согласованными частями.</li>
+    <li><strong>Питание/еда</strong> — если работодатель предоставляет питание и Вы согласились на удержание его стоимости.</li>
+  </ul>
+  <p><strong>Важно:</strong> После всех удержаний (кроме обязательных) Ваша чистая зарплата не может упасть ниже минимальной заработной платы (с 2026 г. — 4 666 злотых брутто / около 3 400 злотых нетто). Работодатель обязан оставить Вам достаточную сумму для содержания.</p>
+
+  <h2>3. Удержания на основании судебного исполнителя</h2>
+  <p>Если у Вас есть долги и судебный исполнитель (komornik) выдал приказ об обращении взыскания на зарплату, работодатель обязан перечислить соответствующую часть Вашего заработка непосредственно исполнителю. Это исключение из правила письменного согласия — работодатель действует на основании судебного решения.</p>
+
+  <h2>4. Незаконные удержания — работодатель не вправе их производить</h2>
+  <p>Следующие сборы и удержания являются <strong>незаконными по польскому праву</strong> и не могут взиматься с работников:</p>
+  <ul>
+    <li><strong>Плата за посредничество при трудоустройстве</strong> — агентство временного труда не может взимать никаких сборов за поиск работы. Это прямо запрещено законом о содействии занятости (ст. 85 ч. 2).</li>
+    <li><strong>Рабочая одежда и средства индивидуальной защиты (СИЗ)</strong> — работодатель обязан бесплатно обеспечить Вас рабочей одеждой и средствами защиты. Их стоимость не может удерживаться из зарплаты.</li>
+    <li><strong>Обязательные медицинские осмотры</strong> — стоимость вступительных и периодических медосмотров несёт работодатель. Их нельзя удерживать из Вашей зарплаты.</li>
+    <li><strong>Обучение, требуемое работодателем</strong> — инструктаж по охране труда и другие обязательные тренинги должны быть бесплатными и проводиться в рабочее время.</li>
+    <li><strong>Административный сбор за оформление</strong> — любые сборы за составление договора, регистрацию, ведение личного дела и т.п. являются незаконными.</li>
+    <li><strong>Штрафы сверх установленного законом лимита</strong> — даже дисциплинарные взыскания (за опоздание, нарушение правил) ограничены размером однодневного заработка за одно нарушение и не могут превышать 10% месячной зарплаты суммарно.</li>
+  </ul>
+
+  <h2>5. Что делать, если Вы подозреваете незаконные удержания?</h2>
+  <ol>
+    <li><strong>Проверьте расчётный листок</strong> — попросите работодателя предоставить письменный расчётный листок с перечнем всех удержаний.</li>
+    <li><strong>Потребуйте письменного объяснения</strong> — если Вы видите незнакомое удержание, Вы имеете право знать, чего оно касается и давали ли Вы на него согласие.</li>
+    <li><strong>Обратитесь к координатору Nexflow</strong> — мы объясним каждую позицию в Вашем расчётном листке и вмешаемся, если что-то является нарушением.</li>
+    <li><strong>Подайте жалобу в Государственную инспекцию труда (PIP)</strong> — если проблема не решается, Вы можете подать жалобу на pip.gov.pl или лично в отделении PIP. Инспекция вправе обязать работодателя вернуть незаконно удержанные средства.</li>
+  </ol>
+
+  <h2>Что обеспечивает Nexflow?</h2>
+  <p>Nexflow как агентство временного труда никогда не взимает плату за посредничество. Все удержания (например, за проживание) чётко прописаны в договоре и требуют Вашей подписи до оформления документов. Вы вправе запросить полный расчёт каждой позиции в своём расчётном листке.</p>
+
+  <h2>Итог</h2>
+  <p>Обязательные взносы ZUS и налог — единственные удержания, на которые Вам не нужно согласие. Удержание за жильё, аванс или питание требует Вашей письменной подписи — а после всех удержаний Ваша зарплата не может опуститься ниже минимальной заработной платы. Плата за посредничество, рабочая одежда и медосмотры не могут удерживаться из зарплаты ни при каких обстоятельствах.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "salary-deductions-poland-legal-illegal-foreign-worker",
+    title: "What Can Be Deducted From Your Salary in Poland — Legal and Illegal Deductions Explained",
+    description: "Which deductions from your salary are legal in Poland, and which break the law? A complete guide for temporary workers from Ukraine and other countries, covering mandatory contributions, permitted deductions, and what your employer is never allowed to take.",
+    date: "2026-09-12",
+    lang: "en",
+    content: `
+<article>
+  <h1>What Can Be Deducted From Your Salary in Poland — Legal and Illegal Deductions Explained</h1>
+
+  <p>Many temporary workers from Ukraine, Belarus, and other countries are surprised to find that the amount in their bank account is lower than expected. Some deductions are mandatory under Polish law, others require your written consent — and some are completely illegal. This guide explains what your employer or staffing agency can and cannot take from your pay.</p>
+
+  <h2>1. Mandatory deductions — always on your payslip</h2>
+  <p>These amounts are deducted by every employer in Poland, regardless of position or contract type:</p>
+  <ul>
+    <li>Employee ZUS contributions — pension (9.76%), disability (1.5%), sickness (2.45%) — totalling approximately 13.71% of gross salary</li>
+    <li>Advance income tax (PIT) — 12% of income after deducting contributions and the tax-free allowance</li>
+  </ul>
+  <p>These deductions are not a decision made by your employer — they are required by Polish tax and social insurance law. Thanks to ZUS contributions, you are entitled to sick pay (L4), retirement pension, and disability benefit.</p>
+
+  <h2>2. Legal deductions with your written consent</h2>
+  <p>Beyond mandatory contributions, an employer may deduct other amounts, but only if you have given written consent. Examples include:</p>
+  <ul>
+    <li>Employer-provided accommodation — if the agency arranges a flat or room for you, the cost of accommodation may be deducted from your pay. The amount must be agreed in advance in a rental agreement.</li>
+    <li>Advance loan from the employer — if you borrowed money from your employer or the company social fund, repayment may be deducted in agreed instalments.</li>
+    <li>Meals provided by the employer — if the employer provides meals and you have agreed that the cost can be deducted.</li>
+  </ul>
+  <p>Important: After all deductions (except mandatory ones), your net pay must not fall below the statutory minimum wage (from 2026 — PLN 4,666 gross / approximately PLN 3,400 net). Your employer must leave you enough to live on.</p>
+
+  <h2>3. Deductions based on a court bailiff order</h2>
+  <p>If you have debts and a court bailiff (komornik) has issued a wage garnishment order, your employer is legally required to transfer the relevant portion of your earnings directly to the bailiff. This is an exception to the written-consent rule — the employer is acting on a court decision.</p>
+
+  <h2>4. Illegal deductions — your employer has no right to take these</h2>
+  <p>The following charges and deductions are illegal under Polish law and cannot be taken from workers:</p>
+  <ul>
+    <li>Recruitment or placement fee — a temporary staffing agency is not permitted to charge any fee for finding you a job. This is explicitly prohibited by the Law on Employment Promotion (Article 85(2)).</li>
+    <li>Work clothing and personal protective equipment (PPE) — the employer is required to provide workwear and safety equipment free of charge. The cost cannot be deducted from your salary.</li>
+    <li>Mandatory medical examinations — the cost of pre-employment and periodic medical checks is borne by the employer. These cannot be deducted from your pay.</li>
+    <li>Training required by the employer — occupational health and safety induction and other mandatory training must be free of charge and conducted during working hours.</li>
+    <li>Administrative processing fee — any charges for drafting your contract, registration, maintaining your personnel file, etc. are illegal.</li>
+    <li>Fines exceeding the statutory limit — even disciplinary penalties (for lateness, breach of workplace rules) are capped at one day's pay per offence and may not exceed 10% of monthly pay in total.</li>
+  </ul>
+
+  <h2>5. What to do if you suspect illegal deductions</h2>
+  <ol>
+    <li>Check your payslip — ask your employer for a written payslip showing an itemised breakdown of all deductions.</li>
+    <li>Ask for written justification — if you see an unfamiliar deduction, you have the right to know what it relates to and whether you consented to it.</li>
+    <li>Contact your Nexflow coordinator — we will explain every line on your payslip and step in if anything is irregular.</li>
+    <li>File a complaint with the State Labour Inspectorate (PIP) — if the issue is not resolved, you can report it at pip.gov.pl or in person at your nearest PIP branch. The Inspectorate can order the employer to refund illegally deducted amounts.</li>
+  </ol>
+
+  <h2>What does Nexflow provide?</h2>
+  <p>As a temporary staffing agency, Nexflow never charges placement or recruitment fees. All deductions (such as for accommodation) are clearly stated in your contract and require your signature before any documents are signed. You are always entitled to ask for a full breakdown of every item on your payslip.</p>
+
+  <h2>Summary</h2>
+  <p>Mandatory ZUS contributions and income tax are the only deductions that do not require your consent. Deductions for accommodation, advance loans, or meals require your written signature — and after all deductions, your take-home pay must not fall below the minimum wage. Placement fees, work clothing, and medical examination costs can never be deducted from your salary under any circumstances.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekwiwalent-za-urlop-pracownik-tymczasowy-polska",
+    title: "Ekwiwalent za urlop — co przysługuje pracownikowi tymczasowemu w Polsce",
+    description:
+      "Czym jest ekwiwalent za urlop i jak jest obliczany? Przewodnik dla pracowników tymczasowych — kiedy przysługuje wypłata za niewykorzystane dni urlopu, jak zgłosić odmowę i co mówi polskie prawo pracy.",
+    date: "2026-09-20",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Ekwiwalent za urlop — co przysługuje pracownikowi tymczasowemu w Polsce</h1>
+
+  <p>Jeśli kończysz umowę i masz niewykorzystane dni urlopu, masz prawo do ekwiwalentu za urlop. To gotówka zamiast wolnych dni — i dotyczy zarówno umów o pracę, jak i umów o pracę tymczasową.</p>
+
+  <h2>Czym jest ekwiwalent za urlop?</h2>
+  <p>Ekwiwalent za urlop to świadczenie pieniężne, które pracodawca musi wypłacić, gdy:</p>
+  <ul>
+    <li>stosunek pracy wygasa (umowa kończy się lub zostaje rozwiązana)</li>
+    <li>pracownik ma <strong>niewykorzystane dni urlopu wypoczynkowego</strong></li>
+  </ul>
+  <p>Nie możesz „zamiast urlopu" po prostu nie brać wolnego i dostać więcej pieniędzy — ekwiwalent wypłacany jest <strong>wyłącznie przy rozwiązaniu umowy</strong>.</p>
+
+  <h2>Jak się oblicza ekwiwalent?</h2>
+  <p>Ekwiwalent oblicza się na podstawie:</p>
+  <ol>
+    <li><strong>Współczynnika ekwiwalentu</strong> — ustalany raz w roku (na 2026 r. wynosi 20,83 dla pracownika pełnoetatowego)</li>
+    <li><strong>Wynagrodzenia zasadniczego</strong> + stałych składników wynagrodzenia</li>
+    <li><strong>Liczby niewykorzystanych dni urlopu</strong></li>
+  </ol>
+  <p><strong>Wzór:</strong> Wynagrodzenie miesięczne ÷ 20,83 = stawka za 1 dzień urlopu</p>
+  <p>Przykład: jeśli zarabiasz 4800 zł brutto i masz 5 dni urlopu do rozliczenia:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = <strong>230,44 zł za 1 dzień</strong></li>
+    <li>5 × 230,44 = <strong>1 152,20 zł ekwiwalentu brutto</strong></li>
+  </ul>
+
+  <h2>Pracownicy tymczasowi — co warto wiedzieć?</h2>
+  <p>Przy pracy tymczasowej agencja pracy (np. Nexflow) jest Twoim oficjalnym pracodawcą. To agencja:</p>
+  <ul>
+    <li>nalicza Twój urlop wypoczynkowy (20 lub 26 dni/rok)</li>
+    <li>jest zobowiązana wypłacić ekwiwalent przy zakończeniu każdej umowy, jeśli nie wykorzystałeś urlopu</li>
+  </ul>
+  <p><strong>Uwaga:</strong> możesz też wziąć urlop w naturze (fizycznie odpocząć) przed końcem umowy — to zawsze korzystniejsze niż ekwiwalent, bo w trakcie urlopu zarabiasz normalnie, bez potrąceń.</p>
+
+  <h2>Kiedy pracodawca może odmówić?</h2>
+  <p>Pracodawca <strong>nie może</strong> odmówić ekwiwalentu, jeśli spełnione są warunki. Odmowa to naruszenie prawa pracy. Możesz zgłosić sprawę do:</p>
+  <ul>
+    <li><strong>Państwowej Inspekcji Pracy (PIP)</strong> — bezpłatna interwencja</li>
+    <li><strong>Sądu Pracy</strong> — roszczenie ekwiwalentowe nie przedawnia się przez 3 lata</li>
+  </ul>
+
+  <h2>Kiedy ekwiwalent NIE przysługuje?</h2>
+  <ul>
+    <li>Gdy umowa jest <strong>kontynuowana</strong> (np. podpiszesz kolejny kontrakt z tą samą agencją) — urlop przechodzi na następny okres</li>
+    <li>Gdy próbujesz wziąć pieniądze zamiast urlopu w trakcie trwania umowy — jest to nielegalne</li>
+  </ul>
+
+  <h2>Ekwiwalent a podatek i składki ZUS</h2>
+  <p>Ekwiwalent za urlop:</p>
+  <ul>
+    <li><strong>podlega opodatkowaniu</strong> (PIT) tak jak normalne wynagrodzenie</li>
+    <li><strong>podlega składkom ZUS</strong> — odprowadzane przez pracodawcę</li>
+    <li>pojawi się na Twoim <strong>pasku wypłaty</strong> jako osobna pozycja</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+  <table>
+    <thead>
+      <tr><th>Sytuacja</th><th>Ekwiwalent?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Umowa zakończona, są niewykorzystane dni urlopu</td><td>✅ Tak</td></tr>
+      <tr><td>Umowa trwa, chcę pieniędzy zamiast urlopu</td><td>❌ Nie</td></tr>
+      <tr><td>Kolejna umowa z tą samą agencją</td><td>❌ Urlop przechodzi</td></tr>
+      <tr><td>Zwolnienie bez wypowiedzenia</td><td>✅ Tak</td></tr>
+    </tbody>
+  </table>
+  <p>Nie zapomnij sprawdzić przy rozliczeniu końcowym, ile dni urlopu Ci przysługiwało i czy ekwiwalent został naliczony poprawnie. W razie wątpliwości zwróć się do Nexflow lub PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekvivalent-za-vidpustku-tymchasovyi-pratsivnyk-polshcha",
+    title: "Еквівалент за відпустку — права тимчасового працівника в Польщі",
+    description:
+      "Що таке еквівалент за відпустку і як він розраховується? Права тимчасового працівника в Польщі: коли виплачується грошова компенсація за невикористані дні відпустки, що робити при відмові.",
+    date: "2026-09-20",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Еквівалент за відпустку — права тимчасового працівника в Польщі</h1>
+
+  <p>Якщо твій контракт закінчується і ти не використав усі дні відпустки — ти маєш право на <strong>грошовий еквівалент за відпустку</strong>. Роботодавець зобов'язаний виплатити цю суму при звільненні.</p>
+
+  <h2>Що таке еквівалент за відпустку?</h2>
+  <p>Еквівалент за відпустку (ekwiwalent za urlop) — це грошова виплата замість невикористаних днів відпустки. Виплачується <strong>лише при розірванні трудового договору</strong>.</p>
+  <p>Важливо: взяти гроші замість відпустки під час дії контракту — неможливо і незаконно.</p>
+
+  <h2>Як розраховується?</h2>
+  <p><strong>Формула:</strong> Місячна зарплата ÷ 20,83 = вартість 1 дня відпустки</p>
+  <p>Приклад: зарплата 4800 злотих брутто, 5 невикористаних днів:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = 230,44 злотих за день</li>
+    <li>5 × 230,44 = <strong>1 152,20 злотих брутто</strong></li>
+  </ul>
+  <p>Коефіцієнт 20,83 встановлюється урядовим положенням на кожен рік.</p>
+
+  <h2>Тимчасові працівники: хто платить?</h2>
+  <p>При тимчасовій роботі через агентство твій офіційний роботодавець — агентство (наприклад, Nexflow). Агентство:</p>
+  <ul>
+    <li>нараховує тобі відпустку (20 або 26 днів на рік)</li>
+    <li>зобов'язане виплатити еквівалент при завершенні кожного контракту, якщо є невикористані дні</li>
+  </ul>
+  <p><strong>Порада:</strong> краще взяти відпустку «в натурі» (реальний відпочинок) до кінця контракту — це вигідніше, ніж отримати еквівалент.</p>
+
+  <h2>Що робити, якщо роботодавець відмовляє?</h2>
+  <p>Відмова виплатити еквівалент — порушення трудового права. Звернись до:</p>
+  <ul>
+    <li><strong>Державної інспекції праці (PIP)</strong> — безкоштовно</li>
+    <li><strong>Трудового суду</strong> — строк позовної давності 3 роки</li>
+  </ul>
+
+  <h2>Оподаткування та внески ZUS</h2>
+  <p>Еквівалент за відпустку:</p>
+  <ul>
+    <li>оподатковується <strong>PIT</strong> як звичайна зарплата</li>
+    <li>підлягає <strong>внескам ZUS</strong></li>
+    <li>відображається в розрахунковому листку (pasek wypłaty) окремим рядком</li>
+  </ul>
+
+  <h2>Коли еквівалент не виплачується?</h2>
+  <ul>
+    <li>Якщо контракт <strong>продовжується</strong> з тим самим агентством — дні відпустки переходять на наступний період</li>
+    <li>Не можна взяти гроші замість відпустки під час роботи — це незаконно</li>
+  </ul>
+
+  <h2>Підсумок</h2>
+  <table>
+    <thead>
+      <tr><th>Ситуація</th><th>Еквівалент?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Контракт закінчився, є невикористані дні</td><td>✅ Так</td></tr>
+      <tr><td>Контракт діє, хочу гроші замість відпустки</td><td>❌ Ні</td></tr>
+      <tr><td>Новий контракт з тим самим агентством</td><td>❌ Дні переходять</td></tr>
+      <tr><td>Звільнення без попередження</td><td>✅ Так</td></tr>
+    </tbody>
+  </table>
+  <p>Перевір при фінальному розрахунку, скільки днів відпустки тобі нараховано і чи правильно розраховано еквівалент. У разі сумнівів — звернись до Nexflow або PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "ekvivalent-za-otpusk-vremennyy-rabotnik-polsha",
+    title: "Компенсация за неиспользованный отпуск в Польше — права временного работника",
+    description:
+      "Что такое денежная компенсация за неиспользованный отпуск (ekwiwalent za urlop) в Польше? Права временного работника: как рассчитывается выплата, когда полагается и что делать при отказе.",
+    date: "2026-09-20",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Компенсация за неиспользованный отпуск в Польше — права временного работника</h1>
+
+  <p>Если твой контракт закончился, а ты не использовал все дни отпуска — работодатель обязан выплатить <strong>денежную компенсацию за неиспользованный отпуск</strong> (ekwiwalent za urlop). Это твоё законное право.</p>
+
+  <h2>Что такое ekwiwalent za urlop?</h2>
+  <p>Это денежная выплата вместо невостребованных дней отпуска. Выплачивается <strong>только при увольнении или окончании договора</strong>. Получить деньги вместо отпуска в ходе работы — незаконно в Польше.</p>
+
+  <h2>Как рассчитывается?</h2>
+  <p><strong>Формула:</strong> Месячная зарплата ÷ 20,83 = стоимость 1 дня отпуска</p>
+  <p>Пример: зарплата 4800 злотых брутто, 5 неиспользованных дней:</p>
+  <ul>
+    <li>4800 ÷ 20,83 = 230,44 злотых за день</li>
+    <li>5 × 230,44 = <strong>1 152,20 злотых брутто</strong></li>
+  </ul>
+  <p>Коэффициент 20,83 устанавливается нормативным актом правительства на каждый год.</p>
+
+  <h2>Для временных работников: кто платит?</h2>
+  <p>При работе через агентство (например, Nexflow) именно агентство — твой официальный работодатель. Агентство:</p>
+  <ul>
+    <li>начисляет тебе отпуск (20 или 26 дней в год в зависимости от стажа)</li>
+    <li>обязано выплатить компенсацию при завершении контракта, если есть неиспользованные дни</li>
+  </ul>
+  <p><strong>Совет:</strong> лучше взять отпуск «в натуре» до конца договора — это выгоднее, чем получить компенсацию деньгами.</p>
+
+  <h2>Что делать при отказе?</h2>
+  <p>Отказ от выплаты — нарушение трудового права. Обратись в:</p>
+  <ul>
+    <li><strong>Государственную инспекцию труда (PIP)</strong> — бесплатно</li>
+    <li><strong>Трудовой суд</strong> — срок исковой давности 3 года</li>
+  </ul>
+
+  <h2>Налоги и взносы ZUS</h2>
+  <p>Компенсация за отпуск:</p>
+  <ul>
+    <li>облагается <strong>налогом PIT</strong> — так же, как обычная зарплата</li>
+    <li>подлежит <strong>взносам ZUS</strong></li>
+    <li>отражается в расчётном листке (pasek wypłaty) отдельной строкой</li>
+  </ul>
+
+  <h2>Когда компенсация не выплачивается?</h2>
+  <ul>
+    <li>Если контракт <strong>продолжается</strong> с тем же агентством — дни отпуска переходят на следующий период</li>
+    <li>Нельзя брать деньги вместо отпуска в ходе работы — это незаконно</li>
+  </ul>
+
+  <h2>Итоговая таблица</h2>
+  <table>
+    <thead>
+      <tr><th>Ситуация</th><th>Компенсация?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Контракт закончился, есть неиспользованные дни</td><td>✅ Да</td></tr>
+      <tr><td>Контракт действует, хочу деньги вместо отпуска</td><td>❌ Нет</td></tr>
+      <tr><td>Новый договор с тем же агентством</td><td>❌ Дни переходят</td></tr>
+      <tr><td>Увольнение без предупреждения</td><td>✅ Да</td></tr>
+    </tbody>
+  </table>
+  <p>При окончательном расчёте проверь, сколько дней отпуска тебе причиталось и правильно ли рассчитана компенсация. При сомнениях — обратись в Nexflow или PIP.</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "holiday-pay-payout-temp-worker-poland",
+    title: "Holiday Pay Cash-Out When Your Contract Ends in Poland — Temp Workers' Guide",
+    description:
+      "What is ekwiwalent za urlop and when must your employer pay it? A practical guide for temp workers on holiday pay cash-out at contract end in Poland — calculation formula, legal rights, and what to do if refused.",
+    date: "2026-09-20",
+    lang: "en",
+    content: `
+<article>
+  <h1>Holiday Pay Cash-Out When Your Contract Ends in Poland — Temp Workers' Guide</h1>
+
+  <p>When your employment contract ends in Poland and you have unused holiday days, your employer must pay you a <strong>cash equivalent for unused annual leave</strong> (ekwiwalent za urlop). This is a legal right — and many temp workers do not know to claim it.</p>
+
+  <h2>What is ekwiwalent za urlop?</h2>
+  <p>It is a cash payment for unused annual leave days, paid out <strong>only when your employment contract ends</strong> (by either party). You cannot ask for cash instead of holiday while still employed — that is illegal in Poland.</p>
+
+  <h2>How is it calculated?</h2>
+  <p><strong>Formula:</strong> Monthly gross salary ÷ 20.83 = value of 1 holiday day</p>
+  <p>Example: gross salary 4,800 PLN, 5 unused holiday days:</p>
+  <ul>
+    <li>4,800 ÷ 20.83 = 230.44 PLN per day</li>
+    <li>5 × 230.44 = <strong>1,152.20 PLN gross payout</strong></li>
+  </ul>
+  <p>The divisor 20.83 is set annually by government regulation (2026 figure for full-time employees).</p>
+
+  <h2>Temp workers: who pays?</h2>
+  <p>When you work through a staffing agency like Nexflow, the agency is your official employer. The agency:</p>
+  <ul>
+    <li>accrues your annual leave entitlement (20 or 26 days/year depending on your total work experience)</li>
+    <li>must pay the holiday cash equivalent at the end of each contract if you have unused days</li>
+  </ul>
+  <p><strong>Tip:</strong> Taking actual time off before your contract ends is more beneficial than a cash payout — you earn your full salary during holiday, with no deductions beyond standard ones.</p>
+
+  <h2>What if the employer refuses?</h2>
+  <p>Refusal to pay the equivalent is a breach of Polish labour law. You can:</p>
+  <ul>
+    <li>Report to the <strong>State Labour Inspectorate (PIP)</strong> — free enforcement, no lawyer needed</li>
+    <li>File a claim with the <strong>Labour Court</strong> — 3-year statute of limitations on holiday pay claims</li>
+  </ul>
+
+  <h2>Tax and social contributions</h2>
+  <p>The payout is subject to:</p>
+  <ul>
+    <li><strong>PIT income tax</strong> — same rate as regular salary</li>
+    <li><strong>ZUS social insurance contributions</strong></li>
+  </ul>
+  <p>It should appear as a separate line item on your final payslip (pasek wypłaty). Check it carefully.</p>
+
+  <h2>When is the equivalent NOT paid?</h2>
+  <ul>
+    <li>If your contract is <strong>renewed or continued</strong> with the same agency — unused days roll over to the next contract period</li>
+    <li>You cannot request cash instead of holiday during active employment — this would be illegal</li>
+  </ul>
+
+  <h2>Summary table</h2>
+  <table>
+    <thead>
+      <tr><th>Situation</th><th>Cash equivalent?</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Contract ended, unused holiday days remain</td><td>✅ Yes</td></tr>
+      <tr><td>Contract active, want cash instead of holiday</td><td>❌ No</td></tr>
+      <tr><td>New contract with same agency signed</td><td>❌ Days carry over</td></tr>
+      <tr><td>Dismissed without notice</td><td>✅ Yes</td></tr>
+    </tbody>
+  </table>
+  <p>At final settlement, verify how many holiday days you accrued and whether the equivalent was correctly calculated. If in doubt, contact Nexflow HR or the State Labour Inspectorate (PIP).</p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "jednolite-zezwolenie-na-pobyt-i-prace-cudzoziemiec-polska",
+    title: "Jednolite zezwolenie na pobyt i pracę w Polsce — kompletny poradnik dla cudzoziemca",
+    description:
+      "Jednolite zezwolenie na pobyt i pracę zastępuje kartę pobytu i zezwolenie na pracę — kompletny poradnik dla cudzoziemców pracujących w Polsce przez agencję pracy tymczasowej.",
+    date: "2026-09-23",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Jednolite zezwolenie na pobyt i pracę w Polsce — kompletny poradnik dla cudzoziemca</h1>
+
+  <p>Jeśli pracujesz w Polsce jako obcokrajowiec i chcesz uregulować swój pobyt oraz pracę za pomocą jednego dokumentu — <strong>jednolite zezwolenie na pobyt i pracę</strong> jest właśnie tym, czego szukasz. To jedno z najważniejszych zezwoleń dla cudzoziemców pracujących w Polsce, w tym pracowników tymczasowych zatrudnionych przez agencje takie jak Nexflow.</p>
+
+  <h2>Czym jest jednolite zezwolenie na pobyt i pracę?</h2>
+  <p>Jednolite zezwolenie na pobyt i pracę (zwane też „zezwoleniem jednolitym") to karta pobytu, która jednocześnie uprawnia do:</p>
+  <ul>
+    <li><strong>legalnego pobytu w Polsce</strong> — zazwyczaj na okres do 3 lat,</li>
+    <li><strong>wykonywania pracy</strong> u konkretnego pracodawcy, na konkretnym stanowisku i za określonym wynagrodzeniem.</li>
+  </ul>
+  <p>Podstawę prawną stanowi <strong>art. 114 Ustawy o cudzoziemcach</strong>. Jedno zezwolenie zastępuje dwa odrębne dokumenty: zezwolenie na pracę i kartę pobytu. To ogromne uproszczenie dla pracowników, którzy chcą zostać w Polsce dłużej.</p>
+
+  <h2>Kto może się ubiegać?</h2>
+  <p>Jednolite zezwolenie mogą uzyskać cudzoziemcy spoza UE/EOG/Szwajcarii, którzy:</p>
+  <ul>
+    <li>przebywają legalnie w Polsce (np. na podstawie wizy, oświadczenia lub poprzedniej karty pobytu),</li>
+    <li>mają zawartą umowę z pracodawcą (lub agencją pracy tymczasowej),</li>
+    <li>pracodawca wyraża gotowość zatrudnienia ich na określonych warunkach.</li>
+  </ul>
+  <p><strong>Uwaga dla pracowników Nexflow:</strong> Ponieważ Nexflow jest agencją pracy tymczasowej, zezwolenie wydawane jest na Nexflow jako pracodawcę. W treści zezwolenia wskazane są jednak warunki pracy, w tym wynagrodzenie i rodzaj stanowiska. Jeśli zmienisz zakład pracy w ramach Nexflow, konieczne może być uaktualnienie zezwolenia lub złożenie nowego wniosku.</p>
+
+  <h2>Jak złożyć wniosek?</h2>
+  <p><strong>Krok 1: Pracodawca lub ty składa wniosek</strong><br />
+  Wniosek składa się osobiście w <strong>Urzędzie Wojewódzkim</strong> właściwym ze względu na miejsce zamieszkania cudzoziemca. Nexflow może pomóc w przygotowaniu dokumentów po stronie pracodawcy.</p>
+
+  <p><strong>Krok 2: Wymagane dokumenty</strong></p>
+  <ul>
+    <li>wypełniony formularz wniosku,</li>
+    <li>ważny paszport (oryginał + kopia),</li>
+    <li>2 fotografie (35×45 mm),</li>
+    <li>dokumenty potwierdzające zatrudnienie (umowa, oświadczenie pracodawcy),</li>
+    <li>potwierdzenie zamieszkania (umowa najmu lub zaświadczenie od pracodawcy),</li>
+    <li>potwierdzenie opłacenia składek ZUS lub zarobków (opcjonalnie),</li>
+    <li>dowód uiszczenia opłaty skarbowej (ok. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Krok 3: Oczekiwanie na decyzję</strong><br />
+  Czas oczekiwania: od 1 do 6 miesięcy (zależy od urzędu). Przez ten czas możesz legalnie przebywać i pracować w Polsce, jeśli złożyłeś wniosek <strong>przed upływem poprzedniego zezwolenia lub wizy</strong>.</p>
+
+  <p><strong>Krok 4: Odbiór karty pobytu</strong><br />
+  Po pozytywnej decyzji odbierasz fizyczną kartę pobytu z wbudowanym chipem. Karta ma postać biometryczną i jest honorowana w całej strefie Schengen (jako dokument podróżny w połączeniu z paszportem).</p>
+
+  <h2>Co daje jednolite zezwolenie?</h2>
+  <ul>
+    <li><strong>Legalny pobyt i praca</strong> — jeden dokument zamiast dwóch.</li>
+    <li><strong>Swoboda poruszania w Schengen</strong> — możesz podróżować do innych krajów strefy Schengen przez maksymalnie 90 dni w ciągu 180 dni.</li>
+    <li><strong>Ścieżka do stałego pobytu</strong> — po 5 latach legalnego pobytu możesz ubiegać się o zezwolenie na pobyt stały.</li>
+    <li><strong>Dostęp do usług publicznych</strong> — NFZ, szkoła dla dzieci, numer PESEL itp.</li>
+  </ul>
+
+  <h2>Częste pytania</h2>
+  <p><strong>Co jeśli mój wniosek jest w toku i wiza wygasła?</strong><br />
+  Jeśli złożyłeś wniosek przed upływem wizy lub poprzedniej karty pobytu, masz tzw. „stempel" potwierdzający legalizację pobytu do momentu wydania decyzji. Poproś urząd o stempel w paszporcie lub zaświadczenie.</p>
+
+  <p><strong>Czy mogę pracować u innego pracodawcy?</strong><br />
+  Nie bez zmiany zezwolenia. Jednolite zezwolenie wydawane jest na konkretnego pracodawcę. Zmiana pracodawcy wymaga złożenia nowego wniosku lub zmiany decyzji.</p>
+
+  <p><strong>Czy Nexflow pomaga w procesie?</strong><br />
+  Nexflow, jako agencja pracy tymczasowej, jest stroną w procesie ubiegania się o zezwolenie i pomaga przygotować dokumenty pracodawcy. Skontaktuj się z koordynatorem Nexflow, aby dowiedzieć się więcej.</p>
+
+  <h2>Ważne terminy</h2>
+  <table>
+    <thead>
+      <tr><th>Termin</th><th>Czas</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Złożenie wniosku</td><td>Przed wygaśnięciem aktualnego dokumentu</td></tr>
+      <tr><td>Oczekiwanie na decyzję</td><td>1–6 miesięcy</td></tr>
+      <tr><td>Ważność karty pobytu</td><td>Do 3 lat (możliwość przedłużenia)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Podsumowanie</h2>
+  <p>Jednolite zezwolenie na pobyt i pracę to najwygodniejszy dokument dla cudzoziemca pracującego w Polsce długoterminowo. Pozwala legalnie mieszkać i pracować, korzystać z NFZ, otwierać konta bankowe i budować swoją przyszłość w Polsce. Jeśli planujesz zostać w Polsce dłużej — zacznij starania o jednolite zezwolenie jak najwcześniej.</p>
+  <p><strong>Potrzebujesz pomocy? Skontaktuj się z koordynatorem Nexflow — pomożemy Ci zebrać dokumenty i wyjaśnimy każdy krok.</strong></p>
+  <p><em>Nexflow — Twój partner w pracy i w życiu w Polsce.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "iedynyy-dozvil-na-prozhyvannia-i-robotu-polshcha",
+    title: "Єдиний дозвіл на проживання і роботу в Польщі — повний посібник для іноземця",
+    description:
+      "Єдиний дозвіл на проживання і роботу — один документ замість двох. Повний посібник для іноземців, що працюють у Польщі через агентство тимчасової праці.",
+    date: "2026-09-23",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Єдиний дозвіл на проживання і роботу в Польщі — повний посібник для іноземця</h1>
+
+  <p>Якщо ти працюєш у Польщі як іноземець і хочеш врегулювати своє перебування та роботу одним документом — <strong>єдиний дозвіл на проживання і роботу</strong> (польськ. <em>jednolite zezwolenie na pobyt i pracę</em>) саме те, що тобі потрібно. Це один з найважливіших дозволів для іноземців у Польщі, зокрема для тимчасових працівників, що працюють через агентства, такі як Nexflow.</p>
+
+  <h2>Що таке єдиний дозвіл на проживання і роботу?</h2>
+  <p>Єдиний дозвіл — це <strong>картка побуту</strong>, яка одночасно дає право на:</p>
+  <ul>
+    <li><strong>законне проживання в Польщі</strong> — як правило, до 3 років,</li>
+    <li><strong>виконання роботи</strong> у конкретного роботодавця, на конкретній посаді і з визначеною заробітною платою.</li>
+  </ul>
+  <p>Правова підстава — <strong>ст. 114 Закону про іноземців</strong> (<em>Ustawa o cudzoziemcach</em>). Один дозвіл замінює два окремі документи: дозвіл на роботу і картку побуту.</p>
+
+  <h2>Хто може подати заяву?</h2>
+  <p>Єдиний дозвіл можуть отримати громадяни країн, що не входять до ЄС/ЄЕП/Швейцарії, які:</p>
+  <ul>
+    <li>законно перебувають у Польщі (на основі візи, заяви роботодавця або попередньої картки побуту),</li>
+    <li>мають укладений договір з роботодавцем (або агентством тимчасової праці),</li>
+    <li>роботодавець готовий офіційно підтвердити умови роботи.</li>
+  </ul>
+  <p><strong>Увага для працівників Nexflow:</strong> Оскільки Nexflow є агентством тимчасової праці, дозвіл видається на Nexflow як роботодавця. В документі вказуються умови праці: посада та зарплата. Якщо ти змінюєш підприємство-користувача в межах Nexflow, може знадобитися оновлення дозволу або нова заявка.</p>
+
+  <h2>Як подати заяву?</h2>
+  <p><strong>Крок 1: Роботодавець або ти особисто подає заяву</strong><br />
+  Заяву подають особисто у <strong>Воєводській адміністрації</strong> (Urząd Wojewódzki) за місцем проживання іноземця. Nexflow допоможе підготувати документи з боку роботодавця.</p>
+
+  <p><strong>Крок 2: Необхідні документи</strong></p>
+  <ul>
+    <li>заповнений бланк заяви,</li>
+    <li>чинний паспорт (оригінал + копія),</li>
+    <li>2 фотографії (35×45 мм),</li>
+    <li>документи, що підтверджують роботу (договір, оголошення роботодавця),</li>
+    <li>підтвердження місця проживання (договір оренди або довідка від роботодавця),</li>
+    <li>квитанція про сплату мита (прибл. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Крок 3: Очікування на рішення</strong><br />
+  Строк розгляду: від 1 до 6 місяців. Впродовж цього часу ти можеш законно перебувати і працювати у Польщі, якщо подав заяву <strong>до закінчення терміну дії попереднього документа</strong>.</p>
+
+  <p><strong>Крок 4: Отримання картки побуту</strong><br />
+  Після позитивного рішення ти отримуєш фізичну картку побуту з чіпом. Картка є біометричним документом, що визнається по всій Шенгенській зоні.</p>
+
+  <h2>Що дає єдиний дозвіл?</h2>
+  <ul>
+    <li><strong>Законне проживання і робота</strong> — один документ замість двох.</li>
+    <li><strong>Свобода пересування по Шенгену</strong> — подорожі до інших країн зони Шенген (до 90 днів у межах 180 днів).</li>
+    <li><strong>Шлях до постійного проживання</strong> — після 5 років законного перебування ти можеш подати на постійне місце проживання.</li>
+    <li><strong>Доступ до публічних послуг</strong> — NFZ, школа для дітей, номер PESEL тощо.</li>
+  </ul>
+
+  <h2>Поширені запитання</h2>
+  <p><strong>Що, якщо моя заявка ще розглядається, а віза закінчилась?</strong><br />
+  Якщо ти подав заяву до закінчення терміну дії візи або попередньої картки побуту, ти маєш право на так зване «легальне перебування» до вирішення справи. Попроси урядовця поставити спеціальний штамп у паспорт.</p>
+
+  <p><strong>Чи можу я працювати в іншого роботодавця?</strong><br />
+  Ні, без змін до дозволу. Єдиний дозвіл видається на конкретного роботодавця. Зміна роботодавця вимагає нової заяви.</p>
+
+  <p><strong>Чи Nexflow допомагає в цьому процесі?</strong><br />
+  Так. Nexflow як агентство тимчасової праці є стороною в процесі отримання дозволу і допомагає підготувати документи. Зв'яжись зі своїм координатором Nexflow для отримання детальної інформації.</p>
+
+  <h2>Важливі терміни</h2>
+  <table>
+    <thead>
+      <tr><th>Термін</th><th>Строк</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Подання заяви</td><td>До закінчення дії поточного документа</td></tr>
+      <tr><td>Очікування рішення</td><td>1–6 місяців</td></tr>
+      <tr><td>Дійсність картки побуту</td><td>До 3 років (можливе продовження)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Підсумок</h2>
+  <p>Єдиний дозвіл на проживання і роботу — найзручніший документ для іноземця, який планує довгостроково жити і працювати в Польщі. Він дає право на законне проживання, роботу, доступ до NFZ та можливість побудувати своє майбутнє в Польщі. Якщо плануєш залишитися в Польщі надовго — починай клопотати якнайраніше.</p>
+  <p><strong>Потрібна допомога? Зв'яжись зі своїм координатором Nexflow — допоможемо зібрати документи та пояснимо кожен крок.</strong></p>
+  <p><em>Nexflow — твій партнер у роботі і житті в Польщі.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "edinoe-razreshenie-na-prozhivanie-i-rabotu-polsha",
+    title: "Единое разрешение на проживание и работу в Польше — полное руководство для иностранца",
+    description:
+      "Единое разрешение на проживание и работу заменяет карту пребывания и разрешение на работу — полное руководство для иностранных работников, занятых через агентство временного труда в Польше.",
+    date: "2026-09-23",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Единое разрешение на проживание и работу в Польше — полное руководство для иностранца</h1>
+
+  <p>Если вы работаете в Польше как иностранец и хотите урегулировать своё пребывание и работу одним документом — <strong>единое разрешение на проживание и работу</strong> (польск. <em>jednolite zezwolenie na pobyt i pracę</em>) именно то, что вам нужно. Это один из важнейших документов для иностранных работников в Польше, в том числе для временных сотрудников, работающих через агентства занятости, такие как Nexflow.</p>
+
+  <h2>Что такое единое разрешение на проживание и работу?</h2>
+  <p>Единое разрешение — это <strong>карта пребывания</strong>, которая одновременно даёт право на:</p>
+  <ul>
+    <li><strong>законное проживание в Польше</strong> — как правило, на срок до 3 лет,</li>
+    <li><strong>осуществление трудовой деятельности</strong> у конкретного работодателя, на конкретной должности и с оговорённой зарплатой.</li>
+  </ul>
+  <p>Правовая основа — <strong>ст. 114 Закона об иностранцах</strong> (<em>Ustawa o cudzoziemcach</em>). Одно разрешение заменяет два отдельных документа: разрешение на работу и карту пребывания.</p>
+
+  <h2>Кто может подать заявление?</h2>
+  <p>Единое разрешение могут получить граждане стран, не входящих в ЕС/ЕЭЗ/Швейцарию, которые:</p>
+  <ul>
+    <li>законно находятся в Польше (на основании визы, заявления работодателя или предыдущей карты пребывания),</li>
+    <li>имеют заключённый договор с работодателем (или агентством временного труда),</li>
+    <li>работодатель готов официально подтвердить условия трудоустройства.</li>
+  </ul>
+  <p><strong>Внимание для работников Nexflow:</strong> Поскольку Nexflow является агентством временного труда, разрешение выдаётся на Nexflow как работодателя. В документе прописываются условия труда: должность и зарплата. При смене предприятия-пользователя в рамках Nexflow может потребоваться обновление разрешения или подача нового заявления.</p>
+
+  <h2>Как подать заявление?</h2>
+  <p><strong>Шаг 1: Работодатель или вы лично подаёте заявление</strong><br />
+  Заявление подаётся лично в <strong>Воеводском управлении</strong> (Urząd Wojewódzki) по месту проживания иностранца. Nexflow поможет подготовить документы со стороны работодателя.</p>
+
+  <p><strong>Шаг 2: Необходимые документы</strong></p>
+  <ul>
+    <li>заполненный бланк заявления,</li>
+    <li>действующий паспорт (оригинал + копия),</li>
+    <li>2 фотографии (35×45 мм),</li>
+    <li>документы, подтверждающие трудоустройство (договор, декларация работодателя),</li>
+    <li>подтверждение места проживания (договор аренды или справка от работодателя),</li>
+    <li>квитанция об уплате государственной пошлины (около 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Шаг 3: Ожидание решения</strong><br />
+  Срок рассмотрения: от 1 до 6 месяцев. В течение этого времени вы можете законно находиться и работать в Польше, если подали заявление <strong>до истечения срока действия предыдущего документа</strong>.</p>
+
+  <p><strong>Шаг 4: Получение карты пребывания</strong><br />
+  После положительного решения вы получаете физическую карту пребывания с чипом. Карта является биометрическим документом, признаваемым во всей Шенгенской зоне.</p>
+
+  <h2>Что даёт единое разрешение?</h2>
+  <ul>
+    <li><strong>Законное проживание и работа</strong> — один документ вместо двух.</li>
+    <li><strong>Свобода передвижения по Шенгену</strong> — поездки в другие страны Шенгенской зоны (до 90 дней в пределах 180 дней).</li>
+    <li><strong>Путь к постоянному проживанию</strong> — через 5 лет законного пребывания можно подать на постоянный вид на жительство.</li>
+    <li><strong>Доступ к государственным услугам</strong> — NFZ, школа для детей, номер PESEL и т.д.</li>
+  </ul>
+
+  <h2>Частые вопросы</h2>
+  <p><strong>Что если моё заявление рассматривается, а виза истекла?</strong><br />
+  Если вы подали заявление до истечения срока визы или предыдущей карты пребывания, вы имеете право на так называемое «законное пребывание» до вынесения решения. Попросите сотрудника поставить специальный штамп в паспорт.</p>
+
+  <p><strong>Могу ли я работать у другого работодателя?</strong><br />
+  Нет, без изменений в разрешении. Единое разрешение выдаётся на конкретного работодателя. Смена работодателя требует нового заявления.</p>
+
+  <p><strong>Помогает ли Nexflow в этом процессе?</strong><br />
+  Да. Nexflow как агентство временного труда является стороной в процессе получения разрешения и помогает подготовить документы. Свяжитесь со своим координатором Nexflow для получения подробной информации.</p>
+
+  <h2>Важные сроки</h2>
+  <table>
+    <thead>
+      <tr><th>Этап</th><th>Сроки</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Подача заявления</td><td>До истечения действующего документа</td></tr>
+      <tr><td>Ожидание решения</td><td>1–6 месяцев</td></tr>
+      <tr><td>Срок действия карты пребывания</td><td>До 3 лет (возможно продление)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Итог</h2>
+  <p>Единое разрешение на проживание и работу — наиболее удобный документ для иностранца, планирующего долгосрочно жить и работать в Польше. Оно обеспечивает законное пребывание, трудоустройство, доступ к NFZ и позволяет строить своё будущее в Польше. Если вы планируете остаться в Польше надолго — начинайте оформление как можно раньше.</p>
+  <p><strong>Нужна помощь? Свяжитесь со своим координатором Nexflow — мы поможем собрать документы и объясним каждый шаг.</strong></p>
+  <p><em>Nexflow — ваш партнёр в работе и жизни в Польше.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "single-permit-residence-work-poland-foreign-worker",
+    title: "Single Permit for Residence and Work in Poland — Complete Guide for Foreign Workers",
+    description:
+      "The single permit for residence and work combines a Polish residence card and work permit into one document — a complete guide for non-EU workers employed through staffing agencies like Nexflow.",
+    date: "2026-09-23",
+    lang: "en",
+    content: `
+<article>
+  <h1>Single Permit for Residence and Work in Poland — Complete Guide for Foreign Workers</h1>
+
+  <p>If you work in Poland as a non-EU citizen and want to regularise both your stay and employment with a single document, the <strong>single permit for residence and work</strong> (Polish: <em>jednolite zezwolenie na pobyt i pracę</em>) is exactly what you need. It is one of the most important permits for foreign workers in Poland, including temporary employees working through staffing agencies such as Nexflow.</p>
+
+  <h2>What is the single permit for residence and work?</h2>
+  <p>The single permit is a <strong>residence card</strong> that simultaneously grants the right to:</p>
+  <ul>
+    <li><strong>legally reside in Poland</strong> — typically for up to 3 years,</li>
+    <li><strong>perform work</strong> for a specific employer, in a specific position, and for a stated salary.</li>
+  </ul>
+  <p>The legal basis is <strong>Article 114 of the Law on Foreigners</strong> (<em>Ustawa o cudzoziemcach</em>). One permit replaces two separate documents: a work permit and a residence card.</p>
+
+  <h2>Who can apply?</h2>
+  <p>Non-EU/EEA/Swiss nationals can obtain the single permit if they:</p>
+  <ul>
+    <li>are legally present in Poland (on a visa, employer's declaration, or previous residence card),</li>
+    <li>have a contract with an employer (or a temporary employment agency),</li>
+    <li>the employer is willing to formally confirm the employment conditions.</li>
+  </ul>
+  <p><strong>Note for Nexflow workers:</strong> Since Nexflow is a temporary employment agency, the permit is issued with Nexflow as the employer of record. The permit document specifies the terms of work, including position and salary. If you change the user company within Nexflow's assignments, you may need to update or reapply for your permit.</p>
+
+  <h2>How to apply?</h2>
+  <p><strong>Step 1: Submit the application</strong><br />
+  The application is submitted in person at the <strong>Voivodeship Office</strong> (Urząd Wojewódzki) in the region where you live. Nexflow can help prepare the employer-side documents.</p>
+
+  <p><strong>Step 2: Required documents</strong></p>
+  <ul>
+    <li>completed application form,</li>
+    <li>valid passport (original + copy),</li>
+    <li>2 photographs (35×45 mm),</li>
+    <li>documents confirming employment (contract, employer's declaration),</li>
+    <li>proof of accommodation (lease agreement or employer's statement),</li>
+    <li>proof of payment of the administrative fee (approx. 440–500 PLN).</li>
+  </ul>
+
+  <p><strong>Step 3: Wait for a decision</strong><br />
+  Processing time: 1 to 6 months (varies by voivodeship office). During this period you can legally stay and work in Poland, provided you submitted the application <strong>before your previous document expired</strong>.</p>
+
+  <p><strong>Step 4: Collect your residence card</strong><br />
+  After a positive decision, you receive a physical biometric residence card with an embedded chip. The card is recognised throughout the Schengen Area.</p>
+
+  <h2>What does the single permit give you?</h2>
+  <ul>
+    <li><strong>Legal residence and work</strong> — one document instead of two.</li>
+    <li><strong>Freedom of movement in Schengen</strong> — travel to other Schengen countries for up to 90 days within a 180-day period.</li>
+    <li><strong>A path to permanent residence</strong> — after 5 years of legal stay, you can apply for a permanent residence permit.</li>
+    <li><strong>Access to public services</strong> — NFZ health insurance, schooling for children, PESEL number, etc.</li>
+  </ul>
+
+  <h2>Frequently asked questions</h2>
+  <p><strong>What if my application is pending and my visa has expired?</strong><br />
+  If you submitted the application before your visa or previous residence card expired, you are entitled to a "pending stay" status until the decision is issued. Ask the office to stamp your passport with this confirmation.</p>
+
+  <p><strong>Can I work for a different employer?</strong><br />
+  Not without amending the permit. The single permit is issued for a specific employer. Changing employers requires a new application.</p>
+
+  <p><strong>Does Nexflow help with this process?</strong><br />
+  Yes. As a temporary employment agency, Nexflow is a party to the permit process and helps prepare the employer-side documentation. Contact your Nexflow coordinator for detailed guidance.</p>
+
+  <h2>Key timelines</h2>
+  <table>
+    <thead>
+      <tr><th>Stage</th><th>Timeframe</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Submit application</td><td>Before current document expires</td></tr>
+      <tr><td>Wait for decision</td><td>1–6 months</td></tr>
+      <tr><td>Residence card validity</td><td>Up to 3 years (renewable)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Summary</h2>
+  <p>The single permit for residence and work is the most convenient document for a foreign worker planning to live and work in Poland long-term. It provides legal residence, employment authorisation, access to NFZ, and lets you build your future in Poland. If you plan to stay in Poland for the long haul — start the process as early as possible.</p>
+  <p><strong>Need help? Contact your Nexflow coordinator — we'll help you gather the documents and walk you through every step.</strong></p>
+  <p><em>Nexflow — your partner in work and life in Poland.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "kara-porzadkowa-praca-polska-pracownik-tymczasowy",
+    title: "Kara porządkowa w pracy w Polsce — upomnienie i nagana dla pracownika tymczasowego",
+    description:
+      "Czym jest kara porządkowa w Polsce? Upomnienie i nagana — kiedy pracodawca może ukarać pracownika tymczasowego, jak się odwołać i jakie masz prawa zgodnie z Kodeksem pracy.",
+    date: "2026-09-18",
+    lang: "pl",
+    content: `
+<article>
+  <h1>Kara porządkowa w pracy w Polsce — upomnienie i nagana dla pracownika tymczasowego</h1>
+
+  <p>Czy pracodawca może Cię ukarać za spóźnienie, nieobecność lub naruszenie regulaminu pracy? Tak — w Polsce istnieje system kar porządkowych przewidziany przez Kodeks pracy. Jeśli pracujesz w Polsce jako pracownik tymczasowy, masz dokładnie te same prawa co inni pracownicy. Dowiedz się, jakie kary może nałożyć pracodawca, kiedy są bezskuteczne i jak się bronić.</p>
+
+  <h2>Czym jest kara porządkowa?</h2>
+  <p>Kara porządkowa to formalna sankcja, jaką pracodawca może nałożyć na pracownika za naruszenie obowiązków pracowniczych. Podstawę prawną stanowi art. 108–113 Kodeksu pracy.</p>
+  <p><strong>Rodzaje kar porządkowych:</strong></p>
+  <ul>
+    <li><strong>Upomnienie</strong> — łagodniejsza forma, zwykle przy pierwszym przewinieniu</li>
+    <li><strong>Nagana</strong> — poważniejsza forma, przy poważniejszych lub powtarzających się naruszeniach</li>
+  </ul>
+  <p>Za naruszenia związane z bhp lub ochroną mienia pracodawca może dodatkowo nałożyć karę pieniężną (art. 108 § 2 KP) — jest to oddzielna kategoria.</p>
+
+  <h2>Za co pracodawca może ukarać?</h2>
+  <p>Zgodnie z art. 108 Kodeksu pracy, pracodawca może nałożyć karę porządkową za:</p>
+  <ul>
+    <li><strong>Nieprzestrzeganie ustalonego czasu pracy</strong> — spóźnienia, samowolne opuszczenie stanowiska pracy</li>
+    <li><strong>Nieprzestrzeganie regulaminu pracy</strong> — naruszenie zasad obowiązujących w zakładzie</li>
+    <li><strong>Nieprzestrzeganie przepisów bhp i ppoż.</strong> — brak kasku na budowie, palenie w niedozwolonych miejscach</li>
+    <li><strong>Nieodpowiednie zachowanie</strong> — agresja wobec współpracowników, alkohol w pracy</li>
+    <li><strong>Nieusprawiedliwiona nieobecność</strong> — nieinformowanie pracodawcy o chorobie lub nieobecności</li>
+  </ul>
+
+  <h2>Czego pracodawca NIE może zrobić?</h2>
+  <p>Pracodawca <strong>nie może</strong> nałożyć kary porządkowej za:</p>
+  <ul>
+    <li>Niezawinione błędy wynikające z nieznajomości języka polskiego</li>
+    <li>Wykonywanie uprawnień pracowniczych (np. skarga do PIP, odmowa wykonania nielegalnego polecenia)</li>
+    <li>Uczestnictwo w legalnym strajku</li>
+  </ul>
+
+  <h2>Procedura nałożenia kary — Twoje prawa</h2>
+  <p>Pracodawca musi przestrzegać określonej procedury. Jeśli jej nie przestrzega, kara jest bezskuteczna.</p>
+
+  <h3>1. Termin nałożenia kary (art. 109 § 1 KP)</h3>
+  <p>Kara może zostać nałożona <strong>wyłącznie</strong>:</p>
+  <ul>
+    <li>Nie później niż <strong>2 tygodnie</strong> od dnia, w którym pracodawca dowiedział się o naruszeniu, ORAZ</li>
+    <li>Nie później niż <strong>3 miesiące</strong> od dnia naruszenia</li>
+  </ul>
+  <p>Jeśli upłynął któryś z tych terminów — kara jest bezskuteczna.</p>
+
+  <h3>2. Prawo do wysłuchania (art. 109 § 2 KP)</h3>
+  <p>Przed nałożeniem kary <strong>pracodawca ma obowiązek wysłuchać pracownika</strong>. Możesz wyjaśnić swoją wersję wydarzeń. Pominięcie tego kroku czyni karę wadliwą proceduralnie.</p>
+
+  <h3>3. Pisemne zawiadomienie (art. 110 KP)</h3>
+  <p>Pracodawca musi doręczyć Ci <strong>pisemne zawiadomienie</strong> zawierające:</p>
+  <ul>
+    <li>Rodzaj naruszenia i jego datę</li>
+    <li>Informację o prawie do złożenia sprzeciwu</li>
+  </ul>
+  <p>Kara nałożona wyłącznie ustnie jest nieprawidłowa — musi być na piśmie!</p>
+
+  <h2>Jak się odwołać od kary?</h2>
+  <p>Masz <strong>7 dni</strong> od dnia zawiadomienia na wniesienie <strong>sprzeciwu</strong> do pracodawcy (art. 112 KP).</p>
+  <p>Jak napisać sprzeciw:</p>
+  <ul>
+    <li>Sporządź pismo (poproś koordynatora Nexflow o pomoc)</li>
+    <li>Wskaż, że nie zgadzasz się z karą i podaj powód</li>
+    <li>Złóż na piśmie pracodawcy — zachowaj kopię z potwierdzeniem odbioru</li>
+  </ul>
+  <p>Pracodawca ma <strong>14 dni</strong> na rozpatrzenie sprzeciwu. Brak odpowiedzi oznacza odrzucenie sprzeciwu.</p>
+  <p>Po odrzuceniu sprzeciwu masz <strong>14 dni</strong> na złożenie pozwu do <strong>sądu pracy</strong> o uchylenie kary porządkowej.</p>
+
+  <h2>Jak długo kara widnieje w aktach?</h2>
+  <p>Po <strong>roku nienagannej pracy</strong> kara porządkowa jest automatycznie <strong>wymazywana z akt pracowniczych</strong> (art. 113 KP). Pracodawca może też usunąć karę wcześniej, jeśli uzna to za uzasadnione.</p>
+
+  <h2>Pracownicy tymczasowi — szczególna sytuacja</h2>
+  <p>Jako pracownik tymczasowy jesteś formalnie zatrudniony przez <strong>agencję pracy</strong> (Nexflow), a nie przez pracodawcę użytkownika. Dlatego:</p>
+  <ul>
+    <li>Pracodawca użytkownik może zgłosić naruszenie do agencji</li>
+    <li><strong>Agencja przeprowadza procedurę</strong> i nakłada ewentualną karę</li>
+    <li>Masz takie same prawa do sprzeciwu jak pracownik bezpośredni</li>
+  </ul>
+  <p>Jeśli otrzymasz karę porządkową, natychmiast skontaktuj się z koordynatorem Nexflow.</p>
+
+  <h2>Praktyczne porady</h2>
+  <ul>
+    <li><strong>Zawsze wymagaj pisemnego zawiadomienia</strong> — nie przyjmuj kar ustnie</li>
+    <li><strong>Zachowaj kopie wszystkich dokumentów</strong> — korespondencja z pracodawcą i agencją</li>
+    <li><strong>Złóż sprzeciw w terminie</strong> — masz tylko 7 dni, termin jest nieprzekraczalny</li>
+    <li><strong>Skontaktuj się z PIP</strong> (Państwową Inspekcją Pracy), jeśli procedura była nieprawidłowa</li>
+    <li><strong>Bariera językowa to nie Twoja wina</strong> — jeśli nie rozumiałeś polecenia z powodu języka, zaznacz to wyraźnie w sprzeciwie</li>
+  </ul>
+
+  <h2>Podsumowanie</h2>
+  <table>
+    <thead>
+      <tr><th>Zagadnienie</th><th>Szczegóły</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Rodzaje kar</td><td>Upomnienie, nagana</td></tr>
+      <tr><td>Termin nałożenia</td><td>Max 2 tyg. od dowiedzenia się; max 3 mies. od naruszenia</td></tr>
+      <tr><td>Prawo do wysłuchania</td><td>Tak — obowiązkowe przed nałożeniem kary</td></tr>
+      <tr><td>Termin sprzeciwu</td><td>7 dni od zawiadomienia</td></tr>
+      <tr><td>Wymazanie z akt</td><td>Po 1 roku nienagannej pracy</td></tr>
+    </tbody>
+  </table>
+  <p>Pracując przez Nexflow w Polsce, masz pełną ochronę prawa pracy. Masz pytania o karę porządkową lub potrzebujesz pomocy ze sprzeciwem? Skontaktuj się z koordynatorem Nexflow.</p>
+  <p><em>Nexflow — Twój partner w pracy i życiu w Polsce.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "dystsyplinarne-styahnennya-robota-polshcha-pratsivnyk",
+    title: "Дисциплінарне стягнення на роботі в Польщі — попередження та догана для тимчасового працівника",
+    description:
+      "Дисциплінарне стягнення в Польщі: попередження і догана — коли роботодавець може покарати тимчасового працівника, як оскаржити рішення і які у вас права за польським трудовим кодексом.",
+    date: "2026-09-18",
+    lang: "uk",
+    content: `
+<article>
+  <h1>Дисциплінарне стягнення на роботі в Польщі — попередження та догана для тимчасового працівника</h1>
+
+  <p>Чи може роботодавець покарати вас за запізнення, відсутність або порушення правил трудового розпорядку? Так — в Польщі існує система дисциплінарних стягнень, передбачена Трудовим кодексом. Як тимчасовий працівник ви маєте точно такі ж права, як й інші працівники. Дізнайтеся, як захистити себе.</p>
+
+  <h2>Що таке дисциплінарне стягнення?</h2>
+  <p>Дисциплінарне стягнення (kara porządkowa) — це офіційна санкція, яку роботодавець може накласти за порушення трудових обов'язків. Правова основа — ст. 108–113 Трудового кодексу Польщі.</p>
+  <p><strong>Види стягнень:</strong></p>
+  <ul>
+    <li><strong>Упомінання (upomnienie)</strong> — легша форма, зазвичай при першому порушенні</li>
+    <li><strong>Догана (nagana)</strong> — серйозніша форма, за повторні або грубіші порушення</li>
+  </ul>
+
+  <h2>За що можна отримати стягнення?</h2>
+  <p>Роботодавець може накласти стягнення за:</p>
+  <ul>
+    <li><strong>Порушення режиму робочого часу</strong> — запізнення, самовільне залишення робочого місця</li>
+    <li><strong>Недотримання правил трудового розпорядку</strong> — порушення внутрішніх правил підприємства</li>
+    <li><strong>Порушення правил охорони праці та пожежної безпеки</strong> — відсутність каски, паління в заборонених місцях</li>
+    <li><strong>Неналежна поведінка</strong> — агресія щодо колег, алкоголь на роботі</li>
+    <li><strong>Неповажна відсутність</strong> — неповідомлення роботодавця про хворобу або відсутність</li>
+  </ul>
+
+  <h2>Чого роботодавець НЕ може зробити?</h2>
+  <p>Роботодавець <strong>не може</strong> накладати стягнення за:</p>
+  <ul>
+    <li>Ненавмисні помилки через незнання польської мови</li>
+    <li>Реалізацію трудових прав (скарга до PIP, відмова від незаконного доручення)</li>
+    <li>Участь у законному страйку</li>
+  </ul>
+
+  <h2>Процедура накладення стягнення — ваші права</h2>
+
+  <h3>1. Строки накладення (ст. 109 § 1 КП)</h3>
+  <p>Стягнення може бути накладено <strong>лише</strong>:</p>
+  <ul>
+    <li>Не пізніше <strong>2 тижнів</strong> з дня, коли роботодавець дізнався про порушення, І</li>
+    <li>Не пізніше <strong>3 місяців</strong> з дня самого порушення</li>
+  </ul>
+  <p>Якщо строк минув — стягнення є недійсним.</p>
+
+  <h3>2. Право бути почутим (ст. 109 § 2 КП)</h3>
+  <p>Перед накладенням стягнення <strong>роботодавець зобов'язаний вислухати вас</strong>. Ви маєте право пояснити свою версію подій.</p>
+
+  <h3>3. Письмове повідомлення (ст. 110 КП)</h3>
+  <p>Роботодавець зобов'язаний вручити вам <strong>письмове повідомлення</strong> із зазначенням:</p>
+  <ul>
+    <li>Виду та дати порушення</li>
+    <li>Інформації про право на заперечення</li>
+  </ul>
+  <p>Усне стягнення є незаконним — воно має бути лише в письмовій формі!</p>
+
+  <h2>Як оскаржити стягнення?</h2>
+  <p>У вас є <strong>7 днів</strong> з дня отримання повідомлення для подання <strong>заперечення (sprzeciw)</strong> роботодавцю (ст. 112 КП).</p>
+  <p>Роботодавець має <strong>14 днів</strong> на розгляд. Відсутність відповіді означає відхилення заперечення.</p>
+  <p>Якщо заперечення відхилено — у вас є <strong>14 днів</strong> для звернення до <strong>трудового суду</strong> з позовом про скасування стягнення.</p>
+
+  <h2>Скільки часу зберігається стягнення?</h2>
+  <p>Після <strong>1 року бездоганної роботи</strong> стягнення автоматично <strong>анулюється</strong> (ст. 113 КП). Роботодавець може також видалити його раніше.</p>
+
+  <h2>Тимчасові працівники — особлива ситуація</h2>
+  <p>Як тимчасовий працівник, ваш формальний роботодавець — агентство (Nexflow), а не підприємство-користувач. Тому:</p>
+  <ul>
+    <li>Підприємство може повідомити агентство про порушення</li>
+    <li><strong>Агентство проводить процедуру</strong> і накладає стягнення</li>
+    <li>Ви маєте ті ж права на заперечення, що й прямий працівник</li>
+  </ul>
+  <p>Отримали стягнення? Негайно зверніться до координатора Nexflow.</p>
+
+  <h2>Практичні поради</h2>
+  <ul>
+    <li><strong>Завжди вимагайте письмового повідомлення</strong> — не приймайте стягнень усно</li>
+    <li><strong>Зберігайте копії всіх документів</strong> — листування з роботодавцем та агентством</li>
+    <li><strong>Подайте заперечення вчасно</strong> — у вас лише 7 днів, строк непорушний</li>
+    <li><strong>Зверніться до PIP</strong> (Державної інспекції праці), якщо процедура порушена</li>
+    <li><strong>Мовний бар'єр — не ваша провина</strong> — вкажіть це в запереченні, якщо не розуміли завдання</li>
+  </ul>
+
+  <h2>Короткий підсумок</h2>
+  <table>
+    <thead>
+      <tr><th>Питання</th><th>Деталі</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Стягнення</td><td>Попередження (upomnienie), догана (nagana)</td></tr>
+      <tr><td>Строк накладення</td><td>Макс. 2 тижні від дізнання; макс. 3 місяці від порушення</td></tr>
+      <tr><td>Право бути почутим</td><td>Так — обов'язково перед стягненням</td></tr>
+      <tr><td>Строк заперечення</td><td>7 днів з повідомлення</td></tr>
+      <tr><td>Анулювання</td><td>Після 1 року бездоганної роботи</td></tr>
+    </tbody>
+  </table>
+  <p>Працюючи через Nexflow у Польщі, ви під повним захистом польського трудового права. Маєте питання — зверніться до координатора Nexflow.</p>
+  <p><em>Nexflow — ваш партнер у роботі та житті в Польщі.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "distsiplinarnoe-vzyskanie-rabota-polsha-rabotnik",
+    title: "Дисциплинарное взыскание на работе в Польше — предупреждение и выговор для временного работника",
+    description:
+      "Дисциплинарное взыскание в Польше: предупреждение и выговор — когда работодатель может наказать временного работника, как обжаловать и каковы ваши права по польскому трудовому кодексу.",
+    date: "2026-09-18",
+    lang: "ru",
+    content: `
+<article>
+  <h1>Дисциплинарное взыскание на работе в Польше — предупреждение и выговор для временного работника</h1>
+
+  <p>Может ли работодатель наказать вас за опоздание, отсутствие или нарушение правил трудового распорядка? Да — в Польше существует система дисциплинарных взысканий, предусмотренная Трудовым кодексом. Как временный работник вы имеете точно такие же права, как и все остальные работники.</p>
+
+  <h2>Что такое дисциплинарное взыскание?</h2>
+  <p>Дисциплинарное взыскание (kara porządkowa) — это официальная санкция, которую работодатель может наложить за нарушение трудовых обязанностей. Правовая основа — ст. 108–113 Трудового кодекса Польши.</p>
+  <p><strong>Виды взысканий:</strong></p>
+  <ul>
+    <li><strong>Предупреждение (upomnienie)</strong> — более мягкая форма, как правило при первом нарушении</li>
+    <li><strong>Выговор (nagana)</strong> — более серьёзная форма, при повторных или более грубых нарушениях</li>
+  </ul>
+
+  <h2>За что можно получить взыскание?</h2>
+  <p>Работодатель может наложить взыскание за:</p>
+  <ul>
+    <li><strong>Нарушение режима рабочего времени</strong> — опоздания, самовольное оставление рабочего места</li>
+    <li><strong>Несоблюдение правил внутреннего распорядка</strong> — нарушение внутренних правил предприятия</li>
+    <li><strong>Нарушение правил охраны труда и пожарной безопасности</strong> — отсутствие каски, курение в неположенных местах</li>
+    <li><strong>Ненадлежащее поведение</strong> — агрессия по отношению к коллегам, алкоголь на работе</li>
+    <li><strong>Неуважительное отсутствие</strong> — неизвещение работодателя о болезни или отсутствии</li>
+  </ul>
+
+  <h2>Чего работодатель НЕ может сделать?</h2>
+  <p>Работодатель <strong>не может</strong> накладывать взыскание за:</p>
+  <ul>
+    <li>Непреднамеренные ошибки из-за незнания польского языка</li>
+    <li>Реализацию трудовых прав (жалоба в PIP, отказ от незаконного поручения)</li>
+    <li>Участие в законной забастовке</li>
+  </ul>
+
+  <h2>Процедура наложения взыскания — ваши права</h2>
+
+  <h3>1. Сроки наложения (ст. 109 § 1 КП)</h3>
+  <p>Взыскание может быть наложено <strong>только</strong>:</p>
+  <ul>
+    <li>Не позднее <strong>2 недель</strong> со дня, когда работодатель узнал о нарушении, И</li>
+    <li>Не позднее <strong>3 месяцев</strong> со дня самого нарушения</li>
+  </ul>
+  <p>Если срок истёк — взыскание является недействительным.</p>
+
+  <h3>2. Право быть выслушанным (ст. 109 § 2 КП)</h3>
+  <p>Перед наложением взыскания <strong>работодатель обязан выслушать вас</strong>. Вы имеете право объяснить свою версию событий.</p>
+
+  <h3>3. Письменное уведомление (ст. 110 КП)</h3>
+  <p>Работодатель обязан вручить вам <strong>письменное уведомление</strong> с указанием:</p>
+  <ul>
+    <li>Вида и даты нарушения</li>
+    <li>Информации о праве на возражение</li>
+  </ul>
+  <p>Устное взыскание является незаконным — оно должно быть только в письменной форме!</p>
+
+  <h2>Как обжаловать взыскание?</h2>
+  <p>У вас есть <strong>7 дней</strong> с даты получения уведомления для подачи <strong>возражения (sprzeciw)</strong> работодателю (ст. 112 КП).</p>
+  <p>Работодатель имеет <strong>14 дней</strong> на рассмотрение. Отсутствие ответа означает отклонение возражения.</p>
+  <p>Если возражение отклонено — у вас есть <strong>14 дней</strong> для обращения в <strong>трудовой суд</strong> с иском об отмене взыскания.</p>
+
+  <h2>Как долго взыскание хранится в личном деле?</h2>
+  <p>После <strong>1 года безупречной работы</strong> взыскание автоматически <strong>аннулируется</strong> (ст. 113 КП). Работодатель может также удалить его раньше.</p>
+
+  <h2>Временные работники — особая ситуация</h2>
+  <p>Как временный работник, ваш формальный работодатель — агентство (Nexflow), а не работодатель-пользователь. Поэтому:</p>
+  <ul>
+    <li>Предприятие может сообщить о нарушении агентству</li>
+    <li><strong>Агентство проводит процедуру</strong> и налагает взыскание</li>
+    <li>Вы имеете те же права на возражение, что и прямой работник</li>
+  </ul>
+  <p>Получили взыскание? Немедленно обратитесь к координатору Nexflow.</p>
+
+  <h2>Практические советы</h2>
+  <ul>
+    <li><strong>Всегда требуйте письменного уведомления</strong> — не принимайте взыскания в устной форме</li>
+    <li><strong>Сохраняйте копии всех документов</strong> — переписка с работодателем и агентством</li>
+    <li><strong>Подайте возражение вовремя</strong> — только 7 дней, срок жёсткий</li>
+    <li><strong>Обратитесь в PIP</strong> (Государственную инспекцию труда), если процедура была нарушена</li>
+    <li><strong>Языковой барьер — не ваша вина</strong> — укажите это в возражении, если не понимали задание</li>
+  </ul>
+
+  <h2>Краткий итог</h2>
+  <table>
+    <thead>
+      <tr><th>Вопрос</th><th>Детали</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Виды взысканий</td><td>Предупреждение (upomnienie), выговор (nagana)</td></tr>
+      <tr><td>Срок наложения</td><td>Макс. 2 недели от извещения; макс. 3 месяца от нарушения</td></tr>
+      <tr><td>Право быть выслушанным</td><td>Да — обязательно перед взысканием</td></tr>
+      <tr><td>Срок возражения</td><td>7 дней с уведомления</td></tr>
+      <tr><td>Аннулирование</td><td>После 1 года безупречной работы</td></tr>
+    </tbody>
+  </table>
+  <p>Работая через Nexflow в Польше, вы находитесь под полной защитой польского трудового законодательства. Есть вопросы — обратитесь к координатору Nexflow.</p>
+  <p><em>Nexflow — ваш партнёр в работе и жизни в Польше.</em></p>
+</article>
+    `.trim(),
+  },
+  {
+    slug: "disciplinary-action-work-poland-temp-worker",
+    title: "Disciplinary Action at Work in Poland — Warning and Reprimand for Temp Workers",
+    description:
+      "Disciplinary action in Poland: warning (upomnienie) and reprimand (nagana) — when can an employer discipline a temp worker, how to appeal, and what are your rights under Polish labour law.",
+    date: "2026-09-18",
+    lang: "en",
+    content: `
+<article>
+  <h1>Disciplinary Action at Work in Poland — Warning and Reprimand for Temp Workers</h1>
+
+  <p>Can your employer punish you for being late, absent, or violating workplace rules? Yes — Poland has a formal system of disciplinary penalties under the Labour Code. As a temporary worker, you have exactly the same rights as all other employees. Here is what you need to know about warnings, reprimands, and how to appeal.</p>
+
+  <h2>What Is a Disciplinary Penalty?</h2>
+  <p>A disciplinary penalty (kara porządkowa) is a formal sanction an employer may impose for breaching work duties. The legal basis is Art. 108–113 of the Polish Labour Code (Kodeks pracy).</p>
+  <p><strong>Types of disciplinary penalties:</strong></p>
+  <ul>
+    <li><strong>Warning (upomnienie)</strong> — a milder form, typically for a first offence</li>
+    <li><strong>Reprimand (nagana)</strong> — a more serious form, for repeated or more serious breaches</li>
+  </ul>
+  <p>For breaches related to health and safety or property protection, employers may also impose a financial penalty under Art. 108 § 2 LC — this is a separate category that applies in specific circumstances.</p>
+
+  <h2>What Can You Be Disciplined For?</h2>
+  <p>Under Art. 108 of the Labour Code, an employer may impose a disciplinary penalty for:</p>
+  <ul>
+    <li><strong>Violating working time rules</strong> — lateness, leaving your post without permission</li>
+    <li><strong>Breaching workplace regulations</strong> — violating internal rules of the workplace</li>
+    <li><strong>Breaching health and safety or fire safety regulations</strong> — not wearing a hard hat, smoking in prohibited areas</li>
+    <li><strong>Inappropriate behaviour</strong> — aggression towards colleagues, drinking alcohol at work</li>
+    <li><strong>Unjustified absence</strong> — failing to notify the employer of illness or absence</li>
+  </ul>
+
+  <h2>What Employers Cannot Do</h2>
+  <p>An employer <strong>cannot</strong> impose a disciplinary penalty for:</p>
+  <ul>
+    <li>Unintentional mistakes caused by a genuine language barrier</li>
+    <li>Exercising legitimate employee rights (e.g. filing a complaint with the Labour Inspectorate, refusing an unlawful order)</li>
+    <li>Participating in a lawful strike</li>
+  </ul>
+
+  <h2>The Procedure — Your Rights</h2>
+  <p>Employers must follow a strict procedure. If they fail to do so, the penalty is void.</p>
+
+  <h3>1. Time Limits (Art. 109 § 1 LC)</h3>
+  <p>A penalty can only be imposed:</p>
+  <ul>
+    <li>No later than <strong>2 weeks</strong> after the employer learned of the breach, AND</li>
+    <li>No later than <strong>3 months</strong> after the breach occurred</li>
+  </ul>
+  <p>If either deadline has passed, the penalty is unenforceable.</p>
+
+  <h3>2. Right to Be Heard (Art. 109 § 2 LC)</h3>
+  <p>Before imposing a penalty, <strong>the employer must hear the employee's version of events</strong>. You have the right to explain what happened. Skipping this step makes the penalty procedurally defective.</p>
+
+  <h3>3. Written Notice (Art. 110 LC)</h3>
+  <p>The employer must give you a <strong>written notice</strong> specifying:</p>
+  <ul>
+    <li>The type and date of the breach</li>
+    <li>Information about your right to object</li>
+  </ul>
+  <p>An oral penalty is illegal — it must always be in writing.</p>
+
+  <h2>How to Appeal a Disciplinary Penalty</h2>
+  <p>You have <strong>7 days</strong> from receiving the notice to file an <strong>objection (sprzeciw)</strong> with the employer (Art. 112 LC).</p>
+  <p>The employer has <strong>14 days</strong> to respond. If they do not reply, the objection is deemed rejected.</p>
+  <p>If your objection is rejected, you have <strong>14 days</strong> to take the case to the <strong>Labour Court (Sąd Pracy)</strong> to have the penalty overturned.</p>
+
+  <h2>How Long Does It Stay on Your Record?</h2>
+  <p>After <strong>1 year of clean conduct</strong>, the disciplinary penalty is automatically <strong>removed from your personnel file</strong> (Art. 113 LC). The employer may also remove it earlier if they consider it justified.</p>
+
+  <h2>Temp Workers — Your Special Situation</h2>
+  <p>As a temp worker, your formal employer is the <strong>staffing agency</strong> (Nexflow), not the client company where you work day to day. This means:</p>
+  <ul>
+    <li>The client company can report a breach to the agency</li>
+    <li>The <strong>agency conducts the disciplinary procedure</strong> and imposes any penalty</li>
+    <li>You have the same objection and appeal rights as a direct employee</li>
+  </ul>
+  <p>If you receive any form of disciplinary notice, contact your Nexflow coordinator immediately.</p>
+
+  <h2>Practical Tips</h2>
+  <ul>
+    <li><strong>Always ask for written documentation</strong> — never accept an oral penalty</li>
+    <li><strong>Keep copies of all documents</strong> — correspondence with the employer and agency</li>
+    <li><strong>File your objection within 7 days</strong> — the deadline is strict and cannot be extended</li>
+    <li><strong>Contact PIP</strong> (National Labour Inspectorate) if the procedure was irregular</li>
+    <li><strong>Language barrier is not your fault</strong> — if you did not understand an instruction due to language, state this clearly in your objection</li>
+  </ul>
+
+  <h2>Summary</h2>
+  <table>
+    <thead>
+      <tr><th>Topic</th><th>Details</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Types of penalty</td><td>Warning (upomnienie), Reprimand (nagana)</td></tr>
+      <tr><td>Time limits</td><td>Max 2 weeks from employer learning; max 3 months from breach</td></tr>
+      <tr><td>Right to be heard</td><td>Yes — mandatory before any penalty</td></tr>
+      <tr><td>Objection deadline</td><td>7 days from written notice</td></tr>
+      <tr><td>Expiry from record</td><td>After 1 year of clean conduct</td></tr>
+    </tbody>
+  </table>
+  <p>Working through Nexflow in Poland, you have full protection under Polish labour law. If you receive a disciplinary notice and need help with your objection, contact your Nexflow coordinator — we are here to support you.</p>
+  <p><em>Nexflow — your partner in work and life in Poland.</em></p>
+</article>
+    `.trim(),
+  },
+  {
     slug: "18-miesiecy-praca-tymczasowa-polska-limit-prawa",
     title: "18 miesięcy pracy tymczasowej w Polsce — limit, Twoje prawa i co dalej",
     description:
-      "Limit 18 miesięcy pracy tymczasowej w Polsce — przepisy ustawy, jak liczyć czas pracy u pracodawcy użytkownika, co się dzieje po przekroczeniu limitu i jak Nexflow pomaga w przejściu do nowego miejsca pracy.",
+      "Ustawa o zatrudnieniu pracowników tymczasowych ogranicza pracę u jednego pracodawcy użytkownika do 18 miesięcy w ciągu 36. Dowiedz się, jak liczyć ten limit, co się dzieje po jego wyczerpaniu i jak Nexflow pomaga w planowaniu dalszej kariery.",
     date: "2026-09-21",
     lang: "pl",
     content: `
 <p>Jeśli pracujesz w Polsce przez agencję pracy tymczasowej, musisz wiedzieć o ważnym ograniczeniu wynikającym z polskiego prawa. <strong>Ustawa o zatrudnieniu pracowników tymczasowych (z dnia 9 lipca 2003 r.)</strong> stanowi, że możesz pracować u tego samego pracodawcy użytkownika przez <strong>maksymalnie 18 miesięcy w ciągu kolejnych 36 miesięcy</strong>. Dowiedz się, co to oznacza w praktyce i jakie masz prawa.</p>
 
 <h2>Czym jest limit 18 miesięcy?</h2>
-
 <p>Zgodnie z art. 20 ustawy o zatrudnieniu pracowników tymczasowych, agencja pracy tymczasowej (np. Nexflow) <strong>nie może skierować Cię do wykonywania pracy</strong> u tego samego pracodawcy użytkownika (czyli firmy, w której faktycznie pracujesz) przez okres <strong>dłuższy niż 18 miesięcy łącznie w ciągu 36 kolejnych miesięcy</strong>.</p>
-
 <p>Ważne: limit dotyczy konkretnego pracodawcy użytkownika — <strong>nie agencji</strong>. Oznacza to, że:</p>
 <ul>
   <li>Możesz pracować przez agencję Nexflow bez ograniczenia czasowego.</li>
@@ -23373,9 +28039,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Jak liczyć te 18 miesięcy?</h2>
-
 <p>Czas pracy jest liczony łącznie — niezależnie od tego, czy pracowałeś przez jeden, czy kilka oddzielnych kontraktów. Przerwy krótsze niż 36 miesięcy nie "zerują" licznika.</p>
-
 <p><strong>Przykład:</strong> Pracujesz w magazynie X przez agencję Nexflow:</p>
 <ul>
   <li>Styczeń 2026 – Grudzień 2026 = 12 miesięcy (przez Nexflow)</li>
@@ -23384,16 +28048,14 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Co się dzieje po przekroczeniu limitu?</h2>
-
-<p>Jeśli limit 18 miesięcy zostanie wyczerpany, masz kilka opcji:</p>
+<p>Jeśli limit 18 miesięcy zostanie wyczerpany, masz następujące opcje:</p>
 <ol>
-  <li><strong>Przerwa:</strong> Nie możesz pracować u tego pracodawcy użytkownika, aż "okno 36 miesięcy" przesunie się wystarczająco.</li>
+  <li><strong>Przerwa:</strong> Nie możesz pracować u tego pracodawcy użytkownika przez kolejny czas, aż "okno 36 miesięcy" przesunie się wystarczająco.</li>
   <li><strong>Przejście do innej firmy:</strong> Agencja Nexflow może skierować Cię do innego pracodawcy użytkownika — co jest najczęstszym rozwiązaniem.</li>
   <li><strong>Zatrudnienie bezpośrednie:</strong> Pracodawca użytkownik może zdecydować się zatrudnić Cię bezpośrednio (umowa o pracę), co pozwala kontynuować pracę w tym samym miejscu bez ograniczeń agencyjnych.</li>
 </ol>
 
 <h2>Co z pozwoleniem na pracę?</h2>
-
 <p>Jako cudzoziemiec musisz pamiętać, że:</p>
 <ul>
   <li>Twoje <strong>zezwolenie na pracę lub oświadczenie o powierzeniu pracy</strong> jest wystawione przez <strong>agencję</strong> (Nexflow) jako pracodawcę — nie przez pracodawcę użytkownika.</li>
@@ -23402,7 +28064,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Jak Nexflow monitoruje ten limit?</h2>
-
 <p>Agencja Nexflow śledzi czas pracy każdego pracownika u każdego pracodawcy użytkownika. Gdy zbliżasz się do limitu 18 miesięcy, koordynator w agencji skontaktuje się z Tobą, aby:</p>
 <ul>
   <li>Omówić możliwości kontynuacji u innego klienta.</li>
@@ -23411,32 +28072,26 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Podsumowanie — kluczowe punkty</h2>
-
 <p>✅ Maksymalnie <strong>18 miesięcy</strong> u tego samego pracodawcy użytkownika w ciągu 36 miesięcy.<br>
 ✅ Limit dotyczy firmy, <strong>nie agencji</strong> — z Nexflow możesz pracować dłużej.<br>
 ✅ Po wyczerpaniu limitu: zmiana miejsca pracy lub przerwa.<br>
 ✅ Agencja (Nexflow) obsługuje formalności związane z pozwoleniami na pracę.<br>
 ✅ Poinformuj agencję z wyprzedzeniem — nie czekaj do ostatniego dnia.</p>
-
 <p>Masz pytania? Skontaktuj się ze swoim koordynatorem w Nexflow — pomożemy Ci zaplanować dalszą karierę w Polsce.</p>
-
-<p><em>Nexflow Sp. z o.o. | Agencja pracy tymczasowej | nexflow.work</em></p>
     `.trim(),
   },
   {
     slug: "18-misyatsiv-tymchasova-robota-polshcha-limit-prava",
     title: "18 місяців тимчасової роботи в Польщі через агентство — ліміт, права та що далі",
     description:
-      "Ліміт 18 місяців тимчасової роботи в Польщі — що говорить закон, як підраховується час роботи у роботодавця-користувача, варіанти після вичерпання ліміту та підтримка Nexflow при переведенні.",
+      "Польський закон обмежує роботу у того самого роботодавця-користувача до 18 місяців протягом 36. Дізнайтеся, як рахувати цей ліміт, що відбувається після його вичерпання і як Nexflow допомагає у плануванні подальшої кар'єри.",
     date: "2026-09-21",
     lang: "uk",
     content: `
 <p>Якщо ви працюєте в Польщі через агентство тимчасової праці, вам потрібно знати про важливе обмеження польського законодавства. <strong>Закон про зайнятість тимчасових працівників (від 9 липня 2003 р.)</strong> встановлює, що ви можете працювати у того самого роботодавця-користувача <strong>не більше 18 місяців протягом будь-яких 36 послідовних місяців</strong>. Дізнайтеся, що це означає на практиці.</p>
 
 <h2>Що таке ліміт 18 місяців?</h2>
-
 <p>Відповідно до ст. 20 Закону, агентство тимчасової праці (наприклад, Nexflow) <strong>не може направляти вас</strong> до того самого роботодавця-користувача (тобто компанії, де ви фактично працюєте) на строк <strong>понад 18 місяців сумарно протягом 36 послідовних місяців</strong>.</p>
-
 <p>Важливо: ліміт стосується конкретного роботодавця-користувача — <strong>не агентства</strong>:</p>
 <ul>
   <li>Ви можете працювати через Nexflow без обмежень за часом.</li>
@@ -23445,9 +28100,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Як рахувати ці 18 місяців?</h2>
-
 <p>Час роботи підраховується сумарно — незалежно від кількості окремих договорів. Перерви менші за 36 місяців не "обнуляють" лічильник.</p>
-
 <p><strong>Приклад:</strong> Ви працюєте на складі X через Nexflow:</p>
 <ul>
   <li>Січень 2026 – Грудень 2026 = 12 місяців (через Nexflow)</li>
@@ -23456,7 +28109,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Що відбувається після досягнення ліміту?</h2>
-
 <p>Після вичерпання 18 місяців у вас є кілька варіантів:</p>
 <ol>
   <li><strong>Перерва:</strong> Поки "вікно 36 місяців" не зміститься, ви не можете повернутися до того самого роботодавця-користувача.</li>
@@ -23465,7 +28117,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ol>
 
 <h2>Що з дозволом на роботу?</h2>
-
 <p>Як іноземець пам'ятайте:</p>
 <ul>
   <li>Ваш <strong>дозвіл на роботу або заява про доручення роботи (oświadczenie)</strong> виданий агентством (Nexflow) як роботодавцем — не роботодавцем-користувачем.</li>
@@ -23474,7 +28125,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Як Nexflow відстежує цей ліміт?</h2>
-
 <p>Nexflow стежить за часом роботи кожного працівника у кожного роботодавця-користувача. Коли ви наближаєтеся до 18 місяців, координатор зв'яжеться з вами, щоб:</p>
 <ul>
   <li>Обговорити варіанти продовження у іншого клієнта.</li>
@@ -23483,32 +28133,26 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Підсумок — ключові моменти</h2>
-
 <p>✅ Максимум <strong>18 місяців</strong> у того самого роботодавця-користувача протягом 36 місяців.<br>
 ✅ Ліміт стосується компанії, <strong>не агентства</strong> — з Nexflow ви можете працювати довше.<br>
 ✅ Після вичерпання ліміту: зміна місця роботи або перерва.<br>
 ✅ Nexflow займається документацією щодо дозволів на роботу.<br>
 ✅ Повідомте агентство заздалегідь — не чекайте до останнього дня.</p>
-
 <p>Маєте питання? Зверніться до свого координатора в Nexflow — ми допоможемо вам спланувати подальшу кар'єру в Польщі.</p>
-
-<p><em>Nexflow Sp. z o.o. | Агентство тимчасової праці | nexflow.work</em></p>
     `.trim(),
   },
   {
     slug: "18-mesyatsev-vremennaya-rabota-polsha-limit-prava",
     title: "18 месяцев временной работы в Польше через агентство — лимит, права и что дальше",
     description:
-      "Лимит 18 месяцев временной работы в Польше — что говорит закон, как подсчитывается время работы у работодателя-пользователя, варианты после исчерпания лимита и помощь Nexflow при переводе.",
+      "Польский закон ограничивает работу у одного работодателя-пользователя 18 месяцами в течение 36. Узнайте, как считать этот лимит, что происходит после его исчерпания и как Nexflow помогает в планировании дальнейшей карьеры.",
     date: "2026-09-21",
     lang: "ru",
     content: `
 <p>Если вы работаете в Польше через агентство временного труда, вам необходимо знать о важном ограничении польского законодательства. <strong>Закон о занятости временных работников (от 9 июля 2003 г.)</strong> устанавливает, что вы можете работать у одного и того же работодателя-пользователя <strong>не более 18 месяцев в течение любых 36 последовательных месяцев</strong>. Узнайте, что это означает на практике.</p>
 
 <h2>Что такое лимит 18 месяцев?</h2>
-
 <p>Согласно ст. 20 Закона, агентство временного труда (например, Nexflow) <strong>не может направлять вас</strong> к тому же работодателю-пользователю (то есть компании, где вы фактически работаете) на срок <strong>более 18 месяцев суммарно в течение 36 последовательных месяцев</strong>.</p>
-
 <p>Важно: лимит касается конкретного работодателя-пользователя — <strong>не агентства</strong>:</p>
 <ul>
   <li>Вы можете работать через Nexflow без временных ограничений.</li>
@@ -23517,9 +28161,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Как считать эти 18 месяцев?</h2>
-
 <p>Время работы подсчитывается суммарно — независимо от количества отдельных договоров. Перерывы менее 36 месяцев не "обнуляют" счётчик.</p>
-
 <p><strong>Пример:</strong> Вы работаете на складе X через Nexflow:</p>
 <ul>
   <li>Январь 2026 – Декабрь 2026 = 12 месяцев (через Nexflow)</li>
@@ -23528,7 +28170,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Что происходит после достижения лимита?</h2>
-
 <p>После исчерпания 18 месяцев у вас есть несколько вариантов:</p>
 <ol>
   <li><strong>Перерыв:</strong> Пока "окно 36 месяцев" не сдвинется, вы не можете вернуться к тому же работодателю-пользователю.</li>
@@ -23537,7 +28178,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ol>
 
 <h2>Что с разрешением на работу?</h2>
-
 <p>Как иностранцу вам нужно помнить:</p>
 <ul>
   <li>Ваше <strong>разрешение на работу или заявление о поручении работы (oświadczenie)</strong> выдано агентством (Nexflow) как работодателем — не работодателем-пользователем.</li>
@@ -23546,7 +28186,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Как Nexflow отслеживает этот лимит?</h2>
-
 <p>Nexflow следит за временем работы каждого сотрудника у каждого работодателя-пользователя. Когда вы приближаетесь к 18 месяцам, координатор свяжется с вами, чтобы:</p>
 <ul>
   <li>Обсудить варианты продолжения у другого клиента.</li>
@@ -23555,32 +28194,26 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Резюме — ключевые моменты</h2>
-
 <p>✅ Максимум <strong>18 месяцев</strong> у одного работодателя-пользователя за 36 месяцев.<br>
 ✅ Лимит касается компании, <strong>не агентства</strong> — с Nexflow вы можете работать дольше.<br>
 ✅ После исчерпания лимита: смена места работы или перерыв.<br>
 ✅ Nexflow занимается документацией по разрешениям на работу.<br>
 ✅ Сообщите агентству заранее — не ждите последнего дня.</p>
-
 <p>Есть вопросы? Обратитесь к своему координатору в Nexflow — мы поможем вам спланировать дальнейшую карьеру в Польше.</p>
-
-<p><em>Nexflow Sp. z o.o. | Агентство временного труда | nexflow.work</em></p>
     `.trim(),
   },
   {
     slug: "18-months-temp-work-agency-poland-limit-rights",
     title: "18 Months of Temp Work Through an Agency in Poland — The Limit, Your Rights, and What Comes Next",
     description:
-      "The 18-month temp work limit in Poland explained — what Polish law says, how to count your time at a user enterprise, what happens when the limit is reached, and how Nexflow supports your next steps.",
+      "Polish law limits temporary agency assignments at the same user enterprise to 18 months within any 36-month period. Learn how the clock is counted, what happens when the limit is reached, and how Nexflow supports your next steps.",
     date: "2026-09-21",
     lang: "en",
     content: `
 <p>If you work in Poland through a temporary employment agency, there is an important legal limit you should understand. The <strong>Polish Temporary Employment Act (July 9, 2003)</strong> limits how long you can be assigned to the same user enterprise: <strong>a maximum of 18 months within any rolling 36-month period</strong>. Here is what this means for you in practice.</p>
 
 <h2>What Is the 18-Month Limit?</h2>
-
 <p>Under Article 20 of the Act, a temporary employment agency (such as Nexflow) <strong>may not assign you</strong> to the same user enterprise (the company where you actually carry out your work) for more than <strong>18 months in total within any 36 consecutive months</strong>.</p>
-
 <p>Key clarification: the limit applies to the <strong>user enterprise — not the agency</strong>:</p>
 <ul>
   <li>You can work through Nexflow agency indefinitely.</li>
@@ -23589,9 +28222,7 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>How to Count the 18 Months</h2>
-
 <p>The time is counted cumulatively — regardless of how many separate contracts you have had. Short breaks under 36 months do <strong>not</strong> reset the clock.</p>
-
 <p><strong>Example:</strong> You work at warehouse X through Nexflow:</p>
 <ul>
   <li>January 2026 – December 2026 = 12 months (via Nexflow)</li>
@@ -23600,7 +28231,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>What Happens When the Limit Is Reached?</h2>
-
 <p>Once the 18-month limit is exhausted, you have several options:</p>
 <ol>
   <li><strong>A break:</strong> Until the 36-month window shifts sufficiently, you cannot return to the same user enterprise.</li>
@@ -23609,7 +28239,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ol>
 
 <h2>What About Your Work Permit?</h2>
-
 <p>As a foreign national, keep in mind:</p>
 <ul>
   <li>Your <strong>work permit or employer declaration (oświadczenie)</strong> is issued by the <strong>agency</strong> (Nexflow) as your formal employer — not by the user enterprise.</li>
@@ -23618,7 +28247,6 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>How Nexflow Monitors This Limit</h2>
-
 <p>Nexflow tracks each worker's accumulated time at each user enterprise. As you approach the 18-month mark, your coordinator will contact you to:</p>
 <ul>
   <li>Discuss your options for continuing with a different client.</li>
@@ -23627,18 +28255,1766 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 </ul>
 
 <h2>Summary — Key Takeaways</h2>
-
 <p>✅ Maximum <strong>18 months</strong> at the same user enterprise within any 36-month period.<br>
 ✅ The limit applies to the <strong>company, not the agency</strong> — you can keep working through Nexflow.<br>
 ✅ After the limit: transfer to a new workplace or take a qualifying break.<br>
 ✅ Nexflow handles work permit documentation for any transfer.<br>
 ✅ Inform your agency coordinator in advance — do not wait until the last day.</p>
-
 <p>Questions? Reach out to your Nexflow coordinator — we will help you plan the next step in your career in Poland.</p>
-
-<p><em>Nexflow Sp. z o.o. | Temporary Employment Agency | nexflow.work</em></p>
     `.trim(),
   },
+  {
+    slug: "ekuz-europejska-karta-ubezpieczenia-zdrowotnego-cudzoziemiec-polska",
+    title: "EKUZ – Europejska Karta Ubezpieczenia Zdrowotnego dla cudzoziemca pracującego w Polsce",
+    description:
+      "Pracownicy tymczasowi w Polsce — w tym cudzoziemcy z Ukrainy i Białorusi — mają prawo do bezpłatnej karty EKUZ. Dowiedz się, jak złożyć wniosek przez ZUS, na jak długo ją wydają i kiedy używać jej za granicą.",
+    date: "2026-09-28",
+    lang: "pl",
+    content: `
+<p>Pracujesz w Polsce jako pracownik tymczasowy i odprowadzasz składki ZUS? Masz prawo do bezpłatnej Europejskiej Karty Ubezpieczenia Zdrowotnego (EKUZ). Karta umożliwia korzystanie z niezbędnej opieki medycznej w innych krajach Unii Europejskiej, Europejskiego Obszaru Gospodarczego (EOG) oraz w Szwajcarii – na tych samych warunkach, co obywatele danego kraju.</p>
+
+<h2>Co to jest EKUZ?</h2>
+<p>EKUZ to bezpłatna karta wydawana przez ZUS (Zakład Ubezpieczeń Społecznych), potwierdzająca prawo do świadczeń zdrowotnych w ramach publicznego systemu ochrony zdrowia innego kraju UE/EOG. Nie jest to ubezpieczenie turystyczne – pokrywa wyłącznie leczenie niezbędne (nagłe zachorowania, wypadki), a nie planowe zabiegi czy wizyty.</p>
+
+<h2>Kto może się o nią ubiegać?</h2>
+<p>Każda osoba ubezpieczona zdrowotnie w Polsce – a więc taka, za którą pracodawca odprowadza składki zdrowotne do ZUS (lub która płaci je samodzielnie). Prawo to dotyczy również cudzoziemców: pracowników tymczasowych z Ukrainy, Białorusi i innych krajów spoza UE, zatrudnionych legalnie w Polsce.</p>
+
+<h2>Jak złożyć wniosek?</h2>
+<p>Wniosek o EKUZ jest bezpłatny i możesz go złożyć na kilka sposobów:</p>
+<ol>
+  <li><strong>Online</strong> – przez portal PUE ZUS (ekuz.zus.pl lub pue.zus.pl) po zalogowaniu</li>
+  <li><strong>Osobiście lub pocztą</strong> – w dowolnym oddziale ZUS</li>
+  <li><strong>Telefonicznie</strong> – pod numerem 22 560 16 00</li>
+</ol>
+<p>Karta jest zazwyczaj wydawana w ciągu 5–10 dni roboczych od złożenia wniosku.</p>
+
+<h2>Na jaki okres wystawiają kartę?</h2>
+<ul>
+  <li><strong>Pracownicy na umowie o pracę</strong> (w tym zlecenie): zazwyczaj na 12 miesięcy lub do końca okresu ubezpieczenia</li>
+  <li><strong>Pracownicy tymczasowi</strong>: do ostatniego dnia obowiązującej umowy z agencją</li>
+</ul>
+<p>Po zmianie pracodawcy lub przedłużeniu umowy należy złożyć nowy wniosek.</p>
+
+<h2>Kiedy i gdzie używać EKUZ?</h2>
+<p>Kartę EKUZ należy okazywać:</p>
+<ul>
+  <li>podczas nagłej choroby lub wypadku w innym kraju UE/EOG lub Szwajcarii</li>
+  <li>przy wizycie u lekarza przyjmującego w ramach publicznego systemu ochrony zdrowia za granicą</li>
+  <li>przy pobycie w szpitalu publicznym za granicą</li>
+</ul>
+<p>Karta obowiązuje we wszystkich 27 krajach UE, a także w Norwegii, Islandii, Liechtensteinie i Szwajcarii.</p>
+
+<h2>Ważne ograniczenia</h2>
+<ul>
+  <li>EKUZ <strong>nie</strong> pokrywa kosztów planowego leczenia, które możesz przeprowadzić w Polsce</li>
+  <li>Nie zastępuje prywatnego ubezpieczenia podróżnego (nie pokrywa np. repatriacji)</li>
+  <li>EKUZ <strong>nie</strong> działa na Ukrainie, Białorusi ani w Rosji</li>
+  <li>W razie leczenia prywatnego za granicą EKUZ nie zostanie honorowany</li>
+</ul>
+
+<h2>Co to oznacza dla pracownika Nexflow?</h2>
+<p>Nexflow zgłasza wszystkich pracowników do ZUS od pierwszego dnia pracy, zgodnie z polskim prawem. Oznacza to, że od momentu objęcia ubezpieczeniem zdrowotnym możesz złożyć wniosek o EKUZ – nawet jeśli dopiero co zacząłeś pracę.</p>
+<p>Jeśli planujesz wyjazd do innego kraju UE (np. odwiedziny rodziny, podróż) i chcesz mieć pewność dostępu do opieki medycznej, złóż wniosek z wyprzedzeniem. Karta jest bezpłatna i łatwa do uzyskania przez internet.</p>
+<p>W razie pytań dotyczących ubezpieczenia lub EKUZ, skontaktuj się z działem HR Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-yevropeyska-karta-strakhuvannya-inozemets-polshcha",
+    title: "ЄКУЗ – Європейська карта медичного страхування для іноземця, який працює в Польщі",
+    description:
+      "Тимчасові працівники в Польщі — у тому числі іноземці з України та Білорусі — мають право на безкоштовну картку ЄКУЗ. Дізнайтеся, як подати заяву через ZUS, на який строк видають картку та коли її використовувати за кордоном.",
+    date: "2026-09-28",
+    lang: "uk",
+    content: `
+<p>Якщо ви працюєте в Польщі як тимчасовий працівник та сплачуєте внески до ZUS, ви маєте право на безкоштовну Європейську карту медичного страхування (ЄКУЗ / EKUZ). Ця картка дозволяє отримувати необхідну медичну допомогу в інших країнах Євросоюзу, ЄЕЗ та Швейцарії — на тих самих умовах, що й громадяни відповідної країни.</p>
+
+<h2>Що таке ЄКУЗ?</h2>
+<p>ЄКУЗ — це безкоштовна картка, яку видає ZUS (Управління соціального страхування Польщі). Вона підтверджує право на медичні послуги в рамках державної системи охорони здоров'я іншої країни ЄС/ЄЕЗ. Це <strong>НЕ</strong> туристична страховка — вона покриває лише невідкладну допомогу (раптова хвороба, нещасний випадок), а не планове лікування.</p>
+
+<h2>Хто має право на ЄКУЗ?</h2>
+<p>Кожна особа, застрахована в Польщі — тобто та, за яку роботодавець сплачує медичні внески до ZUS (або яка платить їх самостійно). Це стосується й іноземців: тимчасових працівників з України, Білорусі та інших країн, легально працевлаштованих у Польщі.</p>
+
+<h2>Як подати заяву?</h2>
+<p>Заява на ЄКУЗ є безкоштовною і може бути подана кількома способами:</p>
+<ol>
+  <li><strong>Онлайн</strong> — через портал PUE ZUS (ekuz.zus.pl або pue.zus.pl) після авторизації</li>
+  <li><strong>Особисто або поштою</strong> — у будь-якому відділенні ZUS</li>
+  <li><strong>По телефону</strong> — за номером 22 560 16 00</li>
+</ol>
+<p>Картку зазвичай видають протягом 5–10 робочих днів після подачі заяви.</p>
+
+<h2>На який термін видається картка?</h2>
+<ul>
+  <li><strong>Штатні працівники</strong> (в т.ч. за договором zlecenie): зазвичай на 12 місяців або до кінця страхового покриття</li>
+  <li><strong>Тимчасові працівники</strong>: до останнього дня чинного договору з агентством</li>
+</ul>
+<p>Після зміни роботодавця або продовження договору потрібно подати нову заяву.</p>
+
+<h2>Коли і де використовувати ЄКУЗ?</h2>
+<p>Картку ЄКУЗ потрібно пред'являти:</p>
+<ul>
+  <li>при раптовій хворобі або нещасному випадку в іншій країні ЄС/ЄЕЗ або Швейцарії</li>
+  <li>при зверненні до лікаря державної системи охорони здоров'я за кордоном</li>
+  <li>при госпіталізації в державну лікарню за кордоном</li>
+</ul>
+<p>Картка діє в усіх 27 країнах ЄС, а також у Норвегії, Ісландії, Ліхтенштейні та Швейцарії.</p>
+
+<h2>Важливі обмеження</h2>
+<ul>
+  <li>ЄКУЗ <strong>не</strong> покриває планове лікування, яке можна пройти в Польщі</li>
+  <li>Не замінює приватну туристичну страховку (наприклад, не покриває репатріацію)</li>
+  <li>ЄКУЗ <strong>не</strong> діє в Україні, Білорусі та Росії</li>
+  <li>У разі лікування у приватній клініці за кордоном ЄКУЗ не буде прийнята</li>
+</ul>
+
+<h2>Що це означає для працівника Nexflow?</h2>
+<p>Nexflow реєструє всіх працівників у ZUS з першого робочого дня відповідно до польського законодавства. Це означає, що з моменту виникнення права на медичне страхування ви можете подати заяву на ЄКУЗ — навіть якщо тільки-но розпочали роботу.</p>
+<p>Якщо ви плануєте поїздку до іншої країни ЄС (наприклад, навідати рідних або подорожувати) і хочете мати доступ до медичної допомоги, подайте заяву заздалегідь. Картка безкоштовна й легко оформлюється онлайн.</p>
+<p>З будь-якими питаннями щодо страхування або ЄКУЗ звертайтеся до HR-відділу Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-evropeyskaya-karta-strakhovaniia-inostranets-polsha",
+    title: "ЕКУЗ – Европейская карта медицинского страхования для иностранца, работающего в Польше",
+    description:
+      "Временные работники в Польше — в том числе иностранцы из Украины и Беларуси — имеют право на бесплатную карту ЕКУЗ. Узнайте, как подать заявление через ZUS, на какой срок выдаётся карта и когда её использовать за рубежом.",
+    date: "2026-09-28",
+    lang: "ru",
+    content: `
+<p>Если вы работаете в Польше как временный работник и уплачиваете взносы в ZUS, вы имеете право на бесплатную Европейскую карту медицинского страхования (ЕКУЗ / EKUZ). Эта карта позволяет получать необходимую медицинскую помощь в других странах Европейского союза, ЕЭЗ и Швейцарии — на тех же условиях, что и граждане соответствующей страны.</p>
+
+<h2>Что такое ЕКУЗ?</h2>
+<p>ЕКУЗ — это бесплатная карта, выдаваемая ZUS (Управлением социального страхования Польши). Она подтверждает право на медицинские услуги в системе государственного здравоохранения другой страны ЕС/ЕЭЗ. Это <strong>НЕ</strong> туристическая страховка — карта покрывает только экстренную помощь (внезапная болезнь, несчастный случай), но не плановое лечение.</p>
+
+<h2>Кто имеет право на ЕКУЗ?</h2>
+<p>Каждый, кто застрахован в Польше, — то есть тот, за кого работодатель уплачивает взносы на медицинское страхование в ZUS (или кто платит их самостоятельно). Это распространяется и на иностранцев: временных работников из Украины, Беларуси и других стран, легально трудоустроенных в Польше.</p>
+
+<h2>Как подать заявление?</h2>
+<p>Заявление на ЕКУЗ бесплатное и может быть подано несколькими способами:</p>
+<ol>
+  <li><strong>Онлайн</strong> — через портал PUE ZUS (ekuz.zus.pl или pue.zus.pl) после авторизации</li>
+  <li><strong>Лично или по почте</strong> — в любом отделении ZUS</li>
+  <li><strong>По телефону</strong> — 22 560 16 00</li>
+</ol>
+<p>Карта обычно выдаётся в течение 5–10 рабочих дней после подачи заявления.</p>
+
+<h2>На какой срок выдаётся карта?</h2>
+<ul>
+  <li><strong>Штатные работники</strong> (в т.ч. по договору zlecenie): как правило, на 12 месяцев или до конца страхового периода</li>
+  <li><strong>Временные работники</strong>: до последнего дня действующего договора с агентством</li>
+</ul>
+<p>После смены работодателя или продления договора необходимо подать новое заявление.</p>
+
+<h2>Когда и где использовать ЕКУЗ?</h2>
+<p>Карту ЕКУЗ следует предъявлять:</p>
+<ul>
+  <li>при внезапной болезни или несчастном случае в другой стране ЕС/ЕЭЗ или Швейцарии</li>
+  <li>при обращении к врачу государственной системы здравоохранения за рубежом</li>
+  <li>при госпитализации в государственную больницу за рубежом</li>
+</ul>
+<p>Карта действует во всех 27 странах ЕС, а также в Норвегии, Исландии, Лихтенштейне и Швейцарии.</p>
+
+<h2>Важные ограничения</h2>
+<ul>
+  <li>ЕКУЗ <strong>не</strong> покрывает плановое лечение, которое можно пройти в Польше</li>
+  <li>Не заменяет частное туристическое страхование (например, не покрывает репатриацию)</li>
+  <li>ЕКУЗ <strong>не</strong> действует на Украине, в Беларуси и России</li>
+  <li>При лечении в частной клинике за рубежом ЕКУЗ принята не будет</li>
+</ul>
+
+<h2>Что это означает для работника Nexflow?</h2>
+<p>Nexflow регистрирует всех работников в ZUS с первого рабочего дня в соответствии с польским законодательством. Это означает, что с момента возникновения права на медицинское страхование вы можете подать заявку на ЕКУЗ — даже если только недавно приступили к работе.</p>
+<p>Если вы планируете поездку в другую страну ЕС (например, навестить родных или путешествовать) и хотите иметь доступ к медицинской помощи, подайте заявку заранее. Карта бесплатная и легко оформляется онлайн.</p>
+<p>По любым вопросам, связанным со страхованием или ЕКУЗ, обращайтесь в отдел кадров Nexflow.</p>
+    `.trim(),
+  },
+  {
+    slug: "ekuz-european-health-insurance-card-foreign-worker-poland",
+    title: "EKUZ – European Health Insurance Card for Foreign Workers in Poland",
+    description:
+      "Temporary workers in Poland — including foreign nationals from Ukraine and Belarus — are entitled to a free EKUZ card. Learn how to apply through ZUS, how long the card is valid, and when to use it abroad.",
+    date: "2026-09-28",
+    lang: "en",
+    content: `
+<p>If you work in Poland as a temporary employee and your employer pays ZUS contributions on your behalf, you are entitled to a free European Health Insurance Card (EKUZ in Polish). This card lets you access necessary healthcare in other EU/EEA countries and Switzerland under the same conditions as local citizens — at no extra cost.</p>
+
+<h2>What is EKUZ?</h2>
+<p>EKUZ is a free card issued by ZUS (the Polish Social Insurance Institution). It proves your right to receive state-provided healthcare during a temporary stay in another EU/EEA country or Switzerland. It is <strong>not</strong> travel insurance — it covers only necessary medical treatment (sudden illness, accidents), not planned procedures you could have done in Poland.</p>
+
+<h2>Who is eligible?</h2>
+<p>Anyone who is health-insured in Poland — meaning your employer pays your health insurance contributions to ZUS (or you pay them yourself). This fully includes foreign workers: Ukrainians, Belarusians, and other non-EU nationals who are legally employed in Poland through a temporary staffing agency like Nexflow.</p>
+
+<h2>How to apply</h2>
+<p>The EKUZ application is free of charge. You can apply in several ways:</p>
+<ol>
+  <li><strong>Online</strong> — via the PUE ZUS portal (ekuz.zus.pl or pue.zus.pl) after logging in</li>
+  <li><strong>In person or by post</strong> — at any ZUS branch office</li>
+  <li><strong>By phone</strong> — 22 560 16 00</li>
+</ol>
+<p>The card is typically issued within 5–10 business days of the application.</p>
+
+<h2>How long is the card valid?</h2>
+<ul>
+  <li><strong>Permanent employees</strong> (including those on civil contracts / zlecenie): usually 12 months, or until the end of your insurance period</li>
+  <li><strong>Temporary workers</strong>: until the last day of your current employment contract with the agency</li>
+</ul>
+<p>After changing employers or renewing your contract, you will need to apply again.</p>
+
+<h2>When and where to use EKUZ</h2>
+<p>Present your EKUZ card:</p>
+<ul>
+  <li>When you suffer a sudden illness or accident in another EU/EEA country or Switzerland</li>
+  <li>When visiting a GP or specialist within the public healthcare system abroad</li>
+  <li>When admitted to a public hospital abroad</li>
+</ul>
+<p>The card is valid in all 27 EU countries, plus Norway, Iceland, Liechtenstein, and Switzerland.</p>
+
+<h2>Key limitations</h2>
+<ul>
+  <li>EKUZ does <strong>not</strong> cover planned treatment that you could receive in Poland</li>
+  <li>It does not replace private travel insurance (e.g., it does not cover repatriation costs)</li>
+  <li>It is <strong>not</strong> valid in Ukraine, Belarus, or Russia</li>
+  <li>If you receive treatment at a private clinic abroad, EKUZ will not be accepted</li>
+</ul>
+
+<h2>What this means for Nexflow workers</h2>
+<p>Nexflow registers all employees with ZUS from day one of employment, in compliance with Polish law. This means that as soon as your health insurance coverage begins, you can apply for your EKUZ card — even if you have just started working.</p>
+<p>If you are planning a trip to another EU country (visiting family, travelling) and want to ensure access to healthcare, apply in advance. The card is free and easy to obtain online through PUE ZUS.</p>
+<p>Contact the Nexflow HR team if you have any questions about your insurance status or how to apply for EKUZ.</p>
+    `.trim(),
+  },
+  {
+    slug: "wypadek-w-drodze-do-pracy-polska-prawa-pracownika",
+    title: "Wypadek w drodze do pracy lub z pracy w Polsce – prawa pracownika tymczasowego",
+    description:
+      "Wypadek w drodze do pracy lub z pracy daje pracownikowi prawo do zasiłku chorobowego w wysokości 100% od pierwszego dnia. Dowiedz się, jakie prawa masz jako pracownik tymczasowy w Polsce.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<p>Jeśli uległeś wypadkowi w drodze do pracy lub w drodze powrotnej do domu, masz w Polsce szczególne prawa — inne niż przy zwykłym zwolnieniu lekarskim. Ten artykuł wyjaśnia, co to jest wypadek w drodze do pracy, jakie świadczenia ci przysługują i co musisz zrobić krok po kroku.</p>
+
+<h2>Czym jest wypadek w drodze do pracy?</h2>
+
+<p>Wypadek w drodze do pracy lub z pracy (tzw. <strong>wypadek komunikacyjny przy zatrudnieniu</strong>) to zdarzenie, które nastąpiło:</p>
+
+<ul>
+  <li>w drodze z domu do miejsca pracy lub z pracy do domu,</li>
+  <li>na bezpośredniej i najkrótszej trasie,</li>
+  <li>i spowodowało uszkodzenie ciała lub śmierć.</li>
+</ul>
+
+<p>Podstawa prawna: <strong>ustawa z dnia 25 czerwca 1999 r. o świadczeniach pieniężnych z ubezpieczenia społecznego w razie choroby i macierzyństwa</strong> (Dz.U. art. 57b) oraz art. 3 ust. 3–4 ustawy o ubezpieczeniu społecznym z tytułu wypadków przy pracy.</p>
+
+<p><strong>Ważne:</strong> Wypadek w drodze do pracy to <strong>nie to samo</strong> co wypadek przy pracy. Obejmuje zdarzenia poza zakładem pracy, ale w związku z drogą do niej lub z niej.</p>
+
+<h2>Kogo dotyczy?</h2>
+
+<p>Przepisy dotyczą <strong>wszystkich pracowników</strong>, w tym pracowników tymczasowych zatrudnionych przez agencję pracy (taką jak Nexflow). Nie ma znaczenia, czy jesteś obywatelem polskim, ukraińskim, białoruskim ani innym cudzoziemcem — jeśli jesteś legalnie zatrudniony w Polsce, masz te same prawa.</p>
+
+<h2>Co się liczy jako wypadek w drodze do pracy?</h2>
+
+<p><strong>Obejmuje:</strong></p>
+
+<ul>
+  <li>Wypadek samochodowy, gdy jedziesz do pracy lub z pracy</li>
+  <li>Wypadek w autobusie, tramwaju, metrze, pociągu</li>
+  <li>Upadek na chodniku lub drodze (np. na lodzie) w drodze do/z pracy</li>
+  <li>Wypadek podczas jazdy rowerem do pracy</li>
+  <li>Wypadek w drodze do żłobka lub szkoły, jeśli jest to stała trasa w związku z pracą (szczególne przypadki)</li>
+</ul>
+
+<p><strong>Nie obejmuje:</strong></p>
+
+<ul>
+  <li>Wypadku podczas znacznego odchylenia od bezpośredniej trasy (np. wstąpienie na zakupy na boczną ulicę)</li>
+  <li>Wypadku w czasie przerwy, gdy wyszedłeś daleko poza zakład</li>
+  <li>Wypadku pod wpływem alkoholu lub środków odurzających</li>
+</ul>
+
+<h2>Jakie świadczenia ci przysługują?</h2>
+
+<p>To kluczowa różnica w stosunku do zwykłego zwolnienia lekarskiego (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Sytuacja</th>
+      <th>Zwykłe L4</th>
+      <th>Wypadek w drodze do pracy</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Wysokość zasiłku chorobowego</td>
+      <td>80% podstawy wymiaru</td>
+      <td><strong>100% podstawy wymiaru</strong></td>
+    </tr>
+    <tr>
+      <td>Od kiedy płaci ZUS</td>
+      <td>od 34. dnia niezdolności</td>
+      <td><strong>od 1. dnia niezdolności</strong></td>
+    </tr>
+    <tr>
+      <td>Okres zasiłkowy</td>
+      <td>do 182 dni (270 przy gruźlicy)</td>
+      <td>do 182 dni</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Oznacza to, że od <strong>pierwszego dnia</strong> choroby/urazu przysługuje ci zasiłek w wysokości <strong>100%</strong> wynagrodzenia — bez czekania.</p>
+
+<p>Jeśli niezdolność do pracy trwa dłużej, ZUS może przyznać <strong>świadczenie rehabilitacyjne</strong> (do 12 miesięcy).</p>
+
+<h2>Co zrobić krok po kroku?</h2>
+
+<h3>1. Zadbaj o bezpieczeństwo i wezwij pomoc</h3>
+
+<p>Zadzwoń pod numer 112 (pogotowie, policja). Zabezpiecz dowody — zrób zdjęcia.</p>
+
+<h3>2. Poproś o dokumentację</h3>
+
+<ul>
+  <li>Jeśli był wypadek drogowy: poproś policję o <strong>protokół z wypadku</strong> lub notatkę służbową.</li>
+  <li>W szpitalu/przychodni: zadbaj, aby lekarz wystawił <strong>e-ZLA</strong> (zwolnienie lekarskie) z kodem „W" (wypadek w drodze).</li>
+</ul>
+
+<h3>3. Poinformuj pracodawcę jak najszybciej</h3>
+
+<p>Masz obowiązek zgłosić wypadek <strong>pracodawcy (agencji pracy)</strong> niezwłocznie — najlepiej tego samego dnia lub następnego. W przypadku Nexflow: zadzwoń bezpośrednio do swojego opiekuna.</p>
+
+<h3>4. Pracodawca wypełnia Kartę wypadku</h3>
+
+<p>Pracodawca (agencja pracy) jest zobowiązany sporządzić <strong>Kartę wypadku w drodze do pracy lub z pracy</strong> w ciągu 14 dni od zgłoszenia. Karta jest podstawą do wypłaty zasiłku przez ZUS.</p>
+
+<h3>5. ZUS wypłaca świadczenie</h3>
+
+<p>Na podstawie karty wypadku i zwolnienia lekarskiego ZUS wypłaca zasiłek chorobowy w wysokości <strong>100% podstawy wymiaru</strong>.</p>
+
+<h2>Często zadawane pytania</h2>
+
+<p><strong>Czy muszę mieć świadka wypadku?</strong> Nie jest to obowiązkowe, ale świadkowie lub zdjęcia z miejsca zdarzenia znacznie ułatwiają postępowanie. Notatka policyjna to silny dowód.</p>
+
+<p><strong>Czy ZUS może odmówić uznania wypadku?</strong> Tak, jeśli trasa nie była bezpośrednia lub zdarzenie nastąpiło z winy umyślnej pracownika. Od decyzji ZUS można się odwołać.</p>
+
+<p><strong>Co jeśli pracuję przez agencję (Nexflow)?</strong> To agencja pracy (pracodawca formalny) jest zobowiązana do sporządzenia karty wypadku. Pracownik tymczasowy ma dokładnie takie same prawa jak każdy inny pracownik.</p>
+
+<p><strong>Czy mogę złożyć też roszczenie wobec sprawcy wypadku?</strong> Tak. Świadczenia ZUS nie wykluczają dochodzenia odszkodowania od sprawcy (np. przez ubezpieczenie OC pojazdu).</p>
+
+<h2>Podsumowanie – najważniejsze punkty</h2>
+
+<ul>
+  <li>Wypadek w drodze do pracy daje prawo do <strong>100% zasiłku od 1. dnia</strong></li>
+  <li>Dotyczy każdego legalnie zatrudnionego — niezależnie od narodowości</li>
+  <li>Zgłoś wypadek pracodawcy (agencji) jak najszybciej</li>
+  <li>Zadbaj o dokumentację: e-ZLA z kodem „W" + protokół policji/pogotowia</li>
+  <li>Agencja pracy sporządza kartę wypadku — to jej obowiązek, nie twój</li>
+</ul>
+
+<p><em>Masz pytania dotyczące wypadku w drodze do pracy? Skontaktuj się ze swoim opiekunem w Nexflow — pomożemy Ci przejść przez cały proces.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "vypadok-po-dorozi-na-robotu-polshcha-prava-pratsivnyka",
+    title: "Нещасний випадок по дорозі на роботу або з роботи в Польщі – права працівника",
+    description:
+      "Нещасний випадок по дорозі на роботу або з роботи дає право на допомогу у розмірі 100% із першого дня. Дізнайся, які права має тимчасовий працівник у Польщі.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<p>Якщо ти отримав травму по дорозі на роботу або додому після роботи, польське законодавство надає тобі особливі права. Ця стаття пояснює, що таке нещасний випадок по дорозі на роботу, які виплати тобі належать і що робити крок за кроком.</p>
+
+<h2>Що таке нещасний випадок по дорозі на роботу?</h2>
+
+<p>Нещасний випадок по дорозі на роботу або з роботи (<strong>wypadek w drodze do pracy lub z pracy</strong>) — це подія, що сталася:</p>
+
+<ul>
+  <li>по дорозі з дому до місця роботи або назад,</li>
+  <li>на прямому та найкоротшому маршруті,</li>
+  <li>і призвела до тілесного ушкодження або смерті.</li>
+</ul>
+
+<p>Правова основа: <strong>Закон від 25 червня 1999 р. про грошові виплати із соціального страхування у зв'язку з хворобою та материнством</strong> (ст. 57b), а також ст. 3 ч. 3–4 Закону про соціальне страхування від нещасних випадків на виробництві.</p>
+
+<p><strong>Важливо:</strong> Нещасний випадок по дорозі на роботу — це <strong>не те саме</strong>, що нещасний випадок на виробництві. Він охоплює події за межами підприємства, але пов'язані з дорогою до нього або від нього.</p>
+
+<h2>Кого це стосується?</h2>
+
+<p>Положення стосуються <strong>всіх працівників</strong>, зокрема тимчасових, найнятих через агентство (наприклад, Nexflow). Не має значення, чи ти громадянин Польщі, України, Білорусі або іншої країни — якщо ти легально працюєш у Польщі, у тебе ті самі права.</p>
+
+<h2>Що вважається нещасним випадком по дорозі на роботу?</h2>
+
+<p><strong>Підпадає під визначення:</strong></p>
+
+<ul>
+  <li>Автомобільна аварія по дорозі на роботу або з роботи</li>
+  <li>Аварія в автобусі, трамваї, метро, поїзді</li>
+  <li>Падіння на тротуарі (наприклад, на льоду) по дорозі до/з роботи</li>
+  <li>Аварія під час їзди на велосипеді на роботу</li>
+  <li>Нещасний випадок по дорозі до дитячого садка чи школи (у певних випадках, якщо це постійний маршрут у зв'язку з роботою)</li>
+</ul>
+
+<p><strong>Не підпадає:</strong></p>
+
+<ul>
+  <li>Нещасний випадок під час значного відхилення від прямого маршруту (наприклад, заїзд у магазин за кілька кілометрів)</li>
+  <li>Нещасний випадок під час перерви за межами підприємства</li>
+  <li>Нещасний випадок у стані алкогольного або наркотичного сп'яніння</li>
+</ul>
+
+<h2>Які виплати тобі належать?</h2>
+
+<p>Це ключова відмінність від звичайного лікарняного листа (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ситуація</th>
+      <th>Звичайний L4</th>
+      <th>Нещасний випадок по дорозі</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Розмір допомоги по хворобі</td>
+      <td>80% розрахункової бази</td>
+      <td><strong>100% розрахункової бази</strong></td>
+    </tr>
+    <tr>
+      <td>З якого дня платить ZUS</td>
+      <td>з 34-го дня</td>
+      <td><strong>з 1-го дня</strong></td>
+    </tr>
+    <tr>
+      <td>Тривалість виплати</td>
+      <td>до 182 днів</td>
+      <td>до 182 днів</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Це означає, що <strong>від першого дня</strong> непрацездатності тобі виплачуватиметься допомога у розмірі <strong>100%</strong> заробітку — без очікування.</p>
+
+<p>Якщо непрацездатність триває довше, ZUS може призначити <strong>реабілітаційну допомогу</strong> (до 12 місяців).</p>
+
+<h2>Що робити крок за кроком?</h2>
+
+<h3>1. Подбай про безпеку та виклич допомогу</h3>
+
+<p>Зателефонуй за номером 112 (швидка допомога, поліція). Зафіксуй докази — зроби фотографії.</p>
+
+<h3>2. Отримай документи</h3>
+
+<ul>
+  <li>Якщо ДТП: попроси поліцію про <strong>протокол</strong> або службову нотатку.</li>
+  <li>У лікарні/поліклініці: переконайся, що лікар видав <strong>e-ZLA</strong> (лікарняний лист) з кодом «W» (wypadek w drodze — нещасний випадок по дорозі).</li>
+</ul>
+
+<h3>3. Повідом роботодавця якомога швидше</h3>
+
+<p>Ти зобов'язаний повідомити про нещасний випадок <strong>роботодавцю (агентству)</strong> без зволікань — краще того самого або наступного дня. Для працівників Nexflow: зателефонуй безпосередньо своєму куратору.</p>
+
+<h3>4. Роботодавець складає Картку нещасного випадку</h3>
+
+<p>Роботодавець (агентство) зобов'язаний скласти <strong>Картку нещасного випадку по дорозі на роботу або з роботи (Karta wypadku w drodze do pracy)</strong> протягом 14 днів після повідомлення. Картка є підставою для виплати допомоги ZUS.</p>
+
+<h3>5. ZUS виплачує допомогу</h3>
+
+<p>На підставі картки нещасного випадку та лікарняного листа ZUS виплачує допомогу по хворобі у розмірі <strong>100% розрахункової бази</strong>.</p>
+
+<h2>Часті запитання</h2>
+
+<p><strong>Чи потрібні свідки нещасного випадку?</strong> Це не обов'язково, але свідки або фотографії з місця події значно спрощують процедуру. Поліцейський протокол — сильний доказ.</p>
+
+<p><strong>Чи може ZUS відмовити у визнанні нещасного випадку?</strong> Так, якщо маршрут не був прямим або подія сталася з умисної вини працівника. Рішення ZUS можна оскаржити.</p>
+
+<p><strong>Якщо я працюю через агентство (Nexflow)?</strong> Саме агентство (офіційний роботодавець) зобов'язане скласти картку нещасного випадку. Тимчасовий працівник має рівно ті самі права, що і будь-який інший.</p>
+
+<p><strong>Чи можу я також пред'явити претензії до винуватця аварії?</strong> Так. Виплати ZUS не виключають отримання відшкодування від винуватця (наприклад, через страхування OC транспортного засобу).</p>
+
+<h2>Підсумок – найважливіше</h2>
+
+<ul>
+  <li>Нещасний випадок по дорозі дає право на <strong>100% виплату від 1-го дня</strong></li>
+  <li>Стосується кожного легально зайнятого — незалежно від громадянства</li>
+  <li>Повідом роботодавця (агентство) якнайшвидше</li>
+  <li>Подбай про документи: e-ZLA з кодом «W» + протокол поліції/швидкої</li>
+  <li>Агентство складає картку нещасного випадку — це їхній обов'язок, а не твій</li>
+</ul>
+
+<p><em>Маєш запитання про нещасний випадок по дорозі на роботу? Зв'яжися зі своїм куратором у Nexflow — допоможемо пройти весь процес.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "neschastny-sluchay-po-doroge-na-rabotu-polsha-prava",
+    title: "Несчастный случай по дороге на работу или с работы в Польше – права работника",
+    description:
+      "Несчастный случай по дороге на работу или с работы даёт право на пособие в размере 100% с первого дня. Узнай, какие права имеет временный работник в Польше.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<p>Если ты получил травму по дороге на работу или возвращаясь домой после работы, польское законодательство предоставляет тебе особые права. Эта статья объясняет, что такое несчастный случай по дороге на работу, какие выплаты тебе положены и что делать шаг за шагом.</p>
+
+<h2>Что такое несчастный случай по дороге на работу?</h2>
+
+<p>Несчастный случай по дороге на работу или с работы (<strong>wypadek w drodze do pracy lub z pracy</strong>) — это событие, которое произошло:</p>
+
+<ul>
+  <li>по дороге из дома на работу или обратно,</li>
+  <li>по прямому и кратчайшему маршруту,</li>
+  <li>и повлекло телесные повреждения или смерть.</li>
+</ul>
+
+<p>Правовая основа: <strong>Закон от 25 июня 1999 г. о денежных пособиях из социального страхования в связи с болезнью и материнством</strong> (ст. 57b), а также ст. 3 ч. 3–4 Закона о социальном страховании от несчастных случаев на производстве.</p>
+
+<p><strong>Важно:</strong> Несчастный случай по дороге на работу — это <strong>не то же самое</strong>, что несчастный случай на производстве. Он охватывает события за пределами предприятия, но связанные с дорогой к нему или от него.</p>
+
+<h2>Кого это касается?</h2>
+
+<p>Положения распространяются на <strong>всех работников</strong>, в том числе временных, нанятых через агентство (например, Nexflow). Не имеет значения, гражданин ли ты Польши, Украины, Беларуси или другой страны — если ты легально работаешь в Польше, у тебя те же права.</p>
+
+<h2>Что считается несчастным случаем по дороге на работу?</h2>
+
+<p><strong>Подпадает под определение:</strong></p>
+
+<ul>
+  <li>ДТП по дороге на работу или с работы</li>
+  <li>Авария в автобусе, трамвае, метро, поезде</li>
+  <li>Падение на тротуаре (например, на льду) по дороге на работу/с работы</li>
+  <li>Авария при езде на велосипеде на работу</li>
+  <li>Несчастный случай по дороге в детский сад или школу (в определённых случаях, если это постоянный маршрут в связи с работой)</li>
+</ul>
+
+<p><strong>Не подпадает:</strong></p>
+
+<ul>
+  <li>Несчастный случай при значительном отклонении от прямого маршрута (например, заезд в магазин за несколько километров в сторону)</li>
+  <li>Несчастный случай во время перерыва за пределами предприятия</li>
+  <li>Несчастный случай в состоянии алкогольного или наркотического опьянения</li>
+</ul>
+
+<h2>Какие выплаты тебе положены?</h2>
+
+<p>Это ключевое отличие от обычного листа нетрудоспособности (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Ситуация</th>
+      <th>Обычный L4</th>
+      <th>Несчастный случай по дороге</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Размер пособия по болезни</td>
+      <td>80% расчётной базы</td>
+      <td><strong>100% расчётной базы</strong></td>
+    </tr>
+    <tr>
+      <td>С какого дня платит ZUS</td>
+      <td>с 34-го дня</td>
+      <td><strong>с 1-го дня</strong></td>
+    </tr>
+    <tr>
+      <td>Продолжительность выплаты</td>
+      <td>до 182 дней</td>
+      <td>до 182 дней</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Это означает, что <strong>с первого дня</strong> нетрудоспособности тебе будет выплачиваться пособие в размере <strong>100%</strong> заработка — без ожидания.</p>
+
+<p>Если нетрудоспособность длится дольше, ZUS может назначить <strong>реабилитационное пособие</strong> (до 12 месяцев).</p>
+
+<h2>Что делать шаг за шагом?</h2>
+
+<h3>1. Обеспечь безопасность и вызови помощь</h3>
+
+<p>Позвони по номеру 112 (скорая помощь, полиция). Зафиксируй доказательства — сделай фотографии.</p>
+
+<h3>2. Получи документы</h3>
+
+<ul>
+  <li>Если ДТП: попроси полицию о <strong>протоколе</strong> или служебной записке.</li>
+  <li>В больнице/поликлинике: убедись, что врач выдал <strong>e-ZLA</strong> (листок нетрудоспособности) с кодом «W» (wypadek w drodze — несчастный случай по дороге).</li>
+</ul>
+
+<h3>3. Сообщи работодателю как можно быстрее</h3>
+
+<p>Ты обязан уведомить о несчастном случае <strong>работодателя (агентство)</strong> незамедлительно — лучше в тот же или на следующий день. Для работников Nexflow: позвони напрямую своему куратору.</p>
+
+<h3>4. Работодатель составляет Карточку несчастного случая</h3>
+
+<p>Работодатель (агентство) обязан составить <strong>Карточку несчастного случая по дороге на работу или с работы (Karta wypadku w drodze do pracy)</strong> в течение 14 дней после уведомления. Карточка является основанием для выплаты пособия ZUS.</p>
+
+<h3>5. ZUS выплачивает пособие</h3>
+
+<p>На основании карточки несчастного случая и листка нетрудоспособности ZUS выплачивает пособие по болезни в размере <strong>100% расчётной базы</strong>.</p>
+
+<h2>Часто задаваемые вопросы</h2>
+
+<p><strong>Нужны ли свидетели несчастного случая?</strong> Это не обязательно, но свидетели или фотографии с места события значительно упрощают процедуру. Полицейский протокол — весомое доказательство.</p>
+
+<p><strong>Может ли ZUS отказать в признании несчастного случая?</strong> Да, если маршрут не был прямым или событие произошло по умышленной вине работника. Решение ZUS можно обжаловать.</p>
+
+<p><strong>Если я работаю через агентство (Nexflow)?</strong> Именно агентство (официальный работодатель) обязано составить карточку несчастного случая. Временный работник имеет ровно те же права, что и любой другой.</p>
+
+<p><strong>Могу ли я также предъявить претензии к виновнику аварии?</strong> Да. Выплаты ZUS не исключают получения возмещения от виновника (например, через страхование OC транспортного средства).</p>
+
+<h2>Итог – самое важное</h2>
+
+<ul>
+  <li>Несчастный случай по дороге даёт право на <strong>100% пособие с 1-го дня</strong></li>
+  <li>Распространяется на каждого легально занятого — независимо от гражданства</li>
+  <li>Сообщи работодателю (агентству) как можно скорее</li>
+  <li>Позаботься о документах: e-ZLA с кодом «W» + протокол полиции/скорой</li>
+  <li>Агентство составляет карточку несчастного случая — это их обязанность, а не твоя</li>
+</ul>
+
+<p><em>Есть вопросы о несчастном случае по дороге на работу? Свяжись со своим куратором в Nexflow — поможем пройти весь процесс.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "commuting-accident-work-poland-temp-worker-rights",
+    title: "Commuting Accident in Poland – Rights of a Temp Worker",
+    description:
+      "A commuting accident in Poland entitles you to 100% sick benefit from day one. Learn what rights a temporary worker has and what to do step by step.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<p>If you were injured on your way to work or on your way home after work, Polish law gives you specific rights — different from ordinary sick leave. This article explains what a commuting accident is, what benefits you're entitled to, and what to do step by step.</p>
+
+<h2>What Is a Commuting Accident in Poland?</h2>
+
+<p>A commuting accident (<strong>wypadek w drodze do pracy lub z pracy</strong> in Polish) is an event that:</p>
+
+<ul>
+  <li>occurred on the direct route from home to work or from work to home,</li>
+  <li>happened on the shortest and most direct path,</li>
+  <li>and resulted in personal injury or death.</li>
+</ul>
+
+<p>Legal basis: <strong>Act of 25 June 1999 on cash benefits from social insurance in case of illness and maternity</strong> (Art. 57b), and Art. 3(3–4) of the Act on Social Insurance Against Accidents at Work.</p>
+
+<p><strong>Key distinction:</strong> A commuting accident is <strong>not the same</strong> as a workplace accident. It covers events that happen outside the workplace, but on the way to or from it.</p>
+
+<h2>Who Does This Apply To?</h2>
+
+<p>The rules apply to <strong>all employees</strong>, including temporary workers hired through a staffing agency (such as Nexflow). It doesn't matter whether you are Polish, Ukrainian, Belarusian, or of any other nationality — if you are legally employed in Poland, you have the same rights.</p>
+
+<h2>What Counts as a Commuting Accident?</h2>
+
+<p><strong>Qualifies:</strong></p>
+
+<ul>
+  <li>A car accident on the way to or from work</li>
+  <li>An accident on a bus, tram, subway, or train</li>
+  <li>A fall on a pavement or road (e.g. on ice) while commuting</li>
+  <li>A cycling accident on the way to work</li>
+  <li>An accident on the way to a nursery or school (in certain cases, if this is a regular route related to work)</li>
+</ul>
+
+<p><strong>Does not qualify:</strong></p>
+
+<ul>
+  <li>An accident during a significant detour from the direct route (e.g. going well out of the way to a supermarket)</li>
+  <li>An accident during a break taken away from the workplace</li>
+  <li>An accident while under the influence of alcohol or drugs</li>
+</ul>
+
+<h2>What Benefits Are You Entitled To?</h2>
+
+<p>This is the key difference compared to ordinary sick leave (L4):</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Situation</th>
+      <th>Regular L4</th>
+      <th>Commuting Accident</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Sick benefit amount</td>
+      <td>80% of calculation base</td>
+      <td><strong>100% of calculation base</strong></td>
+    </tr>
+    <tr>
+      <td>ZUS pays from</td>
+      <td>day 34</td>
+      <td><strong>day 1</strong></td>
+    </tr>
+    <tr>
+      <td>Maximum payment period</td>
+      <td>up to 182 days</td>
+      <td>up to 182 days</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This means that from <strong>day one</strong> of incapacity to work, you receive a benefit equal to <strong>100%</strong> of your salary — with no waiting period.</p>
+
+<p>If incapacity lasts longer, ZUS may grant a <strong>rehabilitation benefit</strong> (for up to 12 months).</p>
+
+<h2>What to Do Step by Step</h2>
+
+<h3>1. Ensure Safety and Call for Help</h3>
+
+<p>Call 112 (emergency services, police). Secure evidence — take photographs of the scene.</p>
+
+<h3>2. Obtain Documentation</h3>
+
+<ul>
+  <li>If a traffic accident: ask the police for an <strong>accident report</strong> or an official note.</li>
+  <li>At the hospital/clinic: make sure the doctor issues an <strong>e-ZLA</strong> (sick leave certificate) with the code "W" (wypadek w drodze — commuting accident).</li>
+</ul>
+
+<h3>3. Notify Your Employer as Soon as Possible</h3>
+
+<p>You are required to report the accident to your <strong>employer (staffing agency)</strong> immediately — ideally the same day or the next. For Nexflow workers: call your assigned coordinator directly.</p>
+
+<h3>4. Your Employer Fills Out the Accident Card</h3>
+
+<p>The employer (staffing agency) is required to prepare a <strong>Commuting Accident Card (Karta wypadku w drodze do pracy)</strong> within 14 days of the report. This card is the basis for ZUS benefit payment.</p>
+
+<h3>5. ZUS Pays Your Benefit</h3>
+
+<p>Based on the accident card and sick leave certificate, ZUS pays sick benefit at <strong>100% of your calculation base</strong>.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<p><strong>Do I need witnesses?</strong> It's not required, but witnesses or photographs from the scene make the procedure much easier. A police report is strong evidence.</p>
+
+<p><strong>Can ZUS refuse to recognise the accident?</strong> Yes, if the route was not direct or the event was the result of the worker's deliberate fault. You can appeal against a ZUS decision.</p>
+
+<p><strong>What if I work through an agency (Nexflow)?</strong> The agency (your formal employer) is responsible for completing the accident card. Temporary workers have exactly the same rights as any other employee.</p>
+
+<p><strong>Can I also claim against the person who caused the accident?</strong> Yes. ZUS benefits do not exclude seeking compensation from the responsible party (e.g. through their vehicle liability insurance — OC).</p>
+
+<h2>Summary – Key Points</h2>
+
+<ul>
+  <li>A commuting accident gives you the right to a <strong>100% benefit from day 1</strong></li>
+  <li>Applies to every legally employed person — regardless of nationality</li>
+  <li>Notify your employer (agency) as soon as possible</li>
+  <li>Secure documentation: e-ZLA with code "W" + police/ambulance report</li>
+  <li>The staffing agency fills out the accident card — that is their obligation, not yours</li>
+</ul>
+
+<p><em>Questions about a commuting accident? Contact your Nexflow coordinator — we'll guide you through the whole process.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "wypowiedzenie-umowy-pracownik-tymczasowy-polska",
+    title: "Wypowiedzenie umowy pracownika tymczasowego — okresy i prawa w Polsce",
+    description:
+      "Jak legalnie zakończyć pracę tymczasową w Polsce? Okresy wypowiedzenia, świadectwo pracy, wyrejestrowanie z ZUS — praktyczny przewodnik dla pracowników zagranicznych.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<p>Pracujesz tymczasowo przez agencję pracy i zastanawiasz się, jak zakończyć zatrudnienie? Bez względu na to, czy chcesz zmienić pracę, wrócić do domu, czy po prostu zakończyć kontrakt — masz prawo do tego w jasno określony sposób. Ten przewodnik tłumaczy, ile czasu musisz odczekać i co powinieneś zrobić krok po kroku.</p>
+
+<h2>Umowa o pracę tymczasową — okresy wypowiedzenia</h2>
+<p>Jeśli pracujesz na umowę o pracę tymczasową zawartą z agencją pracy (np. Nexflow), obowiązują Cię przepisy <strong>ustawy z 9 lipca 2003 r. o zatrudnianiu pracowników tymczasowych</strong>. Okresy wypowiedzenia są krótsze niż przy zwykłym stosunku pracy:</p>
+<ul>
+  <li><strong>Umowa do 2 tygodni</strong> — 3 dni robocze wypowiedzenia</li>
+  <li><strong>Umowa od 2 tygodni do 3 miesięcy</strong> — 1 tydzień wypowiedzenia</li>
+  <li><strong>Umowa powyżej 3 miesięcy</strong> — 2 tygodnie wypowiedzenia</li>
+</ul>
+<p>Wypowiedzenie można złożyć zarówno przez pracownika, jak i przez agencję. Zawsze rób to <strong>na piśmie</strong> — zachowaj kopię z potwierdzeniem odbioru.</p>
+
+<h2>Umowa zlecenie — czy trzeba zachować okres wypowiedzenia?</h2>
+<p>Jeśli pracujesz na umowie zlecenie (nie umowie o pracę), sytuacja jest inna. Zgodnie z art. 746 § 2 Kodeksu cywilnego, możesz wypowiedzieć umowę zlecenie <strong>w każdym czasie</strong>. Jednak:</p>
+<ul>
+  <li>Jeśli zlecenie jest odpłatne i wypowiadasz je bez ważnego powodu, możesz być zobowiązany do naprawienia szkody wyrządzonej zleceniodawcy</li>
+  <li>Sprawdź treść swojej umowy — mogą w niej być zapisy o terminie wypowiedzenia</li>
+</ul>
+
+<h2>Jak złożyć wypowiedzenie?</h2>
+<ol>
+  <li>Napisz wypowiedzenie na piśmie (możesz skorzystać ze wzoru dostępnego w agencji)</li>
+  <li>Podaj datę i swój podpis</li>
+  <li>Złóż je osobiście w agencji lub wyślij listem poleconym za potwierdzeniem odbioru</li>
+  <li>Zapytaj o potwierdzenie przyjęcia dokumentu</li>
+</ol>
+<p>Nie ma prawnego wymogu uzasadniania wypowiedzenia przez pracownika przy umowie o pracę tymczasową.</p>
+
+<h2>Co dzieje się po zakończeniu pracy?</h2>
+<ul>
+  <li><strong>Świadectwo pracy</strong> — agencja ma obowiązek wystawić świadectwo pracy bez Twojego wniosku (w ciągu 7 dni od zakończenia stosunku pracy)</li>
+  <li><strong>ZUS</strong> — agencja zgłosi Twoje wyrejestrowanie (formularz ZWUA). Masz jeszcze 30 dni na bezpłatne korzystanie ze świadczeń NFZ po zakończeniu umowy.</li>
+  <li><strong>Urlop</strong> — jeśli nie wykorzystałeś urlopu wypoczynkowego, należy Ci się ekwiwalent pieniężny</li>
+  <li><strong>Ostatnia wypłata</strong> — wynagrodzenie za przepracowany okres powinno być wypłacone w normalnym terminie wypłat</li>
+</ul>
+
+<h2>Co jeśli to agencja wypowiada umowę?</h2>
+<p>Agencja pracy może zakończyć Twoją umowę z zachowaniem tych samych okresów wypowiedzenia. Jeśli pracodawca użytkownik (firma, do której jesteś skierowany) rezygnuje z Twoich usług przed upływem uzgodnionego okresu, agencja powinna starać się zapewnić Ci inne skierowanie lub wypłacić wynagrodzenie za pozostały czas umowy.</p>
+
+<h2>Jak pomaga Nexflow?</h2>
+<p>W Nexflow dbamy o to, by każdy pracownik rozumiał swoje prawa. Jeśli chcesz zakończyć pracę lub masz pytania dotyczące umowy — skontaktuj się z nami bezpośrednio. Pomożemy Ci załatwić wszystkie formalności zgodnie z prawem.</p>
+    `.trim(),
+  },
+  {
+    slug: "rozirvannya-dohovoru-tymchasovyi-pratsivnyk-polshcha",
+    title: "Розірвання договору тимчасового працівника в Польщі — строки та права",
+    description:
+      "Як правильно звільнитися з тимчасової роботи в Польщі? Строки попередження, трудова книжка, зняття з обліку в ZUS — практичний посібник для іноземних працівників.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<p>Ви працюєте тимчасово через агентство зайнятості і думаєте, як завершити роботу? Незалежно від того, чи хочете змінити роботу, повернутися додому або просто закінчити контракт — ви маєте право зробити це у законно визначений спосіб. Цей посібник пояснює, скільки часу потрібно відпрацювати і що зробити крок за кроком.</p>
+
+<h2>Договір про тимчасову роботу — строки попередження</h2>
+<p>Якщо ви працюєте за договором про тимчасову роботу (umowa o pracę tymczasową) з агентством праці (наприклад, Nexflow), на вас поширюється дія <strong>Закону Польщі від 9 липня 2003 р. про зайнятість тимчасових працівників</strong>. Строки попередження коротші, ніж при звичайному трудовому договорі:</p>
+<ul>
+  <li><strong>Договір до 2 тижнів</strong> — 3 робочі дні попередження</li>
+  <li><strong>Договір від 2 тижнів до 3 місяців</strong> — 1 тиждень попередження</li>
+  <li><strong>Договір понад 3 місяці</strong> — 2 тижні попередження</li>
+</ul>
+<p>Попередження може подати як працівник, так і агентство. Завжди робіть це <strong>письмово</strong> — збережіть копію з підтвердженням отримання.</p>
+
+<h2>Договір-доручення (zlecenie) — чи потрібне попередження?</h2>
+<p>Якщо ви працюєте за цивільно-правовим договором (umowa zlecenie), ситуація інша. Відповідно до ст. 746 § 2 Цивільного кодексу Польщі, ви можете розірвати договір <strong>у будь-який час</strong>. Однак:</p>
+<ul>
+  <li>Якщо договір є платним і ви розриваєте його без поважної причини, вас можуть зобов'язати відшкодувати збитки</li>
+  <li>Перевірте текст договору — в ньому можуть бути прописані строки попередження</li>
+</ul>
+
+<h2>Як подати попередження про звільнення?</h2>
+<ol>
+  <li>Напишіть заяву про звільнення письмово (у агентстві є зразки)</li>
+  <li>Вкажіть дату і підпишіть документ</li>
+  <li>Подайте особисто в агентство або надішліть рекомендованим листом з повідомленням</li>
+  <li>Попросіть підтвердження отримання</li>
+</ol>
+<p>Закон не вимагає від працівника обґрунтовувати причини звільнення при тимчасовому договорі.</p>
+
+<h2>Що відбувається після завершення роботи?</h2>
+<ul>
+  <li><strong>Свідоцтво про роботу (świadectwo pracy)</strong> — агентство зобов'язане видати його без вашого запиту протягом 7 днів після закінчення трудового договору</li>
+  <li><strong>ZUS</strong> — агентство подасть заяву про зняття вас з обліку (форма ZWUA). Ви маєте ще 30 днів для безплатного використання медичних послуг NFZ</li>
+  <li><strong>Відпустка</strong> — якщо ви не використали щорічну відпустку, вам належить грошова компенсація</li>
+  <li><strong>Остання виплата</strong> — зарплата за відпрацьований період має бути сплачена у звичайний термін</li>
+</ul>
+
+<h2>Що, якщо агентство розриває договір?</h2>
+<p>Агентство може розірвати ваш договір з дотриманням тих самих строків попередження. Якщо роботодавець-користувач (підприємство, до якого вас направили) відмовляється від ваших послуг до закінчення погодженого строку, агентство повинно намагатися знайти вам інше направлення або виплатити зарплату за час, що залишився.</p>
+
+<h2>Як допомагає Nexflow?</h2>
+<p>У Nexflow ми дбаємо про те, щоб кожен працівник розумів свої права. Якщо ви хочете завершити роботу або маєте запитання щодо договору — зверніться до нас. Ми допоможемо вам оформити всі документи відповідно до закону.</p>
+    `.trim(),
+  },
+  {
+    slug: "rastorzheniye-dogovora-vremennyy-rabotnik-polsha",
+    title: "Расторжение договора временного работника в Польше — сроки и права",
+    description:
+      "Как правильно уволиться с временной работы в Польше? Сроки уведомления, трудовое свидетельство, снятие с учёта в ZUS — практическое руководство для иностранных работников.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<p>Вы работаете временно через кадровое агентство и думаете о том, как завершить трудовые отношения? Хотите ли вы сменить работу, вернуться домой или просто закончить контракт — вы имеете право сделать это чётко установленным законом способом. Это руководство объясняет сроки и шаги, которые нужно предпринять.</p>
+
+<h2>Договор о временной работе — сроки предупреждения</h2>
+<p>Если вы работаете по договору о временной работе (umowa o pracę tymczasową) с агентством занятости (например, Nexflow), на вас распространяется <strong>Закон Польши от 9 июля 2003 г. о занятости временных работников</strong>. Сроки предупреждения об увольнении короче, чем при обычном трудовом договоре:</p>
+<ul>
+  <li><strong>Договор до 2 недель</strong> — 3 рабочих дня предупреждения</li>
+  <li><strong>Договор от 2 недель до 3 месяцев</strong> — 1 неделя предупреждения</li>
+  <li><strong>Договор свыше 3 месяцев</strong> — 2 недели предупреждения</li>
+</ul>
+<p>Уведомление может подать как работник, так и агентство. Всегда делайте это <strong>в письменной форме</strong> — сохраните копию с подтверждением получения.</p>
+
+<h2>Договор-поручение (zlecenie) — нужно ли соблюдать срок предупреждения?</h2>
+<p>Если вы работаете по гражданско-правовому договору (umowa zlecenie), ситуация иная. Согласно ст. 746 § 2 Гражданского кодекса Польши, вы можете расторгнуть договор <strong>в любое время</strong>. Однако:</p>
+<ul>
+  <li>Если договор является возмездным и вы расторгаете его без уважительной причины, вас могут обязать возместить убытки</li>
+  <li>Проверьте текст договора — в нём могут быть прописаны сроки уведомления</li>
+</ul>
+
+<h2>Как правильно подать уведомление об увольнении?</h2>
+<ol>
+  <li>Напишите заявление об увольнении в письменной форме (в агентстве есть образцы)</li>
+  <li>Укажите дату и подпишите документ</li>
+  <li>Подайте лично в агентство или отправьте заказным письмом с уведомлением</li>
+  <li>Попросите подтверждение о получении</li>
+</ol>
+<p>Закон не требует от работника обосновывать причины увольнения при временном трудовом договоре.</p>
+
+<h2>Что происходит после окончания работы?</h2>
+<ul>
+  <li><strong>Свидетельство о работе (świadectwo pracy)</strong> — агентство обязано выдать его без вашего заявления в течение 7 дней после прекращения трудового договора</li>
+  <li><strong>ZUS</strong> — агентство подаст заявление о снятии вас с учёта (форма ZWUA). У вас ещё есть 30 дней на бесплатное использование медицинских услуг NFZ</li>
+  <li><strong>Отпуск</strong> — если вы не использовали ежегодный отпуск, вам положена денежная компенсация</li>
+  <li><strong>Последняя выплата</strong> — зарплата за отработанный период должна быть выплачена в обычный срок</li>
+</ul>
+
+<h2>Что если агентство расторгает договор?</h2>
+<p>Агентство может расторгнуть ваш договор с соблюдением тех же сроков предупреждения. Если работодатель-пользователь (предприятие, куда вас направили) отказывается от ваших услуг до истечения согласованного срока, агентство должно постараться обеспечить вам другое направление или выплатить зарплату за оставшееся время.</p>
+
+<h2>Как помогает Nexflow?</h2>
+<p>В Nexflow мы заботимся о том, чтобы каждый работник понимал свои права. Если вы хотите завершить работу или у вас есть вопросы по договору — свяжитесь с нами. Мы поможем вам оформить все документы в соответствии с законом.</p>
+    `.trim(),
+  },
+  {
+    slug: "terminating-temp-work-contract-notice-period-poland",
+    title: "Terminating a temp work contract in Poland — notice periods and rights",
+    description:
+      "How to legally end a temporary work contract in Poland? Notice periods, employment certificate, ZUS deregistration — a practical guide for foreign workers.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<p>Working temporarily through a staffing agency in Poland and wondering how to end your employment? Whether you want to change jobs, return home, or simply finish your contract — you have the right to do so in a clearly defined way. This guide explains how much notice you need to give and what steps to follow.</p>
+
+<h2>Temporary employment contract (umowa o pracę tymczasową) — notice periods</h2>
+<p>If you work under a temporary employment contract (umowa o pracę tymczasową) with a staffing agency such as Nexflow, the <strong>Polish Temporary Employment Act of 9 July 2003</strong> applies. Notice periods are shorter than for regular employment:</p>
+<ul>
+  <li><strong>Contract up to 2 weeks</strong> — 3 working days notice</li>
+  <li><strong>Contract from 2 weeks to 3 months</strong> — 1 week notice</li>
+  <li><strong>Contract over 3 months</strong> — 2 weeks notice</li>
+</ul>
+<p>Either the worker or the agency can give notice. Always do so <strong>in writing</strong> — keep a copy with proof of delivery.</p>
+
+<h2>Civil law contract (umowa zlecenie) — is notice required?</h2>
+<p>If you work under a civil law contract (umowa zlecenie), the situation is different. Under Article 746 § 2 of the Polish Civil Code, you may terminate the contract <strong>at any time</strong>. However:</p>
+<ul>
+  <li>If the contract is paid and you terminate it without good reason, you may be liable to compensate the agency for losses incurred</li>
+  <li>Check your contract — it may include specific notice terms</li>
+</ul>
+
+<h2>How to give notice</h2>
+<ol>
+  <li>Write a resignation notice in writing (the agency can provide a template)</li>
+  <li>Include the date and your signature</li>
+  <li>Submit it in person at the agency or send by registered post with delivery confirmation</li>
+  <li>Ask for written acknowledgement of receipt</li>
+</ol>
+<p>You are not legally required to give a reason for resigning from a temporary employment contract.</p>
+
+<h2>What happens after the contract ends?</h2>
+<ul>
+  <li><strong>Employment certificate (świadectwo pracy)</strong> — the agency must issue this without you requesting it, within 7 days of the contract ending</li>
+  <li><strong>ZUS deregistration</strong> — the agency will submit a deregistration form (ZWUA). You still have 30 days of free access to NFZ healthcare after the contract ends</li>
+  <li><strong>Unused holiday</strong> — if you have unused annual leave, you are entitled to a cash payment (ekwiwalent) instead</li>
+  <li><strong>Final pay</strong> — wages for all hours worked must be paid by the normal payday</li>
+</ul>
+
+<h2>What if the agency terminates your contract?</h2>
+<p>The agency can terminate your contract by giving the same notice periods. If the user employer (the company you are assigned to) ends the assignment before the agreed end date, the agency should try to find you another assignment or pay your wages for the remaining period.</p>
+
+<h2>How Nexflow helps</h2>
+<p>At Nexflow, we make sure every worker understands their rights. If you want to end your assignment or have questions about your contract — contact us directly. We will help you handle all the formalities correctly and in compliance with Polish law.</p>
+    `.trim(),
+  },
+  {
+    slug: "ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+    title: "Ochrona tymczasowa w Polsce: prawa i procedury dla obywateli Ukrainy",
+    description:
+      "Czym jest ochrona tymczasowa, kto jest nią objęty i jakie prawa daje ukraińskim pracownikom w Polsce — legalna praca, NFZ, PESEL UKR i świadczenia socjalne.",
+    date: "2026-10-01",
+    lang: "pl",
+    content: `
+<h1>Ochrona tymczasowa w Polsce: prawa i procedury dla obywateli Ukrainy</h1>
+
+<p>Od 24 lutego 2022 roku Polska przyjęła ponad milion Ukraińców objętych <strong>ochroną tymczasową</strong>. Czym jest ten status i co Ci daje?</p>
+
+<h2>Co to jest ochrona tymczasowa?</h2>
+<p>Ochrona tymczasowa to specjalny status nadawany <strong>zbiorowo</strong> obywatelom Ukrainy, którzy opuścili kraj po 24 lutego 2022 r. Reguluje go polska ustawa z 12 marca 2022 r. oraz dyrektywa UE 2001/55/WE. Nie musisz składać wniosku azylowego — status jest przyznawany automatycznie.</p>
+
+<h2>Kto jest objęty?</h2>
+<ul>
+  <li>Obywatele Ukrainy, którzy wyjechali po 24.02.2022 r.</li>
+  <li>Bezpaństwowcy i obywatele państw trzecich legalnie przebywający na Ukrainie</li>
+  <li>Członkowie ich rodzin (małżonkowie, dzieci, rodzice)</li>
+</ul>
+
+<h2>Jakie prawa daje ochrona tymczasowa?</h2>
+
+<h3>1. Legalna praca bez zezwolenia</h3>
+<p>Możesz pracować u <strong>dowolnego pracodawcy</strong> bez osobnego zezwolenia. Pracodawca powiadamia powiatowy urząd pracy w ciągu 14 dni od zatrudnienia.</p>
+
+<h3>2. Dostęp do NFZ</h3>
+<p>Pracując na umowę o pracę lub zlecenie, jesteś ubezpieczony w NFZ — tak samo jak pracownicy polscy.</p>
+
+<h3>3. Edukacja dla dzieci</h3>
+<p>Dzieci objęte ochroną uczą się w polskich szkołach publicznych na takich samych zasadach jak dzieci polskie.</p>
+
+<h3>4. PESEL UKR i Profil Zaufany</h3>
+<p>Po rejestracji w gminie otrzymasz numer PESEL z oznaczeniem „UKR", który daje dostęp do Profilu Zaufanego i usług bankowych.</p>
+
+<h3>5. Świadczenia socjalne</h3>
+<p>Możesz mieć prawo do programu 800+, jednorazowego świadczenia 300 zł i innych form wsparcia.</p>
+
+<h2>Jak długo trwa ten status?</h2>
+<p>Ochrona tymczasowa była kilkakrotnie przedłużana. Obowiązuje do <strong>30 września 2026 r.</strong> (stan na dzień publikacji). Śledź aktualne informacje na udsc.gov.pl.</p>
+
+<h2>Jak udokumentować pobyt?</h2>
+<ol>
+  <li>Zarejestruj się w gminie → uzyskaj PESEL UKR</li>
+  <li>Złóż wniosek o pobyt czasowy przez gov.pl lub Urząd Wojewódzki</li>
+  <li>Otrzymasz zaświadczenie potwierdzające legalność pobytu</li>
+</ol>
+
+<h2>Co zrobić, gdy status wygasa?</h2>
+<p>Nie czekaj do ostatniej chwili. Opcje po wygaśnięciu:</p>
+<ul>
+  <li>Zezwolenie na pobyt czasowy ze względu na pracę</li>
+  <li>Wniosek o ochronę międzynarodową (azyl)</li>
+  <li>Karta Polaka (jeśli masz polskie korzenie)</li>
+</ul>
+
+<h2>Nexflow pomaga Ci znaleźć legalną pracę</h2>
+<p>Nexflow specjalizuje się w zatrudnianiu obywateli Ukrainy w Polsce. Pomagamy dopełnić wszystkie formalności. Skontaktuj się: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "tymchasovyi-zakhyst-ukraina-polshcha-prava-protsedury",
+    title: "Тимчасовий захист у Польщі: права та процедури для громадян України",
+    description:
+      "Що таке тимчасовий захист, хто ним охоплений і які права він надає українським працівникам у Польщі — легальна робота, NFZ, PESEL UKR та соціальні виплати.",
+    date: "2026-10-01",
+    lang: "uk",
+    content: `
+<h1>Тимчасовий захист у Польщі: права та процедури для громадян України</h1>
+
+<p>З 24 лютого 2022 року Польща прийняла понад мільйон українців, які перебувають під <strong>тимчасовим захистом</strong>. Що це за статус і які права він надає?</p>
+
+<h2>Що таке тимчасовий захист?</h2>
+<p>Тимчасовий захист — це спеціальний статус, що надається <strong>колективно</strong> громадянам України, які покинули країну після 24 лютого 2022 р. Він регулюється польським законом від 12 березня 2022 р. та директивою ЄС 2001/55/ЄС. Подавати заяву на отримання притулку не потрібно — статус надається автоматично.</p>
+
+<h2>Хто підпадає під захист?</h2>
+<ul>
+  <li>Громадяни України, які виїхали після 24.02.2022 р.</li>
+  <li>Особи без громадянства та громадяни третіх країн, які законно перебували в Україні</li>
+  <li>Члени їхніх сімей (подружжя, діти, батьки)</li>
+</ul>
+
+<h2>Які права надає тимчасовий захист?</h2>
+
+<h3>1. Легальна робота без дозволу</h3>
+<p>Ви можете працювати у <strong>будь-якого роботодавця</strong> без окремого дозволу на роботу. Роботодавець повідомляє районний центр зайнятості протягом 14 днів від прийняття на роботу.</p>
+
+<h3>2. Доступ до NFZ</h3>
+<p>Працюючи за трудовим договором або договором-дорученням, ви застраховані в NFZ — так само, як польські працівники.</p>
+
+<h3>3. Освіта для дітей</h3>
+<p>Діти під тимчасовим захистом навчаються в польських державних школах на тих самих умовах, що й польські діти.</p>
+
+<h3>4. PESEL UKR та Профіль Довіри</h3>
+<p>Після реєстрації в гміні ви отримаєте номер PESEL з позначкою «UKR», що відкриває доступ до Профілю Довіри та банківських послуг.</p>
+
+<h3>5. Соціальні виплати</h3>
+<p>Ви можете мати право на програму 800+, одноразову допомогу 300 злотих та інші форми підтримки.</p>
+
+<h2>Скільки триває цей статус?</h2>
+<p>Тимчасовий захист неодноразово продовжувався. Він діє до <strong>30 вересня 2026 р.</strong> (на дату публікації). Слідкуйте за актуальною інформацією на udsc.gov.pl.</p>
+
+<h2>Як підтвердити легальність перебування?</h2>
+<ol>
+  <li>Зареєструйтеся в гміні → отримайте PESEL UKR</li>
+  <li>Подайте заяву на тимчасовий вид на проживання через gov.pl або Воєводське управління</li>
+  <li>Отримаєте довідку, що підтверджує легальність перебування</li>
+</ol>
+
+<h2>Що робити, коли статус закінчується?</h2>
+<p>Не чекайте до останнього. Варіанти після закінчення:</p>
+<ul>
+  <li>Дозвіл на тимчасове проживання з метою роботи</li>
+  <li>Заява на міжнародний захист (притулок)</li>
+  <li>Карта поляка (якщо маєте польське коріння)</li>
+</ul>
+
+<h2>Nexflow допомагає знайти легальну роботу</h2>
+<p>Nexflow спеціалізується на працевлаштуванні громадян України в Польщі. Ми допомагаємо оформити всі необхідні документи. Зв'яжіться з нами: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "vremennaya-zashchita-ukraina-polsha-prava-protsedury",
+    title: "Временная защита в Польше: права и процедуры для граждан Украины",
+    description:
+      "Что такое временная защита, кто ею охвачён и какие права она даёт украинским работникам в Польше — легальная работа, NFZ, PESEL UKR и социальные выплаты.",
+    date: "2026-10-01",
+    lang: "ru",
+    content: `
+<h1>Временная защита в Польше: права и процедуры для граждан Украины</h1>
+
+<p>С 24 февраля 2022 года Польша приняла более миллиона украинцев, находящихся под <strong>временной защитой</strong>. Что это за статус и какие права он даёт?</p>
+
+<h2>Что такое временная защита?</h2>
+<p>Временная защита — это специальный статус, предоставляемый <strong>коллективно</strong> гражданам Украины, покинувшим страну после 24 февраля 2022 г. Он регулируется польским законом от 12 марта 2022 г. и директивой ЕС 2001/55/ЕС. Подавать заявление на убежище не нужно — статус предоставляется автоматически.</p>
+
+<h2>Кто подпадает под защиту?</h2>
+<ul>
+  <li>Граждане Украины, выехавшие после 24.02.2022 г.</li>
+  <li>Лица без гражданства и граждане третьих стран, законно находившиеся в Украине</li>
+  <li>Члены их семей (супруги, дети, родители)</li>
+</ul>
+
+<h2>Какие права даёт временная защита?</h2>
+
+<h3>1. Легальная работа без разрешения</h3>
+<p>Вы можете работать у <strong>любого работодателя</strong> без отдельного разрешения на работу. Работодатель уведомляет районный центр занятости в течение 14 дней с момента трудоустройства.</p>
+
+<h3>2. Доступ к NFZ</h3>
+<p>Работая по трудовому договору или договору-поручению (umowa zlecenie), вы застрахованы в NFZ — так же, как польские работники.</p>
+
+<h3>3. Образование для детей</h3>
+<p>Дети под временной защитой учатся в польских государственных школах на тех же условиях, что и польские дети.</p>
+
+<h3>4. PESEL UKR и Профиль Доверия</h3>
+<p>После регистрации в гмине вы получите номер PESEL с отметкой «UKR», который открывает доступ к Профилю Доверия (Profil Zaufany) и банковским услугам.</p>
+
+<h3>5. Социальные выплаты</h3>
+<p>Вы можете иметь право на программу 800+, единовременное пособие 300 злотых и другие формы поддержки.</p>
+
+<h2>Как долго действует этот статус?</h2>
+<p>Временная защита неоднократно продлевалась. Она действует до <strong>30 сентября 2026 г.</strong> (по состоянию на дату публикации). Следите за актуальной информацией на udsc.gov.pl.</p>
+
+<h2>Как подтвердить законность пребывания?</h2>
+<ol>
+  <li>Зарегистрируйтесь в гмине → получите PESEL UKR</li>
+  <li>Подайте заявление на временный вид на жительство через gov.pl или Воеводское управление</li>
+  <li>Получите справку, подтверждающую законность пребывания</li>
+</ol>
+
+<h2>Что делать, когда статус истекает?</h2>
+<p>Не ждите до последнего момента. Варианты после окончания:</p>
+<ul>
+  <li>Разрешение на временное проживание в целях работы</li>
+  <li>Заявление на международную защиту (убежище)</li>
+  <li>Карта поляка (если есть польские корни)</li>
+</ul>
+
+<h2>Nexflow помогает найти легальную работу</h2>
+<p>Nexflow специализируется на трудоустройстве граждан Украины в Польше. Мы помогаем оформить все необходимые документы. Свяжитесь с нами: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "temporary-protection-ukraine-poland-rights-procedures",
+    title: "Temporary Protection in Poland: Rights and Procedures for Ukrainian Citizens",
+    description:
+      "What is temporary protection, who is covered, and what rights does it give Ukrainian workers in Poland — legal work, NFZ, PESEL UKR, and social benefits.",
+    date: "2026-10-01",
+    lang: "en",
+    content: `
+<h1>Temporary Protection in Poland: Rights and Procedures for Ukrainian Citizens</h1>
+
+<p>Since February 24, 2022, Poland has taken in over one million Ukrainians covered by <strong>temporary protection</strong>. What is this status and what rights does it give you?</p>
+
+<h2>What is temporary protection?</h2>
+<p>Temporary protection is a special status granted <strong>collectively</strong> to Ukrainian citizens who left the country after February 24, 2022. It is governed by the Polish Act of March 12, 2022, and EU Directive 2001/55/EC. You do not need to apply for asylum — the status is granted automatically.</p>
+
+<h2>Who is covered?</h2>
+<ul>
+  <li>Ukrainian citizens who left after February 24, 2022</li>
+  <li>Stateless persons and third-country nationals who were legally residing in Ukraine</li>
+  <li>Their family members (spouses, children, parents)</li>
+</ul>
+
+<h2>What rights does temporary protection give you?</h2>
+
+<h3>1. Legal work without a permit</h3>
+<p>You can work for <strong>any employer</strong> without a separate work permit. The employer must notify the district labour office (powiatowy urząd pracy) within 14 days of hiring you.</p>
+
+<h3>2. Access to NFZ (National Health Fund)</h3>
+<p>When working under an employment contract or a civil-law contract (umowa zlecenie), you are insured with NFZ — just like Polish employees.</p>
+
+<h3>3. Education for children</h3>
+<p>Children under temporary protection attend Polish public schools on the same terms as Polish children.</p>
+
+<h3>4. PESEL UKR and Trusted Profile</h3>
+<p>After registering at your local gmina office, you will receive a PESEL number marked "UKR", which gives you access to the Trusted Profile (Profil Zaufany) and banking services.</p>
+
+<h3>5. Social benefits</h3>
+<p>You may be eligible for the 800+ child benefit programme, a one-time 300 PLN payment, and other forms of support.</p>
+
+<h2>How long does this status last?</h2>
+<p>Temporary protection has been extended several times. It is valid until <strong>September 30, 2026</strong> (as of the date of publication). Check udsc.gov.pl for current information.</p>
+
+<h2>How to document your legal stay</h2>
+<ol>
+  <li>Register at your local gmina office → receive your PESEL UKR</li>
+  <li>Apply for a temporary residence permit via gov.pl or your Regional Voivodeship Office</li>
+  <li>You will receive a certificate confirming the legality of your stay</li>
+</ol>
+
+<h2>What to do when the status expires</h2>
+<p>Do not wait until the last moment. Options after expiry:</p>
+<ul>
+  <li>Temporary residence permit for work purposes (zezwolenie na pobyt czasowy)</li>
+  <li>Application for international protection (asylum)</li>
+  <li>Polish Card (Karta Polaka) if you have Polish roots</li>
+</ul>
+
+<h2>Nexflow helps you find legal work</h2>
+<p>Nexflow specialises in employing Ukrainian citizens in Poland. We help with all the necessary paperwork. Contact us: <a href="https://nexflow.work/kontakt">nexflow.work/kontakt</a></p>
+    `.trim(),
+  },
+  {
+    slug: "tlumaczenie-przysigle-dokumenty-cudzoziemiec-polska",
+    title: "Tłumaczenie Przysięgłe w Polsce — Kiedy Jest Potrzebne i Jak Je Uzyskać",
+    description:
+      "Kiedy cudzoziemiec pracujący w Polsce potrzebuje tłumaczenia przysięgłego? Jak znaleźć tłumacza, ile kosztuje i jakie dokumenty należy przetłumaczyć.",
+    date: "2026-10-05",
+    lang: "pl",
+    content: `
+<p>Jeśli jesteś cudzoziemcem pracującym lub mieszkającym w Polsce, prędzej czy później będziesz potrzebować tłumaczenia przysięgłego. Dowiedz się, czym dokładnie ono jest, kiedy jest wymagane i jak je uzyskać.</p>
+
+<h2>Czym jest tłumaczenie przysięgłe?</h2>
+<p>Tłumaczenie przysięgłe (zwane też tłumaczeniem uwierzytelnionym) to przekład dokumentu wykonany przez tłumacza przysięgłego — osobę wpisaną na listę tłumaczy przysięgłych Ministerstwa Sprawiedliwości RP. Tłumaczenie takie ma charakter urzędowy i jest uznawane przez wszystkie polskie instytucje.</p>
+<p>W odróżnieniu od zwykłego tłumaczenia, tłumaczenie przysięgłe jest opieczętowane pieczęcią tłumacza i zawiera jego podpis oraz numer wpisu na listę MS.</p>
+
+<h2>Kiedy cudzoziemiec potrzebuje tłumaczenia przysięgłego?</h2>
+<p>Tłumaczenie przysięgłe jest obowiązkowe w wielu sytuacjach:</p>
+<ul>
+  <li><strong>Karta pobytu / TRC</strong> — wniosek o kartę czasowego lub stałego pobytu wymaga tłumaczenia paszportu, aktu urodzenia, świadectwa pracy i innych dokumentów</li>
+  <li><strong>Zezwolenie na pracę</strong> — zagraniczne dokumenty potwierdzające kwalifikacje mogą wymagać tłumaczenia</li>
+  <li><strong>Nostryfikacja dyplomu</strong> — uznanie zagranicznego wykształcenia w Polsce zawsze wymaga tłumaczenia przysięgłego</li>
+  <li><strong>Wymiana prawa jazdy</strong> — zagraniczne prawo jazdy musi być przetłumaczone przed wymianą</li>
+  <li><strong>Sprawy sądowe</strong> — dokumenty obcojęzyczne prezentowane w sądzie wymagają tłumaczenia przysięgłego</li>
+  <li><strong>Akt ślubu / urodzenia dziecka</strong> — rejestracja stanu cywilnego wymaga przetłumaczenia zagranicznych aktów</li>
+  <li><strong>Rejestracja do szkoły</strong> — zagraniczne świadectwa szkolne mogą wymagać tłumaczenia</li>
+</ul>
+
+<h2>Jakie dokumenty najczęściej tłumaczą cudzoziemcy?</h2>
+<ul>
+  <li>Paszport (strony z danymi, wizą, stemplami wjazdowymi)</li>
+  <li>Akt urodzenia</li>
+  <li>Akt małżeństwa / rozwodu</li>
+  <li>Świadectwo pracy / umowa o pracę</li>
+  <li>Dyplom ukończenia szkoły lub studiów</li>
+  <li>Zaświadczenie o niekaralności</li>
+  <li>Prawo jazdy</li>
+  <li>Zaświadczenie lekarskie</li>
+</ul>
+
+<h2>Jak znaleźć tłumacza przysięgłego?</h2>
+<p>Listę tłumaczy przysięgłych prowadzi Ministerstwo Sprawiedliwości. Wyszukaj tłumacza według języka (ukraiński, rosyjski, białoruski itd.) na stronie: <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Sprawdź, czy tłumacz ma status „wpisany" (aktywny).</p>
+<p>Możesz też skorzystać z:</p>
+<ul>
+  <li>Biur tłumaczeń w Twoim mieście (wiele z nich współpracuje z tłumaczami przysięgłymi)</li>
+  <li>Platform internetowych z dostawą PDF lub kurierską</li>
+</ul>
+
+<h2>Ile kosztuje tłumaczenie przysięgłe?</h2>
+<p>Ceny nie są regulowane przepisami. Orientacyjnie:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Język</th>
+      <th>Cena za stronę rozliczeniową</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ukraiński / Rosyjski → Polski</td>
+      <td>40–70 zł</td>
+    </tr>
+    <tr>
+      <td>Angielski → Polski</td>
+      <td>50–80 zł</td>
+    </tr>
+    <tr>
+      <td>Białoruski → Polski</td>
+      <td>60–90 zł</td>
+    </tr>
+  </tbody>
+</table>
+<p>Jedna strona rozliczeniowa = 1 125 znaków tekstu docelowego (ze spacjami).</p>
+
+<h2>Jak długo czeka się na tłumaczenie?</h2>
+<ul>
+  <li>Standardowo: <strong>2–5 dni roboczych</strong></li>
+  <li>Ekspresowo: <strong>tego samego dnia lub 24 godziny</strong> (dopłata 50–100%)</li>
+  <li>Online: PDF tego samego dnia, oryginał kurierem w 1–2 dni</li>
+</ul>
+
+<h2>Ważne wskazówki</h2>
+<ol>
+  <li>Zawsze proś o <strong>oryginalny egzemplarz</strong> z pieczęcią — urzędy nie przyjmują kopii kserograficznych</li>
+  <li>Weryfikuj tłumacza na liście MS — nielegalnie działający "tłumacze przysięgli" to realne zagrożenie</li>
+  <li>Agencja Nexflow może skierować Cię do zaufanego biura tłumaczeń</li>
+</ol>
+
+<h2>Podsumowanie</h2>
+<p>Tłumaczenie przysięgłe jest nieodłącznym elementem legalizacji pobytu i pracy w Polsce. Zaplanuj je z wyprzedzeniem — szczególnie jeśli składasz wniosek o kartę pobytu lub wymieniasz prawo jazdy. Tłumacze przysięgli są dostępni w każdym większym mieście i przez Internet.</p>
+    `.trim(),
+  },
+  {
+    slug: "prysiazhnyi-pereklad-dokumentiv-inozemets-polshcha",
+    title: "Присяжний переклад документів у Польщі — коли потрібний і як отримати",
+    description:
+      "Коли іноземному працівнику в Польщі потрібен присяжний переклад? Як знайти перекладача, скільки коштує та які документи потрібно перекладати.",
+    date: "2026-10-05",
+    lang: "uk",
+    content: `
+<p>Якщо ти іноземець, який живе або працює в Польщі, рано чи пізно тобі знадобиться присяжний переклад документів. Дізнайся, що це таке, коли він обов'язковий і де його отримати.</p>
+
+<h2>Що таке присяжний переклад?</h2>
+<p>Присяжний переклад (tłumaczenie przysięgłe або tłumaczenie uwierzytelnione) — це офіційний переклад документа, виконаний перекладачем, внесеним до реєстру Міністерства юстиції Польщі. Такий переклад має юридичну силу і визнається всіма польськими органами влади.</p>
+<p>На відміну від звичайного перекладу, присяжний переклад містить печатку і підпис присяжного перекладача та його реєстраційний номер.</p>
+
+<h2>Коли іноземцю потрібен присяжний переклад?</h2>
+<ul>
+  <li><strong>Карта тимчасового перебування (TRC)</strong> — заява вимагає перекладу паспорта, свідоцтва про народження, трудових документів тощо</li>
+  <li><strong>Дозвіл на роботу</strong> — іноземні документи про кваліфікацію можуть вимагати перекладу</li>
+  <li><strong>Нострифікація диплому</strong> — визнання іноземної освіти в Польщі завжди потребує присяжного перекладу</li>
+  <li><strong>Обмін водійського посвідчення</strong> — іноземні водійські права потрібно перекласти перед обміном</li>
+  <li><strong>Судові справи</strong> — документи іноземною мовою в суді потребують присяжного перекладу</li>
+  <li><strong>Реєстрація актів цивільного стану</strong> — реєстрація іноземного свідоцтва про народження або шлюбу</li>
+  <li><strong>Запис дитини до школи</strong> — іноземні шкільні документи можуть потребувати перекладу</li>
+</ul>
+
+<h2>Які документи найчастіше перекладають?</h2>
+<ul>
+  <li>Паспорт (сторінки з даними, візою, штампами в'їзду)</li>
+  <li>Свідоцтво про народження</li>
+  <li>Свідоцтво про шлюб / розлучення</li>
+  <li>Трудова книжка / довідка з роботи</li>
+  <li>Диплом школи або університету</li>
+  <li>Довідка про несудимість</li>
+  <li>Водійське посвідчення</li>
+  <li>Медичні довідки</li>
+</ul>
+
+<h2>Як знайти присяжного перекладача?</h2>
+<p>Список присяжних перекладачів веде Міністерство юстиції Польщі. Шукай за мовою (ukraiński, rosyjski тощо): <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Перевір, чи статус перекладача — «wpisany» (активний).</p>
+<p>Також можна:</p>
+<ul>
+  <li>Звернутися до бюро перекладів у своєму місті</li>
+  <li>Скористатися онлайн-платформами з доставкою PDF або кур'єром</li>
+</ul>
+
+<h2>Скільки коштує присяжний переклад?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Мова</th>
+      <th>Ціна за сторінку</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Українська / Російська → Польська</td>
+      <td>40–70 зл</td>
+    </tr>
+    <tr>
+      <td>Англійська → Польська</td>
+      <td>50–80 зл</td>
+    </tr>
+    <tr>
+      <td>Білоруська → Польська</td>
+      <td>60–90 зл</td>
+    </tr>
+  </tbody>
+</table>
+<p>Одна «розрахункова сторінка» = 1 125 знаків (з пробілами) кінцевого тексту.</p>
+
+<h2>Скільки часу займає переклад?</h2>
+<ul>
+  <li>Стандартно: <strong>2–5 робочих днів</strong></li>
+  <li>Терміново: <strong>того ж дня або 24 год</strong> (доплата 50–100%)</li>
+  <li>Онлайн: PDF того ж дня, оригінал кур'єром за 1–2 дні</li>
+</ul>
+
+<h2>Важливі поради</h2>
+<ol>
+  <li>Завжди проси <strong>оригінальний примірник</strong> з печаткою — ксерокопії органи не приймають</li>
+  <li>Перевіряй перекладача на офіційному списку MS — шахраї реально існують</li>
+  <li>Агентство Nexflow може направити тебе до надійного бюро перекладів</li>
+</ol>
+
+<h2>Підсумок</h2>
+<p>Присяжний переклад — обов'язкова частина легалізації в Польщі. Плануй його заздалегідь, особливо якщо подаєш заяву на карту перебування або обмінюєш водійські права.</p>
+    `.trim(),
+  },
+  {
+    slug: "prisyazhnyj-perevod-dokumentov-inostranets-polsha",
+    title: "Присяжный перевод документов в Польше — когда нужен и как получить",
+    description:
+      "Когда иностранному работнику в Польше нужен присяжный перевод? Как найти переводчика, сколько стоит и какие документы нужно переводить.",
+    date: "2026-10-05",
+    lang: "ru",
+    content: `
+<p>Если ты иностранец, живущий или работающий в Польше, рано или поздно тебе понадобится присяжный перевод документов. Узнай, что это такое, когда он обязателен и как его получить.</p>
+
+<h2>Что такое присяжный перевод?</h2>
+<p>Присяжный перевод (tłumaczenie przysięgłe или tłumaczenie uwierzytelnione) — это официальный перевод документа, выполненный переводчиком, включённым в реестр Министерства юстиции Польши. Такой перевод имеет юридическую силу и признаётся всеми польскими государственными органами.</p>
+<p>В отличие от обычного перевода, присяжный перевод содержит печать и подпись присяжного переводчика с его регистрационным номером.</p>
+
+<h2>Когда иностранцу нужен присяжный перевод?</h2>
+<ul>
+  <li><strong>Карта временного пребывания (TRC)</strong> — заявление требует перевода паспорта, свидетельства о рождении, трудовых документов и пр.</li>
+  <li><strong>Разрешение на работу</strong> — иностранные документы о квалификации могут потребовать перевода</li>
+  <li><strong>Нострификация диплома</strong> — признание иностранного образования в Польше всегда требует присяжного перевода</li>
+  <li><strong>Обмен водительского удостоверения</strong> — иностранные права нужно перевести перед обменом</li>
+  <li><strong>Судебные дела</strong> — иноязычные документы в суде требуют присяжного перевода</li>
+  <li><strong>Регистрация актов гражданского состояния</strong> — регистрация иностранного свидетельства о рождении или браке</li>
+  <li><strong>Зачисление ребёнка в школу</strong> — иностранные школьные документы могут потребовать перевода</li>
+</ul>
+
+<h2>Какие документы чаще всего переводят?</h2>
+<ul>
+  <li>Паспорт (страницы с данными, визой, въездными штампами)</li>
+  <li>Свидетельство о рождении</li>
+  <li>Свидетельство о браке / разводе</li>
+  <li>Трудовая книжка / справка с работы</li>
+  <li>Диплом школы или университета</li>
+  <li>Справка о несудимости</li>
+  <li>Водительское удостоверение</li>
+  <li>Медицинские справки</li>
+</ul>
+
+<h2>Как найти присяжного переводчика?</h2>
+<p>Список присяжных переводчиков ведёт Министерство юстиции Польши. Поиск по языку (ukraiński, rosyjski и др.): <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Убедись, что статус переводчика — «wpisany» (активный).</p>
+<p>Также можно:</p>
+<ul>
+  <li>Обратиться в бюро переводов в своём городе</li>
+  <li>Воспользоваться онлайн-платформами с доставкой PDF или курьером</li>
+</ul>
+
+<h2>Сколько стоит присяжный перевод?</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Язык</th>
+      <th>Цена за страницу</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Украинский / Русский → Польский</td>
+      <td>40–70 злотых</td>
+    </tr>
+    <tr>
+      <td>Английский → Польский</td>
+      <td>50–80 злотых</td>
+    </tr>
+    <tr>
+      <td>Белорусский → Польский</td>
+      <td>60–90 злотых</td>
+    </tr>
+  </tbody>
+</table>
+<p>Одна «расчётная страница» = 1 125 знаков (с пробелами) итогового текста.</p>
+
+<h2>Сколько времени занимает перевод?</h2>
+<ul>
+  <li>Стандартно: <strong>2–5 рабочих дней</strong></li>
+  <li>Срочно: <strong>в тот же день или 24 часа</strong> (доплата 50–100%)</li>
+  <li>Онлайн: PDF в тот же день, оригинал курьером за 1–2 дня</li>
+</ul>
+
+<h2>Важные советы</h2>
+<ol>
+  <li>Всегда требуй <strong>оригинальный экземпляр</strong> с печатью — ксерокопии органы не принимают</li>
+  <li>Проверяй переводчика по официальному списку MS — мошенники существуют</li>
+  <li>Агентство Nexflow может направить тебя в надёжное бюро переводов</li>
+</ol>
+
+<h2>Итог</h2>
+<p>Присяжный перевод — обязательная часть легализации в Польше. Планируй его заранее, особенно если подаёшь заявление на карту пребывания или обмениваешь водительское удостоверение.</p>
+    `.trim(),
+  },
+  {
+    slug: "sworn-translation-documents-foreign-worker-poland",
+    title: "Sworn Translation of Documents in Poland — A Guide for Foreign Workers",
+    description:
+      "Do you need a sworn translation of your documents in Poland? Find out when it's required, how to find a certified translator, what it costs, and how long it takes.",
+    date: "2026-10-05",
+    lang: "en",
+    content: `
+<p>If you're a foreign national living or working in Poland, you'll almost certainly need a sworn (certified) translation of your documents at some point. Here's everything you need to know.</p>
+
+<h2>What is a sworn translation in Poland?</h2>
+<p>A sworn translation (tłumaczenie przysięgłe or tłumaczenie uwierzytelnione) is an officially certified translation of a document, carried out by a sworn translator registered on the list maintained by Poland's Ministry of Justice (Ministerstwo Sprawiedliwości). This type of translation is legally valid and accepted by all Polish authorities, courts, and public institutions.</p>
+<p>Unlike a regular translation, a sworn translation bears the translator's official stamp, handwritten signature, and registration number.</p>
+
+<h2>When does a foreign worker need a sworn translation?</h2>
+<ul>
+  <li><strong>Temporary Residence Card (TRC / karta pobytu)</strong> — the application requires translated copies of your passport, birth certificate, employment documents, and other supporting materials</li>
+  <li><strong>Work permit application</strong> — foreign qualification certificates may need to be translated</li>
+  <li><strong>Diploma recognition (nostryfikacja)</strong> — recognising foreign educational credentials in Poland always requires a sworn translation</li>
+  <li><strong>Driver's licence exchange</strong> — a foreign driving licence must be translated before it can be exchanged for a Polish one</li>
+  <li><strong>Court proceedings</strong> — any foreign-language documents submitted to a Polish court must be translated by a sworn translator</li>
+  <li><strong>Marriage / civil registration</strong> — registering a foreign birth or marriage certificate at a Polish Registry Office (USC) requires a sworn translation</li>
+  <li><strong>School enrolment for children</strong> — foreign school certificates may need translation</li>
+</ul>
+
+<h2>Which documents are most commonly translated?</h2>
+<ul>
+  <li>Passport (personal data pages, visa pages, entry stamps)</li>
+  <li>Birth certificate</li>
+  <li>Marriage certificate / divorce decree</li>
+  <li>Employment record / work reference letter</li>
+  <li>School or university diploma</li>
+  <li>Criminal record check (certificate of no criminal record)</li>
+  <li>Driver's licence</li>
+  <li>Medical certificates</li>
+</ul>
+
+<h2>How to find a sworn translator in Poland</h2>
+<p>The Ministry of Justice maintains the official list of sworn translators. You can search by language (e.g., Ukrainian, Russian, Belarusian) at: <strong>ms.gov.pl/tlumacze-przysigli</strong></p>
+<p>Make sure the translator's status shows as "wpisany" (registered and active).</p>
+<p>You can also:</p>
+<ul>
+  <li>Visit a translation agency in your city (many work with certified sworn translators)</li>
+  <li>Use online translation platforms that offer delivery by PDF or courier</li>
+</ul>
+
+<h2>How much does a sworn translation cost?</h2>
+<p>Sworn translation fees are not regulated by law, but typical prices are:</p>
+<table>
+  <thead>
+    <tr>
+      <th>Language pair</th>
+      <th>Price per page</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ukrainian / Russian → Polish</td>
+      <td>PLN 40–70</td>
+    </tr>
+    <tr>
+      <td>English → Polish</td>
+      <td>PLN 50–80</td>
+    </tr>
+    <tr>
+      <td>Belarusian → Polish</td>
+      <td>PLN 60–90</td>
+    </tr>
+  </tbody>
+</table>
+<p>One "billing page" = 1,125 characters (including spaces) of the target-language text.</p>
+
+<h2>How long does it take?</h2>
+<ul>
+  <li>Standard: <strong>2–5 working days</strong></li>
+  <li>Express: <strong>same day or 24 hours</strong> (with a 50–100% surcharge)</li>
+  <li>Online: PDF delivered same day, physical original by courier within 1–2 days</li>
+</ul>
+
+<h2>Key tips for foreign workers</h2>
+<ol>
+  <li>Always ask for the <strong>original copy</strong> with the translator's stamp — Polish authorities do not accept photocopies of sworn translations</li>
+  <li>Verify the translator on the official MS list to avoid fraud</li>
+  <li>Nexflow can refer you to a trusted translation office in your area</li>
+</ol>
+
+<h2>Summary</h2>
+<p>Sworn translation is a routine but essential step in the legalisation process in Poland. Plan ahead — especially if you're applying for a residence card, exchanging your driver's licence, or registering family documents.</p>
+    `.trim(),
+  },
+  {
+    slug: "praca-w-weekend-sobota-niedziela-polska-prawa",
+    title:
+      "Praca w sobotę i niedzielę w Polsce — prawa i wynagrodzenie dla pracownika tymczasowego",
+    description:
+      "Pracujesz w weekend w Polsce? Dowiedz się, co mówi prawo o pracy w sobotę i niedzielę, jakie przysługują Ci dodatki i kiedy należy Ci się dzień wolny.",
+    date: "2026-10-23",
+    lang: "pl",
+    content: `
+<p>Wiele osób pracujących w magazynach i logistyce w Polsce pracuje regularnie w weekendy. Czy to jest legalne? Ile powinieneś zarobić za pracę w sobotę lub niedzielę? Jakie masz prawa jako pracownik tymczasowy? Ten poradnik odpowiada na najważniejsze pytania.</p>
+
+<h2>Praca w sobotę — co mówi prawo?</h2>
+<p>Sobota <strong>nie jest objęta specjalną ochroną</strong> w Kodeksie pracy tak jak niedziela. Nie istnieje przepis zakazujący pracy w sobotę. Jednak większość pracowników ma rozkład czasu pracy obejmujący 5 dni roboczych (zwykle poniedziałek–piątek). Jeśli Twój grafik przewiduje pracę od poniedziałku do piątku, praca w sobotę może być kwalifikowana jako <strong>praca w godzinach nadliczbowych</strong> lub jako planowana praca zmianowa.</p>
+<p><strong>Praca zmianowa:</strong> Jeśli pracujesz w systemie zmianowym (rotacyjnym), sobota może być Twoim normalnym dniem pracy wynikającym z grafiku. W takim przypadku nie jest to praca nadliczbowa. System zmianowy jest powszechny w logistyce i magazynowaniu — jest w pełni legalny.</p>
+
+<h2>Praca w niedzielę — czy jest dozwolona?</h2>
+<p>Artykuł 151⁹ Kodeksu pracy <strong>zasadniczo zakazuje pracy w niedzielę</strong>. Jednak artykuł 151¹⁰ przewiduje szereg wyjątków. Praca w niedzielę jest dozwolona m.in. w:</p>
+<ul>
+  <li>pracy ciągłej (np. produkcja, której nie można przerywać)</li>
+  <li>systemie zmianowym, gdy wynika to z organizacji pracy</li>
+  <li>transporcie i komunikacji</li>
+  <li>gastronomii i hotelarstwie</li>
+  <li>placówkach ochrony zdrowia</li>
+  <li>dozorze i ochronie mienia</li>
+</ul>
+<p><strong>Branża logistyczna i magazynowa:</strong> Centra logistyczne najczęściej kwalifikują się do wyjątku ze względu na <strong>system zmianowy</strong> lub pracę ciągłą. Jako pracownik tymczasowy Nexflow możesz zostać skierowany do pracy w niedzielę, jeśli firma użytkownik spełnia warunki ustawowego wyjątku.</p>
+
+<h2>Wynagrodzenie za pracę w niedzielę</h2>
+<p>Za pracę w niedzielę przysługuje Ci jedno z dwóch świadczeń (Art. 151¹¹–151¹² KP):</p>
+<ol>
+  <li><strong>Dzień wolny w zamian</strong> — pracodawca powinien udzielić Ci wolnego dnia <strong>w ciągu 6 tygodni po przepracowanej niedzieli</strong> (najlepiej w tygodniu bezpośrednio przed lub po).</li>
+  <li><strong>Jeśli nie dostaniesz dnia wolnego</strong> — przysługuje Ci <strong>dodatek w wysokości 100%</strong> stawki godzinowej za każdą godzinę pracy w niedzielę.</li>
+</ol>
+<p>Oba uprawnienia nie wykluczają się wzajemnie z prawem do nadgodzin — jeśli w niedzielę przekroczysz normalny wymiar czasu pracy, masz prawo do <strong>dnia wolnego/dodatku za niedzielę ORAZ wynagrodzenia za nadgodziny</strong>.</p>
+
+<h2>Tygodniowy czas odpoczynku</h2>
+<p>Polskie prawo gwarantuje każdemu pracownikowi <strong>minimum 35 godzin nieprzerwanego odpoczynku tygodniowo</strong> (Art. 133 KP), który co do zasady powinien obejmować niedzielę. Dla pracowników zmianowych minimalny czas odpoczynku może wynosić 24 godziny nieprzerwanego odpoczynku tygodniowego, jednak pracodawca ma obowiązek „odkompensowania" skróconego odpoczynku.</p>
+
+<h2>Sprawdź swój pasek wypłaty</h2>
+<p>Praca w niedzielę i ewentualne nadgodziny powinny być wyraźnie widoczne na Twoim pasku wypłaty (odcinku wynagrodzenia). Jeśli pracowałeś w niedzielę i nie widzisz stosownego dodatku ani zaznaczonego dnia wolnego, <strong>skontaktuj się z agencją Nexflow</strong> — nasi doradcy sprawdzą Twoje rozliczenie.</p>
+
+<h2>Podsumowanie</h2>
+<ul>
+  <li>Praca w sobotę jest ogólnie dozwolona; może być pracą zmianową lub nadliczbową zależnie od Twojego grafiku.</li>
+  <li>Praca w niedzielę wymaga spełnienia warunków z Kodeksu pracy, ale w logistyce jest powszechnie dozwolona.</li>
+  <li>Za niedzielę przysługuje Ci dzień wolny w zamian lub 100% dodatku do stawki.</li>
+  <li>Tygodniowy nieprzerwany czas odpoczynku wynosi co najmniej 35 godzin.</li>
+</ul>
+<p><em>Nexflow zapewnia Ci pracę zgodną z polskim prawem. Masz pytania dotyczące harmonogramu lub wynagrodzenia? Napisz do nas — jesteśmy tu, żeby pomóc.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "robota-u-vykidni-subota-nedilya-polshcha-prava",
+    title:
+      "Робота у суботу та неділю в Польщі — права та оплата тимчасового працівника",
+    description:
+      "Працюєш у вихідні в Польщі? Дізнайся, що каже Трудовий кодекс про роботу в суботу та неділю, яка надбавка тобі належить і коли ти маєш право на вихідний день.",
+    date: "2026-10-23",
+    lang: "uk",
+    content: `
+<p>Багато людей, які працюють на складах і в логістиці в Польщі, регулярно виходять на роботу у вихідні. Чи законно це? Скільки ти маєш заробити за роботу в суботу або неділю? Які твої права як тимчасового працівника? Цей посібник відповідає на найважливіші питання.</p>
+
+<h2>Робота в суботу — що каже закон?</h2>
+<p>Субота <strong>не має особливого захисту</strong> в Трудовому кодексі Польщі (Kodeks pracy), на відміну від неділі. Не існує заборони на роботу в суботу. Однак більшість працівників мають 5-денний робочий тиждень (зазвичай понеділок–п'ятниця). Якщо твій графік передбачає роботу з понеділка по п'ятницю, то робота в суботу може кваліфікуватися як <strong>понаднормова робота</strong> або як планова зміна в рамках змінного графіка.</p>
+<p><strong>Змінний графік:</strong> Якщо ти працюєш у змінному (ротаційному) режимі, субота може бути твоїм звичайним робочим днем за графіком. У такому разі це не понаднормова робота. Змінний графік дуже поширений у логістиці та на складах — і цілком законний.</p>
+
+<h2>Робота в неділю — чи дозволена?</h2>
+<p>Стаття 151⁹ Трудового кодексу Польщі <strong>загалом забороняє роботу в неділю</strong>. Проте стаття 151¹⁰ передбачає низку винятків. Робота в неділю дозволена, зокрема:</p>
+<ul>
+  <li>у безперервному виробництві (наприклад, заводи, що не можуть зупинятися)</li>
+  <li>при змінному графіку, якщо це передбачено організацією праці</li>
+  <li>у транспорті та зв'язку</li>
+  <li>у готельному та ресторанному бізнесі</li>
+  <li>у закладах охорони здоров'я</li>
+  <li>у службах охорони</li>
+</ul>
+<p><strong>Логістика та склади:</strong> Логістичні центри здебільшого підпадають під виняток через <strong>змінний графік</strong> або безперервне виробництво. Як тимчасовий працівник Nexflow ти можеш бути направлений на роботу в неділю, якщо підприємство-користувач відповідає законним умовам.</p>
+
+<h2>Оплата за роботу в неділю</h2>
+<p>За роботу в неділю тобі належить одне з двох (ст. 151¹¹–151¹² ТК Польщі):</p>
+<ol>
+  <li><strong>Вихідний день замість</strong> — роботодавець повинен надати тобі вільний день <strong>протягом 6 тижнів після відпрацьованої неділі</strong> (бажано в тижні безпосередньо до або після).</li>
+  <li><strong>Якщо вихідний не надано</strong> — тобі належить <strong>надбавка у розмірі 100%</strong> погодинної ставки за кожну годину роботи в неділю.</li>
+</ol>
+<p>Ці права не виключають права на понаднормову оплату — якщо в неділю ти перевищив звичайну тривалість робочого часу, маєш право на <strong>вихідний/надбавку за неділю І оплату за понаднормову роботу</strong>.</p>
+
+<h2>Тижневий відпочинок</h2>
+<p>Польське право гарантує кожному працівнику <strong>щонайменше 35 годин безперервного відпочинку на тиждень</strong> (ст. 133 ТК), що повинні охоплювати неділю. Для змінних працівників мінімальний тижневий відпочинок може становити 24 години, але роботодавець зобов'язаний «компенсувати» скорочений відпочинок.</p>
+
+<h2>Перевір свій розрахунковий лист</h2>
+<p>Робота в неділю та можливі понаднормові години мають бути чітко відображені в розрахунковому листі (pasek wypłaty). Якщо ти працював у неділю і не бачиш відповідної надбавки чи зазначеного вихідного дня, <strong>зв'яжись з агентством Nexflow</strong> — наші консультанти перевірять твій розрахунок.</p>
+
+<h2>Підсумок</h2>
+<ul>
+  <li>Робота в суботу загалом дозволена; залежно від твого графіка вона може бути плановою зміною або понаднормовою.</li>
+  <li>Робота в неділю потребує відповідності умовам Трудового кодексу, але в логістиці зазвичай дозволена.</li>
+  <li>За неділю тобі належить вихідний день замість або 100% надбавка до ставки.</li>
+  <li>Тижневий безперервний відпочинок — щонайменше 35 годин.</li>
+</ul>
+<p><em>Nexflow забезпечує роботу відповідно до польського законодавства. Маєш питання щодо графіка або зарплати? Напиши нам — ми завжди готові допомогти.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "rabota-v-vykhodnye-subbota-voskresenye-polsha-prava",
+    title:
+      "Работа в выходные в Польше — суббота и воскресенье: права и оплата временного работника",
+    description:
+      "Работаете в выходные в Польше? Узнайте, что говорит Трудовой кодекс о работе в субботу и воскресенье, какая доплата вам положена и когда вы имеете право на выходной.",
+    date: "2026-10-23",
+    lang: "ru",
+    content: `
+<p>Многие работники складов и логистики в Польше регулярно работают в выходные. Законно ли это? Сколько должны платить за работу в субботу или воскресенье? Какие права у временного работника? Этот гид отвечает на самые важные вопросы.</p>
+
+<h2>Работа в субботу — что говорит закон?</h2>
+<p>Суббота <strong>не имеет особой защиты</strong> в Трудовом кодексе Польши (Kodeks pracy), в отличие от воскресенья. Закон не запрещает работу в субботу. Однако у большинства работников рабочая неделя состоит из 5 дней (обычно с понедельника по пятницу). Если ваш график предусматривает работу с понедельника по пятницу, работа в субботу может квалифицироваться как <strong>сверхурочная</strong> или как плановая смена в рамках сменного графика.</p>
+<p><strong>Сменный график:</strong> Если вы работаете по сменному (ротационному) графику, суббота может быть вашим обычным рабочим днём по расписанию. В таком случае это не сверхурочная работа. Сменный режим широко распространён в логистике и складском деле — и полностью законен.</p>
+
+<h2>Работа в воскресенье — разрешена ли?</h2>
+<p>Статья 151⁹ Трудового кодекса Польши <strong>в целом запрещает работу в воскресенье</strong>. Однако статья 151¹⁰ предусматривает ряд исключений. Работа в воскресенье разрешена, в том числе:</p>
+<ul>
+  <li>в непрерывном производстве (например, заводы, которые нельзя останавливать)</li>
+  <li>при сменном графике, если это предусмотрено организацией труда</li>
+  <li>на транспорте и в связи</li>
+  <li>в гостиничном и ресторанном бизнесе</li>
+  <li>в медицинских учреждениях</li>
+  <li>в охране и обеспечении безопасности</li>
+</ul>
+<p><strong>Логистика и склады:</strong> Логистические центры чаще всего подпадают под исключение в связи со <strong>сменным графиком</strong> или непрерывным производством. Как временный работник Nexflow вы можете быть направлены на работу в воскресенье, если предприятие-пользователь соответствует законным условиям.</p>
+
+<h2>Оплата за работу в воскресенье</h2>
+<p>За работу в воскресенье вам полагается одно из двух (ст. 151¹¹–151¹² ТК Польши):</p>
+<ol>
+  <li><strong>Выходной день взамен</strong> — работодатель обязан предоставить вам свободный день <strong>в течение 6 недель после отработанного воскресенья</strong> (желательно на неделе непосредственно до или после).</li>
+  <li><strong>Если выходной не предоставлен</strong> — вам полагается <strong>доплата в размере 100%</strong> почасовой ставки за каждый час работы в воскресенье.</li>
+</ol>
+<p>Эти права не исключают права на сверхурочную оплату — если в воскресенье вы превысили нормальную продолжительность рабочего времени, вы имеете право на <strong>выходной/доплату за воскресенье И оплату сверхурочных</strong>.</p>
+
+<h2>Еженедельный отдых</h2>
+<p>Польское законодательство гарантирует каждому работнику <strong>не менее 35 часов непрерывного отдыха в неделю</strong> (ст. 133 ТК), который должен включать воскресенье. Для работников по сменному графику минимальный еженедельный отдых может составлять 24 часа, однако работодатель обязан «компенсировать» сокращённый отдых.</p>
+
+<h2>Проверьте расчётный лист</h2>
+<p>Работа в воскресенье и возможные сверхурочные часы должны быть чётко отражены в расчётном листе (pasek wypłaty). Если вы работали в воскресенье и не видите соответствующей надбавки или указанного выходного, <strong>свяжитесь с агентством Nexflow</strong> — наши консультанты проверят ваш расчёт.</p>
+
+<h2>Итог</h2>
+<ul>
+  <li>Работа в субботу в целом разрешена; в зависимости от вашего графика она может быть плановой сменой или сверхурочной.</li>
+  <li>Работа в воскресенье требует соответствия условиям Трудового кодекса, но в логистике обычно разрешена.</li>
+  <li>За воскресенье вам полагается выходной взамен или доплата 100% к ставке.</li>
+  <li>Еженедельный непрерывный отдых — не менее 35 часов.</li>
+</ul>
+<p><em>Nexflow обеспечивает работу в соответствии с польским законодательством. Есть вопросы по графику или оплате? Напишите нам — мы всегда готовы помочь.</em></p>
+    `.trim(),
+  },
+  {
+    slug: "working-weekends-saturday-sunday-poland-rights-pay",
+    title:
+      "Working Weekends in Poland: Your Rights on Saturdays and Sundays as a Temp Worker",
+    description:
+      "Do you work weekends in Poland? Find out what the Polish Labour Code says about Saturday and Sunday work, what pay you're entitled to, and when you must get a day off.",
+    date: "2026-10-23",
+    lang: "en",
+    content: `
+<p>Many people working in warehouses and logistics in Poland regularly work weekends. Is it legal? How much should you earn for Saturday or Sunday work? What rights do you have as a temporary worker? This guide answers the key questions.</p>
+
+<h2>Working on Saturdays — What Does the Law Say?</h2>
+<p>Saturday <strong>has no special legal protection</strong> in the Polish Labour Code (Kodeks pracy), unlike Sunday. There is no law that prohibits working on Saturdays. However, most employees have a 5-day working week (typically Monday–Friday). If your schedule runs Monday to Friday, Saturday work may be classified as <strong>overtime</strong> or as a planned shift within a rotating schedule.</p>
+<p><strong>Shift work:</strong> If you work on a shift (rotating) schedule, Saturday can be a normal working day under your rota. In that case, it is not overtime. Shift-based work is common in logistics and warehousing — and is fully legal.</p>
+
+<h2>Working on Sundays — Is It Allowed?</h2>
+<p>Article 151⁹ of the Polish Labour Code <strong>generally prohibits Sunday work</strong>. However, Article 151¹⁰ provides a list of exceptions. Sunday work is permitted in, among others:</p>
+<ul>
+  <li>Continuous production (e.g. factories that cannot be shut down)</li>
+  <li>Shift work systems, where the organisation of work requires it</li>
+  <li>Transport and communications</li>
+  <li>Hospitality (hotels and restaurants)</li>
+  <li>Healthcare facilities</li>
+  <li>Security and property protection</li>
+</ul>
+<p><strong>Logistics and warehousing:</strong> Logistics centres most commonly qualify for the exception due to <strong>shift work</strong> or continuous operations. As a Nexflow temporary worker, you may be assigned to Sunday work if the client employer meets the legal conditions — and in warehouse/logistics this is almost always the case.</p>
+
+<h2>Pay for Sunday Work</h2>
+<p>For working on Sunday, you are entitled to one of two things (Articles 151¹¹–151¹² of the Labour Code):</p>
+<ol>
+  <li><strong>A day off in lieu</strong> — the employer must give you a free day <strong>within 6 weeks after the Sunday worked</strong> (preferably in the week immediately before or after it).</li>
+  <li><strong>If no day off is given</strong> — you are entitled to <strong>an allowance of 100%</strong> of your hourly rate for each hour worked on Sunday.</li>
+</ol>
+<p>These rights do not cancel out overtime rights. If you exceeded your normal working hours on Sunday, you are entitled to <strong>the Sunday allowance/day off AND overtime pay</strong> simultaneously.</p>
+
+<h2>Weekly Rest Period</h2>
+<p>Polish law guarantees every worker <strong>at least 35 consecutive hours of rest per week</strong> (Article 133 of the Labour Code), which should generally include Sunday. For shift workers, the minimum weekly rest may be 24 consecutive hours, but the employer must "compensate" for the reduced rest period.</p>
+
+<h2>Check Your Payslip</h2>
+<p>Sunday work and any overtime hours should be clearly shown on your payslip (pasek wypłaty). If you worked on Sunday and do not see a corresponding allowance or a recorded day off, <strong>contact Nexflow</strong> — our advisers will check your calculation.</p>
+
+<h2>Summary</h2>
+<ul>
+  <li>Saturday work is generally permitted; depending on your schedule it may be a planned shift or overtime.</li>
+  <li>Sunday work requires meeting the conditions of the Labour Code, but in logistics it is routinely permitted.</li>
+  <li>For Sunday work you are entitled to a day off in lieu or a 100% pay supplement.</li>
+  <li>Weekly uninterrupted rest must be at least 35 hours.</li>
+</ul>
+<p><em>Nexflow ensures that all temporary workers are employed in compliance with Polish law. Questions about your schedule or pay? Write to us — we are here to help.</em></p>
+    `.trim(),
+  },
+
   {
     slug: "blik-platnosci-mobilne-polska-cudzoziemiec-poradnik",
     title: "BLIK i płatności mobilne w Polsce — poradnik dla cudzoziemca",

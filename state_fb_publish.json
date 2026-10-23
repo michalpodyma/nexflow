@@ -1704,8 +1704,1150 @@
       "sitemap_lastmod": "2031-05-22T00:00:00.000Z",
       "fb_post_id": "1107760715748033_122128528910808780",
       "published_at": "2026-08-28T07:06:30+0000"
+    },
+    {
+      "url": "https://nexflow.work/blog/praca-tymczasowa-przez-agencje-polska-jak-dziala",
+      "sitemap_lastmod": "2031-05-29T00:00:00.000Z",
+      "fb_post_id": "1107760715748033_122129895650808780",
+      "published_at": "2026-09-07T06:47:26+0000"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/pratsya-tymchasova-cherez-ahentsiyu-polshcha-yak-pratsiuie",
+      "sitemap_lastmod": "2031-05-29T00:00:00.000Z",
+      "fb_post_id": "1107760715748033_122129895698808780",
+      "published_at": "2026-09-07T06:47:26+0000"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabota-cherez-agentstvo-polsha-kak-rabotaet-vremennyj-trud",
+      "sitemap_lastmod": "2031-05-29T00:00:00.000Z",
+      "fb_post_id": "1107760715748033_122129895728808780",
+      "published_at": "2026-09-07T06:47:26+0000"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/temp-staffing-agency-work-poland-how-it-works",
+      "sitemap_lastmod": "2031-05-29T00:00:00.000Z",
+      "fb_post_id": "1107760715748033_122129895764808780",
+      "published_at": "2026-09-07T06:47:26+0000"
+    },
+    {
+      "url": "https://nexflow.work/blog/pracodawca-nie-wyplacil-wynagrodzenia-co-robic-cudzoziemiec",
+      "fb_post_id": "1107760715748033_122129896754808780",
+      "published_at": "2026-09-07T07:03:09+0000",
+      "sitemap_lastmod": "2031-06-05T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employer-hasnt-paid-wages-what-to-do-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122129896778808780",
+      "published_at": "2026-09-07T07:03:15+0000",
+      "sitemap_lastmod": "2031-06-05T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabotodatel-ne-vyplatil-zarplatu-chto-delat-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122129896808808780",
+      "published_at": "2026-09-07T07:03:21+0000",
+      "sitemap_lastmod": "2031-06-05T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robotodavets-ne-vyplatyv-zarplatu-shcho-robyty-chuzhozemets",
+      "fb_post_id": "1107760715748033_122129896826808780",
+      "published_at": "2026-09-07T07:03:26+0000",
+      "sitemap_lastmod": "2031-06-05T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/pip-panstwowa-inspekcja-pracy-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122129899130808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/derzhavna-inspektsiya-pratsi-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122129899172808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/gosudarstvennaya-inspektsiya-truda-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122129899190808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/labour-inspectorate-pip-foreign-worker-complaint-poland",
+      "fb_post_id": "1107760715748033_122129899226808780",
+      "published_at": "2026-09-07T08:30:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/blog/ppk-pracownicze-plany-kapitalowe-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122130032684808780",
+      "published_at": "2026-09-08T07:04:50+0000",
+      "sitemap_lastmod": "2031-07-10T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/ppk-pratsiuiuchi-plany-kapitalovi-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122130032702808780",
+      "published_at": "2026-09-08T07:04:58+0000",
+      "sitemap_lastmod": "2031-07-17T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/ppk-kapitalnye-plany-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122130032744808780",
+      "published_at": "2026-09-08T07:05:05+0000",
+      "sitemap_lastmod": "2031-07-24T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ppk-employee-capital-plans-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122130032774808780",
+      "published_at": "2026-09-08T07:05:12+0000",
+      "sitemap_lastmod": "2031-07-31T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/mobbing-molestowanie-praca-polska-cudzoziemiec",
+      "fb_post_id": "1107760715748033_122130032894808780",
+      "published_at": "2026-09-08T07:05:18+0000",
+      "sitemap_lastmod": "2031-08-07T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/mobing-tskyuvannya-robota-polshcha-inozemets",
+      "fb_post_id": "1107760715748033_122130032918808780",
+      "published_at": "2026-09-08T07:05:27+0000",
+      "sitemap_lastmod": "2031-08-14T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/mobing-travlya-rabota-polsha-inostranets",
+      "fb_post_id": "1107760715748033_122130032954808780",
+      "published_at": "2026-09-08T07:05:35+0000",
+      "sitemap_lastmod": "2031-08-21T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/mobbing-workplace-harassment-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122130032978808780",
+      "published_at": "2026-09-08T07:05:42+0000",
+      "sitemap_lastmod": "2031-08-28T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/odziez-robocza-srodki-ochrony-bhp-prawa-pracownika-polska",
+      "fb_post_id": "1107760715748033_122130033008808780",
+      "published_at": "2026-09-08T07:05:53+0000",
+      "sitemap_lastmod": "2031-09-04T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robochyi-odiah-zasoby-okhorony-bhp-prava-pratsivnyk-polshcha",
+      "fb_post_id": "1107760715748033_122130033056808780",
+      "published_at": "2026-09-08T07:06:00+0000",
+      "sitemap_lastmod": "2031-09-11T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabochaya-odezhda-sredstva-zashchity-bhp-prava-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122130033092808780",
+      "published_at": "2026-09-08T07:06:09+0000",
+      "sitemap_lastmod": "2031-09-18T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/work-clothing-ppe-safety-equipment-rights-poland-temp-worker",
+      "fb_post_id": "1107760715748033_122130033146808780",
+      "published_at": "2026-09-08T07:06:17+0000",
+      "sitemap_lastmod": "2031-09-25T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/minimalna-stawka-godzinowa-umowa-zlecenie-polska-2026",
+      "fb_post_id": "1107760715748033_122130044576808780",
+      "published_at": "2026-09-08T09:46:00+0000",
+      "sitemap_lastmod": "2031-12-25T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/minimalna-stavka-godzinova-umova-zlecennya-polshcha-2026",
+      "fb_post_id": "1107760715748033_122130044630808780",
+      "published_at": "2026-09-08T09:46:07+0000",
+      "sitemap_lastmod": "2032-01-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/minimalnaya-chasovaya-stavka-dogovor-porucheniya-polsha-2026",
+      "fb_post_id": "1107760715748033_122130044720808780",
+      "published_at": "2026-09-08T09:46:14+0000",
+      "sitemap_lastmod": "2032-01-08T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/minimum-hourly-rate-civil-law-contract-poland-2026",
+      "fb_post_id": "1107760715748033_122130044744808780",
+      "published_at": "2026-09-08T09:46:21+0000",
+      "sitemap_lastmod": "2032-01-15T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/urlop-bezplatny-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122130154718808780",
+      "published_at": "2026-09-09T07:05:32.554987+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/podroze-schengen-karta-pobytu-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122130154742808780",
+      "published_at": "2026-09-09T07:05:39.833396+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/karta-polaka-uprawnienia-jak-zlozyc-wniosek-cudzoziemiec",
+      "fb_post_id": "1107760715748033_122130154766808780",
+      "published_at": "2026-09-09T07:05:46.913786+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vidpustka-bez-oplaty-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122130154802808780",
+      "published_at": "2026-09-09T07:05:54.247055+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/podorozhi-shengen-karta-pobytu-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122130154838808780",
+      "published_at": "2026-09-09T07:06:01.628815+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/karta-polyaka-prava-yak-podaty-zayavu-inozemets",
+      "fb_post_id": "1107760715748033_122130154928808780",
+      "published_at": "2026-09-09T07:06:08.974285+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/otpusk-bez-sohraneniya-zarplaty-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122130154958808780",
+      "published_at": "2026-09-09T07:06:16.303608+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/puteshestviya-shengen-karta-pobytu-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122130154982808780",
+      "published_at": "2026-09-09T07:06:23.918708+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/karta-polyaka-prava-kak-podat-zayavlenie-inostranets",
+      "fb_post_id": "1107760715748033_122130155048808780",
+      "published_at": "2026-09-09T07:06:29.533898+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/unpaid-leave-foreign-worker-poland-trc-insurance",
+      "fb_post_id": "1107760715748033_122130155078808780",
+      "published_at": "2026-09-09T07:06:36.228919+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/schengen-travel-polish-residence-card-foreign-worker",
+      "fb_post_id": "1107760715748033_122130155120808780",
+      "published_at": "2026-09-09T07:06:42.956772+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/karta-polaka-polish-heritage-card-foreign-worker-guide",
+      "fb_post_id": "1107760715748033_122130155192808780",
+      "published_at": "2026-09-09T07:06:52.752910+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/zasilek-chorobowy-jak-zus-placi-ile-wynosi-polska",
+      "fb_post_id": "1107760715748033_122130345980808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/zasilek-chorobovy-yak-rozrakhovuietsia-polshcha",
+      "fb_post_id": "1107760715748033_122130345992808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/zasilek-chorobowy-kak-rasschityvaetsya-polsha",
+      "fb_post_id": "1107760715748033_122130346130808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sick-pay-zus-l4-benefit-calculation-poland",
+      "fb_post_id": "1107760715748033_122130345926808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/urlop-okolicznosciowy-pracownik-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122130346196808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vidpustka-za-osobystymy-obstavynamy-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122130346208808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/otpusk-po-semejnym-obstoyatelstvam-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122130346268808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/occasional-leave-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122130346592808780",
+      "published_at": "2026-09-10T08:43:01.288547+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/nfz-ubezpieczenie-zdrowotne-cudzoziemiec-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122130421772808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/nfz-strakhuvannya-zdorovya-inozemets-pratsivnyk-tymchasovyi-polshcha",
+      "fb_post_id": "1107760715748033_122130422462808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/nfz-strakhovaniye-zdorovya-inostranets-vremennyy-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122130422486808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nfz-health-insurance-foreign-worker-temp-agency-poland",
+      "fb_post_id": "1107760715748033_122130422516808780",
+      "published_at": "2026-09-10T22:24:07.090124+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/konto-bankowe-w-polsce-cudzoziemiec-pracownik-tymczasowy",
+      "fb_post_id": "1107760715748033_122130437990808780",
+      "published_at": "2026-09-11T02:01:27.198+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/bankivskyy-rakhunok-u-polshchi-inozemets-pratsivnyk-tymchasovyi",
+      "fb_post_id": "1107760715748033_122130438038808780",
+      "published_at": "2026-09-11T02:01:27.198+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/bankovskiy-schet-v-polshe-inostranets-vremennyy-rabotnik",
+      "fb_post_id": "1107760715748033_122130438056808780",
+      "published_at": "2026-09-11T02:01:27.198+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/bank-account-poland-foreign-worker-guide",
+      "fb_post_id": "1107760715748033_122130438074808780",
+      "published_at": "2026-09-11T02:01:27.198+0000",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/zakwaterowanie-pracownicze-polska-pracownik-tymczasowy",
+      "fb_post_id": "1107760715748033_122130456338808780",
+      "published_at": "2026-09-11T05:49:57.492637+00:00",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/pratsivnyche-zhytlo-polshcha-tymchasovyi-pratsivnyk",
+      "fb_post_id": "1107760715748033_122130456368808780",
+      "published_at": "2026-09-11T05:49:57.492637+00:00",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabochee-zhilye-polsha-vremennyy-rabotnik",
+      "fb_post_id": "1107760715748033_122130456386808780",
+      "published_at": "2026-09-11T05:49:57.492637+00:00",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employer-provided-accommodation-poland-temp-worker",
+      "fb_post_id": "1107760715748033_122130456416808780",
+      "published_at": "2026-09-11T05:49:57.492637+00:00",
+      "sitemap_lastmod": "2026-01-01"
+    },
+    {
+      "url": "https://nexflow.work/blog/kara-porzadkowa-praca-polska-pracownik-tymczasowy",
+      "fb_post_id": "1107760715748033_122131881782808780",
+      "published_at": "2026-09-21T08:16:31+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/dystsyplinarne-styahnennya-robota-polshcha-pratsivnyk",
+      "fb_post_id": "1107760715748033_122131881812808780",
+      "published_at": "2026-09-21T08:16:44+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/distsiplinarnoe-vzyskanie-rabota-polsha-rabotnik",
+      "fb_post_id": "1107760715748033_122131881848808780",
+      "published_at": "2026-09-21T08:16:55+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/disciplinary-action-work-poland-temp-worker",
+      "fb_post_id": "1107760715748033_122131881884808780",
+      "published_at": "2026-09-21T08:17:04+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/blog/18-miesiecy-praca-tymczasowa-polska-limit-prawa",
+      "fb_post_id": "1107760715748033_122132259356808780",
+      "published_at": "2026-09-23T07:04:51+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/18-misyatsiv-tymchasova-robota-polshcha-limit-prava",
+      "fb_post_id": "1107760715748033_122132259374808780",
+      "published_at": "2026-09-23T07:04:52+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/18-mesyatsev-vremennaya-rabota-polsha-limit-prava",
+      "fb_post_id": "1107760715748033_122132259404808780",
+      "published_at": "2026-09-23T07:04:53+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/18-months-temp-work-agency-poland-limit-rights",
+      "fb_post_id": "1107760715748033_122132259446808780",
+      "published_at": "2026-09-23T07:04:54+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/blog/ekuz-europejska-karta-ubezpieczenia-zdrowotnego-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122132259464808780",
+      "published_at": "2026-09-23T07:05:40+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/ekuz-yevropeyska-karta-strakhuvannya-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122132259488808780",
+      "published_at": "2026-09-23T07:05:41+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/ekuz-evropeyskaya-karta-strakhovaniia-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122132259536808780",
+      "published_at": "2026-09-23T07:05:42+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ekuz-european-health-insurance-card-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132259590808780",
+      "published_at": "2026-09-23T07:05:43+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/emergency-services-poland-112-how-to-call",
+      "fb_post_id": "1107760715748033_122132434658808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/daycare-poland-how-to-enroll-child-subsidies",
+      "fb_post_id": "1107760715748033_122132434700808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/dentist-poland-free-nfz-dentistry-guide",
+      "fb_post_id": "1107760715748033_122132434718808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/tax-resident-non-resident-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132434760808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/overtime-poland-rights-limits-pay-foreign-worker",
+      "fb_post_id": "1107760715748033_122132434820808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/personal-leave-poland-4-days-entitlements",
+      "fb_post_id": "1107760715748033_122132434868808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/apostille-document-legalization-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132434904808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/carer-benefit-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132434934808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ukrainian-passport-renewal-poland-guide",
+      "fb_post_id": "1107760715748033_122132434964808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/loans-credit-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132435006808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/night-work-poland-rights-night-shift-allowance",
+      "fb_post_id": "1107760715748033_122132435090808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pension-zus-foreign-worker-poland-departure",
+      "fb_post_id": "1107760715748033_122132435150808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/temp-work-through-agency-poland-how-it-works",
+      "fb_post_id": "1107760715748033_122132435198808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employer-failed-pay-salary-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132435240808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/labour-inspection-pip-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132435276808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/workplace-harassment-bullying-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122132435354808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/workwear-ppe-rights-employee-poland",
+      "fb_post_id": "1107760715748033_122132435426808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/unpaid-leave-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122132435498808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/schengen-travel-temporary-residence-card-poland",
+      "fb_post_id": "1107760715748033_122132435558808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/karta-polaka-card-pole-rights-how-to-apply",
+      "fb_post_id": "1107760715748033_122132435690808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/minimum-hourly-rate-civil-contract-poland-2026",
+      "fb_post_id": "1107760715748033_122132435726808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/compassionate-leave-personal-circumstances-poland",
+      "fb_post_id": "1107760715748033_122132436050808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sick-benefit-zasilek-chorobowy-poland-calculation",
+      "fb_post_id": "1107760715748033_122132436182808780",
+      "published_at": "2026-09-24T09:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/blog/potracenia-z-wynagrodzenia-polska-legalne-nielegalne-cudzoziemiec",
+      "fb_post_id": "1107760715748033_122133559802808780",
+      "published_at": "2026-10-01T08:21:37+0000",
+      "sitemap_lastmod": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/ekwiwalent-za-urlop-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122133559814808780",
+      "published_at": "2026-10-01T08:21:46+0000",
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/jednolite-zezwolenie-na-pobyt-i-prace-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122133559850808780",
+      "published_at": "2026-10-01T08:21:54+0000",
+      "sitemap_lastmod": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/wypadek-w-drodze-do-pracy-polska-prawa-pracownika",
+      "fb_post_id": "1107760715748033_122133559898808780",
+      "published_at": "2026-10-01T08:22:02+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/utrymannya-iz-zarplaty-polshcha-zakonni-nezakonni-inozemets",
+      "fb_post_id": "1107760715748033_122133559952808780",
+      "published_at": "2026-10-01T08:22:09+0000",
+      "sitemap_lastmod": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/ekvivalent-za-vidpustku-tymchasovyi-pratsivnyk-polshcha",
+      "fb_post_id": "1107760715748033_122133560066808780",
+      "published_at": "2026-10-01T08:22:16+0000",
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/iedynyy-dozvil-na-prozhyvannia-i-robotu-polshcha",
+      "fb_post_id": "1107760715748033_122133560126808780",
+      "published_at": "2026-10-01T08:22:23+0000",
+      "sitemap_lastmod": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/vypadok-po-dorozi-na-robotu-polshcha-prava-pratsivnyka",
+      "fb_post_id": "1107760715748033_122133560186808780",
+      "published_at": "2026-10-01T08:22:30+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/uderzhaniya-iz-zarplaty-polsha-zakonnye-nezakonnye-inostranets",
+      "fb_post_id": "1107760715748033_122133560216808780",
+      "published_at": "2026-10-01T08:22:38+0000",
+      "sitemap_lastmod": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/ekvivalent-za-otpusk-vremennyy-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122133560234808780",
+      "published_at": "2026-10-01T08:22:45+0000",
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/edinoe-razreshenie-na-prozhivanie-i-rabotu-polsha",
+      "fb_post_id": "1107760715748033_122133560300808780",
+      "published_at": "2026-10-01T08:22:52+0000",
+      "sitemap_lastmod": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/neschastny-sluchay-po-doroge-na-rabotu-polsha-prava",
+      "fb_post_id": "1107760715748033_122133560414808780",
+      "published_at": "2026-10-01T08:23:00+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/salary-deductions-poland-legal-illegal-foreign-worker",
+      "fb_post_id": "1107760715748033_122133560648808780",
+      "published_at": "2026-10-01T08:23:08+0000",
+      "sitemap_lastmod": "2026-09-12T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/holiday-pay-payout-temp-worker-poland",
+      "fb_post_id": "1107760715748033_122133560666808780",
+      "published_at": "2026-10-01T08:23:14+0000",
+      "sitemap_lastmod": "2026-09-20T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/single-permit-residence-work-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122133560732808780",
+      "published_at": "2026-10-01T08:23:21+0000",
+      "sitemap_lastmod": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/commuting-accident-work-poland-temp-worker-rights",
+      "fb_post_id": "1107760715748033_122133560774808780",
+      "published_at": "2026-10-01T08:23:29+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/wypowiedzenie-umowy-pracownik-tymczasowy-polska",
+      "fb_post_id": "1107760715748033_122133720038808780",
+      "published_at": "2026-10-02T07:04:44+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/ochrona-tymczasowa-ukraina-polska-prawa-procedury",
+      "fb_post_id": "1107760715748033_122133720062808780",
+      "published_at": "2026-10-02T07:04:53+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/rozirvannya-dohovoru-tymchasovyi-pratsivnyk-polshcha",
+      "fb_post_id": "1107760715748033_122133723092808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rastorzheniye-dogovora-vremennyy-rabotnik-polsha",
+      "fb_post_id": "1107760715748033_122133723122808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/terminating-temp-work-contract-notice-period-poland",
+      "fb_post_id": "1107760715748033_122133723140808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/tymchasovyi-zakhyst-ukraina-polshcha-prava-protsedury",
+      "fb_post_id": "1107760715748033_122133723158808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/vremennaya-zashchita-ukraina-polsha-prava-protsedury",
+      "fb_post_id": "1107760715748033_122133723182808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/temporary-protection-ukraine-poland-rights-procedures",
+      "fb_post_id": "1107760715748033_122133723212808780",
+      "published_at": "2026-10-02T07:33:17+0000",
+      "sitemap_lastmod": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "url": "https://nexflow.work/blog/tlumaczenie-przysigle-dokumenty-cudzoziemiec-polska",
+      "fb_post_id": "1107760715748033_122134657610808780",
+      "published_at": "2026-10-07T07:04:05+0000",
+      "verified_at": "2026-10-07T07:04:05+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657610808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/prysiazhnyi-pereklad-dokumentiv-inozemets-polshcha",
+      "fb_post_id": "1107760715748033_122134657640808780",
+      "published_at": "2026-10-07T07:04:13+0000",
+      "verified_at": "2026-10-07T07:04:13+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657640808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/prisyazhnyj-perevod-dokumentov-inostranets-polsha",
+      "fb_post_id": "1107760715748033_122134657670808780",
+      "published_at": "2026-10-07T07:04:22+0000",
+      "verified_at": "2026-10-07T07:04:22+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657670808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sworn-translation-documents-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122134657712808780",
+      "published_at": "2026-10-07T07:04:30+0000",
+      "verified_at": "2026-10-07T07:04:30+0000",
+      "permalink_url": "https://www.facebook.com/122109808214808780/posts/122134657712808780",
+      "note": "EUR-3854 auto-publish 2026-10-07"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/contract-termination-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136441656808780",
+      "published_at": "2026-10-16T07:38:02+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/18-months-temporary-work-poland-limit-rights",
+      "fb_post_id": "1107760715748033_122136444512808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/accident-commute-work-poland-worker-rights",
+      "fb_post_id": "1107760715748033_122136444554808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/bank-account-poland-foreign-temporary-worker",
+      "fb_post_id": "1107760715748033_122136444590808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/care-allowance-foreign-worker-child-care-poland",
+      "fb_post_id": "1107760715748033_122136444638808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/contract-termination-notice-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136444680808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/dentist-poland-free-nfz-dental-care",
+      "fb_post_id": "1107760715748033_122136444722808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/disciplinary-penalty-workplace-poland-worker",
+      "fb_post_id": "1107760715748033_122136444752808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ehic-european-health-insurance-card-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136444806808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/emergency-services-112-poland-how-to-call",
+      "fb_post_id": "1107760715748033_122136444842808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employer-change-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136444896808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employer-unpaid-wages-what-to-do-foreign-worker",
+      "fb_post_id": "1107760715748033_122136444998808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employment-certificate-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445016808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/employment-confirmation-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122136445040808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/extension-temporary-residence-card-poland",
+      "fb_post_id": "1107760715748033_122136445088808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/family-benefits-800plus-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445118808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/finding-family-doctor-nfz-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122136445160808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/foreign-children-polish-school-enrollment",
+      "fb_post_id": "1107760715748033_122136445214808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/housing-rental-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445244808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/labor-inspection-complaint-employer-poland",
+      "fb_post_id": "1107760715748033_122136445286808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/labor-rights-poland-minimum-wage",
+      "fb_post_id": "1107760715748033_122136445328808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/leave-personal-circumstances-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445418808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/loan-credit-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445466808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/maternity-leave-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445496808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/minimum-hourly-rate-service-agreement-poland-2026",
+      "fb_post_id": "1107760715748033_122136445532808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/mobywatel-epuap-electronic-government-services-poland",
+      "fb_post_id": "1107760715748033_122136445562808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/money-transfers-poland-abroad-foreign-worker",
+      "fb_post_id": "1107760715748033_122136445610808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nfz-health-insurance-foreign-temp-worker-poland",
+      "fb_post_id": "1107760715748033_122136445670808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nfz-health-insurance-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445694808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/night-work-poland-rights-night-shift-premium",
+      "fb_post_id": "1107760715748033_122136445742808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/nursery-poland-child-enrollment-subsidies",
+      "fb_post_id": "1107760715748033_122136445772808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/occupational-safety-training-worker-poland",
+      "fb_post_id": "1107760715748033_122136445844808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/overtime-poland-rights-limits-pay",
+      "fb_post_id": "1107760715748033_122136445868808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/payslip-explanation-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445910808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pharmacy-electronic-prescription-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136445946808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pit-filing-temporary-worker-poland-guide",
+      "fb_post_id": "1107760715748033_122136446000808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/polish-card-rights-how-to-apply-foreign-worker",
+      "fb_post_id": "1107760715748033_122136446018808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/polish-language-course-foreign-worker-free",
+      "fb_post_id": "1107760715748033_122136446060808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/public-holidays-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136446090808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/public-transport-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446114808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pue-zus-account-check-insurance-coverage-poland",
+      "fb_post_id": "1107760715748033_122136446162808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/residence-registration-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446270808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/residence-registration-requirement-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446318808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/schengen-travel-residence-card-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446360808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/service-agreement-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136446414808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sick-benefit-how-zus-calculates-poland",
+      "fb_post_id": "1107760715748033_122136446456808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/sim-card-mobile-phone-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446504808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/special-leave-poland-4-days",
+      "fb_post_id": "1107760715748033_122136446546808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/state-labor-inspection-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446576808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/temporary-work-through-agency-poland-how-it-works",
+      "fb_post_id": "1107760715748033_122136446600808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/tenant-rights-foreign-worker-housing-rental-poland",
+      "fb_post_id": "1107760715748033_122136446660808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/type-d-visa-poland-foreign-worker",
+      "fb_post_id": "1107760715748033_122136446762808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ukrainian-passport-renewal-poland",
+      "fb_post_id": "1107760715748033_122136446780808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/unemployment-benefits-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446810808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/unified-permit-residence-work-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136446858808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/vacation-equivalent-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136446936808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/vacation-temporary-worker-poland",
+      "fb_post_id": "1107760715748033_122136446966808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/work-assignment-statement-foreign-worker-poland",
+      "fb_post_id": "1107760715748033_122136447008808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/work-uniform-safety-equipment-worker-rights-poland",
+      "fb_post_id": "1107760715748033_122136447062808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
+    },
+    {
+      "url": "https://nexflow.work/en/blog/worker-accommodation-poland-temporary-employee",
+      "fb_post_id": "1107760715748033_122136447122808780",
+      "published_at": "2026-10-16T00:00:00+0000",
+      "sitemap_lastmod": null
     }
   ],
-  "last_run": "2026-08-28T07:06:30+0000",
-  "pending": []
+  "last_run": "2026-10-19T07:00:00+0000",
+  "last_run_result": {
+    "date": "2026-10-19",
+    "new_posts": 0,
+    "sitemap_count": "384 blog URLs",
+    "published_count": 467,
+    "note": "EUR-3891: no new posts detected — all 384 sitemap blog URLs already published; last publish was EUR-3885 on 2026-10-16 (60 EN blog posts)"
+  },
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/praca-w-weekend-sobota-niedziela-polska-prawa",
+      "lang": "pl",
+      "fb_text": "📅 Pracujesz w weekendy w Polsce? Sprawdź, co Ci przysługuje!\n\nW branży logistycznej i magazynowej praca w sobotę i niedzielę jest na porządku dziennym. Ale czy wiesz, jakie masz prawa?\n\n✅ Sobota — nie jest specjalnie chroniona przez Kodeks pracy. Może być normalną zmianą lub nadgodzinami — zależy od Twojego grafiku.\n\n✅ Niedziela — generalnie objęta zakazem pracy, ale logistyka i transport mają wyjątek ze względu na system zmianowy.\n\n💰 Za pracę w niedzielę należy Ci się:\n→ Dzień wolny w zamian (w ciągu 6 tygodni), LUB\n→ 100% dodatku do stawki godzinowej\n\n⏰ Pamiętaj też o 35 godzinach nieprzerwanego odpoczynku tygodniowo — to Twoje prawo!\n\nSprawdź pasek wypłaty. Masz pytania? Napisz do nas lub przeczytaj pełny poradnik na naszym blogu.\n\n👇 Nexflow — praca zgodna z prawem, zawsze po Twojej stronie.",
+      "source_comment_id": "1bbdef3c-50cd-4611-9ec3-1daa2a190345",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robota-u-vykidni-subota-nedilya-polshcha-prava",
+      "lang": "uk",
+      "fb_text": "📅 Ти працюєш у вихідні в Польщі? Дізнайся, які у тебе права!\n\nУ логістиці та на складах робота в суботу і неділю — звична справа. Але чи знаєш ти, що тобі належить?\n\n✅ Субота — не має особливого захисту в Трудовому кодексі. Може бути звичайною зміною або понаднормовою — залежить від твого графіка.\n\n✅ Неділя — загалом заборонена, але логістика та транспорт мають виняток завдяки змінному графіку.\n\n💰 За роботу в неділю тобі належить:\n→ Вихідний день замість (протягом 6 тижнів), АБО\n→ 100% надбавка до погодинної ставки\n\n⏰ Пам'ятай також про 35 годин безперервного відпочинку на тиждень — це твоє право!\n\nПеревір свій розрахунковий лист. Є питання? Напиши нам або читай повний посібник на нашому блозі.\n\n👇 Nexflow — робота відповідно до закону, завжди на твоєму боці.",
+      "source_comment_id": "b9d03a94-23aa-49e7-b4de-cdc8213ff274",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabota-v-vykhodnye-subbota-voskresenye-polsha-prava",
+      "lang": "ru",
+      "fb_text": "📅 Вы работаете в выходные в Польше? Узнайте свои права!\n\nВ логистике и на складах работа в субботу и воскресенье — обычная практика. Но знаете ли вы, что вам полагается?\n\n✅ Суббота — не имеет особой защиты в Трудовом кодексе. Может быть обычной сменой или сверхурочной — зависит от вашего графика.\n\n✅ Воскресенье — как правило запрещено, но логистика и транспорт имеют исключение благодаря сменному графику.\n\n💰 За работу в воскресенье вам полагается:\n→ Выходной день взамен (в течение 6 недель), ИЛИ\n→ Доплата 100% к почасовой ставке\n\n⏰ Помните также о 35 часах непрерывного отдыха в неделю — это ваше право!\n\nПроверьте расчётный лист. Есть вопросы? Напишите нам или читайте полный гид в нашем блоге.\n\n👇 Nexflow — работа по закону, всегда на вашей стороне.",
+      "source_comment_id": "80c12c4f-e731-4c13-ac8f-a477d2adf76b",
+      "issue": "EUR-3902"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/working-weekends-saturday-sunday-poland-rights-pay",
+      "lang": "en",
+      "fb_text": "📅 Do you work weekends in Poland? Here's what you're entitled to!\n\nIn logistics and warehousing, weekend shifts are common. But do you know your rights?\n\n✅ Saturday — not specially protected by the Labour Code. It can be a planned shift or overtime, depending on your schedule.\n\n✅ Sunday — generally restricted, but logistics and transport are exempt due to shift work systems.\n\n💰 For working on Sunday you are entitled to:\n→ A day off in lieu (within 6 weeks), OR\n→ 100% pay supplement on your hourly rate\n\n⏰ Also remember: you are guaranteed at least 35 hours of uninterrupted weekly rest — it's your right!\n\nCheck your payslip. Have questions? Write to us or read the full guide on our blog.\n\n👇 Nexflow — work by the rules, always on your side.",
+      "source_comment_id": "8540f210-0d03-4be9-9bd2-076450f2849a",
+      "issue": "EUR-3902"
+    }
+  ]
 }
