@@ -2810,64 +2810,122 @@
       "fb_post_id": "1107760715748033_122136447122808780",
       "published_at": "2026-10-16T00:00:00+0000",
       "sitemap_lastmod": null
-    }
-  ],
-  "last_run": "2026-10-19T07:00:00+0000",
-  "last_run_result": {
-    "date": "2026-10-19",
-    "new_posts": 0,
-    "sitemap_count": "384 blog URLs",
-    "published_count": 467,
-    "note": "EUR-3891: no new posts detected — all 384 sitemap blog URLs already published; last publish was EUR-3885 on 2026-10-16 (60 EN blog posts)"
-  },
-  "pending": [
+    },
     {
       "url": "https://nexflow.work/blog/praca-w-weekend-sobota-niedziela-polska-prawa",
-      "lang": "pl",
-      "fb_text": "📅 Pracujesz w weekendy w Polsce? Sprawdź, co Ci przysługuje!\n\nW branży logistycznej i magazynowej praca w sobotę i niedzielę jest na porządku dziennym. Ale czy wiesz, jakie masz prawa?\n\n✅ Sobota — nie jest specjalnie chroniona przez Kodeks pracy. Może być normalną zmianą lub nadgodzinami — zależy od Twojego grafiku.\n\n✅ Niedziela — generalnie objęta zakazem pracy, ale logistyka i transport mają wyjątek ze względu na system zmianowy.\n\n💰 Za pracę w niedzielę należy Ci się:\n→ Dzień wolny w zamian (w ciągu 6 tygodni), LUB\n→ 100% dodatku do stawki godzinowej\n\n⏰ Pamiętaj też o 35 godzinach nieprzerwanego odpoczynku tygodniowo — to Twoje prawo!\n\nSprawdź pasek wypłaty. Masz pytania? Napisz do nas lub przeczytaj pełny poradnik na naszym blogu.\n\n👇 Nexflow — praca zgodna z prawem, zawsze po Twojej stronie.",
-      "source_comment_id": "1bbdef3c-50cd-4611-9ec3-1daa2a190345",
-      "issue": "EUR-3902"
+      "fb_post_id": "1107760715748033_122138165312808780",
+      "published_at": "2026-10-26T08:10:38+0000",
+      "sitemap_lastmod": "2026-10-23T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/uk/blog/robota-u-vykidni-subota-nedilya-polshcha-prava",
-      "lang": "uk",
-      "fb_text": "📅 Ти працюєш у вихідні в Польщі? Дізнайся, які у тебе права!\n\nУ логістиці та на складах робота в суботу і неділю — звична справа. Але чи знаєш ти, що тобі належить?\n\n✅ Субота — не має особливого захисту в Трудовому кодексі. Може бути звичайною зміною або понаднормовою — залежить від твого графіка.\n\n✅ Неділя — загалом заборонена, але логістика та транспорт мають виняток завдяки змінному графіку.\n\n💰 За роботу в неділю тобі належить:\n→ Вихідний день замість (протягом 6 тижнів), АБО\n→ 100% надбавка до погодинної ставки\n\n⏰ Пам'ятай також про 35 годин безперервного відпочинку на тиждень — це твоє право!\n\nПеревір свій розрахунковий лист. Є питання? Напиши нам або читай повний посібник на нашому блозі.\n\n👇 Nexflow — робота відповідно до закону, завжди на твоєму боці.",
-      "source_comment_id": "b9d03a94-23aa-49e7-b4de-cdc8213ff274",
-      "issue": "EUR-3902"
+      "fb_post_id": "1107760715748033_122138165354808780",
+      "published_at": "2026-10-26T08:11:00+0000",
+      "sitemap_lastmod": "2026-10-23T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/rabota-v-vykhodnye-subbota-voskresenye-polsha-prava",
-      "lang": "ru",
-      "fb_text": "📅 Вы работаете в выходные в Польше? Узнайте свои права!\n\nВ логистике и на складах работа в субботу и воскресенье — обычная практика. Но знаете ли вы, что вам полагается?\n\n✅ Суббота — не имеет особой защиты в Трудовом кодексе. Может быть обычной сменой или сверхурочной — зависит от вашего графика.\n\n✅ Воскресенье — как правило запрещено, но логистика и транспорт имеют исключение благодаря сменному графику.\n\n💰 За работу в воскресенье вам полагается:\n→ Выходной день взамен (в течение 6 недель), ИЛИ\n→ Доплата 100% к почасовой ставке\n\n⏰ Помните также о 35 часах непрерывного отдыха в неделю — это ваше право!\n\nПроверьте расчётный лист. Есть вопросы? Напишите нам или читайте полный гид в нашем блоге.\n\n👇 Nexflow — работа по закону, всегда на вашей стороне.",
-      "source_comment_id": "80c12c4f-e731-4c13-ac8f-a477d2adf76b",
-      "issue": "EUR-3902"
+      "fb_post_id": "1107760715748033_122138165402808780",
+      "published_at": "2026-10-26T08:11:12+0000",
+      "sitemap_lastmod": "2026-10-23T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/en/blog/working-weekends-saturday-sunday-poland-rights-pay",
-      "lang": "en",
-      "fb_text": "📅 Do you work weekends in Poland? Here's what you're entitled to!\n\nIn logistics and warehousing, weekend shifts are common. But do you know your rights?\n\n✅ Saturday — not specially protected by the Labour Code. It can be a planned shift or overtime, depending on your schedule.\n\n✅ Sunday — generally restricted, but logistics and transport are exempt due to shift work systems.\n\n💰 For working on Sunday you are entitled to:\n→ A day off in lieu (within 6 weeks), OR\n→ 100% pay supplement on your hourly rate\n\n⏰ Also remember: you are guaranteed at least 35 hours of uninterrupted weekly rest — it's your right!\n\nCheck your payslip. Have questions? Write to us or read the full guide on our blog.\n\n👇 Nexflow — work by the rules, always on your side.",
-      "source_comment_id": "8540f210-0d03-4be9-9bd2-076450f2849a",
-      "issue": "EUR-3902"
+      "fb_post_id": "1107760715748033_122138165426808780",
+      "published_at": "2026-10-26T08:11:20+0000",
+      "sitemap_lastmod": "2026-10-23T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/blog/blik-platnosci-mobilne-polska-cudzoziemiec-poradnik",
-      "lang": "pl",
-      "fb_text": "📱 BLIK w Polsce — jak płacić wygodnie jako cudzoziemiec?\n\nJeśli masz polskie konto bankowe, możesz używać BLIK-a — jednego z najwygodniejszych systemów płatności mobilnych w Europie. Bez karty, bez gotówki!\n\n✅ BLIK w sklepie — wpisz 6-cyfrowy kod z aplikacji przy kasie\n✅ Wypłata z bankomatu — bez fizycznej karty, tylko telefon\n✅ Przelew na telefon — wyślij pieniądze do znajomego w 30 sekund\n✅ Płatności online — szybkie zakupy w internecie\n\n💡 Kod BLIK jest jednorazowy i wygasa po 2 minutach — w pełni bezpieczny.\n\n📖 Przeczytaj poradnik:\nhttps://nexflow.work/blog/blik-platnosci-mobilne-polska-cudzoziemiec-poradnik\n\nNexflow — Twoja agencja pracy. Jesteśmy po Twojej stronie."
+      "fb_post_id": "1107760715748033_122138165552808780",
+      "published_at": "2026-10-26T08:11:40+0000",
+      "sitemap_lastmod": "2026-10-09T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/uk/blog/blik-mobilni-platezhi-polshcha-inozemets-poradnyk",
-      "lang": "uk",
-      "fb_text": "📱 BLIK у Польщі — як зручно платити як іноземцю?\n\nЯкщо у тебе є польський банківський рахунок, ти можеш користуватися BLIK — однією з найзручніших систем мобільних платежів у Європі. Без картки, без готівки!\n\n✅ BLIK у магазині — введи 6-значний код з додатку на касі\n✅ Зняття готівки з банкомату — без фізичної картки, тільки телефон\n✅ Переказ за номером телефону — надішли гроші другу за 30 секунд\n✅ Онлайн-платежі — швидкі покупки в інтернеті\n\n💡 Код BLIK одноразовий і дійсний 2 хвилини — повністю безпечний.\n\n📖 Читай поради:\nhttps://nexflow.work/uk/blog/blik-mobilni-platezhi-polshcha-inozemets-poradnyk\n\nNexflow — твоє агентство праці. Ми на твоєму боці."
+      "fb_post_id": "1107760715748033_122138165588808780",
+      "published_at": "2026-10-26T08:11:47+0000",
+      "sitemap_lastmod": "2026-10-09T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/ru/blog/blik-mobilnye-platezhi-polsha-inostranets-rukovodstvo",
-      "lang": "ru",
-      "fb_text": "📱 BLIK в Польше — как удобно платить иностранцу?\n\nЕсли у вас есть польский банковский счёт, вы можете использовать BLIK — одну из самых удобных систем мобильных платежей в Европе. Без карты, без наличных!\n\n✅ BLIK в магазине — введите 6-значный код из приложения на кассе\n✅ Снятие наличных в банкомате — без физической карты, только телефон\n✅ Перевод по номеру телефона — отправьте деньги другу за 30 секунд\n✅ Онлайн-платежи — быстрые покупки в интернете\n\n💡 Код BLIK одноразовый и действует 2 минуты — полностью безопасный.\n\n📖 Читайте руководство:\nhttps://nexflow.work/ru/blog/blik-mobilnye-platezhi-polsha-inostranets-rukovodstvo\n\nNexflow — ваше агентство по трудоустройству. Мы на вашей стороне."
+      "fb_post_id": "1107760715748033_122138165642808780",
+      "published_at": "2026-10-26T08:11:54+0000",
+      "sitemap_lastmod": "2026-10-09T00:00:00.000Z"
     },
     {
       "url": "https://nexflow.work/en/blog/blik-mobile-payments-poland-foreign-worker-guide",
+      "fb_post_id": "1107760715748033_122138165702808780",
+      "published_at": "2026-10-26T08:12:03+0000",
+      "sitemap_lastmod": "2026-10-09T00:00:00.000Z"
+    }
+  ],
+  "last_run": "2026-10-28T00:00:00+0000",
+  "last_run_result": "drafted_new_content",
+  "pending": [
+    {
+      "url": "https://nexflow.work/blog/pit-2-oswiadczenie-podatkowe-pracownik-polska",
+      "lang": "pl",
+      "fb_text": "💸 Wiesz, że możesz dostawać co miesiąc 300 zł więcej na rękę — wystarczy jeden formularz?\n\nTo PIT-2 — oświadczenie podatkowe, które wypełniasz w pierwszym dniu pracy. Informujesz nim pracodawcę, że może uwzględnić Twoją miesięczną kwotę wolną od podatku.\n\n✅ Bez PIT-2 — płacisz więcej podatku co miesiąc (i czekasz na zwrot rok później)\n✅ Z PIT-2 — od razu dostajesz więcej netto\n\n📋 Jak to działa, kto może złożyć i co wpisać jeśli nie masz PESEL — w pełnym poradniku na naszym blogu.\n\n👇 Nexflow — dbamy, żebyś wiedział, co Ci się należy.",
+      "source_comment_id": "d02420ac-f8e1-4f4d-9e80-897d711374b0",
+      "issue": "EUR-3918",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/pit-2-deklaraciya-pratsivnyka-podatok-polshcha",
+      "lang": "uk",
+      "fb_text": "💸 Знаєш, що можеш щомісяця отримувати 300 злотих більше на руки — достатньо одного бланку?\n\nЦе PIT-2 — податкова декларація, яку заповнюєш у перший день роботи. Повідомляєш нею роботодавця, що він може враховувати твою щомісячну неоподатковувану суму.\n\n✅ Без PIT-2 — щомісяця платиш більше податку (і чекаєш на повернення рік потому)\n✅ З PIT-2 — одразу отримуєш більше нетто\n\n📋 Як це працює, хто може подати і що вписати без PESEL — у повному посібнику на нашому блозі.\n\n👇 Nexflow — дбаємо, щоб ти знав, що тобі належить.",
+      "source_comment_id": "d53c9b7f-c74c-4371-9480-5973323c58d7",
+      "issue": "EUR-3918",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/pit-2-zayavlenie-rabotnika-nalog-polsha",
+      "lang": "ru",
+      "fb_text": "💸 Знаете, что можно каждый месяц получать 300 злотых больше на руки — достаточно одной формы?\n\nЭто PIT-2 — налоговое заявление, которое заполняете в первый день работы. Вы сообщаете работодателю, что он может учитывать ваш ежемесячный необлагаемый минимум.\n\n✅ Без PIT-2 — каждый месяц платите больше налога (и ждёте возврата год спустя)\n✅ С PIT-2 — сразу получаете больше нетто\n\n📋 Как это работает, кто может подать и что вписать без PESEL — в полном руководстве в нашем блоге.\n\n👇 Nexflow — заботимся о том, чтобы вы знали, что вам положено.",
+      "source_comment_id": "32da2df6-1987-4934-91c0-7eae9bb15cc2",
+      "issue": "EUR-3918",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/pit-2-employee-tax-declaration-poland-guide",
       "lang": "en",
-      "fb_text": "📱 BLIK in Poland — how to pay easily as a foreign worker!\n\nIf you have a Polish bank account, you can use BLIK — one of the most convenient mobile payment systems in Europe. No card, no cash needed!\n\n✅ BLIK in store — enter a 6-digit code from your app at checkout\n✅ ATM cash withdrawal — no physical card needed, just your phone\n✅ Phone-to-phone transfer — send money to a friend in 30 seconds\n✅ Online payments — quick and easy internet shopping\n\n💡 Each BLIK code is single-use and expires in 2 minutes — completely secure.\n\n📖 Read the guide:\nhttps://nexflow.work/en/blog/blik-mobile-payments-poland-foreign-worker-guide\n\nNexflow — your staffing agency. We are on your side."
+      "fb_text": "💸 Did you know you can get PLN 300 more take-home pay every month — with just one form?\n\nIt's called PIT-2 — the tax declaration you fill in on your first day of work in Poland. It tells your employer they can apply your monthly tax-free allowance directly.\n\n✅ Without PIT-2 — you pay more tax each month (and wait up to a year for the refund)\n✅ With PIT-2 — you get more net pay immediately\n\n📋 How it works, who can submit it, and what to write if you have no PESEL — full guide on our blog.\n\n👇 Nexflow — making sure you know what you're entitled to.",
+      "source_comment_id": "bc395a61-aca5-4143-9b0a-9fa04e77b7fb",
+      "issue": "EUR-3918",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/blog/karta-duzej-rodziny-cudzoziemiec-polska-jak-ubiegac",
+      "lang": "pl",
+      "fb_text": "👨‍👩‍👧‍👦 Masz trójkę dzieci i pracujesz w Polsce? Przysługuje Ci Karta Dużej Rodziny — i możesz z niej korzystać tak samo jak Polacy!\n\n🚆 37% taniej na bilety PKP (dzieci aż 49%)\n🏛️ Muzea, kino, baseny — często bezpłatnie lub prawie za darmo\n🛒 Zniżki w sklepach i wielu innych miejscach\n\n✅ Karta jest bezpłatna — elektronicznie w mObywatel lub plastikowa.\n\nKudzoziemcy z legalnym pobytem (karta pobytu, ochrona tymczasowa) też mają prawo!\n\n👉 nexflow.work/blog",
+      "source_comment_id": "084d023f-30f8-4741-af41-d912db429e56",
+      "issue": "EUR-3920",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/karta-velykoi-simyi-inozemets-polshcha-yak-otrymaty",
+      "lang": "uk",
+      "fb_text": "👨‍👩‍👧‍👦 Маєш троє дітей і працюєш у Польщі? Ти маєш право на Kartę Dużej Rodziny (Картку великої родини)!\n\n🚆 37% дешевше на квитки PKP (для дітей — аж 49%)\n🏛️ Музеї, кіно, басейни — часто безкоштовно або майже задарма\n🛒 Знижки в магазинах і багатьох інших місцях\n\n✅ Картка безкоштовна — електронна у mObywatel або пластикова.\n\nІноземці з законним проживанням (карта проживання, тимчасовий захист) теж мають право!\n\n👉 nexflow.work/uk/blog",
+      "source_comment_id": "dd9acd90-7e1e-4f20-a5ee-90349b259c2f",
+      "issue": "EUR-3920",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/karta-bolshoy-semi-inostranets-polsha-kak-poluchit",
+      "lang": "ru",
+      "fb_text": "👨‍👩‍👧‍👦 Трое детей и работаешь в Польше? Ты имеешь право на Kartę Dużej Rodziny (Карту многодетной семьи)!\n\n🚆 37% дешевле на билеты PKP (для детей — целых 49%)\n🏛️ Музеи, кино, бассейны — часто бесплатно или почти даром\n🛒 Скидки в магазинах и многих других местах\n\n✅ Карта бесплатная — электронная в mObywatel или пластиковая.\n\nИностранцы с законным проживанием (карта проживания, временная защита) тоже имеют право!\n\n👉 nexflow.work/ru/blog",
+      "source_comment_id": "0012f5ea-96ac-4615-b517-60dbe5a3d679",
+      "issue": "EUR-3920",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/large-family-card-poland-foreign-worker-how-to-apply",
+      "lang": "en",
+      "fb_text": "👨‍👩‍👧‍👦 Three kids and working in Poland? You're entitled to the Karta Dużej Rodziny (Large Family Card)!\n\n🚆 37% off PKP train tickets (49% off for children!)\n🏛️ Museums, cinemas, swimming pools — often free or nearly free\n🛒 Discounts at shops and many other venues\n\n✅ The card is completely free — digital in mObywatel or a physical card.\n\nForeign workers with legal residence (residence card, temporary protection) are fully eligible!\n\n👉 nexflow.work/en/blog",
+      "source_comment_id": "60b1d93c-ccfa-46b2-98e3-3aa987263bac",
+      "issue": "EUR-3920",
+      "status": "draft"
     }
   ]
 }
