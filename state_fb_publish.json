@@ -2926,6 +2926,50 @@
       "source_comment_id": "60b1d93c-ccfa-46b2-98e3-3aa987263bac",
       "issue": "EUR-3920",
       "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/blog/praca-w-zimie-bhp-obowiazki-pracodawcy-polska",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robota-vzymku-bhp-obovyazky-robotodavtsya-polshcha",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabota-zimoy-okhrana-truda-obyazannosti-rabotodatelya-polsha",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/winter-work-health-safety-obligations-employer-poland",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/blog/praca-w-zimie-bhp-obowiazki-pracodawcy-polska",
+      "type": "fb_post",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/robota-vzymku-bhp-obovyazky-robotodavtsya-polshcha",
+      "type": "fb_post",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/rabota-zimoy-okhrana-truda-obyazannosti-rabotodatelya-polsha",
+      "type": "fb_post",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/winter-work-health-safety-obligations-employer-poland",
+      "type": "fb_post",
+      "drafted_at": "2026-10-29",
+      "issue": "EUR-3926"
     }
   ]
 }
