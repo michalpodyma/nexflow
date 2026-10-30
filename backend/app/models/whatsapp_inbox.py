@@ -40,7 +40,17 @@ class WhatsAppInboxEvent(Base):
     from_phone_masked: Mapped[str] = mapped_column(sa.String(4), nullable=False)
     # Full message body — OpenClaw needs this for triage; it must NOT forward
     # raw content to Telegram. It must summarise and link to the Paperclip issue.
-    message_text: Mapped[str] = mapped_column(sa.Text, nullable=False)
+    # nullable=True since media rows may have no text body.
+    message_text: Mapped[str | None] = mapped_column(sa.Text, nullable=True, server_default="")
+    # Message type (text, image, document, audio, video, …)
+    message_type: Mapped[str] = mapped_column(sa.String(30), nullable=False, server_default="text")
+    # Media fields — populated only for non-text messages
+    media_id: Mapped[str | None] = mapped_column(sa.String(255), nullable=True)
+    mime_type: Mapped[str | None] = mapped_column(sa.String(128), nullable=True)
+    media_filename: Mapped[str | None] = mapped_column(sa.String(512), nullable=True)
+    media_caption: Mapped[str | None] = mapped_column(sa.Text, nullable=True)
+    media_sha256: Mapped[str | None] = mapped_column(sa.String(64), nullable=True)
+    media_b2_key: Mapped[str | None] = mapped_column(sa.String(512), nullable=True)
     received_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True),
         nullable=False,

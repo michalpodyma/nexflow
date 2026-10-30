@@ -128,7 +128,17 @@ async def _handle_inbound_message(
 
 
 async def _tee_to_inbox(
-    from_phone: str, text: str, candidate_id: object, db: AsyncSession
+    from_phone: str,
+    text: str | None,
+    candidate_id: object,
+    db: AsyncSession,
+    *,
+    message_type: str = "text",
+    media_id: str | None = None,
+    mime_type: str | None = None,
+    media_filename: str | None = None,
+    media_caption: str | None = None,
+    media_sha256: str | None = None,
 ) -> WhatsAppInboxEvent:
     """Write inbound message to the OpenClaw inbox table (fire-and-forget within session)."""
     masked = normalize_phone(from_phone)[-4:] or "????"
@@ -136,10 +146,126 @@ async def _tee_to_inbox(
         candidate_id=candidate_id,  # type: ignore[arg-type]
         from_phone_masked=masked,
         message_text=text,
+        message_type=message_type,
+        media_id=media_id,
+        mime_type=mime_type,
+        media_filename=media_filename,
+        media_caption=media_caption,
+        media_sha256=media_sha256,
     )
     db.add(event)
     # Flushed as part of the outer transaction; no separate commit needed here.
     return event
+
+
+def _extract_media_info(message: dict) -> dict:
+    """Pull media metadata from a non-text Meta message."""
+    msg_type = message.get("type", "")
+    block = message.get(msg_type) or {}
+    return {
+        "media_id": block.get("id"),
+        "mime_type": block.get("mime_type"),
+        "media_sha256": block.get("sha256"),
+        "media_filename": block.get("filename"),  # documents only
+        "media_caption": block.get("caption"),    # images/video
+    }
+
+
+async def _fetch_and_store_media(
+    media_id: str,
+    mime_type: str | None,
+    candidate_id: object,
+) -> str | None:
+    """
+    1. Call Meta Graph API to get a temporary download URL for media_id.
+    2. Download the bytes.
+    3. Upload to B2 under whatsapp-media/{candidate_id}/{media_id}.<ext>.
+    Returns the B2 key on success, None on any error.
+    """
+    import io
+    import mimetypes
+
+    import httpx
+
+    from app.services import b2
+
+    access_token = settings.whatsapp_access_token
+    if not access_token:
+        logger.warning("[whatsapp_media] WHATSAPP_ACCESS_TOKEN not set — skipping media fetch")
+        return None
+
+    try:
+        async with httpx.AsyncClient(timeout=15.0) as client:
+            # Step 1: resolve media URL
+            meta_resp = await client.get(
+                f"https://graph.facebook.com/v20.0/{media_id}",
+                headers={"Authorization": f"Bearer {access_token}"},
+            )
+            meta_resp.raise_for_status()
+            media_url = meta_resp.json().get("url")
+            if not media_url:
+                logger.warning("[whatsapp_media] No URL in media metadata for %s", media_id)
+                return None
+
+            # Step 2: download bytes
+            dl_resp = await client.get(
+                media_url,
+                headers={"Authorization": f"Bearer {access_token}"},
+            )
+            dl_resp.raise_for_status()
+
+        # Step 3: upload to B2
+        ext = (mimetypes.guess_extension(mime_type or "") or "").lstrip(".")
+        b2_key = (
+            f"whatsapp-media/{candidate_id}/{media_id}.{ext}"
+            if ext
+            else f"whatsapp-media/{candidate_id}/{media_id}"
+        )
+        await b2.upload_file(b2_key, io.BytesIO(dl_resp.content), mime_type or "application/octet-stream")
+        logger.info("[whatsapp_media] Stored media %s → %s", media_id, b2_key)
+        return b2_key
+    except Exception as exc:  # noqa: BLE001
+        logger.exception("[whatsapp_media] Failed to fetch/store media %s: %s", media_id, exc)
+        return None
+
+
+async def _handle_media_message(from_phone: str, wamid: str, message: dict) -> None:
+    """Background task: persist non-text inbound message with best-effort media storage."""
+    async with AsyncSessionLocal() as db:
+        msg_type = message.get("type", "unknown")
+        media_info = _extract_media_info(message)
+        try:
+            candidate = await _resolve_candidate(from_phone, db)
+            event = await _tee_to_inbox(
+                from_phone,
+                f"[media: {media_info.get('mime_type') or msg_type}, not yet stored]",
+                candidate.id,
+                db,
+                message_type=msg_type,
+                **{k: v for k, v in media_info.items()},
+            )
+            await db.flush()
+
+            # Best-effort media download — failure must NOT prevent inbox row from landing.
+            media_id = media_info.get("media_id")
+            if media_id:
+                b2_key = await _fetch_and_store_media(
+                    media_id, media_info.get("mime_type"), candidate.id
+                )
+                if b2_key:
+                    event.media_b2_key = b2_key
+                    event.message_text = f"[media: {media_info.get('mime_type') or msg_type}, stored: {b2_key}]"
+
+            await db.commit()
+            logger.info(
+                "[whatsapp_media] Persisted %s message from %s (wamid=%s)",
+                msg_type, from_phone, wamid,
+            )
+        except Exception as exc:  # noqa: BLE001
+            logger.exception(
+                "[whatsapp_media] Unhandled error for %s message from %s: %s",
+                msg_type, from_phone, exc,
+            )
 
 
 async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSession) -> None:
@@ -315,15 +441,21 @@ async def receive_webhook(
                 continue
             value: dict = change.get("value", {})
             for message in value.get("messages", []):
-                if message.get("type") != "text":
-                    # Ignore media, reactions, etc. for now
-                    continue
-                wamid: str = message.get("id", "")
+                msg_type = message.get("type", "")
                 from_phone: str = message.get("from", "")
-                text: str = (message.get("text") or {}).get("body", "").strip()
-                if not from_phone or not text:
+                wamid: str = message.get("id", "")
+                if not from_phone:
                     continue
 
-                background_tasks.add_task(_handle_inbound_message, from_phone, text, wamid)
+                if msg_type == "reaction":
+                    # Reactions carry no content relevant to triage; ignored explicitly.
+                    continue
+
+                if msg_type == "text":
+                    text: str = (message.get("text") or {}).get("body", "").strip()
+                    if text:
+                        background_tasks.add_task(_handle_inbound_message, from_phone, text, wamid)
+                else:
+                    background_tasks.add_task(_handle_media_message, from_phone, wamid, message)
 
     return {"status": "ok"}

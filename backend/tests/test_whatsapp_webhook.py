@@ -377,6 +377,174 @@ async def test_auto_reply_disabled_tees_but_does_not_send() -> None:
     mock_send.assert_not_called()
 
 
+# ---------------------------------------------------------------------------
+# EUR-3943: Non-text inbound handling (media persist + B2 download)
+# ---------------------------------------------------------------------------
+
+
+def _make_media_payload(
+    from_phone: str,
+    msg_type: str,
+    media_id: str = "media.TEST",
+    mime_type: str = "image/jpeg",
+) -> dict:
+    block: dict = {"id": media_id, "mime_type": mime_type, "sha256": "abc123"}
+    if msg_type == "document":
+        block["filename"] = "contract.pdf"
+    return {
+        "object": "whatsapp_business_account",
+        "entry": [{
+            "id": "WABA_ID",
+            "changes": [{
+                "field": "messages",
+                "value": {
+                    "messaging_product": "whatsapp",
+                    "metadata": {"display_phone_number": "48100000000", "phone_number_id": "PHONE_ID"},
+                    "messages": [{
+                        "from": from_phone, "id": "wamid.TEST",
+                        "timestamp": "1700000000",
+                        "type": msg_type,
+                        msg_type: block,
+                    }],
+                },
+            }],
+        }],
+    }
+
+
+@pytest.mark.asyncio
+async def test_post_webhook_image_schedules_media_task() -> None:
+    """Image message → _handle_media_message is scheduled, not silently dropped."""
+    payload = json.dumps(_make_media_payload("48123456789", "image")).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_media_message", new_callable=AsyncMock) as mock_media,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={"Content-Type": "application/json", "x-hub-signature-256": sig},
+            )
+
+    assert resp.status_code == 200
+    mock_media.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_post_webhook_document_schedules_media_task() -> None:
+    """PDF document → _handle_media_message scheduled."""
+    payload = json.dumps(_make_media_payload("48123456789", "document", mime_type="application/pdf")).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_media_message", new_callable=AsyncMock) as mock_media,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={"Content-Type": "application/json", "x-hub-signature-256": sig},
+            )
+
+    assert resp.status_code == 200
+    mock_media.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_post_webhook_audio_schedules_media_task() -> None:
+    """Voice note (audio) → _handle_media_message scheduled."""
+    payload = json.dumps(_make_media_payload("48123456789", "audio", mime_type="audio/ogg; codecs=opus")).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_media_message", new_callable=AsyncMock) as mock_media,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={"Content-Type": "application/json", "x-hub-signature-256": sig},
+            )
+
+    assert resp.status_code == 200
+    mock_media.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_post_webhook_reaction_is_ignored() -> None:
+    """Reaction messages are explicitly ignored — no media or text task scheduled."""
+    payload = json.dumps({
+        "object": "whatsapp_business_account",
+        "entry": [{"id": "WABA_ID", "changes": [{"field": "messages", "value": {
+            "messaging_product": "whatsapp",
+            "metadata": {"display_phone_number": "48100000000", "phone_number_id": "PHONE_ID"},
+            "messages": [{"from": "48123456789", "id": "wamid.TEST", "timestamp": "1700000000",
+                           "type": "reaction", "reaction": {"message_id": "wamid.orig", "emoji": "\U0001f44d"}}],
+        }}]}],
+    }).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_media_message", new_callable=AsyncMock) as mock_media,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock) as mock_text,
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={"Content-Type": "application/json", "x-hub-signature-256": sig},
+            )
+
+    assert resp.status_code == 200
+    mock_media.assert_not_called()
+    mock_text.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_handle_media_message_persists_inbox_row() -> None:
+    """_handle_media_message creates an inbox row even if B2 upload fails."""
+    from app.routers import webhooks as webhooks_module
+
+    candidate = MagicMock()
+    candidate.id = "cand-1"
+    db = AsyncMock()
+
+    message = {
+        "type": "image", "from": "48123456789", "id": "wamid.TEST",
+        "image": {"id": "media.123", "mime_type": "image/jpeg", "sha256": "abc"},
+    }
+
+    with (
+        patch.object(webhooks_module, "_resolve_candidate", new_callable=AsyncMock) as mock_resolve,
+        patch.object(webhooks_module, "_tee_to_inbox", new_callable=AsyncMock) as mock_tee,
+        patch.object(webhooks_module, "_fetch_and_store_media", new_callable=AsyncMock) as mock_b2,
+        patch.object(webhooks_module, "AsyncSessionLocal") as mock_session_ctx,
+    ):
+        mock_resolve.return_value = candidate
+        mock_tee.return_value = MagicMock()
+        mock_b2.return_value = None  # simulate B2 failure
+        mock_session_ctx.return_value.__aenter__ = AsyncMock(return_value=db)
+        mock_session_ctx.return_value.__aexit__ = AsyncMock(return_value=False)
+
+        await webhooks_module._handle_media_message("48123456789", "wamid.TEST", message)
+
+    mock_tee.assert_awaited_once()  # inbox row was created
+    db.commit.assert_awaited_once()  # committed despite B2 failure
+
+
 @pytest.mark.asyncio
 async def test_auto_reply_enabled_runs_fsm_and_sends() -> None:
     """With WHATSAPP_AUTO_REPLY_ENABLED=true and an active session, FSM runs and reply is sent."""
