@@ -2861,7 +2861,7 @@
     }
   ],
   "last_run": "2026-10-30T00:00:00+0000",
-  "last_run_result": "no_new_posts_queued_fb_text_for_winter_bhp",
+  "last_run_result": "no_new_sitemap_posts_drafted_ppk_topic_4blog_4fb_on_EUR-2477",
   "pending": [
     {
       "url": "https://nexflow.work/blog/pit-2-oswiadczenie-podatkowe-pracownik-polska",
@@ -2961,6 +2961,46 @@
       "drafted_at": "2026-10-29",
       "fb_text_drafted_at": "2026-10-30",
       "issue": "EUR-3926",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/blog/ppk-pracownicze-plany-kapitalowe-cudzoziemiec-polska",
+      "lang": "pl",
+      "fb_text": "💰 Dlaczego z Twojej wypłaty znika dodatkowe 2%? To PPK — i dotyczy też Ciebie jako cudzoziemca!\n\nPPK (Pracownicze Plany Kapitałowe) to system oszczędzania na emeryturę, do którego pracodawca zapisuje Cię automatycznie po 3 miesiącach pracy.\n\n✅ Ty wpłacasz 2% brutto\n✅ Pracodawca dokłada 1,5%\n✅ Państwo daje 250 zł na start + 240 zł rocznie\n\n❓ Nie chcesz uczestniczyć? Możesz złożyć rezygnację w dziale kadr w dowolnym momencie.\n\n📋 Jak działa PPK, kiedy się zapisujesz i co zrobić gdy wracasz do kraju — wszystko w naszym poradniku.\n\n👇 Nexflow — znamy Twoje prawa, zanim je poznasz Ty.",
+      "source_comment_id": "3bcc0ff2-e5c0-475d-95cf-cd597825d54b",
+      "fb_comment_id": "e1532703-a0bb-479a-86c5-5b22fd48b4d9",
+      "issue": "EUR-3933",
+      "drafted_at": "2026-10-30",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/uk/blog/ppk-nakopychuvalni-plany-inozemets-polshcha",
+      "lang": "uk",
+      "fb_text": "💰 Чому зі зарплати додатково знімають 2%? Це PPK — і стосується також тебе як іноземця!\n\nPPK (Pracownicze Plany Kapitałowe) — польська система пенсійних заощаджень. Роботодавець автоматично записує тебе після 3 місяців роботи.\n\n✅ Ти вносиш 2% брутто\n✅ Роботодавець додає 1,5%\n✅ Держава дає 250 злотих на старті + 240 злотих на рік\n\n❓ Не хочеш брати участь? Можеш у будь-який момент написати відмову у відділі кадрів.\n\n📋 Як працює PPK, коли тебе запишуть і що робити при поверненні додому — все у нашому посібнику.\n\n👇 Nexflow — знаємо твої права ще до того, як ти про них дізнаєшся.",
+      "source_comment_id": "3355bb1d-416a-47c4-942d-6ad6aa894b21",
+      "fb_comment_id": "3efc3c18-ad10-4f2f-957a-8ae889861028",
+      "issue": "EUR-3933",
+      "drafted_at": "2026-10-30",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/ru/blog/ppk-nakopitelnye-plany-inostranets-polsha",
+      "lang": "ru",
+      "fb_text": "💰 Почему из зарплаты дополнительно удерживают 2%? Это PPK — и это касается тебя как иностранца!\n\nPPK (Pracownicze Plany Kapitałowe) — польская система пенсионных накоплений. Работодатель автоматически записывает тебя после 3 месяцев работы.\n\n✅ Ты вносишь 2% брутто\n✅ Работодатель добавляет 1,5%\n✅ Государство даёт 250 злотых на старте + 240 злотых в год\n\n❓ Не хочешь участвовать? Можешь в любой момент подать отказ в отделе кадров.\n\n📋 Как работает PPK, когда тебя запишут и что делать при возвращении домой — всё в нашем руководстве.\n\n👇 Nexflow — знаем твои права раньше, чем ты о них узнаешь.",
+      "source_comment_id": "ed4756fe-ccdd-41f2-ae61-c417fff7152f",
+      "fb_comment_id": "e7bf1bea-0f3e-455f-99f0-85f9e9e6815b",
+      "issue": "EUR-3933",
+      "drafted_at": "2026-10-30",
+      "status": "draft"
+    },
+    {
+      "url": "https://nexflow.work/en/blog/ppk-employee-capital-plans-foreign-worker-poland",
+      "lang": "en",
+      "fb_text": "💰 Why is an extra 2% being deducted from your pay? That's PPK — and it applies to you as a foreign worker too!\n\nPPK (Pracownicze Plany Kapitałowe) is Poland's workplace pension savings scheme. Your employer automatically enrols you after 3 months of employment.\n\n✅ You contribute 2% gross\n✅ Your employer adds 1.5%\n✅ The state gives PLN 250 welcome bonus + PLN 240/year\n\n❓ Don't want to participate? You can opt out at any time by submitting a declaration to HR.\n\n📋 How PPK works, when you get enrolled, and what happens to your savings when you leave Poland — full guide on our blog.\n\n👇 Nexflow — we know your rights before you have to ask.",
+      "source_comment_id": "8b18837c-cded-4a54-b8fa-d6efc0088bcd",
+      "fb_comment_id": "b27ce641-b48f-4dc7-8840-01b2d517b928",
+      "issue": "EUR-3933",
+      "drafted_at": "2026-10-30",
       "status": "draft"
     }
   ]
