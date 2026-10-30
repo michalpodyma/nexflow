@@ -30583,6 +30583,254 @@ Polish law does not grant extra days off on religious grounds. However, you can 
 <p>➡️ Don't have a Polish bank account yet? Read: <a href="/en/blog/bank-account-foreign-worker-poland">How to open a bank account in Poland as a foreign worker</a></p>
     `.trim(),
   },
+  {
+    slug: "praca-na-dwie-umowy-jednoczesnie-cudzoziemiec-polska",
+    title: "Praca na dwie umowy jednocześnie w Polsce — co wolno cudzoziemcowi?",
+    description: "Czy jako cudzoziemiec możesz pracować dla dwóch pracodawców jednocześnie? Sprawdź, co mówi polskie prawo, jak to wpływa na ZUS, podatek i zezwolenia na pracę.",
+    date: "2026-10-30",
+    lang: "pl",
+    content: `
+<p>Wielu pracowników tymczasowych pyta: czy mogę pracować równocześnie dla dwóch pracodawców? Czy to legalne? Co z ZUS-em i podatkami? Ten poradnik wyjaśnia zasady obowiązujące cudzoziemców w Polsce.</p>
+
+<h2>Czy polskie prawo zezwala na dwie umowy jednocześnie?</h2>
+<p>Tak — Kodeks pracy <strong>nie zabrania</strong> pracowania dla kilku pracodawców jednocześnie. Możesz podpisać umowy z wieloma firmami, o ile nie naruszasz klauzuli zakazu konkurencji ani innych postanowień umownych. Ograniczenia mogą jednak wynikać z rodzaju posiadanego zezwolenia na pracę.</p>
+
+<h2>Zezwolenie na pracę a drugi pracodawca</h2>
+<p>Jeśli pracujesz w Polsce na podstawie <strong>zezwolenia na pracę</strong> (typ A, B lub C), zezwolenie to jest wystawiane <em>na konkretnego pracodawcę i stanowisko</em>. Oznacza to:</p>
+<ul>
+  <li>Możesz legalnie pracować tylko u pracodawcy wskazanego w zezwoleniu.</li>
+  <li>Praca dla drugiego pracodawcy <strong>wymaga oddzielnego zezwolenia na pracę</strong> — złożonego przez tego pracodawcę w urzędzie wojewódzkim.</li>
+  <li>Jeśli masz <strong>oświadczenie o powierzeniu pracy</strong> — zasada jest analogiczna: oświadczenie dotyczy jednego pracodawcy i jednego stanowiska.</li>
+</ul>
+
+<h2>Wyjątek: karta czasowego pobytu lub ochrona tymczasowa</h2>
+<p>Jeśli posiadasz <strong>zezwolenie na pobyt i pracę</strong> (karta czasowego pobytu z prawem do pracy) lub jesteś objęty <strong>ochroną tymczasową</strong> (Ukraina, PESEL z oznaczeniem UKR), masz prawo do pracy <em>bez ograniczeń co do pracodawcy</em>. Możesz pracować dla dowolnej liczby pracodawców w Polsce jednocześnie — bez dodatkowych zezwoleń.</p>
+
+<h2>ZUS przy dwóch pracodawcach</h2>
+<p>Każdy pracodawca, u którego jesteś zatrudniony, jest zobowiązany opłacać Twoje składki ZUS. Kilka ważnych zasad:</p>
+<table>
+  <thead><tr><th>Składka</th><th>Zasada przy dwóch pracodawcach</th></tr></thead>
+  <tbody>
+    <tr><td>Emerytalna i rentowa</td><td>Płacona od każdego pracodawcy do momentu osiągnięcia rocznego limitu podstawy (30× prognozowane wynagrodzenie)</td></tr>
+    <tr><td>Chorobowa</td><td>Płacona od każdej umowy o pracę; w przypadku umowy zlecenie — dobrowolna</td></tr>
+    <tr><td>Zdrowotna (NFZ)</td><td>Odprowadzana od każdej umowy bez ograniczeń</td></tr>
+    <tr><td>Wypadkowa i FP</td><td>Opłaca pracodawca od każdej umowy</td></tr>
+  </tbody>
+</table>
+<p>Efekt praktyczny: masz wyższe składki co miesiąc, ale budujesz wyższe świadczenia (emerytura, renta) i masz pewność ubezpieczenia zdrowotnego u obu pracodawców.</p>
+
+<h2>Podatek dochodowy (PIT) przy dwóch pracodawcach</h2>
+<p>Pracując dla dwóch pracodawców, każdy z nich potrąca miesięczne zaliczki na podatek. Przy rozliczeniu rocznym (formularz PIT-37) zsumowujesz dochody od wszystkich pracodawców. Ważne zasady:</p>
+<ul>
+  <li><strong>PIT-2 złóż tylko u jednego pracodawcy</strong> — tego, który wypłaca wyższe wynagrodzenie lub u którego zaczynasz jako pierwszego. Tylko jeden pracodawca może stosować ulgę kwoty wolnej od podatku (30 000 zł rocznie).</li>
+  <li>Na koniec roku otrzymasz <strong>PIT-11</strong> od każdego pracodawcy osobno.</li>
+  <li>Wszystkie dochody wykazujesz w <strong>jednym zeznaniu rocznym</strong> — nie składasz osobnych deklaracji.</li>
+  <li>Jeśli obaj pracodawcy stosowali ulgę (złożono PIT-2 do obu), może wystąpić <strong>dopłata podatku</strong> w rozliczeniu rocznym.</li>
+</ul>
+
+<h2>Czas pracy — co z normami?</h2>
+<p>Polskie prawo pracy ustala maksymalny czas pracy: <strong>8 godzin dziennie i 40 godzin tygodniowo</strong> w podstawowym systemie. Normy te dotyczą odrębnie każdego pracodawcy — każdy stosuje je do umowy, którą z Tobą podpisał. Jednak z medycznego i praktycznego punktu widzenia praca w łącznym wymiarze ponad 48–60 godzin tygodniowo jest ryzykowna dla Twojego zdrowia i bezpieczeństwa w pracy.</p>
+
+<h2>Zakaz konkurencji</h2>
+<p>Sprawdź swoją umowę pod kątem <strong>klauzuli zakazu konkurencji</strong>. Może ona zakazywać pracy dla firm z tej samej branży w czasie trwania stosunku pracy lub przez pewien czas po jego zakończeniu. Naruszenie zakazu konkurencji może skutkować koniecznością zapłaty odszkodowania pracodawcy.</p>
+
+<h2>Co zrobić przed podjęciem drugiej pracy przez agencję Nexflow</h2>
+<ol>
+  <li><strong>Sprawdź swoje zezwolenie</strong> — zadzwoń lub napisz do Nexflow, podaj numer dokumentu. Sprawdzimy, czy Twoje zezwolenie to umożliwia.</li>
+  <li><strong>Poinformuj oba podmioty</strong> — nie ma obowiązku prawnego ujawniania faktu posiadania drugiej pracy (chyba że umowa tego wymaga), ale w przypadku agencji pracy tymczasowej transparentność pozwala uniknąć konfliktów grafiku.</li>
+  <li><strong>PIT-2 tylko do jednego pracodawcy</strong> — unikniesz niespodzianki na koniec roku.</li>
+  <li><strong>Zorganizuj grafik</strong> — praca zmianowa u dwóch pracodawców jest dopuszczalna, ale nakładanie się godzin pracy jest niemożliwe i nielegalne.</li>
+</ol>
+
+<p>Masz pytania dotyczące swojej sytuacji? Skontaktuj się z naszym działem HR — pomożemy ustalić, co Twoje dokumenty dozwalają.<br/>➡️ Przeczytaj też: <a href="/blog/zezwolenie-na-prace-vs-oswiadczenie-polska">Zezwolenie na pracę vs oświadczenie — różnice i obowiązki</a></p>
+    `.trim(),
+  },
+  {
+    slug: "robota-za-dvoma-dohovoramy-odnochasno-inozemets-polshcha",
+    title: "Робота за двома договорами одночасно в Польщі — що дозволено іноземцю?",
+    description: "Чи можеш ти як іноземець одночасно працювати на двох роботодавців у Польщі? Дізнайся про вплив на ZUS, податки та умови дозволу на роботу.",
+    date: "2026-10-30",
+    lang: "uk",
+    content: `
+<p>Багато тимчасових працівників питають: чи можу я одночасно працювати на двох роботодавців? Чи це законно? Що з ZUS і податками? Цей посібник пояснює правила для іноземців у Польщі.</p>
+
+<h2>Чи дозволяє польське право мати дві роботи одночасно?</h2>
+<p>Так — Трудовий кодекс Польщі <strong>не забороняє</strong> працювати на кількох роботодавців одночасно. Ти можеш підписати договори з кількома компаніями, якщо не порушуєш умов договору чи застереження про заборону конкуренції. Обмеження можуть виникати залежно від типу твого дозволу на роботу.</p>
+
+<h2>Дозвіл на роботу та другий роботодавець</h2>
+<p>Якщо ти працюєш у Польщі на підставі <strong>дозволу на роботу</strong> (тип A, B або C), він видається <em>на конкретного роботодавця та посаду</em>. Це означає:</p>
+<ul>
+  <li>Легально ти можеш працювати лише у роботодавця, зазначеного в дозволі.</li>
+  <li>Робота у другого роботодавця <strong>вимагає окремого дозволу</strong>, який той роботодавець оформлює у воєводському управлінні.</li>
+  <li>Якщо у тебе <strong>заява роботодавця про доручення роботи</strong> — аналогічне правило: документ прив'язаний до одного роботодавця та посади.</li>
+</ul>
+
+<h2>Виняток: посвідка на проживання або тимчасовий захист</h2>
+<p>Якщо ти маєш <strong>зезволення на побут і роботу</strong> (посвідка тимчасового проживання з правом на роботу) або перебуваєш під <strong>тимчасовим захистом</strong> (Україна, PESEL з позначкою UKR) — у тебе немає обмежень щодо роботодавця. Ти можеш одночасно працювати на будь-яку кількість роботодавців у Польщі без додаткових дозволів.</p>
+
+<h2>ZUS при двох роботодавцях</h2>
+<p>Кожен роботодавець, на якого ти працюєш, зобов'язаний перераховувати внески ZUS. Кілька важливих правил:</p>
+<table>
+  <thead><tr><th>Внесок</th><th>Правило при двох роботодавцях</th></tr></thead>
+  <tbody>
+    <tr><td>Пенсійний та рентний</td><td>Сплачується за кожним договором до досягнення річного ліміту бази (30× прогнозоване середньомісячне)</td></tr>
+    <tr><td>Хворобовий</td><td>Обов'язковий для кожного трудового договору; для договору-доручення — добровільний</td></tr>
+    <tr><td>Медичний (NFZ)</td><td>Сплачується за кожним договором без обмежень</td></tr>
+    <tr><td>Від нещасних випадків та FP</td><td>Сплачує роботодавець за кожним договором</td></tr>
+  </tbody>
+</table>
+<p>Практичний наслідок: щомісяця більше утримань, але ти будуєш вищі майбутні виплати та маєш медичне страхування у кожного роботодавця.</p>
+
+<h2>Податок на доходи (PIT) при двох роботодавцях</h2>
+<p>Кожен роботодавець щомісяця утримує аванси з прибуткового податку. Під час річного зведення (PIT-37) ти об'єднуєш доходи від усіх роботодавців:</p>
+<ul>
+  <li><strong>PIT-2 подавай лише одному роботодавцеві</strong> — тому, де доходи вищі або де починаєш першим. Лише один роботодавець може застосовувати неоподатковуваний мінімум (30 000 злотих на рік).</li>
+  <li>Наприкінці року отримуєш <strong>PIT-11</strong> від кожного роботодавця окремо.</li>
+  <li>Всі доходи зазначаєш в <strong>одній декларації</strong>.</li>
+  <li>Якщо обидва роботодавці застосовують пільгу, можлива <strong>доплата податку</strong> при річному розрахунку.</li>
+</ul>
+
+<h2>Робочий час — обмеження</h2>
+<p>Польське трудове право встановлює максимум: <strong>8 годин на добу та 40 годин на тиждень</strong> у базовій системі. Ці норми застосовуються окремо до кожного роботодавця. Але з точки зору здоров'я та безпеки праця загальним обсягом понад 48–60 годин на тиждень є ризикованою.</p>
+
+<h2>Заборона конкуренції</h2>
+<p>Перевір свій договір на наявність <strong>застереження про заборону конкуренції</strong>. Воно може забороняти роботу в компаніях тієї ж галузі під час дії договору або протягом певного часу після його закінчення. Порушення може призвести до зобов'язання виплатити компенсацію роботодавцю.</p>
+
+<h2>Практичні поради для тимчасових працівників Nexflow</h2>
+<ol>
+  <li><strong>Перевір свій дозвіл</strong> — зателефонуй або напиши до Nexflow, вкажи номер документа. Ми перевіримо, що тобі дозволено.</li>
+  <li><strong>Повідом обидвох роботодавців</strong> — немає правового обов'язку розкривати факт другої роботи (якщо договір не вимагає), але прозорість допомагає уникнути конфліктів у графіку.</li>
+  <li><strong>PIT-2 лише одному</strong> — уникнеш несподіванки наприкінці року.</li>
+  <li><strong>Слідкуй за графіком</strong> — робота у двох змінах допускається, але накладання годин є неможливим та незаконним.</li>
+</ol>
+
+<p>Маєш питання? Звернись до нашого відділу HR — допоможемо розібратися, що дозволяють твої документи.<br/>➡️ Читай також: <a href="/uk/blog/dozovil-na-robotu-polshcha-zayava-chy-zezvolennya">Дозвіл на роботу в Польщі: заява чи зезволення?</a></p>
+    `.trim(),
+  },
+  {
+    slug: "rabota-po-dvum-dogovoram-odnovremenno-inostranets-polsha",
+    title: "Работа по двум договорам одновременно в Польше — что разрешено иностранцу?",
+    description: "Можно ли иностранцу работать у двух работодателей сразу в Польше? Узнай, как это влияет на ZUS, налоги и условия разрешения на работу.",
+    date: "2026-10-30",
+    lang: "ru",
+    content: `
+<p>Многие временные работники задаются вопросом: могу ли я работать у двух работодателей одновременно? Это законно? Как это влияет на ZUS и налоги? Этот гайд объясняет правила для иностранцев в Польше.</p>
+
+<h2>Разрешает ли польское право работать по двум договорам?</h2>
+<p>Да — Трудовой кодекс Польши <strong>не запрещает</strong> работать у нескольких работодателей одновременно. Ты можешь подписать договоры с несколькими компаниями, если не нарушаешь условия договора или оговорку о запрете конкуренции. Ограничения могут возникать в зависимости от типа твоего разрешения на работу.</p>
+
+<h2>Разрешение на работу и второй работодатель</h2>
+<p>Если ты работаешь в Польше на основании <strong>разрешения на работу</strong> (тип A, B или C), оно выдаётся <em>на конкретного работодателя и должность</em>. Это означает:</p>
+<ul>
+  <li>Легально работать можно только у работодателя, указанного в разрешении.</li>
+  <li>Работа у второго работодателя <strong>требует отдельного разрешения</strong>, которое тот работодатель оформляет в воеводском управлении.</li>
+  <li>Если у тебя <strong>заявление работодателя о поручении работы</strong> — аналогичное правило: документ привязан к одному работодателю и одной должности.</li>
+</ul>
+
+<h2>Исключение: вид на жительство или временная защита</h2>
+<p>Если у тебя есть <strong>разрешение на временное проживание и работу</strong> (карта временного проживания с правом на работу) или ты находишься под <strong>временной защитой</strong> (Украина, PESEL с отметкой UKR) — никаких ограничений по работодателю нет. Ты можешь работать у любого количества работодателей в Польше одновременно, без дополнительных разрешений.</p>
+
+<h2>ZUS при двух работодателях</h2>
+<p>Каждый работодатель, у которого ты работаешь, обязан перечислять взносы ZUS с твоей зарплаты. Несколько важных правил:</p>
+<table>
+  <thead><tr><th>Взнос</th><th>Правило при двух работодателях</th></tr></thead>
+  <tbody>
+    <tr><td>Пенсионный и рентный</td><td>Уплачивается по каждому договору до достижения годового лимита базы (30× прогнозируемая средняя зарплата)</td></tr>
+    <tr><td>Больничный</td><td>Обязателен по каждому трудовому договору; по договору подряда — добровольный</td></tr>
+    <tr><td>Медицинский (NFZ)</td><td>Уплачивается по каждому договору без ограничений</td></tr>
+    <tr><td>От несчастных случаев и FP</td><td>Платит работодатель по каждому договору</td></tr>
+  </tbody>
+</table>
+<p>Практический итог: ежемесячно больше удержаний, но ты накапливаешь более высокие будущие выплаты и застрахован у каждого работодателя.</p>
+
+<h2>Налог на доходы (PIT) при двух работодателях</h2>
+<p>Каждый работодатель ежемесячно удерживает авансы по подоходному налогу. При годовом расчёте (декларация PIT-37) ты суммируешь доходы от всех работодателей:</p>
+<ul>
+  <li><strong>PIT-2 подавай только одному работодателю</strong> — тому, где доход выше или у кого начинаешь первым. Только один работодатель может применять необлагаемый минимум (30 000 злотых в год).</li>
+  <li>В конце года ты получишь <strong>PIT-11</strong> от каждого работодателя отдельно.</li>
+  <li>Все доходы указываешь в <strong>одной декларации</strong>.</li>
+  <li>Если оба работодателя применяли льготу, по итогам года может возникнуть <strong>доплата налога</strong>.</li>
+</ul>
+
+<h2>Рабочее время — ограничения</h2>
+<p>Польское трудовое право устанавливает максимум: <strong>8 часов в день и 40 часов в неделю</strong> в базовой системе. Эти нормы применяются отдельно к каждому работодателю. Однако с медицинской точки зрения работа суммарным объёмом свыше 48–60 часов в неделю несёт риски для здоровья.</p>
+
+<h2>Запрет конкуренции</h2>
+<p>Проверь договор на наличие <strong>оговорки о запрете конкуренции</strong>. Она может запрещать работу в компаниях той же отрасли в период действия договора или в течение определённого времени после его окончания. Нарушение может повлечь обязательство выплатить компенсацию работодателю.</p>
+
+<h2>Практические советы для временных работников Nexflow</h2>
+<ol>
+  <li><strong>Проверь своё разрешение</strong> — позвони или напиши в Nexflow, укажи номер документа. Мы проверим, что тебе разрешено.</li>
+  <li><strong>Сообщи обоим работодателям</strong> — нет правовой обязанности раскрывать факт второй работы (если договор не требует), но прозрачность помогает избежать конфликтов в графике.</li>
+  <li><strong>PIT-2 только одному</strong> — избежишь сюрприза в конце года.</li>
+  <li><strong>Следи за графиком</strong> — посменная работа у двух работодателей допустима, но наложение часов работы невозможно и незаконно.</li>
+</ol>
+
+<p>Есть вопросы? Обратись в наш отдел HR — поможем разобраться, что допускают твои документы.<br/>➡️ Читай также: <a href="/ru/blog/razreshenie-na-rabotu-polsha-zayavlenie-ili-razreshenie">Разрешение на работу в Польше: заявление или разрешение?</a></p>
+    `.trim(),
+  },
+  {
+    slug: "working-two-jobs-simultaneously-poland-foreign-worker",
+    title: "Working Two Jobs Simultaneously in Poland — What Foreign Workers Need to Know",
+    description: "Can a foreign worker legally work for two employers at the same time in Poland? Find out how it affects your ZUS contributions, income tax, and work permit status.",
+    date: "2026-10-30",
+    lang: "en",
+    content: `
+<p>Many temporary workers wonder: can I work for two employers at the same time? Is it legal? What about ZUS contributions and taxes? This guide explains the rules for foreign nationals working in Poland.</p>
+
+<h2>Does Polish Law Allow Working Two Jobs Simultaneously?</h2>
+<p>Yes — the Polish Labour Code <strong>does not prohibit</strong> working for multiple employers at the same time. You can sign contracts with several companies, as long as you do not violate any non-compete clause or contractual terms. However, restrictions may apply depending on the type of work permit you hold.</p>
+
+<h2>Work Permit and a Second Employer</h2>
+<p>If you are working in Poland on a <strong>work permit</strong> (type A, B or C), the permit is issued <em>for a specific employer and position</em>. This means:</p>
+<ul>
+  <li>You may legally work only for the employer named on the permit.</li>
+  <li>Working for a second employer <strong>requires a separate work permit</strong>, which that employer must apply for at the regional governor's office.</li>
+  <li>If you have a <strong>declaration of intent to entrust work</strong> (oświadczenie) — the same principle applies: the document is tied to one employer and one role.</li>
+</ul>
+
+<h2>Exception: Residence Permit or Temporary Protection</h2>
+<p>If you hold a <strong>temporary residence and work permit</strong> (karta pobytu with right to work) or you are covered by <strong>temporary protection</strong> (Ukraine, PESEL with UKR flag), you face no employer restrictions. You may work for any number of employers in Poland simultaneously — no additional permits required.</p>
+
+<h2>ZUS Contributions with Two Employers</h2>
+<p>Every employer you work for is obligated to pay ZUS social insurance contributions from your salary. Key rules:</p>
+<table>
+  <thead><tr><th>Contribution</th><th>Rule with two employers</th></tr></thead>
+  <tbody>
+    <tr><td>Pension and disability</td><td>Paid on each contract until the annual contribution base limit is reached (30× projected average monthly salary)</td></tr>
+    <tr><td>Sickness</td><td>Mandatory for each employment contract; voluntary for civil-law contracts (zlecenie)</td></tr>
+    <tr><td>Health (NFZ)</td><td>Paid on each contract with no limit</td></tr>
+    <tr><td>Accident and Labour Fund (FP)</td><td>Paid by the employer on each contract</td></tr>
+  </tbody>
+</table>
+<p>Practical effect: higher monthly deductions, but you build higher future benefits and have health cover with each employer.</p>
+
+<h2>Income Tax (PIT) with Two Employers</h2>
+<p>Each employer deducts monthly income tax advances. In the annual settlement (PIT-37 form) you combine income from all employers:</p>
+<ul>
+  <li><strong>Submit PIT-2 to only one employer</strong> — the one that pays you more, or the first one you start with. Only one employer may apply the tax-free allowance (30,000 PLN per year).</li>
+  <li>At year-end you receive a <strong>PIT-11 statement</strong> from each employer separately.</li>
+  <li>All income is declared in <strong>one annual tax return</strong>.</li>
+  <li>If both employers applied the tax-free allowance, you may owe <strong>additional tax</strong> at year-end settlement.</li>
+</ul>
+
+<h2>Working Hours — Limits</h2>
+<p>Polish labour law sets a maximum of <strong>8 hours per day and 40 hours per week</strong> in the standard working-time system. These limits apply separately to each employer. From a health and safety perspective, however, working a combined total of more than 48–60 hours a week carries real health risks.</p>
+
+<h2>Non-Compete Clause</h2>
+<p>Check your contract for a <strong>non-compete clause</strong> (zakaz konkurencji). It may prohibit working for companies in the same industry during the employment or for a defined period after it ends. Breaching it can result in a contractual obligation to pay compensation to the employer.</p>
+
+<h2>Practical Tips for Nexflow Temporary Workers</h2>
+<ol>
+  <li><strong>Check your permit</strong> — call or message Nexflow and give us your document number. We will confirm what your paperwork allows.</li>
+  <li><strong>Be transparent with both parties</strong> — there is no legal obligation to disclose a second job (unless the contract requires it), but transparency prevents scheduling conflicts.</li>
+  <li><strong>PIT-2 to one employer only</strong> — avoid a tax-bill surprise at the end of the year.</li>
+  <li><strong>Organise your schedule</strong> — shift work for two employers is permitted; overlapping hours are not.</li>
+</ol>
+
+<p>Have questions about your specific situation? Contact our HR team — we will help you determine what your documents allow.<br/>➡️ Read also: <a href="/en/blog/work-permit-vs-declaration-poland-foreign-worker">Work permit vs. declaration in Poland — differences and obligations</a></p>
+    `.trim(),
+  },
 ];
 
 export function getPostBySlug(slug: string): BlogPost | undefined {
