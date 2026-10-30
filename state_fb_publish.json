@@ -2860,8 +2860,8 @@
       "sitemap_lastmod": "2026-10-09T00:00:00.000Z"
     }
   ],
-  "last_run": "2026-10-28T00:00:00+0000",
-  "last_run_result": "drafted_new_content",
+  "last_run": "2026-10-30T00:00:00+0000",
+  "last_run_result": "no_new_posts_queued_fb_text_for_winter_bhp",
   "pending": [
     {
       "url": "https://nexflow.work/blog/pit-2-oswiadczenie-podatkowe-pracownik-polska",
@@ -2929,47 +2929,39 @@
     },
     {
       "url": "https://nexflow.work/blog/praca-w-zimie-bhp-obowiazki-pracodawcy-polska",
+      "lang": "pl",
+      "fb_text": "🌨️ Praca na zewnątrz w mrozie — czy wiesz, co pracodawca MUSI zapewnić?\n\nPolskie przepisy BHP nakładają konkretne obowiązki na pracodawców zatrudniających pracowników w zimie:\n\n🧥 Odzież ochronna odpowiednia do warunków atmosferycznych — bezpłatna\n☕ Ciepłe napoje (herbata, zupa) przy temp. poniżej 10°C\n🏠 Ogrzewane pomieszczenie do odpoczynku — obowiązkowe\n🌡️ Przerwy w pracy, gdy temperatura spada poniżej -10°C na zewnątrz\n\n❄️ Zima to nie wymówka dla pracodawcy, żeby oszczędzać na Twoim bezpieczeństwie.\n\nCałe zestawienie praw pracowniczych i obowiązków pracodawcy w zimie — na naszym blogu.\n\n👇 Nexflow — znamy Twoje prawa, zanim Ty je poznasz.",
       "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
+      "fb_text_drafted_at": "2026-10-30",
+      "issue": "EUR-3926",
+      "status": "draft"
     },
     {
       "url": "https://nexflow.work/uk/blog/robota-vzymku-bhp-obovyazky-robotodavtsya-polshcha",
+      "lang": "uk",
+      "fb_text": "🌨️ Робота надворі в мороз — чи знаєш, що роботодавець ЗОБОВ'ЯЗАНИЙ забезпечити?\n\nПольське законодавство про охорону праці покладає чіткі обов'язки на роботодавців, які наймають працівників взимку:\n\n🧥 Захисний одяг, відповідний до погодних умов — безкоштовно\n☕ Гарячі напої (чай, суп) при температурі нижче 10°C\n🏠 Обігріване приміщення для відпочинку — обов'язково\n🌡️ Перерви в роботі, коли температура на вулиці падає нижче -10°C\n\n❄️ Зима — не виправдання для роботодавця економити на твоїй безпеці.\n\nПовний перелік прав працівника і обов'язків роботодавця взимку — у нашому блозі.\n\n👇 Nexflow — знаємо твої права, ще до того як ти про них дізнаєшся.",
       "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
+      "fb_text_drafted_at": "2026-10-30",
+      "issue": "EUR-3926",
+      "status": "draft"
     },
     {
       "url": "https://nexflow.work/ru/blog/rabota-zimoy-okhrana-truda-obyazannosti-rabotodatelya-polsha",
+      "lang": "ru",
+      "fb_text": "🌨️ Работа на улице в мороз — знаешь ли ты, что работодатель ОБЯЗАН обеспечить?\n\nПольское законодательство об охране труда возлагает конкретные обязанности на работодателей, нанимающих работников зимой:\n\n🧥 Защитная одежда по погодным условиям — бесплатно\n☕ Горячие напитки (чай, суп) при температуре ниже 10°C\n🏠 Отапливаемое помещение для отдыха — обязательно\n🌡️ Перерывы в работе, когда температура на улице падает ниже -10°C\n\n❄️ Зима — не оправдание для работодателя экономить на твоей безопасности.\n\nПолный список прав работника и обязанностей работодателя зимой — в нашем блоге.\n\n👇 Nexflow — знаем твои права, прежде чем ты о них узнаешь.",
       "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
+      "fb_text_drafted_at": "2026-10-30",
+      "issue": "EUR-3926",
+      "status": "draft"
     },
     {
       "url": "https://nexflow.work/en/blog/winter-work-health-safety-obligations-employer-poland",
+      "lang": "en",
+      "fb_text": "🌨️ Working outdoors in winter — do you know what your employer is REQUIRED to provide?\n\nPolish health & safety law imposes clear obligations on employers hiring workers in winter conditions:\n\n🧥 Protective clothing suitable for weather conditions — provided free of charge\n☕ Hot beverages (tea, soup) when temperature drops below 10°C\n🏠 A heated rest room — mandatory\n🌡️ Work breaks when outdoor temperature falls below -10°C\n\n❄️ Winter is not an excuse for your employer to cut corners on your safety.\n\nFull breakdown of worker rights and employer obligations in winter — on our blog.\n\n👇 Nexflow — we know your rights before you do.",
       "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
-    },
-    {
-      "url": "https://nexflow.work/blog/praca-w-zimie-bhp-obowiazki-pracodawcy-polska",
-      "type": "fb_post",
-      "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
-    },
-    {
-      "url": "https://nexflow.work/uk/blog/robota-vzymku-bhp-obovyazky-robotodavtsya-polshcha",
-      "type": "fb_post",
-      "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
-    },
-    {
-      "url": "https://nexflow.work/ru/blog/rabota-zimoy-okhrana-truda-obyazannosti-rabotodatelya-polsha",
-      "type": "fb_post",
-      "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
-    },
-    {
-      "url": "https://nexflow.work/en/blog/winter-work-health-safety-obligations-employer-poland",
-      "type": "fb_post",
-      "drafted_at": "2026-10-29",
-      "issue": "EUR-3926"
+      "fb_text_drafted_at": "2026-10-30",
+      "issue": "EUR-3926",
+      "status": "draft"
     }
   ]
 }
