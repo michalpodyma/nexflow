@@ -35,6 +35,7 @@ from typing import Any
 
 from fastapi import APIRouter, BackgroundTasks, HTTPException, Query, Request, Response
 from sqlalchemy import select
+from sqlalchemy.exc import IntegrityError
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.config import settings
@@ -76,45 +77,54 @@ def _verify_signature(body: bytes, signature_header: str) -> bool:
 
 async def _resolve_candidate(from_phone: str, db: AsyncSession) -> Candidate:
     """
-    Find a Candidate by normalised phone number, or create a skeleton record
-    so the FSM can run even for numbers not yet in the system.
+    Find a Candidate by normalised_phone index, or create a skeleton record.
 
-    We normalise both the incoming phone (already digit-only E.164 without '+')
-    and the stored phone by stripping all non-digit characters.  Two candidates
-    can't share the same normalised phone in practice, so we take the first match.
+    The normalised_phone UNIQUE constraint prevents duplicate rows when two
+    simultaneous messages arrive from the same number (IntegrityError on the
+    second insert → re-query returns the first winner).
     """
     normalised = normalize_phone(from_phone)
 
-    # Fetch only candidates that have a phone set and filter in Python to avoid
-    # a case-insensitive regex query across the full table.
-    # Candidates table is typically small (< 50k rows in Phase 1), so this is fine;
-    # a future migration can add a normalised_phone generated column with an index.
+    # Fast index lookup via the normalised_phone column added in migration 20261103_001.
     result = await db.execute(
-        select(Candidate).where(Candidate.phone.isnot(None))
+        select(Candidate).where(Candidate.normalised_phone == normalised)
     )
-    candidates = result.scalars().all()
-
-    for cand in candidates:
-        if normalize_phone(cand.phone) == normalised:  # type: ignore[arg-type]
-            return cand
+    cand = result.scalar_one_or_none()
+    if cand is not None:
+        return cand
 
     # Unknown number — create skeleton candidate
     new_cand = Candidate(
         first_name="WhatsApp",
         last_name="User",
         phone="+" + normalised,
-        gdpr_consent=False,  # will need to be collected separately
+        normalised_phone=normalised,
+        gdpr_consent=False,
         screening_status=ScreeningStatus.new,
     )
     db.add(new_cand)
-    await db.flush()
-    await db.refresh(new_cand)
-    logger.info(
-        "[whatsapp_webhook] Created skeleton candidate %s for unknown phone %s",
-        new_cand.id,
-        normalised,
-    )
-    return new_cand
+    try:
+        await db.flush()
+        await db.refresh(new_cand)
+        logger.info(
+            "[whatsapp_webhook] Created skeleton candidate %s for unknown phone %s",
+            new_cand.id,
+            normalised,
+        )
+        return new_cand
+    except IntegrityError:
+        # Race condition: another request already inserted this phone; re-query.
+        await db.rollback()
+        result2 = await db.execute(
+            select(Candidate).where(Candidate.normalised_phone == normalised)
+        )
+        existing = result2.scalar_one()
+        logger.info(
+            "[whatsapp_webhook] Race resolved — using existing candidate %s for %s",
+            existing.id,
+            normalised,
+        )
+        return existing
 
 
 async def _handle_inbound_message(
@@ -290,21 +300,35 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
             and settings.paperclip_bot_api_key
         ):
             from app.services.b2c_intake import (  # noqa: PLC0415
+                classify_inbound,
                 create_intake_paperclip_issue,
-                detect_language,
                 detect_pii,
                 get_b2c_ack_text,
             )
 
-            lang = detect_language(text)
-            has_pii, pii_types = detect_pii(text)
-            ack = get_b2c_ack_text(lang)
             normalised_phone = normalize_phone(from_phone)
-            try:
-                await send_whatsapp_message(normalised_phone, ack)
-            except Exception as ack_exc:  # noqa: BLE001
-                logger.exception("[whatsapp_webhook] B2C ack send failed: %s", ack_exc)
-            # Ack the inbox event immediately — Paperclip creation is best-effort.
+            classification = await classify_inbound(text, "+" + normalised_phone)
+            lang = classification["language"]
+            policy_class = classification["policy_class"]
+            drafted_reply = classification["drafted_reply"]
+            has_pii, pii_types = detect_pii(text)
+
+            # Only ack candidate and needs_decision; do not ack before an auto-decline
+            if policy_class in ("candidate", "needs_decision"):
+                ack = get_b2c_ack_text(lang)
+                try:
+                    await send_whatsapp_message(normalised_phone, ack)
+                except Exception as ack_exc:  # noqa: BLE001
+                    logger.exception("[whatsapp_webhook] B2C ack send failed: %s", ack_exc)
+
+            # auto_close_spam: no issue, no ack — just record and move on
+            if policy_class == "auto_close_spam":
+                if event:
+                    event.acknowledged_at = datetime.now(tz=UTC)
+                await db.commit()
+                return
+
+            # Ack the inbox event — Paperclip creation is best-effort.
             if event:
                 event.acknowledged_at = datetime.now(tz=UTC)
             try:
@@ -316,6 +340,8 @@ async def _process_message(from_phone: str, text: str, wamid: str, db: AsyncSess
                     language=lang,
                     has_pii=has_pii,
                     pii_types=pii_types,
+                    policy_class=policy_class,
+                    drafted_reply=drafted_reply,
                 )
                 if issue_id and event:
                     event.paperclip_issue_id = issue_id

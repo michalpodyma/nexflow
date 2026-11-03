@@ -40,6 +40,9 @@ class Candidate(Base):
     first_name: Mapped[str] = mapped_column(sa.String(100), nullable=False)
     last_name: Mapped[str] = mapped_column(sa.String(100), nullable=False)
     phone: Mapped[str | None] = mapped_column(sa.String(30), nullable=True)
+    normalised_phone: Mapped[str | None] = mapped_column(
+        sa.String(20), nullable=True, unique=True, index=True
+    )
     email: Mapped[str | None] = mapped_column(sa.String(255), nullable=True)
     # ISO 3166-1 alpha-2
     nationality: Mapped[str | None] = mapped_column(sa.String(2), nullable=True)
