@@ -81,3 +81,18 @@ async def delete_file(storage_key: str) -> None:
             Key=storage_key,
         ),
     )
+
+
+async def list_objects_with_prefix(prefix: str) -> list[str]:
+    """Return all object keys under the given prefix (up to 1000 objects)."""
+    client = _get_client()
+    loop = asyncio.get_event_loop()
+    response: dict = await loop.run_in_executor(
+        None,
+        functools.partial(
+            client.list_objects_v2,
+            Bucket=settings.b2_bucket_name,
+            Prefix=prefix,
+        ),
+    )
+    return [obj["Key"] for obj in response.get("Contents", [])]

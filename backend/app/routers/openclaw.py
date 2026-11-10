@@ -4,7 +4,8 @@ OpenClaw API — WhatsApp inbox triage + Google Workspace tools.
 Endpoints
 ─────────
 Candidates
-  GET  /api/openclaw/candidates/{id}/contact   — full phone + name for WhatsApp outreach
+  GET    /api/openclaw/candidates/{id}/contact        — full phone + name for WhatsApp outreach
+  DELETE /api/openclaw/candidates/{id}/gdpr-erase    — GDPR erasure: delete record + all media blobs
 
 WhatsApp
   GET  /api/openclaw/whatsapp-inbox            — paginated list of inbound events
@@ -57,6 +58,7 @@ from app.config import settings
 from app.database import get_db
 from app.models.candidates import Candidate
 from app.models.whatsapp_inbox import WhatsAppInboxEvent
+from app.services import b2 as b2_service
 from app.services.google_workspace import (
     GoogleWorkspaceError,
     calendar_create_event,
@@ -634,4 +636,83 @@ async def send_whatsapp_to_candidate(
         message_id=message_id,
         to=candidate.phone,
         status="sent",
+    )
+
+
+# ---------------------------------------------------------------------------
+# DELETE /api/openclaw/candidates/{candidate_id}/gdpr-erase
+# ---------------------------------------------------------------------------
+
+
+class GdprEraseResponse(BaseModel):
+    candidate_id: UUID
+    b2_keys_deleted: list[str]
+    b2_delete_errors: list[str]
+
+
+@router.delete(
+    "/candidates/{candidate_id}/gdpr-erase",
+    response_model=GdprEraseResponse,
+    dependencies=[Depends(_require_openclaw_key)],
+    summary="GDPR erasure: hard-delete candidate record and all associated B2 media blobs",
+)
+async def gdpr_erase_candidate(
+    candidate_id: UUID,
+    db: AsyncSession = Depends(get_db),
+) -> GdprEraseResponse:
+    """
+    GDPR right-to-erasure endpoint.  Performs a hard-delete of the candidate
+    record (cascade: reminders, chatbot sessions, job orders; whatsapp_inbox rows
+    get candidate_id SET NULL) and permanently removes all Backblaze B2 media
+    objects associated with the candidate.
+
+    B2 objects removed:
+      - All keys under whatsapp-media/{candidate_id}/ prefix
+      - candidate.id_doc_url and candidate.health_cert_url if set
+
+    Returns a summary of what was deleted for audit purposes.
+    Callers should record this response in a durable audit log.
+    """
+    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
+    candidate = result.scalar_one_or_none()
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+
+    # Collect unique B2 keys to delete
+    keys_to_delete: set[str] = set()
+    if candidate.id_doc_url:
+        keys_to_delete.add(candidate.id_doc_url)
+    if candidate.health_cert_url:
+        keys_to_delete.add(candidate.health_cert_url)
+
+    try:
+        prefix_keys = await b2_service.list_objects_with_prefix(f"whatsapp-media/{candidate_id}/")
+        keys_to_delete.update(prefix_keys)
+    except Exception as exc:
+        logger.warning("gdpr_erase: b2 prefix-list failed for %s: %s", candidate_id, exc)
+
+    deleted: list[str] = []
+    errors: list[str] = []
+    for key in sorted(keys_to_delete):
+        try:
+            await b2_service.delete_file(key)
+            deleted.append(key)
+            logger.info("gdpr_erase: b2 deleted %s", key)
+        except Exception as exc:
+            errors.append(f"{key}: {exc}")
+            logger.warning("gdpr_erase: b2 delete failed %s: %s", key, exc)
+
+    await db.delete(candidate)
+    await db.commit()
+    logger.info(
+        "gdpr_erase: candidate %s removed from db; b2_deleted=%d b2_errors=%d",
+        candidate_id,
+        len(deleted),
+        len(errors),
+    )
+
+    return GdprEraseResponse(
+        candidate_id=candidate_id,
+        b2_keys_deleted=deleted,
+        b2_delete_errors=errors,
     )
