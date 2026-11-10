@@ -93,6 +93,12 @@ interface InstantlyWebhookPayload {
   lead?: InstantlyLead;
   reply_category?: string;
   reply?: InstantlyReply;
+  /**
+   * ue_type: 2 = automated/OOO reply (e.g. "Automatyczna odpowiedź").
+   * Must be filtered before any lt_interest update or HubSpot deal creation.
+   * EUR-3988: added 2026-11-10.
+   */
+  ue_type?: number;
   // email_sent fields
   lead_email?: string;
   email_account?: string;
@@ -510,6 +516,14 @@ export async function POST(req: NextRequest) {
   const lead = payload.lead;
   if (!lead?.email) {
     return NextResponse.json({ error: "Missing lead email" }, { status: 400 });
+  }
+
+  // Skip OOO / automated replies — ue_type: 2 means the reply was auto-generated.
+  // Instantly's AI classifier may still score these as "Interested" (lt_interest_status: 1),
+  // causing false HubSpot deals. EUR-3988.
+  if (payload.ue_type === 2) {
+    console.info("[instantly-webhook] Skipping OOO reply (ue_type=2) for lead:", lead.email);
+    return NextResponse.json({ ok: true, skipped: true, reason: "ooo" });
   }
 
   // Only process positive replies
