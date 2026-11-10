@@ -1,9 +1,12 @@
+import logging
 from datetime import UTC, datetime
 from typing import Annotated
 from uuid import UUID
 
+import sqlalchemy as sa
 from fastapi import APIRouter, BackgroundTasks, Depends, HTTPException, Query, Request
-from sqlalchemy import func, select
+from pydantic import BaseModel
+from sqlalchemy import func, select, update
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.auth.middleware import CurrentUser
@@ -13,6 +16,7 @@ from app.models.candidate_reminders import CandidateReminder
 from app.models.candidates import Candidate
 from app.models.enums import GdprSubjectType, ScreeningStatus
 from app.models.gdpr import GdprConsent
+from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.models.workers import Worker
 from app.schemas.candidates import (
     BulkUpdateRequest,
@@ -26,6 +30,12 @@ from app.schemas.candidates import (
 )
 
 router = APIRouter(prefix="/api/v1/candidates", tags=["candidates"])
+
+_logger = logging.getLogger(__name__)
+
+
+class InboxErasureResult(BaseModel):
+    erased_rows: int
 
 
 # ---------------------------------------------------------------------------
@@ -309,6 +319,51 @@ async def delete_candidate(
         raise HTTPException(status_code=404, detail="Candidate not found")
     await db.delete(candidate)
     await db.commit()
+
+
+@router.delete("/{candidate_id}/inbox-data", response_model=InboxErasureResult)
+async def erase_candidate_inbox_data(
+    candidate_id: UUID,
+    _: CurrentUser,
+    db: Annotated[AsyncSession, Depends(get_db)],
+) -> InboxErasureResult:
+    """
+    GDPR erasure of WhatsApp message bodies for a candidate (Art. 17).
+
+    Nulls message_text and media_caption on every whatsapp_inbox_events row
+    linked to this candidate.  Preserves the audit trail: event id, timestamps,
+    acknowledged_at, and paperclip_issue_id are kept intact.
+
+    Logs candidate_id, row count, and timestamp.  Never logs the erased text.
+    """
+    exists = await db.execute(select(Candidate.id).where(Candidate.id == candidate_id))
+    if exists.scalar_one_or_none() is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+
+    stmt = (
+        update(WhatsAppInboxEvent)
+        .where(WhatsAppInboxEvent.candidate_id == candidate_id)
+        .where(
+            sa.or_(
+                WhatsAppInboxEvent.message_text.isnot(None),
+                WhatsAppInboxEvent.media_caption.isnot(None),
+            )
+        )
+        .values(message_text=None, media_caption=None)
+        .execution_options(synchronize_session=False)
+    )
+    result = await db.execute(stmt)
+    erased: int = result.rowcount
+    await db.commit()
+
+    _logger.info(
+        "[gdpr] inbox-data erased candidate_id=%s rows=%d at=%s",
+        candidate_id,
+        erased,
+        datetime.now(UTC).isoformat(),
+    )
+
+    return InboxErasureResult(erased_rows=erased)
 
 
 # ---------------------------------------------------------------------------

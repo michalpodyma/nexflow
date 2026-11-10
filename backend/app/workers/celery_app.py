@@ -41,5 +41,11 @@ celery_app.conf.update(
             "task": "workers.tasks.b2c_intake_retry.sweep_pending_paperclip_issues",
             "schedule": crontab(minute="*/15"),
         },
+        # 03:00 UTC nightly — GDPR retention: null WhatsApp message bodies for
+        # unconverted candidates older than _INBOX_RETENTION_MONTHS (EUR-3990)
+        "sweep-inbox-text-retention-nightly": {
+            "task": "workers.tasks.notifications.sweep_inbox_text_retention",
+            "schedule": crontab(hour=3, minute=0),
+        },
     },
 )

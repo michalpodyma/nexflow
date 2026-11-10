@@ -16,7 +16,7 @@ Errors are caught and logged — tasks never crash the worker process.
 
 import asyncio
 import logging
-from datetime import UTC, datetime
+from datetime import UTC, datetime, timedelta
 from uuid import UUID
 
 import sqlalchemy as sa
@@ -39,6 +39,11 @@ logger = logging.getLogger(__name__)
 
 # Days before expiry at which to send reminders
 EXPIRY_REMINDER_DAYS = [30, 14, 7]
+
+# Confirmed per EUR-3990: null message_text/media_caption on WhatsApp inbox rows
+# older than this many months where the candidate never converted to a worker.
+# Value approved by the board; change requires explicit approval (GDPR policy).
+_INBOX_RETENTION_MONTHS = 3
 
 
 # ---------------------------------------------------------------------------
@@ -272,5 +277,64 @@ def scan_invoice_overdue() -> None:
                     session.add(log)
 
             await session.commit()
+
+    asyncio.run(_run())
+
+
+@celery_app.task(name="workers.tasks.notifications.sweep_inbox_text_retention")
+def sweep_inbox_text_retention() -> None:
+    """
+    Nightly GDPR retention sweep (EUR-3990).
+
+    Nulls message_text and media_caption on whatsapp_inbox_events rows that are:
+      - older than _INBOX_RETENTION_MONTHS months, AND
+      - linked to a candidate who never converted (worker_id IS NULL),
+        OR orphaned (candidate_id IS NULL after hard-delete).
+
+    Keeps all audit metadata: id, timestamps, acknowledged_at, paperclip_issue_id.
+    Logs row count and cutoff; never logs the erased text.
+    """
+
+    async def _run() -> None:
+        from app.models.candidates import Candidate
+        from app.models.whatsapp_inbox import WhatsAppInboxEvent
+
+        cutoff = datetime.now(UTC) - timedelta(days=_INBOX_RETENTION_MONTHS * 30)
+
+        never_converted_subq = (
+            sa.select(Candidate.id)
+            .where(Candidate.worker_id.is_(None))
+            .scalar_subquery()
+        )
+
+        stmt = (
+            sa.update(WhatsAppInboxEvent)
+            .where(WhatsAppInboxEvent.received_at < cutoff)
+            .where(
+                sa.or_(
+                    WhatsAppInboxEvent.candidate_id.is_(None),
+                    WhatsAppInboxEvent.candidate_id.in_(never_converted_subq),
+                )
+            )
+            .where(
+                sa.or_(
+                    WhatsAppInboxEvent.message_text.isnot(None),
+                    WhatsAppInboxEvent.media_caption.isnot(None),
+                )
+            )
+            .values(message_text=None, media_caption=None)
+        )
+
+        async with AsyncSessionLocal() as session:
+            result = await session.execute(stmt)
+            await session.commit()
+
+        erased = result.rowcount
+        logger.info(
+            "[gdpr] inbox_text_retention_sweep erased=%d cutoff=%s retention_months=%d",
+            erased,
+            cutoff.date().isoformat(),
+            _INBOX_RETENTION_MONTHS,
+        )
 
     asyncio.run(_run())
