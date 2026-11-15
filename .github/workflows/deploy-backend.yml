@@ -24,6 +24,21 @@ jobs:
     needs: build-verify
     runs-on: ubuntu-latest
     steps:
+      - name: Validate Railway API key
+        run: |
+          WHOAMI=$(curl -s -X POST "https://backboard.railway.app/graphql/v2" \
+            -H "Authorization: Bearer ${{ secrets.RAILWAY_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"query": "query { me { id email } }"}')
+          echo "Railway auth check: $WHOAMI"
+          if echo "$WHOAMI" | grep -q '"Not Authorized"'; then
+            echo "::error::RAILWAY_API_KEY is expired or invalid."
+            echo "::error::Fix: Go to railway.app → Account → API Tokens → generate a new token,"
+            echo "::error::then update the RAILWAY_API_KEY secret in GitHub repo Settings → Secrets → Actions."
+            echo "::error::After updating, re-run this workflow via Actions → workflow_dispatch."
+            exit 1
+          fi
+
       - name: Trigger Railway repo-source deploy
         run: |
           # Tell Railway to build from the latest GitHub commit (repo-source build)
