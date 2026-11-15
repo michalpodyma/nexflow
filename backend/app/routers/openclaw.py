@@ -8,9 +8,14 @@ Candidates
   DELETE /api/openclaw/candidates/{id}/gdpr-erase    — GDPR erasure: delete record + all media blobs
 
 WhatsApp
-  GET  /api/openclaw/whatsapp-inbox            — paginated list of inbound events
+  GET  /api/openclaw/whatsapp-inbox            — paginated list (supports `since`, `until`, `include_acked`)
   POST /api/openclaw/whatsapp-inbox/{id}/ack   — mark an event acknowledged
   POST /api/openclaw/whatsapp/send             — send template message via Meta API (EUR-2244/EUR-2301)
+
+GDPR Erasure  (requires OPENCLAW_GDPR_ADMIN_KEY — separate from OPENCLAW_API_KEY)
+  DELETE /api/openclaw/whatsapp-inbox/by-candidate/{id}  — hard-delete all inbox rows for a candidate
+  DELETE /api/openclaw/whatsapp-inbox/{event_id}         — hard-delete a single inbox event
+  PATCH  /api/openclaw/gdpr/candidates/{id}/notes-scrub  — clear candidate.notes
 
 Gmail  (gmail.modify scope — read + label; NOT send, NOT delete)
   GET  /api/openclaw/gmail/messages            — list messages by label / since
@@ -139,6 +144,18 @@ async def list_inbox(
         None,
         description="Return events received after this UTC timestamp (ISO 8601)",
     ),
+    until: datetime | None = Query(
+        None,
+        description=(
+            "Return events received before this UTC timestamp (ISO 8601). "
+            "Combine with `since` to query a closed time window and reach rows "
+            "older than the `limit` cap would otherwise expose (EUR-3993)."
+        ),
+    ),
+    include_acked: bool = Query(
+        True,
+        description="Include acknowledged events (default true). Set false to filter to unacknowledged only.",
+    ),
     unacknowledged_only: bool = Query(
         False,
         description="When true, return only events not yet acknowledged by OpenClaw",
@@ -149,19 +166,24 @@ async def list_inbox(
     """
     Return inbound WhatsApp messages for OpenClaw to triage.
 
-    Use `since` with the last-seen timestamp to poll for new messages (e.g.
-    the overnight window for the daily briefing).  Use `unacknowledged_only`
-    to focus on events that haven't been noted in a briefing yet.
+    Use ``since`` / ``until`` to query a closed time window — e.g.
+    ``since=2026-06-10&until=2026-06-12T00:00:00Z`` reaches rows that the
+    ``limit`` cap would truncate when only ``since`` is used.
+    Use ``unacknowledged_only`` to focus on events not yet noted in a briefing.
     """
     stmt = select(WhatsAppInboxEvent).order_by(WhatsAppInboxEvent.received_at.desc())
 
     if since is not None:
-        # Ensure timezone-aware comparison
         if since.tzinfo is None:
             since = since.replace(tzinfo=UTC)
         stmt = stmt.where(WhatsAppInboxEvent.received_at > since)
 
-    if unacknowledged_only:
+    if until is not None:
+        if until.tzinfo is None:
+            until = until.replace(tzinfo=UTC)
+        stmt = stmt.where(WhatsAppInboxEvent.received_at < until)
+
+    if unacknowledged_only or not include_acked:
         stmt = stmt.where(WhatsAppInboxEvent.acknowledged_at.is_(None))
 
     count_result = await db.execute(stmt)
