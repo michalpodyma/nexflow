@@ -51,12 +51,13 @@ from uuid import UUID
 from fastapi import APIRouter, Depends, HTTPException, Query, status
 from fastapi.security import HTTPAuthorizationCredentials, HTTPBearer
 from pydantic import BaseModel, Field
-from sqlalchemy import select
+from sqlalchemy import delete, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.config import settings
 from app.database import get_db
 from app.models.candidates import Candidate
+from app.models.gdpr import GdprErasureLog
 from app.models.whatsapp_inbox import WhatsAppInboxEvent
 from app.services import b2 as b2_service
 from app.services.google_workspace import (
@@ -87,6 +88,17 @@ def _require_openclaw_key(
         raise HTTPException(status_code=503, detail="OpenClaw API not configured on this instance")
     if credentials.credentials != key:
         raise HTTPException(status_code=401, detail="Invalid OpenClaw API key")
+
+
+
+def _require_gdpr_admin_key(
+    credentials: Annotated[HTTPAuthorizationCredentials, Depends(_bearer)],
+) -> None:
+    key = settings.openclaw_gdpr_admin_key
+    if not key:
+        raise HTTPException(status_code=503, detail="GDPR admin key not configured on this instance")
+    if credentials.credentials != key:
+        raise HTTPException(status_code=401, detail="Invalid GDPR admin key")
 
 
 # ---------------------------------------------------------------------------
@@ -715,4 +727,200 @@ async def gdpr_erase_candidate(
         candidate_id=candidate_id,
         b2_keys_deleted=deleted,
         b2_delete_errors=errors,
+    )
+
+# ---------------------------------------------------------------------------
+# GDPR erasure — shared request/response schemas  (EUR-4013)
+# ---------------------------------------------------------------------------
+
+
+class GdprErasureRequest(BaseModel):
+    paperclip_issue_ref: str | None = None
+
+
+class GdprErasureResponse(BaseModel):
+    candidate_id: UUID
+    records_deleted: int
+    erased_at: datetime
+    audit_log_id: UUID
+
+
+class NotesScrubResponse(BaseModel):
+    candidate_id: UUID
+    scrubbed: bool
+    erased_at: datetime
+    audit_log_id: UUID
+
+
+# ---------------------------------------------------------------------------
+# DELETE /api/openclaw/whatsapp-inbox/by-candidate/{candidate_id}  (EUR-4013)
+# MUST be registered before /whatsapp-inbox/{event_id} to avoid path clash.
+# ---------------------------------------------------------------------------
+
+
+@router.delete(
+    "/whatsapp-inbox/by-candidate/{candidate_id}",
+    response_model=GdprErasureResponse,
+    dependencies=[Depends(_require_gdpr_admin_key)],
+    summary="GDPR bulk erasure — delete all WhatsApp inbox events for a candidate",
+)
+async def gdpr_erase_inbox_by_candidate(
+    candidate_id: UUID,
+    body: GdprErasureRequest,
+    db: AsyncSession = Depends(get_db),
+) -> GdprErasureResponse:
+    """
+    Delete every WhatsAppInboxEvent row for the given candidate and write one
+    GdprErasureLog audit row in the same transaction.
+
+    records_deleted=0 is NOT an error — it means no rows existed and is still
+    audit-logged.  Requires OPENCLAW_GDPR_ADMIN_KEY.
+    """
+    result = await db.execute(
+        delete(WhatsAppInboxEvent).where(WhatsAppInboxEvent.candidate_id == candidate_id)
+    )
+    count = result.rowcount
+
+    now = datetime.now(tz=UTC)
+    audit = GdprErasureLog(
+        actor="openclaw-gdpr-admin",
+        scope="whatsapp_inbox_events",
+        candidate_id=candidate_id,
+        records_deleted=count,
+        paperclip_issue_ref=body.paperclip_issue_ref,
+        erased_at=now,
+    )
+    db.add(audit)
+    await db.commit()
+    await db.refresh(audit)
+
+    logger.info(
+        "[gdpr] Erased %d whatsapp_inbox_events for candidate %s; audit_log_id=%s",
+        count,
+        candidate_id,
+        audit.id,
+    )
+    return GdprErasureResponse(
+        candidate_id=candidate_id,
+        records_deleted=count,
+        erased_at=now,
+        audit_log_id=audit.id,
+    )
+
+
+# ---------------------------------------------------------------------------
+# DELETE /api/openclaw/whatsapp-inbox/{event_id}  (EUR-4013)
+# ---------------------------------------------------------------------------
+
+
+@router.delete(
+    "/whatsapp-inbox/{event_id}",
+    response_model=GdprErasureResponse,
+    dependencies=[Depends(_require_gdpr_admin_key)],
+    summary="GDPR single-event erasure — delete one WhatsApp inbox event",
+)
+async def gdpr_erase_inbox_event(
+    event_id: UUID,
+    body: GdprErasureRequest,
+    db: AsyncSession = Depends(get_db),
+) -> GdprErasureResponse:
+    """
+    Delete a single WhatsAppInboxEvent row identified by event_id.
+    404 if the event does not exist.  Writes one GdprErasureLog row in the
+    same transaction.  Requires OPENCLAW_GDPR_ADMIN_KEY.
+    """
+    result = await db.execute(
+        select(WhatsAppInboxEvent).where(WhatsAppInboxEvent.id == event_id)
+    )
+    event = result.scalar_one_or_none()
+    if event is None:
+        raise HTTPException(status_code=404, detail="WhatsApp inbox event not found")
+
+    candidate_id = event.candidate_id
+
+    await db.execute(
+        delete(WhatsAppInboxEvent).where(WhatsAppInboxEvent.id == event_id)
+    )
+
+    now = datetime.now(tz=UTC)
+    audit = GdprErasureLog(
+        actor="openclaw-gdpr-admin",
+        scope="whatsapp_inbox_events",
+        candidate_id=candidate_id,
+        records_deleted=1,
+        paperclip_issue_ref=body.paperclip_issue_ref,
+        erased_at=now,
+    )
+    db.add(audit)
+    await db.commit()
+    await db.refresh(audit)
+
+    logger.info(
+        "[gdpr] Erased 1 whatsapp_inbox_events for candidate %s; audit_log_id=%s",
+        candidate_id,
+        audit.id,
+    )
+    return GdprErasureResponse(
+        candidate_id=candidate_id,
+        records_deleted=1,
+        erased_at=now,
+        audit_log_id=audit.id,
+    )
+
+
+# ---------------------------------------------------------------------------
+# PATCH /api/openclaw/gdpr/candidates/{candidate_id}/notes-scrub  (EUR-4013)
+# ---------------------------------------------------------------------------
+
+
+@router.patch(
+    "/gdpr/candidates/{candidate_id}/notes-scrub",
+    response_model=NotesScrubResponse,
+    dependencies=[Depends(_require_gdpr_admin_key)],
+    summary="GDPR notes scrub — clear Candidate.notes for a candidate",
+)
+async def gdpr_scrub_candidate_notes(
+    candidate_id: UUID,
+    body: GdprErasureRequest,
+    db: AsyncSession = Depends(get_db),
+) -> NotesScrubResponse:
+    """
+    Set Candidate.notes to NULL for the given candidate and write one
+    GdprErasureLog audit row.  404 if the candidate does not exist.
+    scrubbed=False means notes were already NULL (still audit-logged).
+    Requires OPENCLAW_GDPR_ADMIN_KEY.
+    """
+    result = await db.execute(select(Candidate).where(Candidate.id == candidate_id))
+    candidate = result.scalar_one_or_none()
+    if candidate is None:
+        raise HTTPException(status_code=404, detail="Candidate not found")
+
+    was_set = candidate.notes is not None
+    candidate.notes = None
+    await db.flush()
+
+    now = datetime.now(tz=UTC)
+    audit = GdprErasureLog(
+        actor="openclaw-gdpr-admin",
+        scope="candidate_notes",
+        candidate_id=candidate_id,
+        records_deleted=1 if was_set else 0,
+        paperclip_issue_ref=body.paperclip_issue_ref,
+        erased_at=now,
+    )
+    db.add(audit)
+    await db.commit()
+    await db.refresh(audit)
+
+    logger.info(
+        "[gdpr] Scrubbed candidate notes for candidate %s (was_set=%s); audit_log_id=%s",
+        candidate_id,
+        was_set,
+        audit.id,
+    )
+    return NotesScrubResponse(
+        candidate_id=candidate_id,
+        scrubbed=was_set,
+        erased_at=now,
+        audit_log_id=audit.id,
     )

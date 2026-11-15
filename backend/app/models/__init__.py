@@ -36,7 +36,7 @@ from .enums import (
     ScreeningStatus,
     WorkPermitType,
 )
-from .gdpr import GdprConsent
+from .gdpr import GdprConsent, GdprErasureLog
 from .hours_import import ClientColumnMapping, HoursImportBatch, WorkerHours
 from .invoices import Invoice
 from .job_orders import JobOrder
@@ -75,6 +75,7 @@ __all__ = [
     "Invoice",
     "Position",
     "GdprConsent",
+    "GdprErasureLog",
     "ChatbotSession",
     "ComplianceAlert",
     "AuditLog",

@@ -62,6 +62,12 @@ class Settings(BaseSettings):
     # Generate with: python3 -c "import secrets; print(secrets.token_urlsafe(32))"
     openclaw_api_key: str = ""                 # OPENCLAW_API_KEY
 
+    # OpenClaw GDPR admin key — elevated key required only for the erasure endpoints.
+    # Intentionally separate from openclaw_api_key so the main read-only key cannot
+    # trigger deletions.  Set OPENCLAW_GDPR_ADMIN_KEY in Railway.
+    # Generate with: python3 -c "import secrets; print(secrets.token_hex(16))"
+    openclaw_gdpr_admin_key: str = ""          # OPENCLAW_GDPR_ADMIN_KEY
+
     # OpenRouter LLM screener (EUR-628)
     # Set OPENROUTER_API_KEY and OPENROUTER_MODEL in Railway / .env.
     # Flip WHATSAPP_SCREENER_USE_LLM=true only after board pre-flip approval.

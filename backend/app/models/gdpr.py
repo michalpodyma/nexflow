@@ -49,3 +49,26 @@ class GdprConsent(Base):
     created_at: Mapped[datetime] = mapped_column(
         sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
     )
+
+class GdprErasureLog(Base):
+    """
+    Write-only audit trail for all GDPR erasure actions performed via the
+    openclaw-gdpr-admin key.  One row per erasure operation.
+    Never UPDATE or DELETE rows in this table.
+    """
+
+    __tablename__ = "gdpr_erasure_log"
+
+    id: Mapped[UUID] = mapped_column(
+        PGUUID(as_uuid=True),
+        primary_key=True,
+        server_default=sa.text("uuid_generate_v4()"),
+    )
+    actor: Mapped[str] = mapped_column(sa.String(100), nullable=False)
+    scope: Mapped[str] = mapped_column(sa.String(100), nullable=False)
+    candidate_id: Mapped[UUID | None] = mapped_column(PGUUID(as_uuid=True), nullable=True, index=True)
+    records_deleted: Mapped[int] = mapped_column(sa.Integer, nullable=False, server_default="0")
+    paperclip_issue_ref: Mapped[str | None] = mapped_column(sa.String(64), nullable=True)
+    erased_at: Mapped[datetime] = mapped_column(
+        sa.TIMESTAMP(timezone=True), nullable=False, server_default=sa.text("now()")
+    )
