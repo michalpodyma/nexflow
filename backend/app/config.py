@@ -88,6 +88,13 @@ class Settings(BaseSettings):
     paperclip_api_url: str = "https://app.paperclip.ing"  # PAPERCLIP_API_URL
     paperclip_bot_api_key: str = ""                        # PAPERCLIP_BOT_API_KEY
 
+    # Grok WhatsApp Responder fan-out (EUR-4036)
+    # Both optional — absent or empty disables forwarding entirely.
+    # Set GROK_FORWARD_URL and GROK_FORWARD_KEY in Railway once the Grok bot
+    # provides its endpoint and shared sender key.
+    grok_forward_url: str = ""               # GROK_FORWARD_URL
+    grok_forward_key: str = ""               # GROK_FORWARD_KEY (sent as Authorization: Bearer)
+
     # Google Workspace — delegated OAuth on the board user's account.
     # Scopes (day one): gmail.modify, calendar, drive.file — nothing broader.
     # Board user performs the one-time consent flow; Developer stores the

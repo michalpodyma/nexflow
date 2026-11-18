@@ -239,6 +239,33 @@ async def _fetch_and_store_media(
         return None
 
 
+async def _forward_to_grok(body: bytes) -> None:
+    """
+    Fire-and-forget: POST the raw Meta payload to the Grok WhatsApp Responder.
+
+    Disabled when GROK_FORWARD_URL is absent or empty.  Failure is logged at
+    WARNING and must never raise — the caller never awaits the result.
+    """
+    url = settings.grok_forward_url
+    if not url:
+        return
+    import httpx  # noqa: PLC0415
+
+    headers: dict[str, str] = {"Content-Type": "application/json"}
+    key = settings.grok_forward_key
+    if key:
+        headers["Authorization"] = f"Bearer {key}"
+    try:
+        async with httpx.AsyncClient(timeout=5.0) as client:
+            resp = await client.post(url, content=body, headers=headers)
+        if resp.status_code >= 400:
+            logger.warning(
+                "[whatsapp_grok_forward] Grok endpoint returned HTTP %s", resp.status_code
+            )
+    except Exception as exc:  # noqa: BLE001
+        logger.warning("[whatsapp_grok_forward] Forward request failed: %s", exc)
+
+
 async def _handle_media_message(from_phone: str, wamid: str, message: dict) -> None:
     """Background task: persist non-text inbound message with best-effort media storage."""
     async with AsyncSessionLocal() as db:
@@ -461,6 +488,10 @@ async def receive_webhook(
     if payload.get("object") != "whatsapp_business_account":
         return {"status": "ignored"}
 
+    # Track whether this payload touches the board test phone (suffix ...1520).
+    # If so we skip the Grok forward entirely for this delivery.
+    _grok_skip = False
+
     for entry in payload.get("entry", []):
         for change in entry.get("changes", []):
             if change.get("field") != "messages":
@@ -473,6 +504,9 @@ async def receive_webhook(
                 if not from_phone:
                     continue
 
+                if normalize_phone(from_phone).endswith("1520"):
+                    _grok_skip = True
+
                 if msg_type == "reaction":
                     # Reactions carry no content relevant to triage; ignored explicitly.
                     continue
@@ -483,5 +517,8 @@ async def receive_webhook(
                         background_tasks.add_task(_handle_inbound_message, from_phone, text, wamid)
                 else:
                     background_tasks.add_task(_handle_media_message, from_phone, wamid, message)
+
+    if not _grok_skip:
+        background_tasks.add_task(_forward_to_grok, body)
 
     return {"status": "ok"}

@@ -278,6 +278,158 @@ def test_t_fallback_to_english_on_unknown_lang() -> None:
     assert "Test" in msg
 
 
+# ---------------------------------------------------------------------------
+# _forward_to_grok (EUR-4036)
+# ---------------------------------------------------------------------------
+
+
+@pytest.mark.asyncio
+async def test_forward_to_grok_disabled_when_no_url() -> None:
+    """No GROK_FORWARD_URL → returns immediately without making any HTTP call."""
+    from app.routers.webhooks import _forward_to_grok
+
+    with patch("app.routers.webhooks.settings") as mock_settings:
+        mock_settings.grok_forward_url = ""
+        mock_settings.grok_forward_key = ""
+        with patch("httpx.AsyncClient") as mock_client:
+            await _forward_to_grok(b'{"test": true}')
+            mock_client.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_forward_to_grok_posts_with_bearer_key() -> None:
+    """GROK_FORWARD_URL + GROK_FORWARD_KEY → POST with Authorization: Bearer header."""
+    from app.routers.webhooks import _forward_to_grok
+
+    mock_response = MagicMock()
+    mock_response.status_code = 200
+    mock_post = AsyncMock(return_value=mock_response)
+
+    with patch("app.routers.webhooks.settings") as mock_settings:
+        mock_settings.grok_forward_url = "https://grok.example.com/webhook"
+        mock_settings.grok_forward_key = "secret-key"
+        with patch("httpx.AsyncClient") as mock_client_cls:
+            mock_client = AsyncMock()
+            mock_client.post = mock_post
+            mock_client_cls.return_value.__aenter__ = AsyncMock(return_value=mock_client)
+            mock_client_cls.return_value.__aexit__ = AsyncMock(return_value=False)
+
+            body = b'{"object": "whatsapp_business_account"}'
+            await _forward_to_grok(body)
+
+    mock_post.assert_called_once()
+    call_kwargs = mock_post.call_args
+    assert call_kwargs[0][0] == "https://grok.example.com/webhook"
+    assert call_kwargs[1]["content"] == body
+    assert call_kwargs[1]["headers"]["Authorization"] == "Bearer secret-key"
+
+
+@pytest.mark.asyncio
+async def test_forward_to_grok_logs_warning_on_5xx() -> None:
+    """5xx from Grok endpoint → WARNING logged, no exception raised."""
+    from app.routers.webhooks import _forward_to_grok
+
+    mock_response = MagicMock()
+    mock_response.status_code = 503
+
+    with patch("app.routers.webhooks.settings") as mock_settings:
+        mock_settings.grok_forward_url = "https://grok.example.com/webhook"
+        mock_settings.grok_forward_key = ""
+        with patch("httpx.AsyncClient") as mock_client_cls:
+            mock_client = AsyncMock()
+            mock_client.post = AsyncMock(return_value=mock_response)
+            mock_client_cls.return_value.__aenter__ = AsyncMock(return_value=mock_client)
+            mock_client_cls.return_value.__aexit__ = AsyncMock(return_value=False)
+            with patch("app.routers.webhooks.logger") as mock_logger:
+                await _forward_to_grok(b"{}")
+                mock_logger.warning.assert_called_once()
+                assert "503" in str(mock_logger.warning.call_args)
+
+
+@pytest.mark.asyncio
+async def test_forward_to_grok_logs_warning_on_network_error() -> None:
+    """Network error from Grok endpoint → WARNING logged, no exception raised."""
+    import httpx
+
+    from app.routers.webhooks import _forward_to_grok
+
+    with patch("app.routers.webhooks.settings") as mock_settings:
+        mock_settings.grok_forward_url = "https://grok.example.com/webhook"
+        mock_settings.grok_forward_key = ""
+        with patch("httpx.AsyncClient") as mock_client_cls:
+            mock_client = AsyncMock()
+            mock_client.post = AsyncMock(side_effect=httpx.ConnectError("unreachable"))
+            mock_client_cls.return_value.__aenter__ = AsyncMock(return_value=mock_client)
+            mock_client_cls.return_value.__aexit__ = AsyncMock(return_value=False)
+            with patch("app.routers.webhooks.logger") as mock_logger:
+                await _forward_to_grok(b"{}")
+                mock_logger.warning.assert_called_once()
+
+
+@pytest.mark.asyncio
+async def test_receive_webhook_skips_grok_for_1520_phone() -> None:
+    """Messages from the board test phone (...1520) must NOT be forwarded to Grok."""
+    payload_dict = _make_meta_payload("481001521520", "test")
+    payload = json.dumps(payload_dict).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
+        patch("app.routers.webhooks._forward_to_grok", new_callable=AsyncMock) as mock_fwd,
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        mock_settings.grok_forward_url = "https://grok.example.com/webhook"
+        mock_settings.grok_forward_key = "key"
+
+        async with AsyncClient(
+            transport=ASGITransport(app=app), base_url="http://test"
+        ) as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "x-hub-signature-256": sig,
+                },
+            )
+
+    assert resp.status_code == 200
+    mock_fwd.assert_not_called()
+
+
+@pytest.mark.asyncio
+async def test_receive_webhook_forwards_normal_phone_to_grok() -> None:
+    """Messages from a regular phone should enqueue a Grok forward task."""
+    payload_dict = _make_meta_payload("48123456789", "hello")
+    payload = json.dumps(payload_dict).encode()
+    sig = _sign(payload)
+
+    with (
+        patch("app.routers.webhooks.settings") as mock_settings,
+        patch("app.routers.webhooks._handle_inbound_message", new_callable=AsyncMock),
+        patch("app.routers.webhooks._forward_to_grok", new_callable=AsyncMock) as mock_fwd,
+    ):
+        mock_settings.whatsapp_app_secret = APP_SECRET
+        mock_settings.grok_forward_url = "https://grok.example.com/webhook"
+        mock_settings.grok_forward_key = "key"
+
+        async with AsyncClient(
+            transport=ASGITransport(app=app), base_url="http://test"
+        ) as client:
+            resp = await client.post(
+                "/api/webhooks/whatsapp",
+                content=payload,
+                headers={
+                    "Content-Type": "application/json",
+                    "x-hub-signature-256": sig,
+                },
+            )
+
+    assert resp.status_code == 200
+    mock_fwd.assert_called_once()
+
+
 def test_t_missing_key_returns_key() -> None:
     """Missing keys return the key itself as fallback."""
     result = _t("en", "nonexistent_key_xyz")
